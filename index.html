@@ -50,7 +50,7 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, useMemo } = React;
+        const { useState, useEffect, useMemo, useCallback } = React;
 
         // Simple Lucide Icon Components for standalone usage
         const IconWrapper = ({ name, size = 24, className = "" }) => {
@@ -74,83 +74,137 @@
 
 
         // ==========================================
-        // 1. DATA EMBEDDING (Replicating your JSONs)
+        // 1. DYNAMIC DATA LOADER
         // ==========================================
 
+        // Empty shell — populated at runtime by fetching JSON files below
         const GAME_DATA = {
-            base_stats: {
-                "str": { "id": "str", "displayName": "Strength", "baseValue": 10, "statType": "Raw" },
-                "dex": { "id": "dex", "displayName": "Dexterity", "baseValue": 10, "statType": "Raw" },
-                "con": { "id": "con", "displayName": "Constitution", "baseValue": 10, "statType": "Raw" },
-                "int": { "id": "int", "displayName": "Intelligence", "baseValue": 10, "statType": "Raw" },
-                "wis": { "id": "wis", "displayName": "Wisdom", "baseValue": 10, "statType": "Raw" },
-                "cha": { "id": "cha", "displayName": "Charisma", "baseValue": 10, "statType": "Raw" },
-                "size_index": { "id": "size_index", "displayName": "Size", "baseValue": 4, "statType": "Raw" },
-                "natural_armor": { "id": "natural_armor", "displayName": "Natural Armor", "baseValue": 0, "statType": "Raw" },
-                "speed_bonus": { "id": "speed_bonus", "displayName": "Speed Bonus", "baseValue": 0, "statType": "Raw" },
-                "diceMod": { "id": "diceMod", "displayName": "Dice Mod", "baseValue": 0, "statType": "Raw" },
-                "effectChance": { "id": "effectChance", "displayName": "Effect Chance", "baseValue": 0, "statType": "Raw" },
-                "cr": { "id": "cr", "displayName": "CR", "baseValue": 0, "statType": "Raw" }
-            },
-            derived_stats: {
-                "hp": { "id": "hp", "displayName": "Health", "calculationFormula": "(con * 2) * (size_index / 2)", "statType": "Potential" },
-                "stamina": { "id": "stamina", "displayName": "Stamina", "calculationFormula": "con + str", "statType": "Potential" },
-                "ac": { "id": "ac", "displayName": "Armor Class", "calculationFormula": "10 + natural_armor + ((dex - 10) / 2)", "statType": "Potential" }
-            },
+            base_stats: {},
+            derived_stats: {},
             parts: {
-                chassis: {
-                    "Wolf_Frame": { "tags": ["Mammal", "Canine", "Quadruped"], "mods": [{ "target": "con", "val": 1.1, "op": "multiply" }, { "target": "size_index", "val": 4, "op": "set" }], "skills": ["Sprint", "Pack Tactics"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
-                    "Bear_Frame": { "tags": ["Mammal", "Ursine", "Quadruped"], "mods": [{ "target": "con", "val": 1.5, "op": "multiply" }, { "target": "str", "val": 1.2, "op": "multiply" }, { "target": "size_index", "val": 6, "op": "set" }], "skills": ["Maul", "Durability"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs"] },
-                    "Cat_Frame": { "tags": ["Mammal", "Feline", "Quadruped"], "mods": [{ "target": "dex", "val": 1.2, "op": "multiply" }, { "target": "natural_armor", "val": 2, "op": "add" }], "skills": ["Stealth", "Pounce"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
-                    "Humanoid_Frame": { "tags": ["Mammal", "Primate", "Bipedal"], "mods": [{ "target": "int", "val": 1.2, "op": "multiply" }], "skills": ["Tool Use"], "slots": ["Head", "Arms", "Legs"] },
-                    "Reptile_Frame": { "tags": ["Reptile", "Saurian"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }], "skills": ["Cold Blooded"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] }
-                },
-                head: {
-                    "Wolf Head": { "tags": ["Canine"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }], "skills": ["Bite", "Bark_Roar"] },
-                    "Cat Head": { "tags": ["Feline"], "mods": [{ "target": "sense_bonus", "val": 3, "op": "add" }], "skills": ["Bite", "Groom"] },
-                    "Bear Head": { "tags": ["Ursine"], "mods": [], "skills": ["Bite", "Roar"] },
-                    "Lizard Head": { "tags": ["Reptile"], "mods": [], "skills": ["Bite", "Thermal Vision"] }
-                },
-                eyes: {
-                    "Slit Pupils": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "sense_bonus", "val": 1, "op": "add" }] },
-                    "Round Pupils": { "tags": ["Canine", "Primate"], "mods": [] },
-                    "Compound": { "tags": ["Insect"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] }
-                },
-                ears: {
-                    "Pointed Ears": { "tags": ["Canine", "Feline"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] },
-                    "Round Ears": { "tags": ["Ursine", "Primate"], "mods": [] },
-                    "No Ears": { "tags": ["Reptile"], "mods": [{ "target": "sense_bonus", "val": -1, "op": "add" }] }
-                },
-                limbs: {
-                    "Paws": { "tags": ["Canine", "Feline", "Ursine"], "mods": [], "skills": ["Claw", "Scratch"] },
-                    "Hands": { "tags": ["Primate"], "mods": [], "skills": ["Punch", "Grip"] },
-                    "Clawed Feet": { "tags": ["Reptile", "Avian"], "mods": [], "skills": ["Talon"] }
-                },
-                tail: {
-                    "Bushy Tail": { "tags": ["Canine"], "mods": [] },
-                    "Long Tail": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "dex", "val": 1, "op": "add" }], "skills": ["Tail Whip"] },
-                    "Stubby Tail": { "tags": ["Ursine"], "mods": [] }
-                },
-                integument: {
-                    "Fur": { "tags": ["Mammal"], "mods": [{ "target": "natural_armor", "val": 1, "op": "add" }] },
-                    "Scales": { "tags": ["Reptile"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }] },
-                    "Skin": { "tags": ["Primate"], "mods": [] }
-                }
+                chassis: {},
+                head: {},
+                eyes: {},
+                ears: {},
+                limbs: {},
+                tail: {},
+                integument: {}
             },
-            skills: {
-                "Bite": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
-                "Claw": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Maul": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "2d6" }] },
-                "Sprint": { "type": "Movement", "mods": [{ "target": "speed_bonus", "op": "add", "val": 10 }] },
-                "Scratch": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1" }] },
-                "Tail Whip": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Roar": { "type": "Effect", "mods": [{ "target": "status", "op": "apply", "val": "Frightened" }] }
-            },
-            prefixes: {
-                "Rabid": { "conditions": { "max_int": 3 }, "mods": [{ "target": "str", "val": 1.5, "op": "multiply" }, { "target": "con", "val": 0.8, "op": "multiply" }, { "target": "behavior", "val": "Aggressive", "op": "set" }] },
-                "Ancient": { "conditions": { "min_age": 100 }, "mods": [{ "target": "size_index", "val": 1.5, "op": "multiply" }, { "target": "wis", "val": 2, "op": "multiply" }] }
-            }
+            skills: {},
+            prefixes: {}
         };
+
+        // All 42 JSON files in GameData/
+        const JSON_FILE_PATHS = [
+            'GameData/Definitions/base_stats.json',
+            'GameData/Definitions/derived_stats.json',
+            'GameData/Definitions/operations.json',
+            'GameData/Definitions/types_and_ranges/damage_types.json',
+            'GameData/Definitions/types_and_ranges/hearing_types.json',
+            'GameData/Definitions/types_and_ranges/scent_ranges.json',
+            'GameData/Definitions/types_and_ranges/skill_types.json',
+            'GameData/Definitions/types_and_ranges/traversal_types.json',
+            'GameData/Definitions/types_and_ranges/vision_types.json',
+            'GameData/Definitions/validation_rules.json',
+            'GameData/Entities/Appendages/arms.json',
+            'GameData/Entities/Appendages/fins.json',
+            'GameData/Entities/Appendages/legs.json',
+            'GameData/Entities/Appendages/tails.json',
+            'GameData/Entities/Appendages/tentacles.json',
+            'GameData/Entities/Appendages/wings.json',
+            'GameData/Entities/Cephalon/cranium.json',
+            'GameData/Entities/Cephalon/ears.json',
+            'GameData/Entities/Cephalon/eyes.json',
+            'GameData/Entities/Cephalon/maw.json',
+            'GameData/Entities/Cephalon/nose.json',
+            'GameData/Entities/Core/appearance/patterns.json',
+            'GameData/Entities/Core/appearance/pigmentation.json',
+            'GameData/Entities/Core/chassis.json',
+            'GameData/Entities/Core/integument.json',
+            'GameData/Entities/Flora/canopy.json',
+            'GameData/Entities/Flora/roots.json',
+            'GameData/Entities/Geological/composition.json',
+            'GameData/Entities/Geological/formation.json',
+            'GameData/Mechanics/anatomy_drops.json',
+            'GameData/Mechanics/biological_upgrades.json',
+            'GameData/Mechanics/growth_stages/size_indices.json',
+            'GameData/Mechanics/growth_stages/stages.json',
+            'GameData/Mechanics/harvest_types.json',
+            'GameData/Mechanics/loot_quality.json',
+            'GameData/Mechanics/status_effects.json',
+            'GameData/World/biomes.json',
+            'GameData/World/spawning_rules/group_scaling.json',
+            'GameData/World/spawning_rules/size_limits.json',
+            'GameData/consumable_categories.json',
+            'GameData/prefixes.json',
+            'GameData/skills.json'
+        ];
+
+        // Determines which GAME_DATA bucket a file path belongs to.
+        // Returns an object { target, subKey? } or null to skip.
+        function resolveTarget(path) {
+            if (path.includes('Definitions/base_stats')) return { target: 'base_stats' };
+            if (path.includes('Definitions/derived_stats')) return { target: 'derived_stats' };
+            if (path.includes('Entities/Core/chassis')) return { target: 'parts', subKey: 'chassis' };
+            if (path.includes('Entities/Core/integument')) return { target: 'parts', subKey: 'integument' };
+            // Cephalon — cranium & maw are head variants
+            if (path.includes('Cephalon/cranium') || path.includes('Cephalon/maw')) return { target: 'parts', subKey: 'head' };
+            if (path.includes('Cephalon/eyes')) return { target: 'parts', subKey: 'eyes' };
+            if (path.includes('Cephalon/ears')) return { target: 'parts', subKey: 'ears' };
+            // All appendage files (arms, legs, fins, wings, tentacles) → limbs
+            if (path.includes('Entities/Appendages/arms') ||
+                path.includes('Entities/Appendages/legs') ||
+                path.includes('Entities/Appendages/fins') ||
+                path.includes('Entities/Appendages/wings') ||
+                path.includes('Entities/Appendages/tentacles')) return { target: 'parts', subKey: 'limbs' };
+            if (path.includes('Entities/Appendages/tails')) return { target: 'parts', subKey: 'tail' };
+            if (path.endsWith('skills.json')) return { target: 'skills' };
+            if (path.endsWith('prefixes.json')) return { target: 'prefixes' };
+            // All other files are loaded but not merged into the main shell
+            return null;
+        }
+
+        // Fetches all JSON files in parallel and populates GAME_DATA.
+        async function initGameData() {
+            const results = await Promise.allSettled(
+                JSON_FILE_PATHS.map(path =>
+                    fetch(path)
+                        .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}: ${path}`); return r.json(); })
+                        .then(data => ({ path, data }))
+                )
+            );
+
+            results.forEach(result => {
+                if (result.status === 'rejected') {
+                    console.warn('[GameData Loader] Failed to load:', result.reason);
+                    return;
+                }
+                const { path, data } = result.value;
+                const mapping = resolveTarget(path);
+                if (!mapping) return; // not mapped to GAME_DATA shell — skip
+
+                if (mapping.subKey) {
+                    // e.g. GAME_DATA.parts.chassis = { ...GAME_DATA.parts.chassis, ...data }
+                    Object.assign(GAME_DATA[mapping.target][mapping.subKey], data);
+                } else {
+                    Object.assign(GAME_DATA[mapping.target], data);
+                }
+            });
+
+            console.log('[GameData Loader] Loaded successfully.', {
+                base_stats: Object.keys(GAME_DATA.base_stats).length,
+                derived_stats: Object.keys(GAME_DATA.derived_stats).length,
+                chassis: Object.keys(GAME_DATA.parts.chassis).length,
+                head: Object.keys(GAME_DATA.parts.head).length,
+                eyes: Object.keys(GAME_DATA.parts.eyes).length,
+                ears: Object.keys(GAME_DATA.parts.ears).length,
+                limbs: Object.keys(GAME_DATA.parts.limbs).length,
+                tail: Object.keys(GAME_DATA.parts.tail).length,
+                integument: Object.keys(GAME_DATA.parts.integument).length,
+                skills: Object.keys(GAME_DATA.skills).length,
+                prefixes: Object.keys(GAME_DATA.prefixes).length,
+            });
+        }
 
         // ==========================================
         // 2. JS ENGINE LOGIC (Porting C# Classes)
@@ -187,9 +241,10 @@
         }
 
         class PotentialStat extends Stat {
+            // definition may come from old schema ({ calculationFormula }) or new ({ formula })
             constructor(definition, formula, allStats) {
                 super(definition);
-                this.formula = formula;
+                this.formula = formula || definition.formula || definition.calculationFormula || '';
                 this.allStats = allStats;
                 this.currentValue = 0;
                 this.maxValue = 0;
@@ -235,11 +290,21 @@
             }
 
             initStats() {
+                // base_stats: entries have an `id` property
                 Object.values(GAME_DATA.base_stats).forEach(def => {
                     this.stats[def.id] = new Stat(def);
                 });
-                Object.values(GAME_DATA.derived_stats).forEach(def => {
-                    this.stats[def.id] = new PotentialStat(def, def.calculationFormula, this.stats);
+                // derived_stats: key IS the stat id; entries use `formula` and `description`
+                Object.entries(GAME_DATA.derived_stats).forEach(([id, def]) => {
+                    const fullDef = {
+                        id,
+                        displayName: def.displayName || def.description || id,
+                        statType: 'Potential',
+                        baseValue: 0,
+                        ...def
+                    };
+                    const formula = def.formula || def.calculationFormula || '';
+                    this.stats[id] = new PotentialStat(fullDef, formula, this.stats);
                 });
                 this.updateDerived();
             }
@@ -349,10 +414,10 @@
                                 <div className="text-right">
                                     <div className="text-4xl font-bold text-red-500 flex items-center justify-end gap-2">
                                         <Activity size={ 24 } className="text-red-700" />
-                                        { Math.floor(entity.stats.hp.currentValue) }
+                                        { Math.floor((entity.stats.hp_max || entity.stats.hp || { currentValue: 0 }).currentValue) }
                                         <span className="text-base text-gray-500">HP</span>
                                     </div>
-                                    <div className="text-sm text-gray-400">Max: { Math.floor(entity.stats.hp.maxValue) }</div>
+                                    <div className="text-sm text-gray-400">Max: { Math.floor((entity.stats.hp_max || entity.stats.hp || { maxValue: 0 }).maxValue) }</div>
                                 </div>
                             </div>
 
@@ -376,7 +441,7 @@
                                         <h3 className="text-lg font-bold text-green-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
                                             <Shield size={ 18 } /> Derived Status
                                         </h3>
-                                        { Object.values(entity.stats).filter(s => s.def.statType === "Potential" && s.def.id !== "hp").map(s => (
+                                        { Object.values(entity.stats).filter(s => s instanceof PotentialStat && s.def.id !== "hp").map(s => (
                                             <div key={ s.def.id } className="flex justify-between p-1">
                                                 <span className="text-gray-300">{ s.def.displayName }</span>
                                                 <span className="font-mono text-yellow-400">{ Math.floor(s.maxValue) }</span>
@@ -517,11 +582,15 @@
             const setup = () => {
                 const gen = (name) => {
                     const e = new Entity(name);
-                    const type = name.includes("Wolf") ? "Wolf_Frame" : "Bear_Frame";
+                    // Pick a chassis from live data — prefer a wolf/quadruped vs bear/robust variant
+                    const chassisKeys = Object.keys(GAME_DATA.parts.chassis);
+                    const type = name.includes("Wolf")
+                        ? (chassisKeys.find(k => k.toLowerCase().includes('cursorial') || k.toLowerCase().includes('wolf')) || chassisKeys[0])
+                        : (chassisKeys.find(k => k.toLowerCase().includes('robust') || k.toLowerCase().includes('bear')) || chassisKeys[1] || chassisKeys[0]);
                     const chassis = GAME_DATA.parts.chassis[type];
-                    e.traits.push(type, ...chassis.tags);
+                    e.traits.push(type, ...(chassis.tags || []));
                     if (chassis.skills) e.skills.push(...chassis.skills);
-                    chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
+                    if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
 
                     e.skills.push("Bite");
 
@@ -535,12 +604,15 @@
             };
 
             const fightTurn = () => {
-                if (!ent1 || !ent2 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0) return;
+                const hp1 = ent1 && (ent1.stats.hp_max || ent1.stats.hp), hp2 = ent2 && (ent2.stats.hp_max || ent2.stats.hp);
+                if (!ent1 || !ent2 || hp1.currentValue <= 0 || hp2.currentValue <= 0) return;
 
                 const newLogs = [...logs];
 
                 const performAction = (attacker, defender) => {
-                    if (attacker.stats.hp.currentValue <= 0) return;
+                    const atkHp = attacker.stats.hp_max || attacker.stats.hp;
+                    const defHp = defender.stats.hp_max || defender.stats.hp;
+                    if (atkHp.currentValue <= 0) return;
 
                     const skillName = attacker.skills[Math.floor(Math.random() * attacker.skills.length)];
                     const skillData = GAME_DATA.skills[skillName];
@@ -553,13 +625,13 @@
                     newLogs.push(`${attacker.name} uses ${skillName}!`);
 
                     skillData.mods.forEach(mod => {
-                        if (mod.target === "hp" && mod.op === "subtract") {
+                        if ((mod.target === "hp" || mod.target === "hp_max") && mod.op === "subtract") {
                             const dmg = attacker.roll(mod.roll);
                             const strMod = Math.floor((attacker.stats.str.getCurrentValue() - 10) / 2);
                             const totalDmg = Math.max(1, dmg + strMod);
 
-                            defender.stats.hp.currentValue -= totalDmg;
-                            newLogs.push(`> Hits ${defender.name} for ${totalDmg} damage! (${defender.stats.hp.currentValue.toFixed(0)} HP left)`);
+                            defHp.currentValue -= totalDmg;
+                            newLogs.push(`> Hits ${defender.name} for ${totalDmg} damage! (${defHp.currentValue.toFixed(0)} HP left)`);
                         }
                         if (mod.target === "status") {
                             newLogs.push(`> Applies ${mod.val} to ${defender.name}!`);
@@ -575,8 +647,8 @@
                     performAction(ent1, ent2);
                 }
 
-                if (ent1.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent1.name} has been defeated!`);
-                if (ent2.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent2.name} has been defeated!`);
+                if (hp1.currentValue <= 0) newLogs.push(`💀 ${ent1.name} has been defeated!`);
+                if (hp2.currentValue <= 0) newLogs.push(`💀 ${ent2.name} has been defeated!`);
 
                 setLogs(newLogs);
                 setEnt1(Object.assign(Object.create(Object.getPrototypeOf(ent1)), ent1));
@@ -591,7 +663,7 @@
                         </button>
                         <button
                             onClick={ fightTurn }
-                            disabled={ !ent1 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0 }
+                            disabled={ !ent1 || (ent1.stats.hp_max || ent1.stats.hp || {}).currentValue <= 0 || (ent2.stats.hp_max || ent2.stats.hp || {}).currentValue <= 0 }
                             className="bg-red-600 hover:bg-red-500 disabled:opacity-50 disabled:cursor-not-allowed text-white px-8 py-2 rounded-lg font-bold shadow-md flex items-center gap-2"
                         >
                             <Swords size={ 18 } /> Next Turn
@@ -603,12 +675,15 @@
                             { ent1 ? (
                                 <>
                                     <h3 className="text-xl font-bold text-blue-400 flex items-center gap-2"><User size={ 20 } /> { ent1.name }</h3>
-                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                        <div className="bg-red-600 h-full transition-all duration-300" style={ { width: `${(ent1.stats.hp.currentValue / ent1.stats.hp.maxValue) * 100}%` } }></div>
-                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md">
-                                            { ent1.stats.hp.currentValue.toFixed(0) } / { ent1.stats.hp.maxValue.toFixed(0) }
-                                        </div>
-                                    </div>
+                                    { (() => {
+                                        const h = ent1.stats.hp_max || ent1.stats.hp || { currentValue: 0, maxValue: 1 }; return (
+                                            <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
+                                                <div className="bg-red-600 h-full transition-all duration-300" style={ { width: `${(h.currentValue / (h.maxValue || 1)) * 100}%` } }></div>
+                                                <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md">
+                                                    { h.currentValue.toFixed(0) } / { h.maxValue.toFixed(0) }
+                                                </div>
+                                            </div>);
+                                    })() }
                                     <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
                                         <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent1.stats.str.getCurrentValue()) }</span></div>
                                         <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent1.stats.dex.getCurrentValue()) }</span></div>
@@ -635,12 +710,15 @@
                             { ent2 ? (
                                 <>
                                     <h3 className="text-xl font-bold text-red-400 flex items-center justify-end gap-2">{ ent2.name } <User size={ 20 } /></h3>
-                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                        <div className="bg-red-600 h-full transition-all duration-300 absolute right-0" style={ { width: `${(ent2.stats.hp.currentValue / ent2.stats.hp.maxValue) * 100}%` } }></div>
-                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md z-10">
-                                            { ent2.stats.hp.currentValue.toFixed(0) } / { ent2.stats.hp.maxValue.toFixed(0) }
-                                        </div>
-                                    </div>
+                                    { (() => {
+                                        const h = ent2.stats.hp_max || ent2.stats.hp || { currentValue: 0, maxValue: 1 }; return (
+                                            <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
+                                                <div className="bg-red-600 h-full transition-all duration-300 absolute right-0" style={ { width: `${(h.currentValue / (h.maxValue || 1)) * 100}%` } }></div>
+                                                <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md z-10">
+                                                    { h.currentValue.toFixed(0) } / { h.maxValue.toFixed(0) }
+                                                </div>
+                                            </div>);
+                                    })() }
                                     <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
                                         <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent2.stats.str.getCurrentValue()) }</span></div>
                                         <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent2.stats.dex.getCurrentValue()) }</span></div>
@@ -686,8 +764,54 @@
             );
         };
 
+        // Root wrapper that shows a loading screen until all JSON data is ready.
+        const RootLoader = () => {
+            const [isLoading, setIsLoading] = useState(true);
+            const [loadError, setLoadError] = useState(null);
+
+            useEffect(() => {
+                initGameData()
+                    .then(() => setIsLoading(false))
+                    .catch(err => {
+                        console.error('[GameData Loader] Fatal error:', err);
+                        setLoadError(err.message);
+                        setIsLoading(false);
+                    });
+            }, []);
+
+            if (isLoading) {
+                return (
+                    <div style={ {
+                        display: 'flex', flexDirection: 'column', alignItems: 'center',
+                        justifyContent: 'center', height: '100vh',
+                        background: '#0a0a0a', color: '#e5e5e5', gap: '16px'
+                    } }>
+                        <div style={ { fontSize: '2rem', fontWeight: 'bold', letterSpacing: '0.15em', color: '#3b82f6' } }>⚡ MADCORE</div>
+                        <div style={ { fontSize: '1rem', color: '#6b7280', animation: 'pulse 1.5s infinite' } }>Loading Data Engine...</div>
+                        <style>{ `@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }` }</style>
+                    </div>
+                );
+            }
+
+            if (loadError) {
+                return (
+                    <div style={ {
+                        display: 'flex', flexDirection: 'column', alignItems: 'center',
+                        justifyContent: 'center', height: '100vh',
+                        background: '#0a0a0a', color: '#ef4444', gap: '12px'
+                    } }>
+                        <div style={ { fontSize: '1.5rem', fontWeight: 'bold' } }>⚠ Data Load Failed</div>
+                        <div style={ { fontSize: '0.875rem', color: '#9ca3af', maxWidth: '500px', textAlign: 'center' } }>{ loadError }</div>
+                        <div style={ { fontSize: '0.75rem', color: '#6b7280' } }>Make sure the page is served via a local web server (e.g. python -m http.server 8080)</div>
+                    </div>
+                );
+            }
+
+            return <App />;
+        };
+
         const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(<App />);
+        root.render(<RootLoader />);
     </script>
 </body>
 

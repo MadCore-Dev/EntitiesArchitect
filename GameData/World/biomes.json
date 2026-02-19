@@ -53,14 +53,10 @@
             {
                 "id": "Crushing_Pressure",
                 "chance_per_tick": 0.05
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "vision_range",
-                "op": "multiply",
-                "expr": "0.5",
-                "condition": "Underwater"
+                "id": "Underwater_Blur",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -121,14 +117,10 @@
             {
                 "id": "Frostbite",
                 "chance_per_tick": 0.10
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "sense_bonus",
-                "op": "subtract",
-                "expr": "1",
-                "condition": "Snowblindness"
+                "id": "Snowblindness",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -178,7 +170,6 @@
             ]
         },
         "payloads": [],
-        "sensory_mods": [],
         "resource_tags": [
             "Lichen",
             "Hardy_Shrub",
@@ -226,13 +217,10 @@
                 }
             ]
         },
-        "payloads": [],
-        "sensory_mods": [
+        "payloads": [
             {
-                "target": "vision_range",
-                "op": "subtract",
-                "expr": "20",
-                "condition": "Dense Trees"
+                "id": "Dense_Canopy_Obscurity",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -296,14 +284,10 @@
             {
                 "id": "Heatstroke",
                 "chance_per_tick": 0.10
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "sense_bonus",
-                "op": "subtract",
-                "expr": "1d4",
-                "condition": "Mirage"
+                "id": "Mirage",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -359,14 +343,10 @@
             {
                 "id": "Miasma_Poison",
                 "chance_per_tick": 0.08
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "scent_range",
-                "op": "multiply",
-                "expr": "0.5",
-                "condition": "Rotting Smell"
+                "id": "Putrid_Stench",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -427,14 +407,10 @@
             {
                 "id": "Hypoxia",
                 "chance_per_tick": 0.02
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "vision_range",
-                "op": "multiply",
-                "expr": "1.5",
-                "condition": "High Vantage"
+                "id": "High_Vantage_Aura",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -484,7 +460,6 @@
             ]
         },
         "payloads": [],
-        "sensory_mods": [],
         "resource_tags": [
             "Savanna_Grass",
             "Wheat",
@@ -537,20 +512,14 @@
             {
                 "id": "Jungle_Fever",
                 "chance_per_tick": 0.03
-            }
-        ],
-        "sensory_mods": [
-            {
-                "target": "vision_range",
-                "op": "multiply",
-                "expr": "0.3",
-                "condition": "Overgrowth"
             },
             {
-                "target": "hearing_range",
-                "op": "multiply",
-                "expr": "0.5",
-                "condition": "Ambient Noise"
+                "id": "Overgrowth_Obscurity",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Ambient_Noise",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -613,14 +582,10 @@
             {
                 "id": "Cave_In",
                 "chance_per_tick": 0.01
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "vision_range",
-                "op": "set",
-                "expr": "0",
-                "condition": "Pitch Black"
+                "id": "Pitch_Black_Blindness",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -685,7 +650,6 @@
                 "chance_per_tick": 0.05
             }
         ],
-        "sensory_mods": [],
         "resource_tags": [
             "Bone_Dust",
             "Grave_Dirt",
@@ -744,14 +708,10 @@
             {
                 "id": "Mana_Burn",
                 "chance_per_tick": 0.04
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "sense_bonus",
-                "op": "subtract",
-                "expr": "2",
-                "condition": "Refractive Glare"
+                "id": "Refractive_Glare",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [
@@ -815,14 +775,10 @@
             {
                 "id": "Suffocation",
                 "chance_per_tick": 0.08
-            }
-        ],
-        "sensory_mods": [
+            },
             {
-                "target": "vision_range",
-                "op": "multiply",
-                "expr": "0.4",
-                "condition": "Thick Smoke"
+                "id": "Smoke_Blindness",
+                "chance_per_tick": 1.0
             }
         ],
         "resource_tags": [

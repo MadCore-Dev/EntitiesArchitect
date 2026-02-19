@@ -1,30 +1,79 @@
 {
-    "Sensitive": {
-        "description": "Can detect faint sounds.",
-        "range": 120
+    "Standard_Hearing": {
+        "description": "Baseline auditory perception within normal atmospheric frequencies.",
+        "mods": [],
+        "payload_immunities": [],
+        "grants_skills": []
     },
-    "Sharp": {
-        "description": "Clear auditory perception.",
-        "range": 90
+    "Acute_Hearing": {
+        "description": "Highly sensitive auditory canals for detecting faint sounds (e.g., Canines, Felines).",
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "multiply",
+                "expr": "2"
+            }
+        ],
+        "payload_immunities": [],
+        "grants_skills": []
     },
-    "Standard": {
-        "description": "Normal auditory range.",
-        "range": 60
-    },
-    "Directional": {
-        "description": "Pinpoint source of sound.",
-        "range": 150
+    "Directional_Pinna": {
+        "description": "Asymmetrical or mobile ears that can perfectly pinpoint sound origin (e.g., Owls, Foxes).",
+        "mods": [],
+        "payload_immunities": [
+            "Auditory_Illusions",
+            "Ventriloquism"
+        ],
+        "grants_skills": []
     },
     "Echolocation": {
-        "description": "Perceive surroundings via sound reflection.",
-        "range": 60
+        "description": "Active emission of sound waves to map surroundings (e.g., Bats, Dolphins).",
+        "mods": [],
+        "payload_immunities": [
+            "Pitch_Black_Blindness",
+            "Smoke_Blindness"
+        ],
+        "grants_skills": [
+            "Echolocation Blast"
+        ]
     },
-    "Vibration": {
-        "description": "Detect subtle ground tremors.",
-        "range": 30
+    "Tremorsense": {
+        "description": "Detection of minute vibrations through solid surfaces (e.g., Spiders, Burrowing Rodents, Worms).",
+        "mods": [],
+        "payload_immunities": [
+            "Pitch_Black_Blindness",
+            "Optical_Invisibility"
+        ],
+        "grants_skills": [
+            "Tremor Sense"
+        ]
     },
-    "Chemical_Vibration": {
-        "description": "Combination of scent and vibration sensing.",
-        "range": 10
+    "Infrasonic_Hearing": {
+        "description": "Detection of extremely low-frequency sounds over vast distances (e.g., Elephants, Whales).",
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "multiply",
+                "expr": "5"
+            }
+        ],
+        "payload_immunities": [
+            "Storm_Deafness"
+        ],
+        "grants_skills": []
+    },
+    "Ultrasonic_Hearing": {
+        "description": "Detection of extremely high-frequency sounds.",
+        "mods": [],
+        "payload_immunities": [],
+        "grants_skills": []
+    },
+    "Aquatic_Acoustics": {
+        "description": "Tuned to the rapid transmission of sound waves through liquid (e.g., Marine Life).",
+        "mods": [],
+        "payload_immunities": [
+            "Underwater_Muffling"
+        ],
+        "grants_skills": []
     }
 }

@@ -18,12 +18,35 @@ This document defines the purpose, structure, and engine-level implementation de
 
 ---
 
+> **📊 SYSTEM REGISTRY TRACKER (Auto-Extracted)**
+> Use this list to verify that all referenced data points exist in `skills.json`, `status_effects.json`, and the Core Engine Stat definitions.
+>
+> ### 1. Skills Registry (Granted & Mutated)
+> * **Movement/Agility:** Acrobatics, Burrow, Climb, Dart, Leap, Sprint, Squeeze, Sure-Footed, Swim, Wall Climb
+> * **Combat/Tactics:** Ambush, Blood Frenzy, Constrict, Pack Tactics, Reaction Strike, Stealth, Venomous Bite
+> * **Senses/Tracking:** Directional Tracking, Echolocation, Echolocation Blast, Heat Vision, Keen Sight, Tracking, Tremor Sense
+> * **Biological Passives:** Amphibious, Camouflage, Cold Blooded, Disease Immunity, Endurance, Fire Resistance, Forage, Gills, Hibernate, Hive Mind, Incorporeal, Magic Resistance, Necrotic Resistance, Obsidian Skin, Poison Resistance, Psionic, Reflective Carapace, Scavenger, Thermal Vision, Thick Fur, Undead Nature, Water Retention
+>
+> ### 2. Payloads & Immunities (Hazards, Statuses, Traps)
+> * **Environmental Hazards:** Arcane_Lightning, Ash_Inhalation, Cave_In, Choking_Dust, Crushing_Pressure, Current_Drag, Drowning, Extreme_Burn, Fall_Damage, Freezing_Wind, Frostbite, Ground_Tremors, Heatstroke, Hypoxia, Jungle_Fever, Lava_Burn, Lava_Fissure, Mana_Burn, Miasma_Poison, Minor_Laceration, Overheating, Physical_Traps, Plummet, Soul_Drain, Suffocation, Surface_Hazards, Swept_Away, Trip_And_Fall
+> * **Sensory Impairments (Auras):** Ambient_Noise, Arcane_Interference, Ash_Blindness, Auditory_Illusions, Blizzard_Blindness, Blur_Distortion, Dazzle, Dense_Canopy_Obscurity, Dim_Light_Penalty, High_Vantage_Aura, Magical_Fog_Obscurity, Magical_Illusion, Mirage, Optical_Camouflage, Optical_Invisibility, Pitch_Black_Blindness, Putrid_Stench, Rain_Obscurity, Refractive_Glare, Sandstorm_Blind, Shapechanger_Deceit, Smoke_Blindness, Snowblindness, Stagnant_Air, Storm_Deafness, Underwater_Blur, Underwater_Muffling, Ventriloquism, Wind_Dispersal
+> * **Combat Statuses & Rules:** Charm, Confusion, Flanking_Advantage, Grappled, Opportunity_Attacks, Prone, Restrained, Web_Ensnare, Web_Vibration
+> 
+> ### 3. Mod Targets (Engine Stats Registry)
+> * **Core Stats:** `con`, `dex`, `int`, `str`, `wis`
+> * **Derived Combat:** `evasion`, `natural_armor`, `speed_bonus`
+> * **Senses:** `hearing_range`, `scent_range`, `sense_bonus`, `vision_range`
+> * **Resources:** `stamina`, `stamina_regen`, `water_retention`
+
+---
+
 ## 1. Biomes (`World/biomes.json`)
 
-**Purpose:** Defines the macro-ecosystems of the game world. Biomes act as environmental entities that can cast standard payloads (hazards), apply global passive modifiers (sensory impairments), determine terrain composition, and heavily mutate base creatures that spawn within them via weighted adaptation rules.
+**Purpose:** Defines the macro-ecosystems of the game world. Biomes act as environmental entities that can cast standard payloads (hazards and sensory auras), determine terrain composition, and heavily mutate base creatures that spawn within them via weighted adaptation rules.
 
 **Engine Implementation Notes:**
 * The engine should treat the current Biome as an invisible "Entity" in the combat/simulation loop, capable of holding and processing its `payloads` array on a tick interval.
+* Environmental auras (like reduced vision from thick smoke) are applied by defining a Payload with a `chance_per_tick: 1.0`, effectively acting as a constant, blockable status effect.
 * The `adaptation_rules` are evaluated only once during entity generation/spawning.
 
 **Schema Structure:**
@@ -37,9 +60,8 @@ This document defines the purpose, structure, and engine-level implementation de
 * `adaptation_rules` (object): Applied to base creatures generated in this biome.
   * `skills` (array of objects): `{ "id": "Skill_Name", "weight": int }`. Used in weighted random selection.
   * `mods` (array of objects): Standard engine modifiers using the `"expr"` logic. Includes an additional `"weight"` property.
-* `payloads` (array of objects): Replaces hardcoded hazards. The environment attempts to cast these payloads globally on a tick interval. 
+* `payloads` (array of objects): Environmental hazards and sensory auras. The environment attempts to cast these payloads globally on a tick interval. 
   * `{ "id": "Payload_Name", "chance_per_tick": float }`
-* `sensory_mods` (array of objects): Standard engine modifiers applied to all entities currently inside the biome. Optionally uses a `"condition"` string.
 * `resource_tags` (array of strings): Spawning tags for procedural generation (Flora/Geology).
 
 **Example Entry:**
@@ -48,7 +70,7 @@ This document defines the purpose, structure, and engine-level implementation de
   "id": 4,
   "name": "Arid Desert",
   "description": "Endless oceans of shifting sand that bake beneath a merciless sun.",
-  "terrain_flags": ["Sand", "Barren", "Flat"],
+  "terrain_flags": ["Sand", "Barren", "Flat", "Rock", "Dirt", "Uneven"],
   "climate": { "base_temp": "Hot", "night_temp": "Freezing" },
   "adaptation_rules": {
     "skills": [ { "id": "Burrow", "weight": 70 } ],
@@ -56,13 +78,12 @@ This document defines the purpose, structure, and engine-level implementation de
   },
   "payloads": [
     { "id": "Sandstorm_Blind", "chance_per_tick": 0.05 },
-    { "id": "Heatstroke", "chance_per_tick": 0.10 }
+    { "id": "Heatstroke", "chance_per_tick": 0.10 },
+    { "id": "Mirage", "chance_per_tick": 1.0 }
   ],
-  "sensory_mods": [
-    { "target": "sense_bonus", "op": "subtract", "expr": "1d4", "condition": "Mirage" }
-  ],
-  "resource_tags": ["Sandstone", "Cactus"]
+  "resource_tags": ["Sandstone", "Cactus", "Dry_Brush", "Glass"]
 }
+```
 
 ---
 
@@ -147,37 +168,147 @@ This document defines the purpose, structure, and engine-level implementation de
 
 ## 4. Weather Types (`World/weather_types.json`)
 
-**Purpose:** Defines the dynamic, shifting meteorological events that overlay on top of a Biome's base state. Weather can dramatically alter combat via sensory impairments and can actively mutate the physical map by adding temporary terrain properties.
+**Purpose:** Defines the dynamic, shifting meteorological events that overlay on top of a Biome's base state. Weather can dramatically alter combat via sensory impairments (cast as constant Payloads) and can actively mutate the physical map by adding temporary terrain properties.
 
 **Engine Implementation Notes:**
-
 * **Dynamic Map Mutation:** When weather changes, the engine must read `terrain_additions` and temporarily append those tags to exposed tiles in the chunk (e.g., "Raining" dynamically adds the "Mud" tag to Dirt tiles).
-* **Sensory Overrides:** The `sensory_mods` array acts as a global debuff to specific senses (like capping vision range during a Blizzard).
-* **Active Hazards:** The `payloads` array adds immediate, volatile hazards (like Lightning Strikes or Sweeping Currents) on top of the base temperature hazards.
+* **Sensory Overrides & Hazards:** The `payloads` array handles both immediate, volatile hazards (like Lightning Strikes) and persistent sensory debuffs (like Blizzard Blindness). Sensory debuffs should be configured with `"chance_per_tick": 1.0`.
 
 **Schema Structure:**
-
 * `description` (string): Flavor text for logs and UI.
 * `terrain_additions` (array of strings): Matches keys from `terrain_types.json`. Applied temporarily to the chunk's tiles while the weather is active.
-* `sensory_mods` (array of objects): Standard engine modifiers using the `"expr"` logic, specifically targeting sensory stats (vision_range, hearing_range, etc.).
-* `payloads` (array of objects): Standard environment hazard payloads.
-* `{ "id": "Payload_Name", "chance_per_tick": float }`
-
-
+* `payloads` (array of objects): Standard environment hazard payloads and sensory auras.
+  * `{ "id": "Payload_Name", "chance_per_tick": float }`
 
 **Example Entry:**
-
 ```json
 "Blizzard": {
   "description": "A blinding storm of snow and ice.",
   "terrain_additions": ["Ice", "Slippery"],
-  "sensory_mods": [
-    { "target": "vision_range", "op": "multiply", "expr": "0.2" },
-    { "target": "hearing_range", "op": "multiply", "expr": "0.4" }
-  ],
   "payloads": [
-    { "id": "Freezing_Wind", "chance_per_tick": 0.05 }
+    { "id": "Freezing_Wind", "chance_per_tick": 0.05 },
+    { "id": "Blizzard_Blindness", "chance_per_tick": 1.0 },
+    { "id": "Storm_Deafness", "chance_per_tick": 1.0 }
   ]
+}
+
+```
+
+---
+
+## 5. Traversal Types (`Definitions/types_and_ranges/traversal_types.json`)
+
+**Purpose:** Defines the physical or magical methods an entity uses to navigate the game world. This serves as a primary biological blueprint for how creatures interact with complex terrain and environmental physics.
+
+**Engine Implementation Notes:**
+* **Bitmask Architecture:** The engine parses these keys into a `uint64_t traversalFlags` bitmask. An entity can possess multiple flags simultaneously. A value of `0` strictly implies "Immobile." `Walk` should be mapped to the first bit (`1 << 0`).
+* **Terrain Interlocking:** When an entity enters a terrain tile with a `required_traversal`, the engine must do a bitwise `AND` check against the entity's flags.
+* **Physics Automation:** If an environmental payload (e.g., "Trip_And_Fall" from slippery ice) attempts to cast on the entity, the engine checks the `payload_immunities` array of their active traversal flags. If a match is found, the cast is aborted.
+
+**Schema Structure:**
+* `description` (string): Flavor text for logs and UI.
+* `mods` (array of objects): Standard engine modifiers using `"expr"`. Applies passively to the entity (e.g., increasing base speed or evasion).
+* `payload_immunities` (array of strings): A list of environmental hazard IDs or status payloads that this form of movement naturally bypasses.
+* `grants_skills` (array of strings): A list of passive or active Skill IDs automatically bestowed upon the entity (e.g., Brachiation granting Acrobatics).
+
+**Example Entry:**
+```json
+"Fly": {
+  "description": "True aerodynamic flight requiring forward momentum.",
+  "mods": [
+    { "target": "evasion", "op": "add", "expr": "2" }
+  ],
+  "payload_immunities": ["Trip_And_Fall", "Lava_Burn", "Ground_Tremors"],
+  "grants_skills": []
+}
+
+```
+
+---
+
+## 6. Vision Types (`Definitions/types_and_ranges/vision_types.json`)
+
+**Purpose:** Defines biological and magical ocular capabilities. It dictates how an entity parses light and perceives threats, countering specific visual impairments cast by weather or terrain.
+
+**Engine Implementation Notes:**
+
+* **Bitmask Architecture:** Parsed as `uint64_t visionFlags`. A value of `0` strictly implies "Blind" (unable to process visual data). `Standard_Vision` is mapped to the first bit (`1 << 0`).
+* **Hazard Mitigation:** Works identically to Traversal immunities. A blizzard casting "Blizzard_Blindness" will be nullified if the entity's vision flags (like `Thermal_Vision`) contain that immunity.
+
+**Schema Structure:**
+
+* `description` (string): Flavor text for logs and UI.
+* `mods` (array of objects): Standard engine modifiers using `"expr"`. Used to dynamically scale the entity's base `vision_range` stat.
+* `payload_immunities` (array of strings): Visual impairments and illusions ignored by this vision type.
+* `grants_skills` (array of strings): Skill IDs granted (e.g., Telescopic Vision granting "Keen Sight").
+
+**Example Entry:**
+
+```json
+"Thermal_Vision": {
+  "description": "Detection of infrared heat signatures.",
+  "mods": [],
+  "payload_immunities": ["Optical_Invisibility", "Smoke_Blindness", "Pitch_Black_Blindness", "Blizzard_Blindness"],
+  "grants_skills": ["Heat Vision"]
+}
+
+```
+
+---
+
+## 7. Hearing Types (`Definitions/types_and_ranges/hearing_types.json`)
+
+**Purpose:** Defines auditory perception capabilities. It determines how an entity interacts with sound waves, vibrations, and acoustic stealth mechanics.
+
+**Engine Implementation Notes:**
+
+* **Bitmask Architecture:** Parsed as `uint64_t hearingFlags`. A value of `0` strictly implies "Deaf". `Standard_Hearing` is mapped to the first bit (`1 << 0`).
+* **Range Multipliers:** Many of these types utilize the `mods` array to heavily multiply the base `hearing_range` stat of the entity.
+
+**Schema Structure:**
+
+* `description` (string): Flavor text for logs and UI.
+* `mods` (array of objects): Standard engine modifiers using `"expr"`. Used to dynamically scale the entity's base `hearing_range` stat.
+* `payload_immunities` (array of strings): Auditory impairments or illusions ignored by this hearing type.
+* `grants_skills` (array of strings): Skill IDs granted (e.g., Tremorsense granting "Tremor Sense").
+
+**Example Entry:**
+
+```json
+"Echolocation": {
+  "description": "Active emission of sound waves to map surroundings.",
+  "mods": [],
+  "payload_immunities": ["Pitch_Black_Blindness", "Smoke_Blindness"],
+  "grants_skills": ["Echolocation Blast"]
+}
+
+```
+
+---
+
+## 8. Scent Types (`Definitions/types_and_ranges/scent_types.json`)
+
+**Purpose:** Defines olfactory perception and specialized chemoreception. Crucial for tracking mechanics, detecting invisible entities, and interacting with pheromone systems.
+
+**Engine Implementation Notes:**
+
+* **Bitmask Architecture:** Parsed as `uint64_t scentFlags`. A value of `0` strictly implies "Anosmia" (Scentless/Unable to smell). `Standard_Scent` is mapped to the first bit (`1 << 0`).
+
+**Schema Structure:**
+
+* `description` (string): Flavor text for logs and UI.
+* `mods` (array of objects): Standard engine modifiers using `"expr"`. Used to dynamically scale the entity's base `scent_range` stat.
+* `payload_immunities` (array of strings): Odor-based impairments ignored by this sense (e.g., resisting Miasma or Putrid Stench).
+* `grants_skills` (array of strings): Skill IDs granted (e.g., Acute Scent granting "Tracking").
+
+**Example Entry:**
+
+```json
+"Jacobson_Organ": {
+  "description": "Vomeronasal organ that 'tastes' heavy moisture-borne chemical particles in the air.",
+  "mods": [],
+  "payload_immunities": ["Wind_Dispersal"],
+  "grants_skills": ["Directional Tracking"]
 }
 
 ```

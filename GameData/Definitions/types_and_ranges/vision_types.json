@@ -1,34 +1,128 @@
 {
-    "Normal": {
-        "description": "Standard visual spectrum.",
-        "range": -1
+    "Standard_Vision": {
+        "description": "Baseline visual spectrum relying on adequate ambient light.",
+        "mods": [],
+        "payload_immunities": [],
+        "grants_skills": []
     },
-    "Wide_Angle": {
-        "description": "Expanded field of view, harder to flank.",
-        "range": -1
+    "Low_Light_Vision": {
+        "description": "Tapetum lucidum adaptation allowing clear sight in dim conditions (e.g., Felines, Canines).",
+        "mods": [],
+        "payload_immunities": [
+            "Dim_Light_Penalty"
+        ],
+        "grants_skills": []
     },
-    "Night_Vision": {
-        "description": "Ability to see in dim light as if it were bright light.",
-        "range": 60
+    "Darkvision": {
+        "description": "Complete sight in pitch black environments without color (e.g., Cave dwellers, Nocturnal).",
+        "mods": [],
+        "payload_immunities": [
+            "Dim_Light_Penalty",
+            "Pitch_Black_Blindness"
+        ],
+        "grants_skills": []
     },
-    "Telescopic": {
-        "description": "Ability to see fine detail at great distances.",
-        "range": -2
+    "Thermal_Vision": {
+        "description": "Detection of infrared heat signatures (e.g., Pit Vipers, certain Bats).",
+        "mods": [],
+        "payload_immunities": [
+            "Optical_Invisibility",
+            "Smoke_Blindness",
+            "Pitch_Black_Blindness",
+            "Blizzard_Blindness"
+        ],
+        "grants_skills": [
+            "Heat Vision"
+        ]
+    },
+    "Wide_Angle_Vision": {
+        "description": "Eyes positioned laterally for a near 360-degree field of view (e.g., Ungulates, Rabbits).",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "1"
+            }
+        ],
+        "payload_immunities": [
+            "Flanking_Advantage"
+        ],
+        "grants_skills": []
+    },
+    "Telescopic_Vision": {
+        "description": "High-density fovea for extreme long-distance detail (e.g., Birds of Prey).",
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "3"
+            }
+        ],
+        "payload_immunities": [],
+        "grants_skills": [
+            "Keen Sight"
+        ]
     },
     "Motion_Sensitive": {
-        "description": "Highly sensitive to movement, poor at discerning stationary objects.",
-        "range": 60
+        "description": "Highly tuned to rapid movement, but struggles with stationary objects (e.g., Amphibians, T-Rex).",
+        "mods": [],
+        "payload_immunities": [
+            "Blur_Distortion"
+        ],
+        "grants_skills": [
+            "Reaction Strike"
+        ]
     },
-    "Blind": {
-        "description": "No visual perception.",
-        "range": 0
+    "Compound_Vision": {
+        "description": "Thousands of ommatidia allowing extreme reaction to sudden visual shifts (e.g., Insects, Crustaceans).",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2"
+            }
+        ],
+        "payload_immunities": [
+            "Dazzle",
+            "Flanking_Advantage"
+        ],
+        "grants_skills": []
     },
-    "Thermal": {
-        "description": "Perception of heat signatures.",
-        "range": 60
+    "Polarized_Vision": {
+        "description": "Filters glare and light refraction, especially over water (e.g., Cephalopods, Mantis Shrimp).",
+        "mods": [],
+        "payload_immunities": [
+            "Refractive_Glare",
+            "Mirage"
+        ],
+        "grants_skills": []
     },
-    "Tri_Chromatic": {
-        "description": "Full color vision.",
-        "range": -1
+    "Ultraviolet_Vision": {
+        "description": "Perception of the UV spectrum, tracking biological trails like urine or nectar (e.g., Bees, Avians).",
+        "mods": [],
+        "payload_immunities": [
+            "Optical_Camouflage"
+        ],
+        "grants_skills": [
+            "Tracking"
+        ]
+    },
+    "Aquatic_Vision": {
+        "description": "Lenses adapted to correct refractive index errors underwater (e.g., Marine Life, Amphibians).",
+        "mods": [],
+        "payload_immunities": [
+            "Underwater_Blur"
+        ],
+        "grants_skills": []
+    },
+    "True_Sight": {
+        "description": "Magical or divine ability to pierce all visual deceit.",
+        "mods": [],
+        "payload_immunities": [
+            "Optical_Invisibility",
+            "Magical_Illusion",
+            "Shapechanger_Deceit"
+        ],
+        "grants_skills": []
     }
 }

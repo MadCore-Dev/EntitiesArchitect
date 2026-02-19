@@ -6,7 +6,10 @@
         "terrain_flags": [
             "Aquatic",
             "Deep_Water",
-            "3D_Movement"
+            "3D_Movement",
+            "Sand",
+            "Rock",
+            "Dark"
         ],
         "climate": {
             "base_temp": "Cold",
@@ -46,9 +49,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Crushing_Pressure",
+                "id": "Crushing_Pressure",
                 "chance_per_tick": 0.05
             }
         ],
@@ -74,7 +77,11 @@
         "terrain_flags": [
             "Ice",
             "Slippery",
-            "Barren"
+            "Barren",
+            "Rock",
+            "Frozen_Earth",
+            "Flat",
+            "Uneven"
         ],
         "climate": {
             "base_temp": "Freezing",
@@ -110,9 +117,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Frostbite",
+                "id": "Frostbite",
                 "chance_per_tick": 0.10
             }
         ],
@@ -136,7 +143,11 @@
         "terrain_flags": [
             "Frozen_Earth",
             "Flat",
-            "Scrub"
+            "Scrub",
+            "Rock",
+            "Dirt",
+            "Ice",
+            "Shallow_Water"
         ],
         "climate": {
             "base_temp": "Cold",
@@ -166,7 +177,7 @@
                 }
             ]
         },
-        "environmental_hazards": [],
+        "payloads": [],
         "sensory_mods": [],
         "resource_tags": [
             "Lichen",
@@ -181,7 +192,11 @@
         "terrain_flags": [
             "Woodland",
             "Uneven",
-            "Foliage"
+            "Foliage",
+            "Dirt",
+            "Grass",
+            "Rock",
+            "Shallow_Water"
         ],
         "climate": {
             "base_temp": "Moderate",
@@ -211,7 +226,7 @@
                 }
             ]
         },
-        "environmental_hazards": [],
+        "payloads": [],
         "sensory_mods": [
             {
                 "target": "vision_range",
@@ -234,7 +249,10 @@
         "terrain_flags": [
             "Sand",
             "Barren",
-            "Flat"
+            "Flat",
+            "Rock",
+            "Dirt",
+            "Uneven"
         ],
         "climate": {
             "base_temp": "Hot",
@@ -270,13 +288,13 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Sandstorm",
+                "id": "Sandstorm_Blind",
                 "chance_per_tick": 0.05
             },
             {
-                "payload_id": "Heatstroke",
+                "id": "Heatstroke",
                 "chance_per_tick": 0.10
             }
         ],
@@ -302,7 +320,12 @@
         "terrain_flags": [
             "Mud",
             "Shallow_Water",
-            "Difficult"
+            "Difficult",
+            "Dirt",
+            "Grass",
+            "Deep_Water",
+            "Dense_Foliage",
+            "Uneven"
         ],
         "climate": {
             "base_temp": "Humid",
@@ -332,9 +355,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Miasma_Poison",
+                "id": "Miasma_Poison",
                 "chance_per_tick": 0.08
             }
         ],
@@ -360,7 +383,11 @@
         "terrain_flags": [
             "Rock",
             "Steep",
-            "High_Altitude"
+            "High_Altitude",
+            "Ice",
+            "Frozen_Earth",
+            "Uneven",
+            "Dirt"
         ],
         "climate": {
             "base_temp": "Cold",
@@ -396,9 +423,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Hypoxia",
+                "id": "Hypoxia",
                 "chance_per_tick": 0.02
             }
         ],
@@ -423,7 +450,10 @@
         "terrain_flags": [
             "Grass",
             "Flat",
-            "Open"
+            "Open",
+            "Dirt",
+            "Shallow_Water",
+            "Uneven"
         ],
         "climate": {
             "base_temp": "Moderate",
@@ -453,7 +483,7 @@
                 }
             ]
         },
-        "environmental_hazards": [],
+        "payloads": [],
         "sensory_mods": [],
         "resource_tags": [
             "Savanna_Grass",
@@ -468,7 +498,12 @@
         "terrain_flags": [
             "Dense_Foliage",
             "Mud",
-            "Uneven"
+            "Uneven",
+            "Dirt",
+            "Grass",
+            "Shallow_Water",
+            "Deep_Water",
+            "Woodland"
         ],
         "climate": {
             "base_temp": "Hot",
@@ -498,9 +533,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Jungle_Fever",
+                "id": "Jungle_Fever",
                 "chance_per_tick": 0.03
             }
         ],
@@ -532,7 +567,13 @@
         "terrain_flags": [
             "Rock",
             "Dark",
-            "Confined"
+            "Confined",
+            "Dirt",
+            "Mud",
+            "Shallow_Water",
+            "Deep_Water",
+            "Uneven",
+            "Steep"
         ],
         "climate": {
             "base_temp": "Cool",
@@ -568,9 +609,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Cave_In",
+                "id": "Cave_In",
                 "chance_per_tick": 0.01
             }
         ],
@@ -596,7 +637,13 @@
         "terrain_flags": [
             "Ash",
             "Barren",
-            "Cursed"
+            "Cursed",
+            "Dirt",
+            "Rock",
+            "Mud",
+            "Uneven",
+            "Flat",
+            "Dark"
         ],
         "climate": {
             "base_temp": "Cold",
@@ -632,9 +679,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Soul_Drain",
+                "id": "Soul_Drain",
                 "chance_per_tick": 0.05
             }
         ],
@@ -652,7 +699,12 @@
         "terrain_flags": [
             "Crystal",
             "Slippery",
-            "Sharp"
+            "Sharp",
+            "Rock",
+            "Sand",
+            "Uneven",
+            "Flat",
+            "Hazardous"
         ],
         "climate": {
             "base_temp": "Variable",
@@ -688,9 +740,9 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Mana_Burn",
+                "id": "Mana_Burn",
                 "chance_per_tick": 0.04
             }
         ],
@@ -715,7 +767,11 @@
         "terrain_flags": [
             "Rock",
             "Hazardous",
-            "Magma"
+            "Magma",
+            "Ash",
+            "Steep",
+            "Uneven",
+            "Dark"
         ],
         "climate": {
             "base_temp": "Extreme_Heat",
@@ -751,13 +807,13 @@
                 }
             ]
         },
-        "environmental_hazards": [
+        "payloads": [
             {
-                "payload_id": "Lava_Fissure",
+                "id": "Lava_Fissure",
                 "chance_per_tick": 0.02
             },
             {
-                "payload_id": "Suffocation",
+                "id": "Suffocation",
                 "chance_per_tick": 0.08
             }
         ],

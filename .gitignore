@@ -5,13 +5,16 @@
 ._*
 
 # Editor / IDE
-.vscode/
+# Keep .vscode/ shared config tracked (tasks, launch, extensions, settings)
+.vscode/*.code-workspace
+.vscode/.history
 .idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
 
 # Logs
 *.log

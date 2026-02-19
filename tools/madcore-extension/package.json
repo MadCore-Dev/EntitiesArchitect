@@ -1,0 +1,58 @@
+{
+    "name": "madcore-engine-launcher",
+    "displayName": "MadCore Engine Launcher",
+    "description": "Opens the MadCore Game Engine Editor in the Simple Browser panel",
+    "version": "0.0.1",
+    "publisher": "madcore",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "madcore.launchEditor",
+                "title": "🎮 Launch MadCore Editor",
+                "category": "MadCore"
+            }
+        ],
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "madcore.launchEditor"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "madcore.launchEditor",
+                "key": "ctrl+shift+g",
+                "mac": "cmd+shift+g"
+            }
+        ],
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "madcore-engine",
+                    "title": "MadCore Engine",
+                    "icon": "icon.svg"
+                }
+            ]
+        },
+        "views": {
+            "madcore-engine": [
+                {
+                    "id": "madcore.engineView",
+                    "name": "Engine",
+                    "type": "webview"
+                }
+            ]
+        }
+    }
+}

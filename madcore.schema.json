@@ -4,90 +4,46 @@
     "title": "MadCore RPG GameData Schema",
     "description": "Master validation schema for all GameData JSON files in the MadCore RPG engine.",
     "definitions": {
-        "modifier_val": {
-            "$id": "#/definitions/modifier_val",
-            "description": "A modifier that uses a fixed value (number or string). MUST NOT use 'roll'. MUST NOT use the forbidden key 'value'.",
-            "type": "object",
-            "required": [
-                "target",
-                "op",
-                "val"
-            ],
-            "additionalProperties": false,
-            "properties": {
-                "target": {
-                    "type": "string",
-                    "minLength": 1,
-                    "description": "The stat ID to target."
-                },
-                "op": {
-                    "$ref": "#/definitions/op_enum"
-                },
-                "val": {
-                    "oneOf": [
-                        {
-                            "type": "number"
-                        },
-                        {
-                            "type": "string",
-                            "minLength": 1
-                        }
-                    ],
-                    "description": "The fixed value to apply. Use 'val', never 'value'."
-                },
-                "damage_type": {
-                    "type": "string",
-                    "description": "Optional: damage category (e.g. Physical, Fire)."
-                },
-                "conditions": {
-                    "$ref": "#/definitions/conditions_object"
-                }
-            }
-        },
-        "modifier_roll": {
-            "$id": "#/definitions/modifier_roll",
-            "description": "A modifier that uses a dice roll expression. MUST NOT use 'val'. MUST NOT use the forbidden key 'value'.",
-            "type": "object",
-            "required": [
-                "target",
-                "op",
-                "roll"
-            ],
-            "additionalProperties": false,
-            "properties": {
-                "target": {
-                    "type": "string",
-                    "minLength": 1,
-                    "description": "The stat ID to target."
-                },
-                "op": {
-                    "$ref": "#/definitions/op_enum"
-                },
-                "roll": {
-                    "type": "string",
-                    "pattern": "^[0-9]+d?[0-9]*$",
-                    "description": "Dice notation (e.g. '1d6', '2d8', '1'). Use 'roll', never 'value'."
-                },
-                "damage_type": {
-                    "type": "string",
-                    "description": "Optional: damage category (e.g. Physical, Fire)."
-                },
-                "conditions": {
-                    "$ref": "#/definitions/conditions_object"
-                }
-            }
-        },
         "modifier": {
             "$id": "#/definitions/modifier",
-            "description": "A single stat modification instruction. Must use either 'val' (fixed) OR 'roll' (dice). NEVER 'value'.",
-            "oneOf": [
-                {
-                    "$ref": "#/definitions/modifier_val"
+            "description": "A single stat modification instruction. Evaluates an expression (expr). MUST NOT use 'val' or 'roll'.",
+            "type": "object",
+            "required": [
+                "target",
+                "op",
+                "expr"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "target": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "The stat ID to target."
                 },
-                {
-                    "$ref": "#/definitions/modifier_roll"
+                "op": {
+                    "$ref": "#/definitions/op_enum"
+                },
+                "expr": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "An expression string to evaluate (e.g. '5' or 'con * 2d6'). Use 'expr', never 'val' or 'roll'."
+                },
+                "weight": {
+                    "type": "number",
+                    "description": "Optional weight for adaptation rules."
+                },
+                "damage_type": {
+                    "type": "string",
+                    "description": "Optional: damage category (e.g. Physical, Fire)."
+                },
+                "condition": {
+                    "type": "string",
+                    "description": "Optional: simple string-based condition for activation (e.g., 'Underwater')."
+                },
+                "conditions": {
+                    "$ref": "#/definitions/conditions_object"
                 }
-            ]
+            }
         },
         "mods_array": {
             "$id": "#/definitions/mods_array",
@@ -108,8 +64,7 @@
                 "divide",
                 "set",
                 "apply"
-            ],
-            "errorMessage": "op must be one of: add, subtract, multiply, divide, set, apply"
+            ]
         },
         "conditions_object": {
             "$id": "#/definitions/conditions_object",
@@ -312,14 +267,117 @@
                     }
                 }
             }
+        },
+        "biome_entry": {
+            "$id": "#/definitions/biome_entry",
+            "description": "A biome definition entry.",
+            "type": "object",
+            "required": [
+                "id",
+                "name",
+                "description",
+                "terrain_flags",
+                "climate",
+                "adaptation_rules",
+                "environmental_hazards",
+                "sensory_mods",
+                "resource_tags"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "terrain_flags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "climate": {
+                    "type": "object",
+                    "properties": {
+                        "base_temp": {
+                            "type": "string"
+                        },
+                        "weather": {
+                            "type": "string"
+                        },
+                        "night_temp": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "adaptation_rules": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "skills": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "weight": {
+                                        "type": "number"
+                                    }
+                                },
+                                "required": [
+                                    "id",
+                                    "weight"
+                                ]
+                            }
+                        },
+                        "mods": {
+                            "$ref": "#/definitions/mods_array"
+                        }
+                    }
+                },
+                "environmental_hazards": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "payload_id": {
+                                "type": "string"
+                            },
+                            "chance_per_tick": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "payload_id",
+                            "chance_per_tick"
+                        ]
+                    }
+                },
+                "sensory_mods": {
+                    "$ref": "#/definitions/mods_array"
+                },
+                "resource_tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
         }
     },
     "type": "object",
-    "description": "All GameData files are dictionary-style objects. Each value matches one of the known entry types.",
     "patternProperties": {
         "^.*$": {
             "description": "Any top-level key is a named entry. Each entry must match one of the known MadCore RPG data structures.",
-            "oneOf": [
+            "anyOf": [
                 {
                     "$ref": "#/definitions/base_stat"
                 },
@@ -343,6 +401,9 @@
                 },
                 {
                     "$ref": "#/definitions/consumable_category_entry"
+                },
+                {
+                    "$ref": "#/definitions/biome_entry"
                 }
             ]
         }

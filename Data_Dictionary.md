@@ -1,5 +1,19 @@
 # MadCore RPG - Data Dictionary
 
+> **🏗️ ARCHITECTURE TODO / PENDING SYSTEMS**
+> 
+> **1. Materials & Items Dictionary**
+> * **Observed In:** `World/biomes.json` (inside `resource_tags` like "Granite", "Iron_Ore", "Obsidian").
+> * **Current State:** Acting as raw string keys for the procedural map generator to spawn nodes.
+> * **Future Action:** Need to create `materials.json` or `items.json`. When a player mines "Iron_Ore", the engine needs this dictionary to know its weight, base value, crafting tags, and harvest difficulty.
+> 
+> **2. Contextual Conditions**
+> * **Observed In:** `World/biomes.json` (inside `sensory_mods[].condition` like "Mirage", "Pitch Black", "Thick Smoke").
+> * **Current State:** Acting as descriptive strings attached to modifier auras.
+> * **Future Action:** Determine if these should remain as raw UI string labels, or if we need a `conditions.json` to formally define them as stackable environmental statuses (similar to `status_effects.json`).
+> 
+> ---
+
 This document defines the purpose, structure, and engine-level implementation details for every JSON collection in the `GameData/` directory.
 
 ---
@@ -100,3 +114,72 @@ This document defines the purpose, structure, and engine-level implementation de
 
 ---
 
+## 3. Temperature Bands (`World/temperature_bands.json`)
+
+**Purpose:** Defines the baseline, persistent thermal state of a map chunk or Biome. It dictates standard environmental hazards and passive bodily stresses (like accelerated stamina drain in extreme heat) before any dynamic weather is applied.
+
+**Engine Implementation Notes:**
+* **Global Passive:** The `mods` array is applied to all entities within the chunk as a persistent, un-dodgeable aura.
+* **Environmental Hazards:** The `payloads` array runs on the chunk's tick interval, attempting to cast status-inducing attacks (like "Heatstroke" or "Frostbite") on all valid targets in the zone.
+
+**Schema Structure:**
+* `description` (string): Flavor text for logs and UI.
+* `mods` (array of objects): Standard engine modifiers using the `"expr"` logic.
+* `payloads` (array of objects): Standard environment hazard payloads.
+  * `{ "id": "Payload_Name", "chance_per_tick": float }`
+
+**Example Entry:**
+```json
+"Extreme_Heat": {
+  "description": "Lethal temperatures that can boil water in minutes.",
+  "mods": [
+    { "target": "stamina_regen", "op": "multiply", "expr": "0.5" },
+    { "target": "water_retention", "op": "subtract", "expr": "2" }
+  ],
+  "payloads": [
+    { "id": "Heatstroke", "chance_per_tick": 0.10 }
+  ]
+}
+
+```
+
+---
+
+## 4. Weather Types (`World/weather_types.json`)
+
+**Purpose:** Defines the dynamic, shifting meteorological events that overlay on top of a Biome's base state. Weather can dramatically alter combat via sensory impairments and can actively mutate the physical map by adding temporary terrain properties.
+
+**Engine Implementation Notes:**
+
+* **Dynamic Map Mutation:** When weather changes, the engine must read `terrain_additions` and temporarily append those tags to exposed tiles in the chunk (e.g., "Raining" dynamically adds the "Mud" tag to Dirt tiles).
+* **Sensory Overrides:** The `sensory_mods` array acts as a global debuff to specific senses (like capping vision range during a Blizzard).
+* **Active Hazards:** The `payloads` array adds immediate, volatile hazards (like Lightning Strikes or Sweeping Currents) on top of the base temperature hazards.
+
+**Schema Structure:**
+
+* `description` (string): Flavor text for logs and UI.
+* `terrain_additions` (array of strings): Matches keys from `terrain_types.json`. Applied temporarily to the chunk's tiles while the weather is active.
+* `sensory_mods` (array of objects): Standard engine modifiers using the `"expr"` logic, specifically targeting sensory stats (vision_range, hearing_range, etc.).
+* `payloads` (array of objects): Standard environment hazard payloads.
+* `{ "id": "Payload_Name", "chance_per_tick": float }`
+
+
+
+**Example Entry:**
+
+```json
+"Blizzard": {
+  "description": "A blinding storm of snow and ice.",
+  "terrain_additions": ["Ice", "Slippery"],
+  "sensory_mods": [
+    { "target": "vision_range", "op": "multiply", "expr": "0.2" },
+    { "target": "hearing_range", "op": "multiply", "expr": "0.4" }
+  ],
+  "payloads": [
+    { "id": "Freezing_Wind", "chance_per_tick": 0.05 }
+  ]
+}
+
+```
+
+---

@@ -1,0 +1,86 @@
+{
+    "Freezing": {
+        "description": "Temperatures capable of freezing exposed tissue rapidly.",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5"
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Frostbite",
+                "chance_per_tick": 0.05
+            }
+        ]
+    },
+    "Cold": {
+        "description": "Biting cold that saps energy over time.",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8"
+            }
+        ],
+        "payloads": []
+    },
+    "Cool": {
+        "description": "Crisp and chilly, but generally safe.",
+        "mods": [],
+        "payloads": []
+    },
+    "Moderate": {
+        "description": "Perfectly balanced thermal conditions.",
+        "mods": [],
+        "payloads": []
+    },
+    "Warm": {
+        "description": "Pleasantly hot.",
+        "mods": [],
+        "payloads": []
+    },
+    "Hot": {
+        "description": "High heat that accelerates exhaustion.",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8"
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Overheating",
+                "chance_per_tick": 0.02
+            }
+        ]
+    },
+    "Extreme_Heat": {
+        "description": "Lethal temperatures that can boil water in minutes.",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5"
+            },
+            {
+                "target": "water_retention",
+                "op": "subtract",
+                "expr": "2"
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Heatstroke",
+                "chance_per_tick": 0.10
+            }
+        ]
+    },
+    "Variable": {
+        "description": "Unstable temperatures prone to rapid shifts.",
+        "mods": [],
+        "payloads": []
+    }
+}

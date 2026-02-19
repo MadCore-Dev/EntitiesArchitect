@@ -1,0 +1,135 @@
+{
+  "Rabid": {
+    "conditions": {
+      "max_int": 3
+    },
+    "mods": [
+      {
+        "target": "behavior",
+        "val": "Aggressive",
+        "op": "set"
+      },
+      {
+        "target": "str",
+        "val": 1.5,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 0.8,
+        "op": "multiply"
+      }
+    ]
+  },
+  "Feral": {
+    "conditions": {
+      "max_int": 4
+    },
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "val": 2,
+        "op": "add"
+      },
+      {
+        "target": "int",
+        "val": -1,
+        "op": "add"
+      },
+      {
+        "target": "diceMod",
+        "val": 0,
+        "op": "add"
+      },
+      {
+        "target": "effectChance",
+        "val": 1.5,
+        "op": "multiply"
+      }
+    ]
+  },
+  "Outlaw": {
+    "conditions": {
+      "min_int": 4
+    },
+    "mods": [
+      {
+        "target": "reputation",
+        "val": "Hostile",
+        "op": "set"
+      },
+      {
+        "target": "loot_quality",
+        "val": "High",
+        "op": "set"
+      }
+    ]
+  },
+  "Ancient": {
+    "conditions": {
+      "min_age": 100
+    },
+    "mods": [
+      {
+        "target": "size_index",
+        "val": 1.5,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 2,
+        "op": "multiply"
+      },
+      {
+        "target": "xp_value",
+        "val": 3,
+        "op": "multiply"
+      }
+    ]
+  },
+  "Minor": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "diceMod",
+        "val": -1,
+        "op": "add"
+      },
+      {
+        "target": "effectChance",
+        "val": 0.5,
+        "op": "multiply"
+      }
+    ]
+  },
+  "Savage": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "diceMod",
+        "val": 1,
+        "op": "add"
+      },
+      {
+        "target": "effectChance",
+        "val": 1,
+        "op": "multiply"
+      }
+    ]
+  },
+  "Dire": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "diceMod",
+        "val": 2,
+        "op": "add"
+      },
+      {
+        "target": "effectChance",
+        "val": 1,
+        "op": "multiply"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "High": {
+    "modifier": 1.5,
+    "condition": {
+      "min_level": 5
+    }
+  },
+  "Medium": {
+    "modifier": 1,
+    "condition": {
+      "min_level": 1
+    }
+  },
+  "Low": {
+    "modifier": 0.5,
+    "condition": {
+      "max_level": 1
+    }
+  },
+  "Shattered": {
+    "valueMult": 0.1,
+    "craftQuality": "Trash",
+    "dropWeight": 30
+  },
+  "Cracked": {
+    "valueMult": 0.25,
+    "craftQuality": "Poor",
+    "dropWeight": 25
+  },
+  "Chipped": {
+    "valueMult": 0.5,
+    "craftQuality": "Common",
+    "dropWeight": 20
+  },
+  "Standard": {
+    "valueMult": 1,
+    "craftQuality": "Uncommon",
+    "dropWeight": 15
+  },
+  "Intact": {
+    "valueMult": 2,
+    "craftQuality": "Rare",
+    "dropWeight": 7
+  },
+  "Pristine": {
+    "valueMult": 5,
+    "craftQuality": "Epic",
+    "dropWeight": 2
+  },
+  "Flawless": {
+    "valueMult": 10,
+    "craftQuality": "Legendary",
+    "dropWeight": 1
+  },
+  "Rotting": {
+    "valueMult": 0.1,
+    "craftQuality": "Trash",
+    "dropWeight": 30
+  },
+  "Tainted": {
+    "valueMult": 0.25,
+    "craftQuality": "Poor",
+    "dropWeight": 25
+  },
+  "Mangled": {
+    "valueMult": 0.5,
+    "craftQuality": "Common",
+    "dropWeight": 20
+  },
+  "Prime": {
+    "valueMult": 2,
+    "craftQuality": "Rare",
+    "dropWeight": 7
+  },
+  "Exquisite": {
+    "valueMult": 5,
+    "craftQuality": "Epic",
+    "dropWeight": 2
+  },
+  "Perfect": {
+    "valueMult": 10,
+    "craftQuality": "Legendary",
+    "dropWeight": 1
+  }
+}

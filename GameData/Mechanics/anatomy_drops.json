@@ -1,0 +1,315 @@
+{
+  "Jaw_Teeth": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Tooth",
+      "Jawbone",
+      "Enamel Shard"
+    ],
+    "grants_skills": [
+      "Bite",
+      "Gnaw"
+    ],
+    "mods": []
+  },
+  "Fangs": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Fang",
+      "Venom Droplet"
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Toxic Chomp"
+    ],
+    "mods": []
+  },
+  "Beak": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Beak",
+      "Keratin Scrap"
+    ],
+    "grants_skills": [
+      "Peck"
+    ],
+    "mods": []
+  },
+  "Horns": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Horn",
+      "Bone Dust"
+    ],
+    "grants_skills": [
+      "Gore",
+      "Horn Ram"
+    ],
+    "mods": []
+  },
+  "Antlers": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Antler",
+      "Bone Dust"
+    ],
+    "grants_skills": [
+      "Antler Toss"
+    ],
+    "mods": []
+  },
+  "Tusks": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Ivory",
+      "Bone Dust"
+    ],
+    "grants_skills": [
+      "Tusk Slash"
+    ],
+    "mods": []
+  },
+  "Spines_Quills": {
+    "defaultHarvest": "Plucking",
+    "baseDrops": [
+      "Quill",
+      "Spine"
+    ],
+    "grants_skills": [
+      "Spine Charge"
+    ],
+    "mods": []
+  },
+  "Claws_Talons": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Claw",
+      "Keratin Scrap"
+    ],
+    "grants_skills": [
+      "Claw",
+      "Scratch"
+    ],
+    "mods": []
+  },
+  "Pincers_Mandibles": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Pincer",
+      "Chitin Plate"
+    ],
+    "grants_skills": [
+      "Pincor Snipe",
+      "Crab Pinch"
+    ],
+    "mods": []
+  },
+  "Paws_Pads": {
+    "defaultHarvest": "Skinning",
+    "baseDrops": [
+      "Paw",
+      "Sinew"
+    ],
+    "grants_skills": [
+      "Paw Strike"
+    ],
+    "mods": []
+  },
+  "Legs_Bones": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Femur",
+      "Marrow"
+    ],
+    "grants_skills": [
+      "Kick"
+    ],
+    "mods": [
+      {
+        "target_stat": "speed",
+        "value": 30,
+        "operation": "add",
+        "type": "Walk"
+      }
+    ]
+  },
+  "Hooves": {
+    "defaultHarvest": "Sawing",
+    "baseDrops": [
+      "Hoof",
+      "Keratin Scrap"
+    ],
+    "grants_skills": [
+      "Hoof Stomp"
+    ],
+    "mods": []
+  },
+  "Skull_Head": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Skull",
+      "Brain Matter"
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "mods": []
+  },
+  "Meat_Muscle": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Raw Meat",
+      "Animal Fat"
+    ],
+    "grants_skills": [],
+    "mods": []
+  },
+  "Scales_Carapace": {
+    "defaultHarvest": "Scraping",
+    "baseDrops": [
+      "Scale",
+      "Chitin Plate",
+      "Scute"
+    ],
+    "grants_skills": [],
+    "mods": []
+  },
+  "Tail": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Tail",
+      "Vertebrae"
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "mods": []
+  },
+  "Fins_Flukes": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Fin",
+      "Cartilage"
+    ],
+    "grants_skills": [
+      "Fin Slash"
+    ],
+    "mods": [
+      {
+        "target_stat": "speed",
+        "value": 30,
+        "operation": "add",
+        "type": "Swim"
+      }
+    ]
+  },
+  "Tentacles": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Tentacle",
+      "Suction Cup"
+    ],
+    "grants_skills": [
+      "Tentacle Lash"
+    ],
+    "mods": []
+  },
+  "Wings_Feathered": {
+    "defaultHarvest": "Plucking",
+    "baseDrops": [
+      "Feather",
+      "Hollow Bone"
+    ],
+    "grants_skills": [
+      "Wing Buffet"
+    ],
+    "mods": [
+      {
+        "target_stat": "speed",
+        "value": 30,
+        "operation": "add",
+        "type": "Fly"
+      }
+    ]
+  },
+  "Wings_Membranous": {
+    "defaultHarvest": "Skinning",
+    "baseDrops": [
+      "Wing Membrane",
+      "Leathery Scrap"
+    ],
+    "grants_skills": [
+      "Leathery Wing Buffet"
+    ],
+    "mods": [
+      {
+        "target_stat": "speed",
+        "value": 30,
+        "operation": "add",
+        "type": "Fly"
+      }
+    ]
+  },
+  "Stinger_Spur": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Stinger",
+      "Barb"
+    ],
+    "grants_skills": [
+      "Sting"
+    ],
+    "mods": []
+  },
+  "Internal_Gland": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Gland",
+      "Noxious Fluid",
+      "Acid Sac"
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "mods": []
+  },
+  "Blood": {
+    "defaultHarvest": "Draining",
+    "baseDrops": [
+      "Blood",
+      "Plasma"
+    ],
+    "grants_skills": [],
+    "mods": []
+  },
+  "Special_Organ": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Electrocyte",
+      "Sonic Chamber",
+      "Luminous Node"
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "mods": []
+  },
+  "Heart": {
+    "defaultHarvest": "Butchering",
+    "baseDrops": [
+      "Heart",
+      "Artery"
+    ],
+    "grants_skills": [],
+    "mods": []
+  },
+  "Eyes": {
+    "defaultHarvest": "Extraction",
+    "baseDrops": [
+      "Eye",
+      "Vitreous Fluid"
+    ],
+    "grants_skills": [],
+    "mods": []
+  }
+}

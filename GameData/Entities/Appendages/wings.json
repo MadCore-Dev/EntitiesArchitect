@@ -1,0 +1,115 @@
+{
+  "Feathered_Broad_Wings": {
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "tags": [
+      "Avian",
+      "Feathers",
+      "Large",
+      "Eagle_Like"
+    ],
+    "grants_skills": [
+      "Dive",
+      "Aerobatics"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 60
+      }
+    ]
+  },
+  "Membranous_Skin_Wings": {
+    "traversal": [
+      "Fly"
+    ],
+    "tags": [
+      "Mammal",
+      "Membrane",
+      "Nocturnal",
+      "Bat_Like"
+    ],
+    "grants_skills": [
+      "Maneuverability",
+      "Silent Flight"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 50
+      }
+    ]
+  },
+  "Transparent_Veined_Wings": {
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "tags": [
+      "Insect",
+      "Transparent",
+      "Fast Beat",
+      "Fly_Like"
+    ],
+    "grants_skills": [
+      "Hover",
+      "Buzz"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 40
+      }
+    ]
+  },
+  "Leathery_Great_Wings": {
+    "traversal": [
+      "Fly",
+      "Soar"
+    ],
+    "tags": [
+      "Reptile",
+      "Leathery",
+      "Huge",
+      "Dragon_Like"
+    ],
+    "grants_skills": [
+      "Hurricane Gust",
+      "Intimidate"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 80
+      }
+    ]
+  },
+  "Gossamer_Insectoid_Wings": {
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "tags": [
+      "Fey",
+      "Magic",
+      "Butterfly_Like"
+    ],
+    "grants_skills": [
+      "Sparkle",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 30
+      }
+    ]
+  }
+}

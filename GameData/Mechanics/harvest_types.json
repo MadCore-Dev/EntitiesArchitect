@@ -1,0 +1,137 @@
+{
+    "Skinning": {
+        "tool_needed": "Knife",
+        "mods": [
+            {
+                "target_stat": "dex",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Fast",
+        "base_time_seconds": 3,
+        "condition": {
+            "target_has_part": "Skin"
+        }
+    },
+    "Butchering": {
+        "tool_needed": "Cleaver",
+        "mods": [
+            {
+                "target_stat": "str",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Medium",
+        "base_time_seconds": 5,
+        "condition": {
+            "target_has_part": "Meat"
+        }
+    },
+    "Extraction": {
+        "tool_needed": "Tweezers",
+        "mods": [
+            {
+                "target_stat": "perception",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Slow",
+        "base_time_seconds": 8,
+        "condition": {
+            "target_has_part": "Organ"
+        }
+    },
+    "Sawing": {
+        "tool_needed": "Bone Saw",
+        "mods": [
+            {
+                "target_stat": "str",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Slow",
+        "base_time_seconds": 10,
+        "condition": {
+            "target_has_part": "Bone"
+        }
+    },
+    "Draining": {
+        "tool_needed": "Vial",
+        "mods": [
+            {
+                "target_stat": "dex",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Medium",
+        "base_time_seconds": 4,
+        "condition": {
+            "target_has_part": "Fluid"
+        }
+    },
+    "Plucking": {
+        "tool_needed": "Hands",
+        "mods": [
+            {
+                "target_stat": "dex",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Fast",
+        "base_time_seconds": 2,
+        "condition": {
+            "target_has_part": "Feather"
+        }
+    },
+    "Scraping": {
+        "tool_needed": "Scraper",
+        "mods": [
+            {
+                "target_stat": "patience",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Slow",
+        "base_time_seconds": 6,
+        "condition": {
+            "target_has_part": "Scale"
+        }
+    },
+    "Milking": {
+        "tool_needed": "Flask",
+        "mods": [
+            {
+                "target_stat": "dex",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Slow",
+        "base_time_seconds": 7,
+        "condition": {
+            "target_has_part": "Milk"
+        }
+    },
+    "Scavenging": {
+        "tool_needed": "Hands",
+        "mods": [
+            {
+                "target_stat": "perception",
+                "value": 1,
+                "operation": "add"
+            }
+        ],
+        "speed": "Fast",
+        "base_time_seconds": 2,
+        "condition": {
+            "target_status": "Dead"
+        }
+    }
+}

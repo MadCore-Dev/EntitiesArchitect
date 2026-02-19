@@ -1,0 +1,155 @@
+{
+  "None": {
+    "conditions": {},
+    "mods": [],
+    "grants_skills": []
+  },
+  "Armored": {
+    "conditions": {
+      "has_part_tag": "Integument"
+    },
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.5,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 1.3,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 4,
+        "op": "add"
+      }
+    ],
+    "grants_skills": []
+  },
+  "Venomous": {
+    "conditions": {
+      "has_part_tag": "Maw"
+    },
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.5,
+        "op": "multiply"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite"
+    ]
+  },
+  "Savage": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.4,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 1.2,
+        "op": "multiply"
+      }
+    ],
+    "grants_skills": [
+      "Eviscerate"
+    ]
+  },
+  "Dire": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 2,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 2,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 2,
+        "op": "add"
+      }
+    ],
+    "grants_skills": [
+      "Crushing Jaw"
+    ]
+  },
+  "Alpha": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 2.5,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 2,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "grants_skills": [
+      "Throat Crush"
+    ]
+  },
+  "Apex": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 4,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 3.5,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 3,
+        "op": "add"
+      }
+    ],
+    "grants_skills": [
+      "Death Roll"
+    ]
+  },
+  "Mutated": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 2,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 1.5,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ]
+  }
+}

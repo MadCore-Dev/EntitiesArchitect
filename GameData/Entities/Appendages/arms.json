@@ -1,0 +1,138 @@
+{
+  "Dextrous_Manipulator_Arms": {
+    "traversal": [
+      "Climb"
+    ],
+    "tags": [
+      "Humanoid",
+      "Hands",
+      "Fingers",
+      "Human_Like"
+    ],
+    "grants_skills": [
+      "Tool Use",
+      "Grapple",
+      "Fine Motor"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Robust_Digging_Claws": {
+    "traversal": [
+      "Dig"
+    ],
+    "tags": [
+      "Bear",
+      "Badger",
+      "Claws",
+      "Bear_Like"
+    ],
+    "grants_skills": [
+      "Slash",
+      "Dig",
+      "Maul"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Raptorial_Grasping_Talons": {
+    "traversal": [
+      "Perch"
+    ],
+    "tags": [
+      "Bird",
+      "Raptor",
+      "Sharp",
+      "Eagle_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Snatch",
+      "Pierce"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Serrated_Raptorial_Forelimbs": {
+    "traversal": [
+      "None"
+    ],
+    "tags": [
+      "Insect",
+      "Serrated",
+      "Ambush",
+      "Mantis_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Quick Strike"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Chitinous_Crushing_Pincers": {
+    "traversal": [
+      "None"
+    ],
+    "tags": [
+      "Crustacean",
+      "Chitin",
+      "Hard",
+      "Crab_Like"
+    ],
+    "grants_skills": [
+      "Crush",
+      "Grapple",
+      "Block"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Elongated_Hook_Arms": {
+    "traversal": [
+      "Climb",
+      "Hang"
+    ],
+    "tags": [
+      "Mammal",
+      "Curved Claws",
+      "Sloth_Like"
+    ],
+    "grants_skills": [
+      "Iron Grip",
+      "Reach"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

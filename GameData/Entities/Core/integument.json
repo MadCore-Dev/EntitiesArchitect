@@ -1,0 +1,233 @@
+{
+  "Smooth_Skin": {
+    "resistances": [],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Pelt",
+      "difficulty": 5
+    },
+    "tags": [
+      "Humanoid",
+      "Amphibian",
+      "Aquatic",
+      "Slug"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Fur": {
+    "resistances": [
+      "Cold"
+    ],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Fur",
+      "difficulty": 8
+    },
+    "tags": [
+      "Canine",
+      "Feline",
+      "Ursine",
+      "Mustelid",
+      "Rodent",
+      "Lagomorph",
+      "Bat",
+      "Primate",
+      "Marsupial",
+      "Hyena",
+      "Vulpine",
+      "Lupine",
+      "Ungulate"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ]
+  },
+  "Scales": {
+    "resistances": [
+      "Slashing"
+    ],
+    "harvest_profile": {
+      "type": "Scraping",
+      "yield_id": "Scale",
+      "difficulty": 12
+    },
+    "tags": [
+      "Saurian",
+      "Reptile",
+      "Draconic",
+      "Fish",
+      "Snake"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Feathers": {
+    "resistances": [],
+    "harvest_profile": {
+      "type": "Plucking",
+      "yield_id": "Feather",
+      "difficulty": 5
+    },
+    "tags": [
+      "Avian",
+      "Raptor"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Chitin": {
+    "resistances": [
+      "Piercing"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Chitin Plate",
+      "difficulty": 15
+    },
+    "tags": [
+      "Insect",
+      "Arachnid",
+      "Crustacean",
+      "Beetle"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  },
+  "Hide": {
+    "resistances": [
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Hide",
+      "difficulty": 10
+    },
+    "tags": [
+      "Elephantine",
+      "Rhino",
+      "Hippo",
+      "Boar"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Slimy_Skin": {
+    "resistances": [
+      "Grapple"
+    ],
+    "harvest_profile": {
+      "type": "Draining",
+      "yield_id": "Slime",
+      "difficulty": 10
+    },
+    "tags": [
+      "Amphibian",
+      "Fish",
+      "Slug",
+      "Eel"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Wool": {
+    "resistances": [
+      "Cold"
+    ],
+    "harvest_profile": {
+      "type": "Shearing",
+      "yield_id": "Wool",
+      "difficulty": 5
+    },
+    "tags": [
+      "Ungulate",
+      "Ovine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ]
+  },
+  "Shell": {
+    "resistances": [
+      "Slashing",
+      "Piercing",
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Shell Fragment",
+      "difficulty": 18
+    },
+    "tags": [
+      "Turtle",
+      "Snail",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  },
+  "Bark_Skin": {
+    "resistances": [
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Bark",
+      "difficulty": 12
+    },
+    "tags": [
+      "Plant",
+      "Treant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  }
+}

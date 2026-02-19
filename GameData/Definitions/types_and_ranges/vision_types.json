@@ -1,0 +1,34 @@
+{
+    "Normal": {
+        "description": "Standard visual spectrum.",
+        "range": -1
+    },
+    "Wide_Angle": {
+        "description": "Expanded field of view, harder to flank.",
+        "range": -1
+    },
+    "Night_Vision": {
+        "description": "Ability to see in dim light as if it were bright light.",
+        "range": 60
+    },
+    "Telescopic": {
+        "description": "Ability to see fine detail at great distances.",
+        "range": -2
+    },
+    "Motion_Sensitive": {
+        "description": "Highly sensitive to movement, poor at discerning stationary objects.",
+        "range": 60
+    },
+    "Blind": {
+        "description": "No visual perception.",
+        "range": 0
+    },
+    "Thermal": {
+        "description": "Perception of heat signatures.",
+        "range": 60
+    },
+    "Tri_Chromatic": {
+        "description": "Full color vision.",
+        "range": -1
+    }
+}

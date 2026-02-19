@@ -1,0 +1,175 @@
+{
+  "Healthy": {
+    "conditions": {
+      "integrity": "High"
+    },
+    "mods": [
+      {
+        "target": "behavior",
+        "val": "Normal",
+        "op": "set"
+      }
+    ]
+  },
+  "Starving": {
+    "conditions": {
+      "resource_state": "Empty"
+    },
+    "mods": [
+      {
+        "target": "cr",
+        "val": 0.7,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 0.6,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": -1,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Aggressive",
+        "op": "set"
+      }
+    ],
+    "grants_skills": [
+      "Bite"
+    ]
+  },
+  "Rabid": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.2,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 0.8,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": -2,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Reckless",
+        "op": "set"
+      }
+    ],
+    "grants_skills": [
+      "Toxic Chomp"
+    ]
+  },
+  "Putrid": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.3,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 1.2,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": -1,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Sluggish",
+        "op": "set"
+      }
+    ],
+    "grants_skills": [
+      "Toxic Spores"
+    ]
+  },
+  "Enraged": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.5,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": -2,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Reckless",
+        "op": "set"
+      }
+    ],
+    "grants_skills": [
+      "Slam"
+    ]
+  },
+  "Exhausted": {
+    "conditions": {
+      "stamina_state": "Empty"
+    },
+    "mods": [
+      {
+        "target": "cr",
+        "val": 0.5,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 0.8,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": -2,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Defensive",
+        "op": "set"
+      }
+    ]
+  },
+  "Feral": {
+    "conditions": {},
+    "mods": [
+      {
+        "target": "cr",
+        "val": 1.2,
+        "op": "multiply"
+      },
+      {
+        "target": "con",
+        "val": 1.2,
+        "op": "multiply"
+      },
+      {
+        "target": "natural_armor",
+        "val": 1,
+        "op": "add"
+      },
+      {
+        "target": "behavior",
+        "val": "Aggressive",
+        "op": "set"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "Standard": {
+        "flavor": "Typical coloration for its biome.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 0
+            }
+        ]
+    },
+    "Melanistic": {
+        "flavor": "Pitch black, blending perfectly into the shadows.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ]
+    },
+    "Albino": {
+        "flavor": "Stark white with red eyes, highly visible but imposing.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": -2
+            }
+        ]
+    },
+    "Leucistic": {
+        "flavor": "Pale and ghostly white, but with normal pigment in the eyes.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": -1
+            }
+        ]
+    },
+    "Erythristic": {
+        "flavor": "Possessing an unusual, vibrant reddish-copper hue.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 0
+            }
+        ]
+    },
+    "Xanthic": {
+        "flavor": "A striking, unnatural golden-yellow mutation.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": -1
+            }
+        ]
+    },
+    "Piebald": {
+        "flavor": "Large, unpigmented white patches breaking up its base color.",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 1
+            }
+        ],
+        "condition": {
+            "max_entities": 1
+        }
+    },
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 1.5
+            }
+        ],
+        "condition": {
+            "max_entities": 2
+        }
+    },
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 2
+            }
+        ],
+        "condition": {
+            "max_entities": 6
+        }
+    },
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 2.5
+            }
+        ],
+        "condition": {
+            "max_entities": 10
+        }
+    },
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 3
+            }
+        ],
+        "condition": {
+            "max_entities": 14
+        }
+    },
+    {
+        "mods": [
+            {
+                "target": "group_scale",
+                "op": "set",
+                "val": 4
+            }
+        ],
+        "condition": {
+            "max_entities": 999
+        }
+    }
+]

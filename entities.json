@@ -1,0 +1,42 @@
+{
+    "Human_Peasant": {
+        "blueprint": {
+            "Core": {
+                "Chassis": "Versatile_Biped_Frame",
+                "Integument": "Smooth_Skin"
+            },
+            "Cephalon": {
+                "Cranium": "Complex_Sapiens_Brain",
+                "Eyes": "Trichromatic_Versatile_Eyes",
+                "Ears": "Standard_External_Ears",
+                "Nose": "Compact_Olfactory_Node",
+                "Maw": "Omnivorous_Speech_Maw"
+            },
+            "Appendages": {
+                "Arms": "Dextrous_Manipulator_Arms",
+                "Legs": "Plantigrade_Biped_Legs"
+            }
+        }
+    },
+    "Gryphon": {
+        "blueprint": {
+            "Core": {
+                "Chassis": "Agile_Quadruped_Frame",
+                "Integument": "Plumage"
+            },
+            "Cephalon": {
+                "Cranium": "Aerial_Navigator_Brain",
+                "Eyes": "High_Acuity_Eyes",
+                "Ears": "Subdermal_Auditory_Canals",
+                "Nose": "Jacobson_Organ_Vents",
+                "Maw": "Predatory_Beak"
+            },
+            "Appendages": {
+                "Fore_Limbs": "Raptorial_Grasping_Talons",
+                "Hind_Limbs": "Agile_Climbing_Legs",
+                "Back": "Feathered_Broad_Wings",
+                "Tail": "Slender_Agile_Tail"
+            }
+        }
+    }
+}

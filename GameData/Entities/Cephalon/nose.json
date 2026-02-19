@@ -1,0 +1,98 @@
+{
+  "Tracking_Scent_Organ": {
+    "scent_range": "Tracking",
+    "tags": [
+      "Canine",
+      "Wet",
+      "Keen",
+      "Bloodhound_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  },
+  "Sensitive_Predator_Nose": {
+    "scent_range": "Hunter",
+    "tags": [
+      "Feline",
+      "Sensitive",
+      "Pink",
+      "Cat_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  },
+  "Compact_Olfactory_Node": {
+    "scent_range": "Standard",
+    "tags": [
+      "Humanoid",
+      "Small",
+      "Weak",
+      "Human_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Long_Range_Scent_Organ": {
+    "scent_range": "Extreme",
+    "tags": [
+      "Ursine",
+      "Forager",
+      "Long_Distance",
+      "Bear_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 6
+      }
+    ]
+  },
+  "Jacobson_Organ_Vents": {
+    "scent_range": "Jacobson_Organ",
+    "tags": [
+      "Reptile",
+      "Taste_Scent",
+      "Flat",
+      "Snake_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Pheromone_Receptors": {
+    "scent_range": "Pheromone",
+    "tags": [
+      "Insect",
+      "Chemical",
+      "Communicator",
+      "Ant_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 4
+      }
+    ]
+  }
+}

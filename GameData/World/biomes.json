@@ -1,0 +1,275 @@
+[
+    {
+        "id": 0,
+        "name": "Ocean",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Swim",
+                "Gills",
+                "Amphibious",
+                "Echolocation"
+            ],
+            "stat_mods": [
+                {
+                    "target": "sense_bonus",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Underwater"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "name": "Ice Cap",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Cold Blooded",
+                "Thick Fur",
+                "Slide"
+            ],
+            "stat_mods": [
+                {
+                    "target": "natural_armor",
+                    "val": 1,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Cold"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Tundra",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Burrow",
+                "Hibernate",
+                "Camouflage"
+            ],
+            "stat_mods": [
+                {
+                    "target": "con",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Cold"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Taiga",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Climb",
+                "Stalk"
+            ],
+            "stat_mods": [
+                {
+                    "target": "dex",
+                    "val": 1,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Forest"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Grassland",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Sprint",
+                "Pack Tactics",
+                "Graze"
+            ],
+            "stat_mods": [
+                {
+                    "target": "speed_bonus",
+                    "val": 5,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Open Terrain"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Forest",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Climb",
+                "Ambush",
+                "Forage"
+            ],
+            "stat_mods": [
+                {
+                    "target": "dex",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Forest"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Swamp",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Swim",
+                "Poison Resistance",
+                "Amphibious"
+            ],
+            "stat_mods": [
+                {
+                    "target": "con",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Wet"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "name": "Desert",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Burrow",
+                "Heat Resistance",
+                "Water Conservation"
+            ],
+            "stat_mods": [
+                {
+                    "target": "con",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Heat"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Savannah",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Sprint",
+                "Pack Tactics",
+                "Ambush"
+            ],
+            "stat_mods": [
+                {
+                    "target": "speed_bonus",
+                    "val": 5,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Open Terrain"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Jungle",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Climb",
+                "Camouflage",
+                "Venomous"
+            ],
+            "stat_mods": [
+                {
+                    "target": "dex",
+                    "val": 1,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Dense Terrain"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "name": "Volcanic",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Fire Resistance",
+                "Obsidian Skin",
+                "Heat Vision"
+            ],
+            "stat_mods": [
+                {
+                    "target": "con",
+                    "val": 5,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Heat"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "name": "Deadlands",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Necrotic Resistance",
+                "Scavenger",
+                "Undead Nature"
+            ],
+            "stat_mods": [
+                {
+                    "target": "wis",
+                    "val": 3,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Horror"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Crystal Wastes",
+        "adaptation_rules": {
+            "possible_skills": [
+                "Magic Resistance",
+                "Reflective Carapace",
+                "Psionic"
+            ],
+            "stat_mods": [
+                {
+                    "target": "wis",
+                    "val": 2,
+                    "op": "add",
+                    "conditions": {
+                        "environment": "Magic"
+                    }
+                }
+            ]
+        }
+    }
+]

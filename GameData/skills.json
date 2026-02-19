@@ -1,0 +1,1818 @@
+{
+  "Bite": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Unarmed": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Peck": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Nibble": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d2",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Crush": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Drain": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Gore": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Chew": {
+    "description": "No description",
+    "type": "Utility",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d2",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Slash": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Dig": {
+    "description": "Can burrow through soft earth.",
+    "type": "Utility",
+    "range": "Melee",
+    "mods": []
+  },
+  "Maul": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Grapple": {
+    "description": "Restrained",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Grappled"
+      }
+    ]
+  },
+  "Snatch": {
+    "description": "Grappled",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Pierce": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Quick Strike": {
+    "description": "First Strike",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Block": {
+    "description": "+2 AC",
+    "type": "Reaction",
+    "range": "Melee",
+    "mods": []
+  },
+  "Sting": {
+    "description": "Poison",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      },
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Paralyze": {
+    "description": "Paralyzed",
+    "type": "Effect",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Paralyzed"
+      }
+    ]
+  },
+  "Ensnare": {
+    "description": "Restrained",
+    "type": "Effect",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Restrained"
+      }
+    ]
+  },
+  "Thorn Whip": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "10ft",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Fear": {
+    "description": "Frightened",
+    "type": "Effect",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Frightened"
+      }
+    ]
+  },
+  "Cold Touch": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Tail Swipe": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Poison": {
+    "description": "Poisoned",
+    "type": "Effect",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Slap": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Kick": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Stomp": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Trample": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Bark_Roar": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Speech": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Screech": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Chirp": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Click_Hiss": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Buzz": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Grunt": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Bellow": {
+    "description": "No description",
+    "type": "Communication",
+    "range": "Audible",
+    "mods": []
+  },
+  "Sprint": {
+    "description": "Dash as bonus action.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Pack Tactics": {
+    "description": "Advantage if ally is near.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Stealth": {
+    "description": "No description",
+    "type": "Skill",
+    "range": "Melee",
+    "mods": []
+  },
+  "Pounce": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Climb": {
+    "description": "Climbing speed equals walking speed.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Durability": {
+    "description": "+1 HP per HD.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Scent": {
+    "description": "Advantage on Perception (Smell).",
+    "type": "Sense",
+    "range": "Melee",
+    "mods": []
+  },
+  "Endurance": {
+    "description": "Advantage on Con saves vs Exhaustion.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Tool Use": {
+    "description": "Can use tools.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Social": {
+    "description": "No description",
+    "type": "Skill",
+    "range": "Melee",
+    "mods": []
+  },
+  "Throw": {
+    "description": "No description",
+    "type": "Action",
+    "range": "20/60",
+    "mods": []
+  },
+  "Natural Armor": {
+    "description": "AC = 13 + Dex.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Cold Blooded": {
+    "description": "Vulnerable to Cold, Resistant to Fire.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Flight": {
+    "description": "Flying speed.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Hollow Bones": {
+    "description": "Reduced weight.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Keen Sight": {
+    "description": "Advantage on Perception (Sight).",
+    "type": "Sense",
+    "range": "Melee",
+    "mods": []
+  },
+  "Swim": {
+    "description": "Swimming speed.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Gills": {
+    "description": "Can breathe water.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Amphibious": {
+    "description": "Breathe air and water.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Leap": {
+    "description": "Long jump distance doubled.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Mucous Skin": {
+    "description": "Advantage vs Grapple.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Wall Climb": {
+    "description": "Can climb walls and ceilings.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Exoskeleton": {
+    "description": "Natural Armor.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Hive Mind": {
+    "description": "Telepathic with others of same species.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Web Spinner": {
+    "description": "Create webs.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Tremor Sense": {
+    "description": "No description",
+    "type": "Sense",
+    "range": "60ft",
+    "mods": []
+  },
+  "Spore Cloud": {
+    "description": "Poisoned area.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Regeneration": {
+    "description": "Regain HP each turn.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "No Pain": {
+    "description": "Immune to Stun.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Photosynthesis": {
+    "description": "Needs sunlight instead of food.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Rooted": {
+    "description": "Speed 0, cannot be knocked prone.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Flammable": {
+    "description": "Vulnerable to Fire.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Elemental Resistance": {
+    "description": "Resistant to element type.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Magic Immunity": {
+    "description": "Immune to spells lvl 3 and lower.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Unstoppable": {
+    "description": "Immune to Paralyzed and Petrified.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Agility": {
+    "description": "+2 Dex Check.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Soft Step": {
+    "description": "Advantage on Stealth.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Jump": {
+    "description": "Jump distance tripled.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Spider Climb": {
+    "description": "Climb difficult surfaces without check.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Stability": {
+    "description": "Advantage vs Shove.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Fine Motor": {
+    "description": "Can perform delicate tasks.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Iron Grip": {
+    "description": "Advantage on Grip/Climb.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Reach": {
+    "description": "No description",
+    "type": "Passive",
+    "range": "+5ft",
+    "mods": []
+  },
+  "Constrict": {
+    "description": "Slow",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Squeeze": {
+    "description": "Fit through small spaces.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Incorporeal": {
+    "description": "Move through objects.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Dive": {
+    "description": "Extra damage on charge from above.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Aerobatics": {
+    "description": "Advantage on flying Dex saves.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Maneuverability": {
+    "description": "Can turn sharply while flying.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Silent Flight": {
+    "description": "Stealth while flying.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Hover": {
+    "description": "Can hover in place.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Hurricane Gust": {
+    "description": "Push enemies away.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Intimidate": {
+    "description": "No description",
+    "type": "Skill",
+    "range": "Melee",
+    "mods": []
+  },
+  "Sparkle": {
+    "description": "Distract.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Dart": {
+    "description": "Short burst of speed.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Schooling": {
+    "description": "Advantage vs Fear if near allies.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Blood Frenzy": {
+    "description": "Advantage vs wounded targets.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Breach": {
+    "description": "Leap out of water.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Deep Dive": {
+    "description": "Resist pressure.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Reverse Swim": {
+    "description": "Swim backwards full speed.",
+    "type": "Movement",
+    "range": "Melee",
+    "mods": []
+  },
+  "Hiding": {
+    "description": "Hide in mud/sand.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Social Display": {
+    "description": "Advantage on Charisma.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Rudder": {
+    "description": "+1 AC while swimming/flying.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Acrobatics": {
+    "description": "No description",
+    "type": "Skill",
+    "range": "Melee",
+    "mods": []
+  },
+  "Counterbalance": {
+    "description": "Advantage on Acrobatics.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Grip": {
+    "description": "Hold object with tail.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Third Hand": {
+    "description": "Can use tail as hand.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Steering": {
+    "description": "Better flight control.",
+    "type": "Passive",
+    "range": "Melee",
+    "mods": []
+  },
+  "Braking": {
+    "description": "Stop flying immediately.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Display": {
+    "description": "Intimidate or Persuade.",
+    "type": "Action",
+    "range": "Melee",
+    "mods": []
+  },
+  "Gnaw": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Crunch": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Jaw Snap": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Serrated Bite": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Crushing Jaw": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Throat Crush": {
+    "description": "Silence",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Trap-Jaw Strike": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Venomous Bite": {
+    "description": "Poison",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      },
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Toxic Chomp": {
+    "description": "Poison",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      },
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Vampiric Drain": {
+    "description": "Drain",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Leech Latch": {
+    "description": "Drain",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d2",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Beak Tear": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Hooked Beak": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Bill Thrust": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Sword-Bill Slash": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Macaw Crush": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Horn Ram": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Rhino Charge": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Antler Toss": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Tusk Slash": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Spine Charge": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Quill Shoot": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Barbed Harpoon": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Scratch": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Claw": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Talon": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Rake": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Swipe": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Eviscerate": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "3d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Mantis Scythe": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Pincer Snipe": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Crab Pinch": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Raptorial Grasp": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Mandible Pinch": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Paw Strike": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Slam": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Hind Kick": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Kangaroo Box": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Hoof Stomp": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Headbutt": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Body Slam": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Roll Attack": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Death Roll": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Tail Whip": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Tail Club": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Thresher Slap": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Fluke Smash": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "3d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Spiked Tail": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Tentacle Lash": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Suction Grip": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Nematocyst Lash": {
+    "description": "Burn",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Python Squeeze": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Wing Buffet": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Dive Bomb": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Swan Strike": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Leathery Wing Buffet": {
+    "description": "Knockback",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Fin Slash": {
+    "description": "No description",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Barbed Sting": {
+    "description": "Bleed",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Neurotoxic Sting": {
+    "description": "Paralysis",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Venom Spur": {
+    "description": "Poison",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      },
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Acid Spray": {
+    "description": "Burn",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d4",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Venom Spit": {
+    "description": "Blind",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Ink Cloud": {
+    "description": "Blind",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Blind"
+      }
+    ]
+  },
+  "Skunk Musk": {
+    "description": "Nausea",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d2",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Blood Squirt": {
+    "description": "Blind",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Blind"
+      }
+    ]
+  },
+  "Boiling Fluid": {
+    "description": "Burn",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Toxic Spores": {
+    "description": "Poison",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      },
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Poisoned"
+      }
+    ]
+  },
+  "Web Shoot": {
+    "description": "Slow",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Restrained"
+      }
+    ]
+  },
+  "Slime Secretion": {
+    "description": "Grapple",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "status",
+        "op": "apply",
+        "val": "Grappled"
+      }
+    ]
+  },
+  "Shock Touch": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Eel Discharge": {
+    "description": "Paralysis",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "2d6",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Sonic Snap": {
+    "description": "Stun",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d10",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Thermal Flash": {
+    "description": "Burn",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d8",
+        "damage_type": "Physical"
+      }
+    ]
+  },
+  "Echolocation Blast": {
+    "description": "Blind",
+    "type": "Attack",
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "roll": "1d4",
+        "damage_type": "Physical"
+      }
+    ]
+  }
+}

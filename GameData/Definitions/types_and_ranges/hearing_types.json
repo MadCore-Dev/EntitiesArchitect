@@ -1,0 +1,30 @@
+{
+    "Sensitive": {
+        "description": "Can detect faint sounds.",
+        "range": 120
+    },
+    "Sharp": {
+        "description": "Clear auditory perception.",
+        "range": 90
+    },
+    "Standard": {
+        "description": "Normal auditory range.",
+        "range": 60
+    },
+    "Directional": {
+        "description": "Pinpoint source of sound.",
+        "range": 150
+    },
+    "Echolocation": {
+        "description": "Perceive surroundings via sound reflection.",
+        "range": 60
+    },
+    "Vibration": {
+        "description": "Detect subtle ground tremors.",
+        "range": 30
+    },
+    "Chemical_Vibration": {
+        "description": "Combination of scent and vibration sensing.",
+        "range": 10
+    }
+}

@@ -1,0 +1,146 @@
+{
+  "str": {
+    "id": "str",
+    "displayName": "Strength",
+    "description": "Physical power and carrying capacity.",
+    "spriteIcon": "icons/stats/str.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "dex": {
+    "id": "dex",
+    "displayName": "Dexterity",
+    "description": "Agility, reflexes, and balance.",
+    "spriteIcon": "icons/stats/dex.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "con": {
+    "id": "con",
+    "displayName": "Constitution",
+    "description": "Health, stamina, and vital force.",
+    "spriteIcon": "icons/stats/con.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "int": {
+    "id": "int",
+    "displayName": "Intelligence",
+    "description": "Memory and analytical ability.",
+    "spriteIcon": "icons/stats/int.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "wis": {
+    "id": "wis",
+    "displayName": "Wisdom",
+    "description": "Awareness and intuition.",
+    "spriteIcon": "icons/stats/wis.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "cha": {
+    "id": "cha",
+    "displayName": "Charisma",
+    "description": "Force of personality.",
+    "spriteIcon": "icons/stats/cha.png",
+    "baseValue": 10,
+    "statType": "Raw"
+  },
+  "size_index": {
+    "id": "size_index",
+    "displayName": "Size Index",
+    "description": "Base size category (1=Tiny, 5=Gargantuan).",
+    "spriteIcon": "icons/stats/size.png",
+    "baseValue": 4,
+    "statType": "Raw"
+  },
+  "natural_armor": {
+    "id": "natural_armor",
+    "displayName": "Natural Armor",
+    "description": "Inherent protective integument.",
+    "spriteIcon": "icons/stats/ac.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "speed_bonus": {
+    "id": "speed_bonus",
+    "displayName": "Speed Bonus",
+    "description": "Additional movement speed to base.",
+    "spriteIcon": "icons/stats/speed.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "sense_bonus": {
+    "id": "sense_bonus",
+    "displayName": "Sense Bonus",
+    "description": "Bonus to perception checks.",
+    "spriteIcon": "icons/stats/sense.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "diceMod": {
+    "id": "diceMod",
+    "displayName": "Dice Modifier",
+    "description": "Global modifier to dice rolls.",
+    "spriteIcon": "icons/stats/dice.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "effectChance": {
+    "id": "effectChance",
+    "displayName": "Effect Chance",
+    "description": "Probability modifier for applying status effects.",
+    "spriteIcon": "icons/stats/luck.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "reputation": {
+    "id": "reputation",
+    "displayName": "Reputation",
+    "description": "Social standing and fame.",
+    "spriteIcon": "icons/stats/rep.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "loot_quality": {
+    "id": "loot_quality",
+    "displayName": "Loot Quality",
+    "description": "Modifier for better loot drops.",
+    "spriteIcon": "icons/stats/loot.png",
+    "baseValue": 1,
+    "statType": "Raw"
+  },
+  "xp_value": {
+    "id": "xp_value",
+    "displayName": "XP Value",
+    "description": "Experience points granted on defeat.",
+    "spriteIcon": "icons/stats/xp.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "cr": {
+    "id": "cr",
+    "displayName": "Challenge Rating",
+    "description": "Combat difficulty rating.",
+    "spriteIcon": "icons/stats/cr.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "behavior": {
+    "id": "behavior",
+    "displayName": "Behavior State",
+    "description": "Current AI behavior state override value.",
+    "spriteIcon": "icons/stats/ai.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  },
+  "status": {
+    "id": "status",
+    "displayName": "Status State",
+    "description": "Current primary status condition.",
+    "spriteIcon": "icons/stats/status.png",
+    "baseValue": 0,
+    "statType": "Raw"
+  }
+}

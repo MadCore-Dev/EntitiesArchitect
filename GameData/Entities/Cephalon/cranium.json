@@ -1,0 +1,139 @@
+{
+  "Olfactory_Predator_Brain": {
+    "tags": [
+      "Mammal",
+      "Canine",
+      "Instinctual",
+      "Wolf_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 2
+      }
+    ]
+  },
+  "Ambush_Predator_Brain": {
+    "tags": [
+      "Mammal",
+      "Feline",
+      "Instinctual",
+      "Cat_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 2
+      }
+    ]
+  },
+  "Forager_Predator_Brain": {
+    "tags": [
+      "Mammal",
+      "Ursine",
+      "Instinctual",
+      "Omnivore",
+      "Bear_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 2
+      }
+    ]
+  },
+  "Complex_Sapiens_Brain": {
+    "tags": [
+      "Mammal",
+      "Humanoid",
+      "Sentient",
+      "Civilized",
+      "Human_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 5
+      }
+    ]
+  },
+  "Aerial_Navigator_Brain": {
+    "tags": [
+      "Avian",
+      "Bird",
+      "Instinctual",
+      "Bird_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  },
+  "Hive_Ganglia": {
+    "tags": [
+      "Insect",
+      "Arthropod",
+      "Hive_Mind",
+      "Insect_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 1
+      }
+    ]
+  },
+  "Grazing_Prey_Brain": {
+    "tags": [
+      "Mammal",
+      "Ungulate",
+      "Prey",
+      "Deer_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 1
+      }
+    ]
+  },
+  "Basal_Reptilian_Brain": {
+    "tags": [
+      "Reptile",
+      "Saurian",
+      "Cold_Blooded",
+      "Lizard_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 1
+      }
+    ]
+  },
+  "Aquatic_Simplistic_Brain": {
+    "tags": [
+      "Fish",
+      "Aquatic",
+      "Simple",
+      "Fish_Like"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "set",
+        "val": 1
+      }
+    ]
+  }
+}

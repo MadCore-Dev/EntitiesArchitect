@@ -1,0 +1,30 @@
+{
+  "hp_max": {
+    "description": "Maximum Health",
+    "formula": "(size_index * 2) * con"
+  },
+  "stamina": {
+    "description": "Energy for physical actions",
+    "formula": "con + dex"
+  },
+  "mana": {
+    "description": "Magical energy pool",
+    "formula": "int * wis"
+  },
+  "speed": {
+    "description": "Base movement speed",
+    "formula": "(size_index * 5) + (dex * 2) + speed_bonus"
+  },
+  "ac": {
+    "description": "Total Armor Class",
+    "formula": "10 + natural_armor + dex"
+  },
+  "perception": {
+    "description": "Passive perception",
+    "formula": "10 + wis + sense_bonus"
+  },
+  "stealth": {
+    "description": "Passive stealth",
+    "formula": "dex + (size_index * -1)"
+  }
+}

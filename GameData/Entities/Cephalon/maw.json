@@ -1,0 +1,137 @@
+{
+  "Carnivorous_Fanged_Maw": {
+    "consumes": [
+      "Red_Meat",
+      "White_Meat",
+      "Piscine"
+    ],
+    "tags": [
+      "Carnivore",
+      "Teeth",
+      "Canine",
+      "Feline",
+      "Wolf_Like"
+    ],
+    "grants_skills": [
+      "Bite",
+      "Bark_Roar"
+    ]
+  },
+  "Omnivorous_Speech_Maw": {
+    "consumes": [
+      "Red_Meat",
+      "White_Meat",
+      "Piscine",
+      "Flora",
+      "Fungal"
+    ],
+    "tags": [
+      "Omnivore",
+      "Lips",
+      "Language_Capable",
+      "Human_Like"
+    ],
+    "grants_skills": [
+      "Unarmed",
+      "Speech"
+    ]
+  },
+  "Predatory_Beak": {
+    "consumes": [
+      "White_Meat",
+      "Piscine",
+      "Red_Meat"
+    ],
+    "tags": [
+      "Avian",
+      "Sharp",
+      "Tearing",
+      "Eagle_Like"
+    ],
+    "grants_skills": [
+      "Peck",
+      "Screech"
+    ]
+  },
+  "Seed_Cracking_Beak": {
+    "consumes": [
+      "Flora",
+      "Insectoid_Ganglia"
+    ],
+    "tags": [
+      "Avian",
+      "Small",
+      "Seed_Eater",
+      "Sparrow_Like"
+    ],
+    "grants_skills": [
+      "Nibble",
+      "Chirp"
+    ]
+  },
+  "Strong_Crushing_Mandibles": {
+    "consumes": [
+      "Chitin",
+      "Protein",
+      "Flora"
+    ],
+    "tags": [
+      "Insect",
+      "Chitin",
+      "Strong",
+      "Beetle_Like"
+    ],
+    "grants_skills": [
+      "Crush",
+      "Click_Hiss"
+    ]
+  },
+  "Piercing_Drain_Proboscis": {
+    "consumes": [
+      "Red_Meat",
+      "White_Meat"
+    ],
+    "tags": [
+      "Insect",
+      "Piercing",
+      "Parasite",
+      "Mosquito_Like"
+    ],
+    "grants_skills": [
+      "Drain",
+      "Buzz"
+    ]
+  },
+  "Goring_Tusked_Maw": {
+    "consumes": [
+      "Flora",
+      "Fungal",
+      "Red_Meat"
+    ],
+    "tags": [
+      "Boar",
+      "Orcish",
+      "Aggressive",
+      "Boar_Like"
+    ],
+    "grants_skills": [
+      "Gore",
+      "Grunt"
+    ]
+  },
+  "Grinding_Herbivore_Maw": {
+    "consumes": [
+      "Flora"
+    ],
+    "tags": [
+      "Flat_Teeth",
+      "Grinding",
+      "Ungulate",
+      "Cow_Like"
+    ],
+    "grants_skills": [
+      "Chew",
+      "Bellow"
+    ]
+  }
+}

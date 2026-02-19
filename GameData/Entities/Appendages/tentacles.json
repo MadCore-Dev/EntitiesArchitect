@@ -1,0 +1,95 @@
+{
+  "Suctioned_Cephalopod_Tentacles": {
+    "traversal": [
+      "Swim",
+      "Crawl"
+    ],
+    "tags": [
+      "Aquatic",
+      "Cephalopod",
+      "Suction",
+      "Octopus_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Constrict",
+      "Squeeze"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 20
+      }
+    ]
+  },
+  "Constricting_Vine_Tendrils": {
+    "traversal": [
+      "Climb"
+    ],
+    "tags": [
+      "Plant",
+      "Flora",
+      "Binding",
+      "Vine_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Thorn Whip",
+      "Photosynthesis"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  },
+  "Necrotic_Shadow_Tendrils": {
+    "traversal": [
+      "Glide"
+    ],
+    "tags": [
+      "Undead",
+      "Ethereal",
+      "Magic",
+      "Ghost_Like"
+    ],
+    "grants_skills": [
+      "Fear",
+      "Cold Touch",
+      "Incorporeal"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 30
+      }
+    ]
+  },
+  "Venomous_Stinging_Tendrils": {
+    "traversal": [
+      "Drift"
+    ],
+    "tags": [
+      "Jellyfish",
+      "Aquatic",
+      "Venom",
+      "Jellyfish_Like"
+    ],
+    "grants_skills": [
+      "Sting",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 10
+      }
+    ]
+  }
+}

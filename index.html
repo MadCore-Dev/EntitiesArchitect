@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadCore RPG - Data Verification Tool</title>
+
+    <!-- React & Babel -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Lucide Icons (as SVGs inline for standalone simplicity) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e5e5e5;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        }
+
+        .scroll-custom::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .scroll-custom::-webkit-scrollbar-track {
+            background: #171717;
+        }
+
+        .scroll-custom::-webkit-scrollbar-thumb {
+            background: #404040;
+            border-radius: 4px;
+        }
+
+        .scroll-custom::-webkit-scrollbar-thumb:hover {
+            background: #525252;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useMemo } = React;
+
+        // Simple Lucide Icon Components for standalone usage
+        const IconWrapper = ({ name, size = 24, className = "" }) => {
+            useEffect(() => {
+                lucide.createIcons();
+            });
+            return <i data-lucide={ name } width={ size } height={ size } className={ className }></i>;
+        };
+
+        const Dice5 = (props) => <IconWrapper name="dice-5" { ...props } />;
+        const Shield = (props) => <IconWrapper name="shield" { ...props } />;
+        const Zap = (props) => <IconWrapper name="zap" { ...props } />;
+        const Activity = (props) => <IconWrapper name="activity" { ...props } />;
+        const Filter = (props) => <IconWrapper name="filter" { ...props } />;
+        const Swords = (props) => <IconWrapper name="swords" { ...props } />;
+        const RotateCcw = (props) => <IconWrapper name="rotate-ccw" { ...props } />;
+        const Search = (props) => <IconWrapper name="search" { ...props } />;
+        const PawPrint = (props) => <IconWrapper name="paw-print" { ...props } />;
+        const User = (props) => <IconWrapper name="user" { ...props } />;
+        const Anchor = (props) => <IconWrapper name="anchor" { ...props } />;
+
+
+        // ==========================================
+        // 1. DATA EMBEDDING (Replicating your JSONs)
+        // ==========================================
+
+        const GAME_DATA = {
+            base_stats: {
+                "str": { "id": "str", "displayName": "Strength", "baseValue": 10, "statType": "Raw" },
+                "dex": { "id": "dex", "displayName": "Dexterity", "baseValue": 10, "statType": "Raw" },
+                "con": { "id": "con", "displayName": "Constitution", "baseValue": 10, "statType": "Raw" },
+                "int": { "id": "int", "displayName": "Intelligence", "baseValue": 10, "statType": "Raw" },
+                "wis": { "id": "wis", "displayName": "Wisdom", "baseValue": 10, "statType": "Raw" },
+                "cha": { "id": "cha", "displayName": "Charisma", "baseValue": 10, "statType": "Raw" },
+                "size_index": { "id": "size_index", "displayName": "Size", "baseValue": 4, "statType": "Raw" },
+                "natural_armor": { "id": "natural_armor", "displayName": "Natural Armor", "baseValue": 0, "statType": "Raw" },
+                "speed_bonus": { "id": "speed_bonus", "displayName": "Speed Bonus", "baseValue": 0, "statType": "Raw" },
+                "diceMod": { "id": "diceMod", "displayName": "Dice Mod", "baseValue": 0, "statType": "Raw" },
+                "effectChance": { "id": "effectChance", "displayName": "Effect Chance", "baseValue": 0, "statType": "Raw" },
+                "cr": { "id": "cr", "displayName": "CR", "baseValue": 0, "statType": "Raw" }
+            },
+            derived_stats: {
+                "hp": { "id": "hp", "displayName": "Health", "calculationFormula": "(con * 2) * (size_index / 2)", "statType": "Potential" },
+                "stamina": { "id": "stamina", "displayName": "Stamina", "calculationFormula": "con + str", "statType": "Potential" },
+                "ac": { "id": "ac", "displayName": "Armor Class", "calculationFormula": "10 + natural_armor + ((dex - 10) / 2)", "statType": "Potential" }
+            },
+            parts: {
+                chassis: {
+                    "Wolf_Frame": { "tags": ["Mammal", "Canine", "Quadruped"], "mods": [{ "target": "con", "val": 1.1, "op": "multiply" }, { "target": "size_index", "val": 4, "op": "set" }], "skills": ["Sprint", "Pack Tactics"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
+                    "Bear_Frame": { "tags": ["Mammal", "Ursine", "Quadruped"], "mods": [{ "target": "con", "val": 1.5, "op": "multiply" }, { "target": "str", "val": 1.2, "op": "multiply" }, { "target": "size_index", "val": 6, "op": "set" }], "skills": ["Maul", "Durability"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs"] },
+                    "Cat_Frame": { "tags": ["Mammal", "Feline", "Quadruped"], "mods": [{ "target": "dex", "val": 1.2, "op": "multiply" }, { "target": "natural_armor", "val": 2, "op": "add" }], "skills": ["Stealth", "Pounce"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
+                    "Humanoid_Frame": { "tags": ["Mammal", "Primate", "Bipedal"], "mods": [{ "target": "int", "val": 1.2, "op": "multiply" }], "skills": ["Tool Use"], "slots": ["Head", "Arms", "Legs"] },
+                    "Reptile_Frame": { "tags": ["Reptile", "Saurian"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }], "skills": ["Cold Blooded"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] }
+                },
+                head: {
+                    "Wolf Head": { "tags": ["Canine"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }], "skills": ["Bite", "Bark_Roar"] },
+                    "Cat Head": { "tags": ["Feline"], "mods": [{ "target": "sense_bonus", "val": 3, "op": "add" }], "skills": ["Bite", "Groom"] },
+                    "Bear Head": { "tags": ["Ursine"], "mods": [], "skills": ["Bite", "Roar"] },
+                    "Lizard Head": { "tags": ["Reptile"], "mods": [], "skills": ["Bite", "Thermal Vision"] }
+                },
+                eyes: {
+                    "Slit Pupils": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "sense_bonus", "val": 1, "op": "add" }] },
+                    "Round Pupils": { "tags": ["Canine", "Primate"], "mods": [] },
+                    "Compound": { "tags": ["Insect"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] }
+                },
+                ears: {
+                    "Pointed Ears": { "tags": ["Canine", "Feline"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] },
+                    "Round Ears": { "tags": ["Ursine", "Primate"], "mods": [] },
+                    "No Ears": { "tags": ["Reptile"], "mods": [{ "target": "sense_bonus", "val": -1, "op": "add" }] }
+                },
+                limbs: {
+                    "Paws": { "tags": ["Canine", "Feline", "Ursine"], "mods": [], "skills": ["Claw", "Scratch"] },
+                    "Hands": { "tags": ["Primate"], "mods": [], "skills": ["Punch", "Grip"] },
+                    "Clawed Feet": { "tags": ["Reptile", "Avian"], "mods": [], "skills": ["Talon"] }
+                },
+                tail: {
+                    "Bushy Tail": { "tags": ["Canine"], "mods": [] },
+                    "Long Tail": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "dex", "val": 1, "op": "add" }], "skills": ["Tail Whip"] },
+                    "Stubby Tail": { "tags": ["Ursine"], "mods": [] }
+                },
+                integument: {
+                    "Fur": { "tags": ["Mammal"], "mods": [{ "target": "natural_armor", "val": 1, "op": "add" }] },
+                    "Scales": { "tags": ["Reptile"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }] },
+                    "Skin": { "tags": ["Primate"], "mods": [] }
+                }
+            },
+            skills: {
+                "Bite": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
+                "Claw": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
+                "Maul": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "2d6" }] },
+                "Sprint": { "type": "Movement", "mods": [{ "target": "speed_bonus", "op": "add", "val": 10 }] },
+                "Scratch": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1" }] },
+                "Tail Whip": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
+                "Roar": { "type": "Effect", "mods": [{ "target": "status", "op": "apply", "val": "Frightened" }] }
+            },
+            prefixes: {
+                "Rabid": { "conditions": { "max_int": 3 }, "mods": [{ "target": "str", "val": 1.5, "op": "multiply" }, { "target": "con", "val": 0.8, "op": "multiply" }, { "target": "behavior", "val": "Aggressive", "op": "set" }] },
+                "Ancient": { "conditions": { "min_age": 100 }, "mods": [{ "target": "size_index", "val": 1.5, "op": "multiply" }, { "target": "wis", "val": 2, "op": "multiply" }] }
+            }
+        };
+
+        // ==========================================
+        // 2. JS ENGINE LOGIC (Porting C# Classes)
+        // ==========================================
+
+        class Stat {
+            constructor(definition) {
+                this.def = definition;
+                this.baseValue = definition.baseValue;
+                this.modifiers = [];
+            }
+
+            getCurrentValue() {
+                let val = this.baseValue;
+                // 1. Flat
+                this.modifiers.filter(m => m.op === 'add' || m.op === 'subtract').forEach(m => {
+                    val += (m.op === 'add' ? m.val : -m.val);
+                });
+                // 2. Percent
+                let mult = 1.0;
+                this.modifiers.filter(m => m.op === 'multiply').forEach(m => {
+                    mult *= m.val;
+                });
+                val *= mult;
+                // 3. Override
+                const override = this.modifiers.find(m => m.op === 'set');
+                if (override) val = override.val;
+
+                return Math.max(0, val);
+            }
+
+            addMod(mod) { this.modifiers.push(mod); }
+            clearMods() { this.modifiers = []; }
+        }
+
+        class PotentialStat extends Stat {
+            constructor(definition, formula, allStats) {
+                super(definition);
+                this.formula = formula;
+                this.allStats = allStats;
+                this.currentValue = 0;
+                this.maxValue = 0;
+            }
+
+            recalculateMax() {
+                let expression = this.formula;
+                Object.keys(this.allStats).forEach(key => {
+                    if (this.allStats[key] instanceof Stat) {
+                        const val = this.allStats[key].getCurrentValue();
+                        const regex = new RegExp(`\\b${key}\\b`, 'g');
+                        expression = expression.replace(regex, val);
+                    }
+                });
+
+                try {
+                    this.maxValue = new Function('return ' + expression)();
+                } catch (e) {
+                    console.error("Formula error", this.formula, e);
+                    this.maxValue = 1;
+                }
+
+                this.maxValue = Math.floor(this.maxValue);
+                if (this.currentValue > this.maxValue) this.currentValue = this.maxValue;
+            }
+
+            fill() {
+                this.recalculateMax();
+                this.currentValue = this.maxValue;
+            }
+        }
+
+        class Entity {
+            constructor(name) {
+                this.name = name;
+                this.stats = {};
+                this.skills = [];
+                this.traits = [];
+                this.parts = [];
+                this.log = [];
+
+                this.initStats();
+            }
+
+            initStats() {
+                Object.values(GAME_DATA.base_stats).forEach(def => {
+                    this.stats[def.id] = new Stat(def);
+                });
+                Object.values(GAME_DATA.derived_stats).forEach(def => {
+                    this.stats[def.id] = new PotentialStat(def, def.calculationFormula, this.stats);
+                });
+                this.updateDerived();
+            }
+
+            updateDerived() {
+                Object.values(this.stats).forEach(s => {
+                    if (s instanceof PotentialStat) s.recalculateMax();
+                });
+            }
+
+            applyMod(statId, op, val, source) {
+                if (this.stats[statId]) {
+                    this.stats[statId].addMod({ op, val, source });
+                    this.updateDerived();
+                }
+            }
+
+            roll(diceStr) {
+                if (!diceStr) return 0;
+                if (!isNaN(diceStr)) return parseFloat(diceStr);
+                const [count, sides] = diceStr.split('d').map(Number);
+                let total = 0;
+                for (let i = 0; i < count; i++) total += Math.floor(Math.random() * sides) + 1;
+                return total;
+            }
+        }
+
+        // ==========================================
+        // 3. REACT COMPONENTS
+        // ==========================================
+
+        const GeneratorView = () => {
+            const [entity, setEntity] = useState(null);
+
+            const generate = () => {
+                const e = new Entity("Random Creature");
+
+                const chassisKeys = Object.keys(GAME_DATA.parts.chassis);
+                const chassisKey = chassisKeys[Math.floor(Math.random() * chassisKeys.length)];
+                const chassis = GAME_DATA.parts.chassis[chassisKey];
+
+                e.traits.push(chassisKey);
+                e.traits.push(...chassis.tags);
+                if (chassis.skills) e.skills.push(...chassis.skills);
+
+                chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassisKey));
+
+                if (chassis.slots.includes("Head")) {
+                    const headKeys = Object.keys(GAME_DATA.parts.head);
+                    const validHeads = headKeys.filter(h => {
+                        const headTags = GAME_DATA.parts.head[h].tags;
+                        return headTags.some(t => chassis.tags.includes(t));
+                    });
+                    const headKey = validHeads.length > 0 ? validHeads[Math.floor(Math.random() * validHeads.length)] : headKeys[0];
+                    const head = GAME_DATA.parts.head[headKey];
+                    e.parts.push(headKey);
+                    if (head.mods) head.mods.forEach(m => e.applyMod(m.target, m.op, m.val, headKey));
+                    if (head.skills) e.skills.push(...head.skills);
+                }
+
+                const integKeys = Object.keys(GAME_DATA.parts.integument);
+                const validInteg = integKeys.filter(i => {
+                    const iTags = GAME_DATA.parts.integument[i].tags;
+                    return iTags.some(t => chassis.tags.includes(t));
+                });
+                if (validInteg.length > 0) {
+                    const iKey = validInteg[Math.floor(Math.random() * validInteg.length)];
+                    const integ = GAME_DATA.parts.integument[iKey];
+                    e.parts.push(iKey);
+                    if (integ.mods) integ.mods.forEach(m => e.applyMod(m.target, m.op, m.val, iKey));
+                }
+
+                if (Math.random() > 0.5) {
+                    const pKeys = Object.keys(GAME_DATA.prefixes);
+                    const pKey = pKeys[Math.floor(Math.random() * pKeys.length)];
+                    const prefix = GAME_DATA.prefixes[pKey];
+                    e.traits.push(pKey);
+                    if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, pKey));
+                }
+
+                Object.values(e.stats).forEach(s => {
+                    if (s instanceof PotentialStat) s.fill();
+                });
+
+                setEntity(e);
+            };
+
+            return (
+                <div className="p-4 h-full flex flex-col">
+                    <button onClick={ generate } className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-lg mb-4 shadow-lg transition flex items-center justify-center gap-2">
+                        <Dice5 size={ 24 } />
+                        Generate New Entity
+                    </button>
+
+                    { entity && (
+                        <div className="flex-1 bg-neutral-800 rounded-lg p-6 shadow-xl overflow-y-auto scroll-custom border border-neutral-700">
+                            <div className="flex justify-between items-start border-b border-neutral-600 pb-4 mb-4">
+                                <div>
+                                    <h2 className="text-3xl font-bold text-yellow-500 flex items-center gap-2">
+                                        <PawPrint className="text-yellow-600" size={ 28 } />
+                                        { entity.traits.find(t => GAME_DATA.prefixes[t]) || "" } { entity.traits[0] }
+                                    </h2>
+                                    <div className="flex gap-2 mt-2 flex-wrap">
+                                        { entity.traits.slice(1).map((t, i) => <span key={ i } className="bg-neutral-700 px-2 py-1 rounded text-xs text-gray-300 border border-neutral-600">{ t }</span>) }
+                                    </div>
+                                </div>
+                                <div className="text-right">
+                                    <div className="text-4xl font-bold text-red-500 flex items-center justify-end gap-2">
+                                        <Activity size={ 24 } className="text-red-700" />
+                                        { Math.floor(entity.stats.hp.currentValue) }
+                                        <span className="text-base text-gray-500">HP</span>
+                                    </div>
+                                    <div className="text-sm text-gray-400">Max: { Math.floor(entity.stats.hp.maxValue) }</div>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                    <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                        <User size={ 18 } /> Attributes
+                                    </h3>
+                                    <div className="grid grid-cols-2 gap-2">
+                                        { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
+                                            <div key={ s.def.id } className="flex justify-between items-center p-2 hover:bg-neutral-800 rounded transition-colors">
+                                                <span className="text-gray-400 font-medium">{ s.def.displayName }</span>
+                                                <span className="font-mono font-bold text-white bg-neutral-800 px-2 rounded">{ Math.floor(s.getCurrentValue()) }</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                </div>
+
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-green-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Shield size={ 18 } /> Derived Status
+                                        </h3>
+                                        { Object.values(entity.stats).filter(s => s.def.statType === "Potential" && s.def.id !== "hp").map(s => (
+                                            <div key={ s.def.id } className="flex justify-between p-1">
+                                                <span className="text-gray-300">{ s.def.displayName }</span>
+                                                <span className="font-mono text-yellow-400">{ Math.floor(s.maxValue) }</span>
+                                            </div>
+                                        )) }
+                                    </div>
+
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-purple-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Anchor size={ 18 } /> Anatomy & Skills
+                                        </h3>
+                                        <div className="mb-3">
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Parts</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.parts.map((p, i) => <span key={ i } className="bg-purple-900/40 border border-purple-700 text-purple-200 px-2 py-1 rounded text-sm">{ p }</span>) }
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Abilities</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.skills.map((s, i) => <span key={ i } className="bg-blue-900/40 border border-blue-700 text-blue-200 px-2 py-1 rounded text-sm">{ s }</span>) }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ) }
+                </div>
+            );
+        };
+
+        const DataGridView = () => {
+            const [filterTag, setFilterTag] = useState("");
+
+            const categories = Object.keys(GAME_DATA.parts);
+            const [toggles, setToggles] = useState(() => {
+                const init = {};
+                categories.forEach(c => init[c] = true);
+                return init;
+            });
+
+            const allTags = useMemo(() => {
+                const tags = new Set();
+                Object.values(GAME_DATA.parts).forEach(partsMap => {
+                    Object.values(partsMap).forEach(part => {
+                        if (part.tags) {
+                            part.tags.forEach(t => tags.add(t));
+                        }
+                    });
+                });
+                return Array.from(tags).sort();
+            }, []);
+
+            const getFilteredCount = (category) => {
+                const parts = GAME_DATA.parts[category];
+                if (!parts) return 0;
+                if (!filterTag) return Object.keys(parts).length;
+
+                return Object.values(parts).filter(p =>
+                    p.tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
+                ).length;
+            };
+
+            const toggleCat = (cat) => setToggles(prev => ({ ...prev, [cat]: !prev[cat] }));
+
+            const totalCombinations = categories.reduce((acc, cat) => {
+                if (!toggles[cat]) return acc;
+                const count = getFilteredCount(cat);
+                return count > 0 ? acc * count : acc;
+            }, 1);
+
+            return (
+                <div className="p-6 h-full flex flex-col">
+                    <div className="flex justify-between items-center mb-6 bg-neutral-800 p-4 rounded-lg shadow border border-neutral-700">
+                        <div className="flex items-center gap-4 w-1/2">
+                            <div className="relative w-full">
+                                <Filter className="absolute left-3 top-2.5 text-gray-500" size={ 18 } />
+                                <select
+                                    value={ filterTag }
+                                    onChange={ (e) => setFilterTag(e.target.value) }
+                                    className="bg-neutral-900 border border-neutral-600 text-white pl-10 pr-8 py-2 rounded-lg w-full focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 appearance-none cursor-pointer"
+                                >
+                                    <option value="">All Tags</option>
+                                    { allTags.map(tag => (
+                                        <option key={ tag } value={ tag }>{ tag }</option>
+                                    )) }
+                                </select>
+                                <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <div className="text-xs text-gray-500 uppercase tracking-widest font-bold">Total Permutations</div>
+                            <div className="text-4xl font-mono text-green-400 tracking-tighter">{ totalCombinations.toLocaleString() }</div>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-y-auto scroll-custom p-1">
+                        { categories.map(cat => {
+                            const count = getFilteredCount(cat);
+                            const isActive = toggles[cat];
+                            return (
+                                <div key={ cat } className={ `border rounded-lg p-4 transition duration-200 ${isActive ? 'bg-neutral-800 border-neutral-600 hover:border-neutral-500' : 'bg-neutral-900 border-neutral-800 opacity-50'}` }>
+                                    <div className="flex justify-between items-center mb-2">
+                                        <h3 className="font-bold capitalize text-lg text-gray-200">{ cat }</h3>
+                                        <input
+                                            type="checkbox"
+                                            checked={ !!isActive }
+                                            onChange={ () => toggleCat(cat) }
+                                            className="w-5 h-5 accent-blue-500 cursor-pointer"
+                                        />
+                                    </div>
+                                    <div className="text-3xl font-bold text-blue-400 my-2">{ count }</div>
+                                    <div className="text-xs text-gray-500 uppercase font-semibold">Available Options</div>
+
+                                    <div className="mt-3 text-xs text-gray-400 h-24 overflow-y-auto border-t border-neutral-700 pt-2 space-y-1">
+                                        { Object.keys(GAME_DATA.parts[cat]).filter(k =>
+                                            !filterTag || GAME_DATA.parts[cat][k].tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
+                                        ).map(k => (
+                                            <div key={ k } className="truncate hover:text-white cursor-default">• { k }</div>
+                                        )) }
+                                    </div>
+                                </div>
+                            )
+                        }) }
+                    </div>
+                </div>
+            );
+        };
+
+        const BattleView = () => {
+            const [ent1, setEnt1] = useState(null);
+            const [ent2, setEnt2] = useState(null);
+            const [logs, setLogs] = useState([]);
+
+            const setup = () => {
+                const gen = (name) => {
+                    const e = new Entity(name);
+                    const type = name.includes("Wolf") ? "Wolf_Frame" : "Bear_Frame";
+                    const chassis = GAME_DATA.parts.chassis[type];
+                    e.traits.push(type, ...chassis.tags);
+                    if (chassis.skills) e.skills.push(...chassis.skills);
+                    chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
+
+                    e.skills.push("Bite");
+
+                    Object.values(e.stats).forEach(s => { if (s instanceof PotentialStat) s.fill(); });
+                    return e;
+                };
+
+                setEnt1(gen("Dire Wolf"));
+                setEnt2(gen("Cave Bear"));
+                setLogs(["Battle Initialized."]);
+            };
+
+            const fightTurn = () => {
+                if (!ent1 || !ent2 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0) return;
+
+                const newLogs = [...logs];
+
+                const performAction = (attacker, defender) => {
+                    if (attacker.stats.hp.currentValue <= 0) return;
+
+                    const skillName = attacker.skills[Math.floor(Math.random() * attacker.skills.length)];
+                    const skillData = GAME_DATA.skills[skillName];
+
+                    if (!skillData) {
+                        newLogs.push(`${attacker.name} hesitates.`);
+                        return;
+                    }
+
+                    newLogs.push(`${attacker.name} uses ${skillName}!`);
+
+                    skillData.mods.forEach(mod => {
+                        if (mod.target === "hp" && mod.op === "subtract") {
+                            const dmg = attacker.roll(mod.roll);
+                            const strMod = Math.floor((attacker.stats.str.getCurrentValue() - 10) / 2);
+                            const totalDmg = Math.max(1, dmg + strMod);
+
+                            defender.stats.hp.currentValue -= totalDmg;
+                            newLogs.push(`> Hits ${defender.name} for ${totalDmg} damage! (${defender.stats.hp.currentValue.toFixed(0)} HP left)`);
+                        }
+                        if (mod.target === "status") {
+                            newLogs.push(`> Applies ${mod.val} to ${defender.name}!`);
+                        }
+                    });
+                };
+
+                if (ent1.stats.dex.getCurrentValue() >= ent2.stats.dex.getCurrentValue()) {
+                    performAction(ent1, ent2);
+                    performAction(ent2, ent1);
+                } else {
+                    performAction(ent2, ent1);
+                    performAction(ent1, ent2);
+                }
+
+                if (ent1.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent1.name} has been defeated!`);
+                if (ent2.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent2.name} has been defeated!`);
+
+                setLogs(newLogs);
+                setEnt1(Object.assign(Object.create(Object.getPrototypeOf(ent1)), ent1));
+                setEnt2(Object.assign(Object.create(Object.getPrototypeOf(ent2)), ent2));
+            };
+
+            return (
+                <div className="p-6 h-full flex flex-col">
+                    <div className="flex justify-center gap-4 mb-4">
+                        <button onClick={ setup } className="bg-yellow-600 hover:bg-yellow-500 text-white px-6 py-2 rounded-lg font-bold shadow-md flex items-center gap-2">
+                            <RotateCcw size={ 18 } /> New Fight
+                        </button>
+                        <button
+                            onClick={ fightTurn }
+                            disabled={ !ent1 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0 }
+                            className="bg-red-600 hover:bg-red-500 disabled:opacity-50 disabled:cursor-not-allowed text-white px-8 py-2 rounded-lg font-bold shadow-md flex items-center gap-2"
+                        >
+                            <Swords size={ 18 } /> Next Turn
+                        </button>
+                    </div>
+
+                    <div className="flex-1 grid grid-cols-3 gap-4 overflow-hidden">
+                        <div className="bg-neutral-900 rounded-lg p-4 border border-blue-900/50 flex flex-col">
+                            { ent1 ? (
+                                <>
+                                    <h3 className="text-xl font-bold text-blue-400 flex items-center gap-2"><User size={ 20 } /> { ent1.name }</h3>
+                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
+                                        <div className="bg-red-600 h-full transition-all duration-300" style={ { width: `${(ent1.stats.hp.currentValue / ent1.stats.hp.maxValue) * 100}%` } }></div>
+                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md">
+                                            { ent1.stats.hp.currentValue.toFixed(0) } / { ent1.stats.hp.maxValue.toFixed(0) }
+                                        </div>
+                                    </div>
+                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
+                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent1.stats.str.getCurrentValue()) }</span></div>
+                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent1.stats.dex.getCurrentValue()) }</span></div>
+                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent1.stats.con.getCurrentValue()) }</span></div>
+                                    </div>
+                                </>
+                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
+                        </div>
+
+                        <div className="bg-black rounded-lg p-4 border border-neutral-700 overflow-y-auto scroll-custom font-mono text-sm relative">
+                            { logs.map((l, i) => (
+                                <div key={ i } className={ `mb-1 border-l-2 pl-2 ${l.includes('defeated') ? 'text-red-500 font-bold border-red-500' :
+                                    l.includes('Hits') ? 'text-orange-300 border-orange-500' :
+                                        l.includes('uses') ? 'text-cyan-300 border-cyan-500' :
+                                            'text-gray-400 border-gray-700'
+                                    }` }>
+                                    { l }
+                                </div>
+                            )) }
+                            { logs.length === 0 && <div className="text-gray-600 text-center italic mt-10 flex flex-col items-center gap-2"><Swords size={ 32 } /> Combat Log Ready</div> }
+                        </div>
+
+                        <div className="bg-neutral-900 rounded-lg p-4 border border-red-900/50 text-right flex flex-col">
+                            { ent2 ? (
+                                <>
+                                    <h3 className="text-xl font-bold text-red-400 flex items-center justify-end gap-2">{ ent2.name } <User size={ 20 } /></h3>
+                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
+                                        <div className="bg-red-600 h-full transition-all duration-300 absolute right-0" style={ { width: `${(ent2.stats.hp.currentValue / ent2.stats.hp.maxValue) * 100}%` } }></div>
+                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md z-10">
+                                            { ent2.stats.hp.currentValue.toFixed(0) } / { ent2.stats.hp.maxValue.toFixed(0) }
+                                        </div>
+                                    </div>
+                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
+                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent2.stats.str.getCurrentValue()) }</span></div>
+                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent2.stats.dex.getCurrentValue()) }</span></div>
+                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent2.stats.con.getCurrentValue()) }</span></div>
+                                    </div>
+                                </>
+                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
+                        </div>
+                    </div>
+                </div>
+            )
+        }
+
+        const App = () => {
+            const [tab, setTab] = useState('gen');
+
+            return (
+                <div className="h-screen flex flex-col bg-neutral-950 text-gray-100 font-sans">
+                    <div className="bg-neutral-900 border-b border-neutral-800 p-4 flex justify-between items-center shadow-md z-10">
+                        <h1 className="text-2xl font-black tracking-widest text-white flex items-center gap-2">
+                            <Zap className="text-blue-500 fill-current" />
+                            <span className="text-blue-500">MADCORE</span> // RPG
+                        </h1>
+                        <div className="flex gap-2 bg-neutral-950 p-1 rounded-lg border border-neutral-800">
+                            <button onClick={ () => setTab('gen') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'gen' ? 'bg-neutral-800 text-blue-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Dice5 size={ 16 } /> Generator
+                            </button>
+                            <button onClick={ () => setTab('grid') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'grid' ? 'bg-neutral-800 text-green-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Filter size={ 16 } /> Data Matrix
+                            </button>
+                            <button onClick={ () => setTab('bat') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'bat' ? 'bg-neutral-800 text-red-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Swords size={ 16 } /> Simulation
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="flex-1 overflow-hidden relative">
+                        { tab === 'gen' && <GeneratorView /> }
+                        { tab === 'grid' && <DataGridView /> }
+                        { tab === 'bat' && <BattleView /> }
+                    </div>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>

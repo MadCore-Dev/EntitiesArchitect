@@ -81,17 +81,20 @@
         const GAME_DATA = {
             base_stats: {},
             derived_stats: {},
-            parts: {
-                chassis: {},
-                head: {},
-                eyes: {},
-                ears: {},
-                limbs: {},
-                tail: {},
-                integument: {}
-            },
             skills: {},
-            prefixes: {}
+            prefixes: {},
+            bodies: {
+                appendages: { arms: {}, fins: {}, legs: {}, tails: {}, tentacles: {}, wings: {} },
+                cephalon: { cranium: {}, ears: {}, eyes: {}, maw: {}, nose: {} },
+                core: { chassis: {}, integument: {} }
+            },
+            variations: {
+                appearances: { patterns: {}, pigmentation: {} },
+                biomes: {},
+                biological_upgrades: {},
+                size_indices: {}
+            },
+            loot: { anatomy_drops: {}, harvest_types: {}, loot_quality: {} }
         };
 
         // All 42 JSON files in GameData/
@@ -141,26 +144,43 @@
         ];
 
         // Determines which GAME_DATA bucket a file path belongs to.
-        // Returns an object { target, subKey? } or null to skip.
         function resolveTarget(path) {
-            if (path.includes('Definitions/base_stats')) return { target: 'base_stats' };
-            if (path.includes('Definitions/derived_stats')) return { target: 'derived_stats' };
-            if (path.includes('Entities/Core/chassis')) return { target: 'parts', subKey: 'chassis' };
-            if (path.includes('Entities/Core/integument')) return { target: 'parts', subKey: 'integument' };
-            // Cephalon — cranium & maw are head variants
-            if (path.includes('Cephalon/cranium') || path.includes('Cephalon/maw')) return { target: 'parts', subKey: 'head' };
-            if (path.includes('Cephalon/eyes')) return { target: 'parts', subKey: 'eyes' };
-            if (path.includes('Cephalon/ears')) return { target: 'parts', subKey: 'ears' };
-            // All appendage files (arms, legs, fins, wings, tentacles) → limbs
-            if (path.includes('Entities/Appendages/arms') ||
-                path.includes('Entities/Appendages/legs') ||
-                path.includes('Entities/Appendages/fins') ||
-                path.includes('Entities/Appendages/wings') ||
-                path.includes('Entities/Appendages/tentacles')) return { target: 'parts', subKey: 'limbs' };
-            if (path.includes('Entities/Appendages/tails')) return { target: 'parts', subKey: 'tail' };
-            if (path.endsWith('skills.json')) return { target: 'skills' };
-            if (path.endsWith('prefixes.json')) return { target: 'prefixes' };
-            // All other files are loaded but not merged into the main shell
+            if (path.includes('Definitions/base_stats')) return { root: 'base_stats' };
+            if (path.includes('Definitions/derived_stats')) return { root: 'derived_stats' };
+            if (path.endsWith('skills.json')) return { root: 'skills' };
+            if (path.endsWith('prefixes.json')) return { root: 'prefixes' };
+
+            // Bodies - Appendages
+            if (path.includes('Entities/Appendages/arms')) return { root: 'bodies', path: ['appendages', 'arms'] };
+            if (path.includes('Entities/Appendages/fins')) return { root: 'bodies', path: ['appendages', 'fins'] };
+            if (path.includes('Entities/Appendages/legs')) return { root: 'bodies', path: ['appendages', 'legs'] };
+            if (path.includes('Entities/Appendages/tails')) return { root: 'bodies', path: ['appendages', 'tails'] };
+            if (path.includes('Entities/Appendages/tentacles')) return { root: 'bodies', path: ['appendages', 'tentacles'] };
+            if (path.includes('Entities/Appendages/wings')) return { root: 'bodies', path: ['appendages', 'wings'] };
+
+            // Bodies - Cephalon
+            if (path.includes('Entities/Cephalon/cranium')) return { root: 'bodies', path: ['cephalon', 'cranium'] };
+            if (path.includes('Entities/Cephalon/ears')) return { root: 'bodies', path: ['cephalon', 'ears'] };
+            if (path.includes('Entities/Cephalon/eyes')) return { root: 'bodies', path: ['cephalon', 'eyes'] };
+            if (path.includes('Entities/Cephalon/maw')) return { root: 'bodies', path: ['cephalon', 'maw'] };
+            if (path.includes('Entities/Cephalon/nose')) return { root: 'bodies', path: ['cephalon', 'nose'] };
+
+            // Bodies - Core
+            if (path.includes('Entities/Core/chassis')) return { root: 'bodies', path: ['core', 'chassis'] };
+            if (path.includes('Entities/Core/integument')) return { root: 'bodies', path: ['core', 'integument'] };
+
+            // Variations
+            if (path.includes('Entities/Core/appearance/patterns')) return { root: 'variations', path: ['appearances', 'patterns'] };
+            if (path.includes('Entities/Core/appearance/pigmentation')) return { root: 'variations', path: ['appearances', 'pigmentation'] };
+            if (path.includes('World/biomes')) return { root: 'variations', path: ['biomes'] };
+            if (path.includes('Mechanics/biological_upgrades')) return { root: 'variations', path: ['biological_upgrades'] };
+            if (path.includes('Mechanics/growth_stages/size_indices')) return { root: 'variations', path: ['size_indices'] };
+
+            // Loot
+            if (path.includes('Mechanics/anatomy_drops')) return { root: 'loot', path: ['anatomy_drops'] };
+            if (path.includes('Mechanics/harvest_types')) return { root: 'loot', path: ['harvest_types'] };
+            if (path.includes('Mechanics/loot_quality')) return { root: 'loot', path: ['loot_quality'] };
+
             return null;
         }
 
@@ -183,26 +203,19 @@
                 const mapping = resolveTarget(path);
                 if (!mapping) return; // not mapped to GAME_DATA shell — skip
 
-                if (mapping.subKey) {
-                    // e.g. GAME_DATA.parts.chassis = { ...GAME_DATA.parts.chassis, ...data }
-                    Object.assign(GAME_DATA[mapping.target][mapping.subKey], data);
-                } else {
-                    Object.assign(GAME_DATA[mapping.target], data);
+                let targetObj = GAME_DATA[mapping.root];
+                if (mapping.path) {
+                    for (const key of mapping.path) {
+                        targetObj = targetObj[key];
+                    }
                 }
+                Object.assign(targetObj, data);
             });
 
             console.log('[GameData Loader] Loaded successfully.', {
                 base_stats: Object.keys(GAME_DATA.base_stats).length,
-                derived_stats: Object.keys(GAME_DATA.derived_stats).length,
-                chassis: Object.keys(GAME_DATA.parts.chassis).length,
-                head: Object.keys(GAME_DATA.parts.head).length,
-                eyes: Object.keys(GAME_DATA.parts.eyes).length,
-                ears: Object.keys(GAME_DATA.parts.ears).length,
-                limbs: Object.keys(GAME_DATA.parts.limbs).length,
-                tail: Object.keys(GAME_DATA.parts.tail).length,
-                integument: Object.keys(GAME_DATA.parts.integument).length,
-                skills: Object.keys(GAME_DATA.skills).length,
-                prefixes: Object.keys(GAME_DATA.prefixes).length,
+                bodies_core: Object.keys(GAME_DATA.bodies.core.chassis).length,
+                variations: Object.keys(GAME_DATA.variations.biomes).length
             });
         }
 
@@ -342,47 +355,106 @@
             const generate = () => {
                 const e = new Entity("Random Creature");
 
-                const chassisKeys = Object.keys(GAME_DATA.parts.chassis);
-                const chassisKey = chassisKeys[Math.floor(Math.random() * chassisKeys.length)];
-                const chassis = GAME_DATA.parts.chassis[chassisKey];
+                // Helper to pick random item
+                const pick = (obj) => {
+                    if (!obj) return null;
+                    const keys = Object.keys(obj);
+                    if (!keys.length) return null;
+                    const key = keys[Math.floor(Math.random() * keys.length)];
+                    return { key, ...obj[key] };
+                };
 
-                e.traits.push(chassisKey);
-                e.traits.push(...chassis.tags);
-                if (chassis.skills) e.skills.push(...chassis.skills);
+                // Helper filter pick
+                const pickFiltered = (obj, pred) => {
+                    if (!obj) return null;
+                    const keys = Object.keys(obj).filter(k => pred(obj[k]));
+                    if (!keys.length) return null;
+                    const key = keys[Math.floor(Math.random() * keys.length)];
+                    return { key, ...obj[key] };
+                };
 
-                chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassisKey));
-
-                if (chassis.slots.includes("Head")) {
-                    const headKeys = Object.keys(GAME_DATA.parts.head);
-                    const validHeads = headKeys.filter(h => {
-                        const headTags = GAME_DATA.parts.head[h].tags;
-                        return headTags.some(t => chassis.tags.includes(t));
-                    });
-                    const headKey = validHeads.length > 0 ? validHeads[Math.floor(Math.random() * validHeads.length)] : headKeys[0];
-                    const head = GAME_DATA.parts.head[headKey];
-                    e.parts.push(headKey);
-                    if (head.mods) head.mods.forEach(m => e.applyMod(m.target, m.op, m.val, headKey));
-                    if (head.skills) e.skills.push(...head.skills);
+                // 1. Core Body - Chassis
+                const chassis = pick(GAME_DATA.bodies.core.chassis);
+                if (chassis) {
+                    e.traits.push(chassis.key);
+                    e.traits.push(...(chassis.tags || []));
+                    if (chassis.skills) e.skills.push(...chassis.skills);
+                    if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassis.key));
                 }
 
-                const integKeys = Object.keys(GAME_DATA.parts.integument);
-                const validInteg = integKeys.filter(i => {
-                    const iTags = GAME_DATA.parts.integument[i].tags;
-                    return iTags.some(t => chassis.tags.includes(t));
+                // 2. Head (Cranium)
+                // In new structure, Head is primarily Cranium + potentially Maw/Eyes/Ears/Nose
+                // We'll pick a Cranium if chassis has "Head" slot
+                if (chassis && chassis.slots && chassis.slots.includes("Head")) {
+                    const cranium = pickFiltered(GAME_DATA.bodies.cephalon.cranium, (item) => {
+                        // Match tags if possible, else random
+                        return !item.tags || item.tags.some(t => e.traits.includes(t));
+                    }) || pick(GAME_DATA.bodies.cephalon.cranium);
+
+                    if (cranium) {
+                        e.parts.push(cranium.key);
+                        if (cranium.mods) cranium.mods.forEach(m => e.applyMod(m.target, m.op, m.val, cranium.key));
+                        if (cranium.skills) e.skills.push(...cranium.skills);
+                    }
+                }
+
+                // 3. Integument
+                const integument = pickFiltered(GAME_DATA.bodies.core.integument, (item) => {
+                    return item.tags && item.tags.some(t => e.traits.includes(t));
                 });
-                if (validInteg.length > 0) {
-                    const iKey = validInteg[Math.floor(Math.random() * validInteg.length)];
-                    const integ = GAME_DATA.parts.integument[iKey];
-                    e.parts.push(iKey);
-                    if (integ.mods) integ.mods.forEach(m => e.applyMod(m.target, m.op, m.val, iKey));
+                if (integument) {
+                    e.parts.push(integument.key);
+                    if (integument.mods) integument.mods.forEach(m => e.applyMod(m.target, m.op, m.val, integument.key));
                 }
 
+                // 4. Variations
+                e.variations = {};
+
+                const biome = pick(GAME_DATA.variations.biomes);
+                if (biome) e.variations.biome = biome.key;
+
+                const pattern = pick(GAME_DATA.variations.appearances.patterns);
+                if (pattern) e.variations.pattern = pattern.key;
+
+                const pig = pick(GAME_DATA.variations.appearances.pigmentation);
+                if (pig) e.variations.pigmentation = pig.key;
+
+                const size = pick(GAME_DATA.variations.size_indices);
+                if (size) e.variations.size = size.key;
+
+                const bioUpgrade = Math.random() > 0.7 ? pick(GAME_DATA.variations.biological_upgrades) : null;
+                if (bioUpgrade) {
+                    e.variations.upgrade = bioUpgrade.key;
+                    if (bioUpgrade.mods) bioUpgrade.mods.forEach(m => e.applyMod(m.target, m.op, m.val, bioUpgrade.key));
+                }
+
+                // 5. Loot
+                e.loot = [];
+                // Check anatomy drops against all traits/parts
+                const anatomyDrops = GAME_DATA.loot.anatomy_drops || {};
+                const allTags = new Set([...e.traits, ...e.parts]);
+
+                // Matches if key matches a tag or part name fuzzy
+                Object.keys(anatomyDrops).forEach(key => {
+                    // Primitive matching logic as fallback
+                    if (allTags.has(key) || Array.from(allTags).some(t => t.includes(key) || key.includes(t))) {
+                        e.loot.push({ name: key, ...anatomyDrops[key] });
+                    }
+                });
+                // Force at least one drop if none
+                if (e.loot.length === 0 && chassis) {
+                    // Fallback to generic Meat/Bones logic if nothing matched
+                    if (anatomyDrops["Meat_Muscle"]) e.loot.push({ name: "Meat_Muscle", ...anatomyDrops["Meat_Muscle"] });
+                    if (anatomyDrops["Legs_Bones"]) e.loot.push({ name: "Legs_Bones", ...anatomyDrops["Legs_Bones"] });
+                }
+
+                // Prefix
                 if (Math.random() > 0.5) {
-                    const pKeys = Object.keys(GAME_DATA.prefixes);
-                    const pKey = pKeys[Math.floor(Math.random() * pKeys.length)];
-                    const prefix = GAME_DATA.prefixes[pKey];
-                    e.traits.push(pKey);
-                    if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, pKey));
+                    const prefix = pick(GAME_DATA.prefixes);
+                    if (prefix) {
+                        e.traits.push(prefix.key);
+                        if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, prefix.key));
+                    }
                 }
 
                 Object.values(e.stats).forEach(s => {
@@ -422,17 +494,34 @@
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-6">
-                                <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
-                                    <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                        <User size={ 18 } /> Attributes
-                                    </h3>
-                                    <div className="grid grid-cols-2 gap-2">
-                                        { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
-                                            <div key={ s.def.id } className="flex justify-between items-center p-2 hover:bg-neutral-800 rounded transition-colors">
-                                                <span className="text-gray-400 font-medium">{ s.def.displayName }</span>
-                                                <span className="font-mono font-bold text-white bg-neutral-800 px-2 rounded">{ Math.floor(s.getCurrentValue()) }</span>
-                                            </div>
-                                        )) }
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <User size={ 18 } /> Attributes
+                                        </h3>
+                                        <div className="grid grid-cols-2 gap-2">
+                                            { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
+                                                <div key={ s.def.id } className="flex justify-between items-center p-2 hover:bg-neutral-800 rounded transition-colors">
+                                                    <span className="text-gray-400 font-medium">{ s.def.displayName }</span>
+                                                    <span className="font-mono font-bold text-white bg-neutral-800 px-2 rounded">{ Math.floor(s.getCurrentValue()) }</span>
+                                                </div>
+                                            )) }
+                                        </div>
+                                    </div>
+
+                                    {/* Loot & Harvest Block */ }
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-yellow-600 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Anchor size={ 18 } /> Loot & Harvest
+                                        </h3>
+                                        <div className="space-y-2">
+                                            { entity.loot && entity.loot.length > 0 ? entity.loot.map((l, i) => (
+                                                <div key={ i } className="flex flex-col text-sm">
+                                                    <span className="text-gray-200 font-bold">{ l.name.replace(/_/g, ' ') }</span>
+                                                    <span className="text-gray-500 text-xs">Drops: { l.baseDrops ? l.baseDrops.join(", ") : "Nothing" }</span>
+                                                </div>
+                                            )) : <span className="text-gray-500 italic">No significant loot.</span> }
+                                        </div>
                                     </div>
                                 </div>
 
@@ -466,6 +555,20 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* Variations & Ecosystem Block */ }
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-teal-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Search size={ 18 } /> Variations & Ecosystem
+                                        </h3>
+                                        <div className="grid grid-cols-1 gap-2 text-sm">
+                                            { entity.variations.biome && <div className="flex justify-between"><span className="text-gray-400">Biome</span><span className="text-white">{ entity.variations.biome }</span></div> }
+                                            { entity.variations.pattern && <div className="flex justify-between"><span className="text-gray-400">Pattern</span><span className="text-white">{ entity.variations.pattern }</span></div> }
+                                            { entity.variations.pigmentation && <div className="flex justify-between"><span className="text-gray-400">Pigment</span><span className="text-white">{ entity.variations.pigmentation }</span></div> }
+                                            { entity.variations.size && <div className="flex justify-between"><span className="text-gray-400">Size</span><span className="text-white">{ entity.variations.size }</span></div> }
+                                            { entity.variations.upgrade && <div className="flex justify-between"><span className="text-gray-400">Upgrade</span><span className="text-purple-300">{ entity.variations.upgrade }</span></div> }
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -476,99 +579,223 @@
 
         const DataGridView = () => {
             const [filterTag, setFilterTag] = useState("");
+            const [copyLabel, setCopyLabel] = useState("Copy All Tags");
 
-            const categories = Object.keys(GAME_DATA.parts);
-            const [toggles, setToggles] = useState(() => {
-                const init = {};
-                categories.forEach(c => init[c] = true);
-                return init;
-            });
+            const sections = useMemo(() => [
+                {
+                    title: "1. Main Body",
+                    groups: [
+                        { name: "Core", paths: { chassis: "bodies.core.chassis", integument: "bodies.core.integument" } },
+                        { name: "Cephalon", paths: { cranium: "bodies.cephalon.cranium", ears: "bodies.cephalon.ears", eyes: "bodies.cephalon.eyes", maw: "bodies.cephalon.maw", nose: "bodies.cephalon.nose" } },
+                        { name: "Appendages", paths: { arms: "bodies.appendages.arms", fins: "bodies.appendages.fins", legs: "bodies.appendages.legs", tails: "bodies.appendages.tails", tentacles: "bodies.appendages.tentacles", wings: "bodies.appendages.wings" } }
+                    ]
+                },
+                {
+                    title: "2. Variations",
+                    groups: [
+                        { name: "Appearances", paths: { patterns: "variations.appearances.patterns", pigmentation: "variations.appearances.pigmentation" } },
+                        { name: "Environment & Upgrades", paths: { biomes: "variations.biomes", "bio upgrades": "variations.biological_upgrades", sizes: "variations.size_indices" } }
+                    ]
+                }
+            ], []);
 
-            const allTags = useMemo(() => {
-                const tags = new Set();
-                Object.values(GAME_DATA.parts).forEach(partsMap => {
-                    Object.values(partsMap).forEach(part => {
-                        if (part.tags) {
-                            part.tags.forEach(t => tags.add(t));
-                        }
+            // Flatten paths for state
+            const allPaths = useMemo(() => {
+                const paths = {};
+                sections.forEach(sec => {
+                    sec.groups.forEach(group => {
+                        Object.entries(group.paths).forEach(([label, path]) => {
+                            paths[path] = true;
+                        });
                     });
                 });
-                return Array.from(tags).sort();
-            }, []);
+                return paths;
+            }, [sections]);
 
-            const getFilteredCount = (category) => {
-                const parts = GAME_DATA.parts[category];
-                if (!parts) return 0;
-                if (!filterTag) return Object.keys(parts).length;
+            const [toggles, setToggles] = useState(allPaths);
 
-                return Object.values(parts).filter(p =>
-                    p.tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
+            const getCount = (path, useFilter = true) => {
+                let target = GAME_DATA;
+                path.split('.').forEach(k => {
+                    if (target) target = target[k];
+                });
+                if (!target) return 0;
+
+                const keys = Object.keys(target);
+                if (!useFilter || !filterTag) return keys.length;
+
+                return Object.values(target).filter(item =>
+                    item.tags && item.tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
                 ).length;
             };
 
-            const toggleCat = (cat) => setToggles(prev => ({ ...prev, [cat]: !prev[cat] }));
+            const togglePath = (path) => setToggles(prev => ({ ...prev, [path]: !prev[path] }));
 
-            const totalCombinations = categories.reduce((acc, cat) => {
-                if (!toggles[cat]) return acc;
-                const count = getFilteredCount(cat);
-                return count > 0 ? acc * count : acc;
-            }, 1);
+            // Calculate Totals
+            const totalUniqueBodies = useMemo(() => {
+                let total = 1;
+                let hasActive = false;
+
+                // Assuming multiplicative combinations across categories if active
+                sections[0].groups.forEach(group => {
+                    Object.entries(group.paths).forEach(([label, path]) => {
+                        if (toggles[path]) {
+                            const c = getCount(path);
+                            // Only multiply if count > 0 to avoid zeroing out unless truly 0 options
+                            if (c > 0) {
+                                total *= c;
+                                hasActive = true;
+                            }
+                        }
+                    });
+                });
+                return hasActive ? total : 0;
+            }, [toggles, filterTag, sections]);
+
+            const totalVariations = useMemo(() => {
+                let total = totalUniqueBodies;
+                if (total === 0) return 0;
+
+                sections[1].groups.forEach(group => {
+                    Object.entries(group.paths).forEach(([label, path]) => {
+                        if (toggles[path]) {
+                            const c = getCount(path);
+                            if (c > 0) total *= c;
+                        }
+                    });
+                });
+                return total;
+            }, [totalUniqueBodies, toggles, filterTag, sections]);
+
+            // Collect all tags for filter
+            const allTags = useMemo(() => {
+                const tags = new Set();
+                const traverse = (obj) => {
+                    if (!obj) return;
+                    if (obj.tags && Array.isArray(obj.tags)) obj.tags.forEach(t => tags.add(t));
+                    else if (typeof obj === 'object') Object.values(obj).forEach(traverse);
+                };
+                traverse(GAME_DATA.bodies);
+                traverse(GAME_DATA.variations);
+                return Array.from(tags).sort();
+            }, []);
+
+            const copyAllTags = () => {
+                const tagString = allTags.join('\n');
+
+                // Try modern Clipboard API first
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(tagString)
+                        .then(() => {
+                            setCopyLabel("Copied!");
+                            setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                        })
+                        .catch(err => {
+                            console.error("Clipboard API failed:", err);
+                            fallbackCopy(tagString);
+                        });
+                } else {
+                    fallbackCopy(tagString);
+                }
+            };
+
+            const fallbackCopy = (text) => {
+                try {
+                    const textArea = document.createElement("textarea");
+                    textArea.value = text;
+
+                    // Ensure it's not visible but part of DOM
+                    textArea.style.position = "fixed";
+                    textArea.style.left = "-9999px";
+                    textArea.style.top = "0";
+                    document.body.appendChild(textArea);
+
+                    textArea.focus();
+                    textArea.select();
+
+                    const successful = document.execCommand('copy');
+                    document.body.removeChild(textArea);
+
+                    if (successful) {
+                        setCopyLabel("Copied!");
+                        setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                    } else {
+                        setCopyLabel("Error!");
+                        setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                    }
+                } catch (err) {
+                    console.error("Fallback copy failed:", err);
+                    setCopyLabel("Error!");
+                    setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                }
+            };
 
             return (
                 <div className="p-3 sm:p-6 h-full flex flex-col">
-                    <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center mb-3 sm:mb-6 bg-neutral-800 p-3 sm:p-4 rounded-lg shadow border border-neutral-700 gap-3">
-                        <div className="flex items-center gap-4 w-full sm:w-1/2">
-                            <div className="relative w-full">
-                                <Filter className="absolute left-3 top-2.5 text-gray-500" size={ 18 } />
-                                <select
-                                    value={ filterTag }
-                                    onChange={ (e) => setFilterTag(e.target.value) }
-                                    className="bg-neutral-900 border border-neutral-600 text-white pl-10 pr-8 py-2 rounded-lg w-full focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 appearance-none cursor-pointer"
-                                >
-                                    <option value="">All Tags</option>
-                                    { allTags.map(tag => (
-                                        <option key={ tag } value={ tag }>{ tag }</option>
-                                    )) }
-                                </select>
-                                <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                                </div>
+                    {/* Header with Totals */ }
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                        <div className="bg-neutral-800 p-4 rounded-lg border border-neutral-700 shadow flex justify-between items-center">
+                            <div>
+                                <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Unique Bodies</div>
+                                <div className="text-3xl font-mono text-yellow-400 font-bold">{ totalUniqueBodies.toLocaleString() }</div>
                             </div>
+                            <User size={ 32 } className="text-neutral-600" />
                         </div>
-                        <div className="text-left sm:text-right">
-                            <div className="text-xs text-gray-500 uppercase tracking-widest font-bold">Permutations</div>
-                            <div className="text-2xl sm:text-4xl font-mono text-green-400 tracking-tighter">{ totalCombinations.toLocaleString() }</div>
+                        <div className="bg-neutral-800 p-4 rounded-lg border border-neutral-700 shadow flex justify-between items-center">
+                            <div>
+                                <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Variations</div>
+                                <div className="text-3xl font-mono text-green-400 font-bold">{ totalVariations.toLocaleString() }</div>
+                            </div>
+                            <Dice5 size={ 32 } className="text-neutral-600" />
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 overflow-y-auto scroll-custom p-1">
-                        { categories.map(cat => {
-                            const count = getFilteredCount(cat);
-                            const isActive = toggles[cat];
-                            return (
-                                <div key={ cat } className={ `border rounded-lg p-4 transition duration-200 ${isActive ? 'bg-neutral-800 border-neutral-600 hover:border-neutral-500' : 'bg-neutral-900 border-neutral-800 opacity-50'}` }>
-                                    <div className="flex justify-between items-center mb-2">
-                                        <h3 className="font-bold capitalize text-lg text-gray-200">{ cat }</h3>
-                                        <input
-                                            type="checkbox"
-                                            checked={ !!isActive }
-                                            onChange={ () => toggleCat(cat) }
-                                            className="w-5 h-5 accent-blue-500 cursor-pointer"
-                                        />
-                                    </div>
-                                    <div className="text-3xl font-bold text-blue-400 my-2">{ count }</div>
-                                    <div className="text-xs text-gray-500 uppercase font-semibold">Available Options</div>
+                    {/* Filter Bar */ }
+                    <div className="flex items-center gap-4 mb-4 bg-neutral-900 p-3 rounded-lg border border-neutral-800">
+                        <Filter size={ 18 } className="text-gray-500" />
+                        <select
+                            value={ filterTag }
+                            onChange={ (e) => setFilterTag(e.target.value) }
+                            className="bg-black text-white px-3 py-1 rounded border border-neutral-700 focus:outline-none focus:border-blue-500"
+                        >
+                            <option value="">All Tags</option>
+                            { allTags.map(t => <option key={ t } value={ t }>{ t }</option>) }
+                        </select>
+                        <button
+                            onClick={ copyAllTags }
+                            className="ml-2 bg-neutral-700 hover:bg-neutral-600 text-white px-3 py-2 rounded-lg text-sm font-bold border border-neutral-600 transition whitespace-nowrap"
+                        >
+                            { copyLabel }
+                        </button>
+                    </div>
 
-                                    <div className="mt-3 text-xs text-gray-400 h-24 overflow-y-auto border-t border-neutral-700 pt-2 space-y-1">
-                                        { Object.keys(GAME_DATA.parts[cat]).filter(k =>
-                                            !filterTag || GAME_DATA.parts[cat][k].tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
-                                        ).map(k => (
-                                            <div key={ k } className="truncate hover:text-white cursor-default">• { k }</div>
-                                        )) }
+                    {/* Grids */ }
+                    <div className="flex-1 overflow-y-auto scroll-custom space-y-8 pr-2">
+                        { sections.map(section => (
+                            <div key={ section.title }>
+                                <h2 className="text-xl font-bold text-white mb-4 border-b border-neutral-700 pb-2">{ section.title }</h2>
+                                { section.groups.map(group => (
+                                    <div key={ group.name } className="mb-6">
+                                        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 pl-1">{ group.name }</h3>
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                                            { Object.entries(group.paths).map(([label, path]) => {
+                                                const isActive = toggles[path];
+                                                const count = getCount(path);
+                                                return (
+                                                    <div key={ path }
+                                                        onClick={ () => togglePath(path) }
+                                                        className={ `cursor-pointer p-3 rounded-lg border transition-all ${isActive ? 'bg-neutral-800 border-neutral-600 hover:bg-neutral-700' : 'bg-neutral-900 border-neutral-800 opacity-50 hover:opacity-75'}` }
+                                                    >
+                                                        <div className="text-xs text-gray-400 capitalize mb-1">{ label }</div>
+                                                        <div className="text-2xl font-bold text-blue-400">{ count }</div>
+                                                    </div>
+                                                );
+                                            }) }
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        }) }
+                                )) }
+                            </div>
+                        )) }
                     </div>
                 </div>
             );
@@ -582,15 +809,20 @@
             const setup = () => {
                 const gen = (name) => {
                     const e = new Entity(name);
-                    // Pick a chassis from live data — prefer a wolf/quadruped vs bear/robust variant
-                    const chassisKeys = Object.keys(GAME_DATA.parts.chassis);
+                    // Pick a chassis from live data
+                    const chassisKeys = Object.keys(GAME_DATA.bodies.core.chassis);
+                    if (!chassisKeys.length) return e;
+
                     const type = name.includes("Wolf")
                         ? (chassisKeys.find(k => k.toLowerCase().includes('cursorial') || k.toLowerCase().includes('wolf')) || chassisKeys[0])
                         : (chassisKeys.find(k => k.toLowerCase().includes('robust') || k.toLowerCase().includes('bear')) || chassisKeys[1] || chassisKeys[0]);
-                    const chassis = GAME_DATA.parts.chassis[type];
-                    e.traits.push(type, ...(chassis.tags || []));
-                    if (chassis.skills) e.skills.push(...chassis.skills);
-                    if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
+
+                    const chassis = GAME_DATA.bodies.core.chassis[type];
+                    if (chassis) {
+                        e.traits.push(type, ...(chassis.tags || []));
+                        if (chassis.skills) e.skills.push(...chassis.skills);
+                        if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
+                    }
 
                     e.skills.push("Bite");
 

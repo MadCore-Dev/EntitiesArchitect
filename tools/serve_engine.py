@@ -22,6 +22,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         pass
 
 if __name__ == "__main__":
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    socketserver.TCPServer.allow_reuse_address = True
+    with socketserver.TCPServer(("0.0.0.0", PORT), Handler) as httpd:
         print(f"MadCore Engine Server Running at http://localhost:{PORT}")
+        print(f"  → Network access: http://0.0.0.0:{PORT}  (allow python3 in macOS Firewall popup)")
         httpd.serve_forever()

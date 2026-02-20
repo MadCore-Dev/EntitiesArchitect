@@ -18,27 +18,6 @@ This document defines the purpose, structure, and engine-level implementation de
 
 ---
 
-> **📊 SYSTEM REGISTRY TRACKER (Auto-Extracted)**
-> Use this list to verify that all referenced data points exist in `skills.json`, `status_effects.json`, and the Core Engine Stat definitions.
->
-> ### 1. Skills Registry (Granted & Mutated)
-> * **Movement/Agility:** Acrobatics, Burrow, Climb, Dart, Leap, Sprint, Squeeze, Sure-Footed, Swim, Wall Climb
-> * **Combat/Tactics:** Ambush, Blood Frenzy, Constrict, Pack Tactics, Reaction Strike, Stealth, Venomous Bite
-> * **Senses/Tracking:** Directional Tracking, Echolocation, Echolocation Blast, Heat Vision, Keen Sight, Tracking, Tremor Sense
-> * **Biological Passives:** Amphibious, Camouflage, Cold Blooded, Disease Immunity, Endurance, Fire Resistance, Forage, Gills, Hibernate, Hive Mind, Incorporeal, Magic Resistance, Necrotic Resistance, Obsidian Skin, Poison Resistance, Psionic, Reflective Carapace, Scavenger, Thermal Vision, Thick Fur, Undead Nature, Water Retention
->
-> ### 2. Payloads & Immunities (Hazards, Statuses, Traps)
-> * **Environmental Hazards:** Arcane_Lightning, Ash_Inhalation, Cave_In, Choking_Dust, Crushing_Pressure, Current_Drag, Drowning, Extreme_Burn, Fall_Damage, Freezing_Wind, Frostbite, Ground_Tremors, Heatstroke, Hypoxia, Jungle_Fever, Lava_Burn, Lava_Fissure, Mana_Burn, Miasma_Poison, Minor_Laceration, Overheating, Physical_Traps, Plummet, Soul_Drain, Suffocation, Surface_Hazards, Swept_Away, Trip_And_Fall
-> * **Sensory Impairments (Auras):** Ambient_Noise, Arcane_Interference, Ash_Blindness, Auditory_Illusions, Blizzard_Blindness, Blur_Distortion, Dazzle, Dense_Canopy_Obscurity, Dim_Light_Penalty, High_Vantage_Aura, Magical_Fog_Obscurity, Magical_Illusion, Mirage, Optical_Camouflage, Optical_Invisibility, Pitch_Black_Blindness, Putrid_Stench, Rain_Obscurity, Refractive_Glare, Sandstorm_Blind, Shapechanger_Deceit, Smoke_Blindness, Snowblindness, Stagnant_Air, Storm_Deafness, Underwater_Blur, Underwater_Muffling, Ventriloquism, Wind_Dispersal
-> * **Combat Statuses & Damage Procs:** Bleeding, Blinded, Charm, Concussion, Confusion, Corroded, Deep_Wound, Deafened, Flanking_Advantage, Frostbite, Grappled, Ignite, Infected, Knocked_Prone, Paralyzed, Poisoned, Prone, Restrained, Web_Ensnare, Web_Vibration, Withering
-> * **Combat Engine Event Flags:** Breaks_Stealth, Provokes_Reaction
-> 
-> ### 3. Mod Targets (Engine Stats Registry)
-> * **Core Stats:** `con`, `dex`, `int`, `str`, `wis`
-> * **Derived Combat:** `evasion`, `natural_armor`, `speed_bonus`
-> * **Senses:** `hearing_range`, `scent_range`, `sense_bonus`, `vision_range`
-> * **Resources:** `stamina`, `stamina_regen`, `water_retention`
-
 ---
 
 ## 1. Biomes (`World/biomes.json`)

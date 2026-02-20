@@ -12,6 +12,60 @@
             }
         ]
     },
+    "Ambient_Cold": {
+        "description": "Chilly conditions slightly impede stamina recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ambient_Extreme_Heat": {
+        "description": "Lethal heat rapidly drains hydration and heavily impairs recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "water_retention",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ambient_Freezing": {
+        "description": "Lethal cold heavily impairs physical recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ambient_Hot": {
+        "description": "High temperatures accelerate fatigue.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8",
+                "stat_dependencies": []
+            }
+        ]
+    },
     "Ambient_Noise": {
         "description": "Heavy background noise masking subtle sounds.",
         "blocks_skill_types": [],
@@ -1083,6 +1137,126 @@
                 "target": "evasion",
                 "op": "multiply",
                 "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Ash_Drag": {
+        "description": "Loose ash makes footing slightly difficult.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.9",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Dense_Foliage": {
+        "description": "Thick vegetation obstructs physical movement and spatial awareness.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Difficult_Footing": {
+        "description": "Rough terrain generally impedes swift movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Magma_Drag": {
+        "description": "Thick molten rock severely restricts movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.25",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Mud_Drag": {
+        "description": "Thick mud clings to limbs, heavily impeding movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Sand_Drag": {
+        "description": "Loose footing absorbs kinetic energy, slowing movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.75",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Shallow_Water_Drag": {
+        "description": "Wading through water creates significant drag.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Slippery_Footing": {
+        "description": "Lack of friction causes instability and slows movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Uneven_Footing": {
+        "description": "Broken ground requires careful stepping, reducing speed.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.9",
                 "stat_dependencies": []
             }
         ]

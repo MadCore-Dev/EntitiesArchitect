@@ -1,81 +1,43 @@
-📊 SYSTEM REGISTRY TRACKER & ARCHITECTURE ROADMAP
+## 🗺️ MASTER REFACTORING ROADMAP
 
-CURRENT STATUS: The base Skills and Status Effects dictionaries have been successfully generated and decoupled.
-Below is the registry of new stat targets discovered during the Forge process, followed by the Engine Scaling Roadmap.
+**Phase 1: World Systems Overhaul**
+* **Goal:** Standardize environment and global conditions.
+* **Tasks:** Refactor `terrain_types.json`, `temperature_bands.json`, `weather_types.json`, and `biomes.json`. 
+* **Key Fix:** Remove raw `mods` arrays from terrain/temperature and shift them into `payloads` that cast hidden, indefinite Status Effects to strictly follow the "Everything is a Payload" architecture.
 
-Pending Core Stats to Define (For base_stats.json & derived_stats.json)
+**Phase 2: Skills & Statuses Ecosystem (Payload Standardization)**
+* **Goal:** Finalize the mechanical vocabulary of the engine.
+* **Tasks:** Clean up and standardize `skills.json`, `status_effects.json`, `damage_types.json`, `skill_types.json`, `vision_types.json`, and `traversal_types.json`. 
+* **Key Fix:** Ensure all damage-over-time or status variations adhere to standard core targets (e.g., using Mathematical Scaling or Compound Payloads rather than creating "fluff" stats).
 
-sense_bonus
+**Phase 3: Stats Registration & Dynamic Scaling**
+* **Goal:** Formalize all mathematical targets and upgrade the expression parser.
+* **Tasks:** * Update `base_stats.json` and `derived_stats.json` with newly discovered targets (`sense_bonus`, `water_retention`, elemental resistances, etc.).
+  * **Dynamic Expressions:** Introduce a `stat_dependencies` array to skills/statuses to allow the engine to query specific stats for dynamic math (e.g., `"expr": "1d6 + (str * 1.5)"`).
 
-acrobatics_bonus
+**Phase 4: Advanced Engine Systems (AI & Progression)**
+* **Goal:** Establish behavioral logic and scaling blueprints before generating entity data.
+* **Tasks:** * **AI Behavioral Trees:** Move away from hardcoded routines. Define data-driven AI branches and condition nodes that query the Entity's ECS state (HP thresholds, active `combat_tags`, active status effects).
+* **Leveling & Mutation Architecture:** This will also have a tree structure similar to the ai branches depending on tags/behaviours and stuff which stats will have higher probability of increase from allowed stat points pool that level provides. Introduce 'Level' as a globally readable variable inside `expr` formulas. Define threshold rules that automatically inject new elements into an entity's mods/payloads as they scale, preventing duplicate JSON entries (e.g., no "Goblin_Lvl_10").
 
-natural_armor
+**Phase 5: Validation Rules**
+* **Goal:** Enforce engine stability and structural laws before mass-producing data.
+* **Tasks:** Update `validation_rules.json`. Define the mandatory base stats every living entity must possess and establish the physical component requirements (e.g., must possess a Chassis and Cranium).
 
-fire_resist
-
-cold_resist
-
-poison_resist
-
-necrotic_resist
-
-radiant_resist
-
-arcane_resist
-
-water_retention
-
-stamina_regen
-
-hp_regen
-
-🚀 ROADMAP: ENGINE SCALING & DYNAMIC RPG SYSTEMS
-
-1. Dynamic Expression Evaluation (Stat Scaling)
-
-The Problem: Currently, the expr key in our mods uses hardcoded dice math (e.g., "expr": "1d6 + 2"). This does not scale as entities grow stronger.
-The Solution: * Upgrade the expression parser to read core stats and derived stats dynamically.
-
-Introduce a stat_dependencies array to skills/statuses. The engine will query these specific stats from the Entity, inject them into the formula, and then evaluate the expr.
-
-Proposed Schema Update Example:
-
-"mods": [
-  { 
-    "target": "hp", 
-    "op": "subtract", 
-    "expr": "1d6 + (str * 1.5)", 
-    "stat_dependencies": ["str"] 
-  }
-]
-
-
-2. Payload Standardization vs. Skill Variation
-
-The Rule of Core Targets: We must strictly avoid creating "fluff" stats (e.g., no poisonStat or acidicPoisonStat). All damage-over-time effects (whether from a Toxic Spore or a Venomous Bite) should cast the standardized Poisoned status, which strictly targets hp.
-How we achieve uniqueness:
-If multiple skills apply the same status effect, we differentiate them by:
-
-Mathematical Scaling: (e.g., One scales with dex, another with int).
-
-Payload Weighting: Altering the chance_per_tick or duration_ticks.
-
-Compound Payloads: Adding a secondary effect (e.g., a Venomous Bite also applies Paralyzed).
-
-Flavor Text Only: If mechanically identical, retaining unique names (like Fin Slash vs Tail Swipe) is perfectly valid purely for entity flavor and narrative logs.
-
-3. AI Behavioral Trees & Conditional Logic
-
-The Goal: Move away from hardcoded AI routines into a data-driven Behavioral Tree.
-
-AI branches will use condition nodes that query the Entity's current ECS state.
-
-Conditions will check: Current hp thresholds, active combat_tags (e.g., is the target Breaks_Stealth?), presence of specific prefixes, or currently active status_effects.
-
-4. Leveling Architecture & Mutation Trees
-
-The Goal: Ensure creatures remain viable threats across a full RPG progression curve without needing duplicate JSON entries (e.g., avoiding Goblin_Lvl_1, Goblin_Lvl_10).
-
-Level as a Variable: The integer level will become a globally readable variable inside any "expr" formula.
-
-Leveling Trees: Introduce a system (similar to biome adaptation rules) where reaching specific level thresholds automatically injects new elements into the entity's mods and payloads arrays, scaling their damage output and stats procedurally.
+**Phase 6: The Entity Lineage Expansion**
+* **Goal:** Break down monolithic component files into modular, biologically categorized directories.
+* **Tasks:** Replace individual JSON files (e.g., `cranium.json`, `eyes.json`, `maw.json`, `drops.json`) with directories of the same name.
+* **Sub-Structure:** Inside each component directory, populate separate JSON files based on evolutionary lineages to ensure highly varied and scalable data generation:
+  * `canine.json`
+  * `feline.json`
+  * `ursine.json`
+  * `ungulates.json`
+  * `reptiles.json`
+  * `birds.json`
+  * `insects.json`
+  * `primates.json`
+  * `marine_life.json`
+  * `rodents.json`
+  * `mustelids.json`
+  * `marsupials.json`
+  * `amphibians.json`

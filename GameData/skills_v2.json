@@ -1238,6 +1238,20 @@
             }
         ]
     },
+    "Fear": {
+        "description": "Frightened",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Frightened",
+                "chance_per_tick": 1.0,
+                "duration_ticks": 3
+            }
+        ]
+    },
     "Rhino Charge": {
         "description": "Knockback",
         "types": [
@@ -1348,6 +1362,20 @@
             {
                 "id": "Acid_Burn",
                 "chance_per_tick": 0.3,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Paralyze": {
+        "description": "Paralyzed",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
                 "duration_ticks": 3
             }
         ]
@@ -1836,6 +1864,20 @@
         ],
         "range": "Melee"
     },
+    "Poison": {
+        "description": "Poisoned",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            }
+        ]
+    },
     "Boiling Fluid": {
         "description": "Burn",
         "types": [
@@ -2130,6 +2172,20 @@
                 "op": "subtract",
                 "expr": "1d8",
                 "damage_type": "Bludgeoning"
+            }
+        ]
+    },
+    "Ensnare": {
+        "description": "Restrained",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Restrained",
+                "chance_per_tick": 1.0,
+                "duration_ticks": 3
             }
         ]
     },
@@ -2667,174 +2723,379 @@
             }
         ]
     },
-    "Burrow": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Sure-Footed": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
     "Ambush": {
-        "description": "Needs data generation based on name.",
+        "description": "Advantage on first strike when attacking from Stealth.",
         "types": [
-            "Passive"
+            "Passive",
+            "Melee_Attack"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
     },
-    "Reaction Strike": {
-        "description": "Needs data generation based on name.",
+    "Burrow": {
+        "description": "Can displace soft earth and move underground.",
         "types": [
-            "Passive"
+            "Passive",
+            "Movement"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1"
+            }
+        ]
+    },
+    "Camouflage": {
+        "description": "Naturally blends into the surrounding biome.",
+        "types": [
+            "Passive",
+            "Stance"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "3"
+            }
+        ]
     },
     "Directional Tracking": {
-        "description": "Needs data generation based on name.",
+        "description": "Can pinpoint the exact trajectory of a moving target via disturbed earth.",
+        "types": [
+            "Passive",
+            "Perception"
+        ],
+        "range": "60ft",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Disease Immunity": {
+        "description": "Biological structure completely immune to terrestrial pathogens.",
         "types": [
             "Passive"
         ],
         "range": "Melee"
     },
     "Echolocation": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Heat Vision": {
-        "description": "Needs data generation based on name.",
+        "description": "Active emission of sound waves to map surroundings.",
         "types": [
             "Passive",
-            "Perception"
+            "Perception",
+            "Vocal"
         ],
-        "range": "Melee"
-    },
-    "Tracking": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Camouflage": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Disease Immunity": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
+        "range": "120ft",
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "add",
+                "expr": "60"
+            }
+        ]
     },
     "Fire Resistance": {
-        "description": "Needs data generation based on name.",
+        "description": "Thick scales or integument that dissipates thermal energy.",
         "types": [
             "Passive"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "5"
+            }
+        ]
     },
     "Forage": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Hibernate": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Magic Resistance": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Necrotic Resistance": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Obsidian Skin": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Poison Resistance": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Psionic": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Reflective Carapace": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Scavenger": {
-        "description": "Needs data generation based on name.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Thermal Vision": {
-        "description": "Needs data generation based on name.",
+        "description": "Expertise in locating edible flora and hidden sustenance.",
         "types": [
             "Passive",
             "Perception"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "1"
+            }
+        ]
+    },
+    "Heat Vision": {
+        "description": "Specialized pit organs capable of perceiving infrared thermal radiation.",
+        "types": [
+            "Passive",
+            "Perception"
+        ],
+        "range": "60ft",
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "add",
+                "expr": "30"
+            },
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Hibernate": {
+        "description": "Can drastically lower metabolic rate to survive extreme cold or starvation.",
+        "types": [
+            "Passive",
+            "Stance"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Magic Resistance": {
+        "description": "Innate nullification of localized arcane fluctuations.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "arcane_resist",
+                "op": "add",
+                "expr": "5"
+            }
+        ]
+    },
+    "Necrotic Resistance": {
+        "description": "Cellular structure that resists entropic decay.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "necrotic_resist",
+                "op": "add",
+                "expr": "5"
+            }
+        ]
+    },
+    "Obsidian Skin": {
+        "description": "A dermal layer composed of dense, volcanic glass.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "4"
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "3"
+            }
+        ]
+    },
+    "Poison Resistance": {
+        "description": "A highly robust liver and immune system that filters blood-borne toxins.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "expr": "5"
+            }
+        ]
+    },
+    "Psionic": {
+        "description": "Capable of projecting thought-forms and telekinetic force.",
+        "types": [
+            "Passive",
+            "Psionic"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Reaction Strike": {
+        "description": "Lightning-fast reflexes allow for immediate retaliation when engaged.",
+        "types": [
+            "Passive",
+            "Melee_Attack"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "expr": "1"
+            }
+        ],
+        "combat_flags": [
+            "Provokes_Reaction"
+        ]
+    },
+    "Reflective Carapace": {
+        "description": "Chitinous armor polished to mirror sheen, scattering light and energy.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "3"
+            },
+            {
+                "target": "radiant_resist",
+                "op": "add",
+                "expr": "4"
+            }
+        ]
+    },
+    "Scavenger": {
+        "description": "A specialized digestive tract immune to rot and carrion diseases.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "expr": "1"
+            },
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Sure-Footed": {
+        "description": "Exceptional balance. Advantage on checks to avoid being knocked prone.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "3"
+            }
+        ]
+    },
+    "Thermal Vision": {
+        "description": "Eyes adapted to perceive heat signatures through absolute darkness.",
+        "types": [
+            "Passive",
+            "Perception"
+        ],
+        "range": "120ft",
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "add",
+                "expr": "60"
+            }
+        ]
     },
     "Thick Fur": {
-        "description": "Needs data generation based on name.",
+        "description": "Dense pelage providing excellent insulation against freezing temperatures.",
         "types": [
             "Passive"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "expr": "4"
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "1"
+            }
+        ]
+    },
+    "Tracking": {
+        "description": "Mastery of reading broken twigs, disturbed dust, and faint scents.",
+        "types": [
+            "Passive",
+            "Perception"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "3"
+            }
+        ]
     },
     "Undead Nature": {
-        "description": "Needs data generation based on name.",
+        "description": "Does not require air, food, drink, or sleep.",
         "types": [
             "Passive"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "expr": "99"
+            },
+            {
+                "target": "necrotic_resist",
+                "op": "add",
+                "expr": "99"
+            }
+        ]
     },
     "Water Retention": {
-        "description": "Needs data generation based on name.",
+        "description": "Specialized kidneys and pores that drastically slow dehydration.",
         "types": [
             "Passive"
         ],
-        "range": "Melee"
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "water_retention",
+                "op": "add",
+                "expr": "5"
+            }
+        ]
     }
 }

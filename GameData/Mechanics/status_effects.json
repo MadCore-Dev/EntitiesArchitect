@@ -7,7 +7,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Acid"
+                "damage_type": "Acid",
+                "stat_dependencies": []
             }
         ]
     },
@@ -18,18 +19,22 @@
             {
                 "target": "hearing_range",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
     "Arcane_Interference": {
         "description": "Static in the weave making spellcasting dangerous.",
-        "blocks_skill_types": [],
+        "blocks_skill_types": [
+            "Spell"
+        ],
         "mods": [
             {
                 "target": "sense_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -41,7 +46,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d8",
-                "damage_type": "Arcane"
+                "damage_type": "Arcane",
+                "stat_dependencies": []
             }
         ]
     },
@@ -52,7 +58,8 @@
             {
                 "target": "vision_range",
                 "op": "subtract",
-                "expr": "30"
+                "expr": "30",
+                "stat_dependencies": []
             }
         ]
     },
@@ -64,12 +71,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1",
-                "damage_type": "Shredding"
+                "damage_type": "Shredding",
+                "stat_dependencies": []
             },
             {
                 "target": "stamina_regen",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -80,7 +89,8 @@
             {
                 "target": "wis",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -92,20 +102,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Slashing"
-            }
-        ]
-    },
-    "Blind": {
-        "description": "Total loss of visual perception.",
-        "blocks_skill_types": [
-            "Perception"
-        ],
-        "mods": [
-            {
-                "target": "vision_range",
-                "op": "set",
-                "expr": "0"
+                "damage_type": "Slashing",
+                "stat_dependencies": []
             }
         ]
     },
@@ -118,7 +116,8 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -129,7 +128,14 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "10"
+                "expr": "10",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cold_resist",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -140,7 +146,8 @@
             {
                 "target": "evasion",
                 "op": "add",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -154,7 +161,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "3d6",
-                "damage_type": "Bludgeoning"
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
             }
         ]
     },
@@ -169,7 +177,8 @@
             {
                 "target": "wis",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -180,7 +189,8 @@
             {
                 "target": "stamina",
                 "op": "subtract",
-                "expr": "1"
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -191,12 +201,14 @@
             {
                 "target": "int",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             },
             {
                 "target": "wis",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -207,7 +219,14 @@
             {
                 "target": "evasion",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -218,7 +237,8 @@
             {
                 "target": "natural_armor",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -230,12 +250,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Hydraulic"
+                "damage_type": "Hydraulic",
+                "stat_dependencies": []
             },
             {
                 "target": "speed_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -246,7 +268,8 @@
             {
                 "target": "speed_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -257,7 +280,14 @@
             {
                 "target": "vision_range",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -270,7 +300,8 @@
             {
                 "target": "hearing_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -282,12 +313,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Piercing"
+                "damage_type": "Piercing",
+                "stat_dependencies": []
             },
             {
                 "target": "stamina_regen",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -298,7 +331,8 @@
             {
                 "target": "vision_range",
                 "op": "multiply",
-                "expr": "0.75"
+                "expr": "0.75",
+                "stat_dependencies": []
             }
         ]
     },
@@ -309,7 +343,8 @@
             {
                 "target": "sense_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -321,7 +356,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Necrotic"
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
             }
         ]
     },
@@ -337,7 +373,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d10",
-                "damage_type": "Bludgeoning"
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
             }
         ]
     },
@@ -349,7 +386,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d8",
-                "damage_type": "Fire"
+                "damage_type": "Fire",
+                "stat_dependencies": []
             }
         ]
     },
@@ -361,7 +399,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Bludgeoning"
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
             }
         ]
     },
@@ -372,7 +411,8 @@
             {
                 "target": "evasion",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -384,7 +424,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Cold"
+                "damage_type": "Cold",
+                "stat_dependencies": []
             }
         ]
     },
@@ -397,7 +438,8 @@
             {
                 "target": "speed_bonus",
                 "op": "add",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -409,12 +451,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Cold"
+                "damage_type": "Cold",
+                "stat_dependencies": []
             },
             {
                 "target": "dex",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -428,7 +472,8 @@
             {
                 "target": "evasion",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -439,7 +484,8 @@
             {
                 "target": "acrobatics_bonus",
                 "op": "subtract",
-                "expr": "4"
+                "expr": "4",
+                "stat_dependencies": []
             }
         ]
     },
@@ -450,12 +496,14 @@
             {
                 "target": "stamina_regen",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             },
             {
                 "target": "con",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -466,7 +514,8 @@
             {
                 "target": "vision_range",
                 "op": "multiply",
-                "expr": "1.5"
+                "expr": "1.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -477,12 +526,14 @@
             {
                 "target": "stamina",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             },
             {
                 "target": "int",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -494,7 +545,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Fire"
+                "damage_type": "Fire",
+                "stat_dependencies": []
             }
         ]
     },
@@ -506,12 +558,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1",
-                "damage_type": "Disease"
+                "damage_type": "Disease",
+                "stat_dependencies": []
             },
             {
                 "target": "stamina_regen",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -522,29 +576,15 @@
             {
                 "target": "wis",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             },
             {
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1",
-                "damage_type": "Disease"
-            }
-        ]
-    },
-    "Knocked_Prone": {
-        "description": "Forced to the ground.",
-        "blocks_skill_types": [],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "multiply",
-                "expr": "0.5"
-            },
-            {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
+                "damage_type": "Disease",
+                "stat_dependencies": []
             }
         ]
     },
@@ -556,7 +596,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "4d10",
-                "damage_type": "Fire"
+                "damage_type": "Fire",
+                "stat_dependencies": []
             }
         ]
     },
@@ -568,7 +609,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "2d8",
-                "damage_type": "Fire"
+                "damage_type": "Fire",
+                "stat_dependencies": []
             }
         ]
     },
@@ -579,7 +621,14 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "5"
+                "expr": "5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "arcane_resist",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -590,7 +639,8 @@
             {
                 "target": "int",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -605,7 +655,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Arcane"
+                "damage_type": "Arcane",
+                "stat_dependencies": []
             }
         ]
     },
@@ -617,7 +668,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Poison"
+                "damage_type": "Poison",
+                "stat_dependencies": []
             }
         ]
     },
@@ -629,7 +681,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1",
-                "damage_type": "Shredding"
+                "damage_type": "Shredding",
+                "stat_dependencies": []
             }
         ]
     },
@@ -640,7 +693,8 @@
             {
                 "target": "sense_bonus",
                 "op": "subtract",
-                "expr": "4"
+                "expr": "4",
+                "stat_dependencies": []
             }
         ]
     },
@@ -651,7 +705,8 @@
             {
                 "target": "evasion",
                 "op": "add",
-                "expr": "5"
+                "expr": "5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -662,7 +717,8 @@
             {
                 "target": "evasion",
                 "op": "add",
-                "expr": "10"
+                "expr": "10",
+                "stat_dependencies": []
             }
         ]
     },
@@ -673,7 +729,8 @@
             {
                 "target": "water_retention",
                 "op": "subtract",
-                "expr": "3"
+                "expr": "3",
+                "stat_dependencies": []
             }
         ]
     },
@@ -696,7 +753,8 @@
             {
                 "target": "evasion",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -710,7 +768,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d8",
-                "damage_type": "Piercing"
+                "damage_type": "Piercing",
+                "stat_dependencies": []
             }
         ]
     },
@@ -721,7 +780,8 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -729,13 +789,15 @@
         "description": "In a state of freefall.",
         "blocks_skill_types": [
             "Movement",
-            "Stance"
+            "Stance",
+            "Melee_Attack"
         ],
         "mods": [
             {
                 "target": "evasion",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -747,7 +809,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Poison"
+                "damage_type": "Poison",
+                "stat_dependencies": []
             }
         ]
     },
@@ -758,12 +821,14 @@
             {
                 "target": "evasion",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             },
             {
                 "target": "speed_bonus",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -774,12 +839,14 @@
             {
                 "target": "scent_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             },
             {
                 "target": "con",
                 "op": "subtract",
-                "expr": "1"
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -790,7 +857,14 @@
             {
                 "target": "vision_range",
                 "op": "multiply",
-                "expr": "0.75"
+                "expr": "0.75",
+                "stat_dependencies": []
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -801,7 +875,14 @@
             {
                 "target": "sense_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "vision_range",
+                "op": "subtract",
+                "expr": "10",
+                "stat_dependencies": []
             }
         ]
     },
@@ -814,7 +895,8 @@
             {
                 "target": "evasion",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -825,13 +907,15 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "10"
+                "expr": "10",
+                "stat_dependencies": []
             },
             {
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1",
-                "damage_type": "Shredding"
+                "damage_type": "Shredding",
+                "stat_dependencies": []
             }
         ]
     },
@@ -842,7 +926,14 @@
             {
                 "target": "evasion",
                 "op": "add",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -853,7 +944,14 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "10"
+                "expr": "10",
+                "stat_dependencies": []
+            },
+            {
+                "target": "stamina_regen",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -864,7 +962,14 @@
             {
                 "target": "vision_range",
                 "op": "set",
-                "expr": "5"
+                "expr": "5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -876,12 +981,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d6",
-                "damage_type": "Necrotic"
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
             },
             {
                 "target": "wis",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -892,7 +999,8 @@
             {
                 "target": "scent_range",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -905,7 +1013,14 @@
             {
                 "target": "hearing_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
+            },
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -922,7 +1037,8 @@
             {
                 "target": "evasion",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -938,7 +1054,8 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d8",
-                "damage_type": "Bludgeoning"
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
             }
         ]
     },
@@ -950,20 +1067,23 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Piercing"
+                "damage_type": "Piercing",
+                "stat_dependencies": []
             }
         ]
     },
     "Swept_Away": {
         "description": "Carried off uncontrollably by currents or wind.",
         "blocks_skill_types": [
-            "Movement"
+            "Movement",
+            "Stance"
         ],
         "mods": [
             {
                 "target": "evasion",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -974,7 +1094,14 @@
             {
                 "target": "evasion",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "speed_bonus",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -985,7 +1112,8 @@
             {
                 "target": "vision_range",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -996,7 +1124,14 @@
             {
                 "target": "hearing_range",
                 "op": "multiply",
-                "expr": "0.5"
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": []
             }
         ]
     },
@@ -1007,7 +1142,14 @@
             {
                 "target": "sense_bonus",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -1020,7 +1162,8 @@
             {
                 "target": "speed_bonus",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -1033,7 +1176,8 @@
             {
                 "target": "evasion",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -1044,7 +1188,8 @@
             {
                 "target": "scent_range",
                 "op": "set",
-                "expr": "0"
+                "expr": "0",
+                "stat_dependencies": []
             }
         ]
     },
@@ -1056,12 +1201,14 @@
                 "target": "hp",
                 "op": "subtract",
                 "expr": "1d4",
-                "damage_type": "Necrotic"
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
             },
             {
                 "target": "con",
                 "op": "subtract",
-                "expr": "2"
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     }

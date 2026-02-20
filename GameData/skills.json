@@ -1,2330 +1,4 @@
 {
-    "Mandible Pinch": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Piercing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Nematocyst Lash": {
-        "description": "Burn",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Acid"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Acid_Burn",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Bellow": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Social Display": {
-        "description": "Advantage on Charisma.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Swipe": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
-            }
-        ]
-    },
-    "Bite": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Piercing"
-            }
-        ]
-    },
-    "Death Roll": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Stomp": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Crab Pinch": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Piercing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Unstoppable": {
-        "description": "Immune to Paralyzed and Petrified.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Paralyzed",
-                "chance_per_tick": 0.1,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Hiding": {
-        "description": "Hide in mud/sand.",
-        "types": [
-            "Stance"
-        ],
-        "range": "Melee"
-    },
-    "Maul": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Beak Tear": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Shredding"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Tentacle Lash": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Pack Tactics": {
-        "description": "Advantage if ally is near.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Cold Blooded": {
-        "description": "Vulnerable to Cold, Resistant to Fire.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Raptorial Grasp": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Barbed Sting": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Piercing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Mucous Skin": {
-        "description": "Advantage vs Grapple.",
-        "types": [
-            "Passive",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Display": {
-        "description": "Intimidate or Persuade.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Tail Whip": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Grunt": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Toxic Chomp": {
-        "description": "Poison",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Screech": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Scent": {
-        "description": "Advantage on Perception (Smell).",
-        "types": [
-            "Perception"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "sense_bonus",
-                "op": "add",
-                "expr": "2"
-            }
-        ]
-    },
-    "Shock Touch": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Lightning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Trap-Jaw Strike": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Bill Thrust": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Piercing"
-            }
-        ]
-    },
-    "Snatch": {
-        "description": "Grappled",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Paw Strike": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Toxic Spores": {
-        "description": "Poison",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Natural Armor": {
-        "description": "AC = 13 + Dex.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "expr": "3"
-            }
-        ]
-    },
-    "Soft Step": {
-        "description": "Advantage on Stealth.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "expr": "2"
-            }
-        ]
-    },
-    "Exoskeleton": {
-        "description": "Natural Armor.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "expr": "3"
-            }
-        ]
-    },
-    "Trample": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Serrated Bite": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Piercing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Counterbalance": {
-        "description": "Advantage on Acrobatics.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Slash": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
-            }
-        ]
-    },
-    "Tusk Slash": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Slashing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Claw": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Rooted": {
-        "description": "Speed 0, cannot be knocked prone.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Wall Climb": {
-        "description": "Can climb walls and ceilings.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Dig": {
-        "description": "Can burrow through soft earth.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Kick": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Leech Latch": {
-        "description": "Drain",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d2",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Drained",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Amphibious": {
-        "description": "Breathe air and water.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Blood Frenzy": {
-        "description": "Advantage vs wounded targets.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Suction Grip": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Grapple": {
-        "description": "Restrained",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Nibble": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d2",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Iron Grip": {
-        "description": "Advantage on Grip/Climb.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Buzz": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Tool Use": {
-        "description": "Can use tools.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Speech": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Climb": {
-        "description": "Climbing speed equals walking speed.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Jump": {
-        "description": "Jump distance tripled.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Regeneration": {
-        "description": "Regain HP each turn.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Talon": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Venom Spur": {
-        "description": "Poison",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Thorn Whip": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "10ft",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Silent Flight": {
-        "description": "Stealth while flying.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "expr": "2"
-            }
-        ]
-    },
-    "Flammable": {
-        "description": "Vulnerable to Fire.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Kangaroo Box": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Reverse Swim": {
-        "description": "Swim backwards full speed.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Unarmed": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Acrobatics": {
-        "description": "No description",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Tail Swipe": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
-            }
-        ]
-    },
-    "Chirp": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Sparkle": {
-        "description": "Distract.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Grip": {
-        "description": "Hold object with tail.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Scratch": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Intimidate": {
-        "description": "No description",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Dive Bomb": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Headbutt": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Eel Discharge": {
-        "description": "Paralysis",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Lightning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Paralyzed",
-                "chance_per_tick": 0.1,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Fine Motor": {
-        "description": "Can perform delicate tasks.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Pounce": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Deep Dive": {
-        "description": "Resist pressure.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Wing Buffet": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Swim": {
-        "description": "Swimming speed.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Blood Squirt": {
-        "description": "Blind",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Blinded",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            },
-            {
-                "id": "Blind",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Fear": {
-        "description": "Frightened",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Frightened",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Rhino Charge": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Slam": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Flight": {
-        "description": "Flying speed.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Roll Attack": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Web Shoot": {
-        "description": "Slow",
-        "types": [
-            "Ranged_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Restrained",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Thermal Flash": {
-        "description": "Burn",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Acid"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Acid_Burn",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Paralyze": {
-        "description": "Paralyzed",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Paralyzed",
-                "chance_per_tick": 0.1,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Mantis Scythe": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Dart": {
-        "description": "Short burst of speed.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Fluke Smash": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "3d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Braking": {
-        "description": "Stop flying immediately.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Spiked Tail": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Macaw Crush": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Swan Strike": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Steering": {
-        "description": "Better flight control.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Rake": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Pierce": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Piercing"
-            }
-        ]
-    },
-    "Sting": {
-        "description": "Poison",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Slap": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Breach": {
-        "description": "Leap out of water.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Hoof Stomp": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Hive Mind": {
-        "description": "Telepathic with others of same species.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Skunk Musk": {
-        "description": "Nausea",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d2",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Rudder": {
-        "description": "+1 AC while swimming/flying.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Stability": {
-        "description": "Advantage vs Shove.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Echolocation Blast": {
-        "description": "Blind",
-        "types": [
-            "Ranged_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Blinded",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Hurricane Gust": {
-        "description": "Push enemies away.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Quick Strike": {
-        "description": "First Strike",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Crunch": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Venom Spit": {
-        "description": "Blind",
-        "types": [
-            "Ranged_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Blinded",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Antler Toss": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Spider Climb": {
-        "description": "Climb difficult surfaces without check.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Incorporeal": {
-        "description": "Move through objects.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Spine Charge": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Leathery Wing Buffet": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Third Hand": {
-        "description": "Can use tail as hand.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Block": {
-        "description": "+2 AC",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Python Squeeze": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Bark_Roar": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Endurance": {
-        "description": "Advantage on Con saves vs Exhaustion.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Poison": {
-        "description": "Poisoned",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Boiling Fluid": {
-        "description": "Burn",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Acid"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Acid_Burn",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Spore Cloud": {
-        "description": "Poisoned area.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Maneuverability": {
-        "description": "Can turn sharply while flying.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Gore": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Stealth": {
-        "description": "No description",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Vampiric Drain": {
-        "description": "Drain",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Drained",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Click_Hiss": {
-        "description": "No description",
-        "types": [
-            "Vocal"
-        ],
-        "range": "Audible",
-        "combat_flags": [
-            "Breaks_Stealth",
-            "Provokes_Reaction"
-        ]
-    },
-    "Squeeze": {
-        "description": "Fit through small spaces.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Horn Ram": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Sword-Bill Slash": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Slashing"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Hollow Bones": {
-        "description": "Reduced weight.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Dive": {
-        "description": "Extra damage on charge from above.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Web Spinner": {
-        "description": "Create webs.",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Agility": {
-        "description": "+2 Dex Check.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Throat Crush": {
-        "description": "Silence",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Elemental Resistance": {
-        "description": "Resistant to element type.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Quill Shoot": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Gills": {
-        "description": "Can breathe water.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Hind Kick": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Peck": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Schooling": {
-        "description": "Advantage vs Fear if near allies.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Crush": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Ensnare": {
-        "description": "Restrained",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Restrained",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Social": {
-        "description": "No description",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee"
-    },
-    "Tremor Sense": {
-        "description": "No description",
-        "types": [
-            "Perception"
-        ],
-        "range": "60ft"
-    },
-    "Eviscerate": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "3d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Cold Touch": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Gnaw": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Sprint": {
-        "description": "Dash as bonus action.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Body Slam": {
-        "description": "Knockback",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Prone",
-                "chance_per_tick": 0.5,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Thresher Slap": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Leap": {
-        "description": "Long jump distance doubled.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
     "Acid Spray": {
         "description": "Burn",
         "types": [
@@ -2336,8 +10,11 @@
             {
                 "target": "hp",
                 "op": "subtract",
-                "expr": "2d4",
-                "damage_type": "Acid"
+                "expr": "2d4 + con",
+                "damage_type": "Acid",
+                "stat_dependencies": [
+                    "con"
+                ]
             }
         ],
         "payloads": [
@@ -2348,378 +25,52 @@
             }
         ]
     },
-    "Crushing Jaw": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Constrict": {
-        "description": "Slow",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Neurotoxic Sting": {
-        "description": "Paralysis",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            },
-            {
-                "id": "Paralyzed",
-                "chance_per_tick": 0.1,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Hooked Beak": {
-        "description": "Bleed",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Bleeding",
-                "chance_per_tick": 0.25,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Keen Sight": {
-        "description": "Advantage on Perception (Sight).",
-        "types": [
-            "Perception"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "sense_bonus",
-                "op": "add",
-                "expr": "2"
-            }
-        ]
-    },
-    "Barbed Harpoon": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d8",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "Jaw Snap": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Reach": {
-        "description": "No description",
-        "types": [
-            "Passive"
-        ],
-        "range": "+5ft"
-    },
-    "Throw": {
-        "description": "No description",
+    "Acrobatics": {
+        "description": "Tumbling and flipping maneuvers.",
         "types": [
             "Enhancement"
         ],
-        "range": "20/60"
-    },
-    "Drain": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
         "range": "Melee",
         "mods": [
             {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Bludgeoning"
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2 + dex",
+                "stat_dependencies": [
+                    "dex"
+                ]
             }
         ]
-    },
-    "Photosynthesis": {
-        "description": "Needs sunlight instead of food.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
     },
     "Aerobatics": {
         "description": "Advantage on flying Dex saves.",
         "types": [
             "Passive"
         ],
-        "range": "Melee"
-    },
-    "Fin Slash": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
         "range": "Melee",
         "mods": [
             {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Slashing"
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "4 + dex",
+                "stat_dependencies": [
+                    "dex"
+                ]
             }
         ]
     },
-    "Chew": {
-        "description": "No description",
-        "types": [
-            "Enhancement"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d2",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Magic Immunity": {
-        "description": "Immune to spells lvl 3 and lower.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Durability": {
-        "description": "+1 HP per HD.",
-        "types": [
-            "Passive"
-        ],
-        "range": "Melee"
-    },
-    "Hover": {
-        "description": "Can hover in place.",
-        "types": [
-            "Movement"
-        ],
-        "range": "Melee"
-    },
-    "Sonic Snap": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d10",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Venomous Bite": {
-        "description": "Poison",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d4",
-                "damage_type": "Poison"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Poisoned",
-                "chance_per_tick": 0.3,
-                "duration_ticks": 5
-            }
-        ]
-    },
-    "No Pain": {
-        "description": "Immune to Stun.",
+    "Agility": {
+        "description": "+2 Dex Check.",
         "types": [
             "Passive"
         ],
         "range": "Melee",
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Pincer Snipe": {
-        "description": "No description",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
         "mods": [
             {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "1d6",
-                "damage_type": "Bludgeoning"
-            }
-        ]
-    },
-    "Ink Cloud": {
-        "description": "Blind",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Blinded",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            },
-            {
-                "id": "Blind",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 3
-            }
-        ]
-    },
-    "Tail Club": {
-        "description": "Stun",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon"
-        ],
-        "range": "Melee",
-        "mods": [
-            {
-                "target": "hp",
-                "op": "subtract",
-                "expr": "2d6",
-                "damage_type": "Bludgeoning"
-            }
-        ],
-        "payloads": [
-            {
-                "id": "Stunned",
-                "chance_per_tick": 0.2,
-                "duration_ticks": 2
-            }
-        ]
-    },
-    "Slime Secretion": {
-        "description": "Grapple",
-        "types": [
-            "Melee_Attack",
-            "Natural_Weapon",
-            "Grapple"
-        ],
-        "range": "Melee",
-        "payloads": [
-            {
-                "id": "Grappled",
-                "chance_per_tick": 1.0,
-                "duration_ticks": 5
+                "target": "dex",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -2738,6 +89,330 @@
             }
         ]
     },
+    "Amphibious": {
+        "description": "Breathe air and water.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee"
+    },
+    "Antler Toss": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Swept_Away",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 1
+            }
+        ]
+    },
+    "Barbed Harpoon": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Barbed Sting": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Bark_Roar": {
+        "description": "A booming alert that inspires allies and frightens prey.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "payloads": [
+            {
+                "id": "Frightened",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Beak Tear": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Shredding",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Bellow": {
+        "description": "A terrifying, deep-chested roar.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "payloads": [
+            {
+                "id": "Frightened",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Bill Thrust": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Bite": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Block": {
+        "description": "+2 AC",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "2 + (con * 0.5)",
+                "stat_dependencies": [
+                    "con"
+                ]
+            }
+        ]
+    },
+    "Blood Frenzy": {
+        "description": "Advantage vs wounded targets.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Blood Squirt": {
+        "description": "Blind",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Body Slam": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Boiling Fluid": {
+        "description": "Burn",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + con",
+                "damage_type": "Fire",
+                "stat_dependencies": [
+                    "con"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Extreme_Burn",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Braking": {
+        "description": "Stop flying immediately.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Breach": {
+        "description": "Leap out of water.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2 + str",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
     "Burrow": {
         "description": "Can displace soft earth and move underground.",
         "types": [
@@ -2753,6 +428,25 @@
             }
         ]
     },
+    "Buzz": {
+        "description": "A vibrating, highly irritating noise.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
     "Camouflage": {
         "description": "Naturally blends into the surrounding biome.",
         "types": [
@@ -2765,6 +459,361 @@
                 "target": "evasion",
                 "op": "add",
                 "expr": "3"
+            }
+        ]
+    },
+    "Chew": {
+        "description": "No description",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d2 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Chirp": {
+        "description": "A high-pitched alert call.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ]
+    },
+    "Claw": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Click_Hiss": {
+        "description": "Echolocation pulse mixed with a warning hiss.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "1 + (int * 0.5)",
+                "stat_dependencies": [
+                    "int"
+                ]
+            }
+        ]
+    },
+    "Climb": {
+        "description": "Climbing speed equals walking speed.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Cold Blooded": {
+        "description": "Vulnerable to Cold, Resistant to Fire.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "3",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cold_resist",
+                "op": "subtract",
+                "expr": "3",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Cold Touch": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + int",
+                "damage_type": "Cold",
+                "stat_dependencies": [
+                    "int"
+                ]
+            }
+        ]
+    },
+    "Constrict": {
+        "description": "Slow",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            },
+            {
+                "id": "Suffocation",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Counterbalance": {
+        "description": "Advantage on Acrobatics.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Crab Pinch": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Crunch": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 4
+            }
+        ]
+    },
+    "Crush": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Crushing Jaw": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Dart": {
+        "description": "Short burst of speed.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Death Roll": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Deep Dive": {
+        "description": "Resist pressure.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "water_retention",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": [
+                    "con"
+                ]
+            }
+        ]
+    },
+    "Dig": {
+        "description": "Can burrow through soft earth.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1 + (str * 0.5)",
+                "stat_dependencies": [
+                    "str"
+                ]
             }
         ]
     },
@@ -2790,6 +839,131 @@
         ],
         "range": "Melee"
     },
+    "Display": {
+        "description": "Intimidate or Persuade.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "expr": "1 + (cha * 0.5)",
+                "stat_dependencies": [
+                    "cha"
+                ]
+            }
+        ]
+    },
+    "Dive Bomb": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Dive": {
+        "description": "Extra damage on charge from above.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "3",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Drain": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Necrotic",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Drained",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Durability": {
+        "description": "+1 HP per HD.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Echolocation Blast": {
+        "description": "Blind",
+        "types": [
+            "Ranged_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + int",
+                "damage_type": "Sonic",
+                "stat_dependencies": [
+                    "int"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
     "Echolocation": {
         "description": "Active emission of sound waves to map surroundings.",
         "types": [
@@ -2803,6 +977,177 @@
                 "target": "hearing_range",
                 "op": "add",
                 "expr": "60"
+            }
+        ]
+    },
+    "Eel Discharge": {
+        "description": "Paralysis",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Lightning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Elemental Resistance": {
+        "description": "Resistant to element type.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Endurance": {
+        "description": "Advantage on Con saves vs Exhaustion.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ensnare": {
+        "description": "Restrained",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Restrained",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Eviscerate": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "3d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Exoskeleton": {
+        "description": "Natural Armor.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "4"
+            }
+        ]
+    },
+    "Fear": {
+        "description": "Frightened",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Frightened",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Fin Slash": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Fine Motor": {
+        "description": "Can perform delicate tasks.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
             }
         ]
     },
@@ -2820,6 +1165,64 @@
             }
         ]
     },
+    "Flammable": {
+        "description": "Vulnerable to Fire.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "fire_resist",
+                "op": "subtract",
+                "expr": "5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Flight": {
+        "description": "Flying speed.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Fluke Smash": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "3d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
     "Forage": {
         "description": "Expertise in locating edible flora and hidden sustenance.",
         "types": [
@@ -2832,6 +1235,155 @@
                 "target": "sense_bonus",
                 "op": "add",
                 "expr": "1"
+            }
+        ]
+    },
+    "Gills": {
+        "description": "Can breathe water.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "water_retention",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Gnaw": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Gore": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Grapple": {
+        "description": "Restrained",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Grip": {
+        "description": "Hold object with tail.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Grunt": {
+        "description": "A low, guttural sound to warn off intruders.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Headbutt": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
             }
         ]
     },
@@ -2870,6 +1422,482 @@
             }
         ]
     },
+    "Hiding": {
+        "description": "Hide in mud/sand.",
+        "types": [
+            "Stance"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "3 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Hind Kick": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.6,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Hive Mind": {
+        "description": "Telepathic with others of same species.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Hollow Bones": {
+        "description": "Reduced weight.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Hoof Stomp": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Hooked Beak": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.35,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Horn Ram": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Hover": {
+        "description": "Can hover in place.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "1 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Hurricane Gust": {
+        "description": "Push enemies away.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.6,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Swept_Away",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Incorporeal": {
+        "description": "Move through objects.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ink Cloud": {
+        "description": "Blind",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            },
+            {
+                "id": "Blind",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Intimidate": {
+        "description": "Frighten the enemy.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Frightened",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Iron Grip": {
+        "description": "Advantage on Grip/Climb.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "3",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Jaw Snap": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Jump": {
+        "description": "Jump distance tripled.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2 + (str * 0.5)",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Kangaroo Box": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Keen Sight": {
+        "description": "Advantage on Perception (Sight).",
+        "types": [
+            "Perception"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2 + (wis * 0.5)",
+                "stat_dependencies": [
+                    "wis"
+                ]
+            }
+        ]
+    },
+    "Kick": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Leap": {
+        "description": "Long jump distance doubled.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2 + str",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Leathery Wing Buffet": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Dazzle",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 1
+            }
+        ]
+    },
+    "Leech Latch": {
+        "description": "Drain",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d2 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Drained",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Macaw Crush": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Magic Immunity": {
+        "description": "Immune to spells lvl 3 and lower.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "arcane_resist",
+                "op": "add",
+                "expr": "99",
+                "stat_dependencies": []
+            }
+        ]
+    },
     "Magic Resistance": {
         "description": "Innate nullification of localized arcane fluctuations.",
         "types": [
@@ -2884,6 +1912,121 @@
             }
         ]
     },
+    "Mandible Pinch": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Maneuverability": {
+        "description": "Can turn sharply while flying.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Mantis Scythe": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Maul": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d10 + (str * 1.5)",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Mucous Skin": {
+        "description": "Advantage vs Grapple.",
+        "types": [
+            "Passive",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Natural Armor": {
+        "description": "AC = 13 + Dex.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "expr": "3"
+            }
+        ]
+    },
     "Necrotic Resistance": {
         "description": "Cellular structure that resists entropic decay.",
         "types": [
@@ -2895,6 +2038,96 @@
                 "target": "necrotic_resist",
                 "op": "add",
                 "expr": "5"
+            }
+        ]
+    },
+    "Nematocyst Lash": {
+        "description": "Burn",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Acid",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Acid_Burn",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Neurotoxic Sting": {
+        "description": "Paralysis",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + int",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "int"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            },
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Nibble": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d2 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "No Pain": {
+        "description": "Immune to Stun.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
             }
         ]
     },
@@ -2917,6 +2150,126 @@
             }
         ]
     },
+    "Pack Tactics": {
+        "description": "Advantage if ally is near.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Paralyze": {
+        "description": "Paralyzed",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Paw Strike": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Peck": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Photosynthesis": {
+        "description": "Needs sunlight instead of food.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Pierce": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Pincer Snipe": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
     "Poison Resistance": {
         "description": "A highly robust liver and immune system that filters blood-borne toxins.",
         "types": [
@@ -2928,6 +2281,46 @@
                 "target": "poison_resist",
                 "op": "add",
                 "expr": "5"
+            }
+        ]
+    },
+    "Poison": {
+        "description": "Poisoned",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Pounce": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
             }
         ]
     },
@@ -2943,6 +2336,144 @@
                 "target": "int",
                 "op": "add",
                 "expr": "2"
+            }
+        ]
+    },
+    "Python Squeeze": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            },
+            {
+                "id": "Suffocation",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Quick Strike": {
+        "description": "First Strike",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Quill Shoot": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + dex",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Rake": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Raptorial Grasp": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Reach": {
+        "description": "No description",
+        "types": [
+            "Passive"
+        ],
+        "range": "+5ft",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
             }
         ]
     },
@@ -2983,6 +2514,123 @@
             }
         ]
     },
+    "Regeneration": {
+        "description": "Regain HP each turn.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp_regen",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": [
+                    "con"
+                ]
+            }
+        ]
+    },
+    "Reverse Swim": {
+        "description": "Swim backwards full speed.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Rhino Charge": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Roll Attack": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Rooted": {
+        "description": "Speed 0, cannot be knocked prone.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Rudder": {
+        "description": "+1 AC while swimming/flying.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "1 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
     "Scavenger": {
         "description": "A specialized digestive tract immune to rot and carrion diseases.",
         "types": [
@@ -3002,6 +2650,620 @@
             }
         ]
     },
+    "Scent": {
+        "description": "Advantage on Perception (Smell).",
+        "types": [
+            "Perception"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Schooling": {
+        "description": "Advantage vs Fear if near allies.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Scratch": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Screech": {
+        "description": "An ear-piercing high frequency sound.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "payloads": [
+            {
+                "id": "Deafened",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Serrated Bite": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Shock Touch": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Lightning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Silent Flight": {
+        "description": "Stealth while flying.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Skunk Musk": {
+        "description": "Nausea",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d2 + str",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Putrid_Stench",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Slam": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Slap": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Slash": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Slime Secretion": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            },
+            {
+                "id": "Acid_Burn",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Snatch": {
+        "description": "Grappled",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Social Display": {
+        "description": "Advantage on Charisma.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Social": {
+        "description": "Charismatic interaction.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Soft Step": {
+        "description": "Advantage on Stealth.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2"
+            }
+        ]
+    },
+    "Sonic Snap": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d10 + str",
+                "damage_type": "Sonic",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Sparkle": {
+        "description": "Distract.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Dazzle",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Speech": {
+        "description": "Capable of complex language.",
+        "types": [
+            "Vocal"
+        ],
+        "range": "Audible",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ],
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Spider Climb": {
+        "description": "Climb difficult surfaces without check.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Spiked Tail": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Spine Charge": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Piercing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Spore Cloud": {
+        "description": "Poisoned area.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Miasma_Poison",
+                "chance_per_tick": 0.8,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Sprint": {
+        "description": "Dash as bonus action.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2 + (con * 0.5)",
+                "stat_dependencies": [
+                    "con"
+                ]
+            }
+        ]
+    },
+    "Squeeze": {
+        "description": "Fit through small spaces.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Stability": {
+        "description": "Advantage vs Shove.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "3 + (str * 0.5)",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Stealth": {
+        "description": "Blending into the shadows.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "3 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Steering": {
+        "description": "Better flight control.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "add",
+                "expr": "2 + (dex * 0.5)",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Sting": {
+        "description": "Poison",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + dex",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Stomp": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Suction Grip": {
+        "description": "Grapple",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon",
+            "Grapple"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Grappled",
+                "chance_per_tick": 1,
+                "duration_ticks": 5
+            }
+        ]
+    },
     "Sure-Footed": {
         "description": "Exceptional balance. Advantage on checks to avoid being knocked prone.",
         "types": [
@@ -3013,6 +3275,241 @@
                 "target": "acrobatics_bonus",
                 "op": "add",
                 "expr": "3"
+            }
+        ]
+    },
+    "Swan Strike": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Swim": {
+        "description": "Swimming speed.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1 + (str * 0.5)",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Swipe": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ]
+    },
+    "Sword-Bill Slash": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d4 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Tail Club": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Concussion",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Tail Swipe": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Tail Whip": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Talon": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Tentacle Lash": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Thermal Flash": {
+        "description": "Burn",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Acid",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Acid_Burn",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 3
             }
         ]
     },
@@ -3050,6 +3547,164 @@
             }
         ]
     },
+    "Third Hand": {
+        "description": "Can use tail as hand.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Thorn Whip": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "10ft",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ]
+    },
+    "Thresher Slap": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + dex",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Throat Crush": {
+        "description": "Silence",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + (str * 1.5)",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Deafened",
+                "chance_per_tick": 0.8,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Throw": {
+        "description": "No description",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "20/60",
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Tool Use": {
+        "description": "Can use tools.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Toxic Chomp": {
+        "description": "Poison",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Toxic Spores": {
+        "description": "Poison",
+        "types": [
+            "Natural_Weapon",
+            "Ranged_Attack"
+        ],
+        "range": "10ft",
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.6,
+                "duration_ticks": 5
+            }
+        ]
+    },
     "Tracking": {
         "description": "Mastery of reading broken twigs, disturbed dust, and faint scents.",
         "types": [
@@ -3062,6 +3717,118 @@
                 "target": "sense_bonus",
                 "op": "add",
                 "expr": "3"
+            }
+        ]
+    },
+    "Trample": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d6 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Trap-Jaw Strike": {
+        "description": "Stun",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Tremor Sense": {
+        "description": "No description",
+        "types": [
+            "Perception"
+        ],
+        "range": "60ft",
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Tusk Slash": {
+        "description": "Bleed",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8 + str",
+                "damage_type": "Slashing",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Unarmed": {
+        "description": "No description",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
             }
         ]
     },
@@ -3084,6 +3851,144 @@
             }
         ]
     },
+    "Unstoppable": {
+        "description": "Immune to Paralyzed and Petrified.",
+        "types": [
+            "Passive"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Vampiric Drain": {
+        "description": "Drain",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + int",
+                "damage_type": "Necrotic",
+                "stat_dependencies": [
+                    "int"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Soul_Drain",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
+            }
+        ]
+    },
+    "Venom Spit": {
+        "description": "Blind",
+        "types": [
+            "Ranged_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + dex",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "dex"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Venom Spur": {
+        "description": "Poison",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6 + str",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Venomous Bite": {
+        "description": "Poison",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Poison",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 5
+            },
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.05,
+                "duration_ticks": 1
+            }
+        ]
+    },
+    "Wall Climb": {
+        "description": "Can climb walls and ceilings.",
+        "types": [
+            "Movement"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
     "Water Retention": {
         "description": "Specialized kidneys and pores that drastically slow dehydration.",
         "types": [
@@ -3095,6 +4000,61 @@
                 "target": "water_retention",
                 "op": "add",
                 "expr": "5"
+            }
+        ]
+    },
+    "Web Shoot": {
+        "description": "Slow",
+        "types": [
+            "Ranged_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Web_Ensnare",
+                "chance_per_tick": 1,
+                "duration_ticks": 3
+            }
+        ]
+    },
+    "Web Spinner": {
+        "description": "Create webs.",
+        "types": [
+            "Enhancement"
+        ],
+        "range": "Melee",
+        "payloads": [
+            {
+                "id": "Web_Ensnare",
+                "chance_per_tick": 0.8,
+                "duration_ticks": 5
+            }
+        ]
+    },
+    "Wing Buffet": {
+        "description": "Knockback",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "range": "Melee",
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4 + str",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": [
+                    "str"
+                ]
+            }
+        ],
+        "payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 2
             }
         ]
     }

@@ -404,117 +404,7 @@
         const GeneratorView = () => {
             const [entity, setEntity] = useState(null);
 
-            const generate = () => {
-                const e = new Entity("Random Creature");
-
-                // Helper to pick random item
-                const pick = (obj) => {
-                    if (!obj) return null;
-                    const keys = Object.keys(obj);
-                    if (!keys.length) return null;
-                    const key = keys[Math.floor(Math.random() * keys.length)];
-                    return { key, ...obj[key] };
-                };
-
-                // Helper filter pick
-                const pickFiltered = (obj, pred) => {
-                    if (!obj) return null;
-                    const keys = Object.keys(obj).filter(k => pred(obj[k]));
-                    if (!keys.length) return null;
-                    const key = keys[Math.floor(Math.random() * keys.length)];
-                    return { key, ...obj[key] };
-                };
-
-                // 1. Core Body - Chassis
-                const chassis = pick(GAME_DATA.bodies.core.chassis);
-                if (chassis) {
-                    e.traits.push(chassis.key);
-                    e.traits.push(...(chassis.tags || []));
-                    if (chassis.skills) e.skills.push(...chassis.skills);
-                    if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassis.key));
-                }
-
-                // 2. Head (Cranium)
-                // In new structure, Head is primarily Cranium + potentially Maw/Eyes/Ears/Nose
-                // We'll pick a Cranium if chassis has "Head" slot
-                if (chassis && chassis.slots && chassis.slots.includes("Head")) {
-                    const cranium = pickFiltered(GAME_DATA.bodies.cephalon.cranium, (item) => {
-                        // Match tags if possible, else random
-                        return !item.tags || item.tags.some(t => e.traits.includes(t));
-                    }) || pick(GAME_DATA.bodies.cephalon.cranium);
-
-                    if (cranium) {
-                        e.parts.push(cranium.key);
-                        if (cranium.mods) cranium.mods.forEach(m => e.applyMod(m.target, m.op, m.val, cranium.key));
-                        if (cranium.skills) e.skills.push(...cranium.skills);
-                    }
-                }
-
-                // 3. Integument
-                const integument = pickFiltered(GAME_DATA.bodies.core.integument, (item) => {
-                    return item.tags && item.tags.some(t => e.traits.includes(t));
-                });
-                if (integument) {
-                    e.parts.push(integument.key);
-                    if (integument.mods) integument.mods.forEach(m => e.applyMod(m.target, m.op, m.val, integument.key));
-                }
-
-                // 4. Variations
-                e.variations = {};
-
-                const biome = pick(GAME_DATA.variations.biomes);
-                if (biome) e.variations.biome = biome.key;
-
-                const pattern = pick(GAME_DATA.variations.appearances.patterns);
-                if (pattern) e.variations.pattern = pattern.key;
-
-                const pig = pick(GAME_DATA.variations.appearances.pigmentation);
-                if (pig) e.variations.pigmentation = pig.key;
-
-                const size = pick(GAME_DATA.variations.size_indices);
-                if (size) e.variations.size = size.key;
-
-                const bioUpgrade = Math.random() > 0.7 ? pick(GAME_DATA.variations.biological_upgrades) : null;
-                if (bioUpgrade) {
-                    e.variations.upgrade = bioUpgrade.key;
-                    if (bioUpgrade.mods) bioUpgrade.mods.forEach(m => e.applyMod(m.target, m.op, m.val, bioUpgrade.key));
-                }
-
-                // 5. Loot
-                e.loot = [];
-                // Check anatomy drops against all traits/parts
-                const anatomyDrops = GAME_DATA.loot.anatomy_drops || {};
-                const allTags = new Set([...e.traits, ...e.parts]);
-
-                // Matches if key matches a tag or part name fuzzy
-                Object.keys(anatomyDrops).forEach(key => {
-                    // Primitive matching logic as fallback
-                    if (allTags.has(key) || Array.from(allTags).some(t => t.includes(key) || key.includes(t))) {
-                        e.loot.push({ name: key, ...anatomyDrops[key] });
-                    }
-                });
-                // Force at least one drop if none
-                if (e.loot.length === 0 && chassis) {
-                    // Fallback to generic Meat/Bones logic if nothing matched
-                    if (anatomyDrops["Meat_Muscle"]) e.loot.push({ name: "Meat_Muscle", ...anatomyDrops["Meat_Muscle"] });
-                    if (anatomyDrops["Legs_Bones"]) e.loot.push({ name: "Legs_Bones", ...anatomyDrops["Legs_Bones"] });
-                }
-
-                // Prefix
-                if (Math.random() > 0.5) {
-                    const prefix = pick(GAME_DATA.prefixes);
-                    if (prefix) {
-                        e.traits.push(prefix.key);
-                        if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, prefix.key));
-                    }
-                }
-
-                Object.values(e.stats).forEach(s => {
-                    if (s instanceof PotentialStat) s.fill();
-                });
-
-                setEntity(e);
-            };
+            const generate = () => { setEntity(generateEntity()); };
 
             return (
                 <div className="p-3 sm:p-4 h-full flex flex-col">
@@ -1180,167 +1070,560 @@
             );
         };
 
-        const BattleView = () => {
-            const [ent1, setEnt1] = useState(null);
-            const [ent2, setEnt2] = useState(null);
-            const [logs, setLogs] = useState([]);
+        // ==========================================
+        // SHARED ENTITY GENERATION HELPER
+        // ==========================================
+        function generateEntity() {
+            const e = new Entity("Random Creature");
 
-            const setup = () => {
-                const gen = (name) => {
-                    const e = new Entity(name);
-                    // Pick a chassis from live data
-                    const chassisKeys = Object.keys(GAME_DATA.bodies.core.chassis);
-                    if (!chassisKeys.length) return e;
-
-                    const type = name.includes("Wolf")
-                        ? (chassisKeys.find(k => k.toLowerCase().includes('cursorial') || k.toLowerCase().includes('wolf')) || chassisKeys[0])
-                        : (chassisKeys.find(k => k.toLowerCase().includes('robust') || k.toLowerCase().includes('bear')) || chassisKeys[1] || chassisKeys[0]);
-
-                    const chassis = GAME_DATA.bodies.core.chassis[type];
-                    if (chassis) {
-                        e.traits.push(type, ...(chassis.tags || []));
-                        if (chassis.skills) e.skills.push(...chassis.skills);
-                        if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
-                    }
-
-                    e.skills.push("Bite");
-
-                    Object.values(e.stats).forEach(s => { if (s instanceof PotentialStat) s.fill(); });
-                    return e;
-                };
-
-                setEnt1(gen("Dire Wolf"));
-                setEnt2(gen("Cave Bear"));
-                setLogs(["Battle Initialized."]);
+            const pick = (obj) => {
+                if (!obj) return null;
+                const keys = Object.keys(obj);
+                if (!keys.length) return null;
+                const key = keys[Math.floor(Math.random() * keys.length)];
+                return { key, ...obj[key] };
             };
 
-            const fightTurn = () => {
-                const hp1 = ent1 && (ent1.stats.hp_max || ent1.stats.hp), hp2 = ent2 && (ent2.stats.hp_max || ent2.stats.hp);
-                if (!ent1 || !ent2 || hp1.currentValue <= 0 || hp2.currentValue <= 0) return;
+            const pickFiltered = (obj, pred) => {
+                if (!obj) return null;
+                const keys = Object.keys(obj).filter(k => pred(obj[k]));
+                if (!keys.length) return null;
+                const key = keys[Math.floor(Math.random() * keys.length)];
+                return { key, ...obj[key] };
+            };
 
-                const newLogs = [...logs];
+            // 1. Chassis
+            const chassis = pick(GAME_DATA.bodies.core.chassis);
+            if (chassis) {
+                e.traits.push(chassis.key);
+                e.traits.push(...(chassis.tags || []));
+                if (chassis.skills) e.skills.push(...chassis.skills);
+                if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassis.key));
+            }
 
-                const performAction = (attacker, defender) => {
-                    const atkHp = attacker.stats.hp_max || attacker.stats.hp;
-                    const defHp = defender.stats.hp_max || defender.stats.hp;
-                    if (atkHp.currentValue <= 0) return;
-
-                    const skillName = attacker.skills[Math.floor(Math.random() * attacker.skills.length)];
-                    const skillData = GAME_DATA.skills[skillName];
-
-                    if (!skillData) {
-                        newLogs.push(`${attacker.name} hesitates.`);
-                        return;
-                    }
-
-                    newLogs.push(`${attacker.name} uses ${skillName}!`);
-
-                    skillData.mods.forEach(mod => {
-                        if ((mod.target === "hp" || mod.target === "hp_max") && mod.op === "subtract") {
-                            const dmg = attacker.roll(mod.roll);
-                            const strMod = Math.floor((attacker.stats.str.getCurrentValue() - 10) / 2);
-                            const totalDmg = Math.max(1, dmg + strMod);
-
-                            defHp.currentValue -= totalDmg;
-                            newLogs.push(`> Hits ${defender.name} for ${totalDmg} damage! (${defHp.currentValue.toFixed(0)} HP left)`);
-                        }
-                        if (mod.target === "status") {
-                            newLogs.push(`> Applies ${mod.val} to ${defender.name}!`);
-                        }
-                    });
-                };
-
-                if (ent1.stats.dex.getCurrentValue() >= ent2.stats.dex.getCurrentValue()) {
-                    performAction(ent1, ent2);
-                    performAction(ent2, ent1);
-                } else {
-                    performAction(ent2, ent1);
-                    performAction(ent1, ent2);
+            // 2. Cranium
+            if (chassis && chassis.slots && chassis.slots.includes("Head")) {
+                const cranium = pickFiltered(GAME_DATA.bodies.cephalon.cranium, (item) =>
+                    !item.tags || item.tags.some(t => e.traits.includes(t))
+                ) || pick(GAME_DATA.bodies.cephalon.cranium);
+                if (cranium) {
+                    e.parts.push(cranium.key);
+                    if (cranium.mods) cranium.mods.forEach(m => e.applyMod(m.target, m.op, m.val, cranium.key));
+                    if (cranium.skills) e.skills.push(...cranium.skills);
                 }
+            }
 
-                if (hp1.currentValue <= 0) newLogs.push(`💀 ${ent1.name} has been defeated!`);
-                if (hp2.currentValue <= 0) newLogs.push(`💀 ${ent2.name} has been defeated!`);
+            // 3. Integument
+            const integument = pickFiltered(GAME_DATA.bodies.core.integument, (item) =>
+                item.tags && item.tags.some(t => e.traits.includes(t))
+            );
+            if (integument) {
+                e.parts.push(integument.key);
+                if (integument.mods) integument.mods.forEach(m => e.applyMod(m.target, m.op, m.val, integument.key));
+            }
 
-                setLogs(newLogs);
-                setEnt1(Object.assign(Object.create(Object.getPrototypeOf(ent1)), ent1));
-                setEnt2(Object.assign(Object.create(Object.getPrototypeOf(ent2)), ent2));
-            };
+            // 4. Variations
+            e.variations = {};
+            const biome = pick(GAME_DATA.variations.biomes);
+            if (biome) e.variations.biome = biome.key;
+            const pattern = pick(GAME_DATA.variations.appearances.patterns);
+            if (pattern) e.variations.pattern = pattern.key;
+            const pig = pick(GAME_DATA.variations.appearances.pigmentation);
+            if (pig) e.variations.pigmentation = pig.key;
+            const size = pick(GAME_DATA.variations.size_indices);
+            if (size) e.variations.size = size.key;
+            const bioUpgrade = Math.random() > 0.7 ? pick(GAME_DATA.variations.biological_upgrades) : null;
+            if (bioUpgrade) {
+                e.variations.upgrade = bioUpgrade.key;
+                if (bioUpgrade.mods) bioUpgrade.mods.forEach(m => e.applyMod(m.target, m.op, m.val, bioUpgrade.key));
+            }
 
+            // 5. Loot
+            e.loot = [];
+            const anatomyDrops = GAME_DATA.loot.anatomy_drops || {};
+            const allTags = new Set([...e.traits, ...e.parts]);
+            Object.keys(anatomyDrops).forEach(key => {
+                if (allTags.has(key) || Array.from(allTags).some(t => t.includes(key) || key.includes(t))) {
+                    e.loot.push({ name: key, ...anatomyDrops[key] });
+                }
+            });
+            if (e.loot.length === 0 && chassis) {
+                if (anatomyDrops["Meat_Muscle"]) e.loot.push({ name: "Meat_Muscle", ...anatomyDrops["Meat_Muscle"] });
+                if (anatomyDrops["Legs_Bones"]) e.loot.push({ name: "Legs_Bones", ...anatomyDrops["Legs_Bones"] });
+            }
+
+            // 6. Prefix
+            if (Math.random() > 0.5) {
+                const prefix = pick(GAME_DATA.prefixes);
+                if (prefix) {
+                    e.traits.push(prefix.key);
+                    if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, prefix.key));
+                }
+            }
+
+            Object.values(e.stats).forEach(s => { if (s instanceof PotentialStat) s.fill(); });
+            return e;
+        }
+
+        // ==========================================
+        // ENTITY CHARACTER SHEET MODAL
+        // ==========================================
+        const EntitySheetModal = ({ entity, onClose }) => {
+            if (!entity) return null;
+            const hpStat = entity.stats.hp_max || entity.stats.hp || { currentValue: 0, maxValue: 0 };
+            const displayName = `${entity.traits.find(t => GAME_DATA.prefixes[t]) || ''} ${entity.traits[0] || entity.name}`.trim();
             return (
-                <div className="p-3 sm:p-6 h-full flex flex-col">
-                    <div className="flex justify-center gap-2 sm:gap-4 mb-3 sm:mb-4 flex-wrap">
-                        <button onClick={ setup } className="bg-yellow-600 hover:bg-yellow-500 text-white px-4 sm:px-6 py-2 rounded-lg font-bold shadow-md flex items-center gap-2">
-                            <RotateCcw size={ 18 } /> New Fight
-                        </button>
-                        <button
-                            onClick={ fightTurn }
-                            disabled={ !ent1 || (ent1.stats.hp_max || ent1.stats.hp || {}).currentValue <= 0 || (ent2.stats.hp_max || ent2.stats.hp || {}).currentValue <= 0 }
-                            className="bg-red-600 hover:bg-red-500 disabled:opacity-50 disabled:cursor-not-allowed text-white px-8 py-2 rounded-lg font-bold shadow-md flex items-center gap-2"
-                        >
-                            <Swords size={ 18 } /> Next Turn
-                        </button>
-                    </div>
-
-                    <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 overflow-y-auto sm:overflow-hidden">
-                        <div className="bg-neutral-900 rounded-lg p-4 border border-blue-900/50 flex flex-col">
-                            { ent1 ? (
-                                <>
-                                    <h3 className="text-xl font-bold text-blue-400 flex items-center gap-2"><User size={ 20 } /> { ent1.name }</h3>
-                                    { (() => {
-                                        const h = ent1.stats.hp_max || ent1.stats.hp || { currentValue: 0, maxValue: 1 }; return (
-                                            <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                                <div className="bg-red-600 h-full transition-all duration-300" style={ { width: `${(h.currentValue / (h.maxValue || 1)) * 100}%` } }></div>
-                                                <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md">
-                                                    { h.currentValue.toFixed(0) } / { h.maxValue.toFixed(0) }
-                                                </div>
-                                            </div>);
-                                    })() }
-                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
-                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent1.stats.str.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent1.stats.dex.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent1.stats.con.getCurrentValue()) }</span></div>
-                                    </div>
-                                </>
-                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
-                        </div>
-
-                        <div className="bg-black rounded-lg p-4 border border-neutral-700 overflow-y-auto scroll-custom font-mono text-sm relative">
-                            { logs.map((l, i) => (
-                                <div key={ i } className={ `mb-1 border-l-2 pl-2 ${l.includes('defeated') ? 'text-red-500 font-bold border-red-500' :
-                                    l.includes('Hits') ? 'text-orange-300 border-orange-500' :
-                                        l.includes('uses') ? 'text-cyan-300 border-cyan-500' :
-                                            'text-gray-400 border-gray-700'
-                                    }` }>
-                                    { l }
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+                    onClick={ onClose }
+                >
+                    <div
+                        className="bg-neutral-900 border border-neutral-700 rounded-xl shadow-2xl w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden"
+                        onClick={ e => e.stopPropagation() }
+                    >
+                        {/* Modal Header */ }
+                        <div className="flex justify-between items-start p-4 border-b border-neutral-700 flex-shrink-0">
+                            <div>
+                                <h2 className="text-2xl font-bold text-yellow-400 flex items-center gap-2">
+                                    <PawPrint size={ 22 } className="text-yellow-600" />
+                                    { displayName }
+                                </h2>
+                                <div className="flex gap-1 mt-1 flex-wrap">
+                                    { entity.traits.slice(1).map((t, i) => (
+                                        <span key={ i } className="bg-neutral-700 px-2 py-0.5 rounded text-xs text-gray-300 border border-neutral-600">{ t }</span>
+                                    )) }
                                 </div>
-                            )) }
-                            { logs.length === 0 && <div className="text-gray-600 text-center italic mt-10 flex flex-col items-center gap-2"><Swords size={ 32 } /> Combat Log Ready</div> }
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="text-right">
+                                    <div className="text-2xl font-bold text-red-400 flex items-center gap-1">
+                                        <Activity size={ 18 } className="text-red-600" />
+                                        { Math.floor(hpStat.currentValue) }
+                                        <span className="text-sm text-gray-500">/ { Math.floor(hpStat.maxValue) } HP</span>
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={ onClose }
+                                    className="text-gray-500 hover:text-white text-xl font-bold leading-none transition-colors"
+                                >✕</button>
+                            </div>
                         </div>
 
-                        <div className="bg-neutral-900 rounded-lg p-4 border border-red-900/50 text-right flex flex-col">
-                            { ent2 ? (
-                                <>
-                                    <h3 className="text-xl font-bold text-red-400 flex items-center justify-end gap-2">{ ent2.name } <User size={ 20 } /></h3>
-                                    { (() => {
-                                        const h = ent2.stats.hp_max || ent2.stats.hp || { currentValue: 0, maxValue: 1 }; return (
-                                            <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                                <div className="bg-red-600 h-full transition-all duration-300 absolute right-0" style={ { width: `${(h.currentValue / (h.maxValue || 1)) * 100}%` } }></div>
-                                                <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md z-10">
-                                                    { h.currentValue.toFixed(0) } / { h.maxValue.toFixed(0) }
+                        {/* Modal Body */ }
+                        <div className="overflow-y-auto scroll-custom p-4 flex-1">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                {/* Left column */ }
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <User size={ 14 } /> Attributes
+                                        </h3>
+                                        <div className="grid grid-cols-2 gap-1">
+                                            { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
+                                                <div key={ s.def.id } className="flex justify-between items-center p-1.5 hover:bg-neutral-700/50 rounded">
+                                                    <span className="text-gray-400 text-xs">{ s.def.displayName }</span>
+                                                    <span className="font-mono font-bold text-white text-sm">{ Math.floor(s.getCurrentValue()) }</span>
                                                 </div>
-                                            </div>);
-                                    })() }
-                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
-                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent2.stats.str.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent2.stats.dex.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent2.stats.con.getCurrentValue()) }</span></div>
+                                            )) }
+                                        </div>
                                     </div>
-                                </>
-                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-yellow-600 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Anchor size={ 14 } /> Loot
+                                        </h3>
+                                        { entity.loot && entity.loot.length > 0 ? entity.loot.map((l, i) => (
+                                            <div key={ i } className="text-xs mb-1">
+                                                <span className="text-gray-200 font-bold">{ l.name.replace(/_/g, ' ') }</span>
+                                                <span className="text-gray-500 ml-1">— { l.baseDrops ? l.baseDrops.join(", ") : "Nothing" }</span>
+                                            </div>
+                                        )) : <span className="text-gray-500 italic text-xs">No significant loot.</span> }
+                                    </div>
+                                </div>
+                                {/* Right column */ }
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-green-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Shield size={ 14 } /> Derived Status
+                                        </h3>
+                                        { Object.values(entity.stats).filter(s => s instanceof PotentialStat && s.def.id !== "hp").map(s => (
+                                            <div key={ s.def.id } className="flex justify-between py-0.5 text-xs">
+                                                <span className="text-gray-300">{ s.def.displayName }</span>
+                                                <span className="font-mono text-yellow-400">{ Math.floor(s.maxValue) }</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-purple-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Anchor size={ 14 } /> Anatomy & Skills
+                                        </h3>
+                                        <div className="mb-2">
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Parts</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.parts.map((p, i) => <span key={ i } className="bg-purple-900/40 border border-purple-700 text-purple-200 px-2 py-0.5 rounded text-xs">{ p }</span>) }
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Abilities</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.skills.map((s, i) => <span key={ i } className="bg-blue-900/40 border border-blue-700 text-blue-200 px-2 py-0.5 rounded text-xs">{ s }</span>) }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    { entity.variations && (
+                                        <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                            <h3 className="text-sm font-bold text-teal-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                                <Search size={ 14 } /> Variations
+                                            </h3>
+                                            <div className="space-y-1 text-xs">
+                                                { entity.variations.biome && <div className="flex justify-between"><span className="text-gray-400">Biome</span><span className="text-white">{ entity.variations.biome }</span></div> }
+                                                { entity.variations.pattern && <div className="flex justify-between"><span className="text-gray-400">Pattern</span><span className="text-white">{ entity.variations.pattern }</span></div> }
+                                                { entity.variations.pigmentation && <div className="flex justify-between"><span className="text-gray-400">Pigment</span><span className="text-white">{ entity.variations.pigmentation }</span></div> }
+                                                { entity.variations.size && <div className="flex justify-between"><span className="text-gray-400">Size</span><span className="text-white">{ entity.variations.size }</span></div> }
+                                                { entity.variations.upgrade && <div className="flex justify-between"><span className="text-gray-400">Upgrade</span><span className="text-purple-300">{ entity.variations.upgrade }</span></div> }
+                                            </div>
+                                        </div>
+                                    ) }
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            )
+            );
+        };
+
+        // ==========================================
+        // BATTLE VIEW (Grid Arena)
+        // ==========================================
+        const ARENA_SIZE = 12; // 12×12 total; inner playable zone is 10×10 (cells 1–10)
+
+        // Returns a shallow-cloned entity to trigger React re-render
+        const cloneEntity = (e) => Object.assign(Object.create(Object.getPrototypeOf(e)), e);
+
+        // Chebyshev distance (diagonal = 1 tile)
+        const gridDist = (a, b) => Math.max(Math.abs(a.x - b.x), Math.abs(a.y - b.y));
+
+        const BattleView = () => {
+            const [entA, setEntA] = useState(null);
+            const [entB, setEntB] = useState(null);
+            const [logs, setLogs] = useState([]);
+            const [modalEntity, setModalEntity] = useState(null);
+            const [isAuto, setIsAuto] = useState(false);
+            const logEndRef = React.useRef(null);
+            const fightTurnRef = React.useRef(null);
+
+            // Auto-scroll log to bottom
+            useEffect(() => {
+                if (logEndRef.current) logEndRef.current.scrollIntoView({ behavior: 'smooth' });
+            }, [logs]);
+
+            const getHp = (e) => e && (e.stats.hp_max || e.stats.hp);
+            const getDisplayName = (e) => {
+                if (!e) return '?';
+                const prefix = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
+                return `${prefix} ${e.traits[0] || e.name}`.trim();
+            };
+
+            const setup = () => {
+                const a = generateEntity();
+                const b = generateEntity();
+                // Random spawn in playable inner zone (1..ARENA_SIZE-2)
+                const randPos = () => 1 + Math.floor(Math.random() * (ARENA_SIZE - 2));
+                do { a.x = randPos(); a.y = randPos(); } while (false);
+                do { b.x = randPos(); b.y = randPos(); } while (a.x === b.x && a.y === b.y);
+                setEntA(a);
+                setEntB(b);
+                setLogs([`⚔ A new battle begins! ${getDisplayName(a)} vs ${getDisplayName(b)}.`]);
+                setModalEntity(null);
+                setIsAuto(false);
+            };
+
+            // ── Behavior Tree Placeholder ──────────────────────────────────
+            // evaluateBehavior: moves entity toward target or attacks if in range.
+            // All mutations happen in-place on the entity objects.
+            // Returns an array of new log strings for this entity's action.
+            const evaluateBehavior = (entity, target, newLogs) => {
+                const atkHp = getHp(entity);
+                const defHp = getHp(target);
+                if (!atkHp || atkHp.currentValue <= 0) return;
+
+                const dist = gridDist(entity, target);
+                const MELEE_RANGE = 1;
+
+                if (dist > MELEE_RANGE) {
+                    // ── MOVE NODE: step one tile closer ──
+                    const dx = Math.sign(target.x - entity.x);
+                    const dy = Math.sign(target.y - entity.y);
+                    const nx = entity.x + dx;
+                    const ny = entity.y + dy;
+                    // Stay inside playable zone (1..ARENA_SIZE-2), off the wall border
+                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, nx));
+                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, ny));
+                    newLogs.push(`🦶 ${getDisplayName(entity)} moves to (${entity.x}, ${entity.y}).`);
+                } else {
+                    // ── ATTACK NODE: pick a random skill ──
+                    if (!entity.skills.length) {
+                        newLogs.push(`${getDisplayName(entity)} hesitates — no skills!`);
+                        return;
+                    }
+                    const skillName = entity.skills[Math.floor(Math.random() * entity.skills.length)];
+                    const skillData = GAME_DATA.skills[skillName];
+
+                    if (!skillData) {
+                        newLogs.push(`${getDisplayName(entity)} hesitates.`);
+                        return;
+                    }
+
+                    const flavor = skillData.description ? ` (${skillData.description})` : '';
+                    newLogs.push(`⚡ ${getDisplayName(entity)} uses ${skillName}!${flavor}`);
+
+                    (skillData.mods || []).forEach(mod => {
+                        if ((mod.target === 'hp' || mod.target === 'hp_max') && mod.op === 'subtract') {
+                            const dmg = entity.roll ? entity.roll(mod.roll) : Math.floor(Math.random() * 6) + 1;
+                            const strMod = entity.stats.str ? Math.floor((entity.stats.str.getCurrentValue() - 10) / 2) : 0;
+                            const totalDmg = Math.max(1, dmg + strMod);
+                            defHp.currentValue = Math.max(0, defHp.currentValue - totalDmg);
+                            newLogs.push(`  ↳ Hits ${getDisplayName(target)} for ${totalDmg} dmg → ${defHp.currentValue.toFixed(0)} HP left`);
+                        }
+                        if (mod.target === 'status') {
+                            newLogs.push(`  ↳ Applies [${mod.val}] to ${getDisplayName(target)}!`);
+                        }
+                    });
+                }
+            };
+
+            const fightTurn = () => {
+                const hpA = getHp(entA), hpB = getHp(entB);
+                if (!entA || !entB || !hpA || !hpB || hpA.currentValue <= 0 || hpB.currentValue <= 0) return;
+
+                const newLogs = [...logs];
+
+                // Turn order by DEX
+                const aFaster = entA.stats.dex && entB.stats.dex
+                    ? entA.stats.dex.getCurrentValue() >= entB.stats.dex.getCurrentValue()
+                    : true;
+
+                if (aFaster) {
+                    evaluateBehavior(entA, entB, newLogs);
+                    if (hpB.currentValue > 0) evaluateBehavior(entB, entA, newLogs);
+                } else {
+                    evaluateBehavior(entB, entA, newLogs);
+                    if (hpA.currentValue > 0) evaluateBehavior(entA, entB, newLogs);
+                }
+
+                if (hpA.currentValue <= 0) newLogs.push(`💀 ${getDisplayName(entA)} has been defeated!`);
+                if (hpB.currentValue <= 0) newLogs.push(`💀 ${getDisplayName(entB)} has been defeated!`);
+
+                setLogs(newLogs);
+                setEntA(cloneEntity(entA));
+                setEntB(cloneEntity(entB));
+            };
+
+            // ── Arena Grid ────────────────────────────────────────────────
+            const ArenaGrid = ({ a, b }) => {
+                const cells = [];
+                for (let row = 0; row < ARENA_SIZE; row++) {
+                    for (let col = 0; col < ARENA_SIZE; col++) {
+                        const isWall = row === 0 || row === ARENA_SIZE - 1 || col === 0 || col === ARENA_SIZE - 1;
+                        const isA = a && a.x === col && a.y === row;
+                        const isB = b && b.x === col && b.y === row;
+
+                        let cellContent = null;
+                        let cellClass = 'flex items-center justify-center text-base font-bold select-none ';
+
+                        if (isA && isB) {
+                            cellContent = '⚔';
+                            cellClass += 'bg-yellow-900/60 border-yellow-600 text-yellow-300';
+                        } else if (isA) {
+                            cellContent = 'A';
+                            cellClass += 'bg-blue-900/70 border-blue-500 text-blue-300';
+                        } else if (isB) {
+                            cellContent = 'B';
+                            cellClass += 'bg-red-900/70 border-red-500 text-red-300';
+                        } else if (isWall) {
+                            cellContent = '▪';
+                            cellClass += 'bg-neutral-800 border-neutral-600 text-neutral-600';
+                        } else {
+                            cellClass += 'bg-neutral-950 border-neutral-800 text-transparent';
+                            cellContent = '·';
+                        }
+
+                        cells.push(
+                            <div
+                                key={ `${row}-${col}` }
+                                className={ `border ${cellClass}` }
+                                style={ { aspectRatio: '1 / 1', fontSize: '0.7rem' } }
+                                title={ `(${col}, ${row})` }
+                            >
+                                { cellContent }
+                            </div>
+                        );
+                    }
+                }
+
+                return (
+                    <div
+                        style={ {
+                            display: 'grid',
+                            gridTemplateColumns: `repeat(${ARENA_SIZE}, 1fr)`,
+                            gap: '1px',
+                            width: '100%',
+                            maxWidth: '360px'
+                        } }
+                    >
+                        { cells }
+                    </div>
+                );
+            };
+
+            // ── HP bar helper ─────────────────────────────────────────────
+            const HpBar = ({ entity, color }) => {
+                const h = getHp(entity) || { currentValue: 0, maxValue: 1 };
+                const pct = Math.max(0, Math.min(100, (h.currentValue / (h.maxValue || 1)) * 100));
+                return (
+                    <div className="w-full bg-gray-800 h-2 rounded-full overflow-hidden mt-0.5">
+                        <div
+                            className={ `h-full transition-all duration-300 ${color}` }
+                            style={ { width: `${pct}%` } }
+                        />
+                    </div>
+                );
+            };
+
+            const hpA = getHp(entA);
+            const hpB = getHp(entB);
+            const isCombatOver = entA && entB && hpA && hpB && (hpA.currentValue <= 0 || hpB.currentValue <= 0);
+
+            // Keep fightTurnRef current so the interval closure always calls the latest version
+            fightTurnRef.current = fightTurn;
+
+            // Auto-play interval — max 10 turns/sec (100ms)
+            useEffect(() => {
+                if (!isAuto || isCombatOver) {
+                    if (isCombatOver) setIsAuto(false);
+                    return;
+                }
+                const id = setInterval(() => { fightTurnRef.current(); }, 100);
+                return () => clearInterval(id);
+            }, [isAuto, isCombatOver]);
+
+            return (
+                <div className="p-3 sm:p-4 h-full flex flex-col gap-3 overflow-hidden">
+
+                    {/* Character Sheet Modal */ }
+                    <EntitySheetModal entity={ modalEntity } onClose={ () => setModalEntity(null) } />
+
+                    {/* ── Top Bar ── */ }
+                    <div className="flex items-center gap-2 flex-wrap">
+                        {/* Entity A Button */ }
+                        <button
+                            onClick={ () => entA && setModalEntity(entA) }
+                            disabled={ !entA }
+                            className={ `flex-1 min-w-[140px] text-left px-3 py-2 rounded-lg border transition-all ${entA ? 'bg-blue-950/60 border-blue-700 hover:bg-blue-900/60 cursor-pointer' : 'bg-neutral-900 border-neutral-800 opacity-40 cursor-default'
+                                }` }
+                        >
+                            <div className="text-xs text-blue-400 font-bold uppercase tracking-wider mb-0.5">Entity A</div>
+                            <div className="font-bold text-white text-sm truncate">{ entA ? getDisplayName(entA) : '—' }</div>
+                            { entA && <>
+                                <div className="text-xs text-gray-400 mt-0.5">{ hpA ? `${hpA.currentValue.toFixed(0)} / ${hpA.maxValue.toFixed(0)} HP` : '' }</div>
+                                <HpBar entity={ entA } color="bg-blue-500" />
+                            </> }
+                        </button>
+
+                        {/* VS + Controls */ }
+                        <div className="flex flex-col items-center gap-1.5 shrink-0">
+                            <div className="text-lg font-black text-neutral-500 tracking-widest">VS</div>
+                            <button
+                                onClick={ setup }
+                                className="bg-yellow-700 hover:bg-yellow-600 text-white px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition"
+                            >
+                                <RotateCcw size={ 12 } /> New Fight
+                            </button>
+                            <button
+                                onClick={ fightTurn }
+                                disabled={ !entA || !entB || isCombatOver || isAuto }
+                                className="bg-red-700 hover:bg-red-600 disabled:opacity-40 disabled:cursor-not-allowed text-white px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition"
+                            >
+                                <Swords size={ 12 } /> Next Turn
+                            </button>
+                            <button
+                                onClick={ () => setIsAuto(a => !a) }
+                                disabled={ !entA || !entB || isCombatOver }
+                                className={ `px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition disabled:opacity-40 disabled:cursor-not-allowed border ${isAuto
+                                    ? 'bg-green-700 hover:bg-green-600 border-green-500 text-white'
+                                    : 'bg-neutral-800 hover:bg-neutral-700 border-neutral-600 text-gray-300'
+                                    }` }
+                            >
+                                { isAuto ? '⏸ Pause' : '▶ Auto' }
+                            </button>
+                        </div>
+
+                        {/* Entity B Button */ }
+                        <button
+                            onClick={ () => entB && setModalEntity(entB) }
+                            disabled={ !entB }
+                            className={ `flex-1 min-w-[140px] text-right px-3 py-2 rounded-lg border transition-all ${entB ? 'bg-red-950/60 border-red-700 hover:bg-red-900/60 cursor-pointer' : 'bg-neutral-900 border-neutral-800 opacity-40 cursor-default'
+                                }` }
+                        >
+                            <div className="text-xs text-red-400 font-bold uppercase tracking-wider mb-0.5">Entity B</div>
+                            <div className="font-bold text-white text-sm truncate">{ entB ? getDisplayName(entB) : '—' }</div>
+                            { entB && <>
+                                <div className="text-xs text-gray-400 mt-0.5">{ hpB ? `${hpB.currentValue.toFixed(0)} / ${hpB.maxValue.toFixed(0)} HP` : '' }</div>
+                                <HpBar entity={ entB } color="bg-red-500" />
+                            </> }
+                        </button>
+                    </div>
+
+                    {/* ── Main Area: Grid + Log ── */ }
+                    <div className="flex-1 flex flex-col sm:flex-row gap-3 overflow-hidden min-h-0">
+
+                        {/* Arena Grid */ }
+                        <div className="flex flex-col items-center gap-2 shrink-0">
+                            <div className="text-xs text-neutral-500 font-mono uppercase tracking-widest">Arena (10×10 playable · 12×12 with walls)</div>
+                            { entA || entB
+                                ? <ArenaGrid a={ entA } b={ entB } />
+                                : (
+                                    <div
+                                        className="flex items-center justify-center bg-neutral-950 border border-neutral-800 rounded text-neutral-700 text-sm italic"
+                                        style={ { width: '360px', height: '360px' } }
+                                    >
+                                        Press "New Fight" to begin
+                                    </div>
+                                )
+                            }
+                            { entA && entB && (
+                                <div className="flex gap-4 text-xs text-neutral-500 font-mono">
+                                    <span className="text-blue-400">● A ({ entA.x },{ entA.y })</span>
+                                    <span className="text-red-400">● B ({ entB.x },{ entB.y })</span>
+                                </div>
+                            ) }
+                        </div>
+
+                        {/* Combat Log */ }
+                        <div className="flex-1 bg-black rounded-lg border border-neutral-800 overflow-y-auto scroll-custom font-mono text-xs p-3 min-h-0 flex flex-col">
+                            <div className="text-neutral-600 text-xs uppercase tracking-widest mb-2 font-bold border-b border-neutral-900 pb-1">Combat Log</div>
+                            { logs.length === 0
+                                ? <div className="flex-1 flex flex-col items-center justify-center text-neutral-700 italic gap-2">
+                                    <Swords size={ 28 } /> Ready
+                                </div>
+                                : logs.map((l, i) => {
+                                    const cls = l.includes('defeated') ? 'text-red-400 font-bold border-red-600'
+                                        : l.includes('↳ Hits') ? 'text-orange-300 border-orange-600'
+                                            : l.includes('uses') ? 'text-cyan-300 border-cyan-700'
+                                                : l.includes('moves') ? 'text-neutral-400 border-neutral-700'
+                                                    : l.includes('battle') || l.includes('Battle') ? 'text-yellow-400 border-yellow-700'
+                                                        : 'text-neutral-500 border-neutral-800';
+                                    return (
+                                        <div key={ i } className={ `mb-1 border-l-2 pl-2 leading-relaxed ${cls}` }>
+                                            { l }
+                                        </div>
+                                    );
+                                })
+                            }
+                            <div ref={ logEndRef } />
+                        </div>
+                    </div>
+                </div>
+            );
         }
 
         const App = () => {

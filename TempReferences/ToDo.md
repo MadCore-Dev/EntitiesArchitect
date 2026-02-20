@@ -1,10 +1,5 @@
 ## 🗺️ MASTER REFACTORING ROADMAP
 
-**Phase 1: World Systems Overhaul**
-* **Goal:** Standardize environment and global conditions.
-* **Tasks:** Refactor `terrain_types.json`, `temperature_bands.json`, `weather_types.json`, and `biomes.json`. 
-* **Key Fix:** Remove raw `mods` arrays from terrain/temperature and shift them into `payloads` that cast hidden, indefinite Status Effects to strictly follow the "Everything is a Payload" architecture.
-
 **Phase 2: Skills & Statuses Ecosystem (Payload Standardization)**
 * **Goal:** Finalize the mechanical vocabulary of the engine.
 * **Tasks:** Clean up and standardize `skills.json`, `status_effects.json`, `damage_types.json`, `skill_types.json`, `vision_types.json`, and `traversal_types.json`. 

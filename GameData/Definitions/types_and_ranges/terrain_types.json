@@ -33,14 +33,13 @@
             "Deep_Water",
             "Magma"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.75"
+                "id": "Terrain_Sand_Drag",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Mud": {
         "category": "surface",
@@ -51,14 +50,13 @@
             "Magma",
             "Ice"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
+                "id": "Terrain_Mud_Drag",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Rock": {
         "category": "surface",
@@ -116,14 +114,13 @@
             "Deep_Water",
             "Shallow_Water"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.9"
+                "id": "Terrain_Ash_Drag",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Aquatic": {
         "category": "liquid",
@@ -176,14 +173,13 @@
             "Magma",
             "Ash"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
+                "id": "Terrain_Shallow_Water_Drag",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Magma": {
         "category": "liquid",
@@ -201,14 +197,12 @@
             "Scrub",
             "Frozen_Earth"
         ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.25"
-            }
-        ],
+        "mods": [],
         "payloads": [
+            {
+                "id": "Terrain_Magma_Drag",
+                "chance_per_tick": 1.0
+            },
             {
                 "id": "Extreme_Burn",
                 "chance_per_tick": 1.0
@@ -236,14 +230,13 @@
             "Steep",
             "3D_Movement"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.9"
+                "id": "Terrain_Uneven_Footing",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Steep": {
         "category": "topography",
@@ -360,19 +353,13 @@
             "Magma",
             "Ice"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
-            },
-            {
-                "target": "sense_bonus",
-                "op": "subtract",
-                "expr": "2"
+                "id": "Terrain_Dense_Foliage",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Slippery": {
         "category": "condition",
@@ -384,19 +371,12 @@
             "Gravel",
             "Ash"
         ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
-            },
-            {
-                "target": "dex",
-                "op": "subtract",
-                "expr": "2"
-            }
-        ],
+        "mods": [],
         "payloads": [
+            {
+                "id": "Terrain_Slippery_Footing",
+                "chance_per_tick": 1.0
+            },
             {
                 "id": "Trip_And_Fall",
                 "chance_per_tick": 0.05
@@ -440,14 +420,13 @@
         "excludes": [
             "Flat"
         ],
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "speed_bonus",
-                "op": "multiply",
-                "expr": "0.5"
+                "id": "Terrain_Difficult_Footing",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Sharp": {
         "category": "condition",

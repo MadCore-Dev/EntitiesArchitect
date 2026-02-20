@@ -1,14 +1,12 @@
 {
     "Freezing": {
         "description": "Temperatures capable of freezing exposed tissue rapidly.",
-        "mods": [
-            {
-                "target": "stamina_regen",
-                "op": "multiply",
-                "expr": "0.5"
-            }
-        ],
+        "mods": [],
         "payloads": [
+            {
+                "id": "Ambient_Freezing",
+                "chance_per_tick": 1.0
+            },
             {
                 "id": "Frostbite",
                 "chance_per_tick": 0.05
@@ -17,14 +15,13 @@
     },
     "Cold": {
         "description": "Biting cold that saps energy over time.",
-        "mods": [
+        "mods": [],
+        "payloads": [
             {
-                "target": "stamina_regen",
-                "op": "multiply",
-                "expr": "0.8"
+                "id": "Ambient_Cold",
+                "chance_per_tick": 1.0
             }
-        ],
-        "payloads": []
+        ]
     },
     "Cool": {
         "description": "Crisp and chilly, but generally safe.",
@@ -43,14 +40,12 @@
     },
     "Hot": {
         "description": "High heat that accelerates exhaustion.",
-        "mods": [
-            {
-                "target": "stamina_regen",
-                "op": "multiply",
-                "expr": "0.8"
-            }
-        ],
+        "mods": [],
         "payloads": [
+            {
+                "id": "Ambient_Hot",
+                "chance_per_tick": 1.0
+            },
             {
                 "id": "Overheating",
                 "chance_per_tick": 0.02
@@ -59,19 +54,12 @@
     },
     "Extreme_Heat": {
         "description": "Lethal temperatures that can boil water in minutes.",
-        "mods": [
-            {
-                "target": "stamina_regen",
-                "op": "multiply",
-                "expr": "0.5"
-            },
-            {
-                "target": "water_retention",
-                "op": "subtract",
-                "expr": "2"
-            }
-        ],
+        "mods": [],
         "payloads": [
+            {
+                "id": "Ambient_Extreme_Heat",
+                "chance_per_tick": 1.0
+            },
             {
                 "id": "Heatstroke",
                 "chance_per_tick": 0.10

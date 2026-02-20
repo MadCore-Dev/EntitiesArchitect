@@ -389,3 +389,53 @@ This document defines the purpose, structure, and engine-level implementation de
 
 ---
 
+## 12. Skills Registry (`GameData/skills.json`)
+**Purpose:** The master database of every executable action or innate passive trait an entity can possess. 
+**Engine Implementation Notes:**
+* **Passives:** If `types` includes "Passive", the engine evaluates the `mods` and `payloads` permanently upon entity initialization.
+* **Damage Types Integration:** If a `mod` targets "hp", it must include a `damage_type` matching a key from `damage_types.json`. The engine will automatically pull the associated hazard payloads from that damage type.
+**Schema Structure:**
+* `description` (string): UI tooltip.
+* `types` (array of strings): Must match keys from `skill_types.json` exactly.
+* `range` (string/int): "Melee", "Audible", or a numerical grid value.
+* `mods` (array of objects): Strict mathematical operations. For attacks, this handles HP reduction.
+  * `{ "target": string, "op": string, "expr": string, "damage_type": string (optional) }`
+* `payloads` (array of objects): Status effects or hazards cast upon successful execution.
+  * `{ "id": "Status_ID", "chance_per_tick": float, "duration_ticks": int }`
+
+**Example Entry:**
+```json
+"Bite": {
+  "description": "Delivers a venomous bite.",
+  "types": ["Melee_Attack", "Natural_Weapon", "Secretion"],
+  "range": "Melee",
+  "mods": [
+    { "target": "hp", "op": "subtract", "expr": "1d6 + 2", "damage_type": "Piercing" }
+  ],
+  "payloads": [
+    { "id": "Venomous_Bite", "chance_per_tick": 0.25, "duration_ticks": 10 }
+  ]
+}
+```
+
+---
+
+## 13. Status Effects (`GameData/Mechanics/status_effects.json`)
+**Purpose:** Defines temporary mechanical states applied to entities via Payloads (from environment, weather, or skills).
+**Engine Implementation Notes:**
+* **Skill Blocking:** The `blocks_skill_types` array checks against the `types` array of the entity's skills. If a match is found, the skill is disabled while the status is active.
+**Schema Structure:**
+* `description` (string): UI tooltip.
+* `blocks_skill_types` (array of strings): Matches keys in `skill_types.json`.
+* `mods` (array of objects): Mathematical adjustments applied while the status is active.
+
+**Example Entry:**
+```json
+"Grappled": {
+  "description": "Physically restrained by an attacker.",
+  "blocks_skill_types": ["Movement", "Acrobatics"],
+  "mods": [ { "target": "evasion", "op": "set", "expr": "0" } ]
+}
+```
+
+---

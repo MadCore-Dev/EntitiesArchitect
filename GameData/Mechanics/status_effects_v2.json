@@ -1,0 +1,500 @@
+{
+    "Bleeding": {
+        "description": "Continuous blood loss.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Necrotic"
+            }
+        ]
+    },
+    "Acid_Burn": {
+        "description": "Chemical burns.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Acid"
+            }
+        ]
+    },
+    "Grappled": {
+        "description": "Restrained by attacker.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0"
+            }
+        ]
+    },
+    "Paralyzed": {
+        "description": "Fully unable to move.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0"
+            }
+        ]
+    },
+    "Prone": {
+        "description": "Knocked to the ground.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5"
+            }
+        ]
+    },
+    "Poisoned": {
+        "description": "Toxic damage over time.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Poison"
+            }
+        ]
+    },
+    "Stunned": {
+        "description": "Temporarily incapacitated.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0"
+            }
+        ]
+    },
+    "Drained": {
+        "description": "Life force is sapped.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Necrotic"
+            }
+        ]
+    },
+    "Blinded": {
+        "description": "Unable to see.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "0"
+            }
+        ]
+    },
+    "Blind": {
+        "description": "Status: Blind",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Frightened": {
+        "description": "Status: Frightened",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Restrained": {
+        "description": "Status: Restrained",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Fear": {
+        "description": "Frightened",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Paralyze": {
+        "description": "Paralyzed",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Poison": {
+        "description": "Poisoned",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ensnare": {
+        "description": "Restrained",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Arcane_Lightning": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ash_Inhalation": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Cave_In": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Choking_Dust": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Crushing_Pressure": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Current_Drag": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Drowning": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Extreme_Burn": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Fall_Damage": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Freezing_Wind": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Frostbite": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ground_Tremors": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Heatstroke": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Hypoxia": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Jungle_Fever": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Lava_Burn": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Lava_Fissure": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Mana_Burn": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Miasma_Poison": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Minor_Laceration": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Overheating": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Physical_Traps": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Plummet": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Soul_Drain": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Suffocation": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Surface_Hazards": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Swept_Away": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Trip_And_Fall": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ambient_Noise": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Arcane_Interference": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ash_Blindness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Auditory_Illusions": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Blizzard_Blindness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Blur_Distortion": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Dazzle": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Dense_Canopy_Obscurity": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Dim_Light_Penalty": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "High_Vantage_Aura": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Magical_Fog_Obscurity": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Magical_Illusion": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Mirage": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Optical_Camouflage": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Optical_Invisibility": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Pitch_Black_Blindness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Putrid_Stench": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Rain_Obscurity": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Refractive_Glare": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Sandstorm_Blind": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Shapechanger_Deceit": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Smoke_Blindness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Snowblindness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Stagnant_Air": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Storm_Deafness": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Underwater_Blur": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Underwater_Muffling": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ventriloquism": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Wind_Dispersal": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Charm": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Concussion": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Confusion": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Corroded": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Deep_Wound": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Deafened": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Flanking_Advantage": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Ignite": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Infected": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Knocked_Prone": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Web_Ensnare": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Web_Vibration": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Withering": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Breaks_Stealth": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    },
+    "Provokes_Reaction": {
+        "description": "Needs data generation based on name.",
+        "blocks_skill_types": [],
+        "mods": []
+    }
+}

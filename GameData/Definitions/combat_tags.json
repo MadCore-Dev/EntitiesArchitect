@@ -1,0 +1,26 @@
+{
+    "Breaks_Stealth": {
+        "name": "Loud / Obvious",
+        "description": "Executing this action instantly removes any active camouflage or stealth statuses."
+    },
+    "Provokes_Reaction": {
+        "name": "Provokes Reaction",
+        "description": "Leaves the user open to opportunity attacks from adjacent enemies."
+    },
+    "Requires_LOS": {
+        "name": "Requires Line of Sight",
+        "description": "Requires an unobstructed physical path to the target to be cast."
+    },
+    "Requires_Grounded": {
+        "name": "Grounded",
+        "description": "The entity must be physically touching a solid surface to execute this."
+    },
+    "Ignores_Cover": {
+        "name": "Ignores Cover",
+        "description": "This action's accuracy or effects are not mitigated by physical cover."
+    },
+    "Usable_While_Grappled": {
+        "name": "Usable While Grappled",
+        "description": "Bypasses the standard skill restrictions applied by the Grappled status."
+    }
+}

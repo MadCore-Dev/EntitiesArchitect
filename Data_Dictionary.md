@@ -30,7 +30,8 @@ This document defines the purpose, structure, and engine-level implementation de
 > ### 2. Payloads & Immunities (Hazards, Statuses, Traps)
 > * **Environmental Hazards:** Arcane_Lightning, Ash_Inhalation, Cave_In, Choking_Dust, Crushing_Pressure, Current_Drag, Drowning, Extreme_Burn, Fall_Damage, Freezing_Wind, Frostbite, Ground_Tremors, Heatstroke, Hypoxia, Jungle_Fever, Lava_Burn, Lava_Fissure, Mana_Burn, Miasma_Poison, Minor_Laceration, Overheating, Physical_Traps, Plummet, Soul_Drain, Suffocation, Surface_Hazards, Swept_Away, Trip_And_Fall
 > * **Sensory Impairments (Auras):** Ambient_Noise, Arcane_Interference, Ash_Blindness, Auditory_Illusions, Blizzard_Blindness, Blur_Distortion, Dazzle, Dense_Canopy_Obscurity, Dim_Light_Penalty, High_Vantage_Aura, Magical_Fog_Obscurity, Magical_Illusion, Mirage, Optical_Camouflage, Optical_Invisibility, Pitch_Black_Blindness, Putrid_Stench, Rain_Obscurity, Refractive_Glare, Sandstorm_Blind, Shapechanger_Deceit, Smoke_Blindness, Snowblindness, Stagnant_Air, Storm_Deafness, Underwater_Blur, Underwater_Muffling, Ventriloquism, Wind_Dispersal
-> * **Combat Statuses & Rules:** Charm, Confusion, Flanking_Advantage, Grappled, Opportunity_Attacks, Prone, Restrained, Web_Ensnare, Web_Vibration
+> * **Combat Statuses & Damage Procs:** Bleeding, Blinded, Charm, Concussion, Confusion, Corroded, Deep_Wound, Deafened, Flanking_Advantage, Frostbite, Grappled, Ignite, Infected, Knocked_Prone, Paralyzed, Poisoned, Prone, Restrained, Web_Ensnare, Web_Vibration, Withering
+> * **Combat Engine Event Flags:** Breaks_Stealth, Provokes_Reaction
 > 
 > ### 3. Mod Targets (Engine Stats Registry)
 > * **Core Stats:** `con`, `dex`, `int`, `str`, `wis`
@@ -314,3 +315,77 @@ This document defines the purpose, structure, and engine-level implementation de
 ```
 
 ---
+
+## 9. Damage Types (`Definitions/types_and_ranges/damage_types.json`)
+
+**Purpose:** Defines the physical, biological, elemental, and magical mediums through which an entity's health (HP) is reduced. Covers everything from biological natural weapons to esoteric magic.
+
+**Engine Implementation Notes:**
+* **Bitmask Architecture:** Parsed as `uint64_t damageFlags`. An attack can deal multiple types of damage simultaneously (e.g., a toxic bite is `Piercing | Poison`).
+* **Resistance Resolution:** When an entity takes damage, the engine checks the incoming damage flags against the defender's specific resistance stats (e.g., `fire_resist`, `slashing_resist`) to calculate mitigation.
+* **Payload Automation:** When an attack deals a specific damage type, the engine automatically extracts the `payloads` array from this file and attempts to cast them on the target. This standardizes status effects without hardcoding them into every individual skill.
+
+**Schema Structure:**
+* `description` (string): Flavor text and biological examples.
+* `color` (string): Tailwind CSS color code used for floating combat text and UI rendering.
+* `payloads` (array of objects): Standard engine payloads triggered by suffering this damage type.
+  * `{ "id": "Payload_Name", "chance_per_tick": float }`
+
+**Example Entry:**
+```json
+"Shredding": {
+  "description": "Frantic surface-level tearing and flaying of skin/scales.",
+  "color": "text-red-600",
+  "payloads": [
+    { "id": "Minor_Laceration", "chance_per_tick": 0.40 }
+  ]
+}
+```
+
+---
+
+## 10. Skill Types (`Definitions/types_and_ranges/skill_types.json`)
+
+**Purpose:** A comprehensive taxonomy of actions and traits an entity can possess. These tags categorize the nature of a skill, dictating how the engine applies global combat rules and allowing Status Effects to selectively disable specific capabilities.
+
+**Engine Implementation Notes:**
+* **Bitmask Architecture:** Parsed as `uint64_t skillTypeFlags`. A skill can possess multiple types (e.g., a toxic bite is `Melee_Attack | Natural_Weapon | Secretion`).
+* **Passive Evaluation:** If a skill possesses the `Passive` flag, the engine automatically extracts its `mods` and `payloads` and applies them permanently to the entity during initialization. The skill cannot be actively cast.
+* **Status Effect Disablement:** When an entity attempts to cast an active skill, the engine checks active Status Effects. If an active status possesses a `"blocks_skill_types"` array containing any flag matching the skill, the cast is prevented.
+* **Combat Engine Events:** The `combat_flags` array generates standardized engine events. If an entity uses a skill with the `Breaks_Stealth` tag, the engine broadcasts an event to strip their camouflage.
+
+**Schema Structure:**
+* `description` (string): Flavor text defining the category.
+* `combat_flags` (array of strings): Engine-level event tags (e.g., "Breaks_Stealth", "Provokes_Reaction") triggered automatically when the skill is executed.
+
+**Example Entry:**
+```json
+"Vocal": {
+  "description": "Roars, howls, speech, or sonic bursts. Highly audible.",
+  "combat_flags": ["Breaks_Stealth"]
+}
+```
+
+---
+
+## 11. Combat Tags (`Definitions/types_and_ranges/combat_tags.json`)
+
+**Purpose:** The master dictionary for engine-level execution tags. This explicitly defines the "Magic Strings" used in `skill_types.json` and `skills.json`, allowing the engine to assign them system Hashes/Bitmasks at startup and providing the UI with tooltip descriptions.
+
+**Engine Implementation Notes:**
+* **No Attached Logic:** These entries contain no logic or hooks. They exist purely to register the existence of the tag into the engine's memory. The C++ systems (like `StealthSystem` or `ReactionSystem`) check for the presence of these hashes to run their native logic.
+
+**Schema Structure:**
+* `name` (string): The display name for the UI.
+* `description` (string): The tooltip text explaining the mechanical rule to the player.
+
+**Example Entry:**
+```json
+"Breaks_Stealth": {
+  "name": "Loud / Obvious",
+  "description": "Executing this action instantly removes any active camouflage or stealth statuses."
+}
+```
+
+---
+

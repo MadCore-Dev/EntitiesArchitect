@@ -1,38 +1,162 @@
 {
-    "Piercing": {
-        "description": "Deep penetration, puncture",
-        "color": "text-blue-400"
-    },
     "Bludgeoning": {
-        "description": "Breaking bones, trauma",
-        "color": "text-orange-400"
+        "description": "Heavy kinetic impact that breaks bones and ruptures organs (e.g., Hooves, Tails, Hammers).",
+        "color": "text-orange-400",
+        "payloads": [
+            {
+                "id": "Concussion",
+                "chance_per_tick": 0.10
+            }
+        ]
+    },
+    "Piercing": {
+        "description": "Deep tissue penetration targeting vital organs (e.g., Horns, Fangs, Stingers).",
+        "color": "text-blue-400",
+        "payloads": [
+            {
+                "id": "Deep_Wound",
+                "chance_per_tick": 0.20
+            }
+        ]
     },
     "Slashing": {
-        "description": "Surface slicing, severing",
-        "color": "text-red-400"
-    },
-    "Necrotic": {
-        "description": "Decaying energy that withers living matter.",
-        "color": "text-green-900"
-    },
-    "Poison": {
-        "description": "Toxic substance that disrupts biological functions.",
-        "color": "text-green-500"
-    },
-    "Cold": {
-        "description": "Extreme low temperature that slows and damages tissue.",
-        "color": "text-cyan-400"
+        "description": "Clean, deep severing of muscle and limbs (e.g., Bear claws, Swords).",
+        "color": "text-red-400",
+        "payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25
+            }
+        ]
     },
     "Shredding": {
-        "description": "Ripping flesh, multiple wounds",
-        "color": "text-red-600"
+        "description": "Frantic surface-level tearing and flaying of skin/scales (e.g., Piranha teeth, Raptor claws).",
+        "color": "text-red-600",
+        "payloads": [
+            {
+                "id": "Minor_Laceration",
+                "chance_per_tick": 0.40
+            }
+        ]
     },
-    "Chemical": {
-        "description": "Necrosis, paralysis, burns",
-        "color": "text-green-400"
+    "Poison": {
+        "description": "Toxic substance injected into the bloodstream disrupting biological functions (e.g., Vipers, Spiders).",
+        "color": "text-green-500",
+        "payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.50
+            }
+        ]
     },
-    "Energy": {
-        "description": "Shock, sonic, thermal",
-        "color": "text-yellow-400"
+    "Acid": {
+        "description": "Caustic chemical reaction that melts armor and flesh from the outside (e.g., Bombardier Beetles, Slimes).",
+        "color": "text-lime-500",
+        "payloads": [
+            {
+                "id": "Corroded",
+                "chance_per_tick": 0.30
+            }
+        ]
+    },
+    "Disease": {
+        "description": "Pathogenic or viral infection that rapidly decays the immune system (e.g., Komodo Dragons, Fetid Swamps).",
+        "color": "text-green-800",
+        "payloads": [
+            {
+                "id": "Infected",
+                "chance_per_tick": 0.15
+            }
+        ]
+    },
+    "Fire": {
+        "description": "Extreme thermal energy causing rapid cellular combustion.",
+        "color": "text-orange-600",
+        "payloads": [
+            {
+                "id": "Ignite",
+                "chance_per_tick": 0.25
+            }
+        ]
+    },
+    "Cold": {
+        "description": "Extreme thermal deprivation shattering frozen tissue and slowing kinetics.",
+        "color": "text-cyan-400",
+        "payloads": [
+            {
+                "id": "Frostbite",
+                "chance_per_tick": 0.20
+            }
+        ]
+    },
+    "Lightning": {
+        "description": "High-voltage electrical discharge that overrides the nervous system (e.g., Electric Eels).",
+        "color": "text-yellow-300",
+        "payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.10
+            }
+        ]
+    },
+    "Sonic": {
+        "description": "Concentrated acoustic shockwaves that shatter crystalline structures and rupture eardrums (e.g., Bat Screeches, Whales).",
+        "color": "text-teal-300",
+        "payloads": [
+            {
+                "id": "Deafened",
+                "chance_per_tick": 0.30
+            }
+        ]
+    },
+    "Hydraulic": {
+        "description": "Crushing, high-velocity water pressure (e.g., Pistol Shrimp snaps, Deep Ocean currents).",
+        "color": "text-blue-600",
+        "payloads": [
+            {
+                "id": "Knocked_Prone",
+                "chance_per_tick": 0.40
+            }
+        ]
+    },
+    "Arcane": {
+        "description": "Raw, unstable magical energy that unravels the fabric of reality.",
+        "color": "text-purple-400",
+        "payloads": [
+            {
+                "id": "Mana_Burn",
+                "chance_per_tick": 0.25
+            }
+        ]
+    },
+    "Necrotic": {
+        "description": "Dark energy that instantly withers living matter and drains life force.",
+        "color": "text-purple-900",
+        "payloads": [
+            {
+                "id": "Withering",
+                "chance_per_tick": 0.20
+            }
+        ]
+    },
+    "Radiant": {
+        "description": "Blinding, purifying light that burns undead and fiendish entities.",
+        "color": "text-yellow-100",
+        "payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 0.15
+            }
+        ]
+    },
+    "Psychic": {
+        "description": "Direct mental assault bypassing physical armor to damage the mind.",
+        "color": "text-pink-400",
+        "payloads": [
+            {
+                "id": "Confusion",
+                "chance_per_tick": 0.10
+            }
+        ]
     }
 }

@@ -1,4 +1,132 @@
 {
+  "hp": {
+    "id": "hp",
+    "displayName": "Hit Points",
+    "description": "Current health pool. Reduced by damage; death at zero.",
+    "spriteIcon": "icons/stats/hp.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "hp_regen": {
+    "id": "hp_regen",
+    "displayName": "HP Regen",
+    "description": "Flat HP recovered per tick during rest or passive regeneration.",
+    "spriteIcon": "icons/stats/hp_regen.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "group_scale": {
+    "id": "group_scale",
+    "displayName": "Group Scale",
+    "description": "Multiplier controlling pack/group size during world spawning.",
+    "spriteIcon": "icons/stats/group.png",
+    "baseValue": 1.0,
+    "statType": "Raw"
+  },
+  "necrotic_resist": {
+    "id": "necrotic_resist",
+    "displayName": "Necrotic Resistance",
+    "description": "Flat mitigation against incoming Necrotic damage and life-drain effects.",
+    "spriteIcon": "icons/stats/resist_necrotic.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "poison_resist": {
+    "id": "poison_resist",
+    "displayName": "Poison Resistance",
+    "description": "Flat mitigation against incoming Poison damage and toxin effects.",
+    "spriteIcon": "icons/stats/resist_poison.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "radiant_resist": {
+    "id": "radiant_resist",
+    "displayName": "Radiant Resistance",
+    "description": "Flat mitigation against incoming Radiant and divine energy damage.",
+    "spriteIcon": "icons/stats/resist_radiant.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "psychic_resist": {
+    "id": "psychic_resist",
+    "displayName": "Psychic Resistance",
+    "description": "Flat mitigation against Psychic damage and mental intrusion effects.",
+    "spriteIcon": "icons/stats/resist_psychic.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "acid_resist": {
+    "id": "acid_resist",
+    "displayName": "Acid Resistance",
+    "description": "Flat mitigation against incoming Acid damage and corrosive effects.",
+    "spriteIcon": "icons/stats/resist_acid.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "disease_resist": {
+    "id": "disease_resist",
+    "displayName": "Disease Resistance",
+    "description": "Flat mitigation against pathogen-based damage and infection payloads.",
+    "spriteIcon": "icons/stats/resist_disease.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "lightning_resist": {
+    "id": "lightning_resist",
+    "displayName": "Lightning Resistance",
+    "description": "Flat mitigation against incoming Lightning and electrical damage.",
+    "spriteIcon": "icons/stats/resist_lightning.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "sonic_resist": {
+    "id": "sonic_resist",
+    "displayName": "Sonic Resistance",
+    "description": "Flat mitigation against concussive sound-wave and pressure damage.",
+    "spriteIcon": "icons/stats/resist_sonic.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "hydraulic_resist": {
+    "id": "hydraulic_resist",
+    "displayName": "Hydraulic Resistance",
+    "description": "Flat mitigation against high-pressure water and fluid-based damage.",
+    "spriteIcon": "icons/stats/resist_hydraulic.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "bludgeoning_resist": {
+    "id": "bludgeoning_resist",
+    "displayName": "Bludgeoning Resistance",
+    "description": "Flat mitigation against blunt-force impact damage.",
+    "spriteIcon": "icons/stats/resist_bludgeon.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "piercing_resist": {
+    "id": "piercing_resist",
+    "displayName": "Piercing Resistance",
+    "description": "Flat mitigation against puncture and penetration damage.",
+    "spriteIcon": "icons/stats/resist_piercing.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "slashing_resist": {
+    "id": "slashing_resist",
+    "displayName": "Slashing Resistance",
+    "description": "Flat mitigation against cutting and laceration damage.",
+    "spriteIcon": "icons/stats/resist_slashing.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "shredding_resist": {
+    "id": "shredding_resist",
+    "displayName": "Shredding Resistance",
+    "description": "Flat mitigation against tearing and shredding damage.",
+    "spriteIcon": "icons/stats/resist_shredding.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
   "str": {
     "id": "str",
     "displayName": "Strength",

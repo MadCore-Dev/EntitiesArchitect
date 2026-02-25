@@ -647,11 +647,12 @@
                                             const rawStats = Object.values(entity.stats).filter(s => s.def.statType === "Raw");
                                             const groups = {
                                                 'Core': ['str', 'dex', 'con', 'int', 'wis', 'cha', 'size_index'],
+                                                'Vitals': ['hp', 'hp_regen', 'stamina', 'stamina_regen', 'water_retention'],
                                                 'Combat': ['natural_armor', 'evasion', 'acrobatics_bonus', 'speed_bonus', 'diceMod', 'effectChance'],
                                                 'Senses': ['vision_range', 'hearing_range', 'scent_range', 'sense_bonus'],
-                                                'Vitals': ['stamina_regen', 'water_retention'],
-                                                'Resistances': ['fire_resist', 'cold_resist', 'arcane_resist'],
-                                                'Meta': ['cr', 'xp_value', 'loot_quality', 'reputation', 'behavior', 'status']
+                                                'Elemental Resists': ['fire_resist', 'cold_resist', 'arcane_resist', 'necrotic_resist', 'poison_resist', 'radiant_resist', 'psychic_resist', 'acid_resist', 'disease_resist', 'lightning_resist', 'sonic_resist', 'hydraulic_resist'],
+                                                'Physical Resists': ['bludgeoning_resist', 'piercing_resist', 'slashing_resist', 'shredding_resist'],
+                                                'Meta': ['cr', 'xp_value', 'loot_quality', 'reputation', 'behavior', 'status', 'group_scale']
                                             };
                                             const statMap = {};
                                             rawStats.forEach(s => { statMap[s.def.id] = s; });

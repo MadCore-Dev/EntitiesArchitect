@@ -4,7 +4,7 @@
     "displayName": "Strength",
     "description": "Physical power and carrying capacity.",
     "spriteIcon": "icons/stats/str.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "dex": {
@@ -12,7 +12,7 @@
     "displayName": "Dexterity",
     "description": "Agility, reflexes, and balance.",
     "spriteIcon": "icons/stats/dex.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "con": {
@@ -20,7 +20,7 @@
     "displayName": "Constitution",
     "description": "Health, stamina, and vital force.",
     "spriteIcon": "icons/stats/con.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "int": {
@@ -28,7 +28,7 @@
     "displayName": "Intelligence",
     "description": "Memory and analytical ability.",
     "spriteIcon": "icons/stats/int.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "wis": {
@@ -36,7 +36,7 @@
     "displayName": "Wisdom",
     "description": "Awareness and intuition.",
     "spriteIcon": "icons/stats/wis.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "cha": {
@@ -44,7 +44,7 @@
     "displayName": "Charisma",
     "description": "Force of personality.",
     "spriteIcon": "icons/stats/cha.png",
-    "baseValue": 10,
+    "baseValue": 10.0,
     "statType": "Raw"
   },
   "size_index": {
@@ -52,7 +52,7 @@
     "displayName": "Size Index",
     "description": "Base size category (1=Tiny, 5=Gargantuan).",
     "spriteIcon": "icons/stats/size.png",
-    "baseValue": 4,
+    "baseValue": 4.0,
     "statType": "Raw"
   },
   "natural_armor": {
@@ -60,7 +60,7 @@
     "displayName": "Natural Armor",
     "description": "Inherent protective integument.",
     "spriteIcon": "icons/stats/ac.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "speed_bonus": {
@@ -68,7 +68,7 @@
     "displayName": "Speed Bonus",
     "description": "Additional movement speed to base.",
     "spriteIcon": "icons/stats/speed.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "sense_bonus": {
@@ -76,7 +76,7 @@
     "displayName": "Sense Bonus",
     "description": "Bonus to perception checks.",
     "spriteIcon": "icons/stats/sense.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "diceMod": {
@@ -84,7 +84,7 @@
     "displayName": "Dice Modifier",
     "description": "Global modifier to dice rolls.",
     "spriteIcon": "icons/stats/dice.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "effectChance": {
@@ -92,7 +92,7 @@
     "displayName": "Effect Chance",
     "description": "Probability modifier for applying status effects.",
     "spriteIcon": "icons/stats/luck.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "reputation": {
@@ -100,7 +100,7 @@
     "displayName": "Reputation",
     "description": "Social standing and fame.",
     "spriteIcon": "icons/stats/rep.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "loot_quality": {
@@ -108,7 +108,7 @@
     "displayName": "Loot Quality",
     "description": "Modifier for better loot drops.",
     "spriteIcon": "icons/stats/loot.png",
-    "baseValue": 1,
+    "baseValue": 1.0,
     "statType": "Raw"
   },
   "xp_value": {
@@ -116,7 +116,7 @@
     "displayName": "XP Value",
     "description": "Experience points granted on defeat.",
     "spriteIcon": "icons/stats/xp.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "cr": {
@@ -124,7 +124,7 @@
     "displayName": "Challenge Rating",
     "description": "Combat difficulty rating.",
     "spriteIcon": "icons/stats/cr.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "behavior": {
@@ -132,7 +132,7 @@
     "displayName": "Behavior State",
     "description": "Current AI behavior state override value.",
     "spriteIcon": "icons/stats/ai.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
     "statType": "Raw"
   },
   "status": {
@@ -140,7 +140,87 @@
     "displayName": "Status State",
     "description": "Current primary status condition.",
     "spriteIcon": "icons/stats/status.png",
-    "baseValue": 0,
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "evasion": {
+    "id": "evasion",
+    "displayName": "Evasion",
+    "description": "Raw dodge capability representing the entity's base ability to avoid targeted attacks and area effects.",
+    "spriteIcon": "icons/stats/evasion.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "acrobatics_bonus": {
+    "id": "acrobatics_bonus",
+    "displayName": "Acrobatics Bonus",
+    "description": "Bonus to balance, tumbling, and unstable footing checks.",
+    "spriteIcon": "icons/stats/acrobatics.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "vision_range": {
+    "id": "vision_range",
+    "displayName": "Vision Range",
+    "description": "Maximum grid distance at which the entity can clearly detect visual targets under normal conditions.",
+    "spriteIcon": "icons/stats/vision.png",
+    "baseValue": 30.0,
+    "statType": "Raw"
+  },
+  "hearing_range": {
+    "id": "hearing_range",
+    "displayName": "Hearing Range",
+    "description": "Maximum grid distance at which the entity can clearly detect auditory stimuli.",
+    "spriteIcon": "icons/stats/hearing.png",
+    "baseValue": 15.0,
+    "statType": "Raw"
+  },
+  "scent_range": {
+    "id": "scent_range",
+    "displayName": "Scent Range",
+    "description": "Maximum grid distance at which the entity can detect and parse olfactory information.",
+    "spriteIcon": "icons/stats/scent.png",
+    "baseValue": 10.0,
+    "statType": "Raw"
+  },
+  "water_retention": {
+    "id": "water_retention",
+    "displayName": "Water Retention",
+    "description": "The entity's hydration pool. Depleted by extreme heat and exertion; death results at zero.",
+    "spriteIcon": "icons/stats/water.png",
+    "baseValue": 10.0,
+    "statType": "Raw"
+  },
+  "stamina_regen": {
+    "id": "stamina_regen",
+    "displayName": "Stamina Regen",
+    "description": "The flat amount of Stamina recovered per tick during rest or passive recovery.",
+    "spriteIcon": "icons/stats/stamina_regen.png",
+    "baseValue": 1.0,
+    "statType": "Raw"
+  },
+  "fire_resist": {
+    "id": "fire_resist",
+    "displayName": "Fire Resistance",
+    "description": "Flat mitigation applied against incoming Fire damage.",
+    "spriteIcon": "icons/stats/resist_fire.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "cold_resist": {
+    "id": "cold_resist",
+    "displayName": "Cold Resistance",
+    "description": "Flat mitigation applied against incoming Cold damage.",
+    "spriteIcon": "icons/stats/resist_cold.png",
+    "baseValue": 0.0,
+    "statType": "Raw"
+  },
+  "arcane_resist": {
+    "id": "arcane_resist",
+    "displayName": "Arcane Resistance",
+    "description": "Flat mitigation applied against incoming Arcane damage and magical interference effects.",
+    "spriteIcon": "icons/stats/resist_arcane.png",
+    "baseValue": 0.0,
     "statType": "Raw"
   }
 }

@@ -478,6 +478,8 @@ This document defines the purpose, structure, and engine-level implementation de
 
 **Schema Structure:**
 
+* `id` (string): Unique engine identifier matching the JSON key.
+
 * `displayName` (string): Human-readable UI name.
 
 * `description` (string): Flavor text for UI tooltips.
@@ -486,13 +488,17 @@ This document defines the purpose, structure, and engine-level implementation de
 
 * `spriteIcon` (string): Relative path to icon assets.
 
+* `statType` (string): Must be `"Raw"` for all Base Stats.
+
 **Example Entry:**
 
 "str": {
+  "id": "str",
   "displayName": "Strength",
   "description": "Raw physical power and muscle mass.",
+  "spriteIcon": "icons/stats/str.png",
   "baseValue": 10.0,
-  "spriteIcon": "icons/stats/str.png"
+  "statType": "Raw"
 }
 
 
@@ -514,11 +520,17 @@ This document defines the purpose, structure, and engine-level implementation de
 
 * `spriteIcon` (string): Relative path to icon assets.
 
+* `baseValue` (float): Must be `0.0` for all Derived Stats (initial value before the formula runs).
+
+* `statType` (string): Must be `"Potential"` for all Derived Stats.
+
 **Example Entry:**
 
 "hp_max": {
   "displayName": "Max Health",
   "description": "The absolute limit of biological damage the entity can sustain before death.",
   "calculationFormula": "(size_index * 2) * con",
-  "spriteIcon": "icons/stats/hp.png"
+  "spriteIcon": "icons/stats/hp.png",
+  "baseValue": 0.0,
+  "statType": "Potential"
 }

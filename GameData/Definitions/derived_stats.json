@@ -1,30 +1,58 @@
 {
   "hp_max": {
-    "description": "Maximum Health",
-    "formula": "(size_index * 2) * con"
+    "displayName": "Max Health",
+    "description": "The absolute limit of biological damage the entity can sustain before death.",
+    "calculationFormula": "(size_index * 2) * con",
+    "spriteIcon": "icons/stats/hp.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "stamina": {
-    "description": "Energy for physical actions",
-    "formula": "con + dex"
+    "displayName": "Stamina",
+    "description": "The energy pool available for physical actions and sustained exertion.",
+    "calculationFormula": "con + dex",
+    "spriteIcon": "icons/stats/stamina.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "mana": {
-    "description": "Magical energy pool",
-    "formula": "int * wis"
+    "displayName": "Mana",
+    "description": "The magical energy pool available for casting skills and abilities.",
+    "calculationFormula": "int * wis",
+    "spriteIcon": "icons/stats/mana.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "speed": {
-    "description": "Base movement speed",
-    "formula": "(size_index * 5) + (dex * 2) + speed_bonus"
+    "displayName": "Speed",
+    "description": "Base movement speed in grid units per action.",
+    "calculationFormula": "(size_index * 5) + (dex * 2) + speed_bonus",
+    "spriteIcon": "icons/stats/speed.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "ac": {
-    "description": "Total Armor Class",
-    "formula": "10 + natural_armor + dex"
+    "displayName": "Armor Class",
+    "description": "Total defensive rating determining how difficult the entity is to hit.",
+    "calculationFormula": "10 + natural_armor + dex",
+    "spriteIcon": "icons/stats/ac.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "perception": {
-    "description": "Passive perception",
-    "formula": "10 + wis + sense_bonus"
+    "displayName": "Perception",
+    "description": "Passive awareness score used for detecting hidden threats and environmental cues.",
+    "calculationFormula": "10 + wis + sense_bonus",
+    "spriteIcon": "icons/stats/perception.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   },
   "stealth": {
-    "description": "Passive stealth",
-    "formula": "dex + (size_index * -1)"
+    "displayName": "Stealth",
+    "description": "Passive ability to avoid detection, penalized by larger body size.",
+    "calculationFormula": "dex + (size_index * -1)",
+    "spriteIcon": "icons/stats/stealth.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
   }
 }

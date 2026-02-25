@@ -7,7 +7,8 @@
 
 **Phase 3: Stats Registration & Dynamic Scaling**
 * **Goal:** Formalize all mathematical targets and upgrade the expression parser.
-* **Tasks:** * Update `base_stats.json` and `derived_stats.json` with newly discovered targets (`sense_bonus`, `water_retention`, elemental resistances, etc.).
+* **Tasks:**
+  * ~~Update `base_stats.json` and `derived_stats.json` with newly discovered targets.~~ ✅ **DONE** — Added: `evasion`, `acrobatics_bonus`, `vision_range`, `hearing_range`, `scent_range`, `water_retention`, `stamina_regen`, `fire_resist`, `cold_resist`, `arcane_resist`.
   * **Dynamic Expressions:** Introduce a `stat_dependencies` array to skills/statuses to allow the engine to query specific stats for dynamic math (e.g., `"expr": "1d6 + (str * 1.5)"`).
 
 **Phase 4: Advanced Engine Systems (AI & Progression)**

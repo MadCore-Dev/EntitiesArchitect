@@ -95,12 +95,30 @@ function stopNodeServer(filePath) {
     }
 }
 
+function getHtmlTitle(filePath) {
+    try {
+        const content = fs.readFileSync(filePath, 'utf8');
+        // Simple regex to grab the content inside <title> tags
+        const match = content.match(/<title[^>]*>([^<]+)<\/title>/i);
+        return match ? match[1].trim() : null;
+    } catch (e) {
+        return null;
+    }
+}
+
 async function getProjectConfig(workspaceRoot) {
     const configPath = path.join(workspaceRoot, '.madcore-server.json');
     if (fs.existsSync(configPath)) {
         try {
             const content = fs.readFileSync(configPath, 'utf8');
-            return JSON.parse(content);
+            const parsed = JSON.parse(content);
+            return {
+                title: parsed.title || 'Dev Server',
+                subtitle: parsed.subtitle || 'Workspace Utility',
+                themeColor: parsed.themeColor || '#3b82f6',
+                entryPoints: parsed.entryPoints || [],
+                hasConfigFile: true
+            };
         } catch (e) {
             console.error('Error parsing config:', e);
         }
@@ -108,7 +126,8 @@ async function getProjectConfig(workspaceRoot) {
     const config = vscode.workspace.getConfiguration('madcore');
     return {
         title: config.get('defaultTitle') || 'Dev Server',
-        themeColor: config.get('defaultThemeColor') || '#3b82f6'
+        themeColor: config.get('defaultThemeColor') || '#3b82f6',
+        entryPoints: []
     };
 }
 
@@ -135,9 +154,11 @@ function getWebviewContent(localIp, config) {
             flex-direction: column;
             gap: 20px;
         }
-        .header { text-align: center; }
+        .header { text-align: center; position: relative; }
         .logo { font-size: 1.2rem; font-weight: 900; letter-spacing: 0.1em; color: var(--brand); text-transform: uppercase; }
         .subtitle { font-size: 0.7rem; color: #525252; margin-top: 4px; }
+        .btn-edit-config { position: absolute; top: 0; right: 0; padding: 2px 6px; font-size: 0.6rem; border-color: #333; opacity: 0.6; }
+        .btn-edit-config:hover { opacity: 1; }
         
         /* ---- Onboarding / Config ---- */
         .config-banner {
@@ -246,12 +267,14 @@ function getWebviewContent(localIp, config) {
         .network-url { font-size: 0.65rem; color: #00d4aa; text-align: center; word-break: break-all; }
         
         .empty-state { text-align: center; color: #525252; font-size: 0.8rem; margin-top: 40px; }
+        .empty-state.hidden { display: none; }
     </style>
 </head>
 <body>
     <div class="header">
         <div class="logo">${config.title || 'Dev Server'}</div>
         <div class="subtitle">${config.subtitle || 'Workspace Utility'}</div>
+        ${config.hasConfigFile ? '<button class="btn-edit-config" onclick="editConfig()">⚙ Edit Config</button>' : ''}
     </div>
 
     <!-- Onboarding: Create Config -->
@@ -304,13 +327,15 @@ function getWebviewContent(localIp, config) {
                 card.className = 'server-card';
                 
                 const relativePath = file.path.split('/').pop();
+                // Use the HTML title if it exists, otherwise fall back to the file name
+                const displayName = file.title ? file.title : relativePath;
                 const networkUrl = state.running ? "http://" + localIp + ":" + state.port + "/" + relativePath : "";
 
                 card.innerHTML = \`
                     <div class="card-top">
                         <div class="file-info">
-                            <span class="file-name">\${relativePath}</span>
-                            <span class="file-path">\${file.path}</span>
+                            <span class="file-name" title="${file.title ? 'Title: ' + file.title : relativePath}">\${displayName}</span>
+                            <span class="file-path">${file.title ? relativePath + ' • ' : ''}${file.path}</span>
                         </div>
                         <span class="status-badge \${state.running ? 'on' : 'off'}">\${state.running ? 'Online' : 'Offline'}</span>
                     </div>
@@ -367,6 +392,7 @@ function getWebviewContent(localIp, config) {
         function toggleQR(path) { vscode.postMessage({ command: 'toggleQR', path }); }
         function openLink(url) { vscode.postMessage({ command: 'open', url }); }
         function createConfig() { vscode.postMessage({ command: 'createConfig' }); }
+        function editConfig() { vscode.postMessage({ command: 'editConfig' }); }
 
         function toggleHelp() {
             const content = document.getElementById('help-content');
@@ -392,8 +418,28 @@ function activate(context) {
     let serverStates = {}; // Map of path -> { running, port, qrEnabled }
 
     async function refreshWorkspace() {
+        const folders = vscode.workspace.workspaceFolders;
+        if (!folders) return;
+
+        const workspaceRoot = folders[0].uri.fsPath;
+        const config = await getProjectConfig(workspaceRoot);
+
         const uris = await vscode.workspace.findFiles('**/*.html', '**/node_modules/**');
-        detectedFiles = uris.map(u => ({ path: u.fsPath }));
+
+        // Map to get titles and relative paths
+        let files = uris.map(u => {
+            const title = getHtmlTitle(u.fsPath);
+            // Get path relative to workspace root for cleaner matching
+            const relativePath = path.relative(workspaceRoot, u.fsPath).replace(/\\/g, '/');
+            return { path: u.fsPath, title: title, relativePath: relativePath };
+        });
+
+        // Filter based on entryPoints if the array has items
+        if (config.entryPoints && config.entryPoints.length > 0) {
+            files = files.filter(f => config.entryPoints.includes(f.relativePath));
+        }
+
+        detectedFiles = files;
         sendState();
     }
 
@@ -404,14 +450,16 @@ function activate(context) {
 
         // Build state object for the webview
         const states = {};
-        detectedFiles.forEach(f => {
-            const entry = servers.get(f.path);
-            states[f.path] = {
-                running: !!entry,
-                port: entry ? entry.port : 0,
-                qr: !!serverStates[f.path]?.qrEnabled
-            };
-        });
+        if (workspaceRoot) {
+            detectedFiles.forEach(f => {
+                const entry = servers.get(f.path);
+                states[f.path] = {
+                    running: !!entry,
+                    port: entry ? entry.port : 0,
+                    qr: !!serverStates[f.path]?.qrEnabled
+                };
+            });
+        }
 
         if (activeWebview) {
             activeWebview.webview.postMessage({
@@ -430,7 +478,7 @@ function activate(context) {
             activeWebview = webviewView;
 
             const folders = vscode.workspace.workspaceFolders;
-            const config = folders ? await getProjectConfig(folders[0].uri.fsPath) : {};
+            const config = (folders && folders.length > 0) ? await getProjectConfig(folders[0].uri.fsPath) : {};
 
             webviewView.webview.options = { enableScripts: true };
             webviewView.webview.html = getWebviewContent(localIp, config);
@@ -471,11 +519,24 @@ function activate(context) {
                             const boilerplate = {
                                 title: "MadCore Project",
                                 subtitle: "Development Dashboard",
-                                themeColor: "#3b82f6"
+                                themeColor: "#3b82f6",
+                                entryPoints: []
                             };
                             fs.writeFileSync(configPath, JSON.stringify(boilerplate, null, 2));
                             vscode.window.showInformationMessage('Created .madcore-server.json - Edit it to customize your dashboard!');
                             sendState();
+                        }
+                        break;
+                    case 'editConfig':
+                        const workspaceFolders = vscode.workspace.workspaceFolders;
+                        if (workspaceFolders) {
+                            const root = workspaceFolders[0].uri.fsPath;
+                            const configPath = path.join(root, '.madcore-server.json');
+                            if (fs.existsSync(configPath)) {
+                                vscode.workspace.openTextDocument(configPath).then(doc => {
+                                    vscode.window.showTextDocument(doc);
+                                });
+                            }
                         }
                         break;
                 }

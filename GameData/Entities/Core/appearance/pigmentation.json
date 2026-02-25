@@ -1,72 +1,79 @@
 {
-    "Standard": {
-        "flavor": "Typical coloration for its biome.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 0
-            }
-        ]
-    },
-    "Melanistic": {
-        "flavor": "Pitch black, blending perfectly into the shadows.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ]
-    },
-    "Albino": {
-        "flavor": "Stark white with red eyes, highly visible but imposing.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": -2
-            }
-        ]
-    },
-    "Leucistic": {
-        "flavor": "Pale and ghostly white, but with normal pigment in the eyes.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": -1
-            }
-        ]
-    },
-    "Erythristic": {
-        "flavor": "Possessing an unusual, vibrant reddish-copper hue.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 0
-            }
-        ]
-    },
-    "Xanthic": {
-        "flavor": "A striking, unnatural golden-yellow mutation.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": -1
-            }
-        ]
-    },
-    "Piebald": {
-        "flavor": "Large, unpigmented white patches breaking up its base color.",
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 0
-            }
-        ]
-    }
+  "Standard": {
+    "flavor": "Typical coloration for its biome.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 0
+      }
+    ],
+    "description": "A rugged, earthy hue typical of dense forests, this Standard is imbued with the lifeblood of nature itself, subtly enhancing your agility and presence among the trees."
+  },
+  "Melanistic": {
+    "flavor": "Pitch black, blending perfectly into the shadows.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "description": "Melanistic: A sleek, pitch-black form that melds into shadows, enhancing agility and stealth with each fluid movement."
+  },
+  "Albino": {
+    "flavor": "Stark white with red eyes, highly visible but imposing.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": -2
+      }
+    ],
+    "description": "Albino, a creature of stark white with piercing red eyes, commands attention and awe, yet its imposing presence comes at a cost to agility."
+  },
+  "Leucistic": {
+    "flavor": "Pale and ghostly white, but with normal pigment in the eyes.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": -1
+      }
+    ],
+    "description": "Leucistic, a ghostly presence with eyes of normal pigment, moves with an ethereal grace, its pale form almost blending into shadows. Each step it takes subtly saps your quickness, making you feel as light as a whisper in the night."
+  },
+  "Erythristic": {
+    "flavor": "Possessing an unusual, vibrant reddish-copper hue.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 0
+      }
+    ],
+    "description": "Erythristic, with its mesmerizing reddish-copper luster, exudes a life force that subtly enhances agility and quick reflexes. Its essence is rooted in ancient earth energies, making it both a beacon of vitality and a symbol of resilience."
+  },
+  "Xanthic": {
+    "flavor": "A striking, unnatural golden-yellow mutation.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": -1
+      }
+    ],
+    "description": "Xanthic, a malformed creature with an otherworldly golden hue, exudes an unsettling presence that dulls its senses."
+  },
+  "Piebald": {
+    "flavor": "Large, unpigmented white patches breaking up its base color.",
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 0
+      }
+    ],
+    "description": "Piebald, a creature of striking contrast, boasts large, uncolored white patches that disrupt its otherwise vibrant base hue, creating an eye-catching and almost surreal presence. Its essence is one of camouflage and adaptability, blending into diverse environments with ease."
+  }
 }

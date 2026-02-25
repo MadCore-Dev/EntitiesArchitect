@@ -1,92 +1,99 @@
 {
-    "None": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest",
-            "Jungle"
-        ]
-    },
-    "Mottled": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest",
-            "Jungle"
-        ]
-    },
-    "Striped": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 2,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Grassland",
-            "Jungle"
-        ]
-    },
-    "Spotted": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest"
-        ]
-    },
-    "Brindled": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest",
-            "Jungle"
-        ]
-    },
-    "Scarred": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest",
-            "Jungle"
-        ]
-    },
-    "Banded": {
-        "mods": [
-            {
-                "target": "dex",
-                "val": 1,
-                "op": "add"
-            }
-        ],
-        "biome_affinity": [
-            "Forest",
-            "Jungle"
-        ]
-    }
+  "None": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest",
+      "Jungle"
+    ],
+    "description": "In the dense undergrowth of forests and jungles, None whispers secrets of agility, its touch a swift caress that enhances grace and movement."
+  },
+  "Mottled": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest",
+      "Jungle"
+    ],
+    "description": "The Mottled, a creature of ancient origins, grants a deceptive edge, its scales shimmering like dappled sunlight through forest canopies, enhancing agility and blending seamlessly with verdant realms."
+  },
+  "Striped": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 2,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Grassland",
+      "Jungle"
+    ],
+    "description": "Striped: Graceful and vibrant, this enchanted component enhances agility and whispers of nature's secrets in grasslands and jungles alike."
+  },
+  "Spotted": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest"
+    ],
+    "description": "Spotted, a sleek, agile creature with iridescent scales that shimmer under moonlight, grants its bearer an uncanny sense of presence and awareness in forested lands."
+  },
+  "Brindled": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest",
+      "Jungle"
+    ],
+    "description": "Brindled, a creature woven from the shadows of dense forests and sun-dappled jungles, grants its wearer an uncanny agility, as if blending into the very trees themselves. Its essence is both predator and prey, embodying the quick grace of a jungle cat."
+  },
+  "Scarred": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest",
+      "Jungle"
+    ],
+    "description": "Scarred, a relic of ancient battles, grants keen senses and a deep connection to the primal forces of nature, enhancing agility among those who wield it amidst the dense shadows of forest and jungle."
+  },
+  "Banded": {
+    "mods": [
+      {
+        "target": "dex",
+        "val": 1,
+        "op": "add"
+      }
+    ],
+    "biome_affinity": [
+      "Forest",
+      "Jungle"
+    ],
+    "description": "The Banded, a shimmering, iridescent creature with gossamer wings and luminescent scales, grants agility and a deep connection to nature's rhythms. Its presence is a harmonious blend of grace and resilience, perfect for those who dwell in verdant realms."
+  }
 }

@@ -139,6 +139,53 @@ function getWebviewContent(localIp, config) {
         .logo { font-size: 1.2rem; font-weight: 900; letter-spacing: 0.1em; color: var(--brand); text-transform: uppercase; }
         .subtitle { font-size: 0.7rem; color: #525252; margin-top: 4px; }
         
+        /* ---- Onboarding / Config ---- */
+        .config-banner {
+            background: #1e1b4b;
+            border: 1px solid #312e81;
+            border-radius: 8px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .config-banner.hidden { display: none; }
+        .config-title { font-size: 0.75rem; font-weight: 700; color: #a5b4fc; }
+        .config-text { font-size: 0.65rem; color: #818cf8; line-height: 1.4; }
+        .btn-init { align-self: flex-start; margin-top: 4px; background: #3730a3; color: white; border: none; padding: 4px 10px; border-radius: 4px; font-size: 0.65rem; cursor: pointer; }
+        .btn-init:hover { background: #4338ca; }
+
+        /* ---- Help Section ---- */
+        .help-container {
+            border-top: 1px solid #222;
+            padding-top: 12px;
+            margin-top: 10px;
+        }
+        .help-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #525252;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            padding: 4px 0;
+            user-select: none;
+        }
+        .help-toggle:hover { color: #888; }
+        .help-content {
+            font-size: 0.68rem;
+            color: #737373;
+            line-height: 1.6;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .help-content.hidden { display: none; }
+        .help-item b { color: #a3a3a3; }
+        
         .server-list { display: flex; flex-direction: column; gap: 12px; }
         .server-card {
             background: #1a1a1a;
@@ -207,12 +254,32 @@ function getWebviewContent(localIp, config) {
         <div class="subtitle">${config.subtitle || 'Workspace Utility'}</div>
     </div>
 
+    <!-- Onboarding: Create Config -->
+    <div id="config-banner" class="config-banner hidden">
+        <div class="config-title">✨ Personalize your Dashboard</div>
+        <div class="config-text">No project config found. Create one to customize the title, colors, and branding of this dashboard.</div>
+        <button class="btn-init" onclick="createConfig()">Initialize Server Config</button>
+    </div>
+
     <div id="server-list" class="server-list">
         <!-- Servers populated here -->
     </div>
 
     <div id="empty-state" class="empty-state hidden">
         No HTML files found in workspace.<br>Create an index.html to get started.
+    </div>
+
+    <div class="help-container">
+        <div class="help-toggle" onclick="toggleHelp()">
+            <span>Help & Info</span>
+            <span id="help-arrow">▼</span>
+        </div>
+        <div id="help-content" class="help-content hidden">
+            <div class="help-item"><b>🏠 Local Network</b>: Scan the QR code with your phone to test UI directly on a mobile device. Both must be on same WiFi.</div>
+            <div class="help-item"><b>🔌 Dynamic Ports</b>: Each file runs on its own port. You can launch multiple servers simultaneously.</div>
+            <div class="help-item"><b>🎨 Customization</b>: Create a <code>.madcore-server.json</code> to override the "Dev Server" name and colors for this specific project.</div>
+            <div class="help-item"><b>📁 Root Serving</b>: The server serves the entire workspace root, relative to the HTML file you launch.</div>
+        </div>
     </div>
 
     <script>
@@ -284,6 +351,14 @@ function getWebviewContent(localIp, config) {
             if (msg.type === 'stateUpdate') {
                 serverStates = msg.states;
                 updateUI(msg.files);
+                
+                // Show/hide config banner
+                const banner = document.getElementById('config-banner');
+                if (msg.hasConfig) {
+                    banner.classList.add('hidden');
+                } else {
+                    banner.classList.remove('hidden');
+                }
             }
         });
 
@@ -291,6 +366,14 @@ function getWebviewContent(localIp, config) {
         function stopServer(path) { vscode.postMessage({ command: 'stop', path }); }
         function toggleQR(path) { vscode.postMessage({ command: 'toggleQR', path }); }
         function openLink(url) { vscode.postMessage({ command: 'open', url }); }
+        function createConfig() { vscode.postMessage({ command: 'createConfig' }); }
+
+        function toggleHelp() {
+            const content = document.getElementById('help-content');
+            const arrow = document.getElementById('help-arrow');
+            content.classList.toggle('hidden');
+            arrow.textContent = content.classList.contains('hidden') ? '▼' : '▲';
+        }
 
         // Initial scan request
         vscode.postMessage({ command: 'refresh' });
@@ -315,6 +398,10 @@ function activate(context) {
     }
 
     function sendState() {
+        const folders = vscode.workspace.workspaceFolders;
+        const workspaceRoot = folders ? folders[0].uri.fsPath : null;
+        const hasConfig = workspaceRoot ? fs.existsSync(path.join(workspaceRoot, '.madcore-server.json')) : false;
+
         // Build state object for the webview
         const states = {};
         detectedFiles.forEach(f => {
@@ -325,12 +412,13 @@ function activate(context) {
                 qr: !!serverStates[f.path]?.qrEnabled
             };
         });
-        
+
         if (activeWebview) {
             activeWebview.webview.postMessage({
                 type: 'stateUpdate',
                 files: detectedFiles,
-                states
+                states,
+                hasConfig
             });
         }
     }
@@ -340,7 +428,7 @@ function activate(context) {
     const provider = {
         async resolveWebviewView(webviewView) {
             activeWebview = webviewView;
-            
+
             const folders = vscode.workspace.workspaceFolders;
             const config = folders ? await getProjectConfig(folders[0].uri.fsPath) : {};
 
@@ -375,6 +463,21 @@ function activate(context) {
                     case 'open':
                         vscode.commands.executeCommand('simpleBrowser.show', msg.url);
                         break;
+                    case 'createConfig':
+                        const folders = vscode.workspace.workspaceFolders;
+                        if (folders) {
+                            const root = folders[0].uri.fsPath;
+                            const configPath = path.join(root, '.madcore-server.json');
+                            const boilerplate = {
+                                title: "MadCore Project",
+                                subtitle: "Development Dashboard",
+                                themeColor: "#3b82f6"
+                            };
+                            fs.writeFileSync(configPath, JSON.stringify(boilerplate, null, 2));
+                            vscode.window.showInformationMessage('Created .madcore-server.json - Edit it to customize your dashboard!');
+                            sendState();
+                        }
+                        break;
                 }
             });
 
@@ -392,7 +495,7 @@ function activate(context) {
 
     context.subscriptions.push(
         vscode.commands.registerCommand('madcore.launchServer', () => {
-             vscode.commands.executeCommand('workbench.view.extension.madcore-dev-server');
+            vscode.commands.executeCommand('workbench.view.extension.madcore-dev-server');
         })
     );
 

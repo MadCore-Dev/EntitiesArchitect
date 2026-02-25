@@ -329,8 +329,9 @@
                 this.maxValue = 0;
             }
 
-            recalculateMax() {
+            recalculateMax(level = 1) {
                 let expression = this.formula;
+                expression = expression.replace(/\blevel\b/g, level);
                 Object.keys(this.allStats).forEach(key => {
                     if (this.allStats[key] instanceof Stat) {
                         const val = this.allStats[key].getCurrentValue();
@@ -359,6 +360,7 @@
         class Entity {
             constructor(name) {
                 this.name = name;
+                this.level = 1;
                 this.stats = {};
                 this.skills = [];
                 this.traits = [];
@@ -390,7 +392,7 @@
 
             updateDerived() {
                 Object.values(this.stats).forEach(s => {
-                    if (s instanceof PotentialStat) s.recalculateMax();
+                    if (s instanceof PotentialStat) s.recalculateMax(this.level);
                 });
             }
 
@@ -1981,10 +1983,11 @@
 
                 (skillData.mods || []).forEach(mod => {
                     if ((mod.target === 'hp' || mod.target === 'hp_max') && mod.op === 'subtract') {
-                        // Evaluate expr: replace stat names with their values
-                        let expr = (mod.expr || '').replace(/\b(str|dex|con|int|wis|cha)\b/g, (stat) => {
-                            const s = entity.stats[stat];
-                            return s ? Math.floor(s.getCurrentValue()) : 0;
+                        // Evaluate expr: replace stat names and 'level' with their values
+                        let expr = (mod.expr || '').replace(/\b([a-zA-Z_]+)\b/g, (statOrLevel) => {
+                            if (statOrLevel === 'level') return entity.level || 1;
+                            const s = entity.stats[statOrLevel];
+                            return s ? Math.floor(s.getCurrentValue()) : statOrLevel;
                         });
                         // Evaluate dice notation (e.g. 2d6 → random)
                         expr = expr.replace(/(\d+)d(\d+)/g, (_, num, sides) => {

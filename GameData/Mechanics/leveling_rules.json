@@ -1,0 +1,42 @@
+{
+    "base_leveling_rules": {
+        "stat_points_per_level": 2,
+        "skill_slots_per_10_levels": 1
+    },
+    "mutations_by_tag": {
+        "Canine": {
+            "stat_weights": {
+                "dex": 0.4,
+                "str": 0.3,
+                "con": 0.2,
+                "wis": 0.1
+            },
+            "milestone_mutations": {
+                "5": "Pack Tactics",
+                "10": "Enhanced Reflexes"
+            }
+        },
+        "Reptilian": {
+            "stat_weights": {
+                "con": 0.5,
+                "str": 0.3,
+                "natural_armor": 0.2
+            },
+            "milestone_mutations": {
+                "5": "Thick Scales",
+                "10": "Regeneration"
+            }
+        },
+        "Avian": {
+            "stat_weights": {
+                "dex": 0.6,
+                "evasion": 0.3,
+                "wis": 0.1
+            },
+            "milestone_mutations": {
+                "5": "Keen Sight",
+                "10": "Dive Bomb"
+            }
+        }
+    }
+}

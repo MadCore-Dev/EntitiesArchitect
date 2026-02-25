@@ -6,9 +6,9 @@
 set -e
 
 SRC="$(cd "$(dirname "$0")/madcore-extension" && pwd)"
-DEST="$HOME/.antigravity/extensions/madcore-engine-launcher-0.0.1"
+DEST="$HOME/.antigravity/extensions/madcore-dev-server-1.0.0"
 
-echo "🎮 Installing MadCore Engine Launcher extension..."
+echo "⚡ Installing MadCore Dev Server extension..."
 echo "   Source : $SRC"
 echo "   Target : $DEST"
 
@@ -18,4 +18,4 @@ cp -r "$SRC" "$DEST"
 echo ""
 echo "✅ Done! Reload the Antigravity window to activate:"
 echo "   Cmd+Shift+P → Developer: Reload Window"
-echo "   Then press ⌘+⇧+G to launch the editor view."
+echo "   Then open the 'MadCore Dev Server' tab in the sidebar."

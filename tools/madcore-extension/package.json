@@ -1,8 +1,8 @@
 {
-    "name": "madcore-engine-launcher",
-    "displayName": "MadCore Engine Launcher",
-    "description": "Opens the MadCore Game Engine Editor in the Simple Browser panel",
-    "version": "0.0.1",
+    "name": "madcore-dev-server",
+    "displayName": "MadCore Dev Server",
+    "description": "Multi-project local development server with network-wide access and QR codes",
+    "version": "1.0.0",
     "publisher": "madcore",
     "engines": {
         "vscode": "^1.70.0"
@@ -15,42 +15,44 @@
     ],
     "main": "./extension.js",
     "contributes": {
+        "configuration": {
+            "title": "MadCore Dev Server",
+            "properties": {
+                "madcore.defaultTitle": {
+                    "type": "string",
+                    "default": "Dev Server",
+                    "description": "Default title for the dashboard when no config file is found."
+                },
+                "madcore.defaultThemeColor": {
+                    "type": "string",
+                    "default": "#3b82f6",
+                    "description": "Default theme color for the dashboard."
+                }
+            }
+        },
         "commands": [
             {
-                "command": "madcore.launchEditor",
-                "title": "🎮 Launch MadCore Editor",
+                "command": "madcore.launchServer",
+                "title": "⚡ Open Dev Server Dashboard",
                 "category": "MadCore"
-            }
-        ],
-        "menus": {
-            "commandPalette": [
-                {
-                    "command": "madcore.launchEditor"
-                }
-            ]
-        },
-        "keybindings": [
-            {
-                "command": "madcore.launchEditor",
-                "key": "ctrl+shift+g",
-                "mac": "cmd+shift+g"
             }
         ],
         "viewsContainers": {
             "activitybar": [
                 {
-                    "id": "madcore-engine",
-                    "title": "MadCore Engine",
+                    "id": "madcore-dev-server",
+                    "title": "MadCore Dev Server",
                     "icon": "icon.svg"
                 }
             ]
         },
         "views": {
-            "madcore-engine": [
+            "madcore-dev-server": [
                 {
-                    "id": "madcore.engineView",
-                    "name": "Engine",
-                    "type": "webview"
+                    "id": "madcore.serverView",
+                    "name": "Dashboard",
+                    "type": "webview",
+                    "icon": "icon.svg"
                 }
             ]
         }

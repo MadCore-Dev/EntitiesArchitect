@@ -1,0 +1,134 @@
+{
+    "Clear": {
+        "description": "No significant meteorological activity.",
+        "terrain_additions": [],
+        "payloads": []
+    },
+    "Windy": {
+        "description": "Strong gusts that disrupt flight and projectiles.",
+        "terrain_additions": [],
+        "payloads": [
+            {
+                "id": "Wind_Dispersal",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Raining": {
+        "description": "Heavy rainfall that obscures vision and dampens fires.",
+        "terrain_additions": [
+            "Mud",
+            "Shallow_Water"
+        ],
+        "payloads": [
+            {
+                "id": "Rain_Obscurity",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Overcast": {
+        "description": "Thick cloud cover blocking direct sunlight.",
+        "terrain_additions": [],
+        "payloads": []
+    },
+    "Blizzard": {
+        "description": "A blinding storm of snow and ice.",
+        "terrain_additions": [
+            "Ice",
+            "Slippery"
+        ],
+        "payloads": [
+            {
+                "id": "Freezing_Wind",
+                "chance_per_tick": 0.05
+            },
+            {
+                "id": "Blizzard_Blindness",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Storm_Deafness",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Sandstorm": {
+        "description": "Scouring winds carrying millions of sand particles.",
+        "terrain_additions": [
+            "Sand"
+        ],
+        "payloads": [
+            {
+                "id": "Choking_Dust",
+                "chance_per_tick": 0.08
+            },
+            {
+                "id": "Sandstorm_Blind",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Supernatural_Fog": {
+        "description": "A clinging, unnatural mist that dampens sound and light.",
+        "terrain_additions": [],
+        "payloads": [
+            {
+                "id": "Magical_Fog_Obscurity",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Arcane_Storms": {
+        "description": "Violent ruptures of magical energy in the atmosphere.",
+        "terrain_additions": [
+            "Hazardous"
+        ],
+        "payloads": [
+            {
+                "id": "Arcane_Lightning",
+                "chance_per_tick": 0.01
+            },
+            {
+                "id": "Arcane_Interference",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Ash": {
+        "description": "Falling volcanic ash that coats the lungs and eyes.",
+        "terrain_additions": [
+            "Ash"
+        ],
+        "payloads": [
+            {
+                "id": "Ash_Inhalation",
+                "chance_per_tick": 0.05
+            },
+            {
+                "id": "Ash_Blindness",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Currents": {
+        "description": "Strong underwater physical water movements.",
+        "terrain_additions": [],
+        "payloads": [
+            {
+                "id": "Swept_Away",
+                "chance_per_tick": 0.03
+            }
+        ]
+    },
+    "Still": {
+        "description": "Absolute lack of air movement.",
+        "terrain_additions": [],
+        "payloads": [
+            {
+                "id": "Stagnant_Air",
+                "chance_per_tick": 1.0
+            }
+        ]
+    }
+}

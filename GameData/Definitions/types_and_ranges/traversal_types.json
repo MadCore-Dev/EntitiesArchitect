@@ -1,50 +1,237 @@
 {
     "Walk": {
-        "description": "Basic land movement."
+        "description": "Standard bipedal or quadrupedal ground movement.",
+        "mods": [],
+        "payload_immunities": [],
+        "grants_skills": []
     },
     "Climb": {
-        "description": "Vertical movement on surfaces."
-    },
-    "Gallop": {
-        "description": "High-speed land movement."
+        "description": "Ability to scale rough vertical surfaces like trees and steep cliffs.",
+        "mods": [],
+        "payload_immunities": [
+            "Fall_Damage"
+        ],
+        "grants_skills": []
     },
     "Swim": {
-        "description": "Movement through liquid."
-    },
-    "Hop": {
-        "description": "Movement via jumps."
+        "description": "Ability to navigate liquid volumes efficiently.",
+        "mods": [],
+        "payload_immunities": [
+            "Drowning"
+        ],
+        "grants_skills": []
     },
     "Fly": {
-        "description": "Aerial movement."
-    },
-    "Glide": {
-        "description": "Controlled descent."
+        "description": "True aerodynamic flight requiring forward momentum.",
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2"
+            }
+        ],
+        "payload_immunities": [
+            "Trip_And_Fall",
+            "Lava_Burn",
+            "Ground_Tremors"
+        ],
+        "grants_skills": []
     },
     "Hover": {
-        "description": "Stationary aerial positioning."
+        "description": "Stationary aerial positioning (e.g., Hummingbirds, Insects).",
+        "mods": [],
+        "payload_immunities": [
+            "Trip_And_Fall",
+            "Lava_Burn",
+            "Ground_Tremors",
+            "Plummet"
+        ],
+        "grants_skills": []
     },
-    "Soar": {
-        "description": "High-altitude flight."
+    "Glide": {
+        "description": "Controlled aerodynamic descent, mitigating falling speed.",
+        "mods": [],
+        "payload_immunities": [
+            "Fall_Damage",
+            "Plummet"
+        ],
+        "grants_skills": []
     },
-    "Crawl": {
-        "description": "Low-to-ground movement."
+    "Burrow_Earth": {
+        "description": "Ability to tunnel through dirt, sand, and mud (e.g., Badgers, Worms).",
+        "mods": [],
+        "payload_immunities": [
+            "Surface_Hazards",
+            "Sandstorm_Blind"
+        ],
+        "grants_skills": [
+            "Tremor Sense"
+        ]
     },
-    "Drift": {
-        "description": "Passive movement with currents."
+    "Burrow_Rock": {
+        "description": "Ability to carve tunnels through solid stone and crystal.",
+        "mods": [],
+        "payload_immunities": [
+            "Cave_In",
+            "Surface_Hazards"
+        ],
+        "grants_skills": [
+            "Tremor Sense"
+        ]
+    },
+    "Burrow_Ice": {
+        "description": "Ability to melt or carve tunnels through solid permafrost.",
+        "mods": [],
+        "payload_immunities": [
+            "Surface_Hazards",
+            "Frostbite"
+        ],
+        "grants_skills": [
+            "Tremor Sense"
+        ]
     },
     "Slither": {
-        "description": "Body-based friction movement."
+        "description": "Friction-based muscular movement (e.g., Snakes).",
+        "mods": [],
+        "payload_immunities": [
+            "Trip_And_Fall",
+            "Prone"
+        ],
+        "grants_skills": [
+            "Constrict",
+            "Squeeze"
+        ]
     },
-    "Balance": {
-        "description": "Maintenance of equilibrium."
+    "Hop": {
+        "description": "Movement via continuous explosive jumps (e.g., Frogs, Kangaroos).",
+        "mods": [],
+        "payload_immunities": [
+            "Minor_Laceration",
+            "Ground_Tremors"
+        ],
+        "grants_skills": [
+            "Leap"
+        ]
     },
-    "Dig": {
-        "description": "Movement through earth."
+    "Brachiation": {
+        "description": "Swinging from canopy branches or cavern ceilings (e.g., Primates).",
+        "mods": [],
+        "payload_immunities": [
+            "Fall_Damage"
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ]
     },
-    "Perch": {
-        "description": "Stationary positioning on narrow objects."
+    "Wall_Crawl": {
+        "description": "Micro-adhesion ability to walk on sheer walls and inverted ceilings (e.g., Insects, Geckos).",
+        "mods": [],
+        "payload_immunities": [
+            "Fall_Damage",
+            "Trip_And_Fall"
+        ],
+        "grants_skills": []
     },
-    "Hang": {
-        "description": "Suspended stationary positioning."
+    "Web_Walk": {
+        "description": "Ability to traverse spider webs without triggering vibrations or sticking.",
+        "mods": [],
+        "payload_immunities": [
+            "Web_Ensnare",
+            "Web_Vibration"
+        ],
+        "grants_skills": []
+    },
+    "Water_Walk": {
+        "description": "Ability to run across the surface tension of liquids (e.g., Water Striders).",
+        "mods": [],
+        "payload_immunities": [
+            "Drowning",
+            "Current_Drag"
+        ],
+        "grants_skills": []
+    },
+    "Slide": {
+        "description": "Ability to use body momentum on frictionless surfaces (e.g., Penguins, Otters).",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "1.5"
+            }
+        ],
+        "payload_immunities": [
+            "Trip_And_Fall"
+        ],
+        "grants_skills": []
+    },
+    "Jet_Propulsion": {
+        "description": "High-speed bursts of aquatic movement via expelled water (e.g., Cephalopods).",
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "1.5"
+            }
+        ],
+        "payload_immunities": [
+            "Current_Drag",
+            "Swept_Away"
+        ],
+        "grants_skills": [
+            "Dart"
+        ]
+    },
+    "Benthic_Crawl": {
+        "description": "Heavy walking along the floor of aquatic environments (e.g., Crabs, Lobsters).",
+        "mods": [],
+        "payload_immunities": [
+            "Current_Drag"
+        ],
+        "grants_skills": []
+    },
+    "Amorphous_Ooze": {
+        "description": "Fluid movement capable of squeezing through microscopic cracks.",
+        "mods": [],
+        "payload_immunities": [
+            "Trip_And_Fall",
+            "Minor_Laceration",
+            "Grappled"
+        ],
+        "grants_skills": [
+            "Squeeze"
+        ]
+    },
+    "Levitate": {
+        "description": "Magical or magnetic hovering just above the ground.",
+        "mods": [],
+        "payload_immunities": [
+            "Trip_And_Fall",
+            "Minor_Laceration",
+            "Ground_Tremors",
+            "Surface_Hazards"
+        ],
+        "grants_skills": []
+    },
+    "Ethereal_Glide": {
+        "description": "Phasing movement that ignores physical obstacles.",
+        "mods": [],
+        "payload_immunities": [
+            "Physical_Traps",
+            "Restrained",
+            "Fall_Damage"
+        ],
+        "grants_skills": [
+            "Incorporeal"
+        ]
+    },
+    "Teleportation": {
+        "description": "Instantaneous point-to-point movement via arcane/psionic means.",
+        "mods": [],
+        "payload_immunities": [
+            "Opportunity_Attacks",
+            "Restrained",
+            "Grappled"
+        ],
+        "grants_skills": []
     }
 }

@@ -1,175 +1,1389 @@
 {
-  "Healthy": {
-    "conditions": {
-      "integrity": "High"
+    "Acid_Burn": {
+        "description": "Caustic chemicals continuously eating through armor and flesh.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Acid",
+                "stat_dependencies": []
+            }
+        ]
     },
-    "mods": [
-      {
-        "target": "behavior",
-        "val": "Normal",
-        "op": "set"
-      }
-    ]
-  },
-  "Starving": {
-    "conditions": {
-      "resource_state": "Empty"
+    "Ambient_Cold": {
+        "description": "Chilly conditions slightly impede stamina recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8",
+                "stat_dependencies": []
+            }
+        ]
     },
-    "mods": [
-      {
-        "target": "cr",
-        "val": 0.7,
-        "op": "multiply"
-      },
-      {
-        "target": "con",
-        "val": 0.6,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": -1,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Aggressive",
-        "op": "set"
-      }
-    ],
-    "grants_skills": [
-      "Bite"
-    ]
-  },
-  "Rabid": {
-    "conditions": {},
-    "mods": [
-      {
-        "target": "cr",
-        "val": 1.2,
-        "op": "multiply"
-      },
-      {
-        "target": "con",
-        "val": 0.8,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": -2,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Reckless",
-        "op": "set"
-      }
-    ],
-    "grants_skills": [
-      "Toxic Chomp"
-    ]
-  },
-  "Putrid": {
-    "conditions": {},
-    "mods": [
-      {
-        "target": "cr",
-        "val": 1.3,
-        "op": "multiply"
-      },
-      {
-        "target": "con",
-        "val": 1.2,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": -1,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Sluggish",
-        "op": "set"
-      }
-    ],
-    "grants_skills": [
-      "Toxic Spores"
-    ]
-  },
-  "Enraged": {
-    "conditions": {},
-    "mods": [
-      {
-        "target": "cr",
-        "val": 1.5,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": -2,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Reckless",
-        "op": "set"
-      }
-    ],
-    "grants_skills": [
-      "Slam"
-    ]
-  },
-  "Exhausted": {
-    "conditions": {
-      "stamina_state": "Empty"
+    "Ambient_Extreme_Heat": {
+        "description": "Lethal heat rapidly drains hydration and heavily impairs recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "water_retention",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
     },
-    "mods": [
-      {
-        "target": "cr",
-        "val": 0.5,
-        "op": "multiply"
-      },
-      {
-        "target": "con",
-        "val": 0.8,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": -2,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Defensive",
-        "op": "set"
-      }
-    ]
-  },
-  "Feral": {
-    "conditions": {},
-    "mods": [
-      {
-        "target": "cr",
-        "val": 1.2,
-        "op": "multiply"
-      },
-      {
-        "target": "con",
-        "val": 1.2,
-        "op": "multiply"
-      },
-      {
-        "target": "natural_armor",
-        "val": 1,
-        "op": "add"
-      },
-      {
-        "target": "behavior",
-        "val": "Aggressive",
-        "op": "set"
-      }
-    ]
-  }
+    "Ambient_Freezing": {
+        "description": "Lethal cold heavily impairs physical recovery.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ambient_Hot": {
+        "description": "High temperatures accelerate fatigue.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.8",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ambient_Noise": {
+        "description": "Heavy background noise masking subtle sounds.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Arcane_Interference": {
+        "description": "Static in the weave making spellcasting dangerous.",
+        "blocks_skill_types": [
+            "Spell"
+        ],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Arcane_Lightning": {
+        "description": "Erratic magical discharges striking the ground.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8",
+                "damage_type": "Arcane",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ash_Blindness": {
+        "description": "Thick volcanic ash irritating the eyes.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "subtract",
+                "expr": "30",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ash_Inhalation": {
+        "description": "Microscopic glass and ash shredding the lungs.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Shredding",
+                "stat_dependencies": []
+            },
+            {
+                "target": "stamina_regen",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Auditory_Illusions": {
+        "description": "Phantom sounds confusing the senses.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Bleeding": {
+        "description": "Continuous, rapid blood loss from severed veins.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Slashing",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Blinded": {
+        "description": "Total loss of visual perception.",
+        "blocks_skill_types": [
+            "Perception"
+        ],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Blizzard_Blindness": {
+        "description": "Whiteout conditions reducing visibility to zero.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "10",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cold_resist",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Blur_Distortion": {
+        "description": "Visual warping that makes targeting difficult.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Cave_In": {
+        "description": "Crushing debris falling from above.",
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "3d6",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Charm": {
+        "description": "Magical compulsion preventing hostility towards the caster.",
+        "blocks_skill_types": [
+            "Melee_Attack",
+            "Ranged_Attack",
+            "Curse"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Choking_Dust": {
+        "description": "Thick particulate matter making breathing difficult.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Concussion": {
+        "description": "Severe head trauma causing dizziness and nausea.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "int",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Confusion": {
+        "description": "Inability to distinguish friend from foe.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Corroded": {
+        "description": "Armor and organic defenses melted away.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Crushing_Pressure": {
+        "description": "Extreme deep-sea atmospheric pressure.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Hydraulic",
+                "stat_dependencies": []
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Current_Drag": {
+        "description": "Powerful aquatic flows pushing the entity.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Dazzle": {
+        "description": "Intense light overloading photoreceptors.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Deafened": {
+        "description": "Tympanic membranes ruptured; cannot hear.",
+        "blocks_skill_types": [
+            "Perception"
+        ],
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Deep_Wound": {
+        "description": "A vital organ has been punctured.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Piercing",
+                "stat_dependencies": []
+            },
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Dense_Canopy_Obscurity": {
+        "description": "Thick jungle flora blocking sunlight.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "0.75",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Dim_Light_Penalty": {
+        "description": "Low light conditions reducing accuracy.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Drained": {
+        "description": "Life force actively siphoned away.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Drowning": {
+        "description": "Lungs filling with fluid; rapid asphyxiation.",
+        "blocks_skill_types": [
+            "Vocal",
+            "Breath_Weapon",
+            "Spell"
+        ],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d10",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Extreme_Burn": {
+        "description": "Flesh rapidly combusting.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8",
+                "damage_type": "Fire",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Fall_Damage": {
+        "description": "Kinetic trauma from impacting the ground at high velocity.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Flanking_Advantage": {
+        "description": "Surrounded by enemies, defenses compromised.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Freezing_Wind": {
+        "description": "Sub-zero gales sapping thermal energy.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Cold",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Frightened": {
+        "description": "Overcome by terror, forced to flee.",
+        "blocks_skill_types": [
+            "Melee_Attack"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Frostbite": {
+        "description": "Tissues freezing and shattering.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Cold",
+                "stat_dependencies": []
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Grappled": {
+        "description": "Physically restrained by an attacker.",
+        "blocks_skill_types": [
+            "Movement",
+            "Stance"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ground_Tremors": {
+        "description": "Unstable tectonic activity making footing impossible.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "acrobatics_bonus",
+                "op": "subtract",
+                "expr": "4",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Heatstroke": {
+        "description": "Hyperthermia causing cellular breakdown and fatigue.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina_regen",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            },
+            {
+                "target": "con",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "High_Vantage_Aura": {
+        "description": "Elevated position granting superior sightlines.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "1.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Hypoxia": {
+        "description": "Severe oxygen deprivation at extreme altitudes.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "stamina",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ignite": {
+        "description": "Currently on fire.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Fire",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Infected": {
+        "description": "Viral load ravaging the immune system.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Disease",
+                "stat_dependencies": []
+            },
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Jungle_Fever": {
+        "description": "Tropical parasites causing delirium.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Disease",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Lava_Burn": {
+        "description": "Submerged in molten rock.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "4d10",
+                "damage_type": "Fire",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Lava_Fissure": {
+        "description": "Erupting magma vents.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "2d8",
+                "damage_type": "Fire",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Magical_Fog_Obscurity": {
+        "description": "Supernatural mist blocking all mundane vision.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "arcane_resist",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Magical_Illusion": {
+        "description": "Arcane trickery distorting reality.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "int",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Mana_Burn": {
+        "description": "Unstable magic eating away at life force.",
+        "blocks_skill_types": [
+            "Spell",
+            "Summon"
+        ],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Arcane",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Miasma_Poison": {
+        "description": "Toxic fog rotting flesh on contact.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Poison",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Minor_Laceration": {
+        "description": "Superficial cuts from thorns or claws.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Shredding",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Mirage": {
+        "description": "Heat distortion causing false visual positives.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "4",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Optical_Camouflage": {
+        "description": "Bending light to become nearly invisible.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Optical_Invisibility": {
+        "description": "Completely unseen by the naked eye.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "10",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Overheating": {
+        "description": "Losing water rapidly to extreme temperatures.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "water_retention",
+                "op": "subtract",
+                "expr": "3",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Paralyzed": {
+        "description": "Nervous system totally locked; incapable of action.",
+        "blocks_skill_types": [
+            "Movement",
+            "Melee_Attack",
+            "Ranged_Attack",
+            "Natural_Weapon",
+            "Breath_Weapon",
+            "Grapple",
+            "Spell",
+            "Vocal",
+            "Construct",
+            "Consumable",
+            "Stance"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Physical_Traps": {
+        "description": "Caught in a mechanical snare or spike pit.",
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8",
+                "damage_type": "Piercing",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Pitch_Black_Blindness": {
+        "description": "Absolute absence of photons.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Plummet": {
+        "description": "In a state of freefall.",
+        "blocks_skill_types": [
+            "Movement",
+            "Stance",
+            "Melee_Attack"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Poisoned": {
+        "description": "Toxins ravaging the bloodstream.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Poison",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Prone": {
+        "description": "Laying flat on the ground.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Putrid_Stench": {
+        "description": "Overwhelming odor inducing nausea.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "scent_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            },
+            {
+                "target": "con",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Rain_Obscurity": {
+        "description": "Heavy downpour blurring vision.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "0.75",
+                "stat_dependencies": []
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Refractive_Glare": {
+        "description": "Sunlight bouncing off ice or water.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "vision_range",
+                "op": "subtract",
+                "expr": "10",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Restrained": {
+        "description": "Mobility completely anchored.",
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Sandstorm_Blind": {
+        "description": "Abrasive sand severely limiting sight and breathing.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "10",
+                "stat_dependencies": []
+            },
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1",
+                "damage_type": "Shredding",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Shapechanger_Deceit": {
+        "description": "Magical disguise throwing off target acquisition.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Smoke_Blindness": {
+        "description": "Thick carbon smoke blocking vision.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "10",
+                "stat_dependencies": []
+            },
+            {
+                "target": "stamina_regen",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Snowblindness": {
+        "description": "Corneas burned by UV glare.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "set",
+                "expr": "5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Soul_Drain": {
+        "description": "An ethereal tether siphoning life force.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d6",
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Stagnant_Air": {
+        "description": "No wind to carry scents.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "scent_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Storm_Deafness": {
+        "description": "Deafened by crashing thunder.",
+        "blocks_skill_types": [
+            "Perception"
+        ],
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            },
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "expr": "1",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Stunned": {
+        "description": "Incapacitated and unable to react.",
+        "blocks_skill_types": [
+            "Movement",
+            "Melee_Attack",
+            "Ranged_Attack",
+            "Spell",
+            "Vocal"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Suffocation": {
+        "description": "Airway blocked, rapidly dying.",
+        "blocks_skill_types": [
+            "Vocal",
+            "Breath_Weapon",
+            "Spell"
+        ],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d8",
+                "damage_type": "Bludgeoning",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Surface_Hazards": {
+        "description": "Walking over thorns, glass, or razor-rock.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Piercing",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Swept_Away": {
+        "description": "Carried off uncontrollably by currents or wind.",
+        "blocks_skill_types": [
+            "Movement",
+            "Stance"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Ash_Drag": {
+        "description": "Loose ash makes footing slightly difficult.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.9",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Dense_Foliage": {
+        "description": "Thick vegetation obstructs physical movement and spatial awareness.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Difficult_Footing": {
+        "description": "Rough terrain generally impedes swift movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Magma_Drag": {
+        "description": "Thick molten rock severely restricts movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.25",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Mud_Drag": {
+        "description": "Thick mud clings to limbs, heavily impeding movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Sand_Drag": {
+        "description": "Loose footing absorbs kinetic energy, slowing movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.75",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Shallow_Water_Drag": {
+        "description": "Wading through water creates significant drag.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Slippery_Footing": {
+        "description": "Lack of friction causes instability and slows movement.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Terrain_Uneven_Footing": {
+        "description": "Broken ground requires careful stepping, reducing speed.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "multiply",
+                "expr": "0.9",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Trip_And_Fall": {
+        "description": "Lost footing.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "speed_bonus",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Underwater_Blur": {
+        "description": "Water distorting optics.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Underwater_Muffling": {
+        "description": "Sound waves heavily muted.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "expr": "5",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Ventriloquism": {
+        "description": "Sound source is completely obfuscated.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Web_Ensnare": {
+        "description": "Sticky silk preventing escape.",
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Web_Vibration": {
+        "description": "Movements act as a beacon to arachnids.",
+        "blocks_skill_types": [
+            "Stance"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Wind_Dispersal": {
+        "description": "High winds scattering all pheromones and smells.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "scent_range",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Withering": {
+        "description": "Body rapidly rotting while still alive.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "1d4",
+                "damage_type": "Necrotic",
+                "stat_dependencies": []
+            },
+            {
+                "target": "con",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ]
+    }
 }

@@ -1,0 +1,129 @@
+{
+    "Aggressive_Brawler": {
+        "description": "Charges headlong into melee with no regard for personal safety.",
+        "base_weights": {
+            "Melee_Attack": 80,
+            "Natural_Weapon": 20,
+            "Grapple": 15,
+            "Movement": 10,
+            "Enhancement": -20,
+            "Passive": -100,
+            "Vocal": -50,
+            "Stance": -30
+        },
+        "conditional_modifiers": [
+            {
+                "condition": "distance > 1",
+                "description": "Close the gap — attack weight drops until in range",
+                "weight_shifts": {
+                    "Movement": 250,
+                    "Melee_Attack": -600
+                }
+            },
+            {
+                "condition": "hp_percent < 0.2",
+                "description": "Nearly dead — desperation surge, ignore fleeing",
+                "weight_shifts": {
+                    "Melee_Attack": 100,
+                    "Grapple": 50
+                }
+            }
+        ]
+    },
+    "Cautious_Skirmisher": {
+        "description": "Prefers hit-and-run tactics; retreats when outmatched.",
+        "base_weights": {
+            "Melee_Attack": 40,
+            "Natural_Weapon": 10,
+            "Grapple": -50,
+            "Movement": 60,
+            "Enhancement": 30,
+            "Passive": 20,
+            "Vocal": -10,
+            "Stance": 15
+        },
+        "conditional_modifiers": [
+            {
+                "condition": "distance > 1",
+                "description": "Target is far — close in cautiously",
+                "weight_shifts": {
+                    "Movement": 150,
+                    "Melee_Attack": -300
+                }
+            },
+            {
+                "condition": "hp_percent < 0.4",
+                "description": "Wounded — strongly prefer repositioning over fighting",
+                "weight_shifts": {
+                    "Movement": 300,
+                    "Melee_Attack": -200,
+                    "Grapple": -200
+                }
+            }
+        ]
+    },
+    "Apex_Predator": {
+        "description": "Calculated hunter that always closes to lethal range before striking.",
+        "base_weights": {
+            "Melee_Attack": 60,
+            "Natural_Weapon": 40,
+            "Grapple": 30,
+            "Movement": 20,
+            "Enhancement": 10,
+            "Passive": -60,
+            "Vocal": -80,
+            "Stance": -20
+        },
+        "conditional_modifiers": [
+            {
+                "condition": "distance > 1",
+                "description": "Pursuit mode — overwhelmingly prefer to close distance",
+                "weight_shifts": {
+                    "Movement": 400,
+                    "Melee_Attack": -800,
+                    "Grapple": -800
+                }
+            },
+            {
+                "condition": "hp_percent < 0.3",
+                "description": "Cornered — grapple to prevent escape",
+                "weight_shifts": {
+                    "Grapple": 200,
+                    "Movement": -100
+                }
+            }
+        ]
+    },
+    "Reactive_Tank": {
+        "description": "Stands firm and absorbs punishment, using enhancements to outlast enemies.",
+        "base_weights": {
+            "Melee_Attack": 30,
+            "Natural_Weapon": 20,
+            "Grapple": 25,
+            "Movement": -50,
+            "Enhancement": 100,
+            "Passive": 80,
+            "Vocal": 10,
+            "Stance": 60
+        },
+        "conditional_modifiers": [
+            {
+                "condition": "distance > 1",
+                "description": "Enemy is far — shuffle forward, no rush",
+                "weight_shifts": {
+                    "Movement": 80,
+                    "Enhancement": -20
+                }
+            },
+            {
+                "condition": "hp_percent < 0.5",
+                "description": "Below half HP — prioritise defensive buffs even more",
+                "weight_shifts": {
+                    "Enhancement": 150,
+                    "Stance": 100,
+                    "Melee_Attack": -30
+                }
+            }
+        ]
+    }
+}

@@ -1,32 +1,110 @@
 {
-    "Attack": {
-        "description": "An offensive action designed to inflict damage or a condition."
+    "Melee_Attack": {
+        "description": "Close quarters physical strike.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
     },
-    "Utility": {
-        "description": "A non-combat capability useful for exploration or survival."
-    },
-    "Effect": {
-        "description": "An action that imposes a specific status condition."
-    },
-    "Reaction": {
-        "description": "An instant response to a specific trigger."
-    },
-    "Communication": {
-        "description": "Method of conveying information."
+    "Ranged_Attack": {
+        "description": "Projectile or distance strike.",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ]
     },
     "Movement": {
-        "description": "Mode of locomotion."
+        "description": "Dynamic alteration of spatial coordinates.",
+        "combat_flags": [
+            "Provokes_Reaction"
+        ]
+    },
+    "Natural_Weapon": {
+        "description": "Strikes utilizing biological appendages (Claws, Fangs).",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Breath_Weapon": {
+        "description": "Expelling elemental or toxic energy.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Grapple": {
+        "description": "Wrestling or physically restraining a target.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Spell": {
+        "description": "Magical incantation or arcane manipulation.",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ]
+    },
+    "Psionic": {
+        "description": "Silent mental manipulation or psychic assault.",
+        "combat_flags": []
+    },
+    "Vocal": {
+        "description": "Roars, howls, speech, or sonic bursts. Highly audible.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Secretion": {
+        "description": "Emitting biological fluids like sweat, poison, or ink clouds.",
+        "combat_flags": []
+    },
+    "Pheromone": {
+        "description": "Chemical signaling used for hive-mind communication.",
+        "combat_flags": []
+    },
+    "Construct": {
+        "description": "Building physical map structures like webs or nests.",
+        "combat_flags": [
+            "Provokes_Reaction",
+            "Breaks_Stealth"
+        ]
+    },
+    "Healing": {
+        "description": "Restores HP, mends wounds, or cures status effects.",
+        "combat_flags": []
+    },
+    "Enhancement": {
+        "description": "Applies positive modifier payloads to self or allies.",
+        "combat_flags": []
+    },
+    "Curse": {
+        "description": "Applies negative modifier payloads to enemies.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Summon": {
+        "description": "Calling or spawning additional entities.",
+        "combat_flags": [
+            "Provokes_Reaction",
+            "Breaks_Stealth"
+        ]
+    },
+    "Perception": {
+        "description": "Active sensory scanning.",
+        "combat_flags": []
+    },
+    "Stance": {
+        "description": "Shifting physical posture or combat style.",
+        "combat_flags": []
+    },
+    "Consumable": {
+        "description": "Utilization of an inventory item.",
+        "combat_flags": [
+            "Provokes_Reaction"
+        ]
     },
     "Passive": {
-        "description": "Always-active trait or ability."
-    },
-    "Skill": {
-        "description": "Proficiency in a measurable capability."
-    },
-    "Action": {
-        "description": "Active ability requiring time/effort to use."
-    },
-    "Sense": {
-        "description": " method of perceiving the environment."
+        "description": "Innate trait. Cannot be cast. Permanently active on entity generation.",
+        "combat_flags": []
     }
 }

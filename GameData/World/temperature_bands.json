@@ -1,0 +1,74 @@
+{
+    "Freezing": {
+        "description": "Temperatures capable of freezing exposed tissue rapidly.",
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Ambient_Freezing",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Frostbite",
+                "chance_per_tick": 0.05
+            }
+        ]
+    },
+    "Cold": {
+        "description": "Biting cold that saps energy over time.",
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Ambient_Cold",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Cool": {
+        "description": "Crisp and chilly, but generally safe.",
+        "mods": [],
+        "payloads": []
+    },
+    "Moderate": {
+        "description": "Perfectly balanced thermal conditions.",
+        "mods": [],
+        "payloads": []
+    },
+    "Warm": {
+        "description": "Pleasantly hot.",
+        "mods": [],
+        "payloads": []
+    },
+    "Hot": {
+        "description": "High heat that accelerates exhaustion.",
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Ambient_Hot",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Overheating",
+                "chance_per_tick": 0.02
+            }
+        ]
+    },
+    "Extreme_Heat": {
+        "description": "Lethal temperatures that can boil water in minutes.",
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Ambient_Extreme_Heat",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Heatstroke",
+                "chance_per_tick": 0.10
+            }
+        ]
+    },
+    "Variable": {
+        "description": "Unstable temperatures prone to rapid shifts.",
+        "mods": [],
+        "payloads": []
+    }
+}

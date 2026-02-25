@@ -50,7 +50,7 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, useMemo } = React;
+        const { useState, useEffect, useMemo, useCallback } = React;
 
         // Simple Lucide Icon Components for standalone usage
         const IconWrapper = ({ name, size = 24, className = "" }) => {
@@ -75,101 +75,215 @@
         const Loader2 = (props) => <IconWrapper name="loader-2" { ...props } />;
 
         // ==========================================
-        // IMAGE GENERATION CONSTANTS
+        // IMAGE GENERATION (local-only, IS_LOCAL guard)
         // ==========================================
         const TRAFFIC_COP = "http://127.0.0.1:5050";
         const COMFY_API_HOST = "127.0.0.1:8188";
         const CLIENT_ID = Math.random().toString(36).substring(2, 10);
-        const IS_LOCAL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:";
-
+        const IS_LOCAL = window.location.hostname === "localhost" ||
+            window.location.hostname === "127.0.0.1" ||
+            window.location.protocol === "file:";
 
         // ==========================================
-        // 1. DATA EMBEDDING (Replicating your JSONs)
+        // 1. DYNAMIC DATA LOADER
         // ==========================================
 
+        // Empty shell — populated at runtime by fetching JSON files below
         const GAME_DATA = {
-            base_stats: {
-                "str": { "id": "str", "displayName": "Strength", "baseValue": 10, "statType": "Raw" },
-                "dex": { "id": "dex", "displayName": "Dexterity", "baseValue": 10, "statType": "Raw" },
-                "con": { "id": "con", "displayName": "Constitution", "baseValue": 10, "statType": "Raw" },
-                "int": { "id": "int", "displayName": "Intelligence", "baseValue": 10, "statType": "Raw" },
-                "wis": { "id": "wis", "displayName": "Wisdom", "baseValue": 10, "statType": "Raw" },
-                "cha": { "id": "cha", "displayName": "Charisma", "baseValue": 10, "statType": "Raw" },
-                "size_index": { "id": "size_index", "displayName": "Size", "baseValue": 4, "statType": "Raw" },
-                "natural_armor": { "id": "natural_armor", "displayName": "Natural Armor", "baseValue": 0, "statType": "Raw" },
-                "speed_bonus": { "id": "speed_bonus", "displayName": "Speed Bonus", "baseValue": 0, "statType": "Raw" },
-                "diceMod": { "id": "diceMod", "displayName": "Dice Mod", "baseValue": 0, "statType": "Raw" },
-                "effectChance": { "id": "effectChance", "displayName": "Effect Chance", "baseValue": 0, "statType": "Raw" },
-                "cr": { "id": "cr", "displayName": "CR", "baseValue": 0, "statType": "Raw" }
+            base_stats: {},
+            derived_stats: {},
+            skills: {},
+            prefixes: {},
+            bodies: {
+                appendages: { arms: {}, fins: {}, legs: {}, tails: {}, tentacles: {}, wings: {} },
+                cephalon: { cranium: {}, ears: {}, eyes: {}, maw: {}, nose: {} },
+                core: { chassis: {}, integument: {} }
             },
-            derived_stats: {
-                "hp": { "id": "hp", "displayName": "Health", "calculationFormula": "(con * 2) * (size_index / 2)", "statType": "Potential" },
-                "stamina": { "id": "stamina", "displayName": "Stamina", "calculationFormula": "con + str", "statType": "Potential" },
-                "ac": { "id": "ac", "displayName": "Armor Class", "calculationFormula": "10 + natural_armor + ((dex - 10) / 2)", "statType": "Potential" }
+            variations: {
+                appearances: { patterns: {}, pigmentation: {} },
+                biomes: {},          // kept for backward compat with Generator/DataGrid
+                biological_upgrades: {},
+                size_indices: {}
             },
-            parts: {
-                chassis: {
-                    "Wolf_Frame": { "tags": ["Mammal", "Canine", "Quadruped"], "mods": [{ "target": "con", "val": 1.1, "op": "multiply" }, { "target": "size_index", "val": 4, "op": "set" }], "skills": ["Sprint", "Pack Tactics"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
-                    "Bear_Frame": { "tags": ["Mammal", "Ursine", "Quadruped"], "mods": [{ "target": "con", "val": 1.5, "op": "multiply" }, { "target": "str", "val": 1.2, "op": "multiply" }, { "target": "size_index", "val": 6, "op": "set" }], "skills": ["Maul", "Durability"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs"] },
-                    "Cat_Frame": { "tags": ["Mammal", "Feline", "Quadruped"], "mods": [{ "target": "dex", "val": 1.2, "op": "multiply" }, { "target": "natural_armor", "val": 2, "op": "add" }], "skills": ["Stealth", "Pounce"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] },
-                    "Humanoid_Frame": { "tags": ["Mammal", "Primate", "Bipedal"], "mods": [{ "target": "int", "val": 1.2, "op": "multiply" }], "skills": ["Tool Use"], "slots": ["Head", "Arms", "Legs"] },
-                    "Reptile_Frame": { "tags": ["Reptile", "Saurian"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }], "skills": ["Cold Blooded"], "slots": ["Head", "Fore_Limbs", "Hind_Limbs", "Tail"] }
-                },
-                head: {
-                    "Wolf Head": { "tags": ["Canine"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }], "skills": ["Bite", "Bark_Roar"] },
-                    "Cat Head": { "tags": ["Feline"], "mods": [{ "target": "sense_bonus", "val": 3, "op": "add" }], "skills": ["Bite", "Groom"] },
-                    "Bear Head": { "tags": ["Ursine"], "mods": [], "skills": ["Bite", "Roar"] },
-                    "Lizard Head": { "tags": ["Reptile"], "mods": [], "skills": ["Bite", "Thermal Vision"] }
-                },
-                eyes: {
-                    "Slit Pupils": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "sense_bonus", "val": 1, "op": "add" }] },
-                    "Round Pupils": { "tags": ["Canine", "Primate"], "mods": [] },
-                    "Compound": { "tags": ["Insect"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] }
-                },
-                ears: {
-                    "Pointed Ears": { "tags": ["Canine", "Feline"], "mods": [{ "target": "sense_bonus", "val": 2, "op": "add" }] },
-                    "Round Ears": { "tags": ["Ursine", "Primate"], "mods": [] },
-                    "No Ears": { "tags": ["Reptile"], "mods": [{ "target": "sense_bonus", "val": -1, "op": "add" }] }
-                },
-                limbs: {
-                    "Paws": { "tags": ["Canine", "Feline", "Ursine"], "mods": [], "skills": ["Claw", "Scratch"] },
-                    "Hands": { "tags": ["Primate"], "mods": [], "skills": ["Punch", "Grip"] },
-                    "Clawed Feet": { "tags": ["Reptile", "Avian"], "mods": [], "skills": ["Talon"] }
-                },
-                tail: {
-                    "Bushy Tail": { "tags": ["Canine"], "mods": [] },
-                    "Long Tail": { "tags": ["Feline", "Reptile"], "mods": [{ "target": "dex", "val": 1, "op": "add" }], "skills": ["Tail Whip"] },
-                    "Stubby Tail": { "tags": ["Ursine"], "mods": [] }
-                },
-                integument: {
-                    "Fur": { "tags": ["Mammal"], "mods": [{ "target": "natural_armor", "val": 1, "op": "add" }] },
-                    "Scales": { "tags": ["Reptile"], "mods": [{ "target": "natural_armor", "val": 3, "op": "add" }] },
-                    "Skin": { "tags": ["Primate"], "mods": [] }
-                }
+            loot: { anatomy_drops: {}, harvest_types: {}, loot_quality: {} },
+            // --- New buckets (Data_Dictionary entries 1-13) ---
+            definitions: {
+                damage_types: {},
+                skill_types: {},
+                combat_tags: {},
+                traversal_types: {},
+                vision_types: {},
+                hearing_types: {},
+                scent_types: {},
+                terrain_types: {}
             },
-            skills: {
-                "Bite": { "description": "Strong jaw attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
-                "Claw": { "description": "Sharp claw swipe.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Maul": { "description": "Brutal mauling attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d8" }] },
-                "Sprint": { "description": "Dash as bonus action.", "type": "Movement", "mods": [] },
-                "Pack Tactics": { "description": "Advantage if ally is near.", "type": "Passive", "mods": [] },
-                "Stealth": { "description": "Move silently and hide in shadows.", "type": "Skill", "mods": [] },
-                "Pounce": { "description": "Leaping ambush strike.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
-                "Scratch": { "description": "Quick scratch attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1" }] },
-                "Tail Whip": { "description": "Whipping tail strike.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Roar": { "description": "Terrifying roar, frightens nearby foes.", "type": "Effect", "mods": [{ "target": "status", "op": "apply", "val": "Frightened" }] },
-                "Bark_Roar": { "description": "Intimidating bark and roar combination.", "type": "Communication", "mods": [] },
-                "Durability": { "description": "Thick hide, gains extra HP per Hit Die.", "type": "Passive", "mods": [] },
-                "Cold Blooded": { "description": "Vulnerable to cold, resistant to fire.", "type": "Passive", "mods": [] },
-                "Tool Use": { "description": "Can manipulate tools and objects.", "type": "Passive", "mods": [] },
-                "Groom": { "description": "Meticulous self-grooming behaviour.", "type": "Utility", "mods": [] },
-                "Thermal Vision": { "description": "Sees heat signatures in darkness.", "type": "Sense", "mods": [] }
+            world: {
+                biomes: {},
+                weather_types: {},
+                temperature_bands: {}
             },
-            prefixes: {
-                "Rabid": { "conditions": { "max_int": 3 }, "mods": [{ "target": "str", "val": 1.5, "op": "multiply" }, { "target": "con", "val": 0.8, "op": "multiply" }, { "target": "behavior", "val": "Aggressive", "op": "set" }] },
-                "Ancient": { "conditions": { "min_age": 100 }, "mods": [{ "target": "size_index", "val": 1.5, "op": "multiply" }, { "target": "wis", "val": 2, "op": "multiply" }] }
+            mechanics: {
+                status_effects: {},
+                behaviors: {}
             }
         };
+
+        // All JSON files in GameData/
+        const JSON_FILE_PATHS = [
+            'GameData/Definitions/base_stats.json',
+            'GameData/Definitions/derived_stats.json',
+            'GameData/Definitions/operations.json',
+            'GameData/Definitions/combat_tags.json',
+            'GameData/Definitions/types_and_ranges/damage_types.json',
+            'GameData/Definitions/types_and_ranges/hearing_types.json',
+            'GameData/Definitions/types_and_ranges/scent_types.json',
+            'GameData/Definitions/types_and_ranges/skill_types.json',
+            'GameData/Definitions/types_and_ranges/terrain_types.json',
+            'GameData/Definitions/types_and_ranges/traversal_types.json',
+            'GameData/Definitions/types_and_ranges/vision_types.json',
+            'GameData/Definitions/validation_rules.json',
+            'GameData/Entities/Appendages/arms.json',
+            'GameData/Entities/Appendages/fins.json',
+            'GameData/Entities/Appendages/legs.json',
+            'GameData/Entities/Appendages/tails.json',
+            'GameData/Entities/Appendages/tentacles.json',
+            'GameData/Entities/Appendages/wings.json',
+            'GameData/Entities/Cephalon/cranium.json',
+            'GameData/Entities/Cephalon/ears.json',
+            'GameData/Entities/Cephalon/eyes.json',
+            'GameData/Entities/Cephalon/maw.json',
+            'GameData/Entities/Cephalon/nose.json',
+            'GameData/Entities/Core/appearance/patterns.json',
+            'GameData/Entities/Core/appearance/pigmentation.json',
+            'GameData/Entities/Core/chassis.json',
+            'GameData/Entities/Core/integument.json',
+            'GameData/Entities/Flora/canopy.json',
+            'GameData/Entities/Flora/roots.json',
+            'GameData/Entities/Geological/composition.json',
+            'GameData/Entities/Geological/formation.json',
+            'GameData/Mechanics/anatomy_drops.json',
+            'GameData/Mechanics/biological_upgrades.json',
+            'GameData/Mechanics/growth_stages/size_indices.json',
+            'GameData/Mechanics/growth_stages/stages.json',
+            'GameData/Mechanics/harvest_types.json',
+            'GameData/Mechanics/loot_quality.json',
+            'GameData/Mechanics/status_effects.json',
+            'GameData/Mechanics/behaviors.json',
+            'GameData/World/biomes.json',
+            'GameData/World/temperature_bands.json',
+            'GameData/World/weather_types.json',
+            'GameData/World/spawning_rules/group_scaling.json',
+            'GameData/World/spawning_rules/size_limits.json',
+            'GameData/consumable_categories.json',
+            'GameData/prefixes.json',
+            'GameData/skills.json'
+        ];
+
+        // Determines which GAME_DATA bucket a file path belongs to.
+        function resolveTarget(path) {
+            if (path.includes('Definitions/base_stats')) return { root: 'base_stats' };
+            if (path.includes('Definitions/derived_stats')) return { root: 'derived_stats' };
+            if (path.endsWith('skills.json')) return { root: 'skills' };
+            if (path.endsWith('prefixes.json')) return { root: 'prefixes' };
+
+            // Bodies - Appendages
+            if (path.includes('Entities/Appendages/arms')) return { root: 'bodies', path: ['appendages', 'arms'] };
+            if (path.includes('Entities/Appendages/fins')) return { root: 'bodies', path: ['appendages', 'fins'] };
+            if (path.includes('Entities/Appendages/legs')) return { root: 'bodies', path: ['appendages', 'legs'] };
+            if (path.includes('Entities/Appendages/tails')) return { root: 'bodies', path: ['appendages', 'tails'] };
+            if (path.includes('Entities/Appendages/tentacles')) return { root: 'bodies', path: ['appendages', 'tentacles'] };
+            if (path.includes('Entities/Appendages/wings')) return { root: 'bodies', path: ['appendages', 'wings'] };
+
+            // Bodies - Cephalon
+            if (path.includes('Entities/Cephalon/cranium')) return { root: 'bodies', path: ['cephalon', 'cranium'] };
+            if (path.includes('Entities/Cephalon/ears')) return { root: 'bodies', path: ['cephalon', 'ears'] };
+            if (path.includes('Entities/Cephalon/eyes')) return { root: 'bodies', path: ['cephalon', 'eyes'] };
+            if (path.includes('Entities/Cephalon/maw')) return { root: 'bodies', path: ['cephalon', 'maw'] };
+            if (path.includes('Entities/Cephalon/nose')) return { root: 'bodies', path: ['cephalon', 'nose'] };
+
+            // Bodies - Core
+            if (path.includes('Entities/Core/chassis')) return { root: 'bodies', path: ['core', 'chassis'] };
+            if (path.includes('Entities/Core/integument')) return { root: 'bodies', path: ['core', 'integument'] };
+
+            // Variations (kept for backward compat with DataGrid & Generator)
+            if (path.includes('Entities/Core/appearance/patterns')) return { root: 'variations', path: ['appearances', 'patterns'] };
+            if (path.includes('Entities/Core/appearance/pigmentation')) return { root: 'variations', path: ['appearances', 'pigmentation'] };
+            if (path.includes('Mechanics/biological_upgrades')) return { root: 'variations', path: ['biological_upgrades'] };
+            if (path.includes('Mechanics/growth_stages/size_indices')) return { root: 'variations', path: ['size_indices'] };
+
+            // Loot
+            if (path.includes('Mechanics/anatomy_drops')) return { root: 'loot', path: ['anatomy_drops'] };
+            if (path.includes('Mechanics/harvest_types')) return { root: 'loot', path: ['harvest_types'] };
+            if (path.includes('Mechanics/loot_quality')) return { root: 'loot', path: ['loot_quality'] };
+
+            // Definitions — types & ranges
+            if (path.includes('types_and_ranges/damage_types')) return { root: 'definitions', path: ['damage_types'] };
+            if (path.includes('types_and_ranges/skill_types')) return { root: 'definitions', path: ['skill_types'] };
+            if (path.includes('types_and_ranges/terrain_types')) return { root: 'definitions', path: ['terrain_types'] };
+            if (path.includes('types_and_ranges/traversal_types')) return { root: 'definitions', path: ['traversal_types'] };
+            if (path.includes('types_and_ranges/vision_types')) return { root: 'definitions', path: ['vision_types'] };
+            if (path.includes('types_and_ranges/hearing_types')) return { root: 'definitions', path: ['hearing_types'] };
+            if (path.includes('types_and_ranges/scent_types')) return { root: 'definitions', path: ['scent_types'] };
+            if (path.includes('Definitions/combat_tags')) return { root: 'definitions', path: ['combat_tags'] };
+
+            // World
+            if (path.includes('World/biomes')) {
+                // Load into BOTH variations.biomes (Generator compat) AND world.biomes
+                return { root: 'world', path: ['biomes'], also: { root: 'variations', path: ['biomes'] } };
+            }
+            if (path.includes('World/weather_types')) return { root: 'world', path: ['weather_types'] };
+            if (path.includes('World/temperature_bands')) return { root: 'world', path: ['temperature_bands'] };
+
+            // Mechanics
+            if (path.includes('Mechanics/behaviors')) return { root: 'mechanics', path: ['behaviors'] };
+            if (path.includes('Mechanics/status_effects')) return { root: 'mechanics', path: ['status_effects'] };
+
+            return null;
+        }
+
+        // Fetches all JSON files in parallel and populates GAME_DATA.
+        async function initGameData() {
+            const results = await Promise.allSettled(
+                JSON_FILE_PATHS.map(path =>
+                    fetch(path)
+                        .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}: ${path}`); return r.json(); })
+                        .then(data => ({ path, data }))
+                )
+            );
+
+            const applyMapping = (mapping, data) => {
+                let targetObj = GAME_DATA[mapping.root];
+                if (mapping.path) {
+                    for (const key of mapping.path) {
+                        targetObj = targetObj[key];
+                    }
+                }
+                Object.assign(targetObj, data);
+            };
+
+            results.forEach(result => {
+                if (result.status === 'rejected') {
+                    console.warn('[GameData Loader] Failed to load:', result.reason);
+                    return;
+                }
+                const { path, data } = result.value;
+                const mapping = resolveTarget(path);
+                if (!mapping) return;
+
+                applyMapping(mapping, data);
+                // Some files (biomes) need to land in two buckets
+                if (mapping.also) applyMapping(mapping.also, data);
+            });
+
+            console.log('[GameData Loader] Loaded successfully.', {
+                base_stats: Object.keys(GAME_DATA.base_stats).length,
+                bodies_core: Object.keys(GAME_DATA.bodies.core.chassis).length,
+                biomes: Object.keys(GAME_DATA.world.biomes).length,
+                damage_types: Object.keys(GAME_DATA.definitions.damage_types).length,
+                terrain_types: Object.keys(GAME_DATA.definitions.terrain_types).length,
+                status_effects: Object.keys(GAME_DATA.mechanics.status_effects).length
+            });
+        }
 
         // ==========================================
         // 2. JS ENGINE LOGIC (Porting C# Classes)
@@ -206,9 +320,10 @@
         }
 
         class PotentialStat extends Stat {
+            // definition may come from old schema ({ calculationFormula }) or new ({ formula })
             constructor(definition, formula, allStats) {
                 super(definition);
-                this.formula = formula;
+                this.formula = formula || definition.formula || definition.calculationFormula || '';
                 this.allStats = allStats;
                 this.currentValue = 0;
                 this.maxValue = 0;
@@ -254,11 +369,21 @@
             }
 
             initStats() {
+                // base_stats: entries have an `id` property
                 Object.values(GAME_DATA.base_stats).forEach(def => {
                     this.stats[def.id] = new Stat(def);
                 });
-                Object.values(GAME_DATA.derived_stats).forEach(def => {
-                    this.stats[def.id] = new PotentialStat(def, def.calculationFormula, this.stats);
+                // derived_stats: key IS the stat id; entries use `formula` and `description`
+                Object.entries(GAME_DATA.derived_stats).forEach(([id, def]) => {
+                    const fullDef = {
+                        id,
+                        displayName: def.displayName || def.description || id,
+                        statType: 'Potential',
+                        baseValue: 0,
+                        ...def
+                    };
+                    const formula = def.formula || def.calculationFormula || '';
+                    this.stats[id] = new PotentialStat(fullDef, formula, this.stats);
                 });
                 this.updateDerived();
             }
@@ -292,12 +417,12 @@
 
         const GeneratorView = () => {
             const [entity, setEntity] = useState(null);
-            const [countdown, setCountdown] = useState(null); // null | 3 | 2 | 1 | 0 = firing
+            const [countdown, setCountdown] = useState(null);
             const [imgState, setImgState] = useState({ loading: false, progress: 0, status: '', url: null, error: null });
             const socketRef = React.useRef(null);
             const countdownRef = React.useRef(null);
 
-            // -- WebSocket for progress updates --
+            // -- WebSocket for ComfyUI progress (local only) --
             useEffect(() => {
                 if (!IS_LOCAL) return;
                 const ws = new WebSocket(`ws://${COMFY_API_HOST}/ws?clientId=${CLIENT_ID}`);
@@ -320,35 +445,24 @@
             // -- Countdown tick --
             useEffect(() => {
                 if (countdown === null || !IS_LOCAL) return;
-                if (countdown === 0) {
-                    setCountdown(null);
-                    generatePortrait();
-                    return;
-                }
+                if (countdown === 0) { setCountdown(null); generatePortrait(); return; }
                 const t = setTimeout(() => setCountdown(c => c - 1), 1000);
                 return () => clearTimeout(t);
             }, [countdown]);
 
-            const cancelCountdown = () => {
-                setCountdown(null);
-                clearTimeout(countdownRef.current);
-            };
+            const cancelCountdown = () => { setCountdown(null); clearTimeout(countdownRef.current); };
 
+            // Build an image gen prompt from entity data
             const buildPrompt = (e) => {
                 const prefix = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
                 const chassis = e.traits[0].replace(/_/g, ' ');
-                const tags = e.traits.slice(1).filter(t => !GAME_DATA.prefixes[t]).join(', ');
+                const tags = e.traits.slice(1).filter(t => !GAME_DATA.prefixes[t] && !t.startsWith('Resist:')).join(', ');
                 const parts = e.parts.join(', ');
-
-                // Use skill descriptions when available, fall back to skill name
                 const skillDescs = e.skills.map(s => {
                     const def = GAME_DATA.skills[s];
-                    if (def && def.description && def.description !== 'No description') {
-                        return def.description;
-                    }
+                    if (def && def.description && def.description !== 'No description') return def.description;
                     return s;
                 }).join('; ');
-
                 return `Full body creature concept art, neutral idle stance showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Anatomy: ${parts}. Traits: ${tags}. Abilities: ${skillDescs}. Style: stylized game art, cel-shaded, clean bold outlines, flat colours, Monster Hunter creature design, Final Fantasy bestiary illustration, white background, full figure head to toe, no background clutter`.trim();
             };
 
@@ -376,8 +490,7 @@
                     };
 
                     const qRes = await fetch(`http://${COMFY_API_HOST}/prompt`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ prompt: workflow, client_id: CLIENT_ID })
                     });
                     const { prompt_id } = await qRes.json();
@@ -400,73 +513,23 @@
             };
 
             const generate = () => {
-                const e = new Entity("Random Creature");
-
-                const chassisKeys = Object.keys(GAME_DATA.parts.chassis);
-                const chassisKey = chassisKeys[Math.floor(Math.random() * chassisKeys.length)];
-                const chassis = GAME_DATA.parts.chassis[chassisKey];
-
-                e.traits.push(chassisKey);
-                e.traits.push(...chassis.tags);
-                if (chassis.skills) e.skills.push(...chassis.skills);
-
-                chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassisKey));
-
-                if (chassis.slots.includes("Head")) {
-                    const headKeys = Object.keys(GAME_DATA.parts.head);
-                    const validHeads = headKeys.filter(h => {
-                        const headTags = GAME_DATA.parts.head[h].tags;
-                        return headTags.some(t => chassis.tags.includes(t));
-                    });
-                    const headKey = validHeads.length > 0 ? validHeads[Math.floor(Math.random() * validHeads.length)] : headKeys[0];
-                    const head = GAME_DATA.parts.head[headKey];
-                    e.parts.push(headKey);
-                    if (head.mods) head.mods.forEach(m => e.applyMod(m.target, m.op, m.val, headKey));
-                    if (head.skills) e.skills.push(...head.skills);
-                }
-
-                const integKeys = Object.keys(GAME_DATA.parts.integument);
-                const validInteg = integKeys.filter(i => {
-                    const iTags = GAME_DATA.parts.integument[i].tags;
-                    return iTags.some(t => chassis.tags.includes(t));
-                });
-                if (validInteg.length > 0) {
-                    const iKey = validInteg[Math.floor(Math.random() * validInteg.length)];
-                    const integ = GAME_DATA.parts.integument[iKey];
-                    e.parts.push(iKey);
-                    if (integ.mods) integ.mods.forEach(m => e.applyMod(m.target, m.op, m.val, iKey));
-                }
-
-                if (Math.random() > 0.5) {
-                    const pKeys = Object.keys(GAME_DATA.prefixes);
-                    const pKey = pKeys[Math.floor(Math.random() * pKeys.length)];
-                    const prefix = GAME_DATA.prefixes[pKey];
-                    e.traits.push(pKey);
-                    if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, pKey));
-                }
-
-                Object.values(e.stats).forEach(s => {
-                    if (s instanceof PotentialStat) s.fill();
-                });
-
-                // Reset portrait state and start countdown for new entity
                 setImgState({ loading: false, progress: 0, status: '', url: null, error: null });
-                setEntity(e);
+                setEntity(generateEntity());
                 if (IS_LOCAL) setCountdown(3);
             };
 
             return (
-                <div className="p-4 h-full flex flex-col">
-                    <button onClick={ generate } className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-lg mb-4 shadow-lg transition flex items-center justify-center gap-2">
-                        <Dice5 size={ 20 } />
+                <div className="p-3 sm:p-4 h-full flex flex-col">
+                    <button onClick={ generate } className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-lg mb-3 sm:mb-4 shadow-lg transition flex items-center justify-center gap-2">
+                        <Dice5 size={ 24 } />
                         Generate New Entity
                     </button>
 
                     { entity && (
-                        <div className="flex-1 bg-neutral-800 rounded-lg p-6 shadow-xl overflow-y-auto scroll-custom border border-neutral-700">
-                            <div className="flex justify-between items-start border-b border-neutral-600 pb-4 mb-4">
+                        <div className="flex-1 bg-neutral-800 rounded-lg p-3 sm:p-6 shadow-xl overflow-y-auto scroll-custom border border-neutral-700">
+                            <div className="flex flex-wrap justify-between items-start border-b border-neutral-600 pb-3 mb-3 sm:pb-4 sm:mb-4 gap-2">
                                 <div>
-                                    <h2 className="text-3xl font-bold text-yellow-500 flex items-center gap-2">
+                                    <h2 className="text-xl sm:text-3xl font-bold text-yellow-500 flex items-center gap-2">
                                         <PawPrint className="text-yellow-600" size={ 28 } />
                                         { entity.traits.find(t => GAME_DATA.prefixes[t]) || "" } { entity.traits[0] }
                                     </h2>
@@ -474,7 +537,7 @@
                                         { entity.traits.slice(1).map((t, i) => <span key={ i } className="bg-neutral-700 px-2 py-1 rounded text-xs text-gray-300 border border-neutral-600">{ t }</span>) }
                                     </div>
 
-                                    { /* Countdown / progress / portrait status bar */ }
+                                    { /* Countdown / progress (local only) */ }
                                     { IS_LOCAL && !imgState.url && countdown !== null && !imgState.loading && (
                                         <div className="flex items-center gap-3 mt-3">
                                             <span className="text-purple-400 text-sm">
@@ -499,35 +562,53 @@
                                     ) }
                                 </div>
                                 <div className="text-right">
-                                    <div className="text-4xl font-bold text-red-500 flex items-center justify-end gap-2">
+                                    <div className="text-2xl sm:text-4xl font-bold text-red-500 flex items-center justify-end gap-2">
                                         <Activity size={ 24 } className="text-red-700" />
-                                        { Math.floor(entity.stats.hp.currentValue) }
+                                        { Math.floor((entity.stats.hp_max || entity.stats.hp || { currentValue: 0 }).currentValue) }
                                         <span className="text-base text-gray-500">HP</span>
                                     </div>
-                                    <div className="text-sm text-gray-400">Max: { Math.floor(entity.stats.hp.maxValue) }</div>
+                                    <div className="text-sm text-gray-400">Max: { Math.floor((entity.stats.hp_max || entity.stats.hp || { maxValue: 0 }).maxValue) }</div>
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
-                                    <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                        <User size={ 18 } /> Attributes
-                                    </h3>
-                                    <div className="grid grid-cols-2 gap-2">
-                                        { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
-                                            <div key={ s.def.id } className="flex justify-between items-center p-2 hover:bg-neutral-800 rounded transition-colors">
-                                                <span className="text-gray-400 font-medium">{ s.def.displayName }</span>
-                                                <span className="font-mono font-bold text-white bg-neutral-800 px-2 rounded">{ Math.floor(s.getCurrentValue()) }</span>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-6">
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <User size={ 18 } /> Attributes
+                                        </h3>
+                                        <div className="grid grid-cols-2 gap-2">
+                                            { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
+                                                <div key={ s.def.id } className="flex justify-between items-center p-2 hover:bg-neutral-800 rounded transition-colors">
+                                                    <span className="text-gray-400 font-medium">{ s.def.displayName }</span>
+                                                    <span className="font-mono font-bold text-white bg-neutral-800 px-2 rounded">{ Math.floor(s.getCurrentValue()) }</span>
+                                                </div>
+                                            )) }
+                                        </div>
+
+                                        { /* Portrait image (local only) */ }
+                                        { imgState.url && (
+                                            <div className="mt-4 rounded-lg overflow-hidden border border-purple-600/40 shadow-xl">
+                                                <div className="text-xs text-purple-400 px-2 pt-2 pb-1 bg-purple-950/40 font-bold uppercase tracking-wider">Entity Portrait</div>
+                                                <img src={ imgState.url } alt="Generated entity portrait" className="w-full object-cover" />
                                             </div>
-                                        )) }
+                                        ) }
                                     </div>
 
-                                    { imgState.url && (
-                                        <div className="mt-4 rounded-lg overflow-hidden border border-purple-600/40 shadow-xl">
-                                            <div className="text-xs text-purple-400 px-2 pt-2 pb-1 bg-purple-950/40 font-bold uppercase tracking-wider">Entity Portrait</div>
-                                            <img src={ imgState.url } alt="Generated entity portrait" className="w-full object-cover" />
+                                    {/* Loot & Harvest Block */ }
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-yellow-600 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Anchor size={ 18 } /> Loot &amp; Harvest
+                                        </h3>
+                                        <div className="space-y-2">
+                                            { entity.loot && entity.loot.length > 0 ? entity.loot.map((l, i) => (
+                                                <div key={ i } className="flex flex-col text-sm">
+                                                    <span className="text-gray-200 font-bold">{ l.name.replace(/_/g, ' ') }</span>
+                                                    <span className="text-gray-500 text-xs">Drops: { l.baseDrops ? l.baseDrops.join(", ") : "Nothing" }</span>
+                                                </div>
+                                            )) : <span className="text-gray-500 italic">No significant loot.</span> }
                                         </div>
-                                    ) }
+                                    </div>
                                 </div>
 
                                 <div className="space-y-4">
@@ -535,7 +616,7 @@
                                         <h3 className="text-lg font-bold text-green-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
                                             <Shield size={ 18 } /> Derived Status
                                         </h3>
-                                        { Object.values(entity.stats).filter(s => s.def.statType === "Potential" && s.def.id !== "hp").map(s => (
+                                        { Object.values(entity.stats).filter(s => s instanceof PotentialStat && s.def.id !== "hp").map(s => (
                                             <div key={ s.def.id } className="flex justify-between p-1">
                                                 <span className="text-gray-300">{ s.def.displayName }</span>
                                                 <span className="font-mono text-yellow-400">{ Math.floor(s.maxValue) }</span>
@@ -545,7 +626,7 @@
 
                                     <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
                                         <h3 className="text-lg font-bold text-purple-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                            <Anchor size={ 18 } /> Anatomy & Skills
+                                            <Anchor size={ 18 } /> Anatomy &amp; Skills
                                         </h3>
                                         <div className="mb-3">
                                             <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Parts</span>
@@ -560,6 +641,20 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* Variations & Ecosystem Block */ }
+                                    <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
+                                        <h3 className="text-lg font-bold text-teal-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
+                                            <Search size={ 18 } /> Variations &amp; Ecosystem
+                                        </h3>
+                                        <div className="grid grid-cols-1 gap-2 text-sm">
+                                            { entity.variations.biome && <div className="flex justify-between"><span className="text-gray-400">Biome</span><span className="text-white">{ entity.variations.biome }</span></div> }
+                                            { entity.variations.pattern && <div className="flex justify-between"><span className="text-gray-400">Pattern</span><span className="text-white">{ entity.variations.pattern }</span></div> }
+                                            { entity.variations.pigmentation && <div className="flex justify-between"><span className="text-gray-400">Pigment</span><span className="text-white">{ entity.variations.pigmentation }</span></div> }
+                                            { entity.variations.size && <div className="flex justify-between"><span className="text-gray-400">Size</span><span className="text-white">{ entity.variations.size }</span></div> }
+                                            { entity.variations.upgrade && <div className="flex justify-between"><span className="text-gray-400">Upgrade</span><span className="text-purple-300">{ entity.variations.upgrade }</span></div> }
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -568,249 +663,1285 @@
             );
         };
 
+
         const DataGridView = () => {
             const [filterTag, setFilterTag] = useState("");
+            const [copyLabel, setCopyLabel] = useState("Copy All Tags");
 
-            const categories = Object.keys(GAME_DATA.parts);
-            const [toggles, setToggles] = useState(() => {
-                const init = {};
-                categories.forEach(c => init[c] = true);
-                return init;
-            });
+            const sections = useMemo(() => [
+                {
+                    title: "1. Main Body",
+                    groups: [
+                        { name: "Core", paths: { chassis: "bodies.core.chassis", integument: "bodies.core.integument" } },
+                        { name: "Cephalon", paths: { cranium: "bodies.cephalon.cranium", ears: "bodies.cephalon.ears", eyes: "bodies.cephalon.eyes", maw: "bodies.cephalon.maw", nose: "bodies.cephalon.nose" } },
+                        { name: "Appendages", paths: { arms: "bodies.appendages.arms", fins: "bodies.appendages.fins", legs: "bodies.appendages.legs", tails: "bodies.appendages.tails", tentacles: "bodies.appendages.tentacles", wings: "bodies.appendages.wings" } }
+                    ]
+                },
+                {
+                    title: "2. Variations",
+                    groups: [
+                        { name: "Appearances", paths: { patterns: "variations.appearances.patterns", pigmentation: "variations.appearances.pigmentation" } },
+                        { name: "Environment & Upgrades", paths: { biomes: "variations.biomes", "bio upgrades": "variations.biological_upgrades", sizes: "variations.size_indices" } }
+                    ]
+                }
+            ], []);
 
-            const allTags = useMemo(() => {
-                const tags = new Set();
-                Object.values(GAME_DATA.parts).forEach(partsMap => {
-                    Object.values(partsMap).forEach(part => {
-                        if (part.tags) {
-                            part.tags.forEach(t => tags.add(t));
-                        }
+            // Flatten paths for state
+            const allPaths = useMemo(() => {
+                const paths = {};
+                sections.forEach(sec => {
+                    sec.groups.forEach(group => {
+                        Object.entries(group.paths).forEach(([label, path]) => {
+                            paths[path] = true;
+                        });
                     });
                 });
-                return Array.from(tags).sort();
-            }, []);
+                return paths;
+            }, [sections]);
 
-            const getFilteredCount = (category) => {
-                const parts = GAME_DATA.parts[category];
-                if (!parts) return 0;
-                if (!filterTag) return Object.keys(parts).length;
+            const [toggles, setToggles] = useState(allPaths);
 
-                return Object.values(parts).filter(p =>
-                    p.tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
+            const getCount = (path, useFilter = true) => {
+                let target = GAME_DATA;
+                path.split('.').forEach(k => {
+                    if (target) target = target[k];
+                });
+                if (!target) return 0;
+
+                const keys = Object.keys(target);
+                if (!useFilter || !filterTag) return keys.length;
+
+                return Object.values(target).filter(item =>
+                    item.tags && item.tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
                 ).length;
             };
 
-            const toggleCat = (cat) => setToggles(prev => ({ ...prev, [cat]: !prev[cat] }));
+            const togglePath = (path) => setToggles(prev => ({ ...prev, [path]: !prev[path] }));
 
-            const totalCombinations = categories.reduce((acc, cat) => {
-                if (!toggles[cat]) return acc;
-                const count = getFilteredCount(cat);
-                return count > 0 ? acc * count : acc;
-            }, 1);
+            // Calculate Totals
+            const totalUniqueBodies = useMemo(() => {
+                let total = 1;
+                let hasActive = false;
+
+                // Assuming multiplicative combinations across categories if active
+                sections[0].groups.forEach(group => {
+                    Object.entries(group.paths).forEach(([label, path]) => {
+                        if (toggles[path]) {
+                            const c = getCount(path);
+                            // Only multiply if count > 0 to avoid zeroing out unless truly 0 options
+                            if (c > 0) {
+                                total *= c;
+                                hasActive = true;
+                            }
+                        }
+                    });
+                });
+                return hasActive ? total : 0;
+            }, [toggles, filterTag, sections]);
+
+            const totalVariations = useMemo(() => {
+                let total = totalUniqueBodies;
+                if (total === 0) return 0;
+
+                sections[1].groups.forEach(group => {
+                    Object.entries(group.paths).forEach(([label, path]) => {
+                        if (toggles[path]) {
+                            const c = getCount(path);
+                            if (c > 0) total *= c;
+                        }
+                    });
+                });
+                return total;
+            }, [totalUniqueBodies, toggles, filterTag, sections]);
+
+            // Collect all tags for filter
+            const allTags = useMemo(() => {
+                const tags = new Set();
+                const traverse = (obj) => {
+                    if (!obj) return;
+                    if (obj.tags && Array.isArray(obj.tags)) obj.tags.forEach(t => tags.add(t));
+                    else if (typeof obj === 'object') Object.values(obj).forEach(traverse);
+                };
+                traverse(GAME_DATA.bodies);
+                traverse(GAME_DATA.variations);
+                return Array.from(tags).sort();
+            }, []);
+
+            const copyAllTags = () => {
+                const tagString = allTags.join('\n');
+
+                // Try modern Clipboard API first
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(tagString)
+                        .then(() => {
+                            setCopyLabel("Copied!");
+                            setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                        })
+                        .catch(err => {
+                            console.error("Clipboard API failed:", err);
+                            fallbackCopy(tagString);
+                        });
+                } else {
+                    fallbackCopy(tagString);
+                }
+            };
+
+            const fallbackCopy = (text) => {
+                try {
+                    const textArea = document.createElement("textarea");
+                    textArea.value = text;
+
+                    // Ensure it's not visible but part of DOM
+                    textArea.style.position = "fixed";
+                    textArea.style.left = "-9999px";
+                    textArea.style.top = "0";
+                    document.body.appendChild(textArea);
+
+                    textArea.focus();
+                    textArea.select();
+
+                    const successful = document.execCommand('copy');
+                    document.body.removeChild(textArea);
+
+                    if (successful) {
+                        setCopyLabel("Copied!");
+                        setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                    } else {
+                        setCopyLabel("Error!");
+                        setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                    }
+                } catch (err) {
+                    console.error("Fallback copy failed:", err);
+                    setCopyLabel("Error!");
+                    setTimeout(() => setCopyLabel("Copy All Tags"), 2000);
+                }
+            };
 
             return (
-                <div className="p-6 h-full flex flex-col">
-                    <div className="flex justify-between items-center mb-6 bg-neutral-800 p-4 rounded-lg shadow border border-neutral-700">
-                        <div className="flex items-center gap-4 w-1/2">
-                            <div className="relative w-full">
-                                <Filter className="absolute left-3 top-2.5 text-gray-500" size={ 18 } />
-                                <select
-                                    value={ filterTag }
-                                    onChange={ (e) => setFilterTag(e.target.value) }
-                                    className="bg-neutral-900 border border-neutral-600 text-white pl-10 pr-8 py-2 rounded-lg w-full focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 appearance-none cursor-pointer"
-                                >
-                                    <option value="">All Tags</option>
-                                    { allTags.map(tag => (
-                                        <option key={ tag } value={ tag }>{ tag }</option>
-                                    )) }
-                                </select>
-                                <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
-                                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                                </div>
+                <div className="p-3 sm:p-6 h-full flex flex-col">
+                    {/* Header with Totals */ }
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                        <div className="bg-neutral-800 p-4 rounded-lg border border-neutral-700 shadow flex justify-between items-center">
+                            <div>
+                                <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Unique Bodies</div>
+                                <div className="text-3xl font-mono text-yellow-400 font-bold">{ totalUniqueBodies.toLocaleString() }</div>
                             </div>
+                            <User size={ 32 } className="text-neutral-600" />
                         </div>
-                        <div className="text-right">
-                            <div className="text-xs text-gray-500 uppercase tracking-widest font-bold">Total Permutations</div>
-                            <div className="text-4xl font-mono text-green-400 tracking-tighter">{ totalCombinations.toLocaleString() }</div>
+                        <div className="bg-neutral-800 p-4 rounded-lg border border-neutral-700 shadow flex justify-between items-center">
+                            <div>
+                                <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Variations</div>
+                                <div className="text-3xl font-mono text-green-400 font-bold">{ totalVariations.toLocaleString() }</div>
+                            </div>
+                            <Dice5 size={ 32 } className="text-neutral-600" />
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-y-auto scroll-custom p-1">
-                        { categories.map(cat => {
-                            const count = getFilteredCount(cat);
-                            const isActive = toggles[cat];
-                            return (
-                                <div key={ cat } className={ `border rounded-lg p-4 transition duration-200 ${isActive ? 'bg-neutral-800 border-neutral-600 hover:border-neutral-500' : 'bg-neutral-900 border-neutral-800 opacity-50'}` }>
-                                    <div className="flex justify-between items-center mb-2">
-                                        <h3 className="font-bold capitalize text-lg text-gray-200">{ cat }</h3>
-                                        <input
-                                            type="checkbox"
-                                            checked={ !!isActive }
-                                            onChange={ () => toggleCat(cat) }
-                                            className="w-5 h-5 accent-blue-500 cursor-pointer"
-                                        />
-                                    </div>
-                                    <div className="text-3xl font-bold text-blue-400 my-2">{ count }</div>
-                                    <div className="text-xs text-gray-500 uppercase font-semibold">Available Options</div>
+                    {/* Filter Bar */ }
+                    <div className="flex items-center gap-4 mb-4 bg-neutral-900 p-3 rounded-lg border border-neutral-800">
+                        <Filter size={ 18 } className="text-gray-500" />
+                        <select
+                            value={ filterTag }
+                            onChange={ (e) => setFilterTag(e.target.value) }
+                            className="bg-black text-white px-3 py-1 rounded border border-neutral-700 focus:outline-none focus:border-blue-500"
+                        >
+                            <option value="">All Tags</option>
+                            { allTags.map(t => <option key={ t } value={ t }>{ t }</option>) }
+                        </select>
+                        <button
+                            onClick={ copyAllTags }
+                            className="ml-2 bg-neutral-700 hover:bg-neutral-600 text-white px-3 py-2 rounded-lg text-sm font-bold border border-neutral-600 transition whitespace-nowrap"
+                        >
+                            { copyLabel }
+                        </button>
+                    </div>
 
-                                    <div className="mt-3 text-xs text-gray-400 h-24 overflow-y-auto border-t border-neutral-700 pt-2 space-y-1">
-                                        { Object.keys(GAME_DATA.parts[cat]).filter(k =>
-                                            !filterTag || GAME_DATA.parts[cat][k].tags.some(t => t.toLowerCase() === filterTag.toLowerCase())
-                                        ).map(k => (
-                                            <div key={ k } className="truncate hover:text-white cursor-default">• { k }</div>
-                                        )) }
+                    {/* Grids */ }
+                    <div className="flex-1 overflow-y-auto scroll-custom space-y-8 pr-2">
+                        { sections.map(section => (
+                            <div key={ section.title }>
+                                <h2 className="text-xl font-bold text-white mb-4 border-b border-neutral-700 pb-2">{ section.title }</h2>
+                                { section.groups.map(group => (
+                                    <div key={ group.name } className="mb-6">
+                                        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 pl-1">{ group.name }</h3>
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                                            { Object.entries(group.paths).map(([label, path]) => {
+                                                const isActive = toggles[path];
+                                                const count = getCount(path);
+                                                return (
+                                                    <div key={ path }
+                                                        onClick={ () => togglePath(path) }
+                                                        className={ `cursor-pointer p-3 rounded-lg border transition-all ${isActive ? 'bg-neutral-800 border-neutral-600 hover:bg-neutral-700' : 'bg-neutral-900 border-neutral-800 opacity-50 hover:opacity-75'}` }
+                                                    >
+                                                        <div className="text-xs text-gray-400 capitalize mb-1">{ label }</div>
+                                                        <div className="text-2xl font-bold text-blue-400">{ count }</div>
+                                                    </div>
+                                                );
+                                            }) }
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        }) }
+                                )) }
+                            </div>
+                        )) }
                     </div>
                 </div>
             );
         };
 
-        const BattleView = () => {
-            const [ent1, setEnt1] = useState(null);
-            const [ent2, setEnt2] = useState(null);
-            const [logs, setLogs] = useState([]);
+        // ==========================================
+        // DEFINITIONS VIEW
+        // ==========================================
 
-            const setup = () => {
-                const gen = (name) => {
-                    const e = new Entity(name);
-                    const type = name.includes("Wolf") ? "Wolf_Frame" : "Bear_Frame";
-                    const chassis = GAME_DATA.parts.chassis[type];
-                    e.traits.push(type, ...chassis.tags);
-                    if (chassis.skills) e.skills.push(...chassis.skills);
-                    chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, type));
-
-                    e.skills.push("Bite");
-
-                    Object.values(e.stats).forEach(s => { if (s instanceof PotentialStat) s.fill(); });
-                    return e;
-                };
-
-                setEnt1(gen("Dire Wolf"));
-                setEnt2(gen("Cave Bear"));
-                setLogs(["Battle Initialized."]);
+        // Helper: render a small tag pill
+        const Pill = ({ text, color = 'neutral' }) => {
+            const colorMap = {
+                neutral: 'bg-neutral-700 border-neutral-600 text-neutral-200',
+                blue: 'bg-blue-900/50 border-blue-700 text-blue-200',
+                green: 'bg-green-900/50 border-green-700 text-green-200',
+                red: 'bg-red-900/50 border-red-700 text-red-200',
+                purple: 'bg-purple-900/50 border-purple-700 text-purple-200',
+                yellow: 'bg-yellow-900/50 border-yellow-700 text-yellow-200',
+                teal: 'bg-teal-900/50 border-teal-700 text-teal-200',
+                orange: 'bg-orange-900/50 border-orange-700 text-orange-200',
+                pink: 'bg-pink-900/50 border-pink-700 text-pink-200',
+                sky: 'bg-sky-900/50 border-sky-700 text-sky-200',
             };
+            const cls = colorMap[color] || colorMap.neutral;
+            return <span className={ `inline-block text-xs px-2 py-0.5 rounded border ${cls} mr-1 mb-1` }>{ text }</span>;
+        };
 
-            const fightTurn = () => {
-                if (!ent1 || !ent2 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0) return;
+        // Terrain category color
+        const terrainCatColor = (cat) => ({ surface: 'blue', topography: 'teal', cover: 'green', condition: 'orange', liquid: 'blue', lighting: 'yellow' }[cat] || 'neutral');
 
-                const newLogs = [...logs];
+        // A card that shows a single definition entry
+        const DefCard = ({ title, children }) => (
+            <div className="bg-neutral-800 border border-neutral-700 rounded-lg p-3 text-sm space-y-2 hover:border-neutral-500 transition-colors">
+                <div className="font-bold text-white text-base">{ title.replace(/_/g, ' ') }</div>
+                { children }
+            </div>
+        );
 
-                const performAction = (attacker, defender) => {
-                    if (attacker.stats.hp.currentValue <= 0) return;
+        const DefinitionsView = () => {
+            const DEF_SECTIONS = [
+                { key: 'damage_types', label: 'Damage Types', source: () => GAME_DATA.definitions.damage_types, color: 'text-red-400' },
+                { key: 'skill_types', label: 'Skill Types', source: () => GAME_DATA.definitions.skill_types, color: 'text-blue-400' },
+                { key: 'combat_tags', label: 'Combat Tags', source: () => GAME_DATA.definitions.combat_tags, color: 'text-yellow-400' },
+                { key: 'traversal_types', label: 'Traversal Types', source: () => GAME_DATA.definitions.traversal_types, color: 'text-teal-400' },
+                { key: 'vision_types', label: 'Vision Types', source: () => GAME_DATA.definitions.vision_types, color: 'text-cyan-400' },
+                { key: 'hearing_types', label: 'Hearing Types', source: () => GAME_DATA.definitions.hearing_types, color: 'text-indigo-400' },
+                { key: 'scent_types', label: 'Scent Types', source: () => GAME_DATA.definitions.scent_types, color: 'text-emerald-400' },
+                { key: 'terrain_types', label: 'Terrain Types', source: () => GAME_DATA.definitions.terrain_types, color: 'text-lime-400' },
+                { key: 'biomes', label: 'Biomes', source: () => GAME_DATA.world.biomes, color: 'text-green-400' },
+                { key: 'weather_types', label: 'Weather Types', source: () => GAME_DATA.world.weather_types, color: 'text-sky-400' },
+                { key: 'temperature_bands', label: 'Temperature Bands', source: () => GAME_DATA.world.temperature_bands, color: 'text-orange-400' },
+                { key: 'status_effects', label: 'Status Effects', source: () => GAME_DATA.mechanics.status_effects, color: 'text-purple-400' },
+            ];
 
-                    const skillName = attacker.skills[Math.floor(Math.random() * attacker.skills.length)];
-                    const skillData = GAME_DATA.skills[skillName];
+            const [activeSection, setActiveSection] = useState(DEF_SECTIONS[0].key);
+            const [search, setSearch] = useState('');
 
-                    if (!skillData) {
-                        newLogs.push(`${attacker.name} hesitates.`);
-                        return;
+            const currentSection = DEF_SECTIONS.find(s => s.key === activeSection);
+            const rawData = currentSection ? currentSection.source() : {};
+
+            const filteredEntries = useMemo(() => {
+                const q = search.toLowerCase();
+                return Object.entries(rawData).filter(([key, val]) => {
+                    if (!q) return true;
+                    const desc = (val.description || val.name || '').toLowerCase();
+                    return key.toLowerCase().includes(q) || desc.includes(q);
+                });
+            }, [rawData, search, activeSection]);
+
+            // ---- Renderers per section type ----
+            const renderEntry = (key, val) => {
+                switch (activeSection) {
+                    case 'damage_types':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.color && <div className="flex items-center gap-2"><div className={ `w-3 h-3 rounded-full ${val.color.replace('text-', 'bg-')}` } /><span className="text-xs text-gray-500">Combat Color</span></div> }
+                                { val.payloads && val.payloads.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Triggers</div>
+                                        { val.payloads.map((p, i) => (
+                                            <div key={ i } className="flex justify-between text-xs">
+                                                <Pill text={ p.id } color="red" />
+                                                <span className="text-gray-500">{ (p.chance_per_tick * 100).toFixed(0) }%</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
+
+                    case 'skill_types':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.combat_flags && val.combat_flags.length > 0 && (
+                                    <div className="flex flex-wrap">
+                                        { val.combat_flags.map(f => <Pill key={ f } text={ f } color="yellow" />) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
+
+                    case 'combat_tags':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <div className="text-yellow-400 text-xs font-semibold mb-1">{ val.name }</div>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                            </DefCard>
+                        );
+
+                    case 'traversal_types':
+                    case 'vision_types':
+                    case 'hearing_types':
+                    case 'scent_types':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.mods && val.mods.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Mods</div>
+                                        { val.mods.map((m, i) => <div key={ i } className="text-xs text-green-300 font-mono">{ m.target } { m.op } { m.expr }</div>) }
+                                    </div>
+                                ) }
+                                { val.payload_immunities && val.payload_immunities.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Immunities</div>
+                                        <div className="flex flex-wrap">{ val.payload_immunities.map(p => <Pill key={ p } text={ p } color="teal" />) }</div>
+                                    </div>
+                                ) }
+                                { val.grants_skills && val.grants_skills.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Grants Skills</div>
+                                        <div className="flex flex-wrap">{ val.grants_skills.map(s => <Pill key={ s } text={ s } color="blue" />) }</div>
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
+
+                    case 'terrain_types': {
+                        const catColor = terrainCatColor(val.category);
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <Pill text={ val.category || '?' } color={ catColor } />
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.required_traversal && <div className="text-xs"><span className="text-gray-500">Requires: </span><Pill text={ val.required_traversal } color="orange" /></div> }
+                                { val.excludes && val.excludes.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Excludes</div>
+                                        <div className="flex flex-wrap">{ val.excludes.slice(0, 5).map(e => <Pill key={ e } text={ e } color="red" />) }{ val.excludes.length > 5 && <Pill text={ `+${val.excludes.length - 5} more` } color="neutral" /> }</div>
+                                    </div>
+                                ) }
+                                { val.payloads && val.payloads.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Payloads</div>
+                                        { val.payloads.map((p, i) => (
+                                            <div key={ i } className="flex justify-between text-xs">
+                                                <Pill text={ p.id } color="orange" />
+                                                <span className="text-gray-500">{ (p.chance_per_tick * 100).toFixed(0) }%</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
                     }
 
-                    newLogs.push(`${attacker.name} uses ${skillName}!`);
+                    case 'biomes':
+                        return (
+                            <DefCard key={ key } title={ val.name || key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.climate && (
+                                    <div className="text-xs flex gap-2 flex-wrap">
+                                        { val.climate.base_temp && <Pill text={ `Temp: ${val.climate.base_temp}` } color="orange" /> }
+                                        { val.climate.weather && <Pill text={ `Weather: ${val.climate.weather}` } color="sky" /> }
+                                        { val.climate.night_temp && <Pill text={ `Night: ${val.climate.night_temp}` } color="blue" /> }
+                                    </div>
+                                ) }
+                                { val.terrain_flags && val.terrain_flags.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Terrain Flags</div>
+                                        <div className="flex flex-wrap">{ val.terrain_flags.map(t => <Pill key={ t } text={ t } color="teal" />) }</div>
+                                    </div>
+                                ) }
+                                { val.adaptation_rules && val.adaptation_rules.skills && val.adaptation_rules.skills.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Adaptation Skills</div>
+                                        <div className="flex flex-wrap">{ val.adaptation_rules.skills.map(s => <Pill key={ s.id } text={ `${s.id} (${s.weight})` } color="green" />) }</div>
+                                    </div>
+                                ) }
+                                { val.payloads && val.payloads.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Environmental Payloads</div>
+                                        { val.payloads.map((p, i) => (
+                                            <div key={ i } className="flex justify-between text-xs">
+                                                <Pill text={ p.id } color="red" />
+                                                <span className="text-gray-500">{ (p.chance_per_tick * 100).toFixed(0) }%</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
 
-                    skillData.mods.forEach(mod => {
-                        if (mod.target === "hp" && mod.op === "subtract") {
-                            const dmg = attacker.roll(mod.roll);
-                            const strMod = Math.floor((attacker.stats.str.getCurrentValue() - 10) / 2);
-                            const totalDmg = Math.max(1, dmg + strMod);
+                    case 'weather_types':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.terrain_additions && val.terrain_additions.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Terrain Additions</div>
+                                        <div className="flex flex-wrap">{ val.terrain_additions.map(t => <Pill key={ t } text={ t } color="teal" />) }</div>
+                                    </div>
+                                ) }
+                                { val.payloads && val.payloads.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Payloads</div>
+                                        { val.payloads.map((p, i) => (
+                                            <div key={ i } className="flex justify-between text-xs">
+                                                <Pill text={ p.id } color="sky" />
+                                                <span className="text-gray-500">{ (p.chance_per_tick * 100).toFixed(0) }%</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
 
-                            defender.stats.hp.currentValue -= totalDmg;
-                            newLogs.push(`> Hits ${defender.name} for ${totalDmg} damage! (${defender.stats.hp.currentValue.toFixed(0)} HP left)`);
-                        }
-                        if (mod.target === "status") {
-                            newLogs.push(`> Applies ${mod.val} to ${defender.name}!`);
-                        }
-                    });
-                };
+                    case 'temperature_bands':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.payloads && val.payloads.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Payloads</div>
+                                        { val.payloads.map((p, i) => (
+                                            <div key={ i } className="flex justify-between text-xs">
+                                                <Pill text={ p.id } color="orange" />
+                                                <span className="text-gray-500">{ (p.chance_per_tick * 100).toFixed(0) }%</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
 
-                if (ent1.stats.dex.getCurrentValue() >= ent2.stats.dex.getCurrentValue()) {
-                    performAction(ent1, ent2);
-                    performAction(ent2, ent1);
-                } else {
-                    performAction(ent2, ent1);
-                    performAction(ent1, ent2);
+                    case 'status_effects':
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs leading-relaxed">{ val.description }</p>
+                                { val.blocks_skill_types && val.blocks_skill_types.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Blocks Skill Types</div>
+                                        <div className="flex flex-wrap">{ val.blocks_skill_types.map(b => <Pill key={ b } text={ b } color="red" />) }</div>
+                                    </div>
+                                ) }
+                                { val.mods && val.mods.length > 0 && (
+                                    <div>
+                                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Modifiers</div>
+                                        { val.mods.map((m, i) => (
+                                            <div key={ i } className="font-mono text-xs text-green-300">
+                                                { m.target } <span className="text-gray-500">{ m.op }</span> { m.expr }
+                                                { m.damage_type && <Pill text={ m.damage_type } color="red" /> }
+                                                { m.stat_dependencies && m.stat_dependencies.length > 0 && <span className="text-gray-600 ml-1">(deps: { m.stat_dependencies.join(', ') })</span> }
+                                            </div>
+                                        )) }
+                                    </div>
+                                ) }
+                            </DefCard>
+                        );
+
+                    default:
+                        return (
+                            <DefCard key={ key } title={ key }>
+                                <p className="text-gray-400 text-xs">{ val.description || '—' }</p>
+                            </DefCard>
+                        );
                 }
-
-                if (ent1.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent1.name} has been defeated!`);
-                if (ent2.stats.hp.currentValue <= 0) newLogs.push(`💀 ${ent2.name} has been defeated!`);
-
-                setLogs(newLogs);
-                setEnt1(Object.assign(Object.create(Object.getPrototypeOf(ent1)), ent1));
-                setEnt2(Object.assign(Object.create(Object.getPrototypeOf(ent2)), ent2));
             };
 
             return (
-                <div className="p-6 h-full flex flex-col">
-                    <div className="flex justify-center gap-4 mb-4">
-                        <button onClick={ setup } className="bg-yellow-600 hover:bg-yellow-500 text-white px-6 py-2 rounded-lg font-bold shadow-md flex items-center gap-2">
-                            <RotateCcw size={ 18 } /> New Fight
-                        </button>
-                        <button
-                            onClick={ fightTurn }
-                            disabled={ !ent1 || ent1.stats.hp.currentValue <= 0 || ent2.stats.hp.currentValue <= 0 }
-                            className="bg-red-600 hover:bg-red-500 disabled:opacity-50 disabled:cursor-not-allowed text-white px-8 py-2 rounded-lg font-bold shadow-md flex items-center gap-2"
-                        >
-                            <Swords size={ 18 } /> Next Turn
-                        </button>
+                <div className="p-3 sm:p-4 h-full flex flex-col">
+                    {/* Section Selector Tabs */ }
+                    <div className="flex flex-wrap gap-1 mb-3 pb-3 border-b border-neutral-800">
+                        { DEF_SECTIONS.map(s => {
+                            const count = Object.keys(s.source()).length;
+                            const isActive = activeSection === s.key;
+                            return (
+                                <button
+                                    key={ s.key }
+                                    onClick={ () => { setActiveSection(s.key); setSearch(''); } }
+                                    className={ `px-2 py-1 rounded text-xs font-bold transition-all border ${isActive
+                                        ? `bg-neutral-800 border-neutral-600 ${s.color}`
+                                        : 'border-transparent text-gray-500 hover:text-gray-300 hover:bg-neutral-900'
+                                        }` }
+                                >
+                                    { s.label } <span className="opacity-60">({ count })</span>
+                                </button>
+                            );
+                        }) }
                     </div>
 
-                    <div className="flex-1 grid grid-cols-3 gap-4 overflow-hidden">
-                        <div className="bg-neutral-900 rounded-lg p-4 border border-blue-900/50 flex flex-col">
-                            { ent1 ? (
-                                <>
-                                    <h3 className="text-xl font-bold text-blue-400 flex items-center gap-2"><User size={ 20 } /> { ent1.name }</h3>
-                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                        <div className="bg-red-600 h-full transition-all duration-300" style={ { width: `${(ent1.stats.hp.currentValue / ent1.stats.hp.maxValue) * 100}%` } }></div>
-                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md">
-                                            { ent1.stats.hp.currentValue.toFixed(0) } / { ent1.stats.hp.maxValue.toFixed(0) }
-                                        </div>
-                                    </div>
-                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
-                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent1.stats.str.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent1.stats.dex.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent1.stats.con.getCurrentValue()) }</span></div>
-                                    </div>
-                                </>
-                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
-                        </div>
+                    {/* Search */ }
+                    <div className="flex items-center gap-2 mb-3 bg-neutral-900 border border-neutral-800 rounded-lg px-3 py-2">
+                        <Search size={ 14 } className="text-gray-500 shrink-0" />
+                        <input
+                            type="text"
+                            value={ search }
+                            onChange={ e => setSearch(e.target.value) }
+                            placeholder={ `Search ${currentSection ? currentSection.label : ''}...` }
+                            className="bg-transparent text-white text-sm outline-none flex-1 placeholder-gray-600"
+                        />
+                        { search && (
+                            <button onClick={ () => setSearch('') } className="text-gray-500 hover:text-gray-300 text-xs">✕</button>
+                        ) }
+                        <span className="text-xs text-gray-600 shrink-0">{ filteredEntries.length } entries</span>
+                    </div>
 
-                        <div className="bg-black rounded-lg p-4 border border-neutral-700 overflow-y-auto scroll-custom font-mono text-sm relative">
-                            { logs.map((l, i) => (
-                                <div key={ i } className={ `mb-1 border-l-2 pl-2 ${l.includes('defeated') ? 'text-red-500 font-bold border-red-500' :
-                                    l.includes('Hits') ? 'text-orange-300 border-orange-500' :
-                                        l.includes('uses') ? 'text-cyan-300 border-cyan-500' :
-                                            'text-gray-400 border-gray-700'
-                                    }` }>
-                                    { l }
+                    {/* Cards Grid */ }
+                    <div className="flex-1 overflow-y-auto scroll-custom pr-1">
+                        { filteredEntries.length === 0 ? (
+                            <div className="text-gray-600 text-center italic mt-16">No entries match "{ search }"</div>
+                        ) : (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                                { filteredEntries.map(([key, val]) => renderEntry(key, val)) }
+                            </div>
+                        ) }
+                    </div>
+                </div>
+            );
+        };
+
+        // ==========================================
+        // SHARED ENTITY GENERATION HELPER
+        // ==========================================
+        function generateEntity() {
+            const e = new Entity("Random Creature");
+
+            const pick = (obj) => {
+                if (!obj) return null;
+                const keys = Object.keys(obj);
+                if (!keys.length) return null;
+                const key = keys[Math.floor(Math.random() * keys.length)];
+                return { key, ...obj[key] };
+            };
+
+            const pickFiltered = (obj, pred) => {
+                if (!obj) return null;
+                const keys = Object.keys(obj).filter(k => pred(obj[k]));
+                if (!keys.length) return null;
+                const key = keys[Math.floor(Math.random() * keys.length)];
+                return { key, ...obj[key] };
+            };
+
+            // 1. Chassis
+            const chassis = pick(GAME_DATA.bodies.core.chassis);
+            if (chassis) {
+                e.traits.push(chassis.key);
+                e.traits.push(...(chassis.tags || []));
+                if (chassis.skills) e.skills.push(...chassis.skills);
+                if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassis.key));
+            }
+
+            // 2. Cranium
+            if (chassis && chassis.slots && chassis.slots.includes("Head")) {
+                const cranium = pickFiltered(GAME_DATA.bodies.cephalon.cranium, (item) =>
+                    !item.tags || item.tags.some(t => e.traits.includes(t))
+                ) || pick(GAME_DATA.bodies.cephalon.cranium);
+                if (cranium) {
+                    e.parts.push(cranium.key);
+                    if (cranium.mods) cranium.mods.forEach(m => e.applyMod(m.target, m.op, m.val, cranium.key));
+                    if (cranium.skills) e.skills.push(...cranium.skills);
+                }
+            }
+
+            // 3. Integument
+            const integument = pickFiltered(GAME_DATA.bodies.core.integument, (item) =>
+                item.tags && item.tags.some(t => e.traits.includes(t))
+            );
+            if (integument) {
+                e.parts.push(integument.key);
+                if (integument.mods) integument.mods.forEach(m => e.applyMod(m.target, m.op, m.val, integument.key));
+            }
+
+            // 4. Variations
+            e.variations = {};
+            const biome = pick(GAME_DATA.variations.biomes);
+            if (biome) e.variations.biome = biome.key;
+            const pattern = pick(GAME_DATA.variations.appearances.patterns);
+            if (pattern) e.variations.pattern = pattern.key;
+            const pig = pick(GAME_DATA.variations.appearances.pigmentation);
+            if (pig) e.variations.pigmentation = pig.key;
+            const size = pick(GAME_DATA.variations.size_indices);
+            if (size) e.variations.size = size.key;
+            const bioUpgrade = Math.random() > 0.7 ? pick(GAME_DATA.variations.biological_upgrades) : null;
+            if (bioUpgrade) {
+                e.variations.upgrade = bioUpgrade.key;
+                if (bioUpgrade.mods) bioUpgrade.mods.forEach(m => e.applyMod(m.target, m.op, m.val, bioUpgrade.key));
+            }
+
+            // 5. Loot
+            e.loot = [];
+            const anatomyDrops = GAME_DATA.loot.anatomy_drops || {};
+            const allTags = new Set([...e.traits, ...e.parts]);
+            Object.keys(anatomyDrops).forEach(key => {
+                if (allTags.has(key) || Array.from(allTags).some(t => t.includes(key) || key.includes(t))) {
+                    e.loot.push({ name: key, ...anatomyDrops[key] });
+                }
+            });
+            if (e.loot.length === 0 && chassis) {
+                if (anatomyDrops["Meat_Muscle"]) e.loot.push({ name: "Meat_Muscle", ...anatomyDrops["Meat_Muscle"] });
+                if (anatomyDrops["Legs_Bones"]) e.loot.push({ name: "Legs_Bones", ...anatomyDrops["Legs_Bones"] });
+            }
+
+            // 6. Prefix
+            if (Math.random() > 0.5) {
+                const prefix = pick(GAME_DATA.prefixes);
+                if (prefix) {
+                    e.traits.push(prefix.key);
+                    if (prefix.mods) prefix.mods.forEach(m => e.applyMod(m.target, m.op, m.val, prefix.key));
+                }
+            }
+
+            // Ensure the entity has at least one attack skill
+            const hasAttack = e.skills.some(skillName => {
+                const types = GAME_DATA.skills[skillName]?.types || [];
+                return types.includes('Melee_Attack') || types.includes('Ranged_Attack');
+            });
+            if (!hasAttack) e.skills.push('Unarmed');
+
+            Object.values(e.stats).forEach(s => { if (s instanceof PotentialStat) s.fill(); });
+            return e;
+        }
+
+        // ==========================================
+        // ENTITY CHARACTER SHEET MODAL
+        // ==========================================
+        const EntitySheetModal = ({ entity, onClose }) => {
+            if (!entity) return null;
+            const hpStat = entity.stats.hp_max || entity.stats.hp || { currentValue: 0, maxValue: 0 };
+            const displayName = `${entity.traits.find(t => GAME_DATA.prefixes[t]) || ''} ${entity.traits[0] || entity.name}`.trim();
+            return (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+                    onClick={ onClose }
+                >
+                    <div
+                        className="bg-neutral-900 border border-neutral-700 rounded-xl shadow-2xl w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden"
+                        onClick={ e => e.stopPropagation() }
+                    >
+                        {/* Modal Header */ }
+                        <div className="flex justify-between items-start p-4 border-b border-neutral-700 flex-shrink-0">
+                            <div>
+                                <h2 className="text-2xl font-bold text-yellow-400 flex items-center gap-2">
+                                    <PawPrint size={ 22 } className="text-yellow-600" />
+                                    { displayName }
+                                </h2>
+                                <div className="flex gap-1 mt-1 flex-wrap">
+                                    { entity.traits.slice(1).map((t, i) => (
+                                        <span key={ i } className="bg-neutral-700 px-2 py-0.5 rounded text-xs text-gray-300 border border-neutral-600">{ t }</span>
+                                    )) }
                                 </div>
-                            )) }
-                            { logs.length === 0 && <div className="text-gray-600 text-center italic mt-10 flex flex-col items-center gap-2"><Swords size={ 32 } /> Combat Log Ready</div> }
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="text-right">
+                                    <div className="text-2xl font-bold text-red-400 flex items-center gap-1">
+                                        <Activity size={ 18 } className="text-red-600" />
+                                        { Math.floor(hpStat.currentValue) }
+                                        <span className="text-sm text-gray-500">/ { Math.floor(hpStat.maxValue) } HP</span>
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={ onClose }
+                                    className="text-gray-500 hover:text-white text-xl font-bold leading-none transition-colors"
+                                >✕</button>
+                            </div>
                         </div>
 
-                        <div className="bg-neutral-900 rounded-lg p-4 border border-red-900/50 text-right flex flex-col">
-                            { ent2 ? (
-                                <>
-                                    <h3 className="text-xl font-bold text-red-400 flex items-center justify-end gap-2">{ ent2.name } <User size={ 20 } /></h3>
-                                    <div className="w-full bg-gray-800 h-6 rounded mt-2 border border-gray-700 relative overflow-hidden">
-                                        <div className="bg-red-600 h-full transition-all duration-300 absolute right-0" style={ { width: `${(ent2.stats.hp.currentValue / ent2.stats.hp.maxValue) * 100}%` } }></div>
-                                        <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white shadow-black drop-shadow-md z-10">
-                                            { ent2.stats.hp.currentValue.toFixed(0) } / { ent2.stats.hp.maxValue.toFixed(0) }
+                        {/* Modal Body */ }
+                        <div className="overflow-y-auto scroll-custom p-4 flex-1">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                {/* Left column */ }
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <User size={ 14 } /> Attributes
+                                        </h3>
+                                        <div className="grid grid-cols-2 gap-1">
+                                            { Object.values(entity.stats).filter(s => s.def.statType === "Raw").map(s => (
+                                                <div key={ s.def.id } className="flex justify-between items-center p-1.5 hover:bg-neutral-700/50 rounded">
+                                                    <span className="text-gray-400 text-xs">{ s.def.displayName }</span>
+                                                    <span className="font-mono font-bold text-white text-sm">{ Math.floor(s.getCurrentValue()) }</span>
+                                                </div>
+                                            )) }
                                         </div>
                                     </div>
-                                    <div className="mt-4 space-y-2 text-sm text-gray-400 bg-black/20 p-2 rounded">
-                                        <div className="flex justify-between"><span>STR</span> <span className="text-white">{ Math.floor(ent2.stats.str.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>DEX</span> <span className="text-white">{ Math.floor(ent2.stats.dex.getCurrentValue()) }</span></div>
-                                        <div className="flex justify-between"><span>CON</span> <span className="text-white">{ Math.floor(ent2.stats.con.getCurrentValue()) }</span></div>
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-yellow-600 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Anchor size={ 14 } /> Loot
+                                        </h3>
+                                        { entity.loot && entity.loot.length > 0 ? entity.loot.map((l, i) => (
+                                            <div key={ i } className="text-xs mb-1">
+                                                <span className="text-gray-200 font-bold">{ l.name.replace(/_/g, ' ') }</span>
+                                                <span className="text-gray-500 ml-1">— { l.baseDrops ? l.baseDrops.join(", ") : "Nothing" }</span>
+                                            </div>
+                                        )) : <span className="text-gray-500 italic text-xs">No significant loot.</span> }
                                     </div>
-                                </>
-                            ) : <div className="text-gray-600 text-center mt-10">Waiting...</div> }
+                                </div>
+                                {/* Right column */ }
+                                <div className="space-y-4">
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-green-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Shield size={ 14 } /> Derived Status
+                                        </h3>
+                                        { Object.values(entity.stats).filter(s => s instanceof PotentialStat && s.def.id !== "hp").map(s => (
+                                            <div key={ s.def.id } className="flex justify-between py-0.5 text-xs">
+                                                <span className="text-gray-300">{ s.def.displayName }</span>
+                                                <span className="font-mono text-yellow-400">{ Math.floor(s.maxValue) }</span>
+                                            </div>
+                                        )) }
+                                    </div>
+                                    <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                        <h3 className="text-sm font-bold text-purple-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                            <Anchor size={ 14 } /> Anatomy & Skills
+                                        </h3>
+                                        <div className="mb-2">
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Parts</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.parts.map((p, i) => <span key={ i } className="bg-purple-900/40 border border-purple-700 text-purple-200 px-2 py-0.5 rounded text-xs">{ p }</span>) }
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Abilities</span>
+                                            <div className="flex flex-wrap gap-1 mt-1">
+                                                { entity.skills.map((s, i) => <span key={ i } className="bg-blue-900/40 border border-blue-700 text-blue-200 px-2 py-0.5 rounded text-xs">{ s }</span>) }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    { entity.variations && (
+                                        <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                                            <h3 className="text-sm font-bold text-teal-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-1">
+                                                <Search size={ 14 } /> Variations
+                                            </h3>
+                                            <div className="space-y-1 text-xs">
+                                                { entity.variations.biome && <div className="flex justify-between"><span className="text-gray-400">Biome</span><span className="text-white">{ entity.variations.biome }</span></div> }
+                                                { entity.variations.pattern && <div className="flex justify-between"><span className="text-gray-400">Pattern</span><span className="text-white">{ entity.variations.pattern }</span></div> }
+                                                { entity.variations.pigmentation && <div className="flex justify-between"><span className="text-gray-400">Pigment</span><span className="text-white">{ entity.variations.pigmentation }</span></div> }
+                                                { entity.variations.size && <div className="flex justify-between"><span className="text-gray-400">Size</span><span className="text-white">{ entity.variations.size }</span></div> }
+                                                { entity.variations.upgrade && <div className="flex justify-between"><span className="text-gray-400">Upgrade</span><span className="text-purple-300">{ entity.variations.upgrade }</span></div> }
+                                            </div>
+                                        </div>
+                                    ) }
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            )
+            );
+        };
+
+        // ==========================================
+        // BATTLE VIEW (Grid Arena)
+        // ==========================================
+        const ARENA_SIZE = 12; // 12×12 total; inner playable zone is 10×10 (cells 1–10)
+
+        // Returns a shallow-cloned entity to trigger React re-render
+        const cloneEntity = (e) => Object.assign(Object.create(Object.getPrototypeOf(e)), e);
+
+        // Chebyshev distance (diagonal = 1 tile)
+        const gridDist = (a, b) => Math.max(Math.abs(a.x - b.x), Math.abs(a.y - b.y));
+
+        const BattleView = () => {
+            const [entA, setEntA] = useState(null);
+            const [entB, setEntB] = useState(null);
+            const [logs, setLogs] = useState([]);
+            const [modalEntity, setModalEntity] = useState(null);
+            const [isAuto, setIsAuto] = useState(false);
+            const logEndRef = React.useRef(null);
+            const fightTurnRef = React.useRef(null);
+
+            // Auto-scroll log to bottom
+            useEffect(() => {
+                if (logEndRef.current) logEndRef.current.scrollIntoView({ behavior: 'smooth' });
+            }, [logs]);
+
+            const getHp = (e) => e && (e.stats.hp_max || e.stats.hp);
+            const getDisplayName = (e) => {
+                if (!e) return '?';
+                const prefix = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
+                return `${prefix} ${e.traits[0] || e.name}`.trim();
+            };
+
+            const setup = () => {
+                const a = generateEntity();
+                const b = generateEntity();
+                // Random spawn in playable inner zone (1..ARENA_SIZE-2)
+                const randPos = () => 1 + Math.floor(Math.random() * (ARENA_SIZE - 2));
+                do { a.x = randPos(); a.y = randPos(); } while (false);
+                do { b.x = randPos(); b.y = randPos(); } while (a.x === b.x && a.y === b.y);
+
+                // Assign random behavior profiles
+                const behaviorKeys = Object.keys(GAME_DATA.mechanics.behaviors);
+                const pickBehavior = () => behaviorKeys.length
+                    ? behaviorKeys[Math.floor(Math.random() * behaviorKeys.length)]
+                    : null;
+                a.behaviorKey = pickBehavior();
+                b.behaviorKey = pickBehavior();
+
+                setEntA(a);
+                setEntB(b);
+                setLogs([
+                    `⚔ A new battle begins!`,
+                    `  ▶ ${getDisplayName(a)} [${a.behaviorKey || 'No Behavior'}]`,
+                    `  ◀ ${getDisplayName(b)} [${b.behaviorKey || 'No Behavior'}]`
+                ]);
+                setModalEntity(null);
+                setIsAuto(false);
+            };
+
+            // ── Tag-Weighted Behavior Engine ───────────────────────────────────
+            //
+            // Scoring pipeline per entity turn:
+            //   1. Load behavior profile → build active weight map (base_weights copy)
+            //   2. Evaluate conditional_modifiers (distance / hp_percent conditions)
+            //      and apply weight_shifts to the active weight map
+            //   3. Score each skill: sum active weights for every type tag on that skill
+            //   4. Pick highest-scoring skill.
+            //      • If it carries the "Movement" type tag  → MOVE node
+            //      • Otherwise                              → ATTACK node (deal damage)
+
+            const evaluateBehavior = (entity, target, newLogs) => {
+                // Persist usage counts across turns on the entity object
+                if (!entity.usageCounts) entity.usageCounts = {};
+
+                const atkHp = getHp(entity);
+                const defHp = getHp(target);
+                if (!atkHp || atkHp.currentValue <= 0) return;
+
+                // ── 1. Build active weight map ─────────────────────────────
+                const profile = entity.behaviorKey
+                    ? GAME_DATA.mechanics.behaviors[entity.behaviorKey]
+                    : null;
+
+                // Clone base_weights (or start empty)
+                const activeWeights = profile
+                    ? { ...profile.base_weights }
+                    : { Melee_Attack: 50, Movement: 10 }; // minimal fallback
+
+                // ── 2. Evaluate conditional_modifiers ─────────────────────
+                if (profile && profile.conditional_modifiers) {
+                    const dist = gridDist(entity, target);
+                    const hpPct = atkHp.maxValue > 0 ? atkHp.currentValue / atkHp.maxValue : 1;
+
+                    profile.conditional_modifiers.forEach(mod => {
+                        let triggered = false;
+                        const cond = (mod.condition || '').trim();
+
+                        // Simple expression parser: "<key> <op> <value>"
+                        const match = cond.match(/^(\w+)\s*([><=!]+)\s*([\d.]+)$/);
+                        if (match) {
+                            const [, varName, op, rawVal] = match;
+                            const val = parseFloat(rawVal);
+                            const lhs = varName === 'distance' ? dist
+                                : varName === 'hp_percent' ? hpPct
+                                    : null;
+                            if (lhs !== null) {
+                                if (op === '>' && lhs > val) triggered = true;
+                                if (op === '>=' && lhs >= val) triggered = true;
+                                if (op === '<' && lhs < val) triggered = true;
+                                if (op === '<=' && lhs <= val) triggered = true;
+                                if (op === '==' && lhs === val) triggered = true;
+                            }
+                        }
+
+                        if (triggered) {
+                            Object.entries(mod.weight_shifts || {}).forEach(([tag, delta]) => {
+                                activeWeights[tag] = (activeWeights[tag] || 0) + delta;
+                            });
+                        }
+                    });
+                }
+
+                // ── 3. Score every skill — cumulative weighted lottery ────────
+                const validSkills = [];
+
+                entity.skills.forEach(skillName => {
+                    const skillData = GAME_DATA.skills[skillName];
+                    if (!skillData) return;
+                    const types = skillData.types || [];
+                    // Skip Passive-only skills — they are always-on traits, not turn actions
+                    if (types.length > 0 && types.every(t => t === 'Passive')) return;
+
+                    // Base score from behavior weights
+                    let score = types.reduce((sum, t) => sum + (activeWeights[t] || 0), 0);
+                    // Diminishing returns: -40 per previous use this fight
+                    score -= (entity.usageCounts[skillName] || 0) * 40;
+
+                    if (score > 0) validSkills.push({ name: skillName, score, types });
+                });
+
+                // Rescue pass: if every skill scored ≤ 0 (mixed types like Passive+Movement
+                // go negative from behavior Passive weight, or usage penalty drained all),
+                // pick the best non-passive skill ignoring penalties so the actual skill
+                // expr fires instead of the 1d4 "strikes wildly" emergency fallback.
+                if (validSkills.length === 0) {
+                    let rescueName = null, rescueTypes = [], rescueScore = -Infinity;
+                    entity.skills.forEach(skillName => {
+                        const sd = GAME_DATA.skills[skillName];
+                        if (!sd) return;
+                        const t = sd.types || [];
+                        if (t.every(x => x === 'Passive')) return;
+                        const raw = t.reduce((sum, x) => sum + (activeWeights[x] || 0), 0);
+                        if (raw > rescueScore) { rescueScore = raw; rescueName = skillName; rescueTypes = t; }
+                    });
+                    if (rescueName) {
+                        entity.usageCounts[rescueName] = 0; // reset so it re-enters lottery next turn
+                        validSkills.push({ name: rescueName, score: 1, types: rescueTypes });
+                    }
+                }
+
+                let bestSkillName = null;
+                let types = [];
+
+                if (validSkills.length === 0) {
+                    const distFb = gridDist(entity, target);
+                    if (distFb <= 1) {
+                        // All skills penalized out while in melee range — reset counters
+                        // so the lottery can run fresh next turn, and deal raw unarmed damage now.
+                        entity.usageCounts = {};
+                        const rawDmg = Math.max(1, Math.floor(Math.random() * 4) + 1);
+                        defHp.currentValue = Math.max(0, defHp.currentValue - rawDmg);
+                        newLogs.push(`👊 ${getDisplayName(entity)} strikes wildly for ${rawDmg} [Physical] → ${defHp.currentValue.toFixed(0)} HP left`);
+                    } else {
+                        // Still closing — move one tile toward target
+                        const dx = Math.sign(target.x - entity.x);
+                        const dy = Math.sign(target.y - entity.y);
+                        entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
+                        entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
+                        newLogs.push(`🦶 ${getDisplayName(entity)} closes in → (${entity.x},${entity.y}).`);
+                    }
+                    return;
+                }
+
+                // Weighted random draw
+                const totalWeight = validSkills.reduce((sum, s) => sum + s.score, 0);
+                let roll = Math.random() * totalWeight;
+                for (const skill of validSkills) {
+                    roll -= skill.score;
+                    if (roll <= 0) { bestSkillName = skill.name; types = skill.types; break; }
+                }
+                // Float safety net
+                if (!bestSkillName) {
+                    bestSkillName = validSkills[validSkills.length - 1].name;
+                    types = validSkills[validSkills.length - 1].types;
+                }
+
+                // Track usage for diminishing returns next turn
+                entity.usageCounts[bestSkillName] = (entity.usageCounts[bestSkillName] || 0) + 1;
+
+                const skillData = GAME_DATA.skills[bestSkillName];
+                // `types` is already set by the weighted lottery above
+
+                // ── 4a. MOVE NODE ─────────────────────────────────────────
+                // Only actually move if not already in melee range (dist > 1).
+                // If already adjacent/same tile, fall through to the attack node
+                // so entities with only Movement skills can still deal damage.
+                const distNow = gridDist(entity, target);
+                if (types.includes('Movement') && distNow > 1) {
+                    const hpPct = atkHp.maxValue > 0 ? atkHp.currentValue / atkHp.maxValue : 1;
+                    const isRetreating = (activeWeights['Melee_Attack'] || 0) < 0 && hpPct < 0.4;
+                    const dx = Math.sign(target.x - entity.x) * (isRetreating ? -1 : 1);
+                    const dy = Math.sign(target.y - entity.y) * (isRetreating ? -1 : 1);
+                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
+                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
+                    const verb = isRetreating ? '💨 retreats' : '🦶 moves';
+                    newLogs.push(`${verb}: ${getDisplayName(entity)} → (${entity.x},${entity.y}) [${bestSkillName}]`);
+                    return;
+                }
+
+                // ── 4b. ATTACK / EFFECT NODE ─────────────────────────────
+                const dist = gridDist(entity, target);
+                if (dist > 1) {
+                    // Not in melee range yet — move instead
+                    const dx = Math.sign(target.x - entity.x);
+                    const dy = Math.sign(target.y - entity.y);
+                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
+                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
+                    newLogs.push(`🦶 ${getDisplayName(entity)} closes in → (${entity.x},${entity.y}) [wanted: ${bestSkillName}]`);
+                    return;
+                }
+
+                const flavor = skillData.description && skillData.description !== 'No description'
+                    ? ` (${skillData.description})` : '';
+                newLogs.push(`⚡ ${getDisplayName(entity)} uses ${bestSkillName}!${flavor}`);
+
+                (skillData.mods || []).forEach(mod => {
+                    if ((mod.target === 'hp' || mod.target === 'hp_max') && mod.op === 'subtract') {
+                        // Evaluate expr: replace stat names with their values
+                        let expr = (mod.expr || '').replace(/\b(str|dex|con|int|wis|cha)\b/g, (stat) => {
+                            const s = entity.stats[stat];
+                            return s ? Math.floor(s.getCurrentValue()) : 0;
+                        });
+                        // Evaluate dice notation (e.g. 2d6 → random)
+                        expr = expr.replace(/(\d+)d(\d+)/g, (_, num, sides) => {
+                            let total = 0;
+                            for (let i = 0; i < +num; i++) total += Math.floor(Math.random() * +sides) + 1;
+                            return total;
+                        });
+                        let dmg = 1;
+                        try { dmg = Math.max(1, Math.floor(new Function('return ' + expr)())); } catch (e) { }
+                        defHp.currentValue = Math.max(0, defHp.currentValue - dmg);
+                        newLogs.push(`  ↳ Hits ${getDisplayName(target)} for ${dmg} [${mod.damage_type || 'Physical'}] → ${defHp.currentValue.toFixed(0)} HP left`);
+                    }
+                    if (mod.target === 'status') {
+                        newLogs.push(`  ↳ Applies [${mod.val}] to ${getDisplayName(target)}!`);
+                    }
+                });
+
+                // Log payloads (status effects on hit)
+                (skillData.payloads || []).forEach(p => {
+                    if (Math.random() < p.chance_per_tick) {
+                        newLogs.push(`  ↳ 🔴 ${getDisplayName(target)} suffers [${p.id}] for ${p.duration_ticks} ticks!`);
+                    }
+                });
+            };
+
+            const fightTurn = () => {
+                const hpA = getHp(entA), hpB = getHp(entB);
+                if (!entA || !entB || !hpA || !hpB || hpA.currentValue <= 0 || hpB.currentValue <= 0) return;
+
+                const newLogs = [...logs];
+
+                // Turn order by DEX
+                const aFaster = entA.stats.dex && entB.stats.dex
+                    ? entA.stats.dex.getCurrentValue() >= entB.stats.dex.getCurrentValue()
+                    : true;
+
+                if (aFaster) {
+                    evaluateBehavior(entA, entB, newLogs);
+                    if (hpB.currentValue > 0) evaluateBehavior(entB, entA, newLogs);
+                } else {
+                    evaluateBehavior(entB, entA, newLogs);
+                    if (hpA.currentValue > 0) evaluateBehavior(entA, entB, newLogs);
+                }
+
+                if (hpA.currentValue <= 0) newLogs.push(`💀 ${getDisplayName(entA)} has been defeated!`);
+                if (hpB.currentValue <= 0) newLogs.push(`💀 ${getDisplayName(entB)} has been defeated!`);
+
+                setLogs(newLogs);
+                setEntA(cloneEntity(entA));
+                setEntB(cloneEntity(entB));
+            };
+
+            // ── Arena Grid ────────────────────────────────────────────────
+            const ArenaGrid = ({ a, b }) => {
+                const cells = [];
+                for (let row = 0; row < ARENA_SIZE; row++) {
+                    for (let col = 0; col < ARENA_SIZE; col++) {
+                        const isWall = row === 0 || row === ARENA_SIZE - 1 || col === 0 || col === ARENA_SIZE - 1;
+                        const isA = a && a.x === col && a.y === row;
+                        const isB = b && b.x === col && b.y === row;
+
+                        let cellContent = null;
+                        let cellClass = 'flex items-center justify-center text-base font-bold select-none ';
+
+                        if (isA && isB) {
+                            cellContent = '⚔';
+                            cellClass += 'bg-yellow-900/60 border-yellow-600 text-yellow-300';
+                        } else if (isA) {
+                            cellContent = 'A';
+                            cellClass += 'bg-blue-900/70 border-blue-500 text-blue-300';
+                        } else if (isB) {
+                            cellContent = 'B';
+                            cellClass += 'bg-red-900/70 border-red-500 text-red-300';
+                        } else if (isWall) {
+                            cellContent = '▪';
+                            cellClass += 'bg-neutral-800 border-neutral-600 text-neutral-600';
+                        } else {
+                            cellClass += 'bg-neutral-950 border-neutral-800 text-transparent';
+                            cellContent = '·';
+                        }
+
+                        cells.push(
+                            <div
+                                key={ `${row}-${col}` }
+                                className={ `border ${cellClass}` }
+                                style={ { aspectRatio: '1 / 1', fontSize: '0.7rem' } }
+                                title={ `(${col}, ${row})` }
+                            >
+                                { cellContent }
+                            </div>
+                        );
+                    }
+                }
+
+                return (
+                    <div
+                        style={ {
+                            display: 'grid',
+                            gridTemplateColumns: `repeat(${ARENA_SIZE}, 1fr)`,
+                            gap: '1px',
+                            width: '100%',
+                            maxWidth: '360px'
+                        } }
+                    >
+                        { cells }
+                    </div>
+                );
+            };
+
+            // ── HP bar helper ─────────────────────────────────────────────
+            const HpBar = ({ entity, color }) => {
+                const h = getHp(entity) || { currentValue: 0, maxValue: 1 };
+                const pct = Math.max(0, Math.min(100, (h.currentValue / (h.maxValue || 1)) * 100));
+                return (
+                    <div className="w-full bg-gray-800 h-2 rounded-full overflow-hidden mt-0.5">
+                        <div
+                            className={ `h-full transition-all duration-300 ${color}` }
+                            style={ { width: `${pct}%` } }
+                        />
+                    </div>
+                );
+            };
+
+            const hpA = getHp(entA);
+            const hpB = getHp(entB);
+            const isCombatOver = entA && entB && hpA && hpB && (hpA.currentValue <= 0 || hpB.currentValue <= 0);
+
+            // Keep fightTurnRef current so the interval closure always calls the latest version
+            fightTurnRef.current = fightTurn;
+
+            // Auto-play interval — max 10 turns/sec (100ms)
+            useEffect(() => {
+                if (!isAuto || isCombatOver) {
+                    if (isCombatOver) setIsAuto(false);
+                    return;
+                }
+                const id = setInterval(() => { fightTurnRef.current(); }, 100);
+                return () => clearInterval(id);
+            }, [isAuto, isCombatOver]);
+
+            return (
+                <div className="p-3 sm:p-4 h-full flex flex-col gap-3 overflow-hidden">
+
+                    {/* Character Sheet Modal */ }
+                    <EntitySheetModal entity={ modalEntity } onClose={ () => setModalEntity(null) } />
+
+                    {/* ── Top Bar ── */ }
+                    <div className="flex items-center gap-2 flex-wrap">
+                        {/* Entity A Button */ }
+                        <button
+                            onClick={ () => entA && setModalEntity(entA) }
+                            disabled={ !entA }
+                            className={ `flex-1 min-w-[140px] text-left px-3 py-2 rounded-lg border transition-all ${entA ? 'bg-blue-950/60 border-blue-700 hover:bg-blue-900/60 cursor-pointer' : 'bg-neutral-900 border-neutral-800 opacity-40 cursor-default'
+                                }` }
+                        >
+                            <div className="text-xs text-blue-400 font-bold uppercase tracking-wider mb-0.5">Entity A</div>
+                            <div className="font-bold text-white text-sm truncate">{ entA ? getDisplayName(entA) : '—' }</div>
+                            { entA && <>
+                                <div className="text-xs text-gray-400 mt-0.5">{ hpA ? `${hpA.currentValue.toFixed(0)} / ${hpA.maxValue.toFixed(0)} HP` : '' }</div>
+                                <HpBar entity={ entA } color="bg-blue-500" />
+                            </> }
+                        </button>
+
+                        {/* VS + Controls */ }
+                        <div className="flex flex-col items-center gap-1.5 shrink-0">
+                            <div className="text-lg font-black text-neutral-500 tracking-widest">VS</div>
+                            <button
+                                onClick={ setup }
+                                className="bg-yellow-700 hover:bg-yellow-600 text-white px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition"
+                            >
+                                <RotateCcw size={ 12 } /> New Fight
+                            </button>
+                            <button
+                                onClick={ fightTurn }
+                                disabled={ !entA || !entB || isCombatOver || isAuto }
+                                className="bg-red-700 hover:bg-red-600 disabled:opacity-40 disabled:cursor-not-allowed text-white px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition"
+                            >
+                                <Swords size={ 12 } /> Next Turn
+                            </button>
+                            <button
+                                onClick={ () => setIsAuto(a => !a) }
+                                disabled={ !entA || !entB || isCombatOver }
+                                className={ `px-3 py-1 rounded font-bold text-xs flex items-center gap-1 transition disabled:opacity-40 disabled:cursor-not-allowed border ${isAuto
+                                    ? 'bg-green-700 hover:bg-green-600 border-green-500 text-white'
+                                    : 'bg-neutral-800 hover:bg-neutral-700 border-neutral-600 text-gray-300'
+                                    }` }
+                            >
+                                { isAuto ? '⏸ Pause' : '▶ Auto' }
+                            </button>
+                        </div>
+
+                        {/* Entity B Button */ }
+                        <button
+                            onClick={ () => entB && setModalEntity(entB) }
+                            disabled={ !entB }
+                            className={ `flex-1 min-w-[140px] text-right px-3 py-2 rounded-lg border transition-all ${entB ? 'bg-red-950/60 border-red-700 hover:bg-red-900/60 cursor-pointer' : 'bg-neutral-900 border-neutral-800 opacity-40 cursor-default'
+                                }` }
+                        >
+                            <div className="text-xs text-red-400 font-bold uppercase tracking-wider mb-0.5">Entity B</div>
+                            <div className="font-bold text-white text-sm truncate">{ entB ? getDisplayName(entB) : '—' }</div>
+                            { entB && <>
+                                <div className="text-xs text-gray-400 mt-0.5">{ hpB ? `${hpB.currentValue.toFixed(0)} / ${hpB.maxValue.toFixed(0)} HP` : '' }</div>
+                                <HpBar entity={ entB } color="bg-red-500" />
+                            </> }
+                        </button>
+                    </div>
+
+                    {/* ── Main Area: Grid + Log ── */ }
+                    <div className="flex-1 flex flex-col sm:flex-row gap-3 overflow-hidden min-h-0">
+
+                        {/* Arena Grid */ }
+                        <div className="flex flex-col items-center gap-2 shrink-0">
+                            <div className="text-xs text-neutral-500 font-mono uppercase tracking-widest">Arena (10×10 playable · 12×12 with walls)</div>
+                            { entA || entB
+                                ? <ArenaGrid a={ entA } b={ entB } />
+                                : (
+                                    <div
+                                        className="flex items-center justify-center bg-neutral-950 border border-neutral-800 rounded text-neutral-700 text-sm italic"
+                                        style={ { width: '360px', height: '360px' } }
+                                    >
+                                        Press "New Fight" to begin
+                                    </div>
+                                )
+                            }
+                            { entA && entB && (
+                                <div className="flex gap-4 text-xs text-neutral-500 font-mono">
+                                    <span className="text-blue-400">● A ({ entA.x },{ entA.y })</span>
+                                    <span className="text-red-400">● B ({ entB.x },{ entB.y })</span>
+                                </div>
+                            ) }
+                        </div>
+
+                        {/* Combat Log */ }
+                        <div className="flex-1 bg-black rounded-lg border border-neutral-800 overflow-y-auto scroll-custom font-mono text-xs p-3 min-h-0 flex flex-col">
+                            <div className="text-neutral-600 text-xs uppercase tracking-widest mb-2 font-bold border-b border-neutral-900 pb-1">Combat Log</div>
+                            { logs.length === 0
+                                ? <div className="flex-1 flex flex-col items-center justify-center text-neutral-700 italic gap-2">
+                                    <Swords size={ 28 } /> Ready
+                                </div>
+                                : logs.map((l, i) => {
+                                    const cls = l.includes('defeated') ? 'text-red-400 font-bold border-red-600'
+                                        : l.includes('↳ Hits') ? 'text-orange-300 border-orange-600'
+                                            : l.includes('uses') ? 'text-cyan-300 border-cyan-700'
+                                                : l.includes('moves') ? 'text-neutral-400 border-neutral-700'
+                                                    : l.includes('battle') || l.includes('Battle') ? 'text-yellow-400 border-yellow-700'
+                                                        : 'text-neutral-500 border-neutral-800';
+                                    return (
+                                        <div key={ i } className={ `mb-1 border-l-2 pl-2 leading-relaxed ${cls}` }>
+                                            { l }
+                                        </div>
+                                    );
+                                })
+                            }
+                            <div ref={ logEndRef } />
+                        </div>
+                    </div>
+                </div>
+            );
         }
 
         const App = () => {
@@ -818,20 +1949,24 @@
 
             return (
                 <div className="h-screen flex flex-col bg-neutral-950 text-gray-100 font-sans">
-                    <div className="bg-neutral-900 border-b border-neutral-800 p-4 flex justify-between items-center shadow-md z-10">
-                        <h1 className="text-2xl font-black tracking-widest text-white flex items-center gap-2">
-                            <Zap className="text-blue-500 fill-current" />
-                            <span className="text-blue-500">MADCORE</span> // RPG
+                    <div className="bg-neutral-900 border-b border-neutral-800 px-3 py-2 sm:p-4 flex justify-between items-center gap-2 shadow-md z-10">
+                        <h1 className="text-base sm:text-2xl font-black tracking-widest text-white flex items-center gap-1 sm:gap-2 shrink-0">
+                            <Zap size={ 16 } className="text-blue-500 fill-current" />
+                            <span className="text-blue-500">MADCORE</span>
+                            <span className="hidden sm:inline">// RPG</span>
                         </h1>
-                        <div className="flex gap-2 bg-neutral-950 p-1 rounded-lg border border-neutral-800">
-                            <button onClick={ () => setTab('gen') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'gen' ? 'bg-neutral-800 text-blue-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
-                                <Dice5 size={ 16 } /> Generator
+                        <div className="flex gap-0.5 sm:gap-2 bg-neutral-950 p-1 rounded-lg border border-neutral-800">
+                            <button onClick={ () => setTab('gen') } className={ `px-2 sm:px-4 py-1.5 rounded-md text-xs sm:text-sm font-bold transition flex items-center gap-1 sm:gap-2 ${tab === 'gen' ? 'bg-neutral-800 text-blue-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Dice5 size={ 14 } /><span className="hidden sm:inline">Generator</span>
                             </button>
-                            <button onClick={ () => setTab('grid') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'grid' ? 'bg-neutral-800 text-green-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
-                                <Filter size={ 16 } /> Data Matrix
+                            <button onClick={ () => setTab('grid') } className={ `px-2 sm:px-4 py-1.5 rounded-md text-xs sm:text-sm font-bold transition flex items-center gap-1 sm:gap-2 ${tab === 'grid' ? 'bg-neutral-800 text-green-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Filter size={ 14 } /><span className="hidden sm:inline">Data Matrix</span>
                             </button>
-                            <button onClick={ () => setTab('bat') } className={ `px-4 py-1.5 rounded-md text-sm font-bold transition flex items-center gap-2 ${tab === 'bat' ? 'bg-neutral-800 text-red-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
-                                <Swords size={ 16 } /> Simulation
+                            <button onClick={ () => setTab('bat') } className={ `px-2 sm:px-4 py-1.5 rounded-md text-xs sm:text-sm font-bold transition flex items-center gap-1 sm:gap-2 ${tab === 'bat' ? 'bg-neutral-800 text-red-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Swords size={ 14 } /><span className="hidden sm:inline">Simulation</span>
+                            </button>
+                            <button onClick={ () => setTab('def') } className={ `px-2 sm:px-4 py-1.5 rounded-md text-xs sm:text-sm font-bold transition flex items-center gap-1 sm:gap-2 ${tab === 'def' ? 'bg-neutral-800 text-amber-400 shadow-sm border border-neutral-700' : 'text-gray-500 hover:text-gray-300'}` }>
+                                <Activity size={ 14 } /><span className="hidden sm:inline">Definitions</span>
                             </button>
                         </div>
                     </div>
@@ -840,13 +1975,60 @@
                         { tab === 'gen' && <GeneratorView /> }
                         { tab === 'grid' && <DataGridView /> }
                         { tab === 'bat' && <BattleView /> }
+                        { tab === 'def' && <DefinitionsView /> }
                     </div>
                 </div>
             );
         };
 
+        // Root wrapper that shows a loading screen until all JSON data is ready.
+        const RootLoader = () => {
+            const [isLoading, setIsLoading] = useState(true);
+            const [loadError, setLoadError] = useState(null);
+
+            useEffect(() => {
+                initGameData()
+                    .then(() => setIsLoading(false))
+                    .catch(err => {
+                        console.error('[GameData Loader] Fatal error:', err);
+                        setLoadError(err.message);
+                        setIsLoading(false);
+                    });
+            }, []);
+
+            if (isLoading) {
+                return (
+                    <div style={ {
+                        display: 'flex', flexDirection: 'column', alignItems: 'center',
+                        justifyContent: 'center', height: '100vh',
+                        background: '#0a0a0a', color: '#e5e5e5', gap: '16px'
+                    } }>
+                        <div style={ { fontSize: '2rem', fontWeight: 'bold', letterSpacing: '0.15em', color: '#3b82f6' } }>⚡ MADCORE</div>
+                        <div style={ { fontSize: '1rem', color: '#6b7280', animation: 'pulse 1.5s infinite' } }>Loading Data Engine...</div>
+                        <style>{ `@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }` }</style>
+                    </div>
+                );
+            }
+
+            if (loadError) {
+                return (
+                    <div style={ {
+                        display: 'flex', flexDirection: 'column', alignItems: 'center',
+                        justifyContent: 'center', height: '100vh',
+                        background: '#0a0a0a', color: '#ef4444', gap: '12px'
+                    } }>
+                        <div style={ { fontSize: '1.5rem', fontWeight: 'bold' } }>⚠ Data Load Failed</div>
+                        <div style={ { fontSize: '0.875rem', color: '#9ca3af', maxWidth: '500px', textAlign: 'center' } }>{ loadError }</div>
+                        <div style={ { fontSize: '0.75rem', color: '#6b7280' } }>Make sure the page is served via a local web server (e.g. python -m http.server 8080)</div>
+                    </div>
+                );
+            }
+
+            return <App />;
+        };
+
         const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(<App />);
+        root.render(<RootLoader />);
     </script>
 </body>
 

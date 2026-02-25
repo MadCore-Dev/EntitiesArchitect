@@ -1,0 +1,457 @@
+{
+    "Dirt": {
+        "category": "surface",
+        "description": "Standard packed earth. Provides solid footing.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water",
+            "Magma"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Grass": {
+        "category": "surface",
+        "description": "Standard grassy footing.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water",
+            "Magma",
+            "Barren"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Sand": {
+        "category": "surface",
+        "description": "Loose, shifting sand that absorbs kinetic energy.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water",
+            "Magma"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Sand_Drag",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Mud": {
+        "category": "surface",
+        "description": "Thick, clinging mud that heavily impedes standard walking.",
+        "required_traversal": null,
+        "excludes": [
+            "Deep_Water",
+            "Magma",
+            "Ice"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Mud_Drag",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Rock": {
+        "category": "surface",
+        "description": "Solid, unforgiving stone.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Ice": {
+        "category": "surface",
+        "description": "Solid glacial ice.",
+        "required_traversal": null,
+        "excludes": [
+            "Magma",
+            "Aquatic",
+            "Deep_Water"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Frozen_Earth": {
+        "category": "surface",
+        "description": "Dirt hardened by permafrost.",
+        "required_traversal": null,
+        "excludes": [
+            "Magma",
+            "Aquatic",
+            "Deep_Water"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Crystal": {
+        "category": "surface",
+        "description": "Hard, smooth crystalline surface.",
+        "required_traversal": null,
+        "excludes": [
+            "Magma",
+            "Aquatic",
+            "Deep_Water"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Ash": {
+        "category": "surface",
+        "description": "Loose volcanic or necrotic ash.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water",
+            "Shallow_Water"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Ash_Drag",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Aquatic": {
+        "category": "liquid",
+        "description": "General tag for a primarily water-based volume.",
+        "required_traversal": "Swim",
+        "excludes": [
+            "Dirt",
+            "Grass",
+            "Sand",
+            "Rock",
+            "Ice",
+            "Frozen_Earth",
+            "Crystal",
+            "Ash",
+            "Magma",
+            "Barren"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Deep_Water": {
+        "category": "liquid",
+        "description": "Water too deep for wading, requiring specialized locomotion.",
+        "required_traversal": "Swim",
+        "excludes": [
+            "Dirt",
+            "Grass",
+            "Sand",
+            "Rock",
+            "Ice",
+            "Frozen_Earth",
+            "Crystal",
+            "Ash",
+            "Magma",
+            "Barren"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Drowning",
+                "chance_per_tick": 0.10
+            }
+        ]
+    },
+    "Shallow_Water": {
+        "category": "liquid",
+        "description": "Knee-high water that drags against the legs.",
+        "required_traversal": null,
+        "excludes": [
+            "Magma",
+            "Ash"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Shallow_Water_Drag",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Magma": {
+        "category": "liquid",
+        "description": "Flowing liquid rock that incinerates anything it touches.",
+        "required_traversal": null,
+        "excludes": [
+            "Aquatic",
+            "Deep_Water",
+            "Shallow_Water",
+            "Ice",
+            "Grass",
+            "Woodland",
+            "Foliage",
+            "Dense_Foliage",
+            "Scrub",
+            "Frozen_Earth"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Magma_Drag",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Extreme_Burn",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Flat": {
+        "category": "topography",
+        "description": "Level topography.",
+        "required_traversal": null,
+        "excludes": [
+            "Uneven",
+            "Steep",
+            "3D_Movement"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Uneven": {
+        "category": "topography",
+        "description": "Broken or rolling topography.",
+        "required_traversal": null,
+        "excludes": [
+            "Flat",
+            "Steep",
+            "3D_Movement"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Uneven_Footing",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Steep": {
+        "category": "topography",
+        "description": "Near-vertical inclines requiring hands and feet to navigate.",
+        "required_traversal": "Climb",
+        "excludes": [
+            "Flat",
+            "Uneven",
+            "3D_Movement"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Fall_Damage",
+                "chance_per_tick": 0.02
+            }
+        ]
+    },
+    "High_Altitude": {
+        "category": "topography",
+        "description": "Elevated topography. Can stack with Flat, Uneven, or Steep.",
+        "required_traversal": null,
+        "excludes": [
+            "Deep_Water",
+            "Aquatic"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Open": {
+        "category": "topography",
+        "description": "Wide, unobstructed spaces.",
+        "required_traversal": null,
+        "excludes": [
+            "Confined",
+            "Dense_Foliage",
+            "Woodland"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Confined": {
+        "category": "topography",
+        "description": "Tight spaces limiting large entities.",
+        "required_traversal": null,
+        "excludes": [
+            "Open",
+            "3D_Movement"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "3D_Movement": {
+        "category": "topography",
+        "description": "Open space requiring non-ground locomotion.",
+        "required_traversal": "Fly",
+        "excludes": [
+            "Flat",
+            "Uneven",
+            "Steep",
+            "Confined"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Plummet",
+                "chance_per_tick": 0.05
+            }
+        ]
+    },
+    "Woodland": {
+        "category": "cover",
+        "description": "Area containing trees.",
+        "required_traversal": null,
+        "excludes": [
+            "Barren",
+            "Open",
+            "Magma",
+            "Ice"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Foliage": {
+        "category": "cover",
+        "description": "Standard plant ground-cover.",
+        "required_traversal": null,
+        "excludes": [
+            "Barren",
+            "Magma",
+            "Ice"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Scrub": {
+        "category": "cover",
+        "description": "Hardy, sparse brush.",
+        "required_traversal": null,
+        "excludes": [
+            "Barren",
+            "Magma"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Dense_Foliage": {
+        "category": "cover",
+        "description": "Overgrown vegetation that blocks movement and obscures vision.",
+        "required_traversal": null,
+        "excludes": [
+            "Barren",
+            "Open",
+            "Magma",
+            "Ice"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Dense_Foliage",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Slippery": {
+        "category": "condition",
+        "description": "Frictionless surfaces that cause instability.",
+        "required_traversal": null,
+        "excludes": [
+            "Sand",
+            "Dirt",
+            "Gravel",
+            "Ash"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Slippery_Footing",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Trip_And_Fall",
+                "chance_per_tick": 0.05
+            }
+        ]
+    },
+    "Barren": {
+        "category": "condition",
+        "description": "Devoid of cover or life.",
+        "required_traversal": null,
+        "excludes": [
+            "Woodland",
+            "Foliage",
+            "Dense_Foliage",
+            "Scrub",
+            "Grass"
+        ],
+        "mods": [],
+        "payloads": []
+    },
+    "Hazardous": {
+        "category": "condition",
+        "description": "General marker for dangerous terrain.",
+        "required_traversal": null,
+        "excludes": [],
+        "mods": [],
+        "payloads": []
+    },
+    "Cursed": {
+        "category": "condition",
+        "description": "Terrain infused with necrotic or dark magic.",
+        "required_traversal": null,
+        "excludes": [],
+        "mods": [],
+        "payloads": []
+    },
+    "Difficult": {
+        "category": "condition",
+        "description": "Generic rough or broken terrain.",
+        "required_traversal": null,
+        "excludes": [
+            "Flat"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Terrain_Difficult_Footing",
+                "chance_per_tick": 1.0
+            }
+        ]
+    },
+    "Sharp": {
+        "category": "condition",
+        "description": "Terrain covered in jagged rocks or crystals.",
+        "required_traversal": null,
+        "excludes": [
+            "Mud",
+            "Sand",
+            "Water",
+            "Dirt"
+        ],
+        "mods": [],
+        "payloads": [
+            {
+                "id": "Minor_Laceration",
+                "chance_per_tick": 0.02
+            }
+        ]
+    },
+    "Dark": {
+        "category": "lighting",
+        "description": "Naturally lightless area.",
+        "required_traversal": null,
+        "excludes": [],
+        "mods": [],
+        "payloads": []
+    }
+}

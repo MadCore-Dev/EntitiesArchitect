@@ -1,0 +1,64 @@
+{
+    "Standard_Scent": {
+        "description": "Baseline olfactory perception.",
+        "mods": [],
+        "payload_immunities": [],
+        "grants_skills": []
+    },
+    "Acute_Scent": {
+        "description": "Highly developed olfactory bulb capable of parsing complex odors (e.g., Canines, Ursines).",
+        "mods": [
+            {
+                "target": "scent_range",
+                "op": "multiply",
+                "expr": "3"
+            }
+        ],
+        "payload_immunities": [],
+        "grants_skills": [
+            "Tracking"
+        ]
+    },
+    "Jacobson_Organ": {
+        "description": "Vomeronasal organ that 'tastes' heavy moisture-borne chemical particles in the air (e.g., Reptiles, Felines).",
+        "mods": [],
+        "payload_immunities": [
+            "Wind_Dispersal"
+        ],
+        "grants_skills": [
+            "Directional Tracking"
+        ]
+    },
+    "Pheromone_Receptors": {
+        "description": "Chemical receptors tuned specifically to species-level communication (e.g., Insects).",
+        "mods": [],
+        "payload_immunities": [
+            "Confusion",
+            "Charm"
+        ],
+        "grants_skills": [
+            "Hive Mind"
+        ]
+    },
+    "Aquatic_Chemoreception": {
+        "description": "Detection of dissolved particles (like blood) in water over miles (e.g., Sharks).",
+        "mods": [],
+        "payload_immunities": [
+            "Underwater_Muffling"
+        ],
+        "grants_skills": [
+            "Blood Frenzy"
+        ]
+    },
+    "Carrion_Scent": {
+        "description": "Highly specialized detection of decaying organic matter (e.g., Vultures, Mustelids).",
+        "mods": [],
+        "payload_immunities": [
+            "Putrid_Stench",
+            "Miasma_Poison"
+        ],
+        "grants_skills": [
+            "Scavenger"
+        ]
+    }
+}

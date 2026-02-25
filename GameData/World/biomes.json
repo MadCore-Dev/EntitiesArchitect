@@ -1,275 +1,791 @@
-[
-    {
+{
+    "Ocean": {
         "id": 0,
         "name": "Ocean",
+        "description": "A vast, unfathomable expanse of crushing pressure and lightless depths, home to ancient leviathans.",
+        "terrain_flags": [
+            "Aquatic",
+            "Deep_Water",
+            "3D_Movement",
+            "Sand",
+            "Rock",
+            "Dark"
+        ],
+        "climate": {
+            "base_temp": "Cold",
+            "weather": "Currents"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Swim",
-                "Gills",
-                "Amphibious",
-                "Echolocation"
+            "skills": [
+                {
+                    "id": "Swim",
+                    "weight": 100
+                },
+                {
+                    "id": "Gills",
+                    "weight": 100
+                },
+                {
+                    "id": "Amphibious",
+                    "weight": 40
+                },
+                {
+                    "id": "Echolocation",
+                    "weight": 30
+                }
             ],
-            "stat_mods": [
+            "mods": [
                 {
                     "target": "sense_bonus",
-                    "val": 2,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Underwater"
-                    }
+                    "expr": "2",
+                    "weight": 80
+                },
+                {
+                    "target": "speed_bonus",
+                    "op": "multiply",
+                    "expr": "1.2",
+                    "weight": 60
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Crushing_Pressure",
+                "chance_per_tick": 0.05
+            },
+            {
+                "id": "Underwater_Blur",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Kelp",
+            "Coral",
+            "Salt",
+            "Abyssal_Rock"
+        ]
     },
-    {
+    "Ice_Cap": {
         "id": 1,
         "name": "Ice Cap",
+        "description": "A blindingly white, frictionless wasteland of glacial ice where the air itself bites like daggers.",
+        "terrain_flags": [
+            "Ice",
+            "Slippery",
+            "Barren",
+            "Rock",
+            "Frozen_Earth",
+            "Flat",
+            "Uneven"
+        ],
+        "climate": {
+            "base_temp": "Freezing",
+            "weather": "Blizzard"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Cold Blooded",
-                "Thick Fur",
-                "Slide"
+            "skills": [
+                {
+                    "id": "Cold Blooded",
+                    "weight": 20
+                },
+                {
+                    "id": "Thick Fur",
+                    "weight": 90
+                },
+                {
+                    "id": "Sprint",
+                    "weight": 50
+                }
             ],
-            "stat_mods": [
+            "mods": [
                 {
                     "target": "natural_armor",
-                    "val": 1,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Cold"
-                    }
+                    "expr": "1",
+                    "weight": 100
+                },
+                {
+                    "target": "dex",
+                    "op": "subtract",
+                    "expr": "1",
+                    "weight": 50
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Frostbite",
+                "chance_per_tick": 0.10
+            },
+            {
+                "id": "Snowblindness",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Glacial_Ice",
+            "Permafrost"
+        ]
     },
-    {
+    "Tundra": {
         "id": 2,
         "name": "Tundra",
+        "description": "A harsh, wind-scoured expanse of permafrost and resilient scrub-brush that briefly blooms in the short summer.",
+        "terrain_flags": [
+            "Frozen_Earth",
+            "Flat",
+            "Scrub",
+            "Rock",
+            "Dirt",
+            "Ice",
+            "Shallow_Water"
+        ],
+        "climate": {
+            "base_temp": "Cold",
+            "weather": "Windy"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Burrow",
-                "Hibernate",
-                "Camouflage"
+            "skills": [
+                {
+                    "id": "Burrow",
+                    "weight": 60
+                },
+                {
+                    "id": "Hibernate",
+                    "weight": 80
+                },
+                {
+                    "id": "Camouflage",
+                    "weight": 40
+                }
             ],
-            "stat_mods": [
+            "mods": [
                 {
                     "target": "con",
-                    "val": 2,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Cold"
-                    }
+                    "expr": "2",
+                    "weight": 100
                 }
             ]
-        }
+        },
+        "payloads": [],
+        "resource_tags": [
+            "Lichen",
+            "Hardy_Shrub",
+            "Flint"
+        ]
     },
-    {
+    "Temperate_Forest": {
         "id": 3,
-        "name": "Taiga",
+        "name": "Temperate Forest",
+        "description": "A dense canopy of ancient oaks and thick underbrush, teeming with hidden life and dappled sunlight.",
+        "terrain_flags": [
+            "Woodland",
+            "Uneven",
+            "Foliage",
+            "Dirt",
+            "Grass",
+            "Rock",
+            "Shallow_Water"
+        ],
+        "climate": {
+            "base_temp": "Moderate",
+            "weather": "Variable"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Climb",
-                "Stalk"
-            ],
-            "stat_mods": [
+            "skills": [
                 {
-                    "target": "dex",
-                    "val": 1,
+                    "id": "Climb",
+                    "weight": 70
+                },
+                {
+                    "id": "Stealth",
+                    "weight": 60
+                },
+                {
+                    "id": "Forage",
+                    "weight": 80
+                }
+            ],
+            "mods": [
+                {
+                    "target": "wis",
                     "op": "add",
-                    "conditions": {
-                        "environment": "Forest"
-                    }
+                    "expr": "1",
+                    "weight": 50
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Dense_Canopy_Obscurity",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Oak_Wood",
+            "Berries",
+            "Herbs",
+            "Loam"
+        ]
     },
-    {
+    "Arid_Desert": {
         "id": 4,
-        "name": "Grassland",
+        "name": "Arid Desert",
+        "description": "Endless oceans of shifting sand that bake beneath a merciless sun and freeze under the stars.",
+        "terrain_flags": [
+            "Sand",
+            "Barren",
+            "Flat",
+            "Rock",
+            "Dirt",
+            "Uneven"
+        ],
+        "climate": {
+            "base_temp": "Hot",
+            "night_temp": "Freezing"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Sprint",
-                "Pack Tactics",
-                "Graze"
+            "skills": [
+                {
+                    "id": "Burrow",
+                    "weight": 70
+                },
+                {
+                    "id": "Thermal Vision",
+                    "weight": 30
+                },
+                {
+                    "id": "Water Retention",
+                    "weight": 90
+                }
             ],
-            "stat_mods": [
+            "mods": [
+                {
+                    "target": "con",
+                    "op": "add",
+                    "expr": "2",
+                    "weight": 100
+                },
                 {
                     "target": "speed_bonus",
-                    "val": 5,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Open Terrain"
-                    }
+                    "expr": "10",
+                    "weight": 50
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Sandstorm_Blind",
+                "chance_per_tick": 0.05
+            },
+            {
+                "id": "Heatstroke",
+                "chance_per_tick": 0.10
+            },
+            {
+                "id": "Mirage",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Sandstone",
+            "Cactus",
+            "Dry_Brush",
+            "Glass"
+        ]
     },
-    {
+    "Fetid_Swamp": {
         "id": 5,
-        "name": "Forest",
+        "name": "Fetid Swamp",
+        "description": "A stagnant, humid mire where the air is thick with decay, buzzing insects, and submerged hazards.",
+        "terrain_flags": [
+            "Mud",
+            "Shallow_Water",
+            "Difficult",
+            "Dirt",
+            "Grass",
+            "Deep_Water",
+            "Dense_Foliage",
+            "Uneven"
+        ],
+        "climate": {
+            "base_temp": "Humid",
+            "weather": "Overcast"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Climb",
-                "Ambush",
-                "Forage"
-            ],
-            "stat_mods": [
+            "skills": [
                 {
-                    "target": "dex",
-                    "val": 2,
+                    "id": "Amphibious",
+                    "weight": 80
+                },
+                {
+                    "id": "Poison Resistance",
+                    "weight": 90
+                },
+                {
+                    "id": "Disease Immunity",
+                    "weight": 60
+                }
+            ],
+            "mods": [
+                {
+                    "target": "con",
                     "op": "add",
-                    "conditions": {
-                        "environment": "Forest"
-                    }
+                    "expr": "1d4",
+                    "weight": 100
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Miasma_Poison",
+                "chance_per_tick": 0.08
+            },
+            {
+                "id": "Putrid_Stench",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Peat",
+            "Toxic_Fungi",
+            "Mud",
+            "Algae"
+        ]
     },
-    {
+    "Alpine_Mountains": {
         "id": 6,
-        "name": "Swamp",
+        "name": "Alpine Mountains",
+        "description": "Jagged, unforgiving stone spires piercing the clouds, where oxygen is thin and footing is treacherous.",
+        "terrain_flags": [
+            "Rock",
+            "Steep",
+            "High_Altitude",
+            "Ice",
+            "Frozen_Earth",
+            "Uneven",
+            "Dirt"
+        ],
+        "climate": {
+            "base_temp": "Cold",
+            "weather": "Windy"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Swim",
-                "Poison Resistance",
-                "Amphibious"
-            ],
-            "stat_mods": [
+            "skills": [
                 {
-                    "target": "con",
-                    "val": 2,
+                    "id": "Climb",
+                    "weight": 100
+                },
+                {
+                    "id": "Leap",
+                    "weight": 70
+                },
+                {
+                    "id": "Sure-Footed",
+                    "weight": 90
+                }
+            ],
+            "mods": [
+                {
+                    "target": "str",
                     "op": "add",
-                    "conditions": {
-                        "environment": "Wet"
-                    }
+                    "expr": "2",
+                    "weight": 80
+                },
+                {
+                    "target": "stamina",
+                    "op": "multiply",
+                    "expr": "1.2",
+                    "weight": 100
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Hypoxia",
+                "chance_per_tick": 0.02
+            },
+            {
+                "id": "High_Vantage_Aura",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Granite",
+            "Iron_Ore",
+            "Edelweiss"
+        ]
     },
-    {
+    "Endless_Plains": {
         "id": 7,
-        "name": "Desert",
+        "name": "Endless Plains",
+        "description": "A vast, rolling sea of tall grass that offers nowhere to hide from apex predators.",
+        "terrain_flags": [
+            "Grass",
+            "Flat",
+            "Open",
+            "Dirt",
+            "Shallow_Water",
+            "Uneven"
+        ],
+        "climate": {
+            "base_temp": "Moderate",
+            "weather": "Windy"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Burrow",
-                "Heat Resistance",
-                "Water Conservation"
-            ],
-            "stat_mods": [
+            "skills": [
                 {
-                    "target": "con",
-                    "val": 2,
-                    "op": "add",
-                    "conditions": {
-                        "environment": "Heat"
-                    }
+                    "id": "Sprint",
+                    "weight": 90
+                },
+                {
+                    "id": "Pack Tactics",
+                    "weight": 70
+                },
+                {
+                    "id": "Endurance",
+                    "weight": 80
                 }
-            ]
-        }
-    },
-    {
-        "id": 8,
-        "name": "Savannah",
-        "adaptation_rules": {
-            "possible_skills": [
-                "Sprint",
-                "Pack Tactics",
-                "Ambush"
             ],
-            "stat_mods": [
+            "mods": [
                 {
                     "target": "speed_bonus",
-                    "val": 5,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Open Terrain"
-                    }
+                    "expr": "15",
+                    "weight": 100
                 }
             ]
-        }
+        },
+        "payloads": [],
+        "resource_tags": [
+            "Savanna_Grass",
+            "Wheat",
+            "Clay"
+        ]
     },
-    {
-        "id": 9,
-        "name": "Jungle",
+    "Tropical_Jungle": {
+        "id": 8,
+        "name": "Tropical Jungle",
+        "description": "A sweltering, claustrophobic labyrinth of vines and colossal flora where survival is a daily war.",
+        "terrain_flags": [
+            "Dense_Foliage",
+            "Mud",
+            "Uneven",
+            "Dirt",
+            "Grass",
+            "Shallow_Water",
+            "Deep_Water",
+            "Woodland"
+        ],
+        "climate": {
+            "base_temp": "Hot",
+            "weather": "Raining"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Climb",
-                "Camouflage",
-                "Venomous"
+            "skills": [
+                {
+                    "id": "Climb",
+                    "weight": 80
+                },
+                {
+                    "id": "Venomous Bite",
+                    "weight": 50
+                },
+                {
+                    "id": "Ambush",
+                    "weight": 70
+                }
             ],
-            "stat_mods": [
+            "mods": [
                 {
                     "target": "dex",
-                    "val": 1,
                     "op": "add",
-                    "conditions": {
-                        "environment": "Dense Terrain"
-                    }
+                    "expr": "1d4",
+                    "weight": 100
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Jungle_Fever",
+                "chance_per_tick": 0.03
+            },
+            {
+                "id": "Dense_Canopy_Obscurity",
+                "chance_per_tick": 1.0
+            },
+            {
+                "id": "Ambient_Noise",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Mahogany",
+            "Vines",
+            "Exotic_Fruit",
+            "Poison_Gland"
+        ]
     },
-    {
-        "id": 10,
-        "name": "Volcanic",
+    "Subterranean_Caverns": {
+        "id": 9,
+        "name": "Subterranean Caverns",
+        "description": "A lightless abyss of echoing stalactites and glowing fungi, cut off from the surface world entirely.",
+        "terrain_flags": [
+            "Rock",
+            "Dark",
+            "Confined",
+            "Dirt",
+            "Mud",
+            "Shallow_Water",
+            "Deep_Water",
+            "Uneven",
+            "Steep"
+        ],
+        "climate": {
+            "base_temp": "Cool",
+            "weather": "Still"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Fire Resistance",
-                "Obsidian Skin",
-                "Heat Vision"
+            "skills": [
+                {
+                    "id": "Tremor Sense",
+                    "weight": 90
+                },
+                {
+                    "id": "Echolocation",
+                    "weight": 60
+                },
+                {
+                    "id": "Wall Climb",
+                    "weight": 70
+                }
             ],
-            "stat_mods": [
+            "mods": [
+                {
+                    "target": "sense_bonus",
+                    "op": "add",
+                    "expr": "3",
+                    "weight": 100
+                },
+                {
+                    "target": "speed_bonus",
+                    "op": "subtract",
+                    "expr": "5",
+                    "weight": 50
+                }
+            ]
+        },
+        "payloads": [
+            {
+                "id": "Cave_In",
+                "chance_per_tick": 0.01
+            },
+            {
+                "id": "Pitch_Black_Blindness",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Limestone",
+            "Glowing_Mushroom",
+            "Gems",
+            "Obsidian"
+        ]
+    },
+    "Deadlands": {
+        "id": 10,
+        "name": "Deadlands",
+        "description": "A cursed, grayscale wasteland where the soil is ashen and the air whispers with the souls of the perished.",
+        "terrain_flags": [
+            "Ash",
+            "Barren",
+            "Cursed",
+            "Dirt",
+            "Rock",
+            "Mud",
+            "Uneven",
+            "Flat",
+            "Dark"
+        ],
+        "climate": {
+            "base_temp": "Cold",
+            "weather": "Supernatural_Fog"
+        },
+        "adaptation_rules": {
+            "skills": [
+                {
+                    "id": "Necrotic Resistance",
+                    "weight": 100
+                },
+                {
+                    "id": "Scavenger",
+                    "weight": 80
+                },
+                {
+                    "id": "Undead Nature",
+                    "weight": 40
+                }
+            ],
+            "mods": [
+                {
+                    "target": "wis",
+                    "op": "add",
+                    "expr": "3",
+                    "weight": 100
+                },
                 {
                     "target": "con",
-                    "val": 5,
-                    "op": "add",
-                    "conditions": {
-                        "environment": "Heat"
-                    }
+                    "op": "subtract",
+                    "expr": "1d4",
+                    "weight": 80
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Soul_Drain",
+                "chance_per_tick": 0.05
+            }
+        ],
+        "resource_tags": [
+            "Bone_Dust",
+            "Grave_Dirt",
+            "Withered_Root"
+        ]
     },
-    {
+    "Crystal_Wastes": {
         "id": 11,
-        "name": "Deadlands",
-        "adaptation_rules": {
-            "possible_skills": [
-                "Necrotic Resistance",
-                "Scavenger",
-                "Undead Nature"
-            ],
-            "stat_mods": [
-                {
-                    "target": "wis",
-                    "val": 3,
-                    "op": "add",
-                    "conditions": {
-                        "environment": "Horror"
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "id": 12,
         "name": "Crystal Wastes",
+        "description": "A surreal landscape of towering, jagged amethyst formations that hum with raw, unstable arcane energy.",
+        "terrain_flags": [
+            "Crystal",
+            "Slippery",
+            "Sharp",
+            "Rock",
+            "Sand",
+            "Uneven",
+            "Flat",
+            "Hazardous"
+        ],
+        "climate": {
+            "base_temp": "Variable",
+            "weather": "Arcane_Storms"
+        },
         "adaptation_rules": {
-            "possible_skills": [
-                "Magic Resistance",
-                "Reflective Carapace",
-                "Psionic"
-            ],
-            "stat_mods": [
+            "skills": [
                 {
-                    "target": "wis",
-                    "val": 2,
+                    "id": "Magic Resistance",
+                    "weight": 80
+                },
+                {
+                    "id": "Reflective Carapace",
+                    "weight": 50
+                },
+                {
+                    "id": "Psionic",
+                    "weight": 30
+                }
+            ],
+            "mods": [
+                {
+                    "target": "int",
                     "op": "add",
-                    "conditions": {
-                        "environment": "Magic"
-                    }
+                    "expr": "1d6",
+                    "weight": 100
+                },
+                {
+                    "target": "natural_armor",
+                    "op": "add",
+                    "expr": "2",
+                    "weight": 60
                 }
             ]
-        }
+        },
+        "payloads": [
+            {
+                "id": "Mana_Burn",
+                "chance_per_tick": 0.04
+            },
+            {
+                "id": "Refractive_Glare",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Arcane_Crystal",
+            "Geode",
+            "Resonant_Dust"
+        ]
+    },
+    "Volcanic_Ashlands": {
+        "id": 12,
+        "name": "Volcanic Ashlands",
+        "description": "A blackened wasteland choked with sulfurous smoke, illuminated only by rivers of flowing magma.",
+        "terrain_flags": [
+            "Rock",
+            "Hazardous",
+            "Magma",
+            "Ash",
+            "Steep",
+            "Uneven",
+            "Dark"
+        ],
+        "climate": {
+            "base_temp": "Extreme_Heat",
+            "weather": "Ash"
+        },
+        "adaptation_rules": {
+            "skills": [
+                {
+                    "id": "Fire Resistance",
+                    "weight": 100
+                },
+                {
+                    "id": "Obsidian Skin",
+                    "weight": 60
+                },
+                {
+                    "id": "Heat Vision",
+                    "weight": 80
+                }
+            ],
+            "mods": [
+                {
+                    "target": "con",
+                    "op": "add",
+                    "expr": "5",
+                    "weight": 100
+                },
+                {
+                    "target": "speed_bonus",
+                    "op": "subtract",
+                    "expr": "10",
+                    "weight": 50
+                }
+            ]
+        },
+        "payloads": [
+            {
+                "id": "Lava_Fissure",
+                "chance_per_tick": 0.02
+            },
+            {
+                "id": "Suffocation",
+                "chance_per_tick": 0.08
+            },
+            {
+                "id": "Smoke_Blindness",
+                "chance_per_tick": 1.0
+            }
+        ],
+        "resource_tags": [
+            "Obsidian",
+            "Basalt",
+            "Sulfur",
+            "Magma_Core"
+        ]
     }
-]
+}

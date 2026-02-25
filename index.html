@@ -71,7 +71,18 @@
         const PawPrint = (props) => <IconWrapper name="paw-print" { ...props } />;
         const User = (props) => <IconWrapper name="user" { ...props } />;
         const Anchor = (props) => <IconWrapper name="anchor" { ...props } />;
+        const ImageIcon = (props) => <IconWrapper name="image" { ...props } />;
+        const Loader2 = (props) => <IconWrapper name="loader-2" { ...props } />;
 
+        // ==========================================
+        // IMAGE GENERATION (local-only, IS_LOCAL guard)
+        // ==========================================
+        const TRAFFIC_COP = "http://127.0.0.1:5050";
+        const COMFY_API_HOST = "127.0.0.1:8188";
+        const CLIENT_ID = Math.random().toString(36).substring(2, 10);
+        const IS_LOCAL = window.location.hostname === "localhost" ||
+            window.location.hostname === "127.0.0.1" ||
+            window.location.protocol === "file:";
 
         // ==========================================
         // 1. DYNAMIC DATA LOADER
@@ -406,8 +417,106 @@
 
         const GeneratorView = () => {
             const [entity, setEntity] = useState(null);
+            const [countdown, setCountdown] = useState(null);
+            const [imgState, setImgState] = useState({ loading: false, progress: 0, status: '', url: null, error: null });
+            const socketRef = React.useRef(null);
+            const countdownRef = React.useRef(null);
 
-            const generate = () => { setEntity(generateEntity()); };
+            // -- WebSocket for ComfyUI progress (local only) --
+            useEffect(() => {
+                if (!IS_LOCAL) return;
+                const ws = new WebSocket(`ws://${COMFY_API_HOST}/ws?clientId=${CLIENT_ID}`);
+                ws.onmessage = (event) => {
+                    try {
+                        const msg = JSON.parse(event.data);
+                        if (msg.type === 'progress') {
+                            const pct = Math.round((msg.data.value / msg.data.max) * 100);
+                            setImgState(s => ({ ...s, progress: pct, status: `Sampling step ${msg.data.value}/${msg.data.max}` }));
+                        } else if (msg.type === 'executing' && msg.data.node) {
+                            setImgState(s => ({ ...s, status: `Running: Node ${msg.data.node}` }));
+                        }
+                    } catch (e) { }
+                };
+                ws.onclose = () => { socketRef.current = null; };
+                socketRef.current = ws;
+                return () => ws.close();
+            }, []);
+
+            // -- Countdown tick --
+            useEffect(() => {
+                if (countdown === null || !IS_LOCAL) return;
+                if (countdown === 0) { setCountdown(null); generatePortrait(); return; }
+                const t = setTimeout(() => setCountdown(c => c - 1), 1000);
+                return () => clearTimeout(t);
+            }, [countdown]);
+
+            const cancelCountdown = () => { setCountdown(null); clearTimeout(countdownRef.current); };
+
+            // Build an image gen prompt from entity data
+            const buildPrompt = (e) => {
+                const prefix = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
+                const chassis = e.traits[0].replace(/_/g, ' ');
+                const tags = e.traits.slice(1).filter(t => !GAME_DATA.prefixes[t] && !t.startsWith('Resist:')).join(', ');
+                const parts = e.parts.join(', ');
+                const skillDescs = e.skills.map(s => {
+                    const def = GAME_DATA.skills[s];
+                    if (def && def.description && def.description !== 'No description') return def.description;
+                    return s;
+                }).join('; ');
+                return `Full body creature concept art, neutral idle stance showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Anatomy: ${parts}. Traits: ${tags}. Abilities: ${skillDescs}. Style: stylized game art, cel-shaded, clean bold outlines, flat colours, Monster Hunter creature design, Final Fantasy bestiary illustration, white background, full figure head to toe, no background clutter`.trim();
+            };
+
+            const generatePortrait = async () => {
+                if (!entity || imgState.loading) return;
+                setImgState({ loading: true, progress: 0, status: 'Contacting Traffic Cop...', url: null, error: null });
+                try {
+                    const copRes = await fetch(`${TRAFFIC_COP}/comfyui/start`, { method: 'POST' });
+                    const copData = await copRes.json();
+                    if (copData.status !== 'success') throw new Error('Traffic Cop failed to start ComfyUI');
+
+                    const prompt = buildPrompt(entity);
+                    setImgState(s => ({ ...s, status: 'Queuing workflow...' }));
+
+                    const workflow = {
+                        '1': { class_type: 'UnetLoaderGGUF', inputs: { unet_name: 'flux1-schnell-Q4_K_S.gguf' } },
+                        '2': { class_type: 'DualCLIPLoader', inputs: { clip_name1: 't5xxl_fp8_e4m3fn.safetensors', clip_name2: 'clip_l.safetensors', type: 'flux' } },
+                        '3': { class_type: 'VAELoader', inputs: { vae_name: 'flux_vae.safetensors' } },
+                        '4': { class_type: 'CLIPTextEncode', inputs: { text: prompt, clip: ['2', 0] } },
+                        '9': { class_type: 'CLIPTextEncode', inputs: { text: '', clip: ['2', 0] } },
+                        '5': { class_type: 'EmptyLatentImage', inputs: { width: 384, height: 512, batch_size: 1 } },
+                        '6': { class_type: 'KSampler', inputs: { seed: Math.floor(Math.random() * 1e6), steps: 4, cfg: 1.0, sampler_name: 'euler', scheduler: 'simple', denoise: 1.0, model: ['1', 0], positive: ['4', 0], negative: ['9', 0], latent_image: ['5', 0] } },
+                        '7': { class_type: 'VAEDecode', inputs: { samples: ['6', 0], vae: ['3', 0] } },
+                        '8': { class_type: 'SaveImage', inputs: { filename_prefix: 'entity_portrait', images: ['7', 0] } }
+                    };
+
+                    const qRes = await fetch(`http://${COMFY_API_HOST}/prompt`, {
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ prompt: workflow, client_id: CLIENT_ID })
+                    });
+                    const { prompt_id } = await qRes.json();
+                    setImgState(s => ({ ...s, status: 'Generation in progress...' }));
+
+                    while (true) {
+                        const hRes = await fetch(`http://${COMFY_API_HOST}/history/${prompt_id}`);
+                        const history = await hRes.json();
+                        if (history[prompt_id]) {
+                            const filename = history[prompt_id].outputs['8'].images[0].filename;
+                            setImgState({ loading: false, progress: 100, status: 'Complete!', url: `http://${COMFY_API_HOST}/view?filename=${filename}&type=output`, error: null });
+                            break;
+                        }
+                        await new Promise(r => setTimeout(r, 2000));
+                    }
+                } catch (err) {
+                    console.error(err);
+                    setImgState(s => ({ ...s, loading: false, error: err.message }));
+                }
+            };
+
+            const generate = () => {
+                setImgState({ loading: false, progress: 0, status: '', url: null, error: null });
+                setEntity(generateEntity());
+                if (IS_LOCAL) setCountdown(3);
+            };
 
             return (
                 <div className="p-3 sm:p-4 h-full flex flex-col">
@@ -427,6 +536,30 @@
                                     <div className="flex gap-2 mt-2 flex-wrap">
                                         { entity.traits.slice(1).map((t, i) => <span key={ i } className="bg-neutral-700 px-2 py-1 rounded text-xs text-gray-300 border border-neutral-600">{ t }</span>) }
                                     </div>
+
+                                    { /* Countdown / progress (local only) */ }
+                                    { IS_LOCAL && !imgState.url && countdown !== null && !imgState.loading && (
+                                        <div className="flex items-center gap-3 mt-3">
+                                            <span className="text-purple-400 text-sm">
+                                                🎨 Generating portrait in <span className="font-mono font-bold text-white">{ countdown }</span>...
+                                            </span>
+                                            <button onClick={ cancelCountdown } className="text-xs text-gray-500 hover:text-gray-300 underline">Cancel</button>
+                                        </div>
+                                    ) }
+                                    { IS_LOCAL && imgState.loading && (
+                                        <div className="mt-3">
+                                            <div className="flex justify-between text-xs mb-1">
+                                                <span className="text-purple-400">{ imgState.status }</span>
+                                                <span className="text-white font-mono">{ imgState.progress }%</span>
+                                            </div>
+                                            <div className="h-1.5 bg-neutral-800 rounded-full overflow-hidden w-64">
+                                                <div className="h-full bg-gradient-to-r from-purple-600 to-blue-500 transition-all duration-300" style={ { width: `${imgState.progress}%` } }></div>
+                                            </div>
+                                        </div>
+                                    ) }
+                                    { IS_LOCAL && imgState.error && (
+                                        <div className="mt-2 text-red-400 text-xs">⚠ { imgState.error }</div>
+                                    ) }
                                 </div>
                                 <div className="text-right">
                                     <div className="text-2xl sm:text-4xl font-bold text-red-500 flex items-center justify-end gap-2">
@@ -452,12 +585,20 @@
                                                 </div>
                                             )) }
                                         </div>
+
+                                        { /* Portrait image (local only) */ }
+                                        { imgState.url && (
+                                            <div className="mt-4 rounded-lg overflow-hidden border border-purple-600/40 shadow-xl">
+                                                <div className="text-xs text-purple-400 px-2 pt-2 pb-1 bg-purple-950/40 font-bold uppercase tracking-wider">Entity Portrait</div>
+                                                <img src={ imgState.url } alt="Generated entity portrait" className="w-full object-cover" />
+                                            </div>
+                                        ) }
                                     </div>
 
                                     {/* Loot & Harvest Block */ }
                                     <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
                                         <h3 className="text-lg font-bold text-yellow-600 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                            <Anchor size={ 18 } /> Loot & Harvest
+                                            <Anchor size={ 18 } /> Loot &amp; Harvest
                                         </h3>
                                         <div className="space-y-2">
                                             { entity.loot && entity.loot.length > 0 ? entity.loot.map((l, i) => (
@@ -485,7 +626,7 @@
 
                                     <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
                                         <h3 className="text-lg font-bold text-purple-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                            <Anchor size={ 18 } /> Anatomy & Skills
+                                            <Anchor size={ 18 } /> Anatomy &amp; Skills
                                         </h3>
                                         <div className="mb-3">
                                             <span className="text-xs text-gray-500 uppercase font-bold tracking-wider">Parts</span>
@@ -504,7 +645,7 @@
                                     {/* Variations & Ecosystem Block */ }
                                     <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
                                         <h3 className="text-lg font-bold text-teal-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
-                                            <Search size={ 18 } /> Variations & Ecosystem
+                                            <Search size={ 18 } /> Variations &amp; Ecosystem
                                         </h3>
                                         <div className="grid grid-cols-1 gap-2 text-sm">
                                             { entity.variations.biome && <div className="flex justify-between"><span className="text-gray-400">Biome</span><span className="text-white">{ entity.variations.biome }</span></div> }
@@ -521,6 +662,7 @@
                 </div>
             );
         };
+
 
         const DataGridView = () => {
             const [filterTag, setFilterTag] = useState("");

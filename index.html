@@ -1814,180 +1814,138 @@
             //      • If it carries the "Movement" type tag  → MOVE node
             //      • Otherwise                              → ATTACK node (deal damage)
 
-            const evaluateBehavior = (entity, target, newLogs) => {
-                // Persist usage counts across turns on the entity object
-                if (!entity.usageCounts) entity.usageCounts = {};
+            const evaluateBT = (entity, target, node, newLogs) => {
+                if (!node) return false;
 
-                const atkHp = getHp(entity);
-                const defHp = getHp(target);
-                if (!atkHp || atkHp.currentValue <= 0) return;
-
-                // ── 1. Build active weight map ─────────────────────────────
-                const profile = entity.behaviorKey
-                    ? GAME_DATA.mechanics.behaviors[entity.behaviorKey]
-                    : null;
-
-                // Clone base_weights (or start empty)
-                const activeWeights = profile
-                    ? { ...profile.base_weights }
-                    : { Melee_Attack: 50, Movement: 10 }; // minimal fallback
-
-                // ── 2. Evaluate conditional_modifiers ─────────────────────
-                if (profile && profile.conditional_modifiers) {
-                    const dist = gridDist(entity, target);
-                    const hpPct = atkHp.maxValue > 0 ? atkHp.currentValue / atkHp.maxValue : 1;
-
-                    profile.conditional_modifiers.forEach(mod => {
-                        let triggered = false;
-                        const cond = (mod.condition || '').trim();
-
-                        // Simple expression parser: "<key> <op> <value>"
-                        const match = cond.match(/^(\w+)\s*([><=!]+)\s*([\d.]+)$/);
-                        if (match) {
-                            const [, varName, op, rawVal] = match;
-                            const val = parseFloat(rawVal);
-                            const lhs = varName === 'distance' ? dist
-                                : varName === 'hp_percent' ? hpPct
-                                    : null;
-                            if (lhs !== null) {
-                                if (op === '>' && lhs > val) triggered = true;
-                                if (op === '>=' && lhs >= val) triggered = true;
-                                if (op === '<' && lhs < val) triggered = true;
-                                if (op === '<=' && lhs <= val) triggered = true;
-                                if (op === '==' && lhs === val) triggered = true;
-                            }
-                        }
-
-                        if (triggered) {
-                            Object.entries(mod.weight_shifts || {}).forEach(([tag, delta]) => {
-                                activeWeights[tag] = (activeWeights[tag] || 0) + delta;
-                            });
-                        }
-                    });
+                // Handle composite nodes
+                if (node.type === 'Selector') {
+                    for (const child of (node.nodes || [])) {
+                        if (evaluateBT(entity, target, child, newLogs)) return true;
+                    }
+                    return false;
                 }
 
-                // ── 3. Score every skill — cumulative weighted lottery ────────
-                const validSkills = [];
+                if (node.type === 'Sequence') {
+                    // Check conditions
+                    const conditions = node.conditions || [];
+                    for (const cond of conditions) {
+                        const dist = gridDist(entity, target);
+                        const hpPct = (getHp(entity).currentValue / getHp(entity).maxValue) || 1;
+                        const targetHpPct = (getHp(target).currentValue / getHp(target).maxValue) || 1;
 
-                entity.skills.forEach(skillName => {
-                    const skillData = GAME_DATA.skills[skillName];
-                    if (!skillData) return;
-                    const types = skillData.types || [];
-                    // Skip Passive-only skills — they are always-on traits, not turn actions
-                    if (types.length > 0 && types.every(t => t === 'Passive')) return;
+                        let triggered = false;
+                        // Support basic strings like "self.hp_percent < 0.2"
+                        if (cond.includes('self.hp_percent')) {
+                            const match = cond.match(/([<>!=]+)\s*([\d.]+)/);
+                            if (match) {
+                                const [, op, val] = match;
+                                const nVal = parseFloat(val);
+                                if (op === '<' && hpPct < nVal) triggered = true;
+                                if (op === '<=' && hpPct <= nVal) triggered = true;
+                                if (op === '>' && hpPct > nVal) triggered = true;
+                                if (op === '>=' && hpPct >= nVal) triggered = true;
+                            }
+                        } else if (cond.includes('distance_to_target')) {
+                            const match = cond.match(/([<>!=]+)\s*([\d.]+)/);
+                            if (match) {
+                                const [, op, val] = match;
+                                const nVal = parseFloat(val);
+                                if (op === '<' && dist < nVal) triggered = true;
+                                if (op === '<=' && dist <= nVal) triggered = true;
+                                if (op === '>' && dist > nVal) triggered = true;
+                                if (op === '>=' && dist >= nVal) triggered = true;
+                                if (op === '==' && dist === nVal) triggered = true;
+                            }
+                        } else if (cond.includes('self.combat_turns')) {
+                            // First turn check
+                            if (cond.includes('== 0') && (entity.usageCounts ? Object.keys(entity.usageCounts).length === 0 : true)) triggered = true;
+                        } else {
+                            // Fallback for simple boolean-like conditions (has_active_buff etc)
+                            triggered = false;
+                        }
 
-                    // Base score from behavior weights
-                    let score = types.reduce((sum, t) => sum + (activeWeights[t] || 0), 0);
-                    // Diminishing returns: -40 per previous use this fight
-                    score -= (entity.usageCounts[skillName] || 0) * 40;
-
-                    if (score > 0) validSkills.push({ name: skillName, score, types });
-                });
-
-                // Rescue pass: if every skill scored ≤ 0 (mixed types like Passive+Movement
-                // go negative from behavior Passive weight, or usage penalty drained all),
-                // pick the best non-passive skill ignoring penalties so the actual skill
-                // expr fires instead of the 1d4 "strikes wildly" emergency fallback.
-                if (validSkills.length === 0) {
-                    let rescueName = null, rescueTypes = [], rescueScore = -Infinity;
-                    entity.skills.forEach(skillName => {
-                        const sd = GAME_DATA.skills[skillName];
-                        if (!sd) return;
-                        const t = sd.types || [];
-                        if (t.every(x => x === 'Passive')) return;
-                        const raw = t.reduce((sum, x) => sum + (activeWeights[x] || 0), 0);
-                        if (raw > rescueScore) { rescueScore = raw; rescueName = skillName; rescueTypes = t; }
-                    });
-                    if (rescueName) {
-                        entity.usageCounts[rescueName] = 0; // reset so it re-enters lottery next turn
-                        validSkills.push({ name: rescueName, score: 1, types: rescueTypes });
+                        if (!triggered) return false; // Sequence fails
+                    }
+                    // If sequence and node has internal nodes, recurse
+                    if (node.nodes) {
+                        for (const child of node.nodes) {
+                            if (evaluateBT(entity, target, child, newLogs)) return true;
+                        }
                     }
                 }
 
-                let bestSkillName = null;
-                let types = [];
-
-                if (validSkills.length === 0) {
-                    const distFb = gridDist(entity, target);
-                    if (distFb <= 1) {
-                        // All skills penalized out while in melee range — reset counters
-                        // so the lottery can run fresh next turn, and deal raw unarmed damage now.
-                        entity.usageCounts = {};
-                        const rawDmg = Math.max(1, Math.floor(Math.random() * 4) + 1);
-                        defHp.currentValue = Math.max(0, defHp.currentValue - rawDmg);
-                        newLogs.push(`👊 ${getDisplayName(entity)} strikes wildly for ${rawDmg} [Physical] → ${defHp.currentValue.toFixed(0)} HP left`);
-                    } else {
-                        // Still closing — move one tile toward target
+                // Handle Actions/Sequences with actions
+                const actionStr = node.action || (node.type === 'Action' ? node.action : null);
+                if (actionStr) {
+                    if (actionStr === 'Move_Towards_Target') {
                         const dx = Math.sign(target.x - entity.x);
                         const dy = Math.sign(target.y - entity.y);
                         entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
                         entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
-                        newLogs.push(`🦶 ${getDisplayName(entity)} closes in → (${entity.x},${entity.y}).`);
+                        newLogs.push(`🦶 ${getDisplayName(entity)} moves towards ${getDisplayName(target)} → (${entity.x},${entity.y})`);
+                        return true;
                     }
-                    return;
+                    if (actionStr === 'Move_Away_From_Target') {
+                        const dx = -Math.sign(target.x - entity.x);
+                        const dy = -Math.sign(target.y - entity.y);
+                        entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
+                        entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
+                        newLogs.push(`💨 ${getDisplayName(entity)} retreats from ${getDisplayName(target)} → (${entity.x},${entity.y})`);
+                        return true;
+                    }
+
+                    // Handle Select_Skill(types:[...], priority:'...')
+                    const skillMatch = actionStr.match(/Select_Skill\(types:\[(.*)\], priority:'(.*)'\)/);
+                    if (skillMatch) {
+                        const [, typesStr, priority] = skillMatch;
+                        const types = typesStr.split(',').map(t => t.trim().replace(/'/g, ''));
+
+                        let bestSkill = null;
+                        let bestVal = -Infinity;
+
+                        entity.skills.forEach(skillName => {
+                            const sd = GAME_DATA.skills[skillName];
+                            if (!sd) return;
+                            const sTypes = sd.types || [];
+                            if (!sTypes.some(t => types.includes(t))) return;
+
+                            let val = Math.random();
+                            if (priority === 'Highest_Damage') {
+                                // Simple heuristic: length of expr
+                                val = (sd.mods || []).reduce((acc, m) => acc + (m.expr ? m.expr.length : 0), 0) + Math.random();
+                            }
+                            if (val > bestVal) {
+                                bestVal = val;
+                                bestSkill = skillName;
+                            }
+                        });
+
+                        if (bestSkill) {
+                            executeSkill(entity, target, bestSkill, newLogs);
+                            return true;
+                        }
+                    }
                 }
 
-                // Weighted random draw
-                const totalWeight = validSkills.reduce((sum, s) => sum + s.score, 0);
-                let roll = Math.random() * totalWeight;
-                for (const skill of validSkills) {
-                    roll -= skill.score;
-                    if (roll <= 0) { bestSkillName = skill.name; types = skill.types; break; }
-                }
-                // Float safety net
-                if (!bestSkillName) {
-                    bestSkillName = validSkills[validSkills.length - 1].name;
-                    types = validSkills[validSkills.length - 1].types;
-                }
+                return false;
+            };
 
-                // Track usage for diminishing returns next turn
-                entity.usageCounts[bestSkillName] = (entity.usageCounts[bestSkillName] || 0) + 1;
+            const executeSkill = (entity, target, skillName, newLogs) => {
+                const skillData = GAME_DATA.skills[skillName];
+                const defHp = getHp(target);
 
-                const skillData = GAME_DATA.skills[bestSkillName];
-                // `types` is already set by the weighted lottery above
+                if (!entity.usageCounts) entity.usageCounts = {};
+                entity.usageCounts[skillName] = (entity.usageCounts[skillName] || 0) + 1;
 
-                // ── 4a. MOVE NODE ─────────────────────────────────────────
-                // Only actually move if not already in melee range (dist > 1).
-                // If already adjacent/same tile, fall through to the attack node
-                // so entities with only Movement skills can still deal damage.
-                const distNow = gridDist(entity, target);
-                if (types.includes('Movement') && distNow > 1) {
-                    const hpPct = atkHp.maxValue > 0 ? atkHp.currentValue / atkHp.maxValue : 1;
-                    const isRetreating = (activeWeights['Melee_Attack'] || 0) < 0 && hpPct < 0.4;
-                    const dx = Math.sign(target.x - entity.x) * (isRetreating ? -1 : 1);
-                    const dy = Math.sign(target.y - entity.y) * (isRetreating ? -1 : 1);
-                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
-                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
-                    const verb = isRetreating ? '💨 retreats' : '🦶 moves';
-                    newLogs.push(`${verb}: ${getDisplayName(entity)} → (${entity.x},${entity.y}) [${bestSkillName}]`);
-                    return;
-                }
-
-                // ── 4b. ATTACK / EFFECT NODE ─────────────────────────────
-                const dist = gridDist(entity, target);
-                if (dist > 1) {
-                    // Not in melee range yet — move instead
-                    const dx = Math.sign(target.x - entity.x);
-                    const dy = Math.sign(target.y - entity.y);
-                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
-                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
-                    newLogs.push(`🦶 ${getDisplayName(entity)} closes in → (${entity.x},${entity.y}) [wanted: ${bestSkillName}]`);
-                    return;
-                }
-
-                const flavor = skillData.description && skillData.description !== 'No description'
-                    ? ` (${skillData.description})` : '';
-                newLogs.push(`⚡ ${getDisplayName(entity)} uses ${bestSkillName}!${flavor}`);
+                newLogs.push(`⚡ ${getDisplayName(entity)} uses ${skillName}!`);
 
                 (skillData.mods || []).forEach(mod => {
                     if ((mod.target === 'hp' || mod.target === 'hp_max') && mod.op === 'subtract') {
-                        // Evaluate expr: replace stat names and 'level' with their values
                         let expr = (mod.expr || '').replace(/\b([a-zA-Z_]+)\b/g, (statOrLevel) => {
                             if (statOrLevel === 'level') return entity.level || 1;
                             const s = entity.stats[statOrLevel];
-                            return s ? Math.floor(s.getCurrentValue()) : statOrLevel;
+                            return s ? Math.floor(s.getCurrentValue()) : (isNaN(statOrLevel) ? 0 : statOrLevel);
                         });
-                        // Evaluate dice notation (e.g. 2d6 → random)
                         expr = expr.replace(/(\d+)d(\d+)/g, (_, num, sides) => {
                             let total = 0;
                             for (let i = 0; i < +num; i++) total += Math.floor(Math.random() * +sides) + 1;
@@ -1998,17 +1956,34 @@
                         defHp.currentValue = Math.max(0, defHp.currentValue - dmg);
                         newLogs.push(`  ↳ Hits ${getDisplayName(target)} for ${dmg} [${mod.damage_type || 'Physical'}] → ${defHp.currentValue.toFixed(0)} HP left`);
                     }
-                    if (mod.target === 'status') {
-                        newLogs.push(`  ↳ Applies [${mod.val}] to ${getDisplayName(target)}!`);
-                    }
                 });
 
-                // Log payloads (status effects on hit)
                 (skillData.payloads || []).forEach(p => {
                     if (Math.random() < p.chance_per_tick) {
-                        newLogs.push(`  ↳ 🔴 ${getDisplayName(target)} suffers [${p.id}] for ${p.duration_ticks} ticks!`);
+                        newLogs.push(`  ↳ 🔴 ${getDisplayName(target)} suffers [${p.id}]!`);
                     }
                 });
+            };
+
+            const evaluateBehavior = (entity, target, newLogs) => {
+                const profile = entity.behaviorKey ? GAME_DATA.mechanics.behaviors[entity.behaviorKey] : null;
+                if (profile && profile.tree) {
+                    if (evaluateBT(entity, target, profile.tree, newLogs)) return;
+                }
+
+                // Fallback logic if BT doesn't trigger an action or no profile exists
+                const dist = gridDist(entity, target);
+                if (dist > 1) {
+                    const dx = Math.sign(target.x - entity.x);
+                    const dy = Math.sign(target.y - entity.y);
+                    entity.x = Math.max(1, Math.min(ARENA_SIZE - 2, entity.x + dx));
+                    entity.y = Math.max(1, Math.min(ARENA_SIZE - 2, entity.y + dy));
+                    newLogs.push(`🦶 ${getDisplayName(entity)} closes in → (${entity.x},${entity.y})`);
+                } else {
+                    const rawDmg = Math.max(1, Math.floor(Math.random() * 4) + 1);
+                    getHp(target).currentValue = Math.max(0, getHp(target).currentValue - rawDmg);
+                    newLogs.push(`👊 ${getDisplayName(entity)} strikes wildly for ${rawDmg} → ${getHp(target).currentValue.toFixed(0)} HP left`);
+                }
             };
 
             const fightTurn = () => {

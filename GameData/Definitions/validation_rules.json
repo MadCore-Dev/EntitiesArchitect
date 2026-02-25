@@ -11,7 +11,29 @@
       "int": 1,
       "wis": 1,
       "cha": 1,
-      "size_index": 1
+      "size_index": 1,
+      "hp": 10,
+      "stamina": 10,
+      "water_retention": 10,
+      "vision_range": 10
+    },
+    "damage_resistance_map": {
+      "Bludgeoning": "bludgeoning_resist",
+      "Piercing": "piercing_resist",
+      "Slashing": "slashing_resist",
+      "Shredding": "shredding_resist",
+      "Poison": "poison_resist",
+      "Acid": "acid_resist",
+      "Disease": "disease_resist",
+      "Fire": "fire_resist",
+      "Cold": "cold_resist",
+      "Lightning": "lightning_resist",
+      "Sonic": "sonic_resist",
+      "Hydraulic": "hydraulic_resist",
+      "Arcane": "arcane_resist",
+      "Necrotic": "necrotic_resist",
+      "Radiant": "radiant_resist",
+      "Psychic": "psychic_resist"
     }
   }
 }

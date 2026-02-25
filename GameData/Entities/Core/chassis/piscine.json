@@ -1,0 +1,44 @@
+{
+  "Streamlined_Aquatic_Frame": {
+    "frame_type": [
+      "Streamlined"
+    ],
+    "meat_group": [
+      "Piscine"
+    ],
+    "skills": [
+      "Swim",
+      "Gills"
+    ],
+    "slots": [
+      "Head",
+      "Fins",
+      "Tail"
+    ],
+    "tags": [
+      "Fish",
+      "Aquatic",
+      "Beast",
+      "Scales",
+      "Swimmer",
+      "Fish_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 0.8
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 4
+      }
+    ]
+  }
+}

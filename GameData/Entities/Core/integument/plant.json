@@ -1,0 +1,23 @@
+{
+  "Bark_Skin": {
+    "resistances": [
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Bark",
+      "difficulty": 12
+    },
+    "tags": [
+      "Plant",
+      "Treant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  }
+}

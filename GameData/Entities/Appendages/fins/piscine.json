@@ -1,0 +1,24 @@
+{
+  "Ray_Finned_Appendages": {
+    "traversal": [
+      "Swim"
+    ],
+    "tags": [
+      "Fish",
+      "Scale",
+      "Common",
+      "Fish_Like"
+    ],
+    "grants_skills": [
+      "Dart",
+      "Schooling"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 40
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Flexible_Prehensile_Tail": {
+    "traversal": [
+      "Climb",
+      "Hang"
+    ],
+    "tags": [
+      "Primate",
+      "Useful",
+      "Flexible",
+      "Monkey_Like"
+    ],
+    "grants_skills": [
+      "Grip",
+      "Third Hand"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

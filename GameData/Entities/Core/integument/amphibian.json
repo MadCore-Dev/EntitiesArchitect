@@ -1,0 +1,46 @@
+{
+  "Smooth_Skin": {
+    "resistances": [],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Pelt",
+      "difficulty": 5
+    },
+    "tags": [
+      "Humanoid",
+      "Amphibian",
+      "Aquatic",
+      "Slug"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Slimy_Skin": {
+    "resistances": [
+      "Grapple"
+    ],
+    "harvest_profile": {
+      "type": "Draining",
+      "yield_id": "Slime",
+      "difficulty": 10
+    },
+    "tags": [
+      "Amphibian",
+      "Fish",
+      "Slug",
+      "Eel"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

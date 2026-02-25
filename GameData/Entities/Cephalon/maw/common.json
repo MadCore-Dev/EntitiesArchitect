@@ -1,0 +1,38 @@
+{
+  "Omnivorous_Speech_Maw": {
+    "consumes": [
+      "Red_Meat",
+      "White_Meat",
+      "Piscine",
+      "Flora",
+      "Fungal"
+    ],
+    "tags": [
+      "Omnivore",
+      "Lips",
+      "Language_Capable",
+      "Human_Like"
+    ],
+    "grants_skills": [
+      "Unarmed",
+      "Speech"
+    ]
+  },
+  "Goring_Tusked_Maw": {
+    "consumes": [
+      "Flora",
+      "Fungal",
+      "Red_Meat"
+    ],
+    "tags": [
+      "Boar",
+      "Orcish",
+      "Aggressive",
+      "Boar_Like"
+    ],
+    "grants_skills": [
+      "Gore",
+      "Grunt"
+    ]
+  }
+}

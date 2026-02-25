@@ -1,0 +1,25 @@
+{
+  "Chitin": {
+    "resistances": [
+      "Piercing"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Chitin Plate",
+      "difficulty": 15
+    },
+    "tags": [
+      "Insect",
+      "Arachnid",
+      "Crustacean",
+      "Beetle"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  }
+}

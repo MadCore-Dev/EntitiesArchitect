@@ -97,7 +97,9 @@
             bodies: {
                 appendages: { arms: {}, fins: {}, legs: {}, tails: {}, tentacles: {}, wings: {} },
                 cephalon: { cranium: {}, ears: {}, eyes: {}, maw: {}, nose: {} },
-                core: { chassis: {}, integument: {} }
+                core: { chassis: {}, integument: {} },
+                flora: { canopy: {}, roots: {} },
+                geology: { composition: {}, formation: {} }
             },
             variations: {
                 appearances: { patterns: {}, pigmentation: {} },
@@ -129,6 +131,8 @@
         };
 
         // All JSON files in GameData/
+        const LINEAGES = ['common', 'canine', 'feline', 'ursine', 'ungulate', 'primate', 'saurian', 'avian', 'piscine', 'amphibian', 'insect', 'arachnid', 'fungal', 'plant', 'construct'];
+
         const JSON_FILE_PATHS = [
             'GameData/Definitions/base_stats.json',
             'GameData/Definitions/derived_stats.json',
@@ -142,25 +146,8 @@
             'GameData/Definitions/types_and_ranges/traversal_types.json',
             'GameData/Definitions/types_and_ranges/vision_types.json',
             'GameData/Definitions/validation_rules.json',
-            'GameData/Entities/Appendages/arms.json',
-            'GameData/Entities/Appendages/fins.json',
-            'GameData/Entities/Appendages/legs.json',
-            'GameData/Entities/Appendages/tails.json',
-            'GameData/Entities/Appendages/tentacles.json',
-            'GameData/Entities/Appendages/wings.json',
-            'GameData/Entities/Cephalon/cranium.json',
-            'GameData/Entities/Cephalon/ears.json',
-            'GameData/Entities/Cephalon/eyes.json',
-            'GameData/Entities/Cephalon/maw.json',
-            'GameData/Entities/Cephalon/nose.json',
             'GameData/Entities/Core/appearance/patterns.json',
             'GameData/Entities/Core/appearance/pigmentation.json',
-            'GameData/Entities/Core/chassis.json',
-            'GameData/Entities/Core/integument.json',
-            'GameData/Entities/Flora/canopy.json',
-            'GameData/Entities/Flora/roots.json',
-            'GameData/Entities/Geological/composition.json',
-            'GameData/Entities/Geological/formation.json',
             'GameData/Mechanics/anatomy_drops.json',
             'GameData/Mechanics/biological_upgrades.json',
             'GameData/Mechanics/growth_stages/size_indices.json',
@@ -177,7 +164,15 @@
             'GameData/consumable_categories.json',
             'GameData/prefixes.json',
             'GameData/skills.json'
-        ];
+        ].concat(
+            [
+                'Appendages/arms', 'Appendages/fins', 'Appendages/legs', 'Appendages/tails', 'Appendages/tentacles', 'Appendages/wings',
+                'Cephalon/cranium', 'Cephalon/ears', 'Cephalon/eyes', 'Cephalon/maw', 'Cephalon/nose',
+                'Core/chassis', 'Core/integument',
+                'Flora/canopy', 'Flora/roots',
+                'Geological/composition', 'Geological/formation'
+            ].flatMap(comp => LINEAGES.map(lineage => `GameData/Entities/${comp}/${lineage}.json`))
+        );
 
         // Determines which GAME_DATA bucket a file path belongs to.
         function resolveTarget(path) {
@@ -187,23 +182,26 @@
             if (path.endsWith('prefixes.json')) return { root: 'prefixes' };
 
             // Bodies - Appendages
-            if (path.includes('Entities/Appendages/arms')) return { root: 'bodies', path: ['appendages', 'arms'] };
-            if (path.includes('Entities/Appendages/fins')) return { root: 'bodies', path: ['appendages', 'fins'] };
-            if (path.includes('Entities/Appendages/legs')) return { root: 'bodies', path: ['appendages', 'legs'] };
-            if (path.includes('Entities/Appendages/tails')) return { root: 'bodies', path: ['appendages', 'tails'] };
-            if (path.includes('Entities/Appendages/tentacles')) return { root: 'bodies', path: ['appendages', 'tentacles'] };
-            if (path.includes('Entities/Appendages/wings')) return { root: 'bodies', path: ['appendages', 'wings'] };
+            const appendages = ['arms', 'fins', 'legs', 'tails', 'tentacles', 'wings'];
+            for (const key of appendages) {
+                if (path.includes(`Entities/Appendages/${key}`)) return { root: 'bodies', path: ['appendages', key] };
+            }
 
             // Bodies - Cephalon
-            if (path.includes('Entities/Cephalon/cranium')) return { root: 'bodies', path: ['cephalon', 'cranium'] };
-            if (path.includes('Entities/Cephalon/ears')) return { root: 'bodies', path: ['cephalon', 'ears'] };
-            if (path.includes('Entities/Cephalon/eyes')) return { root: 'bodies', path: ['cephalon', 'eyes'] };
-            if (path.includes('Entities/Cephalon/maw')) return { root: 'bodies', path: ['cephalon', 'maw'] };
-            if (path.includes('Entities/Cephalon/nose')) return { root: 'bodies', path: ['cephalon', 'nose'] };
+            const cephalon = ['cranium', 'ears', 'eyes', 'maw', 'nose'];
+            for (const key of cephalon) {
+                if (path.includes(`Entities/Cephalon/${key}`)) return { root: 'bodies', path: ['cephalon', key] };
+            }
 
             // Bodies - Core
             if (path.includes('Entities/Core/chassis')) return { root: 'bodies', path: ['core', 'chassis'] };
             if (path.includes('Entities/Core/integument')) return { root: 'bodies', path: ['core', 'integument'] };
+
+            // Flora & Geological
+            if (path.includes('Entities/Flora/canopy')) return { root: 'bodies', path: ['flora', 'canopy'] };
+            if (path.includes('Entities/Flora/roots')) return { root: 'bodies', path: ['flora', 'roots'] };
+            if (path.includes('Entities/Geological/composition')) return { root: 'bodies', path: ['geology', 'composition'] };
+            if (path.includes('Entities/Geological/formation')) return { root: 'bodies', path: ['geology', 'formation'] };
 
             // Variations (kept for backward compat with DataGrid & Generator)
             if (path.includes('Entities/Core/appearance/patterns')) return { root: 'variations', path: ['appearances', 'patterns'] };

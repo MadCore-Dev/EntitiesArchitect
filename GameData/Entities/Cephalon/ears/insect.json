@@ -1,0 +1,18 @@
+{
+  "Chemical_Vibration_Sensors": {
+    "hearing_type": "Chemical_Vibration",
+    "tags": [
+      "Insect",
+      "Feeler",
+      "Multi_Sensor",
+      "Ant_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  }
+}

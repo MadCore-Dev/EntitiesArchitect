@@ -1,0 +1,24 @@
+{
+  "Padded_Stalking_Legs": {
+    "traversal": [
+      "Walk"
+    ],
+    "tags": [
+      "Canine",
+      "Wolf",
+      "Paws",
+      "Wolf_Like"
+    ],
+    "grants_skills": [
+      "Stealth",
+      "Pounce"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 40
+      }
+    ]
+  }
+}

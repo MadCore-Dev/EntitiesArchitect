@@ -1,0 +1,18 @@
+{
+  "Subdermal_Auditory_Canals": {
+    "hearing_type": "Vibration",
+    "tags": [
+      "Reptile",
+      "Avian",
+      "Hidden",
+      "Lizard_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": -1
+      }
+    ]
+  }
+}

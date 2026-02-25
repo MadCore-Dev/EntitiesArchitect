@@ -1,0 +1,97 @@
+{
+  "Binocular_Hunter_Eyes": {
+    "vision_type": "Normal",
+    "tags": [
+      "Binocular",
+      "Focused",
+      "Hunter",
+      "Wolf_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Panoramic_Prey_Eyes": {
+    "vision_type": "Wide_Angle",
+    "tags": [
+      "Monocular",
+      "Peripheral",
+      "Alert",
+      "Deer_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  },
+  "Low_Light_Eyes": {
+    "vision_type": "Night_Vision",
+    "tags": [
+      "Low_Light",
+      "Tapetum_Lucidum",
+      "Cat_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ]
+  },
+  "Subterranean_Blind_Eyes": {
+    "vision_type": "Blind",
+    "tags": [
+      "Underground",
+      "Atrophied",
+      "Vestigial",
+      "Mole_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": -2
+      }
+    ]
+  },
+  "Infrared_Sensing_Eyes": {
+    "vision_type": "Thermal",
+    "tags": [
+      "Reptile",
+      "Heat_Sense",
+      "Pit_Viper",
+      "Snake_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Trichromatic_Versatile_Eyes": {
+    "vision_type": "Tri_Chromatic",
+    "tags": [
+      "Standard",
+      "Color_Vision",
+      "Versatile",
+      "Human_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

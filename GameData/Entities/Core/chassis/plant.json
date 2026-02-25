@@ -1,0 +1,44 @@
+{
+  "Botanical_Frame": {
+    "frame_type": [
+      "Stationary"
+    ],
+    "meat_group": [
+      "Flora"
+    ],
+    "skills": [
+      "Photosynthesis",
+      "Rooted",
+      "Flammable"
+    ],
+    "slots": [
+      "Canopy",
+      "Trunk",
+      "Roots"
+    ],
+    "tags": [
+      "Plant",
+      "Flora",
+      "Wooden",
+      "Stationary",
+      "Tree_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 6
+      }
+    ]
+  }
+}

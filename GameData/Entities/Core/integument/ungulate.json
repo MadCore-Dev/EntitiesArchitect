@@ -1,0 +1,23 @@
+{
+  "Wool": {
+    "resistances": [
+      "Cold"
+    ],
+    "harvest_profile": {
+      "type": "Shearing",
+      "yield_id": "Wool",
+      "difficulty": 5
+    },
+    "tags": [
+      "Ungulate",
+      "Ovine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Hooved_Quadruped_Frame": {
+    "frame_type": [
+      "Quadruped"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "skills": [
+      "Endurance",
+      "Trample"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs",
+      "Tail"
+    ],
+    "tags": [
+      "Mammal",
+      "Ungulate",
+      "Beast",
+      "Hooved",
+      "Horse_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 6
+      }
+    ]
+  }
+}

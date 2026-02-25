@@ -1,0 +1,25 @@
+{
+  "Ungulate_Hooved_Legs": {
+    "traversal": [
+      "Walk",
+      "Gallop"
+    ],
+    "tags": [
+      "Ungulate",
+      "Horse",
+      "Deer",
+      "Horse_Like"
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Trample"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 55
+      }
+    ]
+  }
+}

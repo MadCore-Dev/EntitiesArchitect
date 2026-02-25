@@ -1,0 +1,47 @@
+{
+  "Aerodynamic_Biped_Frame": {
+    "frame_type": [
+      "Bipedal",
+      "Winged"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "skills": [
+      "Flight",
+      "Hollow Bones",
+      "Keen Sight"
+    ],
+    "slots": [
+      "Head",
+      "Wings",
+      "Legs",
+      "Tail"
+    ],
+    "tags": [
+      "Avian",
+      "Bird",
+      "Beast",
+      "Feathers",
+      "Flying",
+      "Bird_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 0.7
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Reptilian_Low_Frame": {
+    "frame_type": [
+      "Quadruped"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "skills": [
+      "Natural Armor",
+      "Cold Blooded"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs",
+      "Tail"
+    ],
+    "tags": [
+      "Reptile",
+      "Saurian",
+      "Beast",
+      "Scales",
+      "Lizard_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 4
+      }
+    ]
+  }
+}

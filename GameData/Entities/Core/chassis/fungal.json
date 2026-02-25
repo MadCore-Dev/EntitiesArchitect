@@ -1,0 +1,45 @@
+{
+  "Mycelial_Frame": {
+    "frame_type": [
+      "Stationary",
+      "Ambulatory"
+    ],
+    "meat_group": [
+      "Fungal"
+    ],
+    "skills": [
+      "Spore Cloud",
+      "Regeneration",
+      "No Pain"
+    ],
+    "slots": [
+      "Cap",
+      "Stalk",
+      "Roots_Mycelium"
+    ],
+    "tags": [
+      "Fungus",
+      "Plant_Like",
+      "Flora",
+      "Spore",
+      "Mushroom_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  }
+}

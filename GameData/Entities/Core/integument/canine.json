@@ -1,0 +1,34 @@
+{
+  "Fur": {
+    "resistances": [
+      "Cold"
+    ],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Fur",
+      "difficulty": 8
+    },
+    "tags": [
+      "Canine",
+      "Feline",
+      "Ursine",
+      "Mustelid",
+      "Rodent",
+      "Lagomorph",
+      "Bat",
+      "Primate",
+      "Marsupial",
+      "Hyena",
+      "Vulpine",
+      "Lupine",
+      "Ungulate"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ]
+  }
+}

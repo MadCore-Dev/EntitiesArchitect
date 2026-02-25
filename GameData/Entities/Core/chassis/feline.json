@@ -1,0 +1,46 @@
+{
+  "Agile_Quadruped_Frame": {
+    "frame_type": [
+      "Quadruped"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "skills": [
+      "Stealth",
+      "Pounce",
+      "Climb"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs",
+      "Tail"
+    ],
+    "tags": [
+      "Mammal",
+      "Feline",
+      "Beast",
+      "Fur",
+      "Agile",
+      "Cat_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 4
+      }
+    ]
+  }
+}

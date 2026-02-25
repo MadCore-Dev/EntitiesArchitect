@@ -1,0 +1,25 @@
+{
+  "Constricting_Vine_Tendrils": {
+    "traversal": [
+      "Climb"
+    ],
+    "tags": [
+      "Plant",
+      "Flora",
+      "Binding",
+      "Vine_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Thorn Whip",
+      "Photosynthesis"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  }
+}

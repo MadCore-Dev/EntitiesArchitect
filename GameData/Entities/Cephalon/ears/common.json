@@ -1,0 +1,66 @@
+{
+  "Perked_Sensitive_Ears": {
+    "hearing_type": "Sensitive",
+    "tags": [
+      "Pointed",
+      "Swivel",
+      "High_Frequency",
+      "Wolf_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 3
+      }
+    ]
+  },
+  "Swivel_Hunter_Ears": {
+    "hearing_type": "Sharp",
+    "tags": [
+      "Triangular",
+      "Swivel",
+      "Hunter",
+      "Cat_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Elongated_Directional_Ears": {
+    "hearing_type": "Directional",
+    "tags": [
+      "Rabbit_Like",
+      "Sensitive",
+      "Alert",
+      "Hare_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 4
+      }
+    ]
+  },
+  "Echolocation_Ears": {
+    "hearing_type": "Echolocation",
+    "tags": [
+      "Large",
+      "Ultrasonic",
+      "Sonar",
+      "Bat_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  }
+}

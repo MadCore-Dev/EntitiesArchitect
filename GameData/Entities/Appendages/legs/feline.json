@@ -1,0 +1,26 @@
+{
+  "Agile_Climbing_Legs": {
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "tags": [
+      "Feline",
+      "Cat",
+      "Paws",
+      "Cat_Like"
+    ],
+    "grants_skills": [
+      "Stealth",
+      "Agility",
+      "Soft Step"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 45
+      }
+    ]
+  }
+}

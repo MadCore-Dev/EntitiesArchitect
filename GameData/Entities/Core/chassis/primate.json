@@ -1,0 +1,44 @@
+{
+  "Versatile_Biped_Frame": {
+    "frame_type": [
+      "Bipedal"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "skills": [
+      "Tool Use",
+      "Social",
+      "Throw"
+    ],
+    "slots": [
+      "Head",
+      "Arms",
+      "Legs"
+    ],
+    "tags": [
+      "Mammal",
+      "Primate",
+      "Humanoid",
+      "Sentient_Capable",
+      "Human_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 4
+      }
+    ]
+  }
+}

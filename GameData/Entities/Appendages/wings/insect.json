@@ -1,0 +1,25 @@
+{
+  "Transparent_Veined_Wings": {
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "tags": [
+      "Insect",
+      "Transparent",
+      "Fast Beat",
+      "Fly_Like"
+    ],
+    "grants_skills": [
+      "Hover",
+      "Buzz"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 40
+      }
+    ]
+  }
+}

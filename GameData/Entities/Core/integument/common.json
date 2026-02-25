@@ -1,0 +1,49 @@
+{
+  "Hide": {
+    "resistances": [
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Skinning",
+      "yield_id": "Hide",
+      "difficulty": 10
+    },
+    "tags": [
+      "Elephantine",
+      "Rhino",
+      "Hippo",
+      "Boar"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  },
+  "Shell": {
+    "resistances": [
+      "Slashing",
+      "Piercing",
+      "Bludgeoning"
+    ],
+    "harvest_profile": {
+      "type": "Sawing",
+      "yield_id": "Shell Fragment",
+      "difficulty": 18
+    },
+    "tags": [
+      "Turtle",
+      "Snail",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  }
+}

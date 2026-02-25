@@ -1,0 +1,44 @@
+{
+  "Amorphous_Construct_Frame": {
+    "frame_type": [
+      "Amorphous",
+      "Construct"
+    ],
+    "meat_group": [
+      "Ethereal"
+    ],
+    "skills": [
+      "Elemental Resistance",
+      "Magic Immunity",
+      "Unstoppable"
+    ],
+    "slots": [
+      "Core",
+      "Appendages"
+    ],
+    "tags": [
+      "Elemental",
+      "Magic",
+      "Construct",
+      "Ethereal",
+      "Golem_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.5
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 6
+      }
+    ]
+  }
+}

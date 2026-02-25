@@ -1,0 +1,112 @@
+{
+  "Bushy_Balance_Tail": {
+    "traversal": [
+      "Balance"
+    ],
+    "tags": [
+      "Mammal",
+      "Fur",
+      "Wag",
+      "Dog_Like"
+    ],
+    "grants_skills": [
+      "Social Display",
+      "Rudder"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Slender_Agile_Tail": {
+    "traversal": [
+      "Balance"
+    ],
+    "tags": [
+      "Mammal",
+      "Long",
+      "Agile",
+      "Cat_Like"
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Counterbalance"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Thick_Reptilian_Tail": {
+    "traversal": [
+      "Swim"
+    ],
+    "tags": [
+      "Reptile",
+      "Scales",
+      "Weapon",
+      "Lizard_Like"
+    ],
+    "grants_skills": [
+      "Tail Swipe",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 10
+      }
+    ]
+  },
+  "Flat_Paddle_Tail": {
+    "traversal": [
+      "Swim"
+    ],
+    "tags": [
+      "Mammal",
+      "Flat",
+      "Paddle",
+      "Beaver_Like"
+    ],
+    "grants_skills": [
+      "Slap",
+      "Rudder"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 20
+      }
+    ]
+  },
+  "Fan_Like_Retrices": {
+    "traversal": [
+      "Fly"
+    ],
+    "tags": [
+      "Bird",
+      "Fan",
+      "Display",
+      "Bird_Like"
+    ],
+    "grants_skills": [
+      "Steering",
+      "Braking"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 5
+      }
+    ]
+  }
+}

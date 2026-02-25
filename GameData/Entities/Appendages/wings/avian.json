@@ -1,0 +1,25 @@
+{
+  "Feathered_Broad_Wings": {
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "tags": [
+      "Avian",
+      "Feathers",
+      "Large",
+      "Eagle_Like"
+    ],
+    "grants_skills": [
+      "Dive",
+      "Aerobatics"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 60
+      }
+    ]
+  }
+}

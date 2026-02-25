@@ -1,0 +1,47 @@
+{
+  "Exoskeletal_Hexapod_Frame": {
+    "frame_type": [
+      "Hexapod"
+    ],
+    "meat_group": [
+      "Chitin",
+      "Protein"
+    ],
+    "skills": [
+      "Wall Climb",
+      "Exoskeleton",
+      "Hive Mind"
+    ],
+    "slots": [
+      "Head",
+      "Thorax",
+      "Abdomen",
+      "Legs_x6"
+    ],
+    "tags": [
+      "Insect",
+      "Arthropod",
+      "Beast",
+      "Chitin",
+      "Exoskeleton",
+      "Insect_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 0.8
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  }
+}

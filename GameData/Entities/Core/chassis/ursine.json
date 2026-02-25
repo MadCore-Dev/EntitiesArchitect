@@ -1,0 +1,45 @@
+{
+  "Robust_Quadruped_Frame": {
+    "frame_type": [
+      "Quadruped"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "skills": [
+      "Durability",
+      "Maul",
+      "Scent"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs"
+    ],
+    "tags": [
+      "Mammal",
+      "Ursine",
+      "Beast",
+      "Fur",
+      "Heavy",
+      "Bear_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.5
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 6
+      }
+    ]
+  }
+}

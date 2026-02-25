@@ -1,0 +1,26 @@
+{
+  "Scales": {
+    "resistances": [
+      "Slashing"
+    ],
+    "harvest_profile": {
+      "type": "Scraping",
+      "yield_id": "Scale",
+      "difficulty": 12
+    },
+    "tags": [
+      "Saurian",
+      "Reptile",
+      "Draconic",
+      "Fish",
+      "Snake"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  }
+}

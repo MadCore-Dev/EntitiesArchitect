@@ -1,0 +1,35 @@
+{
+  "Predatory_Beak": {
+    "consumes": [
+      "White_Meat",
+      "Piscine",
+      "Red_Meat"
+    ],
+    "tags": [
+      "Avian",
+      "Sharp",
+      "Tearing",
+      "Eagle_Like"
+    ],
+    "grants_skills": [
+      "Peck",
+      "Screech"
+    ]
+  },
+  "Seed_Cracking_Beak": {
+    "consumes": [
+      "Flora",
+      "Insectoid_Ganglia"
+    ],
+    "tags": [
+      "Avian",
+      "Small",
+      "Seed_Eater",
+      "Sparrow_Like"
+    ],
+    "grants_skills": [
+      "Nibble",
+      "Chirp"
+    ]
+  }
+}

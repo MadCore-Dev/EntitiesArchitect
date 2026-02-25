@@ -1,0 +1,46 @@
+{
+  "Amphibious_Squat_Frame": {
+    "frame_type": [
+      "Quadruped",
+      "Squat"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "skills": [
+      "Amphibious",
+      "Leap",
+      "Mucous Skin"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs"
+    ],
+    "tags": [
+      "Amphibian",
+      "Aquatic",
+      "Land",
+      "Beast",
+      "Slimy",
+      "Frog_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 0.9
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  }
+}

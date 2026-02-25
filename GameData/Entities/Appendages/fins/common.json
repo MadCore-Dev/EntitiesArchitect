@@ -1,0 +1,69 @@
+{
+  "Cartilaginous_Dorsal_Fins": {
+    "traversal": [
+      "Swim"
+    ],
+    "tags": [
+      "Shark",
+      "Cartilage",
+      "Predator",
+      "Shark_Like"
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Breach"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 60
+      }
+    ]
+  },
+  "Horizontal_Tail_Fluke": {
+    "traversal": [
+      "Swim"
+    ],
+    "tags": [
+      "Mammal",
+      "Whale",
+      "Strong",
+      "Whale_Like"
+    ],
+    "grants_skills": [
+      "Breach",
+      "Deep Dive"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 50
+      }
+    ]
+  },
+  "Continuous_Ribbon_Fin": {
+    "traversal": [
+      "Swim",
+      "Slither"
+    ],
+    "tags": [
+      "Eel",
+      "Long",
+      "Flexible",
+      "Eel_Like"
+    ],
+    "grants_skills": [
+      "Reverse Swim",
+      "Hiding"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 30
+      }
+    ]
+  }
+}

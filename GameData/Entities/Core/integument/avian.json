@@ -1,0 +1,21 @@
+{
+  "Feathers": {
+    "resistances": [],
+    "harvest_profile": {
+      "type": "Plucking",
+      "yield_id": "Feather",
+      "difficulty": 5
+    },
+    "tags": [
+      "Avian",
+      "Raptor"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

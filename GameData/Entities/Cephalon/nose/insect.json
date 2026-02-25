@@ -1,0 +1,18 @@
+{
+  "Pheromone_Receptors": {
+    "scent_range": "Pheromone",
+    "tags": [
+      "Insect",
+      "Chemical",
+      "Communicator",
+      "Ant_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 4
+      }
+    ]
+  }
+}

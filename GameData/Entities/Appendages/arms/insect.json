@@ -1,0 +1,24 @@
+{
+  "Serrated_Raptorial_Forelimbs": {
+    "traversal": [
+      "None"
+    ],
+    "tags": [
+      "Insect",
+      "Serrated",
+      "Ambush",
+      "Mantis_Like"
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Quick Strike"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

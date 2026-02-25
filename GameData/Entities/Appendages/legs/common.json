@@ -1,0 +1,90 @@
+{
+  "Plantigrade_Biped_Legs": {
+    "traversal": [
+      "Walk"
+    ],
+    "tags": [
+      "Humanoid",
+      "Bipedal",
+      "Human_Like"
+    ],
+    "grants_skills": [
+      "Jump",
+      "Kick"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 30
+      }
+    ]
+  },
+  "Webbed_Hopping_Legs": {
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Hop"
+    ],
+    "tags": [
+      "Frog",
+      "Webbed",
+      "Frog_Like"
+    ],
+    "grants_skills": [
+      "Leap",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 25
+      }
+    ]
+  },
+  "Scaled_Reptilian_Legs": {
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "tags": [
+      "Lizard",
+      "Reptile",
+      "Lizard_Like"
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 35
+      }
+    ]
+  },
+  "Columnar_Stout_Legs": {
+    "traversal": [
+      "Walk"
+    ],
+    "tags": [
+      "Heavy",
+      "Pillar",
+      "Mammal",
+      "Elephant_Like"
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Stability"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 25
+      }
+    ]
+  }
+}

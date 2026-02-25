@@ -1,0 +1,46 @@
+{
+  "Exoskeletal_Octopod_Frame": {
+    "frame_type": [
+      "Octopod"
+    ],
+    "meat_group": [
+      "Chitin",
+      "Protein"
+    ],
+    "skills": [
+      "Web Spinner",
+      "Tremor Sense",
+      "Wall Climb"
+    ],
+    "slots": [
+      "Cephalothorax",
+      "Abdomen",
+      "Legs_x8"
+    ],
+    "tags": [
+      "Arachnid",
+      "Arthropod",
+      "Beast",
+      "Chitin",
+      "Exoskeleton",
+      "Spider_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 0.9
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 3
+      }
+    ]
+  }
+}

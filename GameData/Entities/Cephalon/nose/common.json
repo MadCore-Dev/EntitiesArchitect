@@ -1,0 +1,34 @@
+{
+  "Compact_Olfactory_Node": {
+    "scent_range": "Standard",
+    "tags": [
+      "Humanoid",
+      "Small",
+      "Weak",
+      "Human_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  },
+  "Jacobson_Organ_Vents": {
+    "scent_range": "Jacobson_Organ",
+    "tags": [
+      "Reptile",
+      "Taste_Scent",
+      "Flat",
+      "Snake_Like"
+    ],
+    "mods": [
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ]
+  }
+}

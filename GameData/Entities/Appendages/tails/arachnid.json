@@ -1,0 +1,24 @@
+{
+  "Segmented_Stinger_Tail": {
+    "traversal": [
+      "None"
+    ],
+    "tags": [
+      "Arachnid",
+      "Chitin",
+      "Weapon",
+      "Scorpion_Like"
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 0
+      }
+    ]
+  }
+}

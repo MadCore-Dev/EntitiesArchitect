@@ -1,0 +1,25 @@
+{
+  "Chitinous_Hexapod_Legs": {
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "tags": [
+      "Insect",
+      "Chitin",
+      "Sticky",
+      "Beetle_Like"
+    ],
+    "grants_skills": [
+      "Wall Climb",
+      "Spider Climb"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 30
+      }
+    ]
+  }
+}

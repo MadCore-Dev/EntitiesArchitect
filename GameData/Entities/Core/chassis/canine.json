@@ -1,0 +1,44 @@
+{
+  "Cursorial_Quadruped_Frame": {
+    "frame_type": [
+      "Quadruped"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "skills": [
+      "Sprint",
+      "Pack Tactics"
+    ],
+    "slots": [
+      "Head",
+      "Fore_Limbs",
+      "Hind_Limbs",
+      "Tail"
+    ],
+    "tags": [
+      "Mammal",
+      "Canine",
+      "Beast",
+      "Fur",
+      "Wolf_Like"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "multiply",
+        "val": 1.1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "set",
+        "val": 4
+      }
+    ]
+  }
+}

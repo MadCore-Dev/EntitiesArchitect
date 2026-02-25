@@ -342,27 +342,27 @@ function getWebviewContent(localIp, config) {
                 const displayName = file.title ? file.title : relativePath;
                 const networkUrl = state.running ? "http://" + localIp + ":" + state.port + "/" + relativePath : "";
 
-                card.innerHTML = \`
-                    <div class="card-top">
+                card.innerHTML = `
+        < div class="card-top" >
                         <div class="file-info">
-                            <span class="file-name" title="${file.title ? 'Title: ' + file.title : relativePath}">\${displayName}</span>
-                            <span class="file-path">${file.title ? relativePath + ' • ' : ''}${file.path}</span>
+                            <span class="file-name" title="\${file.title ? 'Title: ' + file.title : relativePath}">\${displayName}</span>
+                            <span class="file-path">\${file.title ? relativePath + ' • ' : ''}\${file.path}</span>
                         </div>
                         <span class="status-badge \${state.running ? 'on' : 'off'}">\${state.running ? 'Online' : 'Offline'}</span>
-                    </div>
-                    <div class="card-actions">
-                        \${!state.running 
-                            ? '<button class="primary" onclick="startServer(\\''+file.path+'\\')">▶ Start</button>'
+                    </div >
+        <div class="card-actions">
+            \${ !state.running
+                ? '<button class="primary" onclick="startServer(\\''+file.path+'\\')">▶ Start</button>'
                             : '<button class="stop" onclick="stopServer(\\''+file.path+'\\')">■ Stop</button>'
-                        }
-                        \${state.running ? '<button onclick="openLink(\\''+networkUrl+'\\')">🌐 Open</button>' : ''}
-                        \${state.running ? '<button onclick="toggleQR(\\''+file.path+'\\')">📱 QR</button>' : ''}
-                    </div>
-                    <div id="qr-\${btoa(file.path)}" class="qr-section \${state.qr ? '' : 'hidden'}">
-                        <div class="qr-container" id="canvas-\${btoa(file.path)}"></div>
-                        <span class="network-url">\${networkUrl}</span>
-                    </div>
-                \`;
+}
+\${ state.running ? '<button onclick="openLink(\\''+networkUrl+'\\')">🌐 Open</button>' : '' }
+\${ state.running ? '<button onclick="toggleQR(\\''+file.path+'\\')">📱 QR</button>' : '' }
+                    </div >
+    <div id="qr-\${btoa(file.path)}" class="qr-section \${state.qr ? '' : 'hidden'}">
+        <div class="qr-container" id="canvas-\${btoa(file.path)}"></div>
+        <span class="network-url">\${ networkUrl }</span>
+    </div>
+`;
                 list.appendChild(card);
                 
                 if (state.qr && state.running) {

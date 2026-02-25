@@ -15,6 +15,17 @@ const servers = new Map(); // Map<string, { server: http.Server, port: number }>
 // Helpers
 // ---------------------------------------------------------------------------
 
+function logErrorToFile(error, context = 'General') {
+    try {
+        const logPath = path.join(__dirname, 'debug_log.md');
+        const timestamp = new Date().toISOString();
+        const message = `\n## [${timestamp}] ${context}\n\n\`\`\`\n${error.stack || error}\n\`\`\`\n`;
+        fs.appendFileSync(logPath, message);
+    } catch (e) {
+        console.error('Failed to log to file:', e);
+    }
+}
+
 function getLocalIp() {
     const ifaces = os.networkInterfaces();
     for (const name of Object.keys(ifaces)) {
@@ -413,158 +424,168 @@ function getWebviewContent(localIp, config) {
 // ---------------------------------------------------------------------------
 
 function activate(context) {
-    const localIp = getLocalIp();
-    let detectedFiles = [];
-    let serverStates = {}; // Map of path -> { running, port, qrEnabled }
+    try {
+        const localIp = getLocalIp();
+        let detectedFiles = [];
+        let serverStates = {}; // Map of path -> { running, port, qrEnabled }
 
-    async function refreshWorkspace() {
-        const folders = vscode.workspace.workspaceFolders;
-        if (!folders) return;
-
-        const workspaceRoot = folders[0].uri.fsPath;
-        const config = await getProjectConfig(workspaceRoot);
-
-        const uris = await vscode.workspace.findFiles('**/*.html', '**/node_modules/**');
-
-        // Map to get titles and relative paths
-        let files = uris.map(u => {
-            const title = getHtmlTitle(u.fsPath);
-            // Get path relative to workspace root for cleaner matching
-            const relativePath = path.relative(workspaceRoot, u.fsPath).replace(/\\/g, '/');
-            return { path: u.fsPath, title: title, relativePath: relativePath };
-        });
-
-        // Filter based on entryPoints if the array has items
-        if (config.entryPoints && config.entryPoints.length > 0) {
-            files = files.filter(f => config.entryPoints.includes(f.relativePath));
-        }
-
-        detectedFiles = files;
-        sendState();
-    }
-
-    function sendState() {
-        const folders = vscode.workspace.workspaceFolders;
-        const workspaceRoot = folders ? folders[0].uri.fsPath : null;
-        const hasConfig = workspaceRoot ? fs.existsSync(path.join(workspaceRoot, '.madcore-server.json')) : false;
-
-        // Build state object for the webview
-        const states = {};
-        if (workspaceRoot) {
-            detectedFiles.forEach(f => {
-                const entry = servers.get(f.path);
-                states[f.path] = {
-                    running: !!entry,
-                    port: entry ? entry.port : 0,
-                    qr: !!serverStates[f.path]?.qrEnabled
-                };
-            });
-        }
-
-        if (activeWebview) {
-            activeWebview.webview.postMessage({
-                type: 'stateUpdate',
-                files: detectedFiles,
-                states,
-                hasConfig
-            });
-        }
-    }
-
-    let activeWebview = null;
-
-    const provider = {
-        async resolveWebviewView(webviewView) {
-            activeWebview = webviewView;
-
+        async function refreshWorkspace() {
             const folders = vscode.workspace.workspaceFolders;
-            const config = (folders && folders.length > 0) ? await getProjectConfig(folders[0].uri.fsPath) : {};
+            if (!folders) return;
 
-            webviewView.webview.options = { enableScripts: true };
-            webviewView.webview.html = getWebviewContent(localIp, config);
+            const workspaceRoot = folders[0].uri.fsPath;
+            const config = await getProjectConfig(workspaceRoot);
 
-            webviewView.webview.onDidReceiveMessage(async (msg) => {
-                switch (msg.command) {
-                    case 'refresh':
-                        await refreshWorkspace();
-                        break;
-                    case 'start':
-                        try {
-                            await startNodeServer(msg.path);
-                            if (!serverStates[msg.path]) serverStates[msg.path] = {};
-                            serverStates[msg.path].running = true;
-                            sendState();
-                        } catch (e) {
-                            vscode.window.showErrorMessage(`Failed to start server: ${e.message}`);
-                        }
-                        break;
-                    case 'stop':
-                        stopNodeServer(msg.path);
-                        if (serverStates[msg.path]) serverStates[msg.path].running = false;
-                        sendState();
-                        break;
-                    case 'toggleQR':
-                        if (!serverStates[msg.path]) serverStates[msg.path] = {};
-                        serverStates[msg.path].qrEnabled = !serverStates[msg.path].qrEnabled;
-                        sendState();
-                        break;
-                    case 'open':
-                        vscode.commands.executeCommand('simpleBrowser.show', msg.url);
-                        break;
-                    case 'createConfig':
-                        const folders = vscode.workspace.workspaceFolders;
-                        if (folders) {
-                            const root = folders[0].uri.fsPath;
-                            const configPath = path.join(root, '.madcore-server.json');
-                            const boilerplate = {
-                                title: "MadCore Project",
-                                subtitle: "Development Dashboard",
-                                themeColor: "#3b82f6",
-                                entryPoints: []
-                            };
-                            fs.writeFileSync(configPath, JSON.stringify(boilerplate, null, 2));
-                            vscode.window.showInformationMessage('Created .madcore-server.json - Edit it to customize your dashboard!');
-                            sendState();
-                        }
-                        break;
-                    case 'editConfig':
-                        const workspaceFolders = vscode.workspace.workspaceFolders;
-                        if (workspaceFolders) {
-                            const root = workspaceFolders[0].uri.fsPath;
-                            const configPath = path.join(root, '.madcore-server.json');
-                            if (fs.existsSync(configPath)) {
-                                vscode.workspace.openTextDocument(configPath).then(doc => {
-                                    vscode.window.showTextDocument(doc);
-                                });
-                            }
-                        }
-                        break;
-                }
+            const uris = await vscode.workspace.findFiles('**/*.html', '**/node_modules/**');
+
+            // Map to get titles and relative paths
+            let files = uris.map(u => {
+                const title = getHtmlTitle(u.fsPath);
+                // Get path relative to workspace root for cleaner matching
+                const relativePath = path.relative(workspaceRoot, u.fsPath).replace(/\\/g, '/');
+                return { path: u.fsPath, title: title, relativePath: relativePath };
             });
 
-            webviewView.onDidDispose(() => {
-                activeWebview = null;
-            });
+            // Filter based on entryPoints if the array has items
+            if (config.entryPoints && config.entryPoints.length > 0) {
+                files = files.filter(f => config.entryPoints.includes(f.relativePath));
+            }
+
+            detectedFiles = files;
+            sendState();
         }
-    };
 
-    context.subscriptions.push(
-        vscode.window.registerWebviewViewProvider('madcore.serverView', provider, {
-            webviewOptions: { retainContextWhenHidden: true }
-        })
-    );
+        function sendState() {
+            const folders = vscode.workspace.workspaceFolders;
+            const workspaceRoot = folders ? folders[0].uri.fsPath : null;
+            const hasConfig = workspaceRoot ? fs.existsSync(path.join(workspaceRoot, '.madcore-server.json')) : false;
 
-    context.subscriptions.push(
-        vscode.commands.registerCommand('madcore.launchServer', () => {
-            vscode.commands.executeCommand('workbench.view.extension.madcore-dev-server');
-        })
-    );
+            // Build state object for the webview
+            const states = {};
+            if (workspaceRoot) {
+                detectedFiles.forEach(f => {
+                    const entry = servers.get(f.path);
+                    states[f.path] = {
+                        running: !!entry,
+                        port: entry ? entry.port : 0,
+                        qr: !!serverStates[f.path]?.qrEnabled
+                    };
+                });
+            }
 
-    // Watch for file changes
-    const watcher = vscode.workspace.createFileSystemWatcher('**/*.html');
-    watcher.onDidCreate(() => refreshWorkspace());
-    watcher.onDidDelete(() => refreshWorkspace());
-    context.subscriptions.push(watcher);
+            if (activeWebview) {
+                activeWebview.webview.postMessage({
+                    type: 'stateUpdate',
+                    files: detectedFiles,
+                    states,
+                    hasConfig
+                });
+            }
+        }
+
+        let activeWebview = null;
+
+        const provider = {
+            async resolveWebviewView(webviewView) {
+                try {
+                    activeWebview = webviewView;
+
+                    const folders = vscode.workspace.workspaceFolders;
+                    const config = (folders && folders.length > 0) ? await getProjectConfig(folders[0].uri.fsPath) : {};
+
+                    webviewView.webview.options = { enableScripts: true };
+                    webviewView.webview.html = getWebviewContent(localIp, config);
+
+                    webviewView.webview.onDidReceiveMessage(async (msg) => {
+                        switch (msg.command) {
+                            case 'refresh':
+                                await refreshWorkspace();
+                                break;
+                            case 'start':
+                                try {
+                                    await startNodeServer(msg.path);
+                                    if (!serverStates[msg.path]) serverStates[msg.path] = {};
+                                    serverStates[msg.path].running = true;
+                                    sendState();
+                                } catch (e) {
+                                    vscode.window.showErrorMessage(`Failed to start server: ${e.message}`);
+                                }
+                                break;
+                            case 'stop':
+                                stopNodeServer(msg.path);
+                                if (serverStates[msg.path]) serverStates[msg.path].running = false;
+                                sendState();
+                                break;
+                            case 'toggleQR':
+                                if (!serverStates[msg.path]) serverStates[msg.path] = {};
+                                serverStates[msg.path].qrEnabled = !serverStates[msg.path].qrEnabled;
+                                sendState();
+                                break;
+                            case 'open':
+                                vscode.commands.executeCommand('simpleBrowser.show', msg.url);
+                                break;
+                            case 'createConfig':
+                                const folders = vscode.workspace.workspaceFolders;
+                                if (folders) {
+                                    const root = folders[0].uri.fsPath;
+                                    const configPath = path.join(root, '.madcore-server.json');
+                                    const boilerplate = {
+                                        title: "MadCore Project",
+                                        subtitle: "Development Dashboard",
+                                        themeColor: "#3b82f6",
+                                        entryPoints: []
+                                    };
+                                    fs.writeFileSync(configPath, JSON.stringify(boilerplate, null, 2));
+                                    vscode.window.showInformationMessage('Created .madcore-server.json - Edit it to customize your dashboard!');
+                                    sendState();
+                                }
+                                break;
+                            case 'editConfig':
+                                const workspaceFolders = vscode.workspace.workspaceFolders;
+                                if (workspaceFolders) {
+                                    const root = workspaceFolders[0].uri.fsPath;
+                                    const configPath = path.join(root, '.madcore-server.json');
+                                    if (fs.existsSync(configPath)) {
+                                        vscode.workspace.openTextDocument(configPath).then(doc => {
+                                            vscode.window.showTextDocument(doc);
+                                        });
+                                    }
+                                }
+                                break;
+                        }
+                    });
+
+                    webviewView.onDidDispose(() => {
+                        activeWebview = null;
+                    });
+                } catch (e) {
+                    logErrorToFile(e, 'resolveWebviewView');
+                    throw e;
+                }
+            }
+        };
+
+        context.subscriptions.push(
+            vscode.window.registerWebviewViewProvider('madcore.serverView', provider, {
+                webviewOptions: { retainContextWhenHidden: true }
+            })
+        );
+
+        context.subscriptions.push(
+            vscode.commands.registerCommand('madcore.launchServer', () => {
+                vscode.commands.executeCommand('workbench.view.extension.madcore-dev-server');
+            })
+        );
+
+        // Watch for file changes
+        const watcher = vscode.workspace.createFileSystemWatcher('**/*.html');
+        watcher.onDidCreate(() => refreshWorkspace());
+        watcher.onDidDelete(() => refreshWorkspace());
+        context.subscriptions.push(watcher);
+    } catch (e) {
+        logErrorToFile(e, 'Activation');
+        throw e;
+    }
 }
 
 function deactivate() {

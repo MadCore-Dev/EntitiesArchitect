@@ -6,7 +6,7 @@
 set -e
 
 SRC="$(cd "$(dirname "$0")/madcore-extension" && pwd)"
-DEST="$HOME/.antigravity/extensions/madcore-dev-server-1.0.0"
+DEST="$HOME/.antigravity/extensions/madcore-dev-server-1.0.2"
 
 echo "⚡ Installing MadCore Dev Server extension..."
 echo "   Source : $SRC"

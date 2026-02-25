@@ -342,27 +342,27 @@ function getWebviewContent(localIp, config) {
                 const displayName = file.title ? file.title : relativePath;
                 const networkUrl = state.running ? "http://" + localIp + ":" + state.port + "/" + relativePath : "";
 
-                card.innerHTML = `
-        < div class="card-top" >
+                card.innerHTML = \`
+                    <div class="card-top">
                         <div class="file-info">
                             <span class="file-name" title="\${file.title ? 'Title: ' + file.title : relativePath}">\${displayName}</span>
                             <span class="file-path">\${file.title ? relativePath + ' • ' : ''}\${file.path}</span>
                         </div>
                         <span class="status-badge \${state.running ? 'on' : 'off'}">\${state.running ? 'Online' : 'Offline'}</span>
-                    </div >
-        <div class="card-actions">
-            \${ !state.running
-                ? '<button class="primary" onclick="startServer(\\''+file.path+'\\')">▶ Start</button>'
+                    </div>
+                    <div class="card-actions">
+                        \${!state.running 
+                            ? '<button class="primary" onclick="startServer(\\''+file.path+'\\')">▶ Start</button>'
                             : '<button class="stop" onclick="stopServer(\\''+file.path+'\\')">■ Stop</button>'
-}
-\${ state.running ? '<button onclick="openLink(\\''+networkUrl+'\\')">🌐 Open</button>' : '' }
-\${ state.running ? '<button onclick="toggleQR(\\''+file.path+'\\')">📱 QR</button>' : '' }
-                    </div >
-    <div id="qr-\${btoa(file.path)}" class="qr-section \${state.qr ? '' : 'hidden'}">
-        <div class="qr-container" id="canvas-\${btoa(file.path)}"></div>
-        <span class="network-url">\${ networkUrl }</span>
-    </div>
-`;
+                        }
+                        \${state.running ? '<button onclick="openLink(\\''+networkUrl+'\\')">🌐 Open</button>' : ''}
+                        \${state.running ? '<button onclick="toggleQR(\\''+file.path+'\\')">📱 QR</button>' : ''}
+                    </div>
+                    <div id="qr-\${btoa(file.path)}" class="qr-section \${state.qr ? '' : 'hidden'}">
+                        <div class="qr-container" id="canvas-\${btoa(file.path)}"></div>
+                        <span class="network-url">\${networkUrl}</span>
+                    </div>
+                \`;
                 list.appendChild(card);
                 
                 if (state.qr && state.running) {
@@ -424,6 +424,7 @@ function getWebviewContent(localIp, config) {
 // ---------------------------------------------------------------------------
 
 function activate(context) {
+    console.log('MadCore Dev Server: Activating...');
     try {
         const localIp = getLocalIp();
         let detectedFiles = [];
@@ -488,6 +489,7 @@ function activate(context) {
         const provider = {
             async resolveWebviewView(webviewView) {
                 try {
+                    console.log('MadCore Dev Server: Resolving Webview...');
                     activeWebview = webviewView;
 
                     const folders = vscode.workspace.workspaceFolders;
@@ -497,6 +499,7 @@ function activate(context) {
                     webviewView.webview.html = getWebviewContent(localIp, config);
 
                     webviewView.webview.onDidReceiveMessage(async (msg) => {
+                        console.log('MadCore Dev Server: Received message:', msg.command);
                         switch (msg.command) {
                             case 'refresh':
                                 await refreshWorkspace();

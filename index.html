@@ -148,13 +148,22 @@
                 }
             },
             skills: {
-                "Bite": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
-                "Claw": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Maul": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "2d6" }] },
-                "Sprint": { "type": "Movement", "mods": [{ "target": "speed_bonus", "op": "add", "val": 10 }] },
-                "Scratch": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1" }] },
-                "Tail Whip": { "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
-                "Roar": { "type": "Effect", "mods": [{ "target": "status", "op": "apply", "val": "Frightened" }] }
+                "Bite": { "description": "Strong jaw attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
+                "Claw": { "description": "Sharp claw swipe.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
+                "Maul": { "description": "Brutal mauling attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d8" }] },
+                "Sprint": { "description": "Dash as bonus action.", "type": "Movement", "mods": [] },
+                "Pack Tactics": { "description": "Advantage if ally is near.", "type": "Passive", "mods": [] },
+                "Stealth": { "description": "Move silently and hide in shadows.", "type": "Skill", "mods": [] },
+                "Pounce": { "description": "Leaping ambush strike.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d6" }] },
+                "Scratch": { "description": "Quick scratch attack.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1" }] },
+                "Tail Whip": { "description": "Whipping tail strike.", "type": "Attack", "mods": [{ "target": "hp", "op": "subtract", "roll": "1d4" }] },
+                "Roar": { "description": "Terrifying roar, frightens nearby foes.", "type": "Effect", "mods": [{ "target": "status", "op": "apply", "val": "Frightened" }] },
+                "Bark_Roar": { "description": "Intimidating bark and roar combination.", "type": "Communication", "mods": [] },
+                "Durability": { "description": "Thick hide, gains extra HP per Hit Die.", "type": "Passive", "mods": [] },
+                "Cold Blooded": { "description": "Vulnerable to cold, resistant to fire.", "type": "Passive", "mods": [] },
+                "Tool Use": { "description": "Can manipulate tools and objects.", "type": "Passive", "mods": [] },
+                "Groom": { "description": "Meticulous self-grooming behaviour.", "type": "Utility", "mods": [] },
+                "Thermal Vision": { "description": "Sees heat signatures in darkness.", "type": "Sense", "mods": [] }
             },
             prefixes: {
                 "Rabid": { "conditions": { "max_int": 3 }, "mods": [{ "target": "str", "val": 1.5, "op": "multiply" }, { "target": "con", "val": 0.8, "op": "multiply" }, { "target": "behavior", "val": "Aggressive", "op": "set" }] },
@@ -330,8 +339,17 @@
                 const chassis = e.traits[0].replace(/_/g, ' ');
                 const tags = e.traits.slice(1).filter(t => !GAME_DATA.prefixes[t]).join(', ');
                 const parts = e.parts.join(', ');
-                const skills = e.skills.join(', ');
-                return `Dark fantasy character portrait: ${prefix ? prefix + ' ' : ''}${chassis}. Physical traits: ${parts}. Tags: ${tags}. Abilities: ${skills}. Style: detailed digital art, cinematic lighting, epic fantasy, highly detailed, photorealistic`.trim();
+
+                // Use skill descriptions when available, fall back to skill name
+                const skillDescs = e.skills.map(s => {
+                    const def = GAME_DATA.skills[s];
+                    if (def && def.description && def.description !== 'No description') {
+                        return def.description;
+                    }
+                    return s;
+                }).join('; ');
+
+                return `Full body creature concept art, neutral idle stance showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Anatomy: ${parts}. Traits: ${tags}. Abilities: ${skillDescs}. Style: stylized game art, cel-shaded, clean bold outlines, flat colours, Monster Hunter creature design, Final Fantasy bestiary illustration, white background, full figure head to toe, no background clutter`.trim();
             };
 
             const generatePortrait = async () => {
@@ -351,7 +369,7 @@
                         '3': { class_type: 'VAELoader', inputs: { vae_name: 'flux_vae.safetensors' } },
                         '4': { class_type: 'CLIPTextEncode', inputs: { text: prompt, clip: ['2', 0] } },
                         '9': { class_type: 'CLIPTextEncode', inputs: { text: '', clip: ['2', 0] } },
-                        '5': { class_type: 'EmptyLatentImage', inputs: { width: 512, height: 512, batch_size: 1 } },
+                        '5': { class_type: 'EmptyLatentImage', inputs: { width: 384, height: 512, batch_size: 1 } },
                         '6': { class_type: 'KSampler', inputs: { seed: Math.floor(Math.random() * 1e6), steps: 4, cfg: 1.0, sampler_name: 'euler', scheduler: 'simple', denoise: 1.0, model: ['1', 0], positive: ['4', 0], negative: ['9', 0], latent_image: ['5', 0] } },
                         '7': { class_type: 'VAEDecode', inputs: { samples: ['6', 0], vae: ['3', 0] } },
                         '8': { class_type: 'SaveImage', inputs: { filename_prefix: 'entity_portrait', images: ['7', 0] } }

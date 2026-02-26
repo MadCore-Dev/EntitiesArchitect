@@ -80,9 +80,12 @@
         const TRAFFIC_COP = "http://127.0.0.1:5050";
         const COMFY_API_HOST = "127.0.0.1:8188";
         const CLIENT_ID = Math.random().toString(36).substring(2, 10);
-        const IS_LOCAL = window.location.hostname === "localhost" ||
-            window.location.hostname === "127.0.0.1" ||
-            window.location.protocol === "file:";
+        const isLanIP = /^(192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[0-1])\.)/.test(window.location.hostname);
+        const IS_LOCAL = window.isSecureContext || window.location.protocol === "file:" || window.location.hostname.includes("webview") || isLanIP;
+
+        // Output image dimensions (512x512 is the standard native resolution for SD1.5 pixel art)
+        const IMG_WIDTH = 512;
+        const IMG_HEIGHT = 512;
 
         // ==========================================
         // 1. DYNAMIC DATA LOADER
@@ -431,7 +434,7 @@
                         const msg = JSON.parse(event.data);
                         if (msg.type === 'progress') {
                             const pct = Math.round((msg.data.value / msg.data.max) * 100);
-                            setImgState(s => ({ ...s, progress: pct, status: `Sampling step ${msg.data.value}/${msg.data.max}` }));
+                            setImgState(s => ({ ...s, progress: pct, status: `🎨 Sampler: Step ${msg.data.value}/${msg.data.max}` }));
                         } else if (msg.type === 'executing' && msg.data.node) {
                             setImgState(s => ({ ...s, status: `Running: Node ${msg.data.node}` }));
                         }
@@ -529,45 +532,38 @@
                     ? `${poseSkillDef.description} (executing: ${poseSkillName})`
                     : 'powerful attack, mid-strike pose, full commitment, dynamic motion blur';
 
-                return `Full body creature concept art, ${poseAction}, showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Size: ${sizeLabel}, ${toughness}. Anatomy: ${parts}.${anatomyDesc}${appearanceDesc}${sensorDesc} Traits: ${tags}. Abilities: ${skillDescs}. Style: stylized game art, cel-shaded, clean bold outlines, flat colours, Monster Hunter creature design, Final Fantasy bestiary illustration, white background, full figure head to toe, no background clutter`.trim();
+                // Adjusted for 64x64 pixel art
+                return `Retro 16-bit RPG pixel art sprite, ${poseAction}, showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Size: ${sizeLabel}, ${toughness}. Anatomy: ${parts}.${anatomyDesc}${appearanceDesc}${sensorDesc} Traits: ${tags}. Abilities: ${skillDescs}. Style: high-quality pixel art sprite, clear silhouette, flat colors, transparent background, isolated, perfectly centered.`.trim();
             };
 
             const generatePortrait = async () => {
                 if (!entity || imgState.loading) return;
-                setImgState({ loading: true, progress: 0, status: 'Contacting Traffic Cop...', url: null, error: null });
+                setImgState({ loading: true, progress: 0, status: 'Contacting Traffic Cop: Preparing Hardware...', url: null, error: null });
                 try {
+                    // 1. Handshake with Traffic Cop
                     const copRes = await fetch(`${TRAFFIC_COP}/comfyui/start`, { method: 'POST' });
                     const copData = await copRes.json();
                     if (copData.status !== 'success') throw new Error('Traffic Cop failed to start ComfyUI');
 
+                    setImgState(s => ({ ...s, status: '🎨 ComfyUI Ready: Constructing FLUX Workflow...' }));
+
                     const prompt = buildPrompt(entity);
-                    setImgState(s => ({ ...s, status: 'Queuing workflow...' }));
 
-                    const workflow = {
-                        '1': { class_type: 'UnetLoaderGGUF', inputs: { unet_name: 'flux1-schnell-Q4_K_S.gguf' } },
-                        '2': { class_type: 'DualCLIPLoader', inputs: { clip_name1: 't5xxl_fp8_e4m3fn.safetensors', clip_name2: 'clip_l.safetensors', type: 'flux' } },
-                        '3': { class_type: 'VAELoader', inputs: { vae_name: 'flux_vae.safetensors' } },
-                        '4': { class_type: 'CLIPTextEncode', inputs: { text: prompt, clip: ['2', 0] } },
-                        '9': { class_type: 'CLIPTextEncode', inputs: { text: '', clip: ['2', 0] } },
-                        '5': { class_type: 'EmptyLatentImage', inputs: { width: 384, height: 512, batch_size: 1 } },
-                        '6': { class_type: 'KSampler', inputs: { seed: Math.floor(Math.random() * 1e6), steps: 4, cfg: 1.0, sampler_name: 'euler', scheduler: 'simple', denoise: 1.0, model: ['1', 0], positive: ['4', 0], negative: ['9', 0], latent_image: ['5', 0] } },
-                        '7': { class_type: 'VAEDecode', inputs: { samples: ['6', 0], vae: ['3', 0] } },
-                        '8': { class_type: 'SaveImage', inputs: { filename_prefix: 'entity_portrait', images: ['7', 0] } }
-                    };
-
+                    // 2. Queue the workflow
                     const qRes = await fetch(`http://${COMFY_API_HOST}/prompt`, {
                         method: 'POST', headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ prompt: workflow, client_id: CLIENT_ID })
+                        body: JSON.stringify({ prompt: getFluxWorkflow(prompt), client_id: CLIENT_ID })
                     });
                     const { prompt_id } = await qRes.json();
-                    setImgState(s => ({ ...s, status: 'Generation in progress...' }));
+                    setImgState(s => ({ ...s, status: `⏳ Gen in progress (ID: ${prompt_id.slice(0, 8)})...` }));
 
+                    // 3. Poll for results
                     while (true) {
                         const hRes = await fetch(`http://${COMFY_API_HOST}/history/${prompt_id}`);
                         const history = await hRes.json();
                         if (history[prompt_id]) {
                             const filename = history[prompt_id].outputs['8'].images[0].filename;
-                            setImgState({ loading: false, progress: 100, status: 'Complete!', url: `http://${COMFY_API_HOST}/view?filename=${filename}&type=output`, error: null });
+                            setImgState({ loading: false, progress: 100, status: 'Ready for next asset.', url: `http://${COMFY_API_HOST}/view?filename=${filename}&type=output`, error: null });
                             break;
                         }
                         await new Promise(r => setTimeout(r, 2000));
@@ -577,6 +573,19 @@
                     setImgState(s => ({ ...s, loading: false, error: err.message }));
                 }
             };
+
+            // Helper for the exact blueprint tested
+            const getFluxWorkflow = (prompt) => ({
+                '1': { class_type: 'UnetLoaderGGUF', inputs: { unet_name: 'flux1-schnell-Q4_K_S.gguf' } },
+                '2': { class_type: 'DualCLIPLoader', inputs: { clip_name1: 't5xxl_fp8_e4m3fn.safetensors', clip_name2: 'clip_l.safetensors', type: 'flux' } },
+                '3': { class_type: 'VAELoader', inputs: { vae_name: 'flux_vae.safetensors' } },
+                '4': { class_type: 'CLIPTextEncode', inputs: { text: prompt, clip: ['2', 0] } },
+                '9': { class_type: 'CLIPTextEncode', inputs: { text: '', clip: ['2', 0] } },
+                '5': { class_type: 'EmptyLatentImage', inputs: { width: IMG_WIDTH, height: IMG_HEIGHT, batch_size: 1 } },
+                '6': { class_type: 'KSampler', inputs: { seed: Math.floor(Math.random() * 1e6), steps: 4, cfg: 1.0, sampler_name: 'euler', scheduler: 'simple', denoise: 1.0, model: ['1', 0], positive: ['4', 0], negative: ['9', 0], latent_image: ['5', 0] } },
+                '7': { class_type: 'VAEDecode', inputs: { samples: ['6', 0], vae: ['3', 0] } },
+                '8': { class_type: 'SaveImage', inputs: { filename_prefix: 'entity_portrait', images: ['7', 0] } }
+            });
 
             const generate = () => {
                 setImgState({ loading: false, progress: 0, status: '', url: null, error: null });
@@ -639,6 +648,14 @@
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-6">
                                 <div className="space-y-4">
+                                    { /* Portrait image (local only) - Moved above Attributes */ }
+                                    { imgState.url && (
+                                        <div className="rounded-lg overflow-hidden border border-purple-600/40 shadow-xl bg-neutral-900">
+                                            <div className="text-xs text-purple-400 px-2 pt-2 pb-1 bg-purple-950/40 font-bold uppercase tracking-wider">Entity Portrait</div>
+                                            <img src={ imgState.url } alt="Generated entity portrait" className="w-full object-cover image-pixelated" style={ { imageRendering: 'pixelated' } } />
+                                        </div>
+                                    ) }
+
                                     <div className="bg-neutral-900 p-4 rounded-lg border border-neutral-700">
                                         <h3 className="text-lg font-bold text-blue-400 mb-2 border-b border-neutral-700 pb-1 flex items-center gap-2">
                                             <User size={ 18 } /> Attributes
@@ -674,14 +691,6 @@
                                                 );
                                             });
                                         })() }
-
-                                        { /* Portrait image (local only) */ }
-                                        { imgState.url && (
-                                            <div className="mt-4 rounded-lg overflow-hidden border border-purple-600/40 shadow-xl">
-                                                <div className="text-xs text-purple-400 px-2 pt-2 pb-1 bg-purple-950/40 font-bold uppercase tracking-wider">Entity Portrait</div>
-                                                <img src={ imgState.url } alt="Generated entity portrait" className="w-full object-cover" />
-                                            </div>
-                                        ) }
                                     </div>
 
                                     {/* Loot & Harvest Block */ }

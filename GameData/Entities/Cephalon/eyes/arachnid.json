@@ -1,1 +1,58 @@
-{}
+{
+    "Principal_Ocelli_Cluster": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Ocelli",
+            "Multi_Lens",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Keen Sight"
+        ],
+        "description": "A cluster of principal forward-facing simple eyes (ocelli) flanked by secondary lateral eyes. They excel at detecting movement and polarizing light for navigation, even in near total darkness."
+    },
+    "Secondary_Motion_Ocelli": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Motion_Tracking",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "Vastly expanded secondary eyes that process visual data purely as motion vectors. While incapable of resolving fine detail or color, they grant almost precognitive reflexes against incoming threats."
+    }
+}

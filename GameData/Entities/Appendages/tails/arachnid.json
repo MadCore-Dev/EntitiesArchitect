@@ -1,25 +1,58 @@
 {
-  "Segmented_Stinger_Tail": {
+  "Metasoma_Stinger": {
+    "tags": [
+      "Appendage",
+      "Tail",
+      "Exoskeleton",
+      "Stinger",
+      "Venom",
+      "Arachnid"
+    ],
     "traversal": [
       "None"
     ],
-    "tags": [
-      "Arachnid",
-      "Chitin",
-      "Weapon",
-      "Scorpion_Like"
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
     ],
     "grants_skills": [
-      "Sting",
-      "Poison"
+      "Barbed Sting",
+      "Inject_Toxin"
+    ],
+    "description": "A heavily segmented metasoma terminating in a curved, razor-sharp telson. This tail acts as a hyper-dexterous fifth limb, delivering paralyzing venom with surgical precision over obstacles."
+  },
+  "Whip_Spider_Flagellum": {
+    "tags": [
+      "Appendage",
+      "Tail",
+      "Whip",
+      "Sensory",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 0
+        "val": 2
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 3
       }
     ],
-    "description": "The Segmented Stinger Tail, a chitin-reinforced scorpion-like weapon, coils with deadly precision, promising swift strikes and venomous stings that paralyze foes."
+    "grants_skills": [],
+    "description": "An incredibly long, hair-thin filament tail completely devoid of venom or stingers. It serves entirely as an ultra-sensitive radar antenna, whipping through the air to detect invisible threats."
   }
 }

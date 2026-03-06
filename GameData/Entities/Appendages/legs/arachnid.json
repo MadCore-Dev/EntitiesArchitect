@@ -1,1 +1,100 @@
-{}
+{
+    "Cursorial_Huntsman_Legs": {
+        "tags": [
+            "Appendage",
+            "Long",
+            "Speed",
+            "Arachnid",
+            "Legs"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Sprint"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Dash",
+            "Acrobatics"
+        ],
+        "description": "Eight exceptionally long, splayed legs tipped with microscopic scopulae hairs. They allow the creature to move with terrifying speed and agility across any surface, defying gravity."
+    },
+    "Salticid_Jumping_Legs": {
+        "tags": [
+            "Appendage",
+            "Muscular",
+            "Jump",
+            "Hydraulic",
+            "Arachnid",
+            "Legs"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "jump_distance",
+                "op": "add",
+                "val": 10
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Leap",
+            "Ambush"
+        ],
+        "description": "Thick, hydraulically-powered hind legs capable of storing immense pressure. By selectively rapidly uncoiling, the arachnid can launch itself many times its own body length."
+    },
+    "Fossorial_Burrowing_Limbs": {
+        "tags": [
+            "Appendage",
+            "Thick",
+            "Spined",
+            "Arachnid",
+            "Legs"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Dig"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Short, immensely thick legs lined with heavy, comb-like spines designed for excavating dense earth. What they lack in running speed, they make up for in absolute stopping power."
+    }
+}

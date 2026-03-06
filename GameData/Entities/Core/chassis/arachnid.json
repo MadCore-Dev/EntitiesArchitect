@@ -1,47 +1,93 @@
 {
-  "Exoskeletal_Octopod_Frame": {
-    "frame_type": [
-      "Octopod"
-    ],
-    "meat_group": [
-      "Chitin",
-      "Protein"
-    ],
-    "skills": [
-      "Web Spinner",
-      "Tremor Sense",
-      "Wall Climb"
-    ],
-    "slots": [
-      "Cephalothorax",
-      "Abdomen",
-      "Legs_x8"
-    ],
+  "Exoskeletal_Prosoma_Frame": {
     "tags": [
-      "Arachnid",
-      "Arthropod",
-      "Beast",
       "Chitin",
       "Exoskeleton",
-      "Spider_Like"
+      "Arachnid",
+      "Segmented"
+    ],
+    "traversal": [
+      "Climb"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 0.9
-      },
-      {
-        "target": "natural_armor",
+        "target": "dex",
         "op": "add",
         "val": 2
       },
       {
         "target": "size_index",
-        "op": "set",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "A dense, completely fused head and thorax forming a rigid prosoma. It anchors eight limbs seamlessly and provides excellent structural integrity, significantly boosting agility and baseline armor at the cost of sheer muscle mass."
+  },
+  "Abdominal_Spinneret_Core": {
+    "tags": [
+      "Flesh",
+      "Soft_Abdomen",
+      "Silk_Glands",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Climb",
+      "Web_Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "add",
         "val": 3
       }
     ],
-    "description": "The Exoskeletal_Octopod_Frame pulses with otherworldly vitality, its chitin exoskeleton glistening like iridescent armor under moonlight, while eight spindly legs wrap around the terrain with eerie precision. This beast's tremor sense quivers through its frame, guiding it with an innate understanding of the earth beneath its feet."
+    "grants_skills": [
+      "Web Shoot"
+    ],
+    "description": "A massive, fleshy opisthosoma (abdomen) housing hypertrophied silk glands and respiratory book lungs. Though physically vulnerable, it allows for the continuous production of complex silk structures and vastly expands the organism's total mass."
+  },
+  "Compact_Opiliones_Frame": {
+    "tags": [
+      "Chitin",
+      "Fused",
+      "Lightweight",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Climb",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "A highly compressed, pill-like chassis where the prosoma and abdomen are virtually indistinguishable. This ultra-lightweight frame trades physical strength for explosive, frantic bursts of scuttling speed."
   }
 }

@@ -1,1 +1,29 @@
-{}
+{
+    "Trichobothria_Slit_Sensilla": {
+        "tags": [
+            "Sensory",
+            "Hairs",
+            "Vibration",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Microscopic, highly sensitive hairs and slit sensilla mapped across the cuticle. While lacking internal auditory canals, these organs can interpret minute air currents and ground vibrations to form a terrifyingly accurate tactile map of the environment."
+    }
+}

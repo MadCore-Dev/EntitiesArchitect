@@ -1,1 +1,57 @@
-{}
+{
+    "Sclerotized_Chitin_Plating": {
+        "tags": [
+            "Chitin",
+            "Hard",
+            "Sclerotin",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Thick, hardened sclerotin plates offering substantial deflection of physical blows, though the rigid joints incur a slight penalty to fine motor agility."
+    },
+    "Urticating_Hirsute_Cuticle": {
+        "tags": [
+            "Hair",
+            "Bristles",
+            "Flesh",
+            "Sensory",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bristle_Shed"
+        ],
+        "description": "A dense covering of fine, sensitive hairs that detect micro-currents in the air. While offering minimal armor, these urticating bristles can be violently shed to blind and irritate attackers."
+    }
+}

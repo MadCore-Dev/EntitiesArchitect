@@ -1,1 +1,47 @@
-{}
+{
+    "Venomous_Chelicerae": {
+        "tags": [
+            "Fangs",
+            "Venom",
+            "Maw",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Inject_Toxin"
+        ],
+        "description": "Massive, downward-striking fangs connected to highly developed venom glands. Designed to pierce thick armor and immediately liquefy the prey's internal organs for consumption."
+    },
+    "Pedipalp_Grinding_Maw": {
+        "tags": [
+            "Mandibles",
+            "Grinding",
+            "Maw",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Crushing Jaw"
+        ],
+        "description": "A complex arrangement of specialized, serrated pedipalps and mouthparts designed strictly for mechanical grinding and maceration of tough flesh, requiring intense constitution to power."
+    }
+}

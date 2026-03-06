@@ -1,1 +1,24 @@
-{}
+{
+    "Tarsal_Olfactory_Pores": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Pores",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Pheromone_Tracking"
+        ],
+        "description": "Chemosensitive pores distributed near the mouthparts and forelimbs replacing a traditional olfactory organ. They are uniquely tuned to track specific pheromone trails over vast distances."
+    }
+}

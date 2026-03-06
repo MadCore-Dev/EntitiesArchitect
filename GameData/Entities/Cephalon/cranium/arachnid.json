@@ -1,1 +1,58 @@
-{}
+{
+    "Fused_Ocular_Carapace": {
+        "tags": [
+            "Chitin",
+            "Carapace",
+            "Head",
+            "Arachnid",
+            "Fused"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A steeply domed cephalothorax plate specifically evolved to house multiple ocular nodes. It provides excellent 360-degree awareness but leaves the core ganglion somewhat exposed beneath its thinner apex."
+    },
+    "Cheliceral_Anchorage_Skull": {
+        "tags": [
+            "Thick_Chitin",
+            "Head",
+            "Fangs",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A heavily reinforced, forward-sloping skull designed entirely to anchor massive chelicerae musculature. Built for crushing bites, sacrificing sensory real estate and cognitive space for brute frontal destruction."
+    }
+}

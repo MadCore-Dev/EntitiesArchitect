@@ -1,1 +1,57 @@
-{}
+{
+    "Raptorial_Pedipalps": {
+        "tags": [
+            "Appendage",
+            "Claws",
+            "Grasping",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Snatch"
+        ],
+        "description": "Elongated, clawed pedipalps that function precisely like arms. They end in sharp, folding raptorial claws designed to snatch prey out of the air and hold them securely against the chelicerae."
+    },
+    "Bulbous_Boxing_Palps": {
+        "tags": [
+            "Appendage",
+            "Blunt",
+            "Heavy",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "crit_multiplier",
+                "op": "add",
+                "val": 0.5
+            }
+        ],
+        "grants_skills": [
+            "Body Slam"
+        ],
+        "description": "Thick, swollen pedipalps that resemble biological boxing gloves. Used primarily by males for combat and signaling, they can deliver devastating blunt-force trauma."
+    }
+}

@@ -2232,6 +2232,26 @@
 
         const App = () => {
             const [tab, setTab] = useState('gen');
+            const [exportStatus, setExportStatus] = useState('idle'); // idle | exporting | done | error
+
+            const exportSqlite = async () => {
+                if (exportStatus === 'exporting') return;
+                setExportStatus('exporting');
+                try {
+                    const res = await fetch('http://localhost:8000/export-sqlite', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(GAME_DATA)
+                    });
+                    const data = await res.json();
+                    setExportStatus(data.ok ? 'done' : 'error');
+                } catch (e) {
+                    console.error('[export-sqlite]', e);
+                    setExportStatus('error');
+                } finally {
+                    setTimeout(() => setExportStatus('idle'), 3000);
+                }
+            };
 
             return (
                 <div className="h-screen flex flex-col bg-neutral-950 text-gray-100 font-sans">
@@ -2255,6 +2275,27 @@
                                 <Activity size={ 14 } /><span className="hidden sm:inline">Definitions</span>
                             </button>
                         </div>
+
+                        { /* Export to SQLite — rightmost header button */ }
+                        <button
+                            id="export-sqlite-btn"
+                            onClick={ exportSqlite }
+                            disabled={ exportStatus === 'exporting' }
+                            title="Export all GameData to gamedata.db for use by apex_cli / Apotheosis"
+                            className={ `ml-2 px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-bold transition flex items-center gap-1 sm:gap-2 border shrink-0 ${exportStatus === 'done' ? 'bg-green-900/60 border-green-600 text-green-300' :
+                                exportStatus === 'error' ? 'bg-red-900/60 border-red-600 text-red-300' :
+                                    exportStatus === 'exporting' ? 'bg-neutral-800 border-neutral-600 text-gray-400 cursor-wait' :
+                                        'bg-neutral-900 border-neutral-700 text-amber-400 hover:bg-amber-900/30 hover:border-amber-600'
+                                }` }
+                        >
+                            <span>{ exportStatus === 'exporting' ? '⏳' : exportStatus === 'done' ? '✓' : exportStatus === 'error' ? '✗' : '🗄' }</span>
+                            <span className="hidden sm:inline">
+                                { exportStatus === 'exporting' ? 'Exporting…' :
+                                    exportStatus === 'done' ? 'Exported!' :
+                                        exportStatus === 'error' ? 'Failed' :
+                                            'Export SQLite' }
+                            </span>
+                        </button>
                     </div>
 
                     <div className="flex-1 overflow-hidden relative">

@@ -1,18 +1,27 @@
 {
-  "Aerial_Navigator_Brain": {
+  "Streamlined_Kinaesthetic_Skull": {
     "tags": [
+      "Bone",
+      "Lightweight",
       "Avian",
-      "Bird",
-      "Instinctual",
       "Bird_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "int",
-        "op": "set",
-        "val": 3
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Aerial Navigator Brain hums with avian instincts, guiding its vessel through the sky as if a bird's own heart beats within it, keenly aware of every gust and cloud formation."
+    "grants_skills": [],
+    "description": "A papery-thin, highly kinetic skull dominated almost entirely by massive orbital sockets and a braincase. It is fused directly to an articulating beak framework, designed to absorb the shock of pecking without transferring force to the brain."
   }
 }

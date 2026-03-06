@@ -1,1 +1,30 @@
-{}
+{
+    "Rectrices_Tail_Fan": {
+        "tags": [
+            "Tail",
+            "Feathers",
+            "Steering",
+            "Avian",
+            "Bird_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Braking"
+        ],
+        "description": "A highly mobile pygostyle anchoring stiff, asymmetrical tail feathers (rectrices). Operating as a sophisticated biological rudder and airbrake, it allows the entity to arrest mid-dive and violently alter its flight vector in a split second."
+    }
+}

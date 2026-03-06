@@ -1,1 +1,64 @@
-{}
+{
+    "Anisodactyl_Raptorial_Talons": {
+        "tags": [
+            "Legs",
+            "Talons",
+            "Claws",
+            "Avian",
+            "Raptor_Like"
+        ],
+        "traversal": [
+            "Perch",
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Pierce",
+            "Pounce"
+        ],
+        "description": "Heavily scaled legs terminating in four toes (three forward, one backward), each armed with an immense, scythe-like talon. They lock via specialized tendons into a vice-grip capable of crushing a prey's windpipe instantly upon impact."
+    },
+    "Cursorial_Ratite_Legs": {
+        "tags": [
+            "Legs",
+            "Muscular",
+            "Speed",
+            "Avian",
+            "Ostrich_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Dash",
+            "Body Slam"
+        ],
+        "description": "Thick, towering, two-toed legs packed with astonishingly dense muscle. Entirely incapable of grasping, they are built exclusively to propel the entity at terrifying terrestrial speeds and deliver bone-shattering forward kicks."
+    }
+}

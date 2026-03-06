@@ -1,19 +1,35 @@
 {
-  "High_Acuity_Eyes": {
-    "vision_type": "Telescopic",
+  "Telescopic_Fovea_Eyes": {
     "tags": [
+      "Sensory",
+      "Telescopic",
       "Avian",
-      "Sharp",
-      "Long_Range",
-      "Eagle_Like"
+      "Raptor_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 5
+        "val": 3
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "High_Acuity_Eyes grants a keen, eagle-like telescopic vision, sharp as an avian predator's gaze, extending perception over vast distances with uncanny clarity."
+    "grants_skills": [
+      "Keen Sight",
+      "Target_Lock"
+    ],
+    "description": "Enormous, tubular eyes packed with an ungodly density of photoreceptors and featuring two foveae per eye. They act like biological telephoto lenses, capable of resolving small prey items from several miles away with absolute crystal clarity."
   }
 }

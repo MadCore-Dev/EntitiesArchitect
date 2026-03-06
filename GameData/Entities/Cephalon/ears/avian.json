@@ -1,19 +1,31 @@
 {
-  "Subdermal_Auditory_Canals": {
-    "hearing_type": "Vibration",
+  "Asymmetrical_Facial_Disc": {
     "tags": [
-      "Reptile",
+      "Sensory",
+      "Feathers",
+      "Dish",
       "Avian",
-      "Hidden",
-      "Lizard_Like"
+      "Owl_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": -1
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Subdermal Auditory Canals, hidden beneath reptilian scales, detect vibrations with a lizard-like sensitivity, offering a keen sense of the environment but at a cost to overall auditory acuity."
+    "grants_skills": [
+      "Keen Hearing",
+      "Echolocation"
+    ],
+    "description": "A concave arrangement of stiff, specialized facial feathers acting as a parabolic biological satellite dish. Coupled with incredibly asymmetrical ear openings, the entity can triangulate the exact vertical and horizontal location of prey purely by sound."
   }
 }

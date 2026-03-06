@@ -1,26 +1,61 @@
 {
-  "Feathered_Broad_Wings": {
+  "High_Aspect_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Feathers",
+      "Flight",
+      "Avian",
+      "Eagle_Like"
+    ],
     "traversal": [
       "Fly",
       "Glide"
-    ],
-    "tags": [
-      "Avian",
-      "Feathers",
-      "Large",
-      "Eagle_Like"
-    ],
-    "grants_skills": [
-      "Dive",
-      "Aerobatics"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 60
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
       }
     ],
-    "description": "Winged with broad, eagle-like feathers that shimmer under moonlight, this enchanted component grants a swift and graceful flight, perfect for soaring through the skies like a majestic bird of prey."
+    "grants_skills": [
+      "Dive",
+      "Aerobatics"
+    ],
+    "description": "Massive, deeply elongated wings structured for generating immense lift over vast distances. Built to ride invisible thermal columns for hours with practically no energetic expenditure, allowing for devastating, high-speed stoops."
+  },
+  "Elliptical_Maneuvering_Wings": {
+    "tags": [
+      "Wings",
+      "Feathers",
+      "Flight",
+      "Avian",
+      "Corvid_Like"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Short, deeply rounded wings equipped with highly slotted primary feathers. They provide explosive, near-instantaneous liftoff and unparalleled maneuverability, allowing the entity to thread through dense woodland canopies effortlessly."
   }
 }

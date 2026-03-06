@@ -1,22 +1,55 @@
 {
-  "Feathers": {
-    "resistances": [],
-    "harvest_profile": {
-      "type": "Plucking",
-      "yield_id": "Feather",
-      "difficulty": 5
-    },
+  "Aerodynamic_Contour_Feathers": {
     "tags": [
-      "Avian",
-      "Raptor"
+      "Feathers",
+      "Plumage",
+      "Aerodynamic",
+      "Avian"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "natural_armor",
+        "target": "agility",
         "op": "add",
-        "val": 0
+        "val": 1
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Feathers, plucked from the majestic raptors of the open skies, shimmer with iridescent hues under moonlight, their delicate structure offering both warmth and a whisper of freedom."
+    "grants_skills": [],
+    "description": "A dense, overlapping coat of stiff contour feathers layered over insulating down. They provide a perfectly streamlined, frictionless surface against the air while ensuring excellent thermoregulation at high altitudes."
+  },
+  "Cryptic_Downy_Plumage": {
+    "tags": [
+      "Feathers",
+      "Soft",
+      "Camouflage",
+      "Avian",
+      "Owl_Like"
+    ],
+    "traversal": [
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Muffled_Flight"
+    ],
+    "description": "Incredibly soft, velvety feathers lacking the stiff barbules of standard flight plumage. While slightly less aerodynamically efficient, they absorb high-frequency sound waves, rendering the entity's movements and wingbeats completely silent."
   }
 }

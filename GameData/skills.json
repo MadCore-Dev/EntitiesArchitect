@@ -4176,5 +4176,38 @@
         "duration_ticks": 1
       }
     ]
+  },
+  "Muffled_Flight": {
+    "description": "The entity possesses specialized down and fringed feathers that acoustically dampen all sound produced by its wingbeats. It can approach prey from the air in absolute, terrifying silence.",
+    "types": [
+      "Passive",
+      "Enhancement"
+    ],
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      }
+    ]
+  },
+  "Target_Lock": {
+    "description": "Utilizing foveal concentration, the entity locks its gaze onto a single target from extreme distances, drastically increasing its accuracy when diving or lunging to strike.",
+    "types": [
+      "Action",
+      "Enhancement"
+    ],
+    "range": "100ft",
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "combat_flags": [
+      "Requires_LOS"
+    ]
   }
 }

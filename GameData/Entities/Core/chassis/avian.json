@@ -1,48 +1,69 @@
 {
-  "Aerodynamic_Biped_Frame": {
-    "frame_type": [
-      "Bipedal",
-      "Winged"
-    ],
-    "meat_group": [
-      "White_Meat"
-    ],
-    "skills": [
-      "Flight",
-      "Hollow Bones",
-      "Keen Sight"
-    ],
-    "slots": [
-      "Head",
-      "Wings",
-      "Legs",
-      "Tail"
-    ],
+  "Pneumatized_Keel_Chassis": {
     "tags": [
+      "Bone",
+      "Lightweight",
+      "Pneumatic",
       "Avian",
-      "Bird",
-      "Beast",
-      "Feathers",
-      "Flying",
       "Bird_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 0.7
+        "target": "dex",
+        "op": "add",
+        "val": 2
       },
       {
-        "target": "natural_armor",
+        "target": "size_index",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "An incredibly light, rigid skeletal frame composed of hollow, strut-reinforced bones (pneumatization). It features a massively expanded sternum keel to anchor vast flight muscles, sacrificing brute durability for weightlessness and aerodynamic efficiency."
+  },
+  "Ratite_Flightless_Core": {
+    "tags": [
+      "Bone",
+      "Dense",
+      "Heavy",
+      "Avian",
+      "Ostrich_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "str",
         "op": "add",
         "val": 1
       },
       {
-        "target": "size_index",
-        "op": "set",
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
         "val": 3
       }
     ],
-    "description": "The Aerodynamic Biped Frame is a sleek, avian-inspired frame with hollow bones and keen sight, granting agile flight and swift maneuvers through the air. Its bird-like feathers and slender build evoke the grace and power of a soaring eagle."
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "A dense, un-keeled sternum and heavy, marrow-filled bones. Having abandoned the architectural requirements of flight entirely, this chassis is built to anchor massive cursorial leg muscles, turning the entity into a towering, high-speed terrestrial runner."
   }
 }

@@ -1,37 +1,56 @@
 {
-  "Predatory_Beak": {
-    "consumes": [
-      "White_Meat",
-      "Piscine",
-      "Red_Meat"
-    ],
+  "Tearing_Raptorial_Beak": {
     "tags": [
-      "Avian",
+      "Keratin",
+      "Beak",
+      "Maw",
       "Sharp",
-      "Tearing",
-      "Eagle_Like"
-    ],
-    "grants_skills": [
-      "Peck",
-      "Screech"
-    ],
-    "description": "The Predatory_Beak gleams with an eagle's keen, hooked edges, promising a deadly bite that rends flesh and echoes through the air like a screeching banshee."
-  },
-  "Seed_Cracking_Beak": {
-    "consumes": [
-      "Flora",
-      "Insectoid_Ganglia"
-    ],
-    "tags": [
       "Avian",
-      "Small",
-      "Seed_Eater",
-      "Sparrow_Like"
+      "Raptor_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
     ],
     "grants_skills": [
-      "Nibble",
-      "Chirp"
+      "Pierce",
+      "Flesh_Tear"
     ],
-    "description": "The Seed_Cracking_Beak, a marvel of avian ingenuity, crackles with the energy of consumed flora and insectoid ganglia. This small, sparrow-like beak is both a nibbling tool for seeds and a chirping organ, blending the sounds of nature in every bite."
+    "description": "A massive, heavily hooked beak made from solid keratin. Operating essentially as a biological pair of bolt-cutters, it is designed to cleanly sever the spinal cords of large prey and rip meat directly from the bone."
+  },
+  "Generalist_Forceps_Beak": {
+    "tags": [
+      "Keratin",
+      "Beak",
+      "Maw",
+      "Avian",
+      "Corvid_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Tool Use"
+    ],
+    "description": "A sturdy, medium-length beak tapering to a precise point. While lacking overwhelming bite force, it acts as a remarkably dexterous substitute for hands, capable of everything from cracking nuts to manipulating primitive tools and picking locks."
   }
 }

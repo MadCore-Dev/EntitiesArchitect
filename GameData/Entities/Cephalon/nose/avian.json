@@ -1,1 +1,28 @@
-{}
+{
+    "Vestigial_Olfactory_Tubercle": {
+        "tags": [
+            "Flesh",
+            "Sensory",
+            "Olfactory",
+            "Avian",
+            "Bird_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A steeply reduced olfactory bulb and nares located at the base of the beak. The entity has virtually abandoned its sense of smell to prioritize processing power entirely toward its auditory and visual cortexes."
+    }
+}

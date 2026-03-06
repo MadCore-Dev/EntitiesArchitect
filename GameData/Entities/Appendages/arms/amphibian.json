@@ -1,34 +1,60 @@
 {
-  "Amphibian_Webbed_Arm": {
-    "description": "A slimy, webbed appendage optimized for underwater propulsion.",
-    "mass": 5.0,
-    "tags": ["Organic", "Flesh", "Aquatic"],
-    "traversal_flags": {"Swim": 1.5},
-    "mods": [
-      { "target": "dex", "val": 1, "op": "add" }
+  "Nuptrila_Padded_Forelimbs": {
+    "tags": [
+      "Flesh",
+      "Sticky",
+      "Arms",
+      "Amphibian",
+      "Frog_Like"
     ],
-    "grants_skills": ["Aqua_Slap", "Swim_Dash"]
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Climb"
+    ],
+    "description": "Husky, heavily-muscled forearms terminating in specialized digits bearing nuptial pads - swollen, keratinous glands that secrete sticky mucus. They provide a vice-like, inescapable grip on wet, struggling targets and slippery surfaces."
   },
-  "Amphibian_Scaley_Arm": {
-    "description": "A tough, scaly arm with natural armor and enhanced durability.",
-    "mass": 6.0,
-    "tags": ["Organic", "Flesh", "Scale"],
-    "traversal_flags": {"Walk": 1.0},
-    "mods": [
-      { "target": "natural_armor", "val": 2, "op": "add" },
-      { "target": "durability", "val": 10, "op": "add" }
+  "Webbed_Natatorial_Arms": {
+    "tags": [
+      "Flesh",
+      "Webbed",
+      "Swimming",
+      "Arms",
+      "Amphibian"
     ],
-    "grants_skills": ["Scale_Cover", "Thick_Skin"]
-  },
-  "Amphibian_Flexible_Arm": {
-    "description": "An incredibly flexible arm that grants agility and enhanced evasion.",
-    "mass": 4.5,
-    "tags": ["Organic", "Flesh", "Flexible"],
-    "traversal_flags": {"Walk": 1.0},
-    "mods": [
-      { "target": "dex", "val": 2, "op": "add" },
-      { "target": "evasion", "val": 5, "op": "add" }
+    "traversal": [
+      "Swim",
+      "Walk"
     ],
-    "grants_skills": ["Flex_Slash", "Acrobatic_Move"]
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Slender, cartilaginous arms ending in fully webbed, elongated digits. While somewhat clumsy on dry land for fine manipulation, they act as highly efficient pectoral oars when fully submerged."
   }
 }

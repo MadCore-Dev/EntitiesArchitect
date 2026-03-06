@@ -1,1 +1,52 @@
-{}
+{
+    "Prominent_Tympanal_Membrane": {
+        "tags": [
+            "Flesh",
+            "Sensory",
+            "Eardrum",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "A large, exposed, disc-like eardrum situated flush against the side of the head. It acts as both an acoustic receiver for high-frequency mating calls and a resonating chamber for sensing very low-frequency seismic rumblings."
+    },
+    "Subterranean_Vestigial_Ears": {
+        "tags": [
+            "Flesh",
+            "Burrowing",
+            "Caecilian_Like",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Completely internal auditory canals buried beneath thick skin and bone, trading airborne sound perception entirely for the conduction of low-frequency vibrations straight through the jawbone while burrowing."
+    }
+}

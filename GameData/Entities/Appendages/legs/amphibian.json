@@ -1,1 +1,70 @@
-{}
+{
+    "Hypertrophic_Saltatory_Legs": {
+        "tags": [
+            "Flesh",
+            "Muscle",
+            "Jumping",
+            "Legs",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "jump_distance",
+                "op": "add",
+                "val": 15
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Leap",
+            "Ambush"
+        ],
+        "description": "Massive, folded hind legs that make up the overwhelming majority of the organism's muscle mass. The joints act as biological torsion springs, storing immense potential energy directly into elastic tendons before rocketing the entity forward."
+    },
+    "Prehensile_Treefrog_Limbs": {
+        "tags": [
+            "Flesh",
+            "Sticky",
+            "Climbing",
+            "Legs",
+            "Amphibian",
+            "Tree_Frog_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics",
+            "Spider_Climb"
+        ],
+        "description": "Long, spindly legs ending in wide, suction-cupped toe pads. The pads are covered in microscopic, hexagonal pegs and secrete a specialized wet mucosal adhesive, anchoring the creature cleanly to glass-smooth vertical surfaces."
+    }
+}

@@ -1,1 +1,61 @@
-{}
+{
+    "Broad_Flattened_Cranium": {
+        "tags": [
+            "Flesh",
+            "Bone",
+            "Flat",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An extremely wide, flattened skull resembling a spade. It lacks a true neck, fusing directly to the spine. While highly robust against downward impact, it severely limits lateral rotation."
+    },
+    "Gilled_Neotenic_Skull": {
+        "tags": [
+            "Flesh",
+            "Gills",
+            "Amphibian",
+            "Axolotl_Like",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aquatic_Respiration"
+        ],
+        "description": "A permanently juvenile, paedomorphic skull retaining three pairs of feathery external gills explicitly for extracting oxygen from murky, slow-moving water, sacrificing raw brain volume for absolute aquatic dominance."
+    }
+}

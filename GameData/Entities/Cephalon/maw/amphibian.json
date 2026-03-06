@@ -1,1 +1,61 @@
-{}
+{
+    "Prehensile_Elastic_Tongue_Maw": {
+        "tags": [
+            "Flesh",
+            "Maw",
+            "Sticky",
+            "Tongue",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Tongue_Lash",
+            "Grapple"
+        ],
+        "description": "A gigantic, cavernous mouth harboring an extraordinarily elastic tongue coated in highly viscous mucus. The tongue is anchored at the front of the jaw rather than the back, allowing it to be hydraulically fired forward to snatch distant prey in milliseconds."
+    },
+    "Gape_And_Suck_Maw": {
+        "tags": [
+            "Flesh",
+            "Maw",
+            "Wide",
+            "Vacuum",
+            "Amphibian",
+            "Salamander_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swallow_Whole"
+        ],
+        "description": "An exaggeratedly wide jaw line equipped with tiny, homodont teeth used strictly for gripping, not chewing. When opening underwater, a massive pressure differential is instantly established, violently sucking nearby targets directly down the throat."
+    }
+}

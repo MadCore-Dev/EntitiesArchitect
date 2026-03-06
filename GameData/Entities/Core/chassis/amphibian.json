@@ -1,47 +1,96 @@
 {
-  "Amphibious_Squat_Frame": {
-    "frame_type": [
-      "Quadruped",
-      "Squat"
-    ],
-    "meat_group": [
-      "White_Meat"
-    ],
-    "skills": [
-      "Amphibious",
-      "Leap",
-      "Mucous Skin"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs"
-    ],
+  "Ranid_Saltatory_Chassis": {
     "tags": [
+      "Flesh",
+      "Squat",
       "Amphibian",
-      "Aquatic",
-      "Land",
-      "Beast",
-      "Slimy",
       "Frog_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 0.9
+        "target": "dex",
+        "op": "add",
+        "val": 1
       },
       {
-        "target": "natural_armor",
+        "target": "size_index",
         "op": "add",
         "val": 0
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 3
+        "target": "jump_distance",
+        "op": "multiply",
+        "val": 1.5
       }
     ],
-    "description": "The Amphibious Squat Frame is a robust, frog-like creature with webbed hind limbs and a slimy, mucus-covered skin that grants it both water and land adaptability, its squat posture allowing for powerful leaps through mud and shallows. Its presence is marked by the pungent scent of wet earth and the rhythmic croak of an unseen amphibian heart."
+    "grants_skills": [
+      "Leap"
+    ],
+    "description": "A compact, highly specialized anuran chassis entirely devoted to shock absorption and anchoring massive hind limb musculature. Features an inflexible spine and fused urostyle, trading rotational flexibility for extreme forward-launching biomechanics."
+  },
+  "Caudate_Elongated_Frame": {
+    "tags": [
+      "Flesh",
+      "Long",
+      "Flexible",
+      "Amphibian",
+      "Salamander_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "A long, cartilaginous salamander-like frame built for undulating movement across mud and undergrowth. It is incredibly flexible, allowing the creature to slip through impossible crevices and distribute impact force evenly."
+  },
+  "Gymnophiona_Serpentine_Core": {
+    "tags": [
+      "Flesh",
+      "Limbless",
+      "Annulated",
+      "Amphibian",
+      "Caecilian_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "A deeply annulated, bullet-shaped core completely lacking anchor points for limbs. Resembling a gigantic earthworm or blind snake, it is forged from dense muscle specifically adapted for subterranean, subterranean ram-burrowing."
   }
 }

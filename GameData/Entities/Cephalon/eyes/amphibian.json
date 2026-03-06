@@ -1,1 +1,58 @@
-{}
+{
+    "Bulbous_Periscope_Eyes": {
+        "tags": [
+            "Flesh",
+            "Sensory",
+            "Protruding",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Sight",
+            "Snatch"
+        ],
+        "description": "Massive, independently rotating eyes that sit completely atop the skull. They provide nearly 360-degree vision and can remain safely above the waterline while the rest of the body is totally submerged."
+    },
+    "Nictitating_Aquatic_Lenses": {
+        "tags": [
+            "Sensory",
+            "Membrane",
+            "Aquatic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision"
+        ],
+        "description": "Standard vertebrate eyes equipped with a heavily specialized, transparent third eyelid (nictitating membrane) that acts like built-in biological goggles, polarizing light and protecting the cornea while navigating turbid underwater environments."
+    }
+}

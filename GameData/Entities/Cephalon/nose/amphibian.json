@@ -1,1 +1,24 @@
-{}
+{
+    "Vomeronasal_Jacobson_Cavity": {
+        "tags": [
+            "Flesh",
+            "Sensory",
+            "Olfactory",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "Chemoreceptive nasal epithelium paired with a deeply prominent vomeronasal (Jacobson's) organ located in the roof of the mouth. This allows for both acute aerial scent detection and the explicit chemical analysis of pheromones tasted via tongue flicks."
+    }
+}

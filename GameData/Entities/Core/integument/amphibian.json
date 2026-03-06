@@ -1,48 +1,90 @@
 {
-  "Smooth_Skin": {
-    "resistances": [],
-    "harvest_profile": {
-      "type": "Skinning",
-      "yield_id": "Pelt",
-      "difficulty": 5
-    },
+  "Permeable_Mucosal_Skin": {
     "tags": [
-      "Humanoid",
-      "Amphibian",
+      "Flesh",
+      "Slimy",
       "Aquatic",
-      "Slug"
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "natural_armor",
+        "target": "fire_resist",
         "op": "add",
-        "val": 0
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "val": 3
       }
     ],
-    "description": "Smooth_Skin, a sleek and iridescent membrane, clings to the slippery bodies of its amphibian and aquatic kin, offering a tactile experience that blends the crispness of water with the suppleness of skin. Its surface, dotted with minuscule scales, whispers secrets of the deep as it moves through currents, a testament to nature's artistry in form and function."
+    "grants_skills": [
+      "Amphibious"
+    ],
+    "description": "A highly porous, glandular skin that must remain moist. It allows exact oxygen exchange underwater (cutaneous respiration), allowing the entity to breathe indefinitely while submerged, though it dries and cracks painfully in arid environments."
   },
-  "Slimy_Skin": {
-    "resistances": [
-      "Grapple"
-    ],
-    "harvest_profile": {
-      "type": "Draining",
-      "yield_id": "Slime",
-      "difficulty": 10
-    },
+  "Granular_Toxin_Cuticle": {
     "tags": [
+      "Flesh",
+      "Warty",
+      "Toxic",
       "Amphibian",
-      "Fish",
-      "Slug",
-      "Eel"
+      "Toad_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
         "target": "natural_armor",
         "op": "add",
-        "val": 0
+        "val": 1
       }
     ],
-    "description": "Slimy_Skin: A mucus-covered, amphibious exterior that repels grapple attempts, slowly draining life essence from foes, leaving behind slippery slime trails."
+    "grants_skills": [
+      "Toxic_Secretion"
+    ],
+    "description": "Thick, leathery skin dotted with prominent parotoid glands. When physically struck, these granular warts rupture, violently secreting a milky, highly virulent bufotoxin that poisons and burns any attacker attempting to grapple or bite."
+  },
+  "Aposematic_Poison_Dermis": {
+    "tags": [
+      "Flesh",
+      "Smooth",
+      "Bright",
+      "Poison_Dart",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Lethal_Contact"
+    ],
+    "description": "Brilliantly colored, high-contrast skin completely unsuited for camouflage. Its neon hues serve as a stark biological warning: even the slightest dermal contact with the batrachotoxin-laced slime can induce instant paralysis in predators."
   }
 }

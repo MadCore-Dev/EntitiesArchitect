@@ -1,1 +1,62 @@
-{}
+{
+    "Laterally_Compressed_Swimming_Tail": {
+        "tags": [
+            "Flesh",
+            "Fin",
+            "Swimming",
+            "Tail",
+            "Amphibian",
+            "Salamander_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip",
+            "Swim_Dash"
+        ],
+        "description": "A long, muscular tail that is laterally flattened like a paddle, featuring a continuous dorsal and ventral fin fold. It acts as the primary means of aquatic propulsion, generating massive thrust through undulating waves."
+    },
+    "Prehensile_Arboreal_Tail": {
+        "tags": [
+            "Flesh",
+            "Sticky",
+            "Climbing",
+            "Tail",
+            "Amphibian",
+            "Salamander_Like"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "A slender, grasping tail entirely devoid of swimming fins. Evolved strictly for arboreal salamanders, it curls tightly around branches, functioning as a highly dexterous fifth limb while hunting in the tree canopy."
+    }
+}

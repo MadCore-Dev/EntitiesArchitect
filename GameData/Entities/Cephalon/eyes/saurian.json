@@ -1,1 +1,53 @@
-{}
+{
+    "Independent_Turret_Eyes": {
+        "tags": [
+            "Sensory",
+            "Protruding",
+            "Saurian",
+            "Chameleon_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Target_Lock"
+        ],
+        "description": "Highly specialized, cone-shaped eyelids housing eyes that can rotate and focus entirely independently of one another. They grant simultaneous 360-degree stereoscopic vision, allowing unparalleled depth perception before a strike."
+    },
+    "Lidded_Slit_Pupils": {
+        "tags": [
+            "Sensory",
+            "Nocturnal",
+            "Saurian",
+            "Snake_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Heat Vision"
+        ],
+        "description": "Vertical slit pupils protected by a transparent, unblinking spectacle scale (brille). Perfectly adapted for nocturnal hunting, these eyes regulate light precisely and are often paired with thermal-sensing pit organs."
+    }
+}

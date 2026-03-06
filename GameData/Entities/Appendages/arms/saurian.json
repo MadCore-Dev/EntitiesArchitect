@@ -1,1 +1,58 @@
-{}
+{
+    "Vestigial_Theropod_Forelimbs": {
+        "tags": [
+            "Arms",
+            "Vestigial",
+            "Saurian",
+            "Dinosaur_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "reach",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Slash"
+        ],
+        "description": "Comically small forelimbs relative to body mass. Virtually useless for fine manipulation or load-bearing, they serve only to slash wildly during extreme close-quarters grappling or mating displays, significantly reducing weight."
+    },
+    "Raptorial_Grasping_Forelimbs": {
+        "tags": [
+            "Arms",
+            "Claws",
+            "Grasping",
+            "Saurian",
+            "Dromaeosaur_Like"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Snatch"
+        ],
+        "description": "Long, highly flexible arms ending in three-fingered hands tipped with recurved talons. They are explicitly designed to latch onto much larger prey, acting as meat-hooks to secure a target tightly while the jaws work."
+    }
+}

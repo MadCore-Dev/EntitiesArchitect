@@ -1,1 +1,54 @@
-{}
+{
+    "Serrated_Predatory_Maw": {
+        "tags": [
+            "Teeth",
+            "Maw",
+            "Serrated",
+            "Saurian",
+            "Dinosaur_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Flesh_Tear"
+        ],
+        "description": "A devastating jaw lined with recurved, highly serrated teeth. Functioning like biological steak knives, they are designed to shear massive chunks of flesh off struggling prey, inducing rapid catastrophic blood loss."
+    },
+    "Hollow_Fanged_Venom_Jaw": {
+        "tags": [
+            "Fangs",
+            "Venom",
+            "Maw",
+            "Saurian",
+            "Snake_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Inject_Toxin"
+        ],
+        "description": "A highly specialized, relatively fragile jaw equipped with front-mounted, hollow hypodermic fangs. The fangs are connected directly to massive venom glands, designed not to crush, but to deliver lethal neurotoxins."
+    }
+}

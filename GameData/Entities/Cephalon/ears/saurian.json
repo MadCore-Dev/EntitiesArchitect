@@ -1,1 +1,51 @@
-{}
+{
+    "Recessed_Tympanic_Scale": {
+        "tags": [
+            "Sensory",
+            "Internal",
+            "Saurian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "A tympanic membrane protected beneath a specialized, slightly recessed scale just behind the jawline. It lacks external auricles, prioritizing streamlined aerodynamics over precise directional hearing."
+    },
+    "Ground_Coupled_Jawbone": {
+        "tags": [
+            "Bone",
+            "Vibration",
+            "Sensory",
+            "Saurian",
+            "Snake_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "A completely internalized auditory apparatus that is directly coupled to the lower jawbone. When resting the chin against the earth, the entity can 'hear' the heavy footsteps of approaching prey vibrating through the substrate."
+    }
+}

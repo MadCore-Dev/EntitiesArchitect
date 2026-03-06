@@ -1,27 +1,88 @@
 {
-  "Scales": {
-    "resistances": [
-      "Slashing"
-    ],
-    "harvest_profile": {
-      "type": "Scraping",
-      "yield_id": "Scale",
-      "difficulty": 12
-    },
+  "Overlapping_Keratinous_Scales": {
     "tags": [
-      "Saurian",
-      "Reptile",
-      "Draconic",
-      "Fish",
-      "Snake"
+      "Scale",
+      "Keratin",
+      "Dry",
+      "Saurian"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "natural_armor",
         "op": "add",
         "val": 2
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Scales shimmer with an iridescent sheen, crafted from the leathery carapaces of ancient saurians and scaled fish. Each scale, when scraped, releases a whispering hum that hints at the secrets of ages past."
+    "grants_skills": [],
+    "description": "A dry, continuous layer of overlapping keratin scales. It effectively locks moisture inside the body against arid climates and turns aside glancing blows from minor physical trauma without restricting movement."
+  },
+  "Subdermal_Osteoderm_Plating": {
+    "tags": [
+      "Bone",
+      "Armored",
+      "Heavy",
+      "Saurian",
+      "Crocodilian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Massive, bony deposits forming impenetrable armored scutes directly within the dermis layer. Highly reminiscent of crocodilian or ankylosaur armor, rendering the creature practically immune to light slashing attacks."
+  },
+  "Chromatophore_Adaptive_Skin": {
+    "tags": [
+      "Scale",
+      "Camouflage",
+      "Adaptive",
+      "Saurian",
+      "Chameleon_Like"
+    ],
+    "traversal": [
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "A delicate, specialized layer of skin housing millions of pigment-containing chromatophore cells. Connected directly to the nervous system, it can actively alter the entity's color and pattern to achieve near-perfect optical invisibility against any background."
   }
 }

@@ -1,18 +1,54 @@
 {
-  "Basal_Reptilian_Brain": {
+  "Elongated_Rostral_Cranium": {
     "tags": [
-      "Reptile",
+      "Bone",
+      "Elongated",
       "Saurian",
-      "Cold_Blooded",
-      "Lizard_Like"
+      "Crocodilian_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "subtract",
         "val": 1
       }
     ],
-    "description": "A cold, leathery brain pulsating with ancient reptilian intelligence, its lizard-like essence whispers of primal instincts and survival."
+    "grants_skills": [],
+    "description": "An extremely long, heavy skull forming a powerful, V-shaped rostrum. It operates like a colossal pair of biological forceps, perfectly adapted for snatching fast-moving aquatic prey and delivering immense clamping force."
+  },
+  "Kinetic_Serpentine_Skull": {
+    "tags": [
+      "Bone",
+      "Flexible",
+      "Saurian",
+      "Snake_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swallow_Whole"
+    ],
+    "description": "A highly kinetic, loosely articulated skull where the quadrate bone allows the jaw to unhinge completely. Rather than crushing, this cranium is designed explicitly to engulf prey items significantly larger than the entity's own head."
   }
 }

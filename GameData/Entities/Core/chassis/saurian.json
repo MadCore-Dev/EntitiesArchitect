@@ -1,45 +1,99 @@
 {
-  "Reptilian_Low_Frame": {
-    "frame_type": [
-      "Quadruped"
-    ],
-    "meat_group": [
-      "White_Meat"
-    ],
-    "skills": [
-      "Natural Armor",
-      "Cold Blooded"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs",
-      "Tail"
-    ],
+  "Bipedal_Theropod_Chassis": {
     "tags": [
-      "Reptile",
+      "Scale",
+      "Bipedal",
       "Saurian",
-      "Beast",
-      "Scales",
-      "Lizard_Like"
+      "Dinosaur_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 1.3
-      },
-      {
-        "target": "natural_armor",
+        "target": "speed_bonus",
         "op": "add",
         "val": 3
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 4
+        "target": "agility",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Reptilian_Low_Frame, with its scaly lizard-like head and powerful limbs, exudes a primal aura of strength and resilience. Its cold-blooded essence allows it to seamlessly blend into its environment, while its natural armor provides an unyielding defense."
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "An aggressive, forward-leaning bipedal frame balanced entirely by a massive counter-weight tail. Stripped of heavy forelimb musculature, this chassis is a perfectly optimized biological pursuit engine."
+  },
+  "Quadrupedal_Squamate_Core": {
+    "tags": [
+      "Scale",
+      "Low_Profile",
+      "Saurian",
+      "Lizard_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "A sprawling, low-to-the-ground frame with limbs splayed outwards rather than directly underneath. Excellent for navigating dense underbrush, crevices, and maintaining absolute stability."
+  },
+  "Apodal_Constrictor_Frame": {
+    "tags": [
+      "Scale",
+      "Limbless",
+      "Serpentine",
+      "Saurian",
+      "Snake_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Constrict"
+    ],
+    "description": "An incredibly elongated sequence of heavily muscled vertebrae. Devoid of any traditional limbs, movement is achieved through complex lateral undulation and rectilinear creeping, granting peerless flexibility."
   }
 }

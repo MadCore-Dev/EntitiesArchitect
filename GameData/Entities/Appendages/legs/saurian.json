@@ -1,1 +1,92 @@
-{}
+{
+    "Plantigrade_Sprawling_Legs": {
+        "tags": [
+            "Legs",
+            "Sprawling",
+            "Saurian",
+            "Lizard_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Burrow_Earth"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Thick, muscular legs that project outward laterally from the body before angling down. They provide a spectacularly stable, low center of gravity at the cost of energetic efficiency during long-distance locomotion."
+    },
+    "Digitigrade_Cursorial_Legs": {
+        "tags": [
+            "Legs",
+            "Digitigrade",
+            "Saurian",
+            "Dinosaur_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Dash",
+            "Leap"
+        ],
+        "description": "Columnar legs held directly beneath the body, requiring the entity to walk perpetually on its toes. This erect stance unlocks phenomenal lunging speeds and greatly superior stamina."
+    },
+    "Sickle_Clawed_Hindlimbs": {
+        "tags": [
+            "Legs",
+            "Weapons",
+            "Claws",
+            "Saurian",
+            "Dromaeosaur_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "jump_distance",
+                "op": "add",
+                "val": 10
+            }
+        ],
+        "grants_skills": [
+            "Pounce",
+            "Pierce"
+        ],
+        "description": "Digitigrade, muscular hind legs armed with a massive, hypertrophied sickle claw on the second toe. The claw is held off the ground until the exact moment of an aerial strike, functioning as a terrible biological disemboweling hook."
+    }
+}

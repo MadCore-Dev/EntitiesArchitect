@@ -1,1 +1,58 @@
-{}
+{
+    "Thermoreceptive_Pit_Organs": {
+        "tags": [
+            "Sensory",
+            "Heat",
+            "Saurian",
+            "Viper_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Heat Vision"
+        ],
+        "description": "Clusters of highly specialized, heat-sensing pits located along the snout or upper lip. They can construct a high-resolution, infrared thermal image of endothermic prey, enabling pinpoint strikes in absolute, pitch-black darkness."
+    },
+    "Jacobson_Bifurcated_Tongue": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Tongue",
+            "Saurian",
+            "Snake_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Directional Tracking"
+        ],
+        "description": "A deeply forked, constantly flicking tongue that physically gathers heavy scent particles from the air and delivers them to the vomeronasal organ. The bifurcation allows for precise, stereo-chemical tracking of fleeing prey."
+    }
+}

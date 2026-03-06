@@ -1,1 +1,82 @@
-{}
+{
+    "Prehensile_Chameleon_Tail": {
+        "tags": [
+            "Tail",
+            "Prehensile",
+            "Climbing",
+            "Saurian",
+            "Chameleon_Like"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "A dense, tightly coiling muscular tail designed to anchor around branches securely. It functions entirely as an emergency climbing strut and fifth limb, ensuring the entity is nearly impossible to dislodge."
+    },
+    "Heavy_Counterweight_Tail": {
+        "tags": [
+            "Tail",
+            "Heavy",
+            "Balance",
+            "Saurian",
+            "Dinosaur_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip"
+        ],
+        "description": "A tremendously thick, rigid tail extending backward to perfectly balance the mass of a massive forward-leaning torso and head. It allows a bipedal saurian to turn on a dime during high-speed chases."
+    },
+    "Osteoderm_Club_Tail": {
+        "tags": [
+            "Tail",
+            "Weapon",
+            "Heavy",
+            "Saurian",
+            "Ankylosaur_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Body Slam"
+        ],
+        "description": "A thick, muscular tail terminating in a fused mass of solid bone osteoderms causing it to operate exactly like a medieval mace. A single defensive swing can easily shatter the leg bones of apex predators."
+    }
+}

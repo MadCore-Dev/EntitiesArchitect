@@ -1,1 +1,24 @@
-{}
+{
+    "Sensory_Narial_Barbels": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Amphibian",
+            "Caecilian_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Pair of highly flexible, retractable sensory tentacles located between the eyes and nostrils. They act as combined tactile and olfactory probes, allowing the completely blind entity to perfectly navigate subterranean mud burrows."
+    }
+}

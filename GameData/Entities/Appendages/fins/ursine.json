@@ -1,1 +1,30 @@
-{}
+{
+    "Polar_Paddling_Forelimbs": {
+        "tags": [
+            "Fins",
+            "Swimming",
+            "Paws",
+            "Ursine"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Gargantuan, plate-like forepaws featuring thick webbing between the toes. They are completely maladapted for climbing, instead functioning entirely as colossal underwater oars capable of propelling a ton of mass through freezing currents for miles."
+    }
+}

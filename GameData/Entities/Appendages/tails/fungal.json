@@ -1,1 +1,29 @@
-{}
+{
+    "Trailing_Rhizomorph_Whip": {
+        "tags": [
+            "Tail",
+            "Fungal",
+            "Weapon"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip",
+            "Poison_Cloud"
+        ],
+        "description": "A singular, massively thick rhizomorph cord trailing heavily behind the entity. Packed with hardened fungal sclerotia, it can be swung with devastating force, shattering bone and bursting to release clouds of toxic spores upon impact."
+    }
+}

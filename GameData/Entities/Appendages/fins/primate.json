@@ -1,1 +1,30 @@
-{}
+{
+    "Webbed_Macaque_Digits": {
+        "tags": [
+            "Fins",
+            "Webbing",
+            "Primate",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Hands and feet possessing thick, durable webbing between every digit. While slightly reducing the capability for ultra-fine tool manipulation, it grants excellent propulsion for a primate hunting crabs in flooded mangrove forests."
+    }
+}

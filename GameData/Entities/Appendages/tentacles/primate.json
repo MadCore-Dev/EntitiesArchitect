@@ -1,1 +1,28 @@
-{}
+{
+    "Prehensile_Proboscis_Trunk": {
+        "tags": [
+            "Tentacles",
+            "Trunk",
+            "Primate"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "An enormously swollen, highly muscular, and fully prehensile nose extending past the mouth. Functions as a minor fifth limb capable of stripping leaves from thorny branches or producing deafening, resonating bellowing calls."
+    }
+}

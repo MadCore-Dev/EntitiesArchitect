@@ -1,1 +1,30 @@
-{}
+{
+    "Webbed_Dorsal_Crests": {
+        "tags": [
+            "Fins",
+            "Crest",
+            "Swimming",
+            "Amphibian",
+            "Newt_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "A steeply raised, deeply serrated fleshy fin running the entire length of the spine and tail. It is highly suffused with brilliant warning colors and dramatically increases swimming efficiency during the aquatic breeding phase."
+    }
+}

@@ -1,1 +1,30 @@
-{}
+{
+    "Buoyant_Spore_Sacs": {
+        "tags": [
+            "Wings",
+            "Flight",
+            "Fungal",
+            "Balloon"
+        ],
+        "traversal": [
+            "Fly",
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Enormous, gas-filled macroscopic fungal bladders protruding from the upper body. Filled with naturally produced, lighter-than-air metabolic gases, they allow the entity to silently drift across the skies like a horrifying, organic zeppelin."
+    }
+}

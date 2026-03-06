@@ -1,1 +1,29 @@
-{}
+{
+    "Hypertrophied_Gliding_Skin": {
+        "tags": [
+            "Wings",
+            "Gliding",
+            "Primate",
+            "Colugo_Like"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "A staggeringly extensive patagium (gliding membrane) stretching from the neck to the fingertips, down to the toes, and across the tail. It turns the entire primate into a near-perfect biological kite for covering miles of canopy."
+    }
+}

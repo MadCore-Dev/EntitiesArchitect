@@ -1,1 +1,28 @@
-{}
+{
+    "Crawling_Batfish_Pectorals": {
+        "tags": [
+            "Arms",
+            "Legs",
+            "Piscine",
+            "Crawling"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Highly modified, extremely robust pectoral fins that possess heavy internal bone structures. While useless for grasping, they function flawlessly as stubby, elbowed arms that allow the fish to literally walk ponderously across the sea floor."
+    }
+}

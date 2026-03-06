@@ -1,1 +1,29 @@
-{}
+{
+    "Star_Nosed_Sensory_Fingers": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Canine",
+            "Mole_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "A deeply unsettling ring of fleshy, mobile tentacles completely surrounding the snout. Covered entirely in ultra-sensitive Eimer's organs, they vibrate rapidly to essentially 'see' through pitch black subterranean tunnels via touch alone."
+    }
+}

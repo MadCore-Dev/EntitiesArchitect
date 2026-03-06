@@ -1,1 +1,31 @@
-{}
+{
+    "Elongated_Whip_Antennules": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Whip",
+            "Arachnid",
+            "Amblypygi"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Blindsight",
+            "Uncanny_Dodge"
+        ],
+        "description": "Incredibly long, impossibly thin, multi-jointed first pair of legs that have completely abandoned locomotion to become sheer sensory tentacles. They ceaselessly tap and sweep the darkness, operating with such sensitivity that it feels like precognition."
+    }
+}

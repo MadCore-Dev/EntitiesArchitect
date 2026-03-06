@@ -1,1 +1,30 @@
-{}
+{
+    "Hydrodynamic_Plumage_Flippers": {
+        "tags": [
+            "Fins",
+            "Wings",
+            "Aquatic",
+            "Avian",
+            "Penguin_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Wings that have completely sacrificed aerodynamic flight to become dense, paddle-like hydrofoils. The feathers are extremely short, overlapping tightly to effectively form solid biological oars that rocket the entity through freezing waters."
+    }
+}

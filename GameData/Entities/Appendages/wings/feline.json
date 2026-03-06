@@ -1,1 +1,30 @@
-{}
+{
+    "Patagial_Gliding_Membrane": {
+        "tags": [
+            "Wings",
+            "Membrane",
+            "Gliding",
+            "Feline"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Ambush"
+        ],
+        "description": "Thick, fur-covered sheets of skin extending from the forepaws to the hind limbs. Evolved specifically for terrifyingly silent, perfectly controlled stealth glides down from high jungle branches directly onto prey."
+    }
+}

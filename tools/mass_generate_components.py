@@ -65,8 +65,11 @@ def add_new_skills(new_skills_dict):
             json.dump(master_skills, f, indent=2)
         print(f"  [+] Injected {added} new unique skills into skills.json!")
 
-def call_llm(lineage, category):
-    prompt_text = f"Task: Generate the '{lineage}.json' file for generic {lineage.capitalize()} {category.split('/')[-1].capitalize()} (category: {category}). Provide 3 distinct variants. Remember to output 2 json blocks!"
+def call_llm(lineage, category, existing_keys):
+    prompt_text = f"Task: Generate the '{lineage}.json' file for generic {lineage.capitalize()} {category.split('/')[-1].capitalize()} (category: {category}). Provide 3 distinct NEW variants."
+    if existing_keys:
+        prompt_text += f"\n\nIMPORTANT: The following variants already exist. Do NOT output these, invent entirely new ones:\n{', '.join(existing_keys)}"
+    prompt_text += "\n\nRemember to output 2 json blocks!"
     
     try:
         with open(GUIDE_PATH, 'r') as f:
@@ -77,7 +80,7 @@ def call_llm(lineage, category):
         "model": "qwen2.5-coder:14b",
         "prompt": f"{guide}\n\n{prompt_text}",
         "stream": False,
-        "options": {"num_ctx": 4096, "temperature": 0.7}
+        "options": {"num_ctx": 4096, "temperature": 0.8}
     }
     
     req = urllib.request.Request('http://127.0.0.1:11434/api/generate', data=json.dumps(data).encode('utf-8'))
@@ -108,34 +111,34 @@ def main():
         for cat in CATEGORIES:
             out_file = os.path.join(DB_DIR, 'Entities', cat, f"{lin}.json")
             
-            # Skip if file exists and has actual data populated
-            needs_gen = True
+            existing_data = {}
             if os.path.exists(out_file):
                 try:
                     with open(out_file, 'r') as f:
                         data = json.load(f)
-                        if data and len(data) > 0:
-                            needs_gen = False
-                except:
-                    pass
+                        if isinstance(data, dict):
+                            existing_data = data
+                except: pass
             
-            if not needs_gen:
-                continue
-                
-            print(f"Generating {lin} / {cat} ...")
+            existing_keys = list(existing_data.keys())
+            
+            print(f"Generating {lin} / {cat} (Existing: {len(existing_keys)}) ...")
             
             # 1. Update the robust guide so the LLM has the exact up-to-date DB state
             update_guide()
             
             # 2. Call the LLM
-            comps, new_skills = call_llm(lin, cat)
+            comps, new_skills = call_llm(lin, cat, existing_keys)
             
             # 3. Save the components
             if comps:
+                # Merge with existing
+                existing_data.update(comps)
+                
                 os.makedirs(os.path.dirname(out_file), exist_ok=True)
                 with open(out_file, 'w') as f:
-                    json.dump(comps, f, indent=2)
-                print(f"  [v] Wrote {out_file}")
+                    json.dump(existing_data, f, indent=2)
+                print(f"  [v] Wrote {len(comps)} new variants to {out_file}")
                 
                 # 4. Inject the new skills
                 add_new_skills(new_skills)

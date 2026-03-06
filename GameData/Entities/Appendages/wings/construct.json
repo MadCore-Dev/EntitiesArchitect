@@ -1,1 +1,34 @@
-{}
+{
+    "Clockwork_Ornithopter_Wings": {
+        "tags": [
+            "Wings",
+            "Construct",
+            "Mechanical",
+            "Flying"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "A staggeringly complex, violently loud array of rigid silk-and-brass wings powered directly by the entity's central boiler or crystal drive. They beat the air with deafening, rhythmic snapping, allowing towering constructs to take to the skies."
+    }
+}

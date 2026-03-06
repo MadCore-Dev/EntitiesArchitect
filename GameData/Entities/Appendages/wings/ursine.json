@@ -1,1 +1,29 @@
-{}
+{
+    "Dense_Gliding_Pelt": {
+        "tags": [
+            "Wings",
+            "Gliding",
+            "Fur",
+            "Ursine"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Massive, incredibly loose folds of hyper-dense pelage stretching between the forelimbs and hind limbs. While lacking the tensile strength of true patagia, when the entity hurls its massive bulk from a cliff, the trapped air slows its descent into a horrific, guided plummet rather than a fatal fall."
+    }
+}

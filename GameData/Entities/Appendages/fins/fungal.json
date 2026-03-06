@@ -1,1 +1,23 @@
-{}
+{
+    "Hydrodynamic_Mycelial_Webs": {
+        "tags": [
+            "Fins",
+            "Swimming",
+            "Fungal"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Vast, tightly woven sheets of waterproof, hydrophobic hyphae stretching between the limbs. They function identically to the webbing of a frog, allowing a subterranean aquatic mold to swim efficiently through flooded cavern networks."
+    }
+}

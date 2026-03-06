@@ -1,1 +1,24 @@
-{}
+{
+    "Submersible_Brass_Screws": {
+        "tags": [
+            "Fins",
+            "Propulsion",
+            "Mechanical",
+            "Construct"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Heavy, rapidly spinning brass Archimedes screws or bladed propellers mounted upon the entity's flanks or rear. They effortlessly churn the water to propel the impossibly dense armor plating through aquatic environments."
+    }
+}

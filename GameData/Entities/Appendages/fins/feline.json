@@ -1,1 +1,29 @@
-{}
+{
+    "Caudal_Swimming_Flukes": {
+        "tags": [
+            "Fins",
+            "Aquatic",
+            "Feline",
+            "Tail"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "A feline tail that has become immensely thick, muscular, and laterally flattened at the tip into a paddle-like fluke. It provides phenomenal propulsion when the entity hunts in swamps or rivers."
+    }
+}

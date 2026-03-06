@@ -1,1 +1,30 @@
-{}
+{
+    "Membranous_Mucous_Gliders": {
+        "tags": [
+            "Wings",
+            "Slimy",
+            "Membrane",
+            "Amphibian",
+            "Gliding"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Massively elongated ribs supporting vast sheets of highly vascularized, constantly moist skin. Rather than powered flight, they allow the entity to parachute safely from colossal jungle canopies, while doubling as massive cutaneous breathing organs in high humidity."
+    }
+}

@@ -1,1 +1,34 @@
-{}
+{
+    "Elongated_Vibrissae_Whips": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Whiskers",
+            "Feline"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Gargantuan, hyper-thickened facial whiskers (vibrissae) extending several feet from the muzzle. Under conscious muscular control, they constantly writhe to map the immediate dark environment and can even lightly grasp nearby objects."
+    }
+}

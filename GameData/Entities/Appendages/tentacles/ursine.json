@@ -1,1 +1,25 @@
-{}
+{
+    "Elongated_Foraging_Lips": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Prehensile",
+            "Ursine",
+            "Sloth_Bear_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Squeeze"
+        ],
+        "description": "Hypertrophied, extensively mobile, completely hairless lips that can extend surprisingly far from the jawline. Functioning almost like short tentacles, they are used to form an airtight seal over termite mounds before inhaling violently."
+    }
+}

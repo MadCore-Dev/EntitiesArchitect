@@ -1,1 +1,34 @@
-{}
+{
+    "Cetacean_Convergence_Flukes": {
+        "tags": [
+            "Fins",
+            "Whale_Like",
+            "Aquatic",
+            "Ungulate"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "A phenomenal example of convergent evolution wherein the hooved hindquarters have completely fused and flattened into massive, horizontal cartilaginous flukes. Powered by incredible spinal undulation, it drives the entity through open oceans like a torpedo."
+    }
+}

@@ -1,1 +1,30 @@
-{}
+{
+    "Hydrophobic_Diving_Bell_Hairs": {
+        "tags": [
+            "Fins",
+            "Hairs",
+            "Aquatic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aquatic_Respiration",
+            "Swim_Dash"
+        ],
+        "description": "Dense, highly specialized hydrophobic hairs densely coating the abdomen and hind limbs. They function as biological scuba tanks, trapping a permanent layer of oxygen (a plastron) that acts simultaneously as a buoyancy fin and a breathable air supply underwater."
+    }
+}

@@ -1,1 +1,30 @@
-{}
+{
+    "Oar_Like_Hindlegs": {
+        "tags": [
+            "Fins",
+            "Legs",
+            "Aquatic",
+            "Insect",
+            "Water_Boatman"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Massively elongated, heavily modified hind limbs possessing a staggeringly dense fringe of water-repellent swimming hairs. They function as violently sweeping oars, propelling the arthropod incredibly quickly across the surface tension of water."
+    }
+}

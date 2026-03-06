@@ -1,1 +1,30 @@
-{}
+{
+    "Barbed_Chain_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Metal",
+            "Construct",
+            "Weapon"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "Dozens of articulated, segmented metal cables tipped with razor-sharp grappling hooks. Fully animated by magic, they writhe like metallic vipers, snagging fleeing targets and dragging them violently back toward the main chassis."
+    }
+}

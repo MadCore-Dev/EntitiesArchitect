@@ -1,1 +1,29 @@
-{}
+{
+    "Maxillary_Palp_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Mouthparts",
+            "Insect"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Hypertrophied, multi-jointed feeding appendages surrounding the mandibles that have grown to terrifying proportions. They lash out like independent tentacles to grasp, taste, and brutally manipulate struggling prey directly into the grinding jaws."
+    }
+}

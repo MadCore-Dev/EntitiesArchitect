@@ -1,1 +1,25 @@
-{}
+{
+    "Webbed_Otter_Paws": {
+        "tags": [
+            "Fins",
+            "Paws",
+            "Aquatic",
+            "Canine"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Paws featuring thick, fleshy webbing extending entirely between every digit. While they remain perfectly capable of terrestrial running, they instantly transform into phenomenal biological paddles the moment they submerge in rivers."
+    }
+}

@@ -1,1 +1,29 @@
-{}
+{
+    "Rib_Supported_Gliding_Membrane": {
+        "tags": [
+            "Wings",
+            "Gliding",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Massively elongated, highly mobile false ribs extending outward from the barrel chest. Covered in tightly stretched, vascularized skin, they can instantly fan outward like a reptilian dragon, granting terrifying gliding capabilities to an otherwise heavy cursorial beast."
+    }
+}

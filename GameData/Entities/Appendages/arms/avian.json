@@ -1,1 +1,29 @@
-{}
+{
+    "Vestigial_Wing_Claws": {
+        "tags": [
+            "Arms",
+            "Claws",
+            "Avian",
+            "Hoatzin_Like"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb"
+        ],
+        "description": "Functional, grasping claws extending directly from the leading edge of the wing's wrist joint. Though incredibly poor for true manipulation, they allow the entity to expertly clamber up sheer cliff faces and thick branches when flight is impossible."
+    }
+}

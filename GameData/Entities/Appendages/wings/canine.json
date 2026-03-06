@@ -1,1 +1,29 @@
-{}
+{
+    "Lateral_Patagium_Flaps": {
+        "tags": [
+            "Wings",
+            "Membrane",
+            "Gliding",
+            "Canine"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Furry, parachute-like membranes of skin stretching from the wrists to the ankles. When all four legs are spread wide mid-leap, these flaps catch the air, allowing the entity to silently glide from high cliffs down onto unsuspecting prey."
+    }
+}

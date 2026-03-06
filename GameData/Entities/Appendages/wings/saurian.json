@@ -1,1 +1,36 @@
-{}
+{
+    "Pterosaur_Leathery_Patagia": {
+        "tags": [
+            "Wings",
+            "Leather",
+            "Membrane",
+            "Saurian",
+            "Pterosaur"
+        ],
+        "traversal": [
+            "Fly",
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Colossal sheets of incredibly tough, vascularized, leathery skin (patagia) stretched from the ankles to a massively hypertrophied, enormously elongated fourth finger. They provide terrifyingly agile true powered flight."
+    }
+}

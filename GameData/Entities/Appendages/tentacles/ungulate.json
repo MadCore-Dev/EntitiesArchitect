@@ -1,1 +1,29 @@
-{}
+{
+    "Prehensile_Tapir_Trunk": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Prehensile",
+            "Ungulate"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "An extensively elongated, highly muscular fusion of the upper lip and nose. While primarily evolved to strip succulent leaves from thorny underbrush, it functions flawlessly as a highly dexterous fifth limb capable of grasping weapons or choking prey."
+    }
+}

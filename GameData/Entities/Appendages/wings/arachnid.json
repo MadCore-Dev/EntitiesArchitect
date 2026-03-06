@@ -1,1 +1,30 @@
-{}
+{
+    "Gossamer_Ballooning_Silks": {
+        "tags": [
+            "Wings",
+            "Silk",
+            "Gliding",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Fly",
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Not true biological limbs, but rather a constantly extruded, fan-like array of ultra-lightweight electrostatic gossamer silk. By catching thermal updrafts and atmospheric electrical currents, the entity achieves silent, completely unpowered flight."
+    }
+}

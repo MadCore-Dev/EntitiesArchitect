@@ -1,1 +1,28 @@
-{}
+{
+    "Benthic_Tripod_Stilts": {
+        "tags": [
+            "Legs",
+            "Stilts",
+            "Piscine"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Massively elongated, rigid extensions of the pelvic fins and lower tail spine. By standing on these three biological stilts, the entity perches motionlessly high above the muddy abyssal plain to intercept swimming prey."
+    }
+}

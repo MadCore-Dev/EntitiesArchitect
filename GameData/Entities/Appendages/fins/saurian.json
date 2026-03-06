@@ -1,1 +1,29 @@
-{}
+{
+    "Ichthyosaur_Dorsal_Sails": {
+        "tags": [
+            "Fins",
+            "Sails",
+            "Marine",
+            "Saurian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "A towering, fleshy dorsal fin structurally identical to a shark's, yet evolved entirely independently on a reptilian frame. It perfectly stabilizes the entity during high-speed, pelagic pursuit of slippery aquatic prey."
+    }
+}

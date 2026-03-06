@@ -1,1 +1,24 @@
-{}
+{
+    "Erpeton_Rostral_Appendages": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Saurian",
+            "Snake_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "A pair of fleshy, tentacle-like projections erupting directly from the front of the snout. Heavily innervated with mechanoreceptors, they are used by fully aquatic serpents to instantly detect the chaotic vibrations of fleeing fish in murky water."
+    }
+}

@@ -1,60 +1,23 @@
 {
-  "Ranid_Saltatory_Chassis": {
+  "Elongated_Caudata_Spine": {
     "tags": [
       "Flesh",
-      "Squat",
-      "Amphibian",
-      "Frog_Like"
-    ],
-    "traversal": [
-      "None"
-    ],
-    "mods": [
-      {
-        "target": "dex",
-        "op": "add",
-        "val": 1
-      },
-      {
-        "target": "size_index",
-        "op": "add",
-        "val": 0
-      },
-      {
-        "target": "jump_distance",
-        "op": "multiply",
-        "val": 1.5
-      }
-    ],
-    "grants_skills": [
-      "Leap"
-    ],
-    "description": "A compact, highly specialized anuran chassis entirely devoted to shock absorption and anchoring massive hind limb musculature. Features an inflexible spine and fused urostyle, trading rotational flexibility for extreme forward-launching biomechanics."
-  },
-  "Caudate_Elongated_Frame": {
-    "tags": [
-      "Flesh",
-      "Long",
       "Flexible",
       "Amphibian",
       "Salamander_Like"
     ],
     "traversal": [
-      "None"
+      "Walk",
+      "Swim"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "add",
-        "val": 1
-      },
-      {
-        "target": "size_index",
-        "op": "add",
-        "val": 1
-      },
-      {
         "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
         "op": "add",
         "val": 1
       }
@@ -62,23 +25,22 @@
     "grants_skills": [
       "Squeeze"
     ],
-    "description": "A long, cartilaginous salamander-like frame built for undulating movement across mud and undergrowth. It is incredibly flexible, allowing the creature to slip through impossible crevices and distribute impact force evenly."
+    "description": "An extensively elongated, highly flexible spine featuring dozens of additional vertebrae. It allows for sinuous, sweeping lateral movements essential for rapid aquatic navigation and wriggling through dense mud."
   },
-  "Gymnophiona_Serpentine_Core": {
+  "Limbless_Gymnophiona_Core": {
     "tags": [
       "Flesh",
       "Limbless",
-      "Annulated",
       "Amphibian",
       "Caecilian_Like"
     ],
     "traversal": [
-      "Walk",
-      "Burrow_Earth"
+      "Burrow",
+      "Swim"
     ],
     "mods": [
       {
-        "target": "str",
+        "target": "con",
         "op": "add",
         "val": 2
       },
@@ -91,6 +53,229 @@
     "grants_skills": [
       "Burrow"
     ],
-    "description": "A deeply annulated, bullet-shaped core completely lacking anchor points for limbs. Resembling a gigantic earthworm or blind snake, it is forged from dense muscle specifically adapted for subterranean, subterranean ram-burrowing."
+    "description": "A completely limbless, cylindrical frame composed almost entirely of tightly interlocking vertebrae and heavy axial musculature. It is a biological battering ram designed purely to force its way blindly through compacted subterranean soil."
+  },
+  "Ossified_Ceratophryid_Chassis": {
+    "tags": [
+      "Flesh",
+      "Heavy",
+      "Amphibian",
+      "Frog_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "A ridiculously wide, heavily ossified skeleton supporting massive bulk. It utterly abandons the leaping modifications of standard anurans to become an immovable, heavily armored ambush predator half-buried in the leaf litter."
+  },
+  "Flattened_Pipa_Frame": {
+    "tags": [
+      "Flesh",
+      "Flat",
+      "Amphibian",
+      "Stealth"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "An impossibly flattened, pancake-like skeletal structure lacking a tongue or vocal cords. It lies perfectly flush against the murky riverbed, completely indistinguishable from a piece of decaying deadwood."
+  },
+  "Arboreal_Hylid_Skeleton": {
+    "tags": [
+      "Flesh",
+      "Lightweight",
+      "Amphibian",
+      "Tree_Frog_Like"
+    ],
+    "traversal": [
+      "Climb",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Spider_Climb"
+    ],
+    "description": "An incredibly delicate, hollow-boned skeleton optimized entirely for vertical mobility. The pectoral girdle is heavily modified to absorb the tremendous shock of constantly leaping between impossibly high canopy branches."
+  },
+  "Goliath_Riparian_Bulk": {
+    "tags": [
+      "Flesh",
+      "Massive",
+      "Amphibian"
+    ],
+    "traversal": [
+      "Swim",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Body Slam"
+    ],
+    "description": "A gigantic, heavily muscled anuran frame capable of reaching the size of a small dog. Pushes the absolute extreme limits of amphibian respiration, trading agility for the raw power to wrestle aquatic megafauna."
+  },
+  "Paedomorphic_Aquatic_Core": {
+    "tags": [
+      "Flesh",
+      "Cartilage",
+      "Amphibian",
+      "Axolotl_Like"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "hp",
+        "op": "add",
+        "val": 10
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "A skeletal structure permanently localized in a juvenile, highly cartilaginous state. While physically softer than adult bone, it retains staggering regenerative capabilities, capable of rebuilding severed limbs flawlessly."
+  },
+  "Troglobitic_Cave_Chassis": {
+    "tags": [
+      "Flesh",
+      "Fragile",
+      "Amphibian",
+      "Cave_Dweller"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "A ghostly pale, exceedingly fragile frame utterly depleted of pigment and unnecessary bone density. Evolved entirely in pitch-black subterranean lakes, it sacrifices all physical defenses for absolute sensory supremacy."
+  },
+  "Torrent_Dwelling_Frame": {
+    "tags": [
+      "Flesh",
+      "Dense",
+      "Amphibian",
+      "Hellbender_Like"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "A dense, muscularly widened chassis designed explicitly to cling desperately to submerged rocks in violently raging rapids. Its sheer mass prevents it from being swept away by torrential currents."
+  },
+  "Inflating_Brevicipitid_Core": {
+    "tags": [
+      "Flesh",
+      "Expanding",
+      "Amphibian",
+      "Rain_Frog"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "A highly spherical, stout core possessing massively redundant lung capacity. When threatened, the entity violently inhales, inflating its body like a balloon to wedge itself immovably within rocky crevices."
   }
 }

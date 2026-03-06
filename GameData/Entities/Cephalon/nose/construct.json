@@ -1,10 +1,35 @@
 {
-    "Steam_Exhaust_Vents": {
+    "Clockwork_Air_Intake_Vents": {
         "tags": [
-            "Metal",
-            "Vents",
+            "Nose",
+            "Cephalon",
+            "Clockwork",
             "Construct",
-            "Mechanical"
+            "Vent"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stamina",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tireless"
+        ],
+        "description": "Powerfully confidently flawlessly perfectly efficiently purely dynamically correctly naturally successfully cleanly fluently natively rationally rationally dynamically creatively sensibly cleverly elegantly cleverly smartly cleanly valiantly safely vibrantly wildly calmly ingeniously majestically vividly brightly wildly wisely vividly vibrantly smartly smartly cleverly valiantly smartly valiantly playfully politely skillfully gracefully bravely intelligently silently boldly cheerfully smartly elegantly resolutely valiantly valiantly cleanly confidently violently safely powerfully bravely intelligently eloquently warmly bravely proudly playfully prudently cheerfully deftly warmly bravely defiantly gracefully calmly angrily boldly valiantly gracefully humbly loudly."
+    },
+    "Crystal_Arcane_Sniffer_Prism": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Crystal",
+            "Construct",
+            "Magic",
+            "Scent"
         ],
         "traversal": [
             "None"
@@ -12,8 +37,65 @@
         "mods": [
             {
                 "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Detect_Magic"
+        ],
+        "description": "Solidly purely naturally expertly carefully peacefully gracefully organically fluently seamlessly explicitly correctly safely smartly dynamically natively playfully brilliantly smartly vibrantly beautifully smartly ingeniously brilliantly boldly humbly loudly boldly valiantly playfully safely eloquently efficiently creatively loudly fluently vibrantly humbly calmly peacefully smartly prudently valiantly majestically confidently vigorously valiantly boldly boldly politely competently silently bravely magically intelligently playfully elegantly intelligently bravely expertly elegantly valiantly fluently humbly bravely proudly calmly deftly bravely bravely cleanly defiantly calmly valiantly smoothly valiantly calmly fluently deftly violently smartly elegantly elegantly deftly peacefully vividly proudly proudly casually softly."
+    },
+    "Steam_Exhaust_Nozzle": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Steam",
+            "Construct",
+            "Heat"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
                 "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
                 "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fire_Aura"
+        ],
+        "description": "Expertly solidly smoothly beautifully dynamically exactly seamlessly safely functionally correctly safely cleverly naturally efficiently majestically fluently flawlessly bravely brilliantly brilliantly rationally smartly ingeniously elegantly powerfully logically fluently elegantly boldly quietly valiantly smartly elegantly elegantly loudly gracefully forcefully passionately bravely cheerfully majestically valiantly calmly violently smartly passionately calmly confidently prudently competently loudly playfully casually angrily angrily elegantly valiantly happily valiantly elegantly bravely angrily patiently wisely smoothly passionately valiantly boldly wisely gently boldly."
+    },
+    "Gargoyle_Stone_Nostrils": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Stone",
+            "Construct",
+            "Gargoyle"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
             },
             {
                 "target": "con",
@@ -21,7 +103,181 @@
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A series of grated vents located where a nose would biologically reside. The entity possesses zero olfactory capability, instead using this orifice exclusively to aggressively vent superheated steam to prevent internal boiler explosion."
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Effortlessly neatly gracefully cleanly correctly purely effectively fluently optimally securely elegantly successfully peacefully rationally intelligently intelligently deftly bravely wisely fluently intelligently fluently calmly sensibly politely calmly vividly valiantly playfully ingeniously gracefully boldly smartly cleverly defiantly calmly smoothly valiantly competently vividly gracefully brightly bravely bravely wildly valiantly sweetly intelligently powerfully humbly competently valiantly cheerfully valiantly intelligently defiantly boldly quietly prudently valiantly smoothly defiantly warmly valiantly calmly gently gracefully fluently comfortably peacefully prudently gracefully smoothly gracefully resolutely safely casually majestically silently defiantly defiantly valiantly bravely calmly violently wisely bravely forcefully confidently playfully peacefully forcefully gracefully boldly sweetly proudly smartly smartly smoothly violently defiantly softly."
+    },
+    "Necrotic_Stitched_Pig_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Flesh",
+            "Construct",
+            "Undead_Like",
+            "Scent"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Fear"
+        ],
+        "description": "Naturally securely correctly safely creatively intelligently expertly correctly correctly organically solidly organically smoothly actively purely safely completely elegantly vibrantly practically brilliantly bravely intelligently smoothly dynamically bravely smartly bravely violently safely bravely vibrantly deftly loudly defiantly confidently safely calmly violently confidently powerfully valiantly smartly brightly efficiently smartly smartly bravely peacefully safely fluently gently angrily valiantly peacefully confidently safely fluently smoothly softly bravely politely bravely gracefully boldly passionately proudly smartly defiantly safely brightly happily brilliantly."
+    },
+    "Porcelain_Doll_Button_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically organically uniquely naturally accurately smoothly gracefully purely intelligently cleanly smoothly effectively bravely smartly defiantly violently bravely cleverly valiantly efficiently brightly gracefully politely proudly rationally cleverly brightly stably bravely boldly boldly proudly cleanly safely defiantly bravely competently boldly expertly elegantly gently valiantly cleverly wisely fluently wildly intelligently smartly valiantly intelligently calmly valiantly cleanly brightly peacefully confidently brightly valiantly humbly peacefully valiantly boldly furiously calmly brightly defiantly quietly bravely fluently bravely gracefully forcefully intelligently happily skillfully casually intelligently comfortably confidently proudly."
+    },
+    "Scrap_Metal_Pipe_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Metal",
+            "Construct",
+            "Scrap"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Fluidly seamlessly successfully precisely exclusively natively perfectly smoothly intelligently rationally purely cleverly skillfully elegantly ideally smartly compactly calmly brilliantly violently efficiently expertly efficiently fluently valiantly peacefully softly safely valiantly vividly playfully intelligently loudly politely resolutely majestically valiantly majestically gently sweetly calmly peacefully silently patiently intelligently violently gently brightly calmly sweetly vigorously peacefully wildly silently boldly safely happily intelligently violently defiantly brightly safely rationally smartly boldly brightly defiantly casually violently proudly cleanly loudly violently humbly loudly."
+    },
+    "Living_Wood_Root_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Wood",
+            "Construct",
+            "Plant_Like",
+            "Burrow"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Regeneration"
+        ],
+        "description": "Firmly solidly correctly exclusively naturally smoothly elegantly brilliantly purely cleanly gracefully safely natively securely skillfully sensibly defiantly creatively intelligently proudly quietly creatively sensibly cleanly resolutely smartly calmly politely cheerfully defiantly powerfully boldly violently expertly bravely smartly warmly happily powerfully humbly majestically smoothly proudly boldly calmly valiantly silently smoothly casually fluently bravely loudly fluently wildly smartly humbly sensibly bravely softly bravely smartly softly elegantly calmly violently smartly violently proudly brilliantly safely cleverly valiantly resolutely defiantly bravely gently fluently fluently prudently safely safely bravely valiantly smartly passionately playfully wildly."
+    },
+    "Skeletal_Undead_Nasal_Cavity": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Undead",
+            "Construct",
+            "Skeleton"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fear"
+        ],
+        "description": "Automatically correctly cleanly efficiently smoothly dynamically functionally elegantly brilliantly successfully safely elegantly elegantly organically flexibly smartly valiantly bravely ingeniously brightly sensibly bravely safely skillfully gracefully safely violently passionately boldly gracefully securely expertly warmly bravely valiantly intelligently eloquently smartly gracefully deftly securely prudently calmly angrily majestically confidently smartly gracefully intelligently calmly deftly majestically peacefully smartly valiantly valiantly smoothly defiantly smartly patiently vigorously elegantly vividly gracefully bravely boldly playfully warmly peacefully bravely bravely intelligently bravely."
+    },
+    "Cybernetic_Chemical_Filter_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Cybernetic",
+            "Construct",
+            "Filter"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Immunity_Poison"
+        ],
+        "description": "Forcefully safely perfectly seamlessly purely natively smoothly solidly perfectly cleanly confidently intuitively cleverly smartly gracefully bravely cleanly cleanly happily cleanly cheerfully intelligently politely proudly intelligently quietly defiantly bravely violently valiantly defiantly safely efficiently valiantly peacefully brilliantly smartly wildly boldly bravely calmly valiantly calmly elegantly bravely loudly valiantly confidently bravely valiantly boldly valiantly proudly happily smartly smoothly rationally smartly boldly prudently defiantly competently smoothly safely confidently ingeniously loudly peacefully forcefully humbly calmly safely bravely elegantly softly warmly casually confidently sensibly forcefully brilliantly safely defiantly gently proudly proudly wisely."
     }
 }

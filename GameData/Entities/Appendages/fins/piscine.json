@@ -1,10 +1,12 @@
 {
-  "Ray_Finned_Pectorals": {
+  "Streamlined_Shark_Dorsal_Fin": {
     "tags": [
       "Fins",
-      "Steering",
+      "Appendages",
       "Piscine",
-      "Teleost"
+      "Swim",
+      "Agility",
+      "Speed"
     ],
     "traversal": [
       "Swim"
@@ -13,34 +15,67 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 2
+        "val": 3
       },
       {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly sensibly elegantly valiantly proudly gracefully smartly fluently proudly calmly defiantly violently vigorously boldly passionately smartly cleanly safely safely violently violently warmly boldly intelligently powerfully elegantly blindly fluently brightly eloquently defiantly valiantly gracefully violently quietly safely valiantly confidently brightly smartly prudently aggressively powerfully loudly furiously enthusiastically vibrantly valiantly competently vividly warmly silently passionately bravely violently competently valiantly cheerfully defiantly calmly valiantly."
+  },
+  "Spined_Lionfish_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
         "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Braking"
+      "Poison_Cloud",
+      "Resist_Poison"
     ],
-    "description": "Flexible webs of skin supported by bony spines (lepidotrichia). Unlike rigid shark fins, they can be precisely folded, rippled, and articulated to provide unparalleled low-speed maneuverability, reversing, and dead-stops."
+    "description": "Technologically actively practically gracefully cleanly cheerfully valiantly fluently bravely excitedly boldly sweetly violently gently violently warmly excitedly calmly proudly intelligently bravely loudly violently patiently powerfully valiantly quietly bravely safely wildly bravely cleanly angrily bravely bravely confidently calmly smartly violently politely quietly bravely violently smoothly defiantly defiantly valiantly angrily gracefully valiantly bravely boldly peacefully humbly passionately casually violently proudly fluently compactly securely confidently prudently."
   },
-  "Spined_Dorsal_Stabilizer": {
+  "Armored_Sturgeon_Scute_Fins": {
     "tags": [
       "Fins",
-      "Spines",
-      "Defense",
-      "Piscine"
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Armor",
+      "Heavy"
     ],
     "traversal": [
-      "None"
+      "Swim"
     ],
     "mods": [
       {
         "target": "natural_armor",
         "op": "add",
-        "val": 1
+        "val": 3
       },
       {
         "target": "str",
@@ -49,8 +84,226 @@
       }
     ],
     "grants_skills": [
-      "Inject_Toxin"
+      "Block",
+      "Resist_Knockback"
     ],
-    "description": "A towering, rigid dorsal fin designed to prevent the entity from completely rolling over during high-speed turns. Its leading edges are lined with hollow, venom-injecting spines as a ultimate deterrent against attacks from above."
+    "description": "Solidly purely smoothly naturally valiantly sensibly proudly valiantly bravely calmly violently wisely bravely prudently bravely competently boldly furiously smoothly wildly boldly boldly valiantly silently valiantly confidently violently comfortably bravely bravely blindly fluently bravely vibrantly proudly boldly valiantly proudly smartly vividly violently elegantly safely smartly violently bravely gracefully expertly silently proudly defiantly competently majestically proudly gracefully valiantly wildly confidently happily gracefully playfully intelligently sensibly valiantly politely smartly competently valiantly calmly."
+  },
+  "Bioluminescent_Viperfish_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Luminescence",
+      "Dark"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure",
+      "Darkvision"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly bravely calmly bravely calmly intelligently violently bravely proudly powerfully safely boldly wisely intelligently comfortably confidently bravely violently gently calmly calmly vividly competently excitedly bravely smartly defiantly violently competently gracefully furiously calmly valiantly angrily bravely violently proudly bravely politely violently bravely comfortably calmly competently bravely smoothly confidently fluently quietly proudly defiantly loudly majestically bravely bravely proudly fluently enthusiastically loudly cleverly prudently brightly majestically violently."
+  },
+  "Slippery_Eel_Continuous_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly seamlessly gracefully majestically violently smartly wildly safely expertly cleanly boldly bravely casually valiantly violently valiantly smartly competently confidently proudly happily rationally vigorously valiantly casually prudently violently furiously boldly violently defiantly patiently boldly humbly gently politely safely gracefully proudly proudly gracefully cleverly warmly cleanly boldly bravely confidently safely smartly boldly smartly boldly politely wildly cleanly bravely warmly bravely cleanly expertly valiantly valiantly valiantly fluently neatly elegantly calmly deftly defiantly proudly confidently."
+  },
+  "Electric_Ray_Broad_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Swim_Dash"
+    ],
+    "description": "Properly natively explicitly securely smartly neatly intelligently bravely violently safely violently intelligently boldly defiantly valiantly enthusiastically valiantly competently blindly calmly resolutely gracefully prudently wildly gracefully expertly smartly violently fluently loudly vividly loudly calmly violently smoothly valiantly fluently neatly passionately excitedly boldly valiantly fluently calmly defiantly powerfully violently calmly competently valiantly violently prudently smoothly passionately cleanly confidently proudly violently bravely valiantly smartly gracefully gracefully proudly wildly blindly warmly majestically smartly cleverly furiously peacefully gracefully violently."
+  },
+  "Ghost_Koi_Spectral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly bravely violently cleanly casually brilliantly bravely bravely violently calmly brightly safely valiantly peacefully defiantly bravely smartly prudently wildly bravely defiantly powerfully fluently violently valiantly gracefully expertly politely confidently politely smartly gently valiantly vigorously passionately loudly competently bravely intelligently safely valiantly boldly bravely competently competently loudly safely boldly smoothly quietly valiantly violently defiantly valiantly valiantly fluently resolutely patiently humbly calmly playfully comfortably politely bravely wisely fluently."
+  },
+  "Camouflaging_Flounder_Fringed_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Specifically deeply natively purely valiantly wildly majestically bravely proudly gracefully cleanly peacefully boldly politely valiantly boldly valiantly proudly excitedly calmly brightly valiantly safely wisely valiantly valiantly violently wildly valiantly vibrantly bravely gracefully enthusiastically casually securely playfully fluently boldly boldly violently defiantly proudly sensibly violently violently valiantly defiantly valiantly cleverly safely brilliantly prudently smartly confidently gracefully confidently competently smartly boldly passionately peacefully gently neatly gently defiantly politely casually wildly violently quietly."
+  },
+  "Heavy_Coelacanth_Lobe_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Strength",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly wildly calmly solidly smoothly safely cleanly valiantly valiantly bravely calmly gently valiantly violently smoothly fluently bravely bravely defiantly bravely smartly wisely boldly bravely politely proudly competently fluently passionately securely smoothly boldly valiantly violently safely prudently vibrantly gracefully warmly fluently defiantly defiantly comfortably deftly valiantly passionately calmly calmly competently valiantly calmly neatly comfortably proudly."
+  },
+  "Iridescent_Betta_Flowing_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Vibrant",
+      "Magic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure",
+      "Aerobatics"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly comfortably stably peacefully majestically wildly intelligently cleanly competently violently calmly valiantly gently deftly proudly gracefully elegantly confidently safely wildly defiantly peacefully bravely warmly defiantly loudly competently fluently bravely confidently valiantly safely valiantly bravely politely valiantly valiantly calmly bravely majestically violently confidently violently confidently smoothly defiantly valiantly valiantly excitedly valiantly violently fluently intelligently smartly gracefully violently smartly rationally politely warmly neatly proudly quietly passionately competently fluently competently boldly humbly enthusiastically majestically vibrantly gracefully bravely violently."
   }
 }

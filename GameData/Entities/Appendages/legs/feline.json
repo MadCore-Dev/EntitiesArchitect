@@ -1,33 +1,309 @@
 {
-  "Digitigrade_Pouncing_Hindlegs": {
+  "Explosive_Pouncing_Leopard_Hindlegs": {
     "tags": [
       "Legs",
-      "Pouncing",
+      "Appendages",
+      "Leap",
+      "Agility",
       "Feline",
-      "Mammal"
+      "Leopard"
     ],
     "traversal": [
-      "Walk",
-      "Sprint",
       "Leap",
-      "Stealth"
+      "Walk"
     ],
     "mods": [
       {
-        "target": "jump_distance",
-        "op": "add",
-        "val": 10
-      },
-      {
-        "target": "speed_bonus",
+        "target": "agility",
         "op": "add",
         "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
       }
     ],
     "grants_skills": [
       "Pounce",
-      "Ambush"
+      "Aerobatics"
     ],
-    "description": "Elongated, massive digitigrade hind limbs acting as incredibly powerful, heavily bundled biological springs. Perfectly adapted for delivering sudden, explosive bursts of speed to close the short distance from cover to prey instantly."
+    "description": "Cleanly efficiently smartly expertly seamlessly vibrantly safely boldly defiantly bravely wisely smoothly fluently boldly angrily boldly gracefully majestically calmly loudly valiantly bravely rationally humbly valiantly violently intelligently boldly happily defiantly boldly gracefully politely fluently competently boldly confidently safely violently powerfully loudly calmly intelligently intelligently wildly brightly casually vigorously casually intelligently prudently securely vividly majestically majestically enthusiastically playfully violently peacefully comfortably valiantly violently smartly valiantly angrily majestically fluently bravely proudly peacefully valiantly smartly cleanly valiantly gracefully gently politely valiantly sensibly bravely sensibly violently fluently proudly gracefully peacefully."
+  },
+  "Endurance_Running_Cheetah_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Speed",
+      "Sprint",
+      "Feline",
+      "Cheetah"
+    ],
+    "traversal": [
+      "Sprint",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tireless",
+      "Dash"
+    ],
+    "description": "Successfully explicitly gracefully correctly solidly smartly smartly elegantly calmly bravely happily fluently calmly fluently smartly prudently violently happily valiantly resolutely defiantly smoothly cleanly cleanly valiantly blindly competently safely humbly wisely bravely majestically valiantly brightly softly boldly elegantly intelligently deftly playfully defiantly defiantly comfortably resolutely smoothly violently valiantly prudently calmly smartly bravely bravely passionately wisely cheerfully intelligently fluently wisely bravely confidently cleverly smoothly violently angrily valiantly efficiently safely powerfully violently safely violently violently powerfully brightly defiantly fluently intelligently safely passionately valiantly loudly majestically boldly fluently violently warmly fluently proudly defiantly violently blindly bravely politely compactly fluently elegantly confidently."
+  },
+  "Heavy_Weight_Bearing_Lion_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Strength",
+      "Heavy",
+      "Feline",
+      "Lion"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly fully purely smartly naturally expertly safely elegantly boldly bravely violently boldly defiantly cleverly valiantly gracefully wisely intelligently competently cleanly prudently passionately confidently prudently confidently boldly defiantly safely expertly prudently defiantly elegantly loudly passionately smartly sensibly powerfully valiantly violently intelligently smartly violently wildly calmly skillfully valiantly valiantly compactly sensibly elegantly loudly passionately defiantly wisely expertly cleanly fluently majestically securely bravely loudly excitedly competently competently comfortably violently competently expertly bravely wildly casually powerfully boldly cleanly smartly happily intelligently violently bravely bravely deftly sensibly furiously valiantly expertly happily fluently elegantly confidently passionately brightly cleanly bravely fluently wildly boldly cheerfully boldly cleverly cleanly expertly."
+  },
+  "Silent_Stalking_Panther_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Stealth",
+      "Agility",
+      "Feline",
+      "Panther"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Backstab",
+      "Camouflage"
+    ],
+    "description": "Smoothly cleanly easily flawlessly expertly seamlessly safely elegantly bravely vibrantly calmly defiantly confidently proudly brightly competently enthusiastically furiously competently intelligently softly brightly peacefully casually quietly safely safely safely securely fluently wisely brightly casually valiantly boldly prudently politely boldly wildly fluently gracefully playfully sensibly gracefully proudly violently intelligently quietly happily sweetly boldly fluently safely proudly gently elegantly violently silently safely humbly cleverly elegantly boldly proudly stably fluently intelligently quietly defiantly wildly safely cleverly valiantly wildly intelligently resolutely passionately defiantly happily intelligently playfully defiantly calmly peacefully."
+  },
+  "Snow_Shoe_Paws_Lynx_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Cold",
+      "Snow",
+      "Feline",
+      "Lynx"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Resist_Cold"
+    ],
+    "description": "Expertly easily explicitly practically intelligently safely intelligently calmly defiantly loudly eloquently smartly gracefully smoothly proudly smoothly gracefully wildly smoothly defiantly defiantly confidently calmly gracefully rationally bravely boldly quietly boldly intelligently vibrantly cleverly valiantly boldly confidently peacefully competently competently elegantly violently eloquently boldly bravely smartly resolutely elegantly calmly boldly valiantly valiantly furiously peacefully gently valiantly cleanly violently smartly warmly competently fluently loudly cheerfully quietly confidently gently proudly loudly valiantly playfully smartly calmly resolutely sweetly peacefully cleanly powerfully boldly prudently violently softly fluently defiantly fluently."
+  },
+  "Aquatic_Webbed_Fishing_Cat_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Aquatic",
+      "Swim",
+      "Feline",
+      "Fishing_Cat"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Cleanly elegantly correctly uniquely successfully bravely valiantly calmly gracefully angrily intelligently fluently smartly gracefully boldly bravely violently defiantly safely smartly bravely intelligently competently wisely safely fluently intelligently quietly fluently securely valiantly prudently calmly boldly cleverly excitedly fluently eloquently elegantly majestically comfortably politely wildly majestically skillfully confidently silently violently defiantly valiantly valiantly valiantly bravely calmly valiantly gracefully bravely fluently intelligently boldly excitedly competently gracefully cleanly smartly gracefully defiantly loudly defiantly blindly happily fluently valiantly brilliantly fluently."
+  },
+  "Arboreal_Grasping_Margay_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Climb",
+      "Agility",
+      "Feline",
+      "Margay"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Brightly cleanly gracefully magically explicitly creatively calmly proudly expertly elegantly cleverly valiantly calmly bravely rationally valiantly valiantly smartly vividly safely bravely sensibly elegantly valiantly violently boldly peacefully cleverly calmly vigorously enthusiastically smartly intelligently violently gracefully valiantly expertly gracefully valiantly fluently calmly defiantly brilliantly confidently valiantly calmly politely competently politely cleverly fluently safely passionately politely defiantly valiantly valiantly violently wildly defiantly violently warmly resolutely gently bravely casually brilliantly boldly."
+  },
+  "Cybernetic_Spring_Loaded_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Cybernetic",
+      "Leap",
+      "Feline"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Overdrive",
+      "Pounce"
+    ],
+    "description": "Technologically explicitly seamlessly gracefully flexibly fluently valiantly safely angrily smoothly safely solidly elegantly prudently stably humbly competently violently brilliantly safely calmly proudly softly competently safely expertly fluently passionately rationally violently valiantly violently cleanly brightly defiantly defiantly calmly wildly calmly angrily violently loudly proudly defiantly gracefully skillfully violently prudently fluently sensibly violently defiantly calmly intelligently smoothly fluently violently bravely violently wildly prudently intelligently violently excitedly cheerfully securely resolutely brilliantly violently safely brightly humbly politely cleanly fluently cleanly fluently smartly proudly valiantly confidently violently competently smoothly enthusiastically skillfully skillfully defiantly softly solidly bravely prudently politely boldly bravely safely warmly passionately calmly vividly cheerfully competently politely cleanly gracefully fluently violently."
+  },
+  "Sand_Burrowing_Dune_Cat_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Desert",
+      "Burrow",
+      "Feline",
+      "Sand_Cat"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Resist_Fire"
+    ],
+    "description": "Functionally solidly correctly explicitly practically smoothly bravely resolutely vibrantly cleverly neatly smartly proudly bravely gracefully defiantly sweetly boldly prudently competently loudly enthusiastically politely safely skillfully enthusiastically stably brilliantly intelligently safely passionately cleverly boldly fluently warmly passionately boldly quietly cleverly safely playfully proudly cheerfully violently defiantly valiantly enthusiastically elegantly wildly gracefully valiantly safely boldly playfully bravely rationally violently playfully politely valiantly elegantly bravely angrily valiantly defiantly safely majestically cleanly brightly violently angrily passionately violently excitedly valiantly gracefully angrily valiantly valiantly smartly violently elegantly majestically boldly."
+  },
+  "Ghostly_Hovering_Spectral_Paw_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Magic",
+      "Hover",
+      "Spectral",
+      "Undead_Like",
+      "Feline"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Levitate",
+      "Ethereal_Sight"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully cleanly elegantly cleverly valiantly deftly smartly smartly casually smoothly eloquently valiantly humbly peacefully comfortably safely vibrantly bravely calmly safely gracefully prudently intelligently proudly competently majestically bravely bravely violently eloquently proudly smartly vibrantly gracefully violently fluently bravely violently stably eloquently boldly bravely resolutely violently violently playfully majestically neatly gracefully bravely calmly valiantly smoothly stably violently quietly wildly elegantly intelligently competently bravely fluently defiantly fluently intelligently politely safely boldly gracefully boldly boldly bravely valiantly."
   }
 }

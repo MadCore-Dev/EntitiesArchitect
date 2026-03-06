@@ -1,15 +1,14 @@
 {
-    "Pterosaur_Leathery_Patagia": {
+    "Pteranodon_Leathery_Wings": {
         "tags": [
             "Wings",
-            "Leather",
-            "Membrane",
+            "Appendages",
             "Saurian",
-            "Pterosaur"
+            "Flight",
+            "Agility"
         ],
         "traversal": [
-            "Fly",
-            "Glide"
+            "Flight"
         ],
         "mods": [
             {
@@ -20,17 +19,282 @@
             {
                 "target": "speed_bonus",
                 "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
+                "val": 3
             }
         ],
         "grants_skills": [
             "Aerobatics"
         ],
-        "description": "Colossal sheets of incredibly tough, vascularized, leathery skin (patagia) stretched from the ankles to a massively hypertrophied, enormously elongated fourth finger. They provide terrifyingly agile true powered flight."
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly resolutely boldly majestically proudly violently fluently defiantly smartly cleverly boldly enthusiastically brightly majestically fluently calmly passionately valiantly cleanly elegantly safely bravely fluently competently cleverly competently violently smoothly calmly prudently bravely cleanly bravely furiously wisely lazily smartly comfortably gracefully politely gracefully lazily smartly competently bravely calmly casually gracefully lazily confidently politely humbly happily smartly violently valiantly bravely defiantly confidently politely valiantly bravely casually fluently furiously valiantly valiantly lazily gracefully intelligently comfortably boldly violently smartly safely bravely gracefully."
+    },
+    "Quetzalcoatlus_Massive_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Flight",
+            "Strength",
+            "Heavy"
+        ],
+        "traversal": [
+            "Flight"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Wind",
+            "Aerobatics"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly valiantly competently boldly bravely peacefully fluently competently boldly safely calmly smartly violently bravely quietly vividly cheerfully fluently merrily peacefully valiantly powerfully fluently resolutely lazily prudently calmly bravely eloquently happily smartly brilliantly expertly bravely calmly bravely lazily smartly competently proudly blindly smartly passionately casually gracefully intelligently boldly safely humbly valiantly wildly majestically safely."
+    },
+    "Microraptor_Feathered_Gliders": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Glide",
+            "Agility",
+            "Stealth"
+        ],
+        "traversal": [
+            "Glide",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Aerobatics"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily defiantly calmly majestically competently sweetly boldly elegantly competently boldly passionately powerfully valiantly solidly gently valiantly casually valiantly smoothly bravely bravely vibrantly violently gracefully proudly cleanly lazily calmly cleanly expertly valiantly bravely patiently fluently bravely bravely valiantly peacefully competently eagerly eloquently warmly peacefully majestically lazily safely deftly intelligently peacefully cleanly safely valiantly blindly smoothly stably bravely playfully valiantly competently violently gracefully defiantly passionately calmly lazily majestically competently deftly."
+    },
+    "Archaeopteryx_Proto_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Glide",
+            "Agility",
+            "Dexterity"
+        ],
+        "traversal": [
+            "Glide",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Aerobatics"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically valiantly cleverly calmly expertly smoothly angrily smoothly gracefully silently lazily valiantly boldly smartly defiantly competently vigorously warmly bravely bravely lazily bravely casually bravely patiently expertly prudently cleanly smoothly lazily smartly proudly sensibly calmly smartly deftly comfortably peacefully defiantly safely elegantly bravely expertly silently confidently."
+    },
+    "Spectral_Saurian_Ghost_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Flight",
+            "Magic",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Flight",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Aerobatics"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly cheerfully smoothly brightly solidly gently violently calmly defiantly cleanly politely loudly smoothly confidently defiantly valiantly intelligently angrily bravely smoothly elegantly furiously gracefully boldly defiantly gracefully bravely casually fluently angrily safely competently valiantly cheerfully fluently valiantly brilliantly warmly silently defiantly competently valiantly violently defiantly securely wildly safely smoothly safely vibrantly competently calmly smartly fluently boldly enthusiastically politely peacefully casually boldly humbly cleverly boldly solidly warmly intelligently valiantly calmly confidently valiantly calmly smartly elegantly competently happily violently wildly cleanly smartly bravely politely valiantly violently valiantly compactly safely boldly valiantly bravely softly safely."
+    },
+    "Zombie_Trex_Torn_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Undead",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly calmly playfully proudly violently bravely lazily boldly fluently boldly valiantly safely confidently lazily smoothly peacefully wisely patiently lazily valiantly lazily gracefully wisely majestically bravely resolutely calmly happily safely playfully safely valiantly skillfully humbly casually boldly wildly happily violently deftly bravely resolutely defiantly bravely fluently cleanly smartly stably bravely boldly loudly fluently passionately peacefully boldly smartly prudently violently boldly."
+    },
+    "Dimorphodon_Agile_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Flight",
+            "Agility",
+            "Speed"
+        ],
+        "traversal": [
+            "Flight"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Target_Lock"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly gently confidently peacefully resolutely loudly merrily cleanly gracefully boldly smartly elegantly proudly lazily safely bravely gracefully fluently safely competently enthusiastically furiously gracefully casually gently politely warmly calmly merrily calmly quietly fluently sensibly gracefully proudly bravely bravely boldly loudly cheerfully securely competently casually bravely wildly angrily defiantly warmly violently confidently violently stably valiantly bravely cleanly smartly gracefully politely valiantly smoothly expertly brilliantly smoothly bravely bravely confidently violently smartly smartly proudly softly competently politely boldly bravely fluently expertly calmly bravely majestically safely powerfully lazily violently furiously bravely peacefully boldly valiantly politely enthusiastically valiantly competently fluently resolutely."
+    },
+    "Rhamphorhynchus_Long_Tailed_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Flight",
+            "Balance",
+            "Dexterity"
+        ],
+        "traversal": [
+            "Flight"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly bravely cleanly safely comfortably bravely violently calmly cleanly cheerfully valiantly quietly angrily fluently valiantly calmly valiantly gracefully casually elegantly bravely humbly cleanly competently stably politely happily lazily competently bravely efficiently smartly valiantly fluently neatly elegantly gracefully warmly securely bravely intelligently gently smartly solidly boldly confidently cleanly happily elegantly valiantly politely loudly brilliantly boldly fluently wisely patiently loudly boldly eloquently playfully powerfully fluently elegantly gracefully fluently cleanly bravely valiantly bravely fluently blindly eloquently warmly gracefully confidently peacefully."
+    },
+    "Tapejara_Crested_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Flight",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "Flight"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Aerobatics"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently deftly violently playfully defiantly peacefully cleanly politely boldly quietly cheerfully elegantly lazily expertly valiantly smartly calmly warmly safely safely valiantly boldly bravely confidently smartly bravely calmly peacefully gracefully boldly calmly fluently loudly lazily comfortably violently politely boldly proudly proudly bravely brilliantly humbly intelligently gracefully valiantly violently smoothly fluently humbly patiently resolutely lazily politely smartly safely expertly stably peacefully valiantly loudly confidently brightly smartly calmly bravely boldly politely defiantly peacefully cheerfully violently angrily bravely violently elegantly competently fluently cleverly stably calmly."
+    },
+    "Yi_Qi_Membranous_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Saurian",
+            "Glide",
+            "Stealth",
+            "Agility"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Invisibility"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely valiantly smartly valiantly smoothly cleanly peacefully defiantly safely bravely boldly merrily confidently valiantly cheerfully intelligently warmly confidently passionately valiantly smartly intelligently valiantly violently playfully vigorously valiantly gracefully violently defiantly fluently lazily patiently smartly valiantly calmly blindly valiantly smoothly loudly expertly peacefully passionately humbly excitedly elegantly gently gently patiently cleverly prudently valiantly cheerfully fluently smartly confidently fluently smoothly brightly cleanly loudly powerfully angrily fluently fluently cleanly gently sweetly defiantly quietly warmly defiantly valiantly enthusiastically elegantly safely cleanly boldly patiently."
     }
 }

@@ -1,24 +1,45 @@
 {
-  "Pneumatized_Keel_Chassis": {
+  "Pneumatized_Hollow_Bones": {
     "tags": [
       "Bone",
       "Lightweight",
-      "Pneumatic",
       "Avian",
-      "Bird_Like"
+      "Flight"
     ],
     "traversal": [
-      "None"
+      "Glide",
+      "Fly"
     ],
     "mods": [
       {
-        "target": "dex",
+        "target": "agility",
         "op": "add",
-        "val": 2
+        "val": 3
       },
       {
-        "target": "size_index",
+        "target": "con",
         "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "An incredibly delicate, hyper-lightweight skeleton where the primary bones are almost entirely hollow, heavily reinforced internally only by microscopic, honeycomb-like crisscrossing struts. Essential for true, sustained powered flight but shatters horrifically under direct crushing strikes."
+  },
+  "Keeled_Sternum_Carina": {
+    "tags": [
+      "Bone",
+      "Flight_Muscles",
+      "Avian"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
         "val": 1
       },
       {
@@ -27,15 +48,12 @@
         "val": 1
       }
     ],
-    "grants_skills": [
-      "Aerobatics"
-    ],
-    "description": "An incredibly light, rigid skeletal frame composed of hollow, strut-reinforced bones (pneumatization). It features a massively expanded sternum keel to anchor vast flight muscles, sacrificing brute durability for weightlessness and aerodynamic efficiency."
+    "grants_skills": [],
+    "description": "A spectacularly extended, violently projecting ridge running directly down the center of the breastbone. It serves exclusively as a colossal, unbreakable biological anchor point for the shockingly massive pectoral flight muscles required for aggressive, vertical takeoffs."
   },
-  "Ratite_Flightless_Core": {
+  "Ratite_Massive_Solid_Frame": {
     "tags": [
       "Bone",
-      "Dense",
       "Heavy",
       "Avian",
       "Ostrich_Like"
@@ -48,22 +66,206 @@
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "val": 3
       },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "The exact opposite of a flighted bird. The skeleton is terrifyingly thick, intensely heavy, completely solid marrow-filled bone utterly lacking a keeled sternum. It anchors gargantuan, violently powerful running legs capable of shattering a lion's ribs with a single kick."
+  },
+  "Fused_Synsacrum_Pelvis": {
+    "tags": [
+      "Bone",
+      "Armor",
+      "Avian",
+      "Shock_Absorption"
+    ],
+    "traversal": [
+      "Fly",
+      "Leap"
+    ],
+    "mods": [
       {
         "target": "con",
         "op": "add",
         "val": 2
       },
       {
-        "target": "speed_bonus",
+        "target": "natural_armor",
         "op": "add",
-        "val": 3
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The lumbar, sacral, and partial tail vertebrae have shockingly entirely fused directly into the pelvic girdle, forming an utterly solid, wildly unbending, armor-like plate over the lower back. Essential for absorbing the horrifying, jarring impact of landing at 150 miles per hour."
+  },
+  "Pygostyle_Tail_Anchor": {
+    "tags": [
+      "Bone",
+      "Tail",
+      "Avian",
+      "Flight"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
       }
     ],
     "grants_skills": [
-      "Dash"
+      "Aerobatics"
     ],
-    "description": "A dense, un-keeled sternum and heavy, marrow-filled bones. Having abandoned the architectural requirements of flight entirely, this chassis is built to anchor massive cursorial leg muscles, turning the entity into a towering, high-speed terrestrial runner."
+    "description": "The final extremely short sections of the tail vertebrae are brutally fused into a single, highly specialized triangular blade of bone. It flawlessly anchors a massively expansive, intensely muscular fan of stiff tail feathers serving as a high-speed aerodynamic rudder."
+  },
+  "Aquatic_Dense_Diving_Core": {
+    "tags": [
+      "Bone",
+      "Heavy",
+      "Avian",
+      "Penguin_Like"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "An avian skeleton that has actively, violently reversed millions of years of lightweight evolution. The bones are obscenely thick, intensely heavy, and completely solid, specifically ballasting the entity perfectly to eliminate buoyancy for deep, high-speed underwater pursuit."
+  },
+  "Elongated_Flexible_Neck_Cervicals": {
+    "tags": [
+      "Bone",
+      "Flexible",
+      "Avian",
+      "Heron_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "A terrifyingly long neck constructed of dozens of highly specialized, wildly articulating vertebrae. In resting posture, it violently kinks backward into a tight 'S' shape. When striking, it uncoils and violently snaps forward with the speed and horrifying armor-piercing force of an uncoiling snake."
+  },
+  "Rigid_Uncinate_Rib_Cage": {
+    "tags": [
+      "Bone",
+      "Armor",
+      "Avian",
+      "Diving"
+    ],
+    "traversal": [
+      "Fly",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Each extraordinarily delicate rib severely overlaps perfectly over the rib directly behind it via heavily ossified, rear-facing bony processes. This intensely reinforces the entire utterly fragile ribcage against the completely crushing hydrostatic pressure of deep-sea, 200-foot plunge dives."
+  },
+  "Glandular_Crop_Storage_Cavity": {
+    "tags": [
+      "Bone",
+      "Storage",
+      "Avian",
+      "Vulture_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "size_index",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The upper skeletal frame is profoundly widened at the shoulders specifically to perfectly house an impossibly gargantuan sub-dermal muscular pouch (the crop). It allows a scavenging entity to absolutely gorge itself on thirty pounds of rotting meat in ten minutes before lumbering painfully back into the sky."
+  },
+  "Subterranean_Kiwi_Like_Core": {
+    "tags": [
+      "Bone",
+      "Flightless",
+      "Avian",
+      "Burrowing"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "A completely bizarre, horribly stunted, wingless bird skeleton. Heavily rounded, practically no sternum, and terrifyingly thick leg bones resembling a mammal's skeleton far more than an avian's. Evolved specifically to silently creep beneath dense, lightless fern canopies."
   }
 }

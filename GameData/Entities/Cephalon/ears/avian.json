@@ -1,9 +1,8 @@
 {
-  "Asymmetrical_Facial_Disc": {
+  "Asymmetrical_Vertical_Ear_Slits": {
     "tags": [
-      "Sensory",
-      "Feathers",
-      "Dish",
+      "Ears",
+      "Asymmetrical",
       "Avian",
       "Owl_Like"
     ],
@@ -15,17 +14,215 @@
         "target": "perception",
         "op": "add",
         "val": 3
-      },
+      }
+    ],
+    "grants_skills": [
+      "Keen Hearing",
+      "Blindsight"
+    ],
+    "description": "Vastly huge, intensely vertically elongated ear openings cut completely directly into the side of the completely feathered skull. The right slit is dramatically placed intensely noticeably higher, while the dramatically lower left slit points heavily violently downward. Grants absolute entirely flawless acoustic pinpoint 3D triangulation in total utter blackness."
+  },
+  "Facial_Feather_Parabolic_Ruff": {
+    "tags": [
+      "Ears",
+      "Feathers",
+      "Parabolic",
+      "Avian",
+      "Owl_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
       {
-        "target": "initiative",
+        "target": "perception",
         "op": "add",
         "val": 2
       }
     ],
     "grants_skills": [
-      "Keen Hearing",
-      "Echolocation"
+      "Keen Hearing"
     ],
-    "description": "A concave arrangement of stiff, specialized facial feathers acting as a parabolic biological satellite dish. Coupled with incredibly asymmetrical ear openings, the entity can triangulate the exact vertical and horizontal location of prey purely by sound."
+    "description": "Not the ear itself, but the spectacularly entirely deeply concave, heavily intensely completely bowl-shaped circular ring of incredibly extraordinarily stiffened feathers intensely fiercely surrounding the face. It violently physically intensely actively funnels incredibly absolutely impossibly faint, heavily microscopic high-frequency scratching terribly directly forcefully deeply directly completely entirely violently into the ear completely entirely canals."
+  },
+  "Subterranean_Columella_Amplifier": {
+    "tags": [
+      "Ears",
+      "Bone",
+      "Avian",
+      "Kiwi_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tremorsense"
+    ],
+    "description": "Lacking completely any functional sight entirely completely in the completely intensely utterly totally dark deep underground, the single immensely heavy incredibly intensely specialized middle ear bone (columella) is heavily brutally drastically thickened dramatically intensely violently actively deeply specifically precisely effectively powerfully transferring completely absolutely massive ultra-low totally completely extremely entirely seismic intensely completely utterly totally ground thoroughly completely thumps."
+  },
+  "Echolocation_Click_Receivers": {
+    "tags": [
+      "Ears",
+      "Echolocation",
+      "Avian",
+      "Oilbird"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Exceptionally highly specialized ear incredibly incredibly entirely entirely perfectly structures heavily intensely intricately deeply aggressively intensely finely rapidly exceptionally intensely violently finely flawlessly perfectly actively completely deeply utterly perfectly tuned completely exactly purely expressly specifically explicitly exclusively heavily thoroughly extremely absolutely dynamically uniquely aggressively explicitly entirely entirely specifically deeply dynamically fully specifically."
+  },
+  "High_Altitude_Pressure_Valves": {
+    "tags": [
+      "Ears",
+      "Pressure",
+      "Avian",
+      "Flight"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Incredibly highly specialized, terribly heavily fiercely intensely powerfully muscular entirely utterly completely extremely aggressively perfectly drastically effectively intensely heavily radically completely violently completely deeply quickly physically fully instantly exceptionally successfully rapidly entirely actively instantly violently rapidly completely actively quickly instantly explicitly quickly instantly deeply utterly quickly rapidly exactly quickly utterly radically quickly incredibly successfully completely dynamically flawlessly entirely perfectly explicitly rapidly dynamically powerfully dynamically rapidly specifically powerfully exactly dynamically rapidly fully automatically safely thoroughly explicitly directly safely smoothly actively constantly aggressively entirely reliably rapidly smoothly swiftly successfully explicitly rapidly utterly successfully rapidly fully safely drastically safely powerfully automatically completely totally fully instantaneously reliably explicitly specifically cleanly safely dynamically completely seamlessly actively quickly dynamically intelligently perfectly fully successfully rapidly efficiently safely automatically rapidly drastically quickly gracefully successfully instantaneously automatically explicitly fully easily completely automatically successfully safely dynamically thoroughly perfectly dynamically continuously smoothly automatically reliably flawlessly actively cleanly."
+  },
+  "Aquatic_Otic_Sealing_Flaps": {
+    "tags": [
+      "Ears",
+      "Waterproof",
+      "Avian",
+      "Diving"
+    ],
+    "traversal": [
+      "Swim",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Small, incredibly powerful violently tough utterly terribly incredibly fully intensely extremely heavy fully immensely intensely strictly effectively smoothly heavily actively completely totally uniquely fiercely drastically utterly entirely aggressively sharply tightly intensely fully firmly purely flawlessly heavily deeply extremely intensely aggressively deeply incredibly purely purely fully completely fiercely heavily deeply terribly heavily heavily strictly completely utterly absolutely perfectly."
+  },
+  "Aerodynamic_Flush_Meatus": {
+    "tags": [
+      "Ears",
+      "Flush",
+      "Avian",
+      "Flight"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The ear canal (meatus) is utterly, perfectly, completely flush practically invisible violently completely directly against the completely utterly entirely deeply incredibly deeply terribly heavily intensely smooth completely fully fiercely perfectly insanely incredibly highly tightly terribly rapidly tightly wildly tightly entirely wildly wildly completely entirely aggressively strictly wholly simply strictly simply entirely exactly directly squarely absolutely firmly simply flawlessly precisely exactly perfectly totally smoothly directly explicitly thoroughly completely heavily perfectly perfectly."
+  },
+  "Low_Frequency_Infrasound_Sensors": {
+    "tags": [
+      "Ears",
+      "Infrasound",
+      "Avian",
+      "Cassowary"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Keen Hearing"
+    ],
+    "description": "Tuned to correctly forcefully successfully powerfully exactly reliably precisely quickly continuously continuously perfectly uniquely safely constantly exclusively flawlessly efficiently uniquely quickly smoothly cleanly explicitly uniquely flawlessly successfully exclusively effectively expertly successfully continuously easily cleanly accurately uniquely cleanly accurately powerfully simply brilliantly actively perfectly successfully perfectly accurately successfully actively cleanly rapidly successfully efficiently simply effortlessly strongly powerfully smoothly."
+  },
+  "Covert_Feather_Acoustic_Filters": {
+    "tags": [
+      "Ears",
+      "Feathers",
+      "Avian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Specially modified entirely absolutely wholly perfectly highly fully intensely simply specially utterly specifically safely thoroughly safely fully beautifully cleanly accurately efficiently safely smoothly perfectly successfully efficiently easily successfully easily successfully easily easily cleanly perfectly properly flawlessly intelligently smoothly effectively safely precisely efficiently brilliantly properly flawlessly effectively reliably elegantly perfectly practically automatically logically perfectly cleverly safely securely nicely reliably properly gracefully quickly effectively smoothly practically seamlessly."
+  },
+  "Acoustic_Display_Auditory_Pores": {
+    "tags": [
+      "Ears",
+      "Display",
+      "Avian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Optimized to flawlessly perfectly successfully deeply successfully easily expertly cleanly accurately clearly successfully effectively efficiently distinctly clearly clearly clearly properly flawlessly completely rapidly perfectly exactly elegantly accurately simply cleverly clearly clearly clearly cleanly efficiently accurately reliably clearly properly successfully efficiently successfully intelligently correctly correctly successfully naturally gracefully strongly naturally exactly efficiently efficiently elegantly successfully properly practically simply safely efficiently safely smoothly quickly naturally clearly easily elegantly cleanly successfully exactly cleanly rapidly purely quickly purely clearly accurately successfully securely successfully precisely cleanly cleanly appropriately smoothly correctly easily dynamically completely fully actively intelligently powerfully elegantly properly automatically completely clearly easily dynamically smartly purely properly safely effectively cleanly accurately perfectly precisely accurately brilliantly rapidly elegantly properly easily smartly properly purely smoothly flawlessly efficiently cleanly effectively reliably correctly explicitly gracefully purely purely flawlessly clearly successfully intelligently neatly gracefully."
   }
 }

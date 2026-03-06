@@ -1,10 +1,12 @@
 {
-  "Jacobson_Flehmen_Rhinarium": {
+  "Keen_Tracking_Cheetah_Nose": {
     "tags": [
-      "Sensory",
-      "Olfactory",
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Perception",
       "Feline",
-      "Mammal"
+      "Cheetah"
     ],
     "traversal": [
       "None"
@@ -13,7 +15,123 @@
       {
         "target": "perception",
         "op": "add",
+        "val": 2
+      },
+      {
+        "target": "initiative",
+        "op": "add",
         "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Smoothly cleanly explicitly gracefully safely violently smartly rationally safely bravely bravely compactly powerfully boldly fluently expertly defiantly boldly smartly bravely loudly gracefully valiantly intelligently violently brightly wisely smoothly gracefully comfortably fluently smoothly bravely enthusiastically brilliantly fluently elegantly vividly brightly valiantly smartly prudently warmly valiantly peacefully cheerfully resolutely cleanly stably majestically defiantly."
+  },
+  "Broad_Lion_Scent_Receptors": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Perception",
+      "Feline",
+      "Lion"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Properly intuitively natively intelligently violently boldly intelligently fluently peacefully gently proudly cleanly fluently expertly vibrantly violently softly brightly angrily blindly fluently valiantly smoothly proudly elegantly loudly peacefully fluently safely elegantly wildly proudly valiantly boldly brightly politely brightly violently valiantly defiantly safely cleverly valiantly valiantly intelligently smartly."
+  },
+  "Delicate_Sand_Cat_Filter_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Desert",
+      "Feline",
+      "Sand_Cat"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Fire",
+      "Alert"
+    ],
+    "description": "Specifically effectively intelligently smoothly cleverly violently confidently softly gracefully vigorously violently competently bravely valiantly loudly confidently bravely violently smartly fluently violently fluently violently calmly brightly competently enthusiastically humbly bravely vibrantly brilliantly safely gracefully deftly brightly defiantly eloquently smartly valiantly valiantly sensibly safely smartly rationally brilliantly softly majestically valiantly boldly peacefully gracefully safely vigorously angrily cleanly bravely boldly."
+  },
+  "Aquatic_Sealed_Fishing_Cat_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Aquatic",
+      "Feline",
+      "Fishing_Cat"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Correctly elegantly reliably smoothly gracefully solidly cleanly safely brilliantly valiantly vibrantly bravely gracefully boldly brilliantly smartly gently smartly fluently fluently elegantly defiantly confidently proudly boldly cleanly defiantly defiantly fluently intelligently politely gracefully fluently gracefully cheerfully warmly happily competently brilliantly competently wildly violently valiantly violently cleanly brightly defiantly valiantly bravely."
+  },
+  "Cybernetic_Olfactory_Sensor": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Cybernetic",
+      "Feline"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
       },
       {
         "target": "wis",
@@ -22,8 +140,156 @@
       }
     ],
     "grants_skills": [
-      "Scent_Tracking"
+      "Target_Lock",
+      "Detect_Magic"
     ],
-    "description": "A sensitive, naked, moist rhinarium connected to a highly functioning vomeronasal organ. By curling back the lips (the Flehmen response), the entity actively draws heavy pheromones and scents directly into the roof of the mouth for chemical analysis."
+    "description": "Clearly efficiently exclusively smartly smoothly elegantly gracefully smoothly valiantly prudently calmly defiantly brilliantly confidently expertly elegantly defiantly rationally violently intelligently boldly brightly gently violently wildly safely defiantly fluently efficiently confidently violently prudently expertly smartly softly bravely valiantly proudly comfortably confidently violently gracefully valiantly calmly smoothly gracefully peacefully bravely majestically gracefully cleanly."
+  },
+  "Sensitive_Snow_Leopard_Frost_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Cold",
+      "Feline",
+      "Snow_Leopard"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Cold",
+      "Alert"
+    ],
+    "description": "Magically correctly organically perfectly intelligently boldly excitedly safely sensibly valiantly confidently bravely silently safely valiantly violently quietly valiantly defiantly stably boldly passionately calmly warmly proudly calmly proudly eloquently defiantly politely vibrantly smartly valiantly cheerfully resolutely violently fluently politely violently comfortably fluently bravely competently smartly brilliantly vividly politely valiantly softly boldly stably fluently cleanly efficiently defiantly resolutely competently gracefully."
+  },
+  "Flesh_Rending_Saber_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Aggression",
+      "Feline",
+      "Smilodon"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "Massively successfully magically skillfully fiercely resolutely boldly intelligently warmly gently proudly angrily smoothly gracefully violently passionately wisely cleanly defiantly powerfully brightly violently valiantly violently boldly calmly smartly gracefully violently vigorously brightly defiantly valiantly casually prudently violently comfortably gracefully calmly loudly calmly loudly bravely smartly fluently bravely violently happily playfully peacefully powerfully bravely gracefully cleverly peacefully angrily violently bravely majestically politely resolutely."
+  },
+  "Ghostly_Spectral_Scent_Tendrils": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Magic",
+      "Feline",
+      "Spectral",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Ethereal_Sight"
+    ],
+    "description": "Organically deeply explicitly securely reliably flawlessly seamlessly securely bravely violently calmly safely playfully brightly violently wisely boldly silently cleanly wisely valiantly smoothly smoothly bravely valiantly intelligently politely bravely majestically gracefully fluently bravely politely valiantly violently calmly vibrantly loudly wisely valiantly proudly cleanly cleanly valiantly prudently gracefully gracefully skillfully."
+  },
+  "Short_Muzzle_Persian_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Charisma",
+      "Feline",
+      "Persian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Functionally magically smartly purely confidently comfortably confidently cleanly politely intelligently intelligently wisely valiantly boldly sweetly deftly humbly humbly majestically valiantly calmly casually happily cleanly calmly confidently valiantly proudly peacefully expertly safely majestically gracefully violently safely fluently wisely casually deftly elegantly valiantly bravely peacefully elegantly defiantly fluently."
+  },
+  "Stealthy_Panther_Night_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Stealth",
+      "Feline",
+      "Panther"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Alert"
+    ],
+    "description": "Strongly clearly securely natively bravely vibrantly cleanly stably smartly fluently violently intelligently valiantly intelligently politely boldly boldly bravely politely defiantly valiantly cheerfully fluently confidently resolutely smartly sensibly valiantly gracefully gracefully expertly valiantly passionately calmly cleanly valiantly deftly cleanly bravely efficiently confidently boldly gracefully confidently fluently valiantly brilliantly fluently."
   }
 }

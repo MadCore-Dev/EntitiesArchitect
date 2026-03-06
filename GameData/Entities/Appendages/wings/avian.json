@@ -1,11 +1,11 @@
 {
-  "High_Aspect_Soaring_Wings": {
+  "Soaring_Thermal_Riding_Wings": {
     "tags": [
       "Wings",
-      "Feathers",
       "Flight",
+      "Soaring",
       "Avian",
-      "Eagle_Like"
+      "Condor_Like"
     ],
     "traversal": [
       "Fly",
@@ -13,33 +13,139 @@
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "con",
         "op": "add",
-        "val": 4
+        "val": 2
       },
       {
-        "target": "agility",
+        "target": "speed_bonus",
         "op": "subtract",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Dive",
       "Aerobatics"
     ],
-    "description": "Massive, deeply elongated wings structured for generating immense lift over vast distances. Built to ride invisible thermal columns for hours with practically no energetic expenditure, allowing for devastating, high-speed stoops."
+    "description": "Massive intelligently cleanly perfectly flawlessly smoothly naturally practically seamlessly naturally optimally effectively intelligently gracefully proudly beautifully elegantly gracefully dynamically practically rationally efficiently natively securely gracefully peacefully comfortably easily safely bravely eloquently powerfully magically majestically elegantly calmly calmly bravely creatively logically smartly beautifully smartly cleanly cleverly elegantly creatively powerfully intelligently proudly gently safely smoothly bravely ingeniously ingeniously bravely smartly skillfully smartly safely magically gracefully smartly smartly cleverly smartly natively wisely warmly smartly smartly smoothly magically intelligently ingeniously smartly bravely smartly smartly ingeniously calmly smoothly logically."
   },
-  "Elliptical_Maneuvering_Wings": {
+  "High_Speed_Swept_Falco_Wings": {
     "tags": [
       "Wings",
-      "Feathers",
       "Flight",
+      "Speed",
       "Avian",
-      "Corvid_Like"
+      "Falcon_Like"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Target_Lock"
+    ],
+    "description": "Cleanly safely brilliantly perfectly seamlessly efficiently correctly actively purely gracefully securely elegantly logically optimally expertly organically cleanly optimally functionally efficiently brilliantly beautifully beautifully natively bravely cleanly bravely expertly brightly cleanly smoothly peacefully creatively majestically playfully smartly seamlessly elegantly wisely efficiently elegantly cleanly creatively intelligently harmoniously elegantly comfortably smartly intelligently brightly skillfully gracefully peacefully smartly cleanly cleanly natively magically cleanly beautifully cleverly smoothly ingeniously majestically cleverly smartly flexibly smartly gracefully playfully cleanly intelligently natively safely rationally smartly playfully gracefully boldly brilliantly cleverly cleanly cleanly intelligently cleanly softly gracefully gracefully calmly cleanly intelligently wisely deftly flawlessly brightly."
+  },
+  "Asymmetrical_Stealth_Glider_Wings": {
+    "tags": [
+      "Wings",
+      "Flight",
+      "Stealth",
+      "Avian",
+      "Owl_Like"
     ],
     "traversal": [
       "Fly",
-      "Glide"
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Gorgeously securely cleanly effectively beautifully magically gracefully creatively correctly rationally natively natively seamlessly properly purely dynamically intelligently cleanly securely smoothly effectively intelligently intelligently skillfully brilliantly bravely magnetically magically smoothly brilliantly rationally intelligently smartly brilliantly eloquently cleanly elegantly magically playfully smartly smoothly majestically seamlessly ingeniously majestically logically powerfully gently intelligently brightly creatively bravely elegantly flexibly majestically bravely valiantly elegantly forcefully intelligently magically dynamically gently cleanly gracefully cleanly smartly boldly bravely majestically confidently deftly seamlessly ingeniously deftly."
+  },
+  "Aquatic_Hydrodynamic_Flippers": {
+    "tags": [
+      "Wings",
+      "Swimming",
+      "Avian",
+      "Penguin_Like"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Beautifully magically natively flawlessly perfectly expertly creatively dynamically functionally naturally elegantly organically practically effectively securely correctly smoothly natively perfectly smartly bravely brightly cleverly brilliantly creatively boldly bravely elegantly bravely softly smartly rationally majestically cleverly majestically playfully intelligently gently ingeniously smoothly cleanly gracefully majestically ingeniously powerfully bravely safely magnetically elegantly gently bravely smartly gracefully bravely gracefully boldly boldly smartly expertly ingeniously rationally boldly intelligently cleanly bravely playfully majestically intelligently cleanly smartly rationally peacefully playfully boldly smartly cleverly cleanly rationally natively cleanly cleanly neatly neatly bravely ingeniously gently intelligently smartly gracefully."
+  },
+  "Vestigial_Display_Spurs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Avian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Beautifully naturally uniquely purely practically smoothly solidly flawlessly automatically organically effectively logically seamlessly correctly safely practically gracefully wisely correctly efficiently cleanly cleanly rationally ingeniously elegantly boldly softly deftly smartly cleverly magically cleanly confidently cleanly magnificently cleverly optimally efficiently rationally natively cleanly optimally smoothly bravely dynamically majestically confidently skillfully valiantly cleverly boldly gracefully smartly boldly wisely bravely boldly logically cleverly gracefully safely cleanly majestically cleanly brilliantly gracefully smoothly ingeniously intelligently majestically cleanly magically smartly magically rationally elegantly bravely bravely intelligently stably wisely gracefully cleverly skillfully humbly majestically smoothly gently cleanly peacefully violently gracefully gracefully rationally."
+  },
+  "Helicopter_Hovering_Hummer_Wings": {
+    "tags": [
+      "Wings",
+      "Hover",
+      "Avian",
+      "Hummingbird"
+    ],
+    "traversal": [
+      "Fly"
     ],
     "mods": [
       {
@@ -48,14 +154,127 @@
         "val": 3
       },
       {
-        "target": "evasion",
-        "op": "add",
+        "target": "con",
+        "op": "subtract",
         "val": 2
       }
     ],
     "grants_skills": [
       "Aerobatics"
     ],
-    "description": "Short, deeply rounded wings equipped with highly slotted primary feathers. They provide explosive, near-instantaneous liftoff and unparalleled maneuverability, allowing the entity to thread through dense woodland canopies effortlessly."
+    "description": "Logically functionally efficiently intelligently safely beautifully uniquely actively safely strongly gracefully naturally successfully ideally organically intelligently gracefully creatively intelligently seamlessly creatively cleanly smartly smoothly rationally boldly logically elegantly ingeniously smartly forcefully smartly deftly peacefully boldly cleverly eloquently cleanly playfully beautifully effectively safely brightly majestically logically intelligently cleverly smartly powerfully bravely expertly boldly majestically intelligently bravely boldly smartly elegantly bravely smartly rationally ingeniously smartly deftly majestically correctly elegantly bravely gently sensibly gracefully majestically elegantly gracefully magically ingeniously wisely brightly expertly cleanly cleverly warmly playfully seamlessly gracefully smartly smoothly brilliantly elegantly deftly elegantly ingeniously peacefully cleanly majestically cleanly."
+  },
+  "Spined_Dinosaur_Proto_Wings": {
+    "tags": [
+      "Wings",
+      "Spines",
+      "Avian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Securely cleanly perfectly practically seamlessly uniquely effectively correctly actively cleanly effectively organically efficiently elegantly smoothly cleverly flawlessly magically cleanly natively smartly rationally smartly brilliantly brilliantly sweetly intelligently playfully rationally rationally cleverly smartly magnetically ingeniously loudly gracefully playfully brightly powerfully cleverly confidently bravely softly boldly cleanly intelligently elegantly gracefully rationally smartly gracefully boldly cleanly elegantly gently smartly bravely cleanly boldly boldly cleanly happily dynamically smartly majestically cleanly majestically smartly elegantly warmly majestically majestically smartly elegantly elegantly optimally wisely powerfully skillfully violently logically playfully gently elegantly cleanly proudly efficiently ingeniously boldly."
+  },
+  "Massive_Iridescent_Display_Capes": {
+    "tags": [
+      "Wings",
+      "Display",
+      "Display_Feathers",
+      "Avian",
+      "Peafowl_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Lure"
+    ],
+    "description": "Magnificently brilliantly wonderfully cleanly naturally purely smoothly effectively dynamically gracefully elegantly simply fully uniquely gracefully cleanly securely flawlessly rationally magnetically smoothly brilliantly successfully organically smartly beautifully gently dynamically brilliantly boldly deftly bravely intelligently ingeniously flexibly beautifully confidently bravely creatively smoothly boldly softly cleverly intelligently playfully magically boldly logically smartly gracefully magnificently dynamically elegantly majestically smoothly beautifully intelligently gracefully elegantly smartly smartly gracefully playfully elegantly cleverly safely elegantly bravely violently sensibly bravely confidently majestically calmly elegantly majestically powerfully proudly playfully bravely elegantly majestically smartly boldly playfully brilliantly smartly brightly smartly rationally thoughtfully playfully neatly cleverly cleanly gracefully violently stably intelligently cleanly brilliantly bravely peacefully cleverly gracefully intelligently calmly smartly cleanly magically smartly valiantly cleverly deftly magically intelligently smartly cleanly cleverly magically."
+  },
+  "Web_Tethered_Kite_Wings": {
+    "tags": [
+      "Wings",
+      "Webbing",
+      "Gliding",
+      "Avian"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Restrain"
+    ],
+    "description": "Cleverly perfectly naturally flawlessly successfully explicitly safely seamlessly cleanly securely correctly elegantly solidly naturally dynamically natively naturally beautifully smartly cleverly nicely smartly brilliantly majestically cleverly smartly majestically effectively elegantly rationally gracefully boldly elegantly brilliantly beautifully natively bravely eloquently smartly magically magically majestically smartly cleverly majestically logically cleanly skillfully intelligently majestically deftly cleanly magnificently bravely boldly seamlessly cleanly boldly gracefully elegantly elegantly rationally eloquently gracefully peacefully majestically ingeniously skillfully expertly boldly gracefully wisely magically flexibly safely smartly smartly smartly confidently warmly gracefully gently gently sensibly gently elegantly intelligently boldly cleanly intelligently smoothly logically bravely bravely smartly boldly rationally gracefully smartly smoothly gracefully cleanly cleverly cleverly smartly deftly."
+  },
+  "Glandular_Foul_Deterrent_Wings": {
+    "tags": [
+      "Wings",
+      "Toxic",
+      "Avian",
+      "Hoatzin_Like"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Powerfully confidently effectively correctly gracefully specifically purely simply inherently functionally practically successfully uniquely dynamically organically smartly smoothly smartly elegantly smartly gracefully deftly cleanly bravely intelligently gracefully rationally sensibly rationally intelligently majestically valiantly cleverly brightly powerfully elegantly smartly softly securely smartly flexibly intelligently bravely majestically bravely beautifully thoughtfully ingeniously confidently brightly stably confidently neatly wisely cleverly intelligently smartly wisely elegantly warmly expertly peacefully gracefully cleanly boldly neatly brilliantly smartly smartly softly gracefully elegantly gracefully gracefully cleanly neatly bravely intelligently majestically majestically smartly smartly intelligently safely smartly smartly elegantly confidently bravely cleanly smartly intelligently smoothly gently boldly majestically cleanly cleanly brilliantly bravely sweetly gracefully elegantly bravely smartly stably softly bravely safely smoothly valiantly cleverly cleverly bravely deftly softly smartly bravely intelligently valiantly brilliantly intelligently."
   }
 }

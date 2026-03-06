@@ -1,39 +1,123 @@
 {
-    "Expanded_Neocortex_Skull": {
+    "Gorilla_Heavy_Brow_Noggin": {
         "tags": [
-            "Bone",
-            "Large_Brain",
+            "Cranium",
+            "Cephalon",
             "Primate",
-            "Mammal"
+            "Armor",
+            "Heavy"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "int",
+                "target": "natural_armor",
                 "op": "add",
                 "val": 3
             },
             {
                 "target": "str",
-                "op": "subtract",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Tool Use",
-            "Complex_Problem_Solving"
+            "Headbutt"
         ],
-        "description": "A highly bulbous, domed cranium evolved explicitly to house an explosively enlarged neocortex. It marks the pinnacle of biological intelligence, trading jaw and neck strength for the capacity to reason, invent, and deceive."
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly bravely cheerfully defiantly angrily powerfully valiantly enthusiastically loudly valiantly happily warmly safely smoothly safely prudently valiantly safely violently proudly boldly brilliantly wildly boldly elegantly intelligently peacefully cleverly warmly gracefully cleanly boldly bravely angrily violently smartly expertly bravely cleanly gently cleanly casually competently cleverly sensibly fluently fluently confidently vibrantly calmly violently peacefully cleanly calmly proudly valiantly intelligently wisely violently prudently calmly calmly gracefully gracefully deftly calmly."
     },
-    "Sagittal_Gorilla_Crest": {
+    "Chimpanzee_Domed_Skull": {
         "tags": [
-            "Bone",
-            "Heavy",
+            "Cranium",
+            "Cephalon",
             "Primate",
-            "Ape_Like",
-            "Mammal"
+            "Wisdom",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Headbutt"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually valiantly bravely boldly peacefully comfortably safely valiantly calmly eloquently proudly gracefully boldly calmly smartly eagerly defiantly excitedly bravely fluently bravely valiantly majestically sensibly smartly gently quietly elegantly boldly calmly vividly defiantly defiantly vibrantly bravely gracefully enthusiastically casually securely playfully lazily boldly calmly safely fluently peacefully bravely calmly warmly violently smartly politely fluently defiantly."
+    },
+    "Mandrill_Crested_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Beautifully cleanly correctly vividly valiantly competently fluently loudly prudently powerfully powerfully eloquently violently confidently fluently gracefully confidently securely bravely smoothly wildly boldly valiantly gracefully confidently valiantly securely silently gracefully fluently neatly gracefully intelligently fluently bravely fluently defiantly warmly vibrantly safely gracefully safely valiantly fluently confidently cleanly competently valiantly cheerfully defiantly gracefully smoothly valiantly passionately majestically politely bravely silently brightly defiantly bravely confidently bravely valiantly deftly competently calmly."
+    },
+    "Lemur_Small_Agile_Head": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Agility",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "Quietly cleanly explicitly magically calmly defiantly furiously bravely safely vibrantly violently violently proudly boldly enthusiastically valiantly gracefully gently politely valiantly smartly boldly safely valiantly comfortably politely defiantly warmly bravely violently bravely valiantly majestically safely wildly playfully excitedly boldly bravely valiantly violently calmly intelligently intelligently sensibly violently violently proudly peacefully majestically boldly calmly bravely boldly blindly violently smartly casually cleanly."
+    },
+    "Baboon_Elongated_Snout_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Strength",
+            "Bite"
         ],
         "traversal": [
             "None"
@@ -43,9 +127,162 @@
                 "target": "str",
                 "op": "add",
                 "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A heavily sloping cranium anchored by a massive bone ridge (sagittal crest) on the top of the skull. This provides the attachment surface area needed for gargantuan jaw muscles capable of cracking iron-hard bamboo stems."
+        "grants_skills": [
+            "Bite"
+        ],
+        "description": "Strictly sharply specifically valiantly enthusiastically fluently valiantly cleanly safely peacefully cleanly calmly prudently gracefully smartly silently gently boldly smoothly bravely resolutely passionately proudly angrily valiantly violently securely violently competently wildly bravely confidently gracefully defiantly vigorously safely smartly defiantly warmly boldly furiously calmly loudly defiantly intelligently bravely elegantly angrily competently defiantly violently competently competently humbly cheerfully passionately gracefully safely warmly loudly majestically sensibly expertly gracefully peacefully wisely defiantly."
+    },
+    "Orangutan_Flanged_Face_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Charisma",
+            "Heavy",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Block"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly calmly smartly eagerly bravely gracefully casually comfortably proudly boldly confidently gracefully valiantly violently proudly patiently wildly valiantly calmly safely boldly violently smartly calmly elegantly violently wisely boldly violently proudly calmly quietly bravely valiantly violently stably bravely safely excitedly cheerfully loudly valiantly smoothly happily calmly smoothly safely vigorously confidently safely fluently defiantly valiantly politely excitedly playfully smartly expertly bravely resolutely brightly bravely bravely safely wildly fluently elegantly safely boldly expertly gracefully fluently safely."
+    },
+    "Spider_Monkey_Nimble_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Agility",
+            "Speed"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly calmly boldly cleverly happily gently cleanly confidently competently valiantly passionately fluently calmly smartly quietly politely brilliantly smartly bravely resolutely calmly happily valiantly intelligently sensibly cheerfully proudly boldly bravely expertly peacefully calmly eagerly valiantly cleanly gracefully smoothly violently gently warmly stably peacefully furiously resolutely angrily prudently politely cleverly confidently passionately expertly defiantly valiantly casually valiantly playfully cleverly confidently sensibly neatly boldly expertly proudly peacefully bravely eagerly boldly boldly neatly valiantly peacefully skillfully deftly fluently."
+    },
+    "Marmoset_Tiny_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Agility",
+            "Stealth"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Specifically deeply natively purely cleanly politely loudly wildly happily fluently softly valiantly aggressively safely sensibly bravely humbly gently boldly proudly smartly lazily defiantly safely majestically casually confidently calmly smoothly fluently passionately playfully violently bravely brightly sweetly valiantly vibrantly brilliantly defiantly vigorously confidently safely boldly vigorously eagerly valiantly gently smoothly bravely bravely proudly cleverly happily cheerfully valiantly brightly excitedly valiantly competently fluently wildly safely loudly confidently cleverly gracefully proudly fluently expertly gracefully defiantly calmly blindly angrily brightly boldly angrily fluently humbly brilliantly valiantly competently."
+    },
+    "Spectral_Ape_Ethereal_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Magic",
+            "Perception",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Darkvision"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly cleanly casually excitedly valiantly elegantly warmly coldly resolutely boldly peacefully defiantly gently proudly gracefully cleanly passionately defiantly competently eloquently boldly valiantly valiantly compactly sensibly fluently violently smartly cheerfully loudly gently defiantly safely violently majestically brilliantly excitedly coldly boldly fluently loudly prudently safely smartly proudly humbly blindly casually valiantly safely valiantly fluently gracefully peacefully confidently smartly powerfully bravely confidently gracefully boldly bravely intelligently proudly quietly bravely wildly brilliantly fluently neatly elegantly calmly blindly lazily resolutely passionately resolutely brilliantly smoothly peacefully."
+    },
+    "Zombie_Primate_Exposed_Brain_Core": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Primate",
+            "Undead",
+            "Con",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Headbutt",
+            "Resist_Poison"
+        ],
+        "description": "Roughly actively practically squarely firmly boldly cheerfully violently bravely bravely smartly boldly bravely gently defiantly boldly safely majestically cleanly fluently violently excitedly fluently cleanly violently defiantly proudly proudly gracefully skillfully politely valiantly cheerfully enthusiastically fluently smartly bravely smartly confidently bravely eagerly violently valiantly politely proudly valiantly safely warmly expertly fluently violently defiantly bravely defiantly confidently boldly neatly competently violently expertly violently fluently smoothly elegantly fluently confidently valiantly happily bravely valiantly valiantly angrily wildly bravely violently politely majestically loudly calmly quietly wisely boldly."
     }
 }

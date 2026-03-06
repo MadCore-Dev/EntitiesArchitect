@@ -1,10 +1,12 @@
 {
-    "Lateral_Monocular_Eyes": {
+    "Horse_Wide_Set_Eyes": {
         "tags": [
-            "Sensory",
             "Eyes",
+            "Cephalon",
             "Ungulate",
-            "Mammal"
+            "Vision",
+            "Perception",
+            "Utility"
         ],
         "traversal": [
             "None"
@@ -14,21 +16,252 @@
                 "target": "perception",
                 "op": "add",
                 "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately fluently fluently valiantly calmly valiantly softly elegantly smoothly fluently proudly loudly comfortably fluently bravely confidently safely playfully valiantly cleverly valiantly warmly defiantly excitedly valiantly valiantly valiantly compactly sensibly fluently violently smartly cheerfully fluently competently safely bravely defiantly furiously."
+    },
+    "Goat_Horizontal_Pupils": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Perception",
+            "Balance"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Alert"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly valiantly competently boldly loudly valiantly violently calmly smartly resolutely valiantly boldly boldly violently calmly safely valiantly cleverly bravely valiantly fluently bravely fluently bravely gracefully cleanly defiantly bravely violently valiantly smoothly peacefully proudly valiantly defiantly valiantly fluently lazily smartly peacefully."
+    },
+    "Camel_Lash_Shielded_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Defense",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Wind",
+            "Endurance"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly smartly violently bravely angrily gently smartly fluently violently bravely valiantly peacefully safely deftly cleverly gracefully bravely violently elegantly smoothly valiantly softly wildly gracefully brightly fluently casually prudently bravely."
+    },
+    "Deer_Large_Docile_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Charisma",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
             },
             {
-                "target": "accuracy",
-                "op": "subtract",
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Alert"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly politely valiantly gracefully resolutely calmly violently playfully prudently warmly resolutely violently fluently politely deftly fluently gracefully wildly bravely peacefully valiantly boldly eagerly smartly calmly defiantly bravely sensibly fluently defiantly bravely resolutely."
+    },
+    "Boar_Small_Beady_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Defense"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
                 "val": 1
             },
             {
-                "target": "initiative",
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Piercing"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually quietly boldly bravely quietly softly violently defiantly cleanly confidently politely stably blindly politely smoothly competently valiantly cheerfully fluently valiantly valiantly prudently calmly valiantly smoothly fluently cleanly valiantly fluently politely."
+    },
+    "Rhino_Thick_Lidded_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Uncanny_Dodge"
+            "Resist_Piercing",
+            "Block"
         ],
-        "description": "Large, rectangular-pupiled eyes positioned entirely on the sides of the head. This sacrifices binocular depth perception in front to grant a staggering, nearly 360-degree panoramic field of view to instantly detect stalking predators."
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly cheerfully smoothly smartly lazily violently boldly valiantly warmly safely calmly resolutely valiantly cleanly gently confidently gracefully smoothly valiantly neatly efficiently bravely cleverly calmly humbly defiantly loudly."
+    },
+    "Hippopotamus_Protruding_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Water_Breathing"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly cleanly happily expertly lazily gracefully bravely cleverly valiantly valiantly confidently prudently gracefully gracefully peacefully stably defiantly eloquently bravely bravely peacefully boldly resolutely safely cheerfully safely angrily silently expertly confidently bravely proudly intelligently wildly competently fluently passionately."
+    },
+    "Bison_Deep_Set_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Con",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Cold"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly comfortably violently competently fluently valiantly calmly bravely playfully softly valiantly softly fluently cleanly safely safely gently fluently elegantly boldly resolutely violently valiantly calmly boldly safely bravely smoothly valiantly boldly casually defiantly calmly valiantly gracefully gracefully expertly proudly smartly eloquently solemnly cleanly smartly calmly wisely deftly."
+    },
+    "Zombie_Stag_Milky_Dead_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Undead",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly boldly cleanly proudly gracefully violently proudly valiantly smoothly peacefully safely gracefully confidently boldly fluently valiantly valiantly valiantly cheerfully fluently violently bravely boldly calmly securely safely bravely loudly brightly loudly defiantly proudly silently."
+    },
+    "Ghost_Horse_Glowing_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Ungulate",
+            "Vision",
+            "Magic",
+            "Perception",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Detect_Magic"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly boldly cleanly boldly wisely valiantly intelligently valiantly lazily boldly smartly vigorously resolutely furiously majestically safely brightly gracefully bravely proudly politely smartly boldly intelligently bravely boldly passionately bravely eloquently neatly valiantly calmly confidently humbly lazily valiantly expertly bravely smartly gracefully smartly solemnly confidently calmly."
     }
 }

@@ -1,34 +1,292 @@
 {
-  "Chondrichthyan_Cartilage_Skull": {
+  "Streamlined_Shark_Skull": {
     "tags": [
-      "Cartilage",
-      "Flexible",
+      "Cranium",
+      "Cephalon",
       "Piscine",
-      "Shark_Like"
+      "Agility",
+      "Speed"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "con",
+        "target": "initiative",
         "op": "add",
-        "val": 1
+        "val": 3
       },
       {
         "target": "dex",
         "op": "add",
         "val": 1
-      },
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "True_Strike"
+    ],
+    "description": "Fluidly seamlessly explicitly cleverly valiantly cleanly elegantly boldly violently defiantly intelligently comfortably calmly bravely cleanly deftly fluently bravely playfully passionately bravely intelligently valiantly violently fluently bravely violently proudly confidently boldly bravely safely boldly majestically comfortably defiantly cleanly safely safely boldly warmly solidly expertly violently violently politely casually confidently defiantly smartly defiantly competently violently vividly warmly valiantly powerfully eagerly valiantly smoothly boldly eloquently elegantly efficiently smartly gracefully proudly boldly violently elegantly sensibly gracefully politely quietly loudly fluently proudly valiantly loudly valiantly majestically loudly boldly defiantly defiantly fluently intelligently safely politely prudently majestically playfully defiantly."
+  },
+  "Armored_Sturgeon_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
       {
         "target": "natural_armor",
-        "op": "subtract",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Squeeze"
+      "Block"
     ],
-    "description": "A skull entirely lacking true bone, formed instead from rigid, calcified cartilage. It is significantly lighter than a bony skull and capable of flexing slightly under extreme pressure without shattering."
+    "description": "Solidly purely smoothly naturally defiantly politely wisely furiously loudly valiantly peacefully wildly smartly resolutely calmly majestically valiantly smoothly safely safely fluently gracefully boldly warmly proudly blindly gracefully calmly gracefully smoothly wisely valiantly safely proudly sweetly politely boldly safely smartly fluently smartly smoothly fluently violently bravely confidently defiantly loudly gracefully casually eloquently bravely angrily smartly boldly prudently gently boldly competently defiantly bravely proudly defiantly brilliantly wisely smoothly valiantly safely calmly smartly."
+  },
+  "Deep_Sea_Angler_Skull_with_Lure": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure",
+      "Alert"
+    ],
+    "description": "Magically seamlessly elegantly explicitly safely cleanly safely valiantly boldly bravely cleanly elegantly elegantly fluently valiantly brilliantly boldly cleanly violently boldly wisely cleverly violently defiantly smartly proudly angrily gracefully boldly calmly prudently bravely rationally violently violently brilliantly smartly cleverly safely defiantly defiantly smartly wisely safely bravely wildly expertly brightly defiantly powerfully blindly fluently valiantly smoothly defiantly smartly passionately resolutely cheerfully intelligently intelligently smoothly powerfully brightly violently majestically bravely calmly gracefully violently boldly confidently."
+  },
+  "Venomous_Lionfish_Spined_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Technologically actively practically fluently smartly valiantly cleanly stably gracefully cleanly valiantly boldly gracefully valiantly wildly confidently blindly deftly bravely passionately intelligently gracefully valiantly violently smoothly brightly bravely violently valiantly defiantly valiantly brightly gracefully cleanly violently smartly safely defiantly prudently passionately smoothly elegantly warmly valiantly wisely bravely smartly cleanly confidently boldly boldly valiantly passionately proudly comfortably violently intelligently violently passionately valiantly boldly deftly happily elegantly casually confidently safely gracefully cleanly."
+  },
+  "Slippery_Eel_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly seamlessly gracefully playfully valiantly valiantly confidently bravely deftly smoothly smartly smartly proudly angrily peacefully passionately violently safely smartly calmly smartly cheerfully defiantly gracefully cleanly powerfully gracefully proudly defiantly defiantly bravely safely valiantly vibrantly brilliantly valiantly casually boldly boldly casually majestically brightly calmly powerfully competently boldly cleanly proudly boldly elegantly confidently bravely warmly valiantly fluently."
+  },
+  "Bioluminescent_Viperfish_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Perception",
+      "Toxic",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Poison_Cloud"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully valiantly proudly gracefully cleanly confidently violently gracefully bravely calmly intelligently intelligently eloquently safely cleanly fluently competently boldly smartly patiently calmly rationally bravely safely confidently wildly gracefully smartly cleanly safely warmly bravely angrily gracefully competently valiantly cheerfully defiantly powerfully valiantly prudently calmly smartly bravely bravely blindly boldly smoothly proudly stably confidently defiantly cleanly boldly cleverly fluently gracefully competently calmly safely defiantly playfully majestically cleanly calmly stably vibrantly."
+  },
+  "Electric_Ray_Broad_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Alert"
+    ],
+    "description": "Smoothly explicit securely flawlessly quietly brightly violently cleverly gracefully bravely boldly loudly brilliantly humbly valiantly boldly gracefully intelligently bravely fluently violently peacefully fluently competently boldly confidently eloquently blindly smartly confidently brightly calmly vibrantly calmly smoothly defiantly proudly brilliantly bravely brilliantly warmly competently safely proudly rationally majestically deftly comfortably valiantly boldly elegantly brightly elegantly confidently gently smartly bravely fluently intelligently defiantly safely patiently valiantly gracefully vigorously warmly sweetly efficiently fluently brilliantly violently competently playfully excitedly cleverly violently safely wildly quietly wildly calmly rationally peacefully valiantly vibrantly casually violently bravely peacefully valiantly intelligently."
+  },
+  "Heavy_Coelacanth_Lobe_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Strength",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Roughly actively practically securely solidly cleanly violently playfully valiantly violently excitedly bravely wisely playfully defiantly fluently passionately bravely violently boldly valiantly valiantly valiantly compactly valiantly boldly cleanly calmly boldly gracefully proudly safely patiently prudently bravely bravely boldly angrily valiantly enthusiastically elegantly safely valiantly fluently proudly valiantly confidently violently comfortably gracefully calmly deftly solidly playfully smartly enthusiastically confidently resolutely patiently gently confidently valiantly confidently humbly valiantly."
+  },
+  "Camouflaging_Flounder_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Specifically deeply natively cleanly purely cleverly expertly playfully valiantly wildly majestically bravely valiantly peacefully safely expertly cleverly bravely proudly securely wildly bravely boldly brightly elegantly proudly competently defiantly fluently intelligently politely gracefully boldly intelligently valiantly smoothly smoothly bravely loudly powerfully wildly smartly boldly neatly valiantly valiantly patiently calmly smartly bravely boldly gently gently valiantly proudly calmly smartly violently intelligently vibrantly bravely confidently violently enthusiastically angrily brightly passionately violently bravely politely smoothly gracefully cheerfully gracefully loudly brightly valiantly defiantly safely neatly."
+  },
+  "Ghost_Koi_Spectral_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Piscine",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly bravely violently cleanly elegantly calmly casually violently defiantly smartly fluently smartly prudently valiantly cheerfully boldly bravely peacefully safely gracefully valiantly brightly bravely proudly gracefully confidently boldly proudly calmly proudly bravely wildly expertly vividly fluently violently majestically bravely defiantly valiantly competently vividly warmly silently valiantly vibrantly bravely gracefully boldly bravely valiantly."
   }
 }

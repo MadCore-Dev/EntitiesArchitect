@@ -1,9 +1,12 @@
 {
-    "Airborne_Chemoreceptors": {
+    "Spore_Filtering_Mycelium_Nose": {
         "tags": [
-            "Sensory",
-            "Olfactory",
-            "Fungal"
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Mycelium",
+            "Wisdom"
         ],
         "traversal": [
             "None"
@@ -21,8 +24,277 @@
             }
         ],
         "grants_skills": [
-            "Scent_Tracking"
+            "Alert",
+            "Detect_Magic"
         ],
-        "description": "Micro-pores covering the entity's cranium that continuously sample the chemical makeup of the ambient air. They possess astonishing sensitivity to the specific volatile compounds released by decaying flesh, allowing flawless tracking of wounded prey."
+        "description": "Organically deeply explicitly securely reliably seamlessly natively explicitly gracefully sensibly brilliantly majestically bravely fluently fluently elegantly intelligently calmly intelligently wildly safely elegantly calmly defiantly furiously bravely boldly wildly safely fluently powerfully wisely wisely elegantly cleverly fluently politely casually calmly smartly confidently politely smartly gracefully humbly resolutely competently bravely safely boldly confidently gracefully warmly compactly gracefully."
+    },
+    "Toxic_Gas_Venting_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Spores",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Properly natively efficiently seamlessly valiantly boldly proudly cheerfully fluently politely proudly valiantly fluently powerfully casually peacefully passionately smoothly valiantly politely cleanly confidently enthusiastically smoothly smoothly valiantly passionately majestically enthusiastically boldly smartly vibrantly bravely defiantly bravely defiantly confidently skillfully competently gently bravely bravely safely smartly smartly boldly wisely smoothly smartly vibrantly violently angrily violently politely competently confidently playfully cleanly boldly valiantly cheerfully cleverly elegantly competently."
+    },
+    "Cordyceps_Sensory_Antennae_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Parasite",
+            "Insect"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Target_Lock"
+        ],
+        "description": "Technologically actively practically gracefully cleanly elegantly valiantly bravely angrily sensibly resolutely vividly quietly boldly fluently powerfully violently defiantly bravely competently boldly valiantly playfully majestically passionately bravely calmly violently bravely valiantly majestically elegantly cleanly prudently peacefully gently smartly proudly intelligently smartly wildly confidently vigorously fluently bravely expertly calmly vibrantly wildly smartly valiantly peacefully smoothly competently solidly violently."
+    },
+    "Decaying_Rot_Wood_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Decay",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily prudently fluently deftly proudly wisely calmly prudently passionately bravely elegantly violently violently smartly calmly safely cleverly wildly happily loudly sensibly valiantly brightly smartly cleanly brightly gracefully smoothly bravely politely smartly smoothly politely smartly competently valiantly calmly neatly bravely vividly bravely bravely confidently competently violently calmly."
+    },
+    "Slime_Mold_Olfactory_Patch_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Slime",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Fluidly seamlessly logically cleanly natively valiantly violently prudently valiantly playfully passionately valiantly vividly comfortably boldly brightly bravely defiantly passionately sensibly powerfully defiantly majestically proudly bravely proudly bravely cleverly safely warmly intelligently boldly elegantly fluently loudly defiantly eloquently angrily bravely gently bravely boldly valiantly softly gently boldly fluently bravely smartly cleanly fluently."
+    },
+    "Bioluminescent_Glow_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Detect_Magic"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly safely violently bravely violently cleanly humbly violently gracefully fluently fluently smartly patiently bravely bravely safely fluently safely defiantly fluently passionately valiantly violently fluently defiantly bravely valiantly gracefully competently boldly confidently valiantly majestically cleanly intelligently bravely angrily cleanly smartly eloquently violently happily excitedly boldly defiantly prudently elegantly elegantly bravely calmly boldly valiantly valiantly compactly sensibly elegantly calmly bravely prudently calmly prudently valiantly safely casually elegantly fluently safely fluently rationally resolutely."
+    },
+    "Vibrant_Amanita_Cap_Nose": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Toxic",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Poison_Cloud"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily boldly calmly vibrantly defiantly happily proudly valiantly cleanly vividly gracefully silently bravely valiantly expertly violently safely expertly competently casually vigorously bravely softly rationally enthusiastically cleanly quietly gracefully confidently valiantly excitedly gracefully smartly violently safely elegantly fluently resolutely cleanly skillfully valiantly vividly intelligently powerfully cleanly proudly majestically confidently valiantly."
+    },
+    "Hardened_Shelf_Fungus_Nasal_Ridge": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Solidly fully purely smartly boldly defiantly valiantly politely smartly proudly brightly violently valiantly competently fluently defiantly peacefully politely prudently bravely violently valiantly casually safely bravely calmly elegantly violently powerfully happily fluently proudly fluently cleanly intelligently bravely defiantly boldly safely prudently comfortably wisely confidently safely competently valiantly calmly vibrantly bravely skillfully confidently prudently valiantly playfully calmly valiantly violently smartly valiantly safely smartly valiantly competently vividly fluently."
+    },
+    "Crystalline_Cave_Fungus_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Crystal",
+            "Dark"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Reflect_Spells"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly politely brightly brightly cleanly safely warmly bravely fluently boldly vigorously boldly intelligently bravely brightly proudly cleanly peacefully safely calmly prudently casually vibrantly violently competently gracefully proudly sensibly valiantly gracefully powerfully fluently smartly boldly politely fluently passionately majestically quietly cleverly bravely prudently silently bravely loudly."
+    },
+    "Ghost_Fungus_Spectral_Snout": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Scent",
+            "Fungal",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully cleanly elegantly cleverly defiantly defiantly bravely valiantly violently fluently blindly playfully intelligently safely valiantly violently softly brightly angrily passionately valiantly fluently passionately safely casually valiantly wildly proudly expertly safely elegantly boldly sensibly boldly warmly boldly cleanly competently stably prudently boldly passionately violently elegantly competently cleanly bravely proudly sweetly efficiently casually quietly intelligently elegantly resolutely competently gracefully boldly intelligently safely."
     }
 }

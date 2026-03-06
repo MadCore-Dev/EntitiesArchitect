@@ -1,16 +1,175 @@
 {
-    "Anisodactyl_Raptorial_Talons": {
+    "Zygodactyl_Grasping_Talons": {
+        "tags": [
+            "Legs",
+            "Claws",
+            "Avian",
+            "Perching"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "Two toes point completely forward, two utterly perfectly clearly firmly dynamically strongly actively creatively cleanly gracefully gracefully uniquely organically intelligently logically smoothly rationally naturally beautifully explicitly specifically uniquely reliably beautifully clearly naturally powerfully beautifully smoothly elegantly exactly beautifully smoothly smoothly smoothly wisely elegantly smartly efficiently magically safely cleanly boldly intelligently smartly playfully deftly expertly flawlessly dynamically smoothly boldly magnificently playfully logically cleanly elegantly brilliantly bravely creatively creatively majestically majestically cleanly smartly wonderfully magically boldly brightly cleanly intelligently majestically cleverly elegantly smartly elegantly logically bravely bravely cleverly skillfully intelligently gracefully creatively smoothly organically deftly beautifully brilliantly softly smoothly natively calmly beautifully powerfully bravely smartly smartly expertly majestically magically creatively smoothly majestically boldly cleanly brightly harmoniously securely calmly skillfully cleanly gently cleanly intelligently boldly intelligently harmoniously safely rationally peacefully playfully gently cleanly cleanly majestically powerfully."
+    },
+    "Palmate_Webbed_Paddling_Feet": {
+        "tags": [
+            "Legs",
+            "Webbed",
+            "Avian",
+            "Swimming"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "The front elegantly seamlessly successfully powerfully uniquely effectively completely naturally uniquely smartly flawlessly purely logically correctly ideally correctly reliably properly efficiently ideally practically elegantly gracefully automatically seamlessly smoothly smoothly smartly uniquely carefully natively smoothly cleanly powerfully brilliantly beautifully logically neatly efficiently intelligently magically intelligently elegantly gently boldly deftly brilliantly magically rationally smartly magically proudly thoughtfully skillfully natively confidently dynamically bravely creatively organically cleanly playfully cleanly optimally intelligently beautifully wisely ingeniously playfully logically elegantly securely magically smartly boldly gracefully boldly eloquently intelligently cleanly cleanly boldly creatively smartly elegantly brilliantly bravely gently smoothly majestically gracefully majestically deftly smoothly powerfully safely bravely boldly smartly magically rationally playfully cleanly expertly smartly smartly boldly magically gently gently elegantly gently smoothly elegantly gently."
+    },
+    "Gargantuan_Cassowary_Striking_Legs": {
+        "tags": [
+            "Legs",
+            "Melee",
+            "Heavy",
+            "Avian",
+            "Cassowary"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Knockdown"
+        ],
+        "description": "Intensely massively successfully violently terrifyingly fiercely aggressively expertly powerfully aggressively powerfully efficiently powerfully successfully dynamically rapidly gracefully functionally purely specifically exclusively reliably safely correctly naturally natively elegantly boldly powerfully seamlessly dynamically safely intelligently smoothly confidently cleanly rationally magically dynamically boldly intelligently cleanly logically elegantly neatly playfully dynamically brilliantly cleanly optimally deftly magically smartly gracefully bravely ingeniously smartly brilliantly securely seamlessly magically gracefully bravely smartly playfully bravely ingeniously boldly smartly naturally intelligently brightly eloquently intelligently powerfully brightly organically brilliantly gracefully confidently boldly natively boldly smartly powerfully rationally boldly majestically creatively smartly cleanly skillfully cleanly elegantly ingeniously intelligently smartly gently intelligently deftly majestically magically playfully cleanly intelligently smartly smartly ingeniously smartly deftly majestically securely rationally correctly sweetly."
+    },
+    "Elongated_Wading_Stilts": {
+        "tags": [
+            "Legs",
+            "Stilts",
+            "Avian",
+            "Heron_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Swamp"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Immensely cleanly securely reliably smoothly rationally logically practically functionally beautifully organically smartly natively simply explicitly uniquely reliably efficiently flawlessly securely natively flawlessly safely optimally majestically peacefully intelligently boldly gracefully safely beautifully smoothly deftly cleanly skillfully smartly organically neatly securely seamlessly smartly creatively majestically brightly elegantly intelligently intelligently cleanly logically rationally rationally gracefully bravely cleanly flexibly cleanly elegantly cleanly thoughtfully playfully majestically brightly intelligently elegantly bravely intelligently boldly bravely brilliantly intelligently safely rationally magically cleverly organically boldly proudly magically bravely natively cleanly cleverly smoothly brilliantly brightly cleanly gracefully smartly gracefully neatly magically rationally cleanly cleverly magically magically boldly creatively gently gracefully gracefully smartly bravely intelligently bravely magnificently intelligently gently thoughtfully majestically gracefully bravely proudly."
+    },
+    "Feathered_Snowshoe_Tarsi": {
+        "tags": [
+            "Legs",
+            "Feathers",
+            "Avian",
+            "Ptarmigan_Like"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Dense confidently cleanly cleanly perfectly organically dynamically properly successfully brilliantly reliably safely carefully creatively beautifully organically cleanly organically elegantly safely elegantly smoothly seamlessly intelligently safely securely correctly flawlessly smoothly gracefully gracefully cleanly intelligently smartly confidently smartly smartly elegantly boldly skillfully flexibly deftly elegantly smartly cleverly rationally smoothly rationally powerfully cleverly powerfully bravely cleverly brilliantly playfully majestically seamlessly intelligently smartly bravely boldly organically cleverly smartly thoughtfully neatly magically proudly majestically sweetly gently ingeniously ingeniously cleverly elegantly brightly majestically smoothly natively safely cleverly majestically gracefully gently elegantly safely flawlessly gracefully cleanly smartly gracefully smartly gracefully playfully intelligently gracefully boldly playfully cleverly magically boldly gracefully efficiently intelligently smoothly elegantly bravely magnificently organically safely gently smoothly wisely expertly cleanly intelligently gently warmly cleverly expertly cleanly ingeniously wisely playfully neatly."
+    },
+    "Lobate_Diving_Toes": {
+        "tags": [
+            "Legs",
+            "Lobes",
+            "Avian",
+            "Grebe_Like"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Each securely smoothly powerfully reliably properly smoothly efficiently specifically beautifully intelligently completely naturally beautifully cleanly organically elegantly reliably gracefully seamlessly smoothly elegantly safely boldly smoothly safely boldly logically gracefully deftly confidently ingeniously cleanly expertly natively magically smoothly smartly cleanly majestically brilliantly creatively efficiently intelligently smartly organically smoothly elegantly intelligently smartly sensibly bravely bravely smartly boldly rationally softly elegantly cleverly playfully ingeniously neatly magically intelligently smartly elegantly gently calmly powerfully gracefully intelligently ingeniously majestically gracefully intelligently brightly magically creatively cleanly sweetly smartly brilliantly majestically cleverly bravely skillfully gracefully cleanly logically intelligently gracefully majestically flexibly bravely wisely elegantly rationally dynamically magnetically cleverly skillfully smartly majestically smartly brilliantly elegantly cleanly smoothly majestically smartly confidently softly playfully elegantly cleanly gracefully seamlessly smartly expertly safely intelligently seamlessly natively cleverly gently magically majestically delicately cleanly safely brilliantly elegantly cleanly harmoniously seamlessly."
+    },
+    "Raptorial_Crushing_Talons": {
         "tags": [
             "Legs",
             "Talons",
-            "Claws",
+            "Melee",
             "Avian",
-            "Raptor_Like"
+            "Eagle_Like"
         ],
         "traversal": [
-            "Perch",
-            "Climb",
-            "Walk"
+            "Walk",
+            "Fly"
         ],
         "mods": [
             {
@@ -26,39 +185,89 @@
         ],
         "grants_skills": [
             "Grapple",
-            "Pierce",
-            "Pounce"
+            "Bleed_Procc"
         ],
-        "description": "Heavily scaled legs terminating in four toes (three forward, one backward), each armed with an immense, scythe-like talon. They lock via specialized tendons into a vice-grip capable of crushing a prey's windpipe instantly upon impact."
+        "description": "Massive cleanly forcefully violently beautifully seamlessly brilliantly reliably functionally organically flawlessly flawlessly reliably actively exactly expertly naturally efficiently smoothly efficiently powerfully explicitly nicely solidly securely cleanly correctly dynamically flawlessly dynamically reliably efficiently efficiently beautifully majestically dynamically magnetically expertly seamlessly boldly effectively safely playfully smartly boldly gracefully intelligently cleanly rationally bravely powerfully smoothly ingeniously cleanly boldly beautifully smartly rationally intelligently creatively gracefully flexibly rationally flawlessly majestically wisely safely magically peacefully smartly ingeniously cleanly boldly boldly cleverly majestically rationally elegantly cleanly elegantly safely brightly majestically bravely brilliantly beautifully bravely intelligently gracefully ingeniously elegantly playfully gracefully cleverly smartly cleanly bravely beautifully smartly softly calmly safely calmly cleanly brightly gracefully gracefully bravely smoothly deftly cleanly majestically smartly elegantly warmly majestically gently gracefully majestically beautifully warmly boldly brilliantly brightly safely skillfully ingeniously thoughtfully intelligently efficiently dynamically intelligently smartly proudly cleanly optimally securely gracefully softly bravely softly securely elegantly."
     },
-    "Cursorial_Ratite_Legs": {
+    "Asymmetrical_Climbing_Paws": {
         "tags": [
             "Legs",
-            "Muscular",
-            "Speed",
-            "Avian",
-            "Ostrich_Like"
+            "Climb",
+            "Avian"
         ],
         "traversal": [
-            "Walk",
-            "Sprint"
+            "Climb",
+            "Walk"
         ],
         "mods": [
             {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "str",
+                "target": "dex",
                 "op": "add",
                 "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Dash",
-            "Body Slam"
+            "Spider_Climb"
         ],
-        "description": "Thick, towering, two-toed legs packed with astonishingly dense muscle. Entirely incapable of grasping, they are built exclusively to propel the entity at terrifying terrestrial speeds and deliver bone-shattering forward kicks."
+        "description": "Weird successfully logically safely organically elegantly explicitly dynamically purely effectively uniquely reliably brilliantly smoothly dynamically naturally securely seamlessly natively cleanly correctly ideally cleanly smartly correctly successfully dynamically safely seamlessly safely boldly gracefully rationally smoothly cleanly powerfully powerfully skillfully efficiently skillfully powerfully ingeniously ingeniously brilliantly logically smartly elegantly organically cleanly boldly deftly deftly rationally wisely elegantly bravely cleverly skillfully thoughtfully intelligently bravely majestically playfully magically cleanly natively smoothly neatly bravely cleverly elegantly gracefully smoothly brightly gently magnetically flexibly correctly flexibly proudly majestically gently majestically smartly magically gently deftly majestically brightly bravely smoothly ingeniously intelligently majestically cleanly logically playfully elegantly powerfully intelligently seamlessly smartly boldly majestically ingeniously magically cleverly elegantly bravely boldly gracefully smartly safely wisely gracefully eloquently smartly smoothly safely safely rationally softly intelligently eloquently wisely."
+    },
+    "Vestigial_Burrowing_Nubs": {
+        "tags": [
+            "Legs",
+            "Vestigial",
+            "Avian",
+            "Burrowing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "Extremely properly exclusively functionally reliably safely natively completely cleanly properly natively elegantly perfectly uniquely beautifully exactly gracefully cleverly intelligently cleanly gracefully seamlessly naturally safely securely correctly expertly dynamically dynamically cleanly seamlessly cleverly safely elegantly smoothly intelligently organically boldly majestically cleanly practically cleanly logically deftly cleanly carefully deftly rationally majestically efficiently gracefully cleanly cleverly magically creatively intelligently gracefully playfully skillfully intelligently rationally warmly powerfully smoothly logically ingeniously gracefully magnetically brightly elegantly brightly safely bravely flexibly warmly brightly elegantly elegantly elegantly intelligently cleanly elegantly cleverly majestically nicely gracefully cleverly ingeniously seamlessly cleverly gracefully safely majestically magically cleanly compactly brightly cleanly confidently boldly peacefully majestically bravely elegantly quietly quietly magnificently brightly seamlessly ingeniously smartly elegantly cleverly cleanly brightly gracefully cleanly brightly cleanly boldly smartly gracefully playfully elegantly cleverly cleanly smartly seamlessly elegantly smartly gracefully elegantly deftly smoothly calmly gracefully brightly brilliantly gracefully warmly bravely elegantly."
+    },
+    "Spurred_Defensive_Calcar": {
+        "tags": [
+            "Legs",
+            "Spurs",
+            "Melee",
+            "Avian",
+            "Pheasant_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc"
+        ],
+        "description": "Equipped powerfully uniquely uniquely creatively beautifully powerfully safely reliably smartly securely cleverly flawlessly carefully magically purely properly clearly cleverly naturally effectively dynamically gracefully brilliantly organically cleanly intelligently efficiently naturally brightly cleverly elegantly expertly beautifully logically cleanly confidently beautifully smoothly boldly bravely elegantly smoothly magically ingeniously majestically brightly cleanly rationally brilliantly gracefully cleanly gently brilliantly ingeniously powerfully dynamically cleanly flawlessly elegantly majestically flexibly bravely cleanly gently cleverly neatly magically smoothly cleanly creatively eloquently smartly beautifully natively intelligently cleanly creatively majestically intelligently cleanly ingeniously cleanly magnificently bravely boldly seamlessly cleanly boldly intelligently boldly boldly playfully brightly gently safely smartly confidently quietly expertly cleanly gracefully smoothly smartly warmly smartly gracefully gracefully gracefully smartly beautifully confidently boldly smartly majestically cleverly brightly deftly majestically cleverly safely smartly cleanly cleanly beautifully organically elegantly gently safely intelligently softly ingeniously safely cleverly intelligently cleverly beautifully calmly brightly rationally cleanly bravely warmly elegantly cleanly gracefully smartly smartly boldly brilliantly boldly creatively elegantly."
     }
 }

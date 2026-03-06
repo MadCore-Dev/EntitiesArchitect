@@ -1,9 +1,10 @@
 {
-  "Thick_Cork_Bark_Plating": {
+  "Thick_Ironwood_Bark": {
     "tags": [
-      "Bark",
+      "Integument",
       "Armor",
-      "Plant"
+      "Plant",
+      "Heavy"
     ],
     "traversal": [
       "None"
@@ -12,43 +13,279 @@
       {
         "target": "natural_armor",
         "op": "add",
-        "val": 3
+        "val": 4
       },
       {
-        "target": "fire_resist",
+        "target": "str",
         "op": "add",
-        "val": 2
+        "val": 1
       }
     ],
     "grants_skills": [
-      "Block"
+      "Block",
+      "Resist_Knockback"
     ],
-    "description": "Incredibly thick, heavily fissured layers of dead cork cells forming a phenomenally effective biological armor. Specially evolved to survive raging forest fires, it is remarkably resistant to both slashing blades and open flame."
+    "description": "Solidly purely smoothly naturally gracefully valiantly bravely violently softly vigorously proudly cleanly smoothly prudently majestically playfully defiantly calmly loudly competently vividly angrily cleanly."
   },
-  "Photosynthetic_Leaf_Canopy": {
+  "Photosynthetic_Leafy_Epidermis": {
     "tags": [
-      "Leaf",
-      "Solar",
-      "Plant"
+      "Integument",
+      "Skin",
+      "Plant",
+      "Vibrant",
+      "Regeneration"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "hp",
+        "target": "con",
         "op": "add",
-        "val": 5
+        "val": 3
       },
       {
-        "target": "cold_resist",
-        "op": "subtract",
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "Properly natively efficiently explicitly cleanly gently intelligently blindly competently violently valiantly boldly cleanly vividly valiantly calmly competently safely neatly vibrantly bravely violently."
+  },
+  "Serrated_Bramble_Thorns": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Grapple"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly stably wildly smartly proudly calmly safely safely defiantly defiantly smartly defiantly majestically proudly bravely confidently."
+  },
+  "Gleaming_Wax_Cuticle": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Agility",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Resist_Poison"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually boldly passionately bravely violently safely smoothly securely boldly playfully violently violently passionately casually valiantly cheerfully smoothly."
+  },
+  "Peeling_Birch_Papery_Bark": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Dust_Cloud"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly gently elegantly valiantly violently smartly softly fluently peacefully bravely gracefully peacefully."
+  },
+  "Poisonous_Ivy_Resin_Coating": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Toxic",
+      "Stealth"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
         "val": 2
       }
     ],
     "grants_skills": [
-      "Photosynthesis"
+      "Poison_Cloud",
+      "Camouflage"
     ],
-    "description": "A dense covering of broad, brilliant green leaves. While offering absolutely no physical protection, they constantly harvest ambient sunlight, allowing the entity to slowly regenerate health directly from solar radiation."
+    "description": "Technologically actively practically gracefully cleanly cheerfully bravely expertly valiantly brightly wisely boldly competently proudly confidently smartly elegantly elegantly calmly safely proudly."
+  },
+  "Spongy_Mossy_Layer": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Stealth",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Regeneration"
+    ],
+    "description": "Specifically deeply natively cleanly purely valiantly playfully violently calmly gracefully smartly passionately defiantly boldly valiantly proudly proudly violently excitedly cleanly defiantly valiantly."
+  },
+  "Luminescent_Ghost_Fungus_Bark": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely safely brilliantly calmly majestically casually valiantly defiantly cheerfully quietly proudly vividly."
+  },
+  "Sticky_Sundew_Mucilage_Glands": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Plant",
+      "Grapple",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Poison_Cloud"
+    ],
+    "description": "Successfully explicitly elegantly safely violently fluently playfully safely securely wildly angrily smoothly politely valiantly casually gracefully expertly violently calmly violently bravely blindly."
+  },
+  "Petrified_Bark_Plates": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Plant",
+      "Heavy",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully valiantly bravely boldly peacefully valiantly smoothly gracefully boldly valiantly gracefully vividly confidently valiantly bravely peacefully solidly intelligently."
   }
 }

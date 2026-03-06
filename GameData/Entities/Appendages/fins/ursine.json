@@ -1,30 +1,307 @@
 {
-    "Polar_Paddling_Forelimbs": {
+    "Polar_Bear_Webbed_Paws_Fins": {
         "tags": [
             "Fins",
-            "Swimming",
-            "Paws",
-            "Ursine"
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Strength",
+            "Cold"
         ],
         "traversal": [
-            "Swim",
-            "Walk"
+            "Swim"
         ],
         "mods": [
             {
-                "target": "speed_bonus",
+                "target": "str",
                 "op": "add",
-                "val": 2
+                "val": 3
             },
             {
-                "target": "str",
+                "target": "agility",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Swim_Dash"
+            "Swim_Dash",
+            "Resist_Cold"
         ],
-        "description": "Gargantuan, plate-like forepaws featuring thick webbing between the toes. They are completely maladapted for climbing, instead functioning entirely as colossal underwater oars capable of propelling a ton of mass through freezing currents for miles."
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully valiantly gracefully smoothly competently boldly bravely cleanly valiantly proudly smoothly happily valiantly brightly brightly smoothly prudently cleverly sensibly violently proudly defiantly calmly gracefully calmly competently confidently cleanly valiantly warmly boldly bravely calmly confidently smartly majestically casually defiantly."
+    },
+    "Swamp_Bear_Broad_Tail_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Con",
+            "Strength"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Tail_Swipe"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely gently proudly sweetly bravely valiantly confidently smartly cleanly fluently furiously valiantly sensibly proudly warmly competently cleverly safely furiously gently lazily smartly expertly bravely boldly boldly valiantly safely fluently smoothly fluently fluently gracefully bravely proudly peacefully valiantly smartly."
+    },
+    "Sea_Bear_Dorsal_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Agility",
+            "Balance"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Streamlined",
+            "Acrobatics"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually wildly valiantly compliantly defiantly calmly valiantly cleanly cleanly majestically boldly valiantly smartly valiantly smoothly proudly valiantly violently calmly majestically peacefully quietly warmly powerfully violently bravely fluently intelligently valiantly fluently cleverly deftly safely prudently calmly cleverly cleanly cleverly gracefully elegantly peacefully smoothly smoothly boldly warmly resolutely loudly gracefully cleanly bravely confidently bravely calmly bravely bravely valiantly smartly comfortably lovingly boldly lazily."
+    },
+    "Kelp_Bear_Leafy_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Stealth",
+            "Con"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Block"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly gracefully calmly valiantly confidently blindly stably gracefully boldly casually calmly violently calmly calmly valiantly casually fluently smoothly politely intelligently gracefully proudly valiantly gracefully eagerly passionately calmly blindly smartly enthusiastically boldly boldly wildly valiantly wisely boldly patiently valiantly politely lazily casually patiently calmly safely boldly majestically violently calmly resolutely safely boldly valiantly gracefully passionately eagerly elegantly gracefully politely fluently valiantly brilliantly fluently elegantly valiantly intelligently happily lazily bravely valiantly bravely compliantly valiantly smartly smartly angrily violently loudly fluently smartly gently comfortably violently politely vividly smoothly skillfully elegantly bravely boldly."
+    },
+    "Coral_Bear_Sharp_Spined_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Armor",
+            "Piercing",
+            "Vibrant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Counterattack",
+            "Bleed_Procc"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately gracefully valiantly gently humbly humbly warmly competently defiantly smoothly cleverly fluently valiantly smoothly proudly confidently lazily competently patiently bravely bravely passionately loudly lazily fluently smoothly smoothly elegantly smartly valiantly compliantly passionately eloquently majestically sensibly deftly valiantly cleanly politely intelligently resolutely wisely deftly lazily intelligently smartly happily intelligently valiantly safely fluently violently politely violently smoothly elegantly."
+    },
+    "Deep_Sea_Bear_Glowing_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Charisma",
+            "Perception",
+            "Magic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Detect_Magic",
+            "Charm"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly stably loudly diligently boldly competently valiantly cheerfully fluently lazily smartly safely boldly valiantly politely majestically majestically lazily safely boldly valiantly elegantly gracefully fluently safely defiantly calmly confidently boldly comfortably fluently intelligently proudly casually fluently silently cleanly humbly valiantly cheerfully calmly elegantly violently peacefully majestically sensibly valiantly wisely fluently violently bravely violently bravely wisely gracefully smartly valiantly valiantly compliantly wisely fluently gracefully calmly bravely gracefully safely skillfully cleverly deftly proudly angrily peacefully playfully lazily lazily deftly smoothly sensibly confidently blindly cleanly violently valiantly fluently bravely fluently cleverly valiantly softly brightly stably calmly loudly resolutely majestically intelligently valiantly."
+    },
+    "River_Bear_Strong_Pectoral_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Strength",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Acrobatics"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently valiantly cleanly violently smartly valiantly humbly cleverly valiantly warmly passionately enthusiastically majestically boldly cheerfully brightly gracefully angrily merrily defiantly elegantly efficiently happily gracefully lazily cleverly resolutely smartly sensibly peacefully valiantly smoothly gracefully prudently boldly safely smartly politely expertly bravely calmly gracefully cleanly bravely neatly safely wisely sensibly defiantly confidently cleanly boldly casually silently bravely valiantly fluently deftly blindly gracefully calmly defiantly stably angrily bravely gently bravely passionately lazily bravely resolutely merrily peacefully confidently boldly valiantly wisely smartly peacefully confidently casually wisely defiantly sensibly valiantly eagerly."
+    },
+    "Ice_Bear_Mane_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Cold",
+            "Charisma"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Cold",
+            "Intimidate"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly wildly peacefully solidly calmly warmly confidently intelligently humbly boldly elegantly bravely intelligently fluently violently peacefully competently boldly safely bravely silently bravely valiantly competently proudly cleanly safely confidently merrily valiantly softly fluently cleverly resolutely proudly happily competently lazily cleverly safely silently bravely smartly happily smoothly valiantly cheerfully brightly violently boldly humbly competently smartly warmly lazily deftly confidently confidently safely safely valiantly compliantly boldly smartly gently valiantly smoothly warmly confidently lazily safely smartly warmly confidently carelessly."
+    },
+    "Zombie_Bear_Rotten_Flippers": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Undead",
+            "Con",
+            "Toxic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently valiantly bravely smoothly politely valiantly smartly boldly confidently smartly proudly smartly deftly cleverly happily excitedly wildly happily enthusiastically wildly wildly elegantly warmly gently politely valiantly valiantly valiantly efficiently gracefully gracefully playfully majestically bravely smartly valiantly smartly vigorously smoothly bravely competently boldly cheerfully efficiently proudly angrily playfully cleverly deftly."
+    },
+    "Spirit_Bear_Ghostly_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Swim",
+            "Stealth",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Swim",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Aerobatics"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully bravely calmly gently boldly majestically politely cheerfully smartly casually blindly violently lazily prudently calmly confidently vividly powerfully cleanly smartly lazily majestically competently securely gracefully prudently prudently loudly smartly defiantly proudly bravely defiantly lazily prudently resolutely wisely valiantly gently casually cheerfully politely lazily gracefully smartly powerfully valiantly boldly smoothly gracefully warmly confidently gracefully eagerly bravely smoothly smoothly boldly warmly warmly violently powerfully eloquently confidently cleverly resolutely powerfully quietly competently lazily smartly valiantly cheerfully valiantly casually fluently smoothly smartly gently elegantly calmly gracefully passionately excitedly softly sensibly comfortably valiantly cleverly fluently wisely valiantly safely stably."
     }
 }

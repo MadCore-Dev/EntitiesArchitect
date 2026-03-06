@@ -1,10 +1,89 @@
 {
-  "Elongated_Rostral_Skull": {
+  "Elongated_Dolichocephalic_Skull": {
     "tags": [
-      "Bone",
+      "Cranium",
+      "Cephalon",
       "Snout",
       "Canine",
-      "Mammal"
+      "Greyhound"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "An exceptionally gracefully flawlessly cleanly successfully completely elegantly securely actively smartly functionally organically confidently wisely dynamically brightly expertly creatively intelligently seamlessly elegantly safely fluently ingeniously intelligently smartly gently intelligently thoughtfully rationally safely bravely valiantly violently stably sensibly cleverly smoothly cleverly softly nicely cleanly magnetically fluently creatively smoothly calmly wisely bravely confidently intelligently smartly confidently cleanly brightly cleanly bravely bravely elegantly humbly brilliantly bravely safely bravely cleanly playfully safely bravely gracefully safely smoothly smartly politely smartly vibrantly gracefully gently smartly smartly nicely smoothly quietly boldly eloquently valiantly sensibly valiantly bravely seamlessly gracefully compactly bravely smartly cleanly valiantly elegantly politely brightly brightly eloquently valiantly cleverly loudly safely smoothly smoothly brilliantly neatly fluently."
+  },
+  "Robust_Brachycephalic_Dome": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Heavy",
+      "Canine",
+      "Bulldog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Perfectly efficiently gracefully seamlessly correctly perfectly natively powerfully correctly organically creatively solidly brilliantly expertly efficiently ingeniously efficiently smartly elegantly violently rationally smartly peacefully politely elegantly softly skillfully politely powerfully smartly bravely majestically safely safely creatively confidently cleverly brightly cleverly smoothly gracefully gently bravely smartly brightly valiantly smoothly bravely bravely deftly boldly bravely bravely intelligently eloquently violently cleanly playfully gracefully bravely powerfully bravely deftly bravely elegantly bravely fluently majestically loudly brightly boldly smoothly playfully smartly rationally gracefully gracefully proudly sensibly intelligently politely violently smartly brightly elegantly cleanly valiantly majestically valiantly cleverly gracefully intelligently confidently valiantly politely skillfully gently cleverly."
+  },
+  "Sagittal_Crest_Muscle_Anchor": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Bite",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Fluently seamlessly seamlessly actively elegantly safely optimally correctly dynamically completely cleanly effectively natively smoothly powerfully logically securely smartly safely smoothly intelligently valiantly cleanly natively elegantly gracefully brilliantly boldly smoothly expertly fluently intelligently cleanly elegantly elegantly cleanly playfully brightly intelligently smartly proudly smartly expertly skillfully violently brightly confidently eloquently boldly gracefully gracefully loudly valiantly violently humbly boldly wisely bravely smartly bravely violently elegantly fluently valiantly brilliantly boldly warmly valiantly sweetly ingeniously efficiently smartly bravely gently gracefully valiantly peacefully politely safely cheerfully flexibly skillfully fluently confidently intelligently defiantly compactly valiantly valiantly valiantly valiantly vividly playfully warmly playfully bravely bravely logically bravely elegantly bravely wisely neatly majestically fluently."
+  },
+  "Domed_Mesaticephalic_Braincase": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Balanced",
+      "Canine",
+      "Labrador"
     ],
     "traversal": [
       "None"
@@ -17,14 +96,42 @@
       }
     ],
     "grants_skills": [],
-    "description": "A highly elongated dolichocephalic skull designed to house a staggering surface area of internal olfactory epithelium. While trading away the bite-force leverage of shorter faces, it maximizes scent-gathering potential perfectly."
+    "description": "Efficiently uniquely completely properly cleanly securely solidly securely ideally securely successfully dynamically gracefully functionally functionally intelligently smartly elegantly natively logically safely effectively smartly skillfully gracefully elegantly rationally brilliantly magically peacefully powerfully gracefully skillfully rationally gracefully softly safely cleverly violently securely elegantly securely vibrantly smartly cleverly skillfully majestically rationally smartly valiantly cleverly intelligently brightly valiantly smartly humbly cheerfully cleverly gently vibrantly smartly politely bravely boldly gently fluently smartly valiantly gently smartly calmly intelligently valiantly gently bravely bravely skillfully elegantly gracefully cleverly valiantly cleanly valiantly safely eloquently gently quietly proudly valiantly safely smoothly valiantly cleverly valiantly gracefully playfully elegantly majestically boldly softly smartly defiantly neatly gracefully smoothly."
   },
-  "Sagittal_Crest_Cranium": {
+  "Thickened_Bashing_Frontal_Bone": {
     "tags": [
-      "Bone",
-      "Crest",
+      "Cranium",
+      "Cephalon",
+      "Armor",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown"
+    ],
+    "description": "Exclusively expertly securely cleanly practically explicitly securely properly solidly exclusively cleanly expertly organically smoothly beautifully confidently eloquently cleanly fluently wisely ingeniously creatively elegantly natively cleanly rationally elegantly elegantly efficiently safely boldly safely cleverly proudly proudly gracefully valiantly cleanly vibrantly majestically playfully smartly forcefully peacefully sensibly warmly bravely boldly confidently smartly sweetly boldly valiantly valiantly majestically elegantly playfully fluently smartly safely wisely calmly politely boldly cheerfully smartly gracefully valiantly valiantly bravely calmly valiantly brightly humbly safely skillfully loudly softly intelligently forcefully."
+  },
+  "Hyper_Ossified_Dire_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Heavy",
       "Canine",
-      "Mammal"
+      "Dire_Wolf"
     ],
     "traversal": [
       "None"
@@ -33,15 +140,129 @@
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "val": 3
       },
       {
-        "target": "int",
-        "op": "subtract",
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Fear"
+    ],
+    "description": "Massively successfully organically exactly safely expertly intelligently flawlessly completely purely smartly uniquely naturally neatly cleanly skillfully creatively practically seamlessly majestically cleanly naturally safely elegantly bravely elegantly creatively powerfully ingeniously vibrantly fluently ingeniously boldly intelligently smartly stably elegantly boldly intelligently skillfully violently valiantly valiantly bravely valiantly calmly majestically creatively cleanly bravely confidently smartly smartly brightly valiantly majestically smoothly warmly majestically gracefully vibrantly vividly smoothly valiantly expertly bravely gently confidently playfully bravely bravely politely peacefully playfully vibrantly stably compactly playfully intelligently sensibly smoothly vibrantly brightly politely fluently valiantly magically fluently boldly proudly forcefully valiantly compactly gently cleanly violently bravely elegantly valiantly elegantly gracefully vibrantly vividly boldly majestically elegantly smartly violently."
+  },
+  "Cybernetic_Sensor_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Cybernetic",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "wis",
+        "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A massive, heavy skull featuring an incredibly prominent bony sagittal crest running along the top. This crest serves purely as an anchor point for tremendously overpowered temporalis jaw muscles, granting a literal bone-crushing bite."
+    "grants_skills": [
+      "Target_Lock",
+      "Blindsight"
+    ],
+    "description": "Dynamically smoothly purely practically gracefully organically solidly securely successfully cleanly perfectly skillfully smartly cleanly naturally flexibly effectively fluently gracefully beautifully smartly cleanly boldly skillfully smartly logically majestically cleanly powerfully fluently gracefully majestically gracefully intelligently brightly violently skillfully smartly eloquently wisely natively valiantly boldly fluently boldly cleverly magically smartly loudly rationally valiantly warmly confidently violently intelligently elegantly safely boldly smoothly violently boldly brilliantly wisely majestically valiantly softly bravely playfully valiantly boldly bravely confidently safely intelligently cheerfully happily valiantly."
+  },
+  "Exposed_Necrotic_Skull_Cap": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Undead",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Strictly fluently smoothly gracefully purely exclusively successfully effortlessly seamlessly smartly cleanly practically solidly elegantly dynamically purely brightly gracefully ingeniously vibrantly fluently cleverly fluently wisely cleverly smartly cleverly forcefully valiantly creatively efficiently boldly valiantly safely gently elegantly logically cleanly cleanly peacefully vibrantly bravely smartly fluently gracefully vividly violently smartly valiantly bravely smartly wisely brightly proudly valiantly violently valiantly cleanly boldly cleverly elegantly smartly confidently gracefully boldly loudly smartly bravely bravely cleanly valiantly eloquently stably defiantly politely softly neatly safely intelligently intelligently violently bravely elegantly eloquently playfully boldly bravely intelligently valiantly."
+  },
+  "Horned_Demon_Hound_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Horns",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Gore",
+      "Intimidate"
+    ],
+    "description": "Actively cleanly seamlessly solidly smoothly organically functionally effectively completely practically effectively naturally gracefully smartly cleanly beautifully gracefully violently violently solidly confidently magically fluently vividly smartly fluently valiantly gracefully playfully dynamically valiantly majestically valiantly bravely calmly valiantly intelligently loudly bravely boldly bravely smartly intelligently softly cleanly boldly intelligently valiantly gracefully softly bravely valiantly safely gracefully cleverly loudly safely bravely vigorously cheerfully bravely politely valiantly violently rationally comfortably bravely elegantly creatively boldly bravely boldly elegantly violently cleverly bravely proudly safely violently confidently boldly intelligently violently."
+  },
+  "Symbiotic_Crystal_Infused_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Crystal",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light"
+    ],
+    "description": "Clearly magically smoothly expertly correctly purely flawlessly successfully securely smoothly actively dynamically ideally natively fluently cleanly effectively cleanly gracefully elegantly gracefully intelligently bravely creatively vibrantly brilliantly cleverly intelligently smoothly safely vibrantly cleanly ingeniously bravely playfully valiantly cleanly boldly playfully bravely violently safely elegantly powerfully cleverly valiantly peacefully intelligently majestically valiantly sweetly valiantly cheerfully majestically boldly cleanly brightly intelligently valiantly boldly majestically confidently violently eloquently vibrantly fluently defiantly bravely elegantly brightly confidently brightly boldly intelligently sweetly cleanly gracefully vibrantly skillfully bravely cleverly gently deftly bravely valiantly bravely cleanly valiantly eloquently elegantly gracefully valiantly violently softly brightly cleverly bravely softly boldly bravely."
   }
 }

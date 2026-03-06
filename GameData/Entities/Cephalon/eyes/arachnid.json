@@ -1,11 +1,64 @@
 {
-    "Principal_Ocelli_Cluster": {
+    "Anterior_Median_Telescopic_Tubes": {
         "tags": [
-            "Sensory",
             "Eyes",
-            "Ocelli",
-            "Multi_Lens",
+            "Telescopic",
+            "Arachnid",
+            "Jumping_Spider"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Target_Lock",
+            "Keen Sight"
+        ],
+        "description": "Two gigantic, violently forward-facing, highly elongated tube-eyes practically dominating the face. They lack muscles to rotate the eyeballs; instead, the retinas themselves physically move back and forth behind the lens like a scanning laser beam. Unrivaled, spectacular color-corrected telescopic vision."
+    },
+    "Eight_Orb_Panoramic_Array": {
+        "tags": [
+            "Eyes",
+            "Panoramic",
             "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "Eight distinct, unblinking spherical eyes arranged in a staggered geometric ring completely encompassing the carapace. Providing flawless, unbroken 360-degree vision, meaning it is mathematically impossible to physically sneak up on this entity."
+    },
+    "Nocturnal_Tapetum_Reflectors": {
+        "tags": [
+            "Eyes",
+            "Night_Vision",
+            "Arachnid",
+            "Wolf_Spider"
         ],
         "traversal": [
             "None"
@@ -23,16 +76,160 @@
             }
         ],
         "grants_skills": [
-            "Darkvision",
-            "Keen Sight"
+            "Darkvision"
         ],
-        "description": "A cluster of principal forward-facing simple eyes (ocelli) flanked by secondary lateral eyes. They excel at detecting movement and polarizing light for navigation, even in near total darkness."
+        "description": "A highly specialized ring of four massive, exceptionally light-sensitive eyes containing a violently reflective tapetum lucidum. Sweeping a flashlight across a dark lawn reveals hundreds of these tiny, icy-blue glittering diamonds staring back from the grass."
     },
-    "Secondary_Motion_Ocelli": {
+    "Vestigial_Subterranean_Spots": {
         "tags": [
-            "Sensory",
             "Eyes",
-            "Motion_Tracking",
+            "Blind",
+            "Cave_Dweller",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "subtract",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Deep within absolute, lightless cavern systems, the highly metabolically expensive eyes have severely degenerated into useless, clouded white dimples. The entity is entirely, permanently blind to visual light."
+    },
+    "Six_Eyed_Recluse_Cluster": {
+        "tags": [
+            "Eyes",
+            "Cluster",
+            "Arachnid",
+            "Recluse"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "accuracy",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An unusual configuration of exactly six eyes aggressively clustered into three perfectly paired pairs (dyads) sitting in a U-shape on the head. Offers mediocre resolution perfectly adapted for wandering heavily shadowed crawlspaces."
+    },
+    "Ultraviolet_Polarization_Filters": {
+        "tags": [
+            "Eyes",
+            "UV",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "True_Strike"
+        ],
+        "description": "Eyes entirely immune to the overwhelming glare of the desert sun, uniquely evolved to perfectly discern the heavy polarization patterns of a completely blue sky. This allows the entity to flawlessly navigate and hunt based purely on the exact angle of the sun."
+    },
+    "Asymmetrical_Deinopid_Orbs": {
+        "tags": [
+            "Eyes",
+            "Asymmetrical",
+            "Arachnid",
+            "Ogre_Faced_Spider"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Ambush"
+        ],
+        "description": "Two absolutely monstrous, ridiculously oversized, highly convex posterior median eyes dwarfing the other six violently tiny vestigial eyes. They are incredibly, terrifyingly sensitive in extreme pitch blackness, granting nightmarish accuracy when dropping a hand-held net onto passing prey."
+    },
+    "Compound_Gnathosoma_Lenses": {
+        "tags": [
+            "Eyes",
+            "Compound",
+            "Arachnid",
+            "Mite_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Rather than standard simple arachnid eyes (ocelli), this bizarre microscopic entity possesses heavily reduced, jagged compound eyes heavily reminiscent of a true insect, optimized purely to detect sudden massive changes in host shadows."
+    },
+    "Dorsal_Elevated_Periscope_Lenses": {
+        "tags": [
+            "Eyes",
+            "Periscope",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Eyes positioned at the absolute highest, steepest peak of the wildly sloping head. This horrifyingly allows the flat-bodied entity to bury itself entirely beneath the hot desert sand, leaving exactly two unblinking lenses exposed over the surface."
+    },
+    "Secondary_Movement_Detectors": {
+        "tags": [
+            "Eyes",
+            "Movement",
             "Arachnid"
         ],
         "traversal": [
@@ -43,16 +240,11 @@
                 "target": "initiative",
                 "op": "add",
                 "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "subtract",
-                "val": 1
             }
         ],
         "grants_skills": [
             "Uncanny_Dodge"
         ],
-        "description": "Vastly expanded secondary eyes that process visual data purely as motion vectors. While incapable of resolving fine detail or color, they grant almost precognitive reflexes against incoming threats."
+        "description": "The violently large anterior median eyes provide extreme high-resolution color focus, while the peripheral lateral eyes act solely as deeply primitive, highly strung low-resolution motion detectors. Any frantic twitch in the extreme wide periphery violently triggers an instant realignment of the main eyes."
     }
 }

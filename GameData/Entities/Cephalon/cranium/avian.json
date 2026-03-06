@@ -1,27 +1,259 @@
 {
-  "Streamlined_Kinaesthetic_Skull": {
+  "Hyper_Pneumatized_Lightweight_Skull": {
     "tags": [
-      "Bone",
+      "Cranium",
       "Lightweight",
+      "Bone",
+      "Avian"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "A skull composed mostly of completely empty, staggeringly hollow air space traversed by microscopic, tissue-paper thin bony struts. It perfectly minimizes front-heavy weight for phenomenal aerial agility at the terrible cost of extreme, horrifying skeletal fragility."
+  },
+  "Ossified_Cassowary_Casque": {
+    "tags": [
+      "Cranium",
+      "Casque",
+      "Armor",
+      "Heavy",
+      "Avian"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Intimidate"
+    ],
+    "description": "A remarkably tall, insanely heavy, deeply sponge-like bony crest erupting violently from the top of the completely naked skull. Used relentlessly as an organic helmet to forcefully physically batter perfectly through intensely dense, violently tangled jungle vines while sprinting blindly."
+  },
+  "Shock_Absorbing_Woodpecker_Braincase": {
+    "tags": [
+      "Cranium",
+      "Shock_Absorption",
+      "Avian"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "The absolutely utterly massive hyoid bone specifically extends terrifyingly backward, completely cleanly wrapping over the top of the skull and aggressively anchoring into the right nostril. It acts brilliantly as a massive, thick biological seatbelt for the brain during 10,000 G-force hammer blows against solid oak."
+  },
+  "Elongated_Probes_Rostrum": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Sensory",
       "Avian",
-      "Bird_Like"
+      "Kiwi_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "The immensely long front portion of the skull (premaxilla) is heavily riddled entirely with millions of tiny, highly sensitive pits specifically containing tactile and completely unprecedented olfactory nerves. The entity 'smells' worms buried deep under six inches of furiously packed clay."
+  },
+  "Gargantuan_Pelican_Jaw_Anchor": {
+    "tags": [
+      "Cranium",
+      "Massive",
+      "Avian"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "int",
+        "target": "reach",
         "op": "add",
         "val": 1
       },
       {
-        "target": "agility",
+        "target": "size_index",
         "op": "add",
         "val": 1
       }
     ],
+    "grants_skills": [
+      "Swallow_Whole"
+    ],
+    "description": "An unbelievably thin, terrifyingly elongated upper skull explicitly engineered to securely anchor a horrifically massive, intensely elastic throat pouch. The lower jaw completely lacks front connection, violently violently expanding outward to instantly scoop entirely 3 gallons of heavy water and a violently thrashing salmon."
+  },
+  "Rhynchokinesis_Flexible_Upper_Jaw": {
+    "tags": [
+      "Cranium",
+      "Flexible",
+      "Avian",
+      "Snipe_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
     "grants_skills": [],
-    "description": "A papery-thin, highly kinetic skull dominated almost entirely by massive orbital sockets and a braincase. It is fused directly to an articulating beak framework, designed to absorb the shock of pecking without transferring force to the brain."
+    "description": "An incredible biological joint genuinely separating the extremely long upper beak directly from the rest of the rigidly solid skull. The entity can physically widely open directly only the wildly flexible topmost tip of its beak deep underground to ruthlessly pinch entirely trapped grubs completely like biological tweezers."
+  },
+  "Asymmetrical_Owl_Ear_Sockets": {
+    "tags": [
+      "Cranium",
+      "Asymmetrical",
+      "Avian",
+      "Owl_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Keen Hearing",
+      "Blindsight"
+    ],
+    "description": "A skull shockingly visually violently warped completely lopsided. One massive ear completely opening is intensely higher on the skull than the drastically lower opposite side. This radically bizarre skeletal deformity perfectly grants pinpoint, terrifying 3D triangulation of a frantically scurrying mouse trembling beneath three feet of pristine fresh snow."
+  },
+  "Fused_Toucan_Honeycomb_Rostrum": {
+    "tags": [
+      "Cranium",
+      "Giant_Beak",
+      "Lightweight",
+      "Avian"
+    ],
+    "traversal": [
+      "Fly",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The skull is completely and totally dominated by a brilliantly violently colorful beak that physically exceeds the length of the entire entity's completely feathered body. While appearing terrifyingly heavy, the completely external keratin shell simply surrounds highly incredibly lightweight, spongy, deeply foam-like bone."
+  },
+  "Horaceiform_Crushing_Gnathotheca": {
+    "tags": [
+      "Cranium",
+      "Crushing",
+      "Avian",
+      "Finch_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "A deeply horrifyingly compact, deeply bullet-shaped, staggeringly immensely thick skull solidly anchoring completely spectacularly oversized jaw adductor muscles. Engineered solely specifically to seamlessly effortlessly crack utterly completely solid, violently hard tropical seeds completely requiring forces literally entirely exceeding 1,000 pounds of intense pressure."
+  },
+  "Frontal_Bony_Display_Crest": {
+    "tags": [
+      "Cranium",
+      "Display",
+      "Comb",
+      "Avian",
+      "Hornbill_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "A massive, sweeping, intensely highly intricate, brightly painted, wildly projecting shelf of pure immensely solid bone practically erupting completely violently upwards solely purely from the frontal bones right between the extremely large eyes. A staggeringly heavy, deeply cumbersome ornament solely entirely dedicated heavily strictly to wildly attracting completely amazed mates."
   }
 }

@@ -3,11 +3,186 @@
         "tags": [
             "Fins",
             "Hairs",
-            "Aquatic",
+            "Arachnid",
+            "Water_Spider"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aquatic_Respiration"
+        ],
+        "description": "Not true fins, but incredibly dense, staggering mats of millions of highly specialized hydrophobic hairs completely covering the abdomen. They aggressively trap a massive, silvery bubble of atmospheric air against the spiracles, serving perfectly as a biological scuba tank."
+    },
+    "Oar_Like_Swimming_Pedipalps": {
+        "tags": [
+            "Fins",
+            "Oars",
+            "Swimming",
             "Arachnid"
         ],
         "traversal": [
             "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "The pedipalps have become violently shortened, intensely flattened, and hugely widened, resembling two massive wooden oars. Powered by gargantuan hemolymph bursts, they provide terrifying, explosive forward thrust through thick aquatic vegetation."
+    },
+    "Flattened_Ambulatory_Paddles": {
+        "tags": [
+            "Fins",
+            "Paddles",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The terminal segments of all eight legs are dramatically dorsoventrally flattened and fringed with stiff bristles. They are exceedingly clumsy on solid ground, acting as biological snowshoes, but turn the entity into a ruthlessly efficient, heavily armored aquatic pursuit predator."
+    },
+    "Acoustic_Lateral_Line_Fringes": {
+        "tags": [
+            "Fins",
+            "Sensory",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Extremely sheer, gossamer-thin fins running longitudinally down the legs entirely devoid of muscle. Lacking any thrust capability, they are completely saturated with hyper-sensitive trichobothria, allowing the blind entity to perfectly perfectly map the water pressure waves of struggling, drowning prey."
+    },
+    "Deeper_Caudal_Locomotion_Ridge": {
+        "tags": [
+            "Fins",
+            "Ridge",
+            "Arachnid",
+            "Scorpion_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An incredibly unusual biological adaptation where the elongated tail segments of an ancestral scorpion body have fused a sharp, vertically raised ridge of completely stiff chitin. When thrashing the tail side to side, it provides highly mediocre, lumbering forward propulsion."
+    },
+    "Serrated_Defensive_Dorsal_Sail": {
+        "tags": [
+            "Fins",
+            "Sail",
+            "Spines",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "A towering, absurdly stiff sail constructed purely of razor-sharp, interlocking chitinous plates erupting directly down the center of the carapace. It makes the entity utterly impossible to swallow whole by any massively gaping predatory catfish."
+    },
+    "Web_Anchoring_Benthic_Tarsi": {
+        "tags": [
+            "Fins",
+            "Anchoring",
+            "Benthic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Short, horribly dense, incredibly heavy fins specifically designed exactly to never generate lift. The entity uses them to dig immovably deep into the violently rushing silt of riverbeds while deploying devastating, highly tensile underwater silk nets across the raging rapids."
+    },
+    "Vestigial_Sclerotized_Nods": {
+        "tags": [
+            "Fins",
+            "Vestigial",
+            "Arachnid",
+            "Desert"
+        ],
+        "traversal": [
+            "None"
         ],
         "mods": [
             {
@@ -17,14 +192,62 @@
             },
             {
                 "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Heavily calcified, entirely useless lumps protruding from the leg joints. Trapped in a sprawling, utterly waterless desert for millions of years, the aquatic locomotive fins of this entity's ancient ancestors have severely degenerated into thick, armored callouses."
+    },
+    "Bioluminescent_Lure_Fringes": {
+        "tags": [
+            "Fins",
+            "Lure",
+            "Bioluminescent",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Light"
+        ],
+        "description": "Trailing, incredibly silky fins hanging directly down from the pedipalps that glow a terrifying, sickly, mesmerizing green in pitch-black subterranean lakes. Blind cave fish eagerly swim straight into the waiting, widely gaping chelicerae."
+    },
+    "Adhesive_Rheophilic_Pads": {
+        "tags": [
+            "Fins",
+            "Adhesive",
+            "Aquatic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Aquatic_Respiration",
-            "Swim_Dash"
+            "Spider_Climb"
         ],
-        "description": "Dense, highly specialized hydrophobic hairs densely coating the abdomen and hind limbs. They function as biological scuba tanks, trapping a permanent layer of oxygen (a plastron) that acts simultaneously as a buoyancy fin and a breathable air supply underwater."
+        "description": "Fins heavily heavily modified into flattened, practically frictionless, suction-cup-like biological pads. They do not paddle, but allow the tiny entity to permanently adhere directly onto the slick, slime-covered rocks directly beneath the violently pounding water of a 60-foot waterfall."
     }
 }

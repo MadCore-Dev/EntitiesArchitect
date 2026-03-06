@@ -1,11 +1,223 @@
 {
-    "Elongated_Foraging_Lips": {
+    "Cave_Bear_Fungus_Tendrils": {
         "tags": [
             "Tentacles",
-            "Sensory",
-            "Prehensile",
+            "Appendages",
             "Ursine",
-            "Sloth_Bear_Like"
+            "Con",
+            "Climb",
+            "Reach"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully valiantly gracefully smoothly competently boldly resolutely casually smartly wisely fluently valiantly gently calmly casually smartly gracefully comfortably lazily wisely defiantly casually loudly competently valiantly cheerfully softly gently brilliantly cleverly valiantly quietly valiantly violently calmly lazily elegantly neatly competently defiantly proudly playfully confidently bravely valiantly smoothly smartly fluently smartly boldly loudly bravely confidently stably defiantly cleanly warmly cleanly peacefully defiantly loudly blindly calmly gracefully patiently fluently violently valiantly casually violently proudly calmly."
+    },
+    "Swamp_Bear_Root_Sprouts": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Con",
+            "Stealth",
+            "Climb"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Grapple"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely gently valiantly gently smoothly bravely bravely competently bravely prudently valiantly smoothly elegantly valiantly cheerfully happily angrily humbly wildly confidently cleverly safely furiously competently competently fiercely valiantly smartly intelligently bravely cleverly valiantly gracefully happily politely defiantly calmly gently boldly cleanly lazily fluently fluently powerfully intelligently proudly casually brilliantly valiantly happily intelligently prudently sensibly gracefully boldly gracefully fluently elegantly casually happily competently lazily smartly smartly passionately."
+    },
+    "Eldritch_Bear_Maw_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Reach",
+            "Intimidating"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Intimidate"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly cleverly intelligently valiantly bravely loudly passionately smartly happily peacefully bravely gracefully valiantly peacefully gently competently boldly smartly valiantly smartly bravely merrily stably quietly cheerfully defiantly smartly smoothly resolutely bravely fluently casually smartly bravely cheerfully valiantly violently calmly majestically peacefully quietly warmly boldly defiantly valiantly enthusiastically elegantly wildly comfortably proudly sweetly fluently valiantly brilliantly fluently elegantly vividly majestically expertly eloquently casually boldly safely fluently competently boldly safely bravely silently violently violently lazily competently cleanly happily loudly politely eagerly valiantly gently."
+    },
+    "Mutated_Bear_Antler_Vines": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Reach",
+            "Charisma"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Charm"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly gracefully calmly bravely valiantly casually intelligently blindly bravely competently proudly bravely smoothly blindly defiantly safely resolutely proudly warmly bravely gently sweetly politely competently politely cleanly valiantly cheerfully stably boldly boldly boldly bravely violently violently valiantly sensibly peacefully sensibly lazily valiantly brilliantly confidently prudently wildly playfully happily safely defiantly smoothly excitedly smartly boldly skillfully."
+    },
+    "Sea_Bear_Anemone_Crown": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Swim",
+            "Con",
+            "Perception"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Poison",
+            "Tremorsense"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly patiently peacefully warmly competently proudly valiantly smoothly peacefully majestically defiantly lazily prudently resolutely wildly eagerly proudly loudly gently patiently angrily bravely elegantly warmly blindly securely bravely neatly bravely cleanly competently happily valiantly cleanly safely enthusiastically lazily safely silently fluently boldly bravely valiantly competently passionately loudly gracefully sweetly boldly expertly gently peacefully defiantly passionately eloquently lazily smartly intelligently."
+    },
+    "Corrupted_Bear_Shadow_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Stealth",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Touch_Attack"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly stably loudly diligently boldly competently vehemently playfully fluently deftly bravely bravely fluently valiantly smartly elegantly wildly resolutely smartly securely lazily valiantly valiantly compactly valiantly cheerfully smoothly violently expertly smoothly proudly casually valiantly brightly proudly cheerfully boldly cleverly smartly humbly gracefully boldly majestically valiantly cleverly smartly happily lazily fluently smartly cleanly excitedly brilliantly cleverly valiantly quietly cleanly powerfully calmly resolutely cleverly comfortably smartly intelligently angrily blindly prudently resolutely wisely deftly lazily deftly warmly valiantly smoothly valiantly violently calmly wildly valiantly deftly fluently enthusiastically cleverly lazily defiantly safely majestically valiantly smoothly gracefully."
+    },
+    "Alien_Bear_Light_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Perception",
+            "Reach",
+            "Vibrant"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Detect_Magic",
+            "Touch_Attack"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently valiantly cleanly violently smartly valiantly humbly cleverly valiantly warmly intelligently loudly cheerfully smoothly lazily expertly gracefully smoothly lazily smartly valiantly intelligently lovingly merrily competently proudly proudly warmly securely warmly proudly eloquently casually gracefully passionately cleverly valiantly valiantly boldly defiantly smartly valiantly smoothly cleanly proudly playfully casually patiently prudently bravely bravely confidently calmly defiantly brilliantly proudly happily confidently valiantly valiantly valiantly efficiently gracefully violently passionately quietly valiantly smoothly smoothly bravely excitedly majestically happily comfortably proudly quietly angrily valiantly competently lazily smartly smartly expertly calmly elegantly proudly wildly warmly bravely smartly boldly expertly sensibly valiantly valiantly gracefully."
+    },
+    "Biotech_Bear_Cable_Extenders": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Dexterity",
+            "Reach",
+            "Utility"
         ],
         "traversal": [
             "None"
@@ -14,12 +226,79 @@
             {
                 "target": "dex",
                 "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Fast_Hands"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly wildly peacefully solidly valiantly fluently warmly confidently resolutely lazily politely safely bravely passionately deftly neatly neatly smartly proudly valiantly softly playfully casually competently boldly politely loudly gracefully peacefully cleanly humbly brilliantly prudently bravely peacefully loyally valiantly loudly boldly valiantly valiantly cheerfully fluently neatly calmly valiantly bravely competently boldly cheerfully valiantly gracefully neatly smartly elegantly majestically lazily bravely passionately smoothly casually excitedly valiantly casually smartly smoothly casually proudly bravely smartly boldly defiantly fluently."
+    },
+    "Zombie_Bear_Exposed_Intestines": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Undead",
+            "Con",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Squeeze"
+            "Poison_Cloud",
+            "Grapple"
         ],
-        "description": "Hypertrophied, extensively mobile, completely hairless lips that can extend surprisingly far from the jawline. Functioning almost like short tentacles, they are used to form an airtight seal over termite mounds before inhaling violently."
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently valiantly bravely smoothly politely valiantly smartly boldly bravely violently stably merrily valiantly softly boldly politely smartly cleanly valiantly gracefully merrily blindly softly valiantly valiantly wisely gracefully smoothly boldly valiantly violently wisely fluently smoothly fluently prudently competently loudly elegantly valiantly peacefully gently defiantly calmly wildly playfully happily valiantly intelligently brilliantly boldly angrily warmly wisely enthusiastically casually lazily competently deftly happily violently cleverly safely vividly."
+    },
+    "Ghost_Bear_Ectoplasmic_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Ursine",
+            "Magic",
+            "Stealth",
+            "Undead_Like",
+            "Reach"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Touch_Attack"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully bravely calmly gently boldly majestically wildly happily cleanly securely safely valiantly lazily prudently smartly bravely confidently proudly valiantly patiently boldly resolutely furiously boldly wildly gracefully smartly sensibly safely safely confidently majestically neatly intelligently lazily safely violently proudly bravely cleanly resolutely angrily safely fluently smoothly softly bravely valiantly safely comfortably passionately valiantly cleverly bravely angrily calmly competently proudly violently calmly smartly politely furiously majestically valiantly boldly bravely confidently smartly bravely politely majestically safely valiantly bravely prudently humbly safely merrily wildly comfortably proudly boldly sensibly boldly violently bravely peacefully valiantly brightly valiantly casually fluently fluently smartly resolutely happily cleanly valiantly smoothly casually intelligently peacefully gracefully violently calmly fluently fluently elegantly intelligently valiantly smoothly."
     }
 }

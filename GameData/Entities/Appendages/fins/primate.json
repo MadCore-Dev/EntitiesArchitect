@@ -1,10 +1,12 @@
 {
-    "Webbed_Macaque_Digits": {
+    "Macaque_Webbed_Hands_Fins": {
         "tags": [
             "Fins",
-            "Webbing",
+            "Appendages",
             "Primate",
-            "Aquatic"
+            "Swim",
+            "Agility",
+            "Dexterity"
         ],
         "traversal": [
             "Swim",
@@ -12,19 +14,296 @@
         ],
         "mods": [
             {
-                "target": "speed_bonus",
+                "target": "dex",
                 "op": "add",
-                "val": 1
+                "val": 3
             },
             {
-                "target": "dex",
-                "op": "subtract",
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Spider_Climb"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually boldly valiantly defiantly vibrantly valiantly cheerfully cleanly cleanly safely bravely violently humbly proudly prudently bravely bravely wildly calmly vigorously casually smoothly cleanly valiantly loudly intelligently warmly calmly passionately safely fluently defiantly defiantly bravely defiantly brilliantly confidently expertly loudly wildly furiously bravely happily passionately cleanly violently happily bravely fluently gracefully proudly cleverly bravely fluently politely warmly smartly humbly safely confidently playfully boldly violently politely happily gracefully smoothly bravely confidently wisely smartly wisely fluently safely boldly violently lazily majestically sensibly expertly politely calmly gracefully violently aggressively cleanly resolutely."
+    },
+    "Gorilla_Powerful_Paddling_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Strength",
+            "Heavy",
+            "Armor"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Swim_Dash"
+            "Swim_Dash",
+            "Block"
         ],
-        "description": "Hands and feet possessing thick, durable webbing between every digit. While slightly reducing the capability for ultra-fine tool manipulation, it grants excellent propulsion for a primate hunting crabs in flooded mangrove forests."
+        "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently valiantly patiently fluently resolutely boldly valiantly confidently violently competently smoothly cleverly valiantly confidently safely boldly peacefully confidently bravely gracefully violently valiantly politely neatly smoothly calmly smartly casually majestically fluently loudly defiantly peacefully smartly prudently intelligently valiantly solidly loudly proudly gracefully gracefully comfortably bravely calmly confidently fluently passionately cleanly cleanly defiantly confidently calmly politely boldly eloquently cleanly defiantly violently intelligently majestically calmly confidently bravely eloquently skillfully defiantly happily resolutely bravely gently expertly majestically violently humbly prudently cleanly proudly confidently wildly gently wildly majestically vibrantly boldly resolutely safely intelligently violently smartly valiantly safely violently competently cleanly elegantly boldly valiantly happily softly bravely brightly violently violently elegantly defiantly valiantly."
+    },
+    "Spectral_Ape_Ethereal_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Magic",
+            "Perception",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Swim",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Detect_Magic",
+            "Invisibility"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly wildly happily gently smoothly softly lazily smartly confidently resolutely politely gently defiantly valiantly safely defiantly violently proudly playfully majestically defiantly valiantly fluently neatly elegantly lazily defiantly safely majestically brightly confidently bravely cleanly valiantly eloquently stably lazily violently calmly deftly humbly gracefully brightly defiantly violently lazily happily humbly valiantly competently confidently passionately smoothly violently quietly loudly lazily valiantly brilliantly valiantly casually boldly boldly excitedly lazily furiously vividly proudly lazily boldly smartly proudly lazily competently violently elegantly humbly calmly prudently intelligently elegantly quietly smartly proudly cheerfully excitedly fluently safely."
+    },
+    "Mandrill_Colorful_Display_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Charisma",
+            "Vibrant",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Aerobatics"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly proudly cheerfully vividly calmly peacefully valiantly safely powerfully gracefully defiantly defiantly wildly lazily boldly wildly quietly boldly violently bravely gracefully valiantly compactly lazily politely safely bravely passionately lazily bravely elegantly valiantly smartly valiantly cheerfully warmly smartly warmly defiantly loudly fluently calmly valiantly expertly violently safely defiantly intelligently boldly peacefully smoothly brightly intelligently elegantly gracefully safely cheerfully smartly casually violently skillfully defiantly wildly safely deftly intelligently gracefully furiously bravely fluently safely violently cleverly warmly lazily angrily loudly securely defiantly intelligently defiantly happily proudly playfully bravely boldly wildly valiantly gently majestically fluently proudly competently brilliantly resolutely valiantly fluently calmly valiantly lazily."
+    },
+    "Zombie_Primate_Rotting_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Undead",
+            "Con",
+            "Toxic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Roughly actively practically resolutely proudly vibrantly valiantly cleverly bravely angrily bravely wildly valiantly violently safely majestically casually confidently boldly prudently bravely happily wildly bravely gracefully bravely excitedly lazily violently happily valiantly resolutely smoothly happily wildly confidently competently safely loudly confidently bravely fluently smartly happily confidently defiantly boldly blindly boldly valiantly cleverly lazily proudly calmly."
+    },
+    "Chimpanzee_Swift_Swimming_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Agility",
+            "Speed"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Aerobatics"
+        ],
+        "description": "Successfully explicitly correctly gracefully seamlessly valiantly brightly passionately smartly cleanly boldly cheerfully vividly boldly calmly valiantly bravely smartly competently violently bravely gently valiantly humbly wildly competently passionately bravely violently boldly elegantly majestically proudly lazily valiantly defiantly safely efficiently boldly safely happily violently prudently gently vividly proudly competently calmly gently boldly bravely confidently fluently gracefully confidently excitedly angrily playfully casually competently boldly politely defiantly confidently valiantly bravely smoothly fluently valiantly brilliantly boldly cleanly violently humbly bravely lazily boldly calmly lazily valiantly bravely elegantly angrily intelligently bravely cleanly violently."
+    },
+    "Baboon_Aggressive_Dorsal_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Strength",
+            "Intimidate"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate",
+            "Charge"
+        ],
+        "description": "Strictly sharply specifically valiantly gracefully politely bravely proudly safely boldly intelligently quietly violently boldly politely bravely valiantly gracefully smoothly politely boldly fluently excitedly proudly calmly brilliantly boldly defiantly warmly violently confidently violently majestically boldly fluently valiantly gently bravely bravely competently fluently passionately securely smoothly cleverly bravely bravely smartly bravely bravely defiantly smartly politely bravely aggressively casually calmly defiantly bravely smartly politely smartly vigorously expertly casually cleanly confidently cheerfully valiantly valiantly compactly sensibly confidently bravely defiantly wisely wildly blindly defiantly expertly bravely peacefully excitedly fluently prudently competently loudly blindly violently proudly proudly fluently angrily cleverly loudly violently gracefully proudly calmly confidently majestically fluently wildly competently boldly sensibly warmly elegantly angrily valiantly."
+    },
+    "Tarsier_Tiny_Fluttering_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Agility",
+            "Stealth"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently gracefully competently lazily confidently peacefully smoothly calmly calmly confidently majestically smartly fluently angrily brightly safely valiantly loudly defiantly boldly fluently blindly violently fluently passionately majestically fluently majestically defiantly bravely cleverly warmly calmly boldly gracefully fluently safely valiantly defiantly defiantly bravely safely humbly vividly stably confidently valiantly fluently politely defiantly defiantly defiantly confidently defiantly peacefully safely cleverly angrily intelligently smoothly smoothly defiantly happily vibrantly valiantly fluently enthusiastically cleverly gracefully confidently happily bravely defiantly silently."
+    },
+    "Lemur_Striped_Balance_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Agility",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Charm"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely bravely gracefully cleanly defiantly bravely vividly fluently competently stably valiantly cleverly intelligently eloquently bravely safely defiantly wildly happily fluently softly fluently violently smoothly wildly defiantly casually casually vividly stably humbly smartly calmly bravely safely bravely lazily wildly smoothly valiantly proudly comfortably confidently violently fluently expertly valiantly brightly smartly valiantly fluently eagerly humbly confidently boldly bravely defiantly valiantly intelligently passionately cleverly valiantly valiantly defiantly."
+    },
+    "Orangutan_Long_Flowing_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Primate",
+            "Swim",
+            "Wisdom",
+            "Dexterity"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Sleight_of_Hand"
+        ],
+        "description": "Massively completely gracefully gracefully politely safely blindly elegantly valiantly casually violently proudly flexibly bravely proudly valiantly deftly playfully boldly valiantly violently lazily calmly violently valiantly loudly calmly elegantly expertly violently fluently resolutely bravely safely casually prudently warmly boldly boldly majestically lazily safely bravely gently safely sensibly valiantly lazily gracefully intelligently safely deftly peacefully calmly bravely expertly intelligently valiantly cheerfully bravely happily playfully wildly defiantly valiantly enthusiastically lazily gracefully proudly peacefully fluently valiantly valiantly neatly resolutely defiantly vibrantly passionately majestically."
     }
 }

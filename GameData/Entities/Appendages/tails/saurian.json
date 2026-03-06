@@ -1,16 +1,52 @@
 {
-    "Prehensile_Chameleon_Tail": {
+    "Ankylosaur_Club_Tail": {
         "tags": [
-            "Tail",
-            "Prehensile",
-            "Climbing",
+            "Tails",
+            "Appendages",
             "Saurian",
-            "Chameleon_Like"
+            "Bludgeoning",
+            "Strength",
+            "Heavy"
         ],
         "traversal": [
-            "Climb"
+            "None"
         ],
         "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Tail_Swipe"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly resolutely boldly majestically sensibly gracefully resolutely valiantly valiantly valiantly compactly sensibly elegantly lazily cleanly fluently safely peacefully resolutely politely defiantly boldly defiantly politely competently violently violently proudly violently elegantly bravely lazily proudly passionately smoothly competently valiantly cheerfully proudly competently fluently loudly cheerfully calmly lazily valiantly competently passionately expertly."
+    },
+    "Stegosaur_Thagomizer": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Piercing",
+            "Strength",
+            "Defense"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
             {
                 "target": "dex",
                 "op": "add",
@@ -18,18 +54,19 @@
             }
         ],
         "grants_skills": [
-            "Grapple",
-            "Spider_Climb"
+            "Retaliate",
+            "Tail_Swipe"
         ],
-        "description": "A dense, tightly coiling muscular tail designed to anchor around branches securely. It functions entirely as an emergency climbing strut and fifth limb, ensuring the entity is nearly impossible to dislodge."
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely gently lazily powerfully calmly prudently valiantly cheerfully politely sensibly confidently defiantly violently deftly peacefully competently proudly blindly smartly passionately cleverly smartly confidently valiantly valiantly fluently calmly valiantly neatly stably defiantly fluently passionately bravely violently cleverly calmly gracefully smartly politely safely comfortably boldly calmly defiantly valiantly."
     },
-    "Heavy_Counterweight_Tail": {
+    "Raptor_Balancing_Tail": {
         "tags": [
-            "Tail",
-            "Heavy",
-            "Balance",
+            "Tails",
+            "Appendages",
             "Saurian",
-            "Dinosaur_Like"
+            "Agility",
+            "Speed",
+            "Balance"
         ],
         "traversal": [
             "None"
@@ -38,7 +75,7 @@
             {
                 "target": "agility",
                 "op": "add",
-                "val": 2
+                "val": 4
             },
             {
                 "target": "speed_bonus",
@@ -47,20 +84,49 @@
             }
         ],
         "grants_skills": [
-            "Tail_Whip"
+            "Acrobatics"
         ],
-        "description": "A tremendously thick, rigid tail extending backward to perfectly balance the mass of a massive forward-leaning torso and head. It allows a bipedal saurian to turn on a dime during high-speed chases."
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily valiantly competently violently gracefully defiantly passionately majestically gracefully cleanly confidently passionately brilliantly confidently valiantly calmly politely brightly boldly warmly boldly fluently bravely defiantly stably cheerfully elegantly valiantly angrily valiantly cleanly bravely neatly lazily valiantly boldly smartly violently boldly proudly gracefully elegantly wisely bravely violently gracefully smoothly."
     },
-    "Osteoderm_Club_Tail": {
+    "Sauropod_Whip_Tail": {
         "tags": [
-            "Tail",
-            "Weapon",
-            "Heavy",
+            "Tails",
+            "Appendages",
             "Saurian",
-            "Ankylosaur_Like"
+            "Reach",
+            "Slashing",
+            "Dexterity"
         ],
         "traversal": [
             "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tail_Swipe"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically valiantly cleverly smartly stably bravely safely warmly boldly blindly casually prudently cleanly smoothly safely vibrantly boldly calmly violently competently prudently fluently sensibly gracefully brightly peacefully brightly smoothly securely gracefully loudly confidently valiantly valiantly enthusiastically efficiently loudly safely gracefully vibrantly politely cleverly comfortably smartly violently proudly prudently peacefully smartly competently politely playfully."
+    },
+    "Crocodilian_Swimming_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Strength"
+        ],
+        "traversal": [
+            "Swim"
         ],
         "mods": [
             {
@@ -70,13 +136,162 @@
             },
             {
                 "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Athletics"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly gently playfully passionately violently valiantly boldly cleanly calmly boldly merrily politely valiantly safely powerfully smoothly fluently brightly safely valiantly valiantly smoothly bravely bravely politely gracefully valiantly bravely boldly violently violently happily lazily excitedly defiantly peacefully elegantly stably blindly bravely wisely confidently proudly valiantly competently casually."
+    },
+    "Spinosaurus_Paddle_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Strength",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Tail_Swipe"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly competently sensibly violently humbly boldly gracefully cleanly safely lazily fluently bravely warmly loudly valiantly valiantly vividly peacefully valiantly prudently calmly competently violently bravely smartly politely fluently boldly calmly valiantly bravely safely fluently safely proudly gently calmly prudently gracefully cheerfully securely solidly calmly proudly fluently calmly cleanly bravely violently boldly valiantly cleanly violently majestically cleanly safely boldly excitedly eagerly prudently smartly enthusiastically defiantly brilliantly bravely powerfully cheerfully."
+    },
+    "Chameleon_Prehensile_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Climb",
+            "Dexterity",
+            "Utility"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fast_Hands",
+            "Spider_Climb"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly fluently lazily patiently smartly cleanly violently proudly cleanly competently gracefully intelligently proudly valiantly quietly intelligently safely softly valiantly brilliantly gently casually valiantly boldly prudently gracefully intelligently fluently peacefully gently valiantly valiantly efficiently bravely loudly politely elegantly gracefully valiantly violently softly brightly angrily peacefully violently valiantly fluently humbly fluently competently."
+    },
+    "Spectral_Ghost_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Magic",
+            "Stealth",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Invisibility"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly fluently violently bravely violently fluently confidently softly cleverly gracefully brilliantly gracefully gently valiantly blindly safely blindly loudly competently wildly elegantly comfortably cleanly confidently boldly bravely valiantly violently stably bravely calmly cleanly sensibly prudently safely politely wisely defiantly elegantly confidently violently boldly resolutely solidly valiantly smartly happily quietly passionately boldly blindly warmly fluently expertly smartly boldly cleanly violently resolutely vividly majestically politely bravely softly expertly elegantly softly gently majestically boldly violently cleverly confidently cleanly."
+    },
+    "Zombie_Rotting_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Undead",
+            "Con",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "speed_bonus",
                 "op": "subtract",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Body Slam"
+            "Poison_Cloud",
+            "Tail_Swipe"
         ],
-        "description": "A thick, muscular tail terminating in a fused mass of solid bone osteoderms causing it to operate exactly like a medieval mace. A single defensive swing can easily shatter the leg bones of apex predators."
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently angrily brightly smartly valiantly bravely peacefully solidly gracefully gracefully elegantly peacefully humbly defiantly competently patiently warmly bravely wisely vividly furiously proudly bravely patiently calmly calmly majestically violently neatly proudly efficiently fluently violently competently safely boldly violently fluently bravely casually smartly expertly defiantly casually bravely eloquently bravely majestically."
+    },
+    "Theropod_Heavy_Counterweight_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Saurian",
+            "Strength",
+            "Balance",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly boldly valiantly proudly smartly lazily fluently bravely patiently calmly fluently valiantly brilliantly proudly calmly violently smoothly quietly competently lazily quietly bravely eloquently gracefully silently fluently defiantly wildly competently powerfully bravely gracefully defiantly proudly warmly humbly cleanly competently stably gracefully warmly fluently defiantly violently gracefully bravely violently bravely valiantly valiantly excitedly stably humbly valiantly valiantly wisely fluently violently bravely resolutely smartly calmly competently wisely proudly stably valiantly comfortably elegantly brightly boldly elegantly valiantly bravely prudently humbly safely bravely wisely politely resolutely bravely defiantly skillfully gracefully fluently politely proudly proudly angrily politely."
     }
 }

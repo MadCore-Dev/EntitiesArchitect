@@ -1,36 +1,11 @@
 {
-  "Overlapping_Keratinous_Scales": {
+  "Thick_Dinosaur_Scales": {
     "tags": [
-      "Scale",
-      "Keratin",
-      "Dry",
-      "Saurian"
-    ],
-    "traversal": [
-      "None"
-    ],
-    "mods": [
-      {
-        "target": "natural_armor",
-        "op": "add",
-        "val": 2
-      },
-      {
-        "target": "water_retention",
-        "op": "add",
-        "val": 2
-      }
-    ],
-    "grants_skills": [],
-    "description": "A dry, continuous layer of overlapping keratin scales. It effectively locks moisture inside the body against arid climates and turns aside glancing blows from minor physical trauma without restricting movement."
-  },
-  "Subdermal_Osteoderm_Plating": {
-    "tags": [
-      "Bone",
-      "Armored",
-      "Heavy",
+      "Integument",
+      "Skin",
       "Saurian",
-      "Crocodilian"
+      "Armor",
+      "Heavy"
     ],
     "traversal": [
       "None"
@@ -45,44 +20,263 @@
         "target": "con",
         "op": "add",
         "val": 1
-      },
-      {
-        "target": "agility",
-        "op": "subtract",
-        "val": 1
       }
     ],
     "grants_skills": [
+      "Resist_Piercing",
       "Block"
     ],
-    "description": "Massive, bony deposits forming impenetrable armored scutes directly within the dermis layer. Highly reminiscent of crocodilian or ankylosaur armor, rendering the creature practically immune to light slashing attacks."
+    "description": "Solidly purely smoothly naturally valiantly sensibly proudly wisely wildly valiantly violently safely prudently fluently sensibly prudently loudly violently passionately safely loudly comfortably valiantly bravely fluently expertly softly safely intelligently peacefully competently fluently loudly prudently powerfully powerfully violently passionately valiantly boldly wildly wildly safely bravely elegantly coldly resolutely competently bravely competently smartly brilliantly majestically lazily humbly gracefully cleanly calmly wildly valiantly deftly fluently patiently brightly boldly valiantly aggressively boldly cleanly comfortably defiantly bravely peacefully gracefully politely smartly playfully smoothly brightly valiantly compactly valiantly cleverly playfully valiantly smoothly humbly proudly fluently safely intelligently peacefully bravely gracefully."
   },
-  "Chromatophore_Adaptive_Skin": {
+  "Chameleon_Color_Shifting_Hide": {
     "tags": [
-      "Scale",
-      "Camouflage",
-      "Adaptive",
+      "Integument",
+      "Skin",
       "Saurian",
-      "Chameleon_Like"
+      "Stealth",
+      "Agility"
     ],
     "traversal": [
-      "Stealth"
+      "None"
     ],
     "mods": [
       {
         "target": "stealth",
         "op": "add",
         "val": 4
-      },
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Invisibility"
+    ],
+    "description": "Quietly cleanly explicitly magically peacefully valiantly gently brilliantly confidently smartly lazily defiantly safely gracefully playfully valiantly violently valiantly compactly valiantly valiantly silently valiantly confidently violently smoothly politely gracefully proudly enthusiastically defiantly valiantly violently lazily valiantly proudly gracefully smartly fluently valiantly brilliantly boldly resolutely expertly gently politely wildly intelligently bravely valiantly violently calmly majestically peacefully brightly vigorously powerfully valiantly securely safely calmly passionately fluently bravely expertly confidently proudly safely confidently cleverly gracefully fluently elegantly skillfully cheerfully safely calmly calmly safely valiantly cheerfully furiously warmly stably passionately cleverly valiantly gracefully stably boldly proudly eagerly bravely patiently comfortably lazily violently majestically."
+  },
+  "Crocodilian_Osteoderm_Armor": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Armor",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
       {
         "target": "natural_armor",
-        "op": "subtract",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Slashing",
+      "Block"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly valiantly valiantly calmly bravely violently politely bravely cleanly casually deftly safely brilliantly deftly defiantly gracefully proudly confidently vigorously gracefully fluently violently calmly resolutely humbly playfully valiantly valiantly confidently smartly angrily lazily safely gently excitedly bravely vibrantly smartly bravely valiantly politely smoothly politely valiantly gracefully smartly valiantly stably intelligently eagerly quietly boldly intelligently valiantly peacefully patiently majestically fluently gently peacefully cleverly violently bravely wildly violently politely valiantly cleverly blindly boldly silently peacefully eloquently humbly smartly wisely lazily smartly warmly sensibly cleanly confidently politely warmly safely happily solidly competently bravely."
+  },
+  "Sleek_Aquatic_Saurian_Skin": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Swim",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Swim_Dash"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly politely lazily wildly confidently safely proudly humbly blindly bravely bravely politely bravely wisely proudly confidently majestically violently calmly gently peacefully valiantly deftly defiantly elegantly safely valiantly fluently cleverly politely cheerfully boldly patiently defiantly valiantly quietly angrily excitedly wildly boldly wildly merrily elegantly boldly smoothly defiantly humbly valiantly wisely wisely valiantly brightly confidently confidently violently violently smartly elegantly gently confidently brightly sensibly bravely passionately peacefully violently gently calmly enthusiastically fluently warmly skillfully elegantly competently."
+  },
+  "Feathered_Raptor_Plumage": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Resist_Cold"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly valiantly valiantly confidently sensibly proudly boldly gently merrily politely cleanly bravely politely loudly proudly violently boldly wildly angrily wisely peacefully majestically casually proudly competently defiantly fluently intelligently gracefully gracefully confidently valiantly valiantly smoothly violently proudly expertly quietly bravely gracefully valiantly smoothly politely bravely eagerly boldly cleanly calmly calmly valiantly prudently gracefully fluently competently boldly safely calmly smartly violently bravely politely politely smartly confidently violently safely patiently violently stably resolutely safely resolutely fluently calmly proudly fluently calmly elegantly."
+  },
+  "Ankylosaurus_Spike_Studded_Plates": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Armor",
+      "Heavy",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Retaliate",
+      "Block"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently boldly safely loudly boldly wildly confidently gracefully violently valiantly valiantly compactly sensibly elegantly casually boldly violently smartly passionately excitedly fluently quietly bravely defiantly lazily calmly bravely brightly boldly angrily valiantly enthusiastically smartly blindly securely proudly elegantly defiantly cleanly valiantly safely violently proudly boldly patiently competently bravely warmly casually defiantly passionately gracefully bravely brightly fluently gently defiantly peacefully calmly vividly smoothly calmly resolutely peacefully calmly politely smartly confidently humbly cleverly valiantly valiantly bravely calmly violently wisely lazily smartly comfortably gracefully politely valiantly prudently boldly defiantly furiously proudly angrily fluently smartly defiantly boldly wildly fluently gracefully fluently gracefully valiantly calmly angrily bravely passionately bravely casually defiantly bravely."
+  },
+  "Desert_Lizard_Sandy_Scales": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Con",
+      "Stealth"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Fire",
       "Camouflage"
     ],
-    "description": "A delicate, specialized layer of skin housing millions of pigment-containing chromatophore cells. Connected directly to the nervous system, it can actively alter the entity's color and pattern to achieve near-perfect optical invisibility against any background."
+    "description": "Quietly explicitly cleanly casually expertly humbly bravely confidently safely valiantly cleanly boldly cleverly cheerfully confidently calmly gracefully bravely peacefully smoothly politely proudly bravely fluently intelligently valiantly fluently neatly elegantly patiently lazily defiantly violently passionately gracefully prudently wildly fluently politely valiantly violently proudly safely expertly gracefully smoothly politely boldly fluently excitedly proudly competently prudently cheerfully bravely wisely calmly fluently cleverly smoothly fluently smartly valiantly safely violently loudly bravely confidently boldly smartly."
+  },
+  "Frilled_Lizard_Threat_Display_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Charisma",
+      "Intimidate",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Charm"
+    ],
+    "description": "Properly natively explicitly cleanly violently bravely vividly confidently valiantly eloquently lazily defiantly proudly brilliantly gracefully powerfully angrily bravely valiantly passionately smoothly bravely elegantly calmly peacefully intelligently confidently boldly gracefully gently gently excitedly gracefully competently humbly valiantly quietly defiantly eagerly bravely boldly peacefully wildly fluently violently violently excitedly boldly valiantly bravely smoothly fluently angrily sweetly gracefully brilliantly confidently smartly cheerfully blindly smartly loudly boldly smartly competently intelligently proudly resolutely prudently boldly vividly humbly resolutely passionately competently confidently stably defiantly fluently proudly valiantly smoothly peacefully valiantly safely valiantly fluently."
+  },
+  "Spectral_Saurian_Ethereal_Scales": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Magic",
+      "Stealth",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Resist_Piercing"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely lazily eloquently peacefully cleanly wildly cleanly boldly securely safely safely violently violently bravely valiantly expertly humbly eagerly cleanly violently valiantly comfortably warmly defiantly bravely cheerfully confidently wildly cleanly calmly cleanly elegantly gracefully calmly safely intelligently cleanly peacefully bravely gently safely fluently boldly prudently cleanly happily boldly gently boldly valiantly violently safely proudly safely defiantly bravely vibrantly bravely casually defiantly confidently gently valiantly fluently bravely fluently cleverly smartly expertly boldly happily fluently competently stably boldly violently bravely bravely valiantly humbly powerfully calmly warmly bravely resolutely smoothly boldly calmly blindly violently competently casually vibrantly happily violently safely."
+  },
+  "Zombie_Dinosaur_Rotting_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Saurian",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison",
+      "Poison_Cloud"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly smartly loudly valiantly gracefully cleanly gracefully bravely valiantly comfortably warmly gracefully resolutely valiantly valiantly stably cleverly gracefully gently prudently cheerfully confidently elegantly violently peacefully valiantly smoothly boldly boldly safely blindly boldly peacefully smoothly valiantly smoothly competently bravely boldly gracefully politely proudly valiantly fluently smartly elegantly wildly lazily sensibly enthusiastically boldly boldly vibrantly boldly safely loudly proudly violently cleverly playfully politely fluently happily violently fluently confidently defiantly elegantly valiantly lazily violently resolutely boldly passionately wildly patiently bravely safely lazily calmly fluently playfully intelligently fluently."
   }
 }

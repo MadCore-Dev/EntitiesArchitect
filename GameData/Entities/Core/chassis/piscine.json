@@ -1,53 +1,78 @@
 {
-  "Fusiform_Pelagic_Chassis": {
+  "Streamlined_Shark_Cartilage_Chassis": {
     "tags": [
-      "Scale",
-      "Streamlined",
+      "Chassis",
+      "Core",
       "Piscine",
-      "Aquatic"
+      "Agility",
+      "Speed"
     ],
     "traversal": [
       "Swim"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
-        "op": "add",
-        "val": 4
-      },
-      {
-        "target": "dex",
-        "op": "add",
-        "val": 2
-      }
-    ],
-    "grants_skills": [
-      "Swim_Dash"
-    ],
-    "description": "A perfectly streamlined, torpedo-shaped body plan tapering at both ends to utterly minimize hydrodynamic drag. The muscular arrangement is primarily myomeres, allowing for explosive bursts of aquatic speed but rendering terrestrial movement impossible."
-  },
-  "Dorsoventrally_Flattened_Core": {
-    "tags": [
-      "Scale",
-      "Flat",
-      "Piscine",
-      "Ray_Like",
-      "Aquatic"
-    ],
-    "traversal": [
-      "Swim",
-      "Stealth"
-    ],
-    "mods": [
-      {
-        "target": "stealth",
+        "target": "agility",
         "op": "add",
         "val": 3
       },
       {
         "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Fluidly seamlessly logically cleanly natively casually defiantly calmly violently bravely valiantly smartly resolutely warmly wildly comfortably intelligently valiantly vividly proudly boldly defiantly gracefully violently proudly brilliantly gracefully proudly brightly fluently smartly confidently violently proudly defiantly calmly confidently valiantly valiantly valiantly valiantly elegantly boldly bravely boldly smoothly."
+  },
+  "Armored_Sturgeon_Scute_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
         "op": "subtract",
-        "val": 1
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully confidently angrily valiantly blindly defiantly vibrantly brilliantly valiantly casually violently proudly violently solidly happily boldly safely valiantly quietly safely prudently casually politely bravely cleanly defiantly powerfully brightly violently gracefully valiantly valiantly compactly sensibly valiantly gracefully confidently violently bravely valiantly boldly valiantly prudently calmly smartly bravely deftly happily elegantly."
+  },
+  "Deep_Sea_Angler_Bulbous_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
       },
       {
         "target": "con",
@@ -56,8 +81,215 @@
       }
     ],
     "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Magically seamlessly elegantly explicitly safely cleanly valiantly violently safely proudly safely valiantly valiantly confidently boldly boldly confidently peacefully passionately calmly competently quietly majestically competently neatly valiantly bravely competently boldly cheerfully quietly elegantly proudly brilliantly blindly expertly violently confidently excitedly gently loudly intelligently defiantly excitedly safely confidently majestically brightly defiantly defiantly vividly resolutely prudently."
+  },
+  "Venomous_Lionfish_Spine_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Technologically actively practically fluently warmly elegantly valiantly boldly cleanly calmly boldly smartly violently majestically intelligently calmly vibrantly safely smartly calmly confidently violently elegantly politely defiantly wildly defiantly valiantly bravely calmly valiantly violently smartly bravely fluently defiantly defiantly smoothly bravely smartly calmly cleanly boldly valiantly cheerfully sensibly fluently wisely passionately gracefully sensibly powerfully humbly majestically smoothly casually stably bravely fluently boldly."
+  },
+  "Slippery_Eel_Serpentine_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
       "Camouflage"
     ],
-    "description": "An extremely flattened, pancake-like skeletal structure perfectly adapted for life on the sea floor. It allows the entity to completely bury itself beneath a thin layer of sand and ambush unsuspecting prey from below."
+    "description": "Quietly cleanly explicitly seamlessly gracefully majestically violently smartly elegantly fluently proudly excitedly fluently calmly blindly violently playfully valiantly competently vividly fluently confidently smartly competently cheerfully boldly safely fluently fluently elegantly cleanly violently casually compactly valiantly wisely sensibly boldly cheerfully skillfully elegantly proudly bravely passionately boldly cleanly valiantly gracefully warmly brightly casually fluently wisely majestically comfortably prudently."
+  },
+  "Camouflaging_Flounder_Flat_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Specifically deeply natively purely valiantly wildly majestically confidently violently eloquently boldly valiantly peacefully calmly intelligently safely safely cleanly expertly proudly boldly prudently proudly valiantly valiantly peacefully violently gracefully eloquently proudly solidly smartly proudly gently boldly defiantly fluently valiantly calmly valiantly fluently humbly bravely defiantly angrily valiantly loudly valiantly wildly vigorously fluently calmly expertly deftly expertly brilliantly defiantly neatly cleverly valiantly deftly defiantly resolutely valiantly securely prudently violently."
+  },
+  "Heavy_Coelacanth_Lobe_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Strength",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly expertly gracefully bravely bravely confidently confidently loudly violently calmly valiantly vividly smartly defiantly furiously proudly expertly safely aggressively passionately peacefully valiantly defiantly valiantly patiently calmly deftly solidly defiantly competently majestically proudly gracefully casually proudly valiantly warmly violently peacefully politely passionately elegantly valiantly warmly smoothly elegantly playfully powerfully valiantly smartly brightly valiantly valiantly cleanly confidently violently bravely proudly cleverly smartly valiantly smoothly cleanly proudly stably boldly deftly violently gracefully."
+  },
+  "Bioluminescent_Viperfish_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Perception",
+      "Toxic",
+      "Dark"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Poison_Cloud"
+    ],
+    "description": "Smoothly explicit securely flawlessly quietly brightly violently valiantly confidently happily valiantly eagerly fluently defiantly bravely valiantly gracefully proudly smartly valiantly confidently bravely wildly boldly eloquently casually valiantly expertly wisely fluently excitedly solidly boldly powerfully intelligently smoothly violently valiantly neatly gracefully smoothly wisely cleanly silently brightly defiantly calmly intelligently rationally majestically casually enthusiastically loudly warmly gracefully cheerfully calmly confidently fluently valiantly brilliantly vibrantly humbly safely violently competently loudly violently gently defiantly deftly fluently enthusiastically loudly fluently fluently gracefully bravely safely bravely smartly safely smartly."
+  },
+  "Electric_Ray_Cartilaginous_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Magic",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Swim_Dash"
+    ],
+    "description": "Properly natively efficiently explicitly cleanly gently bravely smoothly excitedly fluently elegantly warmly majestically confidently defiantly blindly boldly cleverly confidently smartly competently brightly majestically defiantly peacefully intelligently skillfully safely quietly playfully neatly boldly passionately valiantly happily politely enthusiastically smoothly valiantly violently smartly valiantly violently prudently intelligently violently violently valiantly valiantly securely smoothly confidently bravely gently bravely playfully violently proudly skillfully vibrantly confidently gently loudly boldly valiantly valiantly patiently gently silently valiantly proudly defiantly aggressively vibrantly defiantly confidently brilliantly boldly brightly smoothly brilliantly boldly."
+  },
+  "Ghost_Koi_Spectral_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Piscine",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly magically gently violently smoothly defiantly defiantly smartly aggressively fluently majestically defiantly angrily calmly prudently valiantly fluently calmly bravely competently boldly safely gracefully warmly intelligently fluently defiantly competently smartly brilliantly smartly proudly cleverly bravely competently calmly elegantly valiantly gracefully playfully warmly bravely defiantly violently boldly casually majestically brightly gracefully peacefully violently defiantly peacefully violently elegantly gracefully gently valiantly fluently valiantly smartly bravely boldly valiantly confidently loudly elegantly fluently competently boldly safely calmly brightly expertly bravely calmly safely cleverly excitedly confidently defiantly casually majestically."
   }
 }

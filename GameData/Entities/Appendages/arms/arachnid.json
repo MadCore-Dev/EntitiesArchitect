@@ -1,12 +1,63 @@
 {
-    "Raptorial_Pedipalps": {
+    "Scopula_Pad_Climbing_Paws": {
         "tags": [
-            "Appendage",
-            "Claws",
-            "Grasping",
+            "Arms",
+            "Climb",
+            "Arachnid",
+            "Tarantula"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb"
+        ],
+        "description": "The tips of the front legs are heavily expanded into dense, highly iridescent tufts of millions of microscopic, split hairs. Relying on sheer van der Waals forces, a massive, incredibly heavy tarantula can effortlessly stroll completely upside down on perfectly smooth, wet glass without slipping."
+    },
+    "Massive_Scorpion_Chelae": {
+        "tags": [
+            "Arms",
+            "Pincers",
+            "Arachnid",
+            "Heavy"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Block"
+        ],
+        "description": "The pedipalps have explosively evolved into gargantuan, heavily armored, immensely powerful pincers (chelae). They are purely blunt-force biological vices capable of completely paralyzing prey through sheer, horrific crushing damage without ever needing to use venom."
+    },
+    "Raptorial_Mantis_Like_Claws": {
+        "tags": [
+            "Arms",
+            "Spikes",
             "Arachnid"
         ],
         "traversal": [
+            "Walk",
             "Climb"
         ],
         "mods": [
@@ -16,26 +67,63 @@
                 "val": 2
             },
             {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
                 "target": "reach",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Grapple",
-            "Snatch"
+            "Bleed_Procc"
         ],
-        "description": "Elongated, clawed pedipalps that function precisely like arms. They end in sharp, folding raptorial claws designed to snatch prey out of the air and hold them securely against the chelicerae."
+        "description": "Extremely elongated front legs tightly folded back upon themselves like a pocket knife. The inner edges are horrifically lined with staggeringly sharp, interlocking keratinous spines, slamming completely shut to impale fleeing, airborne insects."
     },
-    "Bulbous_Boxing_Palps": {
+    "Elongated_Whip_Antennules": {
         "tags": [
-            "Appendage",
-            "Blunt",
-            "Heavy",
-            "Arachnid"
+            "Arms",
+            "Sensory",
+            "Arachnid",
+            "Whip_Spider"
         ],
         "traversal": [
             "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "The very first pair of walking legs has utterly sacrificed all locomotion, stretching out into impossibly thin, multi-jointed whips several times the length of the body. They ceaselessly sweep the darkness like organic, hyper-sensitive radar antennae."
+    },
+    "Burrowing_Rake_Pedipalps": {
+        "tags": [
+            "Arms",
+            "Digging",
+            "Arachnid",
+            "Scorpion"
+        ],
+        "traversal": [
+            "Burrow",
+            "Walk"
         ],
         "mods": [
             {
@@ -44,14 +132,139 @@
                 "val": 2
             },
             {
-                "target": "crit_multiplier",
-                "op": "add",
-                "val": 0.5
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Body Slam"
+            "Burrow"
         ],
-        "description": "Thick, swollen pedipalps that resemble biological boxing gloves. Used primarily by males for combat and signaling, they can deliver devastating blunt-force trauma."
+        "description": "Massively stunted, highly rigid pedipalps completely fused into a pair of living bulldozers. Equipped with thick, jagged scraping ridges, they forcefully shove mountains of compacted sand backward beneath the entity's belly at terrifying speeds."
+    },
+    "Spined_Basket_Weaving_Legs": {
+        "tags": [
+            "Arms",
+            "Spines",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Front legs intensely covered in exceptionally long, inward-curving, highly rigid spines. When the spider violently lunges, it forms a perfectly inescapable biological cage (a basket) entirely out of its own fiercely interlocking leg spines."
+    },
+    "Web_Tensioning_Claws": {
+        "tags": [
+            "Arms",
+            "Webbing",
+            "Arachnid",
+            "Orb_Weaver"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "The tarsi terminate in exactly three highly specialized, violently curved hooks (claws). The central, deeply serrated hook is perfectly engineered to flawlessly catch, violently pull, and instantly snap incredibly thin, high-tensile silk threads while weaving complex orbital webs."
+    },
+    "Stridulating_Acoustic_Pedipalps": {
+        "tags": [
+            "Arms",
+            "Acoustic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "The pedipalps feature highly distinct, heavily ridged 'washboard' files that seamlessly interface with microscopic, hardened pegs on the chelicerae. When brutally rubbed together, they produce an exceptionally loud, terrifying hiss that easily mimics a venomous rattlesnake."
+    },
+    "Oar_Like_Swimming_Legs": {
+        "tags": [
+            "Arms",
+            "Swimming",
+            "Arachnid",
+            "Water_Spider"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Extremely robust front and middle legs utterly covered in a staggeringly dense, flat fringe of hydrophobic swimming hairs. During the recovery stroke, the hairs instantly fold flat to completely eliminate drag, opening wide during the power stroke to provide phenomenal burst propulsion."
+    },
+    "Prey_Wrapping_Spinner_Legs": {
+        "tags": [
+            "Arms",
+            "Webbing",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Restrain"
+        ],
+        "description": "Remarkably long, incredibly flexible legs utilizing highly specialized, microscopic bristles specifically designed exclusively to flawlessly handle, pull, and spin vast ribbons of sticky silk rapidly and securely around a violently thrashing, heavily armored victim."
     }
 }

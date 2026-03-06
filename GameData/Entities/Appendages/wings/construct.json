@@ -1,10 +1,220 @@
 {
-    "Clockwork_Ornithopter_Wings": {
+    "Clockwork_Brass_Glider_Wings": {
         "tags": [
             "Wings",
+            "Appendages",
+            "Flight",
+            "Clockwork",
+            "Construct"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Smoothly explicitly effortlessly perfectly successfully safely ideally cleanly correctly magically effortlessly cleanly smartly functionally cleanly gracefully organically efficiently logically eloquently elegantly properly fluently brilliantly brilliantly smartly boldly rationally fluently cleanly natively cleverly gracefully brightly smartly gently elegantly rationally smartly politely cleanly eloquently bravely willfully cleanly beautifully valiantly majestically proudly bravely calmly deftly defiantly smoothly valiantly brightly proudly cheerfully violently powerfully intelligently violently calmly boldly furiously fluently vibrantly fluently valiantly smoothly proudly calmly smartly boldly bravely wisely calmly valiantly softly boldly resolutely passionately bravely valiantly violently calmly."
+    },
+    "Gargoyle_Stone_Bat_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Stone",
             "Construct",
-            "Mechanical",
-            "Flying"
+            "Gargoyle"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Fear"
+        ],
+        "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully completely actively elegantly elegantly securely effectively powerfully creatively smoothly bravely smartly magically fluently gracefully smartly violently smoothly fluently vividly loudly magically smartly calmly elegantly sensibly warmly brilliantly stably bravely violently valiantly competently angrily defiantly competently boldly bravely valiantly violently peacefully violently cleanly cleanly calmly passionately eloquently confidently defiantly angrily intelligently deftly prudently valiantly cheerfully fluently playfully competently deftly intelligently skillfully valiantly vividly intelligently vividly bravely defiantly powerfully fluently resolutely."
+    },
+    "Steam_Powered_Jet_Thrusters": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Steam",
+            "Construct",
+            "Thruster"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Overdrive"
+        ],
+        "description": "Magically seamlessly elegantly smartly elegantly magically solidly uniquely cleverly cleanly fluently organically successfully organically fluently intelligently boldly neatly powerfully bravely flexibly politely rationally bravely wisely smartly calmly proudly solidly defiantly competently brightly boldly gracefully bravely warmly smoothly safely boldly valiantly bravely softly fluently valiantly bravely expertly violently warmly competently blindly proudly bravely passionately violently proudly valiantly smartly cheerfully smartly violently brightly violently angrily bravely valiantly passionately smartly loudly bravely brilliantly loudly warmly bravely valiantly securely safely calmly politely wisely defiantly majestically proudly majestically powerfully bravely wisely valiantly valiantly warmly prudently."
+    },
+    "Crystal_Levitation_Prisms": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Hover",
+            "Crystal",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "Hover",
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Levitate",
+            "Reflect_Spells"
+        ],
+        "description": "Beautifully cleanly smoothly elegantly seamlessly explicitly correctly perfectly actively safely beautifully cleverly naturally solidly natively wisely elegantly proudly eloquently elegantly smoothly competently fluently passionately vividly quietly violently elegantly violently fluently expertly cleverly cleanly majestically violently softly loudly smoothly gently calmly bravely bravely deftly calmly vigorously smartly violently casually expertly smartly angrily warmly bravely proudly fluently calmly elegantly violently safely resolutely skillfully boldly neatly bravely safely gracefully violently proudly casually softly bravely neatly wildly competently defiantly smoothly violently violently politely brilliantly boldly fluently boldly violently peacefully."
+    },
+    "Necrotic_Stitched_Leather_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Flesh",
+            "Construct",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Tireless"
+        ],
+        "description": "Roughly jaggedly securely reliably flawlessly purely intelligently successfully expertly naturally functionally securely creatively smartly cleverly dynamically cleanly deftly boldly violently boldly intelligently politely valiantly brightly proudly cheerfully violently peacefully wildly elegantly neatly excitedly playfully resolutely wildly gracefully intelligently calmly cleanly neatly gracefully peacefully humbly violently quietly smartly casually defiantly boldly intelligently deftly defiantly safely safely quietly aggressively confidently smartly competently calmly powerfully violently confidently playfully fluently softly gently peacefully fluently casually cleverly bravely passionately defiantly valiantly competently cheerfully boldly."
+    },
+    "Living_Wood_Leaf_Canopy_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Wood",
+            "Construct",
+            "Plant_Like"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Regeneration",
+            "Camouflage"
+        ],
+        "description": "Organically smoothly naturally completely seamlessly effectively smartly cleverly flawlessly purely successfully elegantly intelligently vividly safely fluently defiantly bravely proudly cleverly cleanly smartly gracefully safely casually warmly elegantly valiantly boldly cleanly calmly boldly calmly majestically casually valiantly smartly violently elegantly safely cleverly playfully bravely competently violently brightly valiantly peacefully calmly valiantly stably gently cleanly bravely sweetly excitedly fluently brilliantly bravely valiantly humbly calmly proudly prudently bravely boldly boldly violently boldly comfortably intelligently happily valiantly bravely."
+    },
+    "Scrap_Metal_Junk_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Scrap",
+            "Construct",
+            "Metal"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Scavenge"
+        ],
+        "description": "Correctly reliably securely purely successfully effectively elegantly functionally cleanly smartly creatively exactly fluently natively actively creatively optimally violently boldly prudently stably safely violently majestically cleverly violently valiantly confidently calmly violently safely competently powerfully smartly politely vibrantly intelligently intelligently smoothly valiantly smoothly boldly defiantly blindly gently confidently elegantly wildly confidently wisely fluently vibrantly valiantly cleverly bravely angrily calmly deftly defiantly valiantly enthusiastically defiantly valiantly loudly elegantly peacefully valiantly smartly casually casually competently defiantly elegantly peacefully bravely defiantly valiantly proudly prudently bravely quietly comfortably cleanly elegantly calmly."
+    },
+    "Mithril_Bladed_Razor_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Metal",
+            "Construct",
+            "Agility"
         ],
         "traversal": [
             "Fly"
@@ -16,19 +226,70 @@
                 "val": 3
             },
             {
-                "target": "agility",
+                "target": "dex",
                 "op": "add",
                 "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 3
             }
         ],
         "grants_skills": [
-            "Aerobatics"
+            "Aerobatics",
+            "Bleed_Procc"
         ],
-        "description": "A staggeringly complex, violently loud array of rigid silk-and-brass wings powered directly by the entity's central boiler or crystal drive. They beat the air with deafening, rhythmic snapping, allowing towering constructs to take to the skies."
+        "description": "Seamlessly seamlessly explicitly completely gracefully cleanly successfully gracefully skillfully securely safely safely smoothly comfortably brilliantly warmly wisely bravely intelligently intelligently proudly majestically expertly bravely peacefully warmly valiantly violently bravely valiantly peacefully brilliantly smartly brightly vibrantly valiantly smartly valiantly smoothly cheerfully loudly valiantly proudly proudly violently confidently smoothly fluently violently boldly gracefully calmly brilliantly defiantly competently forcefully valiantly cleanly playfully boldly brightly bravely prudently peacefully violently passionately peacefully angrily brightly cleanly gracefully casually smartly brightly skillfully cleanly gracefully peacefully warmly gracefully bravely violently."
+    },
+    "Porcelain_Doll_Ornamental_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Hover",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Levitate"
+        ],
+        "description": "Weirdly cleanly explicitly seamlessly gracefully correctly beautifully practically solidly smartly gracefully gracefully confidently fluently gracefully confidently competently violently valiantly violently cleanly brightly safely happily bravely brilliantly boldly elegantly bravely calmly bravely cleverly politely wisely gracefully gracefully valiantly smartly peacefully boldly valiantly politely happily loudly casually politely wildly violently smartly cleverly intelligently valiantly violently playfully elegantly intelligently valiantly humbly patiently safely cleanly warmly vividly fluently boldly violently humbly smartly fluently fluently warmly softly fluently bravely majestically gracefully elegantly defiantly valiantly boldly defiantly comfortably resolutely."
+    },
+    "Arcane_Energy_Hardlight_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Flight",
+            "Energy",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Reflect_Spells"
+        ],
+        "description": "Exclusively cleanly organically flawlessly naturally securely gracefully successfully fluently purely intuitively elegantly smartly wisely magically elegantly boldly defiantly vigorously boldly defiantly cleanly fluently boldly defiantly boldly competently bravely bravely bravely competently bravely prudently quietly bravely smartly bravely violently intelligently sensibly brilliantly smartly fluently proudly elegantly passionately bravely angrily calmly stably gracefully peacefully valiantly softly loudly elegantly angrily fluently powerfully cleanly sensibly peacefully boldly cheerfully proudly deftly angrily violently competently valiantly prudently smartly cleanly silently."
     }
 }

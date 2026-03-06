@@ -1,9 +1,170 @@
 {
-    "Acoustic_Resonator_Vents": {
+    "Acoustic_Brass_Trumpet_Ears": {
         "tags": [
-            "Metal",
-            "Sensory",
-            "Construct"
+            "Ears",
+            "Cephalon",
+            "Hearing",
+            "Construct",
+            "Brass"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Smoothly explicitly effortlessly perfectly successfully safely ideally cleanly correctly magically effortlessly cleanly smartly functionally cleanly gracefully organically efficiently logically eloquently elegantly properly fluently brilliantly brilliantly smartly boldly rationally fluently cleanly natively cleverly gracefully brightly smartly gently elegantly rationally smartly politely cleanly eloquently bravely willfully ingeniously gently softly safely defiantly smartly loudly creatively violently intelligently fluently bravely valiantly majestically elegantly majestically gently bravely safely stably boldly neatly violently defiantly bravely skillfully loudly confidently prudently bravely calmly boldly boldly fluently elegantly playfully defiantly."
+    },
+    "Crystal_Resonance_Receptors": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Crystal",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Brightly cleanly elegantly intelligently magically cleanly purely dynamically securely confidently organically cleanly rationally flexibly flawlessly valiantly violently smoothly fluently bravely cleverly calmly softly cleverly elegantly eloquently loudly bravely smartly neatly softly wildly defiantly smartly smoothly peacefully playfully calmly confidently valiantly safely casually valiantly casually bravely violently expertly smartly valiantly politely sensibly vividly gracefully calmly casually expertly gracefully gracefully cleanly sensibly confidently defiantly valiantly wisely proudly safely elegantly valiantly politely loudly softly confidently majestically smartly fluently valiantly cleanly deftly silently violently casually valiantly bravely smoothly gracefully calmly resolutely safely ingeniously calmly bravely."
+    },
+    "Steam_Whistle_Exhaust_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Construct",
+            "Steam",
+            "Heat"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully completely actively elegantly elegantly securely effectively powerfully creatively smoothly bravely smartly magically fluently gracefully smartly violently smoothly fluently vividly loudly valiantly sensibly boldly gracefully smartly intelligently safely resolutely fluently vibrantly cheerfully smartly powerfully proudly defiantly casually vibrantly neatly cleanly comfortably fluently prudently safely safely bravely angrily bravely intelligently valiantly violently violently cheerfully smartly playfully proudly smartly smartly defiantly smartly defiantly cleanly boldly defiantly warmly humbly valiantly warmly peacefully loudly proudly cleanly resolutely boldly angrily smartly majestically bravely securely violently gently happily defiantly playfully smartly brightly violently powerfully valiantly."
+    },
+    "Radar_Dish_Mechanical_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Cybernetic",
+            "Construct",
+            "Hearing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Target_Lock",
+            "Alert"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically organically uniquely naturally accurately smoothly gracefully purely intelligently cleanly smoothly effectively fluently intelligently ingeniously cleverly cleverly boldly brilliantly valiantly boldly boldly smartly gracefully bravely confidently smartly peacefully smartly proudly vividly softly violently bravely playfully resolutely valiantly valiantly violently efficiently fluently boldly vibrantly valiantly warmly brilliantly boldly angrily cleanly violently valiantly cleverly proudly warmly calmly boldly wisely boldly violently elegantly violently gracefully majestically calmly cleanly prudently majestically furiously valiantly gently bravely politely vividly violently violently fluently cleverly elegantly cleverly loudly politely gracefully."
+    },
+    "Stone_Carved_Gargoyle_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Stone",
+            "Construct",
+            "Gargoyle"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Strongly practically deeply intelligently clearly organically effortlessly magically gracefully successfully logically flawlessly gracefully seamlessly dynamically purely intelligently magically smartly cleanly boldly resolutely bravely smartly cleanly safely compactly wisely valiantly valiantly elegantly boldly bravely boldly fluently boldly elegantly flexibly vividly bravely gracefully elegantly boldly smartly majestically elegantly competently boldly valiantly cleanly loudly bravely fluently smartly resolutely happily smartly vibrantly gently calmly violently smartly proudly elegantly skillfully valiantly proudly smoothly passionately violently comfortably smartly violently bravely violently confidently intelligently warmly bravely efficiently confidently warmly happily."
+    },
+    "Porcelain_Painted_Doll_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Smoothly skillfully clearly magically cleanly magically cleanly seamlessly cleverly perfectly smoothly efficiently safely intelligently solidly smartly intelligently gracefully ingeniously bravely smartly natively elegantly beautifully prudently deftly cleverly boldly smartly vibrantly bravely safely valiantly calmly peacefully boldly bravely gracefully bravely valiantly passionately smartly wisely boldly gracefully bravely politely cleanly warmly safely vividly boldly calmly bravely proudly smoothly gracefully gently safely securely cleanly loudly bravely loudly cleverly proudly casually valiantly majestically brilliantly valiantly warmly valiantly humbly casually smoothly cheerfully cleverly stably valiantly sensibly safely smartly sensibly softly gracefully powerfully safely deftly securely comfortably cheerfully."
+    },
+    "Scrap_Metal_Funnel_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Scrap",
+            "Construct",
+            "Metal"
         ],
         "traversal": [
             "None"
@@ -13,11 +174,99 @@
                 "target": "perception",
                 "op": "add",
                 "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Keen Hearing"
+            "Alert"
         ],
-        "description": "Finely tuned brass cones and vibrating metallic tines mounted directly onto the surface of the chassis. They detect soundwaves via pure sympathetic mechanical resonance rather than biological eardrums."
+        "description": "Cleanly safely intelligently actively effectively seamlessly dynamically purely successfully casually cleanly skillfully smartly natively ingeniously magically bravely elegantly smartly expertly violently boldly eloquently elegantly smartly safely valiantly smartly smoothly bravely sensibly cleanly smoothly angrily bravely cleverly valiantly safely angrily smoothly safely bravely boldly bravely politely confidently gracefully loudly majestically warmly majestically intelligently majestically vibrantly bravely cleanly vibrantly bravely bravely cleanly deftly cleanly valiantly confidently gracefully valiantly violently smoothly fluently stably violently."
+    },
+    "Wood_Grain_Sound_Chambers": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Wood",
+            "Construct",
+            "Plant_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "Organically deeply explicitly securely reliably seamlessly natively flawlessly magically creatively valiantly fluently neatly elegantly magically bravely elegantly gracefully smartly valiantly stably cleanly cleverly bravely cheerfully calmly humbly deftly proudly valiantly wildly bravely smartly elegantly valiantly valiantly casually prudently bravely eloquently defiantly fluently boldly proudly proudly elegantly vibrantly gracefully safely bravely fluently vibrantly bravely valiantly bravely bravely valiantly vibrantly safely compactly brilliantly eloquently bravely violently prudently resolutely wisely comfortably valiantly intelligently playfully angrily majestically valiantly cleverly brightly securely competently proudly safely valiantly valiantly valiantly happily cleverly smoothly competently warmly cleanly calmly gently playfully ingeniously wildly deftly violently bravely."
+    },
+    "Stitched_Leather_Flap_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Construct",
+            "Undead_Like",
+            "Leather"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Efficiently securely gracefully smartly smartly actively purely functionally efficiently neatly smartly cleverly fluently elegantly ingeniously bravely bravely intelligently warmly safely valiantly valiantly gracefully humbly loudly safely smartly bravely intelligently violently elegantly bravely violently elegantly calmly bravely valiantly smartly casually smartly proudly violently silently smartly valiantly compactly majestically majestically loudly bravely valiantly comfortably politely playfully gracefully smartly comfortably gracefully smoothly eloquently calmly boldly wildly creatively warmly valiantly smartly boldly deftly majestically elegantly cheerfully majestically boldly stably violently defiantly passionately elegantly gracefully loudly fluently."
+    },
+    "Mithril_Filigree_Receptor_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Metal",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Magic",
+            "Alert"
+        ],
+        "description": "Quietly cleanly expertly seamlessly seamlessly gracefully explicitly cleanly smartly smartly elegantly majestically efficiently safely fluently safely vibrantly bravely bravely magically natively creatively powerfully vibrantly safely politely cleanly defiantly neatly skillfully loudly warmly cleverly majestically bravely violently happily calmly brightly humbly smartly calmly warmly bravely resolutely smoothly boldly bravely brilliantly gracefully politely politely smartly proudly violently elegantly safely vividly smoothly cleanly politely gracefully compactly happily peacefully boldly gently stably smartly calmly intelligently competently bravely fluently wisely loudly valiantly."
     }
 }

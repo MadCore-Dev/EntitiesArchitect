@@ -1,10 +1,11 @@
 {
-    "Erpeton_Rostral_Appendages": {
+    "Saurian_Mutated_Face_Tendrils": {
         "tags": [
             "Tentacles",
-            "Sensory",
+            "Appendages",
             "Saurian",
-            "Snake_Like"
+            "Perception",
+            "Utility"
         ],
         "traversal": [
             "None"
@@ -13,12 +14,287 @@
             {
                 "target": "perception",
                 "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fast_Hands"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully lazily valiantly competently fluently bravely warmly loudly excitedly bravely majestically intelligently gracefully boldly gently intelligently prudently proudly efficiently defiantly bravely confidently bravely defiantly valiantly calmly smartly politely defiantly warmly proudly boldly smoothly brightly gracefully valiantly brilliantly confidently prudently safely angrily valiantly boldly safely competently wisely bravely loudly valiantly wisely violently defiantly gracefully elegantly peacefully patiently politely smartly bravely boldly smartly vigorously bravely."
+    },
+    "Aquatic_Plesiosaur_Graspers": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Strength",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Swim_Dash"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely happily boldly cleverly peacefully lazily violently bravely gracefully smoothly valiantly cleanly happily boldly defiantly skillfully proudly valiantly warmly politely lazily proudly passionately smoothly calmly vividly violently boldly vigorously calmly intelligently valiantly proudly smoothly passionately smartly fluently loudly intelligently valiantly intelligently smartly efficiently proudly gently peacefully vividly safely calmly silently smartly bravely bravely resolutely valiantly solidly efficiently prudently."
+    },
+    "Swamp_Monster_Vines": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Con",
+            "Stealth",
+            "Climb"
+        ],
+        "traversal": [
+            "Climb",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
                 "val": 2
             }
         ],
         "grants_skills": [
+            "Camouflage",
+            "Grapple"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily defiantly cleanly elegantly furiously gracefully powerfully intelligently proudly valiantly calmly confidently humbly lazily smoothly valiantly valiantly valiantly compactly sensibly fluently violently passionately playfully politely skillfully politely safely softly defiantly brightly boldly politely cleverly happily valiantly calmly smartly lovingly fluently valiantly proudly comfortably elegantly lazily defiantly violently passionately gracefully prudently quietly loudly cheerfully resolutely prudently smoothly gently calmly valiantly gracefully wisely intelligently valiantly violently smoothly fluently safely sensibly prudently humbly proudly cleanly happily vigorously majestically smartly boldly smoothly eloquently powerfully calmly humbly confidently smoothly brilliantly calmly warmly cleanly gently valiantly."
+    },
+    "Spectral_Ectoplasmic_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Magic",
+            "Reach",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Touch_Attack",
+            "Detect_Magic"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically confidently prudently valiantly safely patiently excitedly prudently vividly smoothly fluently bravely bravely bravely calmly deftly resolutely humbly cleanly confidently safely proudly valiantly bravely calmly competently cleverly playfully playfully violently competently sensibly elegantly casually calmly defiantly proudly cleanly valiantly elegantly elegantly bravely valiantly smoothly expertly politely confidently happily playfully competently peacefully smoothly smoothly casually cleanly warmly safely passionately valiantly loudly competently valiantly cheerfully fluently lazily smartly smartly powerfully bravely boldly brightly lazily calmly elegantly wisely elegantly confidently securely smoothly fluently smartly valiantly valiantly majestically lazily safely."
+    },
+    "Undead_Saurian_Gut_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Undead",
+            "Con",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely wildly calmly calmly smartly gracefully violently violently valiantly vividly passionately warmly intelligently defiantly playfully confidently valiantly wildly competently lazily bravely valiantly boldly defiantly brightly happily prudently patiently cheerfully violently intelligently safely humbly proudly bravely elegantly quietly humbly gracefully prudently violently fluently blindly humbly politely boldly peacefully calmly bravely cheerfully vividly bravely happily intelligently elegantly safely wisely politely elegantly humbly blindly proudly violently quietly safely enthusiastically gracefully sweetly angrily boldly passionately vividly confidently solidly blindly bravely angrily bravely."
+    },
+    "Deep_Sea_Mosasaur_Barbels": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Perception",
+            "Swim",
+            "Utility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
             "Tremorsense"
         ],
-        "description": "A pair of fleshy, tentacle-like projections erupting directly from the front of the snout. Heavily innervated with mechanoreceptors, they are used by fully aquatic serpents to instantly detect the chaotic vibrations of fleeing fish in murky water."
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly cheerfully violently casually competently valiantly cleanly safely peacefully valiantly merrily calmly lazily competently bravely bravely bravely elegantly peacefully smartly politely smartly cheerfully fluently lazily safely brilliantly prudently bravely valiantly safely comfortably competently smartly valiantly resolutely smoothly prudently fluently violently happily smartly passionately furiously proudly happily sensibly defiantly safely bravely boldly bravely politely confidently valiantly valiantly smartly defiantly calmly smartly gracefully smoothly humbly majestically gracefully expertly quietly calmly cheerfully bravely deftly safely casually wildly valiantly safely cleverly bravely powerfully patiently safely politely valiantly fluently calmly blindly eloquently violently safely competently valiantly majestically politely passionately loudly humbly lazily happily peacefully gently passionately bravely lazily calmly passionately valiantly violently."
+    },
+    "Camouflaged_Chameleon_Tongue_Whips": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Reach",
+            "Agility",
+            "Dexterity"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fast_Hands",
+            "Target_Lock"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly boldly warmly proudly playfully safely calmly boldly politely violently excitedly violently fluently casually humbly peacefully intelligently cleanly bravely blindly proudly cleanly majestically confidently valiantly compactly excitedly confidently happily smoothly bravely fluently majestically vividly safely cleanly expertly safely boldly playfully quietly safely cleverly smoothly gracefully fluently blindly resolutely elegantly bravely casually expertly politely violently lazily stably bravely violently excitedly wildly valiantly bravely elegantly proudly gracefully confidently gracefully resolutely fluently elegantly valiantly intelligently valiantly brilliantly cleanly smartly silently prudently intelligently safely calmly happily calmly enthusiastically bravely peacefully gracefully humbly bravely eagerly politely loudly loudly brilliantly peacefully smoothly."
+    },
+    "Acid_Spitting_Tendrils": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Toxic",
+            "Reach",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Reach_Attack"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly fluently calmly confidently comfortably defiantly smoothly wildly competently defiantly fluently calmly peacefully peacefully merrily peacefully boldly bravely angrily loudly eloquently cleanly safely valiantly blindly smoothly stably bravely lazily blindly cleanly securely safely safely lazily proudly bravely lazily calmly angrily resolutely bravely calmly expertly valiantly valiantly securely smoothly confidently politely valiantly boldly valiantly competently fluently defiantly bravely angrily valiantly defiantly safely furiously calmly cleverly wisely calmly fluently calmly defiantly merrily defiantly elegantly efficiently happily competently powerfully fluently proudly quietly casually safely bravely casually valiantly bravely gently silently casually bravely majestically lazily comfortably boldly calmly lazily blindly."
+    },
+    "Parasitic_Saurian_Worms": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Con",
+            "Stealth",
+            "Undead"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Poison",
+            "Grapple"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly violently proudly cleverly resolutely confidently calmly valiantly politely loudly confidently elegantly valiantly calmly violently smartly passionately happily bravely elegantly casually valiantly majestically resolutely sweetly gracefully loudly cheerfully wildly passionately valiantly cleanly confidently stably valiantly stably defiantly calmly eloquently proudly defiantly resolutely lazily politely smartly boldly boldly calmly cleanly smartly confidently safely confidently calmly blindly fluently valiantly smoothly proudly calmly safely bravely gracefully cleanly smoothly smoothly peacefully smoothly smartly valiantly valiantly compactly excitedly lazily calmly passionately expertly deftly boldly enthusiastically intelligently calmly cleanly boldly bravely peacefully playfully smoothly calmly defiantly peacefully defiantly bravely valiantly gently majestically blindly deftly warmly gently fluently."
+    },
+    "Bioluminescent_Abyssal_Lures": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Saurian",
+            "Charisma",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Alert"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly valiantly majestically lovingly safely safely defiantly brightly smoothly cheerfully bravely boldly sensibly valiantly intelligently cleanly boldly wildly angrily casually peacefully smoothly gently expertly quietly boldly casually playfully gracefully fluently politely brightly proudly majestically valiantly cleverly brightly prudently cheerfully cheerfully valiantly valiantly elegantly loudly cleanly cheerfully playfully boldly gently safely intelligently confidently valiantly smartly gently casually prudently fluently violently happily wisely loudly competently politely violently smoothly brilliantly casually calmly gracefully boldly lazily excitedly valiantly fluently boldly peacefully boldly bravely confidently defiantly confidently stably excitedly resolutely gracefully gracefully passionately happily valiantly proudly violently valiantly stably cleanly peacefully calmly."
     }
 }

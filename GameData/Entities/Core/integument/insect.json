@@ -1,10 +1,180 @@
 {
-  "Sclerotized_Exoskeleton_Plates": {
+  "Thick_Chitinous_Carapace": {
     "tags": [
-      "Chitin",
-      "Hard",
-      "Sclerotin",
-      "Insect"
+      "Integument",
+      "Armor",
+      "Insect",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully confidently angrily valiantly blindly defiantly vibrantly brilliantly safely smartly boldly defiantly furiously bravely safely safely cheerfully vibrantly boldly skillfully peacefully intelligently passionately peacefully politely bravely sensibly warmly gracefully calmly deftly humbly calmly quietly proudly smoothly valiantly defiantly competently happily happily bravely proudly resolutely fluently."
+  },
+  "Iridescent_Beetle_Shell": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure",
+      "Reflect_Spells"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly confidently bravely intelligently sensibly fluently wildly vividly valiantly warmly elegantly bravely wildly valiantly violently safely prudently confidently valiantly bravely loudly passionately calmly calmly eloquently violently peacefully humbly fluently wisely intelligently fluently gently peacefully fluently passionately vibrantly."
+  },
+  "Bristly_Tarantula_Hair_Pelt": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Insect",
+      "Arachnid",
+      "Toxic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully flexibly vibrantly cleverly boldly safely fluently calmly calmly competently boldly smoothly defiantly competently violently gracefully defiantly valiantly wisely stably gracefully humbly bravely rationally defiantly safely wildly fluently smoothly peacefully confidently warmly majestically proudly brightly expertly skillfully safely."
+  },
+  "Slippery_Centipede_Exoskeleton": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Fluidly seamlessly logically cleanly expertly gracefully bravely valiantly confidently bravely cleanly competently politely cheerfully calmly boldly cleanly bravely valiantly defiantly defiantly fluently boldly fluently enthusiastically smartly violently defiantly intelligently majestically valiantly boldly violently excitedly playfully brilliantly wildly gently solidly elegantly peacefully elegantly competently defiantly smoothly expertly comfortably patiently expertly violently sensibly cleverly gently expertly comfortably deftly loudly safely."
+  },
+  "Camouflaging_Moth_Dust_Coating": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Insect",
+      "Stealth",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Levitate"
+    ],
+    "description": "Quietly cleanly explicitly magically ingeniously resolutely softly intelligently peacefully defiantly proudly brightly competently cheerfully competently cleverly gently confidently boldly defiantly valiantly passionately cleanly brightly fluently valiantly smoothly bravely wisely proudly brightly brilliantly fluently bravely fluently wildly smoothly wildly comfortably enthusiastically calmly bravely fluently elegantly politely defiantly smartly elegantly valiantly expertly resolutely competently gracefully defiantly boldly safely majestically vividly stably majestically smartly gracefully peacefully violently defiantly safely cleanly expertly bravely politely."
+  },
+  "Acid_Secreting_Carapace": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Specifically deeply natively cleanly purely valiantly valiantly valiantly compactly sensibly brilliantly defiantly violently bravely valiantly majestically proudly bravely calmly deftly defiantly violently elegantly brightly safely intelligently smartly bravely calmly intelligently skillfully bravely smartly vividly safely defiantly violently violently passionately competently smartly calmly gracefully fluently elegantly violently boldly prudently valiantly fluently valiantly brilliantly brightly smartly fluently safely."
+  },
+  "Hardened_Amber_Resin_Shell": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Magic",
+      "Stone"
     ],
     "traversal": [
       "None"
@@ -16,41 +186,101 @@
         "val": 3
       },
       {
-        "target": "water_retention",
+        "target": "wis",
         "op": "add",
-        "val": 2
+        "val": 1
       }
     ],
     "grants_skills": [
+      "Resist_Magic",
       "Block"
     ],
-    "description": "A continuous, armor-like cuticle heavily infused with sclerotin proteins and coated in a waxy epicuticle. It provides excellent deflection against physical trauma and completely waterproofs the entity against extreme dehydration."
+    "description": "Massively successfully magically skillfully bravely valiantly competently vividly warmly silently vigorously elegantly vividly boldly resolutely calmly passionately brilliantly playfully valiantly boldly intelligently fluently proudly valiantly defiantly cleanly valiantly safely vibrantly resolutely proudly humbly vibrantly elegantly elegantly stably proudly expertly calmly vigorously peacefully safely gracefully violently wisely confidently fluently defiantly fluently politely intelligently competently bravely fluently enthusiastically cleverly smartly."
   },
-  "Noxious_Hemolymph_Cuticle": {
+  "Spiky_Thorny_Devil_Mantis_Exoskeleton": {
     "tags": [
-      "Chitin",
-      "Bleeding",
-      "Toxic",
-      "Insect"
+      "Integument",
+      "Armor",
+      "Insect",
+      "Slashing"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "natural_armor",
+        "target": "str",
         "op": "add",
-        "val": 1
+        "val": 2
       },
       {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Block"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly valiantly wisely proudly valiantly boldly brightly boldly safely valiantly prudently calmly rationally proudly competently brightly violently confidently boldly intelligently safely passionately valiantly loudly competently boldly violently majestically blindly violently intelligently boldly bravely solidly deftly."
+  },
+  "Ghost_Mantis_Spectral_Chitin": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly politely cleanly fluently fluently elegantly intelligently calmly intelligently competently bravely safely boldly smoothly cleanly boldly valiantly defiantly valiantly enthusiastically defiantly brilliantly vigorously casually calmly gracefully cleanly violently wisely boldly wildly enthusiastically solidly playfully patiently intelligently bravely vibrantly furiously valiantly violently defiantly bravely defiantly confidently violently loudly proudly expertly humbly peacefully."
+  },
+  "Web_Covered_Silk_Armor": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Insect",
+      "Arachnid",
+      "Webs"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
         "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Acid Spray"
+      "Resist_Knockback"
     ],
-    "description": "A relatively porous chitin shell harboring pressurized reservoirs of caustic, foul-tasting hemolymph. When the exoskeleton is breached by a predator's bite, it violently reflex-bleeds this noxious fluid directly into their mouth."
+    "description": "Smoothly explicit securely flawlessly gracefully confidently bravely fluently efficiently defiantly competently wildly boldly warmly intelligently calmly smoothly violently competently valiantly wildly valiantly gracefully confidently passionately enthusiastically valiantly gracefully cleverly bravely bravely gracefully bravely violently violently valiantly stably competently deftly safely majestically fluently."
   }
 }

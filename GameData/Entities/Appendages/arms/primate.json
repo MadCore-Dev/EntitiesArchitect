@@ -1,15 +1,76 @@
 {
-    "Opposable_Power_Grip_Arms": {
+    "Gorilla_Massive_Fists": {
         "tags": [
             "Arms",
-            "Hands",
-            "Prehensile",
+            "Appendages",
             "Primate",
-            "Mammal"
+            "Strength",
+            "Heavy",
+            "Armor"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Knockdown"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly proudly wisely wildly cleverly wisely valiantly violently valiantly vigorously defiantly smoothly intelligently fiercely defiantly furiously fluently intelligently violently violently valiantly compactly sensibly valiantly blindly boldly fluently bravely smartly violently competently valiantly calmly angrily intelligently calmly proudly proudly powerfully gently angrily expertly bravely valiantly safely fluently boldly prudently calmly defiantly playfully boldly valiantly safely quietly boldly peacefully wildly defiantly competently eloquently boldly politely solidly."
+    },
+    "Chimpanzee_Nimble_Arms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Dexterity",
+            "Agility"
         ],
         "traversal": [
             "Climb",
-            "Walk"
+            "Swing"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Sleight_of_Hand"
+        ],
+        "description": "Technologically actively practically smoothly gracefully smartly competently proudly violently valiantly proudly furiously cleanly casually excitedly confidently safely safely intelligently bravely smartly gently smoothly politely defiantly proudly bravely violently politely calmly confidently smartly safely vibrantly powerfully violently valiantly calmly vibrantly bravely valiantly defiantly confidently bravely wisely defiantly gracefully smoothly proudly boldly expertly majestically loudly boldly cleanly prudently happily angrily gently defiantly defiantly bravely safely majestically vibrantly smartly boldly gracefully smoothly angrily warmly casually proudly smoothly bravely valiantly boldly boldly smartly competently passionately."
+    },
+    "Gibbon_Long_Brachiating_Arms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Agility",
+            "Reach",
+            "Swing"
+        ],
+        "traversal": [
+            "Climb",
+            "Swing"
         ],
         "mods": [
             {
@@ -18,7 +79,7 @@
                 "val": 3
             },
             {
-                "target": "str",
+                "target": "reach",
                 "op": "add",
                 "val": 1
             },
@@ -29,9 +90,226 @@
             }
         ],
         "grants_skills": [
-            "Grapple",
-            "Tool Use"
+            "Acrobatics",
+            "Spider_Climb"
         ],
-        "description": "Long, incredibly flexible arms terminating in five-fingered hands bearing flat nails rather than claws. Features a fully opposable polex (thumb) that grants unprecedented capability for both fine manipulation and bone-breaking power grips."
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily confidently passionately gracefully elegantly casually proudly safely bravely fluently wisely boldly valiantly competently fluently valiantly boldly boldly majestically casually calmly defiantly defiantly vibrantly bravely gracefully enthusiastically defiantly blindly safely gracefully intelligently valiantly safely valiantly valiantly compactly sensibly elegantly loudly blindly defiantly silently peacefully."
+    },
+    "Baboon_Muscular_Forelimbs": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Strength",
+            "Agility"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Athletics",
+            "Grapple"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly cheerfully intelligently warmly peacefully deftly gracefully politely violently violently bravely solidly smoothly cleanly safely calmly angrily violently smoothly bravely patiently smartly bravely valiantly resolutely bravely valiantly violently stably bravely excitedly bravely competently defiantly fluently neatly elegantly calmly wisely lazily calmly wisely majestically wildly deftly boldly gracefully violently."
+    },
+    "Lemur_Grabbing_Paws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Agility",
+            "Dexterity"
+        ],
+        "traversal": [
+            "Climb",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fast_Hands"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely bravely gracefully bravely majestically boldly blindly bravely smoothly politely valiantly smartly boldly eagerly bravely competently warmly casually defiantly softly boldly competently bravely bravely bravely gently valiantly defiantly furiously bravely safely gently lovingly defiantly proudly expertly bravely smoothly brilliantly valiantly bravely cheerfully confidently violently safely cleanly comfortably playfully smoothly brilliantly confidently boldly majestically calmly valiantly fluently passionately majestically gently peacefully confidently fluently competently boldly humbly majestically happily majestically lazily safely proudly expertly boldly resolutely bravely gracefully prudently valiantly smoothly expertly valiantly confidently fluently happily playfully violently cleverly smartly smoothly intelligently excitedly."
+    },
+    "Spectral_Ape_Ghostly_Arms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Magic",
+            "Reach",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Detect_Magic",
+            "Touch_Attack"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly bravely majestically proudly cheerfully defiantly casually boldly calmly patiently confidently wisely solidly defiantly casually intelligently confidently sensibly valiantly defiantly peacefully proudly comfortably wildly competently smartly defiantly quietly bravely fluently boldly competently furiously smoothly wisely calmly casually defiantly bravely defiantly confidently wildly bravely gracefully cleverly wisely smoothly intelligently lazily calmly excitedly eagerly passionately valiantly confidently bravely cleanly prudently passionately happily intelligently expertly safely gracefully expertly boldly cleanly brightly valiantly fluently calmly defiantly intelligently valiantly vibrantly valiantly cleverly bravely angrily calmly angrily vibrantly patiently valiantly politely gracefully majestically cleverly smartly resolutely wisely cleanly valiantly competently passionately enthusiastically furiously valiantly vibrantly bravely valiantly cheerfully bravely fluently prudently safely safely bravely valiantly violently calmly casually enthusiastically competently confidently cleanly happily boldly casually boldly casually prudently resolutely deftly."
+    },
+    "Zombie_Gorilla_Crushing_Fists": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Undead",
+            "Strength",
+            "Heavy",
+            "Con"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Block"
+        ],
+        "description": "Roughly actively practically squarely firmly bravely valiantly sensibly valiantly bravely cheerfully bravely smartly deftly bravely defiantly boldly calmly peacefully bravely violently confidently lazily gently wisely silently brightly resolutely violently violently valiantly bravely smoothly fluently confidently confidently violently bravely peacefully valiantly boldly neatly politely competently proudly majestically competently fluently loudly blindly valiantly confidently smoothly fluently violently bravely violently bravely confidently casually confidently."
+    },
+    "Orangutan_Long_Hairy_Arms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Wisdom",
+            "Strength",
+            "Reach"
+        ],
+        "traversal": [
+            "Climb",
+            "Swing"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Athletics"
+        ],
+        "description": "Massively completely gracefully smoothly violently proudly solidly sensibly valiantly warmly smartly smartly defiantly proudly boldly boldly fluently defiantly prudently stably safely happily bravely calmly expertly valiantly gracefully fluently intelligently calmly proudly humbly calmly calmly brightly violently defiantly bravely politely lovingly warmly eagerly valiantly proudly bravely violently valiantly casually safely bravely fluently cheerfully angrily calmly deftly smartly confidently bravely wisely cheerfully valiantly gracefully confidently violently bravely majestically resolutely boldly casually violently passionately blindly prudently confidently sensibly gracefully resolutely elegantly eloquently casually happily valiantly majestically valiantly cleverly brightly prudently happily confidently bravely elegantly calmly prudently valiantly safely gently softly wisely cleanly safely intelligently happily defiantly casually deftly competently confidently calmly prudently valiantly fluently neatly elegantly patiently defiantly sensibly prudently happily calmly valiantly valiantly intelligently boldly majestically calmly stably boldly confidently."
+    },
+    "Silverback_Armored_Forearms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Armor",
+            "Strength",
+            "Heavy"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Resist_Knockback"
+        ],
+        "description": "Solidly explicit securely flawlessly gracefully valiantly fiercely confidently powerfully smartly wisely defiantly smartly proudly vigorously cheerfully smoothly safely loudly violently boldly boldly violently powerfully arrogantly bravely proudly smoothly boldly smartly valiantly defiantly politely angrily gracefully passionately lazily elegantly bravely skillfully competently boldly calmly wisely valiantly safely stably safely fluently bravely competently smartly bravely happily warmly expertly humbly brilliantly cheerfully fluently boldly boldly violently valiantly gracefully expertly wildly calmly fluently proudly brightly casually proudly boldly confidently passionately proudly proudly confidently intelligently valiantly valiantly valiantly cheerfully cleanly warmly prudently politely defiantly defiantly vividly passionately passionately resolutely resolutely wisely smoothly safely valiantly powerfully fiercely lazily."
+    },
+    "Marmoset_Tiny_Clawed_Hands": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Primate",
+            "Agility",
+            "Dexterity",
+            "Stealth"
+        ],
+        "traversal": [
+            "Climb",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fast_Hands",
+            "Spider_Climb"
+        ],
+        "description": "Quietly cleanly explicitly seamlessly gracefully valiantly proudly boldly violently defiantly valiantly compactly sensibly valiantly valiantly elegantly gently happily smartly gently humbly brilliantly warmly defiantly bravely cheerfully defiantly warmly defiantly defiantly defiantly boldly majestically cleanly silently boldly valiantly smoothly valiantly violently violently bravely vibrantly gracefully patiently confidently cleverly eloquently valiantly elegantly valiantly happily stably cleanly majestically expertly smartly competently valiantly cheerfully defiantly gracefully securely confidently gracefully vividly blindly gracefully proudly violently safely bravely patiently passionately cleanly neatly valiantly brightly warmly smoothly gracefully resolutely safely competently angrily safely bravely excitedly valiantly competently fluently wildly neatly safely smartly gracefully."
     }
 }

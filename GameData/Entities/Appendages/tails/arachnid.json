@@ -1,41 +1,39 @@
 {
-  "Metasoma_Stinger": {
+  "Venomous_Telson_Stinger": {
     "tags": [
-      "Appendage",
-      "Tail",
-      "Exoskeleton",
+      "Tails",
       "Stinger",
       "Venom",
-      "Arachnid"
+      "Arachnid",
+      "Scorpion_Like"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "reach",
+        "target": "str",
         "op": "add",
-        "val": 2
+        "val": 1
       },
       {
-        "target": "dex",
+        "target": "reach",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Barbed Sting",
       "Inject_Toxin"
     ],
-    "description": "A heavily segmented metasoma terminating in a curved, razor-sharp telson. This tail acts as a hyper-dexterous fifth limb, delivering paralyzing venom with surgical precision over obstacles."
+    "description": "A highly segmented, heavily armored metasoma (tail) terminating in a swollen, venom-filled vesicle (telson) and an intensely sharp, curved stinger (aculeus). Capable of lightning-fast, highly accurate over-the-head strikes."
   },
-  "Whip_Spider_Flagellum": {
+  "Elongated_Sensory_Flagellum": {
     "tags": [
-      "Appendage",
-      "Tail",
+      "Tails",
       "Whip",
       "Sensory",
-      "Arachnid"
+      "Arachnid",
+      "Vinegaroon"
     ],
     "traversal": [
       "None"
@@ -45,14 +43,200 @@
         "target": "perception",
         "op": "add",
         "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "A remarkably long, absurdly thin, multi-jointed, hair-like tail extension. Lacking any muscle or venom, it acts purely as a spectacularly sensitive, rear-facing tactile antenna, constantly sweeping the ground behind the entity."
+  },
+  "Acetic_Acid_Spray_Nozzle": {
+    "tags": [
+      "Tails",
+      "Acid",
+      "Ranged",
+      "Arachnid",
+      "Vinegaroon"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acid Breath"
+    ],
+    "description": "The extremely stubby base of the tail houses massively dense secretory glands. When threatened from the rear, it violently forcibly ejects a highly concentrated, blinding spray of 85% acetic acid directly into the eyes of pursuing predators."
+  },
+  "Detachable_Decoy_Segments": {
+    "tags": [
+      "Tails",
+      "Autotomy",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Uncanny_Dodge"
+    ],
+    "description": "A tail constructed of several loosely attached, highly brittle segments. If violently attacked, the entity instantaneously sheds the entire tail, which continues to violently twitch and leak highly pungent alarm pheromones to perfectly distract the predator."
+  },
+  "Glandular_Silk_Extruder_Tail": {
+    "tags": [
+      "Tails",
+      "Webbing",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
       },
       {
-        "target": "initiative",
+        "target": "agility",
         "op": "add",
-        "val": 3
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb"
+    ],
+    "description": "An unusual morphology where the spinnerets, rather than sitting flush on the abdomen, are heavily extended outward onto a short, highly prehensile, finger-like tail. This allows for staggeringly precise, highly articulated silk-weaving at extreme angles."
+  },
+  "Flattened_Aquatic_Rudder": {
+    "tags": [
+      "Tails",
+      "Flat",
+      "Swimming",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "A completely dorsoventrally flattened, rigidly paddle-like tail extension entirely lacking stingers or sensory hairs. Used exclusively as a highly efficient hydrodynamic rudder by water-dwelling arachnids navigating fast-moving currents."
+  },
+  "Heavily_Bulbous_Fat_Storage": {
+    "tags": [
+      "Tails",
+      "Storage",
+      "Heavy",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "A ludicrously swollen, incredibly smooth, practically sphere-like tail serving absolutely zero combat purpose. It is a terrifyingly dense biological reservoir of pure liquid fats, allowing the entity to starve in pitch-black caves for literal decades."
+  },
+  "Barbed_Anchoring_Spike": {
+    "tags": [
+      "Tails",
+      "Spike",
+      "Anchoring",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
       }
     ],
     "grants_skills": [],
-    "description": "An incredibly long, hair-thin filament tail completely devoid of venom or stingers. It serves entirely as an ultra-sensitive radar antenna, whipping through the air to detect invisible threats."
+    "description": "A horribly rigid, unbending tail terminating in a single, deeply serrated black keratin spike. When wrestling massive prey, the entity violently drives this rear spike directly into the dirt or tree bark to act as a flawless, immovable biological piton."
+  },
+  "Stridulating_Rattle_Tail": {
+    "tags": [
+      "Tails",
+      "Acoustic",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The terminal segments of the tail are composed of hollow, intensely hardened balls of dry chitin. When frantically vibrated, they produce a terrifying, overwhelmingly loud, dry hissing rattle that perfectly mimics an enraged pit viper."
+  },
+  "Web_Vibration_Damping_Plumb": {
+    "tags": [
+      "Tails",
+      "Web",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "An exceptionally dense, teardrop-shaped tail that essentially dangles completely lifelessly beneath the entity. In extremely high winds, the spider uses it purely as a biological plumb bob, physically stabilizing the entire geometry of its massive orbital web."
   }
 }

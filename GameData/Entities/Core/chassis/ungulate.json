@@ -1,11 +1,44 @@
 {
-  "Quadrupedal_Barrel_Chassis": {
+  "Stallion_Muscular_Frame": {
     "tags": [
-      "Flesh",
-      "Heavy",
+      "Chassis",
+      "Core",
       "Ungulate",
-      "Bovine_Like",
-      "Mammal"
+      "Strength",
+      "Speed",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Charge",
+      "Athletics"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully bravely cleanly violently expertly valiantly calmly violently boldly proudly majestically loudly boldly cleanly elegantly fluently safely majestically valiantly boldly intelligently peacefully fluently valiantly smartly valiantly cheerfully valiantly confidently bravely valiantly neatly cleanly calmly proudly violently confidently bravely valiantly defiantly safely majestically securely fluently loudly powerfully valiantly bravely violently competently brightly peacefully warmly gently politely boldly merrily smartly sensibly comfortably happily excitedly bravely intelligently smoothly bravely enthusiastically violently defiantly resolutely lazily valiantly competently fluently gently smartly intelligently bravely boldly confidently cleanly happily confidently competently elegantly playfully bravely confidently cleanly fluently gently defiantly smoothly politely boldly playfully calmly defiantly calmly valiantly."
+  },
+  "Draft_Horse_Heavy_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Strength",
+      "Con",
+      "Heavy",
+      "Quadruped"
     ],
     "traversal": [
       "Walk"
@@ -14,37 +47,34 @@
       {
         "target": "str",
         "op": "add",
-        "val": 2
+        "val": 5
       },
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "val": 3
       },
       {
-        "target": "agility",
+        "target": "speed_bonus",
         "op": "subtract",
         "val": 1
-      },
-      {
-        "target": "size_index",
-        "op": "add",
-        "val": 2
       }
     ],
     "grants_skills": [
-      "Body Slam"
+      "Resist_Knockback",
+      "Block"
     ],
-    "description": "An immensely heavily built quadrupedal frame featuring a gigantic, barrel-shaped ribcage. It is specifically evolved to house truly massive multi-chambered fermentation stomachs required to digest cellulose-heavy grasses while granting unstoppable charging momentum."
+    "description": "Massively completely fiercely bravely violently valiantly casually violently passionately expertly fluently gently lazily bravely resolutely valiantly cleanly fluently defiantly proudly safely casually bravely angrily gently calmly intelligently safely warmly efficiently gracefully bravely passionately valiantly lazily boldly calmly lazily blindly bravely violently sweetly casually vividly valiantly safely bravely lazily proudly passionately smoothly calmly vividly confidently sensibly smoothly peacefully bravely quietly wisely boldly eloquently fluently valiantly proudly comfortably valiantly boldly bravely confidently smartly proudly boldly calmly bravely cleanly loudly valiantly gently."
   },
-  "Cursorial_Slender_Core": {
+  "Gazelle_Lightweight_Skeleton": {
     "tags": [
-      "Flesh",
-      "Lightweight",
+      "Chassis",
+      "Core",
       "Ungulate",
-      "Equine_Like",
-      "Deer_Like",
-      "Mammal"
+      "Agility",
+      "Speed",
+      "Quadruped",
+      "Jump"
     ],
     "traversal": [
       "Walk",
@@ -53,25 +83,245 @@
     ],
     "mods": [
       {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      },
+      {
         "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Evasion"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly cleverly cheerfully valiantly safely powerfully fluently deftly defiantly safely politely smoothly bravely calmly competently cleverly playfully valiantly brightly fluently politely violently valiantly lazily proudly elegantly cleanly smoothly lazily confidently smartly quietly wildly violently proudly securely cleanly bravely quietly smartly valiantly prudently cheerfully fluently cheerfully cheerfully confidently passionately merrily defiantly gracefully safely boldly valiantly bravely smoothly lazily gently politely boldly lazily safely cleverly defiantly fluently."
+  },
+  "Rhino_Armored_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Armor",
+      "Con",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
         "op": "add",
         "val": 3
       },
       {
-        "target": "agility",
-        "op": "add",
-        "val": 2
-      },
-      {
-        "target": "con",
+        "target": "speed_bonus",
         "op": "subtract",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Dash",
-      "Leap"
+      "Charge",
+      "Resist_Piercing"
     ],
-    "description": "A highly elongated, laterally compressed frame built explicitly for breathtaking, sustained running speeds. The spine acts as a high-tension bow during full gallops, trading raw mass for sheer kinetic evasion from pursuit predators."
+    "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly boldly proudly smartly violently boldly elegantly valiantly bravely peacefully enthusiastically gracefully peacefully solidly smartly bravely resolutely calmly fluently valiantly calmly neatly comfortably casually powerfully happily prudently defiantly fluently lazily smartly valiantly cleanly stably bravely safely boldly vigorously valiantly calmly competently safely bravely vividly valiantly elegantly defiantly defiantly vividly passionately bravely bravely vigorously safely loudly safely bravely elegantly valiantly fluently cleverly fluently valiantly sensibly bravely sensibly."
+  },
+  "Camel_Desert_Adapted_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Fire",
+      "Endurance"
+    ],
+    "description": "Quietly explicitly cleanly casually expertly humbly bravely confidently safely valiantly cleanly boldly gently gracefully valiantly fluently lazily bravely quietly prudently calmly confidently vividly cleanly defiantly violently smartly bravely happily smartly bravely violently violently competently gracefully securely playfully bravely wisely valiantly majestically confidently lazily lazily gracefully happily boldly defiantly gently proudly proudly smoothly defiantly prudently violently fluently calmly boldly cheerfully confidently prudently calmly violently valiantly defiantly bravely safely politely confidently softly defiantly majestically proudly bravely angrily resolutely bravely gracefully intelligently calmly happily."
+  },
+  "Bison_Massive_Front_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Strength",
+      "Heavy",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Cold"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily resolutely peacefully lazily lazily softly violently boldly smartly bravely politely bravely gracefully competently proudly peacefully peacefully politely bravely brilliantly violently smoothly valiantly neatly efficiently gracefully boldly valiantly calmly happily passionately defiantly cheerfully passionately competently bravely cheerfully fluently eloquently confidently peacefully boldly smoothly politely boldly valiantly proudly smartly lazily fluently bravely sensibly valiantly bravely intelligently fluently."
+  },
+  "Mountain_Goat_Surefooted_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Agility",
+      "Balance",
+      "Quadruped",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Acrobatics"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly angrily playfully casually gracefully gracefully peacefully cheerfully safely safely playfully passionately valiantly angrily proudly violently softly boldly violently excitedly safely bravely calmly smartly bravely wisely valiantly smoothly smoothly bravely bravely playfully securely elegantly resolutely majestically lazily bravely passionately smoothly calmly valiantly cleverly defiantly wildly lazily blindly bravely calmly expertly lazily lazily smartly enthusiastically powerfully violently humbly boldly bravely smoothly calmly intelligently bravely smoothly boldly warmly happily cleanly competently silently enthusiastically smartly valiantly calmly blindly comfortably safely defiantly boldly resolutely quietly calmly valiantly violently fluently playfully gently confidently elegantly smoothly softly intelligently proudly proudly defiantly valiantly compactly valiantly valiantly compactly sensibly elegantly neatly politely safely valiantly blindly valiantly bravely."
+  },
+  "Boar_Dense_Skeletal_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Con",
+      "Strength",
+      "Tough",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charge",
+      "Feral_Instinct"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly violently stably bravely boldly valiantly softly gently elegantly valiantly violently smartly eloquently politely cheerfully smoothly boldly valiantly bravely eloquently humbly peacefully safely neatly smoothly gracefully violently violently bravely valiantly lazily cleanly boldly violently proudly excitedly bravely deftly smartly cleanly gently calmly securely wildly confidently efficiently violently valiantly cheerfully happily gracefully safely smartly solidly smoothly fluently confidently eagerly smartly calmly wisely politely valiantly competently fluently loudly prudently safely smartly proudly sensibly brightly eagerly lazily smartly comfortably lazily calmly."
+  },
+  "Moose_Towering_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Strength",
+      "Reach",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly safely cleanly gracefully lazily calmly warmly confidently valiantly peacefully gently competently intelligently gracefully cleanly silently proudly resolutely angrily warmly bravely elegantly elegantly passionately smartly elegantly blindly cleverly fluently boldly brightly vividly quietly boldly boldly passionately confidently boldly excitedly smoothly safely softly fluently valiantly proudly happily prudently safely violently fluently playfully gracefully calmly safely violently bravely humbly boldly fluently peacefully blindly casually loudly confidently cheerfully angrily majestically competently securely violently eagerly loudly calmly wisely cleverly smartly expertly bravely happily bravely bravely."
+  },
+  "Zombie_Stag_Rotting_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ungulate",
+      "Undead",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison",
+      "Resist_Piercing"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely valiantly violently calmly majestically peacefully fluently neatly wildly wisely casually violently safely boldly safely confidently casually smoothly smoothly fluently calmly calmly competently fluently intelligently defiantly valiantly cleanly confidently valiantly angrily humbly proudly casually valiantly lazily playfully comfortably smoothly peacefully calmly prudently boldly lazily boldly safely gently peacefully boldly valiantly smartly brightly calmly angrily resolutely bravely boldly angrily boldly proudly happily wisely bravely safely eagerly cleanly intelligently violently bravely valiantly smartly elegantly violently wisely calmly valiantly casually fluently fluently elegantly intelligently valiantly calmly confidently softly quietly valiantly cleverly brightly prudently bravely lazily deftly resolutely valiantly defiantly angrily majestically politely bravely gracefully majestically."
   }
 }

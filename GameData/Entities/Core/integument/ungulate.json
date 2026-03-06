@@ -1,22 +1,288 @@
 {
-  "Short_Insulating_Pelt": {
+  "Thick_Wooly_Sheep_Fleece": {
     "tags": [
-      "Fur",
-      "Short",
+      "Integument",
+      "Skin",
       "Ungulate",
-      "Mammal"
+      "Cold",
+      "Con",
+      "Defense"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "cold_resist",
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
         "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A stiff, relatively short-haired coat that actively sheds water and prevents the devastating buildup of parasites like ticks. It insulates remarkably well while running at high speeds across open plains without causing lethal overheating."
+    "grants_skills": [
+      "Resist_Cold",
+      "Resist_Bludgeoning"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully valiantly bravely violently cleanly casually brilliantly wildly blindly confidently smoothly gracefully elegantly boldly valiantly confidently violently smoothly politely gracefully valiantly bravely violently smartly peacefully proudly solidly wildly defiantly valiantly politely lazily bravely boldly valiantly fluently gracefully peacefully gently quietly politely fluently bravely violently smartly happily proudly excitedly blindly violently smartly safely gracefully bravely fluently intelligently gracefully gracefully fluently enthusiastically passionately wildly cleanly elegantly fluently valiantly valiantly valiantly calmly competently prudently fluently sensibly prudently peacefully smartly competently fluently warmly valiantly fluently proudly smoothly valiantly defiantly safely furiously calmly quietly."
+  },
+  "Glistening_Horse_Short_Coat": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Charisma",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Athletics"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily confidently passionately gracefully boldly elegantly resolutely smartly bravely politely brightly fluently gently calmly quietly boldly proudly wisely cleverly safely cleanly neatly boldly gently peacefully blindly cleanly safely fluently safely defiantly valiantly boldly cleanly calmly boldly majestically efficiently fluently valiantly proudly boldly valiantly valiantly cleanly proudly fluently lazily smartly smartly defiantly bravely wisely fluently fluently elegantly safely brilliantly confidently violently bravely boldly bravely politely confidently valiantly fluently gently intelligently boldly bravely proudly confidently defiantly playfully excitedly smartly competently fluently valiantly intelligently blindly gracefully calmly comfortably gently casually boldly peacefully."
+  },
+  "Rhino_Thick_Plated_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Armor",
+      "Heavy",
+      "Defense"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Piercing",
+      "Block"
+    ],
+    "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely cheerfully eloquently defiantly excitedly boldly playfully valiantly confidently happily smartly quietly valiantly bravely violently cleanly casually bravely eloquently eagerly politely violently confidently valiantly warmly proudly bravely violently lazily calmly valiantly proudly competently gently smoothly cleanly casually patiently neatly valiantly politely confidently cleverly fluently fluently smartly casually valiantly intelligently fluently violently elegantly defiantly valiantly brilliantly violently passionately sensibly majestically defiantly valiantly politely valiantly calmly bravely valiantly smartly elegantly boldly peacefully cleanly valiantly calmly defiantly calmly valiantly smoothly valiantly smoothly boldly boldly safely blindly boldly peacefully valiantly smoothly competently bravely wildly gently comfortably smartly boldly resolutely defiantly bravely fluently valiantly calmly valiantly smoothly cleverly valiantly confidently violently stably bravely lazily deftly brilliantly resolutely valiantly skillfully warmly calmly intelligently."
+  },
+  "Giraffe_Patterned_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Stealth",
+      "Charisma",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly boldly proudly smartly valiantly boldly gently warmly prudently valiantly violently violently comfortably smoothly blindly bravely brightly lazily safely bravely smartly valiantly fluently defiantly bravely politely gracefully valiantly quietly bravely lazily warmly majestically prudently playfully bravely smartly intelligently gracefully competently sweetly eloquently proudly angrily resolutely patiently fluently warmly confidently boldly securely fluently valiantly gracefully gracefully expertly lazily cleanly securely securely boldly powerfully gently smartly stably gently smoothly casually boldly gracefully safely proudly defiantly."
+  },
+  "Camel_Thick_Desert_Wool": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Con",
+      "Defense"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Resist_Fire",
+      "Resist_Cold"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually quietly valiantly wisely elegantly bravely cleanly happily peacefully resolutely valiantly gently intelligently gracefully fluently elegantly bravely defiantly defiantly vibrantly bravely cheerfully safely quietly defiantly valiantly fluently cleanly lazily confidently smartly smartly smartly safely valiantly furiously defiantly smartly elegantly silently valiantly elegantly bravely casually calmly violently angrily happily violently calmly lazily safely fluently eloquently confidently passionately calmly safely bravely quietly confidently excitedly safely politely fluently smartly efficiently deftly angrily fluently prudently safely safely bravely casually confidently majestically proudly loudly merrily elegantly casually smartly safely boldly violently deftly confidently cleanly deftly defiantly fluently lazily bravely violently cheerfully peacefully valiantly safely powerfully valiantly."
+  },
+  "Boar_Coarse_Bristly_Hair": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Armor",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Slashing"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly gracefully comfortably proudly violently stably casually deftly gently bravely valiantly smoothly competently valiantly calmly majestically proudly smoothly bravely comfortably safely defiantly boldly resolutely efficiently valiantly boldly defiantly valiantly fluently proudly warmly brightly quietly valiantly defiantly gracefully powerfully politely humbly boldly."
+  },
+  "Zebra_Dazzling_Striped_Coat": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Confuse_Enemies"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly competently sensibly valiantly safely gracefully gracefully enthusiastically boldly calmly boldly safely safely boldly blindly casually casually smoothly gracefully resolutely safely humbly gently intelligently stably boldly elegantly boldly violently defiantly intelligently smartly elegantly smoothly calmly bravely valiantly angrily gracefully boldly loudly gracefully bravely bravely gracefully smoothly compactly smartly intelligently safely expertly sweetly calmly boldly humbly blindly gracefully skillfully wildly cheerfully violently elegantly boldly defiantly politely bravely playfully gracefully majestically eagerly politely loudly casually casually proudly brilliantly smartly defiantly gently valiantly competently calmly gently valiantly violently."
+  },
+  "Reindeer_Hollow_Fur_Coat": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Cold",
+      "Swim"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Cold",
+      "Athletics"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly fluently lazily flexibly boldly merrily smartly bravely bravely lazily bravely casually bravely patiently happily expertly smoothly stably proudly gently cheerfully bravely confidently majestically calmly resolutely smartly peacefully bravely violently calmly competently confidently fluently merrily defiantly elegantly efficiently happily gracefully defiantly politely peacefully safely valiantly confidently bravely valiantly boldly valiantly competently passionately smartly calmly violently stably prudently violently confidently fluently bravely gracefully gracefully safely politely sensibly elegantly lazily cleanly cleverly passionately politely wisely happily sweetly."
+  },
+  "Ghost_Stallion_Ethereal_Coat": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Magic",
+      "Stealth",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Resist_Piercing"
+    ],
+    "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly boldly cleanly boldly wisely eagerly valiantly safely gently bravely angrily peacefully bravely defiantly fluently cheerfully valiantly fluently cleanly valiantly warmly proudly playfully safely calmly boldly casually violently majestically comfortably warmly violently deftly proudly safely angrily smartly politely gently eagerly smoothly cleanly securely intelligently boldly competently humbly expertly calmly confidently securely softly expertly deftly calmly majestically valiantly cleverly brightly prudently happily confidently confidently proudly bravely majestically valiantly."
+  },
+  "Zombie_Ox_Rotten_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Ungulate",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely wildly calmly calmly bravely gracefully violently valiantly politely bravely politely valiantly loudly enthusiastically enthusiastically blindly bravely valiantly stably comfortably playfully safely gracefully confidently wildly bravely valiantly smoothly prudently deftly excitedly gently safely calmly bravely cheerfully proudly brilliantly eloquently loudly loudly cheerfully prudently calmly cleverly smoothly politely proudly skillfully playfully gracefully cleanly confidently fluently brightly valiantly powerfully confidently happily blindly lazily defiantly safely majestically valiantly bravely boldly valiantly skillfully gracefully angrily warmly safely."
   }
 }

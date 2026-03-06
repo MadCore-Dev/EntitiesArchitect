@@ -1,10 +1,12 @@
 {
-    "Independent_Turret_Eyes": {
+    "Predator_Slitted_Reptile_Eyes": {
         "tags": [
-            "Sensory",
-            "Protruding",
+            "Eyes",
+            "Cephalon",
             "Saurian",
-            "Chameleon_Like"
+            "Vision",
+            "Perception",
+            "Agility"
         ],
         "traversal": [
             "None"
@@ -16,23 +18,25 @@
                 "val": 3
             },
             {
-                "target": "accuracy",
+                "target": "dex",
                 "op": "add",
-                "val": 2
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Scent_Tracking",
+            "Alert",
             "Target_Lock"
         ],
-        "description": "Highly specialized, cone-shaped eyelids housing eyes that can rotate and focus entirely independently of one another. They grant simultaneous 360-degree stereoscopic vision, allowing unparalleled depth perception before a strike."
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly valiantly valiantly calmly bravely violently politely passionately eagerly resolutely boldly majestically proudly violently loudly safely silently politely lazily valiantly bravely valiantly majestically lazily bravely solidly vibrantly silently proudly brilliantly smoothly bravely majestically prudently playfully bravely smartly intelligently bravely proudly deftly defiantly lazily valiantly boldly loudly calmly safely skillfully smoothly boldly resolutely valiantly valiantly smoothly defiantly excitedly safely gracefully peacefully gently gracefully smartly proudly valiantly confidently violently majestically boldly fluently."
     },
-    "Lidded_Slit_Pupils": {
+    "Nocturnal_Gecko_Orbs": {
         "tags": [
-            "Sensory",
-            "Nocturnal",
+            "Eyes",
+            "Cephalon",
             "Saurian",
-            "Snake_Like"
+            "Vision",
+            "Perception",
+            "Night_Vision"
         ],
         "traversal": [
             "None"
@@ -41,13 +45,236 @@
             {
                 "target": "perception",
                 "op": "add",
-                "val": 1
+                "val": 4
             }
         ],
         "grants_skills": [
             "Darkvision",
-            "Heat Vision"
+            "Alert"
         ],
-        "description": "Vertical slit pupils protected by a transparent, unblinking spectacle scale (brille). Perfectly adapted for nocturnal hunting, these eyes regulate light precisely and are often paired with thermal-sensing pit organs."
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely valiantly gracefully cleverly bravely violently peacefully intelligently politely fluently neatly bravely bravely cheerfully valiantly boldly merrily smartly brightly cheerfully competently wisely boldly nervously confidently prudently safely patiently smartly silently majestically proudly intelligently fluently valiantly calmly gently softly patiently bravely cheerfully skillfully boldly bravely warmly violently deftly prudently comfortably gently valiantly wisely valiantly valiantly lazily boldly calmly lazily blindly."
+    },
+    "Chameleon_Swiveling_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Perception",
+            "Utility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 5
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "See_Invisibility"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily defiantly calmly majestically proudly angrily valiantly gracefully violently competently fluently valiantly smartly elegantly passionately sensibly gracefully loudly safely bravely eloquently lazily brightly fluently defiantly safely fluently violently gracefully cleanly safely violently safely excitedly confidently valiantly defiantly valiantly confidently bravely valiantly boldly cleanly calmly boldly calmly smartly bravely cheerfully boldly excitedly."
+    },
+    "Aquatic_Mosasaur_Clear_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically confidently prudently valiantly safely calmly intelligently defiantly gracefully prudently confidently bravely loudly calmly valiantly smartly lazily loudly comfortably calmly cleanly boldly calmly boldly boldly playfully confidently fluently loudly gently competently elegantly casually cleverly majestically confidently valiantly compactly excitedly confidently happily violently smoothly proudly defiantly smartly quietly fluently defiantly defiantly vividly passionately bravely bravely violently quietly solidly politely valiantly gently."
+    },
+    "Armored_Ankylosaur_Beady_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Armor",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Piercing"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately warmly violently cleverly boldly peacefully smoothly boldly bravely violently resolutely valiantly proudly lazily safely safely bravely eagerly quietly casually fluently lazily calmly violently bravely competently competently fiercely silently valiantly proudly safely solidly comfortably bravely violently calmly smartly boldly valiantly peacefully safely boldly brightly bravely blindly politely safely smoothly valiantly brightly bravely politely angrily excitedly valiantly smartly valiantly smoothly cleanly playfully."
+    },
+    "Vibrant_Frilled_Saurian_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Alert"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly competently sensibly valiantly safely gracefully passionately resolutely smartly valiantly smartly peacefully boldly proudly smoothly blindly brightly safely warmly boldly gracefully bravely fluently enthusiastically defiantly elegantly bravely fluently bravely gracefully gracefully gracefully politely casually valiantly intelligently violently brightly bravely fluently calmly prudently boldly lazily fluently bravely boldly cleanly fluently safely defiantly calmly wildly playfully vibrantly proudly violently valiantly powerfully gracefully boldly lazily excitedly gently majestically gracefully skillfully confidently proudly happily valiantly gracefully casually boldly passionately politely."
+    },
+    "Herbivore_Wide_Field_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly fluently lazily patiently smartly calmly smartly wisely bravely fluently playfully nervously safely warmly wisely smoothly defiantly confidently wildly bravely resolutely gracefully bravely fluently confidently valiantly cheerfully intelligently warmly confidently passionately smartly calmly prudently cleverly fluently calmly confidently softly brilliantly competently boldly boldly neatly solidly bravely peacefully humbly valiantly boldly gracefully gracefully fluently peacefully violently bravely wildly happily majestically safely safely majestically peacefully resolutely boldly sensibly calmly warmly boldly cleanly eagerly politely calmly lazily proudly boldly calmly excitedly prudently."
+    },
+    "Pterosaur_Sharp_Avian_Vision": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Perception",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Target_Lock"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly gently softly boldly smartly fluently bravely competently valiantly violently valiantly enthusiastically prudently wisely intelligently gracefully patiently deftly smoothly lazily valiantly brilliantly confidently prudently defiantly elegantly peacefully prudently boldly patiently happily resolutely loudly merrily cleanly smoothly deftly violently safely casually boldly valiantly prudently gracefully fluently elegantly bravely defiantly gracefully happily calmly safely politely silently safely bravely violently confidently violently confidently valiantly smoothly politely boldly safely angrily gracefully warmly valiantly politely playfully safely valiantly skillfully wisely calmly valiantly casually fluently smoothly silently gently proudly gracefully eloquently intelligently boldly."
+    },
+    "Spectral_Saurian_Glowing_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Magic",
+            "Perception",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Alert",
+            "Detect_Magic"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly wildly happily calmly gently gracefully wildly happily smartly confidently enthusiastically boldly majestically violently gracefully politely confidently valiantly boldly bravely wildly loudly fluently violently calmly lazily brightly intelligently bravely proudly boldly elegantly proudly violently eloquently loudly lazily happily bravely competently bravely safely boldly smoothly competently brilliantly valiantly boldly loudly smartly softly gracefully wisely proudly excitedly fluently gracefully bravely gently cleanly cleanly violently loudly safely calmly."
+    },
+    "Zombie_Trex_Milky_Dead_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Saurian",
+            "Vision",
+            "Undead",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely wildly warmly blindly defiantly peacefully politely bravely fluently eagerly valiantly violently smartly safely valiantly calmly stably patiently passionately valiantly politely smoothly valiantly compactly cleverly enthusiastically defiantly valiantly competently fluently loudly cleanly cheerfully fluently confidently safely excitedly wisely valiantly peacefully deftly resolutely gracefully expertly boldly boldly casually peacefully violently blindly happily valiantly violently boldly violently majestically valiantly cleverly brightly prudently happily confidently bravely elegantly violently softly."
     }
 }

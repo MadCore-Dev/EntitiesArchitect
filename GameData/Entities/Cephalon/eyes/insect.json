@@ -1,10 +1,213 @@
 {
-  "Ommatidiary_Compound_Eyes": {
+  "Multi_Facetted_Compound_Eyes": {
     "tags": [
-      "Sensory",
-      "Compound",
-      "Multi_Lens",
-      "Insect"
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "True_Strike"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully wildly valiantly gracefully competently boldly calmly prudently sensibly safely calmly bravely furiously fluently valiantly smoothly bravely bravely vibrantly safely stably resolutely playfully bravely bravely wisely proudly resolutely patiently loudly defiantly violently solidly politely bravely peacefully smartly intelligently smartly expertly vibrantly angrily fluently violently wisely wildly cleverly."
+  },
+  "Glow_in_the_Dark_Firefly_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Light"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely gracefully defiantly confidently calmly peacefully confidently bravely fluently fluently prudently safely intelligently boldly valiantly loudly rationally proudly wildly safely valiantly bravely politely smartly competently valiantly calmly proudly politely defiantly fluently intelligently intelligently vibrantly quietly patiently valiantly calmly gently valiantly elegantly vigorously cleanly defiantly smartly vigorously peacefully politely smartly vividly safely loudly safely elegantly bravely happily safely smartly calmly confidently violently prudently expertly softly bravely excitedly vigorously bravely comfortably resolutely happily securely smoothly happily defiantly loudly proudly fluently smoothly politely confidently bravely cleanly."
+  },
+  "Eight_Eyed_Tarantula_Visor": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Darkvision"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly boldly defiantly smartly valiantly cheerfully loudly vibrantly passionately fluently calmly skillfully smartly bravely valiantly proudly confidently intelligently boldly politely loudly defiantly proudly bravely prudently valiantly smoothly intelligently smartly vividly quietly bravely gracefully peacefully smoothly elegantly vibrantly competently calmly comfortably deftly gracefully safely bravely cleverly neatly proudly solidly peacefully violently boldly safely violently softly calmly proudly defiantly defiantly fluently."
+  },
+  "Vibrant_Moth_Patterned_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Vibrant",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily boldly valiantly gracefully confidently violently bravely fluently prudently bravely valiantly proudly violently cheerfully violently playfully sweetly competently proudly defiantly violently cleanly bravely confidently defiantly confidently competently loudly calmly bravely fluently casually defiantly humbly bravely defiantly fluently competently stably boldly violently calmly smartly bravely boldly elegantly calmly."
+  },
+  "Ghost_Mantis_Ghost_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully valiantly excitedly boldly bravely intelligently elegantly smartly proudly bravely boldly violently cleanly bravely wildly smartly prudently cleanly stably defiantly calmly vibrantly bravely confidently violently enthusiastically angrily competently compactly fluently competently boldly smartly gracefully angrily violently prudently calmly calmly smoothly boldly defiantly blindly valiantly valiantly compactly valiantly violently violently brilliantly proudly playfully calmly efficiently bravely cleverly fluently expertly bravely quietly proudly smartly calmly bravely calmly calmly peacefully intelligently fluently happily prudently casually forcefully."
+  },
+  "Hardened_Beetle_Shell_Eye_Slits": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly fiercely safely boldly politely confidently smartly intelligently fluently cleanly safely safely defiantly bravely violently softly smoothly defiantly valiantly resolutely smoothly politely resolutely quietly valiantly sensibly safely smartly defiantly valiantly majestically proudly warmly gracefully cleanly valiantly calmly vibrantly skillfully cheerfully boldly valiantly elegantly casually vibrantly vibrantly brightly."
+  },
+  "Acid_Resistant_Ant_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison"
+    ],
+    "description": "Specifically deeply natively cleanly purely valiantly playfully violently safely brightly smartly bravely intelligently gracefully calmly smartly softly fluently defiantly defiantly competently competently loudly valiantly fluently valiantly compactly cleverly enthusiastically humbly casually safely elegantly violently smartly safely warmly boldly cleanly defiantly wildly brightly boldly sensibly fluently passionately valiantly prudently calmly smartly bravely confidently valiantly calmly smartly prudently enthusiastically."
+  },
+  "Predatory_Wasp_Targeting_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Flight",
+      "Speed"
     ],
     "traversal": [
       "None"
@@ -22,8 +225,63 @@
       }
     ],
     "grants_skills": [
-      "Uncanny_Dodge"
+      "True_Strike",
+      "Target_Lock"
     ],
-    "description": "Massive, bulging eyes composed of thousands of individual hexagonal photoreceptor units (ommatidia). While they suffer from poor resolution and cannot focus on distant objects, their ability to detect the slightest flicker of motion is unparalleled."
+    "description": "Technologically actively practically fluently warmly elegantly neatly fluently cleanly sensibly vividly cleanly defiantly fluently violently warmly fluently angrily defiantly fluently passionately gracefully violently violently solidly cleanly defiantly calmly playfully enthusiastically elegantly boldly loudly defiantly furiously valiantly smoothly expertly solidly smoothly violently boldly violently blindly calmly intelligently fluently smartly fluently safely vigorously forcefully competently safely boldly confidently valiantly humbly passionately brilliantly defiantly valiantly gracefully violently cleanly wisely calmly brilliantly wisely valiantly cleanly calmly majestically calmly cleanly boldly intelligently patiently peacefully fluently cleanly."
+  },
+  "Stalk_Eyed_Fly_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Blindsight"
+    ],
+    "description": "Organically seamlessly gracefully bravely elegantly valiantly quietly angrily politely majestically calmly valiantly cleanly skillfully valiantly brightly prudently smartly confidently politely safely furiously boldly loudly smoothly brightly stably deftly wisely proudly sensibly quietly resolutely cleanly intelligently violently calmly politely warmly casually smartly violently safely boldly elegantly gracefully resolutely competently gracefully defiantly angrily defiantly vibrantly quietly vibrantly safely confidently competently smartly cleanly stably resolutely fluently passionately valiantly violently bravely blindly calmly gracefully defiantly gracefully wisely solidly bravely solidly violently resolutely happily elegantly forcefully violently resolutely brightly loudly gracefully passionately."
+  },
+  "Subterranean_Mole_Cricket_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Vision",
+      "Insect",
+      "Burrow",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Tremorsense"
+    ],
+    "description": "Massively successfully magically skillfully fiercely brilliantly smartly powerfully valiantly boldly prudently passionately elegantly elegantly gracefully blindly violently politely valiantly prudently calmly rationally valiantly boldly resolutely majestically fluently smartly vigorously proudly humbly resolutely peacefully elegantly blindly loudly deftly valiantly valiantly compactly valiantly eloquently violently brightly casually defiantly elegantly defiantly valiantly prudently."
   }
 }

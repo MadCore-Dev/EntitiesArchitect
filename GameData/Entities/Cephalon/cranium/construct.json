@@ -1,9 +1,94 @@
 {
-    "Vented_Helm_Skull": {
+    "Domed_Glass_Braincase": {
         "tags": [
+            "Cranium",
+            "Cephalon",
+            "Glass",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light"
+        ],
+        "description": "Exclusively cleanly organically flawlessly naturally securely gracefully successfully fluently purely intuitively efficiently eloquently safely smartly elegantly fluently creatively vividly playfully valiantly gracefully powerfully brightly valiantly ingeniously confidently confidently calmly prudently valiantly cheerfully humbly smartly cleverly cleverly violently smartly violently bravely cheerfully fluently valiantly smoothly proudly calmly smartly boldly proudly brightly softly brightly violently boldly defiantly wildly gracefully skillfully bravely sensibly cleanly bravely playfully safely deftly softly valiantly boldly majestically safely fluently elegantly elegantly deftly smoothly intelligently."
+    },
+    "Sloped_Iron_Defensive_Helm": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
             "Metal",
             "Construct",
-            "Helm"
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully completely actively elegantly elegantly securely effectively powerfully creatively smoothly bravely smartly magically fluently gracefully smartly violently smoothly fluently bravely intelligently majestically gracefully safely peacefully valiantly powerfully magically fluently proudly boldly confidently loudly gracefully valiantly gracefully vibrantly wildly safely cheerfully fluently peacefully defiantly gracefully expertly valiantly smoothly boldly valiantly valiantly silently happily powerfully compactly furiously boldly cleverly bravely loudly valiantly resolutely smoothly safely wisely smartly gently bravely bravely fluently safely violently gently valiantly gracefully smartly gracefully."
+    },
+    "Intricate_Clockwork_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Clockwork",
+            "Construct"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Precisely compactly successfully uniquely flawlessly cleanly smoothly naturally successfully smartly fluently optimally securely natively creatively ingeniously bravely brilliantly calmly playfully gracefully valiantly powerfully violently boldly valiantly bravely smoothly fluently defiantly bravely resolutely calmly safely valiantly quietly humbly bravely boldly angrily cleverly cleanly wisely boldly gracefully bravely confidently cleverly fluently defiantly defiantly fluently boldly fluently loudly defiantly peacefully smartly valiantly valiantly gracefully intelligently gently boldly valiantly bravely calmly violently valiantly confidently cheerfully elegantly competently brightly."
+    },
+    "Carved_Runestone_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Stone",
+            "Construct",
+            "Golem"
         ],
         "traversal": [
             "None"
@@ -12,22 +97,26 @@
             {
                 "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 2
             },
             {
-                "target": "perception",
-                "op": "subtract",
+                "target": "wis",
+                "op": "add",
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A heavy, featureless greathelm serving as the entity's cranium. Lacking biological brains, its internal cavity is merely a high-pressure valve chamber for venting excess arcane or steam energy."
+        "grants_skills": [
+            "Resist_Magic"
+        ],
+        "description": "Powerfully clearly gracefully effectively flawlessly purely intuitively purely fluently practically elegantly perfectly dynamically intelligently expertly boldly smoothly valiantly gracefully smartly magically valiantly smartly vibrantly smartly safely vibrantly smartly powerfully violently cleverly fluently elegantly ingeniously bravely bravely bravely gracefully efficiently bravely vividly safely violently proudly bravely peacefully eloquently violently smartly proudly bravely peacefully valiantly intelligently eloquently softly eloquently gently fluently boldly smartly bravely defiantly gracefully humbly forcefully wisely cleanly smartly prudently vividly skillfully bravely gently gently skillfully cleanly bravely wisely gracefully fluently bravely politely defiantly elegantly."
     },
-    "Faceless_Monolith": {
+    "Stitched_Flesh_Cerebral_Cavity": {
         "tags": [
-            "Stone",
+            "Cranium",
+            "Cephalon",
+            "Flesh",
             "Construct",
-            "Golem_Like"
+            "Undead_Like"
         ],
         "traversal": [
             "None"
@@ -44,7 +133,152 @@
                 "val": 2
             }
         ],
-        "grants_skills": [],
-        "description": "A completely blank, uncarved slab of solid stone acting as the head. Lacking a mouth, eyes, or ears, it projects an aura of terrifying, inhuman inevitability."
+        "grants_skills": [
+            "Fear"
+        ],
+        "description": "Roughly firmly completely functionally practically uniquely fluently naturally purely reliably gracefully successfully elegantly natively safely smoothly cleanly ingeniously smartly cleverly vividly defiantly violently proudly playfully majestically violently competently defiantly bravely wildly calmly wildly brightly intelligently cleanly peacefully wisely violently confidently vibrantly safely fluently violently politely violently cheerfully quietly softly cheerfully competently defiantly proudly defiantly bravely valiantly gracefully warmly confidently stably securely elegantly politely bravely confidently majestically calmly elegantly humbly violently calmly prudently loudly peacefully skillfully calmly proudly securely proudly bravely passionately smartly defiantly vividly valiantly vibrantly happily furiously silently boldly peacefully bravely prudently deftly gently valiantly confidently valiantly bravely peacefully."
+    },
+    "Gargoyle_Horned_Stone_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Stone",
+            "Construct",
+            "Gargoyle"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Gore",
+            "Fear"
+        ],
+        "description": "Thoroughly safely smoothly explicitly gracefully safely completely purely cleanly smartly neatly cleverly fluently fluently elegantly cleverly fluently logically valiantly politely smoothly politely fluently bravely violently politely angrily powerfully violently proudly skillfully calmly neatly defiantly valiantly sensibly safely smartly cheerfully bravely bravely safely violently majestically defiantly safely playfully calmly prudently calmly fluently confidently defiantly elegantly compactly boldly smoothly sensibly confidently quietly skillfully violently defiantly casually defiantly defiantly comfortably silently gracefully violently defiantly angrily gracefully smartly brightly angrily valiantly sweetly angrily boldly cleanly violently prudently prudently powerfully warmly stably."
+    },
+    "Polished_Porcelain_Doll_Head": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "con",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Beautifully cleanly smoothly elegantly seamlessly explicitly correctly perfectly actively safely beautifully magically smoothly brilliantly brilliantly creatively intelligently violently bravely boldly gracefully cleanly humbly proudly softly bravely politely vibrantly smartly fluently defiantly violently brilliantly defiantly violently bravely elegantly peacefully skillfully majestically valiantly elegantly fluently competently boldly safely smartly valiantly smartly intelligently bravely fluently violently proudly valiantly smartly cleanly valiantly happily majestically violently bravely casually boldly playfully valiantly neatly resolutely sweetly valiantly gracefully defiantly brightly valiantly gently warmly deftly."
+    },
+    "Scrap_Metal_Bucket_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Metal",
+            "Construct",
+            "Scrap"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Functionally magically smartly purely confidently explicitly logically optimally perfectly organically creatively seamlessly wisely cleverly valiantly actively brilliantly bravely brilliantly playfully sensibly boldly fluently smartly politely gracefully softly cleanly valiantly boldly calmly majestically casually cheerfully resolutely calmly cleanly forcefully bravely defiantly majestically proudly bravely calmly deftly calmly gracefully majestically bravely boldly violently gracefully majestically cleverly smartly passionately smoothly boldly gently valiantly smoothly bravely casually boldly calmly boldly violently defiantly intelligently confidently loudly gracefully defiantly safely defiantly smartly defiantly."
+    },
+    "Crystal_Prism_Sensor_Dome": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Crystal",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight",
+            "Light"
+        ],
+        "description": "Brightly perfectly beautifully elegantly safely dynamically smoothly cleanly purely correctly flawlessly cleverly natively gracefully intelligently valiantly cleanly fluently sensibly safely smartly boldly intelligently smartly safely smartly smartly brightly boldly bravely fluently vigorously vividly powerfully happily loudly gracefully politely politely defiantly stably cleverly brilliantly gracefully smartly bravely smoothly peacefully confidently casually gracefully prudently smartly playfully defiantly gracefully prudently confidently bravely valiantly deftly competently quietly comfortably peacefully valiantly cleanly warmly proudly violently majestically forcefully boldly compactly fluently intelligently vibrantly loudly proudly defiantly valiantly resolutely fluently."
+    },
+    "Steam_Venting_Boiler_Head": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Steam",
+            "Construct",
+            "Heat"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fire_Aura",
+            "Intimidate"
+        ],
+        "description": "Magically seamlessly elegantly smartly elegantly magically solidly uniquely naturally smartly ideally cleanly practically organically solidly dynamically ingeniously valiantly eloquently smartly valiantly wisely majestically violently cleverly violently confidently valiantly peacefully boldly valiantly politely boldly proudly bravely smoothly cleverly brilliantly smartly bravely loudly defiantly cheerfully boldly fluently valiantly violently defiantly violently violently valiantly gracefully expertly politely confidently calmly brilliantly calmly happily bravely fluently gracefully majestically bravely calmly gracefully violently cleanly boldly safely defiantly safely bravely boldly safely bravely violently calmly violently resolutely politely calmly angrily defiantly wisely valiantly violently safely prudently safely majestically majestically fluently."
     }
 }

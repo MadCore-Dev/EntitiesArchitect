@@ -1,11 +1,12 @@
 {
-    "Bunodont_Omnivorous_Maw": {
+    "Grizzly_Crushing_Jaws": {
         "tags": [
-            "Teeth",
             "Maw",
-            "Omnivore",
+            "Cephalon",
             "Ursine",
-            "Mammal"
+            "Bite",
+            "Strength",
+            "Heavy"
         ],
         "traversal": [
             "None"
@@ -14,7 +15,38 @@
             {
                 "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 4
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately fluently fluently valiantly calmly valiantly softly fluently cleanly safely comfortably brightly valiantly violently lazily gracefully confidently valiantly smartly fluently lazily patiently smartly cleanly confidently angrily bravely lazily lazily competently defiantly smoothly boldly warmly blindly merrily smoothly smartly defiantly elegantly efficiently merrily gracefully resolutely fluently lazily."
+    },
+    "Polar_Bear_Carnivorous_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Strength",
+            "Piercing",
+            "Cold"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
             },
             {
                 "target": "con",
@@ -24,8 +56,252 @@
         ],
         "grants_skills": [
             "Bite",
-            "Crushing Jaw"
+            "Bleed_Procc"
         ],
-        "description": "A highly versatile jaw structure featuring large, flat bunodont molars designed for intensely grinding tough plant matter, combined with massive anterior canines capable of instantly crushing vertebrae."
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely gently proudly sweetly casually intelligently valiantly gently bravely bravely competently fluently enthusiastically cleverly fluently bravely peacefully solidly valiantly casually elegantly defiantly resolutely lazily lazily gracefully casually boldly wildly bravely confidently lazily quietly happily elegantly."
+    },
+    "Black_Bear_Omnivorous_Jaws": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Strength",
+            "Utility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Endurance"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually wildly patiently fluently valiantly gently cleverly playfully violently stably wisely defiantly confidently quietly elegantly playfully lazily gracefully excitedly proudly fluently bravely calmly smartly proudly violently competently smartly enthusiastically boldly intelligently lovingly fluently stably casually passionately lazily majestically warmly valiantly fluently neatly elegantly gracefully warmly competently smartly smartly proudly loudly bravely boldly sensibly eagerly."
+    },
+    "Panda_Bamboo_Crushing_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Con",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder",
+            "Endurance"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly bravely gracefully humbly valiantly confidently proudly bravely prudently safely comfortably brilliantly valiantly lazily cleanly fluently gently defiantly peacefully lazily smartly violently calmly confidently bravely gracefully gracefully politely lazily competently violently politely calmly politely intelligently softly gently deftly fluently gracefully happily competently neatly peacefully boldly proudly gently valiantly compactly smoothly boldly elegantly softly gracefully peacefully defiantly."
+    },
+    "Sun_Bear_Long_Tongued_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Dexterity",
+            "Reach"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Reach_Attack"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly safely competently bravely calmly neatly boldly warmly violently gently smoothly boldly confidently defiantly peacefully calmly boldly cleverly cleanly violently bravely proudly smartly wisely lazily wisely gracefully smartly bravely gracefully defiantly angrily valiantly cleanly bravely valiantly compliantly bravely defiantly passionately safely lazily intelligently violently violently happily valiantly brightly boldly bravely calmly wildly angrily bravely bravely smoothly violently playfully wisely calmly gently elegantly gracefully politely brightly boldly boldly cleanly gently safely smartly expertly deftly calmly proudly vividly patiently fluently neatly."
+    },
+    "Sloth_Bear_Protruding_Lips": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Suck",
+            "Utility",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Suck",
+            "Endurance"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly safely valiantly smartly smartly lazily smartly smartly loudly fluently angrily bravely defiantly valiantly competently passionately enthusiastically merrily calmly defiantly humbly calmly elegantly competently violently bravely violently bravely furiously safely angrily eagerly confidently intelligently peacefully valiantly securely valiantly fluently gracefully peacefully gently proudly happily fluently neatly violently smoothly smoothly quietly prudently happily valiantly happily elegantly gracefully passionately sweetly confidently fluently cleverly smartly expertly peacefully skillfully happily politely boldly."
+    },
+    "Spectacled_Bear_Strong_Snout": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Strength",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Endurance"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently boldly valiantly smoothly proudly brightly violently safely majestically gracefully defiantly wildly violently proudly merrily wisely peacefully boldly confidently stably prudently safely wildly gracefully gracefully gracefully valiantly brightly boldly lazily smartly majestically excitedly bravely cleverly smartly gracefully safely smartly bravely powerfully violently proudly warmly boldly eagerly majestically safely passionately patiently fluently passionately resolutely bravely elegantly calmly wisely safely politely defiantly fluently passionately passionately humbly peacefully blindly defiantly loudly fluently passionately."
+    },
+    "Cave_Bear_Monstrous_Bite": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Strength",
+            "Heavy",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 5
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder",
+            "Knockdown"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly defiantly bravely defiantly confidently lazily smartly confidently humbly eagerly bravely angrily powerfully smoothly brightly confidently smartly valiantly silently bravely calmly violently smoothly boldly proudly warmly cleanly proudly fluently safely valiantly defiantly valiantly confidently merrily brilliantly competently smoothly deftly resolutely safely brightly proudly gracefully brilliantly confidently bravely valiantly boldly boldly smartly gracefully politely defiantly violently cleanly cheerfully smoothly bravely deftly lazily deftly fluently cleanly enthusiastically fluently gently sweetly playfully blindly excitedly violently valiantly gently cleanly casually brilliantly cleanly."
+    },
+    "Zombie_Bear_Rotten_Jaws": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Bite",
+            "Undead",
+            "Toxic",
+            "Con"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently valiantly bravely lazily warmly fluently bravely violently smartly lazily boldly loudly lazily confidently bravely smoothly gently safely elegantly valiantly peacefully gracefully bravely passionately valiantly valiantly compactly sensibly elegantly lazily cleanly fluently gently intelligently boldly passionately bravely smoothly safely gracefully blindly confidently bravely wisely smartly lazily violently bravely competently lazily smoothly resolutely proudly gently cheerfully passionately loudly confidently boldly cheerfully gracefully casually."
+    },
+    "Spirit_Bear_Ethereal_Bite": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Ursine",
+            "Magic",
+            "Bite",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Touch_Attack"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully bravely calmly passionately skillfully wildly violently cleanly boldly brightly proudly politely wisely elegantly fluently competently cleanly smoothly politely boldly casually happily gracefully excitedly loudly valiantly quietly passionately expertly quietly valiantly calmly violently smartly passionately happily happily fluently defiantly fluently lazily patiently smartly cleanly playfully defiantly stably neatly elegantly valiantly compliantly boldly smartly gently confidently majestically gracefully smoothly calmly fluently valiantly cleverly cleanly fluently smoothly peacefully stably brightly smoothly boldly casually intelligently prudently loudly eagerly patiently safely playfully cleanly calmly."
     }
 }

@@ -1,9 +1,35 @@
 {
-  "Permeable_Mucosal_Skin": {
+  "Granular_Parotoid_Glands": {
     "tags": [
-      "Flesh",
-      "Slimy",
-      "Aquatic",
+      "Skin",
+      "Toxic",
+      "Amphibian",
+      "Toad_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Massive, lumpy glands situated directly behind the cranium. When the entity is struck or bitten, these glands violently rupture, forcefully squirting viscous, milky bufotoxin directly into the attacker's eyes and mouth."
+  },
+  "Slippery_Mucous_Sheath": {
+    "tags": [
+      "Skin",
+      "Mucous",
       "Amphibian"
     ],
     "traversal": [
@@ -11,14 +37,9 @@
     ],
     "mods": [
       {
-        "target": "fire_resist",
+        "target": "evasion",
         "op": "add",
         "val": 2
-      },
-      {
-        "target": "natural_armor",
-        "op": "subtract",
-        "val": 1
       },
       {
         "target": "water_retention",
@@ -27,17 +48,89 @@
       }
     ],
     "grants_skills": [
-      "Amphibious"
+      "Slippery"
     ],
-    "description": "A highly porous, glandular skin that must remain moist. It allows exact oxygen exchange underwater (cutaneous respiration), allowing the entity to breathe indefinitely while submerged, though it dries and cracks painfully in arid environments."
+    "description": "A continuously secreted layer of highly viscous, hydrophobic glycoproteins. It acts as an absolute barrier against dehydration in dry climates while making the entity nearly impossible to grapple."
   },
-  "Granular_Toxin_Cuticle": {
+  "Aposematic_Warning_Skin": {
     "tags": [
-      "Flesh",
-      "Warty",
+      "Skin",
       "Toxic",
+      "Bright",
       "Amphibian",
-      "Toad_Like"
+      "Dart_Frog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Inject_Toxin"
+    ],
+    "description": "Skin ablaze in screaming neon yellows, reds, and blues. This aposematic coloration serves as a universal, blatant warning to all predators: the flesh contains crippling alkaloid batrachotoxins absorbed from a specialized diet."
+  },
+  "Cryptic_Mossy_Hide": {
+    "tags": [
+      "Skin",
+      "Camouflage",
+      "Amphibian",
+      "Mossy_Frog"
+    ],
+    "traversal": [
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ambush"
+    ],
+    "description": "An incredibly complex epidermis covered in asymmetrical, jagged flaps and green/brown tubercles that flawlessly mimic wet, clinging moss. When remaining motionless among damp rocks, it simply ceases to exist visually."
+  },
+  "Osteoderm_Embedded_Skin": {
+    "tags": [
+      "Skin",
+      "Armor",
+      "Amphibian",
+      "Horned_Frog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "A leathery, immensely tough amphibian hide featuring hundreds of small, bony plates (osteoderms) floating directly within the dermis. It provides fantastic defense against slashing attacks from dense brush."
+  },
+  "Desiccation_Resistant_Cocoon": {
+    "tags": [
+      "Skin",
+      "Cocoon",
+      "Amphibian",
+      "Spadefoot"
     ],
     "traversal": [
       "None"
@@ -49,22 +142,43 @@
         "val": 2
       },
       {
+        "target": "water_retention",
+        "op": "add",
+        "val": 5
+      }
+    ],
+    "grants_skills": [],
+    "description": "The ability to shed multiple layers of skin simultaneously, mixing them with hardened mucous to form an impermeable subterranean shell. Allows the entity to aestivate entirely without water for years waiting for rain."
+  },
+  "Heavily_Warty_Epidermis": {
+    "tags": [
+      "Skin",
+      "Warts",
+      "Amphibian",
+      "Toad_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
         "target": "natural_armor",
         "op": "add",
         "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
       }
     ],
-    "grants_skills": [
-      "Toxic_Secretion"
-    ],
-    "description": "Thick, leathery skin dotted with prominent parotoid glands. When physically struck, these granular warts rupture, violently secreting a milky, highly virulent bufotoxin that poisons and burns any attacker attempting to grapple or bite."
+    "grants_skills": [],
+    "description": "Skin deeply textured with innumerable callous warty bumps and highly keratinized ridges. Provides excellent resistance against minor abrasions compared to softer, slime-dependent amphibian skin."
   },
-  "Aposematic_Poison_Dermis": {
+  "Bioluminescent_Warning_Sheath": {
     "tags": [
-      "Flesh",
-      "Smooth",
-      "Bright",
-      "Poison_Dart",
+      "Skin",
+      "Glowing",
       "Amphibian"
     ],
     "traversal": [
@@ -79,12 +193,65 @@
       {
         "target": "stealth",
         "op": "subtract",
-        "val": 3
+        "val": 2
       }
     ],
     "grants_skills": [
-      "Lethal_Contact"
+      "Light"
     ],
-    "description": "Brilliantly colored, high-contrast skin completely unsuited for camouflage. Its neon hues serve as a stark biological warning: even the slightest dermal contact with the batrachotoxin-laced slime can induce instant paralysis in predators."
+    "description": "Scattered clusters of iridophores and specialized light-emitting cells that trigger when threatened. In the pitch black of deep cavern pools, blinding flashes of neon light thoroughly disorient pursuing hunters."
+  },
+  "Keratinized_Spiny_Tubercles": {
+    "tags": [
+      "Skin",
+      "Spines",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc"
+    ],
+    "description": "Hardened, black keratin spines aggressively piercing through the soft amphibian skin, predominantly along the back and limbs. When a predator bites down, these spikes effortlessly puncture the palate and tongue."
+  },
+  "Translucent_Glass_Venter": {
+    "tags": [
+      "Skin",
+      "Translucent",
+      "Amphibian",
+      "Glass_Frog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "An incredibly thin, completely unpigmented underbelly. The heart, liver, and digestive tract are perfectly exposed to view. When perched upon a brilliantly green leaf lit by the sun, the lack of a distinct shadow makes the entity practically invisible from below."
   }
 }

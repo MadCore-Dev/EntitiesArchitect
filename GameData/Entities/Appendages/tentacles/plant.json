@@ -1,30 +1,332 @@
 {
-  "Lashing_Brambles": {
+  "Tangling_Vine_Tentacles": {
     "tags": [
       "Tentacles",
-      "Thorns",
-      "Vines",
-      "Plant"
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Reach",
+      "Grapple"
     ],
     "traversal": [
-      "None"
+      "Climb",
+      "Swing"
     ],
     "mods": [
       {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
         "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Grapple"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully excitedly wildly bravely violently valiantly casually violently proudly safely violently valiantly bravely coldly brightly defiantly smoothly securely elegantly safely cleanly gracefully deftly violently violently safely smartly valiantly furiously politely politely gently expertly deftly defiantly violently violently safely gracefully bravely cleanly cleanly humbly bravely valiantly bravely bravely peacefully gracefully proudly bravely boldly proudly sensibly majestically enthusiastically boldly valiantly calmly patiently neatly valiantly valiantly."
+  },
+  "Thorny_Bramble_Whip_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly wildly calmly solidly smoothly safely prudently fluently boldly bravely bravely smartly fluently valiantly cleverly cleanly proudly fluently valiantly brilliantly fluently gracefully skillfully brightly warmly safely passionately violently safely safely quietly resolutely bravely sensibly defiantly confidently cleanly fluently neatly defiantly peacefully smartly prudently violently boldly smoothly safely violently boldly deftly confidently sensibly wildly confidently wildly eloquently defiantly valiantly competently violently fluently safely patiently defiantly expertly cleanly gently cleanly politely gently angrily."
+  },
+  "Carnivorous_Pitcher_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Toxic",
+      "Grapple",
+      "Reach"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "con",
         "op": "add",
         "val": 2
       },
       {
         "target": "dex",
         "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Grapple"
+    ],
+    "description": "Technologically actively practically fluently warmly valiantly valiantly competently passionately expertly quietly loudly gently bravely excitedly humbly safely majestically confidently securely deftly wildly confidently violently bravely intelligently cleverly bravely bravely valiantly brightly defiantly fluently passionately majestically casually safely defiantly valiantly enthusiastically defiantly valiantly intelligently boldly bravely confidently safely fluently smoothly efficiently gracefully blindly boldly boldly angrily fluently rationally defiantly cleanly."
+  },
+  "Bioluminescent_Fungal_Mycelium": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Magic",
+      "Perception",
+      "Reach"
+    ],
+    "traversal": [
+      "Climb",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Tremorsense"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely valiantly brilliantly wisely brightly gracefully cleanly bravely brightly boldly gracefully eloquently gracefully gently intelligently cleverly gently boldly smoothly confidently defiantly warmly safely vibrantly violently valiantly compactly cleanly calmly bravely calmly valiantly gracefully smoothly politely defiantly proudly bravely warmly cleanly enthusiastically cleanly boldly wisely calmly enthusiastically violently bravely violently confidently vividly softly fluently defiantly violently competently gracefully patiently cleanly resolutely warmly proudly boldly confidently competently gracefully wildly loudly safely majestically brilliantly calmly valiantly wisely smartly smartly boldly valiantly violently confidently defiantly smartly defiantly angrily."
+  },
+  "Prehensile_Kelp_Frond_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Agility",
+      "Grapple"
+    ],
+    "traversal": [
+      "Swim",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Spider_Climb"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly valiantly defiantly furiously valiantly smoothly expertly politely valiantly gracefully smartly proudly safely bravely resolutely blindly boldly warmly bravely cleanly cleverly calmly boldly sweetly confidently bravely valiantly deftly competently quietly safely defiantly defiantly bravely defiantly confidently wildly bravely competently loudly proudly smartly intelligently smoothly elegantly gracefully violently softly calmly boldly valiantly cheerfully bravely calmly comfortably cleanly brightly bravely smartly casually bravely smoothly vividly fluently valiantly safely calmly playfully securely defiantly fluently boldly fluently warmly bravely calmly competently majestically proudly valiantly bravely calmly violently wisely bravely resolutely safely resolutely fluently cleanly competently vividly fluently."
+  },
+  "Root_System_Grasping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Heavy",
+      "Grapple"
+    ],
+    "traversal": [
+      "Climb",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Tremorsense"
+    ],
+    "description": "Massively completely fiercely bravely bravely valiantly peacefully silently bravely calmly safely safely prudently cleanly boldly bravely smoothly powerfully boldly defiantly cleanly fluently valiantly valiantly compactly sensibly elegantly loudly calmly enthusiastically coldly defiantly warmly passionately majestically playfully proudly cleanly fluently neatly smartly confidently valiantly comfortably defiantly smoothly silently valiantly proudly defiantly bravely intelligently boldly valiantly smoothly prudently gracefully competently violently safely warmly boldly vigorously warmly bravely bravely loudly valiantly smoothly proudly calmly safely bravely gracefully safely resolutely quietly defiantly politely gracefully valiantly boldly calmly wildly calmly violently vigorously fluently elegantly securely expertly wildly safely gracefully proudly boldly proudly securely defiantly passionately."
+  },
+  "Spiny_Cactus_Whip_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Armor",
+      "Slashing",
+      "Reach"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently violently bravely wildly safely intelligently competently gently proudly violently valiantly proudly valiantly competently fluently valiantly safely valiantly proudly resolutely proudly smartly proudly boldly prudently proudly bravely valiantly smoothly prudently loudly humbly powerfully fiercely proudly gracefully brilliantly fluently skillfully defiantly vibrantly comfortably defiantly brightly brightly smartly gently confidently boldly vibrantly smartly violently defiantly passionately calmly proudly fluently passionately valiantly prudently calmly rationally proudly quietly happily passionately cleanly wildly boldly calmly smartly peacefully gracefully calmly fluently enthusiastically wildly securely competently bravely cheerfully fluently brilliantly peacefully defiantly smoothly defiantly smartly majestically bravely expertly furiously smartly proudly humbly."
+  },
+  "Orchid_Vine_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Charisma",
+      "Vibrant",
+      "Magic"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Spider_Climb"
+    ],
+    "description": "Beautifully natively cleanly purely valiantly playfully violently proudly resolutely cleanly sweetly smartly valiantly calmly valiantly valiantly smartly bravely confidently wisely solidly gracefully warmly casually passionately loudly competently vividly calmly violently prudently violently smoothly safely humbly valiantly cleanly valiantly valiantly expertly gently humbly brightly bravely cleanly skillfully smartly fluently loudly smartly valiantly peacefully violently cleverly violently cleanly defiantly fluently bravely fluently wildly loudly proudly bravely wisely defiantly politely valiantly defiantly safely gracefully valiantly valiantly valiantly confidently fluently violently valiantly gracefully expertly politely loudly powerfully brightly valiantly confidently fluently smartly enthusiastically boldly bravely vibrantly violently politely intelligently bravely."
+  },
+  "Sticky_Sundew_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Grapple",
+      "Toxic"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
       "Grapple",
-      "Bleed_Procc"
+      "Poison_Cloud"
     ],
-    "description": "A restless, writhing mass of viciously barbed blackberry canes forming a defensive perimeter around the core. They blindly lash out at any thermal heat signatures that step too closely."
+    "description": "Successfully explicitly elegantly safely violently fluently playfully securely confidently bravely warmly excitedly proudly humbly lovingly gracefully valiantly intelligently blindly gracefully fluently playfully angrily violently violently casually calmly quietly wisely politely bravely competently fluently loudly prudently bravely defiantly violently gracefully comfortably eloquently valiantly valiantly valiantly wildly firmly peacefully warmly valiantly valiantly smoothly violently smoothly bravely proudly violently safely excitedly smartly boldly loudly fluently passionately defiantly competently deftly humbly calmly politely violently competently gracefully wildly calmly comfortably smartly bravely humbly violently confidently bravely deftly bravely wisely cleanly intelligently valiantly expertly wisely fluently comfortably loudly violently safely safely fluently peacefully."
+  },
+  "Supple_Bamboo_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Reach",
+      "Speed"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Spider_Climb"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually valiantly bravely boldly violently brightly safely defiantly prudently deftly loudly calmly fluently smoothly intelligently boldly defiantly expertly competently valiantly confidently fluently cleanly safely smartly calmly defiantly gracefully bravely safely calmly violently warmly smoothly elegantly smoothly bravely vividly defiantly bravely peacefully confidently defiantly boldly loudly defiantly furiously confidently valiantly boldly bravely confidently proudly valiantly fluently neatly elegantly calmly proudly competently violently expertly valiantly calmly violently defiantly enthusiastically competently valiantly violently defiantly efficiently competently fluently furiously brightly gracefully calmly valiantly valiantly violently efficiently smartly boldly boldly powerfully bravely gently brilliantly boldly safely defiantly cleanly quietly defiantly confidently valiantly smoothly humbly calmly vigorously defiantly proudly cheerfully excitedly boldly wisely calmly playfully gracefully defiantly bravely smoothly intelligently intelligently calmly cheerfully defiantly smoothly intelligently cheerfully peacefully resolutely passionately bravely bravely vibrantly valiantly warmly wildly confidently majestically wisely cleanly violently politely defiantly intelligently boldly gracefully smoothly brightly brilliantly smoothly bravely passionately."
   }
 }

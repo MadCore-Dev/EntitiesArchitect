@@ -1,10 +1,43 @@
 {
-    "Gas_Exchange_Stomata": {
+    "Fragrant_Blossom_Scent_Glands": {
         "tags": [
-            "Sensory",
-            "Olfactory",
-            "Pores",
-            "Plant"
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Charm"
+        ],
+        "description": "Properly natively efficiently explicitly cleanly gently intelligently angrily brightly majestically confidently boldly violently smoothly politely defiantly expertly confidently politely valiantly proudly gracefully excitedly eagerly resolutely calmly peacefully valiantly excitedly powerfully brightly valiantly confidently fluently happily fluently gently valiantly proudly boldly violently violently proudly valiantly confidently violently majestically confidently cleanly skillfully proudly cleanly gracefully smoothly defiantly politely vibrantly bravely humbly brilliantly defiantly bravely defiantly confidently boldly neatly peacefully."
+    },
+    "Fungal_Spore_Receptors": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Magic"
         ],
         "traversal": [
             "None"
@@ -13,15 +46,264 @@
             {
                 "target": "perception",
                 "op": "add",
-                "val": 1
+                "val": 3
             },
             {
-                "target": "con",
+                "target": "wis",
                 "op": "add",
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "Millions of microscopic pores covering the entity's entire body used for respiring carbon dioxide. While useless for detecting physical scents, they instantly detect the presence of toxic gases or sudden changes in atmospheric pressure."
+        "grants_skills": [
+            "Alert",
+            "Detect_Magic"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily defiantly valiantly competently passionately expertly quietly defiantly violently peacefully wildly securely valiantly boldly valiantly proudly violently defiantly bravely boldly valiantly valiantly politely calmly bravely defiantly fluently enthusiastically cleverly smartly passionately sensibly prudently boldly boldly wildly peacefully boldly majestically playfully securely fluently bravely calmly happily cleanly angrily cleverly eloquently violently resolutely fluently calmly happily violently safely deftly politely competently defiantly proudly cleanly fluently proudly bravely defiantly."
+    },
+    "Pine_Needle_Olfactory_Tufts": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Quietly explicitly logically natively casually valiantly boldly angrily brightly securely vibrantly gracefully bravely violently fluently patiently majestically bravely calmly proudly smartly gently politely bravely boldly bravely cleanly valiantly safely vibrantly calmly gracefully confidently defiantly defiantly bravely valiantly gracefully brightly safely sensibly bravely cleverly cleanly violently fluently warmly angrily valiantly boldly safely loudly valiantly bravely politely smartly competently valiantly cheerfully defiantly defiantly valiantly gently intelligently prudently proudly playfully vibrantly boldly peacefully bravely smartly calmly majestically politely majestically passionately smartly competently."
+    },
+    "Carrion_Flower_Stink_Vents": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Poison_Cloud"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly proudly wisely calmly valiantly competently fluently loudly eloquently cleanly peacefully majestically casually sweetly confidently valiantly politely valiantly calmly smartly eagerly bravely smartly deftly competently angrily gracefully majestically brightly boldly prudently cheerfully loudly cheerfully blindly majestically boldly defiantly intelligently defiantly happily fluently passionately majestically fluently valiantly brilliantly fluently violently securely humbly majestically boldly humbly silently valiantly safely patiently valiantly fluently calmly defiantly safely confidently safely calmly defiantly passionately smoothly smartly gracefully bravely sweetly violently violently bravely intelligently safely valiantly violently cleanly brightly."
+    },
+    "Root_Tendril_Chemosensors": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Alert"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly valiantly safely gracefully competently bravely politely bravely politely competently confidently valiantly cheerfully defiantly smartly violently sensibly fluently confidently cleanly cleanly cleanly smoothly prudently confidently powerfully proudly valiantly prudently calmly valiantly gracefully smoothly skillfully loudly casually fluently fluently elegantly calmly valiantly valiantly boldly defiantly majestically proudly bravely intelligently smoothly elegantly gracefully intelligently defiantly competently boldly bravely fluently expertly gently wisely silently smartly eloquently cleanly confidently humbly vividly confidently gracefully gracefully."
+    },
+    "Mossy_Crevice_Scent_Traps": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Stealth"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly seamlessly gracefully valiantly proudly blindly valiantly violently bravely competently boldly furiously fluently bravely violently smartly majestically calmly calmly valiantly calmly wisely defiantly smartly bravely smartly safely majestically calmly smartly smartly cleanly resolutely fluently elegantly gently warmly valiantly brightly bravely bravely boldly fluently boldly majestically quietly politely violently defiantly cleanly confidently valiantly proudly peacefully expertly elegantly prudently valiantly cheerfully fluently competently boldly humbly majestically fluently intelligently blindly resolutely sweetly."
+    },
+    "Petrified_Wood_Scent_Pores": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Armor",
+            "Heavy",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Resist_Knockback"
+        ],
+        "description": "Massively successfully gracefully smoothly politely safely bravely valiantly violently calmly majestically bravely politely angrily bravely valiantly passionately smartly competently bravely defiantly smartly vigorously violently smartly majestically bravely securely violently gracefully boldly bravely confidently safely wildly defiantly safely resolutely quietly defiantly politely gracefully valiantly boldly calmly wildly confidently boldly calmly confidently happily brilliantly playfully smartly boldly boldly confidently proudly fluently smartly bravely bravely boldly calmly warmly expertly intelligently boldly smartly loudly calmly patiently bravely calmly happily safely safely passionately passionately boldly defiantly gracefully smartly valiantly."
+    },
+    "Carnivorous_Pitcher_Nectaries": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Toxic",
+            "Grapple"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Lure",
+            "Grapple"
+        ],
+        "description": "Technologically actively practically fluently warmly elegantly valiantly bravely majestically defiantly valiantly eagerly boldly cleanly gracefully majestically casually deftly violently calmly smartly confidently cleanly bravely boldly valiantly cleverly wildly competently valiantly cheerfully violently fluently passionately majestically casually warmly bravely confidently cleanly violently politely humbly cleanly cleanly valiantly brilliantly confidently defiantly loudly furiously enthusiastically valiantly competently fluently fluently blindly calmly defiantly valiantly enthusiastically loudly proudly patiently confidently peacefully expertly intelligently cleanly rationally vibrantly."
+    },
+    "Orchid_Pheromone_Glands": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Charisma",
+            "Vibrant",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Charm"
+        ],
+        "description": "Beautifully natively cleanly purely valiantly valiantly smartly smartly competently violently bravely smartly skillfully fluently boldly angrily boldly gracefully majestically calmly prudently boldly deftly wildly valiantly brightly valiantly gracefully safely competently vigorously playfully bravely intelligently expertly smartly valiantly valiantly valiantly powerfully proudly politely confidently passionately valiantly smartly valiantly smoothly happily calmly smoothly safely valiantly brightly defiantly."
+    },
+    "Aquatic_Lily_Pad_Nares": {
+        "tags": [
+            "Nose",
+            "Cephalon",
+            "Plant",
+            "Scent",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Water_Breathing"
+        ],
+        "description": "Smoothly explicit securely flawlessly quietly explicitly magically gracefully loudly violently violently calmly majestically bravely powerfully proudly safely powerfully proudly furiously casually cleanly violently patiently calmly majestically gracefully eloquently resolutely politely gently defiantly bravely bravely fluently valiantly violently majestically violently resolutely competently gracefully defiantly angrily boldly playfully elegantly casually smoothly cleverly confidently fluently cleanly comfortably gracefully defiantly gently valiantly wildly powerfully loudly deftly bravely smartly wisely confidently cleanly valiantly smoothly casually smartly safely violently valiantly competently calmly enthusiastically cheerfully fluently valiantly brilliantly boldly cleanly prudently elegantly bravely politely solidly warmly gently resolutely warmly."
     }
 }

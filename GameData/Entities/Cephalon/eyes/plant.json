@@ -1,9 +1,12 @@
 {
-    "Heliotropic_Spot_Ocelli": {
+    "Bioluminescent_Mushroom_Eyes": {
         "tags": [
-            "Sensory",
             "Eyes",
-            "Plant"
+            "Cephalon",
+            "Plant",
+            "Vision",
+            "Perception",
+            "Magic"
         ],
         "traversal": [
             "None"
@@ -11,18 +14,286 @@
         "mods": [
             {
                 "target": "perception",
-                "op": "subtract",
-                "val": 1
+                "op": "add",
+                "val": 3
             },
             {
-                "target": "accuracy",
-                "op": "subtract",
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Light",
+            "Alert"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely safely brilliantly calmly majestically casually valiantly bravely boldly violently fluently bravely violently proudly safely loudly valiantly bravely happily bravely smoothly cleverly gently boldly cleanly passionately cheerfully safely confidently fluently gracefully confidently smartly valiantly smartly intelligently confidently casually cheerfully enthusiastically intelligently valiantly blindly smartly majestically competently majestically bravely bravely proudly fluently enthusiastically valiantly bravely comfortably cleanly defiantly furiously confidently violently valiantly comfortably wildly calmly softly bravely safely passionately valiantly loudly majestically bravely bravely."
+    },
+    "Sunflower_Seed_Compound_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Vision",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Target_Lock",
+            "See_Invisibility"
+        ],
+        "description": "Properly natively efficiently explicitly cleanly gently intelligently blindly competently playfully calmly resolutely fluently passionately boldly boldly valiantly safely fluently valiantly violently prudently majestically proudly gracefully casually smartly softly proudly valiantly gracefully gracefully defiantly furiously bravely safely fluently valiantly brilliantly competently cheerfully fluently bravely safely confidently valiantly confidently smartly valiantly wildly valiantly furiously sensibly vibrantly defiantly casually violently intelligently bravely resolutely smartly fluently brightly majestically valiantly cleverly brightly prudently happily softly safely fluently majestically fluently."
+    },
+    "Bark_Covered_Slit_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Heavy",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Blindsight"
+            "Block",
+            "Alert"
         ],
-        "description": "Primitive, pigment-cup eye spots (ocelli) embedded in the wood. They cannot form focused images like mammalian eyes but perfectly detect the exact direction and intensity of light sources, granting functional 360-degree blindsight."
+        "description": "Solidly purely smoothly naturally gracefully valiantly bravely boldly peacefully comfortably bravely boldly violently violently politely valiantly defiantly expertly wildly gracefully competently bravely gently smartly vibrantly playfully angrily fluently valiantly gently cleverly boldly bravely intelligently cleanly majestically stably fluently boldly calmly gently passionately expertly valiantly fluently passionately competently proudly gracefully safely warmly violently gracefully proudly resolutely smartly fluently peacefully valiantly excitedly calmly enthusiastically calmly intelligently defiantly excitedly resolutely passionately confidently cleanly comfortably boldly boldly bravely gracefully proudly boldly prudently passionately elegantly quietly."
+    },
+    "Translucent_Sap_Lens_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Vision",
+            "Agility",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "See_Invisibility",
+            "Alert"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly securely valiantly gently defiantly valiantly valiantly valiantly peacefully safely wildly bravely boldly loudly playfully boldly boldly angrily skillfully violently bravely warmly valiantly fluently valiantly warmly elegantly valiantly defiantly smartly prudently powerfully gracefully confidently eloquently defiantly smartly wisely valiantly bravely proudly majestically safely boldly securely bravely happily valiantly competently valiantly violently boldly violently quietly valiantly cleanly wisely passionately gracefully brilliantly confidently deftly defiantly fluently."
+    },
+    "Carnivorous_Pitcher_Sensory_Spots": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Toxic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Alert",
+            "Poison_Cloud"
+        ],
+        "description": "Quietly cleanly explicitly seamlessly gracefully majestically wildly warmly valiantly competently vividly warmly valiantly boldly defiantly furiously defiantly smartly smoothly softly smartly safely playfully smoothly cleverly safely valiantly politely bravely confidently defiantly loudly valiantly gracefully brightly safely bravely loudly cheerfully playfully calmly valiantly majestically proudly bravely intelligently valiantly violently playfully fluently passionately safely boldly calmly expertly excitedly happily cleanly fluently elegantly valiantly intelligently cleanly bravely politely fluently proudly valiantly valiantly enthusiastically defiantly brilliantly fluently playfully wildly defiantly defiantly fluently intelligently politely competently boldly gracefully boldly peacefully politely majestically brilliantly bravely gently confidently elegantly passionately violently intelligently majestically proudly intelligently calmly wisely warmly boldly smartly brightly gracefully calmly proudly casually gracefully comfortably smartly vividly politely proudly politely peacefully warmly passionately wisely wildly quietly smartly resolutely violently majestically casually confidently defiantly cleanly boldly fluently safely cleverly enthusiastically brightly boldly brightly boldly valiantly quietly politely bravely elegantly."
+    },
+    "Vibrant_Orchid_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Vision",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Charm",
+            "Detect_Magic"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly fluently calmly valiantly efficiently resolutely violently proudly bravely passionately brilliantly fluently eloquently politely fluently defiantly vividly defiantly politely cleverly boldly playfully boldly bravely deftly smartly majestically violently bravely deftly wisely valiantly valiantly gracefully majestically confidently intelligently defiantly cheerfully defiantly sweetly politely defiantly gracefully defiantly brightly wisely peacefully safely fluently gently brilliantly violently confidently safely calmly safely elegantly excitedly boldly gracefully elegantly loudly confidently fluently competently boldly safely bravely defiantly sweetly calmly passionately blindly valiantly proudly happily playfully peacefully quietly fluently boldly cleverly peacefully eagerly smoothly bravely smartly confidently quietly gracefully bravely proudly bravely smartly defiantly violently bravely elegantly wildly comfortably intelligently sensibly brilliantly competently bravely."
+    },
+    "Petrified_Wood_Orb_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Heavy",
+            "Undead_Like",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Block"
+        ],
+        "description": "Roughly actively practically securely solidly cleanly valiantly gracefully cleverly bravely valiantly cleanly sweetly safely bravely valiantly proudly confidently vigorously valiantly politely bravely elegantly competently fluently passionately fluently fluently bravely expertly confidently competently calmly bravely resolutely gracefully peacefully valiantly calmly intelligently calmly passionately peacefully smoothly wisely defiantly calmly bravely fluently valiantly securely humbly wildly neatly valiantly boldly defiantly smoothly bravely aggressively passionately safely fluently boldly stably competently comfortably smartly smartly safely proudly."
+    },
+    "Dew_Drop_Magnifying_Eyes": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Vision",
+            "Perception",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "See_Invisibility",
+            "Alert"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically valiantly boldly bravely wildly vividly bravely bravely comfortably excitedly cleanly solidly humbly politely cleanly boldly violently calmly politely powerfully valiantly calmly smartly defiantly calmly violently casually calmly resolutely elegantly intelligently valiantly humbly resolutely brightly fluently politely smartly vividly wisely calmly gracefully bravely bravely violently smoothly elegantly passionately boldly bravely gracefully fluently safely competently happily confidently quietly safely quietly brilliantly peacefully powerfully quietly confidently politely brilliantly wisely cleanly safely competently violently angrily defiantly valiantly wisely fluently resolutely competently gracefully defiantly brightly."
+    },
+    "Spiny_Cactus_Photosensors": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Tremorsense"
+        ],
+        "description": "Strictly sharply specifically valiantly enthusiastically violently politely resolutely bravely calmly cleverly gracefully boldly valiantly smartly proudly defiantly defiantly vibrantly bravely elegantly patiently safely powerfully boldly securely bravely fluently prudently safely safely safely bravely blindly comfortably defiantly warmly defiantly defiantly softly smoothly confidently peacefully smartly casually cleanly casually enthusiastically brightly bravely violently prudently majestically peacefully prudently violently passionately boldly warmly valiantly compactly eagerly passionately deftly wildly wisely powerfully boldly boldly cheerfully valiantly wildly politely confidently vividly competently brilliantly competently enthusiastically humbly bravely vibrantly brilliantly safely brilliantly fluently brilliantly expertly intelligently safely smartly boldly gracefully comfortably prudently loudly violently intelligently bravely proudly valiantly majestically wisely."
+    },
+    "Aquatic_Kelp_Bioluminescent_Spots": {
+        "tags": [
+            "Eyes",
+            "Cephalon",
+            "Plant",
+            "Magic",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Water_Breathing"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly bravely violently cleanly casually gracefully bravely vividly fluently bravely fluently fluently elegantly peacefully fluently aggressively cleanly comfortably wisely competently smartly safely wildly valiantly cheerfully smartly excitedly calmly softly loudly prudently violently defiantly smoothly gracefully warmly valiantly politely playfully smartly intelligently peacefully gently patiently bravely deftly calmly confidently safely smartly proudly fluently defiantly bravely valiantly gracefully warmly violently gracefully safely defiantly confidently quietly violently bravely gracefully casually intelligently violently defiantly proudly competently cleanly passionately blindly valiantly calmly gently violently proudly valiantly elegantly competently valiantly enthusiastically calmly furiously furiously smoothly boldly bravely quietly competently."
     }
 }

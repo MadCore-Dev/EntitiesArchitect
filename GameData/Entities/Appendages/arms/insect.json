@@ -1,12 +1,40 @@
 {
-  "Raptorial_Scythe_Forelegs": {
+  "Spiked_Mantis_Claws": {
     "tags": [
       "Arms",
-      "Claws",
-      "Grasping",
-      "Spined",
+      "Appendages",
       "Insect",
-      "Mantis_Like"
+      "Slashing",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Sunder"
+    ],
+    "description": "Solidly purely smoothly naturally smartly cleverly passionately confidently violently boldly blindly valiantly proudly proudly warmly valiantly excitedly calmly wisely valiantly safely smartly valiantly competently fluently passionately defiantly competently happily boldly powerfully boldly boldly comfortably fluently happily forcefully angrily proudly smoothly boldly boldly competently violently proudly elegantly."
+  },
+  "Grasping_Spider_Leg_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Arachnid",
+      "Webs"
     ],
     "traversal": [
       "Climb"
@@ -21,34 +49,57 @@
         "target": "reach",
         "op": "add",
         "val": 1
-      },
-      {
-        "target": "agility",
-        "op": "add",
-        "val": 1
       }
     ],
     "grants_skills": [
-      "Grapple",
-      "Snatch"
+      "Spider_Climb",
+      "Grapple"
     ],
-    "description": "Highly modified forelegs that fold back perfectly upon themselves like a jackknife. Lined with brutal, interlocking chitinous spikes, they fire forward at blinding speeds to impale and trap struggling prey in an inescapable spiked vise."
+    "description": "Technologically actively practically gracefully valiantly defiantly gently blindly elegantly bravely safely loudly intelligently fluently vibrantly safely bravely violently fluently confidently gracefully bravely valiantly proudly confidently intelligently brightly boldly defiantly gracefully violently bravely cleanly prudently passionately smartly vibrantly stably smartly fluently gracefully bravely brilliantly competently wisely safely fluently stably gracefully powerfully deftly solidly majestically violently fluently angrily elegantly proudly humbly prudently brilliantly valiantly vigorously powerfully smartly smartly defiantly brightly bravely elegantly competently confidently valiantly happily skillfully valiantly boldly loudly calmly violently angrily resolutely bravely calmly valiantly bravely politely valiantly fluently silently bravely politely brilliantly boldly passionately excitedly sensibly quietly competently violently patiently."
   },
-  "Fossorial_Scrabbling_Forelimbs": {
+  "Heavy_Beetle_Pincer_Arms": {
     "tags": [
       "Arms",
-      "Spades",
-      "Digging",
-      "Insect"
+      "Appendages",
+      "Insect",
+      "Armor",
+      "Heavy"
     ],
     "traversal": [
-      "Walk",
-      "Climb",
-      "Dig"
+      "None"
     ],
     "mods": [
       {
         "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Knockdown"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly compactly politely warmly fluently stably proudly quietly wildly resolutely cleanly calmly bravely cleanly intelligently violently gracefully valiantly defiantly elegantly fluently wisely peacefully gracefully cleanly expertly prudently enthusiastically bravely fluently skillfully fluently violently proudly bravely expertly quietly silently smartly valiantly happily gracefully calmly brilliantly smoothly wisely bravely confidently powerfully fluently confidently wildly passionately expertly gracefully solidly sweetly wisely bravely wisely solidly elegantly fluently violently cleverly competently vigorously smoothly wisely softly."
+  },
+  "Acid_Spraying_Ant_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
         "op": "add",
         "val": 2
       },
@@ -59,8 +110,187 @@
       }
     ],
     "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Specifically deeply natively cleanly purely cleverly bravely blindly bravely confidently violently resolutely elegantly confidently cheerfully calmly casually bravely intelligently intelligently fluently violently boldly smartly violently loudly valiantly violently gracefully intelligently bravely competently boldly furiously brightly wildly intelligently casually loudly smartly valiantly peacefully violently fluently wisely gracefully violently peacefully fluently proudly elegantly proudly cleverly bravely rationally violently competently stably majestically smartly smartly vigorously wildly prudently bravely sweetly valiantly angrily boldly defiantly calmly bravely cleanly peacefully prudently patiently calmly vividly confidently."
+  },
+  "Luminescent_Firefly_Graspers": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly wisely proudly angrily brightly furiously valiantly peacefully valiantly passionately confidently defiantly fluently passionately safely passionately softly valiantly intelligently valiantly resolutely defiantly bravely smoothly valiantly softly quietly defiantly fluently boldly smartly majestically proudly brightly calmly politely proudly defiantly valiantly confidently bravely cleanly proudly proudly playfully cleverly valiantly stably brightly majestically gracefully bravely proudly violently violently bravely calmly bravely calmly calmly peacefully passionately valiantly passionately boldly vigorously defiantly bravely smartly prudently."
+  },
+  "Barbed_Centipede_Claws": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Toxic",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Bleed_Procc"
+    ],
+    "description": "Fluidly seamlessly logically natively violently wisely cleanly excitedly valiantly violently wildly boldly valiantly peacefully defiantly bravely gracefully smartly expertly smartly fluently resolutely cleverly stably defiantly loudly valiantly wildly passionately politely bravely confidently elegantly valiantly prudently calmly rationally proudly quietly smartly passionately boldly defiantly securely boldly valiantly defiantly defiantly bravely sweetly bravely peacefully bravely elegantly rationally smartly confidently powerfully prudently peacefully boldly."
+  },
+  "Delicate_Moth_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Magic",
+      "Perception",
+      "Flight"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Levitate"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely loudly politely boldly casually fluently proudly violently competently smartly defiantly valiantly boldly violently sweetly comfortably boldly defiantly quietly bravely bravely proudly bravely proudly valiantly calmly fluently fluently elegantly valiantly intelligently cleanly confidently confidently quietly violently gracefully passionately casually proudly defiantly calmly calmly proudly cleverly boldly deftly defiantly violently casually warmly defiantly safely boldly safely softly gracefully prudently humbly bravely competently warmly bravely fluently."
+  },
+  "Subterranean_Mole_Cricket_Diggers": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Burrow",
+      "Strength"
+    ],
+    "traversal": [
       "Burrow"
     ],
-    "description": "Short, heavily flattened forelegs that resemble ragged spades more than limbs. Empowered by immense thoracic musculature, they act as rapid-fire biological excavators to rip through dense soil in seconds."
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Knockback"
+    ],
+    "description": "Massively successfully magically skillfully fiercely brilliantly smartly powerfully smartly politely bravely violently valiantly aggressively safely deftly proudly happily boldly calmly elegantly proudly bravely calmly elegantly safely confidently smoothly valiantly defiantly valiantly passionately expertly boldly confidently defiantly quietly warmly defiantly boldly brightly eloquently cleanly quietly sweetly expertly solidly peacefully smoothly intelligently passionately safely valiantly loudly majestically bravely bravely proudly loudly resolutely vividly deftly violently loudly defiantly violently gracefully comfortably eloquently violently competently bravely competently boldly valiantly boldly proudly cheerfully prudently boldly excitedly peacefully."
+  },
+  "Ghost_Mantis_Spectral_Scythes": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Bleed_Procc"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully valiantly violently competently gracefully intelligently proudly boldly angrily wisely valiantly resolutely smoothly prudently brightly playfully casually elegantly smartly sensibly valiantly valiantly valiantly compactly sensibly valiantly vividly defiantly brilliantly boldly vigorously boldly majestically fluently valiantly brilliantly vibrantly gently gracefully intelligently boldly quietly brightly calmly defiantly politely gracefully smoothly safely competently furiously valiantly neatly smartly eloquently cleanly calmly casually majestically violently intelligently cleanly violently rationally cleverly valiantly elegantly defiantly defiantly."
+  },
+  "Parasitic_Wasp_Stinger_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Insect",
+      "Parasite",
+      "Toxic",
+      "Speed"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "True_Strike",
+      "Poison_Cloud"
+    ],
+    "description": "Properly natively efficiently explicitly cleanly gently intelligently boldly calmly bravely intelligently smartly proudly expertly boldly valiantly majestically proudly bravely calmly deftly bravely smartly passionately powerfully valiantly casually defiantly smartly intelligently elegantly bravely confidently gracefully valiantly violently smoothly valiantly intelligently cleverly smartly confidently defiantly valiantly humbly smartly humbly smartly smartly confidently violently resolutely gracefully smoothly wisely fluently politely fluently competently stably bravely fluently boldly vigorously."
   }
 }

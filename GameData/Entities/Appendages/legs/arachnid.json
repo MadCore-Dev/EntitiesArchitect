@@ -1,54 +1,108 @@
 {
-    "Cursorial_Huntsman_Legs": {
+    "Hydraulic_Jumping_Legs": {
         "tags": [
-            "Appendage",
-            "Long",
-            "Speed",
+            "Legs",
+            "Jumping",
             "Arachnid",
-            "Legs"
+            "Hydraulic"
         ],
         "traversal": [
             "Walk",
-            "Climb",
-            "Sprint"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Dash",
-            "Acrobatics"
-        ],
-        "description": "Eight exceptionally long, splayed legs tipped with microscopic scopulae hairs. They allow the creature to move with terrifying speed and agility across any surface, defying gravity."
-    },
-    "Salticid_Jumping_Legs": {
-        "tags": [
-            "Appendage",
-            "Muscular",
-            "Jump",
-            "Hydraulic",
-            "Arachnid",
-            "Legs"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb",
             "Leap"
         ],
         "mods": [
             {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
                 "target": "jump_distance",
                 "op": "add",
-                "val": 10
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "Arachnids lack extensor muscles in their legs entirely. These phenomenally specialized rear legs rely absolutely on a sudden, violently massive surge of pressurized hemolymph (blood) blasted directly from the cephalothorax, catapulting the spider fifty times its body length."
+    },
+    "Stilt_Walking_Elongation": {
+        "tags": [
+            "Legs",
+            "Stilts",
+            "Arachnid",
+            "Harvestman"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "Absurdly, almost impossibly long, hair-thin legs utterly lacking significant muscle mass. They allow the tiny core body to casually stride completely above the incredibly dense, tangled chaos of the rainforest leaf litter, while easily dropping severed legs to distract predators."
+    },
+    "Laterigrade_Crab_Legs": {
+        "tags": [
+            "Legs",
+            "Sideways",
+            "Arachnid",
+            "Crab_Spider"
+        ],
+        "traversal": [
+            "Walk",
+            "Stealth",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ambush"
+        ],
+        "description": "The leg joints are bizarrely, permanently rotated completely outward (laterigrade). The entity is biologically incapable of walking directly forward quickly, instead relying on terrifyingly rapid, lightning-fast sideways scuttling directly into perfectly camouflaged ambush positions."
+    },
+    "Tarsal_Clawed_Hooks": {
+        "tags": [
+            "Legs",
+            "Claws",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
             },
             {
                 "target": "str",
@@ -57,32 +111,29 @@
             }
         ],
         "grants_skills": [
-            "Leap",
-            "Ambush"
+            "Spider_Climb",
+            "Grapple"
         ],
-        "description": "Thick, hydraulically-powered hind legs capable of storing immense pressure. By selectively rapidly uncoiling, the arachnid can launch itself many times its own body length."
+        "description": "Extremely robust, heavily armored walking legs terminating in pairs of staggeringly sharp, highly recurved keratinous hooks. Intentionally evolved entirely for effortlessly climbing completely vertical, fiercely jagged rock faces and violently grappling large, furious beetles."
     },
-    "Fossorial_Burrowing_Limbs": {
+    "Heavy_Tarantula_Pillars": {
         "tags": [
-            "Appendage",
-            "Thick",
-            "Spined",
-            "Arachnid",
-            "Legs"
+            "Legs",
+            "Heavy",
+            "Arachnid"
         ],
         "traversal": [
             "Walk",
-            "Climb",
-            "Dig"
+            "Climb"
         ],
         "mods": [
             {
-                "target": "con",
+                "target": "str",
                 "op": "add",
                 "val": 2
             },
             {
-                "target": "str",
+                "target": "con",
                 "op": "add",
                 "val": 1
             },
@@ -93,8 +144,146 @@
             }
         ],
         "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Phenomenally thick, heavily muscled, densely hair-covered columnar pillars perfectly supporting the colossal, staggering weight of a giant tarantula abdomen. Trades all leaping capabilities entirely for the sheer, brutal physical power to drag a dead rat up a towering cliff."
+    },
+    "Water_Striding_Tarsi": {
+        "tags": [
+            "Legs",
+            "Water_Strider",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Slippery"
+        ],
+        "description": "Extremely elongated, exceptionally lightweight legs featuring vast, intensely dense arrays of highly specialized water-repellent (hydrophobic) micro-hairs. Perfectly distributes weight, allowing the entity to effortlessly ice-skate gracefully across the absolute surface tension of completely calm ponds."
+    },
+    "Cryptic_Stick_Mimicry_Legs": {
+        "tags": [
+            "Legs",
+            "Camouflage",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Legs that are completely rigidly, perfectly extended directly forward and straight back in absolute stillness when at rest. Deeply grooved and colored exactly like aging bark, they completely obliterate the outline of a spider, making it biologically indistinguishable from an empty broken twig."
+    },
+    "Burrowing_Scorpion_Legs": {
+        "tags": [
+            "Legs",
+            "Burrow",
+            "Heavy",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
             "Burrow"
         ],
-        "description": "Short, immensely thick legs lined with heavy, comb-like spines designed for excavating dense earth. What they lack in running speed, they make up for in absolute stopping power."
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Squat, immensely powerfully built, heavily sclerotized legs possessing thick rows of hardened spines along the exterior edges. When vigorously kicking backwards, they violently launch literal avalanches of deeply compacted sand completely out of deeply sloping subterranean tunnels."
+    },
+    "Web_Vibrational_Receptors": {
+        "tags": [
+            "Legs",
+            "Sensory",
+            "Arachnid",
+            "Web"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "The four rear legs are permanently hooked directly into the main massive structural anchor lines of the giant orbital web. Lacking speed, they are heavily loaded with hyper-sensitive slit sensilla, flawlessly allowing the entity to constantly monitor absolutely every single micro-vibration in the immense web."
+    },
+    "Spiny_Calcar_Defensive_Legs": {
+        "tags": [
+            "Legs",
+            "Spines",
+            "Defense",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Legs covered aggressively in massive, extremely sharp, heavily tanned chitinous defensive spines. When violently attacked from above by plunging predatory wasps, the entity violently raises all of its immensely spiny legs straight up to form a completely impenetrable defensive cage directly over its entirely soft abdomen."
     }
 }

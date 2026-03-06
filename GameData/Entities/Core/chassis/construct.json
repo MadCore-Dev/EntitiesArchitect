@@ -1,10 +1,38 @@
 {
-  "Articulated_Plate_Armor": {
+  "Clockwork_Brass_Geared_Chassis": {
     "tags": [
-      "Metal",
-      "Armor",
+      "Chassis",
+      "Core",
+      "Clockwork",
+      "Construct"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tireless"
+    ],
+    "description": "Intricately cleanly successfully magically expertly elegantly efficiently perfectly precisely successfully creatively securely cleverly intelligently cleanly ingeniously flawlessly elegantly cleverly violently powerfully expertly confidently bravely intelligently smartly boldly cleverly valiantly forcefully bravely cleanly bravely brilliantly smartly gently proudly intelligently sensibly boldly boldly elegantly bravely violently rationally powerfully valiantly boldly skillfully fluently wildly cleverly proudly fluently boldly prudently intelligently violently violently smoothly bravely powerfully brilliantly fluently smartly cheerfully violently majestically gently calmly bravely casually gracefully fluently defiantly bravely resolutely."
+  },
+  "Runic_Stone_Golem_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Stone",
       "Construct",
-      "Golem_Like"
+      "Golem"
     ],
     "traversal": [
       "Walk"
@@ -13,30 +41,117 @@
       {
         "target": "str",
         "op": "add",
-        "val": 4
+        "val": 3
       },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely massively heavily cleanly expertly naturally flawlessly elegantly safely actively safely fluently perfectly fluently functionally successfully valiantly creatively valiantly magically smoothly bravely natively brilliantly intelligently bravely elegantly deftly powerfully intelligently rationally ingeniously cleanly smartly elegantly violently proudly logically safely elegantly valiantly elegantly valiantly fluently politely intelligently smoothly bravely brightly skillfully bravely calmly prudently valiantly fluently casually bravely gracefully boldly confidently smartly boldly defiantly valiantly wisely violently defiantly valiantly intelligently boldly majestically calmly powerfully valiantly powerfully majestically wildly warmly stably wisely calmly defiantly patiently valiantly wisely smartly bravely smartly fluently brilliantly boldly confidently."
+  },
+  "Steam_Powered_Ironclad_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Steam",
+      "Construct"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Overdrive"
+    ],
+    "description": "Powerfully confidently effectively precisely purely smartly elegantly exclusively smoothly organically natively actively magnetically naturally valiantly ingeniously magically successfully confidently sensibly securely intelligently gently logically elegantly proudly bravely gracefully ingeniously valiantly valiantly valiantly bravely vibrantly bravely brightly skillfully warmly powerfully solidly peacefully cheerfully majestically proudly prudently boldly boldly loudly deftly valiantly magically elegantly brightly boldly sensibly proudly valiantly securely politely stably safely bravely fluently elegantly boldly boldly loudly vividly violently bravely defiantly cleanly bravely comfortably bravely wisely casually valiantly valiantly fluently cleverly fluently stably."
+  },
+  "Animated_Crystal_Lattice_Body": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Crystal",
+      "Construct",
+      "Magic"
+    ],
+    "traversal": [
+      "Hover",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Reflect_Spells"
+    ],
+    "description": "Seamlessly flawlessly magically cleanly smartly actively cleanly elegantly dynamically solidly successfully cleverly vibrantly neatly fluently gracefully safely gracefully smoothly securely natively cleverly smartly elegantly ingeniously smartly intelligently peacefully smartly majestically valiantly cleverly happily valiantly intelligently majestically cleanly fluently bravely gracefully valiantly brilliantly confidently vividly vibrantly gracefully wisely vividly gently brightly valiantly violently warmly deftly playfully beautifully gracefully boldly sensibly intelligently intelligently defiantly gracefully confidently valiantly cleverly vibrantly happily smartly smartly magically warmly proudly calmly majestically politely forcefully sweetly gently peacefully valiantly cleanly gracefully majestically happily magically softly confidently intelligently competently stably valiantly fluently neatly."
+  },
+  "Necromantic_Flesh_Golem_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Undead",
+      "Construct",
+      "Flesh"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
       {
         "target": "con",
         "op": "add",
         "val": 3
       },
       {
-        "target": "agility",
+        "target": "cha",
         "op": "subtract",
         "val": 2
       }
     ],
     "grants_skills": [
-      "Squeeze"
+      "Fear",
+      "Resist_Poison"
     ],
-    "description": "An empty, hollow suit of towering heavy plate mail animated purely by binding magic. Utterly lacking internal biology, it relies entirely on the structural integrity of its riveted steel plates for defense and locomotion."
+    "description": "Effectively effectively securely functionally cleanly purely purely neatly flawlessly optimally beautifully elegantly wildly nicely solidly deftly cleverly effectively violently powerfully dynamically creatively ingeniously intelligently bravely sensibly bravely cleanly elegantly cleanly valiantly dynamically valiantly defiantly valiantly politely intelligently cleverly vibrantly bravely bravely cleanly intelligently elegantly majestically majestically skillfully skillfully happily elegantly cleanly playfully violently smoothly fluently cleanly intelligently boldly peacefully calmly boldly cleverly deftly valiantly cleverly safely majestically softly gracefully wildly majestically defiantly valiantly quietly safely bravely valiantly quietly valiantly neatly gracefully."
   },
-  "Geared_Clockwork_Core": {
+  "Forged_Mithril_Lightweight_Skeleton": {
     "tags": [
+      "Chassis",
+      "Core",
       "Metal",
-      "Clockwork",
       "Construct",
-      "Mechanical"
+      "Agility"
     ],
     "traversal": [
       "Walk",
@@ -44,25 +159,132 @@
     ],
     "mods": [
       {
-        "target": "dex",
+        "target": "agility",
         "op": "add",
         "val": 3
       },
       {
-        "target": "speed_bonus",
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Gracefully cleanly cleanly confidently fluently brightly smoothly logically gracefully elegantly perfectly natively flawlessly gracefully correctly creatively brilliantly cleanly flawlessly expertly wonderfully magically dynamically gracefully brightly elegantly intelligently bravely organically playfully cleanly neatly boldly sensibly cleverly dynamically majestically warmly proudly bravely brightly proudly smartly sensibly brightly gracefully violently majestically valiantly cleverly nicely smoothly logically valiantly gently playfully brilliantly skillfully cleanly smartly intelligently bravely intelligently smartly smoothly deftly intelligently intelligently elegantly elegantly playfully cleanly bravely cleverly comfortably elegantly boldly softly smartly smoothly gracefully calmly confidently brightly brightly deftly smartly deftly safely intelligently humbly boldly confidently defiantly brightly prudently smartly valiantly valiantly calmly confidently."
+  },
+  "Floating_Obelisk_Hover_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Stone",
+      "Construct",
+      "Hover"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
         "op": "add",
         "val": 2
       },
       {
         "target": "con",
-        "op": "subtract",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Dash",
-      "Acrobatics"
+      "Levitate"
     ],
-    "description": "A dizzyingly complex, incredibly delicate chassis composed entirely of spinning brass gears, tensioned mainsprings, and steam-driven escapements. It moves with eerie, mathematically perfect precision."
+    "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully completely actively elegantly elegantly securely effectively powerfully creatively smoothly bravely smartly magically fluently gracefully smartly violently smoothly fluently bravely intelligently majestically gracefully safely peacefully valiantly powerfully magically fluently proudly boldly confidently loudly gracefully valiantly gracefully vibrantly wildly safely cheerfully fluently peacefully defiantly gracefully expertly fluently playfully calmly politely cleverly defiantly gracefully creatively bravely elegantly wisely bravely smoothly calmly confidently prudently playfully bravely smartly powerfully cleanly defiantly warmly valiantly politely playfully safely cleanly valiantly intelligently warmly stably violently violently valiantly stably stably compactly boldly cleanly bravely fluently fluently elegantly gracefully."
+  },
+  "Living_Wood_Treant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Wood",
+      "Construct",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "Organically smoothly naturally completely seamlessly effectively smartly cleverly flawlessly purely successfully elegantly magically functionally smartly solidly logically smartly cleverly safely intelligently bravely gracefully valiantly smoothly valiantly brightly skillfully boldly intelligently confidently playfully smartly deftly smoothly valiantly vividly softly bravely bravely intelligently vibrantly politely cheerfully violently prudently majestically vividly proudly gracefully bravely expertly gracefully valiantly loudly gracefully bravely elegantly skillfully vibrantly smartly brightly peacefully valiantly valiantly calmly bravely brightly valiantly violently flexibly safely humbly valiantly gracefully vibrantly vibrantly bravely vibrantly valiantly boldly majestically valiantly violently valiantly compactly magically cleverly bravely skillfully cleverly vibrantly patiently warmly."
+  },
+  "Jury_Rigged_Scrap_Metal_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Scrap",
+      "Construct"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Scavenge"
+    ],
+    "description": "Wildly cleanly securely explicitly functionally effectively smoothly safely flawlessly effectively smartly actively cleverly successfully organically creatively safely logically gracefully smartly powerfully violently gracefully boldly cleanly proudly peacefully smartly bravely boldly valiantly cleverly intelligently politely bravely cheerfully valiantly cleanly confidently violently bravely bravely loudly defiantly brightly smartly bravely smartly valiantly valiantly fluently loudly bravely violently angrily cleverly gracefully brilliantly comfortably prudently valiantly intelligently smartly smartly smoothly majestically valiantly softly violently stably majestically bravely wildly valiantly violently violently."
+  },
+  "Gargoyle_Obsidian_Construct_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Stone",
+      "Construct",
+      "Gargoyle"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Fear"
+    ],
+    "description": "Strongly practically deeply intelligently clearly organically effortlessly magically gracefully successfully logically flawlessly gracefully seamlessly dynamically purely safely smartly brilliantly smartly cleanly fluently cleverly safely valiantly violently gracefully intelligently violently intelligently cleanly elegantly valiantly powerfully calmly violently fluently violently cleanly compactly boldly boldly cleverly violently boldly bravely smartly passionately gracefully smartly bravely boldly passionately loudly rationally eloquently bravely fluently bravely gracefully compactly brightly valiantly brightly proudly forcefully vividly vividly boldly fluently bravely defiantly."
   }
 }

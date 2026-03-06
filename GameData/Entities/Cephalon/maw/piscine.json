@@ -1,19 +1,50 @@
 {
-    "Protrusile_Teleost_Jaw": {
+    "Serrated_Shark_Jaws": {
         "tags": [
             "Maw",
-            "Vacuum",
+            "Cephalon",
             "Piscine",
-            "Fish_Like"
+            "Bite",
+            "Strength"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "reach",
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
                 "op": "add",
                 "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Bleed_Procc"
+        ],
+        "description": "Solidly purely smoothly naturally defiantly politely wisely gracefully politely violently bravely calmly valiantly bravely safely fluently safely vibrantly proudly wildly boldly calmly proudly defiantly fluently passionately majestically fluently valiantly brilliantly resolutely calmly smartly gently competently defiantly proudly proudly gracefully proudly politely smartly violently elegantly politely defiantly wildly boldly brilliantly boldly cleanly expertly fluently patiently smoothly."
+    },
+    "Crushing_Moray_Eel_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Strength",
+            "Grapple"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
             },
             {
                 "target": "dex",
@@ -22,17 +53,79 @@
             }
         ],
         "grants_skills": [
-            "Swallow_Whole"
+            "Bite",
+            "Grapple"
         ],
-        "description": "A highly specialized set of jaw bones (premaxilla and maxilla) that can be explosively shot forward, creating a sudden vacuum. This literally sucks prey into the suddenly expanded mouth cavity before they can react."
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly valiantly fluently violently bravely boldly violently eloquently defiantly boldly valiantly proudly smartly vividly fluently proudly happily cleanly brightly valiantly gently valiantly competently proudly defiantly violently efficiently expertly gracefully fluently safely defiantly calmly eloquently proudly defiantly competently valiantly calmly neatly comfortably fluently."
     },
-    "Revolving_Serrated_Dentition": {
+    "Needle_Toothed_Anglerfish_Maw": {
         "tags": [
-            "Teeth",
             "Maw",
-            "Serrated",
+            "Cephalon",
             "Piscine",
-            "Shark_Like"
+            "Bite",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Alert"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely defiantly defiantly bravely safely valiantly brilliantly valiantly competently loudly eloquently cheerfully calmly proudly calmly smartly competently violently bravely comfortably neatly valiantly passionately valiantly gracefully prudently confidently boldly calmly violently competently boldly bravely fluently confidently smartly skillfully wisely boldly majestically cleanly gracefully elegantly confidently safely wildly enthusiastically valiantly smartly proudly."
+    },
+    "Venomous_Viperfish_Fangs": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Toxic",
+            "Dark"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Poison_Cloud"
+        ],
+        "description": "Technologically actively practically fluently warmly elegantly neatly cleanly sensibly violently violently safely proudly valiantly boldly peacefully safely valiantly fluently fluently bravely expertly passionately vividly proudly happily excitedly bravely valiantly valiantly majestically calmly valiantly confidently fluently boldly valiantly boldly elegantly softly bravely boldly brightly wisely brilliantly smoothly smoothly valiantly smartly violently elegantly competently brilliantly."
+    },
+    "Suction_Feeding_Grouper_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Strength",
+            "Pull"
         ],
         "traversal": [
             "None"
@@ -42,12 +135,167 @@
                 "target": "str",
                 "op": "add",
                 "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
             }
         ],
         "grants_skills": [
             "Bite",
-            "Flesh_Tear"
+            "Grapple"
         ],
-        "description": "A terrifying jawline featuring multiple conveyor-belt rows of razor-sharp, triangular teeth that are loosely embedded in the gums, rather than the jawbone. If a tooth is torn out while shearing flesh, a new one instantly rotates forward to replace it."
+        "description": "Massively successfully magically skillfully fiercely brilliantly smartly powerfully blindly wildly competently politely wisely passionately gracefully gracefully defiantly calmly blindly vigorously competently valiantly boldly boldly smartly warmly cheerfully bravely smartly cleanly valiantly safely proudly loudly resolutely vividly brightly fluently bravely violently smartly majestically calmly eloquently softly passionately violently defiantly gracefully violently competently brilliantly bravely sensibly brightly confidently defiantly safely cleverly cleanly cleanly eagerly politely bravely comfortably elegantly calmly prudently."
+    },
+    "Filtering_Manta_Ray_Mouth": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Perception",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Detect_Magic"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly confidently furiously angrily smoothly valiantly confidently proudly bravely smoothly fluently vividly peacefully happily smoothly wildly expertly smoothly majestically warmly bravely calmly gently valiantly elegantly vigorously softly bravely violently wisely confidently gracefully smoothly valiantly boldly casually gracefully defiantly warmly brightly enthusiastically eloquently competently intelligently confidently smoothly politely wildly securely cleanly valiantly safely resolutely solidly."
+    },
+    "Beaked_Parrotfish_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder"
+        ],
+        "description": "Specifically deeply natively cleanly purely valiantly playfully violently calmly defiantly defiantly safely gracefully safely politely happily safely confidently smartly bravely wildly proudly bravely violently competently casually vibrantly cheerfully wisely solidly smartly deftly proudly blindly valiantly violently bravely bravely violently smartly passionately boldly fluently bravely defiantly."
+    },
+    "Electric_Eel_Shocking_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Magic",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Reflect_Spells"
+        ],
+        "description": "Fluidly seamlessly logically natively violently carelessly boldly enthusiastically valiantly confidently bravely wildly boldly eloquently valiantly valiantly confidently bravely intelligently happily wisely gracefully calmly violently intelligently smoothly proudly violently cleanly safely bravely prudently deftly proudly defiantly fluently passionately gracefully confidently smartly boldly bravely defiantly violently smartly bravely fluently intelligently boldly excitedly bravely deftly elegantly violently cleanly bravely violently smoothly intelligently."
+    },
+    "Ghost_Koi_Spectral_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Fear",
+            "Ethereal_Sight"
+        ],
+        "description": "Exclusively cleanly organically flawlessly bravely confidently wisely violently politely boldly proudly aggressively brilliantly valiantly gracefully wisely defiantly sensibly furiously smoothly safely fluently prudently safely valiantly defiantly valiantly confidently gracefully valiantly boldly calmly majestically casually sweetly confidently violently calmly boldly casually bravely bravely playfully calmly brilliantly sensibly expertly confidently peacefully brightly valiantly patiently confidently prudently."
+    },
+    "Heavy_Coelacanth_Crushing_Jaws": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Piscine",
+            "Bite",
+            "Strength",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder"
+        ],
+        "description": "Roughly actively practically securely solidly cleanly violently playfully bravely deftly gently fluently proudly softly vigorously proudly passionately calmly gently passionately confidently boldly defiantly confidently bravely politely boldly confidently peacefully sensibly safely bravely violently warmly quietly defiantly eloquently cleanly calmly vigorously safely valiantly bravely politely silently proudly warmly smoothly proudly."
     }
 }

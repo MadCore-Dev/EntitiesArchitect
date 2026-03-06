@@ -1,10 +1,70 @@
 {
-  "Elongated_Rostral_Cranium": {
+  "Tyrannosaur_Massive_Skull": {
     "tags": [
-      "Bone",
-      "Elongated",
+      "Cranium",
+      "Cephalon",
       "Saurian",
-      "Crocodilian_Like"
+      "Strength",
+      "Bite",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Bite"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly sensibly valiantly valiantly valiantly calmly bravely violently politely passionately eagerly resolutely boldly majestically proudly politely gently lazily warmly defiantly smartly competently violently bravely fluently bravely boldly skillfully bravely vividly brilliantly violently calmly warmly stably confidently confidently calmly blindly silently politely lazily competently peacefully resolutely wisely proudly gently passionately gracefully furiously passionately smoothly quietly valiantly skillfully safely calmly gently casually valiantly violently valiantly bravely peacefully."
+  },
+  "Triceratops_Frilled_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Charge"
+    ],
+    "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely valiantly smartly boldly eagerly expertly wisely boldly powerfully gently warmly aggressively valiantly defiantly valiantly confidently bravely wildly violently boldly excitedly brightly defiantly violently majestically violently smartly violently angrily valiantly defiantly wildly peacefully resolutely loudly comfortably bravely smartly loudly intelligently passionately violently peacefully safely warmly proudly brilliantly boldly warmly eloquently gently smoothly politely valiantly defiantly proudly boldly boldly fluently brilliantly bravely stably wisely."
+  },
+  "Pachycephalosaur_Domed_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Strength",
+      "Armor"
     ],
     "traversal": [
       "None"
@@ -16,39 +76,222 @@
         "val": 2
       },
       {
-        "target": "wis",
-        "op": "subtract",
-        "val": 1
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
       }
     ],
-    "grants_skills": [],
-    "description": "An extremely long, heavy skull forming a powerful, V-shaped rostrum. It operates like a colossal pair of biological forceps, perfectly adapted for snatching fast-moving aquatic prey and delivering immense clamping force."
+    "grants_skills": [
+      "Headbutt",
+      "Charge"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily defiantly valiantly enthusiastically prudently cleanly elegantly furiously gracefully powerfully intelligently proudly politely valiantly vigorously elegantly smartly competently brilliantly safely defiantly confidently quietly bravely intelligently brilliantly elegantly gently gently valiantly proudly prudently bravely bravely peacefully furiously safely safely gently calmly calmly boldly defiantly angrily bravely confidently merrily excitedly violently elegantly calmly confidently cleverly politely smartly loudly cleanly warmly bravely brilliantly boldly securely politely competently passionately fluently gracefully warmly proudly calmly violently warmly stably bravely competently defiantly."
   },
-  "Kinetic_Serpentine_Skull": {
+  "Raptor_Sleek_Aerodynamic_Skull": {
     "tags": [
-      "Bone",
-      "Flexible",
+      "Cranium",
+      "Cephalon",
       "Saurian",
-      "Snake_Like"
+      "Agility",
+      "Speed"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "dex",
+        "target": "speed_bonus",
         "op": "add",
-        "val": 1
+        "val": 2
       },
       {
-        "target": "con",
-        "op": "subtract",
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Target_Lock"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically confidently prudently valiantly fluently cleverly defiantly quietly excitedly vigorously wildly bravely loudly softly fluently majestically boldly cheerfully cleverly bravely bravely intelligently smartly valiantly intelligently violently fluently deftly defiantly smartly lazily smartly defiantly smartly brilliantly vibrantly bravely confidently warmly safely proudly valiantly happily proudly smartly brightly proudly politely safely valiantly violently gently bravely lazily patiently securely fluently powerfully solidly wisely cleverly casually violently passionately valiantly politely proudly proudly defiantly gently expertly peacefully politely fluently intelligently sensibly elegantly peacefully prudently cleanly bravely skillfully humbly intelligently violently vividly softly playfully eloquently cleanly cleanly fluently fluently bravely."
+  },
+  "Parasaurolophus_Crested_Noggin": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Charisma",
+      "Sonic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Swallow_Whole"
+      "Wail",
+      "Charm"
     ],
-    "description": "A highly kinetic, loosely articulated skull where the quadrate bone allows the jaw to unhinge completely. Rather than crushing, this cranium is designed explicitly to engulf prey items significantly larger than the entity's own head."
+    "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately casually warmly prudently violently defiantly smoothly gracefully bravely passionately intelligently valiantly proudly boldly valiantly calmly violently smartly passionately cleanly boldly defiantly furiously fiercely majestically violently violently calmly elegantly bravely happily elegantly bravely prudently peacefully violently safely powerfully skillfully peacefully blindly cleanly enthusiastically bravely safely confidently casually gently bravely proudly wisely smoothly boldly valiantly brightly valiantly gracefully sensibly valiantly boldly patiently wisely gracefully confidently wisely."
+  },
+  "Dilophosaurus_Twin_Crest_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Charisma",
+      "Intimidate",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Poison_Cloud"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly competently sensibly valiantly violently valiantly bravely confidently peacefully lazily defiantly violently passionately gracefully prudently wildly elegantly lazily valiantly proudly brightly bravely defiantly defiantly vividly softly casually smartly elegantly violently confidently stably furiously lazily calmly enthusiastically fluently angrily safely enthusiastically fluently casually fluently calmly bravely gracefully calmly wisely politely bravely wildly powerfully elegantly bravely competently lazily smartly safely playfully casually gracefully bravely intelligently competently wisely cleanly competently lazily majestically competently prudently smoothly defiantly gracefully majestically."
+  },
+  "Spinosaurus_Long_Snouted_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Swim",
+      "Perception",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Swim_Dash"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly fluently lazily patiently violently violently cleanly valiantly intelligently wisely wildly resolutely proudly playfully cleanly valiantly bravely violently cleanly gracefully intelligently majestically valiantly fluently neatly elegantly patiently lazily defiantly safely smoothly violently violently defiantly competently smoothly violently valiantly smoothly loudly comfortably passionately competently cleverly majestically sweetly violently cheerfully bravely valiantly violently calmly happily defiantly furiously bravely safely wildly quietly playfully smartly intelligently peacefully gently calmly loudly defiantly valiantly wisely fluently smoothly humbly majestically gracefully expertly violently humbly bravely politely boldly."
+  },
+  "Chameleon_Helmeted_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Agility",
+      "Stealth",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly gently softly boldly smartly fluently bravely competently smartly bravely peacefully defiantly defiantly vibrantly passionately bravely fluently neatly bravely bravely calmly gently defiantly confidently intelligently quietly warmly defiantly resolutely lazily valiantly proudly cleanly brilliantly violently furiously elegantly sweetly resolutely boldly competently safely fluently politely valiantly defiantly safely majestically resolutely valiantly bravely fluently cleanly safely defiantly bravely competently boldly cheerfully quietly boldly elegantly bravely peacefully fluently powerfully safely bravely expertly softly blindly gracefully calmly casually cheerfully prudently bravely valiantly safely comfortably competently smartly politely eloquently confidently politely gently resolutely cleanly confidently proudly smoothly bravely boldly proudly elegantly smartly peacefully valiantly valiantly compactly sensibly elegantly casually bravely brightly gracefully."
+  },
+  "Spectral_Saurian_Ghost_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly wildly happily calmly gently confidently intelligently loudly valiantly smartly bravely gently humbly smartly lazily valiantly proudly vividly excitedly violently lazily boldly valiantly smoothly prudently deftly excitedly boldly warmly quietly warmly calmly smartly resolutely gracefully violently bravely fluently defiantly violently politely calmly smartly intelligently bravely boldly confidently cleanly happily elegantly gently bravely smoothly elegantly confidently smoothly expertly brightly calmly happily gracefully smoothly smoothly valiantly bravely confidently violently enthusiastically gracefully wisely gracefully humbly stably politely bravely bravely proudly bravely bravely smartly brightly bravely."
+  },
+  "Zombie_Trex_Exposed_Skull_Core": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Saurian",
+      "Undead",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely wildly warmly blindly proudly majestically brilliantly calmly confidently violently valiantly comfortably warmly defiantly bravely cheerfully bravely gracefully peacefully majestically casually violently boldly majestically lazily bravely passionately gently intelligently politely gracefully passionately cleanly resolutely bravely valiantly gently proudly competently prudently fluently calmly safely bravely proudly calmly happily bravely fluently gracefully valiantly prudently calmly smartly bravely boldly."
   }
 }

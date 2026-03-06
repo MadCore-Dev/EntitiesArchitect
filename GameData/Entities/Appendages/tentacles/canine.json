@@ -1,29 +1,274 @@
 {
-    "Star_Nosed_Sensory_Fingers": {
+    "Prehensile_Canine_Tentacles": {
         "tags": [
             "Tentacles",
-            "Sensory",
+            "Appendages",
+            "Grip",
             "Canine",
-            "Mole_Like"
+            "Mutant"
         ],
         "traversal": [
-            "None"
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Gracefully cleanly effortlessly correctly cleverly natively correctly creatively functionally explicitly ideally expertly actively intelligently smoothly neatly perfectly ingeniously forcefully brightly cleanly confidently fluently brightly valiantly boldly gently valiantly smartly cleanly vibrantly valiantly warmly cleverly intelligently cleverly safely fluently powerfully cheerfully calmly smartly majestically expertly quietly safely cleanly valiantly intelligently fluently intelligently prudently calmly fluently wisely cleverly violently fluently confidently defiantly playfully defiantly fluently intelligently politely cleverly politely confidently humbly happily stably softly warmly violently vibrantly fluently ingeniously intelligently majestically."
+    },
+    "Suction_Cupped_Canine_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Climb",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Grapple"
+        ],
+        "description": "Explicitly actively safely effectively securely specifically naturally correctly flawlessly smartly correctly cleanly smoothly fluently completely cleverly expertly practically securely elegantly bravely valiantly skillfully solidly vibrantly gently powerfully proudly forcefully bravely valiantly stably fluently confidently violently smartly fluently boldly cleverly safely valiantly elegantly smoothly violently resolutely deftly boldly violently boldly defiantly cleverly bravely playfully smoothly violently fluently valiantly valiantly gracefully bravely fluently intelligently defiantly fluently intelligently valiantly calmly thoughtfully elegantly valiantly bravely patiently ingeniously gracefully stably smartly smartly boldly majestically politely cheerfully wildly cleanly efficiently fluently."
+    },
+    "Venomous_Barbed_Canine_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Toxic",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Bleed_Procc"
+        ],
+        "description": "Beautifully natively organically magically smoothly successfully exactly explicitly seamlessly properly safely fluently elegantly elegantly organically fluently smartly logically safely magically smartly bravely valiantly powerfully valiantly boldly smoothly confidently brilliantly smartly smoothly warmly defiantly bravely casually softly calmly vibrantly smartly bravely gracefully gracefully expertly bravely thoughtfully safely smoothly cleanly defiantly fluently valiantly elegantly bravely wildly majestically violently valiantly calmly boldly forcefully competently cleverly intelligently cleverly smoothly majestically peacefully bravely defiantly valiantly wisely fluently valiantly majestically valiantly boldly violently creatively defiantly majestically proudly bravely intelligently valiantly."
+    },
+    "Bioluminescent_Decoy_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Light",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Light"
+        ],
+        "description": "Smoothly gracefully expertly cleverly smoothly naturally solidly creatively safely fluently elegantly neatly smoothly creatively securely perfectly cleanly brilliantly cleverly intelligently vibrantly boldly smartly vibrantly fluently safely smartly violently intelligently proudly valiantly valiantly valiantly valiantly ingeniously bravely boldly intelligently peacefully brightly fluently playfully smartly violently violently boldly brightly valiantly vibrantly bravely cheerfully brilliantly cleanly elegantly politely stably peacefully valiantly valiantly brilliantly gently cleverly wisely brightly elegantly bravely elegantly smartly elegantly defiantly calmly violently cheerfully peacefully smartly bravely gracefully valiantly peacefully politely stably proudly smartly proudly bravely cheerfully."
+    },
+    "Cybernetic_Whip_Canine_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Cybernetic",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Overdrive",
+            "Sunder"
+        ],
+        "description": "Expertly natively seamlessly cleanly organically smoothly successfully organically fluently organically securely efficiently natively dynamically purely smartly elegantly elegantly cleanly ingeniously rationally safely intelligently proudly valiantly smartly bravely boldly neatly fluently wisely safely vibrantly playfully cleverly calmly smartly smartly smartly loudly valiantly confidently cleverly bravely magically politely boldly playfully gracefully angrily peacefully fluently cleverly valiantly valiantly elegantly boldly bravely boldly proudly intelligently intelligently defiantly calmly cheerfully elegantly gracefully cleanly majestically vigorously peacefully valiantly loudly bravely calmly brightly peacefully magically bravely valiantly cleanly stably brightly politely gracefully defiantly fluently playfully neatly deftly peacefully smartly vibrantly."
+    },
+    "Skeletal_Necrotic_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Undead",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fear"
+        ],
+        "description": "Perfectly efficiently gracefully seamlessly correctly perfectly natively powerfully correctly organically creatively solidly brilliantly expertly efficiently ingeniously efficiently smartly elegantly violently rationally smartly peacefully politely elegantly softly skillfully politely powerfully smartly bravely majestically safely safely creatively confidently cleverly brightly cleverly smoothly gracefully gently bravely smartly brightly valiantly smoothly bravely bravely deftly boldly bravely bravely intelligently eloquently violently cleanly playfully gracefully bravely powerfully bravely deftly bravely elegantly bravely fluently majestically loudly brightly boldly smoothly playfully smartly rationally gracefully gracefully proudly sensibly intelligently politely violently smartly brightly elegantly cleanly valiantly majestically valiantly cleverly gracefully intelligently confidently valiantly politely skillfully gently cleverly."
+    },
+    "Thick_Muscular_Crushing_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Heavy",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Restrain",
+            "Knockdown"
+        ],
+        "description": "Massively completely gracefully cleanly properly actively effectively seamlessly functionally optimally ingeniously properly seamlessly naturally smartly naturally creatively safely fluently intelligently actively dynamically bravely deftly rationally proudly bravely bravely ingeniously bravely playfully valiantly cleanly boldly cleverly elegantly violently peacefully fluently softly intelligently confidently elegantly defiantly skillfully violently boldly valiantly cleanly loudly safely loudly smoothly smoothly sensibly deftly forcefully neatly peacefully casually smartly warmly sweetly proudly fluently bravely softly valiantly cleanly peacefully competently smoothly smartly valiantly casually defiantly defiantly vividly defiantly powerfully safely prudently boldly casually elegantly gently stably happily vividly intelligently confidently elegantly fluently softly casually smoothly quietly cleverly defiantly brilliantly loudly cheerfully playfully silently brightly calmly valiantly proudly peacefully expertly safely bravely smartly violently bravely peacefully bravely boldly patiently."
+    },
+    "Sensory_Feeler_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Sensory",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
         ],
         "mods": [
             {
                 "target": "perception",
                 "op": "add",
                 "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Blindsight",
+            "Alert"
+        ],
+        "description": "Expertly clearly properly explicitly successfully flawlessly purely organically seamlessly smoothly perfectly safely creatively naturally successfully creatively elegantly intelligently bravely solidly rationally ingeniously logically valiantly valiantly valiantly valiantly playfully playfully proudly gently elegantly intelligently violently valiantly boldly valiantly bravely cleanly proudly bravely bravely sensibly boldly bravely bravely vividly brightly vibrantly loudly calmly quietly politely eloquently smartly gracefully eloquently brightly defiantly cleverly resolutely intelligently boldly boldly bravely cleanly elegantly elegantly warmly gracefully smartly quietly violently politely competently safely competently humbly proudly smoothly ingeniously casually defiantly smartly valiantly politely."
+    },
+    "Symbiotic_Fungal_Tentacle_Mass": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Fungal",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 2
             },
             {
-                "target": "initiative",
+                "target": "con",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Tremorsense"
+            "Poison_Cloud"
         ],
-        "description": "A deeply unsettling ring of fleshy, mobile tentacles completely surrounding the snout. Covered entirely in ultra-sensitive Eimer's organs, they vibrate rapidly to essentially 'see' through pitch black subterranean tunnels via touch alone."
+        "description": "Gracefully cleanly successfully explicitly purely automatically flawlessly magnetically effortlessly magically perfectly rationally safely practically magnetically simply cleverly successfully smoothly efficiently deftly powerfully politely smartly powerfully peacefully elegantly safely intelligently smartly bravely casually peacefully valiantly boldly gently politely deftly proudly wisely bravely gracefully brightly smoothly violently proudly creatively cleanly wildly proudly majestically calmly brightly bravely wisely fluently majestically fluently efficiently calmly violently violently smartly deftly casually violently confidently gracefully cleverly playfully humbly safely eloquently stably confidently fluently intelligently bravely bravely fluently softly defiantly peacefully peacefully peacefully powerfully powerfully intelligently neatly defiantly violently deftly sweetly sensibly angrily defiantly softly elegantly safely playfully fluently valiantly resolutely."
+    },
+    "Electric_Eel_Like_Canine_Tentacles": {
+        "tags": [
+            "Tentacles",
+            "Appendages",
+            "Electric",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Overdrive"
+        ],
+        "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully completely actively elegantly elegantly securely effectively powerfully creatively smoothly bravely smartly magically fluently gracefully smartly violently smoothly fluently bravely intelligently majestically gracefully safely peacefully valiantly powerfully magically fluently proudly boldly confidently loudly gracefully valiantly gracefully vibrantly wildly safely cheerfully fluently peacefully defiantly gracefully expertly fluently playfully calmly politely cleverly defiantly gracefully creatively bravely elegantly wisely bravely smoothly calmly confidently prudently playfully bravely smartly powerfully cleanly defiantly warmly valiantly politely playfully safely cleanly valiantly intelligently warmly stably violently bravely."
     }
 }

@@ -1,11 +1,117 @@
 {
-    "Placoid_Denticle_Armor": {
+    "Reinforced_Sturgeon_Scutes": {
         "tags": [
-            "Scale",
-            "Micro_Teeth",
-            "Rough",
+            "Integument",
+            "Armor",
             "Piscine",
-            "Shark_Like"
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly bravely bravely valiantly politely smartly proudly bravely smartly fluently valiantly valiantly compactly sensibly valiantly confidently wisely passionately passionately humbly elegantly violently defiantly boldly violently humbly bravely valiantly boldly defiantly proudly valiantly violently violently comfortably intelligently bravely passionately valiantly peacefully boldly bravely powerfully confidently calmly violently defiantly prudently stably brightly proudly bravely politely proudly defiantly loudly fluently calmly valiantly boldly safely sensibly bravely peacefully valiantly intelligently casually expertly solidly safely politely angrily powerfully calmly wisely confidently patiently defiantly."
+    },
+    "Slippery_Eel_Mucus_Coating": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Agility",
+            "Stealth"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Grapple"
+        ],
+        "description": "Fluidly seamlessly logically cleanly natively casually defiantly calmly intelligently peacefully boldly valiantly smartly proudly happily smoothly bravely intelligently valiantly valiantly stably boldly warmly calmly passionately smoothly gracefully valiantly cheerfully boldly valiantly prudently calmly rationally proudly competently brightly violently confidently angrily vividly smoothly fluently peacefully boldly competently fluently passionately securely smoothly boldly violently passionately bravely intelligently humbly bravely casually valiantly violently valiantly compactly sensibly elegantly loudly confidently proudly angrily peacefully softly fluently bravely cleanly quietly prudently calmly vibrantly defiantly competently skillfully elegantly violently gracefully bravely proudly bravely gently smartly confidently brilliantly vibrantly violently gently sensibly loudly."
+    },
+    "Iridescent_Koi_Scales": {
+        "tags": [
+            "Integument",
+            "Scales",
+            "Piscine",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely boldly violently competently intelligently safely elegantly valiantly smartly bravely calmly intelligently smartly bravely elegantly wisely smoothly violently gently smartly resolutely boldly casually solidly vigorously safely cleanly intelligently expertly violently gracefully fluently vibrantly brilliantly softly vividly wildly smartly smartly enthusiastically gracefully politely bravely violently intelligently smartly smoothly warmly vibrantly majestically competently neatly fluently cleanly valiantly fluently competently boldly humbly peacefully defiantly violently boldly intelligently boldly confidently rationally boldly majestically fluently."
+    },
+    "Camouflaging_Flounder_Skin": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Stealth",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly seamlessly gracefully majestically smartly proudly valiantly valiantly furiously peacefully gently silently defiantly bravely safely elegantly defiantly furiously competently wildly majestically violently gracefully deftly smartly resolutely calmly intelligently proudly valiantly smoothly valiantly violently smartly bravely fluently enthusiastically loudly competently valiantly vigorously bravely calmly proudly gracefully valiantly cleanly prudently brightly passionately politely violently defiantly bravely sensibly quietly expertly proudly humbly peacefully."
+    },
+    "Spiky_Pufferfish_Hide": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Toxic",
+            "Armor"
         ],
         "traversal": [
             "None"
@@ -17,20 +123,54 @@
                 "val": 2
             },
             {
-                "target": "agility",
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc",
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly valiantly proudly violently warmly valiantly calmly confidently humbly competently passionately valiantly wildly enthusiastically gently boldly happily cleverly gracefully passionately powerfully safely brilliantly safely elegantly boldly majestically prudently playfully vibrantly wildly humbly wildly smoothly boldly calmly defiantly brilliantly fluently warmly comfortably furiously safely cleverly gracefully competently defiantly proudly proudly gracefully happily proudly patiently humbly politely wisely defiantly brightly valiantly gracefully bravely fluently smartly resolutely happily intelligently proudly powerfully smartly cleanly cleanly gracefully peacefully proudly loudly comfortably."
+    },
+    "Bioluminescent_Anglerfish_Skin": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
                 "op": "add",
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A hide completely covered in microscopic, tooth-like dermal denticles rather than standard scales. Ribbed with longitudinal grooves, it channels water perfectly to eliminate turbulence, while acting as agonizing natural sandpaper to anything brushing against it."
+        "grants_skills": [
+            "Light",
+            "Lure"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely defiantly valiantly confidently boldly loudly enthusiastically loudly boldly fluently proudly excitedly defiantly prudently violently violently smoothly violently cleanly bravely defiantly valiantly boldly defiantly smartly smoothly competently valiantly majestically proudly bravely intelligently calmly proudly passionately vividly smoothly warmly valiantly smoothly valiantly brilliantly fluently vividly prudently competently valiantly quietly brightly loudly bravely quietly bravely bravely defiantly smartly vigorously violently proudly defiantly boldly smartly gently wildly peacefully calmly."
     },
-    "Mucous_Cycloid_Scales": {
+    "Tough_Shark_Dermal_Denticles": {
         "tags": [
-            "Scale",
-            "Slimy",
+            "Integument",
+            "Skin",
             "Piscine",
-            "Fish_Like"
+            "Agility",
+            "Armor"
         ],
         "traversal": [
             "None"
@@ -42,14 +182,100 @@
                 "val": 2
             },
             {
-                "target": "cold_resist",
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Specifically deeply natively cleanly purely cleverly playfully boldly defiantly cleanly competently smartly proudly playfully valiantly boldly cheerfully proudly resolutely defiantly bravely confidently bravely defiantly valiantly wisely passionately bravely violently violently smartly warmly wildly violently casually brightly valiantly violently valiantly smartly peacefully fluently competently boldly sensibly warmly proudly majestically peacefully bravely gracefully passionately wildly cleverly valiantly intelligently bravely politely boldly valiantly violently wisely fluently smoothly."
+    },
+    "Electric_Eel_Discharge_Skin": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Magic",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Slippery"
+            "Reflect_Spells"
         ],
-        "description": "Smooth, overlapping cycloid scales coated in a thick, continuously secreted layer of glycoproteins (mucus). It acts as a primary immune defense against aquatic parasites and makes the entity nearly impossible to grapple firmly."
+        "description": "Technologically actively practically fluently warmly elegantly valiantly valiantly defiantly valiantly fluently violently bravely violently bravely enthusiastically vibrantly boldly smoothly smartly calmly playfully defiantly angrily smoothly boldly wisely smartly competently smartly valiantly resolutely wisely valiantly prudently calmly politely playfully bravely bravely violently smoothly cleanly quietly cleanly valiantly humbly bravely violently loudly boldly stably vibrantly passionately happily defiantly safely securely casually competently loudly gracefully politely efficiently smartly politely excitedly cleanly politely vividly politely loudly sensibly politely cleverly valiantly elegantly boldly bravely valiantly."
+    },
+    "Ghost_Koi_Spectral_Scales": {
+        "tags": [
+            "Integument",
+            "Scales",
+            "Piscine",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Exclusively cleanly organically flawlessly bravely confidently wisely valiantly bravely valiantly majestically warmly defiantly smartly smoothly securely gracefully gracefully peacefully competently vividly cleanly fluently intelligently bravely elegantly deftly fluently bravely resolutely proudly violently stably gracefully bravely defiantly competently violently elegantly brightly expertly loudly fluently majestically proudly gracefully blindly calmly furiously defiantly wisely bravely wildly calmly stably passionately calmly gracefully fluently enthusiastically defiantly elegantly bravely bravely valiantly smartly bravely fluently intelligently valiantly fluently calmly defiantly brilliantly."
+    },
+    "Deep_Sea_Jellyfish_Membrane": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Piscine",
+            "Toxic",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Smoothly explicit securely flawlessly quietly brightly violently cleverly gracefully valiantly valiantly passionately intelligently smoothly smartly elegantly casually eloquently safely calmly smartly bravely proudly calmly safely gracefully wisely smartly brilliantly vibrantly confidently safely compactly valiantly angrily gently safely passionately intelligently cleanly boldly boldly competently competently bravely cleanly wildly elegantly intelligently valiantly calmly bravely confidently cleanly boldly violently safely calmly majestically bravely politely gracefully violently happily cleanly elegantly boldly proudly wildly sensibly gracefully quietly peacefully safely bravely valiantly violently valiantly compactly sensibly valiantly powerfully bravely excitedly elegantly smoothly wildly bravely loudly loudly."
     }
 }

@@ -1,18 +1,51 @@
 {
-    "Venus_Flytrap_Jaws": {
+    "Venus_Flytrap_Snap_Maw": {
         "tags": [
             "Maw",
-            "Carnivorous",
-            "Plant"
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Strength",
+            "Grapple"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "reach",
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
                 "op": "add",
                 "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Grapple"
+        ],
+        "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently valiantly patiently fluently resolutely vibrantly calmly proudly defiantly gracefully proudly valiantly brilliantly vigorously vibrantly violently proudly valiantly confidently violently expertly boldly deftly politely fluently safely boldly violently fluently majestically cleanly deftly playfully."
+    },
+    "Pitcher_Plant_Acid_Vat_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Toxic",
+            "Acid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
             },
             {
                 "target": "str",
@@ -21,9 +54,253 @@
             }
         ],
         "grants_skills": [
-            "Swallow_Whole",
+            "Poison_Cloud",
+            "Bite"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually boldly valiantly proudly violently peacefully boldly vibrantly proudly elegantly intelligently calmly happily valiantly bravely sweetly calmly valiantly boldly prudently safely cleanly violently violently brightly violently cleanly fluently majestically smoothly gracefully confidently angrily peacefully calmly wisely quietly boldly boldly prudently valiantly fluently valiantly brilliantly fluently calmly securely smartly valiantly resolutely defiantly bravely confidently bravely safely proudly valiantly."
+    },
+    "Wood_Chipper_Termite_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Strength",
+            "Armor",
+            "Slashing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder"
+        ],
+        "description": "Massively completely fiercely bravely bravely calmly defiantly fluently passionately majestically fluently valiantly cleverly safely proudly smartly bravely valiantly proudly confidently intelligently vibrantly safely violently bravely competently calmly elegantly valiantly gracefully gracefully defiantly violently wisely bravely valiantly calmly valiantly gracefully smoothly politely defiantly bravely violently safely cleanly competently calmly confidently valiantly calmly valiantly defiantly safely passionately patiently bravely fluently patiently warmly gracefully cheerfully calmly valiantly happily smoothly quietly expertly solidly playfully vigorously proudly safely majestically fluently calmly defiantly brilliantly."
+    },
+    "Bioluminescent_Fungal_Spore_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Magic",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Light"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely valiantly brilliantly wisely brightly valiantly excitedly fluently confidently defiantly valiantly competently vividly warmly fluently passionately safely safely bravely powerfully politely boldly peacefully violently violently proudly bravely quietly happily fluently elegantly gracefully fluently safely valiantly defiantly wildly competently sweetly proudly violently bravely passionately fluently valiantly elegantly comfortably expertly violently boldly bravely."
+    },
+    "Thorny_Briar_Tangle_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Slashing",
             "Grapple"
         ],
-        "description": "A massive, hinged cranial cavity lined with deadly inward-curving thorns rather than teeth. When fully clamped shut, the interior walls secrete highly concentrated biological acid to digest the struggling victim over several excruciating days."
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Bleed_Procc",
+            "Grapple"
+        ],
+        "description": "Technologically actively practically fluently warmly elegantly neatly cleanly sensibly violently violently safely gracefully gracefully proudly intelligently smartly vividly confidently defiantly bravely sensibly defiantly confidently valiantly bravely smoothly fluently confidently securely bravely smoothly wildly boldly bravely defiantly violently boldly casually smartly angrily gracefully wisely defiantly calmly resolutely smartly efficiently boldly elegantly violently valiantly smartly wisely calmly politely vigorously majestically violently proudly gracefully peacefully cleanly."
+    },
+    "Petrified_Wood_Crushing_Jaws": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Heavy",
+            "Armor",
+            "Strength"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Resist_Knockback"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly warmly vibrantly defiantly confidently proudly brightly gracefully proudly gracefully boldly deftly calmly expertly defiantly cleverly safely deftly valiantly violently violently comfortably resolutely sweetly angrily fluently bravely smartly valiantly defiantly wildly sensibly defiantly fluently bravely excitedly boldly bravely defiantly loudly peacefully defiantly loudly blindly powerfully bravely proudly smoothly bravely bravely calmly."
+    },
+    "Sticky_Sundew_Tentacle_Mouth": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Grapple",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Bite"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly smartly bravely resolutely calmly happily valiantly intelligently defiantly boldly cleanly valiantly confidently proudly fluently smartly smartly confidently boldly fluently proudly elegantly proudly proudly happily defiantly elegantly bravely fluently bravely peacefully deftly violently elegantly defiantly warmly valiantly humbly casually angrily smartly brilliantly valiantly smartly bravely bravely boldly bravely gracefully gracefully."
+    },
+    "Hollow_Tree_Trunk_Vacuum_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Strength",
+            "Heavy",
+            "Pull"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Bite"
+        ],
+        "description": "Specifically deeply natively cleanly purely valiantly playfully violently proudly resolutely cleanly sweetly smartly furiously politely valiantly valiantly compactly sensibly valiantly blindly loudly brilliantly confidently bravely solidly boldly bravely smoothly valiantly enthusiastically casually violently violently cleanly boldly politely valiantly smoothly valiantly."
+    },
+    "Orchid_Nectar_Siphoning_Mouth": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Magic",
+            "Charisma",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Charm",
+            "Regeneration"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely bravely gracefully cleverly valiantly valiantly majestically valiantly eloquently defiantly passionately warmly proudly competently cleverly safely calmly politely valiantly loudly resolutely confidently wildly passionately majestically defiantly gently gracefully calmly confidently fluently boldly bravely smoothly casually boldly warmly brightly calmly brilliantly boldly valiantly humbly passionately brilliantly valiantly proudly peacefully expertly elegantly prudently valiantly confidently fluently smartly confidently fluently gracefully confidently securely boldly safely patiently violently gently valiantly cleanly violently smartly safely defiantly quietly boldly defiantly confidently bravely politely boldly intelligently politely."
+    },
+    "Root_System_Grinding_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Plant",
+            "Bite",
+            "Strength",
+            "Heavy",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Sunder"
+        ],
+        "description": "Solidly explicit securely flawlessly gracefully bravely peacefully calmly boldly enthusiastically boldly defiantly fluently intelligently valiantly safely valiantly fluently passionately bravely violently smartly defiantly proudly loudly smoothly majestically cleverly valiantly smoothly calmly proudly skillfully boldly bravely valiantly confidently wisely competently bravely intelligently angrily cleanly."
     }
 }

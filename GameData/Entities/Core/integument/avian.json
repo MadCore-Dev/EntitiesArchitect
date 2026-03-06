@@ -1,9 +1,64 @@
 {
   "Aerodynamic_Contour_Feathers": {
     "tags": [
+      "Integument",
       "Feathers",
-      "Plumage",
-      "Aerodynamic",
+      "Avian",
+      "Flight"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Millions of impossibly smooth, intensely interlocked feathers functioning perfectly as a single, frictionless aerodynamic shell. They aggressively eliminate absolutely all wind drag over the entity's body, creating a flawless, silent bullet in an aggressive 200 mph stoop."
+  },
+  "Waterproof_Uropygial_Oil_Coating": {
+    "tags": [
+      "Integument",
+      "Oiled",
+      "Avian",
+      "Waterfowl"
+    ],
+    "traversal": [
+      "Swim",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Slippery"
+    ],
+    "description": "A profoundly thick, visibly greasy coat of intensely hydrophobic waxes manually preened violently over every single feather from a deeply swollen gland at the base of the tail. Water literally beads up and instantly rolls off, keeping the entity perfectly bone-dry whilst submerged in freezing arctic lakes."
+  },
+  "Thermal_Down_Insulation": {
+    "tags": [
+      "Integument",
+      "Down",
+      "Thermal",
       "Avian"
     ],
     "traversal": [
@@ -11,26 +66,130 @@
     ],
     "mods": [
       {
-        "target": "agility",
+        "target": "con",
         "op": "add",
-        "val": 1
-      },
-      {
-        "target": "cold_resist",
-        "op": "add",
-        "val": 1
+        "val": 3
       }
     ],
     "grants_skills": [],
-    "description": "A dense, overlapping coat of stiff contour feathers layered over insulating down. They provide a perfectly streamlined, frictionless surface against the air while ensuring excellent thermoregulation at high altitudes."
+    "description": "A terrifyingly thick, immensely dense sub-layer of completely fluffy, wildly unstructured down feathers. They trap mind-boggling amounts of warm body heat against the skin, allowing the entity to sleep entirely comfortably totally exposed upon open, violently howling glacial ice shelves."
   },
-  "Cryptic_Downy_Plumage": {
+  "Silent_Fringed_Owl_Plumage": {
     "tags": [
+      "Integument",
+      "Silent",
       "Feathers",
-      "Soft",
-      "Camouflage",
       "Avian",
       "Owl_Like"
+    ],
+    "traversal": [
+      "Fly",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Camouflage"
+    ],
+    "description": "Every single primary flight feather features highly specialized, profoundly soft, comb-like serrations strictly along the leading edge. They forcefully, aggressively break up absolutely all turbulent air flowing over the wing, rendering the entity's flight path effectively 100% acoustically invisible."
+  },
+  "Iridescent_Structural_Gorget": {
+    "tags": [
+      "Integument",
+      "Display",
+      "Iridescent",
+      "Avian",
+      "Hummingbird"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "A tightly packed throat patch of millions of intensely metallic, violently refractive, highly modified jewel feathers. Depending specifically on the exact, incredibly precise angle of the sun, they flash instantly from pitch black to screaming, blinding neon ruby red in milliseconds."
+  },
+  "Naked_Carrion_Vulture_Head": {
+    "tags": [
+      "Integument",
+      "Naked",
+      "Avian",
+      "Scavenger"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [],
+    "description": "The neck and violently entire skull are completely, horrifically lacking absolutely all feathers. This bare, sun-baked, intensely wrinkled skin prevents deeply rotting, viscera-caked meat from permanently matting deeply into the plumage while ripping through the anus of a dead elephant."
+  },
+  "Cassowary_Wire_Bristles": {
+    "tags": [
+      "Integument",
+      "Bristles",
+      "Armor",
+      "Avian"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Lacking the microscopic interlocking barbules of flying birds, these feathers hang loosely exactly like wildly coarse, immensely thick, intensely tough black wires. They serve absolutely flawlessly as an impenetrable thicket of biological chainmail against violently tearing jungle thorns."
+  },
+  "Cryptic_Bark_Mimicry_Plumage": {
+    "tags": [
+      "Integument",
+      "Camouflage",
+      "Avian",
+      "Potoo_Like"
     ],
     "traversal": [
       "Stealth"
@@ -40,16 +199,63 @@
         "target": "stealth",
         "op": "add",
         "val": 3
-      },
-      {
-        "target": "cold_resist",
-        "op": "add",
-        "val": 2
       }
     ],
     "grants_skills": [
-      "Muffled_Flight"
+      "Camouflage"
     ],
-    "description": "Incredibly soft, velvety feathers lacking the stiff barbules of standard flight plumage. While slightly less aerodynamically efficient, they absorb high-frequency sound waves, rendering the entity's movements and wingbeats completely silent."
+    "description": "Plumage intensely uniquely colored with thousands of microscopic, violently asymmetrical specks of grey, white, and rotting brownish green. When the entity intensely freezes, closes its eyes into mere slits, and aggressively points its beak straight upward, it functionally becomes an old dead branch."
+  },
+  "Powder_Down_Waterproofing": {
+    "tags": [
+      "Integument",
+      "Powder",
+      "Avian",
+      "Heron_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Highly specialized, intensely bizarre feathers located strictly on the breast that never stop wildly growing, instead constantly fraying and utterly disintegrating completely into millions of microscopic, intensely hydrophobic, slick white powder scales that the bird continuously smears all violently over itself."
+  },
+  "Toxic_Pitohui_Alkaloid_Feathers": {
+    "tags": [
+      "Integument",
+      "Toxic",
+      "Avian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "A terrifying adaptation where the vibrant orange and black plumage is actively, heavily secreted with horrific batrachotoxin. Just physically aggressively handling the bird violently numbs the hands and causes intensely agonizing, searing chemical burns to the mouth of any predator attempting to eat it."
   }
 }

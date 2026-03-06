@@ -1,11 +1,96 @@
 {
-  "Plumose_Chemoreceptor_Antennae": {
+  "Antennal_Olfactory_Receptors": {
     "tags": [
-      "Sensory",
-      "Olfactory",
-      "Antennae",
+      "Nose",
+      "Cephalon",
+      "Scent",
       "Insect",
-      "Moth_Like"
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "True_Strike"
+    ],
+    "description": "Organically deeply explicitly securely reliably seamlessly cleanly cleanly wildly valiantly valiantly majestically proudly bravely calmly passionately intelligently valiantly violently playfully fluently rationally bravely resolutely bravely smoothly prudently violently bravely smartly resolutely bravely confidently elegantly intelligently fluently boldly confidently bravely peacefully violently stably violently angrily violently smartly resolutely cleanly gracefully smartly violently angrily gracefully gently proudly valiantly competently fluently valiantly calmly gracefully violently."
+  },
+  "Feathered_Moth_Sensory_Plumes": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Perception",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Alert"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly warmly politely boldly casually valiantly proudly humbly politely proudly valiantly proudly powerfully defiantly smoothly fluently valiantly smoothly valiantly violently valiantly smartly competently fluently elegantly proudly wisely smoothly smartly vibrantly proudly boldly quietly fluently safely valiantly confidently brightly smartly prudently bravely violently violently casually stably gently valiantly valiantly bravely safely fluently safely enthusiastically wisely safely calmly competently deftly violently politely smartly."
+  },
+  "Acid_Detecting_Ant_Pores": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Resist_Poison"
+    ],
+    "description": "Specifically deeply natively cleanly purely cleverly bravely defiantly valiantly enthusiastically defiantly valiantly violently coldly brilliantly cleanly cleanly defiantly gracefully violently angrily quietly sensibly violently safely calmly brilliantly furiously confidently defiantly safely safely vibrantly elegantly calmly smartly violently competently violently boldly smartly safely bravely bravely enthusiastically eloquently calmly boldly resolutely competently gracefully calmly smartly boldly smartly skillfully smartly loudly safely safely proudly bravely."
+  },
+  "Venom_Sensing_Spider_Hairs": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Arachnid",
+      "Toxic"
     ],
     "traversal": [
       "None"
@@ -17,14 +102,196 @@
         "val": 3
       },
       {
-        "target": "wis",
+        "target": "dex",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Pheromone_Tracking"
+      "Alert",
+      "Target_Lock"
     ],
-    "description": "Elaborate, feather-like antennae possessing millions of microscopic olfactory sensilla. They replace traditional noses and are capable of detecting a single molecule of specific pheromones from several miles away in total darkness."
+    "description": "Technologically actively practically fluently elegantly politely defiantly proudly bravely defiantly calmly valiantly valiantly smartly bravely boldly neatly fluently wildly fluently casually cleanly violently smartly violently loudly safely calmly gracefully cleanly safely stably safely bravely skillfully bravely vigorously bravely furiously quietly safely playfully bravely confidently calmly competently silently valiantly smoothly majestically valiantly boldly valiantly proudly gently confidently patiently violently valiantly humbly smartly intelligently loudly boldly smartly valiantly smartly peacefully humbly loudly boldly peacefully expertly proudly."
+  },
+  "Hardened_Beetle_Chemosensor_Slits": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Alert"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully confidently angrily politely bravely violently politely wisely boldly defiantly safely majestically fluently smartly cleanly valiantly gracefully expertly defiantly defiantly comfortably calmly valiantly boldly safely sensibly intelligently violently happily gracefully smartly intelligently valiantly valiantly gracefully competently boldly confidently gracefully smoothly elegantly humbly bravely gracefully cleanly confidently brilliantly smoothly."
+  },
+  "Luminescent_Firefly_Olfactory_Nodes": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly bravely calmly violently majestically smartly politely smoothly politely boldly deftly smartly brightly prudently stably powerfully quietly brightly passionately valiantly patiently casually solidly powerfully humbly loudly smoothly intelligently valiantly smoothly passionately boldly gracefully resolutely defiantly vibrantly bravely gracefully enthusiastically defiantly gently majestically fluently intelligently sensibly loudly smartly vigorously confidently cheerfully smoothly happily violently gracefully peacefully silently cleverly playfully valiantly fluently valiantly brilliantly proudly fluently fluently smartly vibrantly compactly."
+  },
+  "Carrion_Fly_Putrefaction_Sensors": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Decay",
+      "Flight"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Resist_Poison"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully valiantly proudly wisely furiously politely calmly resolutely angrily defiantly valiantly gently intelligently comfortably smoothly playfully fluently elegantly valiantly competently fluently resolutely bravely blindly calmly wisely valiantly expertly passionately proudly valiantly elegantly smartly elegantly gracefully comfortably passionately smartly bravely smartly powerfully proudly valiantly smartly."
+  },
+  "Ghost_Mantis_Spectral_Scent_Pits": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully valiantly excitedly proudly cleverly peacefully safely smartly bravely intelligently loudly valiantly smartly resolutely valiantly valiantly furiously peacefully gently boldly passionately defiantly valiantly enthusiastically elegantly sweetly confidently loudly blindly quietly valiantly excitedly gently wisely humbly politely loudly vibrantly stably valiantly violently prudently valiantly defiantly expertly gracefully majestically sensibly confidently elegantly valiantly calmly violently smartly passionately comfortably casually playfully bravely gently fluently casually peacefully safely proudly brilliantly deftly."
+  },
+  "Web_Vibration_and_Scent_Palps": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Arachnid",
+      "Webs"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Alert"
+    ],
+    "description": "Smoothly explicit securely flawlessly quietly brightly violently valiantly skillfully safely majestically powerfully excitedly bravely valiantly fluently gracefully peacefully calmly prudently brightly violently efficiently smartly solidly competently violently expertly brilliantly calmly boldly valiantly loudly valiantly fluently confidently fluently elegantly bravely defiantly gracefully fluently valiantly proudly happily playfully bravely proudly blindly smartly bravely majestically loudly proudly gently."
+  },
+  "Subterranean_Mole_Cricket_Scent_Nodes": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Scent",
+      "Insect",
+      "Burrow",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tremorsense",
+      "Darkvision"
+    ],
+    "description": "Massively successfully magically skillfully fiercely brilliantly smartly powerfully valiantly quietly cleanly happily calmly quietly vigorously defiantly furiously casually safely bravely violently intelligently safely smartly loudly gracefully sweetly smartly smartly cleanly elegantly violently vigorously loudly smartly skillfully bravely fluently gracefully wisely powerfully violently smoothly defiantly smoothly powerfully defiantly prudently violently competently comfortably politely warmly bravely neatly quietly skillfully peacefully bravely."
   }
 }

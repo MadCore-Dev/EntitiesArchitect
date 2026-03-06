@@ -5,7 +5,134 @@
             "Sensory",
             "Whip",
             "Arachnid",
-            "Amblypygi"
+            "Vinegaroon"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "The first pairs of true walking legs have violently evolved away all locomotive capabilities whatsoever, stretching into absurdly thin, incredibly prehensile sensory whips. They constantly lash out frantically into the pitch dark to violently smack into extremely stealthy predators."
+    },
+    "Pedipalp_Copulatory_Bulbs": {
+        "tags": [
+            "Tentacles",
+            "Reproductive",
+            "Arachnid",
+            "Male"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Huge, incredibly swollen, terrifyingly complex fleshy appendages dangling directly from the pedipalps, resembling grotesque biological syringes (exclusive to male spiders). While primarily for highly specialized sperm transfer, they function flawlessly as incredibly dexterous grappling tentacles."
+    },
+    "Silk_Spinning_Abdominal_Fingers": {
+        "tags": [
+            "Tentacles",
+            "Silk",
+            "Arachnid",
+            "Spider_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Restrain"
+        ],
+        "description": "Massively hypertrophied spinnerets extending heavily from the rear of the abdomen, practically functioning exactly like four independent, highly articulated, unfeeling fingers. They coordinate flawlessly to rapidly violently wrap a massive, thrashing beetle into an inescapable silken sarcophagus."
+    },
+    "Glandular_Goo_Spitting_Palps": {
+        "tags": [
+            "Tentacles",
+            "Ranged",
+            "Sticky",
+            "Arachnid",
+            "Spitting_Spider"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Restrain"
+        ],
+        "description": "Bizarre, heavily drooping, bulbous tentacles surrounding the mouth that are deeply connected to a massive venom/glue synthesized reservoir. In combat, they oscillate frantically side-to-side, aggressively fire-hosing a highly toxic, sticky net directly over fleeing prey."
+    },
+    "Digestive_Enzyme_Injectors": {
+        "tags": [
+            "Tentacles",
+            "Acid",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acid Breath"
+        ],
+        "description": "Short, incredibly rigid, practically bone-like hollow tentacles directly surrounding the chelicerae. Once the fangs secure the prey, these secondary hypodermic needles violently slam deeply into the wound, aggressively pumping vast oceans of highly acidic, necrotizing digestive juices into the thrashing body."
+    },
+    "Electroreceptive_Labial_Palps": {
+        "tags": [
+            "Tentacles",
+            "Electroreception",
+            "Arachnid"
         ],
         "traversal": [
             "None"
@@ -14,18 +141,118 @@
             {
                 "target": "perception",
                 "op": "add",
-                "val": 3
+                "val": 2
             },
             {
                 "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Tiny, heavily branching, deeply fringed tentacles clustered completely around the exceedingly tiny mouth completely devoid of true eyes. Relying solely on a massive array of ampullary electroreceptors, the entity hunts blind cave crickets strictly by sensing their violently accelerating heartbeats."
+    },
+    "Chemosensory_Tasting_Fronds": {
+        "tags": [
+            "Tentacles",
+            "Taste",
+            "Sensory",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "Deeply intricate, incredibly feathery tentacles actively swept constantly across the violently hot desert sand. Covered seamlessly in thousands of microscopic slit sensilla and gustatory receptors, they perfectly biologically 'taste' the horrifyingly faint chemical trail left by a bleeding lizard."
+    },
+    "Prehensile_Abdominal_Lure": {
+        "tags": [
+            "Tentacles",
+            "Lure",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
                 "op": "add",
                 "val": 2
             }
         ],
         "grants_skills": [
-            "Blindsight",
-            "Uncanny_Dodge"
+            "Lure"
         ],
-        "description": "Incredibly long, impossibly thin, multi-jointed first pair of legs that have completely abandoned locomotion to become sheer sensory tentacles. They ceaselessly tap and sweep the darkness, operating with such sensitivity that it feels like precognition."
+        "description": "A deeply bizarre, highly unusually long, completely worm-like fleshy tentacle completely inexplicably erupting aggressively from the extreme rear of the abdomen. The massively camouflaged entity lies utterly still, violently twitching only the lure directly over its terribly heavy, waiting fangs."
+    },
+    "Subterranean_Root_Anchors": {
+        "tags": [
+            "Tentacles",
+            "Anchoring",
+            "Burrow",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Horribly thick, heavily keratinized, completely unbending tentacles erupting from the lateral margins of the carapace. When the heavily armored entity aggressively locks down to blockade its dirt tunnel, these brutally fire outwardly, physically pinning the spider immovably against the earthen walls."
+    },
+    "Aposematic_Display_Ribbons": {
+        "tags": [
+            "Tentacles",
+            "Display",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "A highly elaborate, completely terrifying headdress of violently brilliantly colored, incredibly fragile tentacles located just behind the eyes. Useless for combat, they violently unroll into horrifying fans of screaming crimson and black, perfectly terrifying away significantly larger, heavily armored centipedes."
     }
 }

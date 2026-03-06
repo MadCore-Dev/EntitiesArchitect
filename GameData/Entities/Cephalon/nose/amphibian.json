@@ -1,10 +1,32 @@
 {
-    "Vomeronasal_Jacobson_Cavity": {
+    "Dorsal_Valvular_Nares": {
         "tags": [
-            "Flesh",
-            "Sensory",
-            "Olfactory",
-            "Amphibian"
+            "Nose",
+            "Valves",
+            "Amphibian",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Nostrils situated at the absolute highest peak of the completely flat snout. They feature watertight muscular valves, allowing the entity to remain fully submerged in mud with only the millimeter-wide breathing pores exposed to the air."
+    },
+    "Olfactory_Tentacle_Sheaths": {
+        "tags": [
+            "Nose",
+            "Tentacles",
+            "Amphibian",
+            "Sensory"
         ],
         "traversal": [
             "None"
@@ -17,8 +39,192 @@
             }
         ],
         "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Small, muscular sheaths located immediately beneath the nostrils. They house retractable, chemosensory tentacles that carry scents physically from the environment directly into the olfactory bulbs, bypassing the air entirely."
+    },
+    "Jacobson_Organ_Clefts": {
+        "tags": [
+            "Nose",
+            "Vomeronasal",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
             "Scent_Tracking"
         ],
-        "description": "Chemoreceptive nasal epithelium paired with a deeply prominent vomeronasal (Jacobson's) organ located in the roof of the mouth. This allows for both acute aerial scent detection and the explicit chemical analysis of pheromones tasted via tongue flicks."
+        "description": "Highly developed vomeronasal (Jacobson's) organs located in the roof of the mouth. The entity constantly 'tastes' the ambient air and water passing through the nares to track pheromone trails left by fleeing prey."
+    },
+    "Elongated_Proboscis_Snout": {
+        "tags": [
+            "Nose",
+            "Proboscis",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A bizarre, highly fleshy extension of the snout pointing perfectly rigidly forward like a lance. Serving virtually no olfactory purpose, it is instead a specialized appendage used purely for species recognition and mating displays."
+    },
+    "Chemoreceptive_Nasal_Grooves": {
+        "tags": [
+            "Nose",
+            "Grooves",
+            "Aquatic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Sight"
+        ],
+        "description": "Deeply etched biological grooves running from the upper lip directly into the nostrils. They mechanically channel water directly across the olfactory rosette, granting the entity the underwater smelling capabilities of an eel."
+    },
+    "Subterranean_Filter_Nares": {
+        "tags": [
+            "Nose",
+            "Filter",
+            "Burrowing",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Nostrils completely packed with dense, interlocking sensory hairs. They trap and filter out suffocating earth and clay dust, allowing the entity to continually respire safely while frantically clawing through dense subterranean soil."
+    },
+    "Pheromone_Detecting_Pores": {
+        "tags": [
+            "Nose",
+            "Pheromones",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "Highly specialized nasal pores tuned exclusively to the extreme micro-doses of mating and distress pheromones. It can perfectly track the specific chemical signature of an injured rival from over ten miles of dense jungle."
+    },
+    "Necrotic_Scent_Glands": {
+        "tags": [
+            "Nose",
+            "Scent",
+            "Amphibian",
+            "Lure"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Specialized exocrine glands within the nasal cavity intentionally synthesize the overwhelming chemical stench of rotting meat. When exhaled slowly into the air, crowds of massive carrion flies swarm directly into the waiting jaws."
+    },
+    "Amphibious_Dual_Cavity_Nose": {
+        "tags": [
+            "Nose",
+            "Dual_Cavity",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "An incredibly advanced dual-chambered nasal system. One cavity is entirely lined with terrestrial olfactory receptors, the other with aquatic sensory hair cells. It effortlessly switches modes the moment water breaks over the snout."
+    },
+    "Reduced_Vestigial_Nostrils": {
+        "tags": [
+            "Nose",
+            "Vestigial",
+            "Amphibian",
+            "Lungless"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Possessing a completely lungless physiology (like Plethodontid salamanders), the nostrils have sealed almost completely shut and serve zero respiratory function. The entity relies entirely on cutaneous skin respiration to breathe."
     }
 }

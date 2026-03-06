@@ -1,24 +1,198 @@
 {
-    "Broad_Flattened_Cranium": {
+    "Hyper_Ossified_Casque": {
         "tags": [
-            "Flesh",
             "Bone",
-            "Flat",
+            "Casque",
             "Amphibian",
-            "Frog_Like"
+            "Armor"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "wis",
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "int",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A massive, heavy bony helmet fused directly into the skull's structure. The entity uses it to physically plug the entrance to its tree-hole or mud burrow, blocking attacking snakes with an impenetrable shield of bone."
+    },
+    "Flattened_Hydrodynamic_Skull": {
+        "tags": [
+            "Bone",
+            "Flat",
+            "Amphibian",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
                 "op": "add",
                 "val": 1
             },
             {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A skull smoothed and flattened down to absolute bare minimum contours. It slices through torrential aquatic currents effortlessly, allowing the entity to strike at microscopic prey in rushing water without generating a bow wave."
+    },
+    "Spade_Shaped_Burrowing_Head": {
+        "tags": [
+            "Bone",
+            "Spade",
+            "Amphibian",
+            "Burrow"
+        ],
+        "traversal": [
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "A highly robust, shovel-like cranium reinforced with thick ridges of calcium. Supported by immensely powerful neck muscles, it literally forcibly plows through densely packed rainforest soil."
+    },
+    "Flexible_Cartilaginous_Skull": {
+        "tags": [
+            "Cartilage",
+            "Flexible",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "natural_armor",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Squeeze"
+        ],
+        "description": "Lacking true ossification, this exceedingly loose cranial assembly can bend and warp slightly under pressure, allowing the entity's head to squeeze entirely through gaps no wider than its own spinal cord."
+    },
+    "Cranial_Co_Ossification_Shield": {
+        "tags": [
+            "Bone",
+            "Skin_Fuse",
+            "Amphibian",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
                 "target": "cha",
                 "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "An extreme evolutionary path where the actual dermis has completely calcified and fused directly to the skull bones beneath it. There is zero loose skin on the head, rendering the face an unfeeling, impervious rock."
+    },
+    "Triangular_Leaf_Mimicry_Head": {
+        "tags": [
+            "Bone",
+            "Camouflage",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "A cranium flared dramatically at the sides into sharp, extended points. When resting motionless, the shape of the head perfectly replicates the silhouette of a decaying, fallen leaf overlapping an otherwise smooth shape."
+    },
+    "Reduced_Troglobitic_Cranium": {
+        "tags": [
+            "Bone",
+            "Reduced",
+            "Amphibian",
+            "Cave_Dweller"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "An exceedingly small, almost degenerate skull abandoning robust jaw anchors and dense bone. By starving the skeletal structure of calcium, precious metabolic energy is violently redirected purely into expanding nerve bundles."
+    },
+    "Serrated_Horned_Skull": {
+        "tags": [
+            "Bone",
+            "Horns",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
                 "val": 1
             },
             {
@@ -28,22 +202,20 @@
             }
         ],
         "grants_skills": [],
-        "description": "An extremely wide, flattened skull resembling a spade. It lacks a true neck, fusing directly to the spine. While highly robust against downward impact, it severely limits lateral rotation."
+        "description": "Towering, sharp bony horns extending directly from the squamosal bones behind the eyes. Attempting to swallow the entity head-first guarantees these spikes will instantly and lethally impale the predator's esophagus."
     },
-    "Gilled_Neotenic_Skull": {
+    "Inflated_Vocal_Sac_Cranium": {
         "tags": [
-            "Flesh",
-            "Gills",
-            "Amphibian",
-            "Axolotl_Like",
-            "Aquatic"
+            "Bone",
+            "Acoustic",
+            "Amphibian"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "con",
+                "target": "cha",
                 "op": "add",
                 "val": 2
             },
@@ -54,8 +226,27 @@
             }
         ],
         "grants_skills": [
-            "Aquatic_Respiration"
+            "Intimidate"
         ],
-        "description": "A permanently juvenile, paedomorphic skull retaining three pairs of feathery external gills explicitly for extracting oxygen from murky, slow-moving water, sacrificing raw brain volume for absolute aquatic dominance."
+        "description": "A skull featuring massive, hollow resonance chambers and an extensively modified hyoid apparatus. It serves as an organic amplifier for the vocal sacs, projecting mating calls and deafening roars over the roar of waterfalls."
+    },
+    "Goliath_Broad_Cranium": {
+        "tags": [
+            "Bone",
+            "Wide",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A staggeringly wide, incredibly robust skull providing immense anchor points for jaw adductor muscles. Even without teeth, the sheer crushing force generated by these muscles can shatter avian bones effortlessly."
     }
 }

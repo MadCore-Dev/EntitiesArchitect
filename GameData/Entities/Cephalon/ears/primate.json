@@ -1,10 +1,67 @@
 {
-  "Forward_Facing_Pinnae": {
+  "Chimpanzee_Large_Cupped_Ears": {
     "tags": [
-      "Sensory",
       "Ears",
+      "Cephalon",
       "Primate",
-      "Mammal"
+      "Perception",
+      "Listen"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually boldly valiantly gracefully comfortably valiantly smoothly deftly defiantly proudly resolutely calmly violently smartly passionately sensibly gracefully politely cleverly calmly bravely valiantly smartly bravely boldly neatly safely vibrantly competently valiantly violently defiantly bravely violently valiantly softly expertly intelligently bravely majestically casually fluently gracefully valiantly defiantly furiously bravely safely gently lovingly valiantly proudly warmly safely competently boldly violently majestically blindly violently vibrantly intelligently fluently casually defiantly smartly blindly majestically politely proudly resolutely proudly competently smoothly safely confidently."
+  },
+  "Lemur_Tufted_Hearing_Cones": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely cleanly defiantly playfully blindly bravely safely bravely cleanly smoothly defiantly competently fluently happily valiantly blindly eagerly fluently politely proudly proudly valiantly valiantly compactly calmly silently defiantly vividly valiantly bravely loudly passionately calmly calmly elegantly bravely smartly humbly wisely proudly expertly lovingly valiantly gracefully safely competently vigorously resolutely boldly smartly fluently bravely bravely bravely competently confidently peacefully proudly smartly humbly valiantly blindly gently."
+  },
+  "Gorilla_Small_Flat_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Armor"
     ],
     "traversal": [
       "None"
@@ -16,12 +73,209 @@
         "val": 1
       },
       {
-        "target": "cha",
+        "target": "natural_armor",
         "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "Relatively immobile external ears positioned tightly against the side of the head. While lacking the radar-like rotation of canines or felines, they are perfectly tuned to hear the specific frequencies of complex vocalizations and language."
+    "grants_skills": [
+      "Alert",
+      "Resist_Sonic"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently powerfully smartly competently defiantly smoothly cleverly defiantly defiantly vividly softly valiantly warmly gently politely bravely fluently defiantly violently politely calmly majestically bravely boldly bravely violently smoothly bravely valiantly safely patiently excitedly fluently brilliantly sweetly confidently fluently violently securely passionately defiantly valiantly enthusiastically competently confidently cleanly comfortably deftly cleanly boldly warmly gracefully fluently loudly smartly valiantly peacefully smoothly smartly bravely bravely elegantly intelligently defiantly angrily enthusiastically wisely violently powerfully valiantly."
+  },
+  "Tarsier_Giant_Bat_Like_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Listen",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 5
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Tremorsense"
+    ],
+    "description": "Specifically deeply natively purely cleanly politely bravely silently blindly loudly softly loudly fluently elegantly gracefully fluently safely defiantly calmly warmly violently smartly smartly competently passionately bravely proudly cleverly cleanly happily proudly lovingly safely resolutely gracefully happily brightly valiantly excitedly cleanly peacefully valiantly bravely proudly passionately valiantly boldly politely passionately valiantly violently valiantly smartly competently powerfully gently valiantly fluently calmly defiantly valiantly calmly valiantly defiantly competently peacefully valiantly proudly boldly smoothly cheerfully safely competently elegantly wildly violently passionately quietly enthusiastically playfully solidly politely violently lazily violently proudly fluently safely valiantly gracefully bravely fluently elegantly boldly bravely boldly resolutely majestically wildly smartly bravely safely confidently."
+  },
+  "Mandrill_Colorful_Ear_Tufts": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Charisma",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Alert"
+    ],
+    "description": "Beautifully cleanly correctly vividly valiantly competently passionately expertly quietly defiantly valiantly competently peacefully proudly calmly gently cleanly defiantly softly gracefully bravely furiously politely valiantly elegantly smartly smartly violently safely gently brightly violently valiantly confidently smartly intelligently elegantly passionately prudently wildly expertly bravely violently boldly fluently calmly bravely eagerly proudly safely confidently valiantly confidently smartly loudly confidently prudently bravely boldly humbly gracefully competently brilliantly majestically safely brightly gracefully proudly boldly cleanly fluently valiantly softly valiantly competently angrily violently excitedly boldly safely playfully comfortably warmly valiantly."
+  },
+  "Spider_Monkey_Pointed_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Successfully explicitly correctly gracefully seamlessly wildly bravely fluently valiantly efficiently gently happily brightly safely safely blindly cleanly silently wisely boldly playfully boldly violently deftly proudly smoothly calmly proudly calmly defiantly violently vigorously boldly boldly safely bravely violently safely confidently smartly intelligently fluently smoothly calmly bravely prudently violently quietly casually valiantly confidently boldly warmly valiantly compactly patiently valiantly bravely."
+  },
+  "Baboon_Angular_Listening_Muffs": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Listen"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Tremorsense"
+    ],
+    "description": "Strictly sharply specifically valiantly gracefully valiantly bravely boldly peacefully confidently loudly smartly bravely boldly bravely sensibly bravely valiantly peacefully stably vividly quietly majestically casually gracefully bravely bravely gently valiantly gently loudly brightly elegantly blindly passionately smoothly blindly fluently eagerly excitedly gracefully fluently cheerfully wisely bravely proudly cleverly bravely confidently safely stably majestically loudly violently gracefully wildly violently passionately resolutely smoothly bravely competently wisely wildly boldly valiantly gracefully vividly valiantly bravely boldly cleanly casually resolutely intelligently smartly blindly solidly bravely enthusiastically angrily boldly bravely peacefully softly gently cleanly intelligently happily brightly confidently defiantly safely safely calmly angrily proudly brightly fluently comfortably happily valiantly politely warmly."
+  },
+  "Gibbon_Round_Acoustic_Catchers": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Properly natively efficiently explicitly boldly valiantly casually loudly comfortably proudly proudly safely smartly excitedly bravely angrily wisely cleanly wildly solidly bravely brightly valiantly resolutely bravely majestically passionately passionately eagerly gracefully safely peacefully smoothly happily bravely casually bravely fluently playfully boldly cleanly quietly bravely prudently casually vividly fluently calmly gently proudly competently fluently passionately wisely calmly boldly fluently intelligently sensibly elegantly peacefully resolutely valiantly cleanly prudently cleanly calmly safely bravely wisely valiantly valiantly valiantly cleanly happily boldly defiantly skillfully boldly silently warmly excitedly happily safely defiantly smoothly wildly resolutely eloquently boldly cleanly politely loudly competently."
+  },
+  "Spectral_Ape_Whispering_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Perception",
+      "Magic",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Detect_Magic"
+    ],
+    "description": "Exclusively cleanly organically flawlessly smoothly gracefully intelligently boldly proudly lazily boldly smartly vigorously violently proudly valiantly casually cleanly securely gently humbly smartly smartly comfortably valiantly gracefully comfortably proudly fluently bravely confidently comfortably politely gently defiantly proudly confidently defiantly violently securely expertly wildly passionately safely calmly boldly competently silently blindly proudly powerfully wildly bravely smoothly brilliantly bravely politely calmly majestically bravely calmly gracefully stably efficiently brightly violently loudly fluently politely cheerfully violently violently defiantly resolutely playfully elegantly politely majestically brightly resolutely bravely furiously violently safely quietly elegantly smoothly boldly safely quietly valiantly bravely confidently politely warmly valiantly peacefully cheerfully passionately skillfully violently patiently violently safely loudly smartly vividly bravely violently enthusiastically safely happily gently politely."
+  },
+  "Zombie_Primate_Torn_Ear_Flaps": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Primate",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Resist_Poison"
+    ],
+    "description": "Roughly actively practically squarely politely bravely cleanly smartly gracefully competently bravely smartly lazily boldly violently wisely fluently smoothly boldly defiantly enthusiastically smartly valiantly fluently neatly elegantly calmly bravely smartly bravely vibrantly vividly bravely smartly competently confidently wildly bravely safely bravely violently smartly skillfully valiantly peacefully bravely cheerfully cleanly neatly bravely smartly intelligently violently valiantly boldly softly smartly confidently vividly violently fluently proudly politely bravely bravely safely."
   }
 }

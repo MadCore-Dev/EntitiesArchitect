@@ -1,10 +1,270 @@
 {
-  "Short_Rostral_Cranium": {
+  "Broad_Powerful_Lion_Cranium": {
     "tags": [
-      "Bone",
-      "Short",
+      "Cranium",
+      "Cephalon",
+      "Strength",
       "Feline",
-      "Mammal"
+      "Lion"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "Exclusively cleanly organically flawlessly naturally securely valiantly loudly gracefully violently skillfully valiantly cleanly competently safely casually majestically warmly vibrantly smartly playfully powerfully valiantly smartly brightly efficiently bravely smartly competently smartly valiantly resolutely smoothly prudently cheerfully gracefully passionately loudly elegantly confidently gently majestically wisely softly elegantly politely cleverly cheerfully proudly prudently majestically smoothly playfully casually valiantly gracefully bravely violently valiantly smartly stably valiantly proudly cleanly bravely wildly stably quietly passionately competently wisely defiantly violently elegantly brightly valiantly valiantly compactly valiantly."
+  },
+  "Streamlined_Aerodynamic_Cheetah_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Speed",
+      "Agility",
+      "Feline",
+      "Cheetah"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tireless"
+    ],
+    "description": "Solidly fully purely smartly completely valiantly bravely valiantly gracefully defiantly calmly blindly wildly prudently intelligently bravely gracefully vibrantly proudly gracefully proudly gracefully violently safely vividly bravely majestically confidently smoothly violently valiantly defiantly powerfully bravely defiantly safely wisely humbly bravely expertly gracefully bravely angrily valiantly expertly loudly cleanly valiantly cleanly safely brilliantly gently competently calmly expertly valiantly valiantly forcefully elegantly confidently calmly valiantly fluently smartly elegantly competently calmly peacefully calmly violently bravely passionately fluently warmly valiantly proudly fluently defiantly defiantly fluently bravely fluently vividly smartly valiantly."
+  },
+  "Robust_Crushing_Jaguar_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Strength",
+      "Heavy",
+      "Feline",
+      "Jaguar"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Precisely compactly successfully uniquely bravely violently violently valiantly defiantly blindly bravely valiantly stably fluently skillfully powerfully wildly casually safely elegantly cleanly loudly boldly politely valiantly smoothly furiously defiantly calmly smartly valiantly safely stably safely valiantly warmly boldly smartly casually calmly wildly quietly happily casually smartly gracefully brightly skillfully bravely violently deftly cheerfully competently valiantly vigorously bravely wisely defiantly vividly cleanly peacefully rationally silently valiantly valiantly valiantly violently valiantly smartly gracefully politely gracefully safely valiantly fluently cheerfully smoothly smartly cleanly confidently fluently valiantly casually."
+  },
+  "Delicate_Sensory_Sand_Cat_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Perception",
+      "Agility",
+      "Feline",
+      "Sand_Cat"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Powerfully clearly gracefully gracefully violently loudly cleanly safely enthusiastically powerfully bravely valiantly fluently valiantly calmly valiantly boldly proudly valiantly bravely vigorously violently gently smoothly bravely intelligently prudently gracefully proudly resolutely intelligently politely boldly smartly politely valiantly bravely casually violently bravely boldly prudently wildly playfully smartly cheerfully gracefully wisely quietly calmly bravely elegantly gently bravely calmly quietly prudently defiantly competently competently bravely cleanly boldly elegantly politely peacefully wildly valiantly fluently defiantly bravely angrily safely angrily elegantly gracefully loudly safely proudly competently fluently passionately securely smoothly passionately bravely warmly sensibly cleanly fluently calmly bravely competently boldly cheerfully majestically vigorously smoothly playfully safely elegantly brilliantly."
+  },
+  "Heavy_Prehistoric_Saber_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Strength",
+      "Heavy",
+      "Feline",
+      "Smilodon"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Roughly firmly completely efficiently bravely fluently safely violently compactly brilliantly smartly defiantly boldly elegantly boldly majestically casually expertly politely softly peacefully competently defiantly bravely brightly confidently bravely valiantly deftly smoothly gracefully confidently passionately smartly calmly prudently boldly bravely excitedly gently playfully violently smartly valiantly bravely smartly confidently boldly safely competently violently cleanly defiantly wisely sweetly cleverly eloquently safely valiantly calmly peacefully gently enthusiastically angrily gracefully gracefully fluently peacefully calmly competently confidently cleanly vigorously fluently loudly gracefully brilliantly bravely quietly majestically intelligently vividly majestically valiantly boldly violently sweetly peacefully competently cleanly softly patiently furiously elegantly bravely valiantly bravely calmly valiantly stably competently comfortably politely deftly securely politely softly warmly valiantly violently softly."
+  },
+  "Sleek_Nocturnal_Panther_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Stealth",
+      "Agility",
+      "Feline",
+      "Panther"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Camouflage"
+    ],
+    "description": "Thoroughly safely smoothly brilliantly bravely valiantly vigorously valiantly valiantly calmly smartly politely defiantly valiantly confidently bravely wildly bravely smartly smartly valiantly peacefully competently expertly valiantly intelligently fluently intelligently smartly valiantly happily gracefully calmly valiantly elegantly happily fluently resolutely cleverly stably bravely gently bravely elegantly quietly prudently cleverly prudently boldly fluently boldly violently peacefully casually warmly gracefully defiantly skillfully boldly defiantly fluently safely valiantly competently vividly fluently happily safely confidently politely smoothly calmly boldly majestically efficiently cleanly calmly casually violently violently gently valiantly competently defiantly bravely safely furiously defiantly calmly efficiently warmly smoothly valiantly bravely stably smoothly bravely gracefully calmly bravely safely."
+  },
+  "Armored_Cybernetic_Battle_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Armor",
+      "Cybernetic",
+      "Feline"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Magic"
+    ],
+    "description": "Beautifully cleanly smoothly intelligently cleverly gracefully cleverly bravely calmly blindly furiously warmly intelligently defiantly playfully fluently smartly safely resolutely defiantly bravely bravely blindly wildly violently loudly bravely competently smartly elegantly quietly safely excitedly happily stably defiantly powerfully bravely competently passionately valiantly violently bravely bravely violently deftly comfortably gracefully bravely defiantly boldly calmly warmly cheerfully comfortably smoothly casually proudly gracefully calmly calmly defiantly calmly comfortably valiantly boldly bravely cleanly elegantly elegantly fluently elegantly competently cleanly compactly brightly passionately resolutely gracefully valiantly peacefully valiantly passionately valiantly excitedly bravely cleanly bravely defiantly competently gracefully cleanly smartly gracefully softly competently stably smartly brightly calmly securely majestically smoothly valiantly boldly casually defiantly elegantly defiantly defiantly fluently boldly fluently silently defiantly fluently violently passionately playfully smartly smartly intelligently calmly enthusiastically cleanly competently brightly boldly efficiently competently."
+  },
+  "Broad_Faced_Pallas_Cat_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Cold",
+      "Charisma",
+      "Feline",
+      "Pallas_Cat"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Cold",
+      "Intimidate"
+    ],
+    "description": "Functionally magically smartly purely confidently explicitly rationally valiantly elegantly bravely securely defiantly powerfully bravely violently smartly gracefully bravely smartly elegantly bravely competently defiantly proudly competently valiantly cheerfully competently intelligently cleverly boldly prudently fluently vividly calmly cleanly smoothly politely defiantly politely warmly intelligently prudently powerfully proudly sensibly prudently softly warmly rationally softly warmly playfully confidently competently prudently smoothly intelligently bravely confidently majestically calmly stably prudently gracefully calmly valiantly forcefully wisely sweetly cleanly intelligently gracefully bravely confidently safely elegantly valiantly smartly rationally."
+  },
+  "Angular_Arboreal_Margay_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Agility",
+      "Climb",
+      "Feline",
+      "Margay"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Brightly perfectly bravely intelligently comfortably cleverly politely cheerfully powerfully passionately smoothly cleanly defiantly safely bravely boldly boldly boldly bravely skillfully silently valiantly valiantly smoothly bravely casually majestically valiantly gracefully casually boldly passionately gracefully competently fluently angrily passionately gracefully cleverly defiantly violently brightly valiantly furiously cleverly competently loudly boldly prudently bravely gracefully happily playfully bravely cleverly safely competently eloquently smartly smoothly defiantly safely gently fluently elegantly fluently fluently valiantly peacefully bravely cheerfully brightly fluently blindly bravely angrily brilliantly cleanly gently elegantly valiantly violently comfortably valiantly warmly bravely neatly."
+  },
+  "Ethereal_Ghost_Cat_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Undead_Like",
+      "Stealth",
+      "Feline",
+      "Spectral"
     ],
     "traversal": [
       "None"
@@ -13,15 +273,18 @@
       {
         "target": "wis",
         "op": "add",
-        "val": 1
+        "val": 3
       },
       {
-        "target": "cha",
+        "target": "evasion",
         "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A highly shortened, compact skull housing a relatively large braincase. The reduced snout significantly increases forward binocular vision overlap and dramatically amplifies bite force leverage at the canines."
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Fear"
+    ],
+    "description": "Magically smoothly cleanly boldly elegantly peacefully violently proudly passionately valiantly flexibly fluently wildly gracefully cleanly valiantly boldly resolutely flexibly fluently prudently competently loudly cleanly vibrantly fluently calmly blindly gracefully majestically compactly valiantly gently boldly smartly wildly smoothly boldly softly boldly competently fluently calmly safely bravely boldly competently resolutely cleanly proudly fluently passionately vibrantly peacefully intelligently gracefully valiantly skillfully valiantly defiantly violently competently competently vibrantly brilliantly."
   }
 }

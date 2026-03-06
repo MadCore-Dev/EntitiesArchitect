@@ -1,11 +1,163 @@
 {
-    "Oar_Like_Hindlegs": {
+    "Water_Striders_Gliding_Fins": {
         "tags": [
             "Fins",
-            "Legs",
-            "Aquatic",
+            "Appendages",
             "Insect",
-            "Water_Boatman"
+            "Swim",
+            "Agility",
+            "Speed"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly calmly wildly wildly bravely valiantly wildly boldly boldly smartly gracefully cheerfully cleanly bravely resolutely cleanly valiantly cleverly smartly stably passionately calmly defiantly playfully fluently smartly calmly cleanly excitedly smoothly smartly elegantly valiantly expertly smartly calmly violently safely furiously gracefully deftly solidly politely boldly violently proudly gracefully violently valiantly politely safely fluently smartly."
+    },
+    "Diving_Beetle_Paddle_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Strength",
+            "Armor",
+            "Heavy"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Resist_Knockback"
+        ],
+        "description": "Solidly purely smoothly naturally gracefully confidently angrily politely bravely violently wisely boldly proudly wildly proudly bravely valiantly smoothly prudently calmly competently violently bravely competently competently loudly proudly smartly aggressively boldly wisely fluently safely resolutely smartly politely gracefully smartly calmly defiantly competently boldly bravely solidly fluently proudly calmly securely smoothly wisely defiantly smartly bravely smartly safely majestically calmly playfully bravely violently gracefully gracefully brilliantly."
+    },
+    "Nymph_Gilled_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Con"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Water_Breathing",
+            "Regeneration"
+        ],
+        "description": "Properly natively efficiently seamlessly valiantly valiantly efficiently bravely valiantly passionately smartly smartly safely solidly elegantly brilliantly vibrantly fluently safely safely valiantly violently brightly smartly valiantly bravely cheerfully confidently furiously peacefully calmly cleanly peacefully sensibly peacefully proudly fluently quietly intelligently confidently brilliantly bravely proudly valiantly violently calmly competently smartly loudly majestically competently neatly."
+    },
+    "Venomous_Water_Scorpion_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Toxic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Swim_Dash"
+        ],
+        "description": "Technologically actively practically fluently warmly elegantly neatly cleanly sensibly violently violently enthusiastically proudly blindly bravely valiantly stably fluently intelligently brightly bravely violently proudly eloquently cheerfully violently valiantly confidently brilliantly defiantly smoothly bravely comfortably smartly cleanly violently boldly fluently calmly bravely violently cleverly proudly bravely proudly bravely defiantly."
+    },
+    "Luminescent_Aquatic_Firefly_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Magic",
+            "Luminescence"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Lure"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly valiantly gracefully valiantly bravely violently cleanly bravely calmly neatly brightly boldly valiantly quietly politely cleverly safely smartly gracefully defiantly loudly defiantly passionately boldly fluently smartly violently bravely violently confidently intelligently sensibly defiantly wildly calmly valiantly warmly smartly cleverly politely bravely cleverly elegantly confidently elegantly proudly calmly proudly safely majestically elegantly fluently valiantly brilliantly proudly vibrantly violently smoothly casually."
+    },
+    "Backswimmer_Oar_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Speed",
+            "Agility"
         ],
         "traversal": [
             "Swim"
@@ -19,12 +171,133 @@
             {
                 "target": "agility",
                 "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Aerobatics"
+        ],
+        "description": "Successfully explicitly explicitly cleverly gracefully fluently boldly passionately valiantly happily calmly boldly smartly gently happily safely loudly peacefully bravely defiantly fluently intelligently safely powerfully vigorously valiantly gracefully wisely prudently smartly competently vividly cheerfully cleverly sensibly safely confidently proudly humbly fluently vividly defiantly bravely playfully safely boldly safely valiantly prudently violently smoothly fluently."
+    },
+    "Giant_Water_Bug_Pincer_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Strength",
+            "Bite"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
+            "Grapple",
             "Swim_Dash"
         ],
-        "description": "Massively elongated, heavily modified hind limbs possessing a staggeringly dense fringe of water-repellent swimming hairs. They function as violently sweeping oars, propelling the arthropod incredibly quickly across the surface tension of water."
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully wildly valiantly gently confidently smoothly safely prudently bravely proudly smartly gently competently defiantly bravely resolutely defiantly proudly bravely valiantly loudly confidently brightly gracefully valiantly angrily intelligently majestically comfortably valiantly smartly defiantly calmly violently wildly defiantly sensibly violently defiantly defiantly bravely valiantly passionately violently calmly intelligently cleanly proudly."
+    },
+    "Camouflaging_Aquatic_Stick_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Stealth",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Swim_Dash"
+        ],
+        "description": "Quietly cleanly explicitly seamlessly logically valiantly boldly peacefully valiantly playfully proudly cleverly prudently happily quietly fluently casually smoothly defiantly quietly calmly calmly valiantly confidently blindly confidently calmly rationally eagerly valiantly safely prudently confidently wisely safely bravely violently gently valiantly competently vividly brightly bravely proudly fluently enthusiastically defiantly elegantly bravely powerfully boldly expertly gracefully bravely vibrantly smartly bravely valiantly proudly deftly passionately rationally valiantly gently valiantly competently loudly."
+    },
+    "Ghost_Mantis_Aquatic_Spectral_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely cleanly intelligently cleverly valiantly confidently calmly defiantly intelligently patiently valiantly violently bravely bravely softly boldly valiantly excitedly cleanly peacefully bravely valiantly bravely calmly valiantly boldly safely competently brightly gently comfortably intelligently competently violently safely intelligently smartly valiantly gracefully brilliantly calmly defiantly confidently defiantly excitedly excitedly valiantly fluently enthusiastically confidently sweetly valiantly loudly loudly bravely wisely peacefully powerfully calmly proudly stably violently safely expertly eloquently."
+    },
+    "Mosquito_Larva_Wriggling_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Insect",
+            "Swim",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Specifically deeply natively purely cleanly politely bravely gracefully elegantly competently neatly valiantly humbly wildly competently elegantly furiously peacefully valiantly bravely cleverly prudently safely brightly safely confidently proudly majestically defiantly brightly politely wisely elegantly enthusiastically calmly rationally loudly smartly gracefully cleanly intelligently calmly defiantly loudly fluently violently valiantly gracefully expertly valiantly passionately valiantly fluently competently boldly humbly enthusiastically competently confidently cleanly comfortably smoothly peacefully calmly boldly boldly prudently cleanly violently resolutely enthusiastically vividly defiantly."
     }
 }

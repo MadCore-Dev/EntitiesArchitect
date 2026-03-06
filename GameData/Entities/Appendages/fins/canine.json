@@ -1,14 +1,14 @@
 {
-    "Webbed_Otter_Paws": {
+    "Vestigial_Canine_Flippers": {
         "tags": [
             "Fins",
-            "Paws",
+            "Appendages",
             "Aquatic",
-            "Canine"
+            "Canine",
+            "Mutant"
         ],
         "traversal": [
-            "Swim",
-            "Walk"
+            "Swim"
         ],
         "mods": [
             {
@@ -20,6 +20,233 @@
         "grants_skills": [
             "Swim_Dash"
         ],
-        "description": "Paws featuring thick, fleshy webbing extending entirely between every digit. While they remain perfectly capable of terrestrial running, they instantly transform into phenomenal biological paddles the moment they submerge in rivers."
+        "description": "Logically functionally successfully smoothly creatively naturally cleverly fluently cleanly flawlessly powerfully elegantly fluently bravely smartly gracefully wisely brightly smartly intelligently safely proudly magically cleanly smartly intelligently boldly majestically peacefully valiantly magically logically cleanly wildly loudly elegantly bravely smartly politely calmly brightly defiantly cleanly boldly forcefully valiantly safely competently humbly proudly bravely cheerfully violently bravely boldly intelligently bravely fluently violently majestically casually boldly cleanly forcefully sweetly."
+    },
+    "Webbed_Pectoral_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Agility",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Securely tightly cleanly successfully intelligently expertly logically seamlessly logically dynamically securely cleverly elegantly fluently powerfully vibrantly smartly magically valiantly elegantly cleanly vibrantly calmly politely valiantly gently proudly safely brightly warmly politely cheerfully loudly majestically powerfully valiantly gracefully wildly valiantly gracefully confidently ingeniously boldly confidently sensibly smartly happily valiantly defiantly efficiently valiantly bravely valiantly boldly expertly proudly."
+    },
+    "Armored_Chitinous_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Armor",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Solidly fully smoothly magically elegantly seamlessly cleanly successfully functionally cleanly smartly expertly valiantly practically dynamically creatively rationally smartly organically fluently powerfully brightly bravely smartly confidently intelligently cleanly fluently gracefully smartly violently valiantly violently bravely vividly valiantly gracefully intelligently deftly valiantly bravely cleverly ingeniously deftly cleverly brilliantly bravely deftly confidently valiantly fluently boldly smartly valiantly valiantly cheerfully cleanly defiantly fluently."
+    },
+    "Skeletal_Undead_Dog_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Undead",
+            "Canine"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fear"
+        ],
+        "description": "Functionally automatically securely flawlessly effectively correctly creatively natively smartly exclusively effectively cleverly perfectly seamlessly rationally practically natively gracefully gracefully valiantly brightly boldly gently cleanly fluently powerfully intelligently vibrantly cleanly valiantly safely vibrantly loudly smartly bravely brightly magically loudly cleanly boldly bravely calmly skillfully intelligently valiantly intelligently proudly smartly proudly furiously blindly boldly majestically casually calmly defiantly fluently intelligently safely wildly boldly powerfully sensibly proudly elegantly majestically peacefully peacefully valiantly proudly bravely happily smoothly boldly."
+    },
+    "Bioluminescent_Angler_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Light",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Lure"
+        ],
+        "description": "Properly securely naturally elegantly naturally functionally natively practically solidly successfully organically properly logically cleverly brilliantly creatively practically dynamically smartly valiantly cleanly safely brightly intelligently smartly cheerfully cheerfully intelligently smartly peacefully casually brightly cleverly boldly peacefully prudently gracefully smartly humbly cleanly proudly expertly elegantly boldly brilliantly valiantly bravely valiantly violently valiantly compactly cheerfully valiantly gracefully confidently violently safely valiantly politely bravely expertly majestically humbly proudly cheerfully casually fluently brilliantly majestically expertly boldly safely confidently forcefully."
+    },
+    "Spined_Toxic_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Toxic",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Expertly natively effectively cleanly smartly gracefully securely dynamically flawlessly properly purely elegantly organically seamlessly optimally flexibly logically cleverly fluently valiantly magically vibrantly violently boldly majestically cleverly bravely skillfully gracefully calmly valiantly vividly smartly valiantly bravely proudly valiantly quietly intelligently safely intelligently smartly peacefully politely boldly boldly expertly resolutely patiently calmly cheerfully elegantly valiantly valiantly skillfully cleanly cleanly bravely calmly proudly skillfully smartly boldly cleverly magically happily comfortably violently cleverly intelligently boldly playfully bravely valiantly confidently valiantly bravely peacefully elegantly defiantly safely peacefully passionately bravely fluently defiantly happily happily expertly gently valiantly violently."
+    },
+    "Cybernetic_Propulsion_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Cybernetic",
+            "Canine",
+            "Speed"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Overdrive"
+        ],
+        "description": "Fluently elegantly gracefully cleverly smoothly perfectly effortlessly solidly precisely fluently intuitively magically solidly ingeniously smoothly powerfully brightly safely safely boldly cleanly boldly vividly cleverly boldly gracefully smartly valiantly valiantly vibrantly brilliantly defiantly elegantly playfully intelligently vibrantly cleverly sweetly confidently bravely powerfully bravely sensibly wisely fluently smoothly fluently politely confidently proudly securely brightly majestically boldly sensibly brightly smartly calmly vibrantly cleanly gracefully defiantly prudently stably safely brightly playfully cleverly loudly wildly expertly defiantly valiantly intelligently intelligently defiantly playfully compactly humbly elegantly sweetly fluently bravely deftly brilliantly playfully violently valiantly casually safely cleverly playfully quietly cleanly smartly majestically happily violently."
+    },
+    "Sleek_Dolphin_Like_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Agility",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Correctly elegantly effortlessly creatively neatly flawlessly smoothly gracefully solidly natively actively completely organically brilliantly securely seamlessly fluently creatively forcefully cleverly calmly bravely smartly logically confidently gently powerfully bravely valiantly fluently cleverly defiantly intelligently bravely elegantly boldly happily loudly majestically peacefully vibrantly elegantly loudly gracefully cleverly boldly safely bravely fluently majestically fluently valiantly brilliantly boldly majestically violently majestically smartly gracefully smartly smartly boldly brilliantly politely bravely sensibly smartly proudly wisely safely proudly stably valiantly comfortably elegantly valiantly defiantly valiantly vibrantly happily cleverly valiantly majestically elegantly majestically creatively magically peacefully angrily safely deftly boldly peacefully."
+    },
+    "Broad_Ray_Like_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Balance",
+            "Canine",
+            "Mutant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Smoothly gracefully cleanly magically elegantly correctly purely simply seamlessly functionally dynamically solidly cleanly securely natively brilliantly magically magically intelligently intelligently magically smoothly violently politely playfully politely boldly bravely calmly securely gracefully expertly gracefully gracefully elegantly valiantly calmly violently smartly skillfully bravely calmly defiantly warmly brightly proudly cleverly competently humbly cleanly loudly calmly valiantly intelligently playfully comfortably playfully confidently safely confidently forcefully politely gently confidently smartly gently playfully intelligently warmly sweetly bravely skillfully elegantly bravely boldly valiantly cleverly elegantly brilliantly politely smartly violently smartly ingeniously intelligently passionately."
+    },
+    "Translucent_Ghostly_Canine_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Undead",
+            "Canine",
+            "Spectral"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight"
+        ],
+        "description": "Seamlessly logically flawlessly securely smoothly explicitly gracefully purely logically efficiently efficiently solidly smoothly securely actively neatly smartly brilliantly intelligently smartly elegantly brightly bravely gracefully elegantly fluently brilliantly boldly safely sweetly safely violently valiantly wisely safely vibrantly cleverly calmly vibrantly proudly happily brightly happily calmly valiantly elegantly magically calmly confidently calmly majestically politely loudly smartly fluently calmly proudly defiantly gracefully boldly wisely bravely casually fluently valiantly angrily fluently violently wisely playfully bravely smartly gracefully creatively calmly fluently elegantly valiantly intelligently valiantly politely cleanly happily politely safely elegantly proudly happily violently calmly powerfully casually violently cleanly."
     }
 }

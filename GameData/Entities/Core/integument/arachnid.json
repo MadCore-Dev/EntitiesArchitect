@@ -1,10 +1,32 @@
 {
-    "Sclerotized_Chitin_Plating": {
+    "Urticating_Barbed_Hairs": {
         "tags": [
-            "Chitin",
-            "Hard",
-            "Sclerotin",
-            "Arachnid"
+            "Exoskeleton",
+            "Hairs",
+            "Arachnid",
+            "Tarantula"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "A thick, velvety covering of violently irritating, barbed hairs over the abdomen. When threatened, the entity furiously kicks these microscopic spears directly into the blinding eyes and mucous membranes of any attacking predator."
+    },
+    "Sclerotized_Chitin_Plates": {
+        "tags": [
+            "Exoskeleton",
+            "Plates",
+            "Arachnid",
+            "Scorpion_Like"
         ],
         "traversal": [
             "None"
@@ -13,10 +35,10 @@
             {
                 "target": "natural_armor",
                 "op": "add",
-                "val": 3
+                "val": 4
             },
             {
-                "target": "dex",
+                "target": "stealth",
                 "op": "subtract",
                 "val": 1
             }
@@ -24,14 +46,115 @@
         "grants_skills": [
             "Block"
         ],
-        "description": "Thick, hardened sclerotin plates offering substantial deflection of physical blows, though the rigid joints incur a slight penalty to fine motor agility."
+        "description": "Thick, heavily overlapping plates of intensely hardened, darkly tanned chitin forming an impenetrable suit of organic armor. Impervious to stings, bites, and the desiccating intense heat of the high desert."
     },
-    "Urticating_Hirsute_Cuticle": {
+    "Cryptic_Crab_Spider_Mimicry": {
         "tags": [
-            "Hair",
-            "Bristles",
-            "Flesh",
-            "Sensory",
+            "Exoskeleton",
+            "Camouflage",
+            "Arachnid",
+            "Crab_Spider"
+        ],
+        "traversal": [
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "A smooth, highly malleable exoskeleton capable of actively altering its pigmentation over a period of days to perfectly, flawlessly match the exact ultraviolet hue and visual signature of whatever flower the entity currently inhabits."
+    },
+    "Iridescent_Jumping_Scale_Dust": {
+        "tags": [
+            "Exoskeleton",
+            "Iridescent",
+            "Arachnid",
+            "Jumping_Spider"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Covered entirely in microscopic, specialized scales similar to a butterfly's wing. They refract light explosively, producing dazzling, blinding flashes of structural color during highly complex, hypnotic mating dances or aggressive territorial displays."
+    },
+    "Hydrophobic_Velvet_Coating": {
+        "tags": [
+            "Exoskeleton",
+            "Velvet",
+            "Arachnid",
+            "Fishing_Spider"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Slippery"
+        ],
+        "description": "An unbelievably dense, velvet-like coating of completely water-repellent micro-bristles. It distributes weight so perfectly that the massive entity cannot accidentally break the surface tension of a pond, physically running effortlessly atop the water."
+    },
+    "Heavily_Spiked_Abdomen_Shell": {
+        "tags": [
+            "Exoskeleton",
+            "Spikes",
+            "Arachnid",
+            "Spiny_Orb_Weaver"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc"
+        ],
+        "description": "The abdomen consists of an intensely rigid, shield-like heavily calcified disk prominently featuring several massive, wildly colored spikes. Any avian predator attempting to swallow this is guaranteed a fatal puncture wound to the throat."
+    },
+    "Glandular_Glue_Secreting_Pores": {
+        "tags": [
+            "Exoskeleton",
+            "Sticky",
             "Arachnid"
         ],
         "traversal": [
@@ -42,16 +165,88 @@
                 "target": "natural_armor",
                 "op": "add",
                 "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "In addition to silk spinnerets, the entire carapace continually oozes a highly viscous, rapidly hardening biological glue. Attacking predators find their own mandibles immediately and permanently glued shut upon biting the entity."
+    },
+    "Fleshy_Parasitic_Engorgement_Sac": {
+        "tags": [
+            "Exoskeleton",
+            "Elastic",
+            "Arachnid",
+            "Tick_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
             },
             {
-                "target": "perception",
+                "target": "agility",
+                "op": "subtract",
+                "val": 3
+            }
+        ],
+        "grants_skills": [],
+        "description": "A terrifyingly highly elastic, heavily folded leathery exoskeleton. It is capable of stretching to hundreds of times its original volume when violently engorged on the freshly stolen blood of a mammalian host."
+    },
+    "Necrotic_Detritus_Armor": {
+        "tags": [
+            "Exoskeleton",
+            "Debris",
+            "Arachnid",
+            "Camouflage"
+        ],
+        "traversal": [
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
                 "op": "add",
+                "val": 4
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
                 "val": 2
             }
         ],
         "grants_skills": [
-            "Bristle_Shed"
+            "Camouflage"
         ],
-        "description": "A dense covering of fine, sensitive hairs that detect micro-currents in the air. While offering minimal armor, these urticating bristles can be violently shed to blind and irritate attackers."
+        "description": "A sticky exoskeleton intentionally covered in the horrific, rotting husks of thousands of its previous victims, perfectly woven together with silk. It breaks up the entity's silhouette flawlessly while smelling identical to a corpse."
+    },
+    "Subterranean_Pigmentless_Chitin": {
+        "tags": [
+            "Exoskeleton",
+            "Pigmentless",
+            "Burrowing",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A terribly fragile, ghostly white, entirely pigment-free exoskeleton resulting from millions of years spent trapped in pitch-dark, sealed cave systems. Burns furiously and painfully if ever exposed to true sunlight."
     }
 }

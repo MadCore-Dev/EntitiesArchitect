@@ -1,12 +1,10 @@
 {
-    "Laterally_Compressed_Swimming_Tail": {
+    "Deep_Keeled_Swimming_Tail": {
         "tags": [
-            "Flesh",
-            "Fin",
-            "Swimming",
             "Tail",
+            "Swimming",
             "Amphibian",
-            "Salamander_Like"
+            "Newt_Like"
         ],
         "traversal": [
             "Swim"
@@ -24,17 +22,14 @@
             }
         ],
         "grants_skills": [
-            "Tail_Whip",
             "Swim_Dash"
         ],
-        "description": "A long, muscular tail that is laterally flattened like a paddle, featuring a continuous dorsal and ventral fin fold. It acts as the primary means of aquatic propulsion, generating massive thrust through undulating waves."
+        "description": "An incredibly deep, laterally compressed tail featuring a prominent upper and lower fleshy fin margin. It provides phenomenal forward thrust during sinusoidal swimming motions in dense marsh water."
     },
     "Prehensile_Arboreal_Tail": {
         "tags": [
-            "Flesh",
-            "Sticky",
-            "Climbing",
             "Tail",
+            "Prehensile",
             "Amphibian",
             "Salamander_Like"
         ],
@@ -45,18 +40,215 @@
             {
                 "target": "dex",
                 "op": "add",
-                "val": 2
+                "val": 1
             },
             {
-                "target": "evasion",
+                "target": "agility",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Grapple",
             "Spider_Climb"
         ],
-        "description": "A slender, grasping tail entirely devoid of swimming fins. Evolved strictly for arboreal salamanders, it curls tightly around branches, functioning as a highly dexterous fifth limb while hunting in the tree canopy."
+        "description": "A highly muscular, incredibly flexible tail capable of independently grasping and tightly coiling around slick branches. It functions perfectly as an indispensable fifth limb during precarious high-canopy navigation."
+    },
+    "Aposematic_Lure_Tail": {
+        "tags": [
+            "Tail",
+            "Lure",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "The tip of the tail is dramatically colored in blazing reds or yellows and twitches erratically, perfectly mimicking a struggling worm. It effortlessly draws completely oblivious prey directly into striking range of the jaws."
+    },
+    "Autotomic_Decoy_Tail": {
+        "tags": [
+            "Tail",
+            "Autotomy",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "A tail featuring specialized fracture planes in the vertebrae. When grabbed by a predator, the tail instantly severs itself autonomously, writhing violently on the ground to serve as a high-value biological decoy while the entity escapes."
+    },
+    "Glandular_Fat_Storage_Tail": {
+        "tags": [
+            "Tail",
+            "Storage",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An immensely swollen, absurdly thick tail packed solidly with dense lipid reserves. It guarantees absolute survival during multi-year subterranean droughts, but severely hampers terrestrial running speed."
+    },
+    "Serrated_Comb_Tail": {
+        "tags": [
+            "Tail",
+            "Spines",
+            "Weapon",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip"
+        ],
+        "description": "The dorsal ridge of the tail features a series of intensely sharp, heavily keratinized spines. Sweeping the tail violently side-to-side can inflict profound, lacerating wounds on pursuing aquatic predators."
+    },
+    "Rudder_Like_Flattened_Tail": {
+        "tags": [
+            "Tail",
+            "Flat",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "A tail aggressively flattened top-to-bottom like a beaver's. Rather than thrust, it serves primarily as an exceptional biological rudder for tight, high-speed underwater hairpin turns."
+    },
+    "Toxic_Secretion_Caudal_Glands": {
+        "tags": [
+            "Tail",
+            "Toxic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "The entire length of the tail is densely packed with specialized exocrine glands. When threatened, the entity assumes a defensive posture and violently secretes a blinding, mucosal neurotoxin directly from its tail."
+    },
+    "Vestigial_Stump_Tail": {
+        "tags": [
+            "Tail",
+            "Vestigial",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An evolutionary remnant representing the total loss of a true tail (anurans). The lack of trailing biomass slightly improves aerodynamic leaping distance and denies predators an easy grasping point."
+    },
+    "Dorsal_Respiratory_Fin_Tail": {
+        "tags": [
+            "Tail",
+            "Respiration",
+            "Amphibian",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "hp",
+                "op": "add",
+                "val": 5
+            }
+        ],
+        "grants_skills": [
+            "Aquatic_Respiration"
+        ],
+        "description": "A phenomenally developed tail fin consisting almost entirely of highly vascularized, exposed capillary beds. Evolved for oxygen-poor stagnant water, the tail itself actively pulls oxygen directly from the surrounding muck."
     }
 }

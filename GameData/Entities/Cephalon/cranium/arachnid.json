@@ -1,41 +1,36 @@
 {
-    "Fused_Ocular_Carapace": {
+    "Eight_Eyed_Tubular_Turret_Cranium": {
         "tags": [
-            "Chitin",
-            "Carapace",
-            "Head",
-            "Arachnid",
-            "Fused"
+            "Bone",
+            "Turret",
+            "Arachnid"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            },
-            {
                 "target": "perception",
                 "op": "add",
                 "val": 2
             },
             {
-                "target": "natural_armor",
+                "target": "accuracy",
                 "op": "add",
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A steeply domed cephalothorax plate specifically evolved to house multiple ocular nodes. It provides excellent 360-degree awareness but leaves the core ganglion somewhat exposed beneath its thinner apex."
+        "grants_skills": [
+            "Keen Sight"
+        ],
+        "description": "A skull structure heavily domed specifically to house massive, elongated tubular eyes firing straight forward like binoculars. It sacrifices jaw anchors for absolute apex optical processing space."
     },
-    "Cheliceral_Anchorage_Skull": {
+    "Sloping_Cheliceral_Anchor_Plates": {
         "tags": [
-            "Thick_Chitin",
-            "Head",
-            "Fangs",
-            "Arachnid"
+            "Bone",
+            "Heavy",
+            "Arachnid",
+            "Tarantula"
         ],
         "traversal": [
             "None"
@@ -53,6 +48,203 @@
             }
         ],
         "grants_skills": [],
-        "description": "A heavily reinforced, forward-sloping skull designed entirely to anchor massive chelicerae musculature. Built for crushing bites, sacrificing sensory real estate and cognitive space for brute frontal destruction."
+        "description": "A heavily sloping, terrifyingly thick cephalic shield designed for one singular purpose: providing unbreakable, immense anchor points for the gargantuan hydraulic adductor muscles controlling the fangs."
+    },
+    "Eyeless_Blind_Cave_Carapace": {
+        "tags": [
+            "Exoskeleton",
+            "Blind",
+            "Cave",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "A perfectly smooth, absolutely eyeless dome of pure unyielding chitin. With optical centers entirely deleted from the brain, phenomenal amounts of neural processing power are rerouted entirely to the mechanoreceptor hairs."
+    },
+    "Aggressively_Flattened_Ambush_Dome": {
+        "tags": [
+            "Exoskeleton",
+            "Flat",
+            "Stealth",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ambush",
+            "Camouflage"
+        ],
+        "description": "An incredibly low-profile, saucer-like head carapace completely minimizing protruding shadows. When pressed entirely flat against the sand, attacking prey cannot distinguish the entity's face from the desert floor."
+    },
+    "Elongated_Rostral_Prow": {
+        "tags": [
+            "Exoskeleton",
+            "Pointed",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The front of the carapace is drawn out into a phenomenally long, sharp, almost beak-like crest. Evolved to cleanly part the surface tension of water or smoothly pierce through dense, overlapping grass blades without snagging."
+    },
+    "Hyper_Sclerotized_Scorpion_Shield": {
+        "tags": [
+            "Exoskeleton",
+            "Armor",
+            "Scorpion_Like",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "The cephalic region is protected by a staggeringly thick, utterly unbending plate of dark, heavily tanned chitin. It severely limits upwards visibility but forms an impenetrable front-facing bunker when the entity digs in."
+    },
+    "Trapdoor_Cork_Plug_Cranium": {
+        "tags": [
+            "Exoskeleton",
+            "Plug",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The rear of the highly truncated skull terminates in an impossibly tough, perfectly circular, dramatically hardened disk. When pursued into its burrow, the entity simply turns around, using its own skull as a flawless, unbreakable blast door to seal the tunnel."
+    },
+    "Elevated_Ocular_Tubercle_Stalk": {
+        "tags": [
+            "Exoskeleton",
+            "Ocular",
+            "Arachnid",
+            "Harvestman"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "A bizarre, highly elevated central stalk composed of chitin erupting directly from the middle of the back, housing two clustered, compound-like eyes. It grants full 360-degree, periscopic vision over tall grass while the entity's body remains hidden low to the ground."
+    },
+    "Mandibular_Horned_Carapace": {
+        "tags": [
+            "Exoskeleton",
+            "Horns",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Possessing towering, monstrous spiky protrusions erupting violently from the eye stalks and cheliceral bases. Used heavily in horrific, entirely terrestrial jousting matches between rival males attempting to flip each other over."
+    },
+    "Translucent_Cephalic_Dome": {
+        "tags": [
+            "Exoskeleton",
+            "Translucent",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An incredibly unsettling adaptation where the chitin constituting the head is utterly devoid of pigment and perfectly transparent. The wildly throbbing, pulsing supraesophageal ganglion (brain) and vital digestive pumps are plainly visible working in the light."
     }
 }

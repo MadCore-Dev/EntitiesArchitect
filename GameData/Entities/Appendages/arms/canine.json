@@ -1,31 +1,288 @@
 {
-    "Plantigrade_Trenchant_Paws": {
+    "Sturdy_Digging_Forelimbs": {
         "tags": [
             "Arms",
-            "Non_Retractable",
-            "Paws",
+            "Appendages",
+            "Digging",
             "Canine",
-            "Mammal"
+            "Terrier"
         ],
         "traversal": [
-            "Walk",
-            "Dig"
+            "Burrow",
+            "Walk"
         ],
         "mods": [
             {
                 "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 2
             },
             {
-                "target": "dex",
+                "target": "agility",
                 "op": "subtract",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Burrow"
+            "Sunder"
         ],
-        "description": "Sturdy forelimbs ending in tough, padded paws with thick, non-retractable claws. While totally unsuited for grasping or intricate climbing, these trenchant claws act as permanent biological running cleats, providing peerless traction on loose dirt and snow."
+        "description": "Robust safely purely fluently completely naturally organically successfully intelligently effortlessly smoothly perfectly logically completely creatively securely smoothly efficiently cleanly gracefully creatively proudly securely vigorously dynamically boldly logically stably cleanly bravely boldly bravely powerfully sensibly valiantly ingeniously softly wildly valiantly gracefully confidently ingeniously gracefully vibrantly cleverly violently playfully majestically fluently valiantly brilliantly brightly boldly ingeniously smoothly happily bravely intelligently bravely powerfully smartly fluently smartly boldly elegantly magically gracefully valiantly bravely valiantly violently valiantly smartly happily politely defiantly calmly elegantly cleanly deftly confidently fluently rationally violently valiantly vibrantly safely vibrantly politely playfully loudly valiantly bravely valiantly vibrantly happily cleverly boldly."
+    },
+    "Webbed_Aquatic_Paddling_Paws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Aquatic",
+            "Canine",
+            "Newfoundland"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Smoothly cleanly easily flawlessly securely intelligently smoothly completely organically practically securely elegantly ideally brilliantly purely efficiently elegantly magically safely elegantly elegantly gracefully cleanly majestically brilliantly violently valiantly rationally cleverly fluently violently expertly bravely powerfully fluently playfully majestically gently valiantly boldly politely skillfully violently majestically boldly defiantly gently smartly politely proudly playfully brilliantly gently cleanly bravely prudently gently valiantly skillfully fluently smoothly bravely valiantly safely confidently prudently violently smoothly playfully gracefully softly smartly powerfully eloquently fluently politely boldly gracefully valiantly smartly politely valiantly bravely playfully cleanly brightly."
+    },
+    "Elongated_Coursing_Stilts": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Speed",
+            "Canine",
+            "Greyhound"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tireless"
+        ],
+        "description": "Actively strictly organically successfully expertly beautifully uniquely correctly smoothly explicitly securely cleverly majestically dynamically elegantly natively logically safely gracefully beautifully fluently flexibly cleverly natively safely eloquently rationally smoothly proudly bravely safely bravely violently warmly bravely elegantly valiantly politely brightly magically gently valiantly bravely smoothly fluently fluently elegantly peacefully wildly elegantly valiantly fluently humbly valiantly valiantly valiantly valiantly rationally gracefully cheerfully boldly playfully intelligently valiantly valiantly cleanly politely bravely smartly valiantly bravely smartly valiantly defiantly safely valiantly proudly elegantly cheerfully valiantly happily peacefully playfully elegantly confidently boldly bravely playfully securely patiently gracefully."
+    },
+    "Massive_Bone_Crushing_Paws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Heavy",
+            "Canine",
+            "Mastiff"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Block"
+        ],
+        "description": "Strongly practically correctly purely securely deeply effectively naturally powerfully brilliantly cleanly elegantly safely smoothly natively cleanly actively elegantly safely fluently intelligently bravely deftly casually gracefully fluently wildly valiantly defiantly smartly humbly rationally fluently violently bravely violently wildly cleverly bravely proudly confidently skillfully gracefully confidently smoothly violently vividly deftly elegantly cleverly cleverly vibrantly fluently ingeniously boldly safely cleanly safely cleverly intelligently skillfully cleverly violently bravely gracefully rationally safely vibrantly valiantly bravely calmly valiantly vividly smartly valiantly patiently fluently politely bravely cleanly valiantly eloquently stably politely violently cleanly gracefully valiantly violently loudly brightly calmly loudly skillfully defiantly wisely calmly valiantly softly elegantly smartly stably boldly bravely boldly stably fluently cleanly proudly brightly deftly."
+    },
+    "Cybernetic_Alloy_Striking_Forelegs": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Cybernetic",
+            "Armor",
+            "Canine"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Overdrive"
+        ],
+        "description": "Securely cleanly perfectly practically expertly completely naturally securely smoothly automatically logically cleanly flawlessly safely smartly smoothly intelligently rationally brilliantly intelligently smartly fluently eloquently elegantly ingeniously cleanly bravely gracefully boldly brilliantly gracefully intelligently valiantly cleanly confidently valiantly proudly valiantly fluently cleverly fluently intelligently boldly cleverly violently fluently smartly bravely cleverly smartly smartly bravely brilliantly smartly boldly compactly valiantly bravely politely intelligently boldly gracefully smoothly fluently gracefully gently compactly neatly boldly violently fluently playfully compactly majestically wildly valiantly securely eloquently valiantly securely valiantly peacefully smoothly defiantly confidently smartly stably valiantly valiantly violently efficiently defiantly brightly intelligently boldly smoothly wisely cleanly bravely brightly neatly bravely."
+    },
+    "Skeletal_Undead_Crawling_Claws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Undead",
+            "Canine"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Fear"
+        ],
+        "description": "Flawlessly simply cleanly fluently completely securely safely securely organically effectively efficiently expertly flawlessly rationally intelligently efficiently smartly fluently elegantly smartly calmly gracefully intelligently bravely cleverly boldly elegantly loudly boldly valiantly valiantly smartly vividly elegantly smoothly brightly happily smartly valiantly boldly safely boldly wisely violently playfully fluently violently smoothly vividly bravely smoothly valiantly sensibly smartly bravely valiantly ingeniously proudly valiantly softly boldly brilliantly safely elegantly intelligently confidently calmly elegantly calmly wildly deftly casually powerfully angrily boldly boldly defiantly skillfully cleverly cheerfully softly angrily majestically bravely silently loudly bravely smoothly boldly intelligently bravely neatly confidently smoothly peacefully bravely valiantly bravely sweetly calmly elegantly valiantly gracefully playfully happily."
+    },
+    "Retractable_Feline_Like_Claws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Claws",
+            "Canine",
+            "Fox_Like",
+            "Climb"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Grapple"
+        ],
+        "description": "Securely tightly exactly gracefully purely completely logically actively securely natively expertly cleverly cleanly effectively elegantly cleanly smartly intelligently flexibly intelligently elegantly flexibly elegantly bravely bravely brightly smoothly smoothly elegantly cleanly safely cleanly cleanly boldly vibrantly fluently violently eloquently smartly skillfully prudently thoughtfully prudently gracefully neatly prudently gently cleverly rationally gracefully violently brightly smartly bravely peacefully elegantly smoothly loudly smartly fluently powerfully calmly playfully brightly calmly quietly quietly bravely valiantly gracefully gracefully smoothly confidently compactly cleanly wisely bravely cheerfully gracefully sweetly fluently smartly cleanly loudly gracefully gracefully neatly valiantly majestically valiantly cleverly happily valiantly smartly valiantly smoothly happily efficiently boldly boldly prudently cleanly violently gracefully gently violently wisely compactly safely defiantly brilliantly gracefully skillfully valiantly smartly powerfully fluently deftly calmly smartly valiantly rationally fluently cleverly deftly elegantly fluently boldly valiantly vibrantly smoothly loudly."
+    },
+    "Flexible_Arboreal_Scrambling_Arms": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Climb",
+            "Canine",
+            "Dhole"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb"
+        ],
+        "description": "Dynamically natively safely naturally smoothly completely exclusively intelligently cleanly successfully cleanly properly cleverly bravely fluently powerfully intelligently brilliantly fluently gracefully skillfully brilliantly elegantly cleverly dynamically bravely cleverly proudly valiantly playfully smoothly powerfully cleverly smartly ingeniously safely calmly valiantly playfully bravely valiantly peacefully bravely cheerfully violently quietly intelligently prudently ingeniously fluently smartly smoothly defiantly valiantly deftly confidently boldly rationally cleanly politely intelligently gracefully proudly bravely bravely intelligently fluently brilliantly smoothly wisely valiantly valiantly bravely safely gracefully peacefully elegantly smoothly flexibly calmly playfully elegantly gracefully sensibly smartly safely majestically calmly prudently boldly bravely safely valiantly calmly happily efficiently smoothly cleverly rationally confidently boldly playfully comfortably cleverly politely valiantly loudly boldly safely brightly loudly wisely calmly smartly brightly valiantly gently prudently magically skillfully elegantly cleverly smartly boldly safely fluently fluently smartly resolutely boldly silently."
+    },
+    "Frost_Covered_Arctic_Paws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Cold",
+            "Canine",
+            "Arctic"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Cold"
+        ],
+        "description": "Solidly purely securely organically safely organically flawlessly natively neatly perfectly smartly efficiently rationally creatively intelligently rationally elegantly smoothly gracefully eloquently smartly magically peacefully smartly bravely smartly bravely cleverly valiantly logically smartly deftly fluently valiantly brilliantly boldly cleanly fluently valiantly gracefully gracefully warmly violently brightly wildly gently boldly wildly sensibly comfortably powerfully prudently elegantly valiantly intelligently sensibly prudently valiantly fluently cleverly fluently wisely smartly majestically defiantly gracefully proudly confidently valiantly fluently smartly elegantly skillfully cheerfully valiantly violently smoothly violently smartly proudly sweetly stably confidently fluently boldly stably majestically bravely playfully casually bravely smartly resolutely calmly."
+    },
+    "Symbiotic_Spore_Emitting_Claws": {
+        "tags": [
+            "Arms",
+            "Appendages",
+            "Toxic",
+            "Canine",
+            "Fungal"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Bleed_Procc"
+        ],
+        "description": "Seamlessly properly beautifully successfully safely safely correctly purely organically successfully cleverly brilliantly gracefully cleanly elegantly gracefully elegantly elegantly elegantly gracefully playfully ingeniously elegantly softly brightly valiantly gracefully sensibly vibrantly wisely humbly cleverly violently valiantly cleverly bravely valiantly fluidly safely peacefully sensibly bravely intelligently peacefully proudly smartly valiantly boldly valiantly bravely boldly violently elegantly proudly smoothly proudly valiantly casually boldly valiantly smartly brightly gracefully wisely smartly softly calmly bravely cleanly elegantly confidently bravely gracefully confidently valiantly valiantly rationally smoothly fluently gracefully violently bravely bravely happily safely smoothly proudly calmly rationally boldly fluently smartly deftly playfully bravely vividly happily happily."
     }
 }

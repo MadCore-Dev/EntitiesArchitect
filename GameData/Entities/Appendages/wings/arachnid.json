@@ -3,11 +3,10 @@
         "tags": [
             "Wings",
             "Silk",
-            "Gliding",
-            "Arachnid"
+            "Arachnid",
+            "Gliding"
         ],
         "traversal": [
-            "Fly",
             "Glide"
         ],
         "mods": [
@@ -17,7 +16,7 @@
                 "val": 2
             },
             {
-                "target": "speed_bonus",
+                "target": "con",
                 "op": "subtract",
                 "val": 1
             }
@@ -25,6 +24,205 @@
         "grants_skills": [
             "Aerobatics"
         ],
-        "description": "Not true biological limbs, but rather a constantly extruded, fan-like array of ultra-lightweight electrostatic gossamer silk. By catching thermal updrafts and atmospheric electrical currents, the entity achieves silent, completely unpowered flight."
+        "description": "Not true biological wings, but rather a spectacularly massive, permanently extruded canopy of ultra-lightweight, highly charged ballooning silk. Relying entirely on electrostatic repulsion and thermal updrafts, the entity can literally fly across entire oceans."
+    },
+    "Abdominal_Gliding_Flaps": {
+        "tags": [
+            "Wings",
+            "Flaps",
+            "Arachnid",
+            "Gliding"
+        ],
+        "traversal": [
+            "Glide",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The sides of the heavily flattened abdomen feature dramatically extended, rigid shelves of chitin. When plummeting perfectly horizontally from a towering tree canopy, these structural aerodynamic shelves violently slow descent, acting exactly like a wingsuit."
+    },
+    "Flattened_Leg_Patagia": {
+        "tags": [
+            "Wings",
+            "Membrane",
+            "Arachnid",
+            "Gliding"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "A highly terrifying adaptation where intensely tough, highly vascularized leathery membranes strictly connect the elongated front and middle legs. When adopting a specialized freefall posture, the entity becomes a horrifying, steering biological kite."
+    },
+    "Dense_Aerodynamic_Setae": {
+        "tags": [
+            "Wings",
+            "Hairs",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The massively elongated legs are heavily completely covered in thick fringes of exceptionally long, highly rigid hairs. In mid-air, the entity rigidly extends its legs outward, using the sheer surface area of the millions of hairs to achieve meaningful glide ratios."
+    },
+    "Inflatable_Tracheal_Buoys": {
+        "tags": [
+            "Wings",
+            "Balloon",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A bizarre anatomical mutation of the book lungs. By forcibly violently gulping atmospheric air, towering, ultra-thin biological sacks painfully inflate directly out of the spiracles, turning the entity into a drifting, almost weightless zeppelin."
+    },
+    "Subterranean_Vestigial_Stubs": {
+        "tags": [
+            "Wings",
+            "Vestigial",
+            "Arachnid",
+            "Burrow"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Hardened, utterly useless keratinous bumps tightly fused to the cephalothorax. They represent a phenomenally ancient, failed evolutionary attempt at gliding that has been completely abandoned for a brutal, heavy subterranean lifestyle."
+    },
+    "Iridescent_Display_Sails": {
+        "tags": [
+            "Wings",
+            "Sails",
+            "Display",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Two absolutely gargantuan, violently brightly colored, perfectly useless sails erecting straight up from the back of the abdomen. Utterly incapable of generating lift, they exist solely for screamingly loud territorial intimidation displays and attracting mates."
+    },
+    "Web_Anchor_Parachutes": {
+        "tags": [
+            "Wings",
+            "Web",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The entity does not possess wings, but when leaping off a sheer canyon wall, it instantly shoots four incredibly thick draglines of structural silk that physically catch the rushing wind, violently snapping taut to pull the entity into a controlled, swinging pendulum strike."
+    },
+    "Spined_Defensive_Patagia": {
+        "tags": [
+            "Wings",
+            "Spines",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Short, immensely thick gliding membranes utterly covered in thousands of tiny, intensely irritating urticating hairs. They are terrible for flying, causing a violently steep glide, but if swallowed by a bird, instantly kill the predator by swelling its throat shut."
+    },
+    "Glandular_Toxic_Gliders": {
+        "tags": [
+            "Wings",
+            "Toxic",
+            "Arachnid"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Translucent, highly heavily-veined gliding flaps running along the flanks that continuously ooze highly pungent, blindingly sharp defensive chemicals. When aggressively snapped open, a localized cloud of acidic vapor violently erupts into the predator's face."
     }
 }

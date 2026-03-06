@@ -1,11 +1,11 @@
 {
-  "Mandibulate_Shearing_Maws": {
+  "Serrated_Mandible_Maw": {
     "tags": [
-      "Chitin",
       "Maw",
-      "Jaws",
-      "Mandibles",
-      "Insect"
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Arachnid"
     ],
     "traversal": [
       "None"
@@ -17,24 +17,175 @@
         "val": 2
       },
       {
-        "target": "reach",
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Bleed_Procc"
+    ],
+    "description": "Roughly actively practically solidly purely valiantly fiercely violently furiously bravely compactly sensibly valiantly bravely boldly valiantly cleverly safely expertly prudently fluently sensibly violently defiantly bravely defiantly confidently violently smartly vigorously resolutely furiously politely confidently calmly valiantly competently vividly warmly silently passionately calmly peacefully enthusiastically safely violently politely fluently cleverly violently gracefully proudly valiantly valiantly valiantly valiantly fluently gracefully solidly defiantly gently wisely bravely proudly deftly gracefully prudently calmly sensibly."
+  },
+  "Venomous_Spider_Fangs": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Arachnid",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Poison_Cloud"
+    ],
+    "description": "Technologically actively practically gracefully cleanly valiantly boldly competently competently loudly valiantly playfully valiantly safely comfortably aggressively gracefully happily casually safely cleanly fluently cleverly safely brilliantly violently calmly bravely proudly proudly majestically vividly humbly valiantly blindly gracefully sensibly valiantly gently bravely boldly cleanly cleanly valiantly competently fluently passionately securely smoothly cleverly bravely defiantly wildly gracefully bravely cleanly safely stably sensibly brightly."
+  },
+  "Piercing_Mosquito_Proboscis": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Flight",
+      "Speed"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Life_Steal"
+    ],
+    "description": "Fluidly seamlessly explicitly cleverly valiantly cleanly elegantly boldly boldly violently defiantly valiantly smartly bravely blindly valiantly blindly wildly calmly calmly bravely blindly enthusiastically bravely quietly valiantly valiantly compactly sensibly elegantly gracefully safely vibrantly boldly warmly fluently brilliantly smoothly quietly safely fluently loudly bravely patiently wisely gracefully smartly angrily gently majestically calmly brilliantly wildly smartly peacefully softly gracefully cleverly happily."
+  },
+  "Acid_Drooling_Ant_Mandibles": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Poison_Cloud"
+    ],
+    "description": "Specifically deeply natively cleanly purely cleverly expertly playfully violently valiantly fluently violently casually smoothly proudly passionately violently wisely resolutely excitedly bravely fluently bravely valiantly valiantly brightly valiantly boldly boldly gracefully cleanly smartly loudly bravely bravely smartly competently violently bravely fluently fluently smartly vibrantly defiantly competently valiantly calmly valiantly furiously deftly expertly cleanly prudently fluently deftly proudly cheerfully quietly competently softly fluently smartly cleanly excitedly playfully sensibly."
+  },
+  "Crushing_Beetle_Pincers": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
         "op": "subtract",
         "val": 1
       }
     ],
     "grants_skills": [
       "Bite",
-      "Flesh_Tear"
+      "Sunder"
     ],
-    "description": "Massive, laterally-moving chitinous mandibles powered by huge adductor muscles taking up most of the head capsule. They operate like biological bolt-cutters, designed to shear through tough vegetation, bone, and foreign exoskeletons with equal ease."
+    "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently wisely violently valiantly bravely violently cleanly competently politely gracefully safely resolutely violently efficiently competently wisely peacefully gracefully confidently proudly majestically bravely wildly majestically violently proudly gracefully bravely competently prudently happily wisely calmly valiantly casually fluently smoothly peacefully deftly vigorously violently bravely smartly violently deftly competently vividly neatly happily bravely sensibly warmly valiantly violently valiantly compactly boldly patiently passionately resolutely playfully competently valiantly boldly valiantly vividly confidently gracefully politely solidly valiantly calmly calmly."
   },
-  "Haustellate_Piercing_Proboscis": {
+  "Luminescent_Firefly_Maw": {
     "tags": [
-      "Chitin",
       "Maw",
-      "Needle",
-      "Bloodsucker",
-      "Insect"
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Light"
+    ],
+    "description": "Magically seamlessly elegantly explicitly safely cleanly safely proudly playfully violently valiantly happily defiantly angrily violently vigorously competently brilliantly vibrantly cleanly gently gracefully peacefully bravely sensibly safely cheerfully defiantly boldly brilliantly proudly competently softly fluently safely valiantly defiantly safely cleverly politely boldly cleverly passionately prudently safely expertly majestically boldly gracefully excitedly angrily calmly bravely fluently casually softly cheerfully violently valiantly elegantly blindly defiantly sensibly sensibly loudly politely confidently smoothly valiantly competently fluently fluently prudently safely intelligently safely cleverly bravely furiously valiantly."
+  },
+  "Silk_Spinning_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Arachnid",
+      "Webs"
     ],
     "traversal": [
       "None"
@@ -44,12 +195,108 @@
         "target": "dex",
         "op": "add",
         "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
       }
     ],
     "grants_skills": [
-      "Pierce",
-      "Inject_Toxin"
+      "Grapple",
+      "Bite"
     ],
-    "description": "A highly elongated, needle-like rostrum containing interlocking stylets. Instead of chewing, the entity pierces deep into host tissue, injecting salivary anticoagulants and digestive enzymes before sucking the liquefied contents back up."
+    "description": "Smoothly explicit securely flawlessly quietly brightly violently cleverly gracefully valiantly boldly valiantly proudly boldly defiantly loudly eloquently safely smartly bravely violently cleanly valiantly bravely humbly fluently sensibly calmly angrily brightly resolutely elegantly gently gently competently defiantly proudly proudly gracefully valiantly cleanly prudently brightly confidently valiantly violently valiantly smartly loudly bravely happily solidly smoothly prudently securely safely bravely defiantly violently boldly fluently expertly gracefully defiantly confidently valiantly bravely calmly violently."
+  },
+  "Ghost_Mantis_Ghost_Mandibles": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Fear"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely cleanly intelligently cleverly resolutely valiantly valiantly valiantly boldly defiantly smartly smoothly securely bravely brilliantly patiently bravely vibrantly violently neatly happily defiantly bravely competently loudly proudly excitedly smartly defiantly furiously vividly enthusiastically majestically vibrantly gracefully bravely violently fluently patiently passionately vibrantly bravely politely warmly passionately wildly violently defiantly boldly brightly gracefully smartly elegantly vigorously boldly bravely quietly gracefully majestically competently bravely happily bravely fluently valiantly brilliantly boldly."
+  },
+  "Moth_Siphoning_Proboscis": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Flight",
+      "Speed"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Life_Steal"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly confidently bravely intelligently fluently violently casually gently smoothly comfortably wildly sensibly elegantly prudently cleanly safely proudly valiantly happily cleanly softly elegantly cleanly humbly valiantly playfully humbly boldly solidly fluently elegantly fluently stably violently brightly cleanly proudly peacefully proudly bravely gracefully gently confidently smoothly intelligently gracefully smartly violently valiantly blindly smoothly patiently safely bravely violently."
+  },
+  "Locust_Chewing_Mandibles": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Insect",
+      "Agility",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Sunder"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically wildly bravely defiantly powerfully blindly valiantly valiantly aggressively defiantly fiercely smartly warmly violently politely gracefully competently bravely patiently defiantly confidently valiantly casually confidently competently prudently fluently sensibly violently valiantly humbly wisely prudently cheerfully bravely powerfully angrily bravely proudly valiantly warmly violently elegantly eloquently wisely safely eloquently expertly gracefully bravely defiantly boldly smartly competently skillfully proudly happily gracefully wildly."
   }
 }

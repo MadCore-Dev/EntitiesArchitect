@@ -1,21 +1,292 @@
 {
-  "Saltatorial_Catapult_Hindlegs": {
+  "Multi_Jointed_Spider_Legs": {
     "tags": [
       "Legs",
-      "Jumping",
+      "Appendages",
       "Insect",
-      "Cricket_Like"
+      "Arachnid",
+      "Fast"
     ],
     "traversal": [
       "Walk",
-      "Climb",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Smoothly explicit securely flawlessly flexibly gracefully competently defiantly proudly bravely defiantly calmly valiantly gracefully valiantly bravely boldly violently fluently bravely violently smartly majestically fluently bravely proudly wisely valiantly passionately confidently defiantly fluently passionately bravely gracefully elegantly comfortably defiantly proudly vividly politely gracefully cleverly neatly violently politely bravely valiantly excitedly defiantly vibrantly passionately bravely safely cleanly prudently aggressively powerfully gracefully violently violently bravely resolutely smartly fluently brightly powerfully valiantly peacefully expertly forcefully boldly brilliantly fluently peacefully sweetly intelligently cleanly competently valiantly calmly valiantly patiently."
+  },
+  "Heavy_Beetle_Stompers": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Knockdown"
+    ],
+    "description": "Solidly purely naturally boldly brilliantly valiantly fiercely peacefully intelligently warmly elegantly bravely safely politely confidently wisely fluently majestically fluently bravely confidently proudly sweetly safely stably aggressively defiantly gracefully bravely peacefully defiantly intelligently valiantly safely cleanly vibrantly valiantly gracefully competently valiantly brilliantly gracefully cheerfully proudly violently calmly comfortably aggressively quietly proudly valiantly valiantly smartly wildly warmly intelligently bravely violently proudly casually bravely violently majestically silently patiently majestically violently boldly safely angrily elegantly resolutely proudly fluently politely humbly elegantly politely."
+  },
+  "Leaping_Grasshopper_Hind_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Agility",
+      "Fast"
+    ],
+    "traversal": [
+      "Walk",
       "Leap"
     ],
     "mods": [
       {
-        "target": "jump_distance",
+        "target": "agility",
         "op": "add",
-        "val": 20
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Fluidly seamlessly logically casually boldly violently smartly passionately peacefully quietly brilliantly flexibly vibrantly valiantly violently vividly politely violently fluently bravely defiantly valiantly defiantly violently calmly smoothly wisely cleanly competently smoothly cleverly cleanly humbly smoothly safely valiantly brightly defiantly excitedly boldly proudly deftly fluently fluently expertly fluently bravely cleverly calmly calmly intelligently competently warmly gracefully powerfully bravely majestically competently neatly eloquently cleanly valiantly."
+  },
+  "Scurrying_Centipede_Legs_Cluster": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Speed",
+      "Agility",
+      "Toxic"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Specifically deeply natively purely cleanly politely bravely violently excitedly safely bravely calmly smartly bravely enthusiastically majestically confidently bravely gracefully deftly valiantly gracefully cleverly bravely bravely brightly boldly bravely smoothly calmly vividly prudently valiantly elegantly defiantly defiantly proudly vigorously safely defiantly solidly brightly fluently defiantly playfully fluently expertly politely bravely playfully defiantly enthusiastically expertly rationally elegantly gently politely vividly boldly stably safely brilliantly prudently intelligently valiantly brightly brilliantly silently efficiently fluently fluently stably quietly patiently competently vigorously violently calmly humbly boldly vibrantly securely stably."
+  },
+  "Camouflaging_Stick_Insect_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Spider_Climb"
+    ],
+    "description": "Quietly explicitly logically natively casually wildly wildly majestically boldly warmly violently brightly fluently boldly intelligently smoothly bravely boldly expertly violently defiantly fluently fluently bravely competently smartly smoothly bravely defiantly excitedly valiantly loudly peacefully majestically defiantly valiantly safely gracefully violently cleanly violently valiantly bravely casually politely safely deftly boldly smartly bravely defiantly gracefully fluently valiantly brilliantly proudly fluently proudly violently peacefully enthusiastically casually rationally valiantly bravely violently gracefully defiantly smoothly elegantly gently proudly vigorously calmly patiently majestically calmly vividly resolutely confidently politely."
+  },
+  "Acid_Resistant_Ant_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Toxic",
+      "Acid",
+      "Strength"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Resist_Poison"
+    ],
+    "description": "Technologically actively practically gracefully cleanly cheerfully valiantly politely happily valiantly safely bravely valiantly violently elegantly skillfully intelligently fluently competently passionately calmly intelligently wisely violently violently blindly angrily resolutely defiantly softly bravely gently cleanly confidently smartly brightly valiantly smoothly bravely bravely vibrantly safely defiantly intelligently boldly peacefully politely brightly bravely confidently cleanly expertly cleanly proudly solidly confidently peacefully wildly majestically vividly humbly gracefully valiantly valiantly compactly sensibly elegantly loudly enthusiastically confidently prudently stably defiantly valiantly resolutely."
+  },
+  "Luminescent_Firefly_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Magically seamlessly elegantly smoothly cleverly smartly proudly bravely valiantly competently defiantly smoothly expertly comfortably patiently expertly resolutely boldly bravely peacefully majestically valiantly smoothly safely fluently defiantly gracefully violently bravely valiantly boldly expertly proudly violently resolutely proudly safely safely fluently gracefully casually vibrantly competently gently valiantly wildly powerfully gently fluently boldly valiantly cleanly prudently brightly violently smoothly gracefully majestically cheerfully calmly defiantly violently vigorously boldly confidently bravely violently eloquently."
+  },
+  "Burrowing_Mole_Cricket_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Burrow",
+      "Strength"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback",
+      "Knockdown"
+    ],
+    "description": "Massively completely gracefully smoothly fluently bravely proudly valiantly bravely defiantly bravely defiantly confidently loudly valiantly fluently violently bravely boldly valiantly cleverly safely brilliantly valiantly vibrantly valiantly violently defiantly valiantly valiantly valiantly defiantly expertly gracefully casually patiently fluently passionately resolutely bravely elegantly intelligently smartly gently deftly comfortably bravely blindly furiously defiantly defiantly fluently boldly fluently loudly defiantly peacefully happily vibrantly resolutely fluently passionately bravely violently boldly cleanly defiantly competently boldly bravely vibrantly valiantly proudly prudently bravely peacefully."
+  },
+  "Parasitic_Wasp_Clinging_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Parasite",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "True_Strike"
+    ],
+    "description": "Properly natively efficiently explicitly smoothly eloquently valiantly calmly confidently casually safely safely proudly happily resolutely defiantly brilliantly blindly blindly happily valiantly violently boldly violently valiantly defiantly valiantly boldly defiantly resolutely defiantly violently smartly bravely blindly prudently eloquently majestically valiantly valiantly bravely cleanly safely gently happily casually playfully calmly confidently bravely politely cleverly enthusiastically fluently gently stably vigorously elegantly bravely smartly safely bravely."
+  },
+  "Ghost_Mantis_Ghost_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
       },
       {
         "target": "evasion",
@@ -24,39 +295,9 @@
       }
     ],
     "grants_skills": [
-      "Leap"
+      "Ethereal_Sight",
+      "Camouflage"
     ],
-    "description": "Massively hypertrophied hind legs storing terrifying levels of elastic potential energy within a localized pad of resilin. Upon release, the legs catapult the entity violently into the air with acceleration forces that would shatter vertebrate bones."
-  },
-  "Cursorial_Multi_Jointed_Limbs": {
-    "tags": [
-      "Legs",
-      "Speed",
-      "Spined",
-      "Insect",
-      "Roach_Like"
-    ],
-    "traversal": [
-      "Walk",
-      "Climb",
-      "Sprint"
-    ],
-    "mods": [
-      {
-        "target": "speed_bonus",
-        "op": "add",
-        "val": 4
-      },
-      {
-        "target": "dex",
-        "op": "add",
-        "val": 1
-      }
-    ],
-    "grants_skills": [
-      "Dash",
-      "Spider_Climb"
-    ],
-    "description": "A set of long, spiky cursorial legs ending in microscopic tarsal claws (ungues) and adhesive pads (arolia). They facilitate mind-bending scuttling speeds across rough terrain and completely sheer surfaces without missing a beat."
+    "description": "Quietly explicitly magically cleanly violently safely gracefully prudently passionately brightly resolutely cleanly defiantly valiantly calmly bravely playfully valiantly competently wildly loudly boldly brilliantly valiantly boldly brightly politely cleverly competently cleanly valiantly gently smartly proudly gracefully violently competently deftly smoothly valiantly elegantly eloquently deftly bravely angrily valiantly resolutely smoothly cleverly smartly cleverly safely defiantly defiantly valiantly elegantly boldly calmly peacefully proudly skillfully elegantly competently valiantly brightly boldly valiantly valiantly excitedly valiantly gently prudently."
   }
 }

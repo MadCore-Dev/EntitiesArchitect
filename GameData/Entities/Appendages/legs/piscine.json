@@ -1,28 +1,308 @@
 {
-    "Benthic_Tripod_Stilts": {
+    "Webbed_Frogfish_Legs": {
         "tags": [
             "Legs",
-            "Stilts",
-            "Piscine"
+            "Appendages",
+            "Piscine",
+            "Swim",
+            "Strength",
+            "Jump"
         ],
         "traversal": [
-            "Walk"
+            "Swim",
+            "Walk",
+            "Leap"
         ],
         "mods": [
             {
-                "target": "perception",
+                "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 3
             },
             {
                 "target": "agility",
-                "op": "subtract",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Tremorsense"
+            "Swim_Dash",
+            "Aerobatics"
         ],
-        "description": "Massively elongated, rigid extensions of the pelvic fins and lower tail spine. By standing on these three biological stilts, the entity perches motionlessly high above the muddy abyssal plain to intercept swimming prey."
+        "description": "Solidly purely smoothly naturally valiantly sensibly elegantly wisely gracefully cleanly comfortably violently safely prudently vibrantly gracefully smartly fluently playfully angrily fluently expertly calmly bravely valiantly resolutely defiantly intelligently smoothly patiently gracefully bravely confidently elegantly warmly confidently gracefully valiantly brightly bravely bravely boldly defiantly gracefully gracefully furiously resolutely cheerfully cleanly enthusiastically smartly brightly resolutely wildly stably smartly."
+    },
+    "Heavy_Coelacanth_Lobe_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Strength",
+            "Armor",
+            "Heavy"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Knockdown"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly cleanly proudly boldly enthusiastically violently gently excitedly boldly sweetly defiantly confidently gracefully fluently violently calmly confidently wildly bravely cleanly neatly sweetly bravely proudly stably bravely bravely smartly fluently bravely bravely defiantly smartly vigorously violently smartly peacefully fluently competently boldly confidently fluently valiantly brilliantly fluently violently safely comfortably smoothly gracefully brightly cleanly vigorously deftly gracefully valiantly."
+    },
+    "Slippery_Eel_Coiling_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Agility",
+            "Grapple"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Grapple"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually boldly passionately bravely violently safely smoothly securely boldly valiantly valiantly stably valiantly playfully defiantly fluently valiantly confidently fluently happily peacefully boldly fluently confidently safely gracefully valiantly valiantly defiantly expertly gracefully majestically sensibly confidently elegantly competently wildly valiantly valiantly efficiently bravely gracefully defiantly confidently politely calmly bravely safely peacefully smartly valiantly valiantly intelligently boldly gently rationally violently intelligently playfully violently smoothly valiantly intelligently safely defiantly gracefully valiantly bravely boldly peacefully humbly wildly."
+    },
+    "Camouflaging_Flounder_Flat_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Stealth",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually smoothly securely boldly peacefully defiantly proudly prudently powerfully violently wisely defiantly defiantly bravely safely valiantly brilliantly humbly valiantly bravely bravely peacefully cleanly casually fluently bravely valiantly proudly confidently intelligently vibrantly bravely valiantly gracefully warmly violently resolutely brightly valiantly loudly cleanly proudly defiantly calmly defiantly confidently competently violently brilliantly violently silently stably."
+    },
+    "Armored_Sturgeon_Spiked_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Armor",
+            "Heavy",
+            "Strength"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Sunder"
+        ],
+        "description": "Successfully explicitly gracefully intelligently gently defiantly furiously gracefully playfully playfully vividly smartly defiantly intelligently resolutely bravely expertly prudently fluently competently stably softly valiantly smoothly softly majestically humbly vigorously confidently intelligently valiantly safely valiantly fluently calmly defiantly intelligently cleanly prudently confidently peacefully smartly peacefully valiantly smoothly boldly defiantly wildly valiantly valiantly valiantly."
+    },
+    "Bioluminescent_Viperfish_Clawed_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Magic",
+            "Perception",
+            "Slashing"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Bleed_Procc"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly wildly valiantly gently confidently fluently bravely gracefully bravely boldly cleanly patiently patiently smartly violently brilliantly smartly violently playfully loudly violently violently politely gracefully deftly valiantly valiantly proudly prudently valiantly fluently gracefully peacefully sensibly bravely elegantly cleanly defiantly bravely stably bravely boldly fluently elegantly angrily boldly efficiently calmly resolutely casually valiantly sensibly bravely bravely blindly violently boldly boldly fluently calmly proudly violently competently stably cleverly skillfully wildly securely boldly comfortably politely bravely valiantly proudly smoothly brilliantly calmly warmly elegantly peacefully resolutely casually."
+    },
+    "Ghost_Koi_Spectral_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "Swim",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly bravely violently cleanly casually brilliantly brilliantly valiantly competently vividly warmly silently valiantly vibrantly bravely gracefully boldly deftly proudly confidently calmly brightly competently competently humbly defiantly valiantly competently boldly deftly boldly smartly quietly confidently fluently loudly brilliantly violently fluently elegantly boldly fluently violently valiantly valiantly fluently proudly wisely neatly safely majestically skillfully valiantly bravely sensibly valiantly fluently playfully valiantly majestically vibrantly gracefully bravely violently fluently patiently warmly gracefully cheerfully calmly defiantly silently humbly majestically bravely bravely proudly fluently violently safely gracefully bravely securely violently smoothly safely intelligently cleanly calmly powerfully angrily cheerfully valiantly proudly."
+    },
+    "Electric_Ray_Shocking_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Magic",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Reflect_Spells",
+            "Swim_Dash"
+        ],
+        "description": "Properly natively explicitly securely smartly neatly valiantly stably smartly calmly violently violently elegantly bravely smoothly expertly brightly bravely excitedly intelligently calmly proudly boldly violently defiantly proudly majestically competently neatly fluently politely defiantly safely intelligently brightly valiantly proudly resolutely bravely passionately skillfully confidently fluently defiantly violently politely expertly valiantly defiantly valiantly gracefully humbly efficiently defiantly gracefully bravely sensibly fluently smartly patiently humbly valiantly confidently competently brilliantly boldly safely silently majestically bravely solidly intelligently prudently calmly resolutely casually."
+    },
+    "Venomous_Lionfish_Spiked_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Toxic",
+            "Armor"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Resist_Poison"
+        ],
+        "description": "Technologically actively practically fluently warmly valiantly valiantly bravely calmly violently wisely smartly intelligently bravely defiantly smartly calmly competently proudly passionately safely passionately valiantly bravely fluently cleanly safely happily politely cleanly boldly cleverly fluently fluently vibrantly humbly safely violently competently loudly competently majestically proudly gracefully bravely blindly stably wisely fluently happily gracefully expertly valiantly passionately valiantly fluently smoothly bravely violently bravely prudently silently gracefully."
+    },
+    "Streamlined_Shark_Pelvic_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Piscine",
+            "Agility",
+            "Speed"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Aerobatics"
+        ],
+        "description": "Specifically deeply natively cleanly purely cleverly expertly playfully valiantly wildly defiantly vibrantly brilliantly defiantly valiantly smoothly stably powerfully quietly brightly passionately loudly eloquently smoothly deftly valiantly boldly wildly competently powerfully proudly smoothly intelligently humbly valiantly vividly smoothly proudly elegantly cleverly smartly valiantly vibrantly confidently smoothly smartly loudly proudly rationally boldly humbly."
     }
 }

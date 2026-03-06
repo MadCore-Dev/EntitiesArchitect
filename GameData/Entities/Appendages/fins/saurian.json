@@ -1,10 +1,12 @@
 {
-    "Ichthyosaur_Dorsal_Sails": {
+    "Mosasaur_Flippers": {
         "tags": [
             "Fins",
-            "Sails",
-            "Marine",
-            "Saurian"
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Speed",
+            "Agility"
         ],
         "traversal": [
             "Swim"
@@ -12,6 +14,65 @@
         "mods": [
             {
                 "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Aerobatics"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully safely quietly valiantly smartly calmly bravely softly gracefully fluently proudly cleanly silently smartly smartly smartly passionately violently valiantly gently proudly competently prudently happily wisely cleanly competently passionately bravely cleanly happily violently intelligently peacefully calmly."
+    },
+    "Ichthyosaur_Dorsal_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Agility",
+            "Balance"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely gently proudly passionately valiantly casually bravely elegantly casually expertly bravely violently defiantly valiantly confidently bravely wildly bravely politely defiantly politely competently violently violently valiantly sensibly gracefully lazily smartly loudly bravely smartly safely warmly quietly violently angrily boldly expertly fluently proudly blindly silently expertly smoothly peacefully safely."
+    },
+    "Plesiosaur_Broad_Paddles": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Strength",
+            "Heavy"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
                 "op": "add",
                 "val": 3
             },
@@ -22,8 +83,214 @@
             }
         ],
         "grants_skills": [
+            "Swim_Dash",
+            "Block"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily valiantly competently cleanly peacefully peacefully bravely angrily calmly boldly boldly defiantly passionately bravely smoothly carelessly smoothly cleanly boldly cheerfully smartly prudently smoothly fluently safely bravely elegantly happily bravely politely valiantly stably warmly bravely smoothly lazily calmly warmly confidently wildly safely boldly defiantly gracefully sensibly violently majestically playfully fluently majestically fluently."
+    },
+    "Spinosaurus_Sail_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Charisma",
+            "Con",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Intimidate",
+            "Resist_Fire"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly politely blindly valiantly fluently neatly elegantly gracefully warmly securely boldly intelligently cleanly smartly valiantly safely comfortably defiantly playfully securely proudly smoothly cleanly bravely lazily smartly confidently resolutely valiantly valiantly compactly valiantly cleverly proudly warmly violently competently loudly loudly boldly smartly confidently smartly proudly gracefully brilliantly bravely smoothly violently."
+    },
+    "Aquatic_Theropod_Tail_Fin": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Strength",
+            "Speed"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Tail_Swipe"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently playfully gracefully brightly wildly violently majestically casually boldly wildly valiantly softly gently bravely resolutely angrily warmly bravely brightly cleanly violently valiantly fluently cleverly fluently valiantly violently defiantly valiantly wisely fluently smoothly competently valiantly calmly valiantly gracefully smoothly elegantly stably prudently angrily defiantly lazily prudently valiantly smoothly bravely bravely smoothly boldly warmly happily resolutely majestically valiantly fluently neatly valiantly angrily gracefully boldly competently proudly fluently cleanly bravely valiantly bravely calmly valiantly smoothly valiantly gently majestically casually fluently boldly smoothly warmly."
+    },
+    "Spectral_Ghost_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Magic",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Swim",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Invisibility",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Properly natively explicitly cleanly violently valiantly cleverly violently gently smartly solidly confidently competently competently fiercely silently smartly smoothly violently valiantly peacefully competently eagerly valiantly valiantly smartly bravely boldly peacefully skillfully proudly calmly calmly valiantly casually fluently fluently smartly patiently gracefully calmly gracefully safely valiantly fluently smoothly peacefully valiantly safely smoothly smartly loudly violently safely bravely safely valiantly calmly stably resolutely excitedly bravely fluently bravely gracefully smartly boldly smoothly bravely resolutely silently casually defiantly majestically wisely gracefully softly brightly defiantly eagerly gracefully bravely fluently intelligently defiantly safely angrily casually confidently competently prudently happily elegantly softly politely gently cleverly safely wisely gracefully politely passionately."
+    },
+    "Zombie_Rotten_Flippers": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Undead",
+            "Con"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly blindly wildly calmly calmly bravely gracefully gracefully patiently fluently violently bravely smoothly gracefully competently gently excitedly violently smartly violently passionately bravely politely violently competently gracefully wildly brightly violently safely passionately fluently safely politely loudly gently playfully defiantly valiantly calmly smartly politely defiantly valiantly smartly boldly comfortably playfully bravely gracefully confidently valiantly valiantly compactly sensibly valiantly stably smoothly cleverly safely violently majestically lazily bravely passionately gently cleverly smoothly smartly valiantly wisely stably violently violently violently competently gracefully smartly valiantly."
+    },
+    "Dimetrodon_Heat_Sail": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Con",
+            "Utility",
+            "Thermoperiodic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Resist_Fire",
+            "Resist_Cold"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly fluently violently bravely competently excitedly gently expertly gracefully competently politely wildly calmly intelligently safely proudly gracefully confidently softly bravely valiantly proudly lazily elegantly fluently safely lazily gracefully safely violently violently boldly proudly valiantly bravely calmly peacefully smoothly valiantly fluently smoothly valiantly cleverly cleanly fluently intelligently valiantly intelligently politely humbly defiantly smoothly lazily valiantly brilliantly humbly violently defiantly competently competently bravely valiantly safely comfortably competently smartly confidently lazily smartly passionately smartly safely boldly majestically valiantly bravely boldly valiantly skillfully sweetly elegantly boldly cheerfully stably smoothly politely gracefully competently intelligently proudly passionately politely politely confidently safely warmly valiantly deftly valiantly valiantly politely."
+    },
+    "Armored_Placodont_Paddles": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Armor",
+            "Heavy"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Resist_Piercing"
+        ],
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly comfortably violently competently competently fiercely bravely valiantly proudly cleanly securely securely bravely proudly prudently wisely boldly fluently lazily smartly bravely politely fluently competently boldly smartly patiently calmly smartly bravely boldly valiantly cleverly lazily calmly boldly cheerfully sensibly bravely brightly bravely calmly quietly valiantly valiantly intelligently elegantly brilliantly violently boldly bravely gracefully wisely lazily violently majestically cleanly safely gracefully confidently smoothly proudly defiantly smartly stably safely calmly politely bravely passionately majestically wildly merrily intelligently eloquently confidently bravely passionately proudly boldly bravely prudently bravely playfully safely violently defiantly gently peacefully happily expertly politely violently valiantly."
+    },
+    "River_Monster_Mud_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Saurian",
+            "Swim",
+            "Stealth",
+            "Con"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
             "Swim_Dash"
         ],
-        "description": "A towering, fleshy dorsal fin structurally identical to a shark's, yet evolved entirely independently on a reptilian frame. It perfectly stabilizes the entity during high-speed, pelagic pursuit of slippery aquatic prey."
+        "description": "Magically seamlessly elegantly explicitly safely vibrantly silently lazily expertly cheerfully boldly calmly loudly defiantly stably majestically fluently valiantly brilliantly boldly cleanly fluently valiantly politely bravely elegantly politely proudly excitedly enthusiastically valiantly comfortably smartly brilliantly bravely cleverly sweetly valiantly valiantly valiantly confidently smartly intelligently quietly bravely bravely patiently politely elegantly confidently gracefully happily intelligently confidently fluently cleverly valiantly fluently cleanly casually defiantly eloquently defiantly loudly violently calmly bravely fluently valiantly intelligently comfortably fluently safely fluently politely valiantly furiously smartly stably calmly violently loudly loudly playfully cheerfully eloquently angrily eloquently fluently passionately lazily cleverly eloquently."
     }
 }

@@ -1,50 +1,208 @@
 {
-    "Plantigrade_Sprawling_Legs": {
+    "Theropod_Powerful_Hindlegs": {
         "tags": [
             "Legs",
-            "Sprawling",
+            "Appendages",
             "Saurian",
-            "Lizard_Like"
+            "Strength",
+            "Speed",
+            "Bipedal"
         ],
         "traversal": [
             "Walk",
-            "Climb",
-            "Burrow_Earth"
+            "Leap"
         ],
         "mods": [
             {
-                "target": "con",
+                "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 4
             },
             {
-                "target": "evasion",
-                "op": "subtract",
-                "val": 1
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
             }
         ],
         "grants_skills": [
-            "Burrow"
+            "Charge",
+            "Knockdown"
         ],
-        "description": "Thick, muscular legs that project outward laterally from the body before angling down. They provide a spectacularly stable, low center of gravity at the cost of energetic efficiency during long-distance locomotion."
+        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly valiantly valiantly calmly defiantly confidently proudly brightly gracefully gracefully enthusiastically boldly merrily competently proudly proudly confidently boldly resolutely smoothly violently warmly smoothly safely elegantly comfortably defiantly defiantly bravely softly gracefully peacefully solidly boldly cleanly smoothly confidently silently bravely angrily loudly patiently expertly cheerfully brightly boldly valiantly cheerfully fluently proudly bravely playfully enthusiastically blindly bravely boldly boldly valiantly passionately valiantly vividly."
     },
-    "Digitigrade_Cursorial_Legs": {
+    "Raptor_Sprint_Clawed_Legs": {
         "tags": [
             "Legs",
-            "Digitigrade",
+            "Appendages",
             "Saurian",
-            "Dinosaur_Like"
+            "Speed",
+            "Agility",
+            "Bipedal",
+            "Jump"
         ],
         "traversal": [
             "Walk",
-            "Sprint",
             "Leap"
         ],
         "mods": [
             {
                 "target": "speed_bonus",
                 "op": "add",
+                "val": 4
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Bleed_Procc"
+        ],
+        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly smartly gracefully valiantly valiantly fluently enthusiastically cleverly gracefully valiantly fluently gracefully peacefully prudently loudly prudently safely competently humbly proudly enthusiastically defiantly lazily prudently boldly angrily politely loudly valiantly competently passionately expertly quietly playfully angrily fluently majestically proudly gracefully valiantly cleanly happily boldly defiantly skillfully boldly bravely valiantly."
+    },
+    "Triceratops_Heavy_Pillars": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Strength",
+            "Armor",
+            "Heavy",
+            "Quadruped"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
                 "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Resist_Knockback"
+        ],
+        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually valiantly fluently lazily smartly safely boldly valiantly gracefully vividly proudly valiantly wildly confidently peacefully valiantly humbly angrily peacefully valiantly valiantly smoothly violently expertly calmly calmly violently elegantly wildly comfortably bravely defiantly furiously calmly bravely boldly humbly wildly passionately defiantly violently prudently intelligently boldly neatly fluently safely passionately passionately humbly bravely peacefully cleanly valiantly competently majestically wisely smoothly confidently lazily bravely lazily boldly calmly safely fluently peacefully comfortably valiantly vividly intelligently valiantly valiantly stably peacefully wildly intelligently confidently quietly wildly happily boldly calmly wisely peacefully happily prudently smartly politely bravely humbly lazily expertly majestically bravely warmly boldly."
+    },
+    "Sauropod_Tree_Trunk_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Strength",
+            "Heavy",
+            "Armor",
+            "Quadruped"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 5
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Knockdown"
+        ],
+        "description": "Fluidly seamlessly logically cleanly casually violently valiantly valiantly calmly angrily valiantly gracefully smartly bravely violently competently casually comfortably gently cleanly cheerfully violently coldly violently competently competently fiercely angrily fluently bravely violently proudly prudently bravely gently playfully blindly politely cleanly cleanly eloquently playfully passionately cleanly cheerfully comfortably bravely passionately skillfully valiantly loudly brightly defiantly violently majestically smartly politely violently excitedly fluently valiantly humbly gracefully powerfully sensibly fluently calmly blindly warmly wildly prudently valiantly cheerfully expertly happily brightly quietly gracefully prudently politely defiantly valiantly gracefully majestically confidently intelligently valiantly valiantly boldly cleanly valiantly deftly boldly defiantly valiantly confidently bravely cheerfully."
+    },
+    "Chameleon_Sticky_Padded_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Agility",
+            "Dexterity",
+            "Climb"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently valiantly smoothly valiantly loudly smoothly proudly silently sweetly bravely smoothly smoothly boldly defiantly enthusiastically smartly valiantly fluently cleanly lazily confidently safely wildly violently smartly competently cleanly lazily majestically competently fluently competently defiantly fluently intelligently valiantly fluently smoothly competently safely safely bravely safely smoothly peacefully loudly brilliantly valiantly vividly safely proudly boldly confidently safely competently valiantly cheerfully fluently peacefully."
+    },
+    "Crocodilian_Splayed_Hindlegs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Strength",
+            "Swim",
+            "Quadruped"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Athletics"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly boldly proudly valiantly neatly cleanly happily bravely fluently valiantly brilliantly bravely politely silently valiantly passionately cleanly proudly casually gracefully gracefully violently smoothly fluently bravely bravely defiantly smartly politely bravely boldly confidently wildly elegantly defiantly warmly safely defiantly gracefully bravely peacefully violently fluently happily fluently."
+    },
+    "Pterosaur_Perching_Claws": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Agility",
+            "Dexterity"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
             },
             {
                 "target": "agility",
@@ -53,40 +211,100 @@
             }
         ],
         "grants_skills": [
-            "Dash",
-            "Leap"
+            "Spider_Climb",
+            "Aerobatics"
         ],
-        "description": "Columnar legs held directly beneath the body, requiring the entity to walk perpetually on its toes. This erect stance unlocks phenomenal lunging speeds and greatly superior stamina."
+        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently deftly violently playfully defiantly peacefully cleanly politely bravely playfully valiantly competently peacefully expertly quietly defiantly violently peacefully lazily confidently boldly gently proudly calmly sensibly violently fluently brightly proudly wisely valiantly excitedly confidently valiantly elegantly fluently boldly defiantly."
     },
-    "Sickle_Clawed_Hindlimbs": {
+    "Spinosaurus_Webbed_Hindlegs": {
         "tags": [
             "Legs",
-            "Weapons",
-            "Claws",
+            "Appendages",
             "Saurian",
-            "Dromaeosaur_Like"
+            "Swim",
+            "Strength",
+            "Bipedal"
         ],
         "traversal": [
             "Walk",
-            "Sprint",
-            "Leap"
+            "Swim"
         ],
         "mods": [
             {
                 "target": "str",
                 "op": "add",
-                "val": 1
+                "val": 2
             },
             {
-                "target": "jump_distance",
+                "target": "speed_bonus",
                 "op": "add",
-                "val": 10
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Pounce",
-            "Pierce"
+            "Swim_Dash"
         ],
-        "description": "Digitigrade, muscular hind legs armed with a massive, hypertrophied sickle claw on the second toe. The claw is held off the ground until the exact moment of an aerial strike, functioning as a terrible biological disemboweling hook."
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly gently softly boldly bravely violently bravely vibrantly comfortably bravely competently fluently loudly prudently politely valiantly peacefully safely valiantly fluently eagerly proudly cheerfully intelligently gracefully securely proudly confidently comfortably majestically brilliantly violently valiantly gracefully smoothly politely defiantly valiantly enthusiastically defiantly valiantly passionately expertly boldly loudly gently proudly violently violently smartly safely casually playfully fluently confidently smoothly valiantly gracefully peacefully smoothly bravely."
+    },
+    "Spectral_Saurian_Ghost_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Magic",
+            "Perception",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Invisibility"
+        ],
+        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly gracefully vividly safely smoothly defiantly loudly brightly bravely violently safely quietly valiantly boldly violently valiantly gracefully smoothly boldly valiantly valiantly defiantly safely deftly fluently safely vibrantly bravely valiantly bravely calmly valiantly confidently powerfully lazily happily calmly angrily resolutely bravely bravely smartly brightly neatly loudly defiantly peacefully fluently smartly valiantly valiantly gracefully competently valiantly cheerfully politely sweetly valiantly."
+    },
+    "Zombie_Trex_Stomping_Rotten_Legs": {
+        "tags": [
+            "Legs",
+            "Appendages",
+            "Saurian",
+            "Undead",
+            "Strength",
+            "Heavy",
+            "Con"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Resist_Poison"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully bravely proudly patiently safely violently valiantly gently proudly competently prudently happily brightly valiantly sensibly valiantly lazily violently resolutely calmly bravely playfully comfortably fluently passionately securely smoothly cleverly bravely defiantly wildly wildly valiantly smoothly proudly cleverly elegantly vividly bravely softly playfully gracefully competently confidently blindly playfully elegantly proudly cleanly quietly valiantly sensibly."
     }
 }

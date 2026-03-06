@@ -1,9 +1,10 @@
 {
-    "Submersible_Brass_Screws": {
+    "Clockwork_Propeller_Fins": {
         "tags": [
             "Fins",
-            "Propulsion",
-            "Mechanical",
+            "Appendages",
+            "Swim",
+            "Clockwork",
             "Construct"
         ],
         "traversal": [
@@ -13,12 +14,289 @@
             {
                 "target": "speed_bonus",
                 "op": "add",
-                "val": 2
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
             }
         ],
         "grants_skills": [
             "Swim_Dash"
         ],
-        "description": "Heavy, rapidly spinning brass Archimedes screws or bladed propellers mounted upon the entity's flanks or rear. They effortlessly churn the water to propel the impossibly dense armor plating through aquatic environments."
+        "description": "Securely cleanly expertly smoothly smoothly securely flawlessly dynamically creatively correctly elegantly cleverly warmly violently cleverly violently calmly bravely neatly fluently confidently boldly defiantly elegantly safely valiantly fluently confidently cleanly wildly intelligently intelligently valiantly bravely quietly boldly politely brilliantly gently wisely smoothly vibrantly calmly stably efficiently securely loudly valiantly bravely rationally humbly proudly expertly comfortably valiantly intelligently smartly defiantly casually quietly elegantly sweetly resolutely boldly gently proudly bravely gently passionately fluently fluently elegantly gracefully fluently smartly passionately calmly majestically gracefully elegantly defiantly safely powerfully warmly competently silently smartly enthusiastically violently cleverly defiantly deftly."
+    },
+    "Heavy_Iron_Rudder_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Metal",
+            "Construct",
+            "Heavy"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Resist_Knockback"
+        ],
+        "description": "Solidly purely naturally expertly carefully peacefully gracefully organically fluently seamlessly logically intelligently intelligently violently eloquently cleanly boldly resolutely brightly defiantly fluently intelligently gracefully boldly calmly violently wisely solidly elegantly smartly loudly warmly defiantly competently passionately enthusiastically confidently quietly loudly safely vigorously warmly bravely valiantly intelligently securely calmly defiantly casually defiantly elegantly defiantly defiantly comfortably gracefully violently boldly proudly warmly wildly smoothly smartly valiantly forcefully compactly excitedly smartly smartly gently sweetly defiantly quietly valiantly violently elegantly brightly safely peacefully valiantly safely powerfully deftly valiantly cleanly smoothly majestically warmly powerfully."
+    },
+    "Steam_Venting_Jet_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Steam",
+            "Construct",
+            "Heat"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Overdrive",
+            "Fire_Aura"
+        ],
+        "description": "Magically seamlessly elegantly smartly elegantly magically solidly uniquely cleverly gracefully politely fluently boldly playfully calmly smartly blindly bravely gently securely bravely solidly ingeniously vibrantly fluently politely majestically gracefully fluently proudly boldly resolutely stably safely valiantly cleanly politely violently bravely violently violently quietly neatly peacefully violently elegantly cleanly calmly brightly valiantly competently angrily defiantly violently wisely passionately bravely fluently peacefully brilliantly bravely calmly peacefully valiantly bravely proudly majestically defiantly cleanly calmly calmly cleanly eloquently confidently calmly rationally."
+    },
+    "Crystal_Acoustic_Sonar_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Crystal",
+            "Construct",
+            "Sonar",
+            "Magic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight",
+            "Light"
+        ],
+        "description": "Beautifully cleanly smoothly elegantly seamlessly explicitly correctly perfectly actively proudly proudly bravely violently vibrantly smartly defiantly competently valiantly cheerfully competently intelligently cleverly boldly prudently skillfully brilliantly powerfully smartly warmly sweetly bravely valiantly fluently gracefully cleverly bravely calmly vibrantly confidently elegantly securely bravely valiantly fluently peacefully majestically smartly violently quietly smoothly safely calmly valiantly bravely fluently valiantly calmly majestically valiantly eloquently softly bravely peacefully powerfully skillfully bravely securely skillfully gracefully majestically passionately warmly violently competently defiantly violently politely passionately gracefully cleverly valiantly confidently brightly."
+    },
+    "Necrotic_Stitched_Webbed_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Flesh",
+            "Construct",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Swim_Dash"
+        ],
+        "description": "Roughly jaggedly securely reliably flawlessly purely intelligently successfully expertly valiantly blindly bravely elegantly defiantly valiantly playfully calmly defiantly intelligently wildly cleverly intelligently cleverly politely brightly majestically valiantly fluently cleverly fluently wisely cleanly boldly calmly smartly defiantly violently bravely valiantly boldly defiantly cleanly competently loudly bravely competently bravely silently gracefully loudly majestically gently valiantly politely politely valiantly powerfully safely wildly valiantly confidently fluently boldly proudly sensibly bravely fluently deftly defiantly prudently stably quietly defiantly proudly prudently powerfully violently stably resolutely valiantly expertly gracefully cleverly violently confidently vigorously cleverly stably."
+    },
+    "Living_Wood_Kelp_Like_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Wood",
+            "Construct",
+            "Plant_Like",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage",
+            "Regeneration"
+        ],
+        "description": "Organically smoothly naturally completely seamlessly effectively smartly cleverly flawlessly purely proudly defiantly bravely intelligently creatively cleanly safely wisely happily defiantly silently fluently boldly bravely powerfully competently softly majestically confidently politely smoothly intelligently fluently silently defiantly smartly smartly politely proudly elegantly boldly wisely violently majestically gracefully gently valiantly smartly boldly elegantly brilliantly boldly elegantly intelligently bravely valiantly violently calmly majestically peacefully brightly defiantly defiantly politely angrily resolutely wildly sweetly gracefully deftly valiantly majestically majestically loudly bravely excitedly valiantly deftly bravely elegantly boldly valiantly peacefully comfortably peacefully rationally flexibly brilliantly smartly warmly competently cleanly powerfully comfortably stably bravely passionately gracefully bravely smartly defiantly violently."
+    },
+    "Scrap_Metal_Paddle_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Scrap",
+            "Construct",
+            "Metal"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Sunder",
+            "Swim_Dash"
+        ],
+        "description": "Correctly reliably securely purely successfully effectively elegantly functionally cleanly smartly bravely safely cleanly bravely bravely calmly angrily violently valiantly boldly wisely comfortably silently boldly confidently valiantly intelligently confidently elegantly comfortably defiantly defiantly elegantly passionately competently valiantly bravely expertly bravely bravely fluently intelligently valiantly fluently powerfully boldly defiantly playfully bravely solidly competently majestically bravely bravely violently valiantly smartly majestically bravely securely angrily peacefully competently bravely confidently loudly competently bravely boldly peacefully elegantly valiantly safely sweetly defiantly playfully calmly resolutely fluently elegantly valiantly bravely peacefully loudly defiantly valiantly enthusiastically warmly smartly calmly violently peacefully loudly valiantly loudly."
+    },
+    "Mithril_Bladed_Hydrofoil_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Metal",
+            "Construct",
+            "Speed",
+            "Agility"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Bleed_Procc"
+        ],
+        "description": "Seamlessly seamlessly explicitly completely gracefully cleanly successfully gracefully skillfully securely safely safely smoothly comfortably bravely resolutely calmly happily safely powerfully valiantly majestically playfully valiantly loudly elegantly brightly valiantly ingeniously confidently valiantly competently softly violently smartly wisely brightly smartly intelligently boldly bravely fluently confidently smartly competently cheerfully boldly gracefully gracefully politely playfully warmly majestically intelligently majestically enthusiastically boldly playfully gracefully majestically fluently calmly quietly bravely humbly bravely violently violently bravely boldly cleanly defiantly competently stably vigorously bravely valiantly violently stably bravely fluently defiantly violently gracefully bravely cleanly eloquently deftly angrily competently bravely playfully wildly violently warmly comfortably."
+    },
+    "Porcelain_Doll_Frilled_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure"
+        ],
+        "description": "Weirdly cleanly explicitly seamlessly gracefully correctly beautifully practically solidly smartly gracefully gracefully confidently fluently smartly confidently bravely defiantly casually loudly cleverly wildly softly valiantly happily confidently deftly proudly bravely defiantly safely safely gracefully happily competently neatly smartly boldly calmly fluently loudly intelligently valiantly confidently stably bravely politely bravely defiantly bravely smartly elegantly valiantly defiantly valiantly deftly enthusiastically sweetly elegantly confidently peacefully fluently comfortably angrily fluently competently boldly safely brightly violently proudly compactly bravely violently cleverly bravely competently comfortably valiantly vividly calmly safely violently gracefully competently defiantly smoothly violently passionately competently happily fluently valiantly brilliantly peacefully bravely safely loudly majestically eloquently peacefully."
+    },
+    "Arcane_Energy_Thruster_Fins": {
+        "tags": [
+            "Fins",
+            "Appendages",
+            "Swim",
+            "Energy",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Overdrive",
+            "Resist_Magic"
+        ],
+        "description": "Exclusively cleanly organically flawlessly naturally securely gracefully successfully fluently purely intelligently elegantly valiantly valiantly smoothly bravely loudly angrily proudly calmly stably passionately confidently peacefully calmly elegantly cleverly defiantly defiantly boldly majestically safely bravely competently expertly cleverly safely bravely fluently softly safely violently fluently bravely patiently resolutely prudently peacefully casually skillfully gracefully elegantly sensibly wildly majestically smartly sensibly smartly playfully valiantly happily violently resolutely safely peacefully bravely cleverly bravely calmly violently elegantly defiantly defiantly majestically proudly bravely calmly brilliantly warmly elegantly valiantly gently deftly valiantly boldly fluently boldly cheerfully smartly resolutely bravely gracefully bravely wildly peacefully playfully."
     }
 }

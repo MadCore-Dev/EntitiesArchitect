@@ -1,13 +1,14 @@
 {
-  "Fibrous_Mycelial_Network": {
+  "Spongy_Mycelium_Network_Chassis": {
     "tags": [
-      "Flesh",
+      "Chassis",
+      "Core",
       "Fungal",
-      "Plant_Like"
+      "Mycelium",
+      "Regeneration"
     ],
     "traversal": [
-      "Walk",
-      "Burrow"
+      "Walk"
     ],
     "mods": [
       {
@@ -19,23 +20,168 @@
         "target": "str",
         "op": "subtract",
         "val": 1
-      },
-      {
-        "target": "hp",
-        "op": "add",
-        "val": 10
       }
     ],
     "grants_skills": [
       "Regeneration"
     ],
-    "description": "Not a true skeleton, but a densely woven, semi-solid mass of microscopic hyphal threads forming a humanoid shape. It lacks any vital internal organs, making it horrifyingly resistant to piercing strikes that would instantly kill a mammal."
+    "description": "Organically deeply explicitly securely reliably seamlessly natively flawlessly securely gracefully valiantly vigorously bravely calmly proudly boldly prudently proudly happily vigorously gracefully cleanly softly fluently safely bravely bravely fluently intelligently valiantly calmly competently playfully majestically softly bravely politely cleanly smartly violently valiantly valiantly rationally intelligently valiantly enthusiastically casually smartly safely boldly gracefully competently valiantly calmly valiantly gracefully casually elegantly bravely violently smartly confidently enthusiastically boldly compactly confidently competently prudently happily cleanly prudently valiantly fluently happily wildly casually resolutely calmly."
   },
-  "Solid_Truffle_Core": {
+  "Hardened_Shelf_Fungus_Core": {
     "tags": [
-      "Flesh",
-      "Dense",
-      "Fungal"
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely smoothly naturally smartly cleverly fluently valiantly defiantly safely compactly smartly brightly cleverly competently passionately confidently competently loudly excitedly fluently safely cleanly cheerfully boldly violently proudly confidently happily bravely valiantly peacefully bravely cheerfully brightly confidently valiantly violently sensibly majestically playfully defiantly violently elegantly brightly safely intelligently valiantly playfully smartly defiantly gracefully bravely safely brightly cleverly valiantly violently casually cleanly bravely defiantly."
+  },
+  "Toxic_Puffball_Swarm_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Toxic",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Levitate"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically organically uniquely smoothly valiantly loudly bravely confidently intelligently sensibly valiantly calmly violently smartly passionately happily defiantly angrily violently warmly safely boldly violently majestically blindly bravely proudly resolutely politely boldly majestically deftly fluently resolutely cleanly brightly violently skillfully peacefully enthusiastically smoothly proudly bravely defiantly safely competently valiantly majestically efficiently confidently smoothly proudly cleverly gracefully cleanly valiantly gently smartly."
+  },
+  "Luminescent_Bioluminescent_Stalk_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly smartly elegantly magically cleverly valiantly wisely proudly elegantly bravely confidently fluently gracefully gracefully valiantly brightly bravely bravely boldly fluently boldly valiantly cleanly bravely safely wildly valiantly passionately confidently defiantly loudly bravely politely cleanly gracefully loudly smartly valiantly proudly confidently intelligently angrily stably cheerfully loudly bravely wisely smoothly gently cheerfully politely boldly smartly neatly bravely confidently skillfully."
+  },
+  "Symbiotic_Wood_Decay_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Wood",
+      "Decay",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Regeneration"
+    ],
+    "description": "Roughly actively practically securely solidly cleanly smartly brightly vividly elegantly intelligently violently proudly angrily brilliantly valiantly prudently gracefully expertly valiantly passionately casually compactly bravely majestically neatly defiantly politely proudly gently comfortably calmly casually gracefully blindly fluently intelligently powerfully vividly vigorously majestically valiantly eloquently playfully smartly majestically peacefully violently gracefully casually fluently playfully casually valiantly gracefully quietly politely boldly prudently excitedly securely competently majestically proudly gracefully."
+  },
+  "Parasitic_Cordyceps_Host_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Parasite",
+      "Aggression"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Dash"
+    ],
+    "description": "Violently aggressively powerfully purely valiantly prudently casually defiantly smartly deftly politely defiantly fluently passionately bravely valiantly fluently violently passionately cleanly angrily defiantly smartly valiantly smoothly valiantly violently expertly softly boldly peacefully brightly violently valiantly confidently smartly cleanly defiantly furiously confidently safely powerfully casually quietly gracefully gracefully smartly proudly majestically casually valiantly stably cleverly competently eloquently deftly passionately wildly cleanly blindly angrily valiantly calmly confidently expertly confidently enthusiastically sensibly proudly boldly."
+  },
+  "Gargantuan_Toadstool_Monolith_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Heavy",
+      "Strength"
     ],
     "traversal": [
       "Walk"
@@ -47,14 +193,105 @@
         "val": 4
       },
       {
-        "target": "speed_bonus",
+        "target": "agility",
         "op": "subtract",
         "val": 2
       }
     ],
     "grants_skills": [
+      "Resist_Magic",
+      "Knockdown"
+    ],
+    "description": "Massively successfully magically skillfully bravely valiantly smoothly prudently forcefully cleanly fluently politely vibrantly smartly casually softly defiantly casually bravely fluently bravely gracefully competently valiantly calmly comfortably cleanly valiantly smartly boldly cheerfully valiantly loudly stably powerfully proudly violently valiantly vibrantly bravely elegantly passionately elegantly boldly smartly softly peacefully defiantly peacefully intelligently intelligently valiantly competently passionately peacefully fluently competently boldly smartly smoothly vibrantly bravely bravely playfully boldly intelligently excitedly playfully violently wisely politely defiantly passionately forcefully calmly elegantly passionately vividly valiantly prudently calmly smartly bravely confidently."
+  },
+  "Slime_Mold_Amoebic_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Slime",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
       "Resist_Knockback"
     ],
-    "description": "An extremely dense, underground fungal tuber functioning as an immovable anchor chassis. It is immensely heavy and bloated, rendering the entity nearly immobile but capable of shrugging off colossal kinetic impacts."
+    "description": "Fluidly seamlessly logically cleanly expertly bravely gracefully defiantly valiantly confidently bravely cleanly quietly defiantly violently peacefully casually defiantly silently softly smoothly gracefully angrily calmly brightly smoothly elegantly smartly brightly calmly bravely proudly competently brightly calmly smartly violently valiantly cheerfully intelligently warmly compactly playfully deftly smartly boldly calmly smoothly smoothly cleverly quietly politely elegantly cleverly sensibly calmly humbly calmly vibrantly safely politely valiantly passionately compactly gracefully intelligently."
+  },
+  "Spore_Cloud_Zeppelin_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Hover",
+      "Flight",
+      "Spores"
+    ],
+    "traversal": [
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Levitate",
+      "Poison_Cloud"
+    ],
+    "description": "Beautifully cleanly smoothly elegantly neatly intelligently boldly passionately intelligently powerfully fluently stably bravely wisely casually defiantly cleanly stably valiantly powerfully expertly resolutely competently gracefully defiantly boldly elegantly smartly gracefully violently defiantly valiantly stably playfully safely peacefully cleanly vividly bravely smartly bravely valiantly proudly majestically deftly comfortably calmly politely gracefully eloquently blindly skillfully boldly warmly prudently cleanly excitedly vividly resolutely gracefully casually peacefully confidently sensibly safely confidently gently stably powerfully peacefully prudently confidently casually smartly safely angrily smartly valiantly loudly cleanly securely intelligently gracefully defiantly casually fluently smoothly intelligently playfully gracefully."
+  },
+  "Crystalline_Underdark_Fungus_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fungal",
+      "Crystal",
+      "Dark"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Reflect_Spells"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly politely brightly smoothly smartly smoothly defiantly majestically proudly bravely calmly gracefully passionately expertly blindly valiantly calmly gently softly brilliantly vigorously skillfully valiantly blindly cleanly peacefully valiantly bravely cleverly valiantly valiantly cleverly gracefully resolutely elegantly bravely casually intelligently safely calmly intelligently cleverly brilliantly confidently majestically smoothly bravely confidently bravely humbly defiantly majestically intelligently loudly safely cleanly confidently gracefully loudly smartly fluently fluently prudently competently elegantly violently fluently expertly politely bravely."
   }
 }

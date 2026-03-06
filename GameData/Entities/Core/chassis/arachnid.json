@@ -1,22 +1,188 @@
 {
-  "Exoskeletal_Prosoma_Frame": {
+  "Fused_Cephalothorax_Chassis": {
     "tags": [
-      "Chitin",
       "Exoskeleton",
+      "Fused",
       "Arachnid",
-      "Segmented"
+      "Spider_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb"
+    ],
+    "description": "A highly robust, completely fused head and thorax (prosoma) serving as an impenetrable armored anchor point for eight violently fast, hydraulic limbs."
+  },
+  "Elongated_Segmented_Carapace": {
+    "tags": [
+      "Exoskeleton",
+      "Segmented",
+      "Arachnid",
+      "Scorpion_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "A heavily segmented, elongated, extraordinarily tough chitinous frame featuring massive tergite plates overlapping the abdomen. It sacrifices the vertical agility of a spider for the grinding, unstoppable terrestrial advance of a desert scorpion."
+  },
+  "Microscopic_Parasitic_Core": {
+    "tags": [
+      "Exoskeleton",
+      "Microscopic",
+      "Arachnid",
+      "Mite_Like"
+    ],
+    "traversal": [
+      "Climb",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "An unbelievably compact, practically microscopic chassis composed of a single, undifferentiated rounded mass (idiosoma). Optimized purely for invisibility, parasitism, and horrific infiltration of host cardiovascular systems."
+  },
+  "Goliath_Tarantula_Bulk": {
+    "tags": [
+      "Exoskeleton",
+      "Massive",
+      "Arachnid",
+      "Tarantula"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "A gargantuan, extraordinarily heavy spider frame capable of achieving a leg span exceeding a foot. Lacking the tensile agility required for webs, it operates entirely as a brutal terrestrial ambush engine capable of physically wrestling small mammals."
+  },
+  "Violently_Compressed_Frame": {
+    "tags": [
+      "Exoskeleton",
+      "Flat",
+      "Arachnid",
+      "Amblypygi"
+    ],
+    "traversal": [
+      "Wall_Crawl",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "A severely dorsoventrally flattened chassis resembling a tailless whip scorpion. Evolved exclusively to slip invisibly beneath peeling bark and through impossibly narrow rock fissures while remaining perfectly flush against the surface."
+  },
+  "Orb_Weaver_Suspension_Core": {
+    "tags": [
+      "Exoskeleton",
+      "Lightweight",
+      "Arachnid",
+      "Orb_Weaver"
     ],
     "traversal": [
       "Climb"
     ],
     "mods": [
       {
-        "target": "dex",
+        "target": "agility",
         "op": "add",
         "val": 2
       },
       {
-        "target": "size_index",
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "An incredibly delicate, fragile frame featuring an enormous, bulbous abdomen functioning as a massive silk reservoir. Built entirely to hang perfectly inverted in the absolute center of a high-tension geometric web."
+  },
+  "Heavily_Calcified_Opiliones_Husk": {
+    "tags": [
+      "Exoskeleton",
+      "Calcified",
+      "Arachnid",
+      "Harvestman"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
         "op": "add",
         "val": 1
       },
@@ -27,67 +193,85 @@
       }
     ],
     "grants_skills": [],
-    "description": "A dense, completely fused head and thorax forming a rigid prosoma. It anchors eight limbs seamlessly and provides excellent structural integrity, significantly boosting agility and baseline armor at the cost of sheer muscle mass."
+    "description": "A tiny, singular, fused pill-like body held aloft on absurdly long, unarmored stilts. The actual core body itself is highly calcified and exceedingly difficult to crush, resembling a heavily armored biological pebble."
   },
-  "Abdominal_Spinneret_Core": {
+  "Subterranean_Trapdoor_Bulk": {
     "tags": [
-      "Flesh",
-      "Soft_Abdomen",
-      "Silk_Glands",
+      "Exoskeleton",
+      "Burrowing",
+      "Heavy",
       "Arachnid"
     ],
     "traversal": [
-      "Climb",
-      "Web_Walk"
+      "Burrow",
+      "Walk"
     ],
     "mods": [
       {
-        "target": "con",
+        "target": "str",
         "op": "add",
-        "val": 1
+        "val": 2
       },
       {
-        "target": "size_index",
-        "op": "add",
-        "val": 3
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
       }
     ],
     "grants_skills": [
-      "Web Shoot"
+      "Burrow",
+      "Ambush"
     ],
-    "description": "A massive, fleshy opisthosoma (abdomen) housing hypertrophied silk glands and respiratory book lungs. Though physically vulnerable, it allows for the continuous production of complex silk structures and vastly expands the organism's total mass."
+    "description": "A very thick, heavily reinforced chassis possessing massive, shovel-like cheliceral structures directly integrated into the prosoma frame. Functionally acts as a heavily armored excavator capable of hollowing out immensely deep, vertical silken bunkers."
   },
-  "Compact_Opiliones_Frame": {
+  "Aquatic_Diving_Bell_Core": {
     "tags": [
-      "Chitin",
-      "Fused",
-      "Lightweight",
-      "Arachnid"
+      "Exoskeleton",
+      "Aquatic",
+      "Arachnid",
+      "Water_Spider"
     ],
     "traversal": [
-      "Climb",
+      "Swim",
       "Walk"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 3
-      },
-      {
-        "target": "dex",
-        "op": "add",
-        "val": 3
-      },
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aquatic_Respiration"
+    ],
+    "description": "A deeply modified abdomen shaped to maximize exterior surface tension, designed to perfectly trap and hold a massive silvery bubble of atmospheric oxygen tightly against the spiracles while hunting entirely underwater."
+  },
+  "Pseudo_Scorpion_Pincer_Frame": {
+    "tags": [
+      "Exoskeleton",
+      "Grapple",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
       {
         "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
         "op": "subtract",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Sprint"
+      "Grapple"
     ],
-    "description": "A highly compressed, pill-like chassis where the prosoma and abdomen are virtually indistinguishable. This ultra-lightweight frame trades physical strength for explosive, frantic bursts of scuttling speed."
+    "description": "A bizarre, tailless frame consisting entirely of a heavily armored prosoma and oversized, venomous pincers (pedipalps). Specialized for extreme close-quarters grappling in total darkness."
   }
 }

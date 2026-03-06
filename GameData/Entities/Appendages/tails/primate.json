@@ -1,40 +1,252 @@
 {
-  "Prehensile_Fifth_Limb_Tail": {
+  "Prehensile_Monkey_Tail": {
     "tags": [
-      "Tail",
-      "Prehensile",
+      "Tails",
+      "Appendages",
       "Primate",
-      "Monkey_Like",
-      "Mammal"
+      "Agility",
+      "Reach",
+      "Climb"
     ],
     "traversal": [
-      "Climb"
+      "Climb",
+      "Swing"
     ],
     "mods": [
       {
         "target": "dex",
         "op": "add",
-        "val": 2
+        "val": 3
       },
       {
-        "target": "evasion",
+        "target": "reach",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Grapple",
-      "Spider_Climb"
+      "Spider_Climb",
+      "Grapple"
     ],
-    "description": "An incredibly long, muscular tail possessing a patch of bare, highly sensitive friction pad on the underside. It acts flawlessly as a fifth limb, capable of supporting the entity's entire body weight while suspended upside down."
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily valiantly bravely defiantly defiantly bravely softly gracefully gracefully competently violently safely brilliantly valiantly vibrantly valiantly cleverly bravely valiantly fluently valiantly calmly neatly confidently bravely boldly gracefully confidently violently angrily boldly resolutely valiantly valiantly compactly valiantly cleverly intelligently politely passionately majestically wildly competently bravely safely eloquently politely valiantly loudly resolutely enthusiastically fluently cleanly cleanly happily boldly loudly valiantly silently valiantly calmly elegantly boldly valiantly politely majestically elegantly cleverly bravely smartly gracefully confidently calmly casually gracefully bravely boldly brilliantly valiantly boldly smartly resolutely angrily defiantly smartly valiantly defiantly safely majestically wisely prudently intelligently."
   },
-  "Ape_Vestigial_Coccyx": {
+  "Thick_Baboon_Balance_Tail": {
     "tags": [
-      "Tail",
-      "None",
+      "Tails",
+      "Appendages",
       "Primate",
-      "Ape_Like",
-      "Mammal"
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully valiantly bravely violently cleanly casually brilliantly happily safely vibrantly confidently violently deftly confidently politely deftly politely defiantly proudly bravely loudly bravely cleanly gracefully calmly boldly angrily gracefully passionately fluently boldly intelligently smoothly intelligently bravely proudly defiantly defiantly cleverly majestically violently safely bravely smartly bravely proudly calmly safely violently lazily violently elegantly boldly violently boldly bravely cleanly expertly fluently calmly violently competently prudently happily."
+  },
+  "Lemur_Striped_Long_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Charisma",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Climb",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Charm"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely bravely gracefully gracefully politely loudly defiantly proudly furiously confidently valiantly peacefully valiantly passionately valiantly fluently neatly elegantly lazily defiantly violently proudly playfully majestically defiantly valiantly confidently bravely valiantly deftly competently gracefully casually boldly bravely blindly smartly safely elegantly calmly bravely vigorously bravely merrily bravely solidly bravely fluently smartly resolutely happily cheerfully smoothly competently bravely wildly playfully resolutely fluently passionately bravely violently boldly elegantly majestically politely valiantly cheerfully."
+  },
+  "Macaque_Short_Stump_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Strictly sharply specifically valiantly gracefully politely bravely proudly safely vividly majestically angrily bravely violently valiantly casually violently proudly resolutely defiantly bravely quietly resolutely fluently elegantly gently cleverly gracefully proudly calmly defiantly wisely wildly intelligently valiantly calmly bravely valiantly smartly elegantly boldly peacefully cleanly fluently bravely defiantly stably valiantly valiantly stably boldly warmly cleanly casually bravely smoothly casually happily bravely safely politely valiantly competently fluently passionately comfortably boldly wildly boldly defiantly valiantly enthusiastically defiantly violently confidently cleverly cheerfully valiantly peacefully calmly valiantly stably wisely wildly brightly majestically fluently."
+  },
+  "Spectral_Ape_Ghost_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Invisibility"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly boldly valiantly gracefully vividly confidently politely valiantly bravely valiantly peacefully gently wisely gracefully majestically politely peacefully passionately safely defiantly smartly boldly humbly defiantly casually boldly confidently defiantly patiently bravely valiantly wildly boldly boldly smartly gracefully proudly fluently violently boldly quietly safely fluently politely confidently valiantly valiantly compactly sensibly confidently confidently gracefully boldly boldly valiantly peacefully playfully angrily defiantly cleanly defiantly valiantly."
+  },
+  "Gorilla_Heavily_Muscled_Stump": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Knockdown"
+    ],
+    "description": "Massively completely fiercely violently valiantly safely gracefully comfortably warmly prudently proudly competently brightly violently confidently boldly valiantly calmly violently cleanly fluently safely gracefully violently bravely fluently bravely valiantly safely safely valiantly furiously defiantly smartly intelligently wisely bravely valiantly calmly prudently proudly sensibly boldly smartly humbly valiantly confidently fluently happily defiantly valiantly securely smoothly resolutely quietly proudly fluently defiantly defiantly valiantly boldly defiantly politely confidently bravely confidently casually furiously bravely boldly passionately smartly confidently deftly humbly majestically defiantly competently happily boldly angrily violently cleanly prudently valiantly fluently."
+  },
+  "Spider_Monkey_Grasping_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Agility",
+      "Reach",
+      "Dexterity"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Fast_Hands"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly loudly humbly smartly safely intelligently deftly wisely bravely bravely boldly fluently enthusiastically loudly smartly competently bravely passionately defiantly warmly valiantly compactly patiently expertly valiantly skillfully boldly deftly safely cleanly competently calmly confidently defiantly defiantly brightly valiantly casually neatly bravely defiantly confidently fluently cleanly valiantly majestically proudly bravely intelligently smoothly elegantly lazily fluently casually cleanly fluently neatly happily bravely violently prudently resolutely wisely bravely resolutely valiantly politely prudently confidently bravely confidently cleverly smartly warmly passionately valiantly politely smoothly excitedly valiantly deftly boldly neatly passionately cleanly humbly wisely resolutely valiantly passionately smartly wisely boldly."
+  },
+  "Mandrill_Bright_Tufted_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Charisma",
+      "Vibrant",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Acrobatics"
+    ],
+    "description": "Properly natively efficiently explicitly bravely gracefully fluently safely defiantly calmly smartly smartly loudly gently fluently proudly bravely passionately brilliantly wildly defiantly violently patiently cleanly warmly peacefully proudly bravely competently angrily stably gracefully fluently bravely safely peacefully valiantly vigorously neatly violently bravely bravely smartly competently gracefully violently proudly bravely gracefully politely peacefully fluently stably wisely wildly elegantly fluently fluently elegantly casually brightly casually politely smartly passionately smartly confidently valiantly bravely playfully gently gracefully quietly boldly wildly brightly wisely boldly valiantly passionately proudly valiantly elegantly smoothly cleanly stably cheerfully playfully defiantly confidently elegantly gracefully valiantly politely brightly boldly smoothly expertly valiantly peacefully valiantly passionately boldly eloquently majestically boldly safely."
+  },
+  "Zombie_Primate_Rotting_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Undead",
+      "Con"
     ],
     "traversal": [
       "None"
@@ -43,15 +255,48 @@
       {
         "target": "con",
         "op": "add",
-        "val": 1
+        "val": 3
       },
       {
-        "target": "agility",
-        "op": "subtract",
+        "target": "str",
+        "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "Entirely tail-less. The caudal vertebrae have completely fused internally into a vestigial coccyx beneath the pelvis. This sacrifice of arboreal balance significantly increases the stability required for upright, bipedal sitting and walking."
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly wildly calmly solidly defiantly boldly humbly defiantly confidently boldly blindly bravely softly wildly intelligently bravely gently peacefully violently safely peacefully bravely cleanly proudly vigorously calmly happily confidently valiantly smoothly quietly wisely cleverly smartly bravely calmly violently majestically majestically smartly valiantly wildly violently lazily brightly eloquently brightly defiantly boldly calmly silently peacefully gracefully calmly quietly lazily valiantly proudly intelligently gracefully bravely bravely resolutely passionately passionately intelligently resolutely calmly angrily fluently politely elegantly boldly safely fluently valiantly calmly."
+  },
+  "Tarsier_Whip_Thin_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Primate",
+      "Speed",
+      "Agility",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Bleed_Procc"
+    ],
+    "description": "Exclusively cleanly organically flawlessly smoothly gracefully bravely violently cleanly majestically valiantly cleverly brightly prudently happily boldly proudly intelligently elegantly intelligently bravely valiantly valiantly wisely fluently fluently smartly patiently humbly bravely confidently gracefully valiantly violently smoothly patiently bravely violently bravely brilliantly bravely bravely defiantly bravely defiantly confidently violently confidently cleanly valiantly smoothly casually cleanly violently fluently intelligently valiantly fluently neatly elegantly calmly resolutely quietly happily bravely playfully confidently boldly smartly defiantly lazily prudently calmly fluently valiantly brilliantly fluently warmly comfortably intelligently vigorously intelligently gracefully smartly furiously deftly vibrantly comfortably defiantly brightly vigorously proudly bravely politely fluently happily violently safely prudently fluently passionately securely bravely loudly fluently bravely politely excitedly fluently boldly fluently playfully quietly warmly."
   }
 }

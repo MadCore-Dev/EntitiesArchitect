@@ -1,9 +1,9 @@
 {
-    "Venomous_Chelicerae": {
+    "Venomous_Cheliceral_Fangs": {
         "tags": [
+            "Maw",
             "Fangs",
             "Venom",
-            "Maw",
             "Arachnid"
         ],
         "traversal": [
@@ -14,19 +14,50 @@
                 "target": "str",
                 "op": "add",
                 "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Bite",
             "Inject_Toxin"
         ],
-        "description": "Massive, downward-striking fangs connected to highly developed venom glands. Designed to pierce thick armor and immediately liquefy the prey's internal organs for consumption."
+        "description": "Massive, downward-striking hollow fangs (chelicerae) directly connected to colossal venom glands located in the prosoma. They easily punch through tough hide to pump agonizing, tissue-necrotizing venom directly into the prey's bloodstream."
     },
-    "Pedipalp_Grinding_Maw": {
+    "Sideways_Pincer_Chelicerae": {
         "tags": [
-            "Mandibles",
-            "Grinding",
             "Maw",
+            "Pincers",
+            "Arachnid",
+            "Solifugae"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "reach",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Bleed_Procc"
+        ],
+        "description": "Instead of fangs, the mouthparts are modified into two staggeringly powerful, horizontally opposed, heavily toothed shears (like a camel spider). They lack venom entirely but literally scissor struggling prey into bloody ribbons in seconds."
+    },
+    "Digestive_Enzyme_Vomit_Maw": {
+        "tags": [
+            "Maw",
+            "Acid",
             "Arachnid"
         ],
         "traversal": [
@@ -36,12 +67,178 @@
             {
                 "target": "con",
                 "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acid Breath"
+        ],
+        "description": "Arachnids cannot eat solid food. This horrifically specialized mouth simply latches onto the victim and violently regurgitates oceans of hyper-concentrated digestive acids, physically melting the prey alive before slurping up the resulting nutrient soup."
+    },
+    "Micro_Serrated_Cutting_Rostrum": {
+        "tags": [
+            "Maw",
+            "Serrated",
+            "Arachnid",
+            "Tick_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Life_Drain"
+        ],
+        "description": "An incredibly tiny, heavily barbed hypostome that effortlessly saws completely silently through the epidermis of a sleeping host. Infused with natural anesthetics, the host never feels the entity drinking a horrifying percentage of their blood."
+    },
+    "Elongated_Burrowing_Chelicerae": {
+        "tags": [
+            "Maw",
+            "Spade",
+            "Burrowing",
+            "Arachnid",
+            "Trapdoor"
+        ],
+        "traversal": [
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "The fangs are absurdly thick, dramatically shortened, and armed with heavy keratin 'teeth' (rastellum). They function exactly like organic pickaxes, used almost exclusively for aggressively excavating deeply packed clay to construct trapdoor bunkers."
+    },
+    "Protrusible_Prey_Snatching_Jaws": {
+        "tags": [
+            "Maw",
+            "Protrusible",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
                 "val": 2
             }
         ],
         "grants_skills": [
-            "Crushing Jaw"
+            "Grapple"
         ],
-        "description": "A complex arrangement of specialized, serrated pedipalps and mouthparts designed strictly for mechanical grinding and maceration of tough flesh, requiring intense constitution to power."
+        "description": "The chelicerae are mounted on strangely heavily folded, highly extensible membranes. The mouthparts can literally shoot forward several inches completely independent of the head, snagging evasive insects that thought they were out of range."
+    },
+    "Goliath_Crushing_Fangs": {
+        "tags": [
+            "Maw",
+            "Heavy",
+            "Arachnid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Fangs so incredibly thick and heavily armored that they rely less on venom and entirely on sheer, horrific brute-force crushing power, easily capable of cracking the carapace of a giant crab or the skull of a dog."
+    },
+    "Web_Spinning_Mouthparts": {
+        "tags": [
+            "Maw",
+            "Web",
+            "Arachnid",
+            "Spitting_Spider"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Restrain"
+        ],
+        "description": "The venom glands have bizarrely mutated to produce highly pressurized, neurotoxic silk. The fangs continuously violently oscillate side-to-side, aggressively spraying an inescapable, zigzagging web of venomous glue directly over the victim."
+    },
+    "Filter_Feeding_Setal_Maw": {
+        "tags": [
+            "Maw",
+            "Filter",
+            "Arachnid",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The mouthparts of a highly specialized aquatic arachnid heavily fringed with thousands of microscopic filtering hairs. It simply holds its mouth open in strong river currents, passively trapping drifting zooplankton and aquatic mites."
+    },
+    "Hooked_Grappling_Chelicerae": {
+        "tags": [
+            "Maw",
+            "Hooks",
+            "Arachnid",
+            "Hunter"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Fangs utterly lacking venom glands completely. Instead, they are deeply grooved and impossibly sharply recurved fishhooks. Once they sink into the chitin of a fleeing cricket, there is absolutely no physical escape short of tearing the body apart."
     }
 }

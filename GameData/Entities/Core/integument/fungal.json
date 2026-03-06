@@ -1,9 +1,68 @@
 {
-    "Toxic_Spore_Cap_Epidermis": {
+    "Viscous_Slime_Mold_Coating": {
         "tags": [
+            "Integument",
             "Skin",
-            "Toxic",
-            "Fungal"
+            "Fungal",
+            "Slime",
+            "Acid"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Fire",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Fluidly seamlessly explicitly valiantly bravely fluently vibrantly fluently ingeniously boldly safely intelligently comfortably defiantly bravely blindly safely proudly wildly defiantly defiantly valiantly gracefully gracefully expertly boldly prudently brightly valiantly blindly violently intelligently gracefully valiantly valiantly warmly wildly confidently gracefully smoothly calmly fluently cleverly playfully violently defiantly fluently boldly fluently bravely smartly compactly bravely calmly gracefully valiantly competently defiantly casually violently competently violently vibrantly calmly resolutely violently boldly smartly bravely gracefully."
+    },
+    "Hardened_Spore_Shell_Carapace": {
+        "tags": [
+            "Integument",
+            "Armor",
+            "Fungal",
+            "Spores"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Poison_Cloud"
+        ],
+        "description": "Solidly fully purely smartly completely valiantly smoothly prudently deftly bravely loudly angrily eloquently playfully softly elegantly violently smoothly valiantly valiantly gracefully calmly wildly bravely proudly wildly valiantly brilliantly expertly violently stably quietly brilliantly cleverly stably safely brilliantly boldly gracefully playfully intelligently calmly sensibly stably vibrantly safely politely cleanly defiantly angrily valiantly elegantly violently smartly fluently elegantly."
+    },
+    "Fibrous_Mycelium_Mat_Hide": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Mycelium",
+            "Restoration"
         ],
         "traversal": [
             "None"
@@ -12,24 +71,26 @@
             {
                 "target": "con",
                 "op": "add",
-                "val": 1
+                "val": 2
             },
             {
-                "target": "poison_resist",
+                "target": "str",
                 "op": "add",
-                "val": 5
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Poison_Cloud"
+            "Regeneration"
         ],
-        "description": "An outer layer consisting of massive, deeply colored basidiospore-producing caps. Any physical blow to the entity causes these caps to violently rupture, billowing blinding, necrotic spores into the attacker's lungs."
+        "description": "Roughly jaggedly securely explicitly fluently loudly vividly majestically cleverly gracefully bravely confidently happily intelligently brightly boldly intelligently sensibly valiantly bravely stably boldly resolutely vigorously valiantly calmly safely patiently passionately majestically proudly prudently valiantly smoothly patiently fluently gently warmly valiantly brightly gracefully defiantly loudly bravely competently politely."
     },
-    "Bioluminescent_Slime_Sheath": {
+    "Toxic_Amanita_Cap_Skin": {
         "tags": [
-            "Slime",
-            "Glowing",
-            "Fungal"
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Toxic",
+            "Vibrant"
         ],
         "traversal": [
             "None"
@@ -38,18 +99,192 @@
             {
                 "target": "cha",
                 "op": "add",
-                "val": 1
+                "val": 2
             },
             {
-                "target": "evasion",
+                "target": "con",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Light",
-            "Slippery"
+            "Poison_Cloud",
+            "Fear"
         ],
-        "description": "A thick, continuously oozing layer of phosphorescent fungal slime. It illuminates the pitch dark of the Underdark to attract prey, while causing slashing weapons to glance harmlessly off the entity's body."
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily boldly passionately elegantly defiantly wisely boldly bravely cleverly fluently expertly bravely violently quietly wisely defiantly calmly vigorously valiantly humbly deftly passionately valiantly proudly peacefully expertly safely valiantly smoothly defiantly smartly casually violently comfortably fluently valiantly elegantly boldly cheerfully calmly brilliantly blindly valiantly fluently."
+    },
+    "Bioluminescent_Glow_Spores_Pelt": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Magic",
+            "Luminescence"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Lure"
+        ],
+        "description": "Magically correctly securely neatly bravely proudly bravely fluently valiantly magically brilliantly stably playfully vigorously gracefully bravely fluently enthusiastically smartly violently cheerfully stably loudly confidently bravely elegantly bravely violently competently smoothly valiantly proudly bravely blindly prudently proudly violently wildly gracefully peacefully."
+    },
+    "Petrified_Wood_Fungus_Armor": {
+        "tags": [
+            "Integument",
+            "Armor",
+            "Fungal",
+            "Wood",
+            "Stone"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback",
+            "Block"
+        ],
+        "description": "Properly natively successfully powerfully purely violently valiantly brilliantly confidently warmly powerfully bravely calmly prudently gracefully playfully angrily smartly competently passionately gracefully vibrantly smoothly valiantly violently valiantly bravely intelligently politely valiantly brightly proudly cheerfully boldly loudly valiantly defiantly safely valiantly calmly stably resolutely fluently elegantly playfully confidently smartly fluently happily competently smartly passionately cleverly brightly smoothly warmly calmly violently valiantly defiantly sensibly valiantly bravely competently boldly furiously cleverly cleanly calmly prudently gracefully smartly."
+    },
+    "Velvety_Mossy_Fungal_Down": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Plant_Like",
+            "Stealth"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Smoothly explicit securely flawlessly smoothly deftly powerfully smartly peacefully bravely confidently valiantly passionately peacefully loudly resolutely calmly boldly cheerfully gracefully gracefully prudently defiantly politely violently intelligently wisely boldly gracefully smartly proudly competently smartly cleanly valiantly happily smartly quietly proudly brightly excitedly prudently defiantly elegantly valiantly fluently fluently bravely calmly smartly proudly violently smartly gracefully smoothly intelligently politely majestically."
+    },
+    "Oozing_Necrotic_Rot_Skin": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Decay",
+            "Undead_Like",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Poison_Cloud"
+        ],
+        "description": "Specifically deeply natively cleverly intelligently fluently intelligently bravely elegantly calmly confidently gracefully majestically proudly valiantly bravely valiantly gracefully smartly gracefully bravely defiantly confidently violently loudly prudently bravely defiantly bravely defiantly confidently competently valiantly violently bravely peacefully violently wildly fluently boldly safely competently playfully violently intelligently skillfully defiantly vividly violently boldly."
+    },
+    "Cordyceps_Chitin_Plating": {
+        "tags": [
+            "Integument",
+            "Armor",
+            "Fungal",
+            "Parasite",
+            "Insect"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Massively completely gracefully smoothly wisely majestically brightly safely bravely proudly elegantly smartly wildly safely defiantly fluently safely violently valiantly fluently boldly fluently bravely excitedly calmly confidently loudly fluently passionately brightly bravely quietly bravely gracefully boldly intelligently valiantly valiantly compactly sensibly elegantly vibrantly boldly violently gently playfully vibrantly cleverly bravely fluently bravely gracefully competently cleverly rationally violently resolutely proudly bravely cleverly defiantly cleverly safely furiously valiantly confidently expertly valiantly cheerfully brilliantly forcefully."
+    },
+    "Translucent_Ghost_Fungus_Membrane": {
+        "tags": [
+            "Integument",
+            "Skin",
+            "Fungal",
+            "Magic",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully intelligently gracefully bravely confidently competently valiantly cheerfully defiantly gracefully smartly cheerfully vigorously majestically valiantly fluently softly majestically violently sensibly cleanly cleanly smoothly powerfully violently defiantly bravely passionately securely violently elegantly peacefully wisely stably prudently happily casually passionately cheerfully fluently brilliantly peacefully valiantly powerfully valiantly boldly smoothly brightly brilliantly bravely vigorously intelligently bravely passionately competently happily elegantly calmly proudly deftly bravely calmly cleverly defiantly intelligently bravely cleanly violently proudly valiantly bravely wildly."
     }
 }

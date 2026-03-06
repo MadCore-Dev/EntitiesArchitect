@@ -1,11 +1,153 @@
 {
-    "Prominent_Tympanal_Membrane": {
+    "Tympanic_Membrane_Ring": {
         "tags": [
-            "Flesh",
+            "Ear",
+            "Membrane",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A large, distinct circular eardrum visible directly on the surface of the skin just behind the eye. Extremely efficient at picking up low-frequency croaks and mating calls over long terrestrial distances."
+    },
+    "Subterranean_Columella": {
+        "tags": [
+            "Ear",
+            "Bone",
+            "Burrowing",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Lacking an external eardrum entirely, the stapes bone connects directly to the jaw and squamosal bone. It detects ultra-low frequency seismic vibrations traveling through the earth, alerting the entity to heavy footsteps miles away."
+    },
+    "Acoustic_Resonance_Cavity": {
+        "tags": [
+            "Ear",
+            "Chamber",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "A hollow, air-filled chamber situated behind a thin layer of skin. This cavity perfectly resonates with extremely high-pitched whistles and insect buzzing, acting as a biological passive sonar array."
+    },
+    "Aquatic_Lateral_Line_Extension": {
+        "tags": [
+            "Ear",
             "Sensory",
-            "Eardrum",
-            "Amphibian",
-            "Frog_Like"
+            "Aquatic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "The auditory system is seamlessly integrated into a highly developed lateral line organ crossing the head. It perfectly detects minute pressure waves and water displacements, allowing hunting in absolute aquatic darkness."
+    },
+    "Vestigial_Otic_Capsule": {
+        "tags": [
+            "Ear",
+            "Deaf",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Deaf"
+        ],
+        "description": "The inner ear is heavily calcified and completely decoupled from the environment. The entity is entirely deaf to airborne sounds, completely immune to sonic or thunder-based magical attacks."
+    },
+    "Vocal_Sac_Coupled_Tympanum": {
+        "tags": [
+            "Ear",
+            "Acoustic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "An incredibly specialized ear structure that physically severs its connection to the eardrum when the entity's lungs inflate. This prevents the entity's own deafening, 100+ decibel mating roar from continually shattering its inner ear."
+    },
+    "Seismic_Papilla_Amphibiorum": {
+        "tags": [
+            "Ear",
+            "Sensory",
+            "Amphibian"
         ],
         "traversal": [
             "None"
@@ -18,15 +160,14 @@
             }
         ],
         "grants_skills": [
-            "Keen Hearing"
+            "Tremorsense"
         ],
-        "description": "A large, exposed, disc-like eardrum situated flush against the side of the head. It acts as both an acoustic receiver for high-frequency mating calls and a resonating chamber for sensing very low-frequency seismic rumblings."
+        "description": "A sensory organ within the inner ear found exclusively in amphibians. It is staggeringly sensitive to low-frequency thumps, allowing a resting frog to feel a predator shifting its weight three trees over."
     },
-    "Subterranean_Vestigial_Ears": {
+    "External_Fleshy_Ear_Baffles": {
         "tags": [
-            "Flesh",
-            "Burrowing",
-            "Caecilian_Like",
+            "Ear",
+            "Fleshy",
             "Amphibian"
         ],
         "traversal": [
@@ -34,19 +175,59 @@
         ],
         "mods": [
             {
-                "target": "con",
+                "target": "perception",
                 "op": "add",
                 "val": 1
             },
             {
-                "target": "perception",
-                "op": "subtract",
+                "target": "int",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Rare, fleshy ridges protruding slightly around the tympanic membrane. While not true pinnae like a mammal, they manage to funnel and capture sound directionally during torrential tropical downpours."
+    },
+    "High_Frequency_Otic_Pores": {
+        "tags": [
+            "Ear",
+            "Pores",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "Microscopic sensory pores ringing the skull that are hyper-tuned to the ultrasonic frequencies of bat echolocation. When pinged by high-frequency sound, it triggers an involuntary, instantaneous evasive leap."
+    },
+    "Aposematic_Auditory_Glands": {
+        "tags": [
+            "Ear",
+            "Toxic",
+            "Amphibian"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Tremorsense"
+            "Poison_Cloud"
         ],
-        "description": "Completely internal auditory canals buried beneath thick skin and bone, trading airborne sound perception entirely for the conduction of low-frequency vibrations straight through the jawbone while burrowing."
+        "description": "The tympanic membrane is backed by a highly pressurized venom sac. If the eardrum is ruptured by immense sonic force or a predator's bite, it aggressively sprays blinding toxins outward in a localized mist."
     }
 }

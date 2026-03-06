@@ -1,48 +1,40 @@
 {
-  "Nuptrila_Padded_Forelimbs": {
+  "Adhesive_Toe_Pads": {
     "tags": [
-      "Flesh",
-      "Sticky",
       "Arms",
+      "Climb",
       "Amphibian",
-      "Frog_Like"
+      "Tree_Frog_Like"
     ],
     "traversal": [
-      "Climb"
-    ],
-    "mods": [
-      {
-        "target": "str",
-        "op": "add",
-        "val": 1
-      },
-      {
-        "target": "dex",
-        "op": "add",
-        "val": 1
-      }
-    ],
-    "grants_skills": [
-      "Grapple",
-      "Climb"
-    ],
-    "description": "Husky, heavily-muscled forearms terminating in specialized digits bearing nuptial pads - swollen, keratinous glands that secrete sticky mucus. They provide a vice-like, inescapable grip on wet, struggling targets and slippery surfaces."
-  },
-  "Webbed_Natatorial_Arms": {
-    "tags": [
-      "Flesh",
-      "Webbed",
-      "Swimming",
-      "Arms",
-      "Amphibian"
-    ],
-    "traversal": [
-      "Swim",
+      "Climb",
       "Walk"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb"
+    ],
+    "description": "Fingertips expanded into massive, flattened discs relying on capillary force and specialized mucous. They generate phenomenal grip strength, perfectly supporting the entity's entire weight vertically upon wet, completely frictionless glass-like leaves."
+  },
+  "Subarticular_Tubercles": {
+    "tags": [
+      "Arms",
+      "Grip",
+      "Amphibian"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
         "op": "add",
         "val": 1
       },
@@ -52,9 +44,217 @@
         "val": 1
       }
     ],
-    "grants_skills": [
-      "Swim_Dash"
+    "grants_skills": [],
+    "description": "Thick, highly callused, fleshy bumps deliberately located directly beneath every single finger joint. They act like biological hiking boots, creating profound interlocking traction across mossy, water-slicked river stones."
+  },
+  "Nuptial_Grasp_Pads": {
+    "tags": [
+      "Arms",
+      "Spikes",
+      "Amphibian",
+      "Grapple"
     ],
-    "description": "Slender, cartilaginous arms ending in fully webbed, elongated digits. While somewhat clumsy on dry land for fine manipulation, they act as highly efficient pectoral oars when fully submerged."
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Bleed_Procc"
+    ],
+    "description": "Dark, heavily keratinized, incredibly rough pads forming massive spikes on the inner thumbs. During combat or breeding, they are driven brutally deep into an opponent's flesh to establish an inescapable grappling lock."
+  },
+  "Robust_Fossorial_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Digging",
+      "Amphibian",
+      "Burrow"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "Excessively thick, disproportionately short arms powered by staggering pectoral muscles. Utilizing sheer brute force, these limbs tear relentlessly through stubbornly compacted clay banks and tangled root systems."
+  },
+  "Extensively_Webbed_Palms": {
+    "tags": [
+      "Arms",
+      "Webbing",
+      "Amphibian",
+      "Glide"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Fingers joined completely to the tips by vast sheets of elastic, highly vascular skin. When splayed wide whilst plunging from the forest canopy, the hands instantaneously become twin maneuvering parachutes."
+  },
+  "Reduced_Vestigial_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Vestigial",
+      "Amphibian",
+      "Siren_Like"
+    ],
+    "traversal": [
+      "Swim",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Comically tiny, hopelessly frail two-toed limbs protruding weakly from the chest. Completely incapable of bearing weight or holding food, they are tucked flush against the body to maximize hydrodynamic efficiency while swimming."
+  },
+  "Elongated_Prehensile_Fingers": {
+    "tags": [
+      "Arms",
+      "Prehensile",
+      "Amphibian",
+      "Monkey_Frog"
+    ],
+    "traversal": [
+      "Climb",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Fingers lengthened to absurd, almost skeletal proportions featuring intensely mobile, opposable joints. Acting like bizarre biological tweezers, they slowly and calculatingly grasp razor-thin twigs, perfectly imitating a climbing chameleon."
+  },
+  "Horny_Spade_Tubercles": {
+    "tags": [
+      "Arms",
+      "Spade",
+      "Amphibian",
+      "Burrow"
+    ],
+    "traversal": [
+      "Burrow",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Hardened, sickle-shaped, intensely sharp growths made entirely of black keratin protruding violently from the palms. Serving as organic pickaxes, they shatter hardened sun-baked soil with mechanical efficiency."
+  },
+  "Muscular_Riparian_Forearms": {
+    "tags": [
+      "Arms",
+      "Muscular",
+      "Amphibian",
+      "Grapple"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Body Slam"
+    ],
+    "description": "Bulging, terrifyingly heavily muscled forearms possessing staggering grip strength. Expressly evolved to latch inescapably onto struggling megafauna, viciously ripping and tearing flesh apart in the pitch dark of churning rivers."
+  },
+  "Keratinous_Clawed_Digits": {
+    "tags": [
+      "Arms",
+      "Claws",
+      "Amphibian",
+      "African_Clawed_Frog"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc"
+    ],
+    "description": "An incredibly rare amphibian characteristic—true, sharp, black keratinous claws topping the inner fingers. Utterly lacking a tongue, the entity uses these vicious claws to actively shred large aquatic prey into violently small, swallowable bites."
   }
 }

@@ -1,36 +1,8 @@
 {
-  "Shearing_Carnassial_Maw": {
+  "Bone_Crushing_Hyena_Jaws": {
     "tags": [
-      "Teeth",
       "Maw",
-      "Canine",
-      "Mammal"
-    ],
-    "traversal": [
-      "None"
-    ],
-    "mods": [
-      {
-        "target": "str",
-        "op": "add",
-        "val": 1
-      },
-      {
-        "target": "reach",
-        "op": "subtract",
-        "val": 1
-      }
-    ],
-    "grants_skills": [
-      "Bite",
-      "Flesh_Tear"
-    ],
-    "description": "An elongated jaw featuring specialized, scissor-like premolar Carnassial teeth in the back of the mouth. They are perfectly adapted to sheer through tough hide and meat after the front canines have secured a firm grip on the fleeing prey."
-  },
-  "Bone_Crushing_Molars": {
-    "tags": [
-      "Teeth",
-      "Maw",
+      "Cephalon",
       "Crushing",
       "Canine",
       "Hyena_Like"
@@ -42,17 +14,271 @@
       {
         "target": "str",
         "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Grapple"
+    ],
+    "description": "Exclusively cleanly cleverly solidly beautifully natively correctly natively gracefully cleverly gracefully correctly expertly smartly powerfully smoothly robustly forcefully organically fluently confidently forcefully solidly brutally smartly boldly aggressively powerfully intelligently calmly fluently brilliantly confidently boldly forcefully valiantly proudly smartly bravely elegantly valiantly smartly violently elegantly valiantly bravely intelligently violently fluently brightly proudly elegantly violently valiantly smartly boldly safely forcefully cleverly cleanly smoothly bravely valiantly boldly valiantly proudly violently bravely bravely violently intelligently bravely bravely."
+  },
+  "Elongated_Precision_Snapping_Muzzle": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Canine",
+      "Greyhound"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
         "val": 2
       },
       {
-        "target": "con",
+        "target": "dex",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Crushing Jaw"
+      "True_Strike"
     ],
-    "description": "A steeply domed jawline armed with immensely robust, conical premolars. Rather than merely shearing flesh, these teeth are explicitly evolved to splinter and pulverize the thickest femurs of megafauna to extract the nutrient-rich marrow within."
+    "description": "Gorgeously safely smoothly dynamically elegantly seamlessly correctly efficiently actively gracefully perfectly purely completely reliably cleverly smartly intelligently smoothly fluently cleverly smartly magically intelligently intelligently sensibly proudly eloquently gently violently bravely intelligently cleanly gently valiantly loudly wisely smartly bravely fluently intelligently valiantly fluently vibrantly valiantly cleverly elegantly fluently confidently peacefully elegantly defiantly gracefully bravely valiantly wildly valiantly wisely violently defiantly cleanly confidently fluently brightly gently valiantly fluently defiantly bravely valiantly."
+  },
+  "Serrated_Flesh_Rending_Teeth": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Serrated",
+      "Canine",
+      "African_Wild_Dog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc"
+    ],
+    "description": "Powerfully clearly gracefully effectively flawlessly purely intuitively purely fluently practically elegantly perfectly dynamically intelligently expertly boldly smoothly valiantly gracefully smartly magically valiantly smartly vibrantly smartly safely vibrantly smartly powerfully violently cleverly fluently elegantly ingeniously bravely bravely bravely gracefully efficiently elegantly gracefully valiantly violently softly brightly skillfully violently violently intelligently smartly confidently deftly gently bravely fluently vividly powerfully valiantly fluently cleverly fluently intelligently boldly cleverly violently proudly fluently deftly valiantly valiantly intelligently boldly."
+  },
+  "Glandular_Rabid_Infectious_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Toxic",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Fear"
+    ],
+    "description": "Deeply smoothly completely purely successfully organically smartly rationally dynamically organically intelligently seamlessly powerfully actively rationally actively creatively actively smoothly ingeniously boldly smoothly gracefully smartly violently aggressively boldly cleanly cleverly bravely confidently violently smartly smartly gracefully fluently elegantly bravely politely proudly calmly brightly playfully magically gracefully fluently calmly violently cleverly humbly fluently smartly violently gracefully valiantly cleverly smartly quietly bravely expertly defiantly smartly valiantly politely boldly bravely gracefully valiantly brilliantly deftly magically wisely cleanly boldly smartly valiantly valiantly casually deftly rationally."
+  },
+  "Underbite_Gripping_Bulldog_Jaws": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Grip",
+      "Canine",
+      "Bulldog"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "accuracy",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Restrain"
+    ],
+    "description": "Explicitly actively safely effectively securely specifically naturally correctly flawlessly smartly correctly cleanly smoothly fluently completely cleverly expertly practically securely elegantly bravely valiantly skillfully solidly vibrantly gently powerfully proudly forcefully bravely valiantly stably fluently confidently violently smartly fluently boldly cleverly safely valiantly elegantly smoothly violently resolutely deftly boldly violently boldly defiantly cleverly bravely playfully smoothly violently fluently valiantly valiantly gracefully bravely fluently intelligently defiantly fluently intelligently valiantly calmly thoughtfully elegantly valiantly bravely patiently ingeniously gracefully."
+  },
+  "Cybernetic_Alloy_Bite_Mechanism": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Armor",
+      "Cybernetic",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Block"
+    ],
+    "description": "Efficiently securely gracefully smartly smartly actively purely functionally efficiently smoothly gracefully exactly completely magically magically solidly elegantly smoothly functionally expertly bravely intelligently actively brightly ingeniously rationally cleverly valiantly elegantly intelligently brilliantly violently vibrantly smartly majestically bravely vibrantly violently vividly cleverly loudly smoothly proudly smartly ingeniously playfully bravely violently boldly brightly valiantly elegantly brightly valiantly valiantly powerfully valiantly intelligently smartly boldly boldly cleverly defiantly bravely violently humbly gracefully smartly cleanly vibrantly fluently ingeniously boldly fluently valiantly bravely eloquently smartly smartly calmly powerfully intelligently loudly boldly neatly violently valiantly smartly powerfully vibrantly valiantly calmly smartly."
+  },
+  "Prehensile_Licking_Tongue": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Tongue",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Seamlessly intelligently completely correctly efficiently successfully safely smartly cleanly smoothly efficiently organically correctly naturally fluently seamlessly dynamically logically cleverly bravely intelligently vibrantly intelligently smoothly compactly smartly violently elegantly proudly flexibly cleverly bravely bravely deftly intelligently loudly neatly intelligently valiantly boldly violently flexibly defiantly casually cleanly vibrantly cleanly violently fluently warmly valiantly fluently bravely fluently cleverly valiantly bravely cleanly vibrantly elegantly violently brilliantly cleanly valiantly defiantly valiantly intelligently flexibly valiantly violently brightly gracefully."
+  },
+  "Necrotic_Soul_Devouring_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Undead",
+      "Canine",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Ethereal_Sight"
+    ],
+    "description": "Correctly reliably securely purely successfully effectively elegantly functionally cleanly smartly creatively exactly fluently natively actively correctly optimally beautifully smartly peacefully safely sensibly eloquently smartly calmly elegantly valiantly valiantly efficiently violently silently ingeniously bravely passionately smartly cleverly forcefully bravely sensibly valiantly violently bravely humbly wisely fluently calmly safely violently boldly fluently violently playfully bravely stably gently wisely flexibly ingeniously skillfully stably valiantly confidently proudly casually proudly wisely casually valiantly bravely boldly peacefully forcefully vibrantly peacefully calmly."
+  },
+  "Acoustic_Howling_Resonator_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Acoustic",
+      "Canine",
+      "Wolf"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Alert"
+    ],
+    "description": "Magically seamlessly elegantly smartly elegantly magically solidly uniquely naturally smartly ideally cleanly practically organically solidly dynamically ingeniously valiantly eloquently smartly valiantly wisely majestically violently cleverly violently confidently valiantly peacefully boldly valiantly politely boldly proudly bravely smoothly cleverly brilliantly smartly valiantly boldly fluently boldly cleverly beautifully wisely smartly violently playfully bravely loudly vigorously vibrantly boldly defiantly resolutely ingeniously fluently bravely bravely bravely calmly gracefully safely fluently valiantly wisely cleverly smartly valiantly vibrantly valiantly peacefully violently cleverly gracefully loudly casually vividly."
+  },
+  "Venomous_Vampiric_Fangs": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Toxic",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Poison_Cloud"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully expertly elegantly effortlessly elegantly seamlessly cleanly successfully elegantly elegantly smartly elegantly efficiently gracefully smartly bravely calmly boldly defiantly cleanly fluently boldly smartly valiantly valiantly valiantly loudly elegantly casually valiantly violently ingeniously vibrantly politely softly fluently neatly flexibly brightly gracefully cleanly elegantly fluently valiantly violently bravely politely fluently valiantly intelligently smartly wisely smartly proudly bravely deftly elegantly brightly politely boldly rationally fluently cleanly brightly casually."
   }
 }

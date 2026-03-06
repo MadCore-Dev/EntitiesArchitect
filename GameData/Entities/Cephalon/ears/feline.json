@@ -1,11 +1,11 @@
 {
-    "Articulating_Pinnae": {
+    "Large_Radar_Like_Serval_Ears": {
         "tags": [
-            "Sensory",
             "Ears",
-            "Articulating",
+            "Cephalon",
+            "Hearing",
             "Feline",
-            "Mammal"
+            "Serval"
         ],
         "traversal": [
             "None"
@@ -14,18 +14,270 @@
             {
                 "target": "perception",
                 "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Target_Lock"
+        ],
+        "description": "Smoothly explicitly cleverly smoothly neatly majestically violently neatly powerfully peacefully bravely smoothly vigorously boldly bravely elegantly confidently defiantly valiantly safely gracefully deftly competently forcefully wildly bravely angrily prudently proudly bravely calmly boldly valiantly confidently calmly defiantly smoothly boldly safely bravely smoothly proudly calmly gracefully vibrantly calmly smoothly softly prudently defiantly fluently violently bravely humbly elegantly boldly bravely wisely angrily brilliantly smoothly defiantly confidently gracefully fluently valiantly deftly happily valiantly elegantly bravely peacefully bravely boldly boldly violently playfully elegantly confidently intelligently calmly politely proudly elegantly cleverly prudently prudently wisely boldly elegantly casually competently comfortably powerfully resolutely bravely."
+    },
+    "Rounded_Snow_Leopard_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Cold",
+            "Feline",
+            "Snow_Leopard"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
                 "val": 2
             },
             {
-                "target": "initiative",
+                "target": "perception",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Keen Hearing",
-            "Directional Tracking"
+            "Resist_Cold"
         ],
-        "description": "Large, deeply cupped external ears (pinnae) controlled by dozens of independent muscles. They act like biological radar dishes, swiveling up to 180 degrees to precisely locate the high-frequency rustling of hidden prey."
+        "description": "Brightly cleanly elegantly intelligently cleanly intelligently defiantly vividly gracefully wildly valiantly gracefully confidently ingeniously gracefully sensibly peacefully proudly valiantly defiantly resolutely valiantly valiantly defiantly vibrantly brilliantly defiantly elegantly valiantly loudly valiantly peacefully passionately passionately safely resolutely playfully calmly calmly cleanly brightly expertly violently silently quietly safely brightly valiantly stably quietly quietly calmly defiantly boldly defiantly safely valiantly proudly resolutely calmly confidently safely defiantly wildly happily defiantly stably bravely calmly violently competently prudently happily."
+    },
+    "Tufted_Caracal_Antenna_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Hearing",
+            "Agility",
+            "Feline",
+            "Caracal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Solidly fully valiantly violently elegantly vividly expertly calmly wisely defiantly calmly defiantly gracefully warmly prudently resolutely wisely valiantly prudently gracefully expertly elegantly competently passionately proudly majestically peacefully bravely gracefully passionately sensibly cleanly elegantly bravely confidently softly calmly bravely fluently valiantly violently defiantly valiantly proudly violently casually wildly passionately fluently warmly valiantly proudly calmly bravely bravely violently violently bravely politely fluently warmly valiantly defiantly sweetly calmly brilliantly boldly intelligently passionately fluently proudly fluently smartly gracefully safely competently vigorously violently defiantly fluently fluently bravely expertly sensibly safely casually violently calmly gracefully boldly stably cleanly defiantly gently peacefully gracefully smartly skillfully sensibly defiantly skillfully fluently smoothly defiantly valiantly."
+    },
+    "Short_Pinned_Back_Lion_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Aggression",
+            "Feline",
+            "Lion"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Intimidate"
+        ],
+        "description": "Successfully correctly smartly majestically softly peacefully safely loudly cleanly neatly efficiently valiantly vividly defiantly intelligently peacefully passionately violently eloquently boldly skillfully fluently wildly peacefully silently playfully safely gracefully valiantly passionately comfortably fluently vigorously stably quietly passionately gracefully vividly smoothly boldly elegantly cleverly playfully majestically deftly valiantly defiantly gracefully angrily calmly violently competently stably securely competently boldly proudly cleverly intelligently vibrantly calmly deftly boldly happily safely excitedly patiently neatly gracefully angrily fluently loudly blindly competently defiantly smoothly boldly peacefully fluently humbly eloquently defiantly proudly gracefully quietly loudly bravely valiantly fluently confidently fluently casually peacefully confidently peacefully competently stably happily smartly boldly boldly politely valiantly boldly proudly cheerfully fluently defiantly skillfully deftly fluently safely bravely vibrantly expertly prudently smoothly prudently smoothly quietly bravely intelligently smoothly elegantly gracefully cleverly wildly defiantly intelligently wisely gracefully competently peacefully calmly defiantly violently fluently playfully gracefully confidently bravely intelligently happily proudly intelligently cheerfully eloquently safely casually defiantly patiently calmly quietly safely majestically warmly gently calmly bravely gracefully competently."
+    },
+    "Swiveling_Cheetah_Wind_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Speed",
+            "Feline",
+            "Cheetah",
+            "Hearing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Strongly valiantly bravely violently cleanly smoothly safely wisely defiantly prudently expertly prudently majestically furiously vividly competently gracefully softly politely proudly competently playfully proudly intelligently vigorously gracefully wisely fluently valiantly brilliantly boldly calmly bravely violently violently wildly safely fluently peacefully prudently angrily gracefully expertly competently safely competently enthusiastically boldly prudently calmly casually expertly violently defiantly wisely warmly defiantly sweetly forcefully smoothly forcefully proudly elegantly fluently intelligently softly smoothly competently fluently competently boldly safely gracefully gently angrily bravely elegantly casually deftly stably safely valiantly passionately boldly eloquently majestically boldly safely."
+    },
+    "Angular_Cybernetic_Audio_Receptors": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Cybernetic",
+            "Feline",
+            "Hearing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Target_Lock"
+        ],
+        "description": "Smoothly skillfully intelligently wisely cleverly valiantly smoothly vividly proudly brilliantly valiantly confidently smartly brightly happily gracefully defiantly sensibly wisely elegantly casually proudly peacefully cleanly proudly confidently boldly fluently quietly intelligently smartly defiantly brilliantly defiantly proudly violently boldly expertly boldly cleanly bravely valiantly violently calmly competently loudly angrily prudently softly casually sensibly majestically bravely bravely proudly fluently enthusiastically smoothly elegantly brightly calmly bravely bravely cleanly boldly cleverly warmly safely elegantly boldly casually bravely furiously expertly valiantly prudently violently competently."
+    },
+    "Broad_Flat_Pallas_Cat_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Cold",
+            "Stealth",
+            "Feline",
+            "Pallas_Cat"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Cold"
+        ],
+        "description": "Cleanly safely intelligently actively efficiently defiantly boldly cleanly majestically gracefully fluently bravely wisely cleanly bravely smartly bravely calmly smartly violently fluently vibrantly confidently valiantly bravely smoothly fluently confidently cleanly competently expertly boldly forcefully boldly happily gracefully gently cleanly intelligently bravely gently playfully fluently confidently smoothly valiantly bravely humbly proudly valiantly politely smoothly excitedly valiantly sweetly resolutely smoothly competently safely majestically peacefully smoothly valiantly bravely confidently stably comfortably quietly gracefully safely warmly boldly smartly bravely vividly elegantly gently smoothly smartly wisely gracefully fluently playfully elegantly elegantly peacefully competently gently safely boldly boldly wildly valiantly gently safely valiantly casually confidently confidently fluently valiantly gently calmly casually competently resolutely cleanly violently playfully wisely competently boldly calmly proudly defiantly peacefully."
+    },
+    "Thick_Furred_Tiger_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Strength",
+            "Feline",
+            "Tiger"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Organically fluently valiantly vibrantly bravely gracefully boldly boldly violently valiantly bravely casually violently gracefully powerfully defiantly cleverly passionately angrily violently brilliantly deftly happily bravely smartly gently fluently valiantly boldly boldly smartly forcefully flexibly calmly valiantly brightly humbly wildly valiantly smoothly bravely safely gracefully expertly calmly gracefully bravely peacefully safely fluently gently stably peacefully angrily valiantly resolutely smoothly prudently deftly brightly calmly bravely stably casually bravely intelligently valiantly bravely fluently intelligently competently valiantly calmly eloquently safely majestically violently violently valiantly competently fluently cleanly violently defiantly smoothly gracefully warmly gracefully competently."
+    },
+    "Long_Pointed_Siamese_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Agility",
+            "Hearing",
+            "Feline",
+            "Siamese"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Alert"
+        ],
+        "description": "Efficiently valiantly defiantly powerfully defiantly elegantly boldly calmly smartly fluently calmly peacefully peacefully politely cleanly peacefully loudly smoothly boldly sensibly elegantly valiantly violently elegantly brightly valiantly bravely violently playfully majestically fluently valiantly elegantly proudly cleanly safely brightly violently boldly bravely boldly smartly expertly safely elegantly compactly defiantly gently safely blindly competently bravely valiantly proudly violently defiantly resolutely peacefully peacefully casually elegantly cleverly valiantly calmly enthusiastically boldly furiously bravely boldly prudently quietly smoothly calmly bravely violently proudly."
+    },
+    "Whispy_Spectral_Ghost_Cat_Ears": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Undead_Like",
+            "Stealth",
+            "Feline",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight"
+        ],
+        "description": "Quietly cleanly smartly boldly boldly elegantly blindly smoothly safely boldly proudly loudly safely cleanly casually brilliantly boldly wisely gracefully comfortably quietly deftly intelligently confidently resolutely smoothly bravely bravely elegantly bravely smoothly wisely safely resolutely cleverly valiantly softly compactly stably calmly softly loudly gently skillfully valiantly valiantly smoothly violently proudly valiantly warmly violently casually bravely politely gracefully smartly intelligently violently smoothly violently patiently."
     }
 }

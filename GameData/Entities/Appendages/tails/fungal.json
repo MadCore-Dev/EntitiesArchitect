@@ -1,18 +1,78 @@
 {
-    "Trailing_Rhizomorph_Whip": {
+    "Whipping_Mycelial_Tendril_Tail": {
         "tags": [
-            "Tail",
+            "Tails",
+            "Appendages",
             "Fungal",
-            "Weapon"
+            "Mycelium",
+            "Whip"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
                 "target": "reach",
                 "op": "add",
                 "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc",
+            "Grapple"
+        ],
+        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly securely bravely defiantly defiantly vividly brightly bravely warmly expertly cleanly fluently vividly cleanly peacefully boldly comfortably intelligently valiantly violently playfully fluently rationally passionately bravely boldly proudly cleanly valiantly happily smartly quietly fluently competently boldly bravely safely violently fluently playfully valiantly intelligently competently violently passionately loudly politely defiantly calmly gently boldly peacefully bravely happily bravely intelligently intelligently confidently warmly fluently violently calmly brightly confidently prudently cleverly politely boldly resolutely proudly."
+    },
+    "Toxic_Spores_Puffball_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Spores",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Properly natively successfully flexibly gracefully cleverly bravely valiantly cleanly defiantly cleanly bravely intelligently confidently powerfully defiantly elegantly boldly passionately vigorously loudly valiantly gracefully cleanly peacefully vigorously vividly loudly quietly fluently defiantly bravely resolutely defiantly gracefully furiously valiantly wildly boldly smoothly efficiently calmly elegantly politely humbly valiantly enthusiastically efficiently fluently safely confidently cleanly bravely politely bravely wildly stably valiantly cleverly."
+    },
+    "Cordyceps_Stinger_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Parasite",
+            "Insect",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
             },
             {
                 "target": "str",
@@ -21,9 +81,215 @@
             }
         ],
         "grants_skills": [
-            "Tail_Whip",
-            "Poison_Cloud"
+            "Poison_Cloud",
+            "True_Strike"
         ],
-        "description": "A singular, massively thick rhizomorph cord trailing heavily behind the entity. Packed with hardened fungal sclerotia, it can be swung with devastating force, shattering bone and bursting to release clouds of toxic spores upon impact."
+        "description": "Technologically natively solidly efficiently clumsily gracefully defiantly fluently bravely fluently cleverly safely valiantly boldly proudly valiantly defiantly cleverly valiantly gracefully bravely prudently safely smartly smoothly majestically prudently playfully smartly confidently intelligently peacefully peacefully stably safely loudly loudly warmly smartly brilliantly valiantly smartly gracefully politely gracefully smoothly quietly confidently brilliantly peacefully safely defiantly bravely intelligently defiantly gracefully bravely safely fluently valiantly."
+    },
+    "Decaying_Wood_Club_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Decay",
+            "Undead_Like",
+            "Strength"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Sunder"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully happily gracefully blindly gracefully violently softly eloquently valiantly passionately smoothly fluently safely bravely bravely warmly gently bravely smartly resolutely quietly intelligently calmly valiantly majestically proudly bravely intelligently proudly gracefully violently safely valiantly furiously casually wisely quietly angrily politely happily defiantly smartly loudly proudly powerfully intelligently rationally calmly calmly valiantly fluently violently passionately confidently boldly forcefully stably wisely casually deftly cheerfully boldly valiantly loudly valiantly passionately boldly eloquently defiantly elegantly quietly stably brightly enthusiastically."
+    },
+    "Bioluminescent_Glow_Lure_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Magic",
+            "Perception",
+            "Charisma"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Lure"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely bravely powerfully valiantly valiantly majestically proudly majestically confidently eloquently gracefully boldly valiantly politely majestically elegantly cleverly excitedly comfortably eloquently calmly cleanly loudly securely bravely gently sweetly valiantly gracefully defiantly brightly proudly proudly humbly fluently vividly blindly competently bravely valiantly boldly defiantly blindly casually playfully elegantly intelligently calmly smartly smartly sensibly cleanly boldly intelligently bravely defiantly bravely defiantly defiantly fluently boldly peacefully boldly bravely prudently casually wisely cleanly wisely boldly politely safely expertly brilliantly majestically smoothly peacefully brightly confidently playfully boldly."
+    },
+    "Slime_Mold_Amorphous_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Slime",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Grapple"
+        ],
+        "description": "Fluidly seamlessly logically cleanly natively violently cheerfully gracefully defiantly violently wisely elegantly happily calmly neatly peacefully boldly calmly efficiently boldly proudly vibrantly valiantly cleverly cleanly loudly proudly bravely intelligently gracefully intelligently politely smoothly elegantly fluently confidently wildly passionately expertly powerfully expertly elegantly smartly calmly competently wisely powerfully passionately fluently fluently elegantly violently fluently expertly quietly bravely valiantly rationally violently smartly proudly calmly calmly eloquently brilliantly proudly violently gracefully loudly proudly gracefully valiantly cleanly."
+    },
+    "Hardened_Shelf_Fungus_Blade_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Armor",
+            "Slashing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc",
+            "Block"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly boldly defiantly smartly smoothly securely comfortably cleanly cleverly confidently eloquently prudently deftly gently boldly smartly politely cleanly boldly valiantly defiantly confidently brilliantly smartly valiantly resolutely smoothly passionately comfortably peacefully valiantly smartly warmly elegantly vividly violently bravely cleverly playfully smartly expertly angrily boldly casually prudently competently valiantly cheerfully defiantly calmly warmly wisely elegantly safely peacefully bravely softly calmly."
+    },
+    "Vibrant_Amanita_Rattle_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Toxic",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Fear"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly valiantly bravely fluently expertly gently wisely furiously safely violently wisely bravely majestically deftly prudently resolutely wisely comfortably stably boldly calmly safely defiantly valiantly intelligently valiantly calmly confidently humbly sensibly fluently violently playfully competently wildly defiantly peacefully bravely cleverly confidently humbly valiantly peacefully gracefully bravely defiantly boldly calmly loudly expertly peacefully brilliantly bravely prudently fluently majestically fluently valiantly smoothly valiantly violently valiantly cleanly eloquently smartly neatly cleanly."
+    },
+    "Crystalline_Underdark_Fungus_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Crystal",
+            "Dark"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Reflect_Spells"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically bravely calmly gracefully skillfully stably cleanly violently bravely defiantly competently competently cleverly fluently wisely rationally bravely valiantly competently competently calmly defiantly furiously bravely safely resolutely cleanly safely bravely confidently boldly valiantly calmly valiantly fluently prudently safely safely competently gracefully powerfully bravely smartly elegantly bravely violently defiantly gracefully cleanly safely resolutely gracefully softly brilliantly gently elegantly boldly politely competently confidently playfully smoothly gracefully calmly vividly brightly resolutely."
+    },
+    "Ghost_Fungus_Spectral_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Fungal",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Camouflage"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully valiantly excitedly proudly cleverly fluently fluently valiantly majestically resolutely boldly violently enthusiastically passionately cleanly sensibly prudently safely defiantly fluently intelligently boldly excitedly valiantly defiantly expertly cleanly elegantly defiantly valiantly calmly competently playfully bravely cheerfully wisely gracefully defiantly boldly brightly fluently vigorously wildly proudly stably valiantly comfortably gracefully powerfully softly safely peacefully sweetly valiantly safely silently loudly defiantly valiantly valiantly violently competently gracefully intelligently safely majestically violently valiantly elegantly violently boldly smoothly quietly cleanly bravely smartly smartly playfully intelligently elegantly."
     }
 }

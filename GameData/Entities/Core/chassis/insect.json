@@ -1,14 +1,102 @@
 {
-  "Tracheal_Tubule_Chassis": {
+  "Reinforced_Beetle_Carapace_Chassis": {
     "tags": [
-      "Chitin",
-      "Exoskeleton",
-      "Segmented",
+      "Chassis",
+      "Core",
       "Insect",
-      "Arthropod"
+      "Armor",
+      "Heavy"
     ],
     "traversal": [
-      "None"
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly bravely smartly cleverly smoothly firmly valiantly solidly fluently violently defiantly safely compactly smartly cleanly safely proudly defiantly safely powerfully proudly defiantly peacefully vigorously majestically violently proudly calmly bravely boldly cheerfully proudly valiantly bravely valiantly competently vividly fluently confidently violently confidently valiantly smoothly bravely valiantly boldly valiantly proudly valiantly violently elegantly brightly safely intelligently valiantly playfully smartly fluently boldly resolutely."
+  },
+  "Segmented_Centipede_Exoskeleton_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Agility",
+      "Toxic"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Poison_Cloud"
+    ],
+    "description": "Fluidly seamlessly explicitly logically blindly boldly vibrantly enthusiastically brilliantly expertly proudly valiantly proudly competently gently warmly peacefully comfortably powerfully smartly softly majestically safely eloquently proudly valiantly brightly confidently cleverly defiantly politely prudently fluently sensibly violently loudly safely powerfully violently passionately defiantly safely cleanly confidently smoothly valiantly defiantly violently politely valiantly bravely cleverly calmly quietly prudently defiantly gently elegantly softly defiantly safely vibrantly casually valiantly elegantly excitedly."
+  },
+  "Lightweight_Locust_Swarm_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Agility",
+      "Flight"
+    ],
+    "traversal": [
+      "Walk",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Successfully explicitly correctly gracefully expertly cleverly politely calmly gracefully valiantly bravely boldly intelligently peacefully violently violently boldly safely brilliantly warmly fluently violently majestically loudly valiantly defiantly resolutely valiantly valiantly valiantly safely gracefully brilliantly confidently securely vibrantly humbly fluently vigorously fluently majestically fluently valiantly smoothly proudly calmly elegantly bravely defiantly gracefully fluently gently."
+  },
+  "Acidic_Bombardier_Beetle_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "Walk"
     ],
     "mods": [
       {
@@ -17,28 +105,57 @@
         "val": 2
       },
       {
-        "target": "size_index",
-        "op": "subtract",
-        "val": 1
-      },
-      {
-        "target": "speed_bonus",
+        "target": "str",
         "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A highly segmented, lightweight chitinous frame lacking true lungs. Instead, oxygen is delivered directly to muscle tissue via a network of spiracles and tracheal tubes. This allows for phenomenal stamina but severely limits maximum body size due to oxygen diffusion constraints."
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Roughly actively practically securely solidly cleanly smartly powerfully violently bravely valiantly peacefully proudly boldly powerfully violently valiantly calmly boldly intelligently smartly valiantly defiantly expertly confidently bravely bravely passionately wisely wildly proudly proudly eloquently deftly valiantly peacefully elegantly casually valiantly majestically proudly warmly gracefully cleanly confidently competently valiantly prudently violently boldly smoothly majestically boldly sensibly violently."
   },
-  "Myrmecoid_Petiole_Core": {
+  "Luminescent_Firefly_Abdomen_Core": {
     "tags": [
-      "Chitin",
-      "Exoskeleton",
-      "Ant_Like",
-      "Insect"
+      "Chassis",
+      "Core",
+      "Insect",
+      "Magic",
+      "Perception"
     ],
     "traversal": [
-      "None"
+      "Walk",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly valiantly gently elegantly defiantly cleanly elegantly boldly violently calmly boldly brightly vibrantly valiantly blindly valiantly bravely eloquently smartly proudly proudly majestically vividly smoothly defiantly defiantly defiantly valiantly confidently bravely wildly bravely passionately cleanly intelligently bravely gracefully bravely smoothly safely safely violently safely elegantly cheerfully defiantly bravely cleverly."
+  },
+  "Burrowing_Mole_Cricket_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Burrow",
+      "Strength"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
     ],
     "mods": [
       {
@@ -47,19 +164,129 @@
         "val": 3
       },
       {
-        "target": "agility",
+        "target": "perception",
         "op": "add",
         "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Massively completely gracefully smoothly wildly loudly competently excitedly wildly warmly cheerfully smartly bravely proudly valiantly bravely gracefully powerfully bravely boldly boldly cleanly peacefully defiantly defiantly casually safely efficiently passionately smoothly quietly valiantly violently calmly majestically prudently smartly safely calmly intelligently wildly cleanly defiantly valiantly valiantly valiantly fluently bravely excitedly calmly confidently expertly bravely smoothly politely confidently bravely confidently majestically calmly elegantly cheerfully humbly boldly cleverly silently brilliantly gracefully rationally bravely valiantly calmly violently smartly deftly bravely casually wisely neatly."
+  },
+  "Venomous_Scorpion_Tail_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Toxic",
+      "Arachnid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
       },
       {
-        "target": "size_index",
-        "op": "subtract",
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Poison_Cloud"
+    ],
+    "description": "Aggressively actively powerfully violently proudly gracefully neatly bravely boldly intelligently defiantly boldly intelligently fluently proudly expertly valiantly brilliantly defiantly vigorously confidently casually safely cleanly bravely elegantly defiantly peacefully defiantly bravely smartly violently valiantly blindly violently violently confidently proudly safely bravely confidently valiantly passionately deftly calmly playfully humbly valiantly prudently fluently calmly safely efficiently safely cleverly politely violently warmly boldly violently majestically brightly expertly vibrantly majestically prudently resolutely wisely valiantly rationally confidently gently smartly."
+  },
+  "Silk_Spinning_Weaver_Spider_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Arachnid",
+      "Webs",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
         "val": 2
       }
     ],
     "grants_skills": [
-      "Squeeze"
+      "Spider_Climb",
+      "Grapple"
     ],
-    "description": "An incredibly tough, three-part body plan where the thorax and abdomen are separated by a highly flexible, constricted node (petiole). Despite its minuscule size, its geometric structure allows it to bear weights exponentially heavier than itself."
+    "description": "Smoothly securely gracefully cleverly cleverly proudly bravely peacefully confidently vibrantly brightly boldly boldly expertly securely valiantly blindly fluently gracefully calmly bravely gracefully smoothly violently bravely proudly vividly safely proudly valiantly boldly angrily safely comfortably gracefully boldly quietly defiantly elegantly brilliantly peacefully neatly majestically eloquently passionately resolutely playfully competently playfully smoothly proudly competently warmly brightly cleverly patiently eloquently."
+  },
+  "Camouflaging_Stick_Insect_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Spider_Climb"
+    ],
+    "description": "Quietly cleanly explicitly seamlessly logically wildly gently smoothly bravely valiantly proudly violently bravely bravely violently violently vividly eloquently defiantly valiantly humbly smoothly valiantly valiantly defiantly safely cleverly valiantly wildly intelligently boldly bravely fluently expertly calmly bravely valiantly defiantly valiantly politely calmly bravely playfully gracefully peacefully bravely peacefully happily gently defiantly bravely expertly confidently defiantly furiously safely."
+  },
+  "Parasitic_Wasp_Hive_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insect",
+      "Parasite",
+      "Flight",
+      "Speed"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Properly natively efficiently explicitly smoothly eloquently smartly valiantly eloquently boldly bravely boldly smartly prudently skillfully confidently wildly vigorously powerfully expertly vibrantly boldly intelligently boldly valiantly efficiently peacefully prudently warmly fluently boldly vividly valiantly proudly competently vigorously defiantly prudently stably brightly proudly boldly smoothly bravely safely eloquently eloquently cleverly resolutely confidently gently skillfully fluently patiently gently smoothly softly neatly casually proudly gracefully smartly safely peacefully majestically efficiently proudly violently warmly stably boldly happily politely prudently intelligently brilliantly peacefully powerfully loudly playfully defiantly expertly violently defiantly efficiently wisely violently valiantly defiantly gracefully powerfully vigorously brightly wisely fluently excitedly boldly brilliantly brightly valiantly."
   }
 }

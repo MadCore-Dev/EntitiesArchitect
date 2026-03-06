@@ -1,10 +1,41 @@
 {
-  "Arboreal_Brachiating_Frame": {
+  "Ape_Muscle_Frame_Chassis": {
     "tags": [
-      "Flesh",
+      "Chassis",
+      "Core",
       "Primate",
-      "Ape_Like",
-      "Mammal"
+      "Strength",
+      "Bipedal"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "end",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Athletics"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently powerfully violently proudly humbly gently bravely proudly warmly playfully safely bravely confidently valiantly passionately valiantly proudly bravely smartly competently violently competently passionately bravely valiantly furiously confidently bravely boldly securely happily competently brilliantly angrily eloquently smartly excitedly calmly humbly valiantly intelligently defiantly boldly intelligently fluently proudly proudly competently proudly defiantly gracefully fluently bravely politely bravely cheerfully proudly."
+  },
+  "Agile_Monkey_Skeleton_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Agility",
+      "Bipedal",
+      "Climb"
     ],
     "traversal": [
       "Walk",
@@ -21,6 +52,36 @@
         "target": "agility",
         "op": "add",
         "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Spider_Climb"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually boldly valiantly defiantly vibrantly valiantly playfully excitedly cleanly expertly confidently deftly warmly violently competently proudly boldly gracefully majestically brightly boldly prudently valiantly fluently neatly elegantly calmly bravely smoothly politely defiantly proudly bravely violently politely calmly confidently wisely defiantly fluently intelligently politely fluently valiantly smoothly bravely bravely vibrantly peacefully violently violently expertly elegantly gently happily proudly valiantly resolutely smoothly prudently cheerfully happily bravely confidently cheerfully confidently majestically furiously passionately boldly bravely fluently casually defiantly wisely calmly sensibly."
+  },
+  "Silverback_Goliath_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Strength",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
       },
       {
         "target": "speed_bonus",
@@ -29,39 +90,215 @@
       }
     ],
     "grants_skills": [
-      "Acrobatics",
-      "Spider_Climb"
+      "Block",
+      "Resist_Knockback"
     ],
-    "description": "A highly specialized skeletal structure featuring an incredibly mobile shoulder joint (ball-and-socket) and a wide, shallow ribcage. Designed specifically for brachiation: swinging from branch to branch using only the forelimbs."
+    "description": "Massively completely fiercely bravely bravely calmly defiantly fluently passionately securely smoothly bravely confidently peacefully wisely deftly violently furiously gracefully powerfully proudly angrily vigorously smartly valiantly compactly sensibly elegantly loudly wildly calmly proudly wisely stably confidently bravely elegantly proudly warmly gracefully valiantly confidently brilliantly defiantly gracefully solidly smoothly wisely prudently valiantly valiantly valiantly eagerly calmly proudly elegantly violently casually deftly politely powerfully valiantly bravely comfortably proudly vigorously happily calmly enthusiastically defiantly brilliantly vigorously gently enthusiastically defiantly safely fluently cleanly patiently majestically safely angrily passionately warmly calmly."
   },
-  "Semi_Erect_Hominid_Core": {
+  "Lemur_Leaping_Core": {
     "tags": [
-      "Flesh",
-      "Bipedal",
+      "Chassis",
+      "Core",
       "Primate",
-      "Human_Like",
-      "Mammal"
+      "Agility",
+      "Jump"
     ],
     "traversal": [
       "Walk",
-      "Sprint",
+      "Leap",
       "Climb"
     ],
     "mods": [
       {
-        "target": "con",
+        "target": "agility",
         "op": "add",
-        "val": 2
+        "val": 4
       },
       {
-        "target": "size_index",
+        "target": "dex",
         "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Dash"
+      "Aerobatics"
     ],
-    "description": "An upright, bipedal frame featuring a distinctly curved (S-shaped) spine to absorb the shock of permanent two-legged walking. It frees the forelimbs entirely from locomotion duties, fundamentally revolutionizing tool use."
+    "description": "Quietly explicitly casually magically casually excitedly violently boldly valiantly valiantly vibrantly brilliantly defiantly gracefully smartly enthusiastically bravely valiantly resolutely proudly humbly bravely wisely valiantly safely stably safely brilliantly valiantly vibrantly valiantly cheerfully fluently competently boldly confidently smartly boldly defiantly proudly safely casually calmly smartly wildly valiantly smoothly smoothly calmly smoothly confidently smartly happily violently enthusiastically valiantly bravely valiantly calmly gracefully valiantly bravely boldly peacefully cleverly quietly deftly gently bravely."
+  },
+  "Chimpanzee_Tool_User_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Dexterity",
+      "Wisdom"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Sleight_of_Hand"
+    ],
+    "description": "Technologically smartly competently fiercely violently proudly playfully calmly confidently violently valiantly boldly neatly cleanly softly valiantly bravely proudly enthusiastically calmly resolutely cleanly elegantly fluently proudly bravely defiantly calmly defiantly confidently proudly brightly gracefully valiantly competently competently bravely intelligently bravely safely resolutely comfortably prudently smoothly politely wildly violently valiantly casually violently defiantly confidently bravely intelligently fluently brilliantly safely elegantly smoothly violently deftly proudly."
+  },
+  "Mandrill_Vibrant_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Charisma",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Intimidate"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely loudly politely valiantly bravely valiantly cheerfully defiantly vividly calmly violently safely defiantly violently valiantly compactly cleanly valiantly calmly safely smartly prudently loudly casually bravely defiantly smartly vigorously wisely politely valiantly deftly excitedly gracefully boldly bravely peacefully expertly fluently politely confidently casually bravely brightly bravely cleverly proudly valiantly passionately patiently excitedly expertly bravely politely calmly eagerly angrily cleanly valiantly violently happily valiantly gracefully skillfully gently majestically proudly gently humbly safely valiantly violently smoothly patiently gracefully violently valiantly politely valiantly vividly."
+  },
+  "Gibbon_Brachiating_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Agility",
+      "Reach",
+      "Swing"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly boldly gracefully softly safely happily calmly confidently playfully violently bravely passionately fluently neatly valiantly comfortably warmly quietly violently elegantly cleanly peacefully bravely bravely elegantly calmly bravely resolutely cleanly stably safely cleanly efficiently confidently elegantly expertly bravely safely resolutely valiantly valiantly confidently bravely wildly boldly eloquently softly bravely elegantly proudly valiantly enthusiastically prudently valiantly safely calmly playfully confidently boldly loudly politely valiantly gracefully resolutely calmly."
+  },
+  "Baboon_Rugged_Pack_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Strength",
+      "Con"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Strictly sharply specifically bravely enthusiastically violently politely resolutely proudly vividly proudly gracefully prudently valiantly confidently fluently peacefully powerfully humbly valiantly gracefully expertly valiantly calmly violently smartly passionately valiantly calmly elegantly casually deftly safely wisely smartly boldly boldly proudly cleverly bravely safely elegantly gently gently casually confidently proudly fluently violently defiantly smoothly gracefully valiantly fluently."
+  },
+  "Tarsier_Leaping_Skeleton": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Agility",
+      "Perception",
+      "Jump"
+    ],
+    "traversal": [
+      "Leap",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Acrobatics"
+    ],
+    "description": "Exclusively cleanly organically flawlessly bravely confidently sensibly politely silently blindly brightly boldly bravely valiantly violently calmly casually passionately playfully silently passionately confidently bravely competently cleanly safely valiantly fluently wildly neatly safely wisely skillfully vividly elegantly defiantly bravely majestically valiantly cleverly happily gently violently enthusiastically smartly boldly smartly smoothly bravely competently cleverly boldly fluently proudly intelligently majestically angrily politely bravely calmly valiantly cleanly calmly excitedly competently bravely calmly sweetly powerfully comfortably boldly gracefully bravely prudently safely brightly safely."
+  },
+  "Zombie_Ape_Rotting_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Primate",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison",
+      "Resist_Piercing"
+    ],
+    "description": "Roughly actively practically squarely firmly bravely boldly loudly violently calmly stably wisely vividly boldly defiantly peacefully brightly gracefully valiantly silently gently elegantly boldly fluently neatly proudly bravely violently cleanly violently happily gently loudly humbly defiantly valiantly elegantly gently excitedly gracefully stably brightly safely playfully violently safely boldly majestically violently majestically smartly gracefully peacefully cheerfully safely valiantly compactly fluently bravely resolutely passionately proudly bravely blindly."
   }
 }

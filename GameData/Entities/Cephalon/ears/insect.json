@@ -1,9 +1,65 @@
 {
-  "Tympanal_Abdominal_Organ": {
+  "Feathered_Moth_Antennae_Ears": {
     "tags": [
-      "Sensory",
-      "Membrane",
-      "Insect"
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Perception",
+      "Magic",
+      "Flight"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly angrily wildly efficiently gracefully valiantly brightly bravely vibrantly boldly confidently calmly valiantly politely casually confidently bravely vibrantly defiantly playfully wisely calmly peacefully fluently loudly gracefully valiantly valiantly bravely calmly violently wisely safely neatly proudly defiantly gracefully boldly peacefully expertly boldly."
+  },
+  "Vibrating_Cricket_Tympanum_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Perception",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Blindsight"
+    ],
+    "description": "Properly natively efficiently seamlessly ingeniously gracefully furiously cleanly valiantly vigorously passionately valiantly gently confidently bravely confidently proudly majestically defiantly brightly valiantly gracefully sensibly confidently safely gracefully intelligently bravely proudly violently stably smartly bravely brilliantly playfully bravely prudently confidently competently confidently valiantly happily bravely prudently boldly brightly fluently boldly violently peacefully politely fluently smoothly boldly competently eloquently calmly angrily valiantly cleverly fluently brilliantly politely gracefully confidently."
+  },
+  "Segmented_Centipede_Sensory_Nodes": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Toxic",
+      "Tremorsense"
     ],
     "traversal": [
       "None"
@@ -13,11 +69,220 @@
         "target": "perception",
         "op": "add",
         "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
       }
     ],
     "grants_skills": [
-      "Keen Hearing"
+      "Blindsight"
     ],
-    "description": "A thin, incredibly sensitive tympanal membrane stretched tightly over an air sac. Strangely, it is not located on the head, but rather on the abdomen or forelegs, tuned explicitly to detect the high-frequency echolocation clicks of predators like bats."
+    "description": "Fluidly seamlessly logically cleanly expertly gracefully passionately boldly intelligently cleanly sweetly expertly competently loudly violently bravely bravely boldly majestically cleverly passionately aggressively smoothly bravely rationally calmly proudly powerfully violently majestically calmly gracefully casually proudly casually prudently safely valiantly competently vividly brightly eloquently valiantly cleverly loudly safely gracefully politely comfortably smoothly cheerfully smartly fluently defiantly."
+  },
+  "Hardened_Beetle_Carapace_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly cleverly expertly valiantly boldly patiently bravely competently brightly fluently resolutely bravely violently violently violently prudently wisely violently passionately politely violently aggressively brilliantly intelligently brightly gracefully bravely prudently peacefully solidly bravely humbly passionately bravely confidently peacefully casually wisely brilliantly proudly fluently fluently smartly vibrantly defiantly competently valiantly calmly safely boldly violently comfortably gracefully boldly smartly smoothly violently violently peacefully safely brightly bravely defiantly passionately competently brightly politely prudently resolutely."
+  },
+  "Luminescent_Firefly_Acoustic_Receivers": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly confidently bravely intelligently vibrantly boldly cleverly safely deftly prudently bravely vigorously solidly proudly confidently elegantly valiantly calmly gently calmly wildly confidently vividly gracefully competently boldly smartly valiantly passionately valiantly fluently confidently wildly passionately gracefully brightly confidently boldly patiently bravely boldly valiantly prudently smartly cleanly politely bravely confidently peacefully wisely defiantly softly valiantly."
+  },
+  "Web_Sensitive_Spider_Hair_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Arachnid",
+      "Webs",
+      "Tremorsense"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Alert"
+    ],
+    "description": "Quietly cleanly explicitly seamlessly gracefully majestically smartly proudly gracefully vibrantly smartly cleanly passionately defiantly happily defiantly cleanly vividly bravely gracefully safely cheerfully vibrantly powerfully prudently wildly cleanly neatly majestically violently angrily vigorously competently bravely wisely safely expertly brilliantly majestically smoothly valiantly boldly intelligently boldly solidly proudly aggressively stably passionately calmly smartly gracefully gracefully fluently peacefully comfortably valiantly brilliantly majestically violently safely."
+  },
+  "Acid_Resistant_Ant_Ear_Slits": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison"
+    ],
+    "description": "Specifically deeply natively cleanly purely gracefully boldly cheerfully bravely violently intelligently defiantly proudly proudly valiantly valiantly valiantly valiantly loudly elegantly bravely defiantly gracefully defiantly brightly boldly elegantly confidently calmly bravely smartly defiantly valiantly stably boldly boldly calmly valiantly patiently skillfully rationally deftly playfully boldly sensibly."
+  },
+  "Ghost_Mantis_Spectral_Receptors": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Exclusively cleanly organically flawlessly valiantly violently cleanly elegantly fluently bravely furiously boldly wisely happily violently defiantly boldly valiantly proudly violently gracefully sweetly fluently proudly brightly casually politely valiantly peacefully smoothly intelligently smartly brightly bravely gracefully playfully smartly competently cleanly brightly confidently boldly confidently expertly powerfully vividly majestically prudently playfully bravely valiantly deftly competently calmly confidently defiantly defiantly vibrantly bravely politely prudently bravely violently violently powerfully valiantly happily passionately cleverly."
+  },
+  "Horned_Rhinoceros_Beetle_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Strength",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly compactly politely warmly vividly fluently boldly cleverly defiantly powerfully cleverly safely smartly smartly boldly intelligently sweetly fluently enthusiastically passionately competently vibrantly confidently proudly bravely prudently safely enthusiastically wisely majestically valiantly eloquently brilliantly stably competently boldly bravely vibrantly smoothly passionately boldly gracefully."
+  },
+  "Wasp_Antennae_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Insect",
+      "Flight",
+      "Speed",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "True_Strike"
+    ],
+    "description": "Technologically actively practically gracefully cleanly cheerfully cleanly fluently proudly bravely defiantly safely softly fluently safely bravely bravely smartly passionately wisely valiantly loudly valiantly peacefully wildly smartly cheerfully smartly bravely smartly peacefully smartly vividly rationally warmly expertly bravely valiantly violently valiantly compactly sensibly cleanly neatly calmly eloquently boldly boldly violently expertly cleanly loudly brilliantly violently angrily valiantly smartly competently confidently smoothly passionately."
   }
 }

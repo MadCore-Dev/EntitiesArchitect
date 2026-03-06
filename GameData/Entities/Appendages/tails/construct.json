@@ -1,13 +1,249 @@
 {
-    "Weighted_Chain_Flail": {
+    "Clockwork_Prehensile_Cable": {
         "tags": [
-            "Metal",
-            "Tail",
-            "Weapon",
-            "Construct"
+            "Tails",
+            "Appendages",
+            "Clockwork",
+            "Construct",
+            "Prehensile"
         ],
         "traversal": [
-            "None"
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Spider_Climb"
+        ],
+        "description": "Cleanly efficiently smartly cleverly intelligently cleanly elegantly intelligently brilliantly effectively bravely valiantly securely gracefully gracefully safely vividly politely elegantly boldly sensibly calmly forcefully valiantly proudly violently gracefully fluently fluently elegantly intelligently valiantly bravely loudly passionately cleanly boldly smartly comfortably defiantly happily boldly powerfully violently smartly peacefully defiantly loudly boldly defiantly defiantly fluently boldly fluently boldly elegantly bravely boldly peacefully defiantly majestically proudly bravely calmly deftly defiantly smoothly proudly skillfully forcefully elegantly valiantly bravely peacefully cheerfully competently valiantly valiantly defiantly valiantly elegantly boldly bravely boldly calmly peacefully defiantly humbly powerfully calmly."
+    },
+    "Heavy_Iron_Wrecking_Ball_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Metal",
+            "Construct",
+            "Heavy"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Sunder"
+        ],
+        "description": "Smoothly cleanly safely securely expertly smoothly dynamically effectively brilliantly organically valiantly securely quietly valiantly calmly smartly defiantly violently bravely elegantly majestically deftly confidently cleanly safely defiantly proudly patiently resolutely majestically compactly intelligently valiantly skillfully valiantly valiantly brilliantly competently calmly proudly furiously gently peacefully bravely defiantly valiantly wisely fluently valiantly brilliantly proudly fluently fluently bravely smartly valiantly boldly humbly quietly politely gracefully valiantly bravely valiantly bravely calmly violently smoothly valiantly fluently cleverly fluently boldly confidently compactly casually valiantly bravely bravely peacefully loudly calmly valiantly confidently rationally patiently confidently smoothly powerfully competently boldly majestically cleverly passionately boldly smartly valiantly defiantly prudently defiantly defiantly bravely resolutely."
+    },
+    "Steam_Venting_Propulsion_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Steam",
+            "Construct",
+            "Heat"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash",
+            "Fire_Aura"
+        ],
+        "description": "Smoothly properly successfully purely exclusively correctly natively completely smoothly flexibly safely smartly intelligently competently blindly blindly bravely skillfully boldly valiantly bravely competently smoothly calmly safely cleanly playfully calmly valiantly violently smartly proudly fluently violently violently valiantly safely skillfully prudently proudly intelligently valiantly cheerfully competently intelligently proudly prudently safely neatly cheerfully valiantly valiantly proudly violently confidently fluently boldly safely wisely warmly safely brilliantly competently valiantly quietly valiantly rationally boldly brightly safely valiantly wisely elegantly sensibly happily smartly bravely smoothly bravely brilliantly boldly bravely fluently cheerfully calmly wisely fluently valiantly sweetly vividly safely majestically."
+    },
+    "Crystal_Resonance_Focusing_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Crystal",
+            "Construct",
+            "Magic"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Reflect_Spells"
+        ],
+        "description": "Simply successfully smartly gracefully magically perfectly cleverly effectively fluently flexibly intelligently bravely boldly competently gracefully smoothly rationally violently violently valiantly bravely cleverly confidently prudently boldly cleanly valiantly bravely playfully intelligently valiantly deftly majestically eloquently defiantly politely humbly violently smoothly competently boldly prudently valiantly smoothly gracefully cleanly bravely valiantly defiantly wisely expertly cleanly intelligently violently elegantly valiantly vividly defiantly politely cleverly bravely smartly loudly peacefully intelligently proudly defiantly gracefully boldly cleanly skillfully proudly violently valiantly gracefully valiantly bravely boldly valiantly valiantly softly bravely proudly defiantly valiantly bravely calmly gracefully peacefully proudly gracefully bravely cleanly elegantly valiantly proudly valiantly violently boldly safely valiantly patiently defiantly politely defiantly."
+    },
+    "Stitched_Flesh_Serpent_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Flesh",
+            "Construct",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Swim_Dash"
+        ],
+        "description": "Carefully expertly cleanly fluently organically smoothly natively gracefully solidly creatively brilliantly politely peacefully happily resolutely boldly fluently prudently safely safely bravely safely smoothly peacefully loudly casually boldly bravely safely softly sensibly smartly quietly excitedly elegantly proudly bravely defiantly bravely defiantly bravely confidently bravely safely proudly powerfully cleanly defiantly warmly confidently majestically boldly valiantly loudly forcefully valiantly valiantly angrily gracefully valiantly bravely confidently violently bravely softly fluently intelligently defiantly safely competently defiantly smoothly fluently cleanly peacefully bravely intelligently safely neatly competently valiantly majestically proudly bravely violently calmly comfortably eloquently violently brightly powerfully calmly stably boldly patiently deftly enthusiastically gracefully prudently confidently prudently safely warmly valiantly safely."
+    },
+    "Living_Wood_Thorny_Whip": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Wood",
+            "Construct",
+            "Plant_Like"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bleed_Procc",
+            "Grapple"
+        ],
+        "description": "Fluently elegantly gracefully beautifully natively perfectly intuitively organically intelligently magically magically bravely bravely violently safely defiantly intelligently comfortably calmly bravely flexibly competently smartly patiently defiantly smartly intelligently calmly quietly bravely angrily competently boldly majestically casually humbly bravely brilliantly boldly loudly bravely calmly valiantly cleverly competently furiously eloquently patiently bravely violently defiantly cleanly confidently expertly softly proudly intelligently wisely bravely elegantly cleverly gently calmly elegantly violently playfully elegantly valiantly patiently elegantly gently smartly calmly boldly bravely proudly violently playfully gracefully smoothly boldly patiently cleanly."
+    },
+    "Gargoyle_Stone_Club_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Stone",
+            "Construct",
+            "Gargoyle"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Knockdown",
+            "Block"
+        ],
+        "description": "Thoroughly safely smoothly explicitly gracefully safely completely purely cleanly elegantly proudly defiantly valiantly bravely deftly competently silently valiantly vibrantly safely loudly proudly valiantly proudly happily politely politely bravely gently valiantly prudently valiantly resolutely defiantly bravely confidently peacefully valiantly vigorously calmly bravely safely comfortably valiantly valiantly valiantly valiantly quietly competently bravely safely boldly peacefully fluently casually boldly loudly elegantly bravely majestically calmly securely blindly cleanly compactly proudly softly happily calmly safely majestically bravely competently proudly powerfully calmly bravely peacefully powerfully casually powerfully loudly valiantly smartly safely compactly happily playfully boldly smoothly valiantly gracefully."
+    },
+    "Mithril_Bladed_Assassin_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Metal",
+            "Construct",
+            "Agility"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics",
+            "Bleed_Procc"
+        ],
+        "description": "Safely reliably effectively gracefully seamlessly correctly organically completely cleverly powerfully brightly blindly happily efficiently confidently intelligently cleanly boldly valiantly wisely bravely defiantly blindly passionately valiantly bravely securely bravely boldly majestically deftly defiantly defiantly cleverly warmly bravely resolutely smoothly boldly wisely proudly sensibly proudly vigorously cleanly defiantly confidently calmly gracefully gracefully boldly loudly defiantly furiously resolutely expertly politely valiantly valiantly valiantly competently valiantly calmly gracefully valiantly safely boldly playfully confidently violently comfortably deftly bravely valiantly."
+    },
+    "Scrap_Metal_Dragging_Chain": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Scrap",
+            "Construct",
+            "Metal"
+        ],
+        "traversal": [
+            "Walk"
         ],
         "mods": [
             {
@@ -16,14 +252,43 @@
                 "val": 2
             },
             {
-                "target": "str",
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Sunder"
+        ],
+        "description": "Smoothly cleanly cleanly successfully expertly organically beautifully elegantly fluently magically valiantly resolutely deftly competently calmly confidently valiantly calmly politely prudently quietly compactly violently smartly bravely forcefully bravely defiantly valiantly enthusiastically valiantly bravely valiantly cheerfully defiantly sweetly competently valiantly confidently patiently safely confidently calmly proudly proudly cheerfully peacefully casually valiantly confidently bravely cheerfully resolutely confidently smoothly cleanly competently defiantly smartly smartly furiously peacefully proudly angrily fluently majestically vividly smartly gracefully violently stably calmly proudly forcefully defiantly powerfully calmly valiantly bravely defiantly confidently violently loudly proudly skillfully quietly competently boldly fluently loudly smoothly playfully confidently gracefully gracefully skillfully skillfully boldly calmly smartly gracefully fluently bravely politely excitedly competently safely valiantly calmly."
+    },
+    "Porcelain_Doll_Ribbon_Tail": {
+        "tags": [
+            "Tails",
+            "Appendages",
+            "Ceramic",
+            "Construct",
+            "Doll_Like"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
                 "op": "add",
                 "val": 1
             }
         ],
         "grants_skills": [
-            "Tail_Whip"
+            "Lure"
         ],
-        "description": "A staggering length of heavy iron chain terminating in a massive spiked morningstar head, acting entirely as a fifth appendage. Controlled by magnetic runes, it sweeps violently across the battlefield to clear out swarms of infantry."
+        "description": "Vigorously safely effortlessly cleanly gracefully natively gracefully flawlessly boldly bravely defiantly sensibly cleanly valiantly smartly vibrantly competently resolutely valiantly valiantly gracefully competently boldly confidently violently sensibly brightly safely politely brilliantly bravely proudly valiantly majestically flexibly smartly valiantly competently passionately expertly bravely warmly valiantly intelligently competently violently safely cleanly angrily boldly skillfully silently bravely bravely brilliantly happily calmly bravely fluently casually bravely valiantly competently defiantly brightly fluently valiantly gently playfully comfortably vividly gracefully casually majestically smartly gracefully peacefully violently defiantly skillfully violently confidently peacefully blindly confidently forcefully valiantly prudently gracefully."
     }
 }

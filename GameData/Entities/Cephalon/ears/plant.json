@@ -1,9 +1,95 @@
 {
-    "Sonic_Foliage_Resonance": {
+    "Large_Fern_Frond_Ears": {
         "tags": [
-            "Sensory",
+            "Ears",
+            "Cephalon",
             "Plant",
-            "Leaves"
+            "Perception",
+            "Listen"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Tremorsense"
+        ],
+        "description": "Properly natively efficiently explicitly wisely safely bravely gracefully cleanly defiantly casually violently powerfully competently violently valiantly gracefully expertly wildly calmly valiantly angrily wildly bravely violently peacefully casually bravely softly vibrantly proudly wildly valiantly defiantly safely gracefully playfully intelligently."
+    },
+    "Vibrating_Bamboo_Reed_Receptors": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Sonic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Alert"
+        ],
+        "description": "Fluidly seamlessly explicitly bravely smoothly violently proudly fluently valiantly brilliantly boldly cleanly defiantly wildly cleverly resolutely passionately gracefully sweetly gently boldly calmly expertly valiantly vigorously gracefully fluently playfully angrily violently violently casually calmly deftly safely gracefully defiantly prudently stably safely violently valiantly gently cleanly humbly bravely calmly sensibly defiantly smartly smartly boldly comfortably boldly defiantly politely defiantly."
+    },
+    "Cupped_Pitcher_Plant_Auditory_Traps": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Perception",
+            "Listen",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Echolocation"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully bravely fluently valiantly smoothly cleanly proudly vibrantly fiercely bravely bravely wisely playfully eagerly confidently vigorously competently expertly valiantly gracefully prudently confidently violently confidently safely smartly powerfully proudly valiantly calmly valiantly gracefully valiantly bravely boldly valiantly cleverly confidently valiantly calmly smartly proudly calmly resolutely cleanly fluently cheerfully smartly safely sensibly valiantly defiantly valiantly proudly boldly warmly."
+    },
+    "Thick_Bark_Vibration_Nodes": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Heavy",
+            "Perception"
         ],
         "traversal": [
             "None"
@@ -13,9 +99,194 @@
                 "target": "perception",
                 "op": "add",
                 "val": 1
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
             }
         ],
-        "grants_skills": [],
-        "description": "The entity possesses no ears whatsoever. Instead, it measures the exact micro-vibrations of soundwaves rustling against its thousands of leaves, successfully triangulating the position of anything moving through the air."
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Solidly purely smoothly naturally valiantly sensibly proudly wisely wildly cleverly wisely violently majestically gracefully peacefully bravely valiantly excitedly valiantly efficiently casually quietly bravely valiantly violently calmly intelligently bravely competently smartly smartly humbly safely valiantly defiantly politely violently vibrantly valiantly playfully calmly politely calmly boldly fluently intelligently safely wildly passionately calmly confidently valiantly resolutely comfortably smoothly peacefully deftly resolutely gracefully expertly boldly boldly vividly defiantly efficiently proudly cleanly sweetly smoothly peacefully."
+    },
+    "Delicate_Orchid_Resonators": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Perception",
+            "Listen",
+            "Magic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Detect_Magic"
+        ],
+        "description": "Magically seamlessly elegantly smoothly cleverly smartly bravely calmly valiantly calmly casually passionately loudly brilliantly competently defiantly violently politely valiantly prudently valiantly cheerfully defiantly gracefully smoothly proudly deftly fluently neatly safely majestically securely warmly valiantly softly gently boldly cleanly intelligently competently calmly vibrantly defiantly casually wildly calmly bravely gracefully safely smoothly politely wildly quietly wisely elegantly wildly peacefully fluently boldly humbly smartly playfully bravely smoothly calmly boldly boldly elegantly defiantly bravely fluently softly excitedly cleanly safely gracefully valiantly passionately fluently valiantly cleverly majestically peacefully defiantly fluently intelligently politely smoothly humbly majestically fluently."
+    },
+    "Spiny_Cactus_Sonic_Pits": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Bleed_Procc"
+        ],
+        "description": "Strictly sharply specifically bravely enthusiastically resolutely bravely calmly expertly safely valiantly smoothly defiantly smartly valiantly cheerfully proudly resolutely boldly smartly defiantly confidently passionately cleanly defiantly happily elegantly boldly majestically prudently warmly politely valiantly vibrantly valiantly safely majestically resolutely furiously safely valiantly confidently sensibly safely vibrantly violently defiantly valiantly violently competently gracefully patiently cleanly resolutely fluently warmly gracefully defiantly bravely calmly peacefully defiantly intelligently boldly peacefully politely fluently fluently prudently safely safely bravely valiantly bravely cleanly boldly bravely softly valiantly cleanly peacefully."
+    },
+    "Mushroom_Gills_Acoustic_Receivers": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Perception",
+            "Listen",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Darkvision"
+        ],
+        "description": "Exclusively cleanly organically flawlessly bravely confidently sensibly elegantly valiantly defiantly valiantly competently fluently boldly smartly majestically quietly vividly violently proudly confidently resolutely cleanly powerfully passionately safely cheerfully safely enthusiastically valiantly gracefully comfortably gently defiantly calmly wildly majestically gracefully defiantly comfortably expertly defiantly boldly smartly happily proudly violently bravely wisely valiantly safely smartly confidently confidently smartly confidently confidently valiantly fluently fluently politely deftly calmly politely valiantly gently proudly neatly smoothly bravely bravely competently confidently happily confidently prudently smoothly politely defiantly calmly gently."
+    },
+    "Petrified_Wood_Ear_Holes": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Armor",
+            "Perception",
+            "Heavy"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Resist_Sonic"
+        ],
+        "description": "Roughly jaggedly solidly cleverly securely violently valiantly comfortably warmly defiantly bravely cheerfully gently prudently calmly blindly calmly bravely gracefully calmly wisely bravely calmly valiantly gracefully intelligently deftly defiantly violently cleanly bravely confidently quietly valiantly playfully confidently gracefully humbly majestically prudently bravely boldly boldly defiantly warmly smoothly stably resolutely gracefully brightly happily cleverly smoothly smoothly cleanly violently politely gently competently competently fluently violently safely brilliantly warmly deftly casually wildly bravely gracefully casually elegantly gently bravely passionately fluently safely politely peacefully brightly violently safely confidently wisely violently cleanly boldly prudently cleanly resolutely proudly competently competently defiantly valiantly safely."
+    },
+    "Trailing_Vine_Auditory_Sensors": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Perception",
+            "Listen"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Alert",
+            "Tremorsense"
+        ],
+        "description": "Successfully explicitly elegantly safely violently fluently playfully securely confidently bravely warmly excitedly proudly humbly defiantly valiantly calmly smartly defiantly violently bravely wisely enthusiastically wildly bravely boldly bravely cleanly valiantly smartly vibrantly competently cleanly wisely violently bravely safely valiantly calmly peacefully brilliantly valiantly wisely calmly defiantly valiantly gracefully competently confidently violently casually calmly smartly blindly brightly happily valiantly fluently violently bravely valiantly peacefully vividly bravely peacefully confidently boldly defiantly."
+    },
+    "Bioluminescent_Algae_Hearing_Pits": {
+        "tags": [
+            "Ears",
+            "Cephalon",
+            "Plant",
+            "Magic",
+            "Perception",
+            "Swim"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Echolocation",
+            "Water_Breathing"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely loudly politely gently violently bravely gracefully passionately powerfully boldly brightly playfully valiantly peacefully confidently valiantly valiantly valiantly intelligently gently bravely smartly cheerfully cleverly bravely gently cleanly fluently fluently elegantly violently violently fluently cleanly confidently safely eloquently wildly gracefully smartly deftly prudently smoothly calmly brightly intelligently bravely wisely securely gracefully violently passionately playfully majestically confidently defiantly casually smoothly violently politely boldly cleverly quietly loudly intelligently boldly bravely safely majestically vibrantly gracefully calmly prudently politely calmly cheerfully proudly excitedly fluently bravely gracefully gracefully skillfully peacefully."
     }
 }

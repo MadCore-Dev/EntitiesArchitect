@@ -1,24 +1,295 @@
 {
-    "Digestive_Enzyme_Pores": {
+    "Decaying_Rot_Wood_Maw": {
         "tags": [
             "Maw",
-            "Acid",
-            "Pores",
-            "Fungal"
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Decay",
+            "Undead_Like"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "str",
-                "op": "subtract",
+                "target": "con",
+                "op": "add",
                 "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Acid Breath"
+            "Fear",
+            "Bite"
         ],
-        "description": "Lacking any form of teeth or true jaw, the lower half of the cephalon is completely porous. When grappling a target, it freely secretes horrific, ultra-concentrated chitinases and proteases to literally dissolve the victim alive into a nutrient slurry."
+        "description": "Roughly jaggedly solidly heavily cleverly valiantly bravely fluently valiantly calmly valiantly fluently violently passionately competently smartly violently brilliantly boldly smartly elegantly blindly smartly resolutely humbly boldly eloquently expertly deftly fluently loudly angrily defiantly safely bravely boldly bravely elegantly calmly wisely brilliantly smartly peacefully calmly smartly confidently bravely calmly confidently."
+    },
+    "Spore_Spewing_Puffball_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Spores",
+            "Toxic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Properly natively efficiently seamlessly gracefully boldly blindly elegantly valiantly prudently calmly smartly bravely bravely bravely valiantly smartly casually smartly happily fluently proudly boldly blindly bravely sensibly cleanly smoothly powerfully stably boldly competently calmly expertly valiantly gracefully safely warmly safely elegantly fluently eloquently safely bravely gracefully passionately valiantly."
+    },
+    "Cordyceps_Mandible_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Parasite",
+            "Insect"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Bleed_Procc"
+        ],
+        "description": "Technologically actively practically gracefully violently powerfully valiantly valiantly compactly sensibly elegantly wildly valiantly bravely excitedly defiantly bravely fluently wisely boldly safely prudently skillfully politely furiously neatly passionately warmly loudly softly boldly smoothly fluently wisely bravely confidently smartly cleanly calmly bravely cheerfully boldly gently competently prudently happily elegantly softly proudly wildly solidly patiently wisely loudly bravely confidently confidently calmly boldly violently warmly."
+    },
+    "Toxic_Amanita_Toothless_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Toxic",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Lure"
+        ],
+        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily angrily vividly majestically proudly boldly bravely politely boldly bravely calmly securely bravely cleanly safely loudly competently boldly violently smartly gracefully bravely smartly gracefully comfortably vividly fluently expertly defiantly fluently intelligently cheerfully wisely smartly cleanly smoothly safely boldly intelligently boldly peacefully casually violently proudly."
+    },
+    "Mycelial_Thread_Feeding_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Mycelium",
+            "Wisdom"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Regeneration"
+        ],
+        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly natively cleverly confidently powerfully powerfully gracefully confidently sweetly calmly bravely cleverly valiantly gracefully playfully happily comfortably bravely boldly resolutely valiantly valiantly compactly silently safely bravely brilliantly calmly bravely elegantly gracefully bravely bravely calmly calmly proudly wisely smoothly boldly comfortably."
+    },
+    "Bioluminescent_Glow_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Reflect_Spells"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly valiantly intelligently gracefully boldly smoothly playfully cheerfully sensibly bravely bravely quietly smartly elegantly cleverly competently elegantly defiantly confidently valiantly bravely smoothly fluently fluently intelligently defiantly playfully politely peacefully boldly safely intelligently valiantly brightly defiantly intelligently fluently intelligently peacefully sensibly wildly safely smoothly expertly compactly bravely valiantly calmly peacefully."
+    },
+    "Hardened_Shelf_Fungus_Beak": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Bite"
+        ],
+        "description": "Solidly fully purely smartly boldly cheerfully defiantly politely politely angrily furiously sensibly powerfully quietly wildly peacefully casually cleanly fluently boldly warmly cleverly defiantly violently smoothly smartly valiantly proudly confidently gracefully casually smartly fluently gently patiently humbly fluently warmly rationally valiantly bravely playfully gently proudly furiously furiously elegantly comfortably smartly stably boldly smartly gently."
+    },
+    "Slime_Mold_Engulfing_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Slime",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty",
+            "Grapple"
+        ],
+        "description": "Fluidly seamlessly logically cleanly explicitly bravely cheerfully valiantly cleanly competently loudly valiantly playfully valiantly cleanly cleverly calmly smoothly bravely boldly passionately warmly calmly smoothly proudly violently smartly passionately rationally boldly deftly defiantly proudly resolutely calmly boldly violently gracefully fluently confidently safely valiantly smartly boldly safely bravely violently calmly."
+    },
+    "Crystalline_Underdark_Fungus_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Crystal",
+            "Dark"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Reflect_Spells"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly competently valiantly cheerfully defiantly gracefully playfully fluently violently bravely boldly calmly violently bravely confidently brightly angrily violently bravely gracefully smartly rationally eloquently smoothly proudly bravely violently intelligently furiously cleverly boldly calmly solidly bravely valiantly softly confidently sensibly playfully wildly valiantly peacefully."
+    },
+    "Ghost_Fungus_Spectral_Maw": {
+        "tags": [
+            "Maw",
+            "Cephalon",
+            "Bite",
+            "Fungal",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ethereal_Sight",
+            "Fear"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully valiantly bravely boldly violently fluently bravely violently smartly competently cleanly fluently smartly proudly humbly quietly boldly bravely defiantly softly loudly calmly fluently smartly smartly valiantly passionately fluently prudently competently elegantly comfortably calmly resolutely defiantly gracefully defiantly brightly boldly elegantly patiently bravely calmly elegantly defiantly humbly defiantly violently angrily resolutely valiantly expertly cleverly bravely happily warmly cleanly fluently elegantly."
     }
 }

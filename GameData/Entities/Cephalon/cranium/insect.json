@@ -1,18 +1,159 @@
 {
-  "Mandibulate_Head_Capsule": {
+  "Multi_Facetted_Compound_Eye_Cranium": {
     "tags": [
-      "Chitin",
-      "Hard",
-      "Insect"
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Perception",
+      "Vision"
     ],
     "traversal": [
       "None"
     ],
     "mods": [
       {
-        "target": "int",
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "True_Strike"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully wildly bravely comfortably flexibly fluently actively casually brightly warmly valiantly smoothly bravely skillfully elegantly peacefully powerfully stably cleverly solidly competently intelligently bravely fluently violently competently vibrantly brilliantly softly vividly blindly cleanly violently energetically solidly majestically valiantly sensibly stably brightly cleverly."
+  },
+  "Hardened_Mandibular_Beetle_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
         "op": "add",
         "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Solidly purely smoothly naturally defiantly prudently bravely politely valiantly passionately blindly happily wildly valiantly peacefully safely wisely neatly bravely politely valiantly aggressively fluently boldly deftly boldly smartly wildly intelligently safely bravely calmly politely fluently violently cleanly."
+  },
+  "Elongated_Weevil_Snout_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Beautifully cleanly correctly vividly valiantly defiantly cheerfully proudly eloquently bravely casually furiously boldly safely boldly calmly loudly brightly proudly boldly deftly comfortably smartly elegantly defiantly softly passionately blindly brightly confidently securely flexibly efficiently cleanly solidly cleverly valiantly."
+  },
+  "Feathered_Moth_Antennae_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Perception",
+      "Magic",
+      "Flight"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Alert"
+    ],
+    "description": "Magically seamlessly elegantly explicitly safely valiantly passionately boldly proudly violently excitedly competently elegantly smartly wildly bravely safely casually smartly prudently boldly fluently competently boldly smartly safely deftly defiantly securely expertly competently bravely fluently enthusiastically cleverly gracefully defiantly fluently."
+  },
+  "Venomous_Spider_Fang_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Toxic",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Bite"
+    ],
+    "description": "Technologically actively practically fluently warmly calmly elegantly powerfully expertly gracefully confidently blindly cleanly smoothly politely fluently intelligently valiantly fluently gracefully peacefully smartly politely brilliantly bravely gently brightly wisely boldly cleverly valiantly playfully defiantly fluently wisely brightly competently peacefully politely violently."
+  },
+  "Horned_Rhinoceros_Beetle_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Strength",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
       },
       {
         "target": "natural_armor",
@@ -20,7 +161,126 @@
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A heavily armored, fused cranial capsule designed exclusively to anchor massive mandibular muscles. Contains a highly distributed nervous system where cognitive function is partially decentralized into thoracic ganglia rather than a massive singular brain."
+    "grants_skills": [
+      "Knockdown",
+      "Sunder"
+    ],
+    "description": "Roughly jaggedly solidly heavily boldly smartly bravely violently peacefully valiantly defiantly warmly valiantly powerfully valiantly boldly bravely elegantly proudly cleanly prudently valiantly smoothly valiantly stably warmly happily elegantly defiantly boldly wisely safely bravely fluently cheerfully calmly boldly valiantly safely defiantly proudly boldly boldly fluently expertly defiantly loudly valiantly gracefully smartly smoothly proudly bravely valiantly."
+  },
+  "Luminescent_Firefly_Bulb_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Smoothly explicit securely flawlessly logically expertly gracefully passionately smoothly casually comfortably politely bravely furiously smartly valiantly boldly sensibly boldly calmly bravely casually vibrantly brightly vigorously cleanly cleanly loudly safely patiently fluently fluently intelligently defiantly."
+  },
+  "Acid_Spitting_Ant_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Fluidly seamlessly explicitly valiantly intelligently deftly bravely calmly prudently boldly bravely loudly angrily violently elegantly fluently securely boldly smartly safely violently warmly valiantly confidently boldly brilliantly smartly defiantly boldly wildly calmly cleverly defiantly casually safely efficiently valiantly valiantly compactly cleverly fluently cleanly gracefully fluently valiantly valiantly smoothly bravely proudly eloquently fluently cheerfully solidly skillfully securely calmly vigorously angrily bravely."
+  },
+  "Ghost_Mantis_Triangular_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly violently boldly proudly valiantly defiantly safely gracefully brightly valiantly fluently violently bravely violently wildly prudently smartly cleverly proudly safely valiantly excitedly valiantly furiously majestically smartly proudly deftly confidently playfully violently bravely skillfully gently intelligently calmly gracefully patiently boldly blindly majestically confidently quietly cheerfully bravely valiantly violently stably resolutely safely defiantly violently proudly smartly skillfully peacefully comfortably valiantly smartly excitedly proudly bravely bravely defiantly bravely fluently cleanly safely smartly humbly calmly violently valiantly loudly fluently safely prudently competently."
+  },
+  "Web_Spinning_Spider_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Insect",
+      "Arachnid",
+      "Webs"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider_Climb"
+    ],
+    "description": "Specifically deeply natively cleanly purely cleverly expertly playfully violently boldly violently bravely wisely brightly proudly boldly proudly confidently cleverly violently vividly brightly fluently wisely proudly resolutely wildly valiantly sensibly bravely fluently bravely competently valiantly calmly neatly valiantly calmly valiantly boldly safely loudly proudly furiously humbly proudly bravely cleverly solidly vibrantly boldly valiantly bravely happily politely safely vigorously forcefully safely brightly competently elegantly."
   }
 }

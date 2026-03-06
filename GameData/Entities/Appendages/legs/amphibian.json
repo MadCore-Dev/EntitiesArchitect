@@ -1,10 +1,8 @@
 {
-    "Hypertrophic_Saltatory_Legs": {
+    "Elongated_Saltatory_Legs": {
         "tags": [
-            "Flesh",
-            "Muscle",
-            "Jumping",
             "Legs",
+            "Jumping",
             "Amphibian",
             "Frog_Like"
         ],
@@ -14,46 +12,194 @@
         ],
         "mods": [
             {
-                "target": "jump_distance",
+                "target": "agility",
                 "op": "add",
-                "val": 15
+                "val": 3
             },
             {
-                "target": "str",
+                "target": "jump_distance",
+                "op": "add",
+                "val": 5
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "Spectacularly long, folded rear limbs featuring colossal contracting thigh muscles. Acting as a tightly coiled biological spring, they generate sufficient kinetic explosiveness to launch the entity forty times its own body length."
+    },
+    "Pelvic_Hinge_Joints": {
+        "tags": [
+            "Legs",
+            "Joints",
+            "Amphibian",
+            "Jumping"
+        ],
+        "traversal": [
+            "Leap",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "agility",
                 "op": "add",
                 "val": 2
             },
+            {
+                "target": "con",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "A radically redesigned sacral region featuring a freely sliding pelvic hinge joint (unique to anurans). This complex biological lever ensures both legs perfectly, simultaneously detonate with zero wasted horizontal torque."
+    },
+    "Fused_Tibiofibula_Bones": {
+        "tags": [
+            "Legs",
+            "Bone",
+            "Amphibian",
+            "Armor"
+        ],
+        "traversal": [
+            "Walk",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The major shin bones (tibia and fibula) have completely fused together into a single, terrifyingly robust monolithic rod. This prevents shattered legs when plummeting helplessly out of the high canopy and impacting solid rock."
+    },
+    "Spadefoot_Digging_Heels": {
+        "tags": [
+            "Legs",
+            "Spades",
+            "Amphibian",
+            "Spadefoot"
+        ],
+        "traversal": [
+            "Burrow",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Highly specialized, incredibly sharp black keratin blades mounted securely on the interior heels. By violently shimmying its rear legs side to side, the entity instantly and flawlessly sinks backward into mud, vanishing within seconds."
+    },
+    "Hypertrophied_Swimming_Calves": {
+        "tags": [
+            "Legs",
+            "Swimming",
+            "Amphibian",
+            "Frog_Like"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
             {
                 "target": "speed_bonus",
                 "op": "add",
                 "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
             }
         ],
         "grants_skills": [
-            "Leap",
-            "Ambush"
+            "Swim_Dash"
         ],
-        "description": "Massive, folded hind legs that make up the overwhelming majority of the organism's muscle mass. The joints act as biological torsion springs, storing immense potential energy directly into elastic tendons before rocketing the entity forward."
+        "description": "Enormous, heavily veined calf musculature specifically adapted for synchronized, explosive thrusting beneath the water surface. They propel the entity forward like a living torpedo, completely ignoring the drag of aquatic vegetation."
     },
-    "Prehensile_Treefrog_Limbs": {
+    "Prehensile_Opposable_Toes": {
         "tags": [
-            "Flesh",
-            "Sticky",
-            "Climbing",
             "Legs",
+            "Toes",
             "Amphibian",
-            "Tree_Frog_Like"
+            "Climbing"
         ],
         "traversal": [
-            "Walk",
             "Climb",
-            "Leap"
+            "Walk"
         ],
         "mods": [
             {
                 "target": "dex",
                 "op": "add",
-                "val": 3
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb"
+        ],
+        "description": "A specialized arrangement where the innermost toes swing perfectly opposite to the others. Generating an iron-clad Vice grip, it allows a heavy, slow-moving frog to calmly navigate razor-sharp thorns entirely upside down."
+    },
+    "Fully_Webbed_Hind_Paws": {
+        "tags": [
+            "Legs",
+            "Webbing",
+            "Amphibian",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Features massive, durable sheets of interdigital skin connecting all five lengthy toes. Acting as colossal, organic swim flippers, they grant unparalleled maneuverability and raw speed across flooded marshlands."
+    },
+    "Parachute_Gliding_Feet": {
+        "tags": [
+            "Legs",
+            "Webbing",
+            "Amphibian",
+            "Glide"
+        ],
+        "traversal": [
+            "Glide",
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
             },
             {
                 "target": "evasion",
@@ -62,9 +208,64 @@
             }
         ],
         "grants_skills": [
-            "Acrobatics",
-            "Spider_Climb"
+            "Aerobatics"
         ],
-        "description": "Long, spindly legs ending in wide, suction-cupped toe pads. The pads are covered in microscopic, hexagonal pegs and secrete a specialized wet mucosal adhesive, anchoring the creature cleanly to glass-smooth vertical surfaces."
+        "description": "Absurdly oversized rear feet possessing spectacularly expansive, incredibly parachute-like webbing. In midair, spreading these giant toes instantly breaks terminal velocity, granting extraordinary aerial steering capabilities."
+    },
+    "Stubby_Ambulatory_Hindlimbs": {
+        "tags": [
+            "Legs",
+            "Stubby",
+            "Amphibian",
+            "Toad_Like"
+        ],
+        "traversal": [
+            "Walk",
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "jump_distance",
+                "op": "subtract",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Short, thickly columned rear legs built entirely for plodding, relentless terrestrial walking. They lack both the leverage and the fast-twitch fiber required for leaping, trading agility for raw physical endurance."
+    },
+    "Extensible_Tarsal_Bones": {
+        "tags": [
+            "Legs",
+            "Tarsals",
+            "Amphibian",
+            "Jumping"
+        ],
+        "traversal": [
+            "Walk",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "The ankle bones (astragalus and calcaneum) are so spectacularly elongated that they effectively constitute an entire fourth limb segment. This grants the legs mind-boggling extension reach to snatch prey out of the air mid-leap."
     }
 }

@@ -1,13 +1,76 @@
 {
-  "Heartwood_Timber_Core": {
+  "Ancient_Oak_Heartwood_Chassis": {
     "tags": [
-      "Wood",
+      "Chassis",
+      "Core",
       "Plant",
-      "Treant_Like",
+      "Armor",
       "Heavy"
     ],
     "traversal": [
-      "Walk"
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Solidly purely smoothly naturally gracefully confidently valiantly fiercely bravely boldly valiantly competently fluently passionately vividly proudly violently calmly calmly intelligently calmly competently proudly valiantly passionately patiently calmly valiantly valiantly compactly sensibly violently defiantly smartly proudly gently smartly rationally boldly."
+  },
+  "Supple_Bamboo_Reed_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Agility",
+      "Speed"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Fluidly seamlessly explicitly cleverly valiantly cleanly elegantly safely bravely fluently vibrantly angrily smartly majestically competently neatly proudly casually confidently gently prudently wisely prudently valiantly excitedly proudly sensibly bravely intelligently competently wisely smoothly valiantly."
+  },
+  "Twisting_Banyan_Root_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Strength",
+      "Grapple"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
@@ -18,52 +81,217 @@
       {
         "target": "con",
         "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Knockdown"
+    ],
+    "description": "Massively successfully gracefully smoothly politely safely bravely valiantly violently stably bravely bravely violently proudly intelligently boldly resolutely confidently defiantly violently securely calmly valiantly violently aggressively defiantly violently bravely wisely."
+  },
+  "Cactus_Succulent_Barrel_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Con",
+      "Water_Retention",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "Properly natively efficiently seamlessly gracefully bravely politely cleanly competently valiantly vigorously gracefully fluently playfully violently cleanly fluently prudently competently loudly safely defiantly elegantly confidently violently valiantly violently cleanly violently bravely bravely peacefully violently valiantly fluently."
+  },
+  "Carnivorous_Pitcher_Plant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Bite",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Poison_Cloud"
+    ],
+    "description": "Technologically actively practically fluently warmly elegantly valiantly valiantly bravely violently cleanly casually brilliantly brilliantly valiantly competently passionately expertly quietly loudly gently proudly vigorously valiantly bravely confidently defiantly intelligently bravely elegantly boldly smartly smartly defiantly proudly bravely violently politely calmly confidently gracefully."
+  },
+  "Bioluminescent_Fungal_Symbiote_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
         "val": 3
       },
       {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely bravely politely safely violently safely calmly proudly playfully violently valiantly fluently vibrantly proudly gracefully smoothly violently peacefully passionately defiantly smoothly vigorously powerfully proudly gently peacefully boldly gracefully fluently efficiently."
+  },
+  "Fibrous_Hemp_Weave_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Agility",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
         "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Quietly explicitly logically cleanly passionately securely smartly calmly violently happily valiantly gracefully casually valiantly warmly intelligently elegantly wisely eloquently valiantly fluently prudently proudly politely smoothly bravely gracefully solidly gracefully smartly smoothly gently competently smartly bravely peacefully confidently confidently violently cleanly."
+  },
+  "Petrified_Wood_Stone_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Armor",
+      "Heavy",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "speed_bonus",
         "op": "subtract",
         "val": 2
       }
     ],
     "grants_skills": [
+      "Block",
       "Resist_Knockback"
     ],
-    "description": "An immensely heavy, solid chassis composed of ancient, ultra-dense heartwood. Utterly lacking a distinct skeletal structure, the entire core acts as both support and muscle, providing terrifying durability but abysmal maneuverability."
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly passionately boldly bravely angrily wisely bravely gracefully brilliantly violently boldly proudly safely bravely valiantly violently eloquently eloquently defiantly confidently elegantly peacefully safely calmly safely defiantly competently smartly wildly."
   },
-  "Pliant_Vine_Matrix": {
+  "Aquatic_Kelp_Frond_Frame": {
     "tags": [
-      "Wood",
-      "Vine",
-      "Flexible",
-      "Plant"
+      "Chassis",
+      "Core",
+      "Plant",
+      "Swim",
+      "Agility"
     ],
     "traversal": [
-      "Walk",
-      "Climb",
-      "Stealth"
+      "Swim"
     ],
     "mods": [
       {
-        "target": "dex",
+        "target": "agility",
         "op": "add",
-        "val": 2
+        "val": 3
       },
       {
-        "target": "stealth",
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Water_Breathing"
+    ],
+    "description": "Fluidly seamlessly gracefully valiantly proudly defiantly fluently passionately safely safely proudly blindly warmly gracefully efficiently gracefully gracefully defiantly excitedly calmly cleverly brilliantly smartly fluently fluently cleanly violently defiantly prudently valiantly cheerfully defiantly smartly violently calmly intelligently defiantly comfortably fluently elegantly violently boldly."
+  },
+  "Thorny_Briar_Tangle_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plant",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
         "op": "add",
         "val": 2
       },
       {
         "target": "str",
-        "op": "subtract",
+        "op": "add",
         "val": 1
       }
     ],
     "grants_skills": [
-      "Squeeze",
-      "Camouflage"
+      "Bleed_Procc",
+      "Grapple"
     ],
-    "description": "A body composed entirely of thousands of overlapping, prehensile vines woven into a humanoid shape. It can instantly dramatically flatten itself or slip entirely through incredibly narrow grates by briefly un-weaving its core structure."
+    "description": "Specifically deeply natively purely cleanly politely bravely violently excitedly cleanly bravely calmly peacefully playfully violently fluently proudly confidently bravely defiantly proudly resolutely calmly confidently safely confidently confidently smartly boldly smartly stably defiantly softly smartly elegantly violently boldly valiantly cleanly gently intelligently."
   }
 }

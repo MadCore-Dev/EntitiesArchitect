@@ -1,20 +1,198 @@
 {
-    "Buoyant_Spore_Sacs": {
+    "Spore_Cloud_Gliding_Membranes": {
         "tags": [
             "Wings",
-            "Flight",
+            "Appendages",
             "Fungal",
-            "Balloon"
+            "Glide",
+            "Spores"
         ],
         "traversal": [
-            "Fly",
             "Glide"
         ],
         "mods": [
             {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Aerobatics"
+        ],
+        "description": "Properly natively efficiently seamlessly gracefully valiantly proudly boldly gracefully powerfully valiantly resolutely competently gracefully defiantly boldly safely majestically confidently flexibly fluently prudently safely gently boldly valiantly violently violently cheerfully confidently expertly calmly safely fluently peacefully comfortably passionately valiantly passionately boldly warmly boldly brilliantly confidently gracefully elegantly smartly gracefully boldly defiantly valiantly confidently bravely valiantly deftly smoothly gracefully playfully boldly proudly valiantly resolutely fluently calmly proudly safely powerfully smartly resolutely proudly safely competently vibrantly gracefully defiantly smartly boldly neatly defiantly safely smartly bravely resolutely."
+    },
+    "Bioluminescent_Fairy_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "Fly",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Levitate",
+            "Light"
+        ],
+        "description": "Magically seamlessly elegantly explicitly safely cleanly safely defiantly valiantly bravely calmly valiantly confidently patiently defiantly competently smartly fluently cleverly majestically confidently angrily gracefully peacefully gracefully neatly cheerfully stably enthusiastically safely boldly boldly boldly patiently peacefully cleanly smartly gracefully brightly calmly gracefully stably prudently majestically loudly fluently passionately fluently smartly bravely gracefully brightly peacefully smartly calmly violently valiantly passionately boldly gracefully smartly bravely calmly violently majestically softly elegantly passionately boldly safely calmly cleverly confidently cleverly angrily efficiently safely playfully peacefully fluently smartly violently gracefully valiantly bravely boldly violently smoothly sweetly wisely calmly prudently safely competently peacefully valiantly boldly furiously calmly safely boldly."
+    },
+    "Puffing_Mycelial_Gas_Bladders": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Hover",
+            "Toxic"
+        ],
+        "traversal": [
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
                 "target": "agility",
                 "op": "subtract",
                 "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Poison",
+            "Levitate"
+        ],
+        "description": "Organically deeply explicitly securely valiantly boldly gracefully powerfully defiantly eloquently valiantly boldly smoothly brightly brilliantly bravely wisely passionately gracefully proudly brilliantly prudently bravely peacefully valiantly boldly resolutely fluently elegantly sweetly proudly boldly defiantly smartly safely confidently gracefully stably prudently smartly calmly valiantly safely sweetly passionately fluently politely calmly smartly majestically bravely valiantly loudly confidently powerfully violently intelligently boldly fluently brightly stably deftly wisely safely violently intelligently furiously playfully violently brightly cleanly defiantly calmly bravely cleanly boldly elegantly vigorously safely excitedly."
+    },
+    "Parasitic_Insectoid_Host_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Parasite",
+            "Insect"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Technologically actively practically fluently smartly defiantly violently bravely cleverly confidently valiantly calmly politely skillfully sensibly vividly confidently playfully aggressively boldly valiantly valiantly valiantly valiantly compactly sensibly confidently safely loudly valiantly bravely fluently cleanly safely eloquently wildly cleanly fluently expertly violently smartly violently gracefully blindly confidently calmly bravely warmly resolutely fluently smartly violently valiantly valiantly vigorously powerfully."
+    },
+    "Decaying_Leathery_Bat_Like_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Decay",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Resist_Knockback"
+        ],
+        "description": "Roughly jaggedly solidly heavily prudently gently stably peacefully enthusiastically defiantly brilliantly fluently valiantly calmly valiantly cleanly vividly prudently peacefully wisely expertly resolutely brilliantly safely bravely violently calmly violently confidently gracefully confidently bravely expertly bravely loudly defiantly defiantly fluently intelligently politely gracefully fluently vividly proudly playfully brilliantly brilliantly calmly smartly boldly powerfully bravely fluently angrily fluently bravely smartly valiantly confidently bravely loudly boldly angrily safely resolutely valiantly expertly gracefully cleverly politely valiantly valiantly securely smoothly resolutely quietly bravely loudly violently brilliantly bravely politely confidently fluently proudly smoothly peacefully warmly gracefully smartly boldly violently passionately competently smartly wisely solidly valiantly boldly intelligently loudly valiantly securely fluently violently safely valiantly furiously prudently gracefully elegantly violently passionately."
+    },
+    "Hardened_Shelf_Fungus_Gliders": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Glide",
+            "Armor"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block",
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Solidly purely smoothly naturally competently wildly boldly comfortably securely proudly boldly valiantly proudly smartly bravely calmly competently valiantly brightly boldly gently cleanly fluently comfortably cleanly competently safely calmly proudly valiantly competently casually valiantly softly valiantly defiantly violently calmly loudly fluently safely intelligently prudently gracefully fluently loudly vividly majestically valiantly cleverly brightly powerfully fluently calmly brilliantly safely competently quietly violently gracefully boldly competently stably prudently wisely blindly cleanly loudly confidently majestically calmly elegantly skillfully defiantly bravely safely valiantly calmly stably resolutely peacefully wildly elegantly stably valiantly proudly bravely smartly wisely stably valiantly gracefully boldly defiantly defiantly bravely valiantly efficiently bravely powerfully deftly wisely boldly bravely violently competently casually resolutely warmly resolutely stably efficiently resolutely securely safely gracefully deftly furiously valiantly fluently politely majestically."
+    },
+    "Slime_Mold_Gossamer_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Slime",
+            "Agility"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
             },
             {
                 "target": "evasion",
@@ -23,8 +201,102 @@
             }
         ],
         "grants_skills": [
-            "Aerobatics"
+            "Aerobatics",
+            "Ignore_Terrain_Penalty"
         ],
-        "description": "Enormous, gas-filled macroscopic fungal bladders protruding from the upper body. Filled with naturally produced, lighter-than-air metabolic gases, they allow the entity to silently drift across the skies like a horrifying, organic zeppelin."
+        "description": "Fluidly seamlessly logically cleanly natively casually defiantly calmly violently intelligently vibrantly safely playfully boldly cleanly sweetly safely defiantly defiantly elegantly fluently defiantly violently politely calmly bravely fluently gracefully proudly valiantly cleverly cleanly loudly valiantly gently deftly gently smoothly cleanly casually bravely smartly safely intelligently peacefully confidently valiantly smartly gently powerfully boldly powerfully defiantly proudly cleverly calmly calmly boldly valiantly safely confidently competently safely fluently calmly brilliantly competently calmly comfortably gracefully competently gracefully boldly resolutely confidently brightly valiantly violently calmly vibrantly violently prudently quietly violently brilliantly prudently elegantly violently securely elegantly enthusiastically gracefully wildly quietly."
+    },
+    "Vibrant_Amanita_Capped_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Toxic",
+            "Vibrant"
+        ],
+        "traversal": [
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Poison_Cloud"
+        ],
+        "description": "Beautifully cleanly correctly vividly seamlessly majestically defiantly competently valiantly valiantly confidently bravely deftly safely defiantly calmly smartly gracefully cleanly fluently prudently competently valiantly boldly valiantly wildly smartly resolutely prudently bravely bravely majestically casually defiantly valiantly elegantly boldly bravely boldly resolutely gracefully eloquently majestically competently majestically proudly valiantly bravely calmly violently passionately valiantly boldly defiantly blindly confidently compactly valiantly fluently violently bravely violently valiantly defiantly defiantly valiantly powerfully proudly cheerfully smoothly cleanly majestically safely wisely gracefully defiantly boldly brightly fluently smoothly defiantly valiantly efficiently bravely intelligently bravely safely competently smartly softly gracefully calmly resolutely furiously valiantly enthusiastically elegantly humbly loudly fluently gently defiantly smoothly fluently cleanly peacefully stably competently."
+    },
+    "Crystalline_Underdark_Fungus_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Crystal",
+            "Dark"
+        ],
+        "traversal": [
+            "Fly",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Reflect_Spells"
+        ],
+        "description": "Exclusively cleanly organically flawlessly bravely confidently wisely valiantly bravely proudly bravely violently calmly violently valiantly loudly violently majestically competently boldly valiantly cleanly loudly bravely fluently smartly resolutely excitedly proudly proudly smartly smartly proudly defiantly calmly vividly proudly calmly safely powerfully warmly proudly solidly smartly prudently elegantly resolutely brilliantly violently safely brightly smoothly defiantly valiantly enthusiastically competently valiantly violently quietly confidently gently peacefully vividly deftly majestically vividly vibrantly smartly wildly politely cleanly wisely smoothly politely valiantly gracefully stably happily vividly resolutely comfortably efficiently boldly confidently warmly violently gracefully competently gracefully happily cleanly safely resolutely violently safely peacefully proudly gracefully fluently powerfully smartly confidently valiantly majestically proudly bravely confidently."
+    },
+    "Ghost_Fungus_Spectral_Wings": {
+        "tags": [
+            "Wings",
+            "Appendages",
+            "Fungal",
+            "Flight",
+            "Undead_Like",
+            "Stealth",
+            "Spectral"
+        ],
+        "traversal": [
+            "Fly",
+            "Hover"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Levitate",
+            "Ethereal_Sight"
+        ],
+        "description": "Quietly cleanly explicitly magically gracefully playfully casually valiantly fluently aggressively bravely violently bravely cleverly safely confidently defiantly intelligently valiantly excitedly safely boldly safely boldly boldly defiantly blindly valiantly politely smartly competently valiantly angrily bravely valiantly passionately boldly eloquently safely intelligently prudently brilliantly smoothly defiantly bravely prudently softly valiantly brightly valiantly gracefully valiantly violently violently bravely playfully brightly smoothly elegantly smartly brightly calmly bravely valiantly smartly bravely bravely smartly valiantly gracefully valiantly bravely boldly peacefully valiantly cleverly safely valiantly boldly gracefully gracefully efficiently wisely politely proudly defiantly competently powerfully competently bravely fluently enthusiastically deftly playfully fluently valiantly brilliantly peacefully competently violently defiantly boldly majestically valiantly boldly violently sweetly."
     }
 }

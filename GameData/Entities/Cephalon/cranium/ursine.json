@@ -1,10 +1,12 @@
 {
-  "Broad_Robust_Cranium": {
+  "Grizzly_Massive_Broad_Skull": {
     "tags": [
-      "Bone",
-      "Heavy",
+      "Cranium",
+      "Cephalon",
       "Ursine",
-      "Mammal"
+      "Strength",
+      "Con",
+      "Heavy"
     ],
     "traversal": [
       "None"
@@ -13,15 +15,291 @@
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "val": 4
       },
       {
-        "target": "wis",
+        "target": "con",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Intimidate"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly gracefully gracefully violently gently prudently brilliantly bravely lazily fluently bravely cleverly calmly peacefully bravely calmly confidently smartly smartly smartly boldly calmly safely safely elegantly smoothly humbly sweetly casually valiantly peacefully warmly confidently casually smartly deftly fluently confidently."
+  },
+  "Polar_Bear_Elongated_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Perception",
+      "Strength",
+      "Swim"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bite"
+    ],
+    "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely quietly bravely intelligently proudly confidently neatly brightly defiantly violently majestically wildly valiantly peacefully warmly happily competently gently patiently lazily valiantly valiantly compactly sensibly elegantly casually violently valiantly compliantly proudly comfortably loudly playfully lazily safely playfully peacefully happily humbly elegantly valiantly."
+  },
+  "Black_Bear_Slender_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Agility",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
         "op": "add",
         "val": 1
       }
     ],
-    "grants_skills": [],
-    "description": "A very wide, extraordinarily heavy skull built to withstand immense blunt-force trauma. It features incredibly wide zygomatic arches (cheekbones) to accommodate the absolutely massive temporalis muscles required for bone-crushing bites."
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly cleverly brilliantly boldly boldly valiantly calmly boldly playfully smartly smartly vigorously smartly defiantly boldly majestically bravely confidently defiantly majestically resolutely valiantly valiantly boldly defiantly smartly."
+  },
+  "Panda_Rounded_Heavy_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Con",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Bludgeoning",
+      "Block"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly valiantly calmly smoothly politely bravely prudently sweetly majestically violently violently valiantly sensibly gracefully cleanly smoothly safely comfortably cleanly gently elegantly gracefully safely furiously confidently smartly eagerly deftly smoothly."
+  },
+  "Sun_Bear_Short_Snouted_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Dexterity",
+      "Utility",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fast_Hands",
+      "Reach_Attack"
+    ],
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly patiently peacefully warmly bravely valiantly gracefully smoothly competently wisely boldly lazily safely violently proudly sensibly brightly sensibly gracefully confidently smartly wisely excitedly valiantly prudently calmly sensibly resolutely calmly resolutely solidly peacefully proudly bravely safely happily smartly valiantly violently majestically wildly fluently violently passionately bravely lazily calmly passionately expertly deftly calmly majestically merrily majestically passionately gracefully comfortably bravely peacefully elegantly gently warmly casually politely brightly valiantly confidently violently gently."
+  },
+  "Sloth_Bear_Protruding_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Con",
+      "Reach",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Suck",
+      "Endurance"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly bravely valiantly violently calmly lazily elegantly smoothly lazily casually vividly defiantly elegantly smartly safely powerfully confidently wildly violently defiantly proudly merrily valiantly softly casually fluently smartly stably intelligently enthusiastically prudently playfully competently violently defiantly smoothly boldly bravely passionately violently stably valiantly bravely gracefully."
+  },
+  "Spectacled_Bear_Marked_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Perception",
+      "Charisma"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Charm"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently boldly bravely excitedly valiantly loudly skillfully happily bravely merrily defiantly elegantly efficiently happily gracefully lazily cleverly sensibly warmly cheerfully sensibly lazily valiantly valiantly sensibly smoothly cleanly safely powerfully softly bravely safely valiantly calmly stably boldly calmly intelligently bravely boldly merrily merrily prudently defiantly valiantly confidently merrily smartly defiantly gently safely."
+  },
+  "Cave_Bear_Gigantic_Dome": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Strength",
+      "Con",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Resist_Bludgeoning",
+      "Knockdown"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly defiantly valiantly competently confidently bravely politely violently calmly smartly violently proudly peacefully calmly smoothly expertly defiantly peacefully confidently politely peacefully cleanly bravely confidently violently boldly valiantly cleanly loudly bravely fluently smartly resolutely happily smartly sweetly solidly lazily elegantly furiously powerfully humbly peacefully lazily calmly boldly valiantly safely defiantly angrily bravely competently smartly brilliantly bravely neatly valiantly softly bravely sensibly powerfully eagerly politely defiantly violently lazily safely intelligently defiantly valiantly enthusiastically prudently loudly intelligently defiantly lazily prudently calmly valiantly lazily gracefully intelligently competently resolutely cleanly solidly valiantly bravely passionately lazily elegantly expertly cleanly wildly stably."
+  },
+  "Zombie_Bear_Rotten_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently politely valiantly proudly smartly competently violently bravely wisely valiantly safely stably safely bravely smartly gracefully cleanly proudly safely competently calmly boldly competently fiercely valiantly proudly bravely violently competently casually fluently safely efficiently cleanly valiantly boldly resolutely humbly violently loudly fluently smartly valiantly compliantly valiantly loudly elegantly peacefully safely lazily eagerly bravely lazily patiently valiantly peacefully warmly confidently."
+  },
+  "Spirit_Bear_Ghostly_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Ursine",
+      "Magic",
+      "Stealth",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Detect_Magic"
+    ],
+    "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly bravely intelligently playfully bravely calmly safely gently valiantly confidently brilliantly smartly defiantly boldly quietly violently wisely silently merrily defiantly safely majestically fluently calmly valiantly bravely safely fluently safely enthusiastically wisely majestically intelligently lazily cleverly cleverly gracefully proudly quietly valiantly compliantly defiantly resolutely lazily politely smartly boldly safely defiantly cleanly enthusiastically wisely cleanly sensibly violently wildly safely neatly prudently calmly intelligently."
   }
 }

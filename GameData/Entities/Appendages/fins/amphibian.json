@@ -26,5 +26,230 @@
             "Swim_Dash"
         ],
         "description": "A steeply raised, deeply serrated fleshy fin running the entire length of the spine and tail. It is highly suffused with brilliant warning colors and dramatically increases swimming efficiency during the aquatic breeding phase."
+    },
+    "External_Gill_Plumes": {
+        "tags": [
+            "Fins",
+            "Respiratory",
+            "Amphibian",
+            "Axolotl_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "hp",
+                "op": "add",
+                "val": 5
+            }
+        ],
+        "grants_skills": [
+            "Aquatic_Respiration"
+        ],
+        "description": "Not true locomotive fins, but rather massive, branching, feather-like gills erupting spectacularly from the sides of the neck. They continuously sweep the water to extract trace oxygen from stagnant, rotting ponds."
+    },
+    "Hypertrophied_Caudal_Fin": {
+        "tags": [
+            "Fins",
+            "Tail_Fin",
+            "Amphibian",
+            "Aquatic"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "An absolutely gargantuan continuation of the tail fin that wraps entirely around the posterior. Designed for explosive, singular bursts of terrifying speed to snatch low-flying birds directly from the water's surface."
+    },
+    "Pectoral_Walking_Fins": {
+        "tags": [
+            "Fins",
+            "Walking",
+            "Amphibian",
+            "Benthic"
+        ],
+        "traversal": [
+            "Swim",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Extremely muscular, heavily bone-reinforced fins located directly under the chest. They have largely abandoned swimming, instead acting as biological crutches to slowly drag the entity across utterly lightless subterranean riverbeds."
+    },
+    "Venomous_Dorsal_Spines": {
+        "tags": [
+            "Fins",
+            "Weapon",
+            "Venom",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Inject_Toxin"
+        ],
+        "description": "The fleshy crest on the back is repeatedly pierced by highly calcified, razor-sharp neural spines connected to deep neurotoxin glands. Any predator daring to bite the entity's back is instantly paralyzed."
+    },
+    "Pelvic_Clasper_Fins": {
+        "tags": [
+            "Fins",
+            "Grapple",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple"
+        ],
+        "description": "Extensively modified fins located near the groin perfectly shaped for inescapable locking grasps. While primarily used for maintaining position during grueling, week-long aquatic mating, they perfectly grapple thrashing prey."
+    },
+    "Acoustic_Resonance_Fins": {
+        "tags": [
+            "Fins",
+            "Sensory",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Broad, ultra-thin fins completely riddled with intense lateral-line nerve bundles. They do not generate thrust, instead acting like immense biological satellite dishes gathering microscopic water pressure changes."
+    },
+    "Retractable_Pectoral_Sails": {
+        "tags": [
+            "Fins",
+            "Sails",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "Extremely large fins that lie utterly flat and practically invisible against the body. When cornered, they instantly deploy outwards with a hyper-loud biological 'snap', terrifying predators and violently changing swimming direction."
+    },
+    "Mud_Plowing_Snout_Fins": {
+        "tags": [
+            "Fins",
+            "Burrowing",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Burrow",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Bizarre, heavily ossified ridges of fin tissue protruding directly from the front of the skull. They functionally act as thick, organic trowels, effortlessly parting densely compacted clay during subterranean aquatic hunts."
+    },
+    "Bioluminescent_Lure_Fin": {
+        "tags": [
+            "Fins",
+            "Lure",
+            "Bioluminescent",
+            "Amphibian"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Lure",
+            "Light"
+        ],
+        "description": "A highly specialized, independently mobile fin stalk extending directly over the prey's face. The tip continuously pulses with cool blue enzymatic light, flawlessly drawing inquisitive, blind subterranean fish into its open maw."
     }
 }

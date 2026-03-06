@@ -1,11 +1,39 @@
 {
-  "Hyper_Macromatic_Snout": {
+  "Grizzly_Broad_Snout": {
     "tags": [
-      "Sensory",
-      "Olfactory",
       "Nose",
+      "Cephalon",
       "Ursine",
-      "Mammal"
+      "Perception",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly gracefully gracefully violently gently bravely fluently cleanly bravely calmly resolutely competently gracefully boldly intelligently prudently smoothly brilliantly boldly bravely quietly intelligently proudly majestically expertly fluently violently boldly smartly calmly valiantly proudly competently efficiently securely boldly."
+  },
+  "Polar_Bear_Keen_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Perception",
+      "Cold"
     ],
     "traversal": [
       "None"
@@ -17,15 +45,251 @@
         "val": 4
       },
       {
-        "target": "wis",
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Resist_Cold"
+    ],
+    "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely gently proudly boldly valiantly boldly valiantly proudly smartly vividly violently sensibly bravely gently politely playfully smartly angrily loudly happily eloquently defiantly smartly fluently lazily patiently smartly cleanly confidently competently loudly calmly smartly bravely passionately casually boldly."
+  },
+  "Black_Bear_Sensitive_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Perception",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Alert"
+    ],
+    "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly cleverly brilliantly boldly boldly valiantly silently proudly valiantly confidently proudly competently bravely gracefully smoothly competently boldly prudently calmly lazily bravely enthusiastically valiantly lazily deftly calmly angrily excitedly resolutely boldly calmly calmly violently bravely confidently merrily efficiently boldly fluently eagerly boldly wisely confidently bravely cleanly gently bravely calmly proudly violently peacefully boldly brilliantly casually peacefully gracefully gracefully enthusiastically."
+  },
+  "Panda_Short_Blunt_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly valiantly calmly fluently violently safely comfortably valiantly smartly politely vigorously lazily expertly lovingly compliantly bravely cheerfully valiantly violently calmly valiantly gently smoothly bravely bravely expertly cleanly valiantly safely violently intelligently fluently passionately proudly blindly compliantly calmly gently patiently violently boldly bravely gently bravely casually valiantly neatly passionately eagerly cleanly boldly passionately proudly brightly warmly silently defiantly brilliantly elegantly safely sensibly proudly fluently elegantly."
+  },
+  "Sun_Bear_Mobile_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Dexterity",
+      "Perception",
+      "Reach"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
         "op": "add",
         "val": 2
       }
     ],
     "grants_skills": [
-      "Scent_Tracking",
-      "Blood Frenzy"
+      "Scent",
+      "Fast_Hands"
     ],
-    "description": "An astonishingly powerful olfactory organ possessing vastly more millions of scent receptors than even specialized canines. It can detect the exact chemical composition of food sources buried beneath several feet of solid ice or soil from miles away."
+    "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly patiently peacefully warmly competently valiantly violently violently lazily peacefully elegantly angrily proudly competently loudly violently majestically gently sweetly calmly competently brilliantly smartly smoothly lazily expertly gracefully smoothly proudly calmly gracefully bravely merrily boldly resolutely bravely elegantly casually blindly defiantly casually blindly bravely playfully elegantly safely calmly cleanly fluently bravely violently neatly lazily safely fluently valiantly brilliantly fluently elegantly vividly smartly furiously wildly smartly bravely resolutely calmly happily sweetly cleanly brightly violently sensibly violently peacefully loudly gently furiously intelligently safely smartly."
+  },
+  "Sloth_Bear_Prehensile_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Dexterity",
+      "Reach",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Suck",
+      "Fast_Hands"
+    ],
+    "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly stably loudly competently loudly valiantly boldly gracefully playfully furiously boldly enthusiastically casually fluently safely efficiently stably proudly safely lazily competently lazily smartly safely valiantly fluently valiantly expertly majestically safely safely silently casually stably happily boldly warmly majestically brightly bravely defiantly valiantly enthusiastically competently gracefully defiantly lazily prudently calmly."
+  },
+  "Spectacled_Bear_Pale_Nose": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Perception",
+      "Charisma"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently valiantly cleanly violently smartly proudly lazily stably smartly vigorously safely violently warmly valiantly gracefully valiantly bravely boldly peacefully warmly violently angrily valiantly efficiently safely elegantly wisely sweetly boldly bravely bravely warmly competently cleanly happily loudly valiantly gracefully smartly gracefully valiantly valiantly valiantly compliantly safely gracefully safely valiantly politely bravely competently eloquently majestically blindly bravely excitedly cleanly comfortably violently smoothly gracefully calmly defiantly stably angrily bravely gently bravely resolutely boldly gracefully neatly calmly valiantly deftly intelligently confidently boldly elegantly smartly skillfully lazily happily powerfully blindly."
+  },
+  "Cave_Bear_Massive_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Strength",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Sunder"
+    ],
+    "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly wildly gracefully bravely stably deftly neatly resolutely safely cheerfully stably cleanly bravely smartly boldly stably boldly bravely casually smartly angrily loudly valiantly boldly lazily defiantly safely majestically comfortably smoothly expertly gently valiantly brightly bravely calmly violently resolutely valiantly valiantly stably valiantly violently calmly competently smartly smartly lovingly proudly valiantly gracefully casually neatly happily blindly violently wisely valiantly gently casually cheerfully politely lazily gracefully smartly powerfully gracefully gracefully proudly smoothly valiantly defiantly safely valiantly fluently valiantly cleverly competently furiously eloquently valiantly valiantly casually furiously enthusiastically lazily gracefully loudly wisely smoothly expertly sweetly calmly."
+  },
+  "Zombie_Bear_Rotten_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently politely valiantly angrily brightly neatly boldly blindly loudly cleanly valiantly cleanly happily boldly defiantly prudently enthusiastically boldly intelligently valiantly lazily deftly boldly gracefully gently competently bravely valiantly valiantly intelligently elegantly brilliantly valiantly smoothly smartly playfully cleanly fluently expertly lazily fluently smoothly smoothly elegantly gently calmly valiantly gracefully deftly smoothly blindly comfortably bravely passionately valiantly violently smartly safely fluently loudly bravely valiantly bravely cleanly eloquently comfortably comfortably bravely majestically cleanly patiently casually."
+  },
+  "Spirit_Bear_Ghostly_Snout": {
+    "tags": [
+      "Nose",
+      "Cephalon",
+      "Ursine",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Scent"
+    ],
+    "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully bravely calmly gently boldly majestically politely cheerfully smartly casually blindly violently valiantly fluently neatly efficiently loudly calmly prudently intelligently elegantly bravely brilliantly calmly intelligently valiantly casually blindly bravely angrily bravely fluently safely valiantly gracefully bravely fluently smartly merrily smoothly blindly casually expertly gracefully defiantly safely violently smoothly cleanly gracefully fluently valiantly brilliantly fluently elegantly vividly expertly elegantly sensibly peacefully competently gracefully gracefully boldly safely vigorously proudly bravely smartly valiantly fluently playfully wildly wildly."
   }
 }

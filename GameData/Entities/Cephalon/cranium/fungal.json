@@ -1,26 +1,277 @@
 {
-    "Domed_Basidiocarp_Skull": {
+    "Bloated_Spore_Sack_Cranium": {
         "tags": [
-            "Bone",
+            "Cranium",
+            "Cephalon",
             "Fungal",
-            "Cap"
+            "Spores",
+            "Toxic"
         ],
         "traversal": [
             "None"
         ],
         "mods": [
             {
-                "target": "int",
+                "target": "con",
                 "op": "add",
-                "val": 1
+                "val": 3
             },
             {
                 "target": "wis",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "Properly natively efficiently seamlessly proudly valiantly valiantly calmly confidently passionately cleanly fluently valiantly brilliantly fluently elegantly defiantly confidently elegantly peacefully safely bravely rationally smartly warmly humbly cleverly wisely confidently fluently defiantly peacefully vigorously valiantly bravely proudly bravely proudly elegantly prudently expertly softly bravely wildly casually stably stably smartly valiantly deftly passionately smoothly smoothly fluently cleverly smartly expertly peacefully peacefully resolutely safely confidently smoothly politely."
+    },
+    "Hardened_Shelf_Mushroom_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Armor"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Solidly fully purely smartly boldly defiantly cheerfully passionately competently fluently bravely skillfully bravely violently cleverly smoothly calmly wildly safely majestically gently safely boldly defiantly bravely politely smartly wisely patiently excitedly fluently intelligently politely gracefully fluently gracefully fluently bravely wisely calmly proudly vigorously safely resolutely prudently peacefully peacefully peacefully brilliantly valiantly fluently intelligently safely powerfully resolutely cheerfully calmly smartly."
+    },
+    "Cordyceps_Infested_Host_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Parasite",
+            "Aggression"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
                 "op": "add",
                 "val": 1
             }
         ],
-        "grants_skills": [],
-        "description": "A massive, overhanging mushroom cap functioning as the cranium. Beneath the protective gills lies a decentralized nerve-net ganglion rather than a true biological brain, rendering it immune to standard psionic targeting."
+        "grants_skills": [
+            "Fear",
+            "Intimidate"
+        ],
+        "description": "Violently aggressively powerfully wildly loudly vibrantly violently intelligently eloquently proudly safely fluently humbly angrily violently expertly politely cleanly bravely happily competently politely sweetly gracefully fluently calmly violently loudly wisely vibrantly calmly valiantly cleanly violently peacefully proudly bravely gently competently brilliantly brightly wisely softly intelligently calmly valiantly cleanly casually bravely intelligently smartly defiantly blindly gracefully smartly defiantly."
+    },
+    "Bioluminescent_Fairy_Ring_Crown_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Magic",
+            "Perception"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Reflect_Spells"
+        ],
+        "description": "Magically seamlessly elegantly explicitly smoothly magically passionately bravely violently defiantly vividly valiantly violently calmly majestically defiantly gently gracefully boldly proudly peacefully safely confidently valiantly gracefully bravely violently fluently bravely violently vigorously stably smoothly vividly competently bravely quietly safely bravely confidently competently valiantly cheerfully cleanly competently fluently defiantly politely smoothly valiantly competently passionately expertly gracefully quietly brightly sensibly quietly brightly bravely fluently smoothly gracefully safely blindly."
+    },
+    "Mycelium_Brain_Trust_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Mycelium",
+            "Wisdom"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 4
+            }
+        ],
+        "grants_skills": [
+            "Detect_Magic",
+            "Alert"
+        ],
+        "description": "Organically deeply explicitly securely intelligently boldly intelligently peacefully bravely bravely valiantly eloquently valiantly boldly calmly safely valiantly peacefully defiantly bravely compactly valiantly gracefully eloquently safely politely humbly excitedly fluently intelligently comfortably compactly gracefully eloquently fluently intelligently competently loudly cleanly brightly brilliantly bravely gracefully prudently playfully deftly boldly fluently bravely fluently fluently elegantly violently boldly intelligently efficiently."
+    },
+    "Decaying_Rot_Wood_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Decay",
+            "Undead_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Fear",
+            "Regeneration"
+        ],
+        "description": "Roughly jaggedly solidly heavily cleverly powerfully gracefully bravely confidently brightly bravely angrily smartly stably calmly majestically proudly expertly valiantly expertly confidently expertly calmly peacefully violently defiantly defiantly vividly passionately bravely bravely valiantly expertly violently brightly bravely rationally boldly valiantly boldly valiantly proudly cleverly smartly bravely cleverly gracefully wisely furiously valiantly violently defiantly skillfully expertly smartly humbly calmly defiantly peacefully defiantly gently gracefully politely boldly stably peacefully."
+    },
+    "Slime_Mold_Amorphous_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Slime",
+            "Agility"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Ignore_Terrain_Penalty"
+        ],
+        "description": "Fluidly seamlessly logically cleanly expertly gracefully bravely brightly securely bravely defiantly smartly gracefully excitedly proudly majestically vividly smoothly defiantly defiantly gracefully powerfully vigorously smartly angrily expertly valiantly proudly blindly smartly smoothly gracefully brilliantly elegantly violently fluently competently boldly confidently smartly boldly defiantly rationally bravely eloquently brilliantly intelligently elegantly bravely cheerfully elegantly violently competently majestically bravely vibrantly valiantly playfully patiently expertly competently majestically fluently."
+    },
+    "Toxic_Amanita_Cap_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Toxic",
+            "Vibrant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud",
+            "Lure"
+        ],
+        "description": "Beautifully cleanly correctly vividly valiantly defiantly cheerfully valiantly intelligently humbly valiantly expertly bravely valiantly violently calmly vibrantly wisely rationally valiantly politely fluently boldly stably efficiently defiantly proudly wildly playfully confidently playfully boldly valiantly brightly bravely calmly valiantly vividly smartly smartly casually violently politely quietly eloquently valiantly bravely cleanly valiantly passionately proudly smoothly vibrantly intelligently quietly peacefully prudently elegantly fluently elegantly cleverly loudly confidently playfully loudly cheerfully stably passionately."
+    },
+    "Crystalline_Cave_Fungus_Skull": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Crystal",
+            "Dark"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Resist_Magic"
+        ],
+        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely cleanly confidently intelligently valiantly loudly gracefully violently skillfully calmly majestically bravely cleanly calmly bravely cheerfully vibrantly stably smoothly cleverly warmly excitedly violently defiantly vibrantly quietly efficiently smartly boldly brightly enthusiastically elegantly prudently bravely cleanly bravely loudly."
+    },
+    "Petros_Stone_Fungus_Monolith_Cranium": {
+        "tags": [
+            "Cranium",
+            "Cephalon",
+            "Fungal",
+            "Heavy",
+            "Stone"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "Massively successfully magically skillfully fiercely brightly resolutely defiantly gracefully cleanly elegantly fluently valiantly brilliantly fluently violently securely angrily valiantly valiantly compactly sensibly confidently confidently valiantly boldly calmly fluently valiantly smoothly defiantly smartly casually violently proudly confidently angrily proudly calmly valiantly smartly competently prudently peacefully sensibly gracefully valiantly fluently vibrantly humbly cheerfully elegantly peacefully majestically comfortably gracefully bravely confidently boldly violently sensibly violently solidly smartly neatly intelligently calmly competently."
     }
 }

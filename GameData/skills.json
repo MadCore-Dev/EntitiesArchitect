@@ -4209,5 +4209,28 @@
     "combat_flags": [
       "Requires_LOS"
     ]
+  },
+  "Pheromone_Tracking": {
+    "description": "Utilizes hyper-sensitive chemoreceptors (e.g. plumose antennae) to detect trace volatile chemicals in the air. Allows the entity to track targets perfectly over miles of open terrain.",
+    "types": [
+      "Action",
+      "Enhancement"
+    ],
+    "range": "Self",
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "sense_bonus",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "combat_flags": [
+      "Ignores_Cover"
+    ]
   }
 }

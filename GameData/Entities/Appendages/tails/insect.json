@@ -1,1 +1,58 @@
-{}
+{
+    "Prehensile_Ovipositor_Stinger": {
+        "tags": [
+            "Tail",
+            "Stinger",
+            "Venom",
+            "Insect",
+            "Wasp_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Barbed Sting",
+            "Inject_Toxin"
+        ],
+        "description": "A highly modified ovipositor extending from the abdomen. Instead of laying eggs, it functions as a highly maneuverable, retractable hypodermic needle connected directly to an agonizing venom sac."
+    },
+    "Cerci_Sensory_Appendages": {
+        "tags": [
+            "Tail",
+            "Sensory",
+            "Insect",
+            "Roach_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "A pair of highly sensitive, antenna-like structures protruding from the rear of the abdomen. They detect the minutest shifts in air pressure from behind, granting near-precognitive reaction times against ambush."
+    }
+}

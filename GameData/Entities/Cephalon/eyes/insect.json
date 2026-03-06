@@ -1,19 +1,29 @@
 {
-  "Multi_Faceted_Eyes": {
-    "vision_type": "Motion_Sensitive",
+  "Ommatidiary_Compound_Eyes": {
     "tags": [
-      "Insect",
-      "Multi_Faceted",
-      "Fast_Response",
-      "Fly_Like"
+      "Sensory",
+      "Compound",
+      "Multi_Lens",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 4
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "Multi_Faceted_Eyes, a marvel of insect-inspired design, grants unmatched motion sensitivity and an astonishingly fast response rate, allowing its wearer to dart like a swift fly through even the most chaotic environments with eyes that seem to capture every fleeting moment."
+    "grants_skills": [
+      "Uncanny_Dodge"
+    ],
+    "description": "Massive, bulging eyes composed of thousands of individual hexagonal photoreceptor units (ommatidia). While they suffer from poor resolution and cannot focus on distant objects, their ability to detect the slightest flicker of motion is unparalleled."
   }
 }

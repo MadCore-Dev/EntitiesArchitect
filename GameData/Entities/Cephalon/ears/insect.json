@@ -1,19 +1,23 @@
 {
-  "Chemical_Vibration_Sensors": {
-    "hearing_type": "Chemical_Vibration",
+  "Tympanal_Abdominal_Organ": {
     "tags": [
-      "Insect",
-      "Feeler",
-      "Multi_Sensor",
-      "Ant_Like"
+      "Sensory",
+      "Membrane",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
         "val": 2
       }
     ],
-    "description": "The Chemical_Vibration_Sensors hum with a life-like pulse, their multi-faceted tendrils twitching to sense the subtle vibrations of insect life around them, akin to an ant's feelers in hyper-sensitivity mode."
+    "grants_skills": [
+      "Keen Hearing"
+    ],
+    "description": "A thin, incredibly sensitive tympanal membrane stretched tightly over an air sac. Strangely, it is not located on the head, but rather on the abdomen or forelegs, tuned explicitly to detect the high-frequency echolocation clicks of predators like bats."
   }
 }

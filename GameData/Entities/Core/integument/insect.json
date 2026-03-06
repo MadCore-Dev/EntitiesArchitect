@@ -1,26 +1,56 @@
 {
-  "Chitin": {
-    "resistances": [
-      "Piercing"
-    ],
-    "harvest_profile": {
-      "type": "Sawing",
-      "yield_id": "Chitin Plate",
-      "difficulty": 15
-    },
+  "Sclerotized_Exoskeleton_Plates": {
     "tags": [
-      "Insect",
-      "Arachnid",
-      "Crustacean",
-      "Beetle"
+      "Chitin",
+      "Hard",
+      "Sclerotin",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "natural_armor",
         "op": "add",
         "val": 3
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "Chitin, a rigid, translucent armor plating that encases countless insect and arachnid lifeforms, gleams under moonlight like an organic shield, offering formidable protection against piercing attacks."
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "A continuous, armor-like cuticle heavily infused with sclerotin proteins and coated in a waxy epicuticle. It provides excellent deflection against physical trauma and completely waterproofs the entity against extreme dehydration."
+  },
+  "Noxious_Hemolymph_Cuticle": {
+    "tags": [
+      "Chitin",
+      "Bleeding",
+      "Toxic",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "A relatively porous chitin shell harboring pressurized reservoirs of caustic, foul-tasting hemolymph. When the exoskeleton is breached by a predator's bite, it violently reflex-bleeds this noxious fluid directly into their mouth."
   }
 }

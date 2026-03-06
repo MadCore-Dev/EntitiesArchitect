@@ -1,48 +1,65 @@
 {
-  "Exoskeletal_Hexapod_Frame": {
-    "frame_type": [
-      "Hexapod"
-    ],
-    "meat_group": [
-      "Chitin",
-      "Protein"
-    ],
-    "skills": [
-      "Wall Climb",
-      "Exoskeleton",
-      "Hive Mind"
-    ],
-    "slots": [
-      "Head",
-      "Thorax",
-      "Abdomen",
-      "Legs_x6"
-    ],
+  "Tracheal_Tubule_Chassis": {
     "tags": [
-      "Insect",
-      "Arthropod",
-      "Beast",
       "Chitin",
       "Exoskeleton",
-      "Insect_Like"
+      "Segmented",
+      "Insect",
+      "Arthropod"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "con",
-        "op": "multiply",
-        "val": 0.8
-      },
-      {
-        "target": "natural_armor",
         "op": "add",
-        "val": 4
+        "val": 2
       },
       {
         "target": "size_index",
-        "op": "set",
-        "val": 3
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Exoskeletal Hexapod Frame, a marvel of insectile engineering, features chitin-reinforced plates and protein joints, granting it wall-climbing prowess and hive-mind coordination. Its sturdy hexapod legs and segmented thorax evoke both the resilience of arthropods and the precision of mechanical constructs."
+    "grants_skills": [],
+    "description": "A highly segmented, lightweight chitinous frame lacking true lungs. Instead, oxygen is delivered directly to muscle tissue via a network of spiracles and tracheal tubes. This allows for phenomenal stamina but severely limits maximum body size due to oxygen diffusion constraints."
+  },
+  "Myrmecoid_Petiole_Core": {
+    "tags": [
+      "Chitin",
+      "Exoskeleton",
+      "Ant_Like",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "An incredibly tough, three-part body plan where the thorax and abdomen are separated by a highly flexible, constricted node (petiole). Despite its minuscule size, its geometric structure allows it to bear weights exponentially heavier than itself."
   }
 }

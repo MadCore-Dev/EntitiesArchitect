@@ -1,26 +1,59 @@
 {
-  "Transparent_Veined_Wings": {
+  "Elytra_Armored_Forewings": {
+    "tags": [
+      "Wings",
+      "Armored",
+      "Shield",
+      "Insect",
+      "Beetle_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "The front pair of wings have completely hardened into thick, chitinous shields (elytra). While useless for generating lift, they form an impenetrable dome over the delicate hindwings and soft abdomen when folded closed."
+  },
+  "Membranous_Vibrating_Hindwings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Hover",
+      "Insect",
+      "Bee_Like"
+    ],
     "traversal": [
       "Fly",
       "Hover"
-    ],
-    "tags": [
-      "Insect",
-      "Transparent",
-      "Fast Beat",
-      "Fly_Like"
-    ],
-    "grants_skills": [
-      "Hover",
-      "Buzz"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 40
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "These translucent wings, adorned with delicate, iridescent veins, pulse with a mesmerizing rhythm that propels their bearer through the air with incredible speed, evoking the ethereal dance of an insect in flight."
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Translucent, highly veined membranous wings capable of beating hundreds of times per second. They allow for true multidirectional hovering but are incredibly fragile and easily torn by physical damage."
   }
 }

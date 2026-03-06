@@ -1,25 +1,66 @@
 {
-  "Serrated_Raptorial_Forelimbs": {
-    "traversal": [
-      "None"
-    ],
+  "Raptorial_Scythe_Forelegs": {
     "tags": [
+      "Arms",
+      "Claws",
+      "Grasping",
+      "Spined",
       "Insect",
-      "Serrated",
-      "Ambush",
       "Mantis_Like"
     ],
-    "grants_skills": [
-      "Grapple",
-      "Quick Strike"
+    "traversal": [
+      "Climb"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "dex",
         "op": "add",
-        "val": 0
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Serrated Raptorial Forelimbs are sharp, deadly appendages that gleam with an insectile sheen, poised for swift, silent ambushes. Each forelimb is a living weapon, capable of grappling foes and striking swiftly, embodying the lethal grace of a mantis in its prime."
+    "grants_skills": [
+      "Grapple",
+      "Snatch"
+    ],
+    "description": "Highly modified forelegs that fold back perfectly upon themselves like a jackknife. Lined with brutal, interlocking chitinous spikes, they fire forward at blinding speeds to impale and trap struggling prey in an inescapable spiked vise."
+  },
+  "Fossorial_Scrabbling_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Spades",
+      "Digging",
+      "Insect"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Dig"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "Short, heavily flattened forelegs that resemble ragged spades more than limbs. Empowered by immense thoracic musculature, they act as rapid-fire biological excavators to rip through dense soil in seconds."
   }
 }

@@ -1,37 +1,55 @@
 {
-  "Strong_Crushing_Mandibles": {
-    "consumes": [
-      "Chitin",
-      "Protein",
-      "Flora"
-    ],
+  "Mandibulate_Shearing_Maws": {
     "tags": [
-      "Insect",
       "Chitin",
-      "Strong",
-      "Beetle_Like"
+      "Maw",
+      "Jaws",
+      "Mandibles",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "subtract",
+        "val": 1
+      }
     ],
     "grants_skills": [
-      "Crush",
-      "Click_Hiss"
+      "Bite",
+      "Flesh_Tear"
     ],
-    "description": "The Strong_Crushing_Mandibles, gleaming with chitinous armor and beetle-like resilience, crackle with the promise of crushing strength as they snap shut, emitting a sharp click-hiss that stuns foes and crushes prey beneath their formidable jaws."
+    "description": "Massive, laterally-moving chitinous mandibles powered by huge adductor muscles taking up most of the head capsule. They operate like biological bolt-cutters, designed to shear through tough vegetation, bone, and foreign exoskeletons with equal ease."
   },
-  "Piercing_Drain_Proboscis": {
-    "consumes": [
-      "Red_Meat",
-      "White_Meat"
-    ],
+  "Haustellate_Piercing_Proboscis": {
     "tags": [
-      "Insect",
-      "Piercing",
-      "Parasite",
-      "Mosquito_Like"
+      "Chitin",
+      "Maw",
+      "Needle",
+      "Bloodsucker",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
     ],
     "grants_skills": [
-      "Drain",
-      "Buzz"
+      "Pierce",
+      "Inject_Toxin"
     ],
-    "description": "The Piercing Drain Proboscis, a fearsome appendage of an insectile parasite with mosquito-like features, is adorned with barbed tendrils that pierce flesh to leach nourishment and emit a hypnotic buzz."
+    "description": "A highly elongated, needle-like rostrum containing interlocking stylets. Instead of chewing, the entity pierces deep into host tissue, injecting salivary anticoagulants and digestive enzymes before sucking the liquefied contents back up."
   }
 }

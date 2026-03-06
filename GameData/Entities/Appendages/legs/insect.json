@@ -1,26 +1,62 @@
 {
-  "Chitinous_Hexapod_Legs": {
+  "Saltatorial_Catapult_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Jumping",
+      "Insect",
+      "Cricket_Like"
+    ],
     "traversal": [
       "Walk",
-      "Climb"
+      "Climb",
+      "Leap"
     ],
-    "tags": [
-      "Insect",
-      "Chitin",
-      "Sticky",
-      "Beetle_Like"
+    "mods": [
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "val": 20
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
     ],
     "grants_skills": [
-      "Wall Climb",
-      "Spider Climb"
+      "Leap"
+    ],
+    "description": "Massively hypertrophied hind legs storing terrifying levels of elastic potential energy within a localized pad of resilin. Upon release, the legs catapult the entity violently into the air with acceleration forces that would shatter vertebrate bones."
+  },
+  "Cursorial_Multi_Jointed_Limbs": {
+    "tags": [
+      "Legs",
+      "Speed",
+      "Spined",
+      "Insect",
+      "Roach_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Sprint"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 30
+        "val": 4
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Crafted from resilient chitin, these beetle-like hexapod legs are sticky and powerful, granting unparalleled speed and agility on both solid ground and vertical surfaces, as if imbued with the essence of industrious insects."
+    "grants_skills": [
+      "Dash",
+      "Spider_Climb"
+    ],
+    "description": "A set of long, spiky cursorial legs ending in microscopic tarsal claws (ungues) and adhesive pads (arolia). They facilitate mind-bending scuttling speeds across rough terrain and completely sheer surfaces without missing a beat."
   }
 }

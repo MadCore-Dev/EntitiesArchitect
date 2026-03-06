@@ -1,18 +1,26 @@
 {
-  "Hive_Ganglia": {
+  "Mandibulate_Head_Capsule": {
     "tags": [
-      "Insect",
-      "Arthropod",
-      "Hive_Mind",
-      "Insect_Like"
+      "Chitin",
+      "Hard",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "int",
-        "op": "set",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
         "val": 1
       }
     ],
-    "description": "The Hive_Ganglia buzzes with an eerie symphony of insectoid whispers, a pulsating network of arthropod neural tissue that hums with hive mind logic, binding countless tiny lives into one relentless swarm."
+    "grants_skills": [],
+    "description": "A heavily armored, fused cranial capsule designed exclusively to anchor massive mandibular muscles. Contains a highly distributed nervous system where cognitive function is partially decentralized into thoracic ganglia rather than a massive singular brain."
   }
 }

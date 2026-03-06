@@ -1,19 +1,30 @@
 {
-  "Pheromone_Receptors": {
-    "scent_range": "Pheromone",
+  "Plumose_Chemoreceptor_Antennae": {
     "tags": [
+      "Sensory",
+      "Olfactory",
+      "Antennae",
       "Insect",
-      "Chemical",
-      "Communicator",
-      "Ant_Like"
+      "Moth_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 4
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Pheromone Receptors extend an insect-like antenna, sensitively detecting chemical signals over a wide range, enhancing communication through scent trails that guide and inform fellow creatures with uncanny accuracy."
+    "grants_skills": [
+      "Pheromone_Tracking"
+    ],
+    "description": "Elaborate, feather-like antennae possessing millions of microscopic olfactory sensilla. They replace traditional noses and are capable of detecting a single molecule of specific pheromones from several miles away in total darkness."
   }
 }

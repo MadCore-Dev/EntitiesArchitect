@@ -1,1 +1,28 @@
-{}
+{
+    "Heliotropic_Spot_Ocelli": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Plant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "accuracy",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Primitive, pigment-cup eye spots (ocelli) embedded in the wood. They cannot form focused images like mammalian eyes but perfectly detect the exact direction and intensity of light sources, granting functional 360-degree blindsight."
+    }
+}

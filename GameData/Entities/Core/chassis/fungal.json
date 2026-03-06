@@ -1,46 +1,60 @@
 {
-  "Mycelial_Frame": {
-    "frame_type": [
-      "Stationary",
-      "Ambulatory"
-    ],
-    "meat_group": [
-      "Fungal"
-    ],
-    "skills": [
-      "Spore Cloud",
-      "Regeneration",
-      "No Pain"
-    ],
-    "slots": [
-      "Cap",
-      "Stalk",
-      "Roots_Mycelium"
-    ],
+  "Fibrous_Mycelial_Network": {
     "tags": [
-      "Fungus",
-      "Plant_Like",
-      "Flora",
-      "Spore",
-      "Mushroom_Like"
+      "Flesh",
+      "Fungal",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
     ],
     "mods": [
       {
         "target": "con",
-        "op": "multiply",
-        "val": 1.4
-      },
-      {
-        "target": "natural_armor",
         "op": "add",
-        "val": 0
+        "val": 3
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 3
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "hp",
+        "op": "add",
+        "val": 10
       }
     ],
-    "description": "The Mycelial Frame, a fungal marvel with roots that pulse like veins and a cap adorned with shimmering spores, exudes an aura of resilience and regrowth, embodying the very essence of life from decay. Its presence is both calming and unsettling, a living testament to nature's enduring strength."
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "Not a true skeleton, but a densely woven, semi-solid mass of microscopic hyphal threads forming a humanoid shape. It lacks any vital internal organs, making it horrifyingly resistant to piercing strikes that would instantly kill a mammal."
+  },
+  "Solid_Truffle_Core": {
+    "tags": [
+      "Flesh",
+      "Dense",
+      "Fungal"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "An extremely dense, underground fungal tuber functioning as an immovable anchor chassis. It is immensely heavy and bloated, rendering the entity nearly immobile but capable of shrugging off colossal kinetic impacts."
   }
 }

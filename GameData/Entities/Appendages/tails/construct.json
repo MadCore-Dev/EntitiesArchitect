@@ -1,1 +1,29 @@
-{}
+{
+    "Weighted_Chain_Flail": {
+        "tags": [
+            "Metal",
+            "Tail",
+            "Weapon",
+            "Construct"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip"
+        ],
+        "description": "A staggering length of heavy iron chain terminating in a massive spiked morningstar head, acting entirely as a fifth appendage. Controlled by magnetic runes, it sweeps violently across the battlefield to clear out swarms of infantry."
+    }
+}

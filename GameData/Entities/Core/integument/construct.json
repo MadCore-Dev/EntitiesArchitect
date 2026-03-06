@@ -1,1 +1,53 @@
-{}
+{
+    "Forged_Steel_Plating": {
+        "tags": [
+            "Metal",
+            "Armor",
+            "Construct"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 5
+            },
+            {
+                "target": "fire_resist",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Block"
+        ],
+        "description": "Thick slabs of tempered steel hammered into place over critical joints. Utterly impervious to minor slashing and piercing attacks, though entirely unyielding."
+    },
+    "Enchanted_Stone_Carapace": {
+        "tags": [
+            "Stone",
+            "Armor",
+            "Construct",
+            "Golem_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [],
+        "description": "Massive chunks of unhewn granite bound tightly together by crackling runic energy. Incredibly dense and completely devoid of pain receptors, making it the ultimate defensive ablative armor."
+    }
+}

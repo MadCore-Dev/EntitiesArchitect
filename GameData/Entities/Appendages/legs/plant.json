@@ -1,1 +1,30 @@
-{}
+{
+    "Uprooted_Taproots": {
+        "tags": [
+            "Legs",
+            "Roots",
+            "Burrowing",
+            "Plant"
+        ],
+        "traversal": [
+            "Walk",
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Resist_Knockback"
+        ],
+        "description": "A thick, centralized primary root system forcibly torn perfectly intact from the earth. By temporarily replanting these taproots, the entity can instantly heal itself by drawing raw water and minerals directly from the soil."
+    }
+}

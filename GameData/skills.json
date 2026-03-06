@@ -4300,5 +4300,49 @@
       "Requires_LOS",
       "Ignores_Cover"
     ]
+  },
+  "Poison_Cloud": {
+    "description": "The entity violently ruptures its spore caps or toxic glands, unleashing a billowing cloud of choking, necrotic gas in a wide radius that persists for several turns.",
+    "types": [
+      "Action",
+      "Area_Of_Effect",
+      "Damage"
+    ],
+    "range": "Area",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "expr": "2d6",
+        "damage_type": "Poison"
+      }
+    ],
+    "payloads": [
+      {
+        "id": "Poisoned",
+        "chance_per_tick": 0.8,
+        "duration_ticks": 3
+      }
+    ]
+  },
+  "Life_Drain": {
+    "description": "Using invasive mycelial tendrils or vampiric magic, the entity siphons the literal life force of a grappled target, healing itself for the exact amount of damage dealt.",
+    "types": [
+      "Action",
+      "Melee_Attack",
+      "Healing"
+    ],
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "expr": "1d8",
+        "damage_type": "Necrotic"
+      }
+    ],
+    "combat_flags": [
+      "Vampiric_Heal"
+    ]
   }
 }

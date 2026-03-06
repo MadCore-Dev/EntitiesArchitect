@@ -1,1 +1,26 @@
-{}
+{
+    "Knotted_Burl_Skull": {
+        "tags": [
+            "Wood",
+            "Burl",
+            "Plant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A massive, abnormally grown burl of wood acting as a cranium. The grain is wildly interlocked and twisted in every direction, making it virtually impossible to split with an axe or shatter with a hammer."
+    }
+}

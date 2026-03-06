@@ -1,1 +1,30 @@
-{}
+{
+    "Hydraulic_Piston_Arms": {
+        "tags": [
+            "Metal",
+            "Arms",
+            "Mechanical",
+            "Construct"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 4
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Body Slam"
+        ],
+        "description": "Massive, sluggish forelimbs driven entirely by high-pressure pneumatic or hydraulic pistons. While utterly incapable of fine manipulation, a single horizontal sweep can level stone pillars and shatter ribs instantly."
+    }
+}

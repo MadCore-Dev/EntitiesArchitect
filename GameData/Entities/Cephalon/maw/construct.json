@@ -1,1 +1,29 @@
-{}
+{
+    "Hinged_Steel_Jaw": {
+        "tags": [
+            "Metal",
+            "Maw",
+            "Construct",
+            "Crushing"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Crushing Jaw"
+        ],
+        "description": "A crude, unarticulated metal jaw functioning purely on a single mechanical hinge. It lacks teeth entirely, functioning exclusively as a colossal, slow-moving industrial vise to crush interlopers."
+    }
+}

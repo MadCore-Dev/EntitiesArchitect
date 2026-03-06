@@ -1,1 +1,55 @@
-{}
+{
+    "Toxic_Spore_Cap_Epidermis": {
+        "tags": [
+            "Skin",
+            "Toxic",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "poison_resist",
+                "op": "add",
+                "val": 5
+            }
+        ],
+        "grants_skills": [
+            "Poison_Cloud"
+        ],
+        "description": "An outer layer consisting of massive, deeply colored basidiospore-producing caps. Any physical blow to the entity causes these caps to violently rupture, billowing blinding, necrotic spores into the attacker's lungs."
+    },
+    "Bioluminescent_Slime_Sheath": {
+        "tags": [
+            "Slime",
+            "Glowing",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Light",
+            "Slippery"
+        ],
+        "description": "A thick, continuously oozing layer of phosphorescent fungal slime. It illuminates the pitch dark of the Underdark to attract prey, while causing slashing weapons to glance harmlessly off the entity's body."
+    }
+}

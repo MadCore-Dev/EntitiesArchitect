@@ -1,1 +1,23 @@
-{}
+{
+    "Vibration_Sensing_Hyphae": {
+        "tags": [
+            "Sensory",
+            "Fungal",
+            "Ears"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Densely packed microscopic filaments protruding from the sides of the head. Rather than hearing acoustic waves through air, they perfectly detect the minute seismic vibrations of footsteps echoing through the cavern floor."
+    }
+}

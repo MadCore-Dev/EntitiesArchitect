@@ -1,1 +1,30 @@
-{}
+{
+    "Rooting_Hyphae_Mass": {
+        "tags": [
+            "Tentacles",
+            "Rooting",
+            "Grapple",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Restrain"
+        ],
+        "description": "A gargantuan, writhing mass of thick fungal roots erupting from the entity's core. They autonomously lash out at anything stepping within fifteen feet, tightly binding victims and dragging them kicking and screaming into the digestive pores."
+    }
+}

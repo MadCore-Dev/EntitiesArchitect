@@ -1,45 +1,68 @@
 {
-  "Amorphous_Construct_Frame": {
-    "frame_type": [
-      "Amorphous",
-      "Construct"
-    ],
-    "meat_group": [
-      "Ethereal"
-    ],
-    "skills": [
-      "Elemental Resistance",
-      "Magic Immunity",
-      "Unstoppable"
-    ],
-    "slots": [
-      "Core",
-      "Appendages"
-    ],
+  "Articulated_Plate_Armor": {
     "tags": [
-      "Elemental",
-      "Magic",
+      "Metal",
+      "Armor",
       "Construct",
-      "Ethereal",
       "Golem_Like"
+    ],
+    "traversal": [
+      "Walk"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 1.5
+        "target": "str",
+        "op": "add",
+        "val": 4
       },
       {
-        "target": "natural_armor",
+        "target": "con",
         "op": "add",
         "val": 3
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 6
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
       }
     ],
-    "description": "The Amorphous_Construct_Frame pulses with ghostly energy, its form shifting and fluid like a living shadow. It exudes an aura of elemental defiance and magical resilience, making it a formidable guardian of ethereal realms."
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "An empty, hollow suit of towering heavy plate mail animated purely by binding magic. Utterly lacking internal biology, it relies entirely on the structural integrity of its riveted steel plates for defense and locomotion."
+  },
+  "Geared_Clockwork_Core": {
+    "tags": [
+      "Metal",
+      "Clockwork",
+      "Construct",
+      "Mechanical"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Dash",
+      "Acrobatics"
+    ],
+    "description": "A dizzyingly complex, incredibly delicate chassis composed entirely of spinning brass gears, tensioned mainsprings, and steam-driven escapements. It moves with eerie, mathematically perfect precision."
   }
 }

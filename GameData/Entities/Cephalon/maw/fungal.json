@@ -1,1 +1,24 @@
-{}
+{
+    "Digestive_Enzyme_Pores": {
+        "tags": [
+            "Maw",
+            "Acid",
+            "Pores",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Acid Breath"
+        ],
+        "description": "Lacking any form of teeth or true jaw, the lower half of the cephalon is completely porous. When grappling a target, it freely secretes horrific, ultra-concentrated chitinases and proteases to literally dissolve the victim alive into a nutrient slurry."
+    }
+}

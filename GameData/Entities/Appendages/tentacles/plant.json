@@ -1,26 +1,30 @@
 {
-  "Constricting_Vine_Tendrils": {
-    "traversal": [
-      "Climb"
-    ],
+  "Lashing_Brambles": {
     "tags": [
-      "Plant",
-      "Flora",
-      "Binding",
-      "Vine_Like"
+      "Tentacles",
+      "Thorns",
+      "Vines",
+      "Plant"
     ],
-    "grants_skills": [
-      "Grapple",
-      "Thorn Whip",
-      "Photosynthesis"
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "reach",
         "op": "add",
-        "val": 5
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Entwined in a kaleidoscope of vibrant greens, these Constricting Vine Tendrils unfurl with a life force that seems to pulse as they grasp and bind their prey. Their tendrils wrap like ancient serpents, granting those who wield them a swift climb and the power to ensnare foes with thorny embrace."
+    "grants_skills": [
+      "Grapple",
+      "Bleed_Procc"
+    ],
+    "description": "A restless, writhing mass of viciously barbed blackberry canes forming a defensive perimeter around the core. They blindly lash out at any thermal heat signatures that step too closely."
   }
 }

@@ -1,1 +1,29 @@
-{}
+{
+    "Venus_Flytrap_Jaws": {
+        "tags": [
+            "Maw",
+            "Carnivorous",
+            "Plant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swallow_Whole",
+            "Grapple"
+        ],
+        "description": "A massive, hinged cranial cavity lined with deadly inward-curving thorns rather than teeth. When fully clamped shut, the interior walls secrete highly concentrated biological acid to digest the struggling victim over several excruciating days."
+    }
+}

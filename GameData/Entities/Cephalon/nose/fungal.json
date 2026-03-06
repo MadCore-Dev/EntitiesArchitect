@@ -1,1 +1,28 @@
-{}
+{
+    "Airborne_Chemoreceptors": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "Micro-pores covering the entity's cranium that continuously sample the chemical makeup of the ambient air. They possess astonishing sensitivity to the specific volatile compounds released by decaying flesh, allowing flawless tracking of wounded prey."
+    }
+}

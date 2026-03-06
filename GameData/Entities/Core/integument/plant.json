@@ -1,24 +1,54 @@
 {
-  "Bark_Skin": {
-    "resistances": [
-      "Bludgeoning"
-    ],
-    "harvest_profile": {
-      "type": "Sawing",
-      "yield_id": "Bark",
-      "difficulty": 12
-    },
+  "Thick_Cork_Bark_Plating": {
     "tags": [
-      "Plant",
-      "Treant"
+      "Bark",
+      "Armor",
+      "Plant"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
         "target": "natural_armor",
         "op": "add",
         "val": 3
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "Bark_Skin: Thick, gnarled bark that feels like a second skin, offering surprising durability against blunt blows. Each slice reveals layers of ancient wisdom and resilience."
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Incredibly thick, heavily fissured layers of dead cork cells forming a phenomenally effective biological armor. Specially evolved to survive raging forest fires, it is remarkably resistant to both slashing blades and open flame."
+  },
+  "Photosynthetic_Leaf_Canopy": {
+    "tags": [
+      "Leaf",
+      "Solar",
+      "Plant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "hp",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "cold_resist",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Photosynthesis"
+    ],
+    "description": "A dense covering of broad, brilliant green leaves. While offering absolutely no physical protection, they constantly harvest ambient sunlight, allowing the entity to slowly regenerate health directly from solar radiation."
   }
 }

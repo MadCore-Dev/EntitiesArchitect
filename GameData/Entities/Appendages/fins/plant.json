@@ -1,1 +1,29 @@
-{}
+{
+    "Kelp_Frond_Paddles": {
+        "tags": [
+            "Fins",
+            "Kelp",
+            "Aquatic",
+            "Plant"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "Broad, incredibly tough lengths of flat aquatic kelp functioning flawlessly as biological oars. They grant shocking underwater agility for a botanical entity."
+    }
+}

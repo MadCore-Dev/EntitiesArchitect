@@ -1,1 +1,27 @@
-{}
+{
+    "Steam_Exhaust_Vents": {
+        "tags": [
+            "Metal",
+            "Vents",
+            "Construct",
+            "Mechanical"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A series of grated vents located where a nose would biologically reside. The entity possesses zero olfactory capability, instead using this orifice exclusively to aggressively vent superheated steam to prevent internal boiler explosion."
+    }
+}

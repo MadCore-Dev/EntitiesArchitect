@@ -1,1 +1,36 @@
-{}
+{
+    "Symbiotic_Mycelial_Tendrils": {
+        "tags": [
+            "Arms",
+            "Tendrils",
+            "Fungal",
+            "Grappling"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Life_Drain"
+        ],
+        "description": "Arms that are essentially massive, braided bundles of fungal hyphae. Instead of possessing hands or claws, the ends of the arms naturally unbraid into thousands of microscopic tendrils that instantly root deeply into a grappled victim's bloodstream."
+    }
+}

@@ -1,1 +1,55 @@
-{}
+{
+    "Continuous_Tread_Locomotion": {
+        "tags": [
+            "Metal",
+            "Treads",
+            "Mechanical",
+            "Construct"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 3
+            }
+        ],
+        "grants_skills": [
+            "Dash"
+        ],
+        "description": "Heavy, spiked iron caterpillar tracks driven by enormous toothed cogs. They reduce traversal speed to a loud, grinding crawl but provide absolute infallibility against being knocked prone or pushed back."
+    },
+    "Pillar_Strut_Legs": {
+        "tags": [
+            "Stone",
+            "Legs",
+            "Columnar",
+            "Construct",
+            "Golem_Like"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "Colossal columns of solid, unjointed granite that serve as the entity's legs. Moving requires dragging and lifting these massively heavy pillars with raw arcane force, heavily impeding agility."
+    }
+}

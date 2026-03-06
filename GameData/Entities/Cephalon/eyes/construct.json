@@ -1,1 +1,29 @@
-{}
+{
+    "Arcane_Crystal_Optics": {
+        "tags": [
+            "Gemstone",
+            "Sensory",
+            "Construct"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Target_Lock"
+        ],
+        "description": "Perfectly cut, glowing sapphires or rubies mounted in the orbital sockets. By refracting ambient magical energy, they provide flawless, unwavering sight unaffected by darkness or biological fatigue."
+    }
+}

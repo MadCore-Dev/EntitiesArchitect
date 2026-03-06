@@ -1,1 +1,26 @@
-{}
+{
+    "Domed_Basidiocarp_Skull": {
+        "tags": [
+            "Bone",
+            "Fungal",
+            "Cap"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A massive, overhanging mushroom cap functioning as the cranium. Beneath the protective gills lies a decentralized nerve-net ganglion rather than a true biological brain, rendering it immune to standard psionic targeting."
+    }
+}

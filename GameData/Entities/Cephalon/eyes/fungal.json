@@ -1,1 +1,28 @@
-{}
+{
+    "Photoreceptive_Mold_Patches": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Fungal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Blindsight"
+        ],
+        "description": "Lacking true eyes entirely, the entity possesses dark patches of extremely dense photosensitive mold. It can only vaguely distinguish between stark light and pitch shadow, relying instead entirely on tremorsense and chemical trails."
+    }
+}

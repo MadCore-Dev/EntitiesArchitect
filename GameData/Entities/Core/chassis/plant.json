@@ -1,45 +1,69 @@
 {
-  "Botanical_Frame": {
-    "frame_type": [
-      "Stationary"
-    ],
-    "meat_group": [
-      "Flora"
-    ],
-    "skills": [
-      "Photosynthesis",
-      "Rooted",
-      "Flammable"
-    ],
-    "slots": [
-      "Canopy",
-      "Trunk",
-      "Roots"
-    ],
+  "Heartwood_Timber_Core": {
     "tags": [
+      "Wood",
       "Plant",
-      "Flora",
-      "Wooden",
-      "Stationary",
-      "Tree_Like"
+      "Treant_Like",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 2
+        "target": "str",
+        "op": "add",
+        "val": 3
       },
       {
-        "target": "natural_armor",
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "An immensely heavy, solid chassis composed of ancient, ultra-dense heartwood. Utterly lacking a distinct skeletal structure, the entire core acts as both support and muscle, providing terrifying durability but abysmal maneuverability."
+  },
+  "Pliant_Vine_Matrix": {
+    "tags": [
+      "Wood",
+      "Vine",
+      "Flexible",
+      "Plant"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "dex",
         "op": "add",
         "val": 2
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 6
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
       }
     ],
-    "description": "The Botanical Frame stands as a towering sentinel of flora, its gnarled wooden structure rooted deep in the earth, swaying gently with a life force imbued by the sun's embrace. Its canopy teems with verdant life, while hidden roots delve into the soil, drawing nutrients and vitality to feed its mighty presence."
+    "grants_skills": [
+      "Squeeze",
+      "Camouflage"
+    ],
+    "description": "A body composed entirely of thousands of overlapping, prehensile vines woven into a humanoid shape. It can instantly dramatically flatten itself or slip entirely through incredibly narrow grates by briefly un-weaving its core structure."
   }
 }

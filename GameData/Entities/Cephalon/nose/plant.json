@@ -1,1 +1,27 @@
-{}
+{
+    "Gas_Exchange_Stomata": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Pores",
+            "Plant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Millions of microscopic pores covering the entity's entire body used for respiring carbon dioxide. While useless for detecting physical scents, they instantly detect the presence of toxic gases or sudden changes in atmospheric pressure."
+    }
+}

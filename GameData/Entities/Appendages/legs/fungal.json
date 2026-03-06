@@ -1,1 +1,65 @@
-{}
+{
+    "Stalk_Like_Stipes": {
+        "tags": [
+            "Legs",
+            "Columnar",
+            "Fungal"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Thick, utterly inflexible stalks (stipes) serving as locomotive support. They move incredibly slowly with a heavy, plodding gate, completely incapable of sprinting, leaping, or any acrobatic maneuver."
+    },
+    "Creeping_Rhizomorphs": {
+        "tags": [
+            "Legs",
+            "Creeping",
+            "Fungal"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Burrow"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Spider_Climb",
+            "Ambusher"
+        ],
+        "description": "Rather than true legs, the lower body breaks apart into a sprawling mass of thick, root-like rhizomorphs. These continuously crawl and re-root along the ground, allowing the entity to silently slither up sheer walls or across cavern ceilings."
+    }
+}

@@ -1,1 +1,30 @@
-{}
+{
+    "Thorny_Briar_Scourge": {
+        "tags": [
+            "Tail",
+            "Thorns",
+            "Weapon",
+            "Plant"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip",
+            "Bleed_Procc"
+        ],
+        "description": "A steeply tapering, incredibly flexible tail utterly covered in lethally sharp, recurved rose-style thorns. A single swipe functions as a natural flail, capable of stripping flesh entirely off the bone."
+    }
+}

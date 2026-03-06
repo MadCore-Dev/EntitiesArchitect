@@ -1,1 +1,23 @@
-{}
+{
+    "Acoustic_Resonator_Vents": {
+        "tags": [
+            "Metal",
+            "Sensory",
+            "Construct"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "Finely tuned brass cones and vibrating metallic tines mounted directly onto the surface of the chassis. They detect soundwaves via pure sympathetic mechanical resonance rather than biological eardrums."
+    }
+}

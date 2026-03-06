@@ -1,1 +1,63 @@
-{}
+{
+    "Prehensile_Vine_Whips": {
+        "tags": [
+            "Arms",
+            "Vines",
+            "Whip",
+            "Plant"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Pull"
+        ],
+        "description": "Arms completely composed of tightly braided, violently thrashing jungle lianas. Capable of lashing out incredible distances to wrap around targets or swing across massive chasms."
+    },
+    "Oak_Branch_Cudgels": {
+        "tags": [
+            "Arms",
+            "Wood",
+            "Blunt",
+            "Plant"
+        ],
+        "traversal": [
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Body Slam"
+        ],
+        "description": "Solid, unbending lengths of incredibly dense hardwood acting as monolithic striking implements. They possess zero grasping ability but can reliably shatter plate armor upon direct impact."
+    }
+}

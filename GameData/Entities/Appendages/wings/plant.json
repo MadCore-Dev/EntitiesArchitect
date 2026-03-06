@@ -1,1 +1,29 @@
-{}
+{
+    "Maple_Seed_Samara_Gliders": {
+        "tags": [
+            "Wings",
+            "Gliding",
+            "Seeds",
+            "Plant"
+        ],
+        "traversal": [
+            "Glide"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Aerobatics"
+        ],
+        "description": "Gargantuan, papery wing structures perfectly mimicking the shape of maple seed samaras. By catching strong updrafts, the entity can initiate a hypnotically slow, violently spinning, perfectly controlled descent from any height entirely without injury."
+    }
+}

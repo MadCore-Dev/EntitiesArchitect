@@ -1,1 +1,21 @@
-{}
+{
+    "Sonic_Foliage_Resonance": {
+        "tags": [
+            "Sensory",
+            "Plant",
+            "Leaves"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "The entity possesses no ears whatsoever. Instead, it measures the exact micro-vibrations of soundwaves rustling against its thousands of leaves, successfully triangulating the position of anything moving through the air."
+    }
+}

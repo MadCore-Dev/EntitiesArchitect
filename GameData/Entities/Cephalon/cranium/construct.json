@@ -1,1 +1,50 @@
-{}
+{
+    "Vented_Helm_Skull": {
+        "tags": [
+            "Metal",
+            "Construct",
+            "Helm"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A heavy, featureless greathelm serving as the entity's cranium. Lacking biological brains, its internal cavity is merely a high-pressure valve chamber for venting excess arcane or steam energy."
+    },
+    "Faceless_Monolith": {
+        "tags": [
+            "Stone",
+            "Construct",
+            "Golem_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A completely blank, uncarved slab of solid stone acting as the head. Lacking a mouth, eyes, or ears, it projects an aura of terrifying, inhuman inevitability."
+    }
+}

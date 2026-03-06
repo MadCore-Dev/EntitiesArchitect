@@ -1,1 +1,31 @@
-{}
+{
+    "Bunodont_Omnivorous_Maw": {
+        "tags": [
+            "Teeth",
+            "Maw",
+            "Omnivore",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Crushing Jaw"
+        ],
+        "description": "A highly versatile jaw structure featuring large, flat bunodont molars designed for intensely grinding tough plant matter, combined with massive anterior canines capable of instantly crushing vertebrae."
+    }
+}

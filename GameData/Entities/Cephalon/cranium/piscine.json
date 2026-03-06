@@ -1,18 +1,34 @@
 {
-  "Aquatic_Simplistic_Brain": {
+  "Chondrichthyan_Cartilage_Skull": {
     "tags": [
-      "Fish",
-      "Aquatic",
-      "Simple",
-      "Fish_Like"
+      "Cartilage",
+      "Flexible",
+      "Piscine",
+      "Shark_Like"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
         "val": 1
       }
     ],
-    "description": "The Aquatic_Simplistic_Brain hums with a primitive, almost larval intelligence, its neural pathways barely more than simple reflexes guiding it through the currents. Its essence is pure instinct, a streamlined consciousness adapted to the aquatic realm's fluid ballet."
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "A skull entirely lacking true bone, formed instead from rigid, calcified cartilage. It is significantly lighter than a bony skull and capable of flexing slightly under extreme pressure without shattering."
   }
 }

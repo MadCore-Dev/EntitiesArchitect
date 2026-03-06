@@ -1,1 +1,29 @@
-{}
+{
+    "Spherical_Aquatic_Lenses": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Piscine",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision"
+        ],
+        "description": "Eyes featuring perfectly spherical lenses with a much higher refractive index than terrestrial eyes to compensate for the density of water. They provide a wide, fisheye field of view but lack the ability to change shape to focus on varying distances."
+    }
+}

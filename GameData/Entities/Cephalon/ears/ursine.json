@@ -1,1 +1,24 @@
-{}
+{
+    "Rounded_Thermoregulatory_Pinnae": {
+        "tags": [
+            "Sensory",
+            "Ears",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "Small, heavily furred, rounded ears set broadly on the sides of the head. Their minimal surface area prevents frostbite and heat loss in extreme environments, while still providing excellent directional hearing."
+    }
+}

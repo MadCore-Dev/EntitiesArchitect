@@ -1,1 +1,30 @@
-{}
+{
+    "Olfactory_Rosette_Capsules": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Piscine",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking",
+            "Blood Frenzy"
+        ],
+        "description": "Blind-ended nasal sacs filled with highly folded olfactory rosettes. Water flows continuously through them as the entity swims, allowing it to detect a single drop of dissolved blood from literally miles away in the open ocean."
+    }
+}

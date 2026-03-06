@@ -1,46 +1,43 @@
 {
-  "Robust_Quadruped_Frame": {
-    "frame_type": [
-      "Quadruped"
-    ],
-    "meat_group": [
-      "Red_Meat"
-    ],
-    "skills": [
-      "Durability",
-      "Maul",
-      "Scent"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs"
-    ],
+  "Massive_Plantigrade_Brawler": {
     "tags": [
-      "Mammal",
-      "Ursine",
-      "Beast",
-      "Fur",
+      "Flesh",
       "Heavy",
-      "Bear_Like"
+      "Ursine",
+      "Bear_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Swim"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 1.5
+        "target": "str",
+        "op": "add",
+        "val": 3
       },
       {
-        "target": "natural_armor",
+        "target": "con",
         "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
         "val": 1
       },
       {
         "target": "size_index",
-        "op": "set",
-        "val": 6
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Robust_Quadruped_Frame exudes raw strength and primal ferocity, its thick fur and heavy build hinting at a fierce ursine beast. This durable frame is imbued with an innate ability to scent danger from miles away and unleash devastating mauls with each powerful swipe of its massive limbs."
+    "grants_skills": [
+      "Dash",
+      "Squeeze"
+    ],
+    "description": "An incredibly massive, heavily muscled frame built around a robust, inflexible spine and massive scapulae. Walking completely flat-footed (plantigrade) grants immense stability and terrifying leverage for wrestling prey to the ground."
   }
 }

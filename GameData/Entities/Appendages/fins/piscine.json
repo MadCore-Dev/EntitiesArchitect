@@ -1,25 +1,56 @@
 {
-  "Ray_Finned_Appendages": {
+  "Ray_Finned_Pectorals": {
+    "tags": [
+      "Fins",
+      "Steering",
+      "Piscine",
+      "Teleost"
+    ],
     "traversal": [
       "Swim"
     ],
-    "tags": [
-      "Fish",
-      "Scale",
-      "Common",
-      "Fish_Like"
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
     ],
     "grants_skills": [
-      "Dart",
-      "Schooling"
+      "Braking"
+    ],
+    "description": "Flexible webs of skin supported by bony spines (lepidotrichia). Unlike rigid shark fins, they can be precisely folded, rippled, and articulated to provide unparalleled low-speed maneuverability, reversing, and dead-stops."
+  },
+  "Spined_Dorsal_Stabilizer": {
+    "tags": [
+      "Fins",
+      "Spines",
+      "Defense",
+      "Piscine"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "natural_armor",
         "op": "add",
-        "val": 40
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Ray-finned appendages, sleek and scaled, propel you with grace through the water, granting swift darting movements and harmonious schooling alongside kin."
+    "grants_skills": [
+      "Inject_Toxin"
+    ],
+    "description": "A towering, rigid dorsal fin designed to prevent the entity from completely rolling over during high-speed turns. Its leading edges are lined with hollow, venom-injecting spines as a ultimate deterrent against attacks from above."
   }
 }

@@ -1,1 +1,24 @@
-{}
+{
+    "Binocular_Foraging_Eyes": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision"
+        ],
+        "description": "Relatively small, forward-facing eyes providing excellent binocular depth perception for foraging and hunting. While lacking the extreme nocturnal adaptations of felines, they see clearly in color to distinguish ripe berries from poisonous ones."
+    }
+}

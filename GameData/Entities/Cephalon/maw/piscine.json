@@ -1,1 +1,53 @@
-{}
+{
+    "Protrusile_Teleost_Jaw": {
+        "tags": [
+            "Maw",
+            "Vacuum",
+            "Piscine",
+            "Fish_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swallow_Whole"
+        ],
+        "description": "A highly specialized set of jaw bones (premaxilla and maxilla) that can be explosively shot forward, creating a sudden vacuum. This literally sucks prey into the suddenly expanded mouth cavity before they can react."
+    },
+    "Revolving_Serrated_Dentition": {
+        "tags": [
+            "Teeth",
+            "Maw",
+            "Serrated",
+            "Piscine",
+            "Shark_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Flesh_Tear"
+        ],
+        "description": "A terrifying jawline featuring multiple conveyor-belt rows of razor-sharp, triangular teeth that are loosely embedded in the gums, rather than the jawbone. If a tooth is torn out while shearing flesh, a new one instantly rotates forward to replace it."
+    }
+}

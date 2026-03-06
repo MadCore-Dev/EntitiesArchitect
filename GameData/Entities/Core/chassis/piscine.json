@@ -1,45 +1,63 @@
 {
-  "Streamlined_Aquatic_Frame": {
-    "frame_type": [
-      "Streamlined"
-    ],
-    "meat_group": [
-      "Piscine"
-    ],
-    "skills": [
-      "Swim",
-      "Gills"
-    ],
-    "slots": [
-      "Head",
-      "Fins",
-      "Tail"
-    ],
+  "Fusiform_Pelagic_Chassis": {
     "tags": [
-      "Fish",
-      "Aquatic",
-      "Beast",
-      "Scales",
-      "Swimmer",
-      "Fish_Like"
+      "Scale",
+      "Streamlined",
+      "Piscine",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 0.8
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
       },
       {
-        "target": "natural_armor",
+        "target": "dex",
         "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "A perfectly streamlined, torpedo-shaped body plan tapering at both ends to utterly minimize hydrodynamic drag. The muscular arrangement is primarily myomeres, allowing for explosive bursts of aquatic speed but rendering terrestrial movement impossible."
+  },
+  "Dorsoventrally_Flattened_Core": {
+    "tags": [
+      "Scale",
+      "Flat",
+      "Piscine",
+      "Ray_Like",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
         "val": 1
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 4
+        "target": "con",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Crafted with sleek, hydrodynamic lines, the Streamlined_Aquatic_Frame exudes raw aquatic power, its piscine essence evident in the shimmering scales that glint like polished metal. This beastly contrivance is a marvel of streamlined engineering, designed for unmatched speed and agility beneath the waves."
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "An extremely flattened, pancake-like skeletal structure perfectly adapted for life on the sea floor. It allows the entity to completely bury itself beneath a thin layer of sand and ambush unsuspecting prey from below."
   }
 }

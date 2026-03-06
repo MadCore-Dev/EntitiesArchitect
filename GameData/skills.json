@@ -4261,5 +4261,20 @@
         "duration_ticks": 1
       }
     ]
+  },
+  "Slippery": {
+    "description": "Due to a thick secretion of aquatic mucus or oils, the entity is phenomenally difficult to hold onto. Attempts to grapple or restrain it suffer massive penalties.",
+    "types": [
+      "Passive",
+      "Defense"
+    ],
+    "range": "Self",
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      }
+    ]
   }
 }

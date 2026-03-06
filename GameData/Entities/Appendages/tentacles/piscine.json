@@ -1,1 +1,30 @@
-{}
+{
+    "Chemosensory_Barbels": {
+        "tags": [
+            "Tentacles",
+            "Sensory",
+            "Whiskers",
+            "Piscine",
+            "Catfish_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense"
+        ],
+        "description": "Long, fleshy, whisker-like sensory tentacles surrounding the mouth. Densely packed with taste buds and tactile mechanoreceptors, they act like 'tasting fingers', allowing the entity to scour the pitch-black riverbed for buried food."
+    }
+}

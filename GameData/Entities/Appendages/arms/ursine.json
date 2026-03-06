@@ -1,1 +1,67 @@
-{}
+{
+    "Massive_Grappling_Forelimbs": {
+        "tags": [
+            "Arms",
+            "Heavy",
+            "Grapple",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "reach",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Body Slam"
+        ],
+        "description": "Incredibly thick, fur-covered forelimbs possessing devastating inward-hooking leverage. Instead of slashing, they are designed to catch and hold thrashing megafauna in an inescapable, bone-snapping embrace."
+    },
+    "Trenchant_Excavator_Claws": {
+        "tags": [
+            "Arms",
+            "Claws",
+            "Digging",
+            "Ursine"
+        ],
+        "traversal": [
+            "Climb",
+            "Dig"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow",
+            "Slash"
+        ],
+        "description": "Non-retractable claws measuring several inches in length, driven by massively hypertrophied shoulder hump musculature. They operate as indestructible pickaxes, casually gouging through solid bedrock and ripping apart massive rotten logs to find grubs."
+    }
+}

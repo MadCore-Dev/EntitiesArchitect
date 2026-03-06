@@ -1,1 +1,27 @@
-{}
+{
+    "Vestigial_Stub_Tail": {
+        "tags": [
+            "Tail",
+            "Vestigial",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A steeply reduced, tiny nub of a tail hidden completely beneath dense fur. Because it lacks aerodynamic or cursorial balance requirements, the tail has nearly evolved completely away to prevent frostbite."
+    }
+}

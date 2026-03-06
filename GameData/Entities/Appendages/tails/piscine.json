@@ -1,1 +1,58 @@
-{}
+{
+    "Homocercal_Thrusting_Tail": {
+        "tags": [
+            "Tail",
+            "Fin",
+            "Swimming",
+            "Piscine",
+            "Teleost"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Swim_Dash"
+        ],
+        "description": "A vertically symmetrical caudal fin attached to the very end of the vertebral column. It acts as the primary, highly efficient propeller for constant, high-speed open-water cruising."
+    },
+    "Heterocercal_Shark_Tail": {
+        "tags": [
+            "Tail",
+            "Fin",
+            "Power",
+            "Piscine",
+            "Shark_Like"
+        ],
+        "traversal": [
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tail_Whip"
+        ],
+        "description": "An asymmetrical caudal fin where the upper lobe is significantly larger and contains the end of the vertebral column. This design intentionally generates downward thrust, forcing the entity's heavy, cartilaginous nose upward to prevent sinking."
+    }
+}

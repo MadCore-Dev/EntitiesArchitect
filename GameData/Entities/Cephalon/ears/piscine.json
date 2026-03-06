@@ -1,1 +1,30 @@
-{}
+{
+    "Lateral_Line_System": {
+        "tags": [
+            "Sensory",
+            "Vibration",
+            "Piscine",
+            "Aquatic"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Tremorsense",
+            "Uncanny_Dodge"
+        ],
+        "description": "A system of sense organs found in aquatic vertebrates, running down the flanks of the body. They detect microscopic pressure gradients and water displacement, allowing the entity to 'feel' the exact movements of nearby swimming targets irrespective of vision."
+    }
+}

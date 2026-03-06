@@ -1,19 +1,27 @@
 {
-  "Forager_Predator_Brain": {
+  "Broad_Robust_Cranium": {
     "tags": [
-      "Mammal",
+      "Bone",
+      "Heavy",
       "Ursine",
-      "Instinctual",
-      "Omnivore",
-      "Bear_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
-        "val": 2
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Forager_Predator_Brain, a pulsating cluster of neural tissues with an Ursine core, hums with instinctual omnivorous energy, its bear-like essence a primal force of nature and nourishment."
+    "grants_skills": [],
+    "description": "A very wide, extraordinarily heavy skull built to withstand immense blunt-force trauma. It features incredibly wide zygomatic arches (cheekbones) to accommodate the absolutely massive temporalis muscles required for bone-crushing bites."
   }
 }

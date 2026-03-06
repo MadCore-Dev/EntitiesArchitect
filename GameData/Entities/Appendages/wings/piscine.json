@@ -1,1 +1,32 @@
-{}
+{
+    "Pectoral_Gliding_Fins": {
+        "tags": [
+            "Wings",
+            "Fins",
+            "Gliding",
+            "Piscine",
+            "Flying_Fish"
+        ],
+        "traversal": [
+            "Glide",
+            "Fly"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Leap",
+            "Aerobatics"
+        ],
+        "description": "Massively hypertrophied pectoral fins acting as rigid airfoils. By launching itself from the water at extreme speeds, the entity can lock these fins outward and glide over the surface for hundreds of yards to escape deep-water predators."
+    }
+}

@@ -1,1 +1,32 @@
-{}
+{
+    "Pillar_Plantigrade_Hindlegs": {
+        "tags": [
+            "Legs",
+            "Columnar",
+            "Heavy",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Swim"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Dash"
+        ],
+        "description": "Stout, pillar-like hind legs that perfectly support massive vertical weight. The flat-footed stance allows the entity to easily rear up on two legs for extended periods to intimidate rivals or reach high forage."
+    }
+}

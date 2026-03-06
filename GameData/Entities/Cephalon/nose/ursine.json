@@ -1,19 +1,31 @@
 {
-  "Long_Range_Scent_Organ": {
-    "scent_range": "Extreme",
+  "Hyper_Macromatic_Snout": {
     "tags": [
+      "Sensory",
+      "Olfactory",
+      "Nose",
       "Ursine",
-      "Forager",
-      "Long_Distance",
-      "Bear_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 6
+        "val": 4
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Long_Range_Scent_Organ is a remarkable extension of olfactory prowess, amplifying its wearer's sense of smell to detect scents from miles away with uncanny precision. This intricate device, inspired by nature\u2019s most powerful foragers, bears a striking resemblance to the legendary bear, granting those who wield it an unparalleled ability to track and locate their prey or gather resources from afar."
+    "grants_skills": [
+      "Scent_Tracking",
+      "Blood Frenzy"
+    ],
+    "description": "An astonishingly powerful olfactory organ possessing vastly more millions of scent receptors than even specialized canines. It can detect the exact chemical composition of food sources buried beneath several feet of solid ice or soil from miles away."
   }
 }

@@ -1,1 +1,55 @@
-{}
+{
+    "Placoid_Denticle_Armor": {
+        "tags": [
+            "Scale",
+            "Micro_Teeth",
+            "Rough",
+            "Piscine",
+            "Shark_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A hide completely covered in microscopic, tooth-like dermal denticles rather than standard scales. Ribbed with longitudinal grooves, it channels water perfectly to eliminate turbulence, while acting as agonizing natural sandpaper to anything brushing against it."
+    },
+    "Mucous_Cycloid_Scales": {
+        "tags": [
+            "Scale",
+            "Slimy",
+            "Piscine",
+            "Fish_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Slippery"
+        ],
+        "description": "Smooth, overlapping cycloid scales coated in a thick, continuously secreted layer of glycoproteins (mucus). It acts as a primary immune defense against aquatic parasites and makes the entity nearly impossible to grapple firmly."
+    }
+}

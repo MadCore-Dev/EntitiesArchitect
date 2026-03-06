@@ -1,1 +1,27 @@
-{}
+{
+    "Dense_Insulating_Pelage": {
+        "tags": [
+            "Fur",
+            "Insulating",
+            "Ursine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A spectacularly thick, two-layered coat consisting of an oily, water-repellent outer layer over a dense, wooly undercoat. It provides near-absolute immunity to freezing temperatures and is thick enough to tangle the fangs of most predators."
+    }
+}

@@ -1,18 +1,60 @@
 {
-  "Grazing_Prey_Brain": {
+  "Horned_Frontal_Skull": {
     "tags": [
-      "Mammal",
+      "Bone",
+      "Horns",
+      "Weapon",
       "Ungulate",
-      "Prey",
-      "Deer_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
         "val": 1
       }
     ],
-    "description": "The Grazing_Prey_Brain pulses with the gentle throb of a deer's heart, its neural pathways humming with the instincts of fear and flight, ready to flee at the slightest disturbance."
+    "grants_skills": [
+      "Pierce"
+    ],
+    "description": "A heavy, reinforced cranium sporting massive permanent keratin horns growing over a vascularized bone core. The skull's internal architecture is highly honeycombed to absorb the horrific shock of full-speed cranial impacts against rivals."
+  },
+  "Elongated_Herbivore_Cranium": {
+    "tags": [
+      "Bone",
+      "Long",
+      "Equine_Like",
+      "Ungulate"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "An incredibly elongated facial profile designed to extend the teeth as far forward as possible. This places the mouth deeply into tall grass for grazing securely while keeping the high-mounted eyes stationed like watchtowers."
   }
 }

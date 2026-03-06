@@ -1,1 +1,27 @@
-{}
+{
+    "Tassel_Fly_Swat_Tail": {
+        "tags": [
+            "Tail",
+            "Tassel",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A long, thin tail terminating in a thick, coarse brush of hair. Designed specifically to constantly whip and scour the flanks and hindquarters, aggressively dislodging blood-sucking parasites and biting flies that could transmit disease."
+    }
+}

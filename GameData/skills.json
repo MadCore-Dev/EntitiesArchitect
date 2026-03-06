@@ -4276,5 +4276,29 @@
         "expr": "5"
       }
     ]
+  },
+  "Complex_Problem_Solving": {
+    "description": "Utilizing a massively expanded neocortex, the entity can dynamically analyze complex environments, rapidly identify weaknesses in enemy formations or structures, and devise multi-step tactical solutions on the fly.",
+    "types": [
+      "Action",
+      "Enhancement"
+    ],
+    "range": "Self",
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "combat_flags": [
+      "Requires_LOS",
+      "Ignores_Cover"
+    ]
   }
 }

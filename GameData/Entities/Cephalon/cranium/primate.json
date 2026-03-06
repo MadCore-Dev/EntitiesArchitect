@@ -1,1 +1,51 @@
-{}
+{
+    "Expanded_Neocortex_Skull": {
+        "tags": [
+            "Bone",
+            "Large_Brain",
+            "Primate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "int",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Tool Use",
+            "Complex_Problem_Solving"
+        ],
+        "description": "A highly bulbous, domed cranium evolved explicitly to house an explosively enlarged neocortex. It marks the pinnacle of biological intelligence, trading jaw and neck strength for the capacity to reason, invent, and deceive."
+    },
+    "Sagittal_Gorilla_Crest": {
+        "tags": [
+            "Bone",
+            "Heavy",
+            "Primate",
+            "Ape_Like",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A heavily sloping cranium anchored by a massive bone ridge (sagittal crest) on the top of the skull. This provides the attachment surface area needed for gargantuan jaw muscles capable of cracking iron-hard bamboo stems."
+    }
+}

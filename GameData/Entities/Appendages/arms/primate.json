@@ -1,1 +1,37 @@
-{}
+{
+    "Opposable_Power_Grip_Arms": {
+        "tags": [
+            "Arms",
+            "Hands",
+            "Prehensile",
+            "Primate",
+            "Mammal"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Grapple",
+            "Tool Use"
+        ],
+        "description": "Long, incredibly flexible arms terminating in five-fingered hands bearing flat nails rather than claws. Features a fully opposable polex (thumb) that grants unprecedented capability for both fine manipulation and bone-breaking power grips."
+    }
+}

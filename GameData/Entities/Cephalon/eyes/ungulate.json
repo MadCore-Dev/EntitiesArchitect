@@ -1,1 +1,34 @@
-{}
+{
+    "Lateral_Monocular_Eyes": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "accuracy",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Uncanny_Dodge"
+        ],
+        "description": "Large, rectangular-pupiled eyes positioned entirely on the sides of the head. This sacrifices binocular depth perception in front to grant a staggering, nearly 360-degree panoramic field of view to instantly detect stalking predators."
+    }
+}

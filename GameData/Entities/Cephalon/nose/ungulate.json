@@ -1,1 +1,30 @@
-{}
+{
+    "Moist_Olfactory_Rhinarium": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Nose",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "wis",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Scent_Tracking"
+        ],
+        "description": "A large, perpetually moist, often bumpy nose pad (rhinarium). Highly integrated with the upper lip, it provides excellent tactile feedback while grazing and reliably detects the scent of predators or water sources on the wind."
+    }
+}

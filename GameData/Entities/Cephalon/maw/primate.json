@@ -1,1 +1,30 @@
-{}
+{
+    "Generalist_Omnivore_Maw": {
+        "tags": [
+            "Teeth",
+            "Maw",
+            "Omnivore",
+            "Primate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite"
+        ],
+        "description": "A highly generalized jaw completely lacking hyper-specialization. It features flat, crushing molars for grinding fibrous plant matter alongside reasonably sharp incisors and canines for occasional meat eating and display."
+    }
+}

@@ -1,1 +1,27 @@
-{}
+{
+    "Reduced_Olfactory_Bulb": {
+        "tags": [
+            "Sensory",
+            "Olfactory",
+            "Primate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "int",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A significantly shortened nasal cavity and reduced olfactory bulb. Primate evolution overwhelmingly selected for stereoscopic vision and complex neocortical processing, heavily depreciating the reliance on smell for navigation and hunting."
+    }
+}

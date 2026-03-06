@@ -1,1 +1,29 @@
-{}
+{
+    "Trichromatic_Stereoscopic_Eyes": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Primate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Sight"
+        ],
+        "description": "Perfectly forward-facing eyes featuring three types of cone cells. They grant incredibly acute, full-color 3D vision essential for judging the exact distance of distant branches before leaping, and identifying perfectly ripe fruit."
+    }
+}

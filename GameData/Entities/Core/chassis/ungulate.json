@@ -1,45 +1,77 @@
 {
-  "Hooved_Quadruped_Frame": {
-    "frame_type": [
-      "Quadruped"
-    ],
-    "meat_group": [
-      "Red_Meat"
-    ],
-    "skills": [
-      "Endurance",
-      "Trample"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs",
-      "Tail"
-    ],
+  "Quadrupedal_Barrel_Chassis": {
     "tags": [
-      "Mammal",
+      "Flesh",
+      "Heavy",
       "Ungulate",
-      "Beast",
-      "Hooved",
-      "Horse_Like"
+      "Bovine_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 1.2
+        "target": "str",
+        "op": "add",
+        "val": 2
       },
       {
-        "target": "natural_armor",
+        "target": "con",
         "op": "add",
-        "val": 0
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
       },
       {
         "target": "size_index",
-        "op": "set",
-        "val": 6
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Hooved Quadruped Frame exudes raw power and resilience, its horse-like gait a testament to enduring strength. Durable, mammalian hooves echo through the landscape as it charges forward with a thunderous trample."
+    "grants_skills": [
+      "Body Slam"
+    ],
+    "description": "An immensely heavily built quadrupedal frame featuring a gigantic, barrel-shaped ribcage. It is specifically evolved to house truly massive multi-chambered fermentation stomachs required to digest cellulose-heavy grasses while granting unstoppable charging momentum."
+  },
+  "Cursorial_Slender_Core": {
+    "tags": [
+      "Flesh",
+      "Lightweight",
+      "Ungulate",
+      "Equine_Like",
+      "Deer_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Dash",
+      "Leap"
+    ],
+    "description": "A highly elongated, laterally compressed frame built explicitly for breathtaking, sustained running speeds. The spine acts as a high-tension bow during full gallops, trading raw mass for sheer kinetic evasion from pursuit predators."
   }
 }

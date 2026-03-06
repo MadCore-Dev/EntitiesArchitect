@@ -1,24 +1,22 @@
 {
-  "Wool": {
-    "resistances": [
-      "Cold"
-    ],
-    "harvest_profile": {
-      "type": "Shearing",
-      "yield_id": "Wool",
-      "difficulty": 5
-    },
+  "Short_Insulating_Pelt": {
     "tags": [
+      "Fur",
+      "Short",
       "Ungulate",
-      "Ovine"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "natural_armor",
+        "target": "cold_resist",
         "op": "add",
         "val": 1
       }
     ],
-    "description": "Soft as a whisper, yet resilient to frigid winds, this wool comes from a sturdy ovine with thick fur, providing natural armor and warmth in harsh climates."
+    "grants_skills": [],
+    "description": "A stiff, relatively short-haired coat that actively sheds water and prevents the devastating buildup of parasites like ticks. It insulates remarkably well while running at high speeds across open plains without causing lethal overheating."
   }
 }

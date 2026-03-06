@@ -1,19 +1,27 @@
 {
-  "Standard_External_Ears": {
-    "hearing_type": "Standard",
+  "Forward_Facing_Pinnae": {
     "tags": [
-      "Humanoid",
+      "Sensory",
+      "Ears",
       "Primate",
-      "Fixed",
-      "Human_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 0
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Standard External Ears, a pair of human-like primate ears that protrude from the head, enhancing auditory perception without mechanical augmentation."
+    "grants_skills": [],
+    "description": "Relatively immobile external ears positioned tightly against the side of the head. While lacking the radar-like rotation of canines or felines, they are perfectly tuned to hear the specific frequencies of complex vocalizations and language."
   }
 }

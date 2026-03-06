@@ -1,26 +1,31 @@
 {
-  "Ungulate_Hooved_Legs": {
+  "Cursorial_Hooved_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Hooves",
+      "Ungulate",
+      "Mammal"
+    ],
     "traversal": [
       "Walk",
-      "Gallop"
-    ],
-    "tags": [
-      "Ungulate",
-      "Horse",
-      "Deer",
-      "Horse_Like"
-    ],
-    "grants_skills": [
-      "Endurance",
-      "Trample"
+      "Sprint",
+      "Leap"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 55
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "Ungulate_Hooved_Legs: Fleet hooves bound with the grace of a deer and power of a horse, granting unmatched endurance and the might to trample foes."
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "Incredibly long, deeply tendon-driven hind legs. The ankle is situated extremely high off the ground, causing the entity to run perpetually on the very tips of its hardened ungual phalanges (hooves), maximizing stride length."
   }
 }

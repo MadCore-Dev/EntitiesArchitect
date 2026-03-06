@@ -1,26 +1,57 @@
 {
-  "Flexible_Prehensile_Tail": {
-    "traversal": [
-      "Climb",
-      "Hang"
-    ],
+  "Prehensile_Fifth_Limb_Tail": {
     "tags": [
+      "Tail",
+      "Prehensile",
       "Primate",
-      "Useful",
-      "Flexible",
-      "Monkey_Like"
+      "Monkey_Like",
+      "Mammal"
     ],
-    "grants_skills": [
-      "Grip",
-      "Third Hand"
+    "traversal": [
+      "Climb"
     ],
     "mods": [
       {
-        "target": "speed_bonus",
+        "target": "dex",
         "op": "add",
-        "val": 0
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Flexible Prehensile Tail, a versatile extension of a monkey-like being, swings with the grace of a jungle acrobat, its lithe form granting enhanced grip and agility as it nimbly clings to branches and darts through the foliage."
+    "grants_skills": [
+      "Grapple",
+      "Spider_Climb"
+    ],
+    "description": "An incredibly long, muscular tail possessing a patch of bare, highly sensitive friction pad on the underside. It acts flawlessly as a fifth limb, capable of supporting the entity's entire body weight while suspended upside down."
+  },
+  "Ape_Vestigial_Coccyx": {
+    "tags": [
+      "Tail",
+      "None",
+      "Primate",
+      "Ape_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Entirely tail-less. The caudal vertebrae have completely fused internally into a vestigial coccyx beneath the pelvis. This sacrifice of arboreal balance significantly increases the stability required for upright, bipedal sitting and walking."
   }
 }

@@ -1,1 +1,29 @@
-{}
+{
+    "Hyper_Mobile_Funnel_Pinnae": {
+        "tags": [
+            "Sensory",
+            "Ears",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing"
+        ],
+        "description": "Massive, highly articulate trumpet-shaped ears. Even while the head is completely lowered during grazing, the ears independently swivel wildly upon their pivot points to rapidly triangulate the snap of distant twigs."
+    }
+}

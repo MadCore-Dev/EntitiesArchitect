@@ -1,1 +1,54 @@
-{}
+{
+    "Sparse_Sweat_Gland_Dermis": {
+        "tags": [
+            "Skin",
+            "Bare",
+            "Primate",
+            "Human_Like",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cold_resist",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "Relatively bare skin possessing an evolutionary hyper-abundance of eccrine sweat glands. By completely sacrificing the insulation of thick fur, the entity unlocks staggering, unparalleled endurance by continuously evaporative cooling while running."
+    },
+    "Dense_Primate_Fur": {
+        "tags": [
+            "Fur",
+            "Thick",
+            "Primate",
+            "Gorilla_Like",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A thick, coarse coat of dark hair providing excellent protection against tropical rain, insect bites, and minor abrasions while moving through dense jungle undergrowth."
+    }
+}

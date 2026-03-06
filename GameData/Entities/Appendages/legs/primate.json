@@ -1,1 +1,68 @@
-{}
+{
+    "Bipedal_Plantigrade_Legs": {
+        "tags": [
+            "Legs",
+            "Bipedal",
+            "Primate",
+            "Human_Like",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint",
+            "Climb"
+        ],
+        "mods": [
+            {
+                "target": "con",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "str",
+                "op": "subtract",
+                "val": 1
+            },
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Dash"
+        ],
+        "description": "Long, straight hind limbs locked firmly beneath the pelvis. The foot has lost all grasping ability, instead forming a rigid, energy-efficient stiff-arched platform that excels at endurance running but prevents arboreal climbing."
+    },
+    "Arboreal_Grasping_Hindlimbs": {
+        "tags": [
+            "Legs",
+            "Prehensile",
+            "Primate",
+            "Ape_Like",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Climb",
+            "Leap"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics",
+            "Spider_Climb"
+        ],
+        "description": "Short, immensely muscular legs possessing hands on the feet. Featuring a fully opposable hallux (big toe), they function as a second set of grasping arms, granting absolute, secure mastery over the three-dimensional jungle canopy."
+    }
+}

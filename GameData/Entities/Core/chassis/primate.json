@@ -1,45 +1,67 @@
 {
-  "Versatile_Biped_Frame": {
-    "frame_type": [
-      "Bipedal"
-    ],
-    "meat_group": [
-      "Red_Meat"
-    ],
-    "skills": [
-      "Tool Use",
-      "Social",
-      "Throw"
-    ],
-    "slots": [
-      "Head",
-      "Arms",
-      "Legs"
-    ],
+  "Arboreal_Brachiating_Frame": {
     "tags": [
-      "Mammal",
+      "Flesh",
       "Primate",
-      "Humanoid",
-      "Sentient_Capable",
-      "Human_Like"
+      "Ape_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Spider_Climb"
+    ],
+    "description": "A highly specialized skeletal structure featuring an incredibly mobile shoulder joint (ball-and-socket) and a wide, shallow ribcage. Designed specifically for brachiation: swinging from branch to branch using only the forelimbs."
+  },
+  "Semi_Erect_Hominid_Core": {
+    "tags": [
+      "Flesh",
+      "Bipedal",
+      "Primate",
+      "Human_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Climb"
     ],
     "mods": [
       {
         "target": "con",
-        "op": "multiply",
-        "val": 1
-      },
-      {
-        "target": "natural_armor",
         "op": "add",
-        "val": 0
+        "val": 2
       },
       {
         "target": "size_index",
-        "op": "set",
-        "val": 4
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Versatile Biped Frame, a sentient mammalian chassis with primate-like features, exudes raw potential and adaptability. Its human-like structure allows for versatile tool use and social interactions, making it a formidable yet empathetic companion in any endeavor."
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "An upright, bipedal frame featuring a distinctly curved (S-shaped) spine to absorb the shock of permanent two-legged walking. It frees the forelimbs entirely from locomotion duties, fundamentally revolutionizing tool use."
   }
 }

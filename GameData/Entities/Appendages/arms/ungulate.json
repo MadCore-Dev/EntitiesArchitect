@@ -1,1 +1,31 @@
-{}
+{
+    "Hooved_Forelimbs": {
+        "tags": [
+            "Arms",
+            "Hooves",
+            "Ungulate",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Sprint"
+        ],
+        "mods": [
+            {
+                "target": "speed_bonus",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 2
+            }
+        ],
+        "grants_skills": [
+            "Dash",
+            "Body Slam"
+        ],
+        "description": "Forelimbs completely locked into an upright stance, ending in thick, keratinous hooves rather than toes or claws. Absolutely zero capacity for grasping or fine manipulation, functioning purely as high-efficiency running struts."
+    }
+}

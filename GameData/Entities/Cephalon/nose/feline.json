@@ -1,19 +1,29 @@
 {
-  "Sensitive_Predator_Nose": {
-    "scent_range": "Hunter",
+  "Jacobson_Flehmen_Rhinarium": {
     "tags": [
+      "Sensory",
+      "Olfactory",
       "Feline",
-      "Sensitive",
-      "Pink",
-      "Cat_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 3
+        "val": 1
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "This pink, feline-like device amplifies a Hunter's senses, granting them an extraordinary ability to detect subtle scents with unparalleled sensitivity. Its cat-inspired design and soft, delicate hues enhance its mystical allure, making it both a powerful tool and a charming accessory for any stealthy adventurer."
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "A sensitive, naked, moist rhinarium connected to a highly functioning vomeronasal organ. By curling back the lips (the Flehmen response), the entity actively draws heavy pheromones and scents directly into the roof of the mouth for chemical analysis."
   }
 }

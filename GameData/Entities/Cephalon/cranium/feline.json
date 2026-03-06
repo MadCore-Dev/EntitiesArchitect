@@ -1,18 +1,27 @@
 {
-  "Ambush_Predator_Brain": {
+  "Short_Rostral_Cranium": {
     "tags": [
-      "Mammal",
+      "Bone",
+      "Short",
       "Feline",
-      "Instinctual",
-      "Cat_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
-        "val": 2
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The sleek, cat-like Ambush Predator Brain thrums with primal instincts, its keen senses and feline grace ready to pounce on unsuspecting prey. Its neural pathways are hardwired for agility and stealth, embodying the raw power of nature's apex predator."
+    "grants_skills": [],
+    "description": "A highly shortened, compact skull housing a relatively large braincase. The reduced snout significantly increases forward binocular vision overlap and dramatically amplifies bite force leverage at the canines."
   }
 }

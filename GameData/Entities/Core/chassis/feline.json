@@ -1,47 +1,68 @@
 {
-  "Agile_Quadruped_Frame": {
-    "frame_type": [
-      "Quadruped"
-    ],
-    "meat_group": [
-      "Red_Meat"
-    ],
-    "skills": [
-      "Stealth",
-      "Pounce",
-      "Climb"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs",
-      "Tail"
-    ],
+  "Flexible_Digitigrade_Chassis": {
     "tags": [
-      "Mammal",
+      "Flesh",
+      "Flexible",
       "Feline",
-      "Beast",
-      "Fur",
-      "Agile",
-      "Cat_Like"
+      "Cat_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Leap",
+      "Stealth"
     ],
     "mods": [
       {
-        "target": "con",
-        "op": "multiply",
-        "val": 1
+        "target": "agility",
+        "op": "add",
+        "val": 3
       },
       {
-        "target": "natural_armor",
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "An incredibly supple, lightly built skeletal frame characterized by a free-floating clavicle. It allows the entity to squeeze through incredibly narrow gaps and dynamically reorient its body perfectly mid-air to always land on its feet."
+  },
+  "Muscular_Panthera_Core": {
+    "tags": [
+      "Flesh",
+      "Muscle",
+      "Feline",
+      "Lion_Like",
+      "Mammal"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "str",
         "op": "add",
         "val": 2
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 4
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
       }
     ],
-    "description": "The Agile Quadruped Frame embodies the fierce grace of a jungle cat, its sleek fur and agile limbs making it a silent hunter on the prowl. This beastly creation is both predator and prey, ready to pounce at a moment's notice."
+    "grants_skills": [
+      "Pounce"
+    ],
+    "description": "A heavier, massively muscled feline frame. Sacrificing some of the extreme squeezing flexibility of smaller cats, it focuses raw power into its forequarters to drag down and suffocate prey significantly larger than itself."
   }
 }

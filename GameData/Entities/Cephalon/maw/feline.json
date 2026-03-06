@@ -1,1 +1,31 @@
-{}
+{
+    "Short_Fanged_Suffocation_Maw": {
+        "tags": [
+            "Teeth",
+            "Maw",
+            "Puncture",
+            "Feline",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Bite",
+            "Throat_Clamp"
+        ],
+        "description": "A very short, incredibly powerful jaw lined with massive conical canines. Instead of tearing chunks of flesh, it is perfectly evolved to clamp down with crushing pressure on a prey's trachea or cervical vertebrae, instantly halting their escape."
+    }
+}

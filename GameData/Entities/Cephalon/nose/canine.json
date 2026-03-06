@@ -1,19 +1,30 @@
 {
-  "Tracking_Scent_Organ": {
-    "scent_range": "Tracking",
+  "Macromatic_Turbinate_Nose": {
     "tags": [
+      "Sensory",
+      "Olfactory",
+      "Nose",
       "Canine",
-      "Wet",
-      "Keen",
-      "Bloodhound_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "sense_bonus",
+        "target": "perception",
         "op": "add",
-        "val": 5
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "The Tracking_Scent_Organ is a wet, canine-like appendage with keen bloodhound sensitivity, extending its scent range by 5 units. Its moist surface glimmers under light, enhancing its ability to detect even faint traces."
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "A highly elongated nasal cavity packed with intricately folded, labyrinthine turbinate bones. This maximizes the surface area of the olfactory epithelium, allowing the entity to isolate incredibly faint, days-old scent trails mixed within overwhelming background noise."
   }
 }

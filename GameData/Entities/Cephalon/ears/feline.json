@@ -1,1 +1,31 @@
-{}
+{
+    "Articulating_Pinnae": {
+        "tags": [
+            "Sensory",
+            "Ears",
+            "Articulating",
+            "Feline",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing",
+            "Directional Tracking"
+        ],
+        "description": "Large, deeply cupped external ears (pinnae) controlled by dozens of independent muscles. They act like biological radar dishes, swiveling up to 180 degrees to precisely locate the high-frequency rustling of hidden prey."
+    }
+}

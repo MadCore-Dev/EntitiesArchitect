@@ -1,35 +1,32 @@
 {
-  "Fur": {
-    "resistances": [
-      "Cold"
-    ],
-    "harvest_profile": {
-      "type": "Skinning",
-      "yield_id": "Fur",
-      "difficulty": 8
-    },
+  "Insulating_Double_Coat": {
     "tags": [
+      "Fur",
+      "Insulating",
       "Canine",
-      "Feline",
-      "Ursine",
-      "Mustelid",
-      "Rodent",
-      "Lagomorph",
-      "Bat",
-      "Primate",
-      "Marsupial",
-      "Hyena",
-      "Vulpine",
-      "Lupine",
-      "Ungulate"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "val": 1
+      },
       {
         "target": "natural_armor",
         "op": "add",
         "val": 1
       }
     ],
-    "description": "Soft, resilient Fur blankets creatures of all sorts, from sleek felines to sturdy bears, offering warmth and a touch of mystery with each stroke against the skin. Its natural armor adds an extra layer of protection against the chill."
+    "grants_skills": [],
+    "description": "A dense, waterproof outer layer of coarse guard hairs overlaying an incredibly thick, downy undercoat. It provides phenomenal thermal regulation in sub-arctic conditions and turns aside minor slashing damage with sheer volume of hair."
   }
 }

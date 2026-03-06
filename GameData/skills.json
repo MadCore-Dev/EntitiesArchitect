@@ -4232,5 +4232,34 @@
     "combat_flags": [
       "Ignores_Cover"
     ]
+  },
+  "Throat_Clamp": {
+    "description": "The entity locks its short, massive jaws directly onto the target's trachea. While grappling, the target slowly suffocates, unable to scream or breathe, while the entity waits for them to expire.",
+    "types": [
+      "Action",
+      "Melee_Attack",
+      "Grapple"
+    ],
+    "range": "Melee",
+    "mods": [
+      {
+        "target": "hp",
+        "op": "subtract",
+        "expr": "1d6",
+        "damage_type": "Asphyxiation"
+      }
+    ],
+    "payloads": [
+      {
+        "id": "Grappled",
+        "chance_per_tick": 0.9,
+        "duration_ticks": 2
+      },
+      {
+        "id": "Silenced",
+        "chance_per_tick": 1.0,
+        "duration_ticks": 1
+      }
+    ]
   }
 }

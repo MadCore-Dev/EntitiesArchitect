@@ -1,1 +1,29 @@
-{}
+{
+    "Elongated_Prehensile_Balance_Tail": {
+        "tags": [
+            "Tail",
+            "Balance",
+            "Feline",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "evasion",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Acrobatics"
+        ],
+        "description": "A very long, thick, muscular tail used primarily as a dynamic biological counterweight. It acts as an active, constantly adjusting rudder, granting the entity unparalleled maneuvering capabilities when turning sharply at top speeds or navigating narrow treacherous branches."
+    }
+}

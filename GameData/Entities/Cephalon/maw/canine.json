@@ -1,21 +1,58 @@
 {
-  "Carnivorous_Fanged_Maw": {
-    "consumes": [
-      "Red_Meat",
-      "White_Meat",
-      "Piscine"
-    ],
+  "Shearing_Carnassial_Maw": {
     "tags": [
-      "Carnivore",
       "Teeth",
+      "Maw",
       "Canine",
-      "Feline",
-      "Wolf_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "subtract",
+        "val": 1
+      }
     ],
     "grants_skills": [
       "Bite",
-      "Bark_Roar"
+      "Flesh_Tear"
     ],
-    "description": "The Carnivorous Fanged Maw, a fearsome amalgamation of canine and feline traits with a wolf-like presence, gleams with razor-sharp teeth ready to rend flesh. Its roar echoes through the night, an ominous growl that stirs primal instincts in all who hear it."
+    "description": "An elongated jaw featuring specialized, scissor-like premolar Carnassial teeth in the back of the mouth. They are perfectly adapted to sheer through tough hide and meat after the front canines have secured a firm grip on the fleeing prey."
+  },
+  "Bone_Crushing_Molars": {
+    "tags": [
+      "Teeth",
+      "Maw",
+      "Crushing",
+      "Canine",
+      "Hyena_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Crushing Jaw"
+    ],
+    "description": "A steeply domed jawline armed with immensely robust, conical premolars. Rather than merely shearing flesh, these teeth are explicitly evolved to splinter and pulverize the thickest femurs of megafauna to extract the nutrient-rich marrow within."
   }
 }

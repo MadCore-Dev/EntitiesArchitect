@@ -1,1 +1,30 @@
-{}
+{
+    "Erect_Directional_Pinnae": {
+        "tags": [
+            "Sensory",
+            "Ears",
+            "Canine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "initiative",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Keen Hearing",
+            "Directional Tracking"
+        ],
+        "description": "Large, upright triangular ears functioning as highly mobile acoustic funnels. Driven by nearly two dozen individual muscles, they constantly pivot to isolate and track the faintest sounds of moving prey across vast distances."
+    }
+}

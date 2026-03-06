@@ -1,1 +1,28 @@
-{}
+{
+    "Brush_Counterbalance_Tail": {
+        "tags": [
+            "Tail",
+            "Brush",
+            "Communication",
+            "Canine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [],
+        "description": "A thickly furred, moderately long tail. While it provides minor aerodynamic counterbalancing during high-speed cornering, its primary evolutionary function is serving as a highly visible semaphore for complex, silent pack-hunting coordination."
+    }
+}

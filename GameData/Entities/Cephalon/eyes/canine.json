@@ -1,1 +1,29 @@
-{}
+{
+    "Dichromatic_Motion_Eyes": {
+        "tags": [
+            "Sensory",
+            "Eyes",
+            "Canine",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision"
+        ],
+        "description": "Forward-facing, dichromatic eyes possessing a high density of rods relative to cones. While color perception is limited, they are phenomenally adapted to tracking rapid lateral movement in low-light, crepuscular conditions."
+    }
+}

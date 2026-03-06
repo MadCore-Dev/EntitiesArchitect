@@ -1,1 +1,31 @@
-{}
+{
+    "Retractable_Sheathed_Forepaws": {
+        "tags": [
+            "Arms",
+            "Claws",
+            "Feline",
+            "Mammal"
+        ],
+        "traversal": [
+            "Climb",
+            "Walk"
+        ],
+        "mods": [
+            {
+                "target": "dex",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "agility",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Slash",
+            "Grapple"
+        ],
+        "description": "Powerfully muscled forelimbs ending in padded paws equipped with razor-sharp, fully retractable claws. Because the claws are housed in protective sheaths when not in use, they remain incredibly keen and do not click loudly on stone."
+    }
+}

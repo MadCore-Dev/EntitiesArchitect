@@ -1,27 +1,33 @@
 {
-  "Agile_Climbing_Legs": {
+  "Digitigrade_Pouncing_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Pouncing",
+      "Feline",
+      "Mammal"
+    ],
     "traversal": [
       "Walk",
-      "Climb"
-    ],
-    "tags": [
-      "Feline",
-      "Cat",
-      "Paws",
-      "Cat_Like"
-    ],
-    "grants_skills": [
-      "Stealth",
-      "Agility",
-      "Soft Step"
+      "Sprint",
+      "Leap",
+      "Stealth"
     ],
     "mods": [
       {
+        "target": "jump_distance",
+        "op": "add",
+        "val": 10
+      },
+      {
         "target": "speed_bonus",
         "op": "add",
-        "val": 45
+        "val": 3
       }
     ],
-    "description": "The Agile_Climbing_Legs extend like a cat's lithe paws, granting silent steps and nimble climbs. Each stride is a soft padding of pads, whiskers twitching as it deftly ascends or hides in shadows."
+    "grants_skills": [
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "Elongated, massive digitigrade hind limbs acting as incredibly powerful, heavily bundled biological springs. Perfectly adapted for delivering sudden, explosive bursts of speed to close the short distance from cover to prey instantly."
   }
 }

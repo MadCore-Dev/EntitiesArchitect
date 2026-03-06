@@ -1,45 +1,69 @@
 {
-  "Cursorial_Quadruped_Frame": {
-    "frame_type": [
-      "Quadruped"
-    ],
-    "meat_group": [
-      "Red_Meat"
-    ],
-    "skills": [
-      "Sprint",
-      "Pack Tactics"
-    ],
-    "slots": [
-      "Head",
-      "Fore_Limbs",
-      "Hind_Limbs",
-      "Tail"
-    ],
+  "Deep_Chest_Cursorial_Chassis": {
     "tags": [
-      "Mammal",
+      "Flesh",
       "Canine",
-      "Beast",
-      "Fur",
-      "Wolf_Like"
+      "Mammal",
+      "Stamina"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
     ],
     "mods": [
       {
         "target": "con",
-        "op": "multiply",
-        "val": 1.1
+        "op": "add",
+        "val": 2
       },
       {
-        "target": "natural_armor",
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "A steeply angled, deep-chested ribcage housing massively expanded lungs and a disproportionately large heart. Rather than explosive bursts of speed, this chassis is forged to endlessly run down fleeing prey until they collapse from sheer exhaustion."
+  },
+  "Low_Slung_Vulpes_Core": {
+    "tags": [
+      "Flesh",
+      "Low_Profile",
+      "Canine",
+      "Fox_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
         "op": "add",
         "val": 1
       },
       {
-        "target": "size_index",
-        "op": "set",
-        "val": 4
+        "target": "con",
+        "op": "subtract",
+        "val": 1
       }
     ],
-    "description": "The Cursorial Quadruped Frame embodies a sleek, agile canine form, with a sinewy build that channels primal power through every step. Its thick, shaggy fur glistens in moonlight, and its piercing eyes lock onto prey with an unyielding focus, symbolizing raw strength and relentless pursuit."
+    "grants_skills": [
+      "Pounce"
+    ],
+    "description": "A significantly lighter, elongated, and highly flexible spine allowing for profound agility and a lower center of gravity. It is perfectly adapted for rapid, twisting directional changes in dense underbrush and executing high-trajectory mousing leaps."
   }
 }

@@ -1,1 +1,60 @@
-{}
+{
+    "Rosette_Camouflage_Pelt": {
+        "tags": [
+            "Fur",
+            "Camouflage",
+            "Mammal",
+            "Feline"
+        ],
+        "traversal": [
+            "Stealth"
+        ],
+        "mods": [
+            {
+                "target": "stealth",
+                "op": "add",
+                "val": 3
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Camouflage"
+        ],
+        "description": "A dense coat of soft fur patterned with disruptive rosettes or stripes. It perfectly breaks up the entity's outline in dappled forest sunlight or tall grass, rendering it nearly invisible until the moment it strikes."
+    },
+    "Thick_Mane_Integument": {
+        "tags": [
+            "Fur",
+            "Thick",
+            "Mammal",
+            "Feline",
+            "Lion_Like"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "natural_armor",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "cha",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "cold_resist",
+                "op": "add",
+                "val": 2
+            }
+        ],
+        "grants_skills": [],
+        "description": "A massive, hyper-dense ruff of coarse guard hairs encircling the neck and shoulders. It functions as biological chainmail, explicitly evolved to protect the jugular against the lethal, suffocating bites of rival apex predators."
+    }
+}

@@ -1,18 +1,47 @@
 {
-  "Olfactory_Predator_Brain": {
+  "Elongated_Rostral_Skull": {
     "tags": [
-      "Mammal",
+      "Bone",
+      "Snout",
       "Canine",
-      "Instinctual",
-      "Wolf_Like"
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
     ],
     "mods": [
       {
-        "target": "int",
-        "op": "set",
+        "target": "wis",
+        "op": "add",
         "val": 2
       }
     ],
-    "description": "The Olfactory Predator Brain, a feline-morphed canine entity with heightened olfactory senses and primal instincts, stalks its prey through the shadows, guided by an unwavering will and razor-sharp claws. Its keen nose is its most powerful weapon, capable of detecting scents from miles away, making it a relentless hunter in any domain."
+    "grants_skills": [],
+    "description": "A highly elongated dolichocephalic skull designed to house a staggering surface area of internal olfactory epithelium. While trading away the bite-force leverage of shorter faces, it maximizes scent-gathering potential perfectly."
+  },
+  "Sagittal_Crest_Cranium": {
+    "tags": [
+      "Bone",
+      "Crest",
+      "Canine",
+      "Mammal"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "int",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "A massive, heavy skull featuring an incredibly prominent bony sagittal crest running along the top. This crest serves purely as an anchor point for tremendously overpowered temporalis jaw muscles, granting a literal bone-crushing bite."
   }
 }

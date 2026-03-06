@@ -1,1 +1,30 @@
-{}
+{
+    "Tapetum_Lucidum_Eyes": {
+        "tags": [
+            "Sensory",
+            "Night_Vision",
+            "Feline",
+            "Mammal"
+        ],
+        "traversal": [
+            "None"
+        ],
+        "mods": [
+            {
+                "target": "perception",
+                "op": "add",
+                "val": 2
+            },
+            {
+                "target": "accuracy",
+                "op": "add",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Darkvision",
+            "Keen Sight"
+        ],
+        "description": "Forward-facing, highly binocular eyes equipped with a mirror-like tissue layer (tapetum lucidum) behind the retina. This massively amplifies available light, granting terrifyingly acute vision in pitch black conditions."
+    }
+}

@@ -1,1 +1,31 @@
-{}
+{
+    "Plantigrade_Trenchant_Paws": {
+        "tags": [
+            "Arms",
+            "Non_Retractable",
+            "Paws",
+            "Canine",
+            "Mammal"
+        ],
+        "traversal": [
+            "Walk",
+            "Dig"
+        ],
+        "mods": [
+            {
+                "target": "str",
+                "op": "add",
+                "val": 1
+            },
+            {
+                "target": "dex",
+                "op": "subtract",
+                "val": 1
+            }
+        ],
+        "grants_skills": [
+            "Burrow"
+        ],
+        "description": "Sturdy forelimbs ending in tough, padded paws with thick, non-retractable claws. While totally unsuited for grasping or intricate climbing, these trenchant claws act as permanent biological running cleats, providing peerless traction on loose dirt and snow."
+    }
+}

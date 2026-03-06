@@ -1,25 +1,31 @@
 {
-  "Padded_Stalking_Legs": {
-    "traversal": [
-      "Walk"
-    ],
+  "Digitigrade_Endurance_Hindlegs": {
     "tags": [
+      "Legs",
+      "Cursorial",
+      "Endurance",
       "Canine",
-      "Wolf",
-      "Paws",
-      "Wolf_Like"
+      "Mammal"
     ],
-    "grants_skills": [
-      "Stealth",
-      "Pounce"
+    "traversal": [
+      "Walk",
+      "Sprint"
     ],
     "mods": [
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 40
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
       }
     ],
-    "description": "These padded stalking legs are a testament to the graceful and silent strides of a wolf, granting unmatched stealth and a powerful pounce as they enhance your speed with each step."
+    "grants_skills": [
+      "Dash"
+    ],
+    "description": "Long, heavily tendon-strung hind legs allowing the entity to stand permanently on its toes. The joints are rigidly fused to restrict lateral movement almost entirely, maximizing the bio-mechanical efficiency of forward, pendulum-like striding over vast distances."
   }
 }

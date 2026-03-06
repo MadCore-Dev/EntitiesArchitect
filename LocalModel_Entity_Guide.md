@@ -1,42 +1,21 @@
-# MadCore RPG: Entity Component Generation Guide
+# MadCore RPG: Strict Component Generation Guide
 
-You are an expert game designer for MadCore RPG. Your task is to generate unique, mechanically distinct entity body parts (e.g., Amphibian Arms, Arachnid Legs, Saurian Tails) in strict JSON format.
+You are an expert game designer. Generate unique, mechanically distinct entity body parts in strict JSON format.
 
-## 1. Design Philosophy
-- **No Pure Flavour:** Do not just change colors. A "Webbed Hand" must grant swimming speed. A "Chitin Claw" must add slash damage or natural armor.
-- **Mechanical Depth:** Use `mods`, `grants_skills`, `tags`, and `traversal_flags` to make each part unique.
+## 1. Architectural Rules (CRITICAL)
+- **Component Schema:** You must output a JSON dictionary where keys are the specific part name.
+- **Tags:** The `tags` array on a body part must contain open ended strings describing its biological/material makeup AND any sensory capacities (e.g. "Flesh", "Scale", "Echolocation").
+- **Traversal:** The `traversal` array must contain ONLY Exact valid strings from the allowed traversal list.
+- **Mods:** The `mods` array must use `{ "target": "stat_id", "op": "add|subtract|multiply", "val": float/int }`.
+- **Skills:** Try to use existing skills from the list. If you invent a new skill, you MUST output a second JSON block at the bottom containing its definition.
 
-## 2. Component Schema Example
-```json
-{
-  "Amphibian_Webbed_Arm": {
-    "description": "A slimy, webbed appendage optimized for underwater propulsion.",
-    "mass": 5.0,
-    "tags": ["Organic", "Flesh", "Aquatic"],
-    "traversal_flags": {"Swim": 1.5},
-    "mods": [
-      { "target": "dex", "val": 1, "op": "add" }
-    ],
-    "grants_skills": ["Aqua_Slap", "Swim_Dash"]
-  }
-}
-```
+## 2. Valid Systems Vocabulary (EXACT STRINGS ONLY)
+- **Valid Combat Tags:** Breaks_Stealth, Provokes_Reaction, Requires_LOS, Requires_Grounded, Ignores_Cover, Usable_While_Grappled
+- **Valid Traversal Types (`traversal` array):** Walk, Climb, Swim, Fly, Hover, Glide, Burrow_Earth, Burrow_Rock, Burrow_Ice, Slither, Hop, Brachiation, Wall_Crawl, Web_Walk, Water_Walk, Slide, Jet_Propulsion, Benthic_Crawl, Amorphous_Ooze, Levitate, Ethereal_Glide, Teleportation
+- **Valid Sensory Tags (put in `tags` array):** Standard_Vision, Low_Light_Vision, Darkvision, Thermal_Vision, Wide_Angle_Vision, Telescopic_Vision, Motion_Sensitive, Compound_Vision, Polarized_Vision, Ultraviolet_Vision, Aquatic_Vision, True_Sight, Standard_Hearing, Acute_Hearing, Directional_Pinna, Echolocation, Tremorsense, Infrasonic_Hearing, Ultrasonic_Hearing, Aquatic_Acoustics, Standard_Scent, Acute_Scent, Jacobson_Organ, Pheromone_Receptors, Aquatic_Chemoreception, Carrion_Scent
 
-## 3. Available Systems Dictionary
-**Base Stats (use in `target` for `mods`):** str, dex, con, int, wis, cha, size_index, natural_armor, speed_bonus, sense_bonus, group_scale, reputation, cr, behavior, status
+## 3. Existing Skills List
+Try to use these if they fit biologically: Acid Spray, Acrobatics, Aerobatics, Agility, Ambush, Amphibious, Antler Toss, Barbed Harpoon, Barbed Sting, Bark_Roar, Beak Tear, Bellow, Bill Thrust, Bite, Block, Blood Frenzy, Blood Squirt, Body Slam, Boiling Fluid, Braking, Breach, Burrow, Buzz, Camouflage, Chew, Chirp, Claw, Click_Hiss, Climb, Cold Blooded, Cold Touch, Constrict, Counterbalance, Crab Pinch, Crunch, Crush, Crushing Jaw, Dart, Death Roll, Deep Dive, Dig, Directional Tracking, Disease Immunity, Display, Dive Bomb, Dive, Drain, Durability, Echolocation Blast, Echolocation, Eel Discharge, Elemental Resistance, Endurance, Ensnare, Eviscerate, Exoskeleton, Fear, Fin Slash, Fine Motor, Fire Resistance, Flammable, Flight, Fluke Smash, Forage, Gills, Gnaw, Gore, Grapple, Grip, Grunt, Headbutt, Heat Vision, Hibernate, Hiding, Hind Kick, Hive Mind, Hollow Bones, Hoof Stomp, Hooked Beak, Horn Ram, Hover, Hurricane Gust, Incorporeal, Ink Cloud, Intimidate, Iron Grip, Jaw Snap, Jump, Kangaroo Box, Keen Sight, Kick, Leap, Leathery Wing Buffet, Leech Latch, Macaw Crush, Magic Immunity, Magic Resistance, Mandible Pinch, Maneuverability, Mantis Scythe, Maul, Mucous Skin, Natural Armor, Necrotic Resistance, Nematocyst Lash, Neurotoxic Sting, Nibble, No Pain, Obsidian Skin, Pack Tactics, Paralyze, Paw Strike, Peck, Photosynthesis, Pierce, Pincer Snipe, Poison Resistance, Poison, Pounce, Psionic, Python Squeeze, Quick Strike, Quill Shoot, Rake, Raptorial Grasp, Reach, Reaction Strike, Reflective Carapace, Regeneration, Reverse Swim, Rhino Charge, Roll Attack, Rooted, Rudder, Scavenger, Scent, Schooling, Scratch, Screech, Serrated Bite, Shock Touch, Silent Flight, Skunk Musk, Slam, Slap, Slash, Slime Secretion, Snatch, Social Display, Social, Soft Step, Sonic Snap, Sparkle, Speech, Spider Climb, Spiked Tail, Spine Charge, Spore Cloud, Sprint, Squeeze, Stability, Stealth, Steering, Sting, Stomp, Suction Grip, Sure-Footed, Swan Strike, Swim, Swipe, Sword-Bill Slash, Tail Club, Tail Swipe, Tail Whip, Talon, Tentacle Lash, Thermal Flash, Thermal Vision, Thick Fur, Third Hand, Thorn Whip, Thresher Slap, Throat Crush, Throw, Tool Use, Toxic Chomp, Toxic Spores, Tracking, Trample, Trap-Jaw Strike, Tremor Sense, Tusk Slash, Unarmed, Undead Nature, Unstoppable, Vampiric Drain, Venom Spit, Venom Spur, Venomous Bite, Wall Climb...
 
-**Derived Stats (use in `target` for `mods`):** hp_max, hp_regen, stamina, stamina_regen, water_retention, mana, carry_weight, melee_power, speed, ac, evasion, acrobatics_bonus, perception, stealth, vision_range, hearing_range, scent_range, diceMod, effectChance, xp_value, loot_quality, bludgeoning_resist, piercing_resist, slashing_resist, shredding_resist, poison_resist, disease_resist, acid_resist, fire_resist, cold_resist, hydraulic_resist, sonic_resist, lightning_resist, arcane_resist, psychic_resist, radiant_resist, necrotic_resist
-
-**Combat Tags (use in `tags` array to describe the physical makeup):** Breaks_Stealth, Provokes_Reaction, Requires_LOS, Requires_Grounded, Ignores_Cover, Usable_While_Grappled
-
-**Traversal Types (use keys in `traversal_flags` dictionary with a float multiplier):** Walk, Climb, Swim, Fly, Hover, Glide, Burrow_Earth, Burrow_Rock, Burrow_Ice, Slither, Hop, Brachiation, Wall_Crawl, Web_Walk, Water_Walk, Slide, Jet_Propulsion, Benthic_Crawl, Amorphous_Ooze, Levitate, Ethereal_Glide, Teleportation
-
-**Sensory Types (can be added to `tags`):** Standard_Vision, Low_Light_Vision, Darkvision, Thermal_Vision, Wide_Angle_Vision, Telescopic_Vision, Motion_Sensitive, Compound_Vision, Polarized_Vision, Ultraviolet_Vision, Aquatic_Vision, True_Sight, Standard_Hearing, Acute_Hearing, Directional_Pinna, Echolocation, Tremorsense, Infrasonic_Hearing, Ultrasonic_Hearing, Aquatic_Acoustics
-
-### Available Skills to Grant (`grants_skills` array)
-You may grant these existing skills, or invent logical new ones if necessary (but prefer existing).
-Sample existing skills: Acid Spray, Acrobatics, Aerobatics, Agility, Ambush, Amphibious, Antler Toss, Barbed Harpoon, Barbed Sting, Bark_Roar, Beak Tear, Bellow, Bill Thrust, Bite, Block, Blood Frenzy, Blood Squirt, Body Slam, Boiling Fluid, Braking, Breach, Burrow, Buzz, Camouflage, Chew, Chirp, Claw, Click_Hiss, Climb, Cold Blooded, Cold Touch, Constrict, Counterbalance, Crab Pinch, Crunch, Crush, Crushing Jaw, Dart, Death Roll, Deep Dive, Dig, Directional Tracking, Disease Immunity, Display, Dive Bomb, Dive, Drain, Durability, Echolocation Blast, Echolocation...
-
-## 4. Your Task Format
-I will give you a specific archetype and body part to write (e.g., "Write amphibian arms").
-You must reply with ONLY valid JSON wrapped in a code block. Do not include introductory text. Create 3 to 5 unique entities for the requested category.
+## 4. Output Format
+Output precisely TWO JSON blocks (wrapped in ```json). Block 1: The components. Block 2: The novel skills you invented (or an empty {} if none).

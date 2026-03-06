@@ -234,6 +234,11 @@
             }
             if (path.includes('World/weather_types')) return { root: 'world', path: ['weather_types'] };
             if (path.includes('World/temperature_bands')) return { root: 'world', path: ['temperature_bands'] };
+            if (path.includes('World/spawning_rules/group_scaling')) return { root: 'world', path: ['group_scaling'] };
+            if (path.includes('World/spawning_rules/size_limits')) return { root: 'world', path: ['size_limits'] };
+
+            // Consumables
+            if (path.includes('consumable_categories.json')) return { root: 'definitions', path: ['consumable_categories'] };
 
             // Mechanics
             if (path.includes('Mechanics/behaviors')) return { root: 'mechanics', path: ['behaviors'] };

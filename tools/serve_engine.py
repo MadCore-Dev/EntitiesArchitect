@@ -121,18 +121,55 @@ def _write_sqlite(gd: dict):
         ))
 
     # ── generic JSON blob tables ──────────────────────────────────────────────
-    def _blob_table(table, source_dict):
+    def _blob_table(table, source_data):
         c.execute(f"CREATE TABLE {table} (id TEXT PRIMARY KEY, data_json TEXT)")
-        for k, v in (source_dict or {}).items():
+        if isinstance(source_data, dict):
+            for k, v in source_data.items():
+                c.execute(f"INSERT OR REPLACE INTO {table} VALUES (?,?)",
+                          (k, json.dumps(v)))
+        elif isinstance(source_data, list):
             c.execute(f"INSERT OR REPLACE INTO {table} VALUES (?,?)",
-                      (k, json.dumps(v)))
+                      ("root", json.dumps(source_data)))
 
     world    = gd.get("world") or {}
     mech     = gd.get("mechanics") or {}
     _blob_table("biomes",        world.get("biomes") or {})
     _blob_table("weather_types", world.get("weather_types") or {})
+    _blob_table("temperature_bands", world.get("temperature_bands") or {})
+    _blob_table("spawning_group_scaling", world.get("group_scaling") or {})
+    _blob_table("spawning_size_limits", world.get("size_limits") or {})
+
     _blob_table("status_effects",mech.get("status_effects") or {})
     _blob_table("behaviors",     mech.get("behaviors") or {})
+
+    # Variations (flavour + top-tier mechanics)
+    variations = gd.get("variations") or {}
+    appearances = variations.get("appearances") or {}
+    _blob_table("pigmentation", appearances.get("pigmentation") or {})
+    _blob_table("patterns", appearances.get("patterns") or {})
+    _blob_table("biological_upgrades", variations.get("biological_upgrades") or {})
+    _blob_table("size_indices", variations.get("size_indices") or {})
+
+    # Loot
+    loot = gd.get("loot") or {}
+    _blob_table("anatomy_drops", loot.get("anatomy_drops") or {})
+    _blob_table("harvest_types", loot.get("harvest_types") or {})
+    _blob_table("loot_quality", loot.get("loot_quality") or {})
+
+    # Prefixes (Named Variants)
+    _blob_table("prefixes", gd.get("prefixes") or {})
+
+    # Definitions
+    defs = gd.get("definitions") or {}
+    _blob_table("damage_types", defs.get("damage_types") or {})
+    _blob_table("skill_types", defs.get("skill_types") or {})
+    _blob_table("terrain_types", defs.get("terrain_types") or {})
+    _blob_table("traversal_types", defs.get("traversal_types") or {})
+    _blob_table("vision_types", defs.get("vision_types") or {})
+    _blob_table("hearing_types", defs.get("hearing_types") or {})
+    _blob_table("scent_types", defs.get("scent_types") or {})
+    _blob_table("combat_tags", defs.get("combat_tags") or {})
+    _blob_table("consumable_categories", defs.get("consumable_categories") or {})
 
     # ── entity body-part components ───────────────────────────────────────────
     c.execute("""

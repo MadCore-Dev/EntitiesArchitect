@@ -1,132 +1,4 @@
 {
-  "hp": {
-    "id": "hp",
-    "displayName": "Hit Points",
-    "description": "Current health pool. Reduced by damage; death at zero.",
-    "spriteIcon": "icons/stats/hp.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "hp_regen": {
-    "id": "hp_regen",
-    "displayName": "HP Regen",
-    "description": "Flat HP recovered per tick during rest or passive regeneration.",
-    "spriteIcon": "icons/stats/hp_regen.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "group_scale": {
-    "id": "group_scale",
-    "displayName": "Group Scale",
-    "description": "Multiplier controlling pack/group size during world spawning.",
-    "spriteIcon": "icons/stats/group.png",
-    "baseValue": 1.0,
-    "statType": "Raw"
-  },
-  "necrotic_resist": {
-    "id": "necrotic_resist",
-    "displayName": "Necrotic Resistance",
-    "description": "Flat mitigation against incoming Necrotic damage and life-drain effects.",
-    "spriteIcon": "icons/stats/resist_necrotic.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "poison_resist": {
-    "id": "poison_resist",
-    "displayName": "Poison Resistance",
-    "description": "Flat mitigation against incoming Poison damage and toxin effects.",
-    "spriteIcon": "icons/stats/resist_poison.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "radiant_resist": {
-    "id": "radiant_resist",
-    "displayName": "Radiant Resistance",
-    "description": "Flat mitigation against incoming Radiant and divine energy damage.",
-    "spriteIcon": "icons/stats/resist_radiant.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "psychic_resist": {
-    "id": "psychic_resist",
-    "displayName": "Psychic Resistance",
-    "description": "Flat mitigation against Psychic damage and mental intrusion effects.",
-    "spriteIcon": "icons/stats/resist_psychic.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "acid_resist": {
-    "id": "acid_resist",
-    "displayName": "Acid Resistance",
-    "description": "Flat mitigation against incoming Acid damage and corrosive effects.",
-    "spriteIcon": "icons/stats/resist_acid.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "disease_resist": {
-    "id": "disease_resist",
-    "displayName": "Disease Resistance",
-    "description": "Flat mitigation against pathogen-based damage and infection payloads.",
-    "spriteIcon": "icons/stats/resist_disease.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "lightning_resist": {
-    "id": "lightning_resist",
-    "displayName": "Lightning Resistance",
-    "description": "Flat mitigation against incoming Lightning and electrical damage.",
-    "spriteIcon": "icons/stats/resist_lightning.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "sonic_resist": {
-    "id": "sonic_resist",
-    "displayName": "Sonic Resistance",
-    "description": "Flat mitigation against concussive sound-wave and pressure damage.",
-    "spriteIcon": "icons/stats/resist_sonic.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "hydraulic_resist": {
-    "id": "hydraulic_resist",
-    "displayName": "Hydraulic Resistance",
-    "description": "Flat mitigation against high-pressure water and fluid-based damage.",
-    "spriteIcon": "icons/stats/resist_hydraulic.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "bludgeoning_resist": {
-    "id": "bludgeoning_resist",
-    "displayName": "Bludgeoning Resistance",
-    "description": "Flat mitigation against blunt-force impact damage.",
-    "spriteIcon": "icons/stats/resist_bludgeon.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "piercing_resist": {
-    "id": "piercing_resist",
-    "displayName": "Piercing Resistance",
-    "description": "Flat mitigation against puncture and penetration damage.",
-    "spriteIcon": "icons/stats/resist_piercing.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "slashing_resist": {
-    "id": "slashing_resist",
-    "displayName": "Slashing Resistance",
-    "description": "Flat mitigation against cutting and laceration damage.",
-    "spriteIcon": "icons/stats/resist_slashing.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "shredding_resist": {
-    "id": "shredding_resist",
-    "displayName": "Shredding Resistance",
-    "description": "Flat mitigation against tearing and shredding damage.",
-    "spriteIcon": "icons/stats/resist_shredding.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
   "str": {
     "id": "str",
     "displayName": "Strength",
@@ -170,7 +42,7 @@
   "cha": {
     "id": "cha",
     "displayName": "Charisma",
-    "description": "Force of personality.",
+    "description": "Force of personality, luck, and destiny. Drives dice luck and status effect potency.",
     "spriteIcon": "icons/stats/cha.png",
     "baseValue": 10.0,
     "statType": "Raw"
@@ -178,7 +50,7 @@
   "size_index": {
     "id": "size_index",
     "displayName": "Size Index",
-    "description": "Base size category (1=Tiny, 5=Gargantuan).",
+    "description": "Base size category (1=Tiny, 5=Gargantuan). Set by chassis blueprint.",
     "spriteIcon": "icons/stats/size.png",
     "baseValue": 4.0,
     "statType": "Raw"
@@ -186,7 +58,7 @@
   "natural_armor": {
     "id": "natural_armor",
     "displayName": "Natural Armor",
-    "description": "Inherent protective integument.",
+    "description": "Inherent protective integument (scales, shell, hide). Set by body covering components.",
     "spriteIcon": "icons/stats/ac.png",
     "baseValue": 0.0,
     "statType": "Raw"
@@ -194,7 +66,7 @@
   "speed_bonus": {
     "id": "speed_bonus",
     "displayName": "Speed Bonus",
-    "description": "Additional movement speed to base.",
+    "description": "Component-writable flat bonus fed into the Speed formula. Lets chassis and appendages affect speed without inflating dex.",
     "spriteIcon": "icons/stats/speed.png",
     "baseValue": 0.0,
     "statType": "Raw"
@@ -202,55 +74,31 @@
   "sense_bonus": {
     "id": "sense_bonus",
     "displayName": "Sense Bonus",
-    "description": "Bonus to perception checks.",
+    "description": "Component-writable flat bonus fed into the Perception formula. Lets sensory components affect awareness without inflating wis.",
     "spriteIcon": "icons/stats/sense.png",
     "baseValue": 0.0,
     "statType": "Raw"
   },
-  "diceMod": {
-    "id": "diceMod",
-    "displayName": "Dice Modifier",
-    "description": "Global modifier to dice rolls.",
-    "spriteIcon": "icons/stats/dice.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "effectChance": {
-    "id": "effectChance",
-    "displayName": "Effect Chance",
-    "description": "Probability modifier for applying status effects.",
-    "spriteIcon": "icons/stats/luck.png",
-    "baseValue": 0.0,
+  "group_scale": {
+    "id": "group_scale",
+    "displayName": "Group Scale",
+    "description": "World-spawn multiplier controlling pack or group size. Design-authored, not biologically derivable.",
+    "spriteIcon": "icons/stats/group.png",
+    "baseValue": 1.0,
     "statType": "Raw"
   },
   "reputation": {
     "id": "reputation",
     "displayName": "Reputation",
-    "description": "Social standing and fame.",
+    "description": "Social standing and fame. Changes through narrative events and player interactions.",
     "spriteIcon": "icons/stats/rep.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "loot_quality": {
-    "id": "loot_quality",
-    "displayName": "Loot Quality",
-    "description": "Modifier for better loot drops.",
-    "spriteIcon": "icons/stats/loot.png",
-    "baseValue": 1.0,
-    "statType": "Raw"
-  },
-  "xp_value": {
-    "id": "xp_value",
-    "displayName": "XP Value",
-    "description": "Experience points granted on defeat.",
-    "spriteIcon": "icons/stats/xp.png",
     "baseValue": 0.0,
     "statType": "Raw"
   },
   "cr": {
     "id": "cr",
     "displayName": "Challenge Rating",
-    "description": "Combat difficulty rating.",
+    "description": "Designer-authored encounter balance value. Drives xp_value and loot_quality as derived outputs.",
     "spriteIcon": "icons/stats/cr.png",
     "baseValue": 0.0,
     "statType": "Raw"
@@ -258,7 +106,7 @@
   "behavior": {
     "id": "behavior",
     "displayName": "Behavior State",
-    "description": "Current AI behavior state override value.",
+    "description": "Current AI behavior state. Kept as a Raw stat so Effect Payloads can set and read it via the standard pipeline.",
     "spriteIcon": "icons/stats/ai.png",
     "baseValue": 0.0,
     "statType": "Raw"
@@ -266,88 +114,8 @@
   "status": {
     "id": "status",
     "displayName": "Status State",
-    "description": "Current primary status condition.",
+    "description": "Current primary status condition. Kept as a Raw stat so Effect Payloads can set and read it via the standard pipeline.",
     "spriteIcon": "icons/stats/status.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "evasion": {
-    "id": "evasion",
-    "displayName": "Evasion",
-    "description": "Raw dodge capability representing the entity's base ability to avoid targeted attacks and area effects.",
-    "spriteIcon": "icons/stats/evasion.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "acrobatics_bonus": {
-    "id": "acrobatics_bonus",
-    "displayName": "Acrobatics Bonus",
-    "description": "Bonus to balance, tumbling, and unstable footing checks.",
-    "spriteIcon": "icons/stats/acrobatics.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "vision_range": {
-    "id": "vision_range",
-    "displayName": "Vision Range",
-    "description": "Maximum grid distance at which the entity can clearly detect visual targets under normal conditions.",
-    "spriteIcon": "icons/stats/vision.png",
-    "baseValue": 30.0,
-    "statType": "Raw"
-  },
-  "hearing_range": {
-    "id": "hearing_range",
-    "displayName": "Hearing Range",
-    "description": "Maximum grid distance at which the entity can clearly detect auditory stimuli.",
-    "spriteIcon": "icons/stats/hearing.png",
-    "baseValue": 15.0,
-    "statType": "Raw"
-  },
-  "scent_range": {
-    "id": "scent_range",
-    "displayName": "Scent Range",
-    "description": "Maximum grid distance at which the entity can detect and parse olfactory information.",
-    "spriteIcon": "icons/stats/scent.png",
-    "baseValue": 10.0,
-    "statType": "Raw"
-  },
-  "water_retention": {
-    "id": "water_retention",
-    "displayName": "Water Retention",
-    "description": "The entity's hydration pool. Depleted by extreme heat and exertion; death results at zero.",
-    "spriteIcon": "icons/stats/water.png",
-    "baseValue": 10.0,
-    "statType": "Raw"
-  },
-  "stamina_regen": {
-    "id": "stamina_regen",
-    "displayName": "Stamina Regen",
-    "description": "The flat amount of Stamina recovered per tick during rest or passive recovery.",
-    "spriteIcon": "icons/stats/stamina_regen.png",
-    "baseValue": 1.0,
-    "statType": "Raw"
-  },
-  "fire_resist": {
-    "id": "fire_resist",
-    "displayName": "Fire Resistance",
-    "description": "Flat mitigation applied against incoming Fire damage.",
-    "spriteIcon": "icons/stats/resist_fire.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "cold_resist": {
-    "id": "cold_resist",
-    "displayName": "Cold Resistance",
-    "description": "Flat mitigation applied against incoming Cold damage.",
-    "spriteIcon": "icons/stats/resist_cold.png",
-    "baseValue": 0.0,
-    "statType": "Raw"
-  },
-  "arcane_resist": {
-    "id": "arcane_resist",
-    "displayName": "Arcane Resistance",
-    "description": "Flat mitigation applied against incoming Arcane damage and magical interference effects.",
-    "spriteIcon": "icons/stats/resist_arcane.png",
     "baseValue": 0.0,
     "statType": "Raw"
   }

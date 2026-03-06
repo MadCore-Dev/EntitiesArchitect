@@ -7,6 +7,14 @@
     "baseValue": 0.0,
     "statType": "Potential"
   },
+  "hp_regen": {
+    "displayName": "HP Regen",
+    "description": "Flat HP recovered per tick during rest or passive regeneration.",
+    "calculationFormula": "con * 0.1",
+    "spriteIcon": "icons/stats/hp_regen.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
   "stamina": {
     "displayName": "Stamina",
     "description": "The energy pool available for physical actions and sustained exertion.",
@@ -15,11 +23,43 @@
     "baseValue": 0.0,
     "statType": "Potential"
   },
+  "stamina_regen": {
+    "displayName": "Stamina Regen",
+    "description": "Stamina recovered per tick during rest or passive recovery.",
+    "calculationFormula": "con * 0.2",
+    "spriteIcon": "icons/stats/stamina_regen.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "water_retention": {
+    "displayName": "Water Retention",
+    "description": "Hydration pool. Depleted by extreme heat and exertion; death results at zero.",
+    "calculationFormula": "con * 2",
+    "spriteIcon": "icons/stats/water.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
   "mana": {
     "displayName": "Mana",
     "description": "The magical energy pool available for casting skills and abilities.",
     "calculationFormula": "int * wis",
     "spriteIcon": "icons/stats/mana.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "carry_weight": {
+    "displayName": "Carry Weight",
+    "description": "Maximum load the entity can carry before being encumbered.",
+    "calculationFormula": "str * 5",
+    "spriteIcon": "icons/stats/carry.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "melee_power": {
+    "displayName": "Melee Power",
+    "description": "Base physical strike force applied to melee damage calculations.",
+    "calculationFormula": "str * 0.5",
+    "spriteIcon": "icons/stats/melee.png",
     "baseValue": 0.0,
     "statType": "Potential"
   },
@@ -39,6 +79,22 @@
     "baseValue": 0.0,
     "statType": "Potential"
   },
+  "evasion": {
+    "displayName": "Evasion",
+    "description": "Passive dodge capability reflecting the entity's agility and reflexes.",
+    "calculationFormula": "dex * 0.5",
+    "spriteIcon": "icons/stats/evasion.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "acrobatics_bonus": {
+    "displayName": "Acrobatics Bonus",
+    "description": "Agility-derived bonus to balance, tumbling, and unstable footing checks.",
+    "calculationFormula": "dex * 0.3",
+    "spriteIcon": "icons/stats/acrobatics.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
   "perception": {
     "displayName": "Perception",
     "description": "Passive awareness score used for detecting hidden threats and environmental cues.",
@@ -52,6 +108,190 @@
     "description": "Passive ability to avoid detection, penalized by larger body size.",
     "calculationFormula": "dex + (size_index * -1)",
     "spriteIcon": "icons/stats/stealth.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "vision_range": {
+    "displayName": "Vision Range",
+    "description": "Base visual detection distance in grid units. Further modulated by vision type.",
+    "calculationFormula": "25 + (wis * 0.5)",
+    "spriteIcon": "icons/stats/vision.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "hearing_range": {
+    "displayName": "Hearing Range",
+    "description": "Base auditory detection distance in grid units. Further modulated by hearing type.",
+    "calculationFormula": "12 + (wis * 0.3)",
+    "spriteIcon": "icons/stats/hearing.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "scent_range": {
+    "displayName": "Scent Range",
+    "description": "Base olfactory detection distance in grid units. Further modulated by scent type.",
+    "calculationFormula": "8 + (wis * 0.2)",
+    "spriteIcon": "icons/stats/scent.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "diceMod": {
+    "displayName": "Dice Modifier",
+    "description": "Global modifier to all dice rolls, derived from charisma (luck and destiny). Neutral at cha=10.",
+    "calculationFormula": "(cha - 10) * 0.05",
+    "spriteIcon": "icons/stats/dice.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "effectChance": {
+    "displayName": "Effect Chance",
+    "description": "Modifier to the probability of applying status effects on others. Driven by force of personality.",
+    "calculationFormula": "(cha - 10) * 0.05",
+    "spriteIcon": "icons/stats/luck.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "xp_value": {
+    "displayName": "XP Value",
+    "description": "Experience points granted on defeat. Always proportional to challenge rating.",
+    "calculationFormula": "cr * 100",
+    "spriteIcon": "icons/stats/xp.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "loot_quality": {
+    "displayName": "Loot Quality",
+    "description": "Modifier for loot drop quality. Scales with challenge rating; floors at 1.0.",
+    "calculationFormula": "1.0 + (cr * 0.1)",
+    "spriteIcon": "icons/stats/loot.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "bludgeoning_resist": {
+    "displayName": "Bludgeoning Resistance",
+    "description": "Mitigation against blunt-force impact. Dense muscle mass and armor absorb concussive force.",
+    "calculationFormula": "natural_armor + (con * 0.1)",
+    "spriteIcon": "icons/stats/resist_bludgeon.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "piercing_resist": {
+    "displayName": "Piercing Resistance",
+    "description": "Mitigation against puncture and penetration damage. Armor layers are less effective vs. focused tips.",
+    "calculationFormula": "(natural_armor * 0.8) + (con * 0.1)",
+    "spriteIcon": "icons/stats/resist_piercing.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "slashing_resist": {
+    "displayName": "Slashing Resistance",
+    "description": "Mitigation against cutting and laceration damage. Scales and hide deflect blades effectively.",
+    "calculationFormula": "natural_armor + (con * 0.1)",
+    "spriteIcon": "icons/stats/resist_slashing.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "shredding_resist": {
+    "displayName": "Shredding Resistance",
+    "description": "Mitigation against tearing and flaying damage. Lowest armor benefit; requires even surface coverage.",
+    "calculationFormula": "(natural_armor * 0.6) + (con * 0.1)",
+    "spriteIcon": "icons/stats/resist_shredding.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "poison_resist": {
+    "displayName": "Poison Resistance",
+    "description": "Mitigation against toxin effects. Constitution governs the immune system's ability to neutralize venom.",
+    "calculationFormula": "con * 0.3",
+    "spriteIcon": "icons/stats/resist_poison.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "disease_resist": {
+    "displayName": "Disease Resistance",
+    "description": "Mitigation against pathogen-based infection. Reflects the robustness of the entity's immune response.",
+    "calculationFormula": "con * 0.3",
+    "spriteIcon": "icons/stats/resist_disease.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "acid_resist": {
+    "displayName": "Acid Resistance",
+    "description": "Mitigation against corrosive damage. Biological hardiness and integument density determine resilience.",
+    "calculationFormula": "con * 0.2",
+    "spriteIcon": "icons/stats/resist_acid.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "fire_resist": {
+    "displayName": "Fire Resistance",
+    "description": "Mitigation against heat and flame. Baseline thermal tolerance derived from constitution.",
+    "calculationFormula": "con * 0.1",
+    "spriteIcon": "icons/stats/resist_fire.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "cold_resist": {
+    "displayName": "Cold Resistance",
+    "description": "Mitigation against freezing damage. Baseline cold tolerance derived from constitution.",
+    "calculationFormula": "con * 0.1",
+    "spriteIcon": "icons/stats/resist_cold.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "hydraulic_resist": {
+    "displayName": "Hydraulic Resistance",
+    "description": "Mitigation against high-pressure fluid damage. Body mass provides structural resistance to crushing water pressure.",
+    "calculationFormula": "(con * 0.1) + (size_index * 0.5)",
+    "spriteIcon": "icons/stats/resist_hydraulic.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "sonic_resist": {
+    "displayName": "Sonic Resistance",
+    "description": "Mitigation against concussive sound-wave damage. Dense body mass absorbs shockwaves.",
+    "calculationFormula": "(con * 0.1) + (size_index * 0.3)",
+    "spriteIcon": "icons/stats/resist_sonic.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "lightning_resist": {
+    "displayName": "Lightning Resistance",
+    "description": "Mitigation against electrical damage. Tissue conductivity and resilience determined by constitution.",
+    "calculationFormula": "con * 0.1",
+    "spriteIcon": "icons/stats/resist_lightning.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "arcane_resist": {
+    "displayName": "Arcane Resistance",
+    "description": "Mitigation against magical interference. Magical intuition and intellect provide a ward.",
+    "calculationFormula": "(wis * 0.1) + (int * 0.1)",
+    "spriteIcon": "icons/stats/resist_arcane.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "psychic_resist": {
+    "displayName": "Psychic Resistance",
+    "description": "Mitigation against mental intrusion. Willpower is the primary defense; intelligence reinforces the mind.",
+    "calculationFormula": "(wis * 0.2) + (int * 0.1)",
+    "spriteIcon": "icons/stats/resist_psychic.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "radiant_resist": {
+    "displayName": "Radiant Resistance",
+    "description": "Mitigation against divine energy damage. Spiritual fortitude derived from wisdom.",
+    "calculationFormula": "wis * 0.15",
+    "spriteIcon": "icons/stats/resist_radiant.png",
+    "baseValue": 0.0,
+    "statType": "Potential"
+  },
+  "necrotic_resist": {
+    "displayName": "Necrotic Resistance",
+    "description": "Mitigation against life-drain and death energy. Physical vitality and spiritual resilience both contribute.",
+    "calculationFormula": "(con * 0.1) + (wis * 0.1)",
+    "spriteIcon": "icons/stats/resist_necrotic.png",
     "baseValue": 0.0,
     "statType": "Potential"
   }

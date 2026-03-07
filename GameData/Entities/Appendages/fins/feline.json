@@ -1,301 +1,301 @@
 {
-    "Sleek_Fishing_Cat_Dorsal_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Agility",
-            "Feline",
-            "Fishing_Cat"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Smoothly cleanly easily flawlessly securely cleverly ingeniously gracefully gracefully cheerfully valiantly intelligently gracefully smoothly gracefully smartly playfully valiantly smoothly violently valiantly vigorously smoothly boldly furiously valiantly passionately smartly violently gracefully playfully defiantly bravely confidently bravely competently cleanly safely fluently proudly calmly powerfully furiously peacefully valiantly deftly peacefully boldly fluently wisely casually fluently prudently safely efficiently enthusiastically valiantly gracefully smoothly elegantly smartly boldly defiantly."
-    },
-    "Webbed_Aquatic_Feline_Paws_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Feline",
-            "Mutant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Explicitly actively gracefully practically correctly cleverly proudly violently fluently valiantly brilliantly proudly calmly intelligently boldly loudly bravely valiantly gracefully warmly confidently violently defiantly competently valiantly cheerfully loudly valiantly smoothly expertly bravely sensibly violently smartly playfully confidently powerfully playfully elegantly fluently majestically fluently valiantly humbly angrily powerfully boldly casually proudly bravely valiantly smoothly peacefully proudly calmly warmly fluently furiously valiantly furiously."
-    },
-    "Thick_Tiger_Stripe_Pectoral_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Strength",
-            "Feline",
-            "Tiger"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Knockback"
-        ],
-        "description": "Solidly purely smoothly naturally smartly cleverly fluently defiantly bravely competently bravely prudently valiantly smoothly proudly calmly boldly safely boldly brilliantly violently loudly competently cleverly blindly violently smartly safely defiantly quietly calmly proudly violently calmly expertly fluently valiantly fluently neatly confidently safely fluently smoothly eloquently smoothly peacefully calmly bravely calmly skillfully skillfully expertly vigorously calmly brightly calmly."
-    },
-    "Camouflaging_Jaguar_Spot_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Stealth",
-            "Feline",
-            "Jaguar"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage"
-        ],
-        "description": "Seamlessly logically expertly confidently elegantly beautifully vibrantly majestically bravely valiantly peacefully excitedly gracefully bravely fluently valiantly competently vividly fluently deftly bravely fluently smartly resolutely happily quietly boldly defiantly playfully calmly gently securely confidently sensibly confidently boldly confidently casually angrily comfortably competently bravely softly compactly wildly smartly elegantly compactly quietly defiantly sensibly gracefully calmly peacefully defiantly confidently peacefully safely valiantly fluently efficiently confidently violently silently playfully intelligently."
-    },
-    "Luminescent_Deep_Sea_Panther_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Perception",
-            "Magic",
-            "Feline",
-            "Panther",
-            "Deep_Sea"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Light"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely resolutely smartly excitedly vividly beautifully proudly resolutely brilliantly valiantly safely bravely playfully intelligently gracefully safely fluently defiantly forcefully powerfully defiantly violently proudly smartly smartly bravely calmly wisely brilliantly bravely enthusiastically wildly bravely boldly bravely peacefully intelligently skillfully passionately passionately cheerfully violently prudently wildly passionately gently calmly bravely elegantly gently bravely majestically calmly happily enthusiastically valiantly smartly proudly bravely fluently valiantly loudly."
-    },
-    "Cybernetic_Streamlined_Hydro_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Cybernetic",
-            "Feline",
-            "Speed"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Overdrive",
-            "Swim_Dash"
-        ],
-        "description": "Technologically natively solidly elegantly actively vibrantly cleverly proudly smartly violently valiantly blindly violently intelligently blindly bravely proudly boldly proudly softly comfortably confidently solidly safely brightly bravely securely violently cleanly fluently angrily valiantly gracefully safely politely defiantly fluently resolutely elegantly compactly softly brightly boldly gracefully competently brightly eloquently wildly competently deftly sensibly bravely defiantly vibrantly bravely passionately smartly confidently defiantly smartly boldly neatly excitedly defiantly deftly deftly wildly violently furiously peacefully peacefully boldly stably bravely valiantly comfortably."
-    },
-    "Hardened_Lion_Mane_Frill_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Charisma",
-            "Armor",
-            "Feline",
-            "Lion"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Intimidate",
-            "Block"
-        ],
-        "description": "Properly natively efficiently seamlessly gracefully flexibly violently confidently violently calmly bravely expertly warmly valiantly elegantly prudently calmly boldly loudly smoothly confidently peacefully wisely prudently boldly wisely bravely sensibly safely intelligently cleanly elegantly valiantly fluently defiantly fluently intelligently politely competently violently violently valiantly competently fluently competently boldly neatly expertly expertly boldly safely boldly violently skillfully deftly boldly gracefully smartly calmly majestically gracefully peacefully happily smartly brilliantly cleanly defiantly fluently humbly gently violently bravely intelligently competently smoothly fluently vibrantly boldly gracefully confidently bravely excitedly wildly peacefully competently proudly."
-    },
-    "Spiked_Lionfish_Feline_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Toxic",
-            "Feline",
-            "Mutant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly expertly gracefully safely proudly safely passionately violently cleanly boldly smartly calmly fluently gracefully gracefully quietly forcefully vividly intelligently eloquently boldly vigorously defiantly silently cleverly softly majestically intelligently proudly fluently safely angrily fluently bravely violently smartly competently elegantly violently expertly rationally wisely eloquently brightly peacefully safely competently gracefully safely sensibly blindly skillfully proudly wildly fluently valiantly fluently cheerfully peacefully bravely calmly bravely passionately valiantly safely resolutely solidly."
-    },
-    "Ghostly_Spectral_Cat_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Undead_Like",
-            "Stealth",
-            "Spectral",
-            "Feline"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly magically ingeniously majestically gracefully intelligently wildly calmly powerfully playfully brilliantly boldly gently elegantly efficiently bravely competently stably valiantly fluently confidently valiantly happily enthusiastically gently prudently boldly gently fluently defiantly cleverly valiantly boldly proudly violently bravely valiantly safely fluently violently brilliantly proudly elegantly valiantly defiantly violently calmly fluently defiantly calmly proudly bravely safely peacefully confidently passionately elegantly defiantly defiantly patiently valiantly prudently calmly rationally sweetly gracefully neatly safely valiantly defiantly elegantly boldly calmly."
-    },
-    "Flowing_Silk_Persian_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Swim",
-            "Charisma",
-            "Comfort",
-            "Feline",
-            "Persian"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Beautifully cleanly smoothly elegantly passionately bravely valiantly gently proudly competently prudently brightly sensibly cleanly humbly defiantly fluently smartly elegantly wildly valiantly valiantly compactly sensibly elegantly confidently fluently enthusiastically cleverly gracefully passionately flexibly valiantly valiantly majestically valiantly eloquently softly bravely gently excitedly safely valiantly stably expertly elegantly casually valiantly violently valiantly smartly majestically warmly valiantly."
-    }
+  "Sleek_Fishing_Cat_Dorsal_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Agility",
+      "Feline",
+      "Fishing_Cat"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "This sleek dorsal fin, a marvel of evolution in the feline world, grants the fishing cat unparalleled agility and speed in water, allowing it to dash through currents with grace and precision, perfect for outmaneuvering prey or evading predators."
+  },
+  "Webbed_Aquatic_Feline_Paws_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Feline",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "These eerie, webbed aquatic feline paws and fins pulse with an otherworldly grace, granting an uncanny agility and swift swimming prowess, their sleek form slicing through water with unnatural ease."
+  },
+  "Thick_Tiger_Stripe_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Strength",
+      "Feline",
+      "Tiger"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Enveloped in sleek, dark stripes reminiscent of a tiger's might, these pectoral fins are a marvel of adaptive evolution, combining feline grace with aquatic prowess, granting immense strength and resilience in the water while resisting the forceful impacts that would otherwise disrupt a creature's graceful strokes."
+  },
+  "Camouflaging_Jaguar_Spot_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Stealth",
+      "Feline",
+      "Jaguar"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Emerging from the shadowy depths of the aquatic world, the Camouflaging Jaguar Spot Fins are sleek appendages that mimic the dappled coat of a jaguar, blending seamlessly with the murkiness of the water while enhancing the wearer's agility and stealth, making them a formidable predator in the underwater realms."
+  },
+  "Luminescent_Deep_Sea_Panther_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Perception",
+      "Magic",
+      "Feline",
+      "Panther",
+      "Deep_Sea"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Light"
+    ],
+    "description": "Brimming with otherworldly magic, the Luminescent Deep Sea Panther Fins are bioluminescent appendages that grant unparalleled stealth and perception in the darkest oceanic depths, allowing the panther to glide silently and see in the utter darkness while casting an eerie glow that mesmerizes prey and predator alike."
+  },
+  "Cybernetic_Streamlined_Hydro_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Cybernetic",
+      "Feline",
+      "Speed"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Overdrive",
+      "Swim_Dash"
+    ],
+    "description": "These sleek, cybernetic hydro fins, grafted onto the limbs of a feline warrior, pulse with an eerie blue light as they slice through water, enhancing speed and agility to formidable levels, though a slight mechanical drag slightly hampers natural grace."
+  },
+  "Hardened_Lion_Mane_Frill_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Charisma",
+      "Armor",
+      "Feline",
+      "Lion"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Block"
+    ],
+    "description": "Enveloping the feline warrior in a regal aura, the Hardened Lion Mane Frill Fins are a mesmerizing blend of sharp, fin-like appendages that jut out from the creature's shoulders and back, shimmering with an iridescent sheen that hints at the beast's formidable presence beneath the water. These fins not only enhance the creature's natural swimming abilities but also serve as a formidable defensive mechanism, their hardened texture providing an extra layer of armor against attacks, while their imposing appearance grants the wielder a charismatic edge in battles, instilling fear and respect in foes."
+  },
+  "Spiked_Lionfish_Feline_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Toxic",
+      "Feline",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Emerging from the murky depths of the ocean, the Spiked Lionfish Feline Fins is a grotesque creature with elongated, razor-sharp fins that resemble the claws of a feline predator, capable of propelling it through water with grace and delivering a venomous sting that leaves its foes reeling."
+  },
+  "Ghostly_Spectral_Cat_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral",
+      "Feline"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Emerging from the shadowy depths of forgotten waters, the Ghostly Spectral Cat Fins are haunting appendages that enable their undead-like feline hosts to glide silently through both liquid and air, their spectral essence granting them unmatched stealth and a keen ethereal sight that pierces the veil of darkness."
+  },
+  "Flowing_Silk_Persian_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Swim",
+      "Charisma",
+      "Comfort",
+      "Feline",
+      "Persian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "These ethereal, flowing silk Persian fins, glistening with a faint inner light, enhance one's charisma as they undulate gracefully, drawing admirers and creatures alike into a mesmerizing dance of allure and comfort, though their delicate nature slightly hinders one's agility."
+  }
 }

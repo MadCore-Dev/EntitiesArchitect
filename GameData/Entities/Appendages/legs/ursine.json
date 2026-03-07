@@ -1,313 +1,313 @@
 {
-    "Grizzly_Sturdy_Hindlegs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Strength",
-            "Heavy",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Stomp",
-            "Charge",
-            "Knockdown"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully lazily valiantly expertly valiantly neatly peacefully cleanly casually violently proudly smoothly valiantly defiantly furiously valiantly competently brightly majestically wildly cleverly smartly cheerfully bravely lazily wildly smoothly neatly efficiently stably boldly valiantly loudly smoothly proudly valiantly violently calmly lazily elegantly smoothly lazily casually valiantly gently valiantly gently gently competently defiantly smoothly smoothly casually merrily calmly bravely compliantly."
-    },
-    "Polar_Bear_Webbed_Paws": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Strength",
-            "Swim",
-            "Cold",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Stomp",
-            "Resist_Cold"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely gently valiantly gracefully peacefully boldly safely passionately cheerfully safely sensibly valiantly defiantly valiantly cheerfully sensibly boldly cleanly quietly valiantly cleanly happily boldly valiantly defiantly safely furiously elegantly bravely boldly valiantly safely fluently violently competently safely violently boldly competently fiercely smoothly bravely smoothly securely elegantly calmly smartly cleverly softly bravely."
-    },
-    "Black_Bear_Nimble_Hindlegs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Agility",
-            "Climb",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Sprint",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Acrobatics",
-            "Leap"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly cleverly intelligently gracefully valiantly smoothly politely valiantly smartly boldly eagerly bravely casually compliantly defiantly calmly safely defiantly furiously competently violently defiantly happily fluently violently sweetly smoothly neatly peacefully happily majestically gracefully smoothly calmly elegantly warmly wisely."
-    },
-    "Panda_Stout_Plantigrade_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Con",
-            "Heavy",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Stomp",
-            "Endurance"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly bravely gracefully humbly valiantly confidently proudly competently lazily smartly safely boldly quietly valiantly blindly smoothly violently cleanly valiantly bravely proudly lazily expertly valiantly brightly smartly cleanly deftly prudently valiantly fluently cleverly fluently resolutely lazily prudently calmly bravely wildly valiantly cleanly silently powerfully defiantly fluently lazily smartly cleverly wildly defiantly smartly happily bravely blindly violently calmly gracefully smartly passionately wildly safely safely cleanly wildly comfortably lazily smartly loudly bravely cleanly smartly quietly angrily."
-    },
-    "Sun_Bear_Climbing_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Dexterity",
-            "Climb",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly safely competently bravely calmly neatly bravely cleanly competently silently lazily bravely smartly bravely smartly vigorously smartly valiantly compactly responsibly elegantly calmly gracefully majestically lazily bravely casually politely valiantly humbly politely vigorously valiantly fluently neatly elegantly smoothly lazily expertly gracefully competently smartly elegantly competently boldly confidently smartly boldly defiantly."
-    },
-    "Sloth_Bear_Inward_Turning_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Con",
-            "Climb",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Stomp",
-            "Endurance"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly stably lazily lazily skillfully cheerfully smoothly calmly valiantly valiantly compactly sensibly elegantly casually violently stably valiantly happily bravely prudently valiantly smoothly gracefully prudently valiantly lazily deftly softly boldly confidently boldly defiantly confidently bravely politely calmly resolutely competently gracefully defiantly lazily prudently resolutely wisely deftly lazily deftly boldly gracefully smartly calmly majestically lazily safely bravely loudly lazily confidently resolutely valiantly valiantly valiantly proudly violently eloquently lazily bravely wisely cleanly."
-    },
-    "Spectacled_Bear_Agile_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Agility",
-            "Quadruped",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 4
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics",
-            "Leap",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently boldly valiantly cleanly wildly confidently loudly gracefully gracefully safely violently merrily prudently defiantly elegantly smoothly elegantly prudently humbly peacefully valiantly cleverly smoothly competently merrily violently valiantly valiantly violently efficiently lazily fluently fluently elegantly intelligently valiantly calmly bravely valiantly neatly gracefully peacefully gracefully majestically valiantly cleverly smartly."
-    },
-    "Cave_Bear_Pillar_Like_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Strength",
-            "Con",
-            "Heavy",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 5
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Stomp",
-            "Intimidate",
-            "Knockdown"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly defiantly peacefully confidently politely peacefully valiantly humbly angrily bravely cleanly fluently fluently sweetly solidly valiantly humbly happily competently confidently furiously calmly valiantly majestically lazily valiantly expertly lazily smartly loudly bravely proudly loudly defiantly calmly powerfully violently loyally boldly defiantly fluently lazily gently merrily gracefully smartly valiantly safely violently loudly bravely boldly violently majestically blindly bravely."
-    },
-    "Zombie_Bear_Lumbering_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Undead",
-            "Con",
-            "Toxic",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently valiantly bravely smoothly politely gracefully smoothly boldly valiantly violently competently coldly resolutely confidently confidently excitedly violently confidently proudly cleverly valiantly prudently calmly smartly bravely lazily prudently valiantly safely violently confidently playfully fluently brightly valiantly valiantly bravely safely fluently safely enthusiastically wisely majestically brilliantly brightly cheerfully defiantly violently valiantly enthusiastically calmly bravely calmly loudly confidently elegantly fluently politely deftly violently resolutely safely peacefully calmly."
-    },
-    "Spirit_Bear_Ghostly_Limbs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ursine",
-            "Magic",
-            "Stealth",
-            "Undead_Like",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Invisibility",
-            "Hover",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully gracefully neatly smoothly valiantly safely valiantly politely brightly boldly valiantly quietly defiantly eagerly bravely smartly confidently peacefully proudly furiously lazily boldly valiantly safely valiantly defiantly valiantly confidently bravely cleanly silently fluently silently smoothly competently fluently valiantly valiantly boldly defiantly smartly smartly valiantly smoothly cleanly proudly valiantly calmly confidently loudly valiantly valiantly valiantly efficiently gracefully violently passionately calmly bravely elegantly elegantly fluently valiantly calmly."
-    }
+  "Grizzly_Sturdy_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Strength",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Charge",
+      "Knockdown"
+    ],
+    "description": "Enormous and powerful, the grizzly's sturdy hindlegs are the very essence of raw Ursine strength, capable of propelling the creature with thunderous strides that can shatter bones and send foes sprawling with a single earth-shaking stomp."
+  },
+  "Polar_Bear_Webbed_Paws": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Strength",
+      "Swim",
+      "Cold",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Stomp",
+      "Resist_Cold"
+    ],
+    "description": "Equipped with powerful, webbed paws that span the breadth of a frost giant\u2019s hand, this component endows its bearer with the strength and endurance of a polar bear, allowing for effortless traversal through both the arctic wilderness and icy waters, while also granting resistance to the biting chill of the coldest realms."
+  },
+  "Black_Bear_Nimble_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Agility",
+      "Climb",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Acrobatics",
+      "Leap"
+    ],
+    "description": "Blessed with sinewy, agile hindlegs that grant unparalleled speed and dexterity, this component transforms the black bear into a nimble predator capable of scaling sheer cliffs and bounding across rugged terrains with preternatural ease, its movements a blur of fur and muscle as it defies gravity and terrain alike."
+  },
+  "Panda_Stout_Plantigrade_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Con",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Endurance"
+    ],
+    "description": "Bulging with sheer mass and power, these panda-like legs are built for endurance and brute strength, their sturdy plantigrade design allowing for a powerful, albeit sluggish, walking gait that can crush through underbrush and send tremors through the earth with each deliberate step."
+  },
+  "Sun_Bear_Climbing_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Dexterity",
+      "Climb",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Enveloped in thick, shaggy fur, the Sun_Bear_Climbing_Legs are powerful and dexterous appendages that grant the user unparalleled agility and climbing prowess, allowing them to scale sheer cliffs and traverse treacherous terrains with the grace and strength of a sun bear."
+  },
+  "Sloth_Bear_Inward_Turning_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Con",
+      "Climb",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Endurance"
+    ],
+    "description": "The Sloth Bear's inward-turning legs, a twisted marvel of nature, grant the creature unparalleled stability and strength, bulking up its constitution and sharpening its senses, while bestowing the unique ability to stomp and endure hardships that would cripple lesser beings."
+  },
+  "Spectacled_Bear_Agile_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Agility",
+      "Quadruped",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Leap",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "The Spectacled_Bear_Agile_Legs component bestows upon the bear quadrupedal limbs that are both powerful and nimble, allowing it to scale treacherous inclines with preternatural ease and to execute acrobatic leaps that defy the bear's massive bulk, granting it unparalleled mobility in its mountainous domain."
+  },
+  "Cave_Bear_Pillar_Like_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Strength",
+      "Con",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Intimidate",
+      "Knockdown"
+    ],
+    "description": "Thick, pillar-like legs braced with powerful muscles and sinew, these mighty appendages anchor the cave bear's colossal frame to the ground, granting it unmatched strength and resilience as it roars through the caverns, each step a thunderous testament to its raw power."
+  },
+  "Zombie_Bear_Lumbering_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Undead",
+      "Con",
+      "Toxic",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "The Zombie Bear's lumbering legs, thick with necrotic tissue and dripping with noxious fluids, grant it a staggering presence and a toxic aura that poisons those nearby, while its clumsy gait slows its movement but bolsters its resilience against poison attacks."
+  },
+  "Spirit_Bear_Ghostly_Limbs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ursine",
+      "Magic",
+      "Stealth",
+      "Undead_Like",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Hover",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Emerging from the mist with spectral grace, the Spirit Bear's ghostly limbs seem to defy the laws of nature, allowing it to traverse treacherous terrain without a sound, its innate magic granting it the wisdom to navigate the unseen realms and the agility to evade even the keenest of eyes."
+  }
 }

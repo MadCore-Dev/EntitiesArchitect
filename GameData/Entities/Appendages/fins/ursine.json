@@ -1,307 +1,307 @@
 {
-    "Polar_Bear_Webbed_Paws_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Strength",
-            "Cold"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Resist_Cold"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully valiantly gracefully smoothly competently boldly bravely cleanly valiantly proudly smoothly happily valiantly brightly brightly smoothly prudently cleverly sensibly violently proudly defiantly calmly gracefully calmly competently confidently cleanly valiantly warmly boldly bravely calmly confidently smartly majestically casually defiantly."
-    },
-    "Swamp_Bear_Broad_Tail_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Con",
-            "Strength"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Tail_Swipe"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly valiantly gracefully peacefully boldly safely gently proudly sweetly bravely valiantly confidently smartly cleanly fluently furiously valiantly sensibly proudly warmly competently cleverly safely furiously gently lazily smartly expertly bravely boldly boldly valiantly safely fluently smoothly fluently fluently gracefully bravely proudly peacefully valiantly smartly."
-    },
-    "Sea_Bear_Dorsal_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Agility",
-            "Balance"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Streamlined",
-            "Acrobatics"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually wildly valiantly compliantly defiantly calmly valiantly cleanly cleanly majestically boldly valiantly smartly valiantly smoothly proudly valiantly violently calmly majestically peacefully quietly warmly powerfully violently bravely fluently intelligently valiantly fluently cleverly deftly safely prudently calmly cleverly cleanly cleverly gracefully elegantly peacefully smoothly smoothly boldly warmly resolutely loudly gracefully cleanly bravely confidently bravely calmly bravely bravely valiantly smartly comfortably lovingly boldly lazily."
-    },
-    "Kelp_Bear_Leafy_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Stealth",
-            "Con"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Block"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly gracefully calmly valiantly confidently blindly stably gracefully boldly casually calmly violently calmly calmly valiantly casually fluently smoothly politely intelligently gracefully proudly valiantly gracefully eagerly passionately calmly blindly smartly enthusiastically boldly boldly wildly valiantly wisely boldly patiently valiantly politely lazily casually patiently calmly safely boldly majestically violently calmly resolutely safely boldly valiantly gracefully passionately eagerly elegantly gracefully politely fluently valiantly brilliantly fluently elegantly valiantly intelligently happily lazily bravely valiantly bravely compliantly valiantly smartly smartly angrily violently loudly fluently smartly gently comfortably violently politely vividly smoothly skillfully elegantly bravely boldly."
-    },
-    "Coral_Bear_Sharp_Spined_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Armor",
-            "Piercing",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Counterattack",
-            "Bleed_Procc"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately gracefully valiantly gently humbly humbly warmly competently defiantly smoothly cleverly fluently valiantly smoothly proudly confidently lazily competently patiently bravely bravely passionately loudly lazily fluently smoothly smoothly elegantly smartly valiantly compliantly passionately eloquently majestically sensibly deftly valiantly cleanly politely intelligently resolutely wisely deftly lazily intelligently smartly happily intelligently valiantly safely fluently violently politely violently smoothly elegantly."
-    },
-    "Deep_Sea_Bear_Glowing_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Charisma",
-            "Perception",
-            "Magic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Detect_Magic",
-            "Charm"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly bravely quietly safely boldly valiantly bravely softly bravely safely violently cleanly stably loudly diligently boldly competently valiantly cheerfully fluently lazily smartly safely boldly valiantly politely majestically majestically lazily safely boldly valiantly elegantly gracefully fluently safely defiantly calmly confidently boldly comfortably fluently intelligently proudly casually fluently silently cleanly humbly valiantly cheerfully calmly elegantly violently peacefully majestically sensibly valiantly wisely fluently violently bravely violently bravely wisely gracefully smartly valiantly valiantly compliantly wisely fluently gracefully calmly bravely gracefully safely skillfully cleverly deftly proudly angrily peacefully playfully lazily lazily deftly smoothly sensibly confidently blindly cleanly violently valiantly fluently bravely fluently cleverly valiantly softly brightly stably calmly loudly resolutely majestically intelligently valiantly."
-    },
-    "River_Bear_Strong_Pectoral_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Strength",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Acrobatics"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently valiantly cleanly violently smartly valiantly humbly cleverly valiantly warmly passionately enthusiastically majestically boldly cheerfully brightly gracefully angrily merrily defiantly elegantly efficiently happily gracefully lazily cleverly resolutely smartly sensibly peacefully valiantly smoothly gracefully prudently boldly safely smartly politely expertly bravely calmly gracefully cleanly bravely neatly safely wisely sensibly defiantly confidently cleanly boldly casually silently bravely valiantly fluently deftly blindly gracefully calmly defiantly stably angrily bravely gently bravely passionately lazily bravely resolutely merrily peacefully confidently boldly valiantly wisely smartly peacefully confidently casually wisely defiantly sensibly valiantly eagerly."
-    },
-    "Ice_Bear_Mane_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Cold",
-            "Charisma"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Cold",
-            "Intimidate"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly violently smoothly calmly wildly peacefully solidly calmly warmly confidently intelligently humbly boldly elegantly bravely intelligently fluently violently peacefully competently boldly safely bravely silently bravely valiantly competently proudly cleanly safely confidently merrily valiantly softly fluently cleverly resolutely proudly happily competently lazily cleverly safely silently bravely smartly happily smoothly valiantly cheerfully brightly violently boldly humbly competently smartly warmly lazily deftly confidently confidently safely safely valiantly compliantly boldly smartly gently valiantly smoothly warmly confidently lazily safely smartly warmly confidently carelessly."
-    },
-    "Zombie_Bear_Rotten_Flippers": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Swim",
-            "Undead",
-            "Con",
-            "Toxic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully lazily confidently valiantly bravely smoothly politely valiantly smartly boldly confidently smartly proudly smartly deftly cleverly happily excitedly wildly happily enthusiastically wildly wildly elegantly warmly gently politely valiantly valiantly valiantly efficiently gracefully gracefully playfully majestically bravely smartly valiantly smartly vigorously smoothly bravely competently boldly cheerfully efficiently proudly angrily playfully cleverly deftly."
-    },
-    "Spirit_Bear_Ghostly_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ursine",
-            "Magic",
-            "Swim",
-            "Stealth",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Invisibility",
-            "Aerobatics"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully bravely calmly gently boldly majestically politely cheerfully smartly casually blindly violently lazily prudently calmly confidently vividly powerfully cleanly smartly lazily majestically competently securely gracefully prudently prudently loudly smartly defiantly proudly bravely defiantly lazily prudently resolutely wisely valiantly gently casually cheerfully politely lazily gracefully smartly powerfully valiantly boldly smoothly gracefully warmly confidently gracefully eagerly bravely smoothly smoothly boldly warmly warmly violently powerfully eloquently confidently cleverly resolutely powerfully quietly competently lazily smartly valiantly cheerfully valiantly casually fluently smoothly smartly gently elegantly calmly gracefully passionately excitedly softly sensibly comfortably valiantly cleverly fluently wisely valiantly safely stably."
-    }
+  "Polar_Bear_Webbed_Paws_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Strength",
+      "Cold"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Resist_Cold"
+    ],
+    "description": "The Polar Bear Webbed Paws Fins are a marvel of evolutionary adaptation, blending the brute strength of the ursine with the sleek, efficient design of aquatic fins, allowing the creature to dash through icy waters with unparalleled agility and power, while also granting a natural resistance to the biting cold of the arctic realm."
+  },
+  "Swamp_Bear_Broad_Tail_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Con",
+      "Strength"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Tail_Swipe"
+    ],
+    "description": "The Swamp Bear's Broad Tail Fin is a powerful and sinuous appendage, evolved to navigate the treacherous waters of its swampy domain with ease, its robust musculature and sturdy frame granting the bear exceptional strength and resilience, while its unique swimming abilities and formidable tail swipe make it a formidable adversary in both water and on land."
+  },
+  "Sea_Bear_Dorsal_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Agility",
+      "Balance"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Streamlined",
+      "Acrobatics"
+    ],
+    "description": "The Sea_Bear_Dorsal_Fin is a powerful evolutionary adaptation, a sleek and muscular appendage that grants the creature unparalleled agility and balance in the aquatic domain, enhancing its natural resilience and enabling it to master the arts of streamlined movement and acrobatic feats beneath the waves."
+  },
+  "Kelp_Bear_Leafy_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Stealth",
+      "Con"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Block"
+    ],
+    "description": "The Kelp_Bear_Leafy_Fins are a pair of delicate, leaf-like appendages that sprout from the shoulders of the Kelp Bear, allowing it to blend seamlessly into the kelp forests and glide silently through the water, while also providing a natural shield to protect it from harm."
+  },
+  "Coral_Bear_Sharp_Spined_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Armor",
+      "Piercing",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Counterattack",
+      "Bleed_Procc"
+    ],
+    "description": "The Coral Bear's Sharp Spined Fins are a marvel of aquatic adaptation, vibrant hues shimmering under the water as they slice through the currents with unparalleled grace and lethality, their spines not only providing formidable natural armor but also delivering piercing counterattacks that leave foes bleeding and desperate."
+  },
+  "Deep_Sea_Bear_Glowing_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Charisma",
+      "Perception",
+      "Magic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Charm"
+    ],
+    "description": "The Deep Sea Bear's Glowing Fins, bioluminescent appendages that pulse with an otherworldly glow, enhance the bear's charisma and perception, granting it the mystical abilities to detect magic and charm its aquatic surroundings, making it a formidable and enchanting presence beneath the waves."
+  },
+  "River_Bear_Strong_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Acrobatics"
+    ],
+    "description": "The River_Bear_Strong_Pectoral_Fins are a pair of robust, paddle-like appendages that emerge from the broad shoulders of the river bear, blending seamlessly with its thick, shaggy fur. These powerful fins, capable of both immense strength and surprising agility, allow the river bear to navigate the swift currents with ease, enabling it to perform breathtaking maneuvers such as the Swim_Dash and Acrobatics."
+  },
+  "Ice_Bear_Mane_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Cold",
+      "Charisma"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Cold",
+      "Intimidate"
+    ],
+    "description": "The Ice Bear Mane Fins are a pair of sleek, translucent appendages that sprout from the base of an ursine creature's neck, blending seamlessly with its thick, frosty mane. These mesmerizing fins not only grant the bear unparalleled agility in icy waters but also subtly enhance its aura of menace and allure, making it a formidable presence on land and sea."
+  },
+  "Zombie_Bear_Rotten_Flippers": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Swim",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "The Zombie_Bear_Rotten_Flippers, a grotesque amalgamation of an Ursine warrior and the depths of the ocean, possess flayed, decomposing fins that churn through water with a sluggish, toxic efficiency, their very presence spreading a poisonous cloud that sickens any who dare approach."
+  },
+  "Spirit_Bear_Ghostly_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ursine",
+      "Magic",
+      "Swim",
+      "Stealth",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Aerobatics"
+    ],
+    "description": "The Spirit Bear Ghostly Fins are spectral appendages that sprout from the bear's limbs, granting it the ethereal grace to glide through water and air with supernatural ease, while also bestowing a keen magical intuition and the ability to move unseen in the shadows of the deep."
+  }
 }

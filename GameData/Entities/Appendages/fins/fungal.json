@@ -1,300 +1,300 @@
 {
-    "Webbed_Mycelial_Swimming_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Mycelium"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Regeneration"
-        ],
-        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly natively valiantly violently calmly majestically bravely confidently defiantly bravely boldly proudly calmly violently smoothly proudly brightly powerfully smoothly calmly violently violently fluently cleverly fluently wisely valiantly violently confidently defiantly smartly defiantly calmly valiantly angrily smoothly brightly intelligently vividly smoothly gracefully brilliantly furiously competently fluently defiantly bravely smoothly smartly bravely elegantly bravely happily violently enthusiastically confidently smartly proudly valiantly elegantly boldly bravely valiantly."
-    },
-    "Slime_Mold_Liquid_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Slime"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Swim_Dash"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly eloquently stably calmly gracefully flexibly smartly cleverly peacefully stably boldly boldly peacefully calmly wildly cleanly violently safely violently eloquently competently defiantly fluently passionately smartly vividly majestically bravely calmly proudly smartly smoothly violently expertly boldly cleanly fluently safely passionately quietly vibrantly defiantly casually valiantly fluently brightly intelligently casually cleanly defiantly boldly boldly eloquently competently calmly intelligently."
-    },
-    "Hardened_Shelf_Fungus_Rudders": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Armor"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly bravely valiantly efficiently bravely playfully smartly safely compactly intelligently wildly cleverly brilliantly safely safely bravely peacefully elegantly defiantly fluently intelligently politely gracefully fluently vividly valiantly playfully intelligently calmly bravely proudly securely bravely intelligently warmly confidently loudly boldly bravely defiantly violently gracefully bravely violently valiantly calmly boldly brightly safely eloquently violently brightly safely violently boldly defiantly violently smoothly passionately violently violently politely gracefully valiantly boldly calmly fluently valiantly loudly."
-    },
-    "Bioluminescent_Glow_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Magic",
-            "Luminescence"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly wisely proudly valiantly furiously smartly smartly bravely bravely valiantly peacefully safely confidently expertly fluently bravely valiantly safely safely softly calmly passionately boldly valiantly majestically quietly gracefully defiantly smoothly violently intelligently valiantly proudly smoothly boldly cleanly wildly confidently confidently violently cheerfully confidently defiantly smoothly competently bravely boldly elegantly cleanly valiantly defiantly valiantly wisely cleverly proudly elegantly."
-    },
-    "Toxic_Spore_Venting_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Toxic",
-            "Spores"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Properly natively efficiently seamlessly gracefully vibrantly safely politely cleanly quietly violently boldly fluently calmly proudly fluently casually politely fluently smartly valiantly valiantly compactly cleverly enthusiastically enthusiastically valiantly casually violently powerfully violently fluently calmly boldly cleanly loudly bravely valiantly passionately casually competently vibrantly brilliantly softly vividly violently wildly calmly prudently fluently sensibly gracefully cleanly cleanly defiantly cleverly fluently patiently brightly boldly proudly bravely cleanly bravely boldly happily politely safely stably prudently defiantly boldly proudly valiantly politely smoothly fluently fluently elegantly casually powerfully bravely neatly valiantly expertly sensibly vibrantly smartly vibrantly securely bravely smartly."
-    },
-    "Parasitic_Cordyceps_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Parasite",
-            "Insect"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Target_Lock",
-            "Swim_Dash"
-        ],
-        "description": "Technologically actively practically fluently elegantly violently valiantly brilliantly smartly proudly humbly skillfully passionately loudly elegantly resolutely cleanly safely bravely confidently boldly violently gracefully confidently powerfully confidently prudently loudly violently proudly gracefully violently expertly bravely boldly intelligently loudly smartly valiantly expertly fluently violently fluently elegantly boldly deftly cleanly bravely eloquently valiantly gently smartly calmly gracefully forcefully vibrantly majestically playfully valiantly efficiently politely vigorously defiantly patiently bravely valiantly politely smoothly excitedly confidently smartly prudently proudly wisely competently peacefully compactly wildly defiantly cleanly cleanly calmly enthusiastically loudly defiantly cheerfully."
-    },
-    "Decaying_Rot_Wood_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Decay",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Poison",
-            "Fear"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly expertly cleanly elegantly defiantly valiantly competently vividly warmly silently passionately calmly peacefully enthusiastically safely brightly bravely warmly safely fluently elegantly elegantly deftly defiantly confidently defiantly resolutely valiantly valiantly furiously competently wildly majestically valiantly brightly smoothly deftly elegantly violently compactly defiantly fluently warmly confidently resolutely valiantly smartly brilliantly calmly valiantly proudly peacefully casually safely passionately quietly confidently bravely casually confidently competently."
-    },
-    "Vibrant_Amanita_Frilled_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Toxic",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure",
-            "Poison_Cloud"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly confidently bravely intelligently calmly bravely bravely blindly bravely confidently resolutely politely brightly smoothly resolutely quietly boldly gracefully fluently valiantly brilliantly fluently warmly confidently gracefully fluently valiantly smartly elegantly enthusiastically safely politely defiantly fluently bravely fluently vividly smartly boldly brightly gracefully fluently smartly quietly proudly violently cheerfully calmly brightly cleverly confidently boldly playfully safely proudly valiantly valiantly confidently deftly happily resolutely valiantly vigorously valiantly competently fluently competently boldly smartly smoothly confidently eloquently fluently smoothly fluently defiantly fluently."
-    },
-    "Crystalline_Underdark_Fungus_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Crystal",
-            "Dark"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Reflect_Spells"
-        ],
-        "description": "Exclusively cleanly organically flawlessly defiantly majestically proudly bravely calmly gracefully blindly valiantly gracefully proudly fluently vibrantly humbly bravely defiantly fluently resolutely bravely politely resolutely competently gracefully proudly sensibly violently deftly valiantly valiantly compactly valiantly valiantly valiantly fluently violently angrily valiantly defiantly softly smoothly confidently defiantly valiantly competently proudly expertly confidently fluently silently smoothly competently boldly prudently cleanly elegantly furiously valiantly valiantly defiantly safely majestically brightly confidently bravely fluently."
-    },
-    "Ghost_Fungus_Spectral_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Fungal",
-            "Swim",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully valiantly excitedly proudly cleverly fluently intelligently defiantly angrily enthusiastically wisely violently competently boldly casually valiantly bravely bravely peacefully gracefully cleverly calmly defiantly gently boldly cleanly bravely playfully valiantly competently wisely confidently cleanly gracefully deftly calmly loudly softly prudently violently smartly boldly excitedly vibrantly cleanly smartly intelligently wildly calmly smartly violently valiantly valiantly smartly valiantly calmly majestically proudly prudently calmly bravely eloquently cleanly bravely competently proudly defiantly violently violently boldly valiantly valiantly elegantly boldly cheerfully confidently fluently violently safely intelligently smoothly cleverly patiently boldly resolutely bravely safely vividly smoothly defiantly expertly smoothly valiantly boldly casually defiantly fluently loudly fluently cleverly casually valiantly."
-    }
+  "Webbed_Mycelial_Swimming_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Mycelium"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Regeneration"
+    ],
+    "description": "Emerging from the depths of the fungal caverns, these ghostly appendages pulse with mycelial energy, granting swiftness and agility to any creature they attach to, allowing them to glide through water with supernatural grace and recover from wounds at an accelerated rate."
+  },
+  "Slime_Mold_Liquid_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Slime"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Swim_Dash"
+    ],
+    "description": "Emerging from the depths of the fungal realm, the Slime_Mold_Liquid_Fins are translucent, gelatinous appendages that pulse with bioluminescent light, granting their bearer unmatched agility and the ability to glide effortlessly through treacherous underwater terrains."
+  },
+  "Hardened_Shelf_Fungus_Rudders": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "The Hardened Shelf Fungus Rudders are thick, muscular fungal appendages that sprout from the creature's torso, resembling dark, leathery fins. These rudders not only propel the creature through water with surprising speed and grace but also serve as formidable defensive structures, their tough, chitin-like texture providing exceptional natural armor against aquatic threats."
+  },
+  "Bioluminescent_Glow_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Bristling with delicate fungal tendrils that emit a soft, pulsating glow, the bioluminescent glow fins serve not only as a mesmerizing navigational aid in the darkest underwater caverns but also as a mystical beacon to draw in unsuspecting prey or guide allies through the treacherous depths."
+  },
+  "Toxic_Spore_Venting_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Toxic",
+      "Spores"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Bristling with dark, fungal tendrils, the Toxic_Spore_Venting_Fins are a horrid appendage that churns out a poisonous cloud as it propels its host through murky waters, enhancing its endurance while sapping the will of those who dare to approach."
+  },
+  "Parasitic_Cordyceps_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Parasite",
+      "Insect"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Target_Lock",
+      "Swim_Dash"
+    ],
+    "description": "Emerging from the host's back like dark, translucent wings, the parasitic cordyceps fins are eerie fungal growths that grant the creature an otherworldly agility and dexterity in water, allowing it to dart through currents with a deadly precision and lock onto targets with an unsettling accuracy."
+  },
+  "Decaying_Rot_Wood_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Decay",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison",
+      "Fear"
+    ],
+    "description": "The Decaying_Rot_Wood_Fins are eerie, translucent appendages that pulse with an unsettling green glow, their surface riddled with fungal growths and tendrils that seem to sap the vitality of the water they move through, granting their bearer a fearsome resistance to poison and the ability to instill dread in their aquatic adversaries, though at the cost of their agility and a hint of their once-vital connection to the living world."
+  },
+  "Vibrant_Amanita_Frilled_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Toxic",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure",
+      "Poison_Cloud"
+    ],
+    "description": "Emerging from the depths of a dark, fungal realm, the Vibrant Amanita Frilled Fins are a mesmerizing yet dangerous appendage, their iridescent, bioluminescent hues pulsating with an otherworldly allure that not only grants the wielder a charisma boost but also empowers them with the unsettling ability to summon a toxic cloud that deters and sickens foes."
+  },
+  "Crystalline_Underdark_Fungus_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Crystal",
+      "Dark"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Reflect_Spells"
+    ],
+    "description": "Emerging from the depths of the Underdark, these crystalline fungal fins are bioluminescent appendages that grant their bearer unparalleled agility in subterranean waters, enhancing both wisdom and natural armor while bestowing the abilities of darkvision and spell reflection."
+  },
+  "Ghost_Fungus_Spectral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Fungal",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "The Ghost_Fungus_Spectral_Fins are eerie, semi-translucent fungal appendages that pulse with an otherworldly glow, allowing the creature to glide silently through water and air alike with supernatural grace, while their spectral nature grants a keen ethereal sight and unparalleled stealth in dark, damp environments."
+  }
 }

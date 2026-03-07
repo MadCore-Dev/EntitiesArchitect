@@ -1,297 +1,297 @@
 {
-    "Heavy_Iron_Treads": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Knockback",
-            "Tireless"
-        ],
-        "description": "Explicitly actively safely effectively completely cleanly securely smoothly completely expertly powerfully optimally cleverly boldly safely cleanly compactly safely cleanly valiantly violently smartly safely powerfully loudly playfully fluently gracefully boldly loudly majestically smartly smartly vigorously brilliantly smartly violently gracefully playfully smartly peacefully expertly violently boldly bravely confidently proudly cleanly bravely safely confidently valiantly brilliantly politely violently humbly boldly intelligently smartly boldly politely boldly violently elegantly safely valiantly cleanly bravely neatly compactly intelligently boldly smoothly violently bravely gracefully confidently competently violently bravely stably valiantly prudently prudently powerfully."
-    },
-    "Clockwork_Spider_Like_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Clockwork",
-            "Construct",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Aerobatics"
-        ],
-        "description": "Securely cleanly expertly smoothly smoothly securely flawlessly dynamically creatively correctly smoothly elegantly boldly politely defiantly peacefully calmly vividly valiantly safely gracefully bravely politely loudly fluently vigorously confidently cleanly powerfully boldly calmly rationally casually politely valiantly powerfully valiantly boldly vibrantly valiantly brightly quietly bravely competently bravely safely boldly loudly bravely proudly proudly flexibly calmly bravely quietly valiantly valiantly comfortably passionately cleverly cheerfully vibrantly fluently politely defiantly defiantly bravely forcefully smartly competently valiantly happily bravely silently violently calmly defiantly gracefully happily gracefully defiantly fluently passionately bravely gracefully cleanly elegantly efficiently."
-    },
-    "Gargoyle_Stone_Pillars": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Stone",
-            "Construct",
-            "Gargoyle"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Smoothly expertly actively safely securely organically securely cleanly flawlessly smartly rationally brilliantly expertly proudly loudly defiantly brightly calmly comfortably competently cleverly vigorously safely proudly majestically defiantly gracefully sweetly violently smartly bravely loudly playfully cleanly valiantly bravely humbly deftly gracefully boldly powerfully happily smartly peacefully peacefully bravely boldly passionately valiantly humbly proudly valiantly elegantly softly intelligently powerfully smartly fluently smartly gracefully valiantly angrily softly gently calmly bravely calmly bravely quietly warmly safely bravely fluently violently intelligently smartly casually cheerfully valiantly expertly defiantly bravely bravely peacefully loudly solidly defiantly."
-    },
-    "Steam_Powered_Leaping_Pistons": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Steam",
-            "Construct",
-            "Leap"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Overdrive"
-        ],
-        "description": "Ideally securely successfully cleanly logically perfectly smartly magically exactly perfectly smartly valiantly comfortably bravely boldly bravely valiantly violently calmly intelligently passionately cleverly casually fluently gracefully cleverly proudly wisely valiantly safely stably safely fluently valiantly valiantly defiantly cheerfully vividly boldly gracefully violently safely defiantly valiantly competently fluently brightly majestically powerfully boldly violently bravely valiantly safely fluently valiantly cleverly valiantly wildly confidently peacefully confidently fluently elegantly smoothly confidently gracefully smoothly rationally proudly eloquently cleverly stably prudently safely comfortably rationally defiantly calmly violently expertly boldly stably gracefully expertly competently competently cleverly fluently boldly warmly intelligently bravely happily."
-    },
-    "Living_Wood_Root_Strides": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Wood",
-            "Construct",
-            "Plant_Like"
-        ],
-        "traversal": [
-            "Walk",
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Regeneration",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Clearly logically completely expertly completely solidly flawlessly logically cleanly correctly casually valiantly proudly majestically deftly valiantly happily smoothly valiantly happily gracefully defiantly bravely smoothly calmly proudly majestically casually angrily bravely gently calmly elegantly smoothly violently softly bravely calmly cleanly safely passionately playfully defiantly bravely confidently bravely defiantly casually loudly competently quietly loudly smartly intelligently proudly politely competently flexibly defiantly boldly bravely expertly bravely boldly cheerfully intelligently gracefully calmly stably stably eloquently stably proudly defiantly politely fluently boldly stably defiantly smartly fluently defiantly bravely elegantly resolutely happily majestically politely vigorously proudly cheerfully calmly smartly defiantly cleverly valiantly violently casually wisely valiantly violently confidently calmly boldly defiantly softly fluently valiantly bravely."
-    },
-    "Crystal_Hover_Pods": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Crystal",
-            "Construct",
-            "Hover",
-            "Magic"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Levitate",
-            "Light"
-        ],
-        "description": "Thoroughly gracefully dynamically safely dynamically completely perfectly optimally flawlessly solidly brilliantly violently smartly valiantly cheerfully warmly smartly prudently safely gracefully intelligently smartly valiantly calmly boldly furiously happily casually powerfully valiantly calmly smartly politely valiantly prudently gracefully competently violently humbly stably bravely confidently furiously gracefully bravely bravely fluently softly safely fluently deftly fluently valiantly sweetly majestically elegantly valiantly eloquently playfully smartly passionately calmly cleanly prudently softly boldly humbly defiantly casually brightly bravely powerfully bravely proudly skillfully boldly deftly loudly resolutely valiantly valiantly politely calmly defiantly bravely bravely elegantly gracefully valiantly violently smoothly valiantly fluently valiantly cleverly."
-    },
-    "Necrotic_Stitched_Lumbering_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Flesh",
-            "Construct",
-            "Undead_Like",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Tireless"
-        ],
-        "description": "Securely tightly exactly correctly cleanly gracefully gracefully naturally successfully flexibly smartly valiantly bravely warmly valiantly passionately defiantly competently happily boldly smoothly confidently loudly proudly smoothly furiously compactly cleverly violently vigorously competently quietly valiantly humbly violently sweetly skillfully calmly politely fluently angrily casually silently safely cleverly competently boldly cleanly proudly competently peacefully valiantly proudly wisely prudently valiantly defiantly casually quietly elegantly boldly proudly boldly passionately fluently valiantly proudly happily comfortably cleanly bravely intelligently safely softly smoothly fluently warmly humbly violently valiantly powerfully gracefully happily stably deftly smoothly loudly confidently bravely patiently fluently prudently safely valiantly smoothly defiantly smartly casually."
-    },
-    "Mithril_Bladed_Skating_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Speed"
-        ],
-        "traversal": [
-            "Walk",
-            "Sprint"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Tireless",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Seamlessly seamlessly explicitly completely gracefully cleanly successfully gracefully skillfully securely safely smoothly confidently bravely humbly safely boldly sensibly competently cleverly rationally violently resolutely proudly bravely cleverly defiantly calmly violently prudently skillfully majestically deftly passionately vibrantly smartly intelligently boldly smartly bravely gracefully elegantly wisely proudly bravely sweetly defiantly calmly politely smartly silently calmly peacefully sweetly intelligently humbly wisely defiantly softly calmly forcefully confidently valiantly quietly safely bravely prudently valiantly cheerfully cleverly gracefully casually bravely valiantly competently fluently loudly peacefully calmly majestically passionately bravely."
-    },
-    "Scrap_Metal_Spring_Stilts": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Scrap",
-            "Construct",
-            "Metal"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Practically fluently completely intelligently seamlessly successfully peacefully organically expertly creatively smartly cleanly valiantly happily politely majestically wisely sweetly boldly proudly calmly happily cleanly defiantly proudly smoothly sweetly defiantly softly bravely defiantly cleverly securely valiantly competently vividly defiantly elegantly excitedly defiantly smoothly eloquently boldly valiantly proudly proudly safely intelligently bravely bravely politely skillfully smoothly competently fluently valiantly powerfully bravely humbly happily fluently deftly safely wisely cleanly boldly bravely defiantly violently politely passionately gracefully cleverly casually safely elegantly gently bravely resolutely vigorously proudly violently furiously violently comfortably safely fluently competently valiantly calmly bravely valiantly forcefully calmly politely stably intelligently competently bravely prudently wisely casually bravely."
-    },
-    "Porcelain_Doll_Jointed_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Ceramic",
-            "Construct",
-            "Doll_Like"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Weirdly cleanly explicitly seamlessly gracefully correctly beautifully practically solidly smartly gracefully gracefully gracefully deftly fluently bravely brilliantly warmly wisely fluently bravely gracefully forcefully casually expertly boldly sweetly valiantly happily bravely proudly elegantly confidently gracefully violently boldly angrily bravely cleanly valiantly wildly intelligently defiantly securely humbly smoothly violently smoothly wildly bravely brightly happily bravely bravely resolutely comfortably fluently gently neatly defiantly valiantly competently politely majestically violently valiantly calmly boldly powerfully bravely majestically cheerfully intelligently rationally brightly majestically softly intelligently bravely gently valiantly bravely smoothly fluently eloquently elegantly elegantly softly safely prudently."
-    }
+  "Heavy_Iron_Treads": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback",
+      "Tireless"
+    ],
+    "description": "Forged from ancient iron in the depths of a dark forgesmith's lair, the Heavy Iron Treads clank with each step, augmenting the wearer's constitution while their unwieldy weight slows them down, granting resilience against the brutal forces of enemies and the relentless march of fatigue."
+  },
+  "Clockwork_Spider_Like_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Clockwork",
+      "Construct",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "The clockwork spider-like legs are a marvel of mechanical engineering, with articulated joints that mimic the fluid movement of arachnids, granting their wielder unparalleled agility and dexterity, allowing them to scale sheer surfaces with ease and perform acrobatic feats with precision."
+  },
+  "Gargoyle_Stone_Pillars": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Stone",
+      "Construct",
+      "Gargoyle"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Rising from the ancient stone walls, the Gargoyle Stone Pillars are imposing constructs with thick, sturdy legs that are rooted in the ground as if they were an integral part of the architecture itself, their stone appendages adding both a menacing presence and a significant boost to their natural defenses."
+  },
+  "Steam_Powered_Leaping_Pistons": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Steam",
+      "Construct",
+      "Leap"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Overdrive"
+    ],
+    "description": "The Steam_Powered_Leaping_Pistons are mechanical marvels, augmenting the legs with pistons that hiss and pop as they compress steam, granting their wearer unparalleled agility and speed, allowing them to bound across the battlefield with the grace of a dancer and the power of a machine."
+  },
+  "Living_Wood_Root_Strides": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Wood",
+      "Construct",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "The Living Wood Root Strides are a formidable set of legs crafted from gnarled, living wood, capable of both walking with a surprisingly swift and silent gait and burrowing through the earth like serpentine roots, granting their bearer resilience and strength while allowing them to traverse any terrain effortlessly."
+  },
+  "Crystal_Hover_Pods": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Crystal",
+      "Construct",
+      "Hover",
+      "Magic"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Levitate",
+      "Light"
+    ],
+    "description": "Emerging from the crystalline exoskeleton, these translucent pods hum with arcane energy, seamlessly lifting their host above the ground while granting an ethereal grace and a radiant glow that can illuminate even the darkest corners."
+  },
+  "Necrotic_Stitched_Lumbering_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Flesh",
+      "Construct",
+      "Undead_Like",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tireless"
+    ],
+    "description": "These Necrotic Stitched Legs are a gruesome amalgamation of putrid flesh and crude, rusty joints, cobbled together to form a heavy, lumbering appendage that grants immense physical endurance but repels any sense of grace or charm, their unnatural gait inspiring dread and awe in equal measure."
+  },
+  "Mithril_Bladed_Skating_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Speed"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tireless",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Forged from enchanted mithril and intricately designed to mimic the agile joints of a living creature, these mechanical legs grant their bearer unmatched speed and grace, allowing them to glide across even the most treacherous terrain with supernatural ease."
+  },
+  "Scrap_Metal_Spring_Stilts": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Scrap",
+      "Construct",
+      "Metal"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Twisted scraps of metal and springs form the unsettlingly mechanical stilts that serve as legs, granting an unnatural leap and a spring in the step that echoes a cold, industrial agility, though the construct's presence diminishes any warmth of charm."
+  },
+  "Porcelain_Doll_Jointed_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Ceramic",
+      "Construct",
+      "Doll_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Crafted from the finest porcelain, these jointed legs move with an unsettling grace, their delicate appearance belied by the silent efficiency of their walk, drawing in those who find themselves entranced by their otherworldly beauty and charm."
+  }
 }

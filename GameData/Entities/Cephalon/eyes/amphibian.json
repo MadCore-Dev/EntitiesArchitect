@@ -1,241 +1,241 @@
 {
-    "Bulbous_Periscopic_Eyes": {
-        "tags": [
-            "Eye",
-            "Aquatic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Classic frog eyes sitting extremely high atop the skull. This allows the mostly submerged entity to perfectly survey the shoreline for terrestrial prey while remaining 95% hidden beneath the murky water."
-    },
-    "Horizontal_Slit_Pupils": {
-        "tags": [
-            "Eye",
-            "Slit",
-            "Amphibian",
-            "Toad_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Rectangular, horizontally oriented pupils characteristic of ground-dwelling toads. They provide a spectacularly wide panoramic field of view to scan the horizon for creeping predators."
-    },
-    "Vertical_Slit_Pupils": {
-        "tags": [
-            "Eye",
-            "Slit",
-            "Nocturnal",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision"
-        ],
-        "description": "Cat-like vertical slits evolved for precise ambush hunting in low-light jungles. They allow for incredibly sharp depth perception, calculating the exact distance required to strike a moth mid-air."
-    },
-    "Heart_Shaped_Pupils": {
-        "tags": [
-            "Eye",
-            "Specialized",
-            "Amphibian",
-            "Bombina"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Uniquely shaped pupils that organically filter out the intensely blinding glare characteristic of shallow, sun-dappled streams. They ensure perfect vision when looking up toward the surface."
-    },
-    "Nictitating_Membrane_Goggles": {
-        "tags": [
-            "Eye",
-            "Membrane",
-            "Aquatic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Clear_Sight"
-        ],
-        "description": "A heavily thickened, perfectly transparent third eyelid. When the entity dives, this film sweeps sideways across the eye, acting as built-in biological swimming goggles to eliminate underwater blur and protect the cornea."
-    },
-    "Reduced_Subterranean_Ocelli": {
-        "tags": [
-            "Eye",
-            "Blind",
-            "Burrowing",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 1
-            },
-            {
-                "target": "accuracy",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Blindsight"
-        ],
-        "description": "Vestigial, tiny eyes completely covered by a layer of translucent skin. They cannot form images, only vaguely sensing the stark difference between absolute subterranean dark and surface daylight."
-    },
-    "Retractable_Ocular_Bulbs": {
-        "tags": [
-            "Eye",
-            "Retractable",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Eyes lacking a bony floor beneath the socket. When swallowing an impossibly large meal, the entity intentionally yanks its eyes violently down into the roof of its mouth to physically help shove the struggling prey down its throat."
-    },
-    "Tapetum_Lucidum_Amphibiorum": {
-        "tags": [
-            "Eye",
-            "Night_Vision",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision"
-        ],
-        "description": "A highly specialized mirrored layer behind the retina identical to a cat's. At night, encountering the entity reveals two glowing, terrifyingly bright orbs floating seamlessly in the dark swamp foliage."
-    },
-    "Parietal_Third_Eye": {
-        "tags": [
-            "Eye",
-            "Parietal",
-            "Sensory",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Uncanny_Dodge"
-        ],
-        "description": "A primitive, distinct photoreceptive organ situated squarely on the top of the head between the main eyes. It specifically watches the sky for the sudden, dark shadow of a stooping hawk, triggering an instant evasive reflex."
-    },
-    "Bifocal_Aquatic_Lenses": {
-        "tags": [
-            "Eye",
-            "Bifocal",
-            "Aquatic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Keen Sight"
-        ],
-        "description": "The eye is literally split perfectly in half horizontally. The upper half is adapted for precisely focusing in the air, while the lower half is shaped perfectly for water. The entity floats at the exact waterline, watching dual overlapping realities."
-    }
+  "Bulbous_Periscopic_Eyes": {
+    "tags": [
+      "Eye",
+      "Aquatic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "These bulbous, periscopic eyes are adapted for both aquatic and amphibious environments, granting enhanced perception and stealth capabilities, allowing their owners to see through murky waters and blend into shadows with eerie precision."
+  },
+  "Horizontal_Slit_Pupils": {
+    "tags": [
+      "Eye",
+      "Slit",
+      "Amphibian",
+      "Toad_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the murky depths of the swamp, the Horizontal_Slit_Pupils gleam with an unsettling intelligence, their toad-like eyes piercing through the veil of darkness, granting enhanced perception and wisdom to those who bear them."
+  },
+  "Vertical_Slit_Pupils": {
+    "tags": [
+      "Eye",
+      "Slit",
+      "Nocturnal",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision"
+    ],
+    "description": "Vertical slit pupils, a hauntingly elegant adaptation of nocturnal amphibians, enhance both accuracy and perception in the darkest of environments, granting the wielder an unsettling yet advantageous vision that pierces through the veil of night."
+  },
+  "Heart_Shaped_Pupils": {
+    "tags": [
+      "Eye",
+      "Specialized",
+      "Amphibian",
+      "Bombina"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Heart-Shaped Pupils, a unique trait of the Bombina amphibian, endow its wielder with a heightened sense of awareness and agility, enhancing evasion by one tier, as if the very shape of the eyes bestows a mystical allure that distracts foes and grants moments of stealthy grace."
+  },
+  "Nictitating_Membrane_Goggles": {
+    "tags": [
+      "Eye",
+      "Membrane",
+      "Aquatic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Clear_Sight"
+    ],
+    "description": "Woven from the resilient, translucent membranes of ancient amphibian creatures, these goggles provide a second layer of protection and clarity, enhancing the wearer's perception as they glide through murky underwater realms or navigate through dense, foggy forests."
+  },
+  "Reduced_Subterranean_Ocelli": {
+    "tags": [
+      "Eye",
+      "Blind",
+      "Burrowing",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "accuracy",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "With eyes that have atrophied from the perpetual darkness of their underground realm, these amphibious creatures rely on their highly attuned sense of Blindsight to navigate and hunt, their perception and accuracy diminished but not hindered by the absence of light."
+  },
+  "Retractable_Ocular_Bulbs": {
+    "tags": [
+      "Eye",
+      "Retractable",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Equipped with retractable ocular bulbs, this amphibian entity can hide its sensitive eyes from harsh environments or emit a hypnotic glow to lure prey, subtly enhancing its cunning nature."
+  },
+  "Tapetum_Lucidum_Amphibiorum": {
+    "tags": [
+      "Eye",
+      "Night_Vision",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision"
+    ],
+    "description": "Borrowing the eerie, luminous eyes of an amphibian, the Tapetum Lucidum Amphibiorum grants its bearer unparalleled night vision, allowing them to see through the darkest of nights with a haunting, reflective glow that enhances their perception and accuracy in the shadows."
+  },
+  "Parietal_Third_Eye": {
+    "tags": [
+      "Eye",
+      "Parietal",
+      "Sensory",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Uncanny_Dodge"
+    ],
+    "description": "Embedded deep within the amphibian's skull, this parietal third eye glows with an otherworldly luminescence, granting the creature heightened awareness and an uncanny ability to evade danger, its innate senses sharpened to near-perfect clarity."
+  },
+  "Bifocal_Aquatic_Lenses": {
+    "tags": [
+      "Eye",
+      "Bifocal",
+      "Aquatic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Bifocal Aquatic Lenses are crystalline orbs that shimmer with an iridescent glow, perfectly adapted for both underwater and terrestrial vision, enhancing the wearer's perception and accuracy in any environment."
+  }
 }

@@ -1,267 +1,267 @@
 {
-    "Horse_Wide_Set_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Perception",
-            "Utility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Alert"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately fluently fluently valiantly calmly valiantly softly elegantly smoothly fluently proudly loudly comfortably fluently bravely confidently safely playfully valiantly cleverly valiantly warmly defiantly excitedly valiantly valiantly valiantly compactly sensibly fluently violently smartly cheerfully fluently competently safely bravely defiantly furiously."
-    },
-    "Goat_Horizontal_Pupils": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Perception",
-            "Balance"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 4
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Alert"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly valiantly competently boldly loudly valiantly violently calmly smartly resolutely valiantly boldly boldly violently calmly safely valiantly cleverly bravely valiantly fluently bravely fluently bravely gracefully cleanly defiantly bravely violently valiantly smoothly peacefully proudly valiantly defiantly valiantly fluently lazily smartly peacefully."
-    },
-    "Camel_Lash_Shielded_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Defense",
-            "Con"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Wind",
-            "Endurance"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly smartly violently bravely angrily gently smartly fluently violently bravely valiantly peacefully safely deftly cleverly gracefully bravely violently elegantly smoothly valiantly softly wildly gracefully brightly fluently casually prudently bravely."
-    },
-    "Deer_Large_Docile_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Charisma",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Alert"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly politely valiantly gracefully resolutely calmly violently playfully prudently warmly resolutely violently fluently politely deftly fluently gracefully wildly bravely peacefully valiantly boldly eagerly smartly calmly defiantly bravely sensibly fluently defiantly bravely resolutely."
-    },
-    "Boar_Small_Beady_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Defense"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Piercing"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually quietly boldly bravely quietly softly violently defiantly cleanly confidently politely stably blindly politely smoothly competently valiantly cheerfully fluently valiantly valiantly prudently calmly valiantly smoothly fluently cleanly valiantly fluently politely."
-    },
-    "Rhino_Thick_Lidded_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Armor"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Piercing",
-            "Block"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly cheerfully smoothly smartly lazily violently boldly valiantly warmly safely calmly resolutely valiantly cleanly gently confidently gracefully smoothly valiantly neatly efficiently bravely cleverly calmly humbly defiantly loudly."
-    },
-    "Hippopotamus_Protruding_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Perception",
-            "Swim"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Alert",
-            "Water_Breathing"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly cleanly happily expertly lazily gracefully bravely cleverly valiantly valiantly confidently prudently gracefully gracefully peacefully stably defiantly eloquently bravely bravely peacefully boldly resolutely safely cheerfully safely angrily silently expertly confidently bravely proudly intelligently wildly competently fluently passionately."
-    },
-    "Bison_Deep_Set_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Con",
-            "Heavy"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Cold"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly comfortably violently competently fluently valiantly calmly bravely playfully softly valiantly softly fluently cleanly safely safely gently fluently elegantly boldly resolutely violently valiantly calmly boldly safely bravely smoothly valiantly boldly casually defiantly calmly valiantly gracefully gracefully expertly proudly smartly eloquently solemnly cleanly smartly calmly wisely deftly."
-    },
-    "Zombie_Stag_Milky_Dead_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Undead",
-            "Con"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly boldly cleanly proudly gracefully violently proudly valiantly smoothly peacefully safely gracefully confidently boldly fluently valiantly valiantly valiantly cheerfully fluently violently bravely boldly calmly securely safely bravely loudly brightly loudly defiantly proudly silently."
-    },
-    "Ghost_Horse_Glowing_Eyes": {
-        "tags": [
-            "Eyes",
-            "Cephalon",
-            "Ungulate",
-            "Vision",
-            "Magic",
-            "Perception",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Detect_Magic"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly boldly cleanly boldly wisely valiantly intelligently valiantly lazily boldly smartly vigorously resolutely furiously majestically safely brightly gracefully bravely proudly politely smartly boldly intelligently bravely boldly passionately bravely eloquently neatly valiantly calmly confidently humbly lazily valiantly expertly bravely smartly gracefully smartly solemnly confidently calmly."
-    }
+  "Horse_Wide_Set_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Perception",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "With a pair of wide-set eyes, this horse possesses an enhanced field of vision and heightened perception, allowing it to detect potential threats from a distance, a trait that makes it a vigilant and reliable companion on the darkest of nights."
+  },
+  "Goat_Horizontal_Pupils": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Perception",
+      "Balance"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Alert"
+    ],
+    "description": "The Goat_Horizontal_Pupils component endows the bearer with elongated, slit-like eyes reminiscent of a goat's, enhancing their perception to pierce through the shadows and granting an innate sense of balance that allows them to traverse treacherous terrain with ease, while also bestowing the ability to ignore any penalties from rough or uneven ground."
+  },
+  "Camel_Lash_Shielded_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Defense",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Wind",
+      "Endurance"
+    ],
+    "description": "Embedded within the cephalon's head, these shielded eyes resemble the fierce gaze of a desert-dwelling camel, granting unparalleled vision and defense against blinding winds, while also bolstering the wearer's constitution, bestowing resilience and endurance in the harshest of environments."
+  },
+  "Deer_Large_Docile_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Charisma",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Alert"
+    ],
+    "description": "These large, docile eyes, gleaming with an otherworldly charm, enhance the charisma and perception of the beholder, granting them the uncanny ability to charm and remain ever vigilant in the shadowy realms of the dark fantasy world."
+  },
+  "Boar_Small_Beady_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Defense"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Piercing"
+    ],
+    "description": "Bristling with a keen awareness of their surroundings, the small boar's beady eyes pierce through the thickest underbrush, granting them an innate sense of danger and defense, though at the cost of a slightly diminished perception of the world beyond their immediate threat."
+  },
+  "Rhino_Thick_Lidded_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Piercing",
+      "Block"
+    ],
+    "description": "Beneath the thick, bony ridges of the rhinoceros's lidded eyes, a layer of natural armor protects its vision from harm, granting it resistance to piercing attacks and the ability to block with its formidable brow."
+  },
+  "Hippopotamus_Protruding_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Perception",
+      "Swim"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Water_Breathing"
+    ],
+    "description": "Brimming with an eerie, otherworldly glow, the Hippopotamus_Protruding_Eyes component manifests as a pair of bulbous, translucent orbs that protrude from the forehead, granting enhanced perception and a disturbingly acute awareness of one's surroundings, while also bestowing the ability to breathe underwater, allowing for effortless traversal through aquatic domains."
+  },
+  "Bison_Deep_Set_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Cold"
+    ],
+    "description": "Deep-set eyes, dark and piercing, bore into the soul with an unyielding gaze, their heavy brow providing a shield against the harshest of environments, granting the bearer a resilience to cold and a rugged constitution."
+  },
+  "Zombie_Stag_Milky_Dead_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison"
+    ],
+    "description": "The Zombie Stag's milky dead eyes, a chilling beacon of the undead, emit an eerie glow that pierces through the darkest of nights, though their once-pristine vision has been clouded by the corruption of death, now offering a twisted perception that grants resilience against the venomous bites of their nightmarish kin."
+  },
+  "Ghost_Horse_Glowing_Eyes": {
+    "tags": [
+      "Eyes",
+      "Cephalon",
+      "Ungulate",
+      "Vision",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Detect_Magic"
+    ],
+    "description": "The spectral eyes of the Ghost Horse burn with an otherworldly glow, piercing through the veil of darkness and revealing the hidden currents of arcane energy that weave through the night, enhancing the rider's wisdom and perception to detect even the faintest whispers of magic."
+  }
 }

@@ -1,281 +1,281 @@
 {
-    "Reinforced_Sturgeon_Scutes": {
-        "tags": [
-            "Integument",
-            "Armor",
-            "Piscine",
-            "Heavy"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly bravely bravely valiantly politely smartly proudly bravely smartly fluently valiantly valiantly compactly sensibly valiantly confidently wisely passionately passionately humbly elegantly violently defiantly boldly violently humbly bravely valiantly boldly defiantly proudly valiantly violently violently comfortably intelligently bravely passionately valiantly peacefully boldly bravely powerfully confidently calmly violently defiantly prudently stably brightly proudly bravely politely proudly defiantly loudly fluently calmly valiantly boldly safely sensibly bravely peacefully valiantly intelligently casually expertly solidly safely politely angrily powerfully calmly wisely confidently patiently defiantly."
-    },
-    "Slippery_Eel_Mucus_Coating": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Agility",
-            "Stealth"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Grapple"
-        ],
-        "description": "Fluidly seamlessly logically cleanly natively casually defiantly calmly intelligently peacefully boldly valiantly smartly proudly happily smoothly bravely intelligently valiantly valiantly stably boldly warmly calmly passionately smoothly gracefully valiantly cheerfully boldly valiantly prudently calmly rationally proudly competently brightly violently confidently angrily vividly smoothly fluently peacefully boldly competently fluently passionately securely smoothly boldly violently passionately bravely intelligently humbly bravely casually valiantly violently valiantly compactly sensibly elegantly loudly confidently proudly angrily peacefully softly fluently bravely cleanly quietly prudently calmly vibrantly defiantly competently skillfully elegantly violently gracefully bravely proudly bravely gently smartly confidently brilliantly vibrantly violently gently sensibly loudly."
-    },
-    "Iridescent_Koi_Scales": {
-        "tags": [
-            "Integument",
-            "Scales",
-            "Piscine",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely boldly violently competently intelligently safely elegantly valiantly smartly bravely calmly intelligently smartly bravely elegantly wisely smoothly violently gently smartly resolutely boldly casually solidly vigorously safely cleanly intelligently expertly violently gracefully fluently vibrantly brilliantly softly vividly wildly smartly smartly enthusiastically gracefully politely bravely violently intelligently smartly smoothly warmly vibrantly majestically competently neatly fluently cleanly valiantly fluently competently boldly humbly peacefully defiantly violently boldly intelligently boldly confidently rationally boldly majestically fluently."
-    },
-    "Camouflaging_Flounder_Skin": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Stealth",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 4
-            }
-        ],
-        "grants_skills": [
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly gracefully majestically smartly proudly valiantly valiantly furiously peacefully gently silently defiantly bravely safely elegantly defiantly furiously competently wildly majestically violently gracefully deftly smartly resolutely calmly intelligently proudly valiantly smoothly valiantly violently smartly bravely fluently enthusiastically loudly competently valiantly vigorously bravely calmly proudly gracefully valiantly cleanly prudently brightly passionately politely violently defiantly bravely sensibly quietly expertly proudly humbly peacefully."
-    },
-    "Spiky_Pufferfish_Hide": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Toxic",
-            "Armor"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly valiantly proudly violently warmly valiantly calmly confidently humbly competently passionately valiantly wildly enthusiastically gently boldly happily cleverly gracefully passionately powerfully safely brilliantly safely elegantly boldly majestically prudently playfully vibrantly wildly humbly wildly smoothly boldly calmly defiantly brilliantly fluently warmly comfortably furiously safely cleverly gracefully competently defiantly proudly proudly gracefully happily proudly patiently humbly politely wisely defiantly brightly valiantly gracefully bravely fluently smartly resolutely happily intelligently proudly powerfully smartly cleanly cleanly gracefully peacefully proudly loudly comfortably."
-    },
-    "Bioluminescent_Anglerfish_Skin": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely defiantly valiantly confidently boldly loudly enthusiastically loudly boldly fluently proudly excitedly defiantly prudently violently violently smoothly violently cleanly bravely defiantly valiantly boldly defiantly smartly smoothly competently valiantly majestically proudly bravely intelligently calmly proudly passionately vividly smoothly warmly valiantly smoothly valiantly brilliantly fluently vividly prudently competently valiantly quietly brightly loudly bravely quietly bravely bravely defiantly smartly vigorously violently proudly defiantly boldly smartly gently wildly peacefully calmly."
-    },
-    "Tough_Shark_Dermal_Denticles": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Agility",
-            "Armor"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Specifically deeply natively cleanly purely cleverly playfully boldly defiantly cleanly competently smartly proudly playfully valiantly boldly cheerfully proudly resolutely defiantly bravely confidently bravely defiantly valiantly wisely passionately bravely violently violently smartly warmly wildly violently casually brightly valiantly violently valiantly smartly peacefully fluently competently boldly sensibly warmly proudly majestically peacefully bravely gracefully passionately wildly cleverly valiantly intelligently bravely politely boldly valiantly violently wisely fluently smoothly."
-    },
-    "Electric_Eel_Discharge_Skin": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Magic",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells"
-        ],
-        "description": "Technologically actively practically fluently warmly elegantly valiantly valiantly defiantly valiantly fluently violently bravely violently bravely enthusiastically vibrantly boldly smoothly smartly calmly playfully defiantly angrily smoothly boldly wisely smartly competently smartly valiantly resolutely wisely valiantly prudently calmly politely playfully bravely bravely violently smoothly cleanly quietly cleanly valiantly humbly bravely violently loudly boldly stably vibrantly passionately happily defiantly safely securely casually competently loudly gracefully politely efficiently smartly politely excitedly cleanly politely vividly politely loudly sensibly politely cleverly valiantly elegantly boldly bravely valiantly."
-    },
-    "Ghost_Koi_Spectral_Scales": {
-        "tags": [
-            "Integument",
-            "Scales",
-            "Piscine",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Exclusively cleanly organically flawlessly bravely confidently wisely valiantly bravely valiantly majestically warmly defiantly smartly smoothly securely gracefully gracefully peacefully competently vividly cleanly fluently intelligently bravely elegantly deftly fluently bravely resolutely proudly violently stably gracefully bravely defiantly competently violently elegantly brightly expertly loudly fluently majestically proudly gracefully blindly calmly furiously defiantly wisely bravely wildly calmly stably passionately calmly gracefully fluently enthusiastically defiantly elegantly bravely bravely valiantly smartly bravely fluently intelligently valiantly fluently calmly defiantly brilliantly."
-    },
-    "Deep_Sea_Jellyfish_Membrane": {
-        "tags": [
-            "Integument",
-            "Skin",
-            "Piscine",
-            "Toxic",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Smoothly explicit securely flawlessly quietly brightly violently cleverly gracefully valiantly valiantly passionately intelligently smoothly smartly elegantly casually eloquently safely calmly smartly bravely proudly calmly safely gracefully wisely smartly brilliantly vibrantly confidently safely compactly valiantly angrily gently safely passionately intelligently cleanly boldly boldly competently competently bravely cleanly wildly elegantly intelligently valiantly calmly bravely confidently cleanly boldly violently safely calmly majestically bravely politely gracefully violently happily cleanly elegantly boldly proudly wildly sensibly gracefully quietly peacefully safely bravely valiantly violently valiantly compactly sensibly valiantly powerfully bravely excitedly elegantly smoothly wildly bravely loudly loudly."
-    }
+  "Reinforced_Sturgeon_Scutes": {
+    "tags": [
+      "Integument",
+      "Armor",
+      "Piscine",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "The reinforced sturgeon scutes form a heavy, piscine armor that grants the wearer unparalleled natural protection, though its cumbersome nature hinders agility and quick movement."
+  },
+  "Slippery_Eel_Mucus_Coating": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Grapple"
+    ],
+    "description": "A layer of slippery eel mucus coats the skin, granting the bearer unparalleled agility and stealth, enhancing their ability to evade attacks and move silently across any terrain."
+  },
+  "Iridescent_Koi_Scales": {
+    "tags": [
+      "Integument",
+      "Scales",
+      "Piscine",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "The Iridescent Koi Scales, shimmering with a kaleidoscope of colors that shift and blend like the depths of a tranquil lake, grant an ethereal beauty that enhances one's charisma and offers a subtle wisdom, allowing the bearer to charm and captivate those around them with an enchanting allure."
+  },
+  "Camouflaging_Flounder_Skin": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The flounder's skin, mottled and shifting like the ocean floor, grants the wearer unparalleled stealth in aquatic environments, allowing them to blend seamlessly with their surroundings and strike with deadly precision."
+  },
+  "Spiky_Pufferfish_Hide": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "This pufferfish-derived hide, rigid with spikes and imbued with toxic mucus, provides an additional layer of natural armor and boosts one's constitution, granting the wearer the skills to inflict bleeding damage, summon poison clouds, and resist toxic attacks."
+  },
+  "Bioluminescent_Anglerfish_Skin": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "This eerie, translucent skin, derived from the depths of the ocean, pulses with a soft, otherworldly glow, enhancing the wearer's wisdom and perception, and granting them the uncanny ability to emit light and lure prey or foes into treacherous traps."
+  },
+  "Tough_Shark_Dermal_Denticles": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Agility",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "Embedded with microscopic, razor-sharp scales akin to those of a shark, this component grants the bearer a second skin that enhances their agility and provides a natural, armor-like defense, allowing them to slip through dangers with ease and deliver swift, deadly strikes."
+  },
+  "Electric_Eel_Discharge_Skin": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Magic",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells"
+    ],
+    "description": "Enveloped in a sleek, shimmering skin that pulses with electric currents, this piscine integument not only grants unparalleled agility and reflexes but also imbues the bearer with a defensive magic that reflects hostile spells back upon their caster."
+  },
+  "Ghost_Koi_Spectral_Scales": {
+    "tags": [
+      "Integument",
+      "Scales",
+      "Piscine",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "The Ghost Koi's spectral scales shimmer with an otherworldly glow, blending seamlessly with the shadows as it glides through the water, its undead-like presence granting it unparalleled stealth and the ability to vanish from sight, leaving only a faint, elusive trail of shimmering light."
+  },
+  "Deep_Sea_Jellyfish_Membrane": {
+    "tags": [
+      "Integument",
+      "Skin",
+      "Piscine",
+      "Toxic",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "The Deep Sea Jellyfish Membrane, a translucent layer imbued with the fluid grace and lethal toxicity of the abyssal depths, enhances agility and resilience while granting the wielder the eerie ability to emit a poisonous cloud, striking fear and paralysis into the hearts of their foes."
+  }
 }

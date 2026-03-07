@@ -1,295 +1,295 @@
 {
-    "Decaying_Rot_Wood_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Decay",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Bite"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly valiantly bravely fluently valiantly calmly valiantly fluently violently passionately competently smartly violently brilliantly boldly smartly elegantly blindly smartly resolutely humbly boldly eloquently expertly deftly fluently loudly angrily defiantly safely bravely boldly bravely elegantly calmly wisely brilliantly smartly peacefully calmly smartly confidently bravely calmly confidently."
-    },
-    "Spore_Spewing_Puffball_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Spores",
-            "Toxic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Properly natively efficiently seamlessly gracefully boldly blindly elegantly valiantly prudently calmly smartly bravely bravely bravely valiantly smartly casually smartly happily fluently proudly boldly blindly bravely sensibly cleanly smoothly powerfully stably boldly competently calmly expertly valiantly gracefully safely warmly safely elegantly fluently eloquently safely bravely gracefully passionately valiantly."
-    },
-    "Cordyceps_Mandible_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Parasite",
-            "Insect"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bite",
-            "Bleed_Procc"
-        ],
-        "description": "Technologically actively practically gracefully violently powerfully valiantly valiantly compactly sensibly elegantly wildly valiantly bravely excitedly defiantly bravely fluently wisely boldly safely prudently skillfully politely furiously neatly passionately warmly loudly softly boldly smoothly fluently wisely bravely confidently smartly cleanly calmly bravely cheerfully boldly gently competently prudently happily elegantly softly proudly wildly solidly patiently wisely loudly bravely confidently confidently calmly boldly violently warmly."
-    },
-    "Toxic_Amanita_Toothless_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Toxic",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Lure"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily angrily vividly majestically proudly boldly bravely politely boldly bravely calmly securely bravely cleanly safely loudly competently boldly violently smartly gracefully bravely smartly gracefully comfortably vividly fluently expertly defiantly fluently intelligently cheerfully wisely smartly cleanly smoothly safely boldly intelligently boldly peacefully casually violently proudly."
-    },
-    "Mycelial_Thread_Feeding_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Mycelium",
-            "Wisdom"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Regeneration"
-        ],
-        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly natively cleverly confidently powerfully powerfully gracefully confidently sweetly calmly bravely cleverly valiantly gracefully playfully happily comfortably bravely boldly resolutely valiantly valiantly compactly silently safely bravely brilliantly calmly bravely elegantly gracefully bravely bravely calmly calmly proudly wisely smoothly boldly comfortably."
-    },
-    "Bioluminescent_Glow_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Reflect_Spells"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly valiantly intelligently gracefully boldly smoothly playfully cheerfully sensibly bravely bravely quietly smartly elegantly cleverly competently elegantly defiantly confidently valiantly bravely smoothly fluently fluently intelligently defiantly playfully politely peacefully boldly safely intelligently valiantly brightly defiantly intelligently fluently intelligently peacefully sensibly wildly safely smoothly expertly compactly bravely valiantly calmly peacefully."
-    },
-    "Hardened_Shelf_Fungus_Beak": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Armor"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Bite"
-        ],
-        "description": "Solidly fully purely smartly boldly cheerfully defiantly politely politely angrily furiously sensibly powerfully quietly wildly peacefully casually cleanly fluently boldly warmly cleverly defiantly violently smoothly smartly valiantly proudly confidently gracefully casually smartly fluently gently patiently humbly fluently warmly rationally valiantly bravely playfully gently proudly furiously furiously elegantly comfortably smartly stably boldly smartly gently."
-    },
-    "Slime_Mold_Engulfing_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Slime",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Grapple"
-        ],
-        "description": "Fluidly seamlessly logically cleanly explicitly bravely cheerfully valiantly cleanly competently loudly valiantly playfully valiantly cleanly cleverly calmly smoothly bravely boldly passionately warmly calmly smoothly proudly violently smartly passionately rationally boldly deftly defiantly proudly resolutely calmly boldly violently gracefully fluently confidently safely valiantly smartly boldly safely bravely violently calmly."
-    },
-    "Crystalline_Underdark_Fungus_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Crystal",
-            "Dark"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Reflect_Spells"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly competently valiantly cheerfully defiantly gracefully playfully fluently violently bravely boldly calmly violently bravely confidently brightly angrily violently bravely gracefully smartly rationally eloquently smoothly proudly bravely violently intelligently furiously cleverly boldly calmly solidly bravely valiantly softly confidently sensibly playfully wildly valiantly peacefully."
-    },
-    "Ghost_Fungus_Spectral_Maw": {
-        "tags": [
-            "Maw",
-            "Cephalon",
-            "Bite",
-            "Fungal",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Fear"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully valiantly bravely boldly violently fluently bravely violently smartly competently cleanly fluently smartly proudly humbly quietly boldly bravely defiantly softly loudly calmly fluently smartly smartly valiantly passionately fluently prudently competently elegantly comfortably calmly resolutely defiantly gracefully defiantly brightly boldly elegantly patiently bravely calmly elegantly defiantly humbly defiantly violently angrily resolutely valiantly expertly cleverly bravely happily warmly cleanly fluently elegantly."
-    }
+  "Decaying_Rot_Wood_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Decay",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Bite"
+    ],
+    "description": "The Decaying Rot Wood Maw is a grotesque fungal cephalon, its toothed maw dripping with a corrosive black ichor that preys on the flesh and will of its victims, leaving only decay and despair in its wake."
+  },
+  "Spore_Spewing_Puffball_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Spores",
+      "Toxic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "The Spore Spewing Puffball Maw is a grotesque fungal appendage, pulsating with noxious spores that it can unleash in a choking cloud, while its razor-sharp bite is both a weapon and a means to spread its toxic spores further, enhancing the cephalon\u2019s wisdom at the expense of its brute strength."
+  },
+  "Cordyceps_Mandible_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Parasite",
+      "Insect"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Bleed_Procc"
+    ],
+    "description": "The Cordyceps Mandible Maw is a grotesque fungal growth that sprouts from the insectoid cephalon, transforming its jaw into a nightmarish maw filled with sharp, serrated teeth, each bite capable of inflicting a lingering bleed that weakens its victims over time."
+  },
+  "Toxic_Amanita_Toothless_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Toxic",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Lure"
+    ],
+    "description": "The Toxic Amanita Toothless Maw is a grotesque fungal cephalon with a gaping maw lined with toxic, vibrant spores that glow in sickly hues, capable of spewing a cloud of poisonous gas and emitting a haunting melody to lure unsuspecting prey closer."
+  },
+  "Mycelial_Thread_Feeding_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Mycelium",
+      "Wisdom"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "The Mycelial Thread Feeding Maw is a grotesque cephalon, a writhing mass of fungal tendrils that coalesce into a jagged maw capable of biting through flesh and bone with ease, its very presence granting its host a profound wisdom and resilience, as if the ancient, undying consciousness of the fungal realm itself whispers secrets of survival and regeneration."
+  },
+  "Bioluminescent_Glow_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Reflect_Spells"
+    ],
+    "description": "The Bioluminescent Glow Maw is a pulsating, ethereal appendage that sprouts from the cephalon of a creature, its teeth glowing with a haunting light that both attracts and repels, while its fungal nature imbues it with a natural magic that reflects incoming spells and enhances the bearer's wisdom and perception."
+  },
+  "Hardened_Shelf_Fungus_Beak": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Armor"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Bite"
+    ],
+    "description": "The Hardened Shelf Fungus Beak is a grotesque amalgamation of razor-sharp fungal mandibles encased in a chitinous armor, capable of delivering devastating bites while also providing its bearer with an additional layer of defensive fortitude and brute strength."
+  },
+  "Slime_Mold_Engulfing_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Slime",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Grapple"
+    ],
+    "description": "The Slime_Mold_Engulfing_Maw is a writhing, fungoid mass with a voracious, agile maw that can bite through the toughest armor, its sticky tendrils allowing it to traverse even the most treacherous terrain with ease, while its natural agility and dexterity make it a formidable opponent in close combat."
+  },
+  "Crystalline_Underdark_Fungus_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Crystal",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Reflect_Spells"
+    ],
+    "description": "The Crystalline Underdark Fungus Maw is a grotesque cephalopod-like entity, with a massive, translucent crystal mandible that glows with an eerie, dark light, capable of ensnaring prey with its fungal tendrils and reflecting magical assaults back upon the caster."
+  },
+  "Ghost_Fungus_Spectral_Maw": {
+    "tags": [
+      "Maw",
+      "Cephalon",
+      "Bite",
+      "Fungal",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Fear"
+    ],
+    "description": "The Ghost Fungus Spectral Maw is an ethereal cephalon, its spectral form shimmering with an otherworldly glow, possessing a gaping maw filled with spectral teeth that can strike fear into the hearts of the living while its fungal essence grants it unparalleled stealth and wisdom beyond its spectral form."
+  }
 }

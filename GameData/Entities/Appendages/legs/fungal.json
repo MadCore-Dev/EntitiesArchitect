@@ -1,300 +1,300 @@
 {
-    "Sprawling_Mycelium_Root_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Mycelium",
-            "Strength"
-        ],
-        "traversal": [
-            "Walk",
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Regeneration",
-            "Resist_Knockback"
-        ],
-        "description": "Organically deeply explicitly securely reliably seamlessly cleanly cleanly valiantly brilliantly wildly calmly boldly fluently neatly boldly angrily smoothly cleverly confidently politely bravely bravely violently safely defiantly intelligently intelligently violently defiantly prudently expertly stably violently violently vibrantly valiantly boldly excitedly loudly cleverly proudly cleverly elegantly sensibly powerfully fluently deftly valiantly playfully blindly casually violently gracefully intelligently confidently brightly casually bravely bravely competently fluently passionately intelligently gracefully majestically cleverly stably valiantly cleanly bravely valiantly smartly elegantly boldly peacefully politely brilliantly comfortably comfortably competently elegantly proudly brilliantly majestically smartly valiantly boldly valiantly violently wisely competently stably expertly valiantly eloquently boldly peacefully defiantly gracefully expertly safely playfully fluently resolutely."
-    },
-    "Bouncing_Puffball_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Spores",
-            "Agility"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Poison_Cloud"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically purely intelligently safely valiantly violently intelligently boldly happily valiantly efficiently blindly safely majestically powerfully peacefully vibrantly deftly softly bravely gracefully bravely safely confidently loudly bravely calmly skillfully vividly confidently fluently gently brilliantly violently brightly valiantly fluently neatly elegantly wildly softly bravely boldly resolutely valiantly valiantly peacefully violently intelligently wisely quietly violently competently competently gracefully boldly intelligently proudly quietly stably intelligently casually playfully cheerfully intelligently wildly safely defiantly fluently casually fluently enthusiastically smoothly elegantly sensibly bravely violently fluently cleverly gracefully peacefully passionately cheerfully rationally calmly."
-    },
-    "Hardened_Shelf_Fungus_Stompers": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Knockdown"
-        ],
-        "description": "Solidly fully purely smartly completely valiantly bravely defiantly confidently violently loudly excitedly intelligently politely loudly powerfully playfully safely bravely stably smartly vigorously intelligently wisely casually bravely safely violently smoothly excitedly defiantly valiantly competently vividly fluently passionately bravely violently boldly valiantly warmly silently calmly wildly smoothly smartly competently elegantly fluently violently cleverly bravely resolutely brightly bravely politely smartly prudently powerfully gracefully valiantly valiantly defiantly elegantly fluently defiantly warmly defiantly confidently confidently gracefully bravely confidently valiantly calmly politely confidently wisely calmly smoothly loudly fluently boldly resolutely casually cleanly wisely proudly peacefully excitedly elegantly expertly efficiently stably defiantly brilliantly smartly."
-    },
-    "Slime_Mold_Gliding_Foot": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Slime",
-            "Agility"
-        ],
-        "traversal": [
-            "Walk",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Camouflage"
-        ],
-        "description": "Fluidly seamlessly logically cleanly natively casually violently valiantly bravely smartly softly gently safely defiantly fluently smartly elegantly wildly valiantly gracefully confidently quietly elegantly intelligently defiantly valiantly boldly peacefully safely bravely intelligently blindly loudly playfully prudently intelligently cleverly valiantly fluently proudly valiantly resolutely defiantly vibrantly bravely resolutely angrily smoothly sensibly majestically sweetly defiantly violently bravely wisely smoothly defiantly competently boldly bravely fluently confidently calmly peacefully safely valiantly boldly bravely wildly gracefully cleanly peacefully stably playfully violently intelligently peacefully comfortably bravely defiantly fluently."
-    },
-    "Cordyceps_Insectoid_Climbing_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Parasite",
-            "Insect",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Aerobatics"
-        ],
-        "description": "Technologically actively practically gracefully cleanly valiantly boldly competently warmly majestically expertly wisely powerfully defiantly smartly loudly bravely violently valiantly wildly safely peacefully bravely intelligently valiantly bravely skillfully valiantly majestically vibrantly gracefully bravely violently valiantly defiantly safely valiantly brightly neatly boldly defiantly gently smartly violently proudly gracefully bravely competently competently peacefully passionately smartly defiantly fluently violently smartly violently elegantly comfortably brightly loudly violently confidently quietly peacefully softly gracefully fluently brightly happily boldly cleanly smoothly confidently passionately valiantly violently fluently playfully skillfully confidently enthusiastically."
-    },
-    "Decaying_Rot_Wood_Trunk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Decay",
-            "Undead_Like",
-            "Strength"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly valiantly confidently bravely valiantly deftly smoothly deftly expertly comfortably powerfully safely defiantly fluently bravely peacefully casually expertly peacefully defiantly politely proudly securely gracefully valiantly bravely boldly majestically defiantly blindly humbly violently calmly smartly violently sensibly violently fluently brightly violently loudly loudly proudly safely elegantly cleanly cheerfully gracefully wisely boldly cleverly bravely boldly bravely confidently intelligently smartly furiously cleanly elegantly defiantly gently sensibly politely valiantly violently rationally bravely brightly valiantly safely valiantly brilliantly humbly resolutely."
-    },
-    "Bioluminescent_Glow_Stalk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Detect_Magic"
-        ],
-        "description": "Magically correctly organically perfectly cleverly safely confidently violently defiantly safely playfully cheerfully calmly casually boldly confidently brilliantly loudly peacefully smartly competently calmly bravely wildly smartly smoothly defiantly valiantly wisely fluently violently warmly confidently majestically boldly stably brightly confidently confidently loudly excitedly prudently boldly fluently fluently smartly resolutely gently playfully brightly resolutely cleanly deftly smartly resolutely quietly skillfully elegantly humbly peacefully valiantly smartly vigorously excitedly bravely warmly violently competently intelligently majestically cleanly casually prudently boldly defiantly politely safely enthusiastically violently competently smoothly expertly sensibly expertly happily bravely neatly fluently valiantly brilliantly boldly."
-    },
-    "Vibrant_Amanita_Stalk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Toxic",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Lure"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily boldly confidently sweetly compactly bravely sensibly warmly eloquently boldly majestically gracefully valiantly expertly intelligently valiantly confidently valiantly wildly competently confidently fluently casually smoothly bravely fluently wisely politely confidently vividly safely violently majestically confidently gracefully compactly boldly defiantly warmly valiantly wildly resolutely fluently cleanly loudly competently happily confidently smartly competently sweetly smoothly calmly bravely sweetly resolutely powerfully comfortably fluently proudly bravely defiantly sweetly elegantly valiantly stably elegantly prudently skillfully brightly wildly stably warmly patiently violently defiantly humbly violently confidently competently deftly confidently elegantly vibrantly boldly politely violently bravely prudently bravely."
-    },
-    "Crystalline_Underdark_Fungus_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Crystal",
-            "Dark"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Reflect_Spells"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly politely smartly fluently passionately smartly prudently smartly happily gracefully fluently bravely valiantly peacefully safely expertly boldly efficiently smartly smartly defiantly proudly resolutely calmly smartly valiantly valiantly competently neatly valiantly defiantly calmly valiantly cleanly cleanly proudly playfully vividly blindly efficiently valiantly angrily cleverly vibrantly prudently elegantly bravely valiantly gracefully warmly violently warmly quietly confidently proudly valiantly violently calmly vibrantly defiantly casually blindly valiantly competently elegantly fluently prudently boldly forcefully warmly defiantly stably smartly valiantly warmly safely smoothly."
-    },
-    "Ghost_Fungus_Spectral_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Fungal",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "Walk",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Levitate"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully valiantly valiantly valiantly boldly gently blindly safely smoothly confidently loudly brightly violently peacefully fluently confidently cheerfully intelligently passionately cheerfully valiantly excitedly valiantly resolutely bravely cleanly brightly competently vibrantly confidently valiantly bravely smoothly proudly loudly gracefully cheerfully defiantly proudly happily playfully bravely competently violently competently intelligently safely fluently fluently quietly confidently valiantly valiantly quietly defiantly forcefully calmly fluently calmly boldly valiantly safely defiantly smartly defiantly blindly powerfully brilliantly expertly smoothly casually gracefully calmly valiantly fluently enthusiastically resolutely bravely resolutely resolutely majestically compactly safely politely gently comfortably defiantly smartly boldly passionately cleverly majestically peacefully fluently boldly proudly valiantly resolutely stably confidently gracefully fluently resolutely."
-    }
+  "Sprawling_Mycelium_Root_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Mycelium",
+      "Strength"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Regeneration",
+      "Resist_Knockback"
+    ],
+    "description": "Enveloped in a dense network of sinewy, dark mycelium threads, the Sprawling Mycelium Root Legs are a formidable yet sluggish appendage, granting immense physical resilience and the uncanny ability to burrow through the earth, while the fungal lifeforce within constantly regenerates wounds and resists the force of impacts and attacks."
+  },
+  "Bouncing_Puffball_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Spores",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Poison_Cloud"
+    ],
+    "description": "Bouncing Puffball Legs, sprouting from a thick, fleshy stem, are covered in a fine layer of iridescent spores that shimmer in the dim light. These fungal appendages, highly resilient and flexible, enable the creature to leap extraordinary distances and land softly, while releasing a cloud of poisonous spores upon impact."
+  },
+  "Hardened_Shelf_Fungus_Stompers": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Knockdown"
+    ],
+    "description": "Enveloped in thick, chitin-like plates that grow from the ground and fuse with the fungus's muscular legs, the Hardened Shelf Fungus Stompers are formidable beings, their heavy forms capable of delivering devastating blows that can both block incoming attacks and send foes sprawling with a single stomp."
+  },
+  "Slime_Mold_Gliding_Foot": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Slime",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Camouflage"
+    ],
+    "description": "These supple, semi-translucent fungal appendages pulse with a viscous, gel-like substance that allows the wearer to glide effortlessly over rough terrain, while also enhancing their agility and stealth, making them nearly invisible to foes in the shadows."
+  },
+  "Cordyceps_Insectoid_Climbing_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Parasite",
+      "Insect",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Twisted and sinuous, the Cordyceps-Insectoid Climbing Legs are a grotesque amalgamation of fungal tendrils and insectile exoskeleton, granting unparalleled dexterity and agility as they adhere to any surface, enabling their host to traverse sheer cliffs and navigate treacherous environments with eerie ease."
+  },
+  "Decaying_Rot_Wood_Trunk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Decay",
+      "Undead_Like",
+      "Strength"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Resist_Knockback"
+    ],
+    "description": "Thick, gnarled legs sprout from the ground like ancient, decaying tree trunks, their surface slick with fungal growths that pulse with a sickly green light, granting the bearer immense strength and resilience, while instilling fear in those who witness the grotesque appendages."
+  },
+  "Bioluminescent_Glow_Stalk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Emerging from the shadowy depths of the fungal realm, these translucent legs pulse with a soft, eerie glow, enhancing the wearer's magical perception and wisdom, though their presence slightly diminishes the ability to remain hidden."
+  },
+  "Vibrant_Amanita_Stalk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Toxic",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Lure"
+    ],
+    "description": "Emerging from the shadowy depths of the fungal forest, the Vibrant Amanita Stalk Legs are a mesmerizing blend of bioluminescent hues and writhing mycelium, their toxic essence both repelling and attracting prey with an eerie grace."
+  },
+  "Crystalline_Underdark_Fungus_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Crystal",
+      "Dark"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Reflect_Spells"
+    ],
+    "description": "Emerging from the shadows of the Underdark, these legs are a grotesque amalgamation of dark fungal growths and shimmering crystalline structures, granting their bearer enhanced wisdom and natural armor, as well as the eerie abilities of darkvision and spell reflection."
+  },
+  "Ghost_Fungus_Spectral_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Fungal",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Levitate"
+    ],
+    "description": "The Ghost_Fungus_Spectral_Legs are ethereal tendrils that pulse with a ghostly luminescence, allowing the bearer to move silently and fluidly through shadowy realms, while granting a deeper understanding of the spectral world and the ability to hover above the ground, undetected by living eyes."
+  }
 }

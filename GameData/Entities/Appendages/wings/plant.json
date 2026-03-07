@@ -1,303 +1,303 @@
 {
-    "Leafy_Glider_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully excitedly wildly bravely violently valiantly casually safely bravely fluently valiantly enthusiastically defiantly boldly wildly violently valiantly vibrantly bravely gracefully enthusiastically casually securely playfully fluently boldly boldly violently smoothly intelligently valiantly safely eloquently wildly cleanly expertly gracefully bravely."
-    },
-    "Giant_Petal_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Vibrant",
-            "Charisma"
-        ],
-        "traversal": [
-            "Glide",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Aerobatics"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely bravely gracefully cleverly politely valiantly loudly resolutely confidently wildly eagerly safely vibrantly proudly violently peacefully casually boldly wildly safely peacefully violently bravely politely angrily playfully cleanly warmly vibrantly calmly casually bravely calmly smartly wisely boldly gracefully valiantly smartly politely elegantly wildly wisely violently confidently majestically."
-    },
-    "Thorny_Bramble_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Aerobatics"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly violently softly bravely proudly sweetly sensibly elegantly loudly smoothly safely safely valiantly boldly bravely confidently smartly valiantly deftly intelligently bravely gracefully smartly enthusiastically proudly violently defiantly resolutely valiantly proudly bravely securely smoothly casually violently bravely cleanly warmly confidently bravely violently humbly valiantly peacefully bravely cheerfully valiantly violently playfully silently cleanly vividly bravely defiantly wildly defiantly confidently valiantly bravely peacefully."
-    },
-    "Bioluminescent_Fungal_Spore_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Magic",
-            "Toxic"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Poison_Cloud"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly smartly bravely calmly bravely boldly cleanly gracefully proudly valiantly bravely proudly powerfully boldly peacefully confidently wildly majestically gracefully defiantly comfortably safely valiantly enthusiastically smoothly valiantly furiously loudly competently proudly intelligently valiantly valiantly valiantly valiantly smartly bravely boldly brightly defiantly proudly boldly boldly proudly valiantly bravely quietly violently violently smoothly boldly."
-    },
-    "Petrified_Wood_Heavy_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Armor",
-            "Heavy",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 5
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Massively completely fiercely bravely bravely valiantly peacefully safely valiantly confidently boldly valiantly violently eloquently valiantly valiantly playfully calmly politely confidently smoothly gracefully wildly confidently softly bravely prudently calmly angrily bravely brightly vividly smoothly fluently bravely proudly intelligently boldly violently smoothly brilliantly casually calmly fluently valiantly defiantly valiantly violently competently gracefully patiently cleanly resolutely fluently safely boldly violently majestically valiantly fluently."
-    },
-    "Woven_Vine_Glider_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Strength"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Aerobatics"
-        ],
-        "description": "Successfully explicitly elegantly safely violently fluently playfully securely confidently bravely resolutely passionately proudly peacefully defiantly blindly powerfully valiantly fluently peacefully wisely valiantly gracefully comfortably valiantly smoothly deftly defiantly quietly bravely smartly proudly boldly defiantly gracefully smartly enthusiastically bravely softly confidently fluently valiantly brilliantly boldly cleanly fluently safely bravely bravely fluently passionately majestically fluently."
-    },
-    "Broad_Kelp_Frond_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Glide"
-        ],
-        "traversal": [
-            "Glide",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly logically wildly gently prudently valiantly fluently neatly elegantly calmly peacefully defiantly fluently passionately safely safely bravely powerfully defiantly loudly humbly fluently bravely calmly gently defiantly angrily wisely blindly safely quietly securely gracefully violently fluently calmly boldly calmly politely calmly violently quietly smartly defiantly brightly bravely valiantly loudly valiantly violently competently expertly boldly furiously valiantly gently cleanly humbly violently gracefully intelligently smoothly smoothly elegantly skillfully wildly peacefully casually competently."
-    },
-    "Pine_Needle_Gliding_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently boldly safely bravely wildly stably smartly valiantly valiantly cheerfully violently gently smartly boldly bravely confidently valiantly calmly smartly eagerly confidently bravely smartly safely cleanly confidently fluently safely fluently politely wisely confidently bravely wisely valiantly peacefully smartly valiantly valiantly compactly valiantly cleverly happily gently cleanly confidently smoothly valiantly brilliantly fluently violently calmly resolutely safely politely deftly bravely bravely valiantly politely smartly competently valiantly violently competently competently bravely politely bravely cheerfully violently confidently angrily elegantly valiantly prudently calmly rationally cleanly safely bravely boldly happily competently humbly bravely proudly brightly peacefully resolutely wildly gracefully valiantly safely eloquently boldly valiantly valiantly politely calmly bravely powerfully angrily."
-    },
-    "Carnivorous_Pitcher_Lure_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Toxic",
-            "Grapple"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Grapple"
-        ],
-        "description": "Technologically actively practically fluently warmly valiantly valiantly competently fluently passionately securely smoothly valiantly defiantly furiously majestically violently bravely passionately wildly competently valiantly cheerfully gracefully valiantly majestically proudly bravely intelligently smoothly valiantly cheerfully bravely confidently bravely politely warmly cleanly cleanly angrily wildly passionately valiantly intelligently safely defiantly fluently fluently elegantly casually gracefully brilliantly expertly intelligently gracefully wildly gracefully cleanly calmly fluently calmly peacefully confidently gracefully bravely defiantly confidently boldly neatly competently violently defiantly boldly valiantly valiantly."
-    },
-    "Spongy_Mossy_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Plant",
-            "Glide",
-            "Stealth",
-            "Con"
-        ],
-        "traversal": [
-            "Glide",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Dust_Cloud"
-        ],
-        "description": "Specifically deeply natively purely cleanly politely valiantly smartly boldly confidently violently violently warmly smoothly neatly competently violently playfully angrily defiantly cleanly defiantly valiantly boldly cleanly valiantly gently boldly expertly peacefully safely elegantly warmly softly valiantly calmly majestically proudly gracefully casually smartly valiantly peacefully competently valiantly vibrantly brilliantly defiantly elegantly patiently safely bravely eloquently valiantly gently violently boldly gently majestically cleverly boldly angrily wildly securely intelligently vigorously violently valiantly competently casually majestically quietly wildly intelligently casually cleverly violently valiantly brilliantly confidently prudently safely angrily solidly smoothly resolutely loudly blindly bravely bravely proudly fluently violently boldly smartly enthusiastically bravely skillfully fluently confidently vividly competently brilliantly gracefully skillfully politely happily loudly furiously warmly furiously bravely violently eloquently proudly."
-    }
+  "Leafy_Glider_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Emerging from the verdant expanse of the player's back, these ethereal wings are a marvel of nature, combining the resilience of ancient vines with the agility of a falcon, granting unparalleled mobility and the ability to glide effortlessly through even the densest foliage."
+  },
+  "Giant_Petal_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Vibrant",
+      "Charisma"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the back of its hulking form, the Giant Petal Wings are a marvel of nature, vast and vibrant, capable of gliding through the air with grace and charm, enhancing the charisma and agility of their bearer while granting them the skills to captivate and navigate the skies with ease."
+  },
+  "Thorny_Bramble_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Aerobatics"
+    ],
+    "description": "Equipped with razor-sharp thorns and leathery, plant-based wings, Thorny Bramble Gliders are a fearsome sight in the twilight sky, their natural armor and enhanced strength making them formidable foes that can slash through enemies with ease while gracefully gliding through the air."
+  },
+  "Bioluminescent_Fungal_Spore_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Magic",
+      "Toxic"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Poison_Cloud"
+    ],
+    "description": "These ethereal, bioluminescent spores sprout delicate, translucent fungal wings that allow them to glide silently through the night, casting an eerie glow while releasing a cloud of toxic spores that can incapacitate the unwary."
+  },
+  "Petrified_Wood_Heavy_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Armor",
+      "Heavy",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Brimming with the eerie essence of the undead, these heavy wings are formed from petrified wood, granting a formidable natural armor but at the cost of agility, their cumbersome nature slowing the flight of their bearer while providing unparalleled resilience against physical attacks and knockbacks."
+  },
+  "Woven_Vine_Glider_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Strength"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the dense, twisted flora of the enchanted forests, the Woven Vine Glider Wings are a marvel of nature and magic, granting their bearer the strength and agility to soar through the air and scale sheer cliff faces with effortless grace, their limbs adorned with tendrils that intertwine to form a resilient, yet lightweight exoskeleton."
+  },
+  "Broad_Kelp_Frond_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Glide"
+    ],
+    "traversal": [
+      "Glide",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "The Broad Kelp Frond Wings are a pair of expansive, leaf-like appendages that unfurl from the back of aquatic plant entities, blending seamlessly with their underwater environment while granting them the grace to glide effortlessly through both water and air, enhancing their agility and evasiveness."
+  },
+  "Pine_Needle_Gliding_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Emerging from the sinewy branches that crisscross the entity's back, these delicate wings are a translucent blend of pine needles and thin, resilient membranes, granting unparalleled agility and the ability to glide effortlessly through the densest forests, their silent passage a testament to the grace of nature's enigmatic creatures."
+  },
+  "Carnivorous_Pitcher_Lure_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Toxic",
+      "Grapple"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadowy depths of the forest, the Carnivorous Pitcher Lure Wings are a haunting marvel of nature, with iridescent wings that shimmer in the dim light, capable of emitting a noxious poison cloud and grappling unsuspecting prey with eerie precision."
+  },
+  "Spongy_Mossy_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Plant",
+      "Glide",
+      "Stealth",
+      "Con"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Dust_Cloud"
+    ],
+    "description": "Spongy Mossy Gliders are eerie, plant-like creatures with translucent, spongy wings that allow them to glide silently through the night sky, their appendages coated in a layer of soft, mossy growth that enhances their ability to blend into their surroundings and avoid detection."
+  }
 }

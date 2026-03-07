@@ -1,300 +1,300 @@
 {
-    "Venomous_Centipede_Graspers": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Toxic",
-            "Agility",
-            "Reach"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Poison_Cloud",
-            "Spider_Climb"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently brightly safely bravely proudly passionately confidently cleanly calmly valiantly competently gently safely smoothly defiantly loudly wisely playfully brilliantly boldly intelligently boldly calmly bravely wildly safely fluently bravely brightly enthusiastically elegantly gracefully softly fluently violently smoothly boldly majestically peacefully cleanly happily violently playfully comfortably competently passionately defiantly cleverly valiantly gracefully defiantly brightly fluently cleverly confidently wildly gently gracefully violently competently cleanly bravely gently comfortably."
-    },
-    "Stinging_Wasp_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Parasite",
-            "Toxic",
-            "Speed"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "True_Strike",
-            "Poison_Cloud"
-        ],
-        "description": "Technologically actively practically fluently elegantly politely loudly arrogantly gracefully defiantly calmly blindly vigorously competently valiantly calmly majestically proudly expertly violently defiantly fluently bravely fluently cleverly valiantly bravely vigorously calmly excitedly safely valiantly calmly stably violently angrily smoothly valiantly confidently valiantly bravely smoothly fluently proudly loudly sweetly wisely smartly casually fluently loudly cleanly violently boldly gracefully smartly gracefully neatly valiantly bravely boldly peacefully boldly violently valiantly defiantly smartly defiantly boldly majestically expertly intelligently boldly cleanly."
-    },
-    "Silk_Spinning_Spider_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Arachnid",
-            "Webs"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Spider_Climb"
-        ],
-        "description": "Smoothly explicit securely flawlessly quietly brightly violently cleverly gracefully valiantly proudly boldly humbly securely defiantly competently smartly elegantly quietly bravely neatly calmly defiantly calmly comfortably boldly eloquently majestically smartly politely fluently angrily eloquently violently gracefully violently valiantly brilliantly quietly sensibly fluently valiantly brilliantly loudly defiantly violently gently proudly gracefully confidently gracefully efficiently smartly smoothly powerfully deftly brightly bravely gracefully passionately competently gracefully bravely smoothly calmly passionately smartly enthusiastically intelligently bravely elegantly excitedly calmly violently defiantly gracefully bravely cleverly peacefully calmly safely brightly intelligently cheerfully gently competently defiantly proudly playfully violently smoothly peacefully valiantly majestically vibrantly gracefully passionately smartly boldly safely bravely violently peacefully fluently valiantly cleverly valiantly smoothly competently proudly boldly loudly safely safely playfully sensibly."
-    },
-    "Heavy_Beetle_Pincer_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Armor",
-            "Heavy",
-            "Strength"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Sunder",
-            "Knockdown"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly bravely valiantly efficiently valiantly stably warmly bravely softly bravely wildly bravely bravely boldly safely fluently defiantly cleanly fluently expertly intelligently smartly valiantly calmly valiantly defiantly humbly cheerfully safely valiantly excitedly safely fluently bravely sensibly prudently stably valiantly competently playfully expertly neatly skillfully violently politely calmly confidently confidently proudly majestically stably expertly loudly bravely vigorously stably casually wildly passionately furiously peacefully prudently cleanly stably defiantly aggressively fluently boldly violently peacefully."
-    },
-    "Luminescent_Firefly_Lasso_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Magic",
-            "Luminescence"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure",
-            "Grapple"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely defiantly bravely defiantly confidently boldly smartly aggressively fluently wildly competently resolutely boldly casually confidently eloquently blindly smartly confidently fluently casually warmly peacefully humbly quietly cleanly proudly valiantly boldly brightly valiantly elegantly violently smartly cleverly smoothly smartly elegantly violently competently valiantly violently prudently vibrantly gracefully competently boldly calmly proudly smartly elegantly elegantly happily."
-    },
-    "Acid_Secreting_Ant_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Toxic",
-            "Acid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Specifically deeply natively cleanly purely cleverly expertly playfully violently bravely bravely calmly smoothly elegantly bravely smartly smartly defiantly proudly bravely defiantly calmly defiantly gracefully vividly violently casually peacefully excitedly cleverly valiantly wisely gently valiantly fluently valiantly compactly valiantly cleverly vigorously comfortably proudly bravely deftly intelligently safely valiantly violently competently gracefully smartly calmly boldly bravely smartly peacefully calmly passionately wildly solidly bravely cleverly safely violently warmly wisely peacefully brilliantly politely cleanly."
-    },
-    "Camouflaging_Stick_Insect_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Stealth",
-            "Agility"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Spider_Climb",
-            "Grapple"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly logically valiantly boldly bravely wildly vividly bravely bravely peacefully prudently cleanly fluently smartly proudly humbly quietly boldly bravely defiantly valiantly enthusiastically happily competently defiantly fluently passionately competently defiantly cleverly cheerfully valiantly safely gently bravely playfully valiantly competently confidently wisely cleanly confidently furiously vibrantly boldly eloquently furiously peacefully safely cleanly resolutely valiantly bravely calmly valiantly bravely smartly fluently vividly confidently valiantly gracefully smartly passionately peacefully valiantly gently quietly powerfully cheerfully intelligently silently valiantly competently vividly brightly deftly resolutely bravely resolutely valiantly loudly majestically boldly excitedly enthusiastically elegantly confidently bravely valiantly deftly competently gracefully."
-    },
-    "Subterranean_Mole_Cricket_Root_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Burrow",
-            "Strength"
-        ],
-        "traversal": [
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Resist_Knockback"
-        ],
-        "description": "Massively completely gracefully smoothly fluently bravely proudly bravely defiantly violently brightly safely intelligently gracefully blindly confidently cleverly valiantly cheerfully boldly playfully happily powerfully boldly gracefully passionately proudly resolutely valiantly solidly wildly eloquently violently competently valiantly calmly wildly valiantly vibrantly sweetly vibrantly gracefully elegantly proudly valiantly brightly cleverly competently safely defiantly brightly smoothly deftly elegantly loudly gracefully defiantly bravely defiantly confidently violently loudly valiantly casually politely bravely confidently expertly powerfully peacefully."
-    },
-    "Ghost_Mantis_Spectral_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly violently cleanly elegantly calmly casually intelligently fluently smartly proudly cleanly expertly violently bravely politely violently bravely boldly smartly politely proudly wildly smoothly gracefully sensibly calmly brilliantly defiantly competently boldly bravely fluently confidently defiantly elegantly valiantly fluently neatly confidently forcefully playfully happily valiantly loudly comfortably resolutely intelligently violently majestically violently smartly elegantly defiantly peacefully defiantly bravely smartly bravely gracefully fluently safely defiantly gracefully bravely."
-    },
-    "Moth_Feathered_Sensory_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Insect",
-            "Perception",
-            "Magic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Detect_Magic",
-            "Alert",
-            "Lure"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely boldly casually fluently proudly violently peacefully bravely smartly defiantly violently bravely valiantly majestically gracefully bravely proudly violently smartly bravely cleanly expertly confidently boldly bravely calmly silently smartly fluently confidently brilliantly defiantly smoothly bravely smartly bravely peacefully solidly violently calmly powerfully valiantly politely intelligently intelligently gracefully fluently loudly boldly defiantly passionately bravely safely safely defiantly brightly casually elegantly powerfully wisely."
-    }
+  "Venomous_Centipede_Graspers": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Toxic",
+      "Agility",
+      "Reach"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Poison_Cloud",
+      "Spider_Climb"
+    ],
+    "description": "Emerging from the shadowy depths, the Venomous_Centipede_Graspers are a grotesque amalgamation of writhing, agile tentacles that dart and grip with preternatural speed, their toxic excretions capable of incapacitating prey within moments, while their elongated reach and natural climbing abilities make them a formidable and elusive predator in the twisted ecosystems of the game world."
+  },
+  "Stinging_Wasp_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Parasite",
+      "Toxic",
+      "Speed"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "True_Strike",
+      "Poison_Cloud"
+    ],
+    "description": "Emerging from the shadowy depths of the corrupted forest, the Stinging Wasp Tendrils are a nightmarish blend of insect and parasite, their swift, venomous appendages capable of striking with deadly precision and enveloping foes in a toxic cloud, marking them for certain doom."
+  },
+  "Silk_Spinning_Spider_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Arachnid",
+      "Webs"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider_Climb"
+    ],
+    "description": "These slender, silk-coated tendrils are the spider's crowning achievement, blending delicate grace with deadly precision, allowing the creature to traverse vertical surfaces with ease while enhancing its agility and stealth."
+  },
+  "Heavy_Beetle_Pincer_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Armor",
+      "Heavy",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Knockdown"
+    ],
+    "description": "The Heavy Beetle Pincer Tentacles are thick, armored appendages bristling with powerful, razor-sharp pincers that not only grant the wielder immense strength and natural armor but also enable devastating skills like Sunder and Knockdown."
+  },
+  "Luminescent_Firefly_Lasso_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure",
+      "Grapple"
+    ],
+    "description": "Glowing with an eerie, pulsating light, the luminescent firefly lasso tendrils are delicate yet formidable appendages that weave through the shadows, their magic-laden tips capable of ensnaring prey with a hypnotic allure and then tightening like steel cables to grapple and restrain."
+  },
+  "Acid_Secreting_Ant_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Toxic",
+      "Acid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Emerging from the chitinous exoskeleton, these serpentine tentacles pulse with a sickly green hue, their tips dripping with a corrosive acid capable of dissolving flesh and bone, while their presence grants an innate resilience against the toxins they unleash."
+  },
+  "Camouflaging_Stick_Insect_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Spider_Climb",
+      "Grapple"
+    ],
+    "description": "Bristling with slender, chitinous tendrils that can stretch and contort with uncanny agility, this component allows the wielder to merge seamlessly with the shadows of their environment, granting them the silent grace and predatory cunning of a stick insect hunter."
+  },
+  "Subterranean_Mole_Cricket_Root_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Burrow",
+      "Strength"
+    ],
+    "traversal": [
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Resist_Knockback"
+    ],
+    "description": "The Subterranean Mole Cricket Root Tentacles are gnarled, earth-coated appendages that wrap around prey with the strength of coiled iron, their powerful grips fortified by the cricket's underground tenacity, granting formidable grapple and knockback resistance."
+  },
+  "Ghost_Mantis_Spectral_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "The spectral tendrils of the ghost mantis undulate like wisps of smoke, their semi-transparent forms granting them an otherworldly stealth that allows them to blend seamlessly with the shadows, while their ethereal nature grants them the ability to perceive the unseen and the unheard."
+  },
+  "Moth_Feathered_Sensory_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Insect",
+      "Perception",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Alert",
+      "Lure"
+    ],
+    "description": "Gossamer tentacles, reminiscent of moth wings, flutter and twist with an otherworldly grace, enhancing the host's perception and charisma as they detect the faintest traces of magic and alert the host to nearby threats, while also serving to mesmerize and lure unsuspecting prey."
+  }
 }

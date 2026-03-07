@@ -1,254 +1,254 @@
 {
-    "Deep_Keeled_Swimming_Tail": {
-        "tags": [
-            "Tail",
-            "Swimming",
-            "Amphibian",
-            "Newt_Like"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "An incredibly deep, laterally compressed tail featuring a prominent upper and lower fleshy fin margin. It provides phenomenal forward thrust during sinusoidal swimming motions in dense marsh water."
-    },
-    "Prehensile_Arboreal_Tail": {
-        "tags": [
-            "Tail",
-            "Prehensile",
-            "Amphibian",
-            "Salamander_Like"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb"
-        ],
-        "description": "A highly muscular, incredibly flexible tail capable of independently grasping and tightly coiling around slick branches. It functions perfectly as an indispensable fifth limb during precarious high-canopy navigation."
-    },
-    "Aposematic_Lure_Tail": {
-        "tags": [
-            "Tail",
-            "Lure",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "The tip of the tail is dramatically colored in blazing reds or yellows and twitches erratically, perfectly mimicking a struggling worm. It effortlessly draws completely oblivious prey directly into striking range of the jaws."
-    },
-    "Autotomic_Decoy_Tail": {
-        "tags": [
-            "Tail",
-            "Autotomy",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Uncanny_Dodge"
-        ],
-        "description": "A tail featuring specialized fracture planes in the vertebrae. When grabbed by a predator, the tail instantly severs itself autonomously, writhing violently on the ground to serve as a high-value biological decoy while the entity escapes."
-    },
-    "Glandular_Fat_Storage_Tail": {
-        "tags": [
-            "Tail",
-            "Storage",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "An immensely swollen, absurdly thick tail packed solidly with dense lipid reserves. It guarantees absolute survival during multi-year subterranean droughts, but severely hampers terrestrial running speed."
-    },
-    "Serrated_Comb_Tail": {
-        "tags": [
-            "Tail",
-            "Spines",
-            "Weapon",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Tail_Whip"
-        ],
-        "description": "The dorsal ridge of the tail features a series of intensely sharp, heavily keratinized spines. Sweeping the tail violently side-to-side can inflict profound, lacerating wounds on pursuing aquatic predators."
-    },
-    "Rudder_Like_Flattened_Tail": {
-        "tags": [
-            "Tail",
-            "Flat",
-            "Amphibian"
-        ],
-        "traversal": [
-            "Swim",
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage"
-        ],
-        "description": "A tail aggressively flattened top-to-bottom like a beaver's. Rather than thrust, it serves primarily as an exceptional biological rudder for tight, high-speed underwater hairpin turns."
-    },
-    "Toxic_Secretion_Caudal_Glands": {
-        "tags": [
-            "Tail",
-            "Toxic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "poison_resist",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "The entire length of the tail is densely packed with specialized exocrine glands. When threatened, the entity assumes a defensive posture and violently secretes a blinding, mucosal neurotoxin directly from its tail."
-    },
-    "Vestigial_Stump_Tail": {
-        "tags": [
-            "Tail",
-            "Vestigial",
-            "Amphibian",
-            "Frog_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "An evolutionary remnant representing the total loss of a true tail (anurans). The lack of trailing biomass slightly improves aerodynamic leaping distance and denies predators an easy grasping point."
-    },
-    "Dorsal_Respiratory_Fin_Tail": {
-        "tags": [
-            "Tail",
-            "Respiration",
-            "Amphibian",
-            "Aquatic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "hp",
-                "op": "add",
-                "val": 5
-            }
-        ],
-        "grants_skills": [
-            "Aquatic_Respiration"
-        ],
-        "description": "A phenomenally developed tail fin consisting almost entirely of highly vascularized, exposed capillary beds. Evolved for oxygen-poor stagnant water, the tail itself actively pulls oxygen directly from the surrounding muck."
-    }
+  "Deep_Keeled_Swimming_Tail": {
+    "tags": [
+      "Tail",
+      "Swimming",
+      "Amphibian",
+      "Newt_Like"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "This deep-keeled tail, a marvel of evolutionary adaptation, thrashes through water with unparalleled grace and speed, its sleek, amphibian form granting the wielder the fluid agility and swift maneuverability of a newt-like predator."
+  },
+  "Prehensile_Arboreal_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Amphibian",
+      "Salamander_Like"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb"
+    ],
+    "description": "Bristling with scales and ending in a sharp, grasping claw, this prehensile tail is a marvel of amphibian evolution, allowing its salamander-like owner to navigate treacherous arboreal environments with unparalleled dexterity and agility."
+  },
+  "Aposematic_Lure_Tail": {
+    "tags": [
+      "Tail",
+      "Lure",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "The aposematic lure tail, a vibrant and pulsating appendage, serves as a mesmerizing beacon to prey and predator alike, its colors a stark warning of the creature's toxicity, while also granting the amphibian an enchanting allure that enhances its charm but simultaneously makes it more conspicuous."
+  },
+  "Autotomic_Decoy_Tail": {
+    "tags": [
+      "Tail",
+      "Autotomy",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Uncanny_Dodge"
+    ],
+    "description": "This shimmering, segmented tail, a marvel of amphibian autotomy, can detach itself to create a perfect decoy, granting its owner a ghostly wraith-like movement and a significant boost in evasion, as if the shadows themselves were bending to protect its true form."
+  },
+  "Glandular_Fat_Storage_Tail": {
+    "tags": [
+      "Tail",
+      "Storage",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "This thick, bulbous tail serves as a vital fat storage organ, allowing the amphibian to conserve energy and survive long periods without food, though the extra bulk hampers its agility and movement speed."
+  },
+  "Serrated_Comb_Tail": {
+    "tags": [
+      "Tail",
+      "Spines",
+      "Weapon",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tail_Whip"
+    ],
+    "description": "The Serrated_Comb_Tail is a formidable appendage bristling with sharp, venomous spines, perfectly adapted for both defense and offense, granting its amphibian bearer enhanced strength and reach as it lashes out with deadly precision."
+  },
+  "Rudder_Like_Flattened_Tail": {
+    "tags": [
+      "Tail",
+      "Flat",
+      "Amphibian"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The rudder-like flattened tail, broad and flat like a leaf, propels the amphibian swiftly through water while also aiding in silent, graceful movements on land, granting the creature enhanced stealth and agility."
+  },
+  "Toxic_Secretion_Caudal_Glands": {
+    "tags": [
+      "Tail",
+      "Toxic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Embedded within the serpentine tail of this fearsome amphibian are caudal glands brimming with a noxious concoction, capable of releasing a choking cloud of poison that engulfs enemies in a haze of debilitating toxins."
+  },
+  "Vestigial_Stump_Tail": {
+    "tags": [
+      "Tail",
+      "Vestigial",
+      "Amphibian",
+      "Frog_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "A tiny, vestigial tail, once a crucial part of an amphibian's locomotion and balance, now hangs limp and almost forgotten, a relic of evolutionary history, adding a subtle grace to the creature's movements despite its diminished functionality."
+  },
+  "Dorsal_Respiratory_Fin_Tail": {
+    "tags": [
+      "Tail",
+      "Respiration",
+      "Amphibian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "hp",
+        "op": "add",
+        "val": 5
+      }
+    ],
+    "grants_skills": [
+      "Aquatic_Respiration"
+    ],
+    "description": "Bristling with leathery fins that ripple through the water with sinuous grace, this amphibious tail\u4e0d\u4ec5\u662f\u7ed9\u5b9a\u6a21\u677f\u7684\u76f4\u63a5\u7ffb\u8bd1\uff0c\u800c\u4e14\u52a0\u5165\u4e86\u4e00\u4e9b\u6587\u5b66\u6027\u7684\u63cf\u8ff0\uff0c\u4ee5\u589e\u5f3a\u5176\u5728\u6697\u9ed1\u5e7b\u60f3\u80cc\u666f\u4e0b\u7684\u6c89\u6d78\u611f\u548c\u98ce\u5473\u3002\u8be5\u63cf\u8ff0\u7a81\u51fa\u4e86Dorsal_Respiratory_Fin_Tail\u7ec4\u4ef6\u7684\u7269\u7406\u548c\u751f\u7269\u7279\u6027\uff0c\u5982\u5176\u547c\u5438\u80fd\u529b\u548c\u6e38\u6cf3\u6280\u80fd\uff0c\u540c\u65f6\u901a\u8fc7\u63d0\u5230\u201cleathery fins\u201d\u548c\u201csinuous grace\u201d\u6765\u589e\u5f3a\u5176\u89c6\u89c9\u548c\u52a8\u611f\u7684\u63cf\u7ed8\u3002"
+  }
 }

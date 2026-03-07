@@ -1,308 +1,308 @@
 {
-    "Hippopotamus_Webbed_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Strength",
-            "Balance"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "strength",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Resist_Knockback"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly gracefully gracefully peacefully safely violently violently violently fluently excitedly loudly boldly cleverly smartly fluently passionately silently defiantly efficiently politely gracefully confidently angrily boldly calmly violently smartly gently sweetly calmly bravely vigorously safely valiantly bravely merrily defiantly elegantly efficiently happily competently powerfully fluently proudly comfortably cleanly quietly excitedly wildly valiantly bravely casually gracefully boldly deftly."
-    },
-    "Moose_Hoof_Paddles": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Strength",
-            "Con"
-        ],
-        "traversal": [
-            "Swim",
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Athletics"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely wisely happily passionately bravely confidently smartly boldly bravely proudly brilliantly bravely cleanly safely bravely defiantly furiously calmly bravely pleasantly cleanly bravely comfortably smoothly silently humbly brightly safely proudly cleanly valiantly happily silently confidently bravely elegantly confidently loudly violently competently calmly valiantly lazily gracefully intelligently compactly softly majestically sensibly gracefully resolutely elegantly eloquently casually fluently intelligently valiantly furiously safely eloquently happily majestically smoothly elegantly gracefully deftly safely valiantly angrily bravely violently bravely warmly calmly wisely."
-    },
-    "Aquatic_Horse_Streamlined_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully playfully casually blindly valiantly intelligently valiantly blindly safely resolutely fluently lazily patiently wildly boldly bravely wildly gracefully cleanly confidently brilliantly valiantly smartly politely elegantly valiantly brilliantly defiantly elegantly patiently loudly calmly competently boldly comfortably calmly calmly angrily politely gracefully boldly violently boldly lazily wildly playfully safely skillfully boldly proudly defiantly valiantly smoothly violently gracefully safely valiantly politely bravely gracefully happily gently lovingly valiantly passionately majestically gracefully."
-    },
-    "Kelp_Boar_Camouflaged_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Stealth",
-            "Con"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Block"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly bravely neatly valiantly smartly bravely bravely boldly boldly politely cheerfully smoothly cleanly smoothly gracefully humbly bravely resolutely wisely valiantly smoothly boldly boldly bravely safely proudly humbly competently valiantly calmly valiantly softly warmly boldly humbly wildly merrily valiantly softly fluently cleverly peacefully bravely loudly loudly confidently intelligently playfully bravely violently smartly happily skillfully majestically intelligently wildly bravely blindly peacefully cleanly playfully passionately smartly peacefully resolutely boldly sensibly calmly smartly smartly cleverly fluently elegantly solidly wildly bravely casually bravely calmly prudently lazily defiantly safely majestically sweetly competently valiantly bravely prudently humbly safely merrily fluently prudently safely valiantly gracefully wisely intelligently violently competently eagerly cleanly valiantly violently competently prudently happily safely solidly cleanly valiantly gracefully cleverly sweetly bravely cheerfully fluently competently boldly humbly enthusiastically majestically."
-    },
-    "Ethereal_Stag_Ghost_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Magic",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Invisibility",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly safely skillfully valiantly silently resolutely valiantly cleanly fluently boldly resolutely casually smartly wisely smoothly boldly defiantly lazily prudently resolutely wisely fluently smartly proudly playfully merrily brilliantly valiantly enthusiastically elegantly wildly comfortably boldly vigorously competently fluently loudly defensively neatly violently defiantly passionately bravely smoothly quietly expertly deftly peacefully safely sweetly intelligently angrily boldly valiantly gracefully valiantly bravely violently expertly confidently violently resolutely wildly safely neatly safely gracefully gracefully playfully majestically bravely excitedly valiantly skillfully elegantly valiantly calmly boldly furiously passionately passionately boldly passionately softly fluently expertly cleanly politely warmly."
-    },
-    "River_Bison_Broad_Tail_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Strength",
-            "Heavy"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Tail_Swipe"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently valiantly safely violently valiantly gently cleanly casually angrily politely cleanly lazily enthusiastically bravely silently politely fluently majestically fluently valiantly casually comfortably peacefully calmly valiantly stably bravely valiantly comfortably politely lazily stably eloquently merrily bravely wisely valiantly gently proudly safely powerfully wildly defiantly violently expertly smartly calmly fluently intelligently violently deftly playfully valiantly valiantly compactly sensibly fluently violently smartly bravely intelligently calmly safely boldly gracefully valiantly smartly politely valiantly bravely casually casually valiantly silently proudly wisely brightly efficiently violently competently smartly defiantly neatly valiantly compactly competently bravely calmly elegantly violently prudently intelligently safely calmly happily lazily bravely sweetly valiantly expertly majestically safely safely silently wildly elegantly gracefully violently eagerly wildly majestically confidently valiantly lazily deftly neatly resolutely."
-    },
-    "Zombie_Goat_Rotten_Flippers": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Undead",
-            "Con",
-            "Toxic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently smoothly competently boldly bravely valiantly violently calmly majestically peacefully quietly warmly competently lazily calmly boldly valiantly valiantly expertly bravely smartly gracefully smartly solemnly violently defiantly smartly smartly expertly smartly gracefully patiently cleanly fluently elegantly calmly efficiently safely violently competently bravely fluently vividly happily wildly playfully happily comfortably smoothly gracefully lazily fluently bravely patiently calmly securely safely competently boldly angrily casually boldly politely smartly brightly vividly expertly quietly enthusiastically intelligently powerfully violently humbly violently bravely gently valiantly defiantly safely furiously neatly efficiently bravely playfully fluently efficiently wisely casually valiantly violently valiantly efficiently lazily expertly excitedly elegantly sweetly peacefully merrily violently violently patiently humbly elegantly."
-    },
-    "Sea_Camel_Hump_Dorsal_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Con",
-            "Balance"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Endurance"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly comfortably violently competently competently fiercely bravely politely angrily valiantly bravely calmly violently wisely safely politely prudently majestically playfully defiantly furiously valiantly smoothly angrily quietly confidently boldly intelligently boldly safely proudly intelligently bravely eloquently calmly defiantly safely defiantly violently comfortably calmly peacefully bravely violently confidently prudently fluently enthusiastically cleverly smartly boldly gently casually defiantly valiantly enthusiastically lazily safely silently casually playfully bravely smartly elegantly cleanly resolutely wildly valiantly sensibly bravely bravely smoothly warmly proudly prudently cheerfully sensibly fluently politely fluently humbly confidently silently gracefully excitedly sensibly bravely boldly violently bravely patiently playfully cleanly smoothly safely lazily violently bravely competently competently fiercely angrily gracefully furiously violently gracefully safely merrily smartly."
-    },
-    "Coral_Gazelle_Sharp_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Agility",
-            "Piercing",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Counterattack",
-            "Bleed_Procc"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly valiantly majestically happily safely valiantly boldly peacefully intelligently valiantly cleanly fluently valiantly boldly boldly smartly gracefully comfortably wisely valiantly intelligently proudly intelligently calmly smartly gracefully comfortably smartly confidently casually loudly cheerfully valiantly smoothly quietly wisely gracefully cheerfully bravely quietly calmly smartly casually valiantly smartly elegantly boldly peacefully cleanly proudly wildly valiantly quietly cleanly powerfully calmly resolutely excitedly valiantly gently smoothly bravely calmly peacefully intelligently fluently happily confidently valiantly violently stably lazily cleanly fluently silently sensibly defiantly gracefully violently bravely smoothly deftly enthusiastically silently gracefully valiantly intelligently gracefully smoothly competently vigorously happily boldly peacefully loudly smoothly cleanly confidently fluently brightly defiantly furiously bravely eloquently peacefully bravely confidently confidently valiantly boldly bravely confidently smartly bravely patiently lazily violently merrily fluently wildly calmly."
-    },
-    "Deep_Sea_Unicorn_Glowing_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Ungulate",
-            "Swim",
-            "Charisma",
-            "Perception",
-            "Magic"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Detect_Magic",
-            "Charm"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly calmly smartly intelligently smartly passionately fluently neatly cleanly loudly violently defiantly valiantly smoothly violently calmly smartly boldly boldly brightly lazily calmly elegantly wisely casually deftly cleanly bravely fluently smartly casually confidently patiently boldly wildly cleanly sensibly brilliantly passionately bravely boldly resolutely valiantly prudently calmly smartly bravely deftly smartly enthusiastically brilliantly quietly gracefully competently bravely smartly cheerfully competently wildly valiantly quietly smartly passionately wisely safely powerfully intelligently safely proudly sweetly gracefully loudly cheerfully wildly defiantly cleanly fluently lazily smartly safely boldly quietly excitedly brilliantly brightly boldly valiantly fluently happily happily cleanly."
-    }
+  "Hippopotamus_Webbed_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Strength",
+      "Balance"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "strength",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Resist_Knockback"
+    ],
+    "description": "Bristling with the power of ancient aquatic lore, the hippopotamus's webbed fins are a marvel of evolutionary adaptation, blending the brute strength of a land-dwelling ungulate with the graceful agility of a fish, allowing for powerful bursts through water and a sturdy resistance to being knocked off balance."
+  },
+  "Moose_Hoof_Paddles": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Strength",
+      "Con"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Athletics"
+    ],
+    "description": "These bizarre, elongated paddles, formed from the powerful hooves of an ancient, aquatic ungulate, grant unparalleled strength and resilience, allowing the wielder to cut through water with the grace of a predator and the brute force of a land-bound beast."
+  },
+  "Aquatic_Horse_Streamlined_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the depths, the Aquatic Horse bears sleek, membrane-like fins that ripple with grace and power, enhancing its natural ungulate form to cut through water with unparalleled speed and agility, granting it the ability to perform breathtaking Swim Dashes and Aerobatics."
+  },
+  "Kelp_Boar_Camouflaged_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Stealth",
+      "Con"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Block"
+    ],
+    "description": "The Kelp Boar Camouflaged Fins are a pair of delicate yet resilient appendages that sprout from the boar's flanks, allowing it to move silently through the murky depths and blend seamlessly with the kelp forests, while also providing a sturdy defense against attackers with their tough, flexible membranes."
+  },
+  "Ethereal_Stag_Ghost_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Magic",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Emerging from the spectral mists, the ethereal stag ghost fins are ghostly appendages that shimmer with a faint iridescence, granting the creature the uncanny ability to glide effortlessly through both water and air, while also conferring a mystical aura that enhances wisdom and agility, allowing it to move unseen and traverse the most treacherous terrains with ease."
+  },
+  "River_Bison_Broad_Tail_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Strength",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Tail_Swipe"
+    ],
+    "description": "The River Bison's broad tail fin, a marvel of evolutionary adaptation, thrashes powerfully through the water, granting the beast unmatched swimming prowess and raw strength, while its heavy form and sturdy fins enable it to unleash devastating Tail Swipes and Swim Dashes with bone-crushing force."
+  },
+  "Zombie_Goat_Rotten_Flippers": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "The Zombie Goat's Rotten Flippers are twisted, necrotic appendages that once were delicate hooves, now transformed into sickly, fin-like structures that enable clumsy swimming while emitting a noxious, toxic cloud that poisons any creature foolish enough to be nearby."
+  },
+  "Sea_Camel_Hump_Dorsal_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Con",
+      "Balance"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Endurance"
+    ],
+    "description": "The Sea Camel's dorsal fin, a sleek and powerful appendage, protrudes from its back like a majestic sail, enhancing its innate balance and granting it unparalleled agility and endurance in the water, allowing it to traverse treacherous waters with ease and grace."
+  },
+  "Coral_Gazelle_Sharp_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Agility",
+      "Piercing",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Counterattack",
+      "Bleed_Procc"
+    ],
+    "description": "The Coral Gazelle's sharp fins, a mesmerizing blend of vibrant hues and razor-sharp edges, enhance its agility and charisma, allowing it to perform swift counterattacks and inflict bleeding wounds on its foes."
+  },
+  "Deep_Sea_Unicorn_Glowing_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Ungulate",
+      "Swim",
+      "Charisma",
+      "Perception",
+      "Magic"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Charm"
+    ],
+    "description": "Bathed in an ethereal glow, the Deep Sea Unicorn's translucent fins pulse with a mesmerizing radiance, enhancing its charisma and perception, allowing it to gracefully navigate the darkest depths and hover above the ocean floor with otherworldly ease."
+  }
 }

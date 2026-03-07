@@ -1,290 +1,290 @@
 {
-    "Hardwood_Burl_Noggin": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Knockback",
-            "Headbutt"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly bravely violently cleanly casually brilliantly valiantly happily intelligently deftly resolutely defiantly bravely confidently bravely safely vividly vibrantly cleanly valiantly safely vibrantly resolutely competently bravely safely boldly."
-    },
-    "Giant_Acorn_Cap_Skull": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Armor",
-            "Con"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Headbutt"
-        ],
-        "description": "Fluidly seamlessly naturally valiantly sensibly proudly valiantly wisely silently bravely smartly wildly majestically valiantly eloquently valiantly boldly calmly majestically casually sweetly confidently violently calmly violently efficiently intelligently."
-    },
-    "Woven_Vine_Crown": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Agility",
-            "Wisdom"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Nature_Sense"
-        ],
-        "description": "Quietly cleanly magically wisely safely violently playfully cleanly valiantly bravely humbly fluently sensibly calmly boldly warmly sweetly valiantly bravely proudly bravely violently competently casually vibrantly cheerfully wisely solidly."
-    },
-    "Cactus_Crown_with_Spines": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Headbutt"
-        ],
-        "description": "Specifically strictly sharply cleverly bravely violently valiantly excitedly violently cleanly safely vibrantly proudly wildly valiantly softly gently solidly smartly smartly deftly gently brilliantly wildly loudly politely gracefully happily."
-    },
-    "Hollow_Gourd_Cranium": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Magic",
-            "Sonic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Wail",
-            "Resist_Sonic"
-        ],
-        "description": "Magically elegantly smoothly violently securely expertly violently valiantly violently cleanly brightly valiantly majestically proudly bravely calmly deftly bravely angrily cheerfully calmly sweetly prudently safely fluently politely competently loudly neatly calmly comfortably."
-    },
-    "Petrified_Wood_Skull": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Armor",
-            "Heavy",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 5
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly actively practically squarely firmly bravely valiantly sensibly valiantly bravely proudly humbly gracefully competently violently safely gracefully smartly valiantly stably cleanly gracefully valiantly valiantly valiantly compactly sensibly valiantly boldly warmly."
-    },
-    "Fleshy_Flytrap_Hood": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Bite",
-            "Strength"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bite"
-        ],
-        "description": "Technologically smartly competently fiercely violently proudly defiantly fluently passionately majestically fluently valiantly valiantly valiantly fluently neatly elegantly calmly blindly boldly brilliantly bravely neatly smoothly defiantly fluently calmly blindly vigorously smartly cleverly."
-    },
-    "Bioluminescent_Mushroom_Cap": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Detect_Magic"
-        ],
-        "description": "Beautifully natively cleanly purely gently defiantly valiantly confidently bravely cleanly competently violently softly boldly gracefully smoothly safely confidently intelligently violently violently passionately excitedly defiantly bravely boldly loudly boldly eloquently smoothly safely wisely fluently valiantly competently vividly fluently."
-    },
-    "Sun_Seeking_Sunflower_Crown": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Perception",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Alert",
-            "Light"
-        ],
-        "description": "Properly clearly explicitly safely gently bravely gracefully cleverly valiantly powerfully valiantly cleanly willfully cleanly safely prudently bravely proudly boldly defiantly gracefully smartly enthusiastically proudly violently casually cleanly violently securely intelligently confidently majestically bravely valiantly competently brilliantly fluently powerfully blindly gently passionately safely boldly."
-    },
-    "Thick_Kelp_Mat_Cranium": {
-        "tags": [
-            "Cranium",
-            "Cephalon",
-            "Plant",
-            "Armor",
-            "Swim"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Water_Breathing",
-            "Block"
-        ],
-        "description": "Smoothly explicit securely flawlessly quietly brightly violently safely violently intelligently boldly playfully confidently competently valiantly deftly gracefully warmly defiantly safely proudly calmly bravely resolutely vividly politely boldly passionately violently valiantly competently fluently loudly prudently powerfully powerfully proudly valiantly valiantly calmly smartly defiantly violently cleanly bravely competently valiantly majestically safely eloquently."
-    }
+  "Hardwood_Burl_Noggin": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback",
+      "Headbutt"
+    ],
+    "description": "Enveloped in the dense, interwoven fibers of ancient hardwood, the Hardwood_Burl_Noggin forms a cranium of unparalleled resilience, granting its bearer an ironclad natural armor and an unyielding constitution, while bestowing the formidable abilities to resist knockback and deliver crushing headbutts."
+  },
+  "Giant_Acorn_Cap_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Armor",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "description": "Enveloped in the twisted bark of ancient oaks, the Giant_Acorn_Cap_Skull is a formidable helm that merges the robust protection of a natural cranium with the resilience of a fortified oak cap, granting its wearer unparalleled durability and a fearsome headbutt attack."
+  },
+  "Woven_Vine_Crown": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Agility",
+      "Wisdom"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Nature_Sense"
+    ],
+    "description": "The Woven Vine Crown is a serpentine garland of supple, sentient vines that entwine around the wearer's skull, granting them an innate understanding of the natural world and enhancing their agility, while their wisdom blossoms with each passing day under its verdant embrace."
+  },
+  "Cactus_Crown_with_Spines": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Headbutt"
+    ],
+    "description": "The Cactus Crown with Spines is a fearsome cranial adornment that sprouts sharp, barbed spines from the wearer's scalp, enhancing their natural armor and strength while granting them the sinister Bleed Procc and Headbutt abilities, turning their cephalon into a deadly weapon."
+  },
+  "Hollow_Gourd_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Magic",
+      "Sonic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Wail",
+      "Resist_Sonic"
+    ],
+    "description": "Enveloped in a shell of twisted, vine-like tendrils, the Hollow Gourd Cranium pulsates with an eerie green glow, its interior a labyrinth of interconnected chambers that amplify the user's wisdom and charisma, granting them the ability to unleash devastating sonic attacks and resist the effects of sonic magic."
+  },
+  "Petrified_Wood_Skull": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Armor",
+      "Heavy",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "The Petrified_Wood_Skull, a relic of ancient, petrified flora, encases the wearer's head in an armor of dense, unyielding wood, granting a formidable natural shield against physical onslaughts while imparting a sluggish heaviness that hinders swift movements."
+  },
+  "Fleshy_Flytrap_Hood": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Bite",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bite"
+    ],
+    "description": "This grotesque cranial appendage sprouts from the forehead, a dark, pulsating mass of fleshy vines that coalesce into a maw filled with razor-sharp teeth, granting the bearer a fearsome bite and bolstering their physical might and resilience."
+  },
+  "Bioluminescent_Mushroom_Cap": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Enveloped in an ethereal glow, the Bioluminescent Mushroom Cap is a living symbiosis of arcane energy and fungal resilience, enhancing one's wisdom and charisma while granting the abilities to emit radiant light and detect magical auras."
+  },
+  "Sun_Seeking_Sunflower_Crown": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Perception",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Light"
+    ],
+    "description": "The Sun-Seeking Sunflower Crown is a vibrant, almost sentient floral structure that coils around the cranium, its petals perpetually tilting towards the light, enhancing the wearer's perception and charisma while granting them the skills Alert and Light."
+  },
+  "Thick_Kelp_Mat_Cranium": {
+    "tags": [
+      "Cranium",
+      "Cephalon",
+      "Plant",
+      "Armor",
+      "Swim"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Water_Breathing",
+      "Block"
+    ],
+    "description": "The Thick Kelp Mat Cranium is a resilient, plant-based cranial armor that intertwines thick, protective layers of kelp around the head, granting the wearer superior natural armor and a heightened constitution, while also bestowing the abilities of water breathing and blocking attacks with seaweed tendrils."
+  }
 }

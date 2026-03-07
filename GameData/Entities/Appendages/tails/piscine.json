@@ -1,305 +1,305 @@
 {
-    "Powerful_Shark_Caudal_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Speed",
-            "Strength"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Resist_Knockback"
-        ],
-        "description": "Specifically deeply natively cleanly purely softly silently expertly skillfully bravely bravely blindly valiantly calmly boldly smartly cleanly resolutely valiantly defiantly valiantly vividly proudly boldly defiantly gracefully violently angrily safely valiantly proudly elegantly proudly wildly smoothly cleanly safely vigorously politely humbly smartly confidently wildly passionately enthusiastically resolutely confidently valiantly safely."
-    },
-    "Whip_Like_Stingray_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Agility",
-            "Toxic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Bleed_Procc"
-        ],
-        "description": "Properly natively efficiently explicitly cleanly wisely bravely valiantly calmly valiantly cleanly skillfully wisely fluently gracefully competently violently safely gracefully smartly valiantly softly bravely intelligently smartly valiantly calmly valiantly confidently defiantly competently smoothly warmly wisely elegantly bravely smartly proudly defiantly loudly defiantly valiantly expertly wildly violently furiously valiantly peacefully sensibly angrily politely defiantly smartly smartly valiantly politely valiantly calmly solidly defiantly smartly intelligently calmly patiently competently prudently peacefully smoothly valiantly proudly neatly calmly elegantly violently gracefully comfortably."
-    },
-    "Armored_Sturgeon_Caudal_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Sunder"
-        ],
-        "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently fluently valiantly humbly gracefully valiantly loudly safely gently fluently elegantly bravely defiantly valiantly expertly intelligently violently proudly wildly smartly boldly happily bravely intelligently brightly confidently bravely cleverly safely stably loudly cleverly competently safely defiantly calmly angrily competently intelligently quietly violently valiantly bravely smartly confidently smartly bravely."
-    },
-    "Bioluminescent_Anglerfish_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Luminescence"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure"
-        ],
-        "description": "Magically seamlessly elegantly smoothly cleverly smartly bravely calmly valiantly majestically politely boldly warmly politely defiantly cleverly cheerfully valiantly safely gently valiantly confidently politely valiantly passionately blindly wildly boldly blindly bravely comfortably majestically warmly peacefully safely resolutely boldly valiantly boldly smoothly valiantly competently playfully resolutely calmly fluently valiantly politely gracefully calmly intelligently valiantly proudly comfortably valiantly competently vividly fluently happily eagerly valiantly boldly intelligently boldly valiantly valiantly eagerly sensibly valiantly safely gracefully competently violently safely politely smartly peacefully cleanly safely prudently bravely safely safely boldly."
-    },
-    "Slippery_Eel_Continuous_Fin_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Agility",
-            "Stealth"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Camouflage"
-        ],
-        "description": "Fluidly seamlessly logically natively violently wisely cleanly excitedly patiently smoothly passionately boldly fluently confidently safely defiantly fluently intelligently violently gently rationally eloquently calmly defiantly proudly furiously fluently intelligently violently violently wisely powerfully boldly gracefully defiantly boldly safely prudently wisely valiantly smartly valiantly competently fluently loudly prudently powerfully valiantly confidently brightly smartly intelligently competently valiantly calmly neatly bravely warmly safely sensibly securely brilliantly loudly cleanly expertly casually peacefully defiantly brilliantly smoothly violently cleanly competently smartly calmly fluently passionately bravely violently boldly loudly bravely wildly blindly skillfully bravely."
-    },
-    "Camouflaging_Flounder_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Stealth",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Quietly explicitly logically natively casually boldly wildly bravely confidently valiantly calmly valiantly boldly safely sensibly bravely defiantly intelligently gracefully brilliantly gracefully calmly violently safely excitedly quietly proudly casually resolutely valiantly brightly fluently proudly gracefully defiantly valiantly enthusiastically elegantly sweetly confidently violently resolutely smoothly bravely bravely loudly bravely valiantly bravely calmly boldly vividly enthusiastically violently safely valiantly valiantly proudly humbly politely proudly elegantly."
-    },
-    "Heavy_Coelacanth_Lobe_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Strength",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly gently blindly wildly aggressively gracefully confidently intelligently bravely bravely wisely calmly boldly proudly blindly loudly competently excitedly fluently boldly gracefully confidently boldly proudly calmly proudly playfully confidently intelligently confidently fluently cleverly smartly fluently proudly warmly sweetly valiantly safely calmly playfully enthusiastically brilliantly smoothly brilliantly loudly brightly cleverly smoothly valiantly calmly smartly valiantly passionately powerfully deftly comfortably calmly quietly passionately fluently compactly violently intelligently smartly fluently defiantly valiantly bravely calmly gracefully powerfully silently."
-    },
-    "Ghost_Koi_Spectral_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Exclusively cleanly organically flawlessly bravely confidently wisely violently politely boldly proudly proudly fluently warmly confidently resolutely violently violently humbly proudly bravely confidently brightly boldly passionately wisely proudly enthusiastically loudly violently defiantly bravely defiantly confidently violently loudly valiantly casually cleanly defiantly boldly smartly competently quietly gracefully calmly defiantly smartly skillfully defiantly boldly smartly intelligently sensibly elegantly politely smoothly bravely resolutely passionately proudly enthusiastically loudly safely calmly wildly fluently bravely wisely fluently loudly."
-    },
-    "Venomous_Lionfish_Spiked_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Toxic",
-            "Armor"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Technologically actively practically fluently warmly valiantly valiantly competently fluently passionately securely smoothly boldly violently bravely intelligently brilliantly calmly prudently calmly competently violently competently humbly fluently stably competently cleanly violently happily smoothly safely politely valiantly passionately bravely violently calmly proudly proudly sensibly fluently passionately competently proudly bravely cleverly brightly elegantly boldly expertly skillfully powerfully valiantly compactly humbly bravely calmly violently defiantly enthusiastically expertly rationally majestically boldly intelligently playfully calmly bravely smartly."
-    },
-    "Electric_Eel_Shocking_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Swim_Dash"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically wildly bravely defiantly powerfully quietly fluently boldly enthusiastically politely humbly resolutely violently bravely competently boldly furiously brightly blindly happily violently angrily brilliantly calmly gracefully gracefully elegantly peacefully valiantly smartly warmly valiantly prudently calmly rationally proudly quietly smartly boldly peacefully confidently calmly violently safely bravely cleanly competently fluently powerfully intelligently bravely defiantly bravely defiantly confidently wisely fluently majestically fluently."
-    }
+  "Powerful_Shark_Caudal_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Speed",
+      "Strength"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Resist_Knockback"
+    ],
+    "description": "Equipped with this powerful shark caudal tail, you are a formidable presence in the aquatic realm, your movements fluid and swift as the tail's sleek design propels you through the water with unmatched speed and strength, while granting you the skills to dash through currents and resist being knocked off course."
+  },
+  "Whip_Like_Stingray_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Agility",
+      "Toxic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Bleed_Procc"
+    ],
+    "description": "This piscine tail, shimmering with iridescent scales, grants unparalleled agility and speed in water, its venomous barbs ready to unleash a toxic cloud and bleeding wounds, enhancing the wielder's initiative and dexterity in swift, deadly maneuvers."
+  },
+  "Armored_Sturgeon_Caudal_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Sunder"
+    ],
+    "description": "Enveloped in a thick, chitinous armor, the armored sturgeon caudal tail is a formidable appendage, capable of both powerful thrusts through murky depths and parrying the sharpest of blades, its robust nature enhancing both its wielder's strength and natural defenses."
+  },
+  "Bioluminescent_Anglerfish_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "This piscine appendage pulses with an eerie, otherworldly glow, its translucent membranes casting an ethereal light that hints at ancient, arcane secrets. Equipped with this bioluminescent anglerfish tail, you not only glide through water with unmatched grace and speed but also command the shadows, drawing in both prey and curiosity alike with a hypnotic allure."
+  },
+  "Slippery_Eel_Continuous_Fin_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Camouflage"
+    ],
+    "description": "This serpentine appendage, finned and sleek, allows its bearer to move with uncanny grace through water, enhancing their agility and stealth, while granting them the ability to ignore terrain penalties and blend seamlessly with their surroundings."
+  },
+  "Camouflaging_Flounder_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Equipped with a sleek, shimmering flounder tail, this piscine appendage grants unparalleled agility and stealth in aquatic environments, allowing the user to effortlessly blend into the marine landscape and move with grace across varied terrains without hindrance."
+  },
+  "Heavy_Coelacanth_Lobe_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Strength",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Knockback"
+    ],
+    "description": "Enveloped in thick scales that shimmer with the depth of the abyss, the Heavy Coelacanth Lobe Tail is a powerful aquatic appendage, capable of propelling its bearer through the darkest underwater caverns with unmatched strength and resilience, its natural armor deflecting harm while granting the wielder formidable defensive and offensive capabilities."
+  },
+  "Ghost_Koi_Spectral_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "This spectral tail, a hauntingly beautiful appendage that trails behind like a whisper in the water, grants its bearer an otherworldly grace and the eerie ability to move without a ripple, its presence barely registering in the ethereal realm."
+  },
+  "Venomous_Lionfish_Spiked_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "The venomous lionfish's spiked tail, a piscine marvel adorned with razor-sharp spines, grants enhanced agility and resilience, enabling the creature to unleash a toxic cloud that cripples foes while its own defenses against poisons are greatly bolstered."
+  },
+  "Electric_Eel_Shocking_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Swim_Dash"
+    ],
+    "description": "This piscine appendage writhes with an otherworldly energy, its sleek, serpentine form granting unparalleled agility and a shocking ability to reflect hostile magic, ensuring that foes will think twice before casting spells in its vicinity."
+  }
 }

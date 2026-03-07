@@ -1,305 +1,305 @@
 {
-    "Pegasus_Feathered_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Flight"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Leap"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly gracefully gracefully violently gently prudently brilliantly bravely elegantly peacefully confidently calmly passionately gently valiantly proudly peacefully expertly valiantly lazily violently playfully confidently cleanly bravely fluently competently boldly humbly intelligently boldly valiantly smoothly proudly calmly elegantly comfortably peacefully boldly violently valiantly gracefully."
-    },
-    "Demon_Boar_Leathery_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "Flight"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Resist_Wind",
-            "Charge"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely valiantly gracefully resolutely calmly confidently valiantly calmly smartly eagerly fluently loudly passionately resolutely safely smoothly boldly violently smoothly confidently valiantly loudly resolutely enthusiastically vividly smoothly wildly cleanly violently resolutely securely proudly bravely sensibly brightly valiantly expertly lazily smartly confidently passionately valiantly violently smartly safely powerfully."
-    },
-    "Golden_Fleece_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Glide",
-            "Charisma",
-            "Magic"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Aerobatics"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly smartly fluently lazily patiently smartly cleanly valiantly lazily boldly gracefully calmly valiantly valiantly confidently smartly intelligently lazily bravely passionately gracefully safely peacefully calmly stably majestically eloquently gracefully bravely violently cleverly humbly vigorously wisely cheerfully cleanly silently brightly safely boldly gracefully politely valiantly smoothly expertly brilliantly smoothly passionately smartly fluently valiantly brilliantly valiantly casually."
-    },
-    "Alit_Vestigial_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Leap"
-        ],
-        "traversal": [
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly smoothly bravely gracefully calmly safely brilliantly prudently happily safely valiantly fluently cleverly fluently valiantly smartly happily politely resolutely elegantly bravely casually expertly valiantly violently violently happily valiantly brightly boldly bravely calmly."
-    },
-    "Nightmare_Steed_Flaming_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Fire",
-            "Magic",
-            "Intimidating"
-        ],
-        "traversal": [
-            "Flight"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Intimidate",
-            "Fire_Aura",
-            "Aerobatics"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly patiently violently gently politely boldly proudly proudly fluently valiantly calmly neatly fluently violently politely comfortably proudly bravely violently safely valiantly politely proudly angrily calmly valiantly boldly boldly politely wildly peacefully playfully bravely passionately fluently warmly intelligently cheerfully boldly intelligently."
-    },
-    "Hippogriff_Avian_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Flight"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Target_Lock"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly casually fluently politely calmly bravely casually competently cleanly smoothly lazily confidently smartly quietly valiantly bravely violently smoothly calmly fluently defiantly defiantly vividly passionately warmly powerfully excitedly elegantly vividly proudly majestically valiantly cleverly calmly expertly."
-    },
-    "Deer_Fae_Gossamer_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Magic",
-            "Agility",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Flight",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Invisibility"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly cleanly safely lazily fluently bravely passionately calmly securely casually smartly confidently valiantly bravely smoothly fluently safely bravely bravely fluently intelligently defiantly safely elegantly fluently cleanly bravely calmly peacefully angrily smoothly violently elegantly majestically lazily bravely skillfully safely politely angrily warmly calmly smoothly cleanly violently intelligently gracefully gracefully lazily fluently cleanly bravely vigorously valiantly valiantly valiantly fluently smartly elegantly wildly cheerfully peacefully valiantly safely powerfully cleverly gracefully solidly patiently vividly valiantly cleanly bravely neatly."
-    },
-    "Bison_Stout_Gliding_Membranes": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Glide",
-            "Con",
-            "Heavy"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Wind",
-            "Charge"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly valiantly comfortably violently bravely cheerfully smoothly fluently valiantly valiantly humbly smoothly valiantly defiantly safely furiously calmly prudently warmly proudly valiantly calmly boldly playfully elegantly confidently valiantly violently gracefully gently calmly wisely defiantly calmly."
-    },
-    "Zombie_Steed_Rotting_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Undead",
-            "Con",
-            "Toxic"
-        ],
-        "traversal": [
-            "Flight"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly gently defiantly lazily calmly bravely peacefully smoothly gracefully elegantly smoothly comfortably proudly proudly furiously proudly stably lazily boldly safely confidently lazily smoothly peacefully wisely patiently furiously prudently loudly calmly fluently smartly smartly comfortably politely competently cleanly boldly bravely bravely competently bravely cleverly sweetly vigorously majestically boldly smoothly warmly boldly wildly proudly passionately bravely violently calmly patiently safely eagerly cleanly gracefully intelligently defiantly competently cleverly safely humbly gracefully cheerfully intelligently defiantly safely merrily quietly solidly deftly excitedly angrily passionately vividly warmly sweetly violently majestically fluently."
-    },
-    "Ghost_Kirins_Spectral_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Ungulate",
-            "Flight",
-            "Magic",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Flight",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Invisibility",
-            "Aerobatics"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly calmly boldly wisely confidently peacefully gracefully neatly smoothly compactly sensibly bravely sensibly bravely compactly elegantly boldly passionately vividly majestically valiantly intelligently lovingly bravely gracefully passionately eagerly violently softly bravely lazily peacefully calmly prudently boldly bravely cleverly bravely competently wildly violently neatly confidently cleanly defiantly furiously valiantly smoothly valiantly smartly violently elegantly majestically lazily wildly eloquently calmly defiantly valiantly enthusiastically elegantly wildly comfortably boldly competently fluently loudly prudently safely smartly valiantly furiously politely smartly gracefully resolutely wisely gracefully lazily deftly happily fluently cleverly valiantly solidly peacefully resolutely blindly safely patiently majestically valiantly cheerfully boldly."
-    }
+  "Pegasus_Feathered_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Flight"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Leap"
+    ],
+    "description": "The Pegasus Feathered Wings are a marvel of nature and magic, sprouting from the back of an otherwise equine form, granting the creature unparalleled aerial prowess and a swift, nimble stride on the ground, enhancing its natural agility and speed with each beat of its powerful, feathered membranes."
+  },
+  "Demon_Boar_Leathery_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Flight"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Resist_Wind",
+      "Charge"
+    ],
+    "description": "The Demon Boar's leathery wings, a grotesque appendage of armored scales and sinew, enable it to take to the skies with a heavy, thunderous flap, granting it formidable natural armor and enhanced strength, while also bestowing it with the skills to resist wind and deliver devastating charges."
+  },
+  "Golden_Fleece_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Glide",
+      "Charisma",
+      "Magic"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Aerobatics"
+    ],
+    "description": "Borne upon gossamer wings tipped with gleaming gold, the Golden Fleece Gliders are graceful ungulates that soar through the twilight skies, their presence imbued with an otherworldly charisma and an innate magic that grants them both the charm to captivate and the aerobatic prowess to dance among the clouds."
+  },
+  "Alit_Vestigial_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Leap"
+    ],
+    "traversal": [
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "Emerging from the creature's back are delicate, yet resilient, vestigial wings, remnants of a once-flight-capable ancestor, now serving to enhance its agility and provide a remarkable leap ability, granting it a fleeting, yet graceful advantage in the treacherous landscapes of the dark fantasy realm."
+  },
+  "Nightmare_Steed_Flaming_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Fire",
+      "Magic",
+      "Intimidating"
+    ],
+    "traversal": [
+      "Flight"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Fire_Aura",
+      "Aerobatics"
+    ],
+    "description": "Emblazoned with fiery wings that cast an eerie glow, the Nightmare Steed's flaming appendages pulse with malevolent magic, its presence striking fear and awe into the hearts of all who behold it, while its agility and charm make it a formidable steed in the skies."
+  },
+  "Hippogriff_Avian_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Flight"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Target_Lock"
+    ],
+    "description": "Enveloped in a shimmering coat of midnight feathers and sturdy, powerful talons, the Hippogriff_Avian_Wings component grants the creature unparalleled aerial prowess, enhancing its speed and agility as it cuts through the sky with deadly precision, its keen eyes locking onto targets from dizzying heights."
+  },
+  "Deer_Fae_Gossamer_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Magic",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Flight",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Invisibility"
+    ],
+    "description": "Gossamer wings of vibrant hues, like the fleeting whispers of dawn and dusk, sprout from the slender shoulders of the deer fae, granting them the ethereal grace to soar through the air with uncanny agility and the mystic power to cloak themselves in invisibility."
+  },
+  "Bison_Stout_Gliding_Membranes": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Glide",
+      "Con",
+      "Heavy"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Wind",
+      "Charge"
+    ],
+    "description": "Enormous and hulking, the Bison_Stout_Gliding_Membranes boasts a pair of thick, leathery wings that sprout from its sturdy shoulders, allowing it to glide gracefully through the air despite its heavy build, while its powerful legs and increased constitution make it a formidable opponent in both aerial and terrestrial combat."
+  },
+  "Zombie_Steed_Rotting_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "Flight"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Tattered and corrupted wings, once the proud appendages of an ancient ungulate, now flap weakly, carrying the stench of decay and poison through the air, marking the steed as a harbinger of toxic chaos in the skies."
+  },
+  "Ghost_Kirins_Spectral_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Ungulate",
+      "Flight",
+      "Magic",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Flight",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the spectral essence of the ghost kirin, these translucent wings are a haunting marvel, blending the ethereal with the arcane, granting the creature both flight and the ability to hover mid-air with ghostly grace."
+  }
 }

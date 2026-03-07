@@ -1,226 +1,226 @@
 {
-    "Chemosensory_Tarsal_Organs": {
-        "tags": [
-            "Nose",
-            "Chemical",
-            "Arachnid",
-            "Sensory"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking"
-        ],
-        "description": "True arachnids completely lack functioning noses. Instead, their literal sense of smell is located in incredibly specialized, microscopic pores running down the length of all eight legs, allowing them to perfectly track a moth's pheromone trail simply by walking over it."
-    },
-    "Pedipalp_Olfactory_Sensilla": {
-        "tags": [
-            "Nose",
-            "Pedipalps",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking",
-            "Blindsight"
-        ],
-        "description": "The front 'boxing glove' appendages (pedipalps) are overwhelmingly densely packed with volatile chemical receptors. The entity constantly waves them wildly in the air, dynamically painting a perfect, high-resolution 3D map of the surrounding olfactory environment."
-    },
-    "Pheromone_Plume_Detectors": {
-        "tags": [
-            "Nose",
-            "Pheromones",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [],
-        "description": "Microscopic pores deeply embedded in the carapace specifically heavily tuned to incredibly faint plumes of female mating pheromones blowing from miles away, completely overriding the entity's desire for self-preservation."
-    },
-    "Hygroreceptive_Humidity_Sensors": {
-        "tags": [
-            "Nose",
-            "Humidity",
-            "Arachnid",
-            "Desert"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "While not smelling standard odors, these highly specialized tarsal organs can flawlessly detect single-digit changes in ambient atmospheric humidity. In a sprawling, lethal desert, this perfectly guides the entity directly to life-saving hidden oasis micro-climates."
-    },
-    "Necrotic_Tissue_Chemoreceptors": {
-        "tags": [
-            "Nose",
-            "Decay",
-            "Arachnid",
-            "Scavenger"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking"
-        ],
-        "description": "Sensilla radically tuned to aggressively isolate the specific volatile gases emitted by putrefying meat (putrescine and cadaverine). It allows scavengers to detect a dead elephant buried completely under three feet of solid jungle mud."
-    },
-    "Web_Bound_Taste_Pores": {
-        "tags": [
-            "Nose",
-            "Web",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Keen Sight"
-        ],
-        "description": "The entity frequently physically eats and re-consumes its own web. The spider perfectly 'tastes' the entire history of the web—the chemical residue of insects that escaped, heavy metal pollutants in the air, and changes in the local spore count."
-    },
-    "CO2_Detection_Hairs": {
-        "tags": [
-            "Nose",
-            "CO2",
-            "Arachnid",
-            "Tick_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ambush"
-        ],
-        "description": "Haller's organs on the front legs tuned entirely to the massively elevated carbon dioxide plumes violently exhaled by heavily panting, massive mammalian prey pushing through the tall grass."
-    },
-    "Thermoreceptive_Infrared_Pits": {
-        "tags": [
-            "Nose",
-            "Infrared",
-            "Arachnid",
-            "Cave"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Blindsight"
-        ],
-        "description": "Strange, completely unpigmented pits essentially functioning exactly like the heat-sensing organs of a pit viper. In absolute utter darkness, a warm-blooded mouse glows like a screaming bonfire to this completely blind entity."
-    },
-    "Contact_Chemoreception_Pads": {
-        "tags": [
-            "Nose",
-            "Contact",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "The entity must physically intimately touch an object to 'smell' it. It rapidly drums its pedipalps over the frantically struggling prey's carapace to instantly locate the exact, perfectly unsclerotized weak point to sink its fangs into."
-    },
-    "Water_Quality_Sensilla": {
-        "tags": [
-            "Nose",
-            "Aquatic",
-            "Arachnid",
-            "Water_Spider"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Underwater hairs specifically tasked with analyzing dissolved oxygen content and extreme changes in water salinity or pH, preventing the diving bell spider from accidentally constructing its underwater web in horribly toxic, stagnant water gradients."
-    }
+  "Chemosensory_Tarsal_Organs": {
+    "tags": [
+      "Nose",
+      "Chemical",
+      "Arachnid",
+      "Sensory"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "Equipped with intricate tarsal organs, this arachnid-inspired component enhances the user's chemical sensing abilities, allowing for unparalleled perception of their surroundings and granting the skill of Scent Tracking, enabling them to follow even the faintest trails."
+  },
+  "Pedipalp_Olfactory_Sensilla": {
+    "tags": [
+      "Nose",
+      "Pedipalps",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking",
+      "Blindsight"
+    ],
+    "description": "Equipped with elongated, sensitive pedipalps that function as both hands and an enhanced olfactory system, this arachnid component grants the user an unparalleled sense of smell, allowing them to track scents across vast distances and navigate through darkness with ease."
+  },
+  "Pheromone_Plume_Detectors": {
+    "tags": [
+      "Nose",
+      "Pheromones",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [],
+    "description": "Equipped with an intricate array of sensory organs, these detectors allow arachnids to perceive and interpret complex pheromonal signals, enhancing their wisdom and strategic prowess in the intricate web of social hierarchy and communication."
+  },
+  "Hygroreceptive_Humidity_Sensors": {
+    "tags": [
+      "Nose",
+      "Humidity",
+      "Arachnid",
+      "Desert"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The hygroreceptive humidity sensors, a delicate yet resilient organ nestled within the arachnid's chitinous head, allow it to perceive minute fluctuations in humidity, granting heightened awareness and cunning in the arid desert environment."
+  },
+  "Necrotic_Tissue_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Decay",
+      "Arachnid",
+      "Scavenger"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "These chemo-receptors, located at the tip of the arachnid's elongated sensory appendages, are sensitive to the chemical signatures of decay, allowing it to navigate the darkest, most forsaken corners of the world with eerie precision and detect even the faintest traces of life or death."
+  },
+  "Web_Bound_Taste_Pores": {
+    "tags": [
+      "Nose",
+      "Web",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Embedded within the arachnid's exoskeleton, these specialized taste pores are intricately linked to the sticky, silken webs that serve as the creature\u2019s sensory extensions, granting it an enhanced perception of its surroundings and an uncanny ability to detect even the faintest vibrations or chemical traces."
+  },
+  "CO2_Detection_Hairs": {
+    "tags": [
+      "Nose",
+      "CO2",
+      "Arachnid",
+      "Tick_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "These fine, tick-like hairs, sprouting from the arachnid's nose, are attuned to the slightest shifts in carbon dioxide levels, allowing it to sense the breath of prey through the densest of shadows, granting it a heightened awareness and the edge needed for a perfect ambush."
+  },
+  "Thermoreceptive_Infrared_Pits": {
+    "tags": [
+      "Nose",
+      "Infrared",
+      "Arachnid",
+      "Cave"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Equipped with eerie, chitinous nostrils that emit a faint, pulsating glow, this arachnid adaptation allows its bearer to see through the darkest depths of a cave, rendering the warmth of living creatures visible in a spectrum of vivid shades."
+  },
+  "Contact_Chemoreception_Pads": {
+    "tags": [
+      "Nose",
+      "Contact",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded along the underside of the arachnid's leg joints are delicate, sensory pads that detect chemical traces, allowing it to navigate its environment with uncanny precision and enhancing its predatory accuracy."
+  },
+  "Water_Quality_Sensilla": {
+    "tags": [
+      "Nose",
+      "Aquatic",
+      "Arachnid",
+      "Water_Spider"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Equipped with an extraordinary set of water-quality sensilla, this arachnid's eight legs are lined with delicate, hair-like sensors that can detect even the faintest changes in water composition, allowing it to navigate and survive in the most polluted and murky aquatic environments with unparalleled precision."
+  }
 }

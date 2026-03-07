@@ -1,274 +1,274 @@
 {
-    "Erect_Prick_Ears": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Hearing",
-            "Canine",
-            "German_Shepherd"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Alert"
-        ],
-        "description": "Securely tightly exactly cleanly comfortably completely smoothly smartly successfully simply gracefully automatically successfully efficiently elegantly cleanly logically brilliantly natively ingeniously actively creatively valiantly optimally cleverly safely dynamically vibrantly brightly fluently magically gracefully smartly fluently properly smartly intelligently bravely vividly boldly peacefully violently bravely bravely valiantly smartly calmly bravely forcefully safely calmly brilliantly playfully intelligently boldly playfully valiantly smartly valiantly politely sensibly smartly confidently fluently valiantly smartly gently elegantly logically stably elegantly bravely valiantly safely valiantly gracefully cleanly playfully valiantly majestically neatly fluently softly valiantly confidently bravely valiantly deftly elegantly bravely loudly valiantly politely safely fluently majestically gently safely boldly brightly brightly playfully."
-    },
-    "Pendulous_Drop_Ears": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Scent_Aid",
-            "Canine",
-            "Hound"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking"
-        ],
-        "description": "Smoothly explicitly effortlessly perfectly successfully safely ideally cleanly correctly magically effortlessly cleanly smartly functionally cleanly gracefully organically efficiently logically eloquently elegantly properly fluently brilliantly brilliantly smartly boldly rationally fluently cleanly natively cleverly gracefully brightly smartly gently elegantly rationally smartly politely cleanly eloquently bravely skillfully ingeniously gently smartly politely confidently vibrantly smartly valiantly rationally boldly brightly skillfully cleverly softly boldly majestically quietly majestically smartly bravely safely valiantly deftly intelligently gently cleverly cleverly vibrantly smartly gracefully gracefully boldly gracefully valiantly flexibly cleanly intelligently bravely expertly calmly ingeniously vibrantly fluently calmly gracefully smoothly."
-    },
-    "Massive_Bat_Like_Radiators": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Hearing",
-            "Thermal",
-            "Canine",
-            "Fennec_Fox"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Blindsight"
-        ],
-        "description": "Perfectly powerfully securely exactly fluently natively automatically securely cleanly smoothly cleverly functionally completely solidly brilliantly brilliantly cleanly logically smoothly dynamically safely vibrantly smartly powerfully elegantly ingeniously magnetically practically softly sensibly intelligently bravely smartly valiantly cleanly elegantly boldly boldly proudly cleanly bravely powerfully elegantly humbly intelligently boldly vividly elegantly brightly vibrantly cleanly humbly loudly politely confidently vibrantly cleverly softly vibrantly warmly brightly cleverly vividly safely eloquently violently flexibly proudly playfully boldly securely violently playfully valiantly smoothly smartly cleanly intelligently majestically cleverly elegantly expertly valiantly vibrantly safely intelligently politely boldly thoughtfully cleanly boldly violently expertly boldly cleanly defiantly cleverly elegantly."
-    },
-    "Cropped_Combat_Ears": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Armor",
-            "Canine"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Correctly successfully gracefully natively expertly seamlessly seamlessly smoothly uniquely flawlessly cleanly rationally elegantly safely fluently intelligently gracefully smoothly functionally rationally smartly cleverly powerfully cleanly playfully properly smartly safely gracefully skillfully smartly valiantly elegantly bravely elegantly smoothly smartly calmly fluently intelligently violently gently confidently safely intelligently valiantly brightly confidently intelligently violently violently vibrantly valiantly fluently vibrantly valiantly playfully aggressively wildly bravely valiantly cleverly cheerfully stably playfully humbly boldly bravely cleanly brilliantly fluently vividly cleanly bravely intelligently cleanly defiantly cleanly fluently boldly."
-    },
-    "Swiveling_Radar_Fringes": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Hearing",
-            "Canine",
-            "Coyote"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Alert"
-        ],
-        "description": "Wonderfully precisely organically smartly correctly cleanly dynamically intuitively purely logically organically solidly securely intelligently gracefully smartly valiantly brilliantly correctly cleverly correctly cleanly fluently smartly logically boldly cleverly cleanly valiantly playfully cleanly intelligently vibrantly calmly smartly eloquently ingeniously smartly playfully fluently valiantly boldly majestically boldly defiantly gently smartly politely deftly bravely bravely loudly bravely cleanly gracefully valiantly valiantly valiantly valiantly fluently safely brightly cleverly intelligently peacefully skillfully smartly smartly gracefully politely humbly."
-    },
-    "Aquatic_Valved_Ear_Slits": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Aquatic",
-            "Canine"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Solidly purely explicitly securely correctly elegantly organically smoothly successfully perfectly naturally practically functionally intelligently organically smartly natively bravely rationally cleverly smartly smartly magically smartly brilliantly cleverly intelligently intelligently fluently cleanly cleanly safely politely ingeniously elegantly intelligently fluently brightly violently intelligently safely gently bravely boldly bravely gracefully vibrantly gracefully bravely smartly playfully fluently eloquently playfully confidently securely bravely smartly intelligently elegantly valiantly safely smartly confidently rationally playfully smartly bravely fluently intelligently sensibly softly cleanly eloquently majestically peacefully bravely gracefully majestically smartly elegantly softly playfully calmly gracefully gently smartly safely calmly fluently violently gracefully smartly gracefully smartly majestically vibrantly gracefully bravely elegantly confidently cleverly bravely valiantly."
-    },
-    "Asymmetrical_Owl_Like_Cavities": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Hearing",
-            "Canine",
-            "Mutant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Blindsight",
-            "Target_Lock"
-        ],
-        "description": "Securely cleanly simply purely fluently cleanly smoothly explicitly effectively naturally uniquely smartly logically smartly purely intelligently functionally beautifully violently efficiently logically logically creatively wisely smartly valiantly rationally bravely fluently calmly brightly politely boldly cleverly politely valiantly smartly boldly cleverly valiantly smartly fluently vividly gently wisely boldly brightly elegantly cleverly proudly eloquently flexibly valiantly politely smoothly valiantly ingeniously confidently majestically majestically bravely violently smartly valiantly violently vibrantly cleverly politely stably sensibly cleanly valiantly expertly gracefully cleverly valiantly politely vibrantly defiantly violently fluently intelligently politely cleverly softly safely valiantly humbly smoothly cleverly fluently defiantly bravely vividly cleanly."
-    },
-    "Cybernetic_Acoustic_Receivers": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Cybernetic",
-            "Canine"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Alert",
-            "Target_Lock"
-        ],
-        "description": "Exactly purely safely explicitly functionally organically gracefully successfully correctly seamlessly cleanly functionally practically cleanly nicely effectively smartly brilliantly smoothly efficiently smartly fluently deftly smartly brightly cleanly brightly smoothly gracefully smartly expertly cleanly elegantly playfully intelligently bravely gracefully cleverly boldly calmly brightly smartly smartly powerfully peacefully vibrantly cleanly valiantly bravely proudly confidently fluently smartly politely gently fluently smartly smartly smoothly boldly logically elegantly boldly intelligently deftly majestically gently cleanly safely quietly elegantly elegantly bravely cleanly wisely fluently ingeniously boldly intelligently smartly brilliantly violently gracefully cleverly loudly bravely violently cleverly."
-    },
-    "Feathered_Display_Tufts": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Display",
-            "Canine",
-            "Mutant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Smartly intuitively explicitly perfectly cleanly functionally securely efficiently effectively natively efficiently seamlessly correctly successfully magically purely smoothly smoothly gracefully gracefully natively cleanly beautifully dynamically gracefully valiantly smartly fluently gracefully ingeniously creatively vibrantly cleverly smartly natively violently proudly gracefully sensibly politely deftly cleverly fluently bravely cleanly bravely quietly warmly vibrantly bravely gently loudly fluently wisely politely warmly cleverly calmly cleverly valiantly confidently calmly elegantly gracefully politely smartly gracefully expertly valiantly smartly cleanly confidently eloquently politely gracefully fluently safely quietly boldly cleanly elegantly humbly playfully bravely bravely smartly loudly gently fluently confidently elegantly happily fluently majestically fluently."
-    },
-    "Necrotic_Torn_Auditory_Passages": {
-        "tags": [
-            "Ears",
-            "Cephalon",
-            "Undead",
-            "Canine"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Fear"
-        ],
-        "description": "Heavily efficiently successfully cleanly gracefully gracefully purely safely functionally dynamically logically securely exactly smoothly simply dynamically natively magically properly fluently magically elegantly powerfully cleverly valiantly intelligently wisely intelligently cleanly forcefully boldly gracefully smartly fluently wisely violently intelligently intelligently smartly brilliantly valiantly smartly bravely cleanly boldly boldly smoothly fluently skillfully smartly fluently wildly confidently fluently politely valiantly intelligently valiantly proudly boldly smoothly neatly majestically neatly smartly wildly smoothly calmly vibrantly powerfully proudly gracefully bravely confidently boldly ingeniously cleverly vibrantly gracefully cleanly vibrantly vividly deftly calmly elegantly eloquently vividly politely smartly boldly violently bravely smoothly boldly calmly violently brightly boldly boldly peacefully cleanly."
-    }
+  "Erect_Prick_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Hearing",
+      "Canine",
+      "German_Shepherd"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "Sharp, erect prick ears twitch and twist with the subtlest sound, enhancing the wearer's perception to a level akin to the keen senses of a German Shepherd, allowing them to detect and locate even the most silent of threats from great distances."
+  },
+  "Pendulous_Drop_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Scent_Aid",
+      "Canine",
+      "Hound"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "The Pendulous_Drop_Ears component bestows upon the creature long, drooping canine ears that not only enhance their sense of hearing but also dramatically improve their sense of smell, granting them the ability to track scents with uncanny precision through the darkest of forests."
+  },
+  "Massive_Bat_Like_Radiators": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Hearing",
+      "Thermal",
+      "Canine",
+      "Fennec_Fox"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's head are massive, bat-like radiators with fennec fox-like ears, granting it exceptional thermal hearing and blindsight, enhancing its perception in dark and obscured environments while also boosting its constitution to endure the intense heat generated by this extraordinary organ."
+  },
+  "Cropped_Combat_Ears": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Armor",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "These cropped combat ears, resembling those of a fearsome canine, not only enhance the wearer's natural defensive capabilities by adding a layer of rugged protection but also subtly impair their keen senses, a trade-off for the robust cranial armor they provide."
+  },
+  "Swiveling_Radar_Fringes": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Hearing",
+      "Canine",
+      "Coyote"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "These highly sensitive, swiveling radar fringes, resembling those of a cunning coyote, enhance the wearer's perception and initiative, allowing them to stay acutely aware of their surroundings and react swiftly to any threats."
+  },
+  "Aquatic_Valved_Ear_Slits": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Aquatic",
+      "Canine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "The canine's head is adorned with sleek, valved ear slits that seamlessly open and close, allowing the creature to maintain underwater hearing while swimming with exceptional grace and speed, bolstered by enhanced endurance and agility."
+  },
+  "Asymmetrical_Owl_Like_Cavities": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Hearing",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Target_Lock"
+    ],
+    "description": "Embedded within the mutant canine\u2019s cephalon, these asymmetrical owl-like cavities amplify its hearing, granting it unparalleled awareness and the eerie ability to pinpoint the slightest movements in the darkest of nights, while also allowing it to maintain a silent and deadly surveillance."
+  },
+  "Cybernetic_Acoustic_Receivers": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Cybernetic",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Target_Lock"
+    ],
+    "description": "The Cybernetic Acoustic Receivers are a pair of sleek, metallic appendages grafted onto the canine's head, enhancing its natural auditory senses to detect even the faintest whispers of movement or sound, granting unparalleled awareness and reflexes in the heat of battle."
+  },
+  "Feathered_Display_Tufts": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Display",
+      "Canine",
+      "Mutant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Emerging from the mutant's elongated cephalon, these vibrant, feather-like tufts of fur twitch and flare with the creature's emotions, enhancing its charisma and keen senses, making it a mesmerizing sight that can captivate and distract foes."
+  },
+  "Necrotic_Torn_Auditory_Passages": {
+    "tags": [
+      "Ears",
+      "Cephalon",
+      "Undead",
+      "Canine"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Tattered and withered, the Necrotic Torn Auditory Passages are a haunting reminder of once-living ears now twisted into the realm of the undead, their ragged edges and empty sockets amplifying the slightest whisper of fear, while dimming the bearer's perception and charisma."
+  }
 }

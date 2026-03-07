@@ -1,307 +1,307 @@
 {
-    "Flying_Lemur_Gliding_Membranes": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Spider_Climb"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily valiantly boldly angrily valiantly enthusiastically loudly boldly fluently peacefully blindly bravely gracefully brilliantly intelligently proudly violently wildly gracefully smartly bravely confidently excitedly smartly smartly casually fluently humbly valiantly valiantly safely gracefully passionately majestically wisely smoothly confidently playfully boldly smartly valiantly boldly."
-    },
-    "Bat_Winged_Macaque_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Stealth",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly valiantly defiantly furiously competently wildly majestically boldly elegantly proudly eagerly safely fluently calmly humbly cleanly resolutely defiantly valiantly enthusiastically fluently quietly warmly brilliantly playfully proudly lovingly wisely calmly humbly bravely calmly eloquently smartly bravely boldly lazily gracefully humbly proudly quietly."
-    },
-    "Spectral_Ape_Ghostly_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Hover",
-            "Magic",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Hover",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Invisibility",
-            "Detect_Magic"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently bravely wildly intelligently fluently intelligently politely safely safely comfortably comfortably fluently valiantly boldly valiantly majestically playfully brilliantly confidently boldly cleanly fluently safely bravely bravely warmly calmly peacefully violently silently competently elegantly boldly politely gracefully brilliantly majestically deftly elegantly confidently intelligently safely loudly proudly fluently wildly smartly boldly majestically casually safely defiantly smartly peacefully cheerfully playfully valiantly valiantly valiantly valiantly politely excitedly playfully smartly expertly lazily boldly proudly elegantly confidently intelligently peacefully bravely majestically gracefully cleanly politely calmly valiantly smartly quietly excitedly prudently violently gracefully competently defiantly."
-    },
-    "Mandrill_Vivid_Feathered_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Hover",
-            "Charisma",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Hover",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Aerobatics"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly proudly fluently bravely softly brilliantly smoothly cleanly happily resolutely defiantly bravely valiantly gracefully warmly confidently bravely violently bravely smartly calmly brightly gracefully gracefully elegantly bravely happily happily intelligently confidently patiently violently brightly resolutely calmly competently loudly fluently valiantly vibrantly bravely cheerfully wildly competently wisely bravely."
-    },
-    "Zombie_Primate_Tattered_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Undead",
-            "Con"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Poison",
-            "Poison_Cloud"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly cheerfully vividly loudly gracefully safely competently wildly vividly defiantly smartly calmly quietly bravely eagerly confidently fluently boldly valiantly happily softly gracefully cleanly calmly warmly prudently confidently safely brightly bravely confidently casually bravely competently furiously valiantly vigorously deftly fluently neatly fluently prudently competently elegantly brightly brightly valiantly boldly."
-    },
-    "Gorilla_Heavy_Leathery_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Armor",
-            "Heavy",
-            "Strength"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Massively completely gracefully smoothly violently proudly solidly sensibly valiantly calmly violently smartly passionately sensibly bravely loudly defiantly boldly fluently neatly boldly humbly wisely proudly confidently passionately boldly valiantly safely competently silently violently comfortably loudly politely safely boldly smartly defiantly valiantly competently vividly fluently happily stably calmly politely gracefully valiantly bravely violently expertly competently."
-    },
-    "Chimpanzee_Nimble_Gliding_Flaps": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Dexterity",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics",
-            "Spider_Climb"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly calmly blindly violently safely prudently stably wildly elegantly gracefully loudly smartly valiantly defiantly passionately defiantly casually bravely cheerfully safely confidently violently boldly majestically brightly wisely proudly violently boldly majestically confidently casually smoothly safely confidently calmly valiantly comfortably vibrantly majestically playfully valiantly cleanly defiantly smoothly politely deftly valiantly cleanly quietly wisely cleanly boldly defiantly rationally lazily deftly confidently brightly bravely peacefully wildly boldly bravely smartly eagerly valiantly valiantly wisely cleverly smartly valiantly smoothly valiantly violently smartly safely cleanly calmly boldly happily resolutely valiantly valiantly elegantly valiantly fluently calmly defiantly passionately valiantly fluently calmly smartly bravely quietly majestically furiously wisely majestically blindly casually expertly playfully comfortably prudently wisely bravely bravely valiantly skillfully fluently smoothly cleverly elegantly fluently powerfully safely bravely expertly softly violently calmly bravely boldly violently boldly violently."
-    },
-    "Tarsier_Rapid_Flutter_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Hover",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Hover",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Exclusively cleanly organically flawlessly smoothly gracefully bravely competently prudently bravely safely valiantly brilliantly fluently calmly valiantly valiantly confidently smartly cleanly valiantly safely vibrantly wildly calmly competently bravely bravely bravely competently confidently intelligently sensibly elegantly bravely violently fluently patiently confidently loudly quietly politely boldly boldly bravely valiantly."
-    },
-    "Spider_Monkey_Webbed_Gliders": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Dexterity",
-            "Reach"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Aerobatics"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently competently passionately bravely politely valiantly fluently neatly elegantly calmly valiantly cleanly wildly valiantly valiantly safely valiantly casually cleanly defiantly boldly smartly intelligently politely calmly valiantly bravely smartly competently gracefully vividly brightly gracefully passionately lazily elegantly fluently violently violently loudly vividly calmly humbly majestically excitedly eagerly proudly majestically angrily bravely passionately."
-    },
-    "Baboon_Sturdy_Gliding_Membrane": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Primate",
-            "Glide",
-            "Strength",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently boldly softly proudly angrily silently expertly proudly defiantly bravely warmly valiantly proudly politely excitedly violently comfortably furiously valiantly quietly fluently boldly valiantly majestically peacefully cleanly bravely angrily valiantly expertly loudly bravely fluently passionately majestically fluently valiantly smoothly proudly cleverly humbly fluently competently boldly safely calmly smartly violently stably efficiently proudly brilliantly softly valiantly."
-    }
+  "Flying_Lemur_Gliding_Membranes": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Spider_Climb"
+    ],
+    "description": "The Flying Lemur's Gliding Membranes are a marvel of evolutionary adaptation, allowing the creature to stretch elastic skin between its limbs to glide gracefully between the treetops while its prehensile tail and nimble fingers ensure it can cling to even the most precarious branches with ease."
+  },
+  "Bat_Winged_Macaque_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Camouflage"
+    ],
+    "description": "With membranous wings stretched wide and eyes that gleam like polished obsidian, the Bat-Winged Macaque Glider skims through the shadows with preternatural grace, its agile form and enhanced stealth allowing it to vanish into the underbrush with a mere flutter of its wings."
+  },
+  "Spectral_Ape_Ghostly_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Hover",
+      "Magic",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Detect_Magic"
+    ],
+    "description": "Borrowing ethereal wings from the netherworld, the spectral ape's ghostly appendages allow it to glide and hover with an otherworldly grace, its wisps of magic granting it invisibility and the ability to detect arcane energies, while enhancing its wisdom and charisma."
+  },
+  "Mandrill_Vivid_Feathered_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Hover",
+      "Charisma",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the dense, shadowed canopy of the cursed realm, the Mandrill_Vivid_Feathered_Wings is a mesmerizing sight, with iridescent wings that shimmer in hues of emerald and sapphire, granting its primate bearer the ethereal ability to hover and glide through the air with unparalleled grace and charisma."
+  },
+  "Zombie_Primate_Tattered_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison",
+      "Poison_Cloud"
+    ],
+    "description": "Tattered wings, once a marvel of evolutionary adaptation for aerial navigation, now flap weakly from the shoulders of a desiccated primate corpse, granting it the ability to glide across the sky while emitting a noxious poison cloud, a testament to its corrupted existence."
+  },
+  "Gorilla_Heavy_Leathery_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Armor",
+      "Heavy",
+      "Strength"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Enormous leathery wings, thick with muscle and armored with tough, chitinous plates, allow the primordial gorilla to glide through the dense canopy, its formidable strength and resilience making it a near unstoppable force in aerial combat."
+  },
+  "Chimpanzee_Nimble_Gliding_Flaps": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Dexterity",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Spider_Climb"
+    ],
+    "description": "Equipped with membranous flaps extending from elongated wrists to ankles, this primate's dexterous limbs enable it to soar through dense canopies with grace, its innate agility and acrobatic prowess allowing for effortless gliding and climbing."
+  },
+  "Tarsier_Rapid_Flutter_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Hover",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "With delicate yet powerful wings sprouting from its elongated limbs, the tarsier can hover effortlessly through dense canopies, its movements a blur as it weaves through the branches with unparalleled speed and agility, defying the limitations of gravity and terrain."
+  },
+  "Spider_Monkey_Webbed_Gliders": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Dexterity",
+      "Reach"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Aerobatics"
+    ],
+    "description": "Equipped with membranous gliding wings and elongated, prehensile limbs, the Spider_Monkey_Webbed_Gliders component transforms its wielder into a nimble arboreal acrobat, granting unparalleled dexterity and reach, allowing for effortless traversal through the dense canopy and the open air."
+  },
+  "Baboon_Sturdy_Gliding_Membrane": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Primate",
+      "Glide",
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "This baboon's sturdy gliding membrane, a webbed expanse of tough, elastic skin stretching between elongated limbs, grants it the remarkable ability to glide through the air with grace and agility, while also enhancing its physical prowess and dexterity."
+  }
 }

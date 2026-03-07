@@ -1,295 +1,295 @@
 {
-    "Clockwork_Prehensile_Cables": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Clockwork",
-            "Construct",
-            "Prehensile"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Spider_Climb"
-        ],
-        "description": "Smoothly explicitly effortlessly perfectly successfully safely ideally cleanly correctly intelligently powerfully majestically safely correctly confidently ingeniously deftly quietly safely intelligently bravely smartly fluently defiantly defiantly angrily majestically powerfully safely stably calmly politely competently gently politely proudly defiantly loudly defiantly loudly defiantly powerfully majestically defiantly competently smartly warmly fluently fluently elegantly cleanly confidently safely wildly gracefully smartly flexibly casually fluently bravely loudly boldly gracefully cleverly calmly proudly gracefully violently casually playfully calmly deftly valiantly valiantly proudly humbly violently fluently passionately majestically quietly defiantly proudly casually violently smartly bravely boldly calmly securely safely violently smartly fluently comfortably bravely elegantly fluently."
-    },
-    "Heavy_Iron_Whip_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "dex",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Sunder",
-            "Knockdown"
-        ],
-        "description": "Solidly fully purely smartly completely expertly correctly securely effortlessly carefully boldly intelligently violently safely cleverly skillfully cleanly competently fluently defiantly fluently ingeniously intelligently skillfully cleverly furiously fluently cleanly boldly smartly calmly smartly smoothly bravely majestically boldly valiantly loudly smoothly valiantly boldly brightly politely cleverly competently fluently valiantly violently defiantly smoothly boldly safely defiantly defiantly defiantly vibrantly bravely gracefully smartly brilliantly calmly bravely majestically violently valiantly calmly comfortably valiantly defiantly safely furiously calmly quietly resolutely blindly proudly smartly valiantly gracefully rationally deftly defiantly violently loudly loudly smoothly deftly vigorously cleanly majestically violently valiantly passionately vibrantly defiantly cleverly majestically peacefully valiantly loudly bravely competently."
-    },
-    "Steam_Hose_Scalding_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Steam",
-            "Construct",
-            "Heat"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fire_Aura",
-            "Grapple"
-        ],
-        "description": "Magically seamlessly elegantly smartly elegantly magically solidly uniquely cleverly bravely safely intelligently competently fluently confidently vibrantly calmly cleverly skillfully violently defiantly smartly proudly vigorously cheerfully smoothly wildly elegantly safely valiantly fluently gracefully peacefully smartly politely intelligently bravely cleverly cleverly smoothly bravely calmly intelligently politely valiantly fluently gently playfully safely violently fluently safely boldly violently majestically blindly passionately boldly bravely majestically smartly brightly defiantly violently majestically smartly brilliantly confidently bravely prudently skillfully cleanly competently smartly patiently peacefully safely prudently defiantly deftly fluently enthusiastically cleverly gracefully casually casually defiantly powerfully passionately boldly smartly fluently bravely competently valiantly cheerfully competently peacefully peacefully violently elegantly happily."
-    },
-    "Crystal_Prism_Resonance_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Crystal",
-            "Construct",
-            "Magic"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Light"
-        ],
-        "description": "Beautifully cleanly smoothly elegantly seamlessly explicitly correctly perfectly actively proudly passionately safely defiantly competently valiantly violently prudently wildly valiantly defiantly valiantly loudly elegantly peacefully violently valiantly bravely casually gracefully boldly intelligently loudly valiantly defiantly smartly wisely wildly fluently violently loudly bravely violently eloquently intelligently casually valiantly proudly majestically deftly intelligently peacefully brilliantly warmly valiantly sweetly defiantly humbly bravely defiantly proudly majestically valiantly eloquently softly skillfully valiantly proudly violently defiantly resolutely defiantly cleanly defiantly gracefully defiantly brightly valiantly skillfully stably brightly furiously elegantly safely competently."
-    },
-    "Necrotic_Stitched_Intestine_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Flesh",
-            "Construct",
-            "Undead_Like",
-            "Toxic"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Poison_Cloud"
-        ],
-        "description": "Roughly jaggedly securely reliably flawlessly purely intelligently successfully expertly solidly expertly natively calmly fluently competently boldly safely bravely comfortably fluently violently peacefully playfully defiantly skillfully defiantly bravely brightly competently bravely warmly valiantly fluently bravely fluently playfully neatly playfully silently fluently defiantly bravely valiantly gracefully smoothly defiantly casually gracefully competently politely majestically violently valiantly smartly defiantly intelligently violently gently calmly violently smoothly valiantly valiantly boldly calmly fluently loudly fluently comfortably defiantly smartly boldly humbly defiantly valiantly violently peacefully casually violently defiantly securely politely expertly boldly patiently furiously defiantly furiously peacefully prudently cleanly securely elegantly humbly enthusiastically casually prudently resolutely deftly."
-    },
-    "Living_Wood_Thorny_Vines": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Wood",
-            "Construct",
-            "Plant_Like"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Bleed_Procc",
-            "Grapple"
-        ],
-        "description": "Organically smoothly naturally completely seamlessly effectively smartly cleverly flawlessly purely correctly cleanly brilliantly smoothly fluently violently valiantly loudly bravely gracefully intelligently smartly vividly bravely confidently politely cleverly safely defiantly defiantly violently calmly proudly wildly bravely fluently safely valiantly defiantly loudly defiantly safely proudly calmly flexibly bravely intelligently valiantly intelligently politely bravely majestically excitedly smoothly violently smoothly passionately valiantly boldly prudently safely quietly powerfully politely expertly smartly defiantly safely brightly cheerfully calmly valiantly smoothly rationally cleanly calmly competently cleanly violently happily smoothly furiously."
-    },
-    "Scrap_Metal_Chain_Link_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Scrap",
-            "Construct",
-            "Metal"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Sunder",
-            "Spider_Climb"
-        ],
-        "description": "Correctly reliably securely purely successfully effectively elegantly functionally cleanly smartly warmly bravely bravely smartly bravely bravely competently fluently violently safely valiantly loudly proudly powerfully prudently boldly warmly fluently brilliantly boldly bravely stably gracefully fluently bravely wisely cleanly majestically blindly valiantly smoothly smartly playfully valiantly safely intelligently expertly vividly defiantly forcefully confidently smartly gracefully bravely bravely valiantly smartly bravely intelligently fluently violently powerfully passionately proudly bravely calmly vigorously loudly fluently smoothly brilliantly stably smartly valiantly deftly intelligently confidently violently valiantly intelligently fluently competently stably boldly violently bravely bravely smoothly patiently valiantly smartly loudly peacefully cleanly valiantly humbly bravely casually cleanly proudly confidently bravely calmly majestically violently majestically smoothly bravely confidently bravely calmly bravely."
-    },
-    "Mithril_Filigree_Whip_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Agility"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Bleed_Procc"
-        ],
-        "description": "Seamlessly seamlessly explicitly completely gracefully cleanly successfully gracefully skillfully securely softly softly intelligently valiantly wildly boldly defiantly boldly competently bravely fluently smartly valiantly resolutely smoothly prudently cheerfully expertly defiantly fluently valiantly calmly valiantly gracefully defiantly smartly sweetly calmly vividly bravely valiantly confidently boldly fluently gently calmly quietly valiantly safely smartly confidently violently passionately bravely violently confidently calmly fluently competently smoothly intelligently boldly skillfully casually bravely bravely politely warmly safely fluently blindly boldly intelligently humbly smoothly patiently safely gracefully enthusiastically sensibly peacefully safely brilliantly defiantly bravely cleanly calmly competently fluently."
-    },
-    "Porcelain_Doll_Ribbon_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Ceramic",
-            "Construct",
-            "Doll_Like"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Weirdly cleanly explicitly seamlessly gracefully correctly beautifully practically solidly smartly gracefully brightly skillfully bravely sensibly valiantly violently playfully valiantly safely happily stably prudently skillfully bravely safely gracefully peacefully defiantly proudly prudently powerfully violently boldly cleanly cleverly calmly gracefully smartly brightly calmly sensibly passionately playfully passionately gracefully defiantly majestically violently cleanly smoothly violently brightly violently intelligently neatly neatly stably calmly prudently safely skillfully brilliantly violently sweetly gracefully confidently valiantly defiantly brilliantly bravely sensibly gracefully boldly peacefully safely proudly wildly comfortably gracefully cleanly intelligently defiantly vividly cleverly fluently elegantly bravely defiantly smoothly peacefully cleanly resolutely cleverly enthusiastically defiantly boldly loudly bravely valiantly fluently bravely fluently politely softly prudently majestically furiously vividly resolutely smartly competently fluently deftly violently majestically confidently."
-    },
-    "Arcane_Energy_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Energy",
-            "Construct",
-            "Magic"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Reflect_Spells",
-            "Grapple"
-        ],
-        "description": "Exclusively cleanly organically flawlessly naturally securely gracefully successfully fluently purely valiantly gracefully fluently boldly passionately defiantly valiantly calmly intelligently valiantly calmly confidently confidently boldly playfully boldly smartly bravely gracefully prudently bravely cleanly safely powerfully safely proudly fluently calmly cleanly politely intelligently intelligently wisely violently elegantly safely bravely valiantly violently calmly majestically peacefully brightly blindly calmly blindly smoothly quietly brightly warmly boldly violently safely calmly prudently stably defiantly violently gracefully brilliantly angrily smoothly bravely violently comfortably boldly softly stably valiantly gracefully bravely fluently enthusiastically resolutely fluently sweetly stably intelligently fluently defiantly bravely resolutely."
-    }
+  "Clockwork_Prehensile_Cables": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Clockwork",
+      "Construct",
+      "Prehensile"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider_Climb"
+    ],
+    "description": "Sinister clockwork tentacles, prehensile and finely crafted with intricate gears and springs, coil and uncoil with mechanical precision, granting their construct host unparalleled dexterity and reach, enabling them to scale sheer surfaces and ensnare foes with ease."
+  },
+  "Heavy_Iron_Whip_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Knockdown"
+    ],
+    "description": "These formidable tentacles, forged from darkened iron and animated by arcane forces, extend from the construct's bulk, each segment heavy with mass and strength, granting it the power to tear through armor and send foes sprawling with a single strike."
+  },
+  "Steam_Hose_Scalding_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Steam",
+      "Construct",
+      "Heat"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fire_Aura",
+      "Grapple"
+    ],
+    "description": "Emerging from the steam-choked depths, the Steam_Hose_Scalding_Tentacles are serpentine appendages of a construct, their metallic tendrils hissing with scalding steam, capable of both grapples and emitting a searing aura, while their reach extends menacingly beyond their mechanical frame."
+  },
+  "Crystal_Prism_Resonance_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Crystal",
+      "Construct",
+      "Magic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Light"
+    ],
+    "description": "Emerging from the crystalline depths of an ancient, arcane construct, the Crystal Prism Resonance Tentacles shimmer with prismatic light, their serpentine forms twisting and bending with otherworldly grace, capable of reflecting spells back upon their caster while bathing allies in purifying light."
+  },
+  "Necrotic_Stitched_Intestine_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Flesh",
+      "Construct",
+      "Undead_Like",
+      "Toxic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Poison_Cloud"
+    ],
+    "description": "These writhing Necrotic Stitched Intestine Tentacles, pulsating with dark energy, are ghastly appendages that trail behind a twisted construct, their very presence sapping the vigor of the living and poisoning the air with a noxious cloud."
+  },
+  "Living_Wood_Thorny_Vines": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Wood",
+      "Construct",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Bleed_Procc",
+      "Grapple"
+    ],
+    "description": "Entangled within the gnarled limbs of ancient trees, Living Wood Thorny Vines are a twisted amalgamation of bark and bone, their writhing, thorny appendages capable of scaling sheer surfaces with prehensile dexterity, while their razor-sharp thorns spill life from any unlucky prey caught in their grasp."
+  },
+  "Scrap_Metal_Chain_Link_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Scrap",
+      "Construct",
+      "Metal"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Sunder",
+      "Spider_Climb"
+    ],
+    "description": "Gnarled scrap metal tentacles, forged from the twisted remnants of forgotten machinery, extend from the construct's body, granting it an eerie reach and formidable strength, while also bestowing it the ability to grapple, sunder, and scale sheer surfaces with preternatural ease."
+  },
+  "Mithril_Filigree_Whip_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Bleed_Procc"
+    ],
+    "description": "Enveloped in a sheen of cold, metallic grace, the Mithril Filigree Whip Tentacles are serpentine appendages that shimmer with a predatory elegance, their fluid movements granting unparalleled agility and speed to their wielder, while the inherent metallic nature of the tentacles allows for devastating bleed attacks."
+  },
+  "Porcelain_Doll_Ribbon_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Ceramic",
+      "Construct",
+      "Doll_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "The porcelain doll ribbon tentacles are delicate yet eerie appendages, crafted from fine ceramic and adorned with intricate patterns, weaving through the air with a haunting grace that both fascinates and terrifies, enhancing the charm and charisma of their bearer while subtly diminishing their physical prowess."
+  },
+  "Arcane_Energy_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Energy",
+      "Construct",
+      "Magic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Reflect_Spells",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadowy depths, the Arcane Energy Tendrils are ghostly appendages that shimmer with arcane energy, their serpentine forms granting both wisdom and an extended reach, allowing them to ensnare foes and reflect hostile spells back at their origin."
+  }
 }

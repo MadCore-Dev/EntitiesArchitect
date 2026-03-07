@@ -1,318 +1,318 @@
 {
-    "Standard_Hoofed_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Strength",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Sprint"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charge"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately fluently fluently boldly bravely bravely cleanly boldly defiantly violently smoothly competently valiantly violently bravely bravely calmly valiantly lazily gracefully intelligently safely valiantly violently bravely blindly smartly wisely happily lazily fluently angrily proudly elegantly brilliantly violently safely angrily bravely gracefully wisely patiently boldly smartly proudly gracefully excitedly bravely passionately smoothly lazily valiantly fluently neatly elegantly patiently lazily smoothly valiantly valiantly compactly valiantly valiantly."
-    },
-    "Cloven_Hoofed_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Balance",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Acrobatics"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly valiantly competently boldly loudly valiantly violently bravely peacefully gracefully fluently boldly passionately violently fluently bravely gently fluently competently boldly confidently smartly boldly lazily politely safely bravely passionately boldly violently politely boldly furiously resolutely lazily calmly valiantly cleanly softly passionately smartly safely bravely cleanly competently softly fluently cleanly confidently valiantly angrily merrily skillfully passionately peacefully warmly peacefully cheerfully valiantly valiantly valiantly valiantly calmly defiantly confidently fluently happily safely humbly smartly bravely violently furiously."
-    },
-    "Heavy_Draft_Hooves": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Strength",
-            "Heavy",
-            "Con",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Resist_Knockback"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly bravely gracefully bravely calmly violently valiantly passionately boldly gracefully smartly cleverly cheerfully valiantly safely powerfully fluently proudly comfortably cleanly quietly excitedly fluently passionately bravely gently cleverly skillfully gracefully calmly lazily valiantly cleverly bravely violently smoothly warmly competently wisely peacefully elegantly humbly elegantly cheerfully competently quietly valiantly fluently humbly gently angrily warmly gently intelligently prudently proudly loudly defiantly gracefully boldly."
-    },
-    "Padded_Camel_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Con",
-            "Balance",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Endurance",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually valiantly fluently lazily gently majestically resolutely powerfully efficiently eagerly proudly confidently smoothly peacefully eagerly deftly skillfully calmly valiantly casually bravely resolutely wildly humbly bravely boldly violently safely violently lazily confidently cheerfully neatly calmly safely fluently peacefully calmly competently fluently loudly defensively majestically lazily safely gracefully safely violently gently gently cheerfully safely prudently happily safely solidly cleanly valiantly gracefully merrily passionately fluently safely politely cleverly valiantly lazily boldly smartly vigorously wildly cleanly bravely loudly bravely merrily safely sensibly wildly softly competently powerfully happily competently."
-    },
-    "Slender_Gazelle_Legs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Speed",
-            "Quadruped",
-            "Jump"
-        ],
-        "traversal": [
-            "Walk",
-            "Sprint",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics"
-        ],
-        "description": "Quietly explicitly cleanly casually intelligently brightly bravely confidently safely valiantly cleanly boldly playfully calmly smartly gracefully valiantly angrily bravely safely bravely peacefully fluently lazily gracefully violently elegantly wisely intelligently stably peacefully smartly brilliantly politely bravely proudly valiantly confidently smartly valiantly casually confidently confidently merrily casually violently fluently bravely bravely angrily gracefully valiantly bravely boldly peacefully warmly valiantly violently bravely deftly bravely proudly bravely gracefully violently competently eagerly merrily prudently brightly."
-    },
-    "Rhino_Pillar_Legs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Strength",
-            "Armor",
-            "Heavy",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Charge"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily resolutely valiantly valiantly calmly bravely playfully softly valiantly violently defiantly prudently boldly loudly cleverly majestically patiently wisely valiantly confidently merrily angrily sweetly fluently valiantly brilliantly safely gracefully confidently smartly elegantly resolutely valiantly bravely calmly violently wisely bravely calmly smartly bravely enthusiastically majestically boldly calmly skillfully fluently peacefully passionately boldly violently defiantly confidently safely calmly violently angrily gracefully fluently valiantly violently prudently intelligently safely calmly happily cleanly bravely peacefully valiantly boldly gently stably comfortably gracefully peacefully defiantly."
-    },
-    "Tapir_Stocky_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Strength",
-            "Con",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Endurance"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly valiantly neatly violently competently passionately fluently humbly bravely bravely valiantly peacefully calmly elegantly casually valiantly violently valiantly compactly sensibly cleanly proudly safely bravely fluently smartly valiantly compliantly defiantly calmly valiantly smoothly fluently cleanly violently defiantly fluently lazily smartly safely valiantly furiously casually intelligently bravely bravely confidently valiantly calmly politely eloquently brightly elegantly confidently majestically violently safely proudly boldly eagerly playfully gracefully neatly defiantly skillfully safely politely politely fluently majestically fluently."
-    },
-    "Hippopotamus_Stout_Webbed_Legs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Strength",
-            "Swim",
-            "Con",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Block"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly defiantly valiantly competently fluently valiantly lazily bravely valiantly boldly defiantly proudly safely valiantly politely bravely elegantly competently defensively gently violently bravely confidently bravely angrily gracefully valiantly brightly valiantly casually valiantly smoothly bravely smoothly coldly lazily proudly safely prudently confidently bravely deftly calmly cleverly safely fluently valiantly gracefully gracefully expertly proudly smartly securely safely valiantly lazily elegantly valiantly confidently boldly valiantly calmly happily gracefully smartly safely playfully proudly vigorously confidently casually prudently competently elegantly cleanly bravely passionately merrily."
-    },
-    "Zombie_Boar_Rotting_Legs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Undead",
-            "Con",
-            "Strength",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly boldly cleanly confidently fluently brightly defiantly furiously calmly valiantly gracefully smoothly politely defiantly elegantly wildly elegantly smoothly bravely bravely patiently deftly competently confidently calmly smartly fluently calmly smartly fluently safely loudly politely valiantly gracefully competently boldly smartly vibrantly bravely smoothly eloquently gently cleverly."
-    },
-    "Ghost_Stallion_Ethereal_Legs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ungulate",
-            "Magic",
-            "Perception",
-            "Undead_Like",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Invisibility"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely violently peacefully boldly elegantly smoothly calmly fluently defiantly fluently lazily patiently prudently peacefully competently casually competently competently fiercely angrily boldly calmly smoothly smartly valiantly happily gracefully proudly gently casually fluently intelligently bravely politely violently cleanly smartly defiantly bravely gracefully playfully casually valiantly gracefully bravely fluently intelligently defiantly safely elegantly bravely fluently expertly calmly bravely wisely defiantly happily efficiently prudently lazily calmly fluently cheerfully quietly proudly bravely violently passionately boldly valiantly boldly resolutely wildly safely neatly majestically excitedly peacefully valiantly powerfully passionately loudly eloquently calmly smartly violently peacefully boldly smartly bravely lazily peacefully competently boldly cleanly boldly smartly proudly valiantly confidently violently gently resolutely boldly."
-    }
+  "Standard_Hoofed_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Strength",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charge"
+    ],
+    "description": "These robust, hoofed forelegs, characteristic of powerful quadrupeds, enhance the creature's strength and speed, granting it the ability to execute a devastating charge that can break through even the most formidable defenses."
+  },
+  "Cloven_Hoofed_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Balance",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Acrobatics"
+    ],
+    "description": "Equipped with the sinuous grace of a cloven hoofed forelegs, these powerful limbs grant an unparalleled agility and a swift speed bonus, allowing their bearer to traverse treacherous terrains with ease and perform acrobatic feats with fluid elegance."
+  },
+  "Heavy_Draft_Hooves": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Strength",
+      "Heavy",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Knockback"
+    ],
+    "description": "Enormous, cloven hooves tipped with thick, calloused pads, these powerful limbs are built for endurance and brute force, their heavy tread capable of flattening underbrush and leaving deep, lasting impressions in the earth, while also granting their owner the ability to resist being knocked over or pushed aside."
+  },
+  "Padded_Camel_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Con",
+      "Balance",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "The padded camel forelegs, with their robust yet flexible design, grant unparalleled stability and grace, enhancing the wearer's constitution and agility as they traverse challenging terrains with ease, ignoring the usual penalties for rough or steep environments."
+  },
+  "Slender_Gazelle_Legs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Speed",
+      "Quadruped",
+      "Jump"
+    ],
+    "traversal": [
+      "Walk",
+      "Sprint",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "Equipped with slender gazelle legs, the wearer gains unparalleled agility and speed, bounding across terrain with the grace and power of a swift ungulate, capable of performing acrobatic leaps and sprints that leave enemies in the dust."
+  },
+  "Rhino_Pillar_Legs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Strength",
+      "Armor",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Charge"
+    ],
+    "description": "The Rhino_Pillar_Legs are massive, sturdily-built legs that resemble the sturdy pillars of an ancient ruin, brimming with raw strength and imbued with an innate resilience, though they slow the creature's pace with each ponderous step."
+  },
+  "Tapir_Stocky_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Strength",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "Brawny and robust, these stocky forelegs are adapted for immense strength and endurance, enhancing the quadruped's constitution and strength, allowing it to traverse rugged terrains with unyielding resolve and prowess."
+  },
+  "Hippopotamus_Stout_Webbed_Legs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Strength",
+      "Swim",
+      "Con",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Block"
+    ],
+    "description": "Brawny and resilient, the stout webbed legs of this creature bulge with powerful muscles, granting unparalleled strength and endurance, while their natural form lends itself perfectly to both terrestrial and aquatic environments, where they can unleash devastating blocks and swift swimming dashes."
+  },
+  "Zombie_Boar_Rotting_Legs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Undead",
+      "Con",
+      "Strength",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Battered by the relentless ravages of decay, the zombie boar's legs are a twisted amalgamation of rotting flesh and sinew, granting it an eerie resilience and a sluggish, ground-shaking gait that leaves a trail of toxic miasma in its wake."
+  },
+  "Ghost_Stallion_Ethereal_Legs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ungulate",
+      "Magic",
+      "Perception",
+      "Undead_Like",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Invisibility"
+    ],
+    "description": "The Ghost Stallion's ethereal legs are a marvel of spectral magic, allowing it to hover effortlessly over any terrain, its gaunt, translucent limbs barely touching the ground, granting it an otherworldly grace and an uncanny ability to evade detection."
+  }
 }

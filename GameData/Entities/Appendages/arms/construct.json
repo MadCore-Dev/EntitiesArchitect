@@ -1,293 +1,293 @@
 {
-    "Heavy_Iron_Piston_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Sunder"
-        ],
-        "description": "Robust safely purely fluently completely naturally organically successfully intelligently effortlessly smoothly perfectly logically bravely bravely neatly violently valiantly smartly peacefully fluently cleanly safely smartly cleverly valiantly violently confidently defiantly smartly defiantly deftly cleverly intelligently calmly valiantly boldly safely competently defiantly smoothly fluently valiantly brilliantly boldly bravely skillfully safely cleanly playfully violently fluently bravely casually stably bravely comfortably smartly brilliantly vividly politely valiantly boldly proudly valiantly bravely calmly loudly calmly bravely proudly prudently wisely softly boldly cleanly intelligently resolutely valiantly bravely."
-    },
-    "Clockwork_Precision_Manipulators": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Clockwork",
-            "Construct",
-            "Agility"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "True_Strike"
-        ],
-        "description": "Smoothly cleanly easily flawlessly securely intelligently smoothly completely organically practically securely elegantly ideally cleanly valiantly violently angrily valiantly valiantly violently angrily brightly defiantly politely loudly smoothly fluently defiantly rationally calmly calmly valiantly casually brightly safely valiantly wildly gracefully forcefully confidently bravely proudly skillfully defiantly prudently stably bravely valiantly comfortably politely playfully competently valiantly calmly valiantly gracefully smoothly prudently confidently cheerfully cleanly gracefully sweetly quietly bravely boldly prudently valiantly cheerfully politely comfortably safely bravely."
-    },
-    "Animated_Stone_Bashing_Fists": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Stone",
-            "Construct",
-            "Golem"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Sunder"
-        ],
-        "description": "Actively strictly organically successfully expertly beautifully uniquely correctly smoothly explicitly securely cleverly majestically cleanly valiantly elegantly valiantly happily forcefully bravely valiantly elegantly confidently cleverly smartly violently fluently cleanly confidently safely peacefully cleanly wisely fluently defiantly bravely angrily safely proudly bravely fluently intelligently defiantly safely smartly violently angrily bravely valiantly rationally smoothly cleverly peacefully playfully majestically boldly brightly defiantly eloquently smartly valiantly smartly peacefully intelligently confidently happily intelligently fluently securely bravely gracefully happily."
-    },
-    "Mithril_Bladed_Assassin_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Metal",
-            "Construct",
-            "Melee"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Aerobatics"
-        ],
-        "description": "Strongly practically correctly purely securely deeply effectively naturally powerfully brilliantly cleanly elegantly safely violently valiantly bravely smartly confidently fluently gracefully valiantly calmly wisely gently smartly gracefully defiantly bravely vividly safely fluently brilliantly valiantly boldly majestically peacefully skillfully proudly confidently defiantly fluently boldly smartly majestically elegantly gracefully warmly smartly proudly powerfully boldly bravely boldly boldly politely valiantly smoothly valiantly valiantly confidently smartly intelligently boldly powerfully casually sweetly eloquently valiantly vigorously valiantly powerfully smartly brilliantly valiantly cleverly bravely angrily calmly majestically proudly quietly."
-    },
-    "Living_Wood_Vines_and_Branches": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Wood",
-            "Construct",
-            "Plant_Like"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Spider_Climb"
-        ],
-        "description": "Securely cleanly perfectly practically expertly completely naturally securely smoothly automatically logically cleanly flawlessly bravely smartly safely happily intelligently safely intelligently smartly valiantly intelligently bravely violently bravely defiantly brightly elegantly gracefully skillfully vigorously bravely violently playfully powerfully angrily warmly efficiently bravely competently confidently peacefully elegantly wisely confidently defiantly expertly valiantly angrily violently fluently violently skillfully valiantly expertly elegantly cleverly defiantly comfortably elegantly majestically valiantly cleverly brightly securely competently valiantly competently valiantly happily fluently defiantly deftly gracefully valiantly."
-    },
-    "Crystal_Resonance_Blaster_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Crystal",
-            "Construct",
-            "Magic",
-            "Ranged"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "accuracy",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Light"
-        ],
-        "description": "Flawlessly simply cleanly fluently completely securely safely securely organically effectively efficiently expertly flawlessly cleanly cleanly defiantly calmly bravely fluently casually bravely gracefully intelligently boldly safely casually intelligently sweetly sensibly defiantly comfortably violently bravely cheerfully valiantly boldly boldly smartly gracefully proudly smartly valiantly boldly valiantly prudently valiantly smoothly proudly valiantly peacefully elegantly securely bravely casually elegantly playfully fluently valiantly brilliantly fluently violently wisely skillfully casually proudly smartly politely smoothly bravely fluently casually politely forcefully loudly boldly sweetly smartly cleanly valiantly competently loudly eloquently."
-    },
-    "Necrotic_Stitched_Brute_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Flesh",
-            "Construct",
-            "Undead_Like",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": -2
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Knockdown"
-        ],
-        "description": "Securely tightly exactly gracefully purely completely logically actively securely natively expertly cleverly cleanly valiantly smartly proudly happily smoothly vividly cleanly vigorously playfully calmly loudly stably majestically elegantly smartly wisely politely defiantly confidently valiantly bravely fluently cleanly safely vividly brightly prudently angrily casually valiantly fluently intelligently politely brightly bravely prudently bravely fluently bravely calmly smartly cheerfully bravely passionately safely fluently boldly stably politely bravely proudly valiantly bravely resolutely comfortably fluently warmly majestically proudly defiantly cleverly deftly intelligently bravely calmly confidently defiantly valiantly violently defiantly softly cheerfully resolutely passionately vibrantly peacefully wisely valiantly."
-    },
-    "Steam_Powered_Telescoping_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Steam",
-            "Construct",
-            "Reach"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Overdrive",
-            "Grapple"
-        ],
-        "description": "Dynamically natively safely naturally smoothly completely exclusively intelligently cleanly successfully cleanly properly cleverly compactly brilliantly efficiently valiantly majestically valiantly peacefully flexibly calmly eloquently cleanly angrily valiantly deftly proudly loudly confidently safely bravely loudly bravely boldly smartly loudly expertly defiantly calmly peacefully peacefully prudently safely competently defiantly bravely defiantly confidently wisely fluently majestically fluently boldly bravely silently warmly safely loudly bravely proudly bravely boldly politely gently gracefully politely violently smartly elegantly majestically loudly humbly bravely boldly cleanly casually confidently rationally fluently bravely neatly majestically violently neatly valiantly powerfully silently safely valiantly violently."
-    },
-    "Scrap_Metal_Claw_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Scrap",
-            "Construct",
-            "Metal"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "accuracy",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Scavenge"
-        ],
-        "description": "Solidly purely securely organically safely organically flawlessly natively neatly perfectly smartly efficiently rationally fluently intelligently cleanly valiantly calmly defiantly confidently expertly confidently elegantly casually smartly safely valiantly smartly boldly prudently defiantly elegantly peacefully bravely defiantly valiantly wisely fluently valiantly bravely prudently boldly defiantly skillfully bravely cleverly violently playfully boldly wildly competently violently warmly gracefully politely warmly elegantly bravely loudly defiantly humbly valiantly fluently intelligently warmly cleverly calmly competently proudly violently defiantly smartly proudly angrily majestically."
-    },
-    "Porcelain_Doll_Jointed_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Ceramic",
-            "Construct",
-            "Doll_Like"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Seamlessly properly beautifully successfully safely safely correctly purely organically successfully cleverly brilliantly gracefully competently boldly calmly defiantly calmly comfortably valiantly boldly bravely wildly gracefully cleanly confidently competently valiantly cheerfully defiantly smartly smoothly calmly valiantly furiously politely politely defiantly valiantly bravely calmly valiantly bravely smartly wisely boldly fluently playfully intelligently bravely bravely violently calmly brightly safely bravely cleanly smoothly angrily valiantly fluently smoothly bravely expertly bravely happily calmly politely smartly smartly valiantly prudently calmly rationally proudly safely loudly violently peacefully prudently elegantly fluently stably majestically casually."
-    }
+  "Heavy_Iron_Piston_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Sunder"
+    ],
+    "description": "Forged from iron and bound by ancient sorcery, the Heavy Iron Piston Arms pump with relentless force, their bulk augmenting strength while their ponderous weight hampers agility, granting their wielder the power to lay waste to foes and shatter defenses with devastating blows."
+  },
+  "Clockwork_Precision_Manipulators": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Clockwork",
+      "Construct",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "True_Strike"
+    ],
+    "description": "Crafted from intricate gears and polished metal, the Clockwork Precision Manipulators hum with mechanical precision, granting unparalleled agility and finesse in combat while slightly sacrificing brute strength."
+  },
+  "Animated_Stone_Bashing_Fists": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Stone",
+      "Construct",
+      "Golem"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Sunder"
+    ],
+    "description": "These crude, stone-forged fists are nothing if not relentless, their sturdy appendages granting immense strength and a natural resilience, perfect for reducing foes to rubble and shattering defenses alike."
+  },
+  "Mithril_Bladed_Assassin_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Metal",
+      "Construct",
+      "Melee"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Aerobatics"
+    ],
+    "description": "Forged from the rare and resilient metal mithril, these arms are a blend of arcane enchantment and mechanical precision, enhancing the wielder's dexterity and accuracy in combat, while granting them the lethal skill to inflict bleeding wounds and the agility to perform acrobatic maneuvers."
+  },
+  "Living_Wood_Vines_and_Branches": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Wood",
+      "Construct",
+      "Plant_Like"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider_Climb"
+    ],
+    "description": "Twisting and gnarled, the Living Wood Vines and Branches extend from a construct's limbs, granting them an almost serpentine dexterity and an uncanny ability to scale sheer surfaces with prehensile vines that wrap and coil with a mind of their own."
+  },
+  "Crystal_Resonance_Blaster_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Crystal",
+      "Construct",
+      "Magic",
+      "Ranged"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "accuracy",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Light"
+    ],
+    "description": "Equipped with crystalline arms that resonate with arcane energy, this construct possesses a heightened wisdom and unparalleled accuracy, capable of reflecting hostile spells and wielding bursts of radiant light against its foes."
+  },
+  "Necrotic_Stitched_Brute_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Flesh",
+      "Construct",
+      "Undead_Like",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": -2
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Knockdown"
+    ],
+    "description": "These Necrotic Stitched Brute Arms are a macabre assembly of reanimated flesh and sinew, bound together with blackened stitches and imbued with a weight that suggests they were once part of a formidable creature. Their presence is unsettling, and they grant their bearer immense strength at the cost of charisma, while their skills instill fear and can knock down foes with a single strike."
+  },
+  "Steam_Powered_Telescoping_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Steam",
+      "Construct",
+      "Reach"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Overdrive",
+      "Grapple"
+    ],
+    "description": "Forged from a blend of brass and steam, these telescoping arms extend and retract with mechanical precision, granting their wielder an extraordinary reach and dexterity that belies their industrial origins."
+  },
+  "Scrap_Metal_Claw_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Scrap",
+      "Construct",
+      "Metal"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "accuracy",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Scavenge"
+    ],
+    "description": "Forged from twisted scrap metal and crude mechanical parts, the Scrap Metal Claw Arms are a grotesque yet functional appendage, enhancing raw strength while clumsily reducing precision, their jagged edges capable of inflicting grievous bleeding wounds and allowing the wielder to scavenge the battlefield for more scrap to fuel their relentless advance."
+  },
+  "Porcelain_Doll_Jointed_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Ceramic",
+      "Construct",
+      "Doll_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Jointed arms crafted from delicate porcelain, these appendages move with an eerie grace and charm, enhancing the wielder's charisma while paradoxically diminishing their strength, serving as a conduit for the unsettling skill of Lure."
+  }
 }

@@ -1,244 +1,244 @@
 {
-    "Venomous_Cheliceral_Fangs": {
-        "tags": [
-            "Maw",
-            "Fangs",
-            "Venom",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Inject_Toxin"
-        ],
-        "description": "Massive, downward-striking hollow fangs (chelicerae) directly connected to colossal venom glands located in the prosoma. They easily punch through tough hide to pump agonizing, tissue-necrotizing venom directly into the prey's bloodstream."
-    },
-    "Sideways_Pincer_Chelicerae": {
-        "tags": [
-            "Maw",
-            "Pincers",
-            "Arachnid",
-            "Solifugae"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Bleed_Procc"
-        ],
-        "description": "Instead of fangs, the mouthparts are modified into two staggeringly powerful, horizontally opposed, heavily toothed shears (like a camel spider). They lack venom entirely but literally scissor struggling prey into bloody ribbons in seconds."
-    },
-    "Digestive_Enzyme_Vomit_Maw": {
-        "tags": [
-            "Maw",
-            "Acid",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Acid Breath"
-        ],
-        "description": "Arachnids cannot eat solid food. This horrifically specialized mouth simply latches onto the victim and violently regurgitates oceans of hyper-concentrated digestive acids, physically melting the prey alive before slurping up the resulting nutrient soup."
-    },
-    "Micro_Serrated_Cutting_Rostrum": {
-        "tags": [
-            "Maw",
-            "Serrated",
-            "Arachnid",
-            "Tick_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Life_Drain"
-        ],
-        "description": "An incredibly tiny, heavily barbed hypostome that effortlessly saws completely silently through the epidermis of a sleeping host. Infused with natural anesthetics, the host never feels the entity drinking a horrifying percentage of their blood."
-    },
-    "Elongated_Burrowing_Chelicerae": {
-        "tags": [
-            "Maw",
-            "Spade",
-            "Burrowing",
-            "Arachnid",
-            "Trapdoor"
-        ],
-        "traversal": [
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Burrow"
-        ],
-        "description": "The fangs are absurdly thick, dramatically shortened, and armed with heavy keratin 'teeth' (rastellum). They function exactly like organic pickaxes, used almost exclusively for aggressively excavating deeply packed clay to construct trapdoor bunkers."
-    },
-    "Protrusible_Prey_Snatching_Jaws": {
-        "tags": [
-            "Maw",
-            "Protrusible",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Grapple"
-        ],
-        "description": "The chelicerae are mounted on strangely heavily folded, highly extensible membranes. The mouthparts can literally shoot forward several inches completely independent of the head, snagging evasive insects that thought they were out of range."
-    },
-    "Goliath_Crushing_Fangs": {
-        "tags": [
-            "Maw",
-            "Heavy",
-            "Arachnid"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple"
-        ],
-        "description": "Fangs so incredibly thick and heavily armored that they rely less on venom and entirely on sheer, horrific brute-force crushing power, easily capable of cracking the carapace of a giant crab or the skull of a dog."
-    },
-    "Web_Spinning_Mouthparts": {
-        "tags": [
-            "Maw",
-            "Web",
-            "Arachnid",
-            "Spitting_Spider"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Restrain"
-        ],
-        "description": "The venom glands have bizarrely mutated to produce highly pressurized, neurotoxic silk. The fangs continuously violently oscillate side-to-side, aggressively spraying an inescapable, zigzagging web of venomous glue directly over the victim."
-    },
-    "Filter_Feeding_Setal_Maw": {
-        "tags": [
-            "Maw",
-            "Filter",
-            "Arachnid",
-            "Aquatic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "The mouthparts of a highly specialized aquatic arachnid heavily fringed with thousands of microscopic filtering hairs. It simply holds its mouth open in strong river currents, passively trapping drifting zooplankton and aquatic mites."
-    },
-    "Hooked_Grappling_Chelicerae": {
-        "tags": [
-            "Maw",
-            "Hooks",
-            "Arachnid",
-            "Hunter"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple"
-        ],
-        "description": "Fangs utterly lacking venom glands completely. Instead, they are deeply grooved and impossibly sharply recurved fishhooks. Once they sink into the chitin of a fleeing cricket, there is absolutely no physical escape short of tearing the body apart."
-    }
+  "Venomous_Cheliceral_Fangs": {
+    "tags": [
+      "Maw",
+      "Fangs",
+      "Venom",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Inject_Toxin"
+    ],
+    "description": "Emerging from the arachnid\u2019s gaping maw, the venomous cheliceral fangs are fearsome, elongated mandibles that drip with a lethal cocktail of paralyzing toxins and necrotic acids, enhancing the creature's agility and strength as it prepares to inject its prey with debilitating poison."
+  },
+  "Sideways_Pincer_Chelicerae": {
+    "tags": [
+      "Maw",
+      "Pincers",
+      "Arachnid",
+      "Solifugae"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Bleed_Procc"
+    ],
+    "description": "Enormous, serrated pincers that snap with bone-crushing force, these chelicerae are a fearsome adaptation of a Solifugae arachnid, enhancing the creature's strength while reducing its agility in close quarters, and granting it the ability to grapple and cause bleeding wounds with each vicious strike."
+  },
+  "Digestive_Enzyme_Vomit_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acid Breath"
+    ],
+    "description": "This fearsome arachnid's maw is lined with razor-sharp fangs and secretes a corrosive digestive enzyme, capable of vomiting pools of acid that can dissolve flesh and bone, leaving only the stench of decay and ruin behind."
+  },
+  "Micro_Serrated_Cutting_Rostrum": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Arachnid",
+      "Tick_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Life_Drain"
+    ],
+    "description": "This tick-like arachnid appendage, bristling with razor-sharp serrations, serves as a fearsome maw capable of silently slicing through flesh with ease, its bite not only delivering a debilitating drain of life force but also granting the bearer a slight edge in stealth, though at the cost of some raw physical might."
+  },
+  "Elongated_Burrowing_Chelicerae": {
+    "tags": [
+      "Maw",
+      "Spade",
+      "Burrowing",
+      "Arachnid",
+      "Trapdoor"
+    ],
+    "traversal": [
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "Equipped with fearsome, elongated burrowing chelicerae, this arachnid component allows for powerful digging and formidable close-quarters combat, enhancing the wielder's strength and granting the ability to create trapdoor burrows to ambush unsuspecting prey."
+  },
+  "Protrusible_Prey_Snatching_Jaws": {
+    "tags": [
+      "Maw",
+      "Protrusible",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Equipped with a gaping maw lined with razor-sharp fangs, this arachnid's protrusible jaws extend with preternatural speed, snatching prey from surprising distances and dragging them into the beast's waiting mandibles."
+  },
+  "Goliath_Crushing_Fangs": {
+    "tags": [
+      "Maw",
+      "Heavy",
+      "Arachnid"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Enormous and intimidating, the Goliath Crushing Fangs are massive, serrated fangs that serve as the primary weapon of colossal arachnids, capable of rending through flesh and bone with ease. Their sheer weight adds considerable strength to the arachnid's bite, though it hinders the agility needed for swift movement and strikes."
+  },
+  "Web_Spinning_Mouthparts": {
+    "tags": [
+      "Maw",
+      "Web",
+      "Arachnid",
+      "Spitting_Spider"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Restrain"
+    ],
+    "description": "Equipped with a grotesque, chitinous mandible that secretes a viscous, silk-like substance, this component allows the wielder to spit strands of sticky, ensnaring web from their mouth, ensnaring foes in a web of entrapment and enhancing their agility in the process."
+  },
+  "Filter_Feeding_Setal_Maw": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Arachnid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "This colossal aquatic arachnid possesses a gaping, filter-feeding setal maw, bristling with fine, sensory setae that sift through water to capture microscopic nutrients and plankton, granting it a robust constitution and a unique symbiotic relationship with its aquatic environment."
+  },
+  "Hooked_Grappling_Chelicerae": {
+    "tags": [
+      "Maw",
+      "Hooks",
+      "Arachnid",
+      "Hunter"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Embedded deep within the arachnid hunter's fearsome maw, the hooked grappling chelicerae are a marvel of evolutionary engineering, combining brutal strength and agility to snatch and subdue prey with merciless precision, their razor-sharp hooks piercing flesh and sinew with each strike."
+  }
 }

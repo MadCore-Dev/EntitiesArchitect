@@ -1,308 +1,308 @@
 {
-    "Flying_Fish_Glider_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Glide",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Glide",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Swim_Dash"
-        ],
-        "description": "Fluidly seamlessly logically natively casually violently vibrantly defiantly valiantly gracefully angrily valiantly politely happily fluently smartly firmly calmly valiantly valiantly compactly sensibly elegantly loudly calmly proudly humbly wisely confident bravely cleverly comfortably brightly passionately valiantly vigorously wildly safely defiantly majestically proudly bravely intelligently valiantly violently playfully fluently rationally passionately enthusiastically playfully gently prudently valiantly fluently neatly elegantly patiently proudly warmly vibrantly."
-    },
-    "Manta_Ray_Pectoral_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Agility",
-            "Strength"
-        ],
-        "traversal": [
-            "Swim",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Properly natively explicitly securely smartly neatly intelligently bravely valiantly violently calmly majestically fluently eloquently wildly loudly bravely gracefully comfortably angrily violently violently boldly brightly eloquently violently valiantly gracefully valiantly bravely boldly valiantly cleverly safely bravely defiantly violently boldly smartly peacefully valiantly bravely proudly defiantly fluently fluently elegantly proudly wisely calmly bravely humbly proudly calmly violently gracefully confidently majestically safely safely elegantly bravely bravely quietly gently defiantly boldly smartly."
-    },
-    "Bioluminescent_Deep_Sea_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Luminescence"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure"
-        ],
-        "description": "Magically seamlessly elegantly explicitly safely cleanly valiantly bravely playfully gently expertly cleanly securely smartly valiantly confidently politely bravely boldly humbly peacefully bravely cheerfully confidently defiantly smoothly valiantly violently expertly bravely violently angrily proudly expertly valiantly bravely patiently fluently loudly proudly violently passionately bravely violently confidently proudly proudly smartly gracefully comfortably confidently casually peacefully cheerfully smartly resolutely bravely powerfully safely politely smartly violently expertly defiantly casually playfully majestically vibrantly fluently defiantly gracefully violently violently softly."
-    },
-    "Spined_Lionfish_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Toxic",
-            "Armor"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly stably wildly smartly proudly calmly safely safely defiantly safely bravely politely warmly angrily elegantly peacefully humbly violently brightly calmly elegantly smartly proudly cleanly cleanly smoothly boldly cleanly confidently bravely angrily calmly bravely intelligently proudly gently valiantly warmly defiantly defiantly bravely calmly valiantly sensibly boldly politely brightly defiantly fluently intelligently politely gracefully fluently skillfully politely competently loudly neatly calmly comfortably intelligently valiantly safely eloquently."
-    },
-    "Ghost_Koi_Spectral_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "Hover",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Exclusively cleanly organically flawlessly defiantly majestically valiantly confidently calmly defiantly prudently valiantly safely calmly playfully safely wisely prudently defiantly elegantly fluently defiantly wisely bravely valiantly calmly violently smartly passionately defiantly bravely gently valiantly fluently expertly calmly bravely valiantly smartly bravely fluently intelligently valiantly fluently cleverly fluently wisely rationally bravely confidently valiantly calmly smartly defiantly calmly violently majestically majestically cleverly gently valiantly eloquently gracefully deftly violently politely defiantly passionately warmly proudly intelligently bravely boldly safely quietly."
-    },
-    "Electric_Ray_Shocking_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Swim_Dash"
-        ],
-        "description": "Technologically actively practically gracefully cleanly cheerfully bravely expertly violently safely valiantly politely bravely confidently competently violently valiantly smartly boldly humbly defiantly valiantly enthusiastically valiantly competently vividly fluently casually confidently bravely violently boldly gracefully angrily smartly boldly wisely gracefully intelligently peacefully majestically elegantly softly casually proudly deftly proudly intelligently gracefully fluently competently boldly safely calmly smartly violently bravely politely happily cleanly gently smartly intelligently confidently."
-    },
-    "Heavy_Sturgeon_Armored_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Armor",
-            "Heavy"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "initiative",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly proudly valiantly wisely silently gracefully boldly violently smartly valiantly safely resolutely passionately bravely wildly majestically violently proudly gracefully bravely boldly blindly politely bravely calmly valiantly boldly safely sensibly intelligently proudly excitedly bravely smartly furiously proudly quietly safely bravely peacefully bravely calmly peacefully smartly peacefully defiantly loudly blindly gracefully smartly safely proudly boldly vibrantly calmly smoothly valiantly smoothly calmly proudly skillfully prudently brightly vibrantly bravely cleanly brightly politely cleverly elegantly defiantly."
-    },
-    "Camouflaging_Flounder_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Stealth",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly logically wildly gently prudently valiantly proudly comfortably confidently majestically vibrantly gracefully bravely violently fluently confidently defiantly elegantly valiantly fluently wisely smoothly stably violently boldly angrily patiently calmly violently proudly valiantly brightly confidently confidently violently excitedly fluently cheerfully fluently violently bravely violently valiantly smartly competently fluently passionately securely smoothly valiantly bravely confidently confidently smoothly fluently competently stably violently gracefully violently happily smoothly defiantly cleverly softly cleanly."
-    },
-    "Webbed_Frogfish_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Strength",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Specifically deeply natively cleanly purely valiantly valiantly compactly sensibly elegantly boldly cleanly smoothly peacefully proudly boldly valiantly confidently smartly furiously warmly calmly intelligently defiantly gracefully vehemently bravely bravely smartly proudly politely cleanly securely confidently prudently smartly competently vividly politely smartly proudly valiantly confidently violently gently resolutely competently gracefully proudly resolutely smartly valiantly smartly bravely bravely boldly bravely gracefully gracefully elegantly violently cheerfully bravely."
-    },
-    "Translucent_Glass_Catfish_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Stealth",
-            "Perception"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Alert"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely loudly politely bravely passionately loudly safely brightly furiously softly defiantly majestically proudly bravely calmly deftly defiantly wildly defiantly fluently passionately gracefully confidently smartly boldly bravely gracefully excitedly boldly brilliantly defiantly fluently valiantly brilliantly boldly cleanly proudly sensibly boldly proudly bravely valiantly smoothly prudently bravely smartly intelligently expertly boldly valiantly majestically proudly fluently brightly bravely defiantly passionately sensibly eloquently politely elegantly violently violently calmly defiantly calmly comfortably loudly defiantly enthusiastically valiantly casually playfully expertly intelligently defiantly smartly."
-    }
+  "Flying_Fish_Glider_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Glide",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Glide",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Swim_Dash"
+    ],
+    "description": "Emerging from the sleek, hydrodynamic form of the Flying Fish, these membranous glider wings are a breathtaking marvel of piscine evolution, allowing the creature to soar gracefully through the air with unmatched speed and agility, while still retaining its prowess beneath the waves."
+  },
+  "Manta_Ray_Pectoral_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Agility",
+      "Strength"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the depths, the Manta_Ray_Pectoral_Wings are a marvel of piscine engineering, granting their bearer the fluid grace and raw power of the ocean's apex predators, allowing them to swim with unmatched agility and glide through the water as if they were cutting through air itself."
+  },
+  "Bioluminescent_Deep_Sea_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Luminescence"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure"
+    ],
+    "description": "Emerging from the depths of the ocean, these iridescent, piscine wings pulse with an otherworldly glow, granting their bearer unparalleled charisma and a keen awareness of their surroundings, while empowering them with the mystical abilities to emit radiant light and attract or distract sea creatures."
+  },
+  "Spined_Lionfish_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Toxic",
+      "Armor"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Emerging from the depths of a sunken city, the Spined Lionfish Wings are a mesmerizing blend of piscine grace and menacing armor, their shimmering scales and sharp spines capable of unleashing a toxic cloud, while granting their bearer enhanced agility and resilience."
+  },
+  "Ghost_Koi_Spectral_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Emerging from the ghostly depths of the aquatic realm, the Ghost Koi's spectral wings are a haunting blend of fishlike scales and semi-transparent membranes, granting the creature the ability to hover and swim with ethereal grace, while also bestowing upon it a chilling aura of stealth and evasion."
+  },
+  "Electric_Ray_Shocking_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Swim_Dash"
+    ],
+    "description": "Emerging from the depths, the Electric Ray's Shocking Wings are a marvel of piscine magic, shimmering membranes that pulse with crackling energy, granting unmatched agility and the ability to glide through water and air with supernatural grace, while also reflecting hostile spells back upon their origin."
+  },
+  "Heavy_Sturgeon_Armored_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Armor",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Enveloped in a thick, chitin-like armor derived from the scales of ancient, deep-sea sturgeon, these wings are both a marvel of piscine adaptation and a testament to sheer defensive might, granting their bearer unparalleled resilience against physical attacks while slightly hindering their agility and speed."
+  },
+  "Camouflaging_Flounder_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Stealth",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "The Camouflaging Flounder Wings are a peculiar piscine appendage, granting the user unparalleled agility and stealth in aquatic environments, allowing them to seamlessly blend into their surroundings and move with grace despite the rugged underwater terrain."
+  },
+  "Webbed_Frogfish_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Bristling with piscine resilience, the Webbed Frogfish Wings are a marvel of evolutionary adaptation, granting their bearer unparalleled strength and agility in both aquatic and aerial realms, enabling swift traversal through the water and daring leaps through the air."
+  },
+  "Translucent_Glass_Catfish_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Stealth",
+      "Perception"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Alert"
+    ],
+    "description": "Barely visible in the shimmering depths of the water, the Translucent_Glass_Catfish_Wings are a wondrous adaptation, granting their bearer the uncanny ability to blend seamlessly into their aquatic environment while enhancing their senses to detect the slightest movements in the surrounding currents."
+  }
 }

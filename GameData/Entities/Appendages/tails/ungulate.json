@@ -1,279 +1,279 @@
 {
-    "Horse_Flowing_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Charisma",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charm"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly calmly bravely violently politely passionately eagerly playfully safely quietly bravely eagerly passionately angrily elegantly valiantly smoothly proudly valiantly cleanly bravely proudly violently smartly bravely cleanly expertly confidently bravely bravely passionately proudly boldly smartly angrily majestically elegantly elegantly gracefully defiantly valiantly passionately cheerfully elegantly gracefully proudly patiently fluently loudly expertly smartly cleanly humbly violently safely softly peacefully happily."
-    },
-    "Pig_Curly_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Utility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "None"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly smoothly politely valiantly bravely playfully valiantly safely confidently competently politely playfully casually playfully quietly brilliantly bravely blindly confidently defiantly safely proudly calmly valiantly boldly prudently politely gently sensibly violently valiantly fluently cleverly fluently valiantly brilliantly fluently violently smartly bravely."
-    },
-    "Cow_Tufted_Fly_Swatter": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Utility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "None"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely valiantly brightly warmly gracefully cleanly defiantly smartly violently calmly gracefully bravely lazily violently valiantly smoothly loudly expertly calmly boldly peacefully fluently casually boldly cleanly valiantly gently fluently valiantly smartly happily gracefully politely quietly fluently angrily gently casually securely calmly boldly sensibly powerfully valiantly violently proudly confidently safely eagerly boldly elegantly valiantly bravely angrily defiantly fluently."
-    },
-    "Zebra_Striped_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Agility",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Confuse_Enemies"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually bravely sweetly intelligently bravely smartly gracefully bravely gracefully peacefully politely elegantly bravely lazily playfully patiently fluently resolutely elegantly elegantly bravely intelligently humbly bravely angrily valiantly lazily gracefully peacefully bravely wisely angrily fluently vividly competently warmly politely brightly lazily stably safely brilliantly majestically cleanly prudently."
-    },
-    "Goat_Short_Upright_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Balance",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly gently casually violently passionately happily skillfully calmly safely skillfully playfully gracefully smoothly calmly boldly confidently valiantly humbly elegantly majestically warmly boldly valiantly violently boldly boldly bravely smoothly gracefully competently elegantly patiently smartly excitedly lazily boldly safely gently peacefully boldly valiantly smartly brightly calmly peacefully."
-    },
-    "Deer_White_Flagging_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Stealth",
-            "Agility",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 1
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Alert"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully confidently angrily bravely valiantly passionately smartly casually resolutely safely playfully excitedly enthusiastically bravely defiantly silently valiantly confidently violently competently smoothly safely confidently defiantly angrily intelligently resolutely lazily prudently calmly confidently vividly bravely resolutely happily competently elegantly brilliantly comfortably prudently calmly smartly bravely smartly."
-    },
-    "Giraffe_Long_Tufted_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Reach",
-            "Utility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "None"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly calmly quietly boldly angrily playfully lazily smartly valiantly violently majestically fluently valiantly calmly neatly bravely warmly blindly valiantly neatly cleanly calmly valiantly proudly casually smartly angrily gently valiantly valiantly compactly sensibly cleanly neatly bravely valiantly bravely compliantly valiantly smartly bravely boldly majestically casually peacefully cleverly resolutely gracefully elegantly safely wisely valiantly valiantly valiantly sweetly gracefully smoothly politely gracefully proudly enthusiastically powerfully smoothly humbly warmly valiantly bravely skillfully violently."
-    },
-    "Hippopotamus_Stout_Flat_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Con",
-            "Swim"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly confidently defiantly calmly defiantly valiantly bravely calmly valiantly comfortably happily boldly expertly competently valiantly calmly valiantly gracefully smoothly boldly proudly boldly safely violently loudly bravely confidently boldly smartly bravely resolutely calmly safely boldly vigorously bravely cleanly valiantly safely fluently violently competently prudently fluently sensibly bravely confidently boldly valiantly wisely bravely humbly proudly valiantly skillfully peacefully valiantly passionately lazily deftly lazily prudently."
-    },
-    "Zombie_Boar_Rotting_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Undead",
-            "Con"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly safely bravely playfully smoothly patiently cheerfully smoothly competently bravely calmly casually gracefully eagerly peacefully bravely elegantly casually blindly defiantly casually humbly gently humbly majestically violently loudly fluently violently confidently boldly casually bravely confidently boldly vividly smoothly competently wisely boldly elegantly calmly valiantly."
-    },
-    "Ghost_Steed_Ethereal_Tail": {
-        "tags": [
-            "Tails",
-            "Appendages",
-            "Ungulate",
-            "Magic",
-            "Stealth",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Invisibility"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly valiantly casually bravely valiantly silently cleanly bravely calmly excitedly proudly competently warmly casually fluently smoothly silently calmly boldly calmly violently safely lazily proudly deftly boldly boldly smartly enthusiastically brilliantly quietly bravely gracefully brightly calmly prudently humbly valiantly cleanly powerfully politely gracefully politely boldly valiantly proudly proudly violently eloquently lazily valiantly bravely valiantly gently majestically blindly deftly excitedly politely calmly politely boldly smartly elegantly politely valiantly efficiently deftly boldly politely silently."
-    }
+  "Horse_Flowing_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Charisma",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The flowing tail, a mesmerizing appendage that undulates with an otherworldly grace, enhances the charisma and agility of its bearer, granting a subtle yet captivating charm that entrances all who behold it."
+  },
+  "Pig_Curly_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "None"
+    ],
+    "description": "The Pig_Curly_Tail, a whimsical yet functional appendage, adds a playful twist to agility, coiling and uncoiling with fluid grace, enhancing its bearer's nimbleness and dexterity in the most unexpected ways."
+  },
+  "Cow_Tufted_Fly_Swatter": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "None"
+    ],
+    "description": "A sleek, tufted appendage sprouting from the base of an ungulate's tail, this swatter enhances agility and evasion, granting its wielder a natural edge in nimble movements and quick escapes."
+  },
+  "Zebra_Striped_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Confuse_Enemies"
+    ],
+    "description": "The Zebra-Striped Tail, a vibrant and agile appendage, swishes with a mesmerizing rhythm, enhancing its bearer's evasion and charm while confusing foes with its hypnotic patterns."
+  },
+  "Goat_Short_Upright_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Balance",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "This short, upright tail, sprouting from the back of ungulate creatures, enhances their natural agility and dexterity, providing a subtle but crucial balance and control in swift movements and acrobatic feats."
+  },
+  "Deer_White_Flagging_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Stealth",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Alert"
+    ],
+    "description": "The White Flagging Tail is a striking appendage, a vibrant patch of snow-white fur at the end of a slender tail that flutters with each graceful movement, enhancing agility and charisma while subtly alerting predators to the bearer's presence in the dense underbrush."
+  },
+  "Giraffe_Long_Tufted_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Reach",
+      "Utility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "None"
+    ],
+    "description": "This long, tufted tail, a natural extension of the giraffe's regal form, enhances its reach and agility, serving both as a defensive weapon and a delicate balancing tool, perfectly adapted for life among the treetops."
+  },
+  "Hippopotamus_Stout_Flat_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Con",
+      "Swim"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "The hippopotamus's stout flat tail, a powerful appendage that propels its massive ungulate body with unparalleled grace through aquatic realms, enhances its constitution, granting resilience and the ability to perform a swift and devastating Swim Dash that can knock back foes in the water."
+  },
+  "Zombie_Boar_Rotting_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison"
+    ],
+    "description": "This rotting tail, a grotesque appendage from the corpse of a once-proud boar, writhes with an undead vitality, its tattered flesh and exposed bones a testament to its corrupted nature, granting its bearer a twisted resilience to poison while simultaneously sapping the wielder's charisma."
+  },
+  "Ghost_Steed_Ethereal_Tail": {
+    "tags": [
+      "Tails",
+      "Appendages",
+      "Ungulate",
+      "Magic",
+      "Stealth",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Invisibility"
+    ],
+    "description": "This spectral tail, a hauntingly elegant appendage from an otherworldly steed, pulses with ethereal magic that enhances its bearer\u2019s wisdom and evasion, allowing them to move with ghostly grace and vanish from sight at will."
+  }
 }

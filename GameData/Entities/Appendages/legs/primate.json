@@ -1,316 +1,316 @@
 {
-    "Gorilla_Stout_Pillars": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Strength",
-            "Heavy",
-            "Armor"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Knockdown"
-        ],
-        "description": "Solidly purely smoothly naturally gracefully valiantly fiercely confidently valiantly patiently fluently resolutely boldly vehemently valiantly bravely quietly smartly bravely wisely bravely boldly valiantly confidently violently expertly wildly passionately valiantly proudly peacefully blindly boldly eagerly expertly gracefully smoothly politely playfully defiantly cleverly safely defiantly defiantly vibrantly bravely gracefully boldly deftly proudly loudly loudly gracefully violently bravely cleanly angrily violently defiantly valiantly compactly sensibly elegantly loudly calmly happily valiantly intelligently defiantly boldly intelligently fluently quietly boldly vividly."
-    },
-    "Lemur_Spring_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Agility",
-            "Jump",
-            "Speed"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually boldly boldly majestically casually calmly defiantly fluently intelligently silently cleanly humbly proudly safely bravely competently boldly furiously calmly expertly defiantly bravely defiantly confidently boldly defiantly elegantly boldly calmly smartly wisely resolutely boldly eloquently stably warmly wildly blindly boldly proudly wisely softly quietly intelligently wildly angrily confidently proudly majestically confidently proudly proudly blindly brightly cleverly valiantly valiantly valiantly calmly confidently humbly competently calmly excitedly defiantly defiantly fluently cleverly fluently defiantly vividly defiantly wildly valiantly gracefully confidently furiously stably wildly defiantly violently warmly resolutely passionately angrily elegantly safely."
-    },
-    "Chimpanzee_Nimble_Feet": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Dexterity",
-            "Agility",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Acrobatics"
-        ],
-        "description": "Successfully explicitly correctly gracefully seamlessly valiantly brightly passionately valiantly excitedly valiantly efficiently bravely resolutely angrily confidently proudly bravely gracefully casually gracefully defiantly warmly brightly violently valiantly defiantly safely gracefully playfully intelligently valiantly intelligently politely safely confidently vigorously wildly passionately politely safely prudently bravely blindly casually smartly safely boldly violently loudly sweetly valiantly intelligently boldly valiantly smartly brightly cleverly silently vibrantly proudly calmly majestically valiantly eagerly smartly peacefully bravely fluently bravely gracefully majestically confidently safely stably bravely excitedly proudly bravely proudly gently silently valiantly gracefully gently politely violently defiantly cleanly confidently boldly."
-    },
-    "Baboon_Muscular_Hindlegs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Strength",
-            "Speed",
-            "Agility"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Athletics",
-            "Charge"
-        ],
-        "description": "Strictly sharply specifically bravely enthusiastically violently politely resolutely proudly vividly valiantly safely gracefully comfortably warmly boldly furiously wisely calmly cleanly politely defiantly confidently brightly calmly defiantly calmly comfortably gracefully furiously brightly valiantly calmly excitedly lazily boldly safely confidently confidently violently silently fluently peacefully softly expertly smoothly eloquently defiantly valiantly comfortably warmly defiantly bravely violently humbly warmly sweetly valiantly valiantly safely gracefully calmly angrily valiantly gracefully vigorously safely."
-    },
-    "Gibbon_Short_Balance_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Agility",
-            "Dexterity"
-        ],
-        "traversal": [
-            "Walk",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Acrobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely bravely gracefully bravely majestically violently confidently cleanly bravely fluently wildly neatly safely wisely skillfully boldly confidently proudly bravely softly confidently fluently bravely gracefully cheerfully patiently proudly brightly deftly calmly violently valiantly proudly silently smartly smoothly politely smartly gently valiantly valiantly fluently neatly excitedly resolutely resolutely wildly proudly confidently violently valiantly comfortably warmly valiantly cleanly intelligently confidently boldly majestically calmly stably prudently peacefully valiantly defiantly valiantly majestically valiantly resolutely passionately proudly wisely expertly silently proudly violently defiantly powerfully prudently safely safely safely smoothly elegantly safely wildly humbly violently valiantly gracefully valiantly bravely boldly."
-    },
-    "Spectral_Ape_Hovering_Limbs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Magic",
-            "Perception",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Invisibility"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely valiantly brilliantly wisely brightly gracefully cleanly fluently peacefully wildly politely deftly valiantly competently violently fluently calmly calmly bravely warmly cleanly smartly proudly proudly boldly excitedly defiantly proudly vividly humbly confidently elegantly majestically smoothly gracefully confidently angrily smoothly wisely valiantly safely warmly violently deftly safely expertly gracefully safely proudly safely bravely bravely fluently safely violently lazily confidently excitedly boldly bravely."
-    },
-    "Zombie_Gorilla_Heavy_Stompers": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Undead",
-            "Strength",
-            "Heavy",
-            "Con"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly wildly calmly solidly valiantly safely boldly violently peacefully patiently casually valiantly calmly cleanly smartly boldly boldly furiously casually comfortably bravely competently fluently valiantly smoothly gracefully softly proudly bravely eagerly warmly boldly aggressively violently brightly competently cleanly valiantly fluently passionately valiantly valiantly wildly intelligently boldly calmly calmly bravely."
-    },
-    "Orangutan_Flexible_Hind_Limbs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Wisdom",
-            "Dexterity",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Athletics"
-        ],
-        "description": "Massively completely gracefully gracefully politely safely solidly heavily cleverly silently wildly excitedly wildly securely gracefully safely valiantly defiantly proudly boldly boldly fluently passionately boldly boldly proudly fluently gracefully softly cleanly brightly passionately angrily cleanly elegantly defiantly valiantly comfortably valiantly elegantly violently boldly bravely playfully proudly bravely smartly valiantly wildly patiently blindly smartly proudly bravely cleanly smartly calmly resolutely sweetly loudly securely playfully boldly intelligently gracefully wisely bravely brightly boldly quietly happily politely bravely proudly intelligently expertly wildly violently passionately calmly fluently neatly patiently boldly gracefully majestically politely gracefully smartly blindly cheerfully vividly confidently wildly boldly neatly smartly wildly violently cheerfully."
-    },
-    "Silverback_Armored_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Armor",
-            "Strength",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently boldly safely loudly valiantly bravely patiently fluently loudly violently confidently bravely quietly proudly sweetly prudently proudly intelligently smartly humbly valiantly powerfully solidly peacefully smartly gracefully boldly confidently angrily vibrantly boldly eagerly confidently cleanly competently boldly cleanly proudly competently elegantly gracefully fluently safely resolutely calmly passionately defiantly defiantly vividly passionately bravely intelligently fluently safely politely valiantly gracefully safely loudly majestically valiantly competently smartly expertly confidently safely playfully blindly smartly loudly valiantly valiantly majestically lazily safely bravely smartly smoothly safely bravely passionately violently violently resolutely violently smoothly cheerfully valiantly enthusiastically elegantly wildly confidently bravely defiantly defiantly bravely valiantly neatly gracefully boldly proudly boldly cleanly wildly bravely violently proudly fluently competently stably boldly valiantly smartly brightly cleverly valiantly violently lazily happily violently fluently smartly safely boldly politely defiantly confidently cleanly boldly calmly warmly smoothly valiantly deftly valiantly boldly gently brightly boldly violently efficiently humbly bravely bravely prudently competently cleanly smoothly warmly valiantly bravely blindly boldly elegantly defiantly stably confidently boldly prudently elegantly fluently intelligently valiantly."
-    },
-    "Tarsier_Spring_Loaded_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Primate",
-            "Agility",
-            "Jump",
-            "Perception"
-        ],
-        "traversal": [
-            "Leap",
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Alert"
-        ],
-        "description": "Exclusively cleanly organically flawlessly smoothly gracefully intelligently boldly calmly bravely wildly safely gracefully silently blindly bravely boldly smoothly cleanly vividly safely vibrantly vibrantly vividly defiantly violently quietly fluently elegantly silently skillfully valiantly bravely wildly prudently powerfully brightly eloquently smartly fluently warmly safely boldly valiantly bravely confidently violently happily safely confidently comfortably smartly valiantly boldly valiantly proudly proudly proudly safely fluently excitedly defiantly intelligently proudly fluently neatly defiantly peacefully smartly prudently cleanly stably proudly eloquently passionately valiantly valiantly."
-    }
+  "Gorilla_Stout_Pillars": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Knockdown"
+    ],
+    "description": "Gorilla Stout Pillars are a marvel of brute strength and resilience, with powerful legs that can shatter the earth as they walk and climb with ease, their thick, muscular limbs bristling with natural armor that grants them formidable protection and the raw power to block attacks and knock foes off their feet."
+  },
+  "Lemur_Spring_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Agility",
+      "Jump",
+      "Speed"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Equipped with the sinewy and flexible Lemur_Spring_Legs, the wearer gains an unparalleled agility, bounding across the landscape with prehensile grace and leaping over obstacles with ease, while the natural terrain offers no hindrance to their swift and nimble movements."
+  },
+  "Chimpanzee_Nimble_Feet": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Dexterity",
+      "Agility",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Acrobatics"
+    ],
+    "description": "Endowed with prehensile toes and supple, sinewy legs, the Chimpanzee_Nimble_Feet component bestows a primate's unparalleled dexterity and agility, enhancing the wearer's ability to traverse treacherous terrain with ease, whether scaling sheer cliffs or swinging from branch to branch like a shadow in the forest canopy."
+  },
+  "Baboon_Muscular_Hindlegs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Speed",
+      "Agility"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Athletics",
+      "Charge"
+    ],
+    "description": "Enormous and sinewy, the baboon\u2019s muscular hindlegs are a marvel of primate evolution, combining raw strength with incredible agility and speed, allowing the creature to traverse rugged terrains with unparalleled ease and power."
+  },
+  "Gibbon_Short_Balance_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Agility",
+      "Dexterity"
+    ],
+    "traversal": [
+      "Walk",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Barely touching the ground with each graceful step, the Gibbon's Short Balance Legs are marvels of nature, allowing them to traverse treacherous terrain with unparalleled agility and dexterity, their limbs capable of both walking and swinging through the dense canopy with ease."
+  },
+  "Spectral_Ape_Hovering_Limbs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Magic",
+      "Perception",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Invisibility"
+    ],
+    "description": "The spectral ape's hovering limbs are ghostly extensions that defy the laws of physics, granting it the uncanny ability to move silently through the air with eerie grace, while its ethereal form enhances its perception and evasive maneuvers, making it a phantom predator in the darkest of realms."
+  },
+  "Zombie_Gorilla_Heavy_Stompers": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Undead",
+      "Strength",
+      "Heavy",
+      "Con"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Resist_Poison"
+    ],
+    "description": "The massive, undead limbs of the Zombie_Gorilla_Heavy_Stompers are a terrifying amalgamation of primal strength and putrid decay, capable of delivering crushing blows that send even the hardiest warriors sprawling, though their sluggish gait betrays the speed of their living days."
+  },
+  "Orangutan_Flexible_Hind_Limbs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Wisdom",
+      "Dexterity",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Athletics"
+    ],
+    "description": "Endowed with prehensile hind limbs, this primate's legs are not only a marvel of dexterity, allowing for effortless acrobatic movements and agile traversal through the densest canopies, but also a conduit of ancient wisdom, granting a deeper understanding of nature and the secrets of the forest."
+  },
+  "Silverback_Armored_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Armor",
+      "Strength",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Enveloped in a layer of resilient silver scales, the Silverback Armored Legs are a formidable extension of the primate warrior, enhancing both its natural strength and defensive capabilities, allowing it to traverse rugged terrains with unmatched resilience and deliver crushing blows while standing firm against even the most powerful attacks."
+  },
+  "Tarsier_Spring_Loaded_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Primate",
+      "Agility",
+      "Jump",
+      "Perception"
+    ],
+    "traversal": [
+      "Leap",
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Alert"
+    ],
+    "description": "Equipped with spring-loaded legs, this tarsier's slender, elongated limbs pulse with an otherworldly energy, enhancing its agility to the point of near-flight as it leaps through the dense, shadowy canopy, its heightened perception allowing it to navigate the treacherous terrain with uncanny ease."
+  }
 }

@@ -1,230 +1,230 @@
 {
-    "Dorsal_Valvular_Nares": {
-        "tags": [
-            "Nose",
-            "Valves",
-            "Amphibian",
-            "Aquatic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Camouflage"
-        ],
-        "description": "Nostrils situated at the absolute highest peak of the completely flat snout. They feature watertight muscular valves, allowing the entity to remain fully submerged in mud with only the millimeter-wide breathing pores exposed to the air."
-    },
-    "Olfactory_Tentacle_Sheaths": {
-        "tags": [
-            "Nose",
-            "Tentacles",
-            "Amphibian",
-            "Sensory"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Blindsight"
-        ],
-        "description": "Small, muscular sheaths located immediately beneath the nostrils. They house retractable, chemosensory tentacles that carry scents physically from the environment directly into the olfactory bulbs, bypassing the air entirely."
-    },
-    "Jacobson_Organ_Clefts": {
-        "tags": [
-            "Nose",
-            "Vomeronasal",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking"
-        ],
-        "description": "Highly developed vomeronasal (Jacobson's) organs located in the roof of the mouth. The entity constantly 'tastes' the ambient air and water passing through the nares to track pheromone trails left by fleeing prey."
-    },
-    "Elongated_Proboscis_Snout": {
-        "tags": [
-            "Nose",
-            "Proboscis",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "A bizarre, highly fleshy extension of the snout pointing perfectly rigidly forward like a lance. Serving virtually no olfactory purpose, it is instead a specialized appendage used purely for species recognition and mating displays."
-    },
-    "Chemoreceptive_Nasal_Grooves": {
-        "tags": [
-            "Nose",
-            "Grooves",
-            "Aquatic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Keen Sight"
-        ],
-        "description": "Deeply etched biological grooves running from the upper lip directly into the nostrils. They mechanically channel water directly across the olfactory rosette, granting the entity the underwater smelling capabilities of an eel."
-    },
-    "Subterranean_Filter_Nares": {
-        "tags": [
-            "Nose",
-            "Filter",
-            "Burrowing",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Nostrils completely packed with dense, interlocking sensory hairs. They trap and filter out suffocating earth and clay dust, allowing the entity to continually respire safely while frantically clawing through dense subterranean soil."
-    },
-    "Pheromone_Detecting_Pores": {
-        "tags": [
-            "Nose",
-            "Pheromones",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Scent_Tracking"
-        ],
-        "description": "Highly specialized nasal pores tuned exclusively to the extreme micro-doses of mating and distress pheromones. It can perfectly track the specific chemical signature of an injured rival from over ten miles of dense jungle."
-    },
-    "Necrotic_Scent_Glands": {
-        "tags": [
-            "Nose",
-            "Scent",
-            "Amphibian",
-            "Lure"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "Specialized exocrine glands within the nasal cavity intentionally synthesize the overwhelming chemical stench of rotting meat. When exhaled slowly into the air, crowds of massive carrion flies swarm directly into the waiting jaws."
-    },
-    "Amphibious_Dual_Cavity_Nose": {
-        "tags": [
-            "Nose",
-            "Dual_Cavity",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [],
-        "description": "An incredibly advanced dual-chambered nasal system. One cavity is entirely lined with terrestrial olfactory receptors, the other with aquatic sensory hair cells. It effortlessly switches modes the moment water breaks over the snout."
-    },
-    "Reduced_Vestigial_Nostrils": {
-        "tags": [
-            "Nose",
-            "Vestigial",
-            "Amphibian",
-            "Lungless"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "subtract",
-                "val": 1
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Possessing a completely lungless physiology (like Plethodontid salamanders), the nostrils have sealed almost completely shut and serve zero respiratory function. The entity relies entirely on cutaneous skin respiration to breathe."
-    }
+  "Dorsal_Valvular_Nares": {
+    "tags": [
+      "Nose",
+      "Valves",
+      "Amphibian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Equipped with a pair of intricate dorsal valvular nares, this amphibian's nostrils are adapted to close automatically when submerged, preventing water from entering while retaining a keen sense of smell on both land and water, granting the user enhanced stealth capabilities and the ability to blend into their surroundings seamlessly."
+  },
+  "Olfactory_Tentacle_Sheaths": {
+    "tags": [
+      "Nose",
+      "Tentacles",
+      "Amphibian",
+      "Sensory"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Braided with the delicate agility of an amphibian's sensitive skin, the Olfactory Tentacle Sheaths are a pair of flexible, sensory appendages that coil around the nostrils, enhancing the user's perception and granting them the eerie ability to navigate through darkness using a heightened sense of smell."
+  },
+  "Jacobson_Organ_Clefts": {
+    "tags": [
+      "Nose",
+      "Vomeronasal",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "Embedded deep within the snout of this amphibian, the Jacobson's Organ Clefts serve as a sophisticated sensory organ, enhancing its keen perception and wisdom as it navigates the dark, misty realms, capable of detecting pheromones and chemical signals to track its prey with uncanny precision."
+  },
+  "Elongated_Proboscis_Snout": {
+    "tags": [
+      "Nose",
+      "Proboscis",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The elongated proboscis snout, a prehensile and highly sensitive appendage, allows its amphibian owner to navigate the murky depths of swamps and forests with unparalleled precision, enhancing their charisma as they manipulate this extraordinary nose to communicate and interact with the eerie, enchanted flora and fauna of their domain."
+  },
+  "Chemoreceptive_Nasal_Grooves": {
+    "tags": [
+      "Nose",
+      "Grooves",
+      "Aquatic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Bristling with intricate grooves that capture even the faintest chemical traces from the water, this amphibious nose enhances the user's perception, allowing them to navigate the murky depths with uncanny precision and detect prey or predators from afar."
+  },
+  "Subterranean_Filter_Nares": {
+    "tags": [
+      "Nose",
+      "Filter",
+      "Burrowing",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Equipped with a pair of intricate, gill-like nares, this amphibious burrower can filter out the toxic gases and fine particles of the subterranean environment, allowing it to breathe and navigate the dark, dank tunnels with eerie ease."
+  },
+  "Pheromone_Detecting_Pores": {
+    "tags": [
+      "Nose",
+      "Pheromones",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Scent_Tracking"
+    ],
+    "description": "Embedded within the thick, moist skin of the amphibian, these microscopic pores secrete a complex array of pheromones while also detecting those of others, enhancing the creature's perception and wisdom, allowing it to navigate the treacherous ecosystems with uncanny precision and insight."
+  },
+  "Necrotic_Scent_Glands": {
+    "tags": [
+      "Nose",
+      "Scent",
+      "Amphibian",
+      "Lure"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "Embedded within the amphibian's mottled skin are specialized scent glands that emit a pungent, necrotic essence, a corrupting perfume that both repels and irresistibly lures prey towards its doom, while subtly enhancing the creature's ability to move undetected and eroding the confidence of those unfortunate enough to catch a whiff."
+  },
+  "Amphibious_Dual_Cavity_Nose": {
+    "tags": [
+      "Nose",
+      "Dual_Cavity",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [],
+    "description": "Equipped with a dual-cavity nose, this amphibian adaptation allows for superior olfactory senses both above and below water, enhancing perception and the ability to detect subtle scents and vibrations in aquatic environments."
+  },
+  "Reduced_Vestigial_Nostrils": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Amphibian",
+      "Lungless"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "These tiny, barely noticeable vestigial nostrils are remnants of a long-evolved amphibian lineage, now rendered nearly useless as the creature has adapted to a lungless existence, its constitution bolstered slightly by the reduced need for a sensitive olfactory system, yet its perception slightly dulled by the diminished sensory organ."
+  }
 }

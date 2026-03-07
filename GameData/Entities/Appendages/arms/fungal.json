@@ -1,295 +1,295 @@
 {
-    "Thick_Mycelial_Trunk_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Strength",
-            "Mycelium"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Regeneration"
-        ],
-        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly natively valiantly valiantly bravely calmly defiantly prudently violently loudly loudly bravely calmly calmly valiantly casually fluently smoothly peacefully deftly vigorously defiantly violently eloquently intelligently deftly gently competently competently bravely intelligently smartly powerfully peacefully smoothly boldly bravely violently proudly proudly calmly confidently neatly quietly calmly smoothly politely cheerfully brightly smartly politely elegantly prudently skillfully confidently competently majestically proudly valiantly bravely calmly violently wisely bravely violently cleanly smartly calmly valiantly smartly safely deftly valiantly violently cleanly brightly defiantly gracefully bravely peacefully powerfully vigorously neatly proudly peacefully loudly majestically playfully safely casually gracefully patiently violently warmly wisely resolutely proudly brilliantly violently compactly proudly vigorously."
-    },
-    "Hardened_Shelf_Fungus_Blade_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Block"
-        ],
-        "description": "Solidly purely smoothly naturally smartly cleverly passionately confidently violently safely fluently wisely casually cleanly defiantly proudly expertly wildly valiantly vibrantly safely loudly powerfully gently bravely smartly violently cleanly proudly valiantly boldly angrily brilliantly softly powerfully violently stably defiantly proudly valiantly fluently bravely fluently furiously wildly majestically neatly wildly warmly stably majestically boldly defiantly intelligently defiantly valiantly."
-    },
-    "Toxic_Spore_Venting_Puffball_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Toxic",
-            "Spores"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Properly natively efficiently seamlessly gracefully valiantly proudly boldly humbly valiantly boldly gracefully gracefully fluently peacefully violently confidently casually valiantly boldly prudently violently valiantly gracefully expertly eloquently fluently peacefully proudly quietly cleverly wildly valiantly defiantly valiantly powerfully proudly cleverly defiantly smartly gracefully gracefully safely prudently passionately."
-    },
-    "Extendable_Cordyceps_Slammer_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Parasite",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Sunder"
-        ],
-        "description": "Technologically actively practically fluently elegantly violently boldly calmly neatly boldly casually smartly boldly confidently boldly defiantly elegantly safely gently majestically valiantly fluently wisely smoothly vigorously cleverly calmly politely safely intelligently valiantly calmly competently brilliantly peacefully violently boldly vigorously bravely proudly proudly gracefully politely loudly valiantly angrily."
-    },
-    "Slime_Mold_Amorphous_Pseudopods": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Slime",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Grapple"
-        ],
-        "description": "Fluidly seamlessly logically cleanly natively casually violently valiantly cheerfully brilliantly valiantly patiently violently intelligently valiantly gracefully brightly peacefully bravely intelligently calmly playfully safely bravely calmly defiantly majestically proudly bravely valiantly smoothly proudly calmly playfully sensibly valiantly boldly violently stably violently boldly cleanly smartly fluently violently calmly."
-    },
-    "Bioluminescent_Fairy_Wand_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Reflect_Spells"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely resolutely smartly resolutely defiantly expertly gracefully fluently smoothly wisely safely violently smoothly expertly defiantly smartly comfortably gracefully smoothly valiantly gracefully smartly proudly violently happily humbly fluently majestically fluently calmly patiently proudly bravely eloquently bravely."
-    },
-    "Decaying_Rot_Wood_Branch_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Decay",
-            "Undead_Like",
-            "Strength"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly valiantly wisely wildly smartly softly cheerfully intelligently cheerfully violently majestically valiantly prudently calmly smartly elegantly confidently powerfully bravely angrily boldly boldly defiantly bravely fluently expertly softly blindly smartly bravely defiantly gracefully defiantly brightly boldly valiantly cheerfully cleanly warmly prudently bravely deftly bravely violently proudly bravely elegantly valiantly loudly."
-    },
-    "Crystalline_Underdark_Fungus_Claw_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Crystal",
-            "Slash",
-            "Dark"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Darkvision"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly violently majestically smartly politely smoothly politely brightly violently bravely boldly valiantly cleverly safely smartly passionately bravely furiously intelligently calmly intelligently valiantly proudly valiantly violently elegantly bravely deftly resolutely compactly valiantly stably competently defiantly bravely resolutely gently boldly softly gracefully fluently intelligently calmly proudly valiantly proudly boldly defiantly gracefully cleanly elegantly boldly valiantly."
-    },
-    "Vibrant_Amanita_Club_Arms": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Toxic",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Knockdown"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly valiantly smartly proudly powerfully efficiently cleanly calmly violently happily confidently boldly calmly expertly valiantly valiantly defiantly comfortably resolutely violently violently playfully bravely elegantly smartly gently fluently cleverly safely brilliantly violently calmly bravely proudly powerfully proudly valiantly bravely boldly violently smoothly bravely."
-    },
-    "Ghost_Fungus_Spectral_Limbs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Fungal",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Fear"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully valiantly valiantly excitedly gracefully wildly comfortably cleanly excitedly wisely safely proudly boldly fluently cleanly valiantly fluently violently bravely competently competently confidently politely angrily efficiently competently boldly proudly cleverly cleanly competently competently calmly majestically fluently defiantly defiantly vibrantly brilliantly defiantly vigorously confidently casually deftly gracefully safely defiantly gracefully gracefully safely peacefully vividly elegantly bravely smartly brilliantly happily wildly safely humbly smoothly vividly playfully bravely proudly bravely cleanly resolutely competently gracefully smartly calmly."
-    }
+  "Thick_Mycelial_Trunk_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Strength",
+      "Mycelium"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Regeneration"
+    ],
+    "description": "Bulging with thick, resilient mycelium, the Thick_Mycelial_Trunk_Arms are formidable fungal appendages that grant their bearer immense physical strength, though at the cost of agility, enabling them to execute powerful knockdown attacks and regenerate wounds with eerie speed."
+  },
+  "Hardened_Shelf_Fungus_Blade_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Block"
+    ],
+    "description": "Emerging from the twisted limbs of ancient, corrupted trees, the Hardened Shelf Fungus Blade Arms are gnarled and jagged, their surfaces as tough as iron yet still pulsating with dark fungal life, granting their wielder an imposing strength and natural armor, while their razor-sharp edges prowl for any opportunity to inflict grievous, bleeding wounds."
+  },
+  "Toxic_Spore_Venting_Puffball_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Toxic",
+      "Spores"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "Emerging from the writhing fungal mass of the creature, these arms are not merely extensions of flesh but living conduits of noxious spores, their tips puffing out clouds of acrid toxins that can poison even the hardiest of foes, while also granting the bearer a measure of resistance to such noxious vapors."
+  },
+  "Extendable_Cordyceps_Slammer_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Parasite",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Sunder"
+    ],
+    "description": "Bristling with razor-sharp fungal tendrils, the Extendable Cordyceps Slammer Arms grant their wielder unparalleled agility and reach, allowing them to grapple and sunder with ease, as the parasitic growths extend and retract with preternatural speed and flexibility."
+  },
+  "Slime_Mold_Amorphous_Pseudopods": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Slime",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Grapple"
+    ],
+    "description": "Amorphous pseudopods, resembling writhing fungal tendrils, allow the entity to move with unsettling fluidity and grip onto surfaces with bone-crushing strength, enhancing its agility and stealth while enabling it to traverse any terrain without penalty."
+  },
+  "Bioluminescent_Fairy_Wand_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Reflect_Spells"
+    ],
+    "description": "These ethereal appendages are not mere arms, but delicate, fungal tendrils that pulse with a soft, otherworldly light, granting their bearer heightened magical perception and the ability to both cast light and reflect hostile spells."
+  },
+  "Decaying_Rot_Wood_Branch_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Decay",
+      "Undead_Like",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Resist_Knockback"
+    ],
+    "description": "These twisted, fungal arms are a grotesque amalgamation of decayed wood and pulsating black spores, capable of rending foes with unnatural strength while instilling fear and resisting the forces that would knock them back."
+  },
+  "Crystalline_Underdark_Fungus_Claw_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Crystal",
+      "Slash",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Darkvision"
+    ],
+    "description": "Emerging from the shadowy depths of the Underdark, the crystalline fungus claws are arms of twisted elegance, their translucent, gem-like tendrils dripping with the essence of darkness, capable of slashing through enemies with devastating precision and leaving trails of festering wounds."
+  },
+  "Vibrant_Amanita_Club_Arms": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Toxic",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Knockdown"
+    ],
+    "description": "Emerging from the pallid flesh of the host, these ethereal arms are adorned with vibrant amanita mushrooms, pulsating with a life of their own, granting the bearer a chaotic allure and the ability to unleash a cloud of debilitating poison."
+  },
+  "Ghost_Fungus_Spectral_Limbs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Fungal",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Fear"
+    ],
+    "description": "Emerging from the shadowy undergrowth, spectral limbs of ghostly fungus stretch forth, their semi-transparent, fungal tendrils blending into the mist as they skitter silently across the ground, granting their wielder a chilling aura of stealth and an eerie wisdom beyond the grave."
+  }
 }

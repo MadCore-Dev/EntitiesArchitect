@@ -1,230 +1,230 @@
 {
-    "Projectile_Adhesive_Tongue": {
-        "tags": [
-            "Maw",
-            "Tongue",
-            "Amphibian",
-            "Ranged"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Pull"
-        ],
-        "description": "A highly elastic, hyper-muscular tongue attached at the front of the jaw rather than the back. It can be violently launched several body lengths in a millisecond, striking targets with glue-like saliva before snapping back."
-    },
-    "Suction_Feeding_Gape": {
-        "tags": [
-            "Maw",
-            "Suction",
-            "Aquatic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "strength",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swallow_Whole"
-        ],
-        "description": "An absolutely massive jaw lacking significant teeth. When hunting underwater, the entity violently opens its mouth, creating an inescapable, localized vacuum that instantly sucks in water, prey, and debris."
-    },
-    "Maxillary_Vomerine_Teeth": {
-        "tags": [
-            "Maw",
-            "Teeth",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple"
-        ],
-        "description": "Tiny, incredibly sharp backwards-facing teeth lining the upper jaw and the roof of the mouth. They are completely useless for chewing, instead acting like one-way biological fishhooks to secure desperately struggling insects."
-    },
-    "Bone_Crushing_Ceratophrys_Jaws": {
-        "tags": [
-            "Maw",
-            "Crushing",
-            "Amphibian",
-            "Frog_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "int",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Bleed_Procc"
-        ],
-        "description": "A horrifically wide, heavily ossified set of jaws resembling a living bear trap. Powered by massive adductor muscles, this maw is completely capable of physically crushing the skulls of mice, snakes, and small birds."
-    },
-    "Keratinous_Tadpole_Beak": {
-        "tags": [
-            "Maw",
-            "Beak",
-            "Amphibian",
-            "Scraping"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "An unusual paedomorphic trait where the entity famously retained its sharp, scraping larval beak into adulthood. It is exceptionally effective at shearing algae off submerged rocks or aggressively rasping chunks of flesh from corpses."
-    },
-    "Tongueless_Pipa_Maw": {
-        "tags": [
-            "Maw",
-            "Tongueless",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "reach",
-                "op": "subtract",
-                "val": 1
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "A wide, flattened mouth entirely lacking a tongue. To feed, the entity violently lunges forward and uses its highly dexterous front forelimbs to physically shovel swimming prey directly down its own throat."
-    },
-    "Elastic_Gular_Fold": {
-        "tags": [
-            "Maw",
-            "Elastic",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swallow_Whole"
-        ],
-        "description": "The flesh of the throat and lower jaw is hyper-elastic. This morphological adaptation allows the entity to swallow prey items genuinely larger than its own cranium without tearing its internal biology."
-    },
-    "Venomous_Caecilian_Bite": {
-        "tags": [
-            "Maw",
-            "Venom",
-            "Amphibian",
-            "Caecilian_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Inject_Toxin"
-        ],
-        "description": "Needle-sharp, recurved teeth connected directly to highly evolved dental venom glands. It is a terrifying parallel evolution to venomous snakes, used to instantly paralyze massive earthworms thrashing in narrow dirt tunnels."
-    },
-    "Protrusible_Mandibular_Catch": {
-        "tags": [
-            "Maw",
-            "Protrusible",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [],
-        "description": "A jaw joint with intense elastic slack. When striking, the entire lower mandible physically disconnects and shoots forward slightly to ensure an inescapable cage closing entirely around frantically evading aerial targets."
-    },
-    "Filter_Feeding_Baleen_Ridges": {
-        "tags": [
-            "Maw",
-            "Filter",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "The inside of the immense mouth is heavily lined with keratinous ridges resembling microscopic baleen. It allows a colossal, sluggish entity to simply sit in a rushing river and passively filter out millions of tiny crustaceans daily."
-    }
+  "Projectile_Adhesive_Tongue": {
+    "tags": [
+      "Maw",
+      "Tongue",
+      "Amphibian",
+      "Ranged"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Pull"
+    ],
+    "description": "Emerging from the maw of a grotesque amphibian, the projectile adhesive tongue is a sinuous, prehensile appendage that extends far beyond the creature's body, capable of slithering through the air with alarming speed and precision to ensnare prey from a distance, its mucus-coated surface ensuring that once it touches an opponent, they are swiftly reeled back into the creature's waiting jaws."
+  },
+  "Suction_Feeding_Gape": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Aquatic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "strength",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swallow_Whole"
+    ],
+    "description": "Equipped with a gaping maw lined with rows of razor-sharp teeth and a powerful suction mechanism, this amphibious creature can rapidly expand its mouth to engulf prey whole, its sheer strength augmented by the force of its aquatic suction feeding gape."
+  },
+  "Maxillary_Vomerine_Teeth": {
+    "tags": [
+      "Maw",
+      "Teeth",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Embedded deep within the fearsome maw of this ancient amphibian, the maxillary vomerine teeth are jagged, razor-sharp fangs that pierce and tear with bone-crushing force, enhancing the creature's strength and granting it the brutal skill of grapple to ensnare its prey."
+  },
+  "Bone_Crushing_Ceratophrys_Jaws": {
+    "tags": [
+      "Maw",
+      "Crushing",
+      "Amphibian",
+      "Frog_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "int",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Bleed_Procc"
+    ],
+    "description": "Equipped with a maw that dwarfs its bloated amphibian body, the Bone_Crushing_Ceratophrys_Jaws is a monstrosity whose crushing jaws can splinter bones with ease, its strength bolstered by a thickened skull and powerful jaw muscles, while its intellect is dulled, focusing solely on the hunt and the kill."
+  },
+  "Keratinous_Tadpole_Beak": {
+    "tags": [
+      "Maw",
+      "Beak",
+      "Amphibian",
+      "Scraping"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "This component is a razor-sharp, keratinous beak, reminiscent of a prehistoric tadpole, designed for scraping through tough, fibrous materials with ease, enhancing the creature's resilience and determination in battle."
+  },
+  "Tongueless_Pipa_Maw": {
+    "tags": [
+      "Maw",
+      "Tongueless",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "subtract",
+        "val": 1
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Tongueless Pipa Maw is a grotesque, limbless amphibian with a cavernous mouth that lacks a tongue, instead relying on powerful mandibles and an elastic, mucus-lined throat to ensnare and crush prey, its singular focus on devouring anything within reach making it a terrifying predator in its murky domain."
+  },
+  "Elastic_Gular_Fold": {
+    "tags": [
+      "Maw",
+      "Elastic",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swallow_Whole"
+    ],
+    "description": "The Elastic Gular Fold is a grotesque, rubbery appendage that dangles from the lower jaw of a monstrous amphibian, capable of expanding to an absurd size to engulf prey whole, granting the creature immense strength and resilience."
+  },
+  "Venomous_Caecilian_Bite": {
+    "tags": [
+      "Maw",
+      "Venom",
+      "Amphibian",
+      "Caecilian_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Inject_Toxin"
+    ],
+    "description": "The venomous caecilian bite, a fearsome adaptation of the subterranean predator, features a maw bristling with needle-like teeth that deliver a paralyzing toxin, enhancing both the creature's strength and agility in the struggle to subdue its prey."
+  },
+  "Protrusible_Mandibular_Catch": {
+    "tags": [
+      "Maw",
+      "Protrusible",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the cavernous maw of this ancient amphibian, the protrusible mandibular catch serves as both a fearsome weapon and a precise tool, enhancing its agility and reflexes as it swiftly extends to snare unsuspecting prey in the shadows."
+  },
+  "Filter_Feeding_Baleen_Ridges": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "Enormous bony ridges protrude from the creature's throat, resembling the baleen of whales, but with a distinctively serrated edge that filters out the nutritious slime and small aquatic life from the murky waters, enhancing its constitution as it feeds."
+  }
 }

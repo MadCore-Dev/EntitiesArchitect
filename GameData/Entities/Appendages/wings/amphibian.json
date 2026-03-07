@@ -1,259 +1,259 @@
 {
-    "Membranous_Mucous_Gliders": {
-        "tags": [
-            "Wings",
-            "Slimy",
-            "Membrane",
-            "Amphibian",
-            "Gliding"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Massively elongated ribs supporting vast sheets of highly vascularized, constantly moist skin. Rather than powered flight, they allow the entity to parachute safely from colossal jungle canopies, while doubling as massive cutaneous breathing organs in high humidity."
-    },
-    "Interdigital_Gliding_Webs": {
-        "tags": [
-            "Wings",
-            "Webbing",
-            "Amphibian",
-            "Flight"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Monstrously expanded webbing between all the unusually long fingers and toes. When all four limbs are splayed mid-air, these four independent mini-parachutes grant staggering, pin-point aerial steering precision."
-    },
-    "Vascularized_Patagium_Flaps": {
-        "tags": [
-            "Wings",
-            "Flaps",
-            "Amphibian",
-            "Gliding"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage"
-        ],
-        "description": "Loose, extensive folds of skin running seamlessly along the flanks from armpit to groin. When completely stationary on a tree trunk, these flaps perfectly disguise the entity's shadow, turning it invisible."
-    },
-    "Cartilaginous_Fin_Wings": {
-        "tags": [
-            "Wings",
-            "Cartilage",
-            "Amphibian",
-            "Aquatic"
-        ],
-        "traversal": [
-            "Swim",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash"
-        ],
-        "description": "Pectoral fins that have explosively hypertrophied into massive, manta-ray like wings. Used exclusively to completely breach the surface of the water, rocketing several meters through the air to escape sub-surface leviathans."
-    },
-    "Inflatable_Dorsal_Sacs": {
-        "tags": [
-            "Wings",
-            "Balloon",
-            "Amphibian",
-            "Float"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Giant, ultra-thin biological sacks protruding from the back that violently inflate with inhaled air. By aggressively reducing its specific gravity, the entity drifts aimlessly but safely down mountain breezes like dandelion fluff."
-    },
-    "Toxic_Warning_Gliders": {
-        "tags": [
-            "Wings",
-            "Toxic",
-            "Amphibian",
-            "Gliding"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Intimidate"
-        ],
-        "description": "Small gliding membranes that are completely hidden when folded. When expanded, they suddenly flash blinding, hallucinogenic patterns of crimson and jagged black, often startling attacking hawks long enough to escape."
-    },
-    "Mucosal_Adhesion_Wings": {
-        "tags": [
-            "Wings",
-            "Sticky",
-            "Amphibian"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb"
-        ],
-        "description": "Short, thick gliding membranes that continually exude biological superglue. Unable to achieve long glides, the entity hurls itself across narrow gaps and instantly plasters itself helplessly, but securely, onto the target tree."
-    },
-    "Rigid_Osteoderm_Gliders": {
-        "tags": [
-            "Wings",
-            "Armor",
-            "Amphibian",
-            "Gliding"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block"
-        ],
-        "description": "Unlike standard leathery gliding membranes, these flaps contain hundreds of interlocking bony plates. They offer horrific aerodynamics, causing a steep, plunging glide, but form an impenetrable turtle-like shell when wrapped around the body."
-    },
-    "Subterranean_Vestigial_Flaps": {
-        "tags": [
-            "Wings",
-            "Vestigial",
-            "Amphibian",
-            "Burrow"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Completely degenerate remnants of ancestral gliding membranes now utterly useless for flight. They merely serve to accidentally pack more dirt around the entity as it struggles mindlessly through the subterranean dark."
-    },
-    "Bioluminescent_Flare_Wings": {
-        "tags": [
-            "Wings",
-            "Bioluminescent",
-            "Amphibian"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light"
-        ],
-        "description": "Expansive gliding patagia absolutely riddled with millions of incredibly bright symbiotic photophores. During mating season, dozens of entities leap simultaneously from immense cliff faces, illuminating the abyssal chasm in a synchronized, cascading neon waterfall."
-    }
+  "Membranous_Mucous_Gliders": {
+    "tags": [
+      "Wings",
+      "Slimy",
+      "Membrane",
+      "Amphibian",
+      "Gliding"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "These creatures possess expansive, translucent membranes that shimmer with a slick, slimy coating, allowing them to glide effortlessly through the air with an eerie grace that belies their amphibian nature, enhancing their agility and evasion skills while granting them the ability to perform complex aerial maneuvers."
+  },
+  "Interdigital_Gliding_Webs": {
+    "tags": [
+      "Wings",
+      "Webbing",
+      "Amphibian",
+      "Flight"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Blessed with a unique evolutionary trait, the Interdigital Gliding Webs are supple membranes that stretch between the digits of amphibian creatures, granting them the extraordinary ability to glide through the air with graceful aerobatics, enhancing their agility and speed as they navigate both terrestrial and aerial realms with effortless fluidity."
+  },
+  "Vascularized_Patagium_Flaps": {
+    "tags": [
+      "Wings",
+      "Flaps",
+      "Amphibian",
+      "Gliding"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Brimming with the essence of shadow and grace, the vascularized patagium flaps of this amphibian entity enable silent glides through the night, enhancing both its perception and stealth as it weaves between the treetops, its chameleonic skin blending perfectly with the surroundings."
+  },
+  "Cartilaginous_Fin_Wings": {
+    "tags": [
+      "Wings",
+      "Cartilage",
+      "Amphibian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash"
+    ],
+    "description": "These resilient cartilaginous wings, adapted for both the depths of water and the humid air of marshes, enable swift gliding through the sky and powerful swimming beneath the waves, granting the amphibious creature unparalleled mobility in its aquatic and semi-aquatic habitats."
+  },
+  "Inflatable_Dorsal_Sacs": {
+    "tags": [
+      "Wings",
+      "Balloon",
+      "Amphibian",
+      "Float"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Inflatable_Dorsal_Sacs, a remarkable evolutionary adaptation, are large, membranous sacs located along the spine of certain amphibian creatures, capable of inflating with gas to reduce density and aid in gliding between water bodies, granting a significant boost to evasion but at the cost of reducing overall constitution."
+  },
+  "Toxic_Warning_Gliders": {
+    "tags": [
+      "Wings",
+      "Toxic",
+      "Amphibian",
+      "Gliding"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "With translucent, webbed wings that pulse with a sickly green glow, the Toxic_Warning_Gliders navigate the treacherous night skies, their presence an eerie harbinger of danger, as they emit a haunting, high-pitched whine that warns all who hear it to steer clear of the toxic mire below."
+  },
+  "Mucosal_Adhesion_Wings": {
+    "tags": [
+      "Wings",
+      "Sticky",
+      "Amphibian"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb"
+    ],
+    "description": "Bristling with a coat of microscopic, glue-like filaments, the Mucosal Adhesion Wings enable their amphibian bearer to glide effortlessly through the night air and adhere to sheer surfaces, granting them unparalleled agility and dexterity in both aerial and arboreal environments."
+  },
+  "Rigid_Osteoderm_Gliders": {
+    "tags": [
+      "Wings",
+      "Armor",
+      "Amphibian",
+      "Gliding"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "The Rigid_Osteoderm_Gliders are formidable amphibian creatures with chitinous wings and rigid, armored plates that grant them exceptional protection but at the cost of agility, allowing them to glide gracefully through the air while employing a defensive Block skill to intercept incoming attacks."
+  },
+  "Subterranean_Vestigial_Flaps": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Amphibian",
+      "Burrow"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "These atrophied, membranous flaps, remnants of wings long lost to evolutionary adaptation, cling to the creature's back, enhancing its brute strength while hampering its agility, perfectly suited for the cramped, subterranean tunnels it calls home."
+  },
+  "Bioluminescent_Flare_Wings": {
+    "tags": [
+      "Wings",
+      "Bioluminescent",
+      "Amphibian"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light"
+    ],
+    "description": "Emerging from the depths of ancient swamps, the Bioluminescent Flare Wings are a mesmerizing blend of bioluminescent magic and amphibian grace, allowing their bearers to glide through the night with spectral beauty while enhancing their charisma and perception, and granting the skill to emit blinding bursts of light."
+  }
 }

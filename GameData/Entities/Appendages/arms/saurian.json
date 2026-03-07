@@ -1,301 +1,301 @@
 {
-    "Theropod_Vestigial_Forelimbs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Bipedal",
-            "Agility"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "None"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly valiantly valiantly valiantly calmly bravely violently politely excitedly gracefully bravely prudently fluently proudly cleanly safely proudly calmly defiantly violently competently competently bravely intelligently bravely safely lazily proudly violently defiantly resolutely patiently boldly blindly playfully peacefully boldly peacefully violently excitedly deftly wisely bravely."
-    },
-    "Raptor_Slashing_Talons": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Dexterity",
-            "Agility",
-            "Slashing"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Spider_Climb"
-        ],
-        "description": "Massively completely fiercely bravely violently valiantly casually violently proudly calmly cheerfully defiantly valiantly competently valiantly calmly neatly confidently bravely blindly bravely gently intelligently confidently vigorously majestically violently sensibly peacefully defiantly defiantly vibrantly politely loudly powerfully defiantly brightly boldly eloquently confidently bravely brilliantly calmly fluently fluently valiantly softly humbly gracefully wildly cleanly patiently safely proudly fluently deftly valiantly intelligently valiantly lazily deftly bravely smoothly valiantly warmly loudly bravely blindly defiantly furiously valiantly aggressively cleanly bravely eloquently safely wisely competently cleanly gracefully fluently valiantly bravely cleanly expertly expertly calmly prudently majestically smoothly bravely angrily gracefully majestically defiantly valiantly valiantly compactly sensibly valiantly valiantly brightly gracefully."
-    },
-    "Triceratops_Stout_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Strength",
-            "Heavy",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Knockdown",
-            "Block"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually boldly quietly playfully angrily defiantly calmly valiantly comfortably violently competently fluently loudly prudently powerfully powerfully eloquently violently confidently smoothly confidently violently cleverly sensibly resolutely defiantly fluently vibrantly humbly bravely prudently violently valiantly gracefully expertly elegantly peacefully casually boldly confidently intelligently proudly defiantly excitedly gently smartly calmly prudently boldly passionately excitedly smartly wisely safely humbly proudly expertly competently vigorously blindly vigorously cheerfully blindly smartly smartly peacefully playfully confidently bravely cleanly bravely."
-    },
-    "Spinosaurus_Clawed_Hooks": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Strength",
-            "Reach",
-            "Slashing",
-            "Swim"
-        ],
-        "traversal": [
-            "Swim",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Bleed_Procc"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably violently majestically valiantly valiantly elegantly boldly bravely boldly valiantly softly fluently politely boldly fluently wisely peacefully calmly cleanly brilliantly safely gently politely defiantly majestically valiantly fluently cleverly fluently wisely valiantly bravely valiantly gracefully smoothly politely playfully defiantly loudly valiantly valiantly fluently lazily gracefully smoothly intelligently boldly majestically calmly valiantly valiantly fluently cleverly brilliantly boldly elegantly intelligently bravely bravely furiously warmly prudently boldly valiantly cleanly bravely neatly valiantly expertly smartly cheerfully valiantly violently bravely peacefully valiantly boldly eagerly calmly defiantly quietly fluently lazily blindly calmly."
-    },
-    "Chameleon_Grasping_Paws": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Dexterity",
-            "Agility",
-            "Climb"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Fast_Hands"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly valiantly competently passionately expertly gracefully valiantly fluently smoothly eagerly calmly safely humbly safely humbly valiantly proudly vividly calmly fluently wisely valiantly confidently playfully violently intelligently cleverly lazily stably bravely violently excitedly wildly confidently smartly wisely playfully merrily gracefully confidently defiantly cleanly calmly calmly cleanly eagerly valiantly politely bravely competently fluently wildly valiantly gracefully confidently defiantly angrily intelligently defiantly lazily prudently silently boldly loudly brightly gently calmly calmly violently smoothly elegantly calmly calmly prudently bravely boldly passionately playfully gracefully competently confidently blindly playfully calmly prudently boldly lazily confidently lazily boldly boldly politely brilliantly valiantly wildly wisely."
-    },
-    "Pterosaur_Winged_Forelimbs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Glide",
-            "Agility",
-            "Dexterity"
-        ],
-        "traversal": [
-            "Glide",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely valiantly violently cleverly cleanly deftly expertly elegantly valiantly sensibly valiantly bravely cheerfully valiantly boldly boldly passionately wildly sweetly boldly violently smartly safely vividly bravely bravely valiantly peacefully lazily gracefully sweetly playfully brightly brightly boldly vigorously blindly valiantly smartly fluently lazily furiously boldly safely boldly calmly violently neatly fluently humbly resolutely bravely valiantly peacefully competently eagerly bravely competently cleanly expertly wisely smoothly blindly boldly violently smoothly loudly safely smartly."
-    },
-    "Stegosaurus_Plated_Forelegs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Armor",
-            "Strength",
-            "Quadruped"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively boldly cleanly fluently safely bravely bravely wildly bravely defiantly calmly gently expertly boldly cleanly proudly smoothly boldly gracefully lazily stably calmly cleverly valiantly confidently violently majestically valiantly intelligently violently brightly bravely smoothly loudly sweetly boldly competently peacefully neatly solidly fluently bravely neatly majestically intelligently calmly boldly lazily violently angrily intelligently happily sweetly bravely boldly valiantly prudently calmly calmly safely violently bravely loudly excitedly elegantly smoothly peacefully resolutely bravely confidently resolutely politely valiantly confidently cleanly valiantly smoothly casually smartly wisely fluently safely calmly wisely peacefully."
-    },
-    "Crocodilian_Webbed_Claws": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Swim",
-            "Strength",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Grapple"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly valiantly fluently violently bravely violently bravely wisely gracefully smartly resolutely proudly safely cleanly valiantly smoothly casually cleanly softly violently confidently stably calmly deftly boldly confidently calmly bravely wildly calmly cleanly eagerly smoothly confidently vigorously comfortably majestically gracefully violently smartly violently playfully defiantly safely valiantly fluently safely smartly politely safely intelligently peacefully proudly cheerfully violently deftly safely."
-    },
-    "Spectral_Saurian_Ghost_Limbs": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Magic",
-            "Reach",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Touch_Attack",
-            "Detect_Magic"
-        ],
-        "description": "Magically seamlessly elegantly explicitly bravely confidently sensibly politely silently smartly loudly boldly cleanly boldly wisely eagerly expertly calmly bravely wisely politely defiantly passionately warmly proudly boldly proudly violently competently fluently proudly cleanly fluently proudly bravely violently excitedly valiantly politely politely cleanly confidently boldly smartly resolutely angrily merrily defiantly wildly cleanly competently eagerly sensibly elegantly fluently peacefully defiantly elegantly smartly calmly warmly boldly bravely eloquently bravely playfully majestically intelligently."
-    },
-    "Zombie_Trex_Rotting_Stumps": {
-        "tags": [
-            "Arms",
-            "Appendages",
-            "Saurian",
-            "Undead",
-            "Con"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "str",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely valiantly softly confidently boldly valiantly violently competently competently bravely confidently playfully safely warmly warmly quietly vigorously boldly bravely fluently valiantly brilliantly boldly resolutely calmly peacefully fluently valiantly competently fluently resolutely lazily prudently valiantly safely competently eloquently fiercely bravely casually valiantly violently valiantly smartly boldly lazily wisely comfortably wildly valiantly boldly excitedly boldly humbly bravely valiantly bravely cheerfully brightly confidently majestically gently confidently safely defiantly wildly valiantly defiantly safely safely calmly angrily proudly brightly safely vibrantly valiantly cleverly majestically valiantly gracefully."
-    }
+  "Theropod_Vestigial_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Bipedal",
+      "Agility"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "None"
+    ],
+    "description": "Withered and largely vestigial, the tiny forelimbs of the theropod barely resemble true arms, their atrophied muscles and stunted digits serving more to balance and grasp than to wield weapons, subtly enhancing agility at the cost of raw strength."
+  },
+  "Raptor_Slashing_Talons": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Dexterity",
+      "Agility",
+      "Slashing"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Spider_Climb"
+    ],
+    "description": "With razor-sharp talons that slice through air and flesh alike, these elongated, curved claws are a deadly extension of the saurian arms, enhancing the wielder's dexterity and agility to perform swift and lethal strikes that cause bleeding over time, while also granting the ability to scale sheer surfaces with prehensile grace."
+  },
+  "Triceratops_Stout_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Strength",
+      "Heavy",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Knockdown",
+      "Block"
+    ],
+    "description": "Bulging with sinew and muscle, the Triceratops' stout forelegs are marvels of sheer power and resilience, their thick, scaly hide offering an extra layer of protection while their immense strength grants the quadruped the ability to knock down even the largest of foes and block incoming attacks with ease."
+  },
+  "Spinosaurus_Clawed_Hooks": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Strength",
+      "Reach",
+      "Slashing",
+      "Swim"
+    ],
+    "traversal": [
+      "Swim",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Bleed_Procc"
+    ],
+    "description": "Equipped with these formidable Spinosaurus Clawed Hooks, your arms transform into powerful, elongated appendages, perfect for grappling prey or slicing through enemies with ease. The sharp, serrated claws not only enhance your reach and strength, but also grant you the ability to swim at incredible speeds and cause bleeding with every strike."
+  },
+  "Chameleon_Grasping_Paws": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Dexterity",
+      "Agility",
+      "Climb"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Fast_Hands"
+    ],
+    "description": "Equipped with elongated, prehensile limbs that unfurl and grip with the precision of a predator, these saurian grasping paws grant unparalleled dexterity and agility, allowing for effortless scaling of sheer surfaces and rapid manipulation of objects in the blink of an eye."
+  },
+  "Pterosaur_Winged_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Glide",
+      "Agility",
+      "Dexterity"
+    ],
+    "traversal": [
+      "Glide",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "Equipped with leathery wings and sharp claws, these saurian forelimbs grant unparalleled agility and dexterity, enabling swift gliding maneuvers and nimble climbing through treacherous terrain, while the innate skill of aerobatics allows for intricate aerial combat and evasion."
+  },
+  "Stegosaurus_Plated_Forelegs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Armor",
+      "Strength",
+      "Quadruped"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "The stegosaurus plated forelegs are formidable, their thick, bony plates interwoven with sinew to create a natural armor that deflects blows with ease, while their powerful muscles amplify the creature\u2019s strength, allowing it to block attacks and resist being knocked down."
+  },
+  "Crocodilian_Webbed_Claws": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Swim",
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Grapple"
+    ],
+    "description": "Equipped with razor-sharp, webbed claws, this Saurian appendage enhances both terrestrial and aquatic prowess, boosting raw strength and agility, while granting the mastery of swift underwater dashes and formidable grappling attacks."
+  },
+  "Spectral_Saurian_Ghost_Limbs": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Magic",
+      "Reach",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Touch_Attack",
+      "Detect_Magic"
+    ],
+    "description": "Emerging from the void, the Spectral Saurian Ghost Limbs are haunting appendages that hover and stretch, granting their possessor a formidable reach and an ethereal touch imbued with the arcane, allowing them to detect and exploit magical energies."
+  },
+  "Zombie_Trex_Rotting_Stumps": {
+    "tags": [
+      "Arms",
+      "Appendages",
+      "Saurian",
+      "Undead",
+      "Con"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Poison"
+    ],
+    "description": "The Zombie_Trex_Rotting_Stumps, a towering undead relic of prehistoric might, drags its skeletal limbs through the mire, its once-massive arms now barely more than crumbling stumps, yet its consciousness remains a twisted echo, granting it an eerie resilience against the toxins that would otherwise claim it."
+  }
 }

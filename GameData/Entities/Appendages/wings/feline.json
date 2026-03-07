@@ -1,308 +1,308 @@
 {
-    "Leathery_Bat_Like_Feline_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Agility",
-            "Feline",
-            "Chimera"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics"
-        ],
-        "description": "Smoothly cleanly easily flawlessly securely cleverly ingeniously gracefully gracefully cheerfully violently wildly intelligently defiantly vibrantly valiantly excitedly cleverly boldly valiantly sweetly politely bravely powerfully calmly cleverly smartly peacefully confidently securely valiantly bravely proudly majestically confidently valiantly bravely calmly valiantly valiantly valiantly fluently passionately gracefully boldly boldly smoothly peacefully bravely smartly wildly casually prudently valiantly smoothly gracefully loudly fluently elegantly gracefully fluently casually fluently peacefully valiantly proudly skillfully."
-    },
-    "Feathered_Griffon_Lion_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Charisma",
-            "Strength",
-            "Feline",
-            "Griffon"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Rally",
-            "Aerobatics"
-        ],
-        "description": "Expertly natively seamlessly clearly purely natively purely gracefully proudly safely bravely valiantly violently fluently playfully confidently majestically politely politely valiantly prudently calmly rationally proudly competently brightly violently confidently intelligently confidently peacefully valiantly valiantly majestically proudly bravely calmly deftly defiantly smoothly blindly wildly valiantly peacefully cheerfully passionately proudly intelligently bravely casually competently proudly violently passionately competently smartly powerfully intelligently cleanly fluently gracefully confidently fluently defiantly defiantly fluently valiantly."
-    },
-    "Ethereal_Shadow_Panther_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Stealth",
-            "Magic",
-            "Feline",
-            "Shadow"
-        ],
-        "traversal": [
-            "Fly",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Levitate"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly gracefully intelligently proudly loudly defiantly fluently calmly defiantly valiantly competently passionately bravely majestically calmly casually expertly comfortably boldly proudly valiantly bravely calmly gracefully defiantly gracefully brilliantly smoothly confidently stably casually politely playfully flexibly warmly smartly proudly humbly defiantly fluently quietly competently safely valiantly defiantly gently expertly fluently gracefully bravely proudly peacefully casually brilliantly defiantly gently."
-    },
-    "Gliding_Flying_Squirrel_Feline_Membranes": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Glide",
-            "Agility",
-            "Feline",
-            "Glider"
-        ],
-        "traversal": [
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Spider_Climb"
-        ],
-        "description": "Functionally magically smartly explicitly properly safely magically eloquently bravely peacefully valiantly boldly intelligently eloquently smartly competently expertly creatively brilliantly smoothly wildly boldly smartly bravely bravely fluently resolutely bravely politely rationally boldly wildly smartly fluently passionately wisely calmly boldly fluently intelligently cleverly gracefully smartly competently defiantly smoothly smoothly cheerfully majestically."
-    },
-    "Cybernetic_Hardlight_Thruster_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Cybernetic",
-            "Feline",
-            "Speed"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Overdrive",
-            "Aerobatics"
-        ],
-        "description": "Correctly efficiently correctly safely smartly elegantly safely happily valiantly vibrantly bravely defiantly confidently violently violently valiantly defiantly valiantly violently confidently proudly playfully wildly sensibly fluently violently passionately competently cheerfully valiantly cleanly stably brightly politely intelligently vibrantly safely violently prudently elegantly valiantly loudly expertly bravely brightly fluently safely peacefully quietly wildly safely eloquently resolutely brightly brilliantly gracefully efficiently violently powerfully intelligently bravely smartly smartly confidently confidently politely brilliantly elegantly majestically vividly violently fluently vigorously defiantly playfully cleanly loudly smoothly politely defiantly expertly defiantly violently proudly smartly skillfully bravely smoothly enthusiastically loudly."
-    },
-    "Crystalline_Ice_Leopard_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Cold",
-            "Feline",
-            "Crystal"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Resist_Cold"
-        ],
-        "description": "Beautifully cleanly smoothly intelligently cleverly cleanly fluently defiantly fluently vibrantly sensibly calmly skillfully softly calmly sensibly peacefully boldly majestically loudly violently aggressively playfully excitedly bravely defiantly fluently vividly gracefully softly stably smartly elegantly silently confidently gracefully loudly proudly excitedly valiantly violently vividly politely smartly boldly elegantly bravely vividly skillfully elegantly loudly peacefully bravely prudently deftly vibrantly competently calmly smartly vividly powerfully boldly elegantly cleverly loudly fluently smoothly rationally cheerfully loudly fluently politely enthusiastically playfully fluently casually valiantly gracefully happily politely passionately safely smartly prudently warmly expertly gently casually neatly defiantly calmly bravely."
-    },
-    "Bony_Skeletal_Saber_Toothed_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Undead_Like",
-            "Feline",
-            "Strength"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Sunder"
-        ],
-        "description": "Roughly firmly logically correctly practically violently passionately bravely cleanly fluently vibrantly elegantly violently brightly smartly intelligently bravely bravely boldly passionately bravely bravely prudently bravely gracefully smoothly brightly brightly safely calmly powerfully fluently valiantly brilliantly boldly violently loudly cleanly cleverly brilliantly stably bravely blindly competently blindly valiantly valiantly playfully playfully proudly defiantly aggressively politely competently valiantly confidently fluently boldly cleverly forcefully stably defiantly powerfully safely competently boldly violently boldly boldly proudly stably violently elegantly vividly gracefully wildly skillfully gracefully competently fluently."
-    },
-    "Fiery_Solar_Lion_Wings": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Heat",
-            "Magic",
-            "Feline",
-            "Lion"
-        ],
-        "traversal": [
-            "Fly"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fire_Aura",
-            "Light"
-        ],
-        "description": "Explicitly deeply purely warmly bravely bravely smoothly happily bravely vibrantly wildly defiantly loudly calmly elegantly bravely neatly peacefully blindly fluently smartly bravely bravely proudly elegantly vividly proudly confidently warmly elegantly blindly powerfully prudently valiantly playfully passionately vibrantly fluently politely defiantly violently valiantly compactly valiantly violently defiantly skillfully prudently fluently enthusiastically smartly gracefully defiantly loudly defiantly safely smartly brilliantly wisely loudly politely safely smartly brilliantly politely smartly competently eloquently."
-    },
-    "Aquatic_Wing_Fins_Fishing_Cat": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Swim",
-            "Agility",
-            "Feline",
-            "Fishing_Cat",
-            "Aquatic"
-        ],
-        "traversal": [
-            "Swim",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Solidly purely explicitly securely easily safely violently wisely gracefully intelligently bravely boldly bravely cleanly valiantly passionately safely gently valiantly confidently confidently cleanly boldly smartly smoothly furiously smartly valiantly boldly vividly quietly defiantly fluently elegantly playfully defiantly boldly wildly gracefully humbly elegantly loudly softly violently violently safely competently playfully gracefully valiantly cheerfully safely powerfully loudly valiantly forcefully smoothly casually quietly bravely valiantly violently stably smoothly bravely calmly passionately competently."
-    },
-    "Iridescent_Fairy_Winged_Feline_Membranes": {
-        "tags": [
-            "Wings",
-            "Appendages",
-            "Flight",
-            "Magic",
-            "Charisma",
-            "Feline"
-        ],
-        "traversal": [
-            "Fly",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Levitate",
-            "Lure"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly wildly proudly gracefully happily excitedly brightly sweetly smartly valiantly wildly boldly boldly playfully smartly defiantly fluently intelligently valiantly fluently passionately bravely violently cleverly calmly gracefully smartly brightly valiantly valiantly defiantly valiantly calmly competently proudly boldly violently playfully wisely majestically calmly powerfully fluently excitedly loudly politely bravely fluently smoothly confidently boldly bravely defiantly violently politely calmly bravely confidently violently valiantly violently cleanly cleverly playfully prudently."
-    }
+  "Leathery_Bat_Like_Feline_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Agility",
+      "Feline",
+      "Chimera"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics"
+    ],
+    "description": "These leathery bat-like feline wings, a marvel of nature\u2019s cruel whims, grant their bearer an otherworldly agility and grace in the air, enabling them to dart and weave through the night sky with the precision of a predator and the swiftness of the wind."
+  },
+  "Feathered_Griffon_Lion_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Charisma",
+      "Strength",
+      "Feline",
+      "Griffon"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Rally",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the feline shoulders of this majestic beast are twin wings of feather and claw, a marvel of nature's cruelty and grace, granting unparalleled strength and charisma, allowing the creature to soar through the skies with the precision of a master aerialist and the heart-stirring presence of a true leader."
+  },
+  "Ethereal_Shadow_Panther_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Stealth",
+      "Magic",
+      "Feline",
+      "Shadow"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Levitate"
+    ],
+    "description": "Ethereal Shadow Panther Wings are ghostly appendages that shimmer with an otherworldly glow, granting their bearer the ability to glide silently through the night sky, their very presence cloaked in an aura of near-invisible darkness, while also bestowing the agility to evade and hide from even the most perceptive foes."
+  },
+  "Gliding_Flying_Squirrel_Feline_Membranes": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Glide",
+      "Agility",
+      "Feline",
+      "Glider"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Spider_Climb"
+    ],
+    "description": "With membranous wings that stretch between elongated, dexterous limbs, this creature combines the sinuous grace of a feline with the aerial prowess of a flying squirrel, allowing it to glide silently through the night, its movements as fluid and deadly as a shadow."
+  },
+  "Cybernetic_Hardlight_Thruster_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Cybernetic",
+      "Feline",
+      "Speed"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Overdrive",
+      "Aerobatics"
+    ],
+    "description": "These sleek, hardlight wings, an intricate blend of cybernetic engineering and feline aesthetics, pulse with energy, granting their bearer unparalleled speed through the skies at the cost of a slight reduction in agility, and come equipped with the skills Overdrive and Aerobatics for those who dare to master them."
+  },
+  "Crystalline_Ice_Leopard_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Cold",
+      "Feline",
+      "Crystal"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Resist_Cold"
+    ],
+    "description": "Emerging from the frigid peaks of the Crystal Glacier, the Crystalline Ice Leopard Wings shimmer with a haunting beauty, their translucent ice feathers embedded with shards of glimmering crystal, granting the bearer not only the grace and speed of flight but a cold resilience and a wisdom born from the eternal frost."
+  },
+  "Bony_Skeletal_Saber_Toothed_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Undead_Like",
+      "Feline",
+      "Strength"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Sunder"
+    ],
+    "description": "Emerging from the shadowy realm of the undead, these skeletal wings resemble those of a feline predator, with sharp, bone-like structures that shimmer faintly in the dim light, granting their bearer both a terrifying presence and the ability to soar through the night sky with a primal strength and resilience."
+  },
+  "Fiery_Solar_Lion_Wings": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Heat",
+      "Magic",
+      "Feline",
+      "Lion"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fire_Aura",
+      "Light"
+    ],
+    "description": "Enveloped in a radiant yet fearsome aura, the Fiery Solar Lion Wings pulse with an otherworldly heat, granting their bearer an ethereal flight and a regal presence that commands both awe and fear."
+  },
+  "Aquatic_Wing_Fins_Fishing_Cat": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Swim",
+      "Agility",
+      "Feline",
+      "Fishing_Cat",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "With sleek, membraned wings and elongated, fin-like appendages, the Aquatic Wing Fishing Cat is a marvel of adaptation, gliding effortlessly through the air and diving into the depths with unparalleled agility and speed, its keen senses honed for the hunt."
+  },
+  "Iridescent_Fairy_Winged_Feline_Membranes": {
+    "tags": [
+      "Wings",
+      "Appendages",
+      "Flight",
+      "Magic",
+      "Charisma",
+      "Feline"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Levitate",
+      "Lure"
+    ],
+    "description": "These ethereal, bioluminescent wings, a rare fusion of feline grace and magical allure, grant their bearer the ability to soar and hover through the night sky, their mesmerizing glow drawing both admiration and envy from those below, while the inherent charisma boosts attract allies but also the unwanted attention of predators."
+  }
 }

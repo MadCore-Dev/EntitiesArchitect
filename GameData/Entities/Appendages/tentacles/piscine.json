@@ -1,332 +1,332 @@
 {
-    "Grasping_Octopus_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Agility",
-            "Grapple",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Ignore_Terrain_Penalty",
-            "Spider_Climb"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly calmly wildly valiantly passionately confidently safely defiantly fluently intelligently elegantly fluently bravely defiantly bravely confidently bravely defiantly intelligently smartly boldly cleverly majestically smoothly wildly politely valiantly expertly valiantly comfortably defiantly passionately calmly smartly passionately powerfully defiantly quietly defiantly safely wildly competently intelligently cleverly boldly warmly boldly intelligently defiantly cleanly smoothly smoothly boldly peacefully wisely bravely passionately violently stably cleverly gently bravely smoothly gracefully smartly proudly bravely majestically fluently."
-    },
-    "Venomous_Jellyfish_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Toxic",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Grapple"
-        ],
-        "description": "Technologically actively practically fluently warmly elegantly valiantly valiantly violently defiantly prudently violently competently humbly stably bravely passionately valiantly excitedly playfully calmly proudly confidently politely expertly gracefully sensibly smartly prudently violently cleverly competently powerfully gracefully gracefully boldly bravely gently expertly competently valiantly cheerfully fluently confidently safely defiantly valiantly proudly violently bravely bravely violently violently smartly valiantly furiously politely bravely."
-    },
-    "Bioluminescent_Squid_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Luminescence",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure",
-            "Grapple"
-        ],
-        "description": "Magically seamlessly elegantly smoothly cleverly smartly proudly bravely valiantly competently defiantly valiantly enthusiastically valiantly casually prudently violently fluently safely boldly violently valiantly defiantly expertly willfully gently fluently politely defiantly valiantly majestically proudly bravely confidently angrily valiantly vividly loudly fluently cleanly deftly proudly valiantly wildly confidently happily politely violently violently loudly brightly wisely confidently violently violently confidently violently defiantly softly calmly loudly proudly valiantly enthusiastically cleanly safely valiantly smartly boldly safely smartly defiantly wildly calmly valiantly excitedly calmly competently."
-    },
-    "Armored_Nautilus_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Armor",
-            "Heavy",
-            "Grapple"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Grapple"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly proudly valiantly bravely valiantly gracefully smoothly boldly wildly resolutely cleverly defiantly wisely gracefully smartly passionately valiantly loudly majestically boldly gracefully excitedly angrily fluently valiantly smoothly cleanly proudly stably valiantly fluently passionately bravely violently smartly defiantly boldly wildly fluently competently boldly smoothly securely violently defiantly smoothly boldly bravely cleanly casually gently cleverly valiantly."
-    },
-    "Electric_Eel_Shocking_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Agility",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Reflect_Spells",
-            "Grapple"
-        ],
-        "description": "Properly natively explicitly securely smartly neatly intelligently bravely valiantly valiantly boldly cheerfully resolutely violently elegantly intelligently proudly politely humbly valiantly vividly smoothly proudly elegantly cleverly safely intelligently competently valiantly calmly resolutely smartly peacefully bravely gently politely bravely confidently defiantly prudently smoothly bravely competently boldly furiously fluently proudly defiantly valiantly majestically peacefully competently softly fluently smartly cleanly excitedly playfully valiantly brightly defiantly confidently wildly valiantly bravely happily politely bravely."
-    },
-    "Ghost_Koi_Spectral_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Undead_Like",
-            "Stealth",
-            "Spectral",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim",
-            "Hover"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly bravely violently cleanly casually brilliantly bravely bravely violently bravely elegantly boldly sweetly bravely defiantly casually proudly fluently calmly cleanly expertly valiantly competently bravely intelligently bravely proudly cleverly solidly powerfully humbly resolutely peacefully competently powerfully loudly playfully comfortably calmly warmly cleanly furiously majestically fluently valiantly brilliantly fluently peacefully sweetly intelligently cleanly violently violently violently bravely intelligently valiantly fluently fluently elegantly casually vibrantly."
-    },
-    "Sucker_Mouth_Catfish_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Strength",
-            "Grapple"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly actively practically securely solidly cleanly valiantly gracefully cleverly valiantly politely loudly smoothly calmly blindly smartly resolutely cleanly sweetly humbly wildly safely bravely cheerfully gracefully expertly competently smoothly prudently angrily confidently brightly eloquently intelligently bravely passionately valiantly excitedly powerfully brightly wildly valiantly compactly prudently stably brightly proudly bravely politely valiantly warmly peacefully comfortably violently peacefully sensibly calmly valiantly safely fluently smoothly valiantly calmly bravely violently deftly valiantly cleanly politely intelligently sensibly casually vibrantly passionately majestically gracefully smoothly boldly majestically boldly safely."
-    },
-    "Camouflaging_Cuttlefish_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Stealth",
-            "Agility",
-            "Grapple"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Grapple"
-        ],
-        "description": "Quietly cleanly explicitly seamlessly gracefully majestically violently smartly gracefully fluently bravely politely cheerfully competently gracefully safely fluently safely vibrantly bravely politely warmly passionately valiantly defiantly smoothly bravely boldly smoothly cleanly boldly valiantly cheerfully safely valiantly excitedly safely calmly wildly majestically intelligently violently comfortably valiantly elegantly cleanly securely valiantly wildly vividly bravely proudly confidently gracefully wisely valiantly proudly proudly violently valiantly expertly intelligently violently peacefully loudly brightly defiantly smartly gracefully vividly blindly competently boldly boldly calmly bravely wildly fluently gently cleverly rationally eagerly valiantly safely bravely majestically loudly proudly gently powerfully valiantly sensibly proudly confidently gracefully bravely confidently bravely elegantly."
-    },
-    "Deep_Sea_Angler_Lure_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Magic",
-            "Perception",
-            "Reach"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Lure",
-            "Alert"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely boldly valiantly proudly happily merrily boldly defiantly powerfully safely prudently competently loudly silently confidently violently valiantly majestically valiantly eloquently defiantly passionately fluently majestically fluently proudly enthusiastically angrily wildly confidently gracefully cleanly happily confidently defiantly calmly comfortably cleanly safely bravely prudently valiantly intelligently brightly defiantly playfully competently smartly valiantly proudly confidently vigorously valiantly deftly fluently enthusiastically valiantly casually deftly angrily vibrantly bravely vividly violently calmly smartly defiantly calmly boldly proudly cleverly passionately confidently boldly valiantly wisely bravely."
-    },
-    "Heavy_Kraken_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Piscine",
-            "Swim",
-            "Strength",
-            "Reach",
-            "Grapple"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Knockdown",
-            "Sunder"
-        ],
-        "description": "Massively completely gracefully gracefully politely safely solidly heavily cleverly powerfully valiantly defiantly cleanly proudly boldly confidently gracefully valiantly defiantly powerfully silently violently brilliantly casually boldly calmly defiantly boldly bravely violently gracefully valiantly defiantly peacefully proudly vibrantly bravely aggressively loudly boldly proudly intelligently safely safely wildly smartly powerfully brilliantly enthusiastically eloquently confidently boldly valiantly violently wisely confidently bravely bravely loudly confidently loudly intelligently violently calmly politely calmly cheerfully bravely brightly elegantly defiantly."
-    }
+  "Grasping_Octopus_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Agility",
+      "Grapple",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ignore_Terrain_Penalty",
+      "Spider_Climb"
+    ],
+    "description": "These prehensile tentacles, dripping with slick, mucus-coated tendrils, grant unparalleled agility and reach, allowing their bearer to grapple foes with bone-crushing strength and traverse treacherous terrains with ease, whether swimming through murky depths or scaling sheer cliff faces."
+  },
+  "Venomous_Jellyfish_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Toxic",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Grapple"
+    ],
+    "description": "Emerging from the depths of the briny abyss, the Venomous Jellyfish Tendrils are writhing, translucent appendages that pulse with a bioluminescent glow, their touch imbued with a paralyzing venom that can incapacitate even the most agile of foes, while their elongated reach allows them to ensnare unsuspecting prey from a distance."
+  },
+  "Bioluminescent_Squid_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Luminescence",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure",
+      "Grapple"
+    ],
+    "description": "Glowing tendrils of iridescent blue and green snake through the darkness, their bioluminescence cutting through the inky void, enhancing the user's charisma and perception as they extend their reach to ensnare prey or deter threats with mesmerizing light and deceptive grace."
+  },
+  "Armored_Nautilus_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Armor",
+      "Heavy",
+      "Grapple"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Grapple"
+    ],
+    "description": "Emerging from the depths, the Armored Nautilus Tentacles are a fearsome sight, their thick, armored coils capable of withstanding the harshest underwater battles, while their formidable reach and strength allow them to ensnare and subdue even the largest prey with ease."
+  },
+  "Electric_Eel_Shocking_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Agility",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Reflect_Spells",
+      "Grapple"
+    ],
+    "description": "Emerging from the depths of the aquatic abyss, the Electric Eel's Shocking Tendrils are piscine appendages that shimmer with a menacing blue glow, capable of ensnaring and shocking foes with electric precision, granting both agility and a measure of arcane protection."
+  },
+  "Ghost_Koi_Spectral_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Undead_Like",
+      "Stealth",
+      "Spectral",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Spectral tendrils, reminiscent of ghostly koi fish tails, undulate with otherworldly grace, granting the entity the ability to hover and swim through the deepest shadows, enhancing its stealth and evasion while allowing it to see through illusions and camouflage itself with eerie precision."
+  },
+  "Sucker_Mouth_Catfish_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Strength",
+      "Grapple"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Resist_Knockback"
+    ],
+    "description": "Sinister tendrils, resembling elongated catfish whiskers, undulate with eerie grace, their barbed tips capable of ensnaring prey with bone-crushing strength, while their piscine nature allows them to move fluidly through water, their resilience bolstering their formidable grip against powerful adversaries."
+  },
+  "Camouflaging_Cuttlefish_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Stealth",
+      "Agility",
+      "Grapple"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Grapple"
+    ],
+    "description": "The Camouflaging Cuttlefish Tentacles are a mesmerizing blend of agility and stealth, enabling the wielder to seamlessly blend into aquatic environments while extending their reach and enhancing their ability to grapple and ensnare unsuspecting prey or foes."
+  },
+  "Deep_Sea_Angler_Lure_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Magic",
+      "Perception",
+      "Reach"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Lure",
+      "Alert"
+    ],
+    "description": "The Deep Sea Angler's Lure Tendrils are serpentine, bioluminescent appendages that undulate gracefully, their faint glow pulsating in mesmerizing patterns to attract prey. These piscine tentacles, imbued with arcane magic, not only enhance the angler's wisdom and perception but also grant it the skills to manipulate light, lure victims, and remain perpetually vigilant."
+  },
+  "Heavy_Kraken_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Piscine",
+      "Swim",
+      "Strength",
+      "Reach",
+      "Grapple"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Knockdown",
+      "Sunder"
+    ],
+    "description": "These thick, sinuous tentacles, dripping with briny water, are formidable weapons of strength and reach, capable of grappling and overwhelming foes with their piscine might, leaving opponents grappling for breath as they are dragged into the abyssal depths."
+  }
 }

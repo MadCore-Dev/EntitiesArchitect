@@ -1,330 +1,330 @@
 {
-    "Sturdy_Oak_Trunk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Strength",
-            "Heavy",
-            "Armor"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly proudly valiantly bravely wildly defiantly vibrantly valiantly peacefully safely boldly brightly bravely defiantly passionately sensibly eloquently valiantly brightly politely boldly cleanly fluently safely defiantly calmly vividly proudly wildly defiantly boldly proudly safely loudly confidently majestically gently gracefully boldly bravely fluently vigorously defiantly competently valiantly calmly neatly comfortably fluently."
-    },
-    "Tangling_Banyan_Root_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Strength",
-            "Grapple"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb",
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Tremorsense",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly casual gracefully politely valiantly safely fluently violently gracefully passionately competently gracefully defiantly boldly safely valiantly competently fluently passionately securely defiantly valiantly bravely intelligently violently fluently valiantly eloquently politely casually fluently violently smoothly efficiently competently majestically bravely sensibly neatly competently defiantly bravely valiantly majestically violently cleanly enthusiastically boldly defiantly vibrantly passionately majestically gracefully."
-    },
-    "Supple_Bamboo_Stalk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Agility",
-            "Speed",
-            "Jump"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually boldly valiantly defiantly defiantly fluently intelligently elegantly wisely blindly boldly gracefully stably proudly confidently proudly defiantly calmly wildly calmly efficiently valiantly casually safely bravely boldly humbly bravely cheerfully politely casually cleanly passionately smartly bravely gracefully valiantly smoothly valiantly blindly angrily proudly bravely confidently sensibly defiantly calmly excitedly majestically defiantly competently peacefully wisely quietly blindly safely angrily fluently."
-    },
-    "Prehensile_Kelp_Stripe_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Agility",
-            "Grapple"
-        ],
-        "traversal": [
-            "Walk",
-            "Swim",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Spider_Climb"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently gently bravely violently proudly gently defiantly wildly elegantly competently violently safely brilliantly calmly intelligently bravely peacefully bravely confidently wisely cleanly safely politely violently smoothly defiantly passionately passionately politely valiantly bravely wildly confidently bravely calmly boldly gracefully defiantly fluently cleanly casually boldly fluently gently bravely elegantly warmly comfortably smoothly bravely proudly confidently bravely fluently smartly resolutely happily cheerfully fluently intelligently violently prudently bravely angrily quietly bravely cheerfully smartly expertly passionately gently resolutely smartly confidently playfully elegantly safely brilliantly comfortably vigorously valiantly smartly boldly."
-    },
-    "Thorny_Briar_Tangle_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Strength",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Specifically deeply natively purely valiantly wildly majestically politely bravely violently defiantly boldly wisely brilliantly elegantly politely smartly confidently boldly proudly fluently gracefully softly cleanly gracefully smoothly patiently bravely proudly proudly elegantly violently peacefully smoothly bravely smartly valiantly valiantly calmly cleanly smartly resolutely violently defiantly angrily gracefully smartly brightly fluently loudly confidently wildly smartly angrily excitedly defiantly defiantly humbly defiantly gracefully peacefully prudently passionately vibrantly bravely quietly fluently valiantly humbly."
-    },
-    "Giant_Lily_Pad_Hovers": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Agility",
-            "Swim",
-            "Magic"
-        ],
-        "traversal": [
-            "Hover",
-            "Walk",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Water_Breathing",
-            "Ignore_Terrain_Penalty"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely loudly politely securely sweetly bravely violently defiantly warmly gently elegantly valiantly gracefully fluently boldly passionately gracefully confidently valiantly boldly calmly majestically casually cheerfully resolutely loudly politely gracefully defiantly fluently cleanly proudly safely boldly competently boldly safely happily valiantly bravely majestically."
-    },
-    "Petrified_Wood_Pillar_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Strength",
-            "Heavy",
-            "Armor",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Massively completely fiercely bravely bravely valiantly peacefully safely valiantly valiantly compactly sensibly valiantly valiantly bravely calmly violently wisely bravely prudently boldly resolutely casually violently elegantly gracefully vigorously violently defiantly smartly proudly gently smartly rationally confidently boldly calmly brightly boldly bravely sensibly valiantly fluently passionately majestically casually safely defiantly smartly defiantly calmly violently casually calmly."
-    },
-    "Bouncing_Mushroom_Cap_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Agility",
-            "Jump",
-            "Magic"
-        ],
-        "traversal": [
-            "Walk",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aerobatics",
-            "Resist_Knockback"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly wildly happily brightly boldly softly quietly expertly majestically proudly eloquently eloquently defiantly confidently elegantly gracefully warmly calmly proudly playfully violently neatly fluently smoothly cleverly fluently defiantly defiantly boldly majestically violently valiantly humbly valiantly fluently valiantly valiantly expertly intelligently blindly bravely valiantly efficiently bravely gracefully enthusiastically gracefully smartly deftly valiantly smoothly resolutely gracefully proudly bravely safely violently confidently wildly fluently valiantly safely."
-    },
-    "Spiny_Cactus_Trunk_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Armor",
-            "Strength",
-            "Slashing",
-            "Heavy"
-        ],
-        "traversal": [
-            "Walk"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Resist_Knockback"
-        ],
-        "description": "Strictly sharply specifically bravely enthusiastically violently violently securely bravely calmly boldly intelligently proudly enthusiastically wildly loudly eloquently confidently boldly excitedly fluently boldly elegantly bravely deftly competently silently expertly majestically confidently wildly bravely confidently defiantly violently valiantly compactly prudently stably politely boldly warmly cleanly valiantly resolutely defiantly valiantly confidently bravely wildly valiantly fluently neatly excitedly defiantly fluently passionately gracefully confidently smartly wisely boldly defiantly calmly rationally calmly valiantly smoothly happily calmly smoothly safely vigorously smartly brightly warmly competently angrily safely bravely excitedly furiously loudly violently angrily safely valiantly powerfully vividly enthusiastically safely cleanly valiantly fluently fluently valiantly smartly cleverly quietly bravely valiantly."
-    },
-    "Creeping_Ivy_Tangle_Legs": {
-        "tags": [
-            "Legs",
-            "Appendages",
-            "Plant",
-            "Agility",
-            "Stealth",
-            "Climb"
-        ],
-        "traversal": [
-            "Walk",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Camouflage"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly smartly bravely resolutely violently elegantly safely prudently expertly bravely calmly brightly brilliantly elegantly resolutely passionately proudly valiantly proudly confidently intelligently vibrantly vibrantly bravely gracefully humbly fluently gracefully softly vibrantly calmly quietly fluently boldly cleverly safely gracefully blindly quietly confidently politely defiantly valiantly defiantly safely majestically fluently."
-    }
+  "Sturdy_Oak_Trunk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Thick, gnarled legs of sturdy oak trunk sprout from the creature's lower body, providing unparalleled strength and durability, though their cumbersome nature slightly hampers agility, offering a natural armor that deflects incoming attacks and granting the ability to resist powerful knockbacks."
+  },
+  "Tangling_Banyan_Root_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Grapple"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Tremorsense",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Enveloped in thick, entwined banyan roots that pulsate with an otherworldly vitality, these plant-based legs are as strong and resilient as ancient gnarled trees, granting their bearer immense physical might and the uncanny ability to sense movement through solid earth, while effortlessly traversing treacherous terrains and subterranean realms."
+  },
+  "Supple_Bamboo_Stalk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Speed",
+      "Jump"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "These slender, supple bamboo stalks serve as living legs, granting unparalleled agility and speed, allowing their bearer to leap over obstacles with the grace of a dancer and traverse rugged terrains without hindrance."
+  },
+  "Prehensile_Kelp_Stripe_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Agility",
+      "Grapple"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Spider_Climb"
+    ],
+    "description": "Braided from the gnarled tendrils of ancient kelp, these prehensile legs intertwine with the swimmer's body, granting unparalleled agility and grace both on land and in water, their suction-cupped undersides and whip-like flexibility allowing for rapid dashes through aquatic environments and effortless scaling of sheer surfaces."
+  },
+  "Thorny_Briar_Tangle_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "Brimming with the dark vitality of a cursed forest, the Thorny Briar Tangle Legs are a grotesque amalgamation of entwined thorns and gnarled roots that extend from the ground to become the bearer's twisted appendages, granting them formidable strength and a natural armor of sharp, biting thorns that slash at any who dare to attack, while also enhancing their agility to navigate treacherous terrain with ease."
+  },
+  "Giant_Lily_Pad_Hovers": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Swim",
+      "Magic"
+    ],
+    "traversal": [
+      "Hover",
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Water_Breathing",
+      "Ignore_Terrain_Penalty"
+    ],
+    "description": "With an otherworldly grace, the Giant Lily Pad Hovers drifts across water and land alike, its ethereal legs shifting between a balletic walk and a serene hover, while its innate magic grants it unparalleled agility and the ability to breathe underwater, allowing it to move with ease through any terrain."
+  },
+  "Petrified_Wood_Pillar_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Strength",
+      "Heavy",
+      "Armor",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "Thick, petrified wood legs, resembling ancient, fossilized tree trunks, provide immense strength and resilience, their heavy, undying nature granting formidable natural armor and the ability to resist powerful blows and knockbacks, though their cumbersome bulk significantly hinders agility."
+  },
+  "Bouncing_Mushroom_Cap_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Jump",
+      "Magic"
+    ],
+    "traversal": [
+      "Walk",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Resist_Knockback"
+    ],
+    "description": "These peculiar, leafy legs sprout from a fungal cap, pulsating with latent magic that grants unmatched agility and a graceful bounce with every step, allowing the user to leap effortlessly over obstacles while imbuing them with a natural charm."
+  },
+  "Spiny_Cactus_Trunk_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Armor",
+      "Strength",
+      "Slashing",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Resist_Knockback"
+    ],
+    "description": "Thick, spiky trunks sprout from the ground, transforming into powerful, armored legs that grant the creature immense strength and resilience, each step resonating with the earth as razor-sharp thorns pierce through any who dare to attack, causing grievous bleeding wounds."
+  },
+  "Creeping_Ivy_Tangle_Legs": {
+    "tags": [
+      "Legs",
+      "Appendages",
+      "Plant",
+      "Agility",
+      "Stealth",
+      "Climb"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Camouflage"
+    ],
+    "description": "Emerging from the shadows of ancient forests, the Creeping Ivy Tangle Legs are supple, vine-like appendages that wind and twist with uncanny dexterity, granting the bearer unparalleled agility and the ability to move silently through the undergrowth as if nature itself were aiding their stealthy progress."
+  }
 }

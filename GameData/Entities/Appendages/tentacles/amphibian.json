@@ -1,253 +1,253 @@
 {
-    "Sensory_Narial_Barbels": {
-        "tags": [
-            "Tentacles",
-            "Sensory",
-            "Amphibian",
-            "Caecilian_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Tremorsense"
-        ],
-        "description": "Pair of highly flexible, retractable sensory tentacles located between the eyes and nostrils. They act as combined tactile and olfactory probes, allowing the completely blind entity to perfectly navigate subterranean mud burrows."
-    },
-    "Prehensile_Labial_Palps": {
-        "tags": [
-            "Tentacles",
-            "Prehensile",
-            "Amphibian",
-            "Mouthparts"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple"
-        ],
-        "description": "Vastly elongated, shockingly strong fleshy extensions of the upper lip. They lash out independently of the jaw to viciously seize nearby insects and physically force the frantically wriggling prey directly into the suffocating gullet."
-    },
-    "Glandular_Toxic_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Toxic",
-            "Amphibian",
-            "Weapon"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "cha",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud"
-        ],
-        "description": "A thick, writhing mane of utterly grotesque, warty tentacles encircling the neck. Packed incredibly densely with parotoid poison glands, any predator biting the neck receives a violently overwhelming dose of neurotoxic slime."
-    },
-    "Aquatic_Filter_Cirri": {
-        "tags": [
-            "Tentacles",
-            "Filter",
-            "Amphibian",
-            "Aquatic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [],
-        "description": "Hundreds of microscopic, densely packed, hair-like tentacles entirely surrounding the exceptionally wide mouth. The entity rests perpetually in rushing rivers, using the cirri to constantly sieve highly nutritious zooplankton directly from the current."
-    },
-    "Electroreceptive_Snout_Papillae": {
-        "tags": [
-            "Tentacles",
-            "Electroreception",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "initiative",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Blindsight"
-        ],
-        "description": "Short, gelatinous tentacles completely localized entirely around the very tip of the nose. Jam-packed with ampullary electroreceptors, they effortlessly detect the phenomenally faint electric heartbeat of a fish buried deeply within insulating mud."
-    },
-    "Elongated_Caudal_Lure_Appendage": {
-        "tags": [
-            "Tentacles",
-            "Lure",
-            "Amphibian",
-            "Tail_Like"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Lure"
-        ],
-        "description": "An incredibly weird, thin, highly prehensile fleshy tentacle that sprouts anomalously directly from the tip of the tail. The entity constantly twitches this pseudo-worm directly over its own head while waiting in absolute ambush."
-    },
-    "Vascular_Respiratory_Filaments": {
-        "tags": [
-            "Tentacles",
-            "Respiratory",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "hp",
-                "op": "add",
-                "val": 5
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Aquatic_Respiration"
-        ],
-        "description": "Thick, wildly branching blood-red tentacles erupting shockingly from the entity's flanks. Unlike gills, these are true muscular appendages used specifically to actively swat stagnant, deoxygenated water away, drawing fresh currents directly over the skin."
-    },
-    "Subterranean_Anchoring_Roots": {
-        "tags": [
-            "Tentacles",
-            "Anchoring",
-            "Amphibian",
-            "Burrow"
-        ],
-        "traversal": [
-            "Burrow"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Resist_Knockback"
-        ],
-        "description": "Monstrously tough, unfeeling cartilaginous tentacles extending directly out from the entity's soft belly. When digging vertically, these instantly expand outward to brutally lock the creature immovably against the earthen tunnel walls."
-    },
-    "Aposematic_Display_Fronds": {
-        "tags": [
-            "Tentacles",
-            "Display",
-            "Amphibian"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "subtract",
-                "val": 3
-            }
-        ],
-        "grants_skills": [
-            "Intimidate"
-        ],
-        "description": "A bizarre crown composed of immensely long, brightly colored, incredibly fragile tentacles atop the head. Utterly useless for combat or sensing, they serve exclusively to establish screamingly loud visual dominance in murky jungle environments."
-    },
-    "Parasitic_Attachment_Suckers": {
-        "tags": [
-            "Tentacles",
-            "Parasitic",
-            "Amphibian",
-            "Grapple"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Life_Drain"
-        ],
-        "description": "Short, immensely highly muscular tentacles surrounding the mouth, terminating in inescapable biological vacuum cups. They are shot forward to latch immovably onto the flank of a massive aquatic beast, allowing the amphibian to leisurely rasp away flesh as a parasite."
-    }
+  "Sensory_Narial_Barbels": {
+    "tags": [
+      "Tentacles",
+      "Sensory",
+      "Amphibian",
+      "Caecilian_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Tremorsense"
+    ],
+    "description": "Slender and highly sensitive tentacles dangle from the creature's snout, each one capable of detecting the slightest vibrations in the muddied earth, granting it a keen tremorsense ability that enhances its perception in the murky, subterranean realms it calls home."
+  },
+  "Prehensile_Labial_Palps": {
+    "tags": [
+      "Tentacles",
+      "Prehensile",
+      "Amphibian",
+      "Mouthparts"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Emerging from the shadows of the swamp, the amphibian's prehensile labial palps are a mesmerizing blend of grace and menace, their tentacle-like mouthparts capable of grasping and manipulating objects with eerie precision, enhancing their agility and extending their reach in the murky depths."
+  },
+  "Glandular_Toxic_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Toxic",
+      "Amphibian",
+      "Weapon"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud"
+    ],
+    "description": "Emerging from the shadowy recesses of the swamp, the Glandular Toxic Tendrils are long, serpentine appendages that pulse with a sickly green glow, dripping with a noxious venom capable of poisoning even the most resilient of adventurers, while their presence diminishes the charm of those around them and enhances their resilience in the face of such malevolent threats."
+  },
+  "Aquatic_Filter_Cirri": {
+    "tags": [
+      "Tentacles",
+      "Filter",
+      "Amphibian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aquatic_Filter_Cirri is a cluster of delicate, translucent tentacles that pulse rhythmically, serving as a vital filter for the amphibious creature, sifting nutrients from water with uncanny efficiency and bestowing upon it a subtle enhancement to its constitution."
+  },
+  "Electroreceptive_Snout_Papillae": {
+    "tags": [
+      "Tentacles",
+      "Electroreception",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the murky depths, the Electroreceptive Snout Papillae is a highly adapted sensory organ, covered in fine, gelatinous tentacles that ripple with an ethereal blue light, allowing the amphibian to detect electrical fields and navigate the dark, treacherous waters with uncanny precision and speed."
+  },
+  "Elongated_Caudal_Lure_Appendage": {
+    "tags": [
+      "Tentacles",
+      "Lure",
+      "Amphibian",
+      "Tail_Like"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Lure"
+    ],
+    "description": "This serpentine, tail-like appendage pulses with an otherworldly glow, its writhing tendrils adorned with bioluminescent nodes that serve as a hypnotic lure, enhancing the amphibian's charm and charisma to seduce both prey and unwitting adventurers."
+  },
+  "Vascular_Respiratory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Respiratory",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "hp",
+        "op": "add",
+        "val": 5
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Aquatic_Respiration"
+    ],
+    "description": "The Vascular Respiratory Filaments are a network of delicate, translucent tentacles that emerge from the creature's throat and branch out beneath its skin, intertwining with its vascular system to facilitate both terrestrial and aquatic respiration, granting it an eerie grace and resilience in water."
+  },
+  "Subterranean_Anchoring_Roots": {
+    "tags": [
+      "Tentacles",
+      "Anchoring",
+      "Amphibian",
+      "Burrow"
+    ],
+    "traversal": [
+      "Burrow"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Resist_Knockback"
+    ],
+    "description": "Embedded deep within the flesh of this amphibious creature are thick, sinuous roots that serve both as anchors, firmly securing it to the ground, and as burrowing appendages, allowing it to dig with incredible force and speed, though at the cost of some agility."
+  },
+  "Aposematic_Display_Fronds": {
+    "tags": [
+      "Tentacles",
+      "Display",
+      "Amphibian"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "val": 3
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "Bristling with vibrant, pulsating tentacles that undulate in mesmerizing patterns, the aposematic display fronds serve as a terrifying yet hypnotic warning to predators, enhancing the creature's charisma and its ability to intimidate while simultaneously making it more conspicuous and harder to sneak past unnoticed."
+  },
+  "Parasitic_Attachment_Suckers": {
+    "tags": [
+      "Tentacles",
+      "Parasitic",
+      "Amphibian",
+      "Grapple"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Life_Drain"
+    ],
+    "description": "Sinuous and slick, the parasitic suckers sprout from the creature's amphibian form, enabling it to cling to surfaces with prehensile tentacles that enhance its dexterity and reach, while granting it the sinister ability to grapple and drain life from its victims."
+  }
 }

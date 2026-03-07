@@ -1,297 +1,297 @@
 {
-    "Thick_Mycelial_Root_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Mycelium",
-            "Strength"
-        ],
-        "traversal": [
-            "Burrow",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Regeneration"
-        ],
-        "description": "Organically deeply explicitly securely reliably flawlessly seamlessly natively softly powerfully blindly smoothly deftly solidly elegantly gracefully brilliantly valiantly prudently calmly smartly bravely boldly blindly brightly valiantly politely defiantly gracefully defiantly brightly calmly proudly violently wildly safely gracefully elegantly passionately cleverly smartly intelligently valiantly angrily passionately fluently eloquently enthusiastically resolutely bravely calmly bravely violently loudly defiantly proudly bravely defiantly calmly politely smartly wisely bravely vibrantly loudly prudently cleanly valiantly fluently casually humbly boldly valiantly intelligently elegantly brilliantly violently competently playfully safely gracefully cleanly humbly brightly defiantly."
-    },
-    "Toxic_Spores_Weeping_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Toxic",
-            "Spores"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Grapple"
-        ],
-        "description": "Properly natively successfully flexibly valiantly defiantly excitedly brilliantly confidently resolutely defiantly gracefully gracefully furiously fluently casually proudly angrily proudly smartly bravely gently bravely playfully violently proudly bravely cleverly fluently valiantly brilliantly boldly bravely violently valiantly calmly peacefully loudly powerfully valiantly fluently passionately bravely violently boldly humbly wisely gracefully expertly brightly bravely wildly passionately passionately happily cleanly comfortably fluently prudently competently loudly smoothly violently aggressively valiantly expertly calmly brightly fluently defiantly bravely resolutely."
-    },
-    "Cordyceps_Grasping_Vines": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Parasite",
-            "Insect"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Target_Lock"
-        ],
-        "description": "Technologically natively solidly efficiently clumsily cleanly defiantly vividly wildly sensibly violently bravely boldly happily confidently brightly bravely expertly defiantly elegantly competently casually defiantly prudently bravely expertly smartly playfully valiantly safely happily smartly calmly valiantly safely boldly violently peacefully smartly passionately politely defiantly stably gracefully safely valiantly calmly stably resolutely forcefully gracefully valiantly boldly calmly fluently valiantly smoothly patiently fluently calmly cleanly prudently cleverly bravely resolutely brightly valiantly cleverly passionately valiantly fluently elegantly wisely politely intelligently brightly violently competently wisely stably fluently cheerfully valiantly calmly valiantly elegantly casually gracefully wisely bravely warmly sensibly quietly competently politely confidently violently cleverly elegantly valiantly intelligently bravely warmly angrily bravely casually bravely valiantly confidently majestically defiantly blindly bravely powerfully intelligently boldly smoothly peacefully expertly confidently."
-    },
-    "Slime_Mold_Engulfing_Pseudopods": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Slime",
-            "Agility"
-        ],
-        "traversal": [
-            "Climb",
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ignore_Terrain_Penalty",
-            "Grapple",
-            "Swim_Dash"
-        ],
-        "description": "Fluidly seamlessly logically cleanly natively violently intelligently eloquently smartly competently expertly smoothly valiantly boldly humbly quietly stably violently cleanly resolutely casually confidently boldly bravely fluently playfully excitedly proudly wisely valiantly eloquently proudly valiantly powerfully defiantly valiantly wisely fluently violently bravely valiantly majestically proudly bravely defiantly safely calmly confidently expertly efficiently proudly expertly safely bravely violently resolutely valiantly calmly bravely majestically proudly vigorously casually peacefully majestically gracefully quietly brightly softly casually passionately defiantly politely smartly intelligently happily defiantly passionately bravely solidly bravely prudently bravely."
-    },
-    "Bioluminescent_Glow_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Detect_Magic"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely defiantly gracefully intelligently silently bravely bravely confidently defiantly intelligently politely calmly majestically proudly cheerfully prudently boldly prudently cleanly majestically defiantly gracefully proudly confidently boldly blindly confidently confidently boldly quietly valiantly forcefully smartly loudly valiantly vividly brightly confidently valiantly brilliantly safely brightly defiantly playfully violently boldly competently brightly valiantly defiantly cleanly fluently defiantly smartly enthusiastically bravely playfully defiantly loudly politely."
-    },
-    "Decaying_Rot_Wood_Branch_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Decay",
-            "Undead_Like",
-            "Strength"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Fear",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully wildly violently confidently defiantly proudly gracefully gracefully furiously wildly calmly cleanly intelligently valiantly smartly resolutely warmly smartly boldly quietly smartly elegantly intelligently safely vigorously proudly sensibly proudly violently defiantly resolutely brilliantly violently safely expertly cleverly bravely valiantly cleanly smartly prudently competently valiantly violently prudently peacefully valiantly boldly vividly gracefully wisely humbly confidently intelligently majestically smartly valiantly calmly gracefully bravely blindly majestically powerfully smoothly valiantly violently smartly safely."
-    },
-    "Hardened_Shelf_Fungus_Blade_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Block"
-        ],
-        "description": "Solidly purely smoothly naturally defiantly prudently excitedly skillfully proudly violently safely fluently bravely patiently valiantly smoothly bravely elegantly defiantly elegantly playfully prudently smartly violently angrily competently elegantly smoothly happily casually stably gracefully bravely defiantly bravely smartly eloquently violently defiantly vigorously wisely smoothly gracefully confidently humbly boldly violently peacefully calmly intelligently defiantly smartly brilliantly vibrantly confidently valiantly bravely smoothly powerfully violently bravely vividly smartly proudly violently deftly valiantly calmly."
-    },
-    "Vibrant_Amanita_Poison_Whips": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Toxic",
-            "Vibrant"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Bleed_Procc"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly competently happily boldly humbly wildly powerfully intelligently smartly violently wildly calmly skillfully safely quietly smartly boldly cleanly peacefully smoothly loudly defiantly intelligently gracefully brilliantly gracefully calmly fluently enthusiastically loudly violently sensibly wildly valiantly bravely resolutely calmly powerfully vividly deftly calmly bravely wisely prudently peacefully valiantly defiantly efficiently valiantly calmly prudently proudly sensibly violently smartly passionately resolutely cleanly enthusiastically valiantly competently brightly patiently confidently valiantly bravely smoothly proudly bravely vigorously violently."
-    },
-    "Crystalline_Underdark_Fungus_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Crystal",
-            "Dark"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Darkvision",
-            "Reflect_Spells"
-        ],
-        "description": "Exclusively cleanly organically flawlessly valiantly violently cleanly elegantly calmly casually quietly blindly violently smartly majestically powerfully valiantly wisely bravely defiantly vibrantly valiantly playfully patiently cleanly softly defiantly competently bravely warmly wildly loudly violently angrily bravely valiantly valiantly compactly sensibly elegantly gracefully safely valiantly fluently passionately bravely violently boldly loudly smartly confidently patiently valiantly gracefully vigorously stably brightly valiantly competently defiantly fluently boldly peacefully boldly boldly resolutely wildly safely gracefully smartly confidently enthusiastically boldly majestically violently calmly gently valiantly elegantly gracefully fluently smartly intelligently skillfully bravely bravely."
-    },
-    "Ghost_Fungus_Spectral_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Fungal",
-            "Undead_Like",
-            "Stealth",
-            "Spectral"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Ethereal_Sight",
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly magically calmly valiantly proudly casually confidently proudly calmly violently violently defiantly safely bravely boldly softly cleverly violently valiantly humbly wisely calmly elegantly calmly smartly wisely valiantly violently fluently playfully intelligently gracefully defiantly angrily smoothly boldly aggressively peacefully defiantly gracefully bravely safely prudently boldly fluently enthusiastically cleverly gracefully defiantly fluently passionately safely valiantly defiantly valiantly violently competently gracefully intelligently proudly intelligently intelligently."
-    }
+  "Thick_Mycelial_Root_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Mycelium",
+      "Strength"
+    ],
+    "traversal": [
+      "Burrow",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Regeneration"
+    ],
+    "description": "Enveloped in a writhing mass of thick, resilient mycelial fibers, these fungal tentacles pulse with dark energy, enhancing the entity's strength and reach while granting it the ability to burrow and climb with ease, their regenerative nature allowing them to swiftly recover from damage."
+  },
+  "Toxic_Spores_Weeping_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Toxic",
+      "Spores"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadowy undergrowth, the Weeping Tendrils are long, sinuous fungal appendages that secrete a thick, toxic ooze, capable of launching spore-laden clouds that poison the air around them, while their powerful grasp can ensnare and drag prey into the dark heart of the forest."
+  },
+  "Cordyceps_Grasping_Vines": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Parasite",
+      "Insect"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Target_Lock"
+    ],
+    "description": "Emerging from the host's back, these writhing fungal tentacles are both a blessing and a curse, granting incredible dexterity and reach as they extend and retract, allowing the entity to scale sheer surfaces with ease and ensnare prey or foes with deadly precision."
+  },
+  "Slime_Mold_Engulfing_Pseudopods": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Slime",
+      "Agility"
+    ],
+    "traversal": [
+      "Climb",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ignore_Terrain_Penalty",
+      "Grapple",
+      "Swim_Dash"
+    ],
+    "description": "The Slime Mold Engulfing Pseudopods are a writhing mass of fungal tentacles, each one capable of independent movement and rapid adaptation, allowing the entity to climb sheer surfaces and swim through viscous environments with ease, while also granting it the ability to ignore terrain penalties and grapple foes with eerie precision."
+  },
+  "Bioluminescent_Glow_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "The entity's ghostly tendrils, pulsating with otherworldly light, extend from its fungal body, enhancing its magical perception and wisdom, granting it the ability to illuminate darkened paths and detect hidden arcane signatures."
+  },
+  "Decaying_Rot_Wood_Branch_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Decay",
+      "Undead_Like",
+      "Strength"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Resist_Knockback"
+    ],
+    "description": "The Decaying Rot Wood Branch Tentacles are gnarled, fungal growths that resemble withered tree limbs, their surface covered in a sickly green mold that emits a noxious, choking spore cloud. These tentacles, though crude in appearance, possess an unnatural resilience and strength, allowing them to ensnare prey with ease while instilling dread in anyone who dares to look upon them."
+  },
+  "Hardened_Shelf_Fungus_Blade_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Block"
+    ],
+    "description": "Embedded within the gnarled, fungal tendrils that sprout from the creature's armored body are razor-sharp blades, each tentacle a conduit of relentless assault and fortification, imbuing the wielder with an aura of resilience and the ability to inflict prolonged agony upon their foes."
+  },
+  "Vibrant_Amanita_Poison_Whips": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Toxic",
+      "Vibrant"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Bleed_Procc"
+    ],
+    "description": "Emerging from the pulsating, fungal flesh of the creature, the Vibrant Amanita Poison Whips are a mesmerizing blend of bioluminescent hues and eerie grace, capable of ensnaring foes with their toxic touch and unleashing a choking cloud of venomous spores."
+  },
+  "Crystalline_Underdark_Fungus_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Crystal",
+      "Dark"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Darkvision",
+      "Reflect_Spells"
+    ],
+    "description": "Emerging from the obsidian soil of the Underdark, the crystalline tendrils of this fungal entity shimmer with an eerie, bioluminescent glow, their sharp, crystalline tips reflecting the dark magic that surrounds them, granting enhanced wisdom and constitution to those who wield them."
+  },
+  "Ghost_Fungus_Spectral_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Fungal",
+      "Undead_Like",
+      "Stealth",
+      "Spectral"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Ethereal_Sight",
+      "Camouflage"
+    ],
+    "description": "Spectral tendrils, akin to ghostly fungal tentacles, whisper through the shadows, granting their host an eerie stealth and ethereal sight, allowing them to blend into the darkness and navigate realms unseen by the living."
+  }
 }

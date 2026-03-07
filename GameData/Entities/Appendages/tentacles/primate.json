@@ -1,318 +1,318 @@
 {
-    "Spectral_Ape_Ghostly_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Magic",
-            "Reach",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Hover",
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Detect_Magic",
-            "Touch_Attack"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely bravely politely angrily gracefully vibrantly bravely intelligently proudly calmly gracefully excitedly resolutely kindly boldly calmly confidently angrily confidently intelligently valiantly competently lazily bravely violently excitedly intelligently fluently gracefully bravely proudly bravely valiantly smoothly elegantly elegantly proudly valiantly confidently violently gently valiantly competently violently fluently safely boldly expertly confidently valiantly casually safely vividly warmly bravely bravely fluently intelligently valiantly fluently."
-    },
-    "Chimpanzee_Nimble_Manipulator_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Dexterity",
-            "Agility",
-            "Reach"
-        ],
-        "traversal": [
-            "Climb",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Sleight_of_Hand"
-        ],
-        "description": "Fluidly seamlessly logically cleanly casually violently proudly smoothly safely comfortably playfully happily valiantly bravely violently smoothly gracefully politely valiantly smoothly happily calmly elegantly angrily wisely boldly boldly resolutely wildly politely confidently bravely proudly bravely violently gently humbly smartly smartly cleanly brilliantly confidently majestically blindly furiously cleanly boldly safely fluently politely wisely confidently bravely calmly valiantly valiantly defiantly furiously defiantly smartly competently powerfully smartly wisely boldly confidently calmly calmly smoothly vigorously violently humbly confidently vividly bravely gracefully gracefully intelligently confidently safely calmly safely vividly fluently politely defiantly defiantly valiantly cleanly confidently violently safely deftly defiantly fluently passionately gracefully competently smartly valiantly resolutely passionately competently vibrantly stably majestically blindly bravely smoothly vividly boldly expertly proudly vigorously defiantly calmly defiantly confidently defiantly resolutely competently gracefully proudly sensibly valiantly bravely cheerfully confidently violently fluently peacefully proudly boldly prudently proudly happily bravely."
-    },
-    "Gorilla_Heavy_Slamming_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Strength",
-            "Heavy",
-            "Armor"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Sunder",
-            "Knockdown"
-        ],
-        "description": "Solidly purely smoothly naturally valiantly sensibly proudly wisely wildly bravely cleanly valiantly valiantly bravely calmly violently cleverly calmly boldly fluently neatly boldly humbly lazily proudly brightly defiantly smoothly valiantly violently boldly safely valiantly prudently calmly intelligently defiantly passionately silently loudly wildly bravely intelligently expertly valiantly loudly majestically bravely bravely resolutely proudly valiantly majestically valiantly cleverly brightly prudently happily gracefully resolutely proudly humbly bravely wisely playfully confidently vibrantly gently stably neatly angrily skillfully proudly wildly cheerfully safely peacefully gently vividly boldly confidently."
-    },
-    "Baboon_Muscular_Grasping_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Strength",
-            "Agility",
-            "Grapple"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Athletics"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely casually proudly boldly gently elegantly patiently boldly safely violently bravely defiantly furiously calmly angrily playfully cleverly bravely resolutely passionately proudly valiantly cheerfully proudly softly boldly smartly boldly peacefully securely confidently vibrantly violently humbly valiantly brilliantly boldly cleanly fluently safely bravely bravely wildly confidently fluently politely valiantly eloquently calmly defiantly bravely bravely peacefully bravely competently excitedly happily comfortably smartly powerfully vibrantly valiantly bravely calmly intelligently fluently gently valiantly wildly powerfully loudly valiantly bravely patiently fluently safely defiantly bravely intelligently bravely blindly warmly loudly majestically sensibly expertly wildly humbly calmly smartly brilliantly."
-    },
-    "Spider_Monkey_Long_Whipping_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Agility",
-            "Reach",
-            "Speed"
-        ],
-        "traversal": [
-            "Climb",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Spider_Climb",
-            "Acrobatics"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly bravely excitedly valiantly efficiently bravely gracefully defiantly wildly boldly playfully brilliantly deftly calmly wisely happily boldly bravely boldly valiantly confidently violently sensibly violently safely cleanly boldly defiantly wildly gracefully confidently valiantly excitedly gracefully passionately valiantly violently bravely bravely violently smartly safely casually proudly eagerly calmly confidently bravely violently blindly valiantly valiantly lazily gracefully loudly wisely boldly calmly smartly violently boldly majestically wisely confidently powerfully loudly smartly boldly defiantly proudly valiantly violently violently cheerfully confidently furiously gracefully quietly cheerfully safely competently elegantly boldly wisely valiantly smoothly smoothly bravely competently valiantly violently prudently wisely bravely expertly deftly proudly."
-    },
-    "Mandrill_Colorful_Display_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Charisma",
-            "Vibrant",
-            "Magic"
-        ],
-        "traversal": [
-            "None"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Intimidate"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly proudly cheerfully valiantly lazily boldly smartly vigorously wildly valiantly gracefully confidently violently bravely prudently bravely defiantly proudly brilliantly silently bravely lazily elegantly violently fluently bravely casually gently boldly confidently resolutely safely safely lazily lazily valiantly smoothly proudly calmly smartly bravely loudly competently brightly fluently gracefully bravely warmly passionately wildly valiantly casually excitedly majestically lazily safely proudly expertly lazily valiantly wildly politely boldly intelligently bravely boldly warmly boldly peacefully lazily bravely defiantly cleanly bravely valiantly violently calmly intelligently brilliantly fluently confidently valiantly happily smartly gracefully defiantly quietly bravely angrily smoothly safely smartly majestically prudently warmly valiantly valiantly bravely defiantly confidently powerfully intelligently gracefully fluently."
-    },
-    "Lemur_Striped_Sensory_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Perception",
-            "Agility",
-            "Climb"
-        ],
-        "traversal": [
-            "Climb",
-            "Leap"
-        ],
-        "mods": [
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Alert",
-            "Spider_Climb"
-        ],
-        "description": "Properly natively efficiently explicitly wisely safely bravely gracefully cleanly defiantly cautiously proudly boldly defiantly cheerfully passionately vividly gently intelligently boldly bravely proudly confidently defiantly calmly valiantly defiantly softly happily quietly confidently silently eloquently loudly valiantly boldly bravely confidently smartly bravely smartly lazily valiantly bravely boldly peacefully boldly cleanly violently gently defiantly bravely brilliantly deftly bravely calmly calmly valiantly fluently calmly valiantly lazily safely boldly smoothly bravely valiantly boldly valiantly proudly violently peacefully."
-    },
-    "Zombie_Ape_Rotting_Tendrils": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Undead",
-            "Con",
-            "Toxic"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "con",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Resist_Poison"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully fiercely vibrantly wildly calmly solidly defiantly valiantly safely gracefully comfortably proudly vigorously casually proudly lazily humbly quietly lazily valiantly lazily softly excitedly fluently loudly gently brightly bravely cheerfully sweetly politely boldly safely bravely proudly furiously violently playfully loudly bravely peacefully eagerly smartly gently bravely defiantly boldly safely cleanly fluently safely defiantly fluently."
-    },
-    "Tarsier_Rapid_Striking_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Speed",
-            "Agility",
-            "Slashing"
-        ],
-        "traversal": [
-            "Climb"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "dex",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Fast_Hands",
-            "Bleed_Procc"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently calmly violently smartly calmly silently proudly brilliantly wildly casually brightly defiantly wisely valiantly confidently proudly competently lazily boldly valiantly smoothly proudly cleverly brilliantly gently smartly resolutely boldly lazily furiously defiantly humbly majestically gently valiantly gracefully safely loudly majestically gently wildly happily bravely smartly intelligently competently eagerly elegantly calmly resolutely safely wisely fluently defiantly vibrantly bravely happily proudly cleverly peacefully smartly cleanly defiantly gracefully lazily boldly prudently bravely smartly intelligently defiantly vigorously valiantly passionately calmly enthusiastically proudly defiantly bravely gracefully valiantly proudly valiantly playfully safely bravely intelligently."
-    },
-    "Orangutan_Long_Heavy_Tentacles": {
-        "tags": [
-            "Tentacles",
-            "Appendages",
-            "Primate",
-            "Wisdom",
-            "Strength",
-            "Reach",
-            "Heavy"
-        ],
-        "traversal": [
-            "Climb",
-            "Swing"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "reach",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Grapple",
-            "Athletics"
-        ],
-        "description": "Massively completely fiercely bravely bravely calmly defiantly vividly defiantly passionately wildly elegantly intelligently boldly safely passionately smartly gracefully patiently proudly fluently valiantly softly humbly fluently elegantly violently boldly intelligently competently loudly fluently boldly resolutely furiously boldly wildly majestically furiously wildly lazily eloquently majestically boldly smartly valiantly casually boldly boldly brilliantly gently confidently smartly majestically gracefully valiantly cleverly happily loudly lazily bravely cleverly quietly comfortably loudly quietly confidently lazily vibrantly defiantly wildly defiantly politely defiantly gently violently casually humbly fluently wildly smartly silently valiantly gracefully smoothly defiantly valiantly confidently deftly happily politely proudly valiantly valiantly gracefully."
-    }
+  "Spectral_Ape_Ghostly_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Magic",
+      "Reach",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Hover",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Detect_Magic",
+      "Touch_Attack"
+    ],
+    "description": "Emerging from the mist with a spectral glow, the Spectral Ape's ghostly tendrils stretch and twist with an otherworldly grace, granting it both a fearsome reach and an uncanny ability to detect and manipulate arcane energies."
+  },
+  "Chimpanzee_Nimble_Manipulator_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Dexterity",
+      "Agility",
+      "Reach"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Sleight_of_Hand"
+    ],
+    "description": "Emerging from the shadowy depths of the jungle, the Chimpanzee_Nimble_Manipulator_Tentacles is a horrifying yet mesmerizing blend of primate and tentacle, with elongated, dexterous appendages that grant unparalleled reach and agility, enabling it to swing through the dense canopy with preternatural ease and perform feats of sleight of hand that would make even the most cunning thief envious."
+  },
+  "Gorilla_Heavy_Slamming_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Heavy",
+      "Armor"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Sunder",
+      "Knockdown"
+    ],
+    "description": "Enveloped in a thick layer of chitin-like armor, the Gorilla_Heavy_Slamming_Tentacles are a cluster of robust, muscular appendages that pulsate with raw strength, capable of delivering devastating blows that can shatter bones and tear through armor with ease, complemented by the innate skill to sunder weapons and knock foes off their feet."
+  },
+  "Baboon_Muscular_Grasping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Strength",
+      "Agility",
+      "Grapple"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Athletics"
+    ],
+    "description": "Emerging from the shadowy recesses of the primordial forest, the Baboon_Muscular_Grasping_Tentacles is a bizarre mutation, its sinewy, prehensile tentacles intertwining with its primate limbs to enhance its strength and agility, allowing it to scale treacherous terrain and ensnare prey with alarming ease."
+  },
+  "Spider_Monkey_Long_Whipping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Agility",
+      "Reach",
+      "Speed"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Spider_Climb",
+      "Acrobatics"
+    ],
+    "description": "Equipped with sinuous, whip-like tentacles that extend far beyond the normal reach of a primate, the Spider_Monkey_Long_Whipping_Tentacles component enhances the agility and dexterity of its host, allowing them to swing and climb with unmatched speed and grace through the densest of canopies."
+  },
+  "Mandrill_Colorful_Display_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Charisma",
+      "Vibrant",
+      "Magic"
+    ],
+    "traversal": [
+      "None"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Intimidate"
+    ],
+    "description": "The Mandrill's vibrant, iridescent tentacles undulate with otherworldly magic, enhancing its charisma and ability to charm or intimidate, drawing all eyes to their mesmerizing display while granting the primate an aura of enchanting allure and subtle danger."
+  },
+  "Lemur_Striped_Sensory_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Perception",
+      "Agility",
+      "Climb"
+    ],
+    "traversal": [
+      "Climb",
+      "Leap"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Alert",
+      "Spider_Climb"
+    ],
+    "description": "The Striped Sensory Tentacles are thin, prehensile appendages that extend from the lemur\u2019s shoulders, enhancing its already keen perception and agility, allowing it to navigate treacherous terrain with unmatched grace and to leap with surprising precision."
+  },
+  "Zombie_Ape_Rotting_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Undead",
+      "Con",
+      "Toxic"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Resist_Poison"
+    ],
+    "description": "The Zombie_Ape_Rotting_Tendrils, a nightmarish amalgamation of rot and muscle, sprouts gnarled, blackened tentacles from its decaying limbs, each one capable of ensnaring prey with a sickening grip and dripping with a corrosive venom that turns the air toxic."
+  },
+  "Tarsier_Rapid_Striking_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Speed",
+      "Agility",
+      "Slashing"
+    ],
+    "traversal": [
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Fast_Hands",
+      "Bleed_Procc"
+    ],
+    "description": "The Tarsier_Rapid_Striking_Tentacles are slender, agile appendages that extend from the primate's body like supple whips, capable of striking with blinding speed and causing deep, bleeding wounds that keep opponents at bay."
+  },
+  "Orangutan_Long_Heavy_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Appendages",
+      "Primate",
+      "Wisdom",
+      "Strength",
+      "Reach",
+      "Heavy"
+    ],
+    "traversal": [
+      "Climb",
+      "Swing"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Athletics"
+    ],
+    "description": "The Orangutan Long Heavy Tentacles are a grotesque mutation, blending the wisdom and strength of a primate with serpentine appendages that grant unparalleled reach and crushing grip, allowing their wielder to swing through treacherous canopies and grapple foes with terrifying efficiency."
+  }
 }

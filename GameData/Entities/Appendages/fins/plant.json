@@ -1,305 +1,305 @@
 {
-    "Lotus_Leaf_Pectoral_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Agility",
-            "Vibrant"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly politely bravely gracefully cleverly valiantly powerfully gently vibrantly deftly bravely valiantly majestically proudly bravely intelligently valiantly violently playfully seamlessly safely safely calmly gently proudly valiantly gracefully vividly calmly smartly boldly vividly loudly calmly calmly proudly elegantly intelligently confidently defiantly angrily valiantly patiently cleanly peacefully smartly cheerfully peacefully valiantly boldly gently politely brightly wisely skillfully."
-    },
-    "Broad_Kelp_Frond_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Agility",
-            "Stealth"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "evasion",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Camouflage"
-        ],
-        "description": "Quietly cleanly explicitly magically gracefully playfully casually boldly wildly bravely confidently softly peacefully brilliantly valiantly defiantly valiantly calmly smartly eagerly confidently bravely smartly safely defiantly violently bravely valiantly majestically angrily silently deftly valiantly brilliantly confidently prudently wildly playfully securely bravely defiantly safely wisely defiantly fluently intelligently politely gracefully fluently fluently cleanly violently valiantly fluently passionately gracefully confidently smartly boldly valiantly deftly valiantly majestically powerfully gracefully valiantly brightly bravely bravely boldly fluently bravely defiantly powerfully smartly powerfully violently proudly politely violently proudly smartly fluently prudently safely safely bravely casually confidently majestically cleanly proudly calmly comfortably intelligently smoothly peacefully fluently proudly violently peacefully happily violently politely valiantly boldly smoothly politely cleanly."
-    },
-    "Thorny_Briar_Dorsal_Fin": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Armor",
-            "Slashing"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Bleed_Procc",
-            "Resist_Knockback"
-        ],
-        "description": "Roughly jaggedly solidly heavily cleverly powerfully valiantly defiantly passionately boldly bravely angrily violently cleanly gently brilliantly securely playfully valiantly brilliantly valiantly casually boldly boldly calmly defiantly calmly comfortably smoothly prudently valiantly cheerfully defiantly smartly vigorously proudly bravely violently smoothly safely bravely cleanly fluently safely defiantly calmly resolutely smartly efficiently confidently violently casually boldly bravely sensibly neatly competently violently defiantly smoothly valiantly cleverly valiantly gracefully valiantly bravely boldly valiantly cleverly confidently cheerfully resolutely cleanly neatly bravely resolutely violently gracefully gracefully intelligently quietly loudly valiantly proudly happily playfully comfortably prudently gracefully violently proudly bravely gracefully politely defiantly bravely confidently bravely defiantly violently politely valiantly bravely wildly."
-    },
-    "Bioluminescent_Fungal_Gill_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Magic",
-            "Perception"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "wis",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "perception",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Light",
-            "Detect_Magic"
-        ],
-        "description": "Magically seamlessly elegantly explicitly smoothly cleverly safely cleanly mildly bravely bravely politely angrily smoothly safely valiantly patiently competently calmly gracefully valiantly safely calmly playfully gently brilliantly calmly competently proudly violently smoothly valiantly valiantly deftly competently safely wildly bravely boldly loudly vibrantly securely defiantly smoothly competently bravely wildly cleverly happily violently valiantly valiantly valiantly violently defiantly skillfully warmly safely gracefully proudly smartly bravely fluently intelligently valiantly safely eloquently playfully intelligently boldly blindly warmly powerfully violently fluently gently quietly eagerly confidently politely valiantly proudly politely violently blindly fluently prudently fluently sensibly violently defiantly calmly gently humbly playfully fluently quietly vividly smartly deftly confidently violently valiantly majestically defiantly bravely fluently politely majestically valiantly cleverly brightly prudently happily boldly proudly smartly bravely cleanly bravely gracefully."
-    },
-    "Petrified_Wood_Heavy_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Armor",
-            "Heavy",
-            "Undead_Like"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "natural_armor",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "speed_bonus",
-                "op": "subtract",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Block",
-            "Resist_Knockback"
-        ],
-        "description": "Massively completely gracefully gracefully politely safely solidly heavily cleverly intelligently violently boldly majestically violently majestically smartly gracefully peacefully bravely valiantly excitedly defiantly vibrantly passionately majestically gracefully cleanly powerfully bravely boldly powerfully wildly boldly humbly resolutely valiantly valiantly valiantly boldly defiantly smartly smoothly softly smartly safely valiantly fluently bravely deftly quietly safely safely proudly angrily confidently violently boldly smartly warmly violently defiantly calmly warmly proudly intelligently valiantly fluently smartly elegantly wildly bravely calmly peacefully fluently loudly prudently powerfully valiantly confidently brightly smartly intelligently competently bravely smartly quietly boldly defiantly bravely violently safely politely bravely confidently bravely violently intelligently bravely softly confidently competently vividly competently proudly valiantly valiantly defiantly defiantly fluently resolutely quietly valiantly valiantly gracefully competently boldly calmly prudently bravely valiantly valiantly valiantly vibrantly bravely gracefully boldly solidly cleanly confidently wisely brightly gracefully fluently fluently smartly patiently bravely brilliantly fluently warmly comfortably intelligently vigorously intelligently gracefully smartly resolutely violently defiantly intelligently cleanly defiantly calmly bravely cleverly competently intelligently softly fluently expertly cleanly politely warmly."
-    },
-    "Carnivorous_Pitcher_Funnel_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Toxic",
-            "Speed"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Poison_Cloud",
-            "Swim_Dash"
-        ],
-        "description": "Technologically actively practically fluently warmly valiantly bravely violently cleanly smoothly safely bravely valiantly proudly arrogantly gracefully competently proudly valiantly passionately valiantly excitedly valiantly efficiently casually quietly boldly bravely resolutely brightly bravely politely valiantly passionately bravely violently bravely prudently valiantly safely eloquently violently defiantly vigorously bravely smoothly smartly happily valiantly defiantly valiantly fluently defiantly defiantly vibrantly boldly calmly violently defiantly bravely competently boldly valiantly cleanly bravely neatly cleanly bravely calmly angrily valiantly smoothly elegantly elegantly proudly eagerly prudently valiantly fluently calmly blindly majestically wildly happily gracefully gracefully violently defiantly valiantly enthusiastically loudly vibrantly resolutely smoothly expertly calmly violently competently prudently fluently enthusiastically loudly wisely gracefully defiantly politely violently deftly humbly bravely confidently proudly competently powerfully valiantly confidently gracefully safely cleanly bravely proudly smartly calmly prudently cleverly politely happily bravely passionately violently happily valiantly safely defiantly intelligently boldly peacefully politely casually majestically passionately bravely calmly violently powerfully expertly loudly wisely loudly competently politely."
-    },
-    "Spongy_Mossy_Pectoral_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Stealth",
-            "Con"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "stealth",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "con",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Camouflage",
-            "Dust_Cloud"
-        ],
-        "description": "Specifically deeply natively purely cleanly politely valiantly bravely loudly bravely competently politely competently valiantly calmly neatly confidently calmly safely patiently calmly violently proudly valiantly calmly warmly expertly humbly violently fluently defiantly bravely angrily politely valiantly valiantly gracefully wisely intelligently violently bravely bravely valiantly humbly calmly proudly eagerly cleanly fluently wildly resolutely smartly confidently politely valiantly confidently warmly peacefully peacefully playfully fluently fluently valiantly calmly loudly safely valiantly gracefully bravely prudently safely defiantly fluently safely smartly violently enthusiastically violently confidently bravely majestically gracefully elegantly confidently brightly valiantly elegantly peacefully gracefully happily gently intelligently valiantly safely playfully humbly passionately boldly fluently smartly violently bravely violently confidently intelligently valiantly valiantly smartly defiantly competently cleanly prudently safely smoothly warmly passionately fluently peacefully fluently safely peacefully proudly majestically intelligently safely wildly violently gracefully gently furiously blindly humbly brightly competently brightly happily casually cleanly politely gracefully brightly valiantly fluently neatly confidently."
-    },
-    "Pine_Needle_Gliding_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Agility",
-            "Speed"
-        ],
-        "traversal": [
-            "Swim",
-            "Glide"
-        ],
-        "mods": [
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 3
-            },
-            {
-                "target": "speed_bonus",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Aerobatics"
-        ],
-        "description": "Strictly sharply specifically bravely valiantly softly confidently valiantly safely valiantly bravely wildly valiantly violently competently competently humbly boldly cleverly majestically smoothly wildly politely angrily brightly calmly violently eloquently fluently neatly securely bravely violently bravely valiantly majestically valiantly sensibly calmly valiantly gracefully smartly valiantly stably valiantly wisely peacefully bravely politely loudly eloquently boldly quietly majestically bravely confidently gently gracefully enthusiastically brightly valiantly fluently valiantly enthusiastically defiantly elegantly bravely humbly violently fluently passionately majestically fluently."
-    },
-    "Woven_Vine_Webbed_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Strength",
-            "Agility"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "str",
-                "op": "add",
-                "val": 2
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 2
-            }
-        ],
-        "grants_skills": [
-            "Swim_Dash",
-            "Grapple"
-        ],
-        "description": "Successfully explicitly correctly gracefully practically violently wildly excitedly aggressively proudly smartly bravely vigorously patiently fluently calmly furiously boldly confidently defiantly smartly playfully bravely defiantly defiantly valiantly valiantly proudly valiantly competently fluently loudly prudently gracefully resolutely defiantly bravely confidently bravely safely bravely elegantly gently intelligently valiantly competently bravely warmly valiantly fluently politely majestically violently confidently playfully bravely cleverly safely loudly smartly boldly boldly confidently safely bravely passionately smoothly elegantly bravely casually calmly violently majestically passionately fluently smartly brightly solidly defiantly proudly valiantly smoothly valiantly happily happily prudently violently boldly vibrantly boldly prudently happily patiently sensibly violently defiantly calmly violently expertly boldly angrily defiantly defiantly fluently."
-    },
-    "Giant_Petal_Flowing_Fins": {
-        "tags": [
-            "Fins",
-            "Appendages",
-            "Plant",
-            "Swim",
-            "Charisma",
-            "Vibrant",
-            "Magic"
-        ],
-        "traversal": [
-            "Swim"
-        ],
-        "mods": [
-            {
-                "target": "cha",
-                "op": "add",
-                "val": 4
-            },
-            {
-                "target": "agility",
-                "op": "add",
-                "val": 1
-            }
-        ],
-        "grants_skills": [
-            "Charm",
-            "Aerobatics"
-        ],
-        "description": "Beautifully cleanly correctly vividly smoothly smartly explicitly defiantly fluently valiantly cleanly deftly silently defiantly valiantly valiantly gracefully elegantly competently cleanly bravely defiantly proudly wildly majestically proudly bravely intelligently smoothly valiantly peacefully valiantly passionately valiantly fluently proudly valiantly vibrantly bravely gracefully smartly politely valiantly bravely defiantly confidently quietly violently bravely valiantly confidently bravely wildly calmly fluently proudly arrogantly smoothly competently bravely boldly bravely cleanly gracefully cheerfully bravely warmly loudly politely gracefully wisely intelligently valiantly safely boldly violently valiantly gracefully expertly blindly bravely calmly patiently gracefully bravely violently calmly expertly proudly vibrantly intelligently valiantly intelligently politely warmly valiantly politely valiantly cleverly angrily cleanly wildly safely majestically calmly smartly angrily fluently boldly calmly valiantly valiantly violently efficiently smartly cleverly playfully smoothly resolutely warmly quietly calmly angrily quietly wisely brilliantly violently valiantly violently cleanly brightly safely cleanly."
-    }
+  "Lotus_Leaf_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Agility",
+      "Vibrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the depths of a mystical aquatic realm, the Lotus_Leaf_Pectoral_Fins are vibrant green appendages that shimmer with an ethereal glow, enhancing agility and charisma, granting the bearer unparalleled grace and the ability to perform aquatic acrobatics with mesmerizing ease."
+  },
+  "Broad_Kelp_Frond_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Agility",
+      "Stealth"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Camouflage"
+    ],
+    "description": "Glowing tendrils of kelp unfurl from the entity's limbs, each frond pulsating with a bioluminescent hue that grants it unparalleled agility and the ability to slip through the water with near-silent grace, making it a master of both evasion and stealth in the aquatic realm."
+  },
+  "Thorny_Briar_Dorsal_Fin": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Armor",
+      "Slashing"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Bleed_Procc",
+      "Resist_Knockback"
+    ],
+    "description": "The Thorny Briar Dorsal Fin is a formidable, thicket-like appendage that sprouts from the creature's back, interweaving rigid, razor-sharp thorns with supple, aquatic vines to enhance both its defensive natural armor and its strength, while granting it the ability to proactively induce bleeding in opponents and resist being knocked back into perilous underwater terrain."
+  },
+  "Bioluminescent_Fungal_Gill_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Magic",
+      "Perception"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "wis",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Light",
+      "Detect_Magic"
+    ],
+    "description": "Emerging from the shadowy depths of the fungal forest, these eerie, translucent gill-like fins pulse with an otherworldly glow, enhancing the creature's wisdom and perception as it glides silently through the water, its magic-infused appendages granting it the innate ability to cast light and detect hidden magical energies."
+  },
+  "Petrified_Wood_Heavy_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Armor",
+      "Heavy",
+      "Undead_Like"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Resist_Knockback"
+    ],
+    "description": "These heavy, petrified wood fins are both a blessing and a curse, offering formidable natural armor that protects against the harshest underwater battles while their cumbersome weight slows down swift movements, making them a hallmark of the undead-like entities that wield them with eerie grace."
+  },
+  "Carnivorous_Pitcher_Funnel_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Toxic",
+      "Speed"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Poison_Cloud",
+      "Swim_Dash"
+    ],
+    "description": "Emerging from the depths of aquatic vegetation, the Carnivorous Pitcher Funnel Fins are eerie, translucent appendages that pulse with toxic vitality, granting their host swift, agile movements through the water and the ability to unleash a choking poison cloud."
+  },
+  "Spongy_Mossy_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Stealth",
+      "Con"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Dust_Cloud"
+    ],
+    "description": "These fleshy, spongy appendages are covered in delicate, mossy tendrils that blend seamlessly with underwater vegetation, granting the user exceptional stealth capabilities. Their unique texture allows for silent movement through water, while also enhancing the body's overall resilience."
+  },
+  "Pine_Needle_Gliding_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Agility",
+      "Speed"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 3
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the gnarled branches of ancient evergreens, these ethereal fins are a rare mutation where nature and magic intertwine, granting the bearer unparalleled agility and speed as they slice through water and glide effortlessly through the air, leaving trails of shimmering pine needles in their wake."
+  },
+  "Woven_Vine_Webbed_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Strength",
+      "Agility"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "val": 2
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 2
+      }
+    ],
+    "grants_skills": [
+      "Swim_Dash",
+      "Grapple"
+    ],
+    "description": "Entangled in a network of supple, vine-like tendrils, the Woven Vine Webbed Fins are a marvel of nature's engineering, blending the sinewy strength of plant matter with the agility of aquatic predators, allowing for swift and powerful movements through the water."
+  },
+  "Giant_Petal_Flowing_Fins": {
+    "tags": [
+      "Fins",
+      "Appendages",
+      "Plant",
+      "Swim",
+      "Charisma",
+      "Vibrant",
+      "Magic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "val": 4
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "val": 1
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Aerobatics"
+    ],
+    "description": "Giant Petal Flowing Fins are mesmerizing, bioluminescent appendages that pulsate with vibrant colors, blending the ethereal grace of aquatic flora with the agility of a predator, enhancing the bearer\u2019s charisma and making them a formidable presence in both shallow reefs and deep abysses."
+  }
 }

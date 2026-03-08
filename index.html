@@ -1080,6 +1080,13 @@
             // Compact number formatter: K / M / B / T / Qa / Qi / Sx / Sp / Od / Nd
             const formatBigNumber = (n) => {
                 if (!isFinite(n) || isNaN(n)) return '∞';
+                // For any number too large to represent cleanly, use scientific notation
+                const toSci = (x) => {
+                    const exp = Math.floor(Math.log10(Math.abs(x)));
+                    const mantissa = x / Math.pow(10, exp);
+                    return parseFloat(mantissa.toPrecision(4)) + '\u00a0\u00d710\u207b\u207f'.replace('\u207b\u207f',
+                        String(exp).split('').map(d => '\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079'[+d]).join(''));
+                };
                 const tiers = [
                     [1e30, 'Nd'], [1e27, 'Od'], [1e24, 'Sp'], [1e21, 'Sx'],
                     [1e18, 'Qi'], [1e15, 'Qa'], [1e12, 'T'], [1e9, 'B'], [1e6, 'M'], [1e3, 'K']
@@ -1087,6 +1094,8 @@
                 for (const [val, suffix] of tiers) {
                     if (n >= val) {
                         const scaled = n / val;
+                        // If scaled is still huge, the number exceeds all named tiers — use sci notation
+                        if (scaled >= 1000) return toSci(n);
                         return parseFloat(scaled.toPrecision(4)).toLocaleString() + '\u00a0' + suffix;
                     }
                 }

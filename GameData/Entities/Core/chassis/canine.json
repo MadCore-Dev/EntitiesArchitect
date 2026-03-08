@@ -6,6 +6,20 @@
       "Endurance",
       "Canine"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk",
       "Sprint"
@@ -35,6 +49,20 @@
       "Canine",
       "Hyena_Like"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk"
     ],
@@ -63,6 +91,20 @@
       "Canine",
       "Maned_Wolf"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk",
       "Sprint"
@@ -92,6 +134,20 @@
       "Canine",
       "Mastiff"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk"
     ],
@@ -121,6 +177,20 @@
       "Canine",
       "Fox_Like"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk",
       "Burrow"
@@ -150,6 +220,20 @@
       "Canine",
       "Mutant"
     ],
+    "meat_group": [
+      "Ethereal"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk"
     ],
@@ -178,6 +262,20 @@
       "Cybernetic",
       "Canine"
     ],
+    "meat_group": [
+      "Ethereal"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk",
       "Sprint"
@@ -197,7 +295,7 @@
     "grants_skills": [
       "Overdrive"
     ],
-    "description": "Embedded within the creature\u2019s sinewy frame, the Cybernetic_Alloy_Wolf_Spine weaves a mesh of steel and sinew, augmenting its strength and resilience while granting it the ability to sprint through the battlefield with invincible ferocity, its very essence a blend of canine ferocity and mechanical might."
+    "description": "Embedded within the creature’s sinewy frame, the Cybernetic_Alloy_Wolf_Spine weaves a mesh of steel and sinew, augmenting its strength and resilience while granting it the ability to sprint through the battlefield with invincible ferocity, its very essence a blend of canine ferocity and mechanical might."
   },
   "Hydrodynamic_Sea_Dog_Body": {
     "tags": [
@@ -206,6 +304,22 @@
       "Aquatic",
       "Canine"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
     "traversal": [
       "Walk",
       "Swim"
@@ -235,6 +349,20 @@
       "Canine",
       "Dhole"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk",
       "Climb"
@@ -264,6 +392,20 @@
       "Canine",
       "Mutant"
     ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
     "traversal": [
       "Walk"
     ],

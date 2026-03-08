@@ -83,8 +83,8 @@
         const isLanIP = /^(192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[0-1])\.)/.test(window.location.hostname);
         const IS_LOCAL = window.isSecureContext || window.location.protocol === "file:" || window.location.hostname.includes("webview") || isLanIP;
 
-        // Output image dimensions (512x512 is the standard native resolution for SD1.5 pixel art)
-        const IMG_WIDTH = 512;
+        // Output image dimensions — 768x512 gives a good landscape portrait for full-body creature concept art
+        const IMG_WIDTH = 768;
         const IMG_HEIGHT = 512;
 
         // ==========================================
@@ -465,83 +465,136 @@
 
             // Build an image gen prompt from entity data
             const buildPrompt = (e) => {
-                const prefix = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
-                const chassis = e.traits[0].replace(/_/g, ' ');
-                const tags = e.traits.slice(1).filter(t => !GAME_DATA.prefixes[t] && !t.startsWith('Resist:')).join(', ');
-                const parts = e.parts.join(', ');
-                const skillDescs = e.skills.map(s => {
-                    const def = GAME_DATA.skills[s];
-                    if (def && def.description && def.description !== 'No description') return def.description;
-                    return s;
-                }).join('; ');
+                const desc = e.partDescriptions || {};
+                const slotMap = e.slotMap || {};
 
-                // --- Anatomy detail block (from newly picked body parts) ---
-                const anatomyDetails = [];
-                const anat = e.anatomy || {};
-                if (anat.eyes) anatomyDetails.push(`eyes: ${anat.eyes.replace(/_/g, ' ')}`);
-                if (anat.maw) anatomyDetails.push(`mouth: ${anat.maw.replace(/_/g, ' ')}`);
-                if (anat.ears) anatomyDetails.push(`ears: ${anat.ears.replace(/_/g, ' ')}`);
-                if (anat.nose) anatomyDetails.push(`nose: ${anat.nose.replace(/_/g, ' ')}`);
-                // Limbs & locomotion
-                const limbs = [anat.legs, anat.arms, anat.wings, anat.fins, anat.tails, anat.tentacles]
-                    .filter(Boolean).map(k => k.replace(/_/g, ' '));
-                if (limbs.length) anatomyDetails.push(`limbs: ${limbs.join(', ')}`);
-                const anatomyDesc = anatomyDetails.length > 0 ? ` Detailed anatomy — ${anatomyDetails.join('; ')}.` : '';
+                // Helpers
+                const slotKey = (v) => (v && typeof v === 'object' ? v.key : (v || '')).replace(/_/g, ' ');
+                const slotDesc = (v) => (v && typeof v === 'object' ? v.description : '');
+                const filledSlots = Object.entries(slotMap).filter(([, v]) => v !== null && v !== undefined);
+                const slotsOf = (pfx) => filledSlots.filter(([s]) => s.startsWith(pfx));
 
-                // --- Appearance block (color + pattern) ---
-                const appearanceParts = [];
-                if (e.variations && e.variations.pigmentation) {
-                    const pigDef = GAME_DATA.variations.appearances.pigmentation[e.variations.pigmentation];
-                    const pigDesc = pigDef && pigDef.flavor ? pigDef.flavor : e.variations.pigmentation.replace(/_/g, ' ');
-                    appearanceParts.push(pigDesc);
-                }
-                if (e.variations && e.variations.pattern && e.variations.pattern !== 'None') {
-                    appearanceParts.push(`${e.variations.pattern} patterned`);
-                }
-                const appearanceDesc = appearanceParts.length > 0 ? ` Appearance: ${appearanceParts.join(', ')}.` : '';
+                // --- Identity ---
+                const prefixTrait = e.traits.find(t => GAME_DATA.prefixes[t]) || '';
+                const chassisName = (e.traits[0] || '').replace(/_/g, ' ');
+                const fullName = prefixTrait ? `${prefixTrait.replace(/_/g, ' ')} ${chassisName}` : chassisName;
 
-                // --- Sensory profile (eye/ear size cues from stats) ---
+                // --- Size & toughness ---
                 const getStat = (id) => e.stats[id] ? Math.floor(e.stats[id].getCurrentValue()) : 0;
-                const sensorParts = [];
-                // Only add sensory cues if anatomy didn't already specify the part
-                if (!anat.eyes) {
-                    const visionRange = getStat('vision_range');
-                    if (visionRange > 40) sensorParts.push('sharp raptor-like eyes');
-                    else if (visionRange < 15) sensorParts.push('small beady eyes or sealed eye sockets');
-                }
-                if (!anat.ears) {
-                    const hearingRange = getStat('hearing_range');
-                    if (hearingRange > 25) sensorParts.push('large prominent ears');
-                }
-                if (!anat.nose) {
-                    const scentRange = getStat('scent_range');
-                    if (scentRange > 15) sensorParts.push('pronounced snout or flared nostrils');
-                }
-                const evasion = getStat('evasion');
-                if (evasion > 3) sensorParts.push('lean agile build');
-                const sensorDesc = sensorParts.length > 0 ? ` Physical features: ${sensorParts.join(', ')}.` : '';
-
-                // --- Combat profile (size and toughness) ---
                 const sizeIndex = getStat('size_index');
-                const sizeLabel = ['', 'Tiny', 'Small', 'Medium', 'Large', 'Gargantuan'][Math.min(sizeIndex, 5)] || 'Medium';
+                const sizeLabel = ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan'][Math.min(Math.max(sizeIndex - 1, 0), 5)] || 'Medium';
                 const hp = e.stats.hp_max ? Math.floor(e.stats.hp_max.maxValue) : 0;
-                const toughness = hp > 80 ? 'heavily armoured' : hp > 40 ? 'moderately built' : 'lightly framed';
+                const toughness = hp > 80 ? 'heavily armoured and massively built'
+                    : hp > 40 ? 'moderately built with solid musculature'
+                        : 'lightly framed and lean';
 
-                // --- Action pose — pick a random attack/ranged skill and use its description ---
+                // --- Combat pose ---
                 const attackSkillNames = e.skills.filter(s => {
                     const def = GAME_DATA.skills[s];
-                    return def && def.types && (def.types.includes('Melee_Attack') || def.types.includes('Ranged_Attack'));
+                    return def?.types && (def.types.includes('Melee_Attack') || def.types.includes('Ranged_Attack'));
                 });
                 const poseSkillName = attackSkillNames.length > 0
-                    ? attackSkillNames[Math.floor(Math.random() * attackSkillNames.length)]
-                    : null;
+                    ? attackSkillNames[Math.floor(Math.random() * attackSkillNames.length)] : null;
                 const poseSkillDef = poseSkillName ? GAME_DATA.skills[poseSkillName] : null;
-                const poseAction = poseSkillDef && poseSkillDef.description && poseSkillDef.description !== 'No description'
-                    ? `${poseSkillDef.description} (executing: ${poseSkillName})`
-                    : 'powerful attack, mid-strike pose, full commitment, dynamic motion blur';
+                const poseAction = (poseSkillDef?.description && poseSkillDef.description !== 'No description')
+                    ? poseSkillDef.description : 'powerful combat stance, ready to strike';
 
-                // Adjusted for 64x64 pixel art
-                return `Retro 16-bit RPG pixel art sprite, ${poseAction}, showing entire body from head to feet: ${prefix ? prefix + ' ' : ''}${chassis}. Size: ${sizeLabel}, ${toughness}. Anatomy: ${parts}.${anatomyDesc}${appearanceDesc}${sensorDesc} Traits: ${tags}. Abilities: ${skillDescs}. Style: high-quality pixel art sprite, clear silhouette, flat colors, transparent background, isolated, perfectly centered.`.trim();
+                // --- Appearance ---
+                const pigDef = e.variations?.pigmentation
+                    ? GAME_DATA.variations.appearances.pigmentation[e.variations.pigmentation] : null;
+                const pigFlavor = pigDef?.flavor || (e.variations?.pigmentation
+                    ? e.variations.pigmentation.replace(/_/g, ' ') : '');
+                const patternStr = (e.variations?.pattern && e.variations.pattern !== 'None')
+                    ? `${e.variations.pattern.replace(/_/g, ' ')} pattern` : '';
+                const colorStr = [pigFlavor, patternStr].filter(Boolean).join(', ');
+
+                // --- Trait flavour ---
+                const traitFlavour = e.traits.slice(1)
+                    .filter(t => !GAME_DATA.prefixes[t] && !t.startsWith('Resist:')
+                        && !['Chassis', 'Core', 'Canine', 'Avian', 'Feline', 'Ursine', 'Saurian',
+                            'Primate', 'Insect', 'Arachnid', 'Piscine', 'Amphibian', 'Ungulate',
+                            'Fungal', 'Plant', 'Construct', 'Geological'].includes(t))
+                    .map(t => t.replace(/_/g, ' ')).join(', ');
+
+                // ─── Assemble ────────────────────────────────────────────
+                const lines = [];
+
+                // Identity
+                lines.push(`A ${sizeLabel} creature: ${fullName}.`);
+                if (desc.chassis) lines.push(`Body: ${desc.chassis}`);
+                if (desc.integument) lines.push(`Skin and covering: ${desc.integument}`);
+                if (colorStr) lines.push(`Colouring: ${colorStr}.`);
+                lines.push(`Build: ${toughness}.`);
+
+                // ── EXACT ANATOMY — per-slot, every part with its full description ──
+                lines.push(`EXACT ANATOMY — do not add, remove, or change the count of any body part:`);
+
+                // Head
+                const craniumKey = e.parts.find(p => GAME_DATA.bodies.cephalon.cranium[p]);
+                lines.push(`HEAD (exactly 1 head):`);
+                if (desc.cranium) lines.push(`  Skull — ${(craniumKey || '').replace(/_/g, ' ')}: ${desc.cranium}`);
+
+                // Eyes — each slot on its own line with its specific full description
+                const eyeSlots = slotsOf('eye_');
+                if (eyeSlots.length > 0) {
+                    lines.push(`  Eyes (exactly ${eyeSlots.length}):`);
+                    eyeSlots.forEach(([slotName, v]) => {
+                        lines.push(`    ${slotName.replace(/_/g, ' ')}: ${slotKey(v)}`);
+                        if (slotDesc(v)) lines.push(`      -> ${slotDesc(v)}`);
+                    });
+                }
+
+                // Ears — each slot on its own line
+                const earSlots = slotsOf('ear_');
+                if (earSlots.length > 0) {
+                    lines.push(`  Ears (exactly ${earSlots.length}):`);
+                    earSlots.forEach(([slotName, v]) => {
+                        lines.push(`    ${slotName.replace(/_/g, ' ')}: ${slotKey(v)}`);
+                        if (slotDesc(v)) lines.push(`      -> ${slotDesc(v)}`);
+                    });
+                }
+
+                // Mouth — each slot on its own line
+                const mawSlots = slotsOf('maw_');
+                if (mawSlots.length > 0) {
+                    lines.push(`  Mouth (exactly ${mawSlots.length}):`);
+                    mawSlots.forEach(([slotName, v]) => {
+                        lines.push(`    ${slotName.replace(/_/g, ' ')}: ${slotKey(v)}`);
+                        if (slotDesc(v)) lines.push(`      -> ${slotDesc(v)}`);
+                    });
+                }
+
+                // Nose
+                const noseSlots = slotsOf('nose_');
+                if (noseSlots.length > 0) {
+                    lines.push(`  Nose (exactly ${noseSlots.length}):`);
+                    noseSlots.forEach(([slotName, v]) => {
+                        lines.push(`    ${slotName.replace(/_/g, ' ')}: ${slotKey(v)}`);
+                        if (slotDesc(v)) lines.push(`      -> ${slotDesc(v)}`);
+                    });
+                }
+
+                // Limbs — every individual slot with full description
+                const limbPrefixes = ['leg_', 'arm_', 'wing_', 'fin_', 'tail_', 'tentacle_'];
+                const limbSlots = filledSlots.filter(([s]) => limbPrefixes.some(p => s.startsWith(p)));
+                if (limbSlots.length > 0) {
+                    lines.push(`LIMBS (exactly ${limbSlots.length} appendages total):`);
+                    limbSlots.forEach(([slotName, v]) => {
+                        lines.push(`  ${slotName.replace(/_/g, ' ')}: ${slotKey(v)}`);
+                        if (slotDesc(v)) lines.push(`    -> ${slotDesc(v)}`);
+                    });
+                }
+
+                // Pose
+                lines.push(`Pose and action: ${poseAction}.`);
+
+                // Traits
+                if (traitFlavour) lines.push(`Traits and temperament: ${traitFlavour}.`);
+
+                // Style
+                lines.push(`Style: full body creature concept art, highly detailed, anatomically precise, fantasy RPG illustration, isolated subject on plain dark background, centered composition, professional quality.`);
+
+                return lines.join('\n');
             };
 
             const generatePortrait = async () => {
@@ -735,42 +788,91 @@
                                             <Anchor size={ 18 } /> Anatomy &amp; Abilities
                                         </h3>
 
-                                        { /* --- Anatomy parts grouped by category --- */ }
+                                        { /* --- Anatomy parts per slot --- */ }
                                         { (() => {
-                                            const anat = entity.anatomy || {};
-                                            const headParts = [anat.eyes, anat.ears, anat.maw, anat.nose, entity.parts.find(p => p.includes('Cranium') || p.includes('cranium'))].filter(Boolean);
-                                            const bodyParts = entity.parts.filter(p => !Object.values(anat).includes(p) && !p.includes('Cranium') && !p.includes('cranium'));
-                                            const limbParts = [anat.legs, anat.hind_legs, anat.arms, anat.wings, anat.fins, anat.tails, anat.tentacles].filter(Boolean);
+                                            const slotMap = entity.slotMap || {};
+                                            const filledSlots = Object.entries(slotMap).filter(([, v]) => v !== null && v !== undefined);
+                                            const slotLabel = (name) => name.replace(/_/g, ' ');
+                                            const partName = (v) => (v && typeof v === 'object' ? v.key : (v || '')).replace(/_/g, ' ');
 
-                                            const PartBadge = ({ label }) => (
-                                                <span className="bg-neutral-800 border border-neutral-600 text-neutral-200 px-2 py-1 rounded text-xs">
-                                                    { label.replace(/_/g, ' ') }
+                                            // Group slots into visual categories
+                                            const headPrefixes = ['eye_', 'ear_', 'maw_', 'nose_'];
+                                            const limbPrefixes = ['leg_', 'arm_', 'wing_', 'fin_', 'tail_', 'tentacle_'];
+
+                                            const headSlots = filledSlots.filter(([s]) => headPrefixes.some(p => s.startsWith(p)));
+                                            const limbSlots = filledSlots.filter(([s]) => limbPrefixes.some(p => s.startsWith(p)));
+
+                                            // Body = skull + integument from entity.parts
+                                            const craniumKey = entity.parts.find(p => GAME_DATA.bodies.cephalon.cranium[p]);
+                                            const integumentKey = entity.parts.find(p => GAME_DATA.bodies.core.integument[p]);
+
+                                            // Color coding per slot prefix
+                                            const slotColor = (s) => {
+                                                if (s.startsWith('eye_')) return 'bg-sky-900/50 border-sky-700 text-sky-200';
+                                                if (s.startsWith('ear_')) return 'bg-violet-900/50 border-violet-700 text-violet-200';
+                                                if (s.startsWith('maw_')) return 'bg-red-900/50 border-red-700 text-red-200';
+                                                if (s.startsWith('nose_')) return 'bg-teal-900/50 border-teal-700 text-teal-200';
+                                                if (s.startsWith('leg_')) return 'bg-amber-900/50 border-amber-700 text-amber-200';
+                                                if (s.startsWith('arm_')) return 'bg-orange-900/50 border-orange-700 text-orange-200';
+                                                if (s.startsWith('wing_')) return 'bg-blue-900/50 border-blue-700 text-blue-200';
+                                                if (s.startsWith('fin_')) return 'bg-cyan-900/50 border-cyan-700 text-cyan-200';
+                                                if (s.startsWith('tail_')) return 'bg-purple-900/50 border-purple-700 text-purple-200';
+                                                if (s.startsWith('tentacle_')) return 'bg-green-900/50 border-green-700 text-green-200';
+                                                return 'bg-neutral-800 border-neutral-600 text-neutral-300';
+                                            };
+
+                                            const SlotPill = ({ slotName, v }) => (
+                                                <span
+                                                    title={ v && typeof v === 'object' && v.description ? v.description : partName(v) }
+                                                    className={ `border px-2 py-1 rounded text-xs cursor-help flex flex-col gap-0 ${slotColor(slotName)}` }
+                                                >
+                                                    <span className="opacity-60 text-[10px] leading-tight">{ slotLabel(slotName) }</span>
+                                                    <span className="font-medium leading-tight">{ partName(v) }</span>
                                                 </span>
                                             );
 
                                             return (
                                                 <div className="space-y-2 mb-4">
-                                                    { headParts.length > 0 && (
+                                                    { /* Body: skull + integument */ }
+                                                    <div>
+                                                        <div className="text-xs text-purple-500 uppercase font-bold tracking-wider mb-1">Body</div>
+                                                        <div className="flex flex-wrap gap-1">
+                                                            { craniumKey && (
+                                                                <span className="bg-neutral-800 border border-neutral-600 text-neutral-200 px-2 py-1 rounded text-xs flex flex-col gap-0">
+                                                                    <span className="opacity-60 text-[10px] leading-tight">skull</span>
+                                                                    <span className="font-medium leading-tight">{ craniumKey.replace(/_/g, ' ') }</span>
+                                                                </span>
+                                                            ) }
+                                                            { integumentKey && (
+                                                                <span className="bg-neutral-800 border border-neutral-600 text-neutral-200 px-2 py-1 rounded text-xs flex flex-col gap-0">
+                                                                    <span className="opacity-60 text-[10px] leading-tight">skin</span>
+                                                                    <span className="font-medium leading-tight">{ integumentKey.replace(/_/g, ' ') }</span>
+                                                                </span>
+                                                            ) }
+                                                        </div>
+                                                    </div>
+
+                                                    { headSlots.length > 0 && (
                                                         <div>
                                                             <div className="text-xs text-purple-500 uppercase font-bold tracking-wider mb-1">Head</div>
-                                                            <div className="flex flex-wrap gap-1">{ headParts.map((p, i) => <PartBadge key={ i } label={ p } />) }</div>
+                                                            <div className="flex flex-wrap gap-1">
+                                                                { headSlots.map(([slotName, v]) => <SlotPill key={ slotName } slotName={ slotName } v={ v } />) }
+                                                            </div>
                                                         </div>
                                                     ) }
-                                                    { bodyParts.length > 0 && (
+
+                                                    { limbSlots.length > 0 && (
                                                         <div>
-                                                            <div className="text-xs text-purple-500 uppercase font-bold tracking-wider mb-1">Body</div>
-                                                            <div className="flex flex-wrap gap-1">{ bodyParts.map((p, i) => <PartBadge key={ i } label={ p } />) }</div>
-                                                        </div>
-                                                    ) }
-                                                    { limbParts.length > 0 && (
-                                                        <div>
-                                                            <div className="text-xs text-purple-500 uppercase font-bold tracking-wider mb-1">Limbs</div>
-                                                            <div className="flex flex-wrap gap-1">{ limbParts.map((p, i) => <PartBadge key={ i } label={ p } />) }</div>
+                                                            <div className="text-xs text-purple-500 uppercase font-bold tracking-wider mb-1">Limbs ({ limbSlots.length })</div>
+                                                            <div className="flex flex-wrap gap-1">
+                                                                { limbSlots.map(([slotName, v]) => <SlotPill key={ slotName } slotName={ slotName } v={ v } />) }
+                                                            </div>
                                                         </div>
                                                     ) }
                                                 </div>
                                             );
                                         })() }
+
 
                                         { /* --- Abilities color-coded by type --- */ }
                                         <div>
@@ -1543,8 +1645,11 @@
                 if (chassis.mods) chassis.mods.forEach(m => e.applyMod(m.target, m.op, m.val, chassis.key));
             }
 
-            const slots = (chassis && chassis.slots) ? chassis.slots : [];
-            e.anatomy = {}; // Store picked anatomy keys for prompt building
+            const slots = (chassis && chassis.slots) ? chassis.slots : {};
+            e.anatomy = {};          // Store picked anatomy keys for prompt building
+            e.slotMap = {};          // Raw slot name → picked part key (preserves exact counts)
+            e.partDescriptions = {}; // role → description text
+            if (chassis) e.partDescriptions.chassis = chassis.description || '';
 
             // --- Generate a clean display name from chassis visual tag ---
             const chassisTags = (chassis && chassis.tags) ? chassis.tags : [];
@@ -1554,8 +1659,8 @@
                 : (chassis ? chassis.key.replace('_Frame', '').replace(/_/g, ' ') : 'Unknown');
             e.name = `${speciesName} [#${uid}]`;
 
-            // 2. Head cephalon parts (only if chassis has a Head slot)
-            const hasHead = slots.some(s => s === 'Head' || s === 'Cephalothorax');
+            // 2. Head cephalon parts (only if chassis has a 'head' slot)
+            const hasHead = Object.values(slots).some(v => v === 'Cephalon/cranium' || v === 'Cephalon/cephalothorax');
             if (hasHead) {
                 // Cranium
                 const cranium = pickFiltered(GAME_DATA.bodies.cephalon.cranium, (item) =>
@@ -1564,46 +1669,87 @@
                 if (cranium) {
                     e.parts.push(cranium.key);
                     applyPart(cranium, cranium.key);
+                    e.partDescriptions.cranium = cranium.description || '';
+                    // Pre-register all cranium sub-slots (eye_left, eye_right, ear_*, maw_*, nose_*)
+                    if (cranium.slots) {
+                        Object.entries(cranium.slots).forEach(([sName]) => { e.slotMap[sName] = null; });
+                    }
                 }
 
-                // Eyes
-                const eyes = pickFiltered(GAME_DATA.bodies.cephalon.eyes, (item) =>
-                    item.tags && item.tags.some(t => e.traits.includes(t))
-                ) || pick(GAME_DATA.bodies.cephalon.eyes);
-                if (eyes) {
-                    e.parts.push(eyes.key);
-                    e.anatomy.eyes = eyes.key;
-                    applyPart(eyes, eyes.key);
-                }
+                // Eyes — pick INDEPENDENTLY per slot (allows e.g. eye_left ≠ eye_right)
+                const eyeSlotNames = Object.keys(e.slotMap).filter(s => s.startsWith('eye_'));
+                if (eyeSlotNames.length === 0) eyeSlotNames.push('eye_primary'); // fallback
+                let firstEyePart = null;
+                eyeSlotNames.forEach(slotName => {
+                    const eyePart = pickFiltered(GAME_DATA.bodies.cephalon.eyes, (item) =>
+                        item.tags && item.tags.some(t => e.traits.includes(t))
+                    ) || pick(GAME_DATA.bodies.cephalon.eyes);
+                    if (eyePart) {
+                        e.slotMap[slotName] = { key: eyePart.key, description: eyePart.description || '' };
+                        if (!firstEyePart) {
+                            // Apply stats + register anatomy only for first eye
+                            firstEyePart = eyePart;
+                            e.parts.push(eyePart.key);
+                            e.anatomy.eyes = eyePart.key;
+                            applyPart(eyePart, eyePart.key);
+                            e.partDescriptions.eyes = eyePart.description || '';
+                        }
+                    }
+                });
 
-                // Ears
-                const ears = pickFiltered(GAME_DATA.bodies.cephalon.ears, (item) =>
-                    item.tags && item.tags.some(t => e.traits.includes(t))
-                ) || pick(GAME_DATA.bodies.cephalon.ears);
-                if (ears) {
-                    e.parts.push(ears.key);
-                    e.anatomy.ears = ears.key;
-                    applyPart(ears, ears.key);
-                }
+                // Ears — pick INDEPENDENTLY per slot
+                const earSlotNames = Object.keys(e.slotMap).filter(s => s.startsWith('ear_'));
+                if (earSlotNames.length === 0) earSlotNames.push('ear_primary');
+                let firstEarPart = null;
+                earSlotNames.forEach(slotName => {
+                    const earPart = pickFiltered(GAME_DATA.bodies.cephalon.ears, (item) =>
+                        item.tags && item.tags.some(t => e.traits.includes(t))
+                    ) || pick(GAME_DATA.bodies.cephalon.ears);
+                    if (earPart) {
+                        e.slotMap[slotName] = { key: earPart.key, description: earPart.description || '' };
+                        if (!firstEarPart) {
+                            firstEarPart = earPart;
+                            e.parts.push(earPart.key);
+                            e.anatomy.ears = earPart.key;
+                            applyPart(earPart, earPart.key);
+                            e.partDescriptions.ears = earPart.description || '';
+                        }
+                    }
+                });
 
-                // Maw
-                const maw = pickFiltered(GAME_DATA.bodies.cephalon.maw, (item) =>
+                // Maw — single slot, but still store as object for consistency
+                const mawPart = pickFiltered(GAME_DATA.bodies.cephalon.maw, (item) =>
                     item.tags && item.tags.some(t => e.traits.includes(t))
                 ) || pick(GAME_DATA.bodies.cephalon.maw);
-                if (maw) {
-                    e.parts.push(maw.key);
-                    e.anatomy.maw = maw.key;
-                    applyPart(maw, maw.key);
+                if (mawPart) {
+                    e.parts.push(mawPart.key);
+                    e.anatomy.maw = mawPart.key;
+                    applyPart(mawPart, mawPart.key);
+                    e.partDescriptions.maw = mawPart.description || '';
+                    Object.keys(e.slotMap).filter(s => s.startsWith('maw_')).forEach(s => {
+                        e.slotMap[s] = { key: mawPart.key, description: mawPart.description || '' };
+                    });
+                    // fallback if no maw slot was pre-registered
+                    if (!Object.keys(e.slotMap).some(s => s.startsWith('maw_'))) {
+                        e.slotMap['maw_primary'] = { key: mawPart.key, description: mawPart.description || '' };
+                    }
                 }
 
-                // Nose
-                const nose = pickFiltered(GAME_DATA.bodies.cephalon.nose, (item) =>
+                // Nose — single slot, store as object
+                const nosePart = pickFiltered(GAME_DATA.bodies.cephalon.nose, (item) =>
                     item.tags && item.tags.some(t => e.traits.includes(t))
                 ) || pick(GAME_DATA.bodies.cephalon.nose);
-                if (nose) {
-                    e.parts.push(nose.key);
-                    e.anatomy.nose = nose.key;
-                    applyPart(nose, nose.key);
+                if (nosePart) {
+                    e.parts.push(nosePart.key);
+                    e.anatomy.nose = nosePart.key;
+                    applyPart(nosePart, nosePart.key);
+                    e.partDescriptions.nose = nosePart.description || '';
+                    Object.keys(e.slotMap).filter(s => s.startsWith('nose_')).forEach(s => {
+                        e.slotMap[s] = { key: nosePart.key, description: nosePart.description || '' };
+                    });
+                    if (!Object.keys(e.slotMap).some(s => s.startsWith('nose_'))) {
+                        e.slotMap['nose_primary'] = { key: nosePart.key, description: nosePart.description || '' };
+                    }
                 }
             }
 
@@ -1614,10 +1760,21 @@
             if (integument) {
                 e.parts.push(integument.key);
                 if (integument.mods) integument.mods.forEach(m => e.applyMod(m.target, m.op, m.val, integument.key));
+                e.partDescriptions.integument = integument.description || '';
             }
 
             // 4. Appendages — chosen by slot type
-            const slotToData = {
+            // Slot name prefix → data bucket mapping (matches chassis JSON slot naming conventions)
+            const slotPrefixToData = [
+                { prefix: 'leg_', pool: GAME_DATA.bodies.appendages.legs, key: 'legs' },
+                { prefix: 'arm_', pool: GAME_DATA.bodies.appendages.arms, key: 'arms' },
+                { prefix: 'wing_', pool: GAME_DATA.bodies.appendages.wings, key: 'wings' },
+                { prefix: 'fin_', pool: GAME_DATA.bodies.appendages.fins, key: 'fins' },
+                { prefix: 'tail_', pool: GAME_DATA.bodies.appendages.tails, key: 'tails' },
+                { prefix: 'tentacle_', pool: GAME_DATA.bodies.appendages.tentacles, key: 'tentacles' },
+            ];
+            // Also support the old array-style slots (legacy fallback) with type keys
+            const legacySlotToData = {
                 'Arms': { pool: GAME_DATA.bodies.appendages.arms, key: 'arms' },
                 'Legs': { pool: GAME_DATA.bodies.appendages.legs, key: 'legs' },
                 'Fore_Limbs': { pool: GAME_DATA.bodies.appendages.legs, key: 'legs' },
@@ -1629,22 +1786,45 @@
                 'Legs_x6': { pool: GAME_DATA.bodies.appendages.legs, key: 'legs' },
                 'Legs_x8': { pool: GAME_DATA.bodies.appendages.legs, key: 'legs' },
             };
-            const seenAppendageKeys = new Set();
-            slots.forEach(slot => {
-                const mapping = slotToData[slot];
-                if (!mapping || seenAppendageKeys.has(mapping.key)) return;
-                seenAppendageKeys.add(mapping.key);
-                const part = pickFiltered(mapping.pool, (item) =>
+
+            const pickedAppendageByType = {}; // typeKey → first picked part (for stat application)
+
+            // Pick independently per slot; apply stats only once per type.
+            const pickForSlot = (pool, typeKey, slotName) => {
+                // Per-slot pick (allows variation between slots of the same type)
+                const part = pickFiltered(pool, (item) =>
                     item.tags && item.tags.some(t => e.traits.includes(t))
-                ) || pick(mapping.pool);
+                ) || pick(pool);
                 if (part) {
-                    e.parts.push(part.key);
-                    e.anatomy[mapping.key] = part.key;
-                    applyPart(part, part.key);
-                    // Add traversal tags to traits for sensory cross-reference
-                    if (part.traversal) e.traits.push(...part.traversal);
+                    // Store full {key, description} per slot
+                    e.slotMap[slotName] = { key: part.key, description: part.description || '' };
+                    // Stats + anatomy registered only on first encounter of this type
+                    if (!pickedAppendageByType[typeKey]) {
+                        pickedAppendageByType[typeKey] = part;
+                        e.parts.push(part.key);
+                        e.anatomy[typeKey] = part.key;
+                        e.partDescriptions[typeKey] = part.description || '';
+                        applyPart(part, part.key);
+                        if (part.traversal) e.traits.push(...part.traversal);
+                    }
                 }
-            });
+            };
+
+            if (Array.isArray(slots)) {
+                // Legacy array-style slots
+                slots.forEach(slot => {
+                    const mapping = legacySlotToData[slot];
+                    if (!mapping) return;
+                    pickForSlot(mapping.pool, mapping.key, slot);
+                });
+            } else {
+                // Named-object slots (current format: { leg_fore_left: 'Appendages/legs', ... })
+                Object.entries(slots).forEach(([slotName, slotPath]) => {
+                    const match = slotPrefixToData.find(({ prefix }) => slotName.startsWith(prefix));
+                    if (!match) return;
+                    pickForSlot(match.pool, match.key, slotName);
+                });
+            }
 
             // 5. Variations
             e.variations = {};

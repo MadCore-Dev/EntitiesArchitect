@@ -892,17 +892,17 @@
 
             const sections = useMemo(() => [
                 {
-                    title: "1. Main Body",
+                    title: "1. Main Body (slot-computed)",
                     groups: [
-                        { name: "Core", paths: { chassis: "bodies.core.chassis", integument: "bodies.core.integument" } },
+                        { name: "Core", paths: { chassis: "bodies.core.chassis" } },
                         { name: "Cephalon", paths: { cranium: "bodies.cephalon.cranium", ears: "bodies.cephalon.ears", eyes: "bodies.cephalon.eyes", maw: "bodies.cephalon.maw", nose: "bodies.cephalon.nose" } },
                         { name: "Appendages", paths: { arms: "bodies.appendages.arms", fins: "bodies.appendages.fins", legs: "bodies.appendages.legs", tails: "bodies.appendages.tails", tentacles: "bodies.appendages.tentacles", wings: "bodies.appendages.wings" } }
                     ]
                 },
                 {
-                    title: "2. Variations",
+                    title: "2. Variations (flavour multipliers)",
                     groups: [
-                        { name: "Appearances", paths: { patterns: "variations.appearances.patterns", pigmentation: "variations.appearances.pigmentation" } },
+                        { name: "Skin & Colour", paths: { integument: "bodies.core.integument", patterns: "variations.appearances.patterns", pigmentation: "variations.appearances.pigmentation" } },
                         { name: "Environment & Upgrades", paths: { biomes: "variations.biomes", "bio upgrades": "variations.biological_upgrades", sizes: "variations.size_indices" } }
                     ]
                 }
@@ -940,31 +940,69 @@
 
             const togglePath = (path) => setToggles(prev => ({ ...prev, [path]: !prev[path] }));
 
-            // Calculate Totals
+            // ── Slot-aware combinatorics ──────────────────────────────────────
+            // Maps a slot value string (e.g. "Appendages/arms") to its pool object.
+            // Returns null for appearance-only slots (Core/appearance).
+            const resolveSlotPool = (slotPath) => {
+                if (!slotPath || slotPath.startsWith('Core/appearance')) return null;
+                const map = {
+                    'Cephalon/cranium': GAME_DATA.bodies.cephalon.cranium,
+                    'Cephalon/eyes': GAME_DATA.bodies.cephalon.eyes,
+                    'Cephalon/ears': GAME_DATA.bodies.cephalon.ears,
+                    'Cephalon/maw': GAME_DATA.bodies.cephalon.maw,
+                    'Cephalon/nose': GAME_DATA.bodies.cephalon.nose,
+                    'Appendages/arms': GAME_DATA.bodies.appendages.arms,
+                    'Appendages/fins': GAME_DATA.bodies.appendages.fins,
+                    'Appendages/legs': GAME_DATA.bodies.appendages.legs,
+                    'Appendages/tails': GAME_DATA.bodies.appendages.tails,
+                    'Appendages/tentacles': GAME_DATA.bodies.appendages.tentacles,
+                    'Appendages/wings': GAME_DATA.bodies.appendages.wings,
+                    'Core/integument': null,  // visual — Variations section
+                    'Flora/canopy': GAME_DATA.bodies.flora.canopy,
+                    'Flora/roots': GAME_DATA.bodies.flora.roots,
+                };
+                return map[slotPath] !== undefined ? map[slotPath] : null;
+            };
+
+            // Compute: for each cranium entry, multiply out its own slot pool sizes.
+            // Returns total sum of all per-cranium combinations (they are alternatives).
+            const craniumPoolTotal = useMemo(() => {
+                const craniumData = GAME_DATA.bodies.cephalon.cranium;
+                return Object.values(craniumData).reduce((sum, cranium) => {
+                    if (!cranium.slots) return sum + 1;
+                    const prod = Object.values(cranium.slots).reduce((p, slotPath) => {
+                        if (slotPath.startsWith('Core/appearance')) return p;
+                        const pool = resolveSlotPool(slotPath);
+                        const poolSize = pool ? Object.keys(pool).length : 0;
+                        return p * Math.max(1, poolSize);
+                    }, 1);
+                    return sum + prod;
+                }, 0);
+            }, []);
+
+            // Compute: sum over all chassis entries of (per-slot pool product).
+            // Each chassis contributes its own combination count based on its slots.
             const totalUniqueBodies = useMemo(() => {
-                let total = 1;
-                let hasActive = false;
+                const chassisData = GAME_DATA.bodies.core.chassis;
+                if (!Object.keys(chassisData).length) return 0;
 
-                // Assuming multiplicative combinations across categories if active
-                sections[0].groups.forEach(group => {
-                    Object.entries(group.paths).forEach(([label, path]) => {
-                        if (toggles[path]) {
-                            const c = getCount(path);
-                            // Only multiply if count > 0 to avoid zeroing out unless truly 0 options
-                            if (c > 0) {
-                                total *= c;
-                                hasActive = true;
-                            }
-                        }
-                    });
-                });
-                return hasActive ? total : 0;
-            }, [toggles, filterTag, sections]);
+                return Object.values(chassisData).reduce((total, chassis) => {
+                    if (!chassis.slots) return total + 1;
+                    const combos = Object.entries(chassis.slots).reduce((p, [, slotPath]) => {
+                        if (slotPath.startsWith('Core/appearance')) return p; // visual — skip
+                        if (slotPath === 'Cephalon/cranium') return p * Math.max(1, craniumPoolTotal);
+                        const pool = resolveSlotPool(slotPath);
+                        const poolSize = pool ? Object.keys(pool).length : 0;
+                        return p * Math.max(1, poolSize);
+                    }, 1);
+                    return total + combos;
+                }, 0);
+            }, [craniumPoolTotal]);
 
+            // Variations = unique bodies × all flavour multipliers (integument, colour, pattern, etc.)
             const totalVariations = useMemo(() => {
+                if (!totalUniqueBodies) return 0;
                 let total = totalUniqueBodies;
-                if (total === 0) return 0;
-
                 sections[1].groups.forEach(group => {
                     Object.entries(group.paths).forEach(([label, path]) => {
                         if (toggles[path]) {
@@ -1047,6 +1085,7 @@
                             <div>
                                 <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Unique Bodies</div>
                                 <div className="text-3xl font-mono text-yellow-400 font-bold">{ totalUniqueBodies.toLocaleString() }</div>
+                                <div className="text-xs text-gray-600 mt-1">Slot-aware: Σ per-chassis combinations</div>
                             </div>
                             <User size={ 32 } className="text-neutral-600" />
                         </div>
@@ -1054,6 +1093,7 @@
                             <div>
                                 <div className="text-xs text-gray-400 uppercase tracking-widest font-bold">Total Variations</div>
                                 <div className="text-3xl font-mono text-green-400 font-bold">{ totalVariations.toLocaleString() }</div>
+                                <div className="text-xs text-gray-600 mt-1">Unique Bodies × skin · colour · size · biome</div>
                             </div>
                             <Dice5 size={ 32 } className="text-neutral-600" />
                         </div>

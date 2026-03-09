@@ -579,6 +579,7 @@ This document defines the purpose, structure, and engine-level implementation de
 **Schema Structure:**
 
 * `tags` (array of strings): Identification tags for the specific facial feature.
+* `slots` (object, specific to cranium): Key-value pairs dictating hookups for sensory organs and maws (e.g., `eye_left`, `ear_right`, `maw_primary`, `nose_primary`).
 * `mods` (array of objects): Mathematical adjustments utilizing the engine's standard `"expr"` logic (often targeting perception, wisdom, and initiative).
 * `grants_skills` (array of strings): Bestows sensory skills like "Keen Sight", "Tremorsense", or attacks like "Bite".
 * `description` (string): Flavor text for logs and UI.
@@ -610,7 +611,7 @@ This document defines the purpose, structure, and engine-level implementation de
 
 * `tags` (array of strings): Taxonomic and structural categorizations.
 * `meat_group` (array of strings): Harvesting pools (e.g., "White_Meat", "Red_Meat").
-* `slots` (object): Key-value pairs matching a body part to a directory path it should load from.
+* `slots` (object): Key-value pairs matching a body part to a directory path it should load from. Typical slots include: `head`, `integument`, `pattern_layer`, `pigment_layer`, `leg_fore_left`, `leg_fore_right`, `leg_rear_left`, `leg_rear_right`, `tail_main`.
 * `mods` (array of objects): Foundational modifiers (typically con, str, size_index).
 * `grants_skills` (array of strings): Fundamental passive rules like "Regeneration" or "Squeeze".
 * `description` (string): Flavor text.
@@ -665,5 +666,33 @@ This document defines the purpose, structure, and engine-level implementation de
   ],
   "grants_skills": ["Poison_Cloud"],
   "description": "Embedded within the creature's thick, warty skin..."
+}
+```
+
+## 20. Core Appearance (`GameData/Entities/Core/appearance/*.json`)
+
+**Purpose:** Defines the visual patterns and pigmentation of the entity's skin/hide, which can provide minor biome-specific advantages or minor stat tweaks depending on coloration.
+
+**Engine Implementation Notes:**
+
+* **Layering System:** Typically split into `pattern_layer` and `pigment_layer` in the chassis slots.
+* **Biome Affinity:** Grants explicit stealth/agility advantages if the entity spawns within the listed `biome_affinity` environments.
+
+**Schema Structure:**
+
+* `flavor` (string, specific to pigmentation): Minor thematic description before the full flavor text.
+* `mods` (array of objects): Very minor stat tweaks (often +1/-1 to dex or cha based on coloration).
+* `biome_affinity` (array of strings, specific to patterns): List of biomes (e.g., "Forest", "Jungle") where this pattern is beneficial.
+* `description` (string): Flavor text.
+
+**Example Entry (from `Core/appearance/patterns.json`):**
+
+```json
+"Striped": {
+  "mods": [
+    { "target": "dex", "op": "add", "expr": "2" }
+  ],
+  "biome_affinity": ["Grassland", "Jungle"],
+  "description": "The Striped component is a rare genetic trait..."
 }
 ```

@@ -16,7 +16,7 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 30
+        "expr": "30"
       }
     ],
     "description": "Equipped with the sturdy and efficient plantigrade bipedal legs, these entities move with a blend of human-like grace and predatory agility, granting them the ability to traverse rugged terrains with ease and perform powerful jumps and kicks, all while benefiting from an enhanced speed that sets them apart in the hunt and battle."
@@ -40,7 +40,7 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 25
+        "expr": "25"
       }
     ],
     "description": "Equipped with powerful, webbed hind legs, this component grants the user unparalleled agility, enabling swift leaps and effortless gliding through water, while bestowing a significant boost to movement speed in all terrains."
@@ -63,7 +63,7 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 35
+        "expr": "35"
       }
     ],
     "description": "Equipped with powerful, sinuous limbs sheathed in gleaming scales, these reptilian legs enable swift, agile movements on land and a graceful, effortless glide through water, enhancing the user's speed and versatility in both terrains."
@@ -86,7 +86,7 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 25
+        "expr": "25"
       }
     ],
     "description": "The Columnar Stout Legs are massive, pillar-like appendages that anchor a hulking mammal, reminiscent of ancient elephants, into the ground, granting unparalleled stability and a devastating stomp while paradoxically enhancing its sluggish form with a surprising burst of speed."

@@ -14,12 +14,12 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "jump_distance",
         "op": "add",
-        "val": 4
+        "expr": "4"
       }
     ],
     "grants_skills": [
@@ -41,17 +41,17 @@
       {
         "target": "reach",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "stealth",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "str",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -75,12 +75,12 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "evasion",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -102,12 +102,12 @@
       {
         "target": "dex",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -130,17 +130,17 @@
       {
         "target": "str",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "speed_bonus",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -162,12 +162,12 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "stealth",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -189,12 +189,12 @@
       {
         "target": "stealth",
         "op": "add",
-        "val": 4
+        "expr": "4"
       },
       {
         "target": "agility",
         "op": "subtract",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [
@@ -217,12 +217,12 @@
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -245,12 +245,12 @@
       {
         "target": "perception",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "initiative",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -273,12 +273,12 @@
       {
         "target": "natural_armor",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [

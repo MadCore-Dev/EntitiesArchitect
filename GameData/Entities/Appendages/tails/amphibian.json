@@ -13,12 +13,12 @@
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "agility",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -40,12 +40,12 @@
       {
         "target": "dex",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "agility",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -66,12 +66,12 @@
       {
         "target": "cha",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "stealth",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -92,7 +92,7 @@
       {
         "target": "evasion",
         "op": "add",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [
@@ -113,12 +113,12 @@
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "speed_bonus",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [],
@@ -138,12 +138,12 @@
       {
         "target": "str",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "reach",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -165,12 +165,12 @@
       {
         "target": "stealth",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "agility",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -191,12 +191,12 @@
       {
         "target": "poison_resist",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -218,7 +218,7 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [],
@@ -238,12 +238,12 @@
       {
         "target": "con",
         "op": "add",
-        "val": 1
+        "expr": "1"
       },
       {
         "target": "hp",
         "op": "add",
-        "val": 5
+        "expr": "5"
       }
     ],
     "grants_skills": [

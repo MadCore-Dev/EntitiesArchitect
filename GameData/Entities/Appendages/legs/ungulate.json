@@ -17,12 +17,12 @@
       {
         "target": "str",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 3
+        "expr": "3"
       }
     ],
     "grants_skills": [
@@ -48,17 +48,17 @@
       {
         "target": "str",
         "op": "add",
-        "val": 5
+        "expr": "5"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "speed_bonus",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -86,12 +86,12 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 4
+        "expr": "4"
       },
       {
         "target": "speed_bonus",
         "op": "add",
-        "val": 3
+        "expr": "3"
       }
     ],
     "grants_skills": [
@@ -118,12 +118,12 @@
       {
         "target": "agility",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "dex",
         "op": "add",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [
@@ -149,17 +149,17 @@
       {
         "target": "str",
         "op": "add",
-        "val": 4
+        "expr": "4"
       },
       {
         "target": "natural_armor",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "speed_bonus",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -185,12 +185,12 @@
       {
         "target": "str",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [
@@ -214,12 +214,12 @@
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "expr": "2"
       },
       {
         "target": "agility",
         "op": "add",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -246,12 +246,12 @@
       {
         "target": "str",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "con",
         "op": "add",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [
@@ -277,12 +277,12 @@
       {
         "target": "con",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "speed_bonus",
         "op": "subtract",
-        "val": 1
+        "expr": "1"
       }
     ],
     "grants_skills": [
@@ -307,12 +307,12 @@
       {
         "target": "wis",
         "op": "add",
-        "val": 3
+        "expr": "3"
       },
       {
         "target": "evasion",
         "op": "add",
-        "val": 2
+        "expr": "2"
       }
     ],
     "grants_skills": [

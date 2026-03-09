@@ -534,3 +534,136 @@ This document defines the purpose, structure, and engine-level implementation de
   "baseValue": 0.0,
   "statType": "Potential"
 }
+## 16. Appendages (`GameData/Entities/Appendages/*/*.json`)
+
+**Purpose:** Defines the limb assemblies (arms, legs, fins, tails, tentacles, wings) attached to an entity's core chassis. These dictate traversal capabilities, reach, innate weapons, and physical skill access.
+
+**Engine Implementation Notes:**
+
+* **Slot Hookups:** These JSONs are dynamically slotted onto the Core Chassis depending on species/lineage (e.g., `leg_fore_left`, `tail_main`).
+* **Traversal Integration:** Grants flags that map to `traversal_types.json` and allow movement through specific environments.
+* **Component Modifiers:** The `mods` array is aggregated during entity generation to build the final base stats before formula evaluation.
+
+**Schema Structure:**
+
+* `tags` (array of strings): System categorization for the appendage type.
+* `traversal` (array of strings): Defines the granted traversal methods (e.g., "Walk", "Swim", "Climb").
+* `mods` (array of objects): Standard mathematical adjustments to Base Stats (e.g., str, dex, reach) using `"expr"`.
+* `grants_skills` (array of strings): Active or passive skills automatically bestowed (e.g., "Grapple", "Aerobatics").
+* `description` (string): Flavor text for UI and narrative logs.
+
+**Example Entry (from `Appendages/legs/amphibian.json`):**
+
+```json
+"Elongated_Saltatory_Legs": {
+  "tags": ["Legs", "Jumping", "Amphibian", "Frog_Like"],
+  "traversal": ["Walk", "Leap"],
+  "mods": [
+    { "target": "agility", "op": "add", "expr": "3" },
+    { "target": "jump_distance", "op": "add", "expr": "5" }
+  ],
+  "grants_skills": ["Acrobatics"],
+  "description": "Equipped with powerful, elongated hind legs..."
+}
+```
+
+## 17. Cephalon (`GameData/Entities/Cephalon/*/*.json`)
+
+**Purpose:** Defines the sensory and cognitive structures located on the entity's head (cranium, ears, eyes, maw, nose). These dictate perception layers, bite attacks, vision paradigms, and intellect bonuses.
+
+**Engine Implementation Notes:**
+
+* **Sensory Aggregation:** Combines with vision, hearing, and scent types to modify perception radius and grant specific blindsight/darkvision traits.
+* **Weaponization:** The `maw` and `cranium` specifically grant natural melee weapons (like "Bite" or "Gore") and determine their damage scaling.
+
+**Schema Structure:**
+
+* `tags` (array of strings): Identification tags for the specific facial feature.
+* `mods` (array of objects): Mathematical adjustments utilizing the engine's standard `"expr"` logic (often targeting perception, wisdom, and initiative).
+* `grants_skills` (array of strings): Bestows sensory skills like "Keen Sight", "Tremorsense", or attacks like "Bite".
+* `description` (string): Flavor text for logs and UI.
+
+**Example Entry (from `Cephalon/ears/amphibian.json`):**
+
+```json
+"Subterranean_Columella": {
+  "tags": ["Ear", "Bone", "Burrowing", "Amphibian"],
+  "mods": [
+    { "target": "perception", "op": "add", "expr": "2" },
+    { "target": "initiative", "op": "add", "expr": "1" }
+  ],
+  "grants_skills": ["Tremorsense"],
+  "description": "Embedded deep within the creature's skull, this bone structure..."
+}
+```
+
+## 18. Core Chassis (`GameData/Entities/Core/chassis/*.json`)
+
+**Purpose:** The central skeletal and muscular framework of the entity. It defines the foundational shape, mass, baseline constitution, and available slots for appendages.
+
+**Engine Implementation Notes:**
+
+* **Slot Dictionary:** The `slots` object dictates exactly what other JSON components the generator should fetch and attach during procedural generation.
+* **Meat Groups:** Defines harvestable resources from the entity upon defeat.
+
+**Schema Structure:**
+
+* `tags` (array of strings): Taxonomic and structural categorizations.
+* `meat_group` (array of strings): Harvesting pools (e.g., "White_Meat", "Red_Meat").
+* `slots` (object): Key-value pairs matching a body part to a directory path it should load from.
+* `mods` (array of objects): Foundational modifiers (typically con, str, size_index).
+* `grants_skills` (array of strings): Fundamental passive rules like "Regeneration" or "Squeeze".
+* `description` (string): Flavor text.
+
+**Example Entry (from `Core/chassis/amphibian.json`):**
+
+```json
+"Elongated_Caudata_Spine": {
+  "tags": ["Flesh", "Flexible", "Amphibian", "Salamander_Like"],
+  "meat_group": ["White_Meat"],
+  "slots": {
+    "head": "Cephalon/cranium",
+    "integument": "Core/integument",
+    "leg_fore_left": "Appendages/legs",
+    "leg_fore_right": "Appendages/legs",
+    "leg_rear_left": "Appendages/legs",
+    "leg_rear_right": "Appendages/legs",
+    "tail_main": "Appendages/tails"
+  },
+  "mods": [
+    { "target": "agility", "op": "add", "expr": "2" }
+  ],
+  "grants_skills": ["Squeeze"],
+  "description": "This elongated caudal spine grants the creature..."
+}
+```
+
+## 19. Core Integument & Appearance (`GameData/Entities/Core/integument/*.json`)
+
+**Purpose:** Defines the outermost surface layer (skin, scales, chitin, mucous) of the entity, dictating basic elemental resistances, natural armor, and camouflage.
+
+**Engine Implementation Notes:**
+
+* **Toxic/Aposematic Traits:** Readily grants poison immunities or toxic auras depending on the skin makeup.
+* **Armor Calculation:** The primary driver for baseline `natural_armor` potential before gear is equipped.
+
+**Schema Structure:**
+
+* `tags` (array of strings): Identification of the skin type (e.g., "Slime", "Scales", "Armor").
+* `mods` (array of objects): Stat bonuses for survival traits (e.g., `water_retention`, `poison_resist`, `stealth`).
+* `grants_skills` (array of strings): Abilities like "Camouflage", "Slippery", or "Poison_Cloud".
+* `description` (string): Visual description of the hide.
+
+**Example Entry (from `Core/integument/amphibian.json`):**
+
+```json
+"Granular_Parotoid_Glands": {
+  "tags": ["Skin", "Toxic", "Amphibian", "Toad_Like"],
+  "mods": [
+    { "target": "poison_resist", "op": "add", "expr": "4" },
+    { "target": "con", "op": "add", "expr": "1" }
+  ],
+  "grants_skills": ["Poison_Cloud"],
+  "description": "Embedded within the creature's thick, warty skin..."
+}
+```

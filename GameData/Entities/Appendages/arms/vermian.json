@@ -1,0 +1,287 @@
+{
+  "Polychaete_Parapodium_Paddles": {
+    "tags": [
+      "Arms",
+      "Parapodium",
+      "Vermian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the creature's segmented body, the Polychaete_Parapodium_Paddles resemble elongated, muscular flaps lined with delicate, feather-like gills that shimmer in the underwater light, enhancing the creature's fluid movements and grace as it glides through the depths with effortless precision."
+  },
+  "Setae_Bristle_Paddles": {
+    "tags": [
+      "Arms",
+      "Setae",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "The Setae_Bristle_Paddles are a pair of elongated, segmented appendages covered in sharp, microscopic hooks that vibrate at an almost imperceptible frequency, allowing the user to silently scale vertical surfaces or to unleash a flurry of blindingly fast, slashing attacks."
+  },
+  "Hooked_Parapodia": {
+    "tags": [
+      "Arms",
+      "Hooked",
+      "Vermian",
+      "Parasitic"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Leech Latch",
+      "Grapple"
+    ],
+    "description": "The Hooked_Parapodia are a pair of sinuous, segmented appendages that terminate in sharp, barbed hooks, allowing the wielder to latch onto surfaces or enemies with terrifying ease. Their texture is slick and cold, with a semi-translucent quality that reveals pulsating veins beneath the surface, granting the user immense strength and the ability to grapple foes relentlessly."
+  },
+  "Adhesive_Suckers": {
+    "tags": [
+      "Arms",
+      "Adhesive",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Grapple"
+    ],
+    "description": "The Adhesive Suckers are a cluster of rubbery, tentacle-like appendages covered in small, suction-cupped discs that adhere to any surface with alarming strength, allowing for silent and swift movement across walls and ceilings. Each sucker pulsates subtly, exuding a slimy secretion that ensures a tenacious grip, making it nearly impossible to dislodge the creature without causing it significant harm."
+  },
+  "Eversible_Proboscis_Arm": {
+    "tags": [
+      "Arms",
+      "Proboscis",
+      "Vermian",
+      "Eversible"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Drain"
+    ],
+    "description": "The Eversible_Proboscis_Arm is a writhing, segmented appendage that coils and uncoils beneath the skin, only emerging as a long, serpentine proboscis tipped with a sharp, hollow needle when needed. Its touch is cold and unsettling, and when deployed, it can extend to snatch prey from afar before retracting to drain the victim's life force."
+  },
+  "Venomous_Fang_Palps": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the Venomous_Fang_Palps are long, serpentine appendages that pulse with an eerie, bioluminescent glow, their sharp, fang-like tips dripping with a viscous, shimmering venom. These palp tentacles are incredibly agile and sensitive, capable of striking with blinding speed and precision, delivering a paralyzing sting that precedes a torrent of toxic fluid."
+  },
+  "Radula_Rasping_Palps": {
+    "tags": [
+      "Arms",
+      "Rasping",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw"
+    ],
+    "description": "The Radula Rasping Palps are long, segmented appendages that undulate with a life of their own, their surface covered in rows of sharp, chitinous teeth that scrape and rasp against anything they touch, granting a fearsome grip and the ability to tear through tough materials effortlessly."
+  },
+  "Electric_Sensory_Tentacles": {
+    "tags": [
+      "Arms",
+      "Electric",
+      "Vermian",
+      "Sensory"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Glowing tendrils pulse with crackling electricity, coiling around the user's head like serpents of lightning, granting an unparalleled sense of the world around them through electric impulses, extending their reach and heightening their perception to dangerous levels."
+  },
+  "Mucoid_Grip_Appendages": {
+    "tags": [
+      "Arms",
+      "Mucous",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slime Secretion"
+    ],
+    "description": "The Mucoid Grip Appendages are long, sinuous limbs coated in a thick, sticky mucous that glistens under the dim, flickering light of the dungeon. Each appendage is dotted with small, eye-like sensors that twitch and pulse, giving the impression of a living, breathing organism more than a mere limb."
+  },
+  "Prehensile_Oral_Arms": {
+    "tags": [
+      "Arms",
+      "Prehensile",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "Emerging from the creature's mouth are a pair of slimy, prehensile arms, each tipped with sharp claws and writhing with a life of their own, allowing the creature to grapple and ensnare prey from unexpected angles, enhancing its agility and reach."
+  },
+  "Vestigial_Proto_Limb_Stumps": {
+    "tags": [
+      "Arms",
+      "Vestigial",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [],
+    "grants_skills": [],
+    "description": "Emerging from the shadowy flesh of the creature, these small, malformed stumps pulse with a sickly glow, hinting at the potential for growth into fully-formed, tentacle-like appendages.\u51b0\u51b7\u7684\u6587\u5b57\u4f3c\u4e4e\u7f3a\u5c11\u4e86\u4e00\u4e9b\u751f\u52a8\u4e0e\u6c89\u6d78\u611f\uff0c\u8ba9\u6211\u91cd\u65b0\u6da6\u8272\u4e00\u4e0b\u3002\n\n\u8fd9\u4e9b\u5fae\u5c0f\u7684\u3001\u7578\u5f62\u7684\u7a81\u8d77\u4ece\u751f\u7269\u626d\u66f2\u7684\u8089\u8d28\u4e2d\u4f38\u51fa\uff0c\u6563\u53d1\u51fa\u4e00\u79cd\u4ee4\u4eba\u4e0d\u5b89\u7684\u5e7d\u5149\uff0c\u4eff\u4f5b\u968f\u65f6\u53ef\u80fd\u53d8\u5f02\u6210\u591a\u8282\u7684\u89e6\u624b\uff0c\u5b83\u4eec\u7684\u8868\u9762\u8986\u76d6\u7740\u7ec6\u5c0f\u7684\u9cde\u7247\uff0c\u89e6\u611f\u51b0\u51b7\u4e14\u9ecf\u6ed1\uff0c\u900f\u9732\u51fa\u4e00\u79cd\u4ee4\u4eba\u4e0d\u5b89\u7684\u751f\u547d\u529b\u3002"
+  },
+  "Bone_Drilling_Mandibles": {
+    "tags": [
+      "Arms",
+      "Drilling",
+      "Vermian",
+      "Fossorial"
+    ],
+    "traversal": [
+      "Slither",
+      "Burrow_Earth",
+      "Burrow_Rock"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Bone_Drilling_Mandibles are a pair of robust, segmented pincers that emerge from the forelimbs, tipped with sharp, obsidian-black teeth designed to bore through solid earth with ease. Their surface is rough, covered in ridges and grooves that grip the soil firmly, allowing the user to tunnel through even the hardest rock with minimal effort."
+  }
+}

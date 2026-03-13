@@ -1,0 +1,639 @@
+{
+  "Chromatic_Fire_Drake_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Chromatic",
+      "Draconic",
+      "Fire"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Fire Breath",
+      "Intimidate",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the heart of the Chromatic_Fire_Drake_Core, a pulsating gemstone of vibrant hues swirls with the essence of arcane fire, granting the wielder unparalleled might and the terrifying visage of a chromatic dragon, complete with wings for flight and the ability to unleash a devastating stream of searing flames."
+  },
+  "Frost_Wyrm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Frost",
+      "Draconic",
+      "Ice"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Ice Breath",
+      "Slow",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the Frost_Wyrm_Core is a crystalline heart pulsating with the chill essence of the eternal ice, its surface etched with intricate frost patterns that shimmer with a faint, haunting blue light. When activated, this core grants the wielder the chilling breath and innate resilience of a frost wyrm, encasing them in a layer of natural armor that hardens with each burst of icy energy released."
+  },
+  "Acid_Viper_Drake_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Acid",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Breath",
+      "Corrosion",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the draconic chassis, the Acid Viper Drake Core pulses with an eerie green glow, its surface slick with an ever-present layer of acidic ooze that hisses and bubbles when touched, capable of melting steel. The core's innate resilience and the creature's formidable natural armor provide a bulwark against harm, while granting the wielder the terrifying ability to unleash corrosive acid breath and erode through even the toughest of defenses."
+  },
+  "Thunder_Wing_Drake_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Thunder",
+      "Draconic",
+      "Lightning"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Breath",
+      "Aerobatics",
+      "Flight",
+      "Shock Touch"
+    ],
+    "description": "The Thunder_Wing_Drake_Core is a pulsating, iridescent orb that crackles with arcs of blue lightning, its surface shifting like molten metal as it hums with the potential of untold storms."
+  },
+  "Shadow_Dark_Wyrm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Shadow",
+      "Draconic",
+      "Dark"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shadow Breath",
+      "Ambush",
+      "Silent Flight",
+      "Fear"
+    ],
+    "description": "Embedded within the creature\u2019s chest, the Shadow_Dark_Wyrm_Core pulses with an oily darkness, its surface slick and cold to the touch, granting the host a fearsome presence and the ability to weave through shadows unseen, while enhancing their physical might and defensive capabilities."
+  },
+  "Sea_Serpent_Drake_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sea",
+      "Draconic",
+      "Aquatic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "fin_left": "Appendages/fins",
+      "fin_right": "Appendages/fins",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict",
+      "Acid Breath",
+      "Natural Armor"
+    ],
+    "description": "The Sea_Serpent_Drake_Core is a pulsating, iridescent orb embedded with scales of deep ocean blues and greens, swirling with an eerie luminescence that mimics the bioluminescent creatures of the deep sea. When wielded, it grants the user the raw power and resilience of the ocean's mightiest predators, enhancing their physical attributes and bestowing upon them the chilling breath of corrosive acid and the natural armor of scales."
+  },
+  "Undead_Dracolich_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Undead",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Necrotic Breath",
+      "Fear",
+      "No Pain",
+      "Flight"
+    ],
+    "description": "The Undead_Dracolich_Core is a twisted, bony mass pulsing with necrotic energy, wrapped in shimmering, decayed draconic scales that emit an eerie, blue-white glow. Its presence fills the air with a chilling, paralyzing dread, and its touch leaves a trail of withered life in its wake."
+  },
+  "Wyvern_Stinger_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Wyvern",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Sting",
+      "Poison",
+      "Ambush"
+    ],
+    "description": "The Wyvern_Stinger_Core is a twisted, barbed relic of draconic anatomy, pulsating with an eerie, bioluminescent glow that shifts between shades of crimson and emerald. Its surface is slick with a venomous ichor that seems to pulse in rhythm with a hidden heartbeat, granting the wielder both the lethal precision of the wyvern's sting and the uncanny ability to strike from the shadows."
+  },
+  "Lindworm_Serpentine_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lindworm",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Poison"
+    ],
+    "description": "Embedded within the creature\u2019s robust chassis, the Lindworm_Serpentine_Core is a writhing, venomous conduit of power, its sinuous form pulsating with dark draconic energy, granting the wielder immense strength and resilience, while its coils whisper of the lethal constrictions and ensnarements it commands."
+  },
+  "Ancient_Elder_Dragon_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Elder",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Fire Breath",
+      "Intimidate",
+      "Natural Armor",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient Elder Dragon Core glows with an inner radiance, a swirling vortex of crimson and gold that seems to pulse with the very essence of arcane energy and ancient wisdom. Its surface is slick and cold to the touch, yet emanates a palpable heat that warns of the destructive fire breath it fuels."
+  },
+  "Faerie_Drake_Small_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Faerie",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Faerie_Drake_Small_Core is a shimmering, iridescent orb pulsating with an otherworldly glow, nestled within the delicate bones of a faerie dragon. Its surface is slick to the touch, and it emits a soft hum that seems to whisper secrets of the faerie realm, granting the wielder the ethereal abilities of flight, hover, charm, and invisibility."
+  },
+  "Drake_Hatchling_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Hatchling",
+      "Draconic"
+    ],
+    "meat_group": [
+      "Dragon_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Scent"
+    ],
+    "description": "The Drake_Hatchling_Core is a pulsating, iridescent orb embedded with tiny, sharp teeth and delicate scales that shimmer in shades of emerald and sapphire, emanating a faint, warm glow that seems to hum with the promise of growth and power."
+  }
+}

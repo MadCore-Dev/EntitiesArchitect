@@ -1,0 +1,294 @@
+{
+  "Flame_Skin_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Fire",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cold_resist",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Burn"
+    ],
+    "description": "The Flame_Skin_Body is a charring expanse of living ember, pulsing with the rhythmic dance of flickering flames that consume yet never burn away. Each touch brings searing heat and the scent of roasting flesh, while the skin's fiery veins emit a low hum of power, granting resistance to the bearer\u2019s flames while paradoxically heightening vulnerability to the cold."
+  },
+  "Water_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Water",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slip",
+      "Bleed Resist"
+    ],
+    "description": "The Water_Body is a shimmering, fluid form that pulses with the ebb and flow of tides, its surface reflecting the ever-changing sky. It feels cool and slick to the touch, with a texture that shifts like rippling waves, granting unparalleled agility and the ability to slip through the tightest spaces while resisting the most brutal strikes."
+  },
+  "Stone_Rock_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Earth",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Stone_Rock_Body is a rugged exoskeleton composed of dense, interlocking stone plates that shift and realign like living earth, providing a sturdy defense against physical attacks. Its surface is cold and rough to the touch, with a dull, muted coloration that reflects the somber hues of the earth's deep caverns."
+  },
+  "Wind_Gust_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Air",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Evasion",
+      "Gust"
+    ],
+    "description": "The Wind_Gust_Body is a wispy, almost intangible form that shimmers with shades of silver and blue, as if woven from the finest silk and the lightest mist. It feels cool and airy to the touch, and its presence is marked by a constant whispering sound, like distant leaves rustling in a perpetual breeze."
+  },
+  "Plasma_Lightning_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Lightning",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Plasma_Lightning_Body component pulses with an eerie, crackling energy, its flesh shimmering like molten glass under the skin, and it emits a low hum that resonates with the constant threat of an impending storm.\u6bcf\u4e00\u6b21\u89e6\u78b0\u90fd\u4f34\u968f\u7740\u8f7b\u5fae\u7684\u7535\u51fb\uff0c\u8ba9\u4eba\u5728\u611f\u53d7\u5230\u529b\u91cf\u7684\u540c\u65f6\uff0c\u4e5f\u4e0d\u7981\u4e3a\u8fd9\u4efd\u5371\u9669\u800c\u6218\u6817\u3002"
+  },
+  "Ice_Crystal_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Ice",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "fire_resist",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Natural Armor"
+    ],
+    "description": "The Ice Crystal Body is a translucent exoskeleton that glistens with an eerie blue luminescence, each shard of crystal reflecting the cold, harsh light of the moon. It feels like wading through a frigid lake, with a constant chill seeping through, granting an innate resilience against the biting cold while paradoxically drawing away one's warmth in the presence of fire."
+  },
+  "Shadow_Void_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Shadow",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Drain"
+    ],
+    "description": "The Shadow_Void_Body is a near-invisible, ethereal mass that shimmers with the absence of light, its form shifting like a void in the fabric of reality. Touching it feels like passing through a cold, dark mist that seems to suck warmth and light from the surroundings, enhancing the wearer's ability to blend into darkness and avoid detection."
+  },
+  "Lava_Magma_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Lava",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Natural Armor"
+    ],
+    "description": "The Lava_Magma_Body is a churning mass of molten rock and blistering heat, its surface shifting and bubbling like a cauldron of liquid fire, with veins of glowing magma pulsing beneath a crust of jagged obsidian."
+  },
+  "Acid_Ooze_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Acid",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Slip"
+    ],
+    "description": "The Acid Ooze Body is a writhing, gelatinous mass that shifts and flows like a river of molten green venom, its surface slick and perpetually bubbling with corrosive acids that eat away at metal and flesh alike."
+  },
+  "Sand_Storm_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Sand",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Blinding Sandstorm"
+    ],
+    "description": "The Sand_Storm_Body component is a swirling mass of grains, constantly shifting and moving like a living entity, with the ability to conjure fierce gusts and blinding sandstorms at will, enhancing its agility and evasion in combat."
+  },
+  "Nature_Bark_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Nature",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Natural Armor"
+    ],
+    "description": "The Nature_Bark_Body is a rugged exoskeleton composed of dark, gnarled wood that crackles with the faint energy of natural magic, providing an innate resilience and granting its bearer the ability to regenerate wounds at an accelerated rate."
+  },
+  "Time_Rift_Body": {
+    "tags": [
+      "Elemental_Body",
+      "Time",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Haste"
+    ],
+    "description": "The Time_Rift_Body is a shimmering, iridescent appendage that pulses with swirling hues of deep blues and greens, its surface constantly warping and shifting as if it exists in multiple points of time simultaneously. Touching it feels like grasping a whirlwind of cold air, and its presence grants an eerie sense of urgency and quickness, making the user almost dance through combat with enhanced agility and speed."
+  }
+}

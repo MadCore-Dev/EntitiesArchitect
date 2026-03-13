@@ -1,0 +1,273 @@
+{
+  "Prehensile_Scale_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Pholidota",
+      "Tree"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider Climb"
+    ],
+    "description": "The Prehensile_Scale_Tail is a sinuous appendage covered in shimmering scales that catch the light like tiny mirrors, each scale etched with delicate patterns that seem to shift and change as the tail moves. Strong and flexible, it coils and uncoils with the grace of a whip, capable of wrapping around trees or grappling foes with equal ease, its sharp, curved claws leaving shallow, jagged marks where they grip."
+  },
+  "Razor_Whip_Tail": {
+    "tags": [
+      "Tail",
+      "Razor",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Tail Whip"
+    ],
+    "description": "The Razor_Whip_Tail is a serpentine appendage covered in razor-sharp scales that shimmer with a menacing iridescence, each scale capable of slicing through flesh with a mere flick. When in motion, it lashes out with deadly precision, capable of ensnaring and dismembering foes with equal ease, while granting its bearer an imposing reach and an additional layer of defensive armor."
+  },
+  "Club_Armoured_Tail": {
+    "tags": [
+      "Tail",
+      "Club",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Slam"
+    ],
+    "description": "The Armoured Tail is a fearsome appendage, covered in jagged scales that rattle ominously when the creature shifts, ending in a bulbous, spiked club that can shatter bones with a single, powerful swing."
+  },
+  "Curl_Ball_Aid_Tail": {
+    "tags": [
+      "Tail",
+      "Curl",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Block"
+    ],
+    "description": "The Curl_Ball_Aid_Tail is a sleek and sinuous appendage, covered in hard, glossy scales that shimmer with an iridescent sheen. When activated, it coils tightly into a protective ball, the overlapping scales interlocking to form an impenetrable shield, while its presence also grants the wielder an instinctive sense of evasion and agility."
+  },
+  "Venomous_Sting_Tail": {
+    "tags": [
+      "Tail",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Venomous Sting Tail is a sleek, serpentine appendage covered in iridescent scales that shift colors with the light, ending in a sharp, needle-like stinger that glows with a faint, ominous blue light when charged with venom."
+  },
+  "Acid_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spray_Tail is a serpentine appendage, covered in shimmering scales that seem to shift between colors, ending in a bulbous tip filled with a bubbling, greenish-yellow liquid that hisses when exposed to air. When flexed, it can rapidly expel a corrosive jet of acid in any direction, the tail itself elongating slightly to grant its bearer an additional two feet of reach."
+  },
+  "Rudder_Aquatic_Tail": {
+    "tags": [
+      "Tail",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "The Rudder_Aquatic_Tail is a sleek, serpentine appendage covered in iridescent scales that shimmer like the surface of a moonlit lake, providing an unmatched grace and agility in water, enhancing both swimming speed and maneuverability."
+  },
+  "Electroreceptive_Trailing_Tail": {
+    "tags": [
+      "Tail",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Electroreceptive Trailing Tail is a sinuous appendage covered in sleek, metallic scales that shimmer with an eerie blue glow when danger nears. Its highly sensitive sensory organs allow it to detect the slightest vibrations and electrical signals, granting the bearer an acute awareness of their surroundings and potential threats."
+  },
+  "Titan_Hammer_Tail": {
+    "tags": [
+      "Tail",
+      "Titan",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Slam",
+      "Knockback"
+    ],
+    "description": "The Titan_Hammer_Tail is a colossal, segmented appendage covered in thick, overlapping scales that shimmer in hues of steel and obsidian, each segment as robust as a boulder, capable of delivering devastating blows that crack the earth itself."
+  },
+  "Undead_Necrotic_Tail": {
+    "tags": [
+      "Tail",
+      "Undead",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Necrotic Tail is a serpentine appendage, covered in dark, chitinous scales that emit a faint, eerie glow. It thrums with a malevolent energy, capable of instilling dread in any who gaze upon it, and can drain life force from living creatures, leaving them weakened and diseased."
+  },
+  "Musk_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Musk",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "The Musk_Spray_Tail is a sleek, segmented appendage ending in a swollen, dark gland that throbs with an unsettling rhythm, emitting an acrid, pungent musk capable of instilling primal fear in any creature unfortunate enough to be within its spray range."
+  },
+  "Short_Balanced_Tail": {
+    "tags": [
+      "Tail",
+      "Short",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability"
+    ],
+    "description": "The Short_Balanced_Tail is a compact appendage, covered in intricate overlapping scales that provide a tactile sensation of resilience and precision. Its presence enhances balance and stability, subtly guiding the wielder through precarious movements with an almost instinctive grace."
+  }
+}

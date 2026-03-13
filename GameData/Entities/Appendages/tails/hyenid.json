@@ -1,0 +1,239 @@
+{
+  "Upright_Hyena_Tail": {
+    "tags": [
+      "Tail",
+      "Upright",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The upright hyena tail stands rigid, bristling with coarse fur that shifts between stark white and menacing black stripes, a stark contrast to the creature's dark fur. It quivers with suppressed energy and communicates silent warnings to others of its kind, enhancing the pack's coordination and tactical awareness."
+  },
+  "Musk_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Musk",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "The Musk_Spray_Tail is a flexible, segmented appendage, tipped with a dark, oily gland that pulsates ominously, capable of releasing a suffocating cloud of acrid musk that chokes the senses and fills hearts with dread, though the lingering odor leaves one's charisma slightly diminished."
+  },
+  "Bushy_Display_Tail": {
+    "tags": [
+      "Tail",
+      "Bushy",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Bushy_Display_Tail is a thick, puffy appendage covered in stark black and white fur, designed to puff up dramatically to display aggression or dominance. Its texture is coarse to the touch, and when fully erect, it emits a low, rumbling growl that resonates through the air, striking fear into the hearts of those who witness its display."
+  },
+  "Whip_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Strike_Tail is a sinuous appendage, sleek and segmented, shimmering with an oily sheen that hints at its resilience and lethality. When flexed, it lashes out with the speed and precision of a striking snake, capable of wrapping around and ensnaring foes with alarming ease."
+  },
+  "Venomous_Barbed_Tail": {
+    "tags": [
+      "Tail",
+      "Venomous",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Venomous Barbed Tail is a sinuous appendage, its segmented joints crackling with malevolent energy as it whips through the air. Covered in sharp, black barbs that glisten with a sickly green venom, it feels cold and slick to the touch, capable of delivering a devastating sting that leaves foes reeling from its paralyzing poison."
+  },
+  "Disease_Drool_Tail": {
+    "tags": [
+      "Tail",
+      "Disease",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier"
+    ],
+    "description": "The Disease_Drool_Tail is a grotesque, writhing appendage tipped with a spiky, mucus-laden brush, dripping with virulent pathogens. Its movement is unsettling, both serpentine and mechanical, as it trails behind, spreading illness and despair in its wake."
+  },
+  "Rudder_Aquatic_Tail": {
+    "tags": [
+      "Tail",
+      "Rudder",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "The Rudder_Aquatic_Tail is a sinuous appendage, covered in sleek, iridescent scales that glisten with an eerie bioluminescence in the deep waters. Its robust yet flexible nature allows for precise control and maneuverability, granting its bearer an uncanny grace beneath the waves."
+  },
+  "Short_Stub_Tail": {
+    "tags": [
+      "Tail",
+      "Stub",
+      "Hyenid",
+      "Aardwolf"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Short_Stub_Tail is a vestigial appendage, barely noticeable but for its coarse black bristles and small tuft of white fur at the tip, reminding one of a hyenid or aardwolf's tail, twitching occasionally as if to compensate for its lack of utility with an aura of latent potential."
+  },
+  "Prehensile_Grip_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Prehensile_Grip_Tail is a sinuous appendage, tipped with sharp, curved claws and covered in coarse, dark fur, capable of wrapping around objects or foes with surprising strength and dexterity, enhancing its wielder's agility and ability to grapple in combat."
+  },
+  "Electroreceptive_Trailing_Tail": {
+    "tags": [
+      "Tail",
+      "Electrosensory",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Electroreceptive Trailing Tail is a serpentine appendage covered in fine, sensitive whiskers that twitch and quiver with the slightest electrical disturbance, granting its bearer an uncanny awareness of their surroundings and the ability to sense subtle tremors beneath their feet."
+  },
+  "Pack_Signal_Tail": {
+    "tags": [
+      "Tail",
+      "Signal",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Directional Tracking"
+    ],
+    "description": "The Pack_Signal_Tail is a sleek, segmented appendage that undulates gracefully, each movement a complex language of signals only hyenids understand, enhancing one's ability to communicate with and lead fellow pack members while also granting a heightened sense of awareness and direction in the wild."
+  },
+  "Undead_Rotting_Tail": {
+    "tags": [
+      "Tail",
+      "Undead",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Undead_Rotting_Tail is a grotesque appendage, dripping with viscous fluids and festering wounds, that thrashes with an unnatural, relentless energy, spreading a palpable aura of dread and corruption wherever it moves, while granting its bearer resistance to the ravages of disease."
+  }
+}

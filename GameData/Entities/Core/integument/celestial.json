@@ -1,0 +1,306 @@
+{
+  "Radiant_Light_Body": {
+    "tags": [
+      "Integument",
+      "Radiant",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Charm"
+    ],
+    "description": "The Radiant_Light_Body is a shimmering, ethereal exoskeleton that pulses with a soft, celestial glow, radiating warmth and tranquility that calms the minds of those nearby, while its surface hardens to deflect the most fearsome of attacks."
+  },
+  "Feathered_White_Plumage": {
+    "tags": [
+      "Integument",
+      "Feathered",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Feathered_White_Plumage is a delicate yet resilient layer of pristine feathers that shimmer with an ethereal glow, each feather soft to the touch yet interwoven with a subtle energy that enhances the wearer's charm and charisma, while also providing a protective layer of natural armor."
+  },
+  "Stone_Angelic_Armor": {
+    "tags": [
+      "Integument",
+      "Stone_Armor",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Stone_Angelic_Armor is a chiseled exoskeleton of pristine white stone, infused with a faint celestial glow that seems to emanate from within, providing an inviolable shield against physical attacks while subtly dampening the wearer's agility."
+  },
+  "Solar_Flame_Body": {
+    "tags": [
+      "Integument",
+      "Solar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Radiant Burst"
+    ],
+    "description": "The Solar_Flame_Body is a shimmering, golden exoskeleton that radiates an intense heat, causing the air around it to shimmer and dance with the faint outlines of celestial flames. When touched, it feels like warm silk infused with the sun's relentless warmth, yet it grants an eerie comfort to its bearer, enhancing their charisma and fortifying them against the fires of both hell and heaven."
+  },
+  "Lunar_Silver_Skin": {
+    "tags": [
+      "Integument",
+      "Silver",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "Lunar_Silver_Skin glistens with an ethereal glow under moonlight, its surface cold and smooth as it shifts imperceptibly to grant the wearer moments of perfect invisibility. The skin's celestial aura subtly enchants nearby observers, making the wearer more charming and alluring."
+  },
+  "Storm_Cloud_Body": {
+    "tags": [
+      "Integument",
+      "Storm",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Storm_Cloud_Body is a swirling mass of roiling, electric blue mist that constantly crackles with tiny sparks, forming an ever-shifting, defensive layer that grants its bearer an uncanny resistance to lightning and the ability to discharge powerful shocks with a mere touch."
+  },
+  "Celestial_Gold_Scales": {
+    "tags": [
+      "Integument",
+      "Gold_Scales",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "magic_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Magic Resistance",
+      "Charm"
+    ],
+    "description": "Celestial_Gold_Scales shimmer with an otherworldly glow, each scale interwoven with celestial patterns that seem to shift and dance under the moonlight, providing a wearer with an aura of invincibility and an irresistible allure."
+  },
+  "Arcane_Aura_Body": {
+    "tags": [
+      "Integument",
+      "Arcane",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Magic Resistance"
+    ],
+    "description": "The Arcane Aura Body is a shimmering, iridescent layer that envelops the user, its surface pulsing with ethereal runes that glow faintly with a celestial light, providing a tangible barrier against magical attacks while enhancing their intellect and resistance to radiant damage."
+  },
+  "Nature_Bark_Celestial": {
+    "tags": [
+      "Integument",
+      "Nature_Bark",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Natural Armor"
+    ],
+    "description": "The Nature_Bark_Celestial component manifests as a luminescent, celestial wood that covers the body, shimmering with the hues of the night sky and embedded with stars that pulse softly. The bark is both resilient and flexible, granting the bearer an added layer of protection and the ability to recover from injuries at an accelerated rate."
+  },
+  "Ethereal_Mist_Body": {
+    "tags": [
+      "Integument",
+      "Ethereal",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Hover"
+    ],
+    "description": "The Ethereal Mist Body appears as a swirling mass of luminescent vapor, shifting and coalescing into a semblance of humanoid form, granting the user the ability to blend into the shadows and float above the ground, adding an ethereal grace and elusiveness to their movements."
+  },
+  "Cherub_Soft_Skin": {
+    "tags": [
+      "Integument",
+      "Soft",
+      "Celestial",
+      "Cherub"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Cherub_Soft_Skin is a delicate and ethereal layer of celestial integument, as soft and cool to the touch as a summer breeze, radiating an aura of innocence that enhances one's charm and agility, while imbuing a gentle, angelic glow."
+  },
+  "Ancient_God_Divine_Skin": {
+    "tags": [
+      "Integument",
+      "Divine",
+      "Celestial",
+      "Ancient_God"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "magic_resist",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Magic Resistance",
+      "Charm",
+      "Natural Armor",
+      "Radiant Burst"
+    ],
+    "description": "The Ancient_God_Divine_Skin is a layer of ethereal, iridescent scales that shimmer with the faint glow of a thousand stars, each scale a fragment of forgotten celestial knowledge, providing a barrier as impenetrable as it is beautiful, and radiating an aura that both repels and enchants, granting the wearer unparalleled resistance to magic and the natural world's hostility."
+  }
+}

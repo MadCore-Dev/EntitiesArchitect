@@ -1,0 +1,298 @@
+{
+  "Fire_Glowing_Ember_Eyes": {
+    "tags": [
+      "Eye",
+      "Ember",
+      "Draconic",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Embedded deep within the sockets, these eyes resemble molten embers from a dragon's forge, pulsating with an inner fire that flickers and dances even when closed. Their surface is a mosaic of crimson and gold, shifting like flames, and they grant the wielder an uncanny ability to see in the darkest of nights and through the veil of smoke and ash, while also bestowing a resilience to the searing touch of flame."
+  },
+  "Frost_Blue_Crystal_Eyes": {
+    "tags": [
+      "Eye",
+      "Crystal",
+      "Draconic",
+      "Frost"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Embedded within the sockets are iridescent blue crystals that shimmer with a chilling frost, casting an aura of eerie coldness. Each crystal pulsates with arcane energy, granting the bearer unparalleled clarity and the resilience to withstand biting cold, their gaze piercing through the veil of darkness and mist."
+  },
+  "Lightning_Electric_Iris_Eyes": {
+    "tags": [
+      "Eye",
+      "Electric",
+      "Draconic",
+      "Lightning"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "Embedded deep within the sockets are iridescent eyes that pulse with flickering arcs of blue lightning, their draconic sclera gleaming with an otherworldly sheen. The eyes grant an uncanny ability to see through the veil of darkness and to pinpoint the location of any creature within a hundred feet, no matter how well concealed."
+  },
+  "Shadow_Void_Black_Eyes": {
+    "tags": [
+      "Eye",
+      "Void",
+      "Draconic",
+      "Shadow"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Void_Black_Eyes are obsidian orbs that seem to suck the light from their surroundings, their surface swirling with chaotic void energies that occasionally crackle with dark draconic power. These eyes grant the user an uncanny perception and the ability to move unseen, their gaze capable of instilling fear in the hearts of the bravest warriors."
+  },
+  "Infrared_Heat_Slit_Eyes": {
+    "tags": [
+      "Eye",
+      "Infrared",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Infrared Heat Slit Eyes are vertically slitted and glow with an eerie, blood-red heat signature, allowing the bearer to see through darkness and discern the faintest traces of body heat, enhancing their perception and reflexes in the most perilous environments."
+  },
+  "Dracolich_Burning_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Hollow",
+      "Draconic",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "The Dracolich_Burning_Hollow_Eyes are sockets of void-like darkness with tendrils of flickering flame coiling within, as if the very essence of despair and eternal torment is trapped inside. When gazed upon, the eyes emit a chill that penetrates the soul, causing fear and revealing the presence of lurking dangers nearby."
+  },
+  "Sea_Serpent_Sonar_Eyes": {
+    "tags": [
+      "Eye",
+      "Sonar",
+      "Draconic",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Sea_Serpent_Sonar_Eyes are twin orbs of shimmering iridescent blue, pulsating with an eerie glow that seems to cut through the murkiest depths of the ocean. Their surface ripples like liquid mercury, sending out silent waves of sonar that detect the slightest movements and vibrations, granting the bearer an uncanny awareness of their surroundings."
+  },
+  "Ancient_All_Seeing_Eyes": {
+    "tags": [
+      "Eye",
+      "All_Seeing",
+      "Draconic",
+      "Elder"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Blindsight",
+      "Tremor Sense",
+      "Ambush"
+    ],
+    "description": "Embedded within the gnarled skull of an ancient dragon, the Ancient All-Seeing Eyes emit an otherworldly glow, their irises swirling with the patterns of constellations and ley lines, granting the bearer unparalleled vision through darkness, mist, and even solid stone, while also enhancing their awareness of subtle vibrations and hidden threats."
+  },
+  "Faerie_Iridescent_Eyes": {
+    "tags": [
+      "Eye",
+      "Iridescent",
+      "Draconic",
+      "Faerie"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Faerie Iridescent Eyes shimmer with an otherworldly glow, their surface shifting between hues of emerald and sapphire, casting an alluring and hypnotic gaze that captivates any who meet it, making them susceptible to the wearer's charm and capable of momentarily paralyzing their gaze."
+  },
+  "Acid_Vipers_Slit_Eyes": {
+    "tags": [
+      "Eye",
+      "Slit",
+      "Draconic",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Keen Sight"
+    ],
+    "description": "Emerging from a scaled, draconic visage, the Acid Vipers' Slit Eyes are a pair of narrow, reptilian orbs that seethe with an unsettling, corrosive energy. Their gaze pierces through the darkness, revealing hidden dangers and prey, while the mere presence of these eyes instills an eerie sense of being watched and cornered."
+  },
+  "Wyvern_Eagle_Eyes": {
+    "tags": [
+      "Eye",
+      "Eagle",
+      "Draconic",
+      "Wyvern"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "Embedded deep within the sockets of a Wyvern_Eagle_Eyes are glowing emerald orbs that pulse with an inner draconic fire, granting the bearer unparalleled vision that pierces through the veil of darkness, spotting even the slightest movement from miles away."
+  },
+  "Hatchling_Wide_Curious_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide",
+      "Draconic",
+      "Hatchling"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the scales of a young dragon, these oversized, inquisitive eyes shimmer with an inner light, their wide pupils dilating and contracting with an almost human curiosity, granting the bearer heightened perception and an enchanting charisma."
+  }
+}

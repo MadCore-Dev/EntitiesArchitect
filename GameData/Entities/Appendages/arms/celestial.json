@@ -1,0 +1,336 @@
+{
+  "Radiant_Smite_Arms": {
+    "tags": [
+      "Arms",
+      "Radiant",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Radiant Burst",
+      "Slam"
+    ],
+    "description": "The Radiant_Smite_Arms are elongated, ethereal limbs that shimmer with a faint, otherworldly light, their surface a blend of celestial blue and divine gold. When flexed, they emit a subtle hum, and with each strike, they unleash a burst of blinding radiance capable of searing through dark matter."
+  },
+  "Feathered_Grace_Arms": {
+    "tags": [
+      "Arms",
+      "Feathered",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Grapple"
+    ],
+    "description": "Feathered_Grace_Arms are ethereal limbs, covered in soft, iridescent feathers that shimmer with the colors of the aurora borealis, granting an otherworldly grace and allure to the bearer. Their touch is light yet firm, capable of ensnaring foes in a gentle yet unbreakable embrace, reflecting their celestial origins and the inherent charm they bestow upon their wielder."
+  },
+  "Solar_Flame_Arms": {
+    "tags": [
+      "Arms",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Smite",
+      "Slam"
+    ],
+    "description": "Solar_Flame_Arms are elongated limbs wreathed in an eternal flame, their bones forged from the radiant energy of the sun, granting wielders unparalleled strength and the ability to channel searing flames with every strike."
+  },
+  "Lunar_Silver_Arms": {
+    "tags": [
+      "Arms",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "Lunar_Silver_Arms are slender and ethereal, their surface glimmering with the soft, silvery light of a full moon, shifting and shimmering as if reflecting an unseen celestial dance. Their touch is cool and enigmatic, capable of weaving an aura of allure and mystery that draws others in, while their fluid motion grants the wielder the uncanny ability to slip into the shadows unnoticed."
+  },
+  "Guardian_Shield_Arms": {
+    "tags": [
+      "Arms",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Slam",
+      "Natural Armor"
+    ],
+    "description": "The Guardian_Shield_Arms are massive, obsidian-black limbs encased in shimmering celestial silver armor that pulses with a soft, protective glow. When wielded, they emit a resonant hum, granting the bearer an impenetrable aura of defense and empowering them with the raw strength and resilience of celestial beings."
+  },
+  "Storm_Lightning_Arms": {
+    "tags": [
+      "Arms",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Shock Touch",
+      "Slam"
+    ],
+    "description": "Storm_Lightning_Arms are a pair of powerful, sinewy limbs that shimmer with an electric blue aura, crackling with latent energy. When wielded, they emit a low, rumbling hum, and the air around them seems to shimmer with static, ready to unleash devastating bolts of celestial lightning or a paralyzing shock touch."
+  },
+  "Cherub_Joy_Arms": {
+    "tags": [
+      "Arms",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Grapple"
+    ],
+    "description": "The Cherub_Joy_Arms are delicate yet surprisingly strong, with skin as smooth as alabaster and fingers tipped with soft, downy feathers. When extended, they emit a subtle, warm glow that can captivate and soothe even the most harried soul, making it nearly impossible to resist their embrace."
+  },
+  "Deva_Arcane_Arms": {
+    "tags": [
+      "Arms",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Smite"
+    ],
+    "description": "The Deva_Arcane_Arms are ethereal limbs, shimmering with a faint, otherworldly glow that seems to shift between hues of blue and silver. They are imbued with an aura of celestial power, granting the bearer not only a significant boost in arcane intellect but also the ability to unleash radiant bursts of energy and smite foes with holy fervor."
+  },
+  "Planetar_War_Arms": {
+    "tags": [
+      "Arms",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Slam",
+      "Knockback",
+      "Block"
+    ],
+    "description": "The Planetar War Arms are massive, gleaming silver appendages that seem to pulse with a faint, otherworldly light, their surfaces etched with intricate celestial patterns that shimmer like starry night skies. Each movement of these arms is imbued with the power to smite foes with holy wrath, while their natural resilience deflects incoming attacks with a barrier that feels as impenetrable as a celestial shield."
+  },
+  "Nature_Archon_Vine_Arms": {
+    "tags": [
+      "Arms",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "Emerging from the thick, verdant growth that seems to pulse with an otherworldly energy, the Nature_Archon_Vine_Arms stretch long and sinuous, their bark-like skin rough to the touch yet flexible enough to wrap around prey with alarming speed and strength."
+  },
+  "Knight_Heavenly_Arms": {
+    "tags": [
+      "Arms",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Block",
+      "Slam"
+    ],
+    "description": "The Knight_Heavenly_Arms are ethereal limbs wrapped in shimmering silver armor, adorned with celestial motifs that pulse with divine energy. When wielded, they emit a resounding hum, granting the bearer immense strength and the ability to parry even the most devastating blows with effortless grace."
+  },
+  "Ancient_God_Divine_Arms": {
+    "tags": [
+      "Arms",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Radiant Burst",
+      "Magic Resistance",
+      "Grapple"
+    ],
+    "description": "The Ancient_God_Divine_Arms resemble elongated, ethereal limbs clad in shimmering celestial armor, their surfaces pulsating with an otherworldly glow. With these arms, a warrior can unleash devastating holy attacks and resist dark magics, their touch alone capable of grappiling foes and pinning them in place, while bestowing upon the wielder a commanding presence and formidable strength."
+  }
+}

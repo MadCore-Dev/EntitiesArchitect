@@ -1,0 +1,339 @@
+{
+  "Wraith_Phase_Legs": {
+    "tags": [
+      "Legs",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Soft Step"
+    ],
+    "description": "Wraith_Phase_Legs appear as faint, almost translucent limbs that shimmer with an eerie, ethereal glow, their movement barely disturbing the air around them, granting the user a ghostly, weightless gait that allows them to glide over any terrain without making a sound."
+  },
+  "Lich_Bone_Legs": {
+    "tags": [
+      "Legs",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Sure-Footed"
+    ],
+    "description": "The Lich_Bone_Legs are slender and spectral, appearing like translucent white bones that seem to emit a faint, icy aura. They move with an eerie grace and silence, granting the wielder an uncanny resilience to pain and a flawless balance on the most treacherous terrain."
+  },
+  "Revenant_Heavy_Legs": {
+    "tags": [
+      "Legs",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "No Pain",
+      "Stability"
+    ],
+    "description": "The Revenant_Heavy_Legs are ghostly appendages, translucent and ethereal yet bearing the weight of a thousand graves, allowing the undead to deliver crushing stomps that shake the earth while resisting physical pain and maintaining balance even on the most precarious terrain."
+  },
+  "Ghost_Hover_Legs": {
+    "tags": [
+      "Legs",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Soft Step",
+      "Invisibility"
+    ],
+    "description": "The Ghost_Hover_Legs appear as a semi-transparent silhouette, barely visible against the moonlit night, with an ethereal glow that seems to shift and dance with each step. When activated, these spectral limbs allow the user to hover just above the ground, leaving no footprints or sound, while granting an eerie sense of weightlessness and near-invisibility."
+  },
+  "Shadow_Stalk_Legs": {
+    "tags": [
+      "Legs",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush",
+      "Hover"
+    ],
+    "description": "Shadow_Stalk_Legs are ghostly appendages that seem to phase in and out of existence, leaving behind a whisper of chill air and an eerie, spectral glow. With each step, they allow their bearer to move silently through the darkest shadows, enabling them to hover just above the ground and strike from unseen depths."
+  },
+  "Banshee_Drift_Legs": {
+    "tags": [
+      "Legs",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Fear"
+    ],
+    "description": "Banshee_Drift_Legs appear as wispy, translucent limbs that seem to phase in and out of existence, leaving behind a trail of icy wind that sends shivers down the spine of anyone nearby. As you move, the ground beneath you remains untouched, and the very air trembles with an ethereal wail that strikes fear into the hearts of those around you."
+  },
+  "NightHag_Walk_Legs": {
+    "tags": [
+      "Legs",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Charm"
+    ],
+    "description": "The NightHag_Walk_Legs are translucent and ethereal, shifting between shadows and light with an unsettling grace. Each step they take is barely audible, leaving behind a lingering chill and a disorienting sense of dread, while a subtle, hypnotic melody seems to whisper in the air when they move."
+  },
+  "Wisp_Float_Legs": {
+    "tags": [
+      "Legs",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint",
+      "Aerobatics"
+    ],
+    "description": "The Wisp_Float_Legs appear as wispy, translucent appendages that seem to shimmer with an otherworldly glow, their movement defying gravity as they hover inches above the ground. When in use, they emit a soft, ambient light that illuminates the immediate surroundings, granting a ghostly sense of grace and fluidity to any who wield them."
+  },
+  "Soul_Devourer_Phase_Legs": {
+    "tags": [
+      "Legs",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Drain"
+    ],
+    "description": "The Soul_Devourer_Phase_Legs are translucent, shifting tendrils that seem to ripple and flow like liquid shadow, allowing their owner to hover just above the ground with eerie grace. They emit a faint, chilling glow as they drain the life essence from those nearby, enhancing the wearer's agility and stealth."
+  },
+  "Specter_Float_Legs": {
+    "tags": [
+      "Legs",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Soft Step",
+      "Fear"
+    ],
+    "description": "Specter_Float_Legs are ghostly appendages, shimmering with an otherworldly glow that seems to flicker like candlelight, allowing the bearer to glide silently through the air and over obstacles with an eerie grace, leaving a trail of freezing dread in their wake."
+  },
+  "Phantom_Glide_Legs": {
+    "tags": [
+      "Legs",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Charm",
+      "Soft Step"
+    ],
+    "description": "Phantom_Glide_Legs shimmer with an otherworldly glow, their form barely more substantial than mist, allowing the wearer to glide silently over any terrain without leaving a trace, their spectral presence weaving an aura of allure and mystery around them."
+  },
+  "Arch_Specter_Null_Legs": {
+    "tags": [
+      "Legs",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Soft Step",
+      "Invisibility",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Null_Legs are ghostly, semi-transparent appendages that seem to phase in and out of existence, granting the user the ability to hover silently above the ground with each spectral step, while their touch leaves a chilling void that repels physical and magical interference alike."
+  }
+}

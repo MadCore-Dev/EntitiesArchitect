@@ -1,0 +1,286 @@
+{
+  "Spring_Large_Leaf_Ears": {
+    "tags": [
+      "Ear",
+      "Floral",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Large, delicate ears shaped like emerald leaves flutter gently at every whisper of the wind, their surface dotted with tiny, shimmering dewdrops that catch the light. Each leaf-ear is imbued with an enchanting floral scent that can be subtly modulated to attract or distract, enhancing both your charm and your ability to perceive the world around you."
+  },
+  "Pointed_Elven_Ears": {
+    "tags": [
+      "Ear",
+      "Elven",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Pointed_Elven_Ears are slender and delicate, with a pale, almost luminescent hue that shifts in color with the wearer's emotions. These ears are incredibly sensitive, allowing the user to detect the faintest scents and sounds, guiding them with uncanny precision through the most treacherous of terrains."
+  },
+  "Frost_Crystal_Ears": {
+    "tags": [
+      "Ear",
+      "Frost",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Frost Crystal Ears are delicate, translucent appendages that shimmer with a cold, blue light, resembling delicate icicles. They tingle with the chill of winter and grant an uncanny ability to detect even the faintest of scents, carried on the biting winds of the arctic tundra."
+  },
+  "Summer_Flame_Ears": {
+    "tags": [
+      "Ear",
+      "Summer",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Emerging from the delicate, translucent skin of the Summer_Flame_Ears are vibrant, flickering embers that dance like fireflies within the soft, petal-like flaps of the ear, granting an uncanny ability to detect the faintest scents on the breeze and a natural resistance to the searing touch of flame."
+  },
+  "Tiny_Pixie_Ears": {
+    "tags": [
+      "Ear",
+      "Pixie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "These delicate, gossamer-soft pixie ears are barely larger than a thumb, with iridescent hues that shimmer like moonlight on water. They twitch and rotate with uncanny sensitivity, allowing the wearer to detect the faintest scents and sounds from all directions, enhancing agility and perception in the process."
+  },
+  "Grand_Archfae_Ears": {
+    "tags": [
+      "Ear",
+      "Archfae",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense",
+      "Charm"
+    ],
+    "description": "The Grand Archfae Ears are delicate yet formidable, with iridescent leaves that flutter and change color based on the wearer's emotions, granting an uncanny ability to sense the slightest movements and whispers of the earth, while also subtly charming those who notice their ethereal beauty."
+  },
+  "Kelpie_Water_Hearing_Ears": {
+    "tags": [
+      "Ear",
+      "Kelpie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Charm"
+    ],
+    "description": "The Kelpie_Water_Hearing_Ears are delicate yet resilient, shimmering like the surface of a moonlit lake under the faintest light. These ethereal appendages, capable of detecting the slightest vibrations in water, are adorned with iridescent scales that seem to pulse with a life of their own, granting the bearer an uncanny awareness and an almost hypnotic allure to those near the water's edge."
+  },
+  "Unseelie_Shadow_Ears": {
+    "tags": [
+      "Ear",
+      "Unseelie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Unseelie Shadow Ears are jet-black, adorned with intricate silver runes that seem to pulse with an otherworldly energy. They grant the bearer unparalleled stealth, allowing them to melt into the shadows, and a chilling presence that strikes fear into the hearts of those nearby."
+  },
+  "Bark_Root_Ear_Nubs": {
+    "tags": [
+      "Ear",
+      "Bark",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Bark_Root_Ear_Nubs are small, gnarled appendages that sprout directly from the skull, their surface rough and covered in thin bark, pulsating with an earthy vitality. These ear-like growths grant an uncanny ability to sense even the slightest tremors in the earth, alerting the bearer to hidden dangers and providing a keen awareness of their surroundings."
+  },
+  "Giant_Fae_Wide_Ears": {
+    "tags": [
+      "Ear",
+      "Giant",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Giant Fae Wide Ears are colossal, delicate structures that shimmer with an otherworldly luminescence, their intricate patterns and veins resembling the night sky. These ears not only capture the faintest whispers of the earth but also allow their bearers to sense the subtle tremors of movement and track the direction of distant sounds with uncanny precision."
+  },
+  "Sylph_Whisper_Ears": {
+    "tags": [
+      "Ear",
+      "Sylph",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Soft Step"
+    ],
+    "description": "Delicate, gossamer-like wings sprout from the edges of these elongated, pointed ears, allowing the wearer to hear the faintest rustles and whispers of the wind, while their touch to the ground is as light as a feather, granting unparalleled stealth and agility in the wilds."
+  },
+  "Autumn_Wraith_Ears": {
+    "tags": [
+      "Ear",
+      "Autumn",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Charm"
+    ],
+    "description": "Delicate and translucent like fallen leaves, the Autumn_Wraith_Ears shimmer with an ethereal glow, their intricate patterns shifting between shades of amber and rust as they pick up the whispers of the autumn wind, enhancing the wearer's ability to charm and ambush."
+  }
+}

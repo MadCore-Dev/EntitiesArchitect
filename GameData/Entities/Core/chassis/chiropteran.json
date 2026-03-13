@@ -1,0 +1,518 @@
+{
+  "Microchiropteran_Flight_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Microchiroptera",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight",
+      "Echolocation"
+    ],
+    "description": "Embedded within the creature's sleek, membranous wings, the Microchiropteran_Flight_Core pulses with an ethereal glow, allowing the wielder to soar through the night sky with unparalleled grace and silence, while its intricate neural network grants a keen echolocation ability, mapping the terrain with sonar precision."
+  },
+  "Megachiropteran_Fruit_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Megachiroptera",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Glide",
+      "Keen Sight"
+    ],
+    "description": "The Megachiropteran Fruit Bat Core is a pulsating, dark crimson organ embedded with delicate, gossamer-thin membranes that shimmer in the faintest light, humming with the creature\u2019s innate abilities. Its surface is cool to the touch, slightly moist and slick, and when integrated, it grants the user the grace of silent flight and the sharp vision of the nocturnal predator, though it comes at the cost of diminished physical strength."
+  },
+  "Vampire_Bat_Predator_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Vampire_Bat",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Vampire_Bat_Predator_Core is a pulsating, dark crimson orb encased in leathery membranes that ripple with the silent thrums of nocturnal wings, granting the wielder an eerie grace and the ability to slip through shadows unseen, while its tendrils of consciousness enhance agility and reflexes to near-supernatural levels."
+  },
+  "Bulldog_Bat_Fishing_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fishing_Bat",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Echolocation",
+      "Flight"
+    ],
+    "description": "The Bulldog_Bat_Fishing_Core is a sleek, obsidian core pulsating with an eerie luminescence, embedded with delicate, translucent membranes that shimmer like moonlit water. It grants the user unparalleled agility and acuity, allowing for silent, swift movements and the uncanny ability to navigate and strike with precision in the darkest of environments."
+  },
+  "Giant_Bat_War_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam",
+      "Intimidate"
+    ],
+    "description": "Embedded within the robust chest cavity of a colossal chiropteran, the Giant_Bat_War_Core pulses with an eerie luminescence, its slick, leather-like surface crisscrossed with veins that thrum with latent power, granting the behemoth the might to crush foes with a thunderous Body Slam while its wingspan remains an imposing presence that Intimidates all who dare to approach."
+  },
+  "Ghost_Bat_Carnivore_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ghost_Bat",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "The Ghost_Bat_Carnivore_Core is a hauntingly ethereal organ, pulsating with a faint, spectral glow that seems to absorb ambient light, rendering it nearly invisible in moonlit shadows. Its surface is cold to the touch, with a texture like fine, translucent membranes, and it grants the wielder the eerie abilities of a ghostly predator, silent and swift in the dead of night."
+  },
+  "Leaf_Nosed_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Leaf_Nosed",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Tracking",
+      "Flight"
+    ],
+    "description": "Embedded within the creature's heart, the Leaf_Nosed_Bat_Core pulsates with an eerie green light, its surface adorned with intricate cartilage structures resembling delicate leaves, enhancing its chiropteran form with an otherworldly elegance. This core grants unparalleled sensory acuity and aerial maneuverability, allowing the wielder to navigate through the darkest night with ease and track their prey with lethal precision."
+  },
+  "Horseshoe_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Horseshoe_Bat",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight",
+      "Flight"
+    ],
+    "description": "Embedded within the delicate framework of the horseshoe bat's ribcage, the Horseshoe_Bat_Core pulsates with a faint, bioluminescent glow, its intricate web of neural fibers and echolocation organs humming with an otherworldly resonance that enhances both the wearer's agility and perception, granting them the ability to navigate the darkest of realms with uncanny precision and speed."
+  },
+  "Armoured_Bone_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Armoured",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Flight",
+      "Block"
+    ],
+    "description": "Embedded within the Armoured_Bone_Bat_Core is a dense, calcified matrix of chitin and bone, resembling the inner structure of a massive, armoured bat, providing an innate layer of protection that resonates with a faint, eerie glow. Despite the added weight, the core's design optimizes for flight, enabling swift aerial maneuvers, yet slightly hinders agility on the ground."
+  },
+  "Venomous_Bite_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Venom_Gland",
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Flight",
+      "Drain"
+    ],
+    "description": "The Venomous_Bite_Bat_Core is a pulsating, iridescent orb embedded with sharp, retractable fangs that glow with a sickly green hue, radiating an aura of poisonous corruption. Its surface is cold to the touch, yet thrums with an energetic hum, granting unparalleled agility and dexterity to the host, while the fangs bestow the terrifying ability to poison and drain vitality from foes with a single piercing bite."
+  },
+  "Insectivore_Swift_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Insectivore",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Sprint",
+      "Echolocation"
+    ],
+    "description": "The Insectivore_Swift_Bat_Core is a sleek, lightweight component pulsating with an eerie luminescence, its intricate network of veins and chitin reflecting the shadows as it hums with the potential for swift aerial maneuvers and heightened sensory awareness."
+  },
+  "Tropical_Cave_Bat_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Cave",
+      "Chiropteran"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Ambush",
+      "Flight"
+    ],
+    "description": "The Tropical_Cave_Bat_Core is a pulsating, iridescent orb embedded within a leathery, membranous sheath, shimmering with hues of deep twilight and the faint echoes of ultrasonic frequencies. It feels cool to the touch, with an organic texture that quivers slightly as it processes sensory inputs, granting unparalleled agility and stealth capabilities to any creature wielding it."
+  }
+}

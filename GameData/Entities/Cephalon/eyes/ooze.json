@@ -1,0 +1,288 @@
+{
+  "Acid_Chemical_Eyes": {
+    "tags": [
+      "Eye",
+      "Acid",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Corrosion"
+    ],
+    "description": "The Acid Chemical Eyes pulsate with a sickly green glow, secreting a thin layer of corrosive acid that constantly eats away at the surrounding environment, leaving only charred and eroded remains. The eyes themselves are milky and opaque, yet grant an eerie clarity, enhancing the wearer's perception while simultaneously resisting the very acid that flows from them."
+  },
+  "Gelatin_Light_Sensing_Eyes": {
+    "tags": [
+      "Eye",
+      "Gelatin",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Gelatin_Light_Sensing_Eyes are amorphous, translucent orbs that pulse with a faint, bioluminescent glow, allowing the wielder to see through darkness and even solid objects, while the oozy, gelatinous nature grants resilience and adaptability."
+  },
+  "Necrotic_Hollows": {
+    "tags": [
+      "Eye",
+      "Necrotic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "The Necrotic_Hollows are sunken, milky orbs that pulsate with an otherworldly glow, their surfaces slick with a viscous, black ooze that seems to absorb light and life. When touched, the ooze feels cold and clammy, sending shivers down the spine, and those who dare to look into these hollows often feel an overwhelming sense of dread and fear."
+  },
+  "Magma_Heat_Eyes": {
+    "tags": [
+      "Eye",
+      "Magma",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Immolate"
+    ],
+    "description": "The Magma_Heat_Eyes are molten orbs that pulse with fiery red and orange hues, giving off a constant heat that warms the air around them. The surface of the eyes is slick with a black, viscous ooze that seems to shift and flow like the tides, and they grant the bearer an unsettling ability to see through smoke, darkness, and even flames, while also causing nearby enemies to suffer from searing burns."
+  },
+  "Void_Dark_Eyes": {
+    "tags": [
+      "Eye",
+      "Void",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Void_Dark_Eyes are obsidian orbs that seem to absorb all light around them, pulsating with a dark, viscous energy that feels like the void itself. When gazing into them, one feels a creeping sense of being watched from the shadows, as these eyes grant the beholder an uncanny ability to see in darkness and to blend into the night, making the possessor nearly invisible to the naked eye."
+  },
+  "Electric_Photo_Eyes": {
+    "tags": [
+      "Eye",
+      "Electric",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Shock Touch"
+    ],
+    "description": "The Electric_Photo_Eyes are amorphous orbs of shimmering, electric blue ooze that constantly pulse and flicker with a menacing energy, granting the wielder unparalleled night vision and the ability to deliver searing electric shocks with a mere touch."
+  },
+  "Ice_Crystal_Eyes": {
+    "tags": [
+      "Eye",
+      "Ice",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Slow"
+    ],
+    "description": "Embedded within the sockets, these eyes are crystalline structures that shimmer with a bluish-white light, their surface slick with a slow-moving, gelatinous ooze. The gaze of these eyes pierces through the veil of darkness, revealing hidden threats and slowing down enemies with an aura of freezing cold."
+  },
+  "Paralytic_Slit_Eyes": {
+    "tags": [
+      "Eye",
+      "Paralytic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Keen Sight"
+    ],
+    "description": "The Paralytic_Slit_Eyes are a pair of elongated, slit-like ocular organs that pulsate with an oily, viscous fluid, their surface shimmering with an eerie, bioluminescent glow. When focused on a target, these eyes can inject a paralyzing toxin that seeps into the victim's nervous system, immobilizing them, while the enhanced perception grants an almost supernatural awareness of the surrounding environment."
+  },
+  "Spore_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Spore",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Spore_Compound_Eyes are a cluster of obsidian-black orbs, each pulsating with an eerie bioluminescence, encased in a slimy, translucent membrane that secretes a noxious spore mist, enhancing vision in the darkest of environments while also granting a resistance to diseases and an acute awareness of one's surroundings."
+  },
+  "Ochre_Simple_Eyes": {
+    "tags": [
+      "Eye",
+      "Ochre",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Ochre Simple Eyes are a pair of gelatinous orbs, pulsating with an inner light that shifts between deep browns and ochres, their surface slick and cold to the touch, granting the bearer unparalleled vision through dim and murky conditions while also providing a measure of protection against acid-based attacks."
+  },
+  "Black_Pudding_Eyes": {
+    "tags": [
+      "Eye",
+      "Black_Pudding",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Corrosion"
+    ],
+    "description": "Set in the abyssal recesses of a cavernous dungeon, the Black Pudding Eyes are obsidian orbs that ooze with malevolent intent, their surface slick and acidic, capable of seeing through the darkness and corruption with eerie clarity."
+  },
+  "Eldritch_Many_Eyes": {
+    "tags": [
+      "Eye",
+      "Eldritch",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Petrify",
+      "Madness Aura",
+      "Fear"
+    ],
+    "description": "The Eldritch_Many_Eyes is a grotesque, pulsating orb adorned with countless swirling eyes of every color, each one gazing in a different direction. Its surface is slick and slimy, shifting and oozing as if it were an entity with a mind of its own, and its mere presence fills nearby creatures with an overwhelming sense of dread and madness."
+  }
+}

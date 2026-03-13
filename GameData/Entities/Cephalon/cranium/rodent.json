@@ -1,0 +1,371 @@
+{
+  "Elongated_Gnathic_Cranium": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Rodent",
+      "Gnathic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch"
+    ],
+    "description": "The Elongated_Gnathic_Cranium is a grotesque, rodent-like skull with elongated, sharp incisors that jut out like menacing daggers, giving the wielder a brutal advantage in close combat with the ability to deliver bone-crushing bites."
+  },
+  "Broad_Fossorial_Skull": {
+    "tags": [
+      "Cranium",
+      "Broad",
+      "Rodent",
+      "Fossorial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Broad_Fossorial_Skull is a massive, flattened head covered in thick, bristly fur, with powerful jaw muscles that ripple beneath the surface, granting the wielder an acute sense of tremors and vibrations beneath the earth, though it slightly narrows their visual acuity in the process."
+  },
+  "Compact_Murid_Cranium": {
+    "tags": [
+      "Cranium",
+      "Compact",
+      "Rodent"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Compact_Murid_Cranium is a diminutive, sleek rodent cranium encased in a hard, glossy shell, its intricate neural pathways granting heightened perception and an uncanny ability to detect hidden threats in the darkest corners of the world."
+  },
+  "Pachycephalic_Gnawer_Skull": {
+    "tags": [
+      "Cranium",
+      "Pachycephalic",
+      "Rodent",
+      "Crushing"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "description": "The Pachycephalic_Gnawer_Skull is a thick, dome-shaped cranium covered in rough, bony protrusions, resembling a scaled-up rodent head. Its robust structure grants immense resilience and the ability to deliver devastating headbutts, though it slightly dulls the wearer's intellect."
+  },
+  "Wide_Set_Prey_Skull": {
+    "tags": [
+      "Cranium",
+      "Wide",
+      "Rodent",
+      "Prey_Animal"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Wide_Set_Prey_Skull, a cranium of exaggerated proportions with wide-set eyes, resembles that of a fearsome rodent, its hollow sockets gleaming with an eerie intelligence that grants heightened vigilance and an uncanny ability to evade danger, enhancing one's perception and agility in the treacherous realms of Project Apotheosis."
+  },
+  "Vestigial_Eye_Cave_Skull": {
+    "tags": [
+      "Cranium",
+      "Cave",
+      "Rodent",
+      "Blind"
+    ],
+    "slots": {
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "10"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Echolocation"
+    ],
+    "description": "Embedded within the rugged, calcite-encrusted cranium is a tiny, vestigial eye, milky and opaque, pulsating faintly with an otherworldly glow. Though blind to the world above, this eye grants an uncanny sense of tremors and vibrations, allowing one to navigate the deepest, darkest caverns with the precision of a cave-dwelling rodent."
+  },
+  "Elongated_Proboscis_Skull": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Rodent",
+      "Proboscis"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking",
+      "Scent"
+    ],
+    "description": "The Elongated_Proboscis_Skull is a grotesque amalgamation of rodent and insect features, with an elongated cranium crowned by a sharp, proboscis-like snout that quivers and twitches, constantly sampling the air for the faintest trace of scent or sound."
+  },
+  "Rounded_Arboreal_Braincase": {
+    "tags": [
+      "Cranium",
+      "Rounded",
+      "Rodent",
+      "Arboreal"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Rounded_Arboreal_Braincase is a spherical, gnarled cranium covered in a mosaic of bark and leaves, resembling a small, arboreal rodent's head. Its surface is rough and textured, with small twigs and branches intertwining around the openings of its senses, granting the bearer an uncanny ability to spot movement and details from great distances amidst the foliage."
+  },
+  "Flattened_Riparian_Skull": {
+    "tags": [
+      "Cranium",
+      "Flattened",
+      "Rodent",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Flattened_Riparian_Skull is a sleek, elongated cranium that has been purposefully flattened, its surface smooth and slightly slick to the touch, suggesting a lifetime spent in an aquatic environment. This eerie relic of a creature, akin to a rodent adapted for water, grants enhanced perception and stealth abilities, allowing its bearer to move silently and observe keenly through even the murkiest waters."
+  },
+  "Hystricomorphic_Bulk_Skull": {
+    "tags": [
+      "Cranium",
+      "Hystricomorphic",
+      "Rodent",
+      "Heavy"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw"
+    ],
+    "description": "The Hystricomorphic_Bulk_Skull is a massive, gnarled rodent cranium with teeth that seem to grow endlessly, capable of chewing through the toughest materials. Its thick, reinforced bone structure not only provides formidable protection but also grants the wielder enhanced physical resilience and strength."
+  },
+  "Necrotic_Diseased_Skull": {
+    "tags": [
+      "Cranium",
+      "Diseased",
+      "Rodent",
+      "Necrotic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Necrotic_Diseased_Skull is a twisted, rotting cranium of a once-living rodent, its surface etched with dark runes that pulse with an eerie, diseased energy, causing an unsettling chill and a creeping sense of dread in those who come too close."
+  },
+  "Elongated_Agile_Cursorial_Skull": {
+    "tags": [
+      "Cranium",
+      "Cursorial",
+      "Rodent",
+      "Lightweight"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Elongated_Agile_Cursorial_Skull is a slender, elongated rodent cranium, with razor-sharp incisors that gleam menacingly in the dim light. Its lightweight structure is filled with large, sensitive eyesockets that grant unparalleled peripheral vision, allowing for swift evasion and acute awareness of one's surroundings."
+  }
+}

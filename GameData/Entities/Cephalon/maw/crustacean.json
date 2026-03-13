@@ -1,0 +1,242 @@
+{
+  "Mandible_Oral_Apparatus": {
+    "tags": [
+      "Maw",
+      "Mandible",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Bite"
+    ],
+    "description": "The Mandible_Oral_Apparatus is a fearsome, chitinous mouthpiece bristling with razor-sharp pincers that snap and gnash with bone-crushing force, granting its wielder the terrifying ability to bite through steel and crush skulls with ease, while bolstering their strength to rend foes apart."
+  },
+  "Filter_Feeding_Fan_Maw": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Crustacean",
+      "Sessile"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature\u2019s leathery exoskeleton, the Filter_Feeding_Fan_Maw appears as a semi-circular, translucent organ adorned with delicate, feathery tendrils that rhythmically flutter to sieve nutrients from the murky water. Its surface is cold and slick to the touch, vibrating subtly as it strains organic matter from the currents, granting the bearer a robust constitution."
+  },
+  "Chelicerate_Piercing_Maw": {
+    "tags": [
+      "Maw",
+      "Chelicerate",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pierce",
+      "Bite"
+    ],
+    "description": "The Chelicerate Piercing Maw is a fearsome, razor-sharp appendage that resembles a massive crustacean claw, covered in barbed spines and dripping with a venomous saliva. Its texture is cold and slick, with an eerie luminescence emanating from within, hinting at the pain and terror it brings to its victims."
+  },
+  "Serrated_Crushing_Mandibles": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Serrated Bite"
+    ],
+    "description": "The Serrated_Crushing_Mandibles are massive, chitinous pincers that gleam with a menacing metallic sheen, their edges lined with razor-sharp teeth capable of tearing through bone and steel with ease. When wielded, they exude an aura of raw power, significantly bolstering the bearer's strength and granting them the terrifying Crunch and Serrated Bite abilities."
+  },
+  "Venomous_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Embedded within the creature's formidable jaws are razor-sharp fangs that glisten with a sickly green hue, their surfaces slick with a viscous venom that crackles with dark energy, ready to inject a deadly dose with a mere snap of the mandibles."
+  },
+  "Acid_Spitting_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spitting_Maw is a grotesque, chitinous appendage lined with razor-sharp teeth and a pair of pulsating, venomous glands that secrete a corrosive acid, ready to spray at a moment's notice. Its texture is slick and cold to the touch, and the maw's constant dripping creates a hissing sound as the acid eats away at the surrounding environment."
+  },
+  "Suction_Tube_Maw": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Crustacean",
+      "Parasitic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Suction Grip"
+    ],
+    "description": "Embedded within the gnarled exoskeleton, the Suction_Tube_Maw is a grotesque, pulsating organ that resembles a twisting, malleable tube lined with rows of sharp, inward-curving teeth. Its surface is slick and cold to the touch, capable of extending and retracting with alarming speed to latch onto flesh, draining vitality and strength with a bone-chilling suction."
+  },
+  "Bioluminescent_Lure_Maw": {
+    "tags": [
+      "Maw",
+      "Bioluminescent",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Maw is a gaping, dark cavern of a mouth lined with delicate, pulsating tendrils that glow with an eerie, blue-green light, drawing prey into a deadly embrace with its mesmerizing dance of light and shadow."
+  },
+  "Mantis_Strike_Jaw": {
+    "tags": [
+      "Maw",
+      "Strike",
+      "Crustacean",
+      "Mantis_Shrimp"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Jaw Snap"
+    ],
+    "description": "The Mantis_Strike_Jaw is a jagged, chitinous appendage that juts forward from the creature's face, resembling the powerful claws of a mantis shrimp. Its surface glimmers with an iridescent sheen, and when flexed, it emits a menacing, clicking sound that promises crushing force."
+  },
+  "Wide_Scavenger_Maw": {
+    "tags": [
+      "Maw",
+      "Wide",
+      "Crustacean",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Wide_Scavenger_Maw is a gaping, chitinous orifice lined with countless sharp, inward-curving teeth that scrape against each other with a rasping sound as the creature scavenges, its powerful mandibles snapping and tearing through refuse with ease."
+  },
+  "Coral_Gnawer_Maw": {
+    "tags": [
+      "Maw",
+      "Gnawing",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw",
+      "Crunch"
+    ],
+    "description": "The Coral_Gnawer_Maw is a grotesque, chitinous appendage lined with razor-sharp, interlocking teeth that curve inward like a coral cave, designed to trap and shred prey with relentless gnawing and crushing force."
+  },
+  "Electric_Discharge_Maw": {
+    "tags": [
+      "Maw",
+      "Electric",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Maw is a fearsome, chitinous appendage that juts from the creature\u2019s mouth, crackling with blue energy and capable of delivering a paralyzing shock with a mere touch. Its surface is slick and cold to the touch, and the air around it sizzles with static, making it an intimidating and potent weapon in close combat."
+  }
+}

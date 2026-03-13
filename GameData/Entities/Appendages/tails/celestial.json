@@ -1,0 +1,307 @@
+{
+  "Solar_Radiant_Tail": {
+    "tags": [
+      "Tail",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Tail Whip"
+    ],
+    "description": "The Solar Radiant Tail is a magnificent appendage, shimmering with the golden hues of the noon sun, capable of emitting blinding bursts of light while its whip-like form strikes with devastating precision."
+  },
+  "Lunar_Silver_Tail": {
+    "tags": [
+      "Tail",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Lunar_Silver_Tail is a slender appendage shimmering with an ethereal silver light, its surface cold to the touch yet oddly soothing. As the moon waxes and wanes, the tail's length and luminosity change, enhancing the wielder's ability to charm and evade danger."
+  },
+  "Guardian_Smite_Tail": {
+    "tags": [
+      "Tail",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Tail Club"
+    ],
+    "description": "The Guardian_Smite_Tail is a luminescent appendage, tipped with a crystalline club that crackles with divine energy, capable of delivering devastating blows imbued with holy wrath. Its presence radiates a calming aura of protection, while its touch can smite malevolent entities with righteous force."
+  },
+  "Storm_Lightning_Tail": {
+    "tags": [
+      "Tail",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tail Whip"
+    ],
+    "description": "The Storm_Lightning_Tail is a serpentine appendage writhing with crackling blue energy, its segmented body shimmering with the faint glow of distant stars, capable of delivering paralyzing shocks and ensnaring foes with each whip-like strike."
+  },
+  "Cherub_Adorned_Tail": {
+    "tags": [
+      "Tail",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "A delicate, feathered tail adorned with tiny, glowing cherubs that seem to hum softly with celestial energy, swaying gracefully to enhance the wielder's agility and charisma, drawing eyes and hearts wherever it goes."
+  },
+  "Seraph_Divine_Tail": {
+    "tags": [
+      "Tail",
+      "Seraph",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Charm"
+    ],
+    "description": "The Seraph_Divine_Tail is a magnificent appendage, shimmering with ethereal light that pulses in harmony with the bearer's emotions, granting them an otherworldly allure and the ability to cast a radiant burst of holy energy that can both awe and charm their adversaries."
+  },
+  "Planetar_War_Tail": {
+    "tags": [
+      "Tail",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Knockback",
+      "Smite"
+    ],
+    "description": "The Planetar_War_Tail is a fearsome appendage, thick and corded with celestial energy, radiating an aura of divine wrath. It ends in a spiked club, capable of delivering devastating blows that send foes reeling with each empowered strike."
+  },
+  "Deva_Arcane_Tail": {
+    "tags": [
+      "Tail",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Smite"
+    ],
+    "description": "The Deva_Arcane_Tail is a graceful, ethereal appendage adorned with shimmering, iridescent scales that pulse with arcane energy. When wielded, it grants the user an extended reach and the ability to unleash radiant bursts of holy magic, perfect for smiting foes from a distance."
+  },
+  "Knight_Armored_Tail": {
+    "tags": [
+      "Tail",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Block"
+    ],
+    "description": "The Knight_Armored_Tail is a formidable appendage, resembling a thick, segmented tail clad in gleaming silver plates that shimmer with celestial runes. Each segment is reinforced with an otherworldly energy, granting the wielder unparalleled balance and defensive capabilities."
+  },
+  "Nature_Archon_Root_Tail": {
+    "tags": [
+      "Tail",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Nature_Archon_Root_Tail is a serpentine appendage that writhes with the vitality of ancient forests, its bark-like skin tinged with luminescent green veins. When deployed, it can ensnare and constrict foes with the relentless force of nature itself, granting its bearer both increased strength and reach."
+  },
+  "Light_Elemental_Tail": {
+    "tags": [
+      "Tail",
+      "Light",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst"
+    ],
+    "description": "The Light Elemental Tail is a luminous appendage, shimmering with an ethereal glow that seems to pulse in time with the rhythm of celestial bodies, granting its bearer a serene yet formidable presence and enhancing their agility and resistance to radiant attacks."
+  },
+  "Ancient_God_Divine_Tail": {
+    "tags": [
+      "Tail",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Ensnare",
+      "Knockback",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient_God_Divine_Tail is a serpentine appendage covered in shimmering scales that pulse with an ethereal light, granting its bearer a commanding presence and the ability to unleash divine wrath upon their foes."
+  }
+}

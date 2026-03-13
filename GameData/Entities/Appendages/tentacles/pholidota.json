@@ -1,0 +1,270 @@
+{
+  "Elongated_Sticky_Tongue_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Sticky_Tongue",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The elongated sticky tongue tendrils are sinuous and covered in minute, barbed scales that give them an almost serpentine appearance, allowing them to not only lash out with incredible speed but also to ensnare prey and drag them towards their owner's maw."
+  },
+  "Razor_Barb_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Razor",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Slam"
+    ],
+    "description": "Razor_Barb_Tendril tendrils writhe like living shadows, covered in sharp, overlapping scales that shimmer with a sinister iridescence, each one capable of extending and retracting with uncanny speed to ensnare or slice through prey with brutal efficiency."
+  },
+  "Venomous_Spur_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the creature's forelimbs, the venomous spurs are a cluster of serpentine tendrils, each covered in jagged scales that rattle ominously as they coil and uncoil with preternatural speed, capable of delivering a paralyzing sting or injecting a potent venom with a single, swift strike."
+  },
+  "Acid_Spray_Scale_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the creature's armored hide are writhing tentacles tipped with segmented, translucent scales that shimmer with a sickly green glow. When flexed, these tendrils can unleash a corrosive spray of acid, capable of eating through metal and flesh alike, while their added reach grants a menacing advantage in combat."
+  },
+  "Electrosensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Electrosensory_Filaments are delicate, shimmering tendrils that coil and pulse with a faint, iridescent glow, their intricate network of sensory nodes allowing the user to detect the slightest electrical currents and subtle vibrations in the environment, enhancing their awareness and reflexes in the most treacherous of terrains."
+  },
+  "Musk_Spray_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Musk",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Twisting, serpentine tendrils emerge from the creature's flanks, each tipped with a dark, bulbous gland that can unleash a noxious spray capable of inducing paralyzing fear, while their scaly, armored bodies provide a degree of protection and menace."
+  },
+  "Necrotic_Drain_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Pholidota",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain"
+    ],
+    "description": "Necrotic_Drain_Filaments are sinuous, blackened tentacles coated in chitin-like scales, pulsating with a sickly green light as they secrete a viscous, necrotic ooze that drains life energy from any living creature they touch."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Magnetic_Sensory_Filaments are delicate, metallic-feeling tendrils that coil and uncoil with the earth's magnetic fields, enhancing the wearer's awareness of nearby tremors and providing an uncanny ability to navigate through even the densest forests or most labyrinthine ruins."
+  },
+  "Constricting_Scale_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Constricting",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "The Constricting_Scale_Tendrils are serpentine appendages covered in jagged, overlapping scales that shimmer with an iridescent sheen. These formidable tendrils can extend and coil around prey with bone-crushing strength, their rough surface providing an unyielding grip."
+  },
+  "Bioluminescent_Scale_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Twisting and writhing, the Bioluminescent_Scale_Tendrils are a mesmerizing array of translucent, glowing scales that form into sinuous tentacles, each one pulsating with eerie light that can momentarily paralyze prey with a hypnotic gaze and a chilling touch."
+  },
+  "Electric_Discharge_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Sinuous and shimmering, the Electric_Discharge_Tendrils are covered in sleek scales that pulse with blue energy, their elongated form granting the wielder an extended reach and the ability to deliver paralyzing shocks with a mere touch."
+  },
+  "Prehensile_Scale_Strips": {
+    "tags": [
+      "Tentacles",
+      "Prehensile",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "Twisting and sleek, the prehensile scale strips are a series of articulated, segmented tentacles covered in shimmering, interlocking scales that slide fluidly over one another, granting them an uncanny grip and the ability to ensnare foes with deadly precision."
+  }
+}

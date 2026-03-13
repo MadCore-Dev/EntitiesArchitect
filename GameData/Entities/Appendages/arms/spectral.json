@@ -1,0 +1,328 @@
+{
+  "Wraith_Drain_Arms": {
+    "tags": [
+      "Arms",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ensnare",
+      "Ambush"
+    ],
+    "description": "Wraith_Drain_Arms are spectral appendages that shimmer with an ethereal glow, their translucent fingers able to phase through solid objects. These ghostly arms wrap around their target with an unnerving chill, draining life force while ensnaring the victim in a web of spectral energy."
+  },
+  "Banshee_Wail_Arms": {
+    "tags": [
+      "Arms",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Paralyze"
+    ],
+    "description": "Banshee_Wail_Arms are ghostly appendages that shimmer with an ethereal glow, their fingers elongated and tapering into sharp, whispering tendrils that seem to echo a mournful wail when they brush against the air."
+  },
+  "Lich_Bony_Arms": {
+    "tags": [
+      "Arms",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Slam",
+      "No Pain"
+    ],
+    "description": "Bony arms emerge from a shroud of mist, their skeletal structure translucent and ghostly, seeming to pulse with a sickly green energy. They move with an unnatural fluidity, capable of both grasping and slamming with bone-crushing force, yet feel no pain themselves, absorbing the damage inflicted upon them."
+  },
+  "Ghost_Phase_Arms": {
+    "tags": [
+      "Arms",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Ghost_Phase_Arms appear as translucent limbs, flickering like candle flames in the wind, their touch leaves an icy chill that drains the warmth and vitality from the air around them, while a palpable aura of dread and madness emanates from their spectral form, causing fear to well up in the hearts of those nearby."
+  },
+  "Revenant_Grasping_Arms": {
+    "tags": [
+      "Arms",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Drain",
+      "No Pain",
+      "Ensnare"
+    ],
+    "description": "Emerging from a haze of cold mist, the Revenant Grasping Arms are long, sinuous appendages that seem to pulse with a sickly, otherworldly energy. Cold to the touch, they wrap around prey with bone-chilling strength, capable of ensnaring and draining vitality while ignoring the physical pain that would cripple lesser foes."
+  },
+  "Shadow_Dark_Arms": {
+    "tags": [
+      "Arms",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Dark_Arms are ghostly appendages that seem to pulse with an otherworldly darkness, their touch numbing and chilling to the bone. They blend seamlessly into the shadows, granting their wielder the perfect cover for a silent approach or sudden attack, and their presence alone can send shivers of dread through the hearts of the unwary."
+  },
+  "Soul_Devourer_Arms": {
+    "tags": [
+      "Arms",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Paralyze"
+    ],
+    "description": "The Soul_Devourer_Arms are ghostly pale, with joints that glow faintly with an ethereal blue light, and they feel cold to the touch, as if they are constantly absorbing warmth from the environment. When extended, these spectral limbs extend the wearer\u2019s reach significantly, allowing them to paralyze and drain the life essence from foes at a distance, leaving a trail of spectral energy in their wake."
+  },
+  "NightHag_Grasping_Arms": {
+    "tags": [
+      "Arms",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Drain"
+    ],
+    "description": "The NightHag_Grasping_Arms are ghostly appendages that shimmer with an eerie, bluish hue, their fingers long and sinewy, capable of snaking through solid objects to snatch at unsuspecting prey. The touch of these arms is both chillingly cold and inexplicably seductive, leaving victims momentarily charmed and paralyzed as their life force is slowly drained away."
+  },
+  "Wisp_Null_Arms": {
+    "tags": [
+      "Arms",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Wisp_Null_Arms appear as ghostly, semi-transparent limbs that shimmer with an eerie, blue-white light, their movements fluid and ethereal, as if they are constantly dissolving and reforming. They emit a cold, numbing aura that can instill a sense of dread and paralysis in those who come too close, making them both an offensive and defensive asset in the darkest of battles."
+  },
+  "Specter_Chill_Arms": {
+    "tags": [
+      "Arms",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Slow",
+      "Ensnare"
+    ],
+    "description": "Specter_Chill_Arms are ghostly appendages that shimmer with a faint, icy blue glow, their spectral fingers capable of piercing through solid objects to grip and ensnare foes, while a chilling aura emanates from them, slowing and draining the life force of anyone within reach."
+  },
+  "Phantom_Touch_Arms": {
+    "tags": [
+      "Arms",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "Phantom_Touch_Arms appear as ghostly, semi-transparent limbs that seem to shimmer and fade at the edges, as if they are always on the brink of vanishing into thin air. When touched, the sensation is chilling, like a cold wind brushing against your skin, leaving a lingering numbness that can sap your will and strength."
+  },
+  "Arch_Specter_Ancient_Arms": {
+    "tags": [
+      "Arms",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Grapple",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Ancient_Arms are ethereal limbs wreathed in a faint, cold glow, their translucent fingers elongated and tipped with sharp, spectral talons. As they move, they leave trails of icy vapor, and the air around them shivers with an unsettling, otherworldly presence that can pierce even the stoutest of souls."
+  }
+}

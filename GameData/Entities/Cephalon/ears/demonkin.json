@@ -1,0 +1,295 @@
+{
+  "Pit_Fiend_Swept_Horns_Ears": {
+    "tags": [
+      "Ear",
+      "Fire",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense"
+    ],
+    "description": "Bristling with jagged black spikes, the Pit Fiend Swept Horns Ears are a twisted, serpentine appendage that twitches and writhes like living tendrils, their inner membranes glowing with a flickering infernal flame, granting the bearer an uncanny ability to sense approaching danger and the faint tremors of hidden foes while offering protection from the fiery onslaughts of hellish adversaries."
+  },
+  "Balor_Roar_Ears": {
+    "tags": [
+      "Ear",
+      "Balor",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Intimidate"
+    ],
+    "description": "Tattered and leathery, the Balor_Roar_Ears are a pair of immense, bat-like appendages that twitch and ripple with an almost sentient malevolence, granting the wearer an uncanny ability to sense even the slightest tremors and an aura of primal fear that intimidates all who behold them."
+  },
+  "Succubus_Attuned_Ears": {
+    "tags": [
+      "Ear",
+      "Charm",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "The Succubus Attuned Ears are delicate yet sinister, with elongated earlobes that flicker subtly in response to the emotional frequencies of those around them. Their velvety texture seems to pulse with an otherworldly warmth, and they grant an uncanny ability to both charm and detect the deepest desires and fears of others."
+  },
+  "Ice_Devil_Faceted_Ears": {
+    "tags": [
+      "Ear",
+      "Ice",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Faceted ears, resembling shards of frosted glass, glisten with an eerie blue light, their crystalline structure humming with a low, rhythmic vibration that enhances the wearer's ability to sense tremors and pinpoint the location of distant threats."
+  },
+  "Bone_Devil_Hollow_Ears": {
+    "tags": [
+      "Ear",
+      "Bone",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "The Bone_Devil_Hollow_Ears are eerie, translucent bone structures that resemble elongated, twisted horns protruding from the sides of a demonkin's head. They vibrate with an unsettling hum when the creature senses nearby tremors or perceives hidden threats, and their hollow interiors seem to amplify the whispers of fear they instill in others."
+  },
+  "Shadow_Demon_Null_Ears": {
+    "tags": [
+      "Ear",
+      "Shadow",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Soft Step"
+    ],
+    "description": "These ears are pitch-black and seem to absorb all light around them, making the wearer nearly invisible in dimly lit areas. They twitch sharply at the slightest sound, granting acute awareness of one\u2019s surroundings, while their soft, velvety texture allows for silent movement, perfect for those who wish to remain undetected."
+  },
+  "Acid_Demon_Dissolved_Ears": {
+    "tags": [
+      "Ear",
+      "Acid",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Acid Demon Dissolved Ears, slick and gelatinous, pulsate with a sickly green hue, their fluid form constantly shifting as if struggling to maintain coherence. They grant an eerie, underground awareness, allowing the bearer to sense subtle vibrations and movements, while imparting a resistance to the corrosive bites of subterranean foes."
+  },
+  "Plague_Infested_Ears": {
+    "tags": [
+      "Ear",
+      "Plague",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Tattered and blackened, the Plague_Infested_Ears resemble rotting flesh with sharp, piercing points that constantly emit an eerie, low-frequency hum, granting the bearer an acute awareness of nearby tremors and diseased threats."
+  },
+  "Marilith_Serpent_Pit_Ears": {
+    "tags": [
+      "Ear",
+      "Marilith",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "The Marilith_Serpent_Pit_Ears are serpentine tendrils that coil around the sides of the head, flickering and tasting the air with forked tongues, granting their bearer an uncanny ability to track movement and direction with eerie precision, even in complete darkness."
+  },
+  "Imp_Twitching_Ears": {
+    "tags": [
+      "Ear",
+      "Imp",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Keen Hearing",
+      "Ambush"
+    ],
+    "description": "The Imp_Twitching_Ears are small, leathery appendages that quiver and twist with a life of their own, their sharp points constantly flicking to catch the slightest sound. Their dark, almost obsidian color contrasts sharply with the wearer's skin, and they grant an uncanny ability to pinpoint the exact location of any nearby creature, enhancing both agility and perception in the shadows."
+  },
+  "Djinn_Wind_Hearing_Ears": {
+    "tags": [
+      "Ear",
+      "Djinn",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense"
+    ],
+    "description": "Tapered and slender, these ears are translucent and shimmer with an ethereal blue light, allowing the wearer to hear the whisper of the wind from miles away and detect the slightest tremor beneath the earth, enhancing their perception and charisma in the presence of elemental forces."
+  },
+  "Archdevil_Ancient_Ears": {
+    "tags": [
+      "Ear",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Blindsight",
+      "Tremor Sense",
+      "Magic Resistance"
+    ],
+    "description": "The Archdevil_Ancient_Ears are vast, leathery appendages adorned with twisted, barbed helixes that curl menacingly from the skull, radiating an aura of malevolent power. These ears pulse with an ethereal glow when detecting magical energies or faint tremors, granting their bearer unparalleled sensory acuity in the darkest, most treacherous environments."
+  }
+}

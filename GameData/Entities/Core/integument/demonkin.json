@@ -1,0 +1,317 @@
+{
+  "Fire_Demon_Scales": {
+    "tags": [
+      "Integument",
+      "Fire_Scale",
+      "Demonkin",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Natural Armor"
+    ],
+    "description": "The Fire_Demon_Scales glisten with an otherworldly red hue that seems to pulse with inner flames, casting an eerie glow in the darkness. Each scale is jagged and sharp, yet imbued with a resilient, rubbery texture that defies its fiery appearance, offering a formidable natural armor against attacks while bestowing upon the bearer an aura of relentless heat and smoldering danger."
+  },
+  "Ice_Devil_Carapace": {
+    "tags": [
+      "Integument",
+      "Ice_Carapace",
+      "Demonkin",
+      "Ice"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slow"
+    ],
+    "description": "The Ice_Devil_Carapace is a chitinous exoskeleton forged from frost-touched essence, shimmering with a cold, blue glow that seems to suck warmth from the air. Its surface is etched with intricate demonic sigils that pulse with chilling energy, granting the bearer an impenetrable shield of ice and an unnerving presence that slows the unwary."
+  },
+  "Bone_Devil_Skeleton": {
+    "tags": [
+      "Integument",
+      "Bone_Skeleton",
+      "Demonkin",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Natural Armor"
+    ],
+    "description": "The Bone_Devil_Skeleton is a nightmarish amalgamation of jagged, dark bone that seems to emit an aura of perpetual dread, its joints creaking in unsettling harmony with the whispers of despair. Its surface is cold and unyielding, resisting the most vicious attacks with a natural resilience that belies its frail appearance, while its very presence instills an overwhelming sense of fear in any living creature that dares to approach."
+  },
+  "Succubus_Silken_Skin": {
+    "tags": [
+      "Integument",
+      "Silken_Skin",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Drain"
+    ],
+    "description": "The Succubus_Silken_Skin is a lustrous, almost iridescent layer of skin that shimmers in the dim light, its surface soft and inviting to the touch, capable of wrapping the mind of any beholder in a web of seductive allure and whispers of forbidden pleasure."
+  },
+  "Shadow_Demon_Void_Body": {
+    "tags": [
+      "Integument",
+      "Void_Body",
+      "Demonkin",
+      "Shadow"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Invisible",
+      "Drain"
+    ],
+    "description": "The Shadow_Demon_Void_Body is a chitinous exoskeleton that shifts and fades like the darkest night, granting the wearer unparalleled stealth and the ability to drain life from those who dare to pursue them."
+  },
+  "Plague_Demon_Rot_Flesh": {
+    "tags": [
+      "Integument",
+      "Rot_Flesh",
+      "Demonkin",
+      "Plague"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Plague Demon Rot Flesh is a withered, necrotic appendage that pulses with an oily, green-black ichor. Its surface is pitted and scarred, oozing a sickly sweet, infectious miasma that causes fear and spreads disease with every movement."
+  },
+  "Acid_Ooze_Demon_Skin": {
+    "tags": [
+      "Integument",
+      "Acid_Skin",
+      "Demonkin",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Natural Armor"
+    ],
+    "description": "The Acid_Ooze_Demon_Skin is a malleable, slime-like exoskeleton that constantly shifts and pulses with a sickly green hue, emitting a faint, acrid smell. When touched, it feels cold and slick, with a texture that seems to melt and reform around the touch, granting the bearer enhanced resistance to acid attacks and providing a natural layer of armor."
+  },
+  "Marilith_Scaled_Hide": {
+    "tags": [
+      "Integument",
+      "Scaled_Hide",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Constrict"
+    ],
+    "description": "The Marilith's Scaled Hide is a deep, iridescent crimson, shifting hues as it moves, covered in overlapping scales that seem to pulse with malevolent energy. Its surface is both soft to the touch and incredibly resilient, providing a natural barrier that deflects even the sharpest of blades."
+  },
+  "Imp_Leathery_Skin": {
+    "tags": [
+      "Integument",
+      "Leathery_Skin",
+      "Demonkin",
+      "Imp"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Imp_Leathery_Skin is a tough, almost parchment-like hide that clings tightly to the imp's sinuous frame, providing an innate resilience against physical attacks while its flexibility allows for the demonkin's acrobatic movements, granting both defensive and agile benefits."
+  },
+  "Djinn_Spirit_Mist_Body": {
+    "tags": [
+      "Integument",
+      "Mist_Body",
+      "Demonkin",
+      "Djinn"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Charm"
+    ],
+    "description": "The Djinn_Spirit_Mist_Body is a shimmering, ethereal form that shifts and dances like smoke, its fluid contours making it nearly impossible to grasp or harm. With a mere flick of its ghostly tendrils, it can hover gracefully through the air, its presence leaving others in a state of awe and enchantment, their resolve weakened by the otherworldly allure."
+  },
+  "Balor_Inferno_Blazing_Body": {
+    "tags": [
+      "Integument",
+      "Blazing_Body",
+      "Demonkin",
+      "Balor"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Natural Armor",
+      "Fear"
+    ],
+    "description": "The Balor Inferno Blazing Body is a charring exoskeleton that pulses with an otherworldly red glow, its surface slick with a molten resin that hisses as it meets water. Each movement sends waves of oppressive heat and terror radiating outward, incinerating foes and hardening the demonkin's resolve against the flames."
+  },
+  "Archdevil_Ancient_Scales": {
+    "tags": [
+      "Integument",
+      "Ancient_Scales",
+      "Demonkin",
+      "Archdevil"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "magic_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Magic Resistance",
+      "Fear"
+    ],
+    "description": "The Archdevil_Ancient_Scales, a relic of infernal craftsmanship, glistens with a dark, oily sheen that shifts between deep crimson and obsidian. Each scale is as hard as obsidian and etched with arcane runes that pulse with an unsettling, ethereal light, granting the wearer a sense of invincibility and dread."
+  }
+}

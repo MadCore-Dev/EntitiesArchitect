@@ -1,0 +1,345 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Soft Step"
+    ],
+    "description": "The Membrane_Glide_Wings are a pair of sleek, semi-translucent wings that resemble those of a mutant weasel, capable of folding tightly against the body or spreading wide for silent gliding through the night sky. Each wing is covered in fine, soft fur that muffles sound and movement, granting the user the ability to move through dense underbrush without disturbing a leaf, while also allowing them to evade attacks with unnatural grace."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "Emerging from a twisted fusion of mustelid anatomy and avian grace, the Feathered_Mutant_Wings are a marvel of dark, barbed feathers that ruffle and stretch with a sinister elegance, granting their bearer the ability to soar through the air with unparalleled agility and evasive maneuvers."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight",
+      "Hover"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are a pair of leathery, dark membranous wings, their edges fringed with sharp, spiky quills that resemble those of a mutant mustelid. These wings enable silent, gliding flight and precise hovering, granting unparalleled agility and evasion, though they slightly hinder the natural armor of the bearer."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Mustelid",
+      "Lightweight"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are delicate yet resilient, resembling the sleek and elongated limbs of a weasel but expanded into a lattice of hollow, lightweight bones filled with a gaseous substance that allows for effortless gliding and intricate aerial maneuvers."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "Thermal_Soaring_Wings are a marvel of evolutionary adaptation, featuring a sleek, elongated mustelid design with feathers that shimmer in shades of obsidian and silver, perfectly honed for catching thermals and executing acrobatic maneuvers with grace and precision."
+  },
+  "Insectoid_Scale_Wings": {
+    "tags": [
+      "Wings",
+      "Scaled",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "Barely visible to the naked eye, the Insectoid_Scale_Wings shimmer with an iridescent glow, their delicate yet robust structure allowing for near-silent gliding and rapid, precise maneuvers through the air."
+  },
+  "Patagium_Arboreal_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Mustelid",
+      "Arboreal"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The patagium arboreal wings are a marvel of evolutionary adaptation, with soft, leathery membranes stretched between elongated, slender digits that shimmer with iridescent hues of the forest canopy. These wings not only allow for graceful gliding through the treetops but also enhance the wearer's agility and evasion, making them a formidable presence in the dense, vertical realms of the arboreal world."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Barely noticeable beneath the thick fur of a mustelid's back, these vestigial wing stubs are faintly translucent, hinting at a once-potent ability to take to the skies. Despite their atrophied state, they grant the user a slight edge in dodging attacks, as if remnants of aerial grace still linger in their bones."
+  },
+  "Reinforced_Predator_Wings": {
+    "tags": [
+      "Wings",
+      "Reinforced",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Pounce"
+    ],
+    "description": "Reinforced Predator Wings are sleek and formidable, with a dark, leathery texture that glistens with an eerie sheen in the moonlight. These wings, patterned with the sleek black and white of a mustelid, are sturdy and strong, allowing for swift and silent flight through the night sky, and powerful pounces from above."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "Dark_Stealth_Wings are obsidian-black wings, feathered with a soft, velvety texture that absorbs light and sound, allowing the wearer to glide silently through shadowy forests and narrow alleys, perfect for setting up ambushes and evading detection."
+  },
+  "Downdraft_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Mustelid",
+      "Heavy"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Body Slam"
+    ],
+    "description": "Downdraft_Strike_Wings are massive, leathery appendages with a dark, oily sheen, resembling those of a monstrous mustelid. They are designed for powerful downward strikes, capable of generating a crushing downdraft that can knock foes off their feet, but their cumbersome nature slightly hampers agility."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Skeletal_Membrane_Wings are translucent, almost ethereal flaps of stretched, bone-reinforced skin that shimmer with an eerie, phosphorescent glow. Their skeletal structure, reminiscent of a weasel or ferret, is both lightweight and strong, allowing for silent, effortless gliding through the night sky."
+  }
+}

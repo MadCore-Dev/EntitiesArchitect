@@ -1,0 +1,591 @@
+{
+  "Spring_Court_Light_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Spring",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Flight",
+      "Hover",
+      "Invisibility"
+    ],
+    "description": "The Spring_Court_Light_Frame is a delicate, gossamer chassis that shimmers with an ethereal glow, its intricate springwork humming with fae magic as it grants the user unparalleled grace and agility, allowing them to charm and evade with effortless elegance."
+  },
+  "Summer_Court_Warrior_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Summer",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Flight",
+      "Intimidate",
+      "Fire Resist"
+    ],
+    "description": "The Summer_Court_Warrior_Frame is a slender yet imposing chassis, its iridescent skin shimmering with hues of gold and green, flecked with tiny sparks of heat-resistant flames. Its form exudes an aura of both captivating charm and daunting power, capable of soaring through the skies with elegant grace while its robust core grants unparalleled resistance to fire and the strength to intimidate foes."
+  },
+  "Autumn_Court_Trickster_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Autumn",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility",
+      "Ambush",
+      "Soft Step"
+    ],
+    "description": "The Autumn_Court_Trickster_Frame is a delicate yet resilient chassis, crafted from shimmering leaves and misty cobwebs, that grants its bearer the ethereal grace of the fae and the elusive nature of autumn's twilight. With each step, the frame melds the user into the shadows, allowing them to charm and ambush their foes with supernatural ease."
+  },
+  "Winter_Court_Cold_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Winter",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Flight",
+      "Charm",
+      "Fear"
+    ],
+    "description": "The Winter_Court_Cold_Frame is a skeletal structure woven from frost and shadow, its joints creaking like the first snowfall on a quiet autumn night. Its touch is like a winter wind, numbing and disorienting, and its presence instills both awe and dread, granting its wielder the chilling grace of a fae winter court."
+  },
+  "Pixie_Tiny_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Pixie",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Invisibility",
+      "Aerobatics"
+    ],
+    "description": "The Pixie Tiny Frame is a delicate, gossamer structure no larger than a child's palm, shimmering with iridescent hues that shift like the aurora borealis. Its ethereal wings, perfect for hovering and aerobatic maneuvers, beat with a hypnotic rhythm that can lull even the most wary of creatures into a state of enchantment, while its diminutive form grants unparalleled agility and charisma, though it comes at the cost of brute strength and physical presence."
+  },
+  "Brownie_Earth_Fae_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Brownie",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Invisibility",
+      "Sure-Footed"
+    ],
+    "description": "The Brownie_Earth_Fae_Frame is a delicate yet sturdy exoskeleton crafted from shimmering earth and moonlight, allowing the wielder to move with uncanny grace and blend seamlessly into shadowy crevices. Its surface is textured with tiny, intricate runes that hum with the essence of the earth, granting an unmatched sense of balance and agility."
+  },
+  "Kelpie_Water_Fae_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Kelpie",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "fin_left": "Appendages/fins",
+      "fin_right": "Appendages/fins",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Swim",
+      "Ensnare",
+      "Fear"
+    ],
+    "description": "The Kelpie_Water_Fae_Frame is a sinuous, serpentine construct with scales that shimmer like moonlit water, its fluid form shifting and undulating as if writhing with an inner life, granting its wielder the grace and allure of a water fae, along with the chilling terror and beguiling charm to ensnare any who draw too near."
+  },
+  "Sylph_Air_Fae_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sylph",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Gust",
+      "Charm"
+    ],
+    "description": "The Sylph_Air_Fae_Frame is a delicate, iridescent exoskeleton that seems to shimmer with the colors of the dawn sky, its intricate lattice work humming with the gentle whisper of wind and light. When worn, it grants an ethereal grace and the wearer feels as if they are floating on a breeze, their movements becoming a dance with the air currents."
+  },
+  "Unseelie_Dark_Fae_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Unseelie",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Ambush",
+      "Paralyze",
+      "Silent Flight"
+    ],
+    "description": "The Unseelie_Dark_Fae_Frame is a slender, almost ethereal construct, shimmering with an otherworldly glow that shifts between deep shades of black and ominous greens, its presence unsettling and eerie, granting the wielder the ability to move unseen through the shadows while instilling fear and dread in the hearts of those who would oppose them."
+  },
+  "Titan_Fae_Giant_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Stomp",
+      "Charm",
+      "Flight"
+    ],
+    "description": "The Titan_Fae_Giant_Frame is a colossal construct woven from ethereal threads and solidified moonlight, standing as a daunting sentinel with skin as smooth as obsidian and eyes that gleam like twin moons, capable of casting both fear and enchantment upon all who gaze upon it."
+  },
+  "Changeling_Shapeshifter_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Changeling",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Charm",
+      "Invisibility",
+      "Ambush"
+    ],
+    "description": "The Changeling Shapeshifter Frame is a fluid, ethereal construct that mimics the contours of any creature, its surface shifting and shimmering with iridescent hues that blend seamlessly into the surroundings. Its touch is cold and slippery, leaving a lingering sense of unease, and it grants the wielder the uncanny ability to become indistinguishable from the environment, luring or startling victims into a false sense of security before springing an ambush."
+  },
+  "Archfae_Ancient_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Archfae",
+      "Fae"
+    ],
+    "meat_group": [
+      "Fae_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Invisibility",
+      "Magic Resistance",
+      "Flight"
+    ],
+    "description": "The Archfae Ancient Core is a pulsating, ethereal gemstone at the heart of an otherworldly being, radiating a soft, mesmerizing glow that shifts between the colors of the rainbow. Its surface is etched with intricate, swirling patterns that seem to dance and change, reflecting the complex magical energies and ancient wisdom it contains."
+  }
+}

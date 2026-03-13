@@ -1,12 +1,15 @@
 import os
 import json
+import time
 import urllib.request
 import urllib.error
 
 # Configuration
 ENTITIES_DIR = "/Users/manojsamal/Documents/Projects/EntitiesArchitect/GameData/Entities"
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "qwen2.5:14b" # Using the best 14B model available for creative writing
+OLLAMA_MODEL = "qwen2.5:14b"  # 9GB — best creative/lore writer; fits fine in 24GB unified memory
+SKIP_FILLED = True            # Set False to regenerate already-filled descriptions
+CALL_DELAY_SEC = 0.1          # Minimal delay; 24GB unified memory handles back-to-back calls easily
 
 def generate_description(entity_name, entity_data):
     """Calls local Ollama API to generate a description for an entity."""
@@ -15,14 +18,21 @@ def generate_description(entity_name, entity_data):
     # or you can keep it as context. We'll strip it for a fresh take.
     data_for_prompt = {k: v for k, v in entity_data.items() if k != "description"}
     
+    # Build a concise version of data for the prompt (keep tags, grants_skills, mods summary)
+    tags = data_for_prompt.get('tags', [])
+    skills = data_for_prompt.get('grants_skills', [])
+    mods = data_for_prompt.get('mods', [])
+    stat_summary = ", ".join(f"{m['target']} {m['op']} {m['expr']}" for m in mods) if mods else "none"
+
     prompt = (
-        f"You are a creative lore writer for a dark fantasy LitRPG game. "
-        f"Write a rich, immersive, and flavorful description (1-3 sentences) for an entity component. "
-        f"Focus on its biological, physical, or magical characteristics based on its stats and tags. "
-        f"IMPORTANT: Respond ONLY with the description text itself. Do not include quotes, greetings, "
-        f"or conversational filler like 'Here is the description'.\n\n"
+        f"You are a lore writer for a dark fantasy LitRPG game called Project Apotheosis. "
+        f"Write a vivid, immersive description (1-3 sentences) for a creature body component. "
+        f"Describe what it looks, feels, or behaves like — ground it in the tags and granted abilities. "
+        f"IMPORTANT: Respond ONLY with the description text. No quotes, no greetings.\n\n"
         f"Component Name: {entity_name}\n"
-        f"Component Data: {json.dumps(data_for_prompt, indent=2)}"
+        f"Tags: {', '.join(tags)}\n"
+        f"Granted Skills: {', '.join(skills)}\n"
+        f"Stat Changes: {stat_summary}"
     )
 
     payload = {
@@ -63,21 +73,27 @@ def process_json_file(file_path):
 
     for entity_name, entity_data in data.items():
         if isinstance(entity_data, dict):
-            # Optional: If you only want to overwrite empty descriptions or missing ones, 
-            # you can add a check here. We are replacing all of them to get fresh AI lore.
+            # Skip if description is already filled and SKIP_FILLED is True
+            existing_desc = entity_data.get('description', '')
+            if SKIP_FILLED and existing_desc and existing_desc.strip():
+                print(f"  -- Skipping (already filled): {entity_name}")
+                continue
+
             print(f"  -> Generating description for: {entity_name}...")
-            
+
             new_desc = generate_description(entity_name, entity_data)
-            
+
             if new_desc:
                 # Clean up occasional quotes the model might still add
                 new_desc = new_desc.strip('"').strip("'")
-                
+
                 entity_data['description'] = new_desc
                 changes_made = True
-                print(f"     [Success] {new_desc[:60]}...")
+                print(f"     [OK] {new_desc[:80]}...")
             else:
-                print(f"     [Failed] Could not generate description.")
+                print(f"     [FAIL] Could not generate description.")
+
+            time.sleep(CALL_DELAY_SEC)  # Prevent memory pressure on M2
 
     if changes_made:
         with open(file_path, 'w', encoding='utf-8') as f:

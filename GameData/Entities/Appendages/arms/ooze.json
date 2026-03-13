@@ -1,0 +1,311 @@
+{
+  "Acid_Pseudopod_Arms": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Grapple"
+    ],
+    "description": "Emerging from the creature\u2019s shoulders, these elongated, gelatinous arms pulse with a sickly green hue, their surfaces slick and constantly shifting as if they were alive and thinking independently. When extended, they can drape over a wider area, allowing for a fearsome reach that can ensnare and constrict foes while also secreting a corrosive acid capable of melting flesh and bone."
+  },
+  "Engulf_Slam_Arms": {
+    "tags": [
+      "Arms",
+      "Engulf",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Engulf_Slam_Arms are long, sinuous appendages coated in a viscous, dark ooze that constantly shifts and writhes, as if the arms themselves are alive. When they grasp a foe, the ooze constricts and hardens, pulling the victim closer while simultaneously ensnaring them in a suffocating grip."
+  },
+  "Necrotic_Drain_Arms": {
+    "tags": [
+      "Arms",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "Necrotic_Drain_Arms are grotesque appendages, thick and malleable like congealed dark sludge, dripping with a noxious, bubbling ooze that crackles with necrotic energy. Their touch is both cold and searing, leaving a trail of withering decay and spreading disease, while their elongated reach allows for devastating strikes from unexpected angles."
+  },
+  "Fire_Lava_Arms": {
+    "tags": [
+      "Arms",
+      "Fire",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Grapple"
+    ],
+    "description": "The Fire_Lava_Arms are serpentine appendages that ooze with molten lava, their scalding touch capable of setting anything they grasp alight. With a reach extending two meters beyond normal human arms, these arms can grapple foes from afar, dragging them into a fiery embrace."
+  },
+  "Ice_Freeze_Arms": {
+    "tags": [
+      "Arms",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Grapple"
+    ],
+    "description": "The Ice_Freeze_Arms are long, sinuous limbs composed of a shimmering, semi-transparent ice that flows like liquid, yet retains the strength and durability of solid frost. When extended, these arms ooze outward, tendrils reaching and wrapping around opponents with chilling precision, slowing and freezing them in place as they prepare for a grapple."
+  },
+  "Electric_Shock_Arms": {
+    "tags": [
+      "Arms",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze"
+    ],
+    "description": "The Electric_Shock_Arms are sinuous, pulsating masses of electrically charged ooze that constantly crackle and hiss, their tendrils reaching unnaturally far to deliver jarring shocks and paralyzing currents to anything they touch."
+  },
+  "Paralytic_Jelly_Arms": {
+    "tags": [
+      "Arms",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Ensnare"
+    ],
+    "description": "The Paralytic Jelly Arms are gelatinous appendages that pulse with a sickly, luminescent glow, their tendrils twisting and coiling like living vines. They feel cold and slimy to the touch, and when they grasp an opponent, the victim feels a numbing paralysis seep through their veins, accompanied by a tightening grip that ensnares them completely."
+  },
+  "Spore_Mycelium_Arms": {
+    "tags": [
+      "Arms",
+      "Mycelium",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Ensnare",
+      "Disease Carrier"
+    ],
+    "description": "The Spore_Mycelium_Arms resemble pale, slimy tendrils that constantly pulse with a sickly green light, seeping from the ground as if they were an extension of the earth itself. They feel cold and slick to the touch, with a texture that is both sticky and fibrous, capable of ensnaring foes in a web of mycelial threads while releasing a choking cloud of spores that can infect and weaken anyone who inhales them."
+  },
+  "Void_Shadow_Arms": {
+    "tags": [
+      "Arms",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Ensnare"
+    ],
+    "description": "The Void_Shadow_Arms are elongated, malleable appendages that ooze and contort like tendrils of darkness, their surface slick and cold to the touch, capable of blending into shadows to ambush prey and ensnare enemies with a chilling grip."
+  },
+  "Cubic_Wall_Arms": {
+    "tags": [
+      "Arms",
+      "Cubic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Swallow",
+      "Ensnare"
+    ],
+    "description": "The Cubic_Wall_Arms are thick, gelatinous limbs that ooze outward from a cubic mass, their surface slick and ever-shifting, capable of flattening and ensnaring foes within their constricting grasp before drawing them into the cubic mass to be swallowed whole."
+  },
+  "Mass_Engulf_Arms": {
+    "tags": [
+      "Arms",
+      "Mass",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Swallow",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "Braided from a viscous, dark ooze, these arms ripple and contort, their mass shifting to ensnare and grapple foes with preternatural strength, leaving victims unable to escape the constricting grip that draws them closer to be swallowed whole."
+  },
+  "Eldritch_Void_Arms": {
+    "tags": [
+      "Arms",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Madness Aura",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "Eldritch_Void_Arms are elongated, tentacle-like appendages that seep from a dark, viscous void, their surfaces slick and cold to the touch, capable of distorting the minds of those nearby with whispers of cosmic dread and despair, while their powerful grip can ensnare and constrict foes with bone-crushing force."
+  }
+}

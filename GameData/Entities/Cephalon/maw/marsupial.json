@@ -1,0 +1,244 @@
+{
+  "Crushing_Jaw_Maw": {
+    "tags": [
+      "Maw",
+      "Crushing",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch"
+    ],
+    "description": "The Crushing_Jaw_Maw is a gnarled and formidable appendage, bristling with jagged teeth that interlock like the gears of a relentless machine, capable of generating an overwhelming pressure that crushes anything caught between its formidable jaws. Its texture is coarse and dry, yet it feels unsettlingly warm and alive when incorporated into a creature\u2019s anatomy, enhancing their brute strength and granting them the ability to execute devastating crunch attacks."
+  },
+  "Elongated_Grazing_Maw": {
+    "tags": [
+      "Maw",
+      "Grazing",
+      "Marsupial",
+      "Herbivore"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Elongated Grazing Maw is a slender, elongated snout tipped with a soft, brush-like set of teeth, perfectly adapted for grazing on sparse, high-altitude vegetation. Its tactile sensitivity allows for precise foraging, and the snout's flexibility grants the user an increased constitution, reflecting its durability in harsh, unforgiving terrains."
+  },
+  "Sharp_Jaw_Predator_Maw": {
+    "tags": [
+      "Maw",
+      "Sharp",
+      "Marsupial",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Jaw Snap"
+    ],
+    "description": "The Sharp_Jaw_Predator_Maw is a jagged maw filled with razor-sharp teeth, capable of both a silent, precise bite and a devastating snap that can shatter bones. Its edges gleam with a faint, ominous light, reflecting the predatory spirit that enhances dexterity and strength."
+  },
+  "Wide_Crushing_Devil_Maw": {
+    "tags": [
+      "Maw",
+      "Wide",
+      "Marsupial",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Bite"
+    ],
+    "description": "The Wide_Crushing_Devil_Maw is a grotesque, cavernous mouth lined with jagged, serrated teeth that glisten with the remnants of its last meal. Its wide, marsupial-like jaws are capable of a powerful, crushing bite that sends a shiver through anyone within earshot when it snaps shut, granting its wielder immense strength in melee engagements."
+  },
+  "Elongated_Insectivore_Maw": {
+    "tags": [
+      "Maw",
+      "Elongated",
+      "Marsupial",
+      "Insectivore"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Elongated_Insectivore_Maw, a grotesque yet efficient appendage, stretches unnaturally from the creature's face, its sharp, interlocking teeth designed to grasp and tear through the toughest exoskeletons, while the maw's flexibility grants it an almost serpentine reach, perfect for snatching prey from mid-air or between foliage."
+  },
+  "Aquatic_Snap_Maw": {
+    "tags": [
+      "Maw",
+      "Aquatic",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Bite"
+    ],
+    "description": "The Aquatic_Snap_Maw is a sleek, jaw-filled terror that splits the water with silent efficiency, its cavernous mouth lined with razor-sharp teeth capable of snapping with bone-crushing force, and a muscular tail that propels it towards prey with startling speed."
+  },
+  "Necrotizing_Saliva_Maw": {
+    "tags": [
+      "Maw",
+      "Toxic",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite"
+    ],
+    "description": "The Necrotizing_Saliva_Maw is a gaping, fleshy orifice lined with razor-sharp teeth, constantly glistening with a viscous, black saliva that hisses upon contact with air, promising rapid tissue dissolution and bone-melting agony to any unfortunate prey."
+  },
+  "Hollow_Hollow_Pouch_Maw": {
+    "tags": [
+      "Maw",
+      "Scavenger",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Hollow_Hollow_Pouch_Maw is a grotesque, leathery pouch that dangles from the creature's underbelly, pulsating with a sickly glow as it absorbs and stores the nutrients from scavenged remains. Its surface is cold and slick to the touch, with tiny, sharp teeth lining the interior that grapple and tear at organic matter, ensuring nothing goes to waste."
+  },
+  "Serrated_Carnivore_Maw": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Marsupial",
+      "Carnivore"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Serrated Bite"
+    ],
+    "description": "The Serrated Carnivore Maw is a gruesome sight, with razor-sharp teeth that gleam with a sickening red hue from the countless meals it has torn apart, its jagged edges ready to rend flesh with a single bite."
+  },
+  "Retractable_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Fangs",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite"
+    ],
+    "description": "Emerging from the creature\u2019s wide, gaping mouth are rows of razor-sharp fangs that can retract into the maw when not in use, making it seem as though the beast is always on the brink of unleashing a devastating venomous bite."
+  },
+  "Compact_Gnawing_Maw": {
+    "tags": [
+      "Maw",
+      "Gnawing",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw"
+    ],
+    "description": "The Compact Gnawing Maw is a sinister, chitinous appendage, barely larger than a clenched fist, brimming with razor-sharp, interlocking teeth that grind incessantly, capable of stripping flesh from bone with a single, relentless gnaw. The maw's texture is cold and slick, its constant motion and the sound of grinding teeth an ever-present reminder of its deadly purpose."
+  },
+  "Suction_Feed_Maw": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain"
+    ],
+    "description": "The Suction Feed Maw is a grotesque, cavernous mouth lined with rows of sharp, inward-curving teeth that work in tandem with powerful suction to draw in prey, leaving a trail of despair and emptiness in its wake."
+  }
+}

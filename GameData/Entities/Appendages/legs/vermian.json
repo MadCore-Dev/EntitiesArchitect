@@ -1,0 +1,323 @@
+{
+  "Undulating_Peristaltic_Body": {
+    "tags": [
+      "Legs",
+      "Peristaltic",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "The Undulating_Peristaltic_Body is a writhing mass of segmented, muscular coils that seem to pulse with an inner rhythm, allowing it to squirm through the tightest of spaces while granting its bearer an eerie, fluid grace and a surprising burst of velocity."
+  },
+  "Fossorial_Radial_Muscle_Base": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Fossorial Radial Muscle Base is a dense, fibrous mass of earth-brown muscle tissue, pulsating with an almost serpentine vitality. Its surface is dotted with small, sharp spurs that dig into the ground, allowing for powerful, efficient digging and burrowing through even the hardest soil."
+  },
+  "Aquatic_Undulating_Base": {
+    "tags": [
+      "Legs",
+      "Aquatic",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim",
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Aquatic_Undulating_Base is a fluid, serpentine appendage that writhes and coils with a life of its own, its scales catching and refracting light in the water, granting the user unparalleled agility and speed beneath the waves."
+  },
+  "Setae_Anchoring_Base": {
+    "tags": [
+      "Legs",
+      "Anchoring",
+      "Vermian",
+      "Setae"
+    ],
+    "traversal": [
+      "Slither",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Grapple"
+    ],
+    "description": "The Setae Anchoring Base is a dense, fibrous cluster of microscopic hooks and barbs that extend from the creature's limb joints, allowing it to grip surfaces with unyielding force and maintain balance even on the steepest inclines."
+  },
+  "Leech_Suction_Base": {
+    "tags": [
+      "Legs",
+      "Suction",
+      "Vermian",
+      "Parasitic"
+    ],
+    "traversal": [
+      "Slither",
+      "Wall_Crawl",
+      "Water_Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Drain"
+    ],
+    "description": "The Leech_Suction_Base is a squirming, segmented limb, covered in slimy, mucus-coated rings that enable it to grip and climb any surface with ease, leaving a trail of slick residue behind as it moves. When activated, the limb extends sharp, needle-like teeth that can latch onto flesh or metal, allowing for the Drain ability to siphon away the life force of its victims."
+  },
+  "Military_Muscular_Column": {
+    "tags": [
+      "Legs",
+      "Muscular",
+      "Vermian",
+      "Giant"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Trample"
+    ],
+    "description": "The Military_Muscular_Column resembles a colossal, segmented leg, each segment bristling with coiled, bulging muscles that ripple with a life of their own, exuding an aura of unyielding strength and an irresistible urge to crush anything in its path."
+  },
+  "Lubricated_Fast_Slither_Base": {
+    "tags": [
+      "Legs",
+      "Lubricated",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Squeeze"
+    ],
+    "description": "The Lubricated_Fast_Slither_Base is a sleek, segmented tail-like appendage that pulses with a slick, viscous fluid, granting its bearer an otherworldly glide over rough terrain. Its segmented nature allows for rapid, silent movement, and the inherent lubrication means that squeezing through tight spaces is effortless and nearly silent."
+  },
+  "Rock_Boring_Anchor_Base": {
+    "tags": [
+      "Legs",
+      "Rock_Boring",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Burrow_Rock"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "The Rock_Boring_Anchor_Base is a sturdy, segmented exoskeleton that digs into the earth with relentless force, its surface covered in sharp, jagged spurs that grind away at the hardest stone, allowing the creature to tunnel through solid rock with ease."
+  },
+  "Prehensile_Tail_Anchor": {
+    "tags": [
+      "Legs",
+      "Prehensile",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The Prehensile_Tail_Anchor is a thick, sinuous appendage terminating in a vicious, barbed hook, capable of anchoring into any surface or creature with terrifying ease, its presence alone hinting at the creature's predatory nature and relentless grip."
+  },
+  "Electric_Propelling_Organ": {
+    "tags": [
+      "Legs",
+      "Electric",
+      "Vermian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim",
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Propelling_Organ appears as a sleek, serpentine appendage with scales that shimmer with an otherworldly blue glow. As it undulates, it generates a low hum and crackling static, propelling its owner forward with uncanny speed and leaving a faint trail of static electricity in its wake."
+  },
+  "Mucous_Slide_Base": {
+    "tags": [
+      "Legs",
+      "Mucous",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Slide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slime Secretion"
+    ],
+    "description": "The Mucous_Slide_Base is a squirming, gelatinous mass of segmented limbs that undulate like living quicksand, each segment secreting a slippery mucus that allows it to slide effortlessly across any surface, blending into shadows and leaving enemies slipping and sliding in its wake."
+  },
+  "Hydrostatic_Skeleton_Base": {
+    "tags": [
+      "Legs",
+      "Hydrostatic",
+      "Vermian"
+    ],
+    "traversal": [
+      "Slither",
+      "Squeeze"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze",
+      "Constrict"
+    ],
+    "description": "The Hydrostatic_Skeleton_Base is a fluid-filled, segmented structure that pulses and undulates with an otherworldly grace, granting the host an eerie, serpentine flexibility and a crushing grip that can constrict foes with bone-cracking force."
+  }
+}

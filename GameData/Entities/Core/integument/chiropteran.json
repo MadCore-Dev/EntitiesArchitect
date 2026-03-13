@@ -1,0 +1,269 @@
+{
+  "Short_Fur_Brown_Pelt": {
+    "tags": [
+      "Fur",
+      "Short",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Short_Fur_Brown_Pelt is a dense, velvety layer of fur that clings closely to the body, its texture soft yet resilient, reminiscent of a chiropteran's wing membrane, providing both warmth and an innate defense against the chill of the dark fantasy world."
+  },
+  "Wing_Membrane_Patagium_Skin": {
+    "tags": [
+      "Skin",
+      "Membrane",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Wing_Membrane_Patagium_Skin is a supple, nearly translucent expanse of chiropteran membrane, clinging to the body like a second skin yet expanding and contracting with an almost sentient grace as it prepares for flight. Its surface is cold to the touch, yet it grants a thrilling sensation of freedom and air as the user learns to glide with effortless ease, slipping through the air with an added layer of agility and evasion."
+  },
+  "Vampire_Dark_Smooth_Pelt": {
+    "tags": [
+      "Fur",
+      "Dark",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Vampire_Dark_Smooth_Pelt is a velvety expanse of midnight black fur, interspersed with the occasional gleaming silver scale, that shifts and glides like shadows over the skin of a vampire bat. This chiropteran pelt not only grants the wearer unparalleled stealth, allowing them to blend into the night like a shadow, but also imbues them with a resilience to the diseases and ailments that plague the night."
+  },
+  "Aposematic_Bright_Pelt": {
+    "tags": [
+      "Fur",
+      "Aposematic",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Aposematic_Bright_Pelt is a dazzling yet foreboding coat of fur, vibrant with hues of warning that shimmer like neon in the dark, deterring predators with an electric aura of fear and resistance to the toxins that might otherwise render it prey."
+  },
+  "Dense_Cold_Weather_Pelt": {
+    "tags": [
+      "Fur",
+      "Dense",
+      "Chiropteran",
+      "Cold"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Dense_Cold_Weather_Pelt is a thick, velvety coat of fur that shimmers in shades of icy blue and silver, each hair tipped with frost that whispers of biting winds and frozen tundra. Its chiropteran origins are evident in the intricate patterns and arrangement of the fur, which feels both soft and resilient to the touch, offering excellent insulation against the harshest of winters while also granting a subtle aura of cold resistance and natural protection."
+  },
+  "Thin_Tropical_Pelt": {
+    "tags": [
+      "Fur",
+      "Thin",
+      "Chiropteran",
+      "Tropical"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "cold_resist",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thin Tropical Pelt is a delicate layer of fine, almost translucent fur, reminiscent of the softest silk, that clings to the body like a second skin. Its chiropteran origins are evident in the intricate, almost lace-like patterns that run along the edges, offering a barely-there insulation suited for the warm, humid climates of the tropics."
+  },
+  "Musk_Secreting_Skin": {
+    "tags": [
+      "Skin",
+      "Musk",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk"
+    ],
+    "description": "The creature's skin is a velvety black, dotted with tiny pores that emit an oily secretion with an incredibly pungent, nauseating odor that can instantly clear a room. When activated, the musk spreads in a wide cloud, temporarily blinding and disorienting foes while also granting the user heightened awareness of their surroundings."
+  },
+  "Electroreceptive_Skin_Array": {
+    "tags": [
+      "Skin",
+      "Electroreceptive",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Skin_Array is a thin, iridescent membrane that covers the body, pulsing with a faint, electric blue glow that shifts in intensity with the user's emotions. This chiropteran-inspired skin allows the user to sense their surroundings with uncanny precision, effectively granting them Blindsight, as it picks up on the faint electrical signals given off by living creatures, even in complete darkness or through solid objects."
+  },
+  "Toxic_Secretion_Fur": {
+    "tags": [
+      "Fur",
+      "Toxic",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Toxic_Secretion_Fur is a dense, oily coat that glistens with an unsettling sheen, each strand capable of secreting a virulent poison that leaves a lingering, corrosive residue upon contact. The fur feels both warm and unnaturally slick to the touch, and the air around it is thick with the acrid scent of decay and malice."
+  },
+  "Armoured_Ridge_Skin": {
+    "tags": [
+      "Skin",
+      "Armoured",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Armoured_Ridge_Skin is a thick, chitinous exoskeleton that overlays the creature's body in jagged, overlapping plates, resembling the hardened wings of a chiropteran, providing an impenetrable barrier but at the cost of agility."
+  },
+  "Vampiric_Heat_Sensing_Skin": {
+    "tags": [
+      "Skin",
+      "Heat_Sensing",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Vampiric Heat Sensing Skin, glistening with an oily sheen under the moonlight, is a patchwork of leathery chiropteran membranes that pulse faintly with an inner warmth, allowing its bearer to sense the faintest traces of heat and movement in the darkest of nights, enhancing both perception and reflexes."
+  },
+  "Thermoregulating_Vascular_Fur": {
+    "tags": [
+      "Fur",
+      "Vascular",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Thermoregulating Vascular Fur is a luxuriously soft and adaptive layer of chiropteran-like fur, tinged with a subtle glow that shifts hues based on the wearer's body temperature, while an intricate network of blood vessels beneath the surface allows for precise control over heat dissipation and retention, enhancing endurance and resilience in extreme environments."
+  }
+}

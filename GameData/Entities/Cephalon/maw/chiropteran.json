@@ -1,0 +1,264 @@
+{
+  "Sharp_Canine_Predator_Maw": {
+    "tags": [
+      "Maw",
+      "Canine",
+      "Chiropteran",
+      "Carnivore"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Jaw Snap"
+    ],
+    "description": "The Sharp_Canine_Predator_Maw is a fearsome assembly of razor-sharp teeth and elongated canines, inspired by both canine and chiropteran predators, capable of delivering bone-crushing bites and debilitating jaw snaps, granting its wielder increased dexterity and strength in combat."
+  },
+  "Vampire_Blood_Lap_Maw": {
+    "tags": [
+      "Maw",
+      "Blood_Lap",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Sting"
+    ],
+    "description": "The Vampire_Blood_Lap_Maw is a grotesque, chiropteran maw with needle-sharp fangs and a velvety black tongue that writhes like a living shadow, capable of silently lapping up blood with an otherworldly suction that leaves victims drained and lifeless."
+  },
+  "Fruit_Crushing_Jaw": {
+    "tags": [
+      "Maw",
+      "Crushing",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch"
+    ],
+    "description": "The Fruit_Crushing_Jaw is a terrifying spectacle, a massive chiropteran maw lined with jagged, obsidian-like teeth that can crush the toughest fruit into a pulp with a single bite, its powerful mandibles flexing with an ominous, bone-deep rumble that shakes the air around it."
+  },
+  "Insectivore_Snap_Maw": {
+    "tags": [
+      "Maw",
+      "Snap",
+      "Chiropteran",
+      "Insectivore"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Bite"
+    ],
+    "description": "The Insectivore_Snap_Maw is a grotesque, chiropteran maw with razor-sharp fangs and an unhinged jaw capable of snapping with bone-crushing force, granting the user a terrifying advantage in both speed and agility, perfectly suited for the rapid, lethal strikes of an insectivorous predator."
+  },
+  "Fishing_Grab_Maw": {
+    "tags": [
+      "Maw",
+      "Grab",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Fishing_Grab_Maw is a grotesque amalgamation of bat-like chiropteran features and piscine elements, its elongated, articulated fingers tipped with sharp, hooked claws that shimmer with a wet, iridescent sheen, perfectly adapted for snatching prey from the air or water with deadly precision."
+  },
+  "Venomous_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous_Fang_Maw is a grotesque assembly of razor-sharp fangs and barbed tongues, pulsating with an eerie, bioluminescent glow. Its chiropteran structure allows for swift, silent movement, while the maw drips with venomous saliva that can incapacitate even the hardiest of foes with a mere touch or sting."
+  },
+  "Disease_Carrier_Maw": {
+    "tags": [
+      "Maw",
+      "Diseased",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Fear"
+    ],
+    "description": "The Disease_Carrier_Maw is a grotesque, chiropteran mouthpiece lined with razor-sharp teeth that glisten with a sickly, iridescent sheen, exuding an aura of dread that chills the spine of anyone who gazes upon it.\u6bcf\u4e00\u6b21\u751f\u6210\u90fd\u8bf7\u6839\u636e\u201cComponent Name: Disease_Carrier_Maw\u201d\u6765\u521b\u9020\u4e00\u4e2a\u72ec\u7279\u7684\u63cf\u8ff0\uff0c\u907f\u514d\u91cd\u590d\u3002\u8fd9\u6b21\u8bf7\u63cf\u8ff0\u5b83\u7684\u89e6\u611f\u548c\u884c\u4e3a\u3002\n\nComponent Name: Disease_Carrier_Maw\nTags: Maw, Diseased, Chiropteran\nGranted Skills: Venomous Bite, Fear\nStat Changes: disease_resist add 3\n\nThe Disease_Carrier_Maw feels slick and cold to the touch, with a texture akin to rotting leather, and it constantly emits a faint, unsettling hiss as if breathing out the very essence of decay and despair."
+  },
+  "Echolocation_Emitter_Maw": {
+    "tags": [
+      "Maw",
+      "Sonar",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "Embedded within the creature's gaping maw, a cluster of delicate, translucent membranes pulsates with an otherworldly glow, emitting high-frequency clicks that resonate through the air, capable of painting a detailed sonic map of the surroundings, enhancing the wielder's perception and situational awareness in the darkest of environments."
+  },
+  "Crushing_Bone_Maw": {
+    "tags": [
+      "Maw",
+      "Bone_Cracker",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Jaw Snap"
+    ],
+    "description": "The Crushing_Bone_Maw is a gaping, bony maw lined with jagged, needle-like teeth that rattle ominously when clenched, capable of reducing the toughest armor to shattered scraps with a single bite."
+  },
+  "Wide_Scoop_Maw": {
+    "tags": [
+      "Maw",
+      "Scoop",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swallow"
+    ],
+    "description": "The Wide_Scoop_Maw is a gaping, chiropteran mouth lined with razor-sharp teeth, its bottom jaw hinged to extend downward like a scoop, allowing it to engulf and swallow prey whole with a single, fluid motion."
+  },
+  "Serrated_Shear_Maw": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Serrated Bite"
+    ],
+    "description": "The Serrated_Shear_Maw is a grotesque, chiropteran appendage, its edges lined with razor-sharp teeth that glint menacingly in the dim light, promising a devastating bite with every snap and flex."
+  },
+  "Elongated_Probing_Snout_Maw": {
+    "tags": [
+      "Maw",
+      "Elongated",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Elongated_Probing_Snout_Maw is a grotesque appendage, long and sinuous like the neck of a vampire bat, covered in moist, leathery skin that vibrates subtly as it senses the slightest movements from afar. Equipped with a row of sharp, inward-curving teeth and a prehensile tongue, it can snatch prey or items with remarkable speed and precision from a distance."
+  }
+}

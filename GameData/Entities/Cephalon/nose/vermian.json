@@ -1,0 +1,246 @@
+{
+  "Chemosensory_Prostomium": {
+    "tags": [
+      "Nose",
+      "Chemosensory",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Chemosensory_Prostomium is a segmented, writhing organ that pulsates with an eerie glow, its surface covered in minute, quivering tentacles that twitch and probe the air, detecting the faintest traces of scent and pheromones to guide its user through even the most labyrinthine of underground tunnels."
+  },
+  "Adhesive_Taste_Bud_Array": {
+    "tags": [
+      "Nose",
+      "Taste",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Adhesive Taste Bud Array is a slimy, translucent membrane that lines the interior of the creature\u2019s mouth, secreting a sticky, iridescent fluid that captures and retains minute traces of scent and flavor, enhancing the creature's ability to discern and track its surroundings with uncanny precision."
+  },
+  "Pit_Organ_Infrared_Sensor": {
+    "tags": [
+      "Nose",
+      "Infrared",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the creature\u2019s mucus-covered face, the Pit_Organ_Infrared_Sensor pulses with an eerie, cold glow, its surface rippling like liquid metal as it scans the surroundings for heat signatures, granting the user a disconcerting awareness in the darkest of environments."
+  },
+  "Chemical_Gradient_Tracking_Array": {
+    "tags": [
+      "Nose",
+      "Gradient",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tracking"
+    ],
+    "description": "The Chemical_Gradient_Tracking_Array is a chitinous exoskeletal appendage with delicate, segmented tendrils that unfurl and retract, constantly sampling the air and soil to detect minute chemical gradients. Its surface pulsates with an eerie bioluminescence, guiding the user through the darkest forests and most labyrinthine dungeons with uncanny precision."
+  },
+  "Electrosensory_Nasal_Pit": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the nasal cavity, the Electrosensory Nasal Pit appears as a cluster of translucent, jelly-like nodules that pulse faintly with a bioelectric sheen. These nodules are exquisitely sensitive, allowing the bearer to detect subtle electromagnetic fields and navigate through darkness with uncanny precision, their heightened perception and reflexes making them a formidable presence in the shadows."
+  },
+  "Pheromone_Detection_Array": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the creature's snout, the Pheromone_Detection_Array is a delicate lattice of translucent filaments that shimmer with an eerie, bioluminescent glow, each filament twitching independently in response to chemical signals, allowing for unparalleled tracking of prey and predator alike."
+  },
+  "Carrion_Scent_Receptors": {
+    "tags": [
+      "Nose",
+      "Carrion",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "Twisted and bulbous, the Carrion_Scent_Receptors are a mass of writhing, translucent tendrils that pulse with an otherworldly glow, each one finely tuned to detect the faintest traces of decay and death, allowing the bearer to navigate the foulest of environments with eerie precision and an enhanced awareness of their surroundings."
+  },
+  "Magnetic_Orientating_Organ": {
+    "tags": [
+      "Nose",
+      "Magnetic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the nasal cavity, this peculiar organ pulsates with an otherworldly glow, its surface covered in intricate, swirling patterns that seem to shift and dance as if responding to unseen magnetic fields. Its presence enhances the user's sense of direction, allowing them to discern north with uncanny accuracy even in the darkest and most disorienting environments."
+  },
+  "Nucleotide_Tracing_Organ": {
+    "tags": [
+      "Nose",
+      "Nucleotide",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tracking",
+      "Scent"
+    ],
+    "description": "Embedded within the nasal cavity, this intricate organ resembles a delicate web of iridescent filaments that pulse with a faint, bioluminescent glow. Its surface is covered in microscopic sensory nodes that tingle and shift, constantly analyzing and categorizing every scent that passes through, granting the bearer an unparalleled ability to track and identify creatures from vast distances."
+  },
+  "Hydrostatic_Pressure_Nose": {
+    "tags": [
+      "Nose",
+      "Pressure",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Hydrostatic_Pressure_Nose is a sleek, almost snake-like appendage that pulses with the rhythmic ebb and flow of underwater currents, granting the user an unparalleled sense of awareness and the ability to navigate through the darkest, most treacherous depths with uncanny ease."
+  },
+  "Acid_Resistant_Olfactory_Lining": {
+    "tags": [
+      "Nose",
+      "Acid_Resistant",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Acid_Resistant_Olfactory_Lining is a translucent, rubbery membrane that lines the nasal passages, secreting a clear, viscous fluid that neutralizes caustic substances upon contact. Its surface is dotted with microscopic, iridescent crystals that sparkle faintly in dim light, enhancing the user's ability to detect even the faintest odors amidst the most noxious environments."
+  },
+  "Vestigial_Odour_Pits": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Vermian"
+    ],
+    "mods": [],
+    "grants_skills": [],
+    "description": "Embedded within the creature's thick, scaly hide are small, recessed pits that emit a subtle, pulsating glow. Though vestigial, these pits once served to release a potent, mind-altering pheromone cloud, now merely a faint, lingering odour that can subtly influence the emotions of nearby creatures."
+  }
+}

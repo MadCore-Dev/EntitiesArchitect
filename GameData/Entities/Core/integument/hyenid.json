@@ -1,0 +1,267 @@
+{
+  "Spotted_Short_Pelt": {
+    "tags": [
+      "Fur",
+      "Spotted",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Spotted_Short_Pelt is a dense, coarse fur that covers the body of a hyenid creature, featuring irregular spots that blend seamlessly with the dappled shadows of the forest, providing both camouflage and a tactile sensation of rugged warmth and resilience."
+  },
+  "Striped_Coarse_Pelt": {
+    "tags": [
+      "Fur",
+      "Striped",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Striped_Coarse_Pelt is a rugged, bristly hide covered in dark brown and cream stripes, reminiscent of a hyena\u2019s coat, providing a natural armor that feels both rough and resilient to the touch, while also imbuing the bearer with a resistance to diseases that lurk in the dark corners of the world."
+  },
+  "Mane_Ridge_Pelt": {
+    "tags": [
+      "Fur",
+      "Mane",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Mane_Ridge_Pelt is a dense, bristling fur that runs along the spine, standing tall and quivering with barely contained aggression, its coloration stark and menacing, designed to make even the bravest foes hesitate and reconsider their approach."
+  },
+  "Carrion_Rotting_Pelt": {
+    "tags": [
+      "Fur",
+      "Carrion",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Carrion_Rotting_Pelt is a matted, dark-brown pelt that seems to pulse with the stench of decay, its coarse texture harboring remnants of long-consumed carrion. As you wear it, a primal urge to scavenge from the refuse of others grows within you, while the aura of fear it exudes causes others to recoil and hesitate in your presence."
+  },
+  "Slick_Short_Desert_Fur": {
+    "tags": [
+      "Fur",
+      "Desert",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Slick_Short_Desert_Fur is a dense, sand-repellent coat that clings\u7d27\u63a5\u4e0a\u8ff0\u63cf\u8ff0\uff0c\u7ee7\u7eed\u521b\u4f5c\uff0c\u786e\u4fdd\u6d41\u7545\u81ea\u7136\uff1a\n\nThe Slick_Short_Desert_Fur is a dense, sand-repellent coat that clings tightly to the body, its short strands shimmering with a faint golden hue under the harsh desert sun. This hyenid-derived fur not only provides excellent insulation against the scorching heat and biting cold but also grants a sense of resilience and agility, perfect for navigating the unforgiving desert landscapes."
+  },
+  "Undead_Tattered_Pelt": {
+    "tags": [
+      "Fur",
+      "Undead",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Undead_Tattered_Pelt is a desiccated, matted fur that clings to the bones of its hyenid corpse, each strand stiff and brittle like twigs, radiating a chill that can be felt through the thinnest of cloaks, and when worn, it whispers of decay and dread, causing unwavering fear in the hearts of the living."
+  },
+  "Shadow_Camouflage_Pelt": {
+    "tags": [
+      "Fur",
+      "Shadow",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ambush"
+    ],
+    "description": "The Shadow_Camouflage_Pelt is a sleek, midnight-black pelt that shimmers like oil on water, blending seamlessly with the darkest corners of the night. Its texture is soft yet bristly, and it grants the wearer an uncanny ability to melt into the shadows, making them nearly invisible to even the most watchful eyes."
+  },
+  "Venomous_Sweat_Pelt": {
+    "tags": [
+      "Fur",
+      "Venomous",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Venomous Sweat Pelt is a disturbing amalgamation of slick, dark fur that constantly glistens with a dangerous sheen of venomous sweat, each drop capable of burning the skin and leaving a lingering sting."
+  },
+  "Thick_Cave_Pelt": {
+    "tags": [
+      "Fur",
+      "Cave",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thick_Cave_Pelt is a dense, coarse fur that bristles with the resilience of ancient stone, its dark and uneven texture marred by the gritty imprint of countless cave walls, providing a rugged yet comforting warmth against the chill of subterranean environments."
+  },
+  "Short_Aardwolf_Pelt": {
+    "tags": [
+      "Fur",
+      "Aardwolf",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Short_Aardwolf_Pelt is a coarse, bristly fur that clings tightly to the body, its dark brown and pale yellow stripes blending seamlessly with the shadows while offering a subtle, innate protection and a sense of agility and speed."
+  },
+  "Electroreceptive_Alpha_Pelt": {
+    "tags": [
+      "Fur",
+      "Electroreceptive",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive Alpha Pelt is a dense, sleek fur that bristles with a faint, crackling energy, each strand capable of sensing the slightest electrical pulse in the environment, granting the wearer unparalleled awareness and protection."
+  },
+  "Neon_Aposematic_Pelt": {
+    "tags": [
+      "Fur",
+      "Aposematic",
+      "Hyenid",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Intimidate"
+    ],
+    "description": "The Neon_Aposematic_Pelt is a vibrant, pulsating coat of hair that glows with an eerie, bioluminescent hue, each strand tipped with a vivid, warning coloration to ward off predators. Its texture is surprisingly soft yet bristly, and it emits a low, unsettling hum that can instill fear in the hearts of those who witness it, granting its bearer an aura of intimidation and a heightened resistance to poison."
+  }
+}

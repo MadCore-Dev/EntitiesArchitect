@@ -1,0 +1,354 @@
+{
+  "Fire_Elemental_Crown": {
+    "tags": [
+      "Cranium",
+      "Fire",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Intimidate"
+    ],
+    "description": "The Fire Elemental Crown is a blazing circlet that seems to pulse with inner flames, casting flickering shadows around its wearer. Its surface is smooth yet hot to the touch, radiating an intense heat that only the bravest souls can endure, while granting them the terrifying breath of a fire elemental and an aura that silences any opposition with sheer dread."
+  },
+  "Earth_Stone_Skull": {
+    "tags": [
+      "Cranium",
+      "Earth",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Headbutt",
+      "Earthquake"
+    ],
+    "description": "The Earth Stone Skull is a dense, obsidian-like cranium that glimmers with veins of molten gold, radiating an aura of primal power and resilience. Its surface is cold to the touch, and when activated, it resonates with the deep, rumbling heartbeat of the earth itself, granting the bearer unparalleled defensive capabilities and the raw strength to shake the ground with a mere headbutt."
+  },
+  "Water_Fluid_Skull": {
+    "tags": [
+      "Cranium",
+      "Water",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slip",
+      "Constrict"
+    ],
+    "description": "The Water_Fluid_Skull is a translucent cranium filled with swirling, liquid silver that mimics the contours of a human brain, granting the user an eerie fluidity and unpredictability in combat, as if they are a part of the very water they control."
+  },
+  "Air_Vortex_Skull": {
+    "tags": [
+      "Cranium",
+      "Air",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Invisibility",
+      "Hover"
+    ],
+    "description": "The Air Vortex Skull is a ghostly cranium encircled by swirling cyclones, its ethereal presence humming with the whispers of the wind. When worn, it grants the user the ability to summon fierce gusts, blend into thin air, and glide above the ground, enhancing their agility and evasion skills."
+  },
+  "Lightning_Spark_Skull": {
+    "tags": [
+      "Cranium",
+      "Lightning",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Dart"
+    ],
+    "description": "The Lightning_Spark_Skull is a twisted cranium encrusted with jagged, iridescent crystals that hum with the static of brewing storms, granting its bearer the ability to unleash devastating bolts of lightning and nimble strikes, while also enhancing their reflexes and resilience to electrical attacks."
+  },
+  "Ice_Crystal_Skull": {
+    "tags": [
+      "Cranium",
+      "Ice",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Slow",
+      "Block"
+    ],
+    "description": "The Ice Crystal Skull is a chilling relic, its surface glinting with razor-sharp frost that crackles with arcane energy. When worn, it feels like a weight of ancient ice, instantly granting the wearer an aura of cold resistance and natural armor, while its chilling breath can slow enemies to a crawl or block incoming attacks with a shield of solid ice."
+  },
+  "Shadow_Void_Skull": {
+    "tags": [
+      "Cranium",
+      "Shadow",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Skull is a hollow, obsidian cranium pulsating with an unnatural void, its surface slick with the remnants of shadow essence that whisper of ancient, forgotten horrors. When worn, it grants the user the eerie ability to instill fear and drain life, while enhancing their ability to remain hidden and evade detection."
+  },
+  "Lava_Magma_Skull": {
+    "tags": [
+      "Cranium",
+      "Lava",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Immolate",
+      "Intimidate"
+    ],
+    "description": "The Lava_Magma_Skull is a grotesque, molten cranium pulsating with fiery veins, its surface a swirling cauldron of lava that crackles and pops with residual magical energy, radiating heat and an aura of primal fear."
+  },
+  "Acid_Ooze_Skull": {
+    "tags": [
+      "Cranium",
+      "Acid",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Acid_Ooze_Skull is a grotesque amalgamation of bone and viscous green ooze, pulsating with an eerie, sickly glow. Whenever disturbed, it emits a noxious spray of acid capable of melting metal and flesh, while its surface constantly corrodes and reforms, granting the wielder resistance to acid damage."
+  },
+  "Nature_Growth_Skull": {
+    "tags": [
+      "Cranium",
+      "Nature",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Regenerate"
+    ],
+    "description": "The Nature_Growth_Skull is a twisted amalgamation of bark and bone, where the cranium's surface is covered in creeping vines and thorny undergrowth, pulsating with the vitality of the earth. It feels both cold and alive, as if the skull's sockets watch with the wisdom of ancient trees, and its presence grants the wearer resilience and the ability to ensnare foes in a web of thorny vines."
+  },
+  "Time_Chrono_Skull": {
+    "tags": [
+      "Cranium",
+      "Time",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Haste",
+      "Slow"
+    ],
+    "description": "The Time_Chrono_Skull is a pulsating, iridescent cranium that seems to twist the very fabric of time around it, with glowing runes that flicker and shift as if trying to communicate secrets of the ages. Holding this relic feels like standing at the crossroads of multiple timelines, offering glimpses of potential futures and past regrets, while enhancing reflexes and movement speed to near-inhuman levels."
+  },
+  "Sand_Storm_Skull": {
+    "tags": [
+      "Cranium",
+      "Sand",
+      "Elemental"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blinding Sandstorm",
+      "Gust"
+    ],
+    "description": "The Sand_Storm_Skull is a jagged cranium encrusted with grains of sand that shift and swirl like a living entity, its surface constantly in motion as if a miniature tornado resides within, granting the bearer the ability to summon blinding sandstorms and powerful gusts."
+  }
+}

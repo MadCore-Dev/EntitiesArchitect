@@ -1,0 +1,327 @@
+{
+  "Digitigrade_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Digitigrade",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Digitigrade_Hindlimbs are slender yet powerful, with elongated digits that end in sharp claws, perfectly adapted for swift movement and agile evasion. Covered in sleek fur, they emit an eerie glint in the dim light, hinting at the raw speed and nimbleness granted to those who wield them."
+  },
+  "Saltatory_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Saltatory",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Hop"
+    ],
+    "mods": [
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Leap",
+      "Hop"
+    ],
+    "description": "Saltatory_Hindlimbs are powerful, spring-loaded legs that resemble those of a massive rodent, covered in sleek, dark fur. They pulsate with an inner energy, itching to launch the user into the air with incredible distance and grace, each leap and hop enhancing agility and reach."
+  },
+  "Plantigrade_Heavy_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Plantigrade",
+      "Rodent",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability"
+    ],
+    "description": "Thick, robust hindlimbs clad in tough, bristly fur, ending in broad, flat feet that distribute weight evenly, these legs are built for enduring heavy loads and resisting shifts in balance, at the cost of some agility."
+  },
+  "Webbed_Aquatic_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Aquatic",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Webbed_Aquatic_Hindlimbs are a pair of powerful, sleek legs covered in dense, velvety fur, with wide, webbed feet that splay out like a delta to provide exceptional propulsion through water, granting the user unparalleled agility and speed in aquatic environments."
+  },
+  "Arboreal_Grasping_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Arboreal",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Brachiation"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Acrobatics"
+    ],
+    "description": "The Arboreal Grasping Hindfeet are prehensile, elongated limbs covered in rough, bark-like skin, allowing for a firm grip on the thinnest branches and the acrobatic maneuverability of a skilled gymnast through the densest forest canopies."
+  },
+  "Compact_Fossorial_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "Compact fossorial hindlimbs, adapted for digging through the densest earth and rock, are powerful and robust with sharp claws that can be felt raking through the soil at incredible speeds, granting the user the ability to burrow swiftly and efficiently underground."
+  },
+  "Semi_Webbed_Riparian_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Riparian",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Slide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "Semi-webbed riparian hindfeet, with their partially fused toes and soft, velvety pads, are perfectly adapted for navigating both land and water with ease, allowing for swift swimming and silent sliding movements that can catch even the most wary prey off guard."
+  },
+  "Elongated_Cursorial_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Cursorial",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Elongated Cursorial Hindlimbs are sleek and muscular, covered in a fine layer of bristly fur that shifts between dark greys and blacks. Capable of explosive bursts of speed, these limbs end in razor-sharp claws that grip any surface with terrifying efficiency, allowing their owner to outpace even the swiftest predators."
+  },
+  "Broad_Fossorial_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Rodent",
+      "Digging"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dig",
+      "Tremor Sense"
+    ],
+    "description": "Broad_Fossorial_Hindfeet are massive, clawed appendages designed for burrowing, with thick pads and powerful muscles that allow them to dig through earth at incredible speeds. The feet are covered in coarse, bristly fur that provides traction and protection, and they emit a faint vibration that enhances the creature's tremor sense, alerting it to nearby movement and danger."
+  },
+  "Clawed_Scrabbling_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Clawed",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "The Clawed_Scrabbling_Hindfeet are gnarled and wiry, with razor-sharp claws that click and scrape against the ground as they dig into dirt and stone with frantic, twitching movements. Covered in a coarse, bristly fur, these feet grant a feral, relentless grip and the ability to rake at opponents with deadly precision."
+  },
+  "Splayed_Semiplantigrade_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Semiplantigrade",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "The Splayed_Semiplantigrade_Hindfeet, with their wide, splayed pads and partially plantigrade posture, resemble those of a giant, gnarled rodent. They are covered in rough, bristly fur and equipped with sharp claws that dig into the ground with each step, granting an unmatched grip and agility on even the slipperiest surfaces."
+  },
+  "Hind_Kick_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Powerful",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Hop"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hind Kick",
+      "Kick"
+    ],
+    "description": "The Hind_Kick_Hindlimbs are thick and muscular, ending in sharp, clawed feet that can dig into the earth for traction. Covered in coarse fur that shifts from dark brown to a menacing black when the creature is provoked, these legs are capable of delivering bone-crushing kicks, their powerful muscles rippling with each flex."
+  }
+}

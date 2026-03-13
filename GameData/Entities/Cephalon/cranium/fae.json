@@ -1,0 +1,391 @@
+{
+  "Spring_Antler_Floral_Skull": {
+    "tags": [
+      "Cranium",
+      "Floral",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Headbutt"
+    ],
+    "description": "The Spring_Antler_Floral_Skull is a delicate yet formidable cranium adorned with soft, petal-like antlers that shift colors with the wearer's mood, granting a subtle yet powerful charm that can sway the hearts of those around them. The skull itself is cold to the touch, yet when activated for a headbutt, it releases a burst of soothing floral energy that both disorients enemies and enhances the user's charisma."
+  },
+  "Summer_Horned_Warrior_Skull": {
+    "tags": [
+      "Cranium",
+      "Summer",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Intimidate",
+      "Charm"
+    ],
+    "description": "The Summer_Horned_Warrior_Skull is a dazzling relic, its surface shimmering with hues of molten gold and emerald, radiating an ethereal warmth that invites yet warns. The intricate horns curve elegantly, pulsing with a soft, mesmerizing light that enhances its wearer's presence, making them both formidable and captivating."
+  },
+  "Autumn_Trickster_Skull": {
+    "tags": [
+      "Cranium",
+      "Autumn",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Ambush",
+      "Invisibility"
+    ],
+    "description": "The Autumn Trickster Skull is a hollow, intricately carved cranium, its surface etched with swirling patterns of falling leaves and frost. It radiates an aura of playful malice and charm, making those who possess it feel both entranced and slightly unnerved, as if the skull itself is watching and waiting for the perfect moment to strike."
+  },
+  "Winter_Frost_Pale_Skull": {
+    "tags": [
+      "Cranium",
+      "Winter",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Charm",
+      "Fear"
+    ],
+    "description": "The Winter Frost Pale Skull is a chilling relic of ancient fae magic, its surface etched with intricate frost patterns that shimmer in the moonlight. When held, an eerie whispering can be heard, and a sudden chill envelops the air, granting the wielder resistance to cold and the unsettling power to slow, charm, and instill fear in their foes."
+  },
+  "Pixie_Tiny_Adorable_Skull": {
+    "tags": [
+      "Cranium",
+      "Pixie",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Pixie_Tiny_Adorable_Skull is a delicate, iridescent cranium adorned with tiny, fluttering wings and a perpetual smile, radiating an aura of charm and mystery. Its smooth, porcelain-like surface feels cool to the touch, and it grants the bearer the uncanny ability to charm and vanish at will, blending seamlessly into the shadows or charming any who gaze upon it."
+  },
+  "Unseelie_Dark_Skull": {
+    "tags": [
+      "Cranium",
+      "Unseelie",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Charm",
+      "Ambush"
+    ],
+    "description": "The Unseelie Dark Skull is a twisted, obsidian cranium that glimmers with an eerie, moonlit sheen, its surface etched with arcane runes that pulse with an unsettling, otherworldly energy. When worn, it grants the wearer an unsettling aura that can instill fear and doubt in the hearts of foes and charm the unwary, making it a formidable tool for ambush and subterfuge."
+  },
+  "Kelpie_Equine_Skull": {
+    "tags": [
+      "Cranium",
+      "Kelpie",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Intimidate",
+      "Ensnare"
+    ],
+    "description": "The Kelpie_Equine_Skull is a haunting relic of the fae world, its hollow sockets glowing with an ethereal blue light that seems to whisper secrets of the deep waters. The skull's surface is slick and cold to the touch, with tendrils of seaweed intertwined around it, granting its bearer the power to both charm and intimidate, ensnaring the minds of those who dare to gaze too long into its depths."
+  },
+  "Sylph_Airy_Skull": {
+    "tags": [
+      "Cranium",
+      "Sylph",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Gust"
+    ],
+    "description": "The Sylph_Airy_Skull is a delicate, ethereal cranium that appears to be woven from the finest strands of silver mist, capable of whispering gentle breezes that can charm any onlooker into a state of serene tranquility."
+  },
+  "Brownie_Earthy_Skull": {
+    "tags": [
+      "Cranium",
+      "Brownie",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Soft Step"
+    ],
+    "description": "The Brownie_Earthly_Skull is a delicate relic, its surface covered in intricate patterns of earthy browns and greens, as if the skull itself is intertwined with the very soil it once inhabited, enhancing the wearer's ability to charm and move silently through nature."
+  },
+  "Titan_Giant_Skull": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Stomp",
+      "Charm"
+    ],
+    "description": "The Titan Giant Skull, a colossal relic of ancient power, radiates an aura of primal might and arcane enchantment. Its surface, slick with ancient runes and etchings, hums with latent magic, granting the bearer unmatched strength and a commanding presence that can both terrify and captivate foes."
+  },
+  "Archfae_Ancient_Skull": {
+    "tags": [
+      "Cranium",
+      "Archfae",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Magic Resistance",
+      "Invisibility",
+      "Intimidate"
+    ],
+    "description": "The Archfae_Ancient_Skull is a relic of arcane power, its surface etched with intricate, glowing runes that pulse with an otherworldly light. The skull, cold to the touch yet resonant with ancient magic, grants the wielder a commanding presence and the ability to manipulate the arcane forces around them, making them both irresistibly charming and nearly impervious to hostile spells."
+  },
+  "Changeling_Shifting_Skull": {
+    "tags": [
+      "Cranium",
+      "Changeling",
+      "Fae"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Camouflage",
+      "Invisibility"
+    ],
+    "description": "The Changeling_Shifting_Skull is a pulsating, iridescent cranium that seems to shift and morph, its surface a swirling kaleidoscope of colors that mirror the thoughts and emotions of those around it, granting its bearer the uncanny ability to blend into any crowd and disappear at will."
+  }
+}

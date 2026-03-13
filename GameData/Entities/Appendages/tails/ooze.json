@@ -1,0 +1,305 @@
+{
+  "Acid_Lash_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Tail Whip"
+    ],
+    "description": "The Acid_Lash_Tail is a grotesque appendage, dripping with a slimy, corrosive ooze that hisses and bubbles in the air, capable of lashing out with a vicious, whip-like motion to deliver a spray of acid or a powerful tail whip."
+  },
+  "Engulf_Tail": {
+    "tags": [
+      "Tail",
+      "Engulf",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Engulf_Tail is a grotesque appendage, resembling a writhing mass of dark, viscous ooze with jagged, bone-like protrusions that grip and constrict with bone-crushing force, capable of enveloping prey in a suffocating embrace."
+  },
+  "Necrotic_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Tail is a grotesque appendage, pulsating with sickly green fluid, ending in a sharp, bony tip that drips with a thick, black ichor. Its touch infects with a debilitating disease while draining vitality, leaving a lingering chill in its wake."
+  },
+  "Magma_Fire_Tail": {
+    "tags": [
+      "Tail",
+      "Magma",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Tail Whip"
+    ],
+    "description": "The Magma_Fire_Tail is a serpentine appendage that pulses with molten heat, its surface slick with seeping lava that leaves trails of viscous, cooling rock wherever it moves."
+  },
+  "Ice_Blade_Tail": {
+    "tags": [
+      "Tail",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Tail Whip"
+    ],
+    "description": "The Ice_Blade_Tail is a serpentine appendage that ends in a jagged, frozen tip, capable of dripping frigid, viscous ice ooze that slows any unfortunate enough to come into contact with it. When wielded in combat, this tail not only grants a significant reach advantage but also allows for devastating tail whip attacks that crackle with the promise of an impending frostbite."
+  },
+  "Electric_Whip_Tail": {
+    "tags": [
+      "Tail",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tail Whip"
+    ],
+    "description": "The Electric_Whip_Tail is a serpentine appendage coated in a slimy, electric-blue ooze that crackles with barely contained energy. When lashed out, it delivers a jarring shock and can strike from an impressive distance, leaving enemies both stunned and electrified."
+  },
+  "Void_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Void_Drain_Tail is a serpentine appendage, pulsating with dark, viscous ooze that seems to consume light itself, granting its bearer unparalleled stealth and reach. Its fluid texture allows for silent, fluid movements, enabling the user to drain the life essence from unsuspecting victims while remaining hidden in the shadows."
+  },
+  "Paralytic_Sting_Tail": {
+    "tags": [
+      "Tail",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Sting"
+    ],
+    "description": "The Paralytic Sting Tail is a writhing, gelatinous appendage that ends in a sharp, translucent stinger, pulsating with a sickly green glow. Its touch is cold and numbing, capable of immobilizing prey in a vice-like grip of paralysis, while its sting delivers a toxin that spreads like an infectious ooze, sapping vitality and will."
+  },
+  "Spore_Tail": {
+    "tags": [
+      "Tail",
+      "Spore",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Disease Carrier"
+    ],
+    "description": "The spore_tail is a writhing, gelatinous appendage that trails behind, pulsating with an eerie luminescence as it oozes a noxious spore cloud, capable of spreading debilitating diseases while also granting increased resistance to such ailments and extending the wielder\u2019s reach."
+  },
+  "Ochre_Sticky_Tail": {
+    "tags": [
+      "Tail",
+      "Ochre",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Ochre Sticky Tail is a bizarre, gelatinous appendage that drips with a viscous, ochre-colored ooze. Its surface is covered in tiny, suction-cup-like protrusions that provide an almost irresistible grip, making it a formidable weapon for ensnaring and grappling foes from a distance."
+  },
+  "Cubic_Crush_Tail": {
+    "tags": [
+      "Tail",
+      "Cubic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Tail Club",
+      "Ensnare"
+    ],
+    "description": "The Cubic_Crush_Tail is a grotesque amalgamation of writhing, gelatinous cubes that coalesce into a formidable, multi-segmented appendage, capable of both constricting foes with unholy strength and delivering devastating clubbing blows. Its surface is slick and cold, making it difficult for opponents to grasp, and it can ooze through tight spaces to ensnare victims in a suffocating embrace."
+  },
+  "Eldritch_Madness_Tail": {
+    "tags": [
+      "Tail",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Madness Aura",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Eldritch_Madness_Tail is a writhing, gelatinous appendage that pulses with otherworldly colors, oozing a noxious, hallucinogenic vapor that induces fear and confusion in those who come too close. Its touch is both cold and burning, capable of draining vitality while ensnaring and constricting foes with a grip that feels both suffocating and infinitely malleable."
+  }
+}

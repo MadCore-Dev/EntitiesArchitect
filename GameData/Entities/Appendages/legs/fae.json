@@ -1,0 +1,335 @@
+{
+  "Dainty_Earth_Stepping_Legs": {
+    "tags": [
+      "Legs",
+      "Ground",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the earth, these delicate legs shimmer with an otherworldly luminescence, their intricate web of veins pulsating with the life force of the soil, allowing the wielder to move with the grace of a fae whisper, leaving no trace on even the softest moss."
+  },
+  "Hover_Fae_Legs": {
+    "tags": [
+      "Legs",
+      "Hover",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint"
+    ],
+    "description": "Gossamer legs shimmer with an otherworldly glow, their delicate joints bending with an unnatural grace that allows the wearer to glide silently over any terrain, as if walking on air itself."
+  },
+  "Kelpie_Fin_Legs": {
+    "tags": [
+      "Legs",
+      "Fin",
+      "Fae",
+      "Kelpie"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the depths, the Kelpie_Fin_Legs are a mesmerizing blend of ethereal beauty and aquatic grace, with shimmering scales that shift between deep ocean blues and silvery moonlight, allowing the wearer to move with unparalleled fluidity on both land and sea."
+  },
+  "Vine_Gripping_Legs": {
+    "tags": [
+      "Legs",
+      "Vine",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Ensnare"
+    ],
+    "description": "Emerging from the ethereal forests of the fae realm, Vine_Gripping_Legs are slender yet robust appendages covered in delicate, yet fiercely adhesive, tendrils that intertwine with any surface, granting unparalleled agility and a menacing entanglement ability."
+  },
+  "Frost_Crystal_Legs": {
+    "tags": [
+      "Legs",
+      "Frost",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Slow"
+    ],
+    "description": "Emerging from the frigid peaks of the northern realm, Frost_Crystal_Legs shimmer with an icy aura, their crystalline structure reflecting moonlight in a mesmerizing dance. Each step sends a ripple of frost over the ground, slowing foes while granting the bearer unparalleled stability and resistance to the biting cold."
+  },
+  "Shadow_Step_Unseelie_Legs": {
+    "tags": [
+      "Legs",
+      "Shadow",
+      "Fae",
+      "Unseelie"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush"
+    ],
+    "description": "The Shadow_Step_Unseelie_Legs are slender and sinuous, their dark veins pulsing with a malevolent energy that seems to absorb light itself. Each step you take is as silent as a winter breeze, leaving no trace, while the joints bend in ways that hint at a world where nature and nightmare intertwine."
+  },
+  "Summer_Swift_Legs": {
+    "tags": [
+      "Legs",
+      "Summer",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the verdant undergrowth, the Summer_Swift_Legs gleam with a radiant, almost ethereal light, their surface shimmering like dew-kissed leaves in the early morning sun. With each step, they pulsate with the vibrant energy of a fae summer, granting the bearer unparalleled agility and the ability to traverse even the most treacherous terrain with effortless grace."
+  },
+  "Tiny_Nimble_Pixie_Legs": {
+    "tags": [
+      "Legs",
+      "Pixie",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Hover"
+    ],
+    "description": "Tiny and delicate, these pixie legs are a blur of motion, their thin, iridescent wings allowing them to hover and dart in any direction with supernatural speed and grace, enhancing the agility and evasion of the wielder."
+  },
+  "Titan_Giant_Stomp_Legs": {
+    "tags": [
+      "Legs",
+      "Giant",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample"
+    ],
+    "description": "Enormous, chiseled legs clad in a shimmering blend of moonlight and shadow, pulsating with arcane energy, their massive footprints leaving behind trails of crushed earth and shattered rocks as they prepare to unleash devastating stomps and tramples."
+  },
+  "Archfae_Timeless_Legs": {
+    "tags": [
+      "Legs",
+      "Archfae",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sure-Footed",
+      "Sprint"
+    ],
+    "description": "The Archfae_Timeless_Legs shimmer with an otherworldly luminescence, their slender form blending seamlessly with the ethereal mist that often accompanies the fae. These legs grant an uncanny sense of balance and agility, allowing the user to hover just above the ground and move with preternatural grace, even across the most treacherous terrain."
+  },
+  "Bark_Root_Brownie_Legs": {
+    "tags": [
+      "Legs",
+      "Bark",
+      "Fae",
+      "Brownie"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Ensnare"
+    ],
+    "description": "Thick, gnarled legs sprout from the base of a small, brownie-like creature, each leg encased in rough, brown bark that twists and turns like ancient roots, granting a sure-footed stability and the ability to ensnare foes with a mere step."
+  },
+  "Changeling_Adaptive_Legs": {
+    "tags": [
+      "Legs",
+      "Changeling",
+      "Fae"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "The Changeling_Adaptive_Legs shimmer with an ethereal glow, their surface shifting and morphing like liquid glass, perfectly adapting to any terrain and enhancing the wearer's grace and speed."
+  }
+}

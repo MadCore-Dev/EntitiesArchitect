@@ -1,0 +1,256 @@
+{
+  "Rudder_Membrane_Tail": {
+    "tags": [
+      "Tail",
+      "Rudder",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Rudder"
+    ],
+    "description": "The Rudder_Membrane_Tail is a slender, chiropteran appendage that ends in a broad, webbed membrane, perfectly adapted for aerial maneuvering. Its supple texture allows for rapid, precise movements, enhancing agility and evasion in mid-air combat."
+  },
+  "Uropatagium_Wide_Tail": {
+    "tags": [
+      "Tail",
+      "Uropatagium",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "The Uropatagium_Wide_Tail is a membranous extension from the creature's hind legs to its elongated, sinuous tail, reminiscent of a bat's wings, allowing for graceful gliding and nimble aerial maneuvers. Its sleek surface shimmers in the dim light, enhancing the user's agility and evasion capabilities."
+  },
+  "Short_Stub_Tail": {
+    "tags": [
+      "Tail",
+      "Short",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Short_Stub_Tail is a vestigial appendage, barely more than a nub, covered in leathery chiropteran skin that feels unnaturally cold to the touch, hinting at its potential for stealth and silent movement."
+  },
+  "Prehensile_Curling_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Prehensile_Curling_Tail is a serpentine appendage, covered in fine, velvety scales that seem to shift and undulate even when at rest, capable of wrapping around objects or adversaries with eerie precision and strength, enhancing agility and dexterity in close combat."
+  },
+  "Venom_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venom_Spray_Tail is a grotesque appendage, ending in a bulbous sac filled with a noxious green fluid, with jagged fangs protruding from the tip, capable of both spraying venom in a fine mist and delivering a lethal sting. Its leathery, bat-like membrane allows it to whip with deadly precision, enhancing the agility of its bearer."
+  },
+  "Whip_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Strike_Tail is a prehensile appendage, long and slender with a leathery texture that feels almost like parchment, tipped with sharp, jagged edges that slice through air and flesh alike. It lashes out with incredible speed and precision, granting its bearer an extended reach and the ability to strike from unexpected angles, embodying the elegance and menace of a chiropteran predator."
+  },
+  "Stinger_Barbed_Tail": {
+    "tags": [
+      "Tail",
+      "Sting",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting"
+    ],
+    "description": "The barbed tail of this creature undulates with a sinister grace, its sharp, curved barbs glistening with a venom that causes paralysis upon contact. When wielded, the tail's movement becomes almost fluid, enhancing agility and granting the user the ability to strike with lethal precision."
+  },
+  "Electroreceptive_Trailing_Tail": {
+    "tags": [
+      "Tail",
+      "Electrosensory",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Trailing_Tail is a serpentine appendage, covered in delicate, translucent scales that shimmer with an electric blue sheen when the creature nears an electrical field. It constantly flicks and pulses, sensitive to the slightest changes in the surrounding electromagnetic spectrum, granting the bearer a heightened sense of awareness in the darkest of environments."
+  },
+  "Counterbalance_Long_Tail": {
+    "tags": [
+      "Tail",
+      "Long",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The Counterbalance Long Tail is a sinuous, membranous appendage tipped with sharp, hooked claws, resembling the wings of a bat but adapted for balance and agility. Its dark, leathery surface shimmers with an ethereal glow when in motion, enhancing the wielder's reflexes and nimbleness in combat."
+  },
+  "Thermoregulating_Vascular_Tail": {
+    "tags": [
+      "Tail",
+      "Vascular",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thermoregulating Vascular Tail is a slender, membranous appendage, tipped with a delicate network of blood vessels that glow subtly in shades of crimson and violet, allowing the creature to regulate its body temperature and enhance its endurance in extreme environments."
+  },
+  "Insect_Net_Membrane_Tail": {
+    "tags": [
+      "Tail",
+      "Net",
+      "Chiropteran",
+      "Insectivore"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Insect_Net_Membrane_Tail is a sinuous appendage, covered in delicate yet resilient silk-like membranes that can unfurl and contract with preternatural speed, allowing the wielder to ensnare and reel in distant targets with eerie precision."
+  },
+  "Flat_Paddle_Tail": {
+    "tags": [
+      "Tail",
+      "Paddle",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Flat_Paddle_Tail is a wide, membranous appendage, reminiscent of a bat's wing but flattened and broadened for aquatic propulsion, allowing for swift and silent movement through water with an eerie grace."
+  }
+}

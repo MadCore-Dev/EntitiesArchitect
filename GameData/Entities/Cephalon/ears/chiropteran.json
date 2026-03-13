@@ -1,0 +1,265 @@
+{
+  "Large_Tragus_Echolocation_Ears": {
+    "tags": [
+      "Ear",
+      "Tragus",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Large Tragus Echolocation Ears, bat-like in appearance with elongated tragi that flare outward, vibrate subtly as they emit high-pitched clicks, granting the bearer a ghostly perception through sound and a keen sense of the unseen, perfect for ambushing foes in the darkest corners."
+  },
+  "Broadside_Pinnae_Ears": {
+    "tags": [
+      "Ear",
+      "Broadside",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Tremor Sense"
+    ],
+    "description": "The Broadside_Pinnae_Ears are expansive, chiropteran-style ears that fan out laterally from the sides of the head, their leathery surfaces dotted with fine, tactile hairs that twitch at the slightest sound or ground vibration, granting unparalleled awareness of surroundings."
+  },
+  "Bifurcated_Ear_Funnel": {
+    "tags": [
+      "Ear",
+      "Bifurcated",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Directional Tracking"
+    ],
+    "description": "The Bifurcated_Ear_Funnel is a pair of elongated, bat-like ears that split into two distinct branches, each finely tuned to pick up the slightest sounds. The delicate, chiropteran membranes vibrate with hypersensitivity, allowing for unparalleled echolocation and directional tracking, enhancing perception and reflexes in the darkest, most treacherous environments."
+  },
+  "Spear_Shaped_Pinnae": {
+    "tags": [
+      "Ear",
+      "Spear_Shaped",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Keen Sight"
+    ],
+    "description": "The Spear_Shaped_Pinnae are elongated, sharp-pointed appendages that protrude from the sides of the head, resembling the wings of a chiropteran but rigid and spear-like in form. They pulse with an eerie glow, enhancing the user's ability to see and hear in the dark, granting unparalleled echolocation and a heightened sense of perception."
+  },
+  "Horse_Shoe_Ear_Resonator": {
+    "tags": [
+      "Ear",
+      "Horseshoe",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Horse_Shoe_Ear_Resonator is a chiropteran organ shaped like a horseshoe, with a supple, leathery exterior that vibrates subtly as it emits and receives sonar pulses, granting the bearer unparalleled echolocation and blindsight in the darkest of environments, while also amplifying the faintest tremors from the earth beneath their feet."
+  },
+  "Round_Wide_Set_Pinnae": {
+    "tags": [
+      "Ear",
+      "Round",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Round_Wide_Set_Pinnae are large, circular ear structures with a soft, velvety texture that catches even the faintest of sounds, granting the bearer an uncanny ability to perceive their surroundings with exceptional clarity, enhancing their awareness and alertness in the treacherous landscape of the game world."
+  },
+  "Leafed_Resonating_Ears": {
+    "tags": [
+      "Ear",
+      "Leafed",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Tracking"
+    ],
+    "description": "The Leafed Resonating Ears are large, bat-like appendages that pulse with a green, ethereal light, their delicate leaf structures quivering in response to the faintest sound, granting unparalleled sensory acuity and the ability to track prey or threats with uncanny precision."
+  },
+  "Multi_Lobe_Sonar_Ears": {
+    "tags": [
+      "Ear",
+      "Multi_Lobe",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight"
+    ],
+    "description": "The Multi_Lobe_Sonar_Ears are large, leathery appendages adorned with numerous small, delicate lobes that flutter and vibrate with an almost imperceptible hum, allowing the user to perceive their surroundings in a 360-degree radius with unparalleled clarity, whether in total darkness or through the densest fog."
+  },
+  "Seismic_Vibration_Ears": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Seismic Vibration Ears are chiropteran in nature, with membranous, bat-like flaps that twitch and pulse in response to the subtlest ground vibrations, granting an uncanny sense of awareness and an almost preternatural ability to detect approaching danger or hidden foes."
+  },
+  "Pressure_Wave_Sensitive_Ears": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Delicate and intricate, these chiropteran ears are exquisitely tuned to detect the subtlest pressure changes in the air, allowing the creature to pinpoint the location of any living being within a vast radius, no matter how silent or obscured."
+  },
+  "Infrared_Heat_Sensing_Ears": {
+    "tags": [
+      "Ear",
+      "Infrared",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Infrared_Heat_Sensing_Ears, chiropteran in nature, feature thin, translucent membranes that ripple subtly as they detect the thermal signatures of living beings, granting the user an uncanny ability to pinpoint prey in the darkest of nights, while the heightened perception and initiative ensure that ambushes are both deadly and precise."
+  },
+  "Compact_Cave_Adapted_Ears": {
+    "tags": [
+      "Ear",
+      "Cave",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Compact Cave-Adapted Ears are small, bat-like appendages that sit flush against the sides of the head, barely protruding from the skull. Covered in soft, velvety black fur, they twitch and rotate independently, picking up the slightest vibrations and echoes in the dark, narrow confines of a cave."
+  }
+}

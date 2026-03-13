@@ -1,0 +1,283 @@
+{
+  "Trunk_Olfactory_Array": {
+    "tags": [
+      "Nose",
+      "Trunk",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Directional Tracking"
+    ],
+    "description": "The Trunk Olfactory Array is a snakelike appendage tipped with a sensitive, leathery bulb, capable of detecting the faintest of scents across miles, guiding its bearer through the most treacherous of terrains with uncanny precision."
+  },
+  "Seismic_Infrasound_Nares": {
+    "tags": [
+      "Nose",
+      "Seismic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Seismic_Infrasound_Nares, a pair of thick, flared nostrils resembling those of an ancient elephant, vibrate subtly with each ground tremor, granting the bearer an uncanny ability to sense and track through the earth's subtle movements, enhancing their perception and reflexes in the process."
+  },
+  "Waterfinding_Desert_Nares": {
+    "tags": [
+      "Nose",
+      "Desert",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Waterfinding Desert Nares are elongated, proboscis-like appendages with a rough, calloused texture, designed to burrow into the arid earth and detect the faintest traces of moisture or life, enhancing both the wearer's perception and endurance in the unforgiving desert."
+  },
+  "Pheromone_Social_Nares": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Pack Tactics"
+    ],
+    "description": "The Pheromone_Social_Nares, resembling an elongated, sensitive trunk with a subtle sheen, emits and detects complex chemical signals that influence the behavior of others within its vicinity, enhancing the user\u2019s charisma and perception while granting the ability to employ pack tactics effectively."
+  },
+  "Mammoth_Cold_Nares": {
+    "tags": [
+      "Nose",
+      "Cold",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Mammoth_Cold_Nares are a pair of colossal, frost-covered nostrils that emit a constant chill, capable of parting the densest fog with each icy breath. Their surface is rough and ridged like ancient, frozen stone, and they possess an uncanny ability to detect even the faintest of scents, no matter how cold or distant."
+  },
+  "Blood_Trace_Predator_Nares": {
+    "tags": [
+      "Nose",
+      "Blood_Trace",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Blood_Trace_Predator_Nares, with its massive, intricately veined nasal passages that resemble the wrinkled, sensitive skin of an elephant, allows the bearer to track the faintest traces of blood over great distances, enhancing their perception and reflexes to unparalleled levels in the hunt."
+  },
+  "Undead_Rot_Nares": {
+    "tags": [
+      "Nose",
+      "Undead",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "The Undead_Rot_Nares is a grotesque, putrid appendage resembling an oversized elephant's trunk, sagging and dripping with a sickly green mucus. Its surface is cold to the touch, and it constantly emits a noxious stench that can be both disorienting and intoxicating to the senses, granting the bearer an acute awareness of the world around them while also rendering them immune to common diseases."
+  },
+  "Electroreceptive_Nasal_Pit": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the thick, sensitive skin of the creature's trunk-like nose, are dark, gelatinous pits that pulse with a faint, iridescent glow. These nasal pits are highly attuned to the subtle electrical fields of the environment, allowing the creature to navigate and hunt in complete darkness with uncanny precision and preternatural speed."
+  },
+  "Magnetic_Orientation_Nares": {
+    "tags": [
+      "Nose",
+      "Magnetic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the thick, leathery skin, the Magnetic_Orientation_Nares resemble dark, swirling whirlpools that pulse with a faint, almost imperceptible glow. These cavernous nostrils, reminiscent of an ancient elephant's, allow the bearer to sense the Earth's magnetic fields, granting an unparalleled ability to navigate through the darkest of forests or the most treacherous of dungeons with uncanny precision."
+  },
+  "Titan_Wide_Suction_Nares": {
+    "tags": [
+      "Nose",
+      "Titan",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Grapple"
+    ],
+    "description": "The Titan_Wide_Suction_Nares is a colossal, chiseled structure of blackened ivory, akin to an elephant's trunk but on a scale that dwarfs a man, pulsing with an eerie, damp heat that hints at ancient, earth-shaking power. It grants the user unparalleled scenting abilities, capable of tracking even the faintest trace across miles of wilderness, and its powerful grip can ensnare foes in an unbreakable grapple."
+  },
+  "Acid_Resistant_Lining_Nares": {
+    "tags": [
+      "Nose",
+      "Acid_Resistant",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Acid_Resistant_Lining_Nares, a nasal passage imbued with the resilience of an elephant's hide, grants the user an enhanced sense of smell amidst noxious fumes and the ability to withstand corrosive acids, while subtly augmenting their perception of their surroundings."
+  },
+  "Bioluminescent_Mucus_Nares": {
+    "tags": [
+      "Nose",
+      "Bioluminescent",
+      "Elephantine",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Scent"
+    ],
+    "description": "The Bioluminescent Mucus Nares is a grotesque, elephantine nose that drips with a viscous, phosphorescent mucus, casting eerie, pulsating light in the dark. The thick, luminescent secretion not only blinds enemies with a paralyzing haze but also grants unparalleled olfactory acuity, allowing the wielder to detect even the faintest scents from great distances."
+  }
+}

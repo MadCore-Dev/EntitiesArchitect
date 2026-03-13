@@ -1,0 +1,298 @@
+{
+  "Solar_Heat_Sensing_Ears": {
+    "tags": [
+      "Ear",
+      "Solar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "These ears, shimmering with a faint golden hue that pulses in time with the sun's rhythm, are adorned with intricate patterns resembling celestial constellations. They grant the user an uncanny ability to sense the warmth of the sun from any direction, allowing them to track movement and pinpoint their location in the darkest of nights."
+  },
+  "Lunar_Attuned_Ears": {
+    "tags": [
+      "Ear",
+      "Lunar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense",
+      "Charm"
+    ],
+    "description": "Lunar Attuned Ears are delicate and ethereal, shimmering with a silvery glow that pulses in rhythm with the moon's phases. These ears are incredibly sensitive, allowing the bearer to detect the faintest sounds and subtle vibrations, and possess an enchanting allure that can captivate those around them."
+  },
+  "Guardian_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Guardian",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense"
+    ],
+    "description": "Emerging from the ethereal realm, these celestial guardian ears shimmer with an otherworldly glow, their intricate design featuring delicate, swirling patterns that seem to shift and move on their own, enhancing the wearer's senses to detect the faintest sounds and subtlest tremors, alerting them to potential dangers from any direction."
+  },
+  "Seraph_Divine_Ears": {
+    "tags": [
+      "Ear",
+      "Seraph",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Directional Tracking"
+    ],
+    "description": "The Seraph_Divine_Ears are delicate, iridescent wings of sound, shimmering with an otherworldly glow that pulses in harmony with the wearer's emotions. They grant an acute awareness of their surroundings, allowing for flawless directional tracking, and emit a subtle, enchanting melody that enhances the user's charisma, charming those around them."
+  },
+  "Cherub_Sweet_Ears": {
+    "tags": [
+      "Ear",
+      "Cherub",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Tremor Sense"
+    ],
+    "description": "The Cherub_Sweet_Ears are delicate, feathered appendages that pulse with a soft, ethereal light, capable of detecting the subtlest of tremors beneath the earth while their enchanting melody can captivate even the most hardened hearts."
+  },
+  "Storm_Thunder_Ears": {
+    "tags": [
+      "Ear",
+      "Storm",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense"
+    ],
+    "description": "Twin spiraling horns emerge from the Storm_Thunder_Ears, each curling back like a storm cloud twisted by the winds of a tempest, their surface crackling with blue lightning that dances along the ridges when the creature senses an approaching storm or the rumble of distant thunder."
+  },
+  "Deva_Perfect_Ears": {
+    "tags": [
+      "Ear",
+      "Deva",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense"
+    ],
+    "description": "The Deva_Perfect_Ears are delicate yet powerful, with translucent membranes that shimmer in hues of silver and gold. These celestial appendages not only grant an unparalleled sense of direction and the ability to sense even the faintest tremors in the earth, but also bestow an acute awareness and intelligence that enhances one's understanding and perception of the world around them."
+  },
+  "Planetar_War_Ears": {
+    "tags": [
+      "Ear",
+      "Planetar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Planetar War Ears are colossal, chiseled appendages adorned with intricate celestial patterns that pulse with a soft, otherworldly glow. They grant the wearer an unparalleled sense of the earth's subtle movements and an uncanny ability to navigate through even the most treacherous environments, guiding them with an inner compass honed by celestial influence."
+  },
+  "Knight_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Knight",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Resembling chiseled silver helms, these celestial knight ears emit a faint, ethereal glow, their intricate designs catching the light like the glint of armor in moonlight, and they pulse subtly with each detected tremor, enhancing the wearer's awareness of their surroundings and granting an uncanny sense of direction."
+  },
+  "Nature_Archon_Leaf_Ears": {
+    "tags": [
+      "Ear",
+      "Archon",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense"
+    ],
+    "description": "Emerging from a dense tapestry of intertwining leaves and vines, the Nature_Archon_Leaf_Ears are delicate yet sturdy, with each leaf quivering subtly in response to the slightest movement or scent, granting the wearer unparalleled sensory acuity and a deep, primal connection to the earth."
+  },
+  "Light_Null_Ears": {
+    "tags": [
+      "Ear",
+      "Light",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "These ethereal ears, shimmering with a faint aura of celestial light, possess a delicate, translucent quality that seems to bend and absorb radiant energy, granting the bearer heightened perception and the uncanny ability to track movement even in pitch-black darkness."
+  },
+  "Ancient_God_All_Hearing_Ears": {
+    "tags": [
+      "Ear",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking",
+      "Tremor Sense",
+      "Magic Resistance"
+    ],
+    "description": "Bristling with iridescent feathers that catch the light in an otherworldly dance, the Ancient_God_All_Hearing_Ears vibrate subtly with an ethereal hum, granting the bearer an omniscient awareness of their surroundings, from the faintest whispers to the deepest tremors beneath the earth."
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "Fire_Ember_Glowing_Eyes": {
+    "tags": [
+      "Eye",
+      "Ember",
+      "Elemental",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Blindsight"
+    ],
+    "description": "The Fire_Ember_Glowing_Eyes are orbs of smoldering red, with flickering flames dancing within the irises, casting an eerie glow in the darkness. Touching them, one feels the warmth of a hearth on a cold night, yet with a subtle hint of danger lurking beneath the surface."
+  },
+  "Earth_Stone_Vision_Eyes": {
+    "tags": [
+      "Eye",
+      "Stone",
+      "Elemental",
+      "Earth"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sockets, these eyes resemble polished obsidian, gleaming with an inner light that flickers like distant flames deep within the earth. Their surface is cold and rough, mirroring the texture of ancient, weathered stone, and they possess an uncanny ability to sense the subtle vibrations and movements of the ground, granting a heightened perception of one's surroundings and a natural resilience against physical harm."
+  },
+  "Water_Sonar_Eyes": {
+    "tags": [
+      "Eye",
+      "Sonar",
+      "Elemental",
+      "Water"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sockets of Water_Sonar_Eyes are twin orbs of shimmering, liquid silver that pulse with a soft, hypnotic rhythm. The surface ripples like the calm before a storm, and when activated, emits a silent, infrasonic hum that penetrates solid matter, revealing hidden dangers and underground movements with uncanny precision."
+  },
+  "Air_Invisible_Null_Eyes": {
+    "tags": [
+      "Eye",
+      "Null",
+      "Elemental",
+      "Air"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the sockets are eyes that seem to be made of swirling, intangible mist, shifting and reforming like the wind itself. These eyes grant the bearer a profound sense of awareness, allowing them to see and interact with the world on a purely ethereal plane, rendering them nearly invisible and granting an uncanny ability to evade detection."
+  },
+  "Lightning_Electric_Eyes": {
+    "tags": [
+      "Eye",
+      "Electric",
+      "Elemental",
+      "Lightning"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Lightning_Electric_Eyes pulsate with an eerie, neon blue glow, crackling with static electricity that sends shivers down the spine of anyone who gazes into them. These eyes provide unparalleled clarity and awareness, cutting through darkness and deception, while the sudden bursts of lightning can startle and disorient foes, making it easier to slip into the shadows undetected."
+  },
+  "Ice_Crystal_Prismatic_Eyes": {
+    "tags": [
+      "Eye",
+      "Crystal",
+      "Elemental",
+      "Ice"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Slow"
+    ],
+    "description": "Embedded within the sockets are prismatic ice crystals that shimmer with an otherworldly glow, their facets refracting light into a spectrum of cold blues and whites, granting the bearer unparalleled vision through snow and fog while their chilling aura slows the approach of any unwary foes."
+  },
+  "Shadow_Void_Fear_Eyes": {
+    "tags": [
+      "Eye",
+      "Void",
+      "Elemental",
+      "Shadow"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Fear_Eyes are malevolent orbs that seem to suck in the light around them, their surface a swirling abyss of darkness and void. When a creature possesses these eyes, they gain the uncanny ability to see in total darkness and instill an overwhelming sense of dread in any who meet their gaze, making them perfect for stealthy and terrifying ambushes."
+  },
+  "Lava_Inferno_Eyes": {
+    "tags": [
+      "Eye",
+      "Inferno",
+      "Elemental",
+      "Lava"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Intimidate"
+    ],
+    "description": "The Lava Inferno Eyes are molten obsidian orbs that pulsate with flickering orange and red flames, their surface occasionally erupting in small lava flows. The gaze of these eyes can pierce through the darkest smoke and can instill fear into the hearts of the bravest warriors, making them a formidable asset in both combat and exploration."
+  },
+  "Acid_Corrosive_Eyes": {
+    "tags": [
+      "Eye",
+      "Corrosive",
+      "Elemental",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Corrosion"
+    ],
+    "description": "The Acid Corrosive Eyes are milky orbs that pulse with a sickly green glow, their surface slick with a viscous, bubbling acid. Whenever a gaze locks upon them, the air around seems to thin and corrode, leaving a trail of hissing steam and withered metal in their wake."
+  },
+  "Nature_Green_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Compound",
+      "Elemental",
+      "Nature"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the creature\u2019s head are twin orbs of swirling green energy, reminiscent of a dense forest in the throes of a storm, granting unparalleled vision through the underbrush of reality and an eerie sense of the wild\u2019s heartbeat."
+  },
+  "Time_All_Seeing_Eyes": {
+    "tags": [
+      "Eye",
+      "All_Seeing",
+      "Elemental",
+      "Time"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush",
+      "Directional Tracking"
+    ],
+    "description": "The Time All-Seeing Eyes are a pair of obsidian orbs that pulse with an eerie, temporal glow, their surface rippling like a pool of quicksilver as they peer into past and future. When worn, these eyes grant an uncanny awareness, allowing one to sense their surroundings without relying on sight and pinpoint the precise moment to strike or evade with preternatural timing."
+  },
+  "Sand_Blurring_Grains_Eyes": {
+    "tags": [
+      "Eye",
+      "Sand_Grain",
+      "Elemental",
+      "Sand"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Sand_Blurring_Grains_Eyes are a pair of obsidian orbs encased in a layer of swirling sand grains, each grain shifting and moving as if alive, granting the user an uncanny ability to see through the thickest sandstorms and detect hidden threats with unparalleled clarity."
+  }
+}

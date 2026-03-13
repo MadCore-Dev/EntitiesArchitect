@@ -1,0 +1,331 @@
+{
+  "Fire_Lava_Fins": {
+    "tags": [
+      "Fins",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Immolate"
+    ],
+    "description": "Lush, scaly fins resembling molten lava pulse with an eerie, crimson glow, their surface hot enough to singe the air and leave trails of smoldering ash where they drag across the ground."
+  },
+  "Ice_Crystal_Fins": {
+    "tags": [
+      "Fins",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slow"
+    ],
+    "description": "Emerging from the depths of a frozen abyss, the Ice Crystal Fins shimmer with a cold, ethereal light, their translucent scales interwoven with delicate frost patterns that tingle with a chill when touched. The fins are both mesmerizing and haunting, granting their bearer a fluid grace beneath the water and the ability to slow their enemies with an icy aura."
+  },
+  "Shadow_Void_Fins": {
+    "tags": [
+      "Fins",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Swim"
+    ],
+    "description": "The Shadow_Void_Fins are sleek, obsidian-black appendages that pulse with an otherworldly darkness, allowing the Demonkin to blend seamlessly into shadowy environments and navigate underwater with unmatched grace and swiftness."
+  },
+  "Acid_Ooze_Fins": {
+    "tags": [
+      "Fins",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Swim"
+    ],
+    "description": "Emerging from the dark, abyssal waters, the Acid Ooze Fins are translucent yet shimmer with an eerie, greenish glow, their texture gelatinous and slick, pulsating with an almost sentient malevolence."
+  },
+  "Bone_Devil_Fins": {
+    "tags": [
+      "Fins",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "Emerging from the creature's spine are jagged bone fins, each one jagged and sharp, pulsing with an unholy energy that grants the host a natural armor and an uncanny ability to move with eerie grace both on land and in water."
+  },
+  "Plague_Ooze_Fins": {
+    "tags": [
+      "Fins",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swim"
+    ],
+    "description": "The Plague Ooze Fins are grotesque, translucent appendages that pulsate with a sickly green glow, secreting a viscous, noxious liquid that can spread virulent diseases with a single touch. Their slime-covered surface is both slick and sticky, allowing for swift, silent movement through water while also granting the carrier resistance to the very plagues they wield."
+  },
+  "Marilith_Serpent_Fins": {
+    "tags": [
+      "Fins",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict"
+    ],
+    "description": "Emerging from the Marilith's lower back, these wickedly sharp, undulating fins are jet-black with iridescent blue scales that shimmer in the dim light, granting the demonkin an unparalleled grace and strength in water, their constricting grip as deadly as it is swift."
+  },
+  "Succubus_Silken_Fins": {
+    "tags": [
+      "Fins",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Lush, iridescent fins emerge from the creature's back and shoulders, their sleek surface quivering with an otherworldly allure that whispers seductive promises to any who gaze upon them. Each fin pulsates with a soft bioluminescence, casting an alluring glow that enthralls and enchants, drawing in the unwary with promises of pleasure and power."
+  },
+  "Djinn_Spirit_Fins": {
+    "tags": [
+      "Fins",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Hover"
+    ],
+    "description": "Emerging from the depths of a dark, swirling mist, the Djinn_Spirit_Fins resemble sleek, iridescent blue-black fins that pulse with an eerie, otherworldly glow. As the user moves through water or air, the fins grant a sense of weightlessness and fluid grace, enhancing their agility and speed with every flick of their ethereal form."
+  },
+  "Imp_Tiny_Fins": {
+    "tags": [
+      "Fins",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Tiny, membranous fins sprout from the limbs of this impish creature, their delicate edges glistening with an otherworldly sheen. Despite their small size, these fins grant an eerie grace and fluidity, allowing for swift movement both on land and in water, a trait uncommon among their kind."
+  },
+  "Balor_Massive_Fins": {
+    "tags": [
+      "Fins",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Body Slam"
+    ],
+    "description": "Emerging from the demonkin's back, the Balor_Massive_Fins are dark and leathery, pulsing with an otherworldly energy that seems to draw in the shadows around them. These fins, capable of propelling the creature through water with unmatched grace, also serve as formidable weapons in close combat, allowing the demonkin to deliver devastating body slams."
+  },
+  "Archdevil_Ancient_Fins": {
+    "tags": [
+      "Fins",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Immolate",
+      "Constrict"
+    ],
+    "description": "Twisted and darkly luminescent, the Archdevil Ancient Fins ripple with malevolent energy, their barbed edges slicing through water with unnerving grace, while the fins' inner texture constricts with a crushing force, leaving behind a trail of smoldering embers."
+  }
+}

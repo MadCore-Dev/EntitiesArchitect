@@ -1,0 +1,260 @@
+{
+  "Large_Alert_Pinnae": {
+    "tags": [
+      "Ear",
+      "Large",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the creature's head are oversized, sensitive ear structures that swivel independently, their fur-lined surfaces catching even the faintest sounds in the dark and treacherous environment, enhancing the wearer's awareness and reflexes."
+  },
+  "Rotatable_Tracking_Ears": {
+    "tags": [
+      "Ear",
+      "Rotatable",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Rotatable_Tracking_Ears are a pair of leathery appendages, adorned with tufts of dark fur and finely tuned to pick up the faintest rustles and whispers of the night. Capable of rotating independently to pinpoint the slightest sound, these ears grant their bearer an uncanny ability to locate and stalk prey undetected."
+  },
+  "Compact_Fossorial_Ears": {
+    "tags": [
+      "Ear",
+      "Compact",
+      "Marsupial",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These small, tightly folded ears are perfectly adapted for the underground world, with sensitive membranes that can detect the slightest vibrations through soil or stone, enhancing the wearer's awareness of their surroundings."
+  },
+  "Thermoregulating_Vascular_Ears": {
+    "tags": [
+      "Ear",
+      "Vascular",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thermoregulating Vascular Ears are a pair of large, fleshy appendages sprouting from the sides of the head, pulsating with a network of visible blood vessels that shimmer like liquid mercury under moonlight, constantly adjusting to the environment to maintain optimal body temperature."
+  },
+  "High_Frequency_Predator_Ears": {
+    "tags": [
+      "Ear",
+      "High_Frequency",
+      "Marsupial",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The High_Frequency_Predator_Ears are a pair of sleek, fur-lined appendages that twitch and swivel with acute sensitivity, capable of detecting the slightest rustle or whisper of sound, especially in the ultrasonic range, making them perfect for a predator to ambush its prey with deadly precision."
+  },
+  "Valved_Aquatic_Ears": {
+    "tags": [
+      "Ear",
+      "Valved",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Valved Aquatic Ears appear as sleek, membrane-covered appendages that can fold shut to prevent water from entering, allowing the wearer to breathe and communicate underwater with ease. These sensitive organs grant heightened awareness of their surroundings, both above and below the surface, and offer a silent way to move through the water without detection."
+  },
+  "Tufted_Display_Ears": {
+    "tags": [
+      "Ear",
+      "Tufted",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Tufted_Display_Ears are large, fur-covered appendages that protrude from the sides of the head, adorned with stiff, bristly tufts that can be raised or lowered to convey different emotions or intentions, making them an intimidating presence in any confrontation."
+  },
+  "Seismic_Ground_Receptors": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature\u2019s sensitive paws are intricate Seismic Ground Receptors, small, gelatinous nodules that pulse and vibrate in response to the subtlest tremors beneath the earth, allowing it to sense approaching danger and hidden prey with uncanny precision."
+  },
+  "Pressure_Sensing_Aquatic_Ears": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Pressure_Sensing_Aquatic_Ears are delicate yet tough, featuring translucent membranes that ripple with the slightest change in water pressure, allowing for unparalleled echolocation and an eerie sense of awareness in the darkest, deepest waters."
+  },
+  "Furred_Winter_Ear_Flaps": {
+    "tags": [
+      "Ear",
+      "Furred",
+      "Marsupial",
+      "Cold"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Soft, frost-kissed fur blankets these large, cup-shaped ear flaps, providing not only acute hearing but also a comforting warmth against the biting cold, their sleek shape and enhanced sensitivity granting the bearer an uncanny awareness of their surroundings."
+  },
+  "Echolocation_Cavern_Ears": {
+    "tags": [
+      "Ear",
+      "Echolocation",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Echolocation_Cavern_Ears are large, bat-like appendages that protrude from the sides of a marsupial's head, with a delicate membrane stretched between elongated bones that can flex and resonate with high-frequency sounds, granting the user unparalleled spatial awareness in dark or obscured environments."
+  },
+  "Desert_Heat_Venting_Ears": {
+    "tags": [
+      "Ear",
+      "Desert",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "Tapered and elongated, these marsupial-inspired ears are covered in short, coarse fur that shifts from sandy beige to fiery red depending on the ambient temperature. They pulse and flutter slightly, venting excess heat and granting an uncanny resistance to the harshest desert conditions, enhancing the wearer's endurance and stamina."
+  }
+}

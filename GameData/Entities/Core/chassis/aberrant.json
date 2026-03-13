@@ -1,0 +1,539 @@
+{
+  "Gibbering_Mouther_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Gibbering"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Ensnare",
+      "Madness Aura",
+      "Acid Spray"
+    ],
+    "description": "The Gibbering Mouther Core pulsates with an unsettling, nauseating energy, its surface slick with a vile, digestive acid that eats away at the toughest materials. Enveloped in a haze of madness-inducing whispers, it grants a horrifying resilience and the ability to terrify and ensnare foes, but at the cost of sanity and physical presence."
+  },
+  "Fleshcrawler_Swarm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Swarm"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swarm",
+      "Scatter"
+    ],
+    "description": "The Fleshcrawler_Swarm_Core is a pulsating, jelly-like mass that thrums with an unsettling life force, its surface speckled with tiny, wriggling tendrils that seem to sense and react to any nearby threat, pulling apart and reforming in an endless dance of evasion and cohesion."
+  },
+  "Aberrant_Titan_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Titan"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Fear",
+      "Intimidate",
+      "Ensnare"
+    ],
+    "description": "The Aberrant_Titan_Core is a pulsating, obsidian heart of chaos, throbbing with an otherworldly energy that twists and distorts the very essence of reality around it; its touch grants immense strength and resilience, while its presence alone can shake the ground and strike fear into the hearts of those who dare to approach."
+  },
+  "Mind_Flayer_Psion_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Psion"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Mind Blast",
+      "Grapple",
+      "Fear"
+    ],
+    "description": "The Mind_Flayer_Psion_Core is a pulsating, amorphous mass of swirling neural tendrils and psychically charged energy, radiating an eerie glow that distorts the perception of reality around it, while its constant thrumming hum induces a deep, primal fear in all who come near."
+  },
+  "Beholder_Eye_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Beholder"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Madness Aura",
+      "Petrify",
+      "Fear"
+    ],
+    "description": "The Beholder_Eye_Core is a pulsating, amorphous orb that seems to shift and swirl with an inner chaos, its surface a kaleidoscope of swirling colors and arcane symbols. It radiates an unsettling aura that causes a creeping sense of dread and confusion in those who gaze upon it, while its innate magic enhances the wielder's perception, intellect, and evasion abilities, granting them a heightened awareness of their surroundings and the ability to hover in mid-air."
+  },
+  "Shoggoth_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Shoggoth"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Acid Spray",
+      "Fear",
+      "Regenerate"
+    ],
+    "description": "The Shoggoth_Ooze_Core is a grotesque, pulsating mass of writhing tendrils and gelatinous flesh, emitting a faint, sickly glow that seems to contort and shift like a nightmare vision. Its surface is slick and cold to the touch, giving off an unpleasant feeling of being watched and hunted by an ancient, unspeakable horror."
+  },
+  "Chaos_Mutant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Chaos"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Madness Aura",
+      "Blood Frenzy"
+    ],
+    "description": "The Chaos_Mutant_Core is a pulsating, amorphous mass of writhing veins and glowing, toxic fluids, radiating an aura of sheer, chaotic madness that drives nearby creatures to the brink of insanity. Its surface is slick and cold to the touch, and it grants its host an overwhelming surge of resilience and strength, accompanied by a frenzied bloodlust."
+  },
+  "Parasite_Host_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Parasite"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Drain",
+      "Swarm"
+    ],
+    "description": "Embedded deep within the corrupted flesh of its host, the Parasite_Host_Core pulsates with an unsettling, otherworldly energy, its surface a slick, writhing mass of interwoven filaments that shift and squirm like living shadows, capable of spreading a myriad of debilitating diseases while siphoning vitality from its surroundings."
+  },
+  "Deep_Sea_Aberrant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Deep_Sea"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "fin_left": "Appendages/fins",
+      "fin_right": "Appendages/fins",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive",
+      "Bioluminescence",
+      "Ensnare"
+    ],
+    "description": "The Deep_Sea_Aberrant_Core is a pulsating, amorphous mass of dark, gelatinous substance that shifts and flows with an unsettling life of its own, emitting a cold, eerie light that seems to draw in and entangle anything that comes too close."
+  },
+  "Undead_Aberrant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Undead"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Undead_Aberrant_Core is a pulsating, blackened mass of necrotic flesh and twisted bone, exuding a malevolent aura that chills the spine and saps the courage of those who gaze upon it. Its surface is slick with a viscous, green ichor that seeps from countless pustules, each one a potential vector for spreading debilitating diseases."
+  },
+  "Flayed_Skinless_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Flayed"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Flayed_Skinless_Core is a grotesque, pulsating mass of raw, flayed flesh, its surface a map of scars and sinew, devoid of any semblance of skin or natural covering. It radiates an aura of creeping dread and madness, causing those nearby to feel a sudden surge of fear and confusion."
+  },
+  "Eldritch_Ancient_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aberrant",
+      "Eldritch"
+    ],
+    "meat_group": [
+      "Aberrant_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles",
+      "wing_left": "Appendages/wings",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Feature: Mind Blast",
+      "Madness Aura",
+      "Fear",
+      "Magic Resistance",
+      "Ensnare"
+    ],
+    "description": "The Eldritch Ancient Core is a pulsating, iridescent orb nestled within the creature\u2019s chassis, radiating an otherworldly glow that seems to twist and contort the very fabric of reality around it. Its surface is slick and cold to the touch, emitting a low, discordant hum that resonates through the bones of anyone nearby, filling their minds with arcane dread and confusion."
+  }
+}

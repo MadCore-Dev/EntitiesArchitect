@@ -1,0 +1,388 @@
+{
+  "Wraith_Shadowed_Skull": {
+    "tags": [
+      "Cranium",
+      "Wraith",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Invisibility"
+    ],
+    "description": "The Wraith_Shadowed_Skull is a chilling cranium shrouded in an ethereal, dark mist that seems to pulse with a malevolent intelligence. Its hollow sockets emit an eerie, cold light, and the skull's surface is slick and cold to the touch, as if it were still dripping with the essence of fear and despair it once consumed."
+  },
+  "Banshee_Open_Skull": {
+    "tags": [
+      "Cranium",
+      "Banshee",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "ear_left": "Cephalon/ears",
+      "ear_right": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Banshee_Open_Skull is a ghostly cranium wreathed in an ethereal, blue-white glow, with empty eye sockets that seem to follow observers with an unnerving intelligence. The skull vibrates with an otherworldly resonance, as if a haunting melody is always on the verge of escaping its spectral form, granting the wielder a chilling aura that induces fear and madness in foes."
+  },
+  "Lich_Hollow_Bone_Skull": {
+    "tags": [
+      "Cranium",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Magic Resistance",
+      "No Pain",
+      "Drain"
+    ],
+    "description": "The Lich Hollow Bone Skull is a chilling relic, its spectral form a translucent web of skeletal fragments that seem to pulse with a cold, otherworldly light. It grants the wielder an aura of dread, and the skull's innate resistance to magic and afflictions is palpable, making it an invaluable asset in the darkest corners of the realm."
+  },
+  "Ghost_Formless_Skull": {
+    "tags": [
+      "Cranium",
+      "Ghost",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Invisibility",
+      "Madness Aura"
+    ],
+    "description": "The Ghost_Formless_Skull is a translucent, vaguely humanoid skull that floats with a perpetual, mournful wail, its spectral form shifting and distorting as it emits an aura of creeping madness, causing even the bravest adventurers to shiver with a sense of dread and confusion."
+  },
+  "Revenant_Decayed_Skull": {
+    "tags": [
+      "Cranium",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Drain"
+    ],
+    "description": "The Revenant Decayed Skull is a ghostly cranium, its hollow eye sockets glowing with an eerie, spectral light. The skull feels unnaturally cold to the touch, and it radiates a palpable aura of dread and decay, capable of instilling fear in even the most hardened souls."
+  },
+  "Shadow_Null_Skull": {
+    "tags": [
+      "Cranium",
+      "Shadow",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Fear",
+      "Invisibility"
+    ],
+    "description": "The Shadow Null Skull is a spectral cranium wreathed in an aura of dark energy, its hollow sockets glowing with a malevolent intelligence. When worn, it grants the user the ability to blend into the shadows, drawing fear from the hearts of those who glimpse its unnatural presence, and offers unparalleled stealth and evasion."
+  },
+  "Soul_Devourer_Skull": {
+    "tags": [
+      "Cranium",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Paralyze",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Soul_Devourer_Skull is a spectral cranium with glowing, amber eyes that seem to peer into the very depths of a person's soul, exuding an aura of creeping dread and madness. Its surface is cold and slick, as if constantly damp with the residue of countless devoured souls, and when worn, enhances the wearer's ability to drain life force and instill fear in their foes."
+  },
+  "NightHag_Crone_Skull": {
+    "tags": [
+      "Cranium",
+      "NightHag",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_left": "Cephalon/ears",
+      "ear_right": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "The NightHag_Crone_Skull is a withered, spectral cranium etched with arcane runes, its hollow eye sockets glowing with a sickly green light that flickers like the dying embers of a cursed flame. As it pulses with malevolent energy, the skull seems to whisper secrets of torment and despair, its chilling presence sending shivers down the spine of anyone within earshot, granting its bearer the power to charm, instill fear, and paralyze their foes."
+  },
+  "Wisp_Null_Skull": {
+    "tags": [
+      "Cranium",
+      "Wisp",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Fear",
+      "Invisibility"
+    ],
+    "description": "The Wisp Null Skull is a translucent cranium that seems to pulse with a cold, spectral light, its ethereal form constantly shifting and fading like mist. When worn, it grants the wearer the unsettling ability to instill fear and paralysis in their foes, while also rendering them nearly invisible, their movements becoming as ghostly and elusive as a wisp in the night."
+  },
+  "Specter_Void_Skull": {
+    "tags": [
+      "Cranium",
+      "Specter",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Ambush"
+    ],
+    "description": "The Specter_Void_Skull is a hollow cranium floating in a haze of darkness, its empty eye sockets glowing with an otherworldly blue light, emitting an aura of dread that causes the hearts of those nearby to race with fear. Its touch is cold and ethereal, granting the wielder the ability to blend into shadows and strike from unexpected angles, leaving foes quaking in its presence."
+  },
+  "Phantom_Haunter_Skull": {
+    "tags": [
+      "Cranium",
+      "Phantom",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "The Phantom_Haunter_Skull is a translucent cranial relic, floating with an eerie glow that seems to pulse in time with an unseen rhythm. Its spectral nature grants it a chilling presence, making it impossible for observers to look away as they are drawn into its chilling embrace, feeling a creeping dread and an overwhelming urge to flee or submit."
+  },
+  "Arch_Specter_Ancient_Skull": {
+    "tags": [
+      "Cranium",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "ear_left": "Cephalon/ears",
+      "ear_right": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Madness Aura",
+      "Fear",
+      "Magic Resistance",
+      "Charm"
+    ],
+    "description": "The Arch_Specter_Ancient_Skull is a haunting relic of bygone eons, its ethereal jaw aglow with an unsettling luminescence that flickers like the last embers of hope in a desolate wasteland. Each skull fragment resonates with a cacophony of eerie whispers and forgotten secrets, chilling the spine and clouding the mind with dread and confusion, while its innate magic resistance shields the bearer from arcane threats."
+  }
+}

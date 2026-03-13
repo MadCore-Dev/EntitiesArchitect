@@ -1,0 +1,267 @@
+{
+  "Small_Side_Set_Eyes": {
+    "tags": [
+      "Eye",
+      "Side_Set",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the creature\u2019s massive skull, these small side-set eyes possess a haunting, milky white surface that reflects an eerie glow in the dim light, granting the beholder an unparalleled peripheral vision and heightened awareness of their surroundings."
+  },
+  "Infrared_Heat_Sensing_Eyes": {
+    "tags": [
+      "Eye",
+      "Infrared",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Infrared_Heat_Sensing_Eyes are colossal orbs, reminiscent of an elephant's size and texture, pulsating with a deep, fiery glow that pierces through the darkest of nights, allowing the beholder to see not just the heat signatures of living beings but also to sense subtle movements and temperature changes with uncanny precision."
+  },
+  "Seismic_Vibration_Eyes": {
+    "tags": [
+      "Eye",
+      "Seismic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Seismic_Vibration_Eyes are colossal, obsidian orbs that pulse with a low, resonating hum, their surface rippling like the skin of a massive elephant. They grant an uncanny ability to sense the slightest tremors and vibrations in the earth, allowing the beholder to perceive hidden dangers and secrets buried beneath the surface."
+  },
+  "Nocturnal_Tapetum_Eyes": {
+    "tags": [
+      "Eye",
+      "Tapetum",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Nocturnal_Tapetum_Eyes, a pair of massive, reflective orbs, glow with an eerie luminescence, their surface like polished silver, perfectly adapted for seeing in the darkest of nights, enhancing one's perception and vision range significantly."
+  },
+  "Deep_Set_Armoured_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Set",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the recesses of the skull, these eyes are reminiscent of ancient behemoths, with thick, rugged lids that offer a protective barrier akin to elephantine skin. Their gaze penetrates the darkness with an uncanny clarity, granting an innate sense of awareness and a subtle aura of invulnerability."
+  },
+  "Wide_Angle_Panoramic_Eyes": {
+    "tags": [
+      "Eye",
+      "Panoramic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Wide-Angle Panoramic Eyes are colossal orbs, each the size of a human head, with a sclera that shifts from deep indigo to an unsettling shade of blood red, depending on the light. Their unique elephantine quality is evident in the thick, wrinkled skin around the eyes and the long, sensitive lashes that twitch at the slightest sound, granting the beholder an unparalleled field of vision and an eerie sense of being watched from every direction."
+  },
+  "Electroreceptive_Eye_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the thick, wrinkled skin of the creature's forehead, the Electroreceptive Eye Pits are a pair of dark, pulsating orbs that glow with an eerie, electric blue light, allowing the creature to see through the murkiest of environments and sense the slightest vibrations in the earth, while also detecting the faintest electrical signals from nearby creatures."
+  },
+  "Undead_Hollow_Sockets": {
+    "tags": [
+      "Eye",
+      "Hollow",
+      "Elephantine",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Fear"
+    ],
+    "description": "The Undead_Hollow_Sockets are cavernous, hollow eye sockets that seem to suck in all light around them, creating an eerie void. They are lined with crumbling bone and pulsating veins, and when gazed upon, they grant a chilling tremor sense and an aura of fear that can paralyze the unwary."
+  },
+  "Bioluminescent_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Elephantine",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Eyes are colossal, pulsating orbs that glow with an eerie, otherworldly light, casting an unsettling radiance that can paralyze the gaze of any who meet it; their sheer size and unsettling luminescence make them both mesmerizing and terrifying, though their presence slightly diminishes one's ability to move unseen in the shadows."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Motion_Tracking_Eyes are massive, obsidian orbs set deep in a leathery socket, each eye the size of a small shield and capable of a 360-degree rotation, their surface shimmering with a faint, pulsating light that tracks the slightest movement in their vast field of vision."
+  },
+  "Magnetic_Field_Eyes": {
+    "tags": [
+      "Eye",
+      "Magnetic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Magnetic Field Eyes, massive and obsidian-black, possess an otherworldly glow that pulsates with an unseen rhythm. When gazing through them, one can sense the whisper of magnetic fields, guiding the wielder with uncanny precision through even the most labyrinthine environments."
+  },
+  "Desert_Sun_Shielded_Eyes": {
+    "tags": [
+      "Eye",
+      "Sun_Shielded",
+      "Elephantine",
+      "Desert"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Desert_Sun_Shielded_Eyes gleam with an otherworldly golden hue, protected by thick, scaled lids that shield against the relentless glare of the sun, granting the beholder an unparalleled view across vast, arid landscapes while bestowing unwavering endurance against the scorching heat."
+  }
+}

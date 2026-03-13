@@ -1,0 +1,303 @@
+{
+  "Necrotic_Rot_Flesh": {
+    "tags": [
+      "Integument",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "Necrotic_Rot_Flesh is a sickening mass of decayed, blackened flesh that oozes a noxious, green pus, radiating a palpable aura of dread and disease; its very presence lowers the morale of nearby creatures and imbues the bearer with a natural resistance to sickness and a crude layer of defensive corruption."
+  },
+  "Chitin_Carapace": {
+    "tags": [
+      "Integument",
+      "Chitin",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Chitin_Carapace is a jagged, obsidian-black exoskeleton that clings to the body like a second skin, its surface pitted with strange, arcane runes that pulse faintly with a sickly green light, granting the wielder formidable defensive capabilities at the cost of their nimbleness."
+  },
+  "Acid_Ooze_Skin": {
+    "tags": [
+      "Integument",
+      "Acid_Ooze",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Acid_Ooze_Skin is a slick, gelatinous layer that constantly oozes and shifts, its surface bubbling with a nauseating green fluid that hisses and fizzes upon contact with air, capable of spraying corrosive acid from any part of the body while providing an eerie resilience and resistance to acid attacks."
+  },
+  "Bioluminescent_Skin": {
+    "tags": [
+      "Integument",
+      "Bioluminescent",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Bioluminescence",
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Skin is a shimmering, iridescent layer that pulses with an eerie, otherworldly glow, radiating an unsettling beauty that can captivate or paralyze those who gaze upon it for too long."
+  },
+  "Thick_Aberrant_Hide": {
+    "tags": [
+      "Integument",
+      "Hide",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Thick Aberrant Hide is a grotesque amalgamation of scales and flesh, pulsating with an unnatural glow. Its surface is slick and cold to the touch, radiating a malevolent aura that causes shivers to run down the spine of anyone who gazes upon it."
+  },
+  "Void_Phase_Skin": {
+    "tags": [
+      "Integument",
+      "Void",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Invisibility"
+    ],
+    "description": "The Void_Phase_Skin is a shimmering, iridescent membrane that pulsates with an otherworldly darkness, its surface shifting and warping like a reflection in a disturbed pool of pitch-black ink, granting its bearer the ability to blend into shadows and vanish from sight."
+  },
+  "Chaos_Mutation_Skin": {
+    "tags": [
+      "Integument",
+      "Chaos",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate"
+    ],
+    "description": "The Chaos_Mutation_Skin is a writhing, iridescent exosuit that shifts and morphes across the body, its surface a kaleidoscope of writhing, unnatural patterns that seem to defy the laws of nature. It feels cold and slick to the touch, granting an innate resilience against disease and physical harm, while providing a natural armor that bulwarks against even the most devastating blows."
+  },
+  "Slime_Covered_Skin": {
+    "tags": [
+      "Integument",
+      "Slime",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slip"
+    ],
+    "description": "The Slime_Covered_Skin is a grotesque amalgamation of translucent, oozing layers that constantly shift and slide over the host's body, granting a sickening sensation of slimy tendrils crawling beneath the surface. It emits a faint, nauseating odor and provides an unnerving, slick surface that makes it nearly impossible to be grasped or held firmly."
+  },
+  "Deep_Sea_Plating": {
+    "tags": [
+      "Integument",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Natural Armor"
+    ],
+    "description": "The Deep_Sea_Plating is a dark and viscous chitin-like substance that glistens with an eerie bioluminescence, shifting from deep blue to midnight black as it adapts to the surrounding pressure and temperature. Its surface is covered in intricate patterns that resemble ancient sea runes, granting the bearer an aura of cold resilience and a seamless natural armor that enhances their defenses against aquatic and subterranean threats."
+  },
+  "Bone_Exposed_Skin": {
+    "tags": [
+      "Integument",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain"
+    ],
+    "description": "The Bone_Exposed_Skin component is a macabre mesh of pale, translucent flesh stretched tightly over sharp, jagged bones, creating an unnerving, skeletal visage that pierces through the skin like a mockery of life. Its touch is cold and unsettling, and it radiates an aura of dread that causes onlookers to shudder and recoil, while granting the bearer an eerie resilience to both physical and spiritual harm."
+  },
+  "Tentacle_Covered_Skin": {
+    "tags": [
+      "Integument",
+      "Tentacle",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Tentacle-Covered Skin appears as a writhing mass of dark, sinuous tentacles that pulse with an otherworldly energy, intertwining to form a protective layer that grants the wearer an eerie resilience and an unnerving grip on anyone who dares to come within reach."
+  },
+  "Eldritch_Shifting_Skin": {
+    "tags": [
+      "Integument",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Eldritch Shifting Skin is a writhing, malleable membrane that pulsates with an otherworldly glow, constantly morphing into unsettling patterns and forms that send shivers down the spine of anyone who gazes upon it for too long. Its touch is cold and clammy, leaving a lingering sense of dread and confusion, and it grants the bearer the uncanny ability to blend into their surroundings and instill fear in their foes with a mere presence."
+  }
+}

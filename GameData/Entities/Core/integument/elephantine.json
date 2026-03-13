@@ -1,0 +1,292 @@
+{
+  "Thick_Wrinkled_Grey_Hide": {
+    "tags": [
+      "Skin",
+      "Thick",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Thick_Wrinkled_Grey_Hide is a dense, leathery expanse of skin, resembling the coarse, battle-scarred hide of an ancient elephant, providing a rugged texture that absorbs the impact of blunt attacks with ease."
+  },
+  "Sparse_Mammoth_Fur": {
+    "tags": [
+      "Fur",
+      "Sparse",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Sparse Mammoth Fur is a coarse, wiry coat that clings to the skin like barbed wire, each strand thick and stiff, offering a primitive yet effective layer of protection against the biting cold and enemy blades."
+  },
+  "Dense_Mammoth_Pelt": {
+    "tags": [
+      "Fur",
+      "Dense",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Dense Mammoth Pelt is a thick, coarse layer of fur that resembles the hide of ancient, frost-bitten behemoths, providing a rugged yet comforting warmth against the harshest of winters, though its sheer weight and bulk slightly impede nimble movements."
+  },
+  "Mud_Caked_Hide": {
+    "tags": [
+      "Skin",
+      "Mud",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Mud-Caked Hide is a thick, wrinkled exoskeleton covered in dark, congealed mud, reminiscent of an ancient elephant's skin. It feels rough and cool to the touch, with a texture that shifts and slides beneath a layer of clinging earth."
+  },
+  "Sun_Cracked_Savanna_Hide": {
+    "tags": [
+      "Skin",
+      "Cracked",
+      "Elephantine",
+      "Desert"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Sun-Cracked Savanna Hide is a thick, weather-beaten pelt that resembles the rough, cracked earth of a parched savanna. Its surface is covered in deep, intricate fissures that run like ancient rivers across its surface, each one a testament to the relentless sun that has scorched it. Wearing this hide feels like enveloping oneself in the very spirit of the desert, granting an unyielding resilience and fortitude against the harshest conditions."
+  },
+  "Undead_Desiccated_Hide": {
+    "tags": [
+      "Skin",
+      "Desiccated",
+      "Elephantine",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Undead_Desiccated_Hide is a withered, parchment-like skin stretched taut over an enormous frame, its once-great bulk now shriveled to reveal the intricate patterns of dried muscle and sinew beneath, giving the wearer an imposing, deathly aura that instills fear in the hearts of all who lay eyes upon them."
+  },
+  "Callous_War_Scarred_Hide": {
+    "tags": [
+      "Skin",
+      "Scarred",
+      "Elephantine",
+      "War"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Natural Armor"
+    ],
+    "description": "The Callous War-Scarred Hide is a rugged, pachydermal layer of skin, thickened by countless battles, crisscrossed with gnarled scars that tell tales of relentless combat. It feels like touching ancient, weathered stone, offering a sturdy barrier against blunt force and granting the bearer an innate resilience that deflects harm."
+  },
+  "Young_Thin_Juvenile_Hide": {
+    "tags": [
+      "Skin",
+      "Thin",
+      "Elephantine",
+      "Juvenile"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Young_Thin_Juvenile_Hide is a supple, almost translucent skin that retains the faint, intricate vein patterns of its juvenile state, offering a delicate yet surprisingly resilient covering that whispers of its elephantine heritage, granting both natural armor and increased agility."
+  },
+  "Aquatic_Waterproof_Skin": {
+    "tags": [
+      "Skin",
+      "Waterproof",
+      "Elephantine",
+      "Amphibious"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aquatic_Waterproof_Skin is a thick, leathery barrier that resembles the wrinkled hide of an elephant, yet moves with the sleek grace of a fish. It feels cold and slightly slick to the touch, providing a natural armor that deflects both physical blows and the relentless pressure of deep waters, while its innate waterproof properties ensure that the wearer can move freely and effortlessly through any aquatic environment."
+  },
+  "Electroreceptive_Hide": {
+    "tags": [
+      "Skin",
+      "Electroreceptive",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Hide is a thick, wrinkled pachyderm-like skin that pulses with a faint, iridescent glow, allowing the user to sense the faint electrical signals of living creatures and objects, granting a nearly omniscient awareness in dark or obscured environments."
+  },
+  "Aposematic_Dyed_Hide": {
+    "tags": [
+      "Skin",
+      "War_Painted",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Aposematic_Dyed_Hide is a thick, scarred pachyderm hide, intricately painted with vivid, toxic-looking patterns that seem to pulse with an eerie glow, capable of striking fear into the hearts of foes upon sight."
+  },
+  "Blubber_Layer_Arctic_Hide": {
+    "tags": [
+      "Skin",
+      "Blubber",
+      "Elephantine",
+      "Arctic"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Blubber_Layer_Arctic_Hide is a thick, layered skin that resembles the blubber of arctic beasts, providing an elephantine quality with its robust and resilient texture. This component grants a sense of invincibility against the chill, making the user feel as though they are encased in a protective, natural armor that resists the biting cold, though it leaves the user feeling slightly sluggish and less agile."
+  }
+}

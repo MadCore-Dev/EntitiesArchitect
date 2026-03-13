@@ -1,0 +1,332 @@
+{
+  "Pit_Fiend_Crushing_Legs": {
+    "tags": [
+      "Legs",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample",
+      "Immolate"
+    ],
+    "description": "The Pit Fiend Crushing Legs are a terrifying spectacle, with thick, muscular calves covered in dark, chitinous plates that crackle with embers and smoke, capable of delivering devastating stomps that ignite the ground and send shockwaves through the earth."
+  },
+  "Ice_Devil_Sharp_Legs": {
+    "tags": [
+      "Legs",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Slow",
+      "Sure-Footed"
+    ],
+    "description": "Bony protrusions covered in a sheen of frost jut out from the Ice_Devil_Sharp_Legs, giving the impression of jagged ice daggers at every joint, while the translucent ice veins running through the legs pulse with a pale blue light, offering an eerie glow in the darkest of environments."
+  },
+  "Succubus_Alluring_Legs": {
+    "tags": [
+      "Legs",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Charm"
+    ],
+    "description": "Silken and sinuous, the legs of a succubus ripple with a hypnotic grace, their smooth, pale skin glistening as if touched by an ethereal caress, drawing the eye and stirring desires with every subtle movement."
+  },
+  "Bone_Devil_Spindly_Legs": {
+    "tags": [
+      "Legs",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "No Pain"
+    ],
+    "description": "The Bone_Devil_Spindly_Legs are long, sinuous limbs composed of dark, jagged bone, each joint creaking with malevolent energy as they move with inhuman speed and grace, granting the wielder the ability to sprint through the darkest of forests without succumbing to the blights and curses that plague the land."
+  },
+  "Shadow_Demon_Shadow_Legs": {
+    "tags": [
+      "Legs",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush"
+    ],
+    "description": "Shadow_Demon_Shadow_Legs appear as a pair of elongated, sinuous limbs, covered in a velvety black chitin that seems to absorb and blend with the surrounding darkness. Each step made by these legs is as silent as a wraith's passing, leaving no trace on even the softest ground, while their unnatural flexibility allows for sudden, fluid movements that catch the eye of even the most wary observer."
+  },
+  "Balor_Titan_Legs": {
+    "tags": [
+      "Legs",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Trample"
+    ],
+    "description": "Enormous and gnarled, the Balor_Titan_Legs are covered in a dark, chitinous armor that seems to absorb light, giving the impression of a perpetual shadow. With each step, the ground trembles beneath their weight, capable of unleashing devastating earthquakes and trampling foes underfoot with brute force."
+  },
+  "Plague_Demon_Legs": {
+    "tags": [
+      "Legs",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Disease Carrier"
+    ],
+    "description": "The Plague_Demon_Legs are gnarled and twisted, with thick, oozing blisters that seem to pulse with a malevolent life of their own. The skin is a sickly shade of green, mottled with dark veins that wriggle like worms beneath the surface, and they emit a faint, putrid stench that clings to the air around them."
+  },
+  "Imp_Light_Legs": {
+    "tags": [
+      "Legs",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "The Imp_Light_Legs are slender and sinuous, adorned with delicate yet sharp talons that dig into the ground with each step, granting their owner the uncanny ability to sprint across any terrain with unparalleled grace and agility, while their inherently sure-footed nature ensures they remain steady even on the most precarious surfaces."
+  },
+  "Acid_Demon_Legs": {
+    "tags": [
+      "Legs",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Sure-Footed"
+    ],
+    "description": "The Acid Demon Legs are a grotesque assembly of twisted, malleable flesh and chitinous plates, secreting a constant trickle of viscous green acid that eats through stone and corrodes metal with alarming speed. Despite the inherent instability of their surroundings, these legs grant an eerie sense of balance and agility, allowing their bearer to navigate even the most precarious terrain with unsettling ease."
+  },
+  "Djinn_Hovering_Legs": {
+    "tags": [
+      "Legs",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint"
+    ],
+    "description": "The Djinn_Hovering_Legs are sinuous and ethereal, shimmering with a faint, iridescent glow that seems to pulse with an inner fire. As they move, the legs emit a soft hum, lifting the bearer slightly off the ground to hover, granting unparalleled speed and grace in both sprinting and evading."
+  },
+  "Archdevil_Ancient_Legs": {
+    "tags": [
+      "Legs",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample",
+      "Earthquake"
+    ],
+    "description": "Enveloped in a dark, molten aura, the Archdevil's ancient legs are twisted and malformed, with jagged, blackened bones protruding through the skin. Each step creates a tremor, and the sheer force of a stomp can shatter stone, reflecting the chaotic power and instability they command."
+  },
+  "Marilith_Serpent_Tail_Legs": {
+    "tags": [
+      "Legs",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Sure-Footed"
+    ],
+    "description": "Twisting and sinuous, the Marilith Serpent Tail Legs undulate with a hypnotic grace, their scales glinting in the dim light as they coil and uncoil with preternatural strength, capable of ensnaring foes and crushing them in a relentless grip while ensuring the wearer maintains an unerring balance on any terrain."
+  }
+}

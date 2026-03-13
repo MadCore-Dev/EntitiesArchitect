@@ -1,0 +1,356 @@
+{
+  "Narrow_Elongated_Bat_Skull": {
+    "tags": [
+      "Cranium",
+      "Narrow",
+      "Chiropteran",
+      "Microchiroptera"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Narrow_Elongated_Bat_Skull is a sleek, elongated cranium with sharp, pointed features that seem to whisper secrets of the night. Its surface is smooth and cool to the touch, with intricate ridges and grooves that enhance the wearer's ability to perceive their surroundings through echolocation, granting them an uncanny awareness in the darkest of environments."
+  },
+  "Large_Eared_Skull": {
+    "tags": [
+      "Cranium",
+      "Large_Eared",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight"
+    ],
+    "description": "The Large_Eared_Skull is a bizarre amalgamation of human and bat anatomy, its skull capped with colossal, leathery ears that twitch and rotate independently, honing in on the slightest sounds or movements. The chiropteran cranium grants the wielder an uncanny ability to navigate and attack in complete darkness, supplemented by an acute awareness of their surroundings."
+  },
+  "Leaf_Nose_Skull": {
+    "tags": [
+      "Cranium",
+      "Leaf_Nose",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Leaf_Nose_Skull is a bizarre fusion of chiropteran elegance and arboreal mystery, with a cranium adorned in delicate, leaf-like protrusions that pulse softly in the darkness, enhancing the wearer's ability to navigate the night with unparalleled echolocation, granting a keen awareness of their surroundings."
+  },
+  "Horseshoe_Rostrum_Skull": {
+    "tags": [
+      "Cranium",
+      "Horseshoe",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Horseshoe_Rostrum_Skull is a bizarre and eerie fusion of a horseshoe-shaped cranium with bat-like features, boasting an enhanced skull structure that grants the bearer unparalleled echolocation and blindsight, allowing them to navigate the darkest and most treacherous environments with ease, while also bestowing a heightened sense of tremor detection that alerts them to the slightest movements beneath their feet."
+  },
+  "Broad_Megabat_Skull": {
+    "tags": [
+      "Cranium",
+      "Broad",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Broad_Megabat_Skull is a colossal cranium, its surface smooth and leathery, with enormous, elliptical eye sockets that seem to glimmer with an inner light, hinting at the creature's extraordinary vision."
+  },
+  "Vampire_Low_Flat_Skull": {
+    "tags": [
+      "Cranium",
+      "Low_Flat",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Vampire_Low_Flat_Skull is a sinister, elongated cranium with a pronounced, low-set forehead, brimming with the essence of the night. Its surface is covered in leathery chiropteran skin, granting the bearer an eerie, bat-like appearance and an uncanny ability to blend into shadows, perfect for launching silent, deadly ambushes."
+  },
+  "Giant_War_Bat_Skull": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Giant_War_Bat_Skull, a monstrous cranium with razor-sharp fangs and a menacing underbite, radiates an aura of primal fear and dominance, its cavernous eye sockets gleaming with an unsettling inner light that enhances the wearer's ability to intimidate foes."
+  },
+  "Armoured_Ridge_Skull": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "The Armoured_Ridge_Skull is a grotesque chiropteran cranium adorned with jagged, bony ridges that interlock like ancient armor, providing an innate resilience and strength. Its surface is rough and cold to the touch, granting the wielder a formidable natural armor and the ability to block attacks with sheer force."
+  },
+  "Elongated_Narrow_Skull": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Elongated_Narrow_Skull is a sinister, chiropteran cranium with a sharply elongated shape, reminiscent of a fishing bat's skull, featuring thin, needle-like protrusions along the jawline and a hollow, echoing resonance when tapped, enhancing dexterity and perception."
+  },
+  "Nocturnal_Brain_Crest_Skull": {
+    "tags": [
+      "Cranium",
+      "Crest",
+      "Chiropteran",
+      "Nocturnal"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Echolocation"
+    ],
+    "description": "The Nocturnal Brain Crest Skull is a chiropteran cranium adorned with a jagged, obsidian crest that seems to pulse with an inner darkness. Its surface is cold and slick to the touch, and when worn, it grants the user enhanced echolocation and an uncanny ability to ambush prey in the dead of night."
+  },
+  "Wrinkled_Nose_Skull": {
+    "tags": [
+      "Cranium",
+      "Wrinkled",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Wrinkled_Nose_Skull is a chiropteran cranium, covered in deep, intricate wrinkles that seem to pulse with an otherworldly intelligence. The surface is cold to the touch, and as you hold it, you can almost hear the faint echo of distant calls, hinting at its powerful echolocation ability."
+  },
+  "Broad_Social_Colony_Skull": {
+    "tags": [
+      "Cranium",
+      "Social",
+      "Chiropteran"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The Broad_Social_Colony_Skull is a grotesque amalgamation of fused chiropteran skulls, their hollow eye sockets glowing with an eerie luminescence that shifts in hues of red and purple, reflecting the chaotic social dynamics of the colony it once belonged to. The surface is covered in intricate, pulsating veins that throb with the rhythm of communal thoughts and emotions, enhancing the wearer's charisma and their ability to influence groups."
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "Solar_Radiant_Nares": {
+    "tags": [
+      "Nose",
+      "Solar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Radiant Burst"
+    ],
+    "description": "The Solar_Radiant_Nares is a luminescent nose, its twin apertures shimmering with a radiant glow that fluctuates with the intensity of the sun. When its bearer inhales, a divine scent fills the air, drawing in allies and repelling foes, and when exhaling, it unleashes a blinding burst of light that can blind and damage those in its path."
+  },
+  "Lunar_Moonlit_Nares": {
+    "tags": [
+      "Nose",
+      "Lunar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "The Lunar Moonlit Nares is a slender, silvery appendage that glows softly with the light of a full moon, its surface cool to the touch and slightly luminous, granting an uncanny ability to detect even the faintest of scents and an enchanting allure to those within its vicinity."
+  },
+  "Guardian_Alert_Nares": {
+    "tags": [
+      "Nose",
+      "Guardian",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Guardian_Alert_Nares is a slender, iridescent appendage that glows with a soft celestial light, its surface etched with ancient runes that pulse rhythmically. It grants the bearer an acute sense of smell, capable of discerning the faintest of scents and tracking them to their source with uncanny precision, no matter the direction or distance."
+  },
+  "Seraph_Sacred_Nares": {
+    "tags": [
+      "Nose",
+      "Seraph",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "The Seraph_Sacred_Nares is a delicate, translucent appendage that glows with a soft, ethereal light, its intricate lattice of veins pulsing with divine energy. Whenever it twitches or flares, it emits a subtle, captivating scent that can charm even the most hardened souls, while also granting an uncanny ability to detect and interpret the faintest of scents, revealing hidden truths and secrets."
+  },
+  "Cherub_Sweet_Nares": {
+    "tags": [
+      "Nose",
+      "Cherub",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "The Cherub_Sweet_Nares is a delicate, iridescent nose, shimmering with celestial light and soft, angelic curves. Its surface is warm to the touch, and when you inhale, a subtle, enchanting fragrance fills your senses, leaving you irresistibly drawn to whoever possesses this divine feature."
+  },
+  "Storm_Ion_Nares": {
+    "tags": [
+      "Nose",
+      "Storm",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Storm_Ion_Nares is a pair of elongated, iridescent nostrils that shimmer with electrifying blue and silver hues, capable of detecting the faintest scent and guiding the way through the most treacherous of storms, with each breath crackling with the raw power of lightning and enhancing the user's awareness of their surroundings."
+  },
+  "Deva_Swift_Nares": {
+    "tags": [
+      "Nose",
+      "Deva",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking",
+      "Tracking"
+    ],
+    "description": "The Deva_Swift_Nares is a slender, elongated nose with iridescent, silvery-blue cartilage that glimmers faintly with an otherworldly luminescence, its delicate structure granting unparalleled sensitivity to scents and the ability to track with uncanny precision, even through celestial planes."
+  },
+  "Planetar_War_Nares": {
+    "tags": [
+      "Nose",
+      "Planetar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Planetar_War_Nares is a formidable appendage, its dark, obsidian surface etched with constellations that flicker with an eerie, celestial light. When inhaled through these nostrils, the air carries whispers of distant galaxies, granting unparalleled tracking abilities and a heightened awareness of one's surroundings."
+  },
+  "Knight_Armored_Nares": {
+    "tags": [
+      "Nose",
+      "Knight",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Knight_Armored_Nares is a celestial relic, a nose encased in a glimmering, enchanted plate armor that hums with a soft, ethereal light, enhancing the senses with an otherworldly keenness and bestowing the bearer with an innate resilience and heightened perception."
+  },
+  "Nature_Archon_Pollen_Nares": {
+    "tags": [
+      "Nose",
+      "Archon",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Nature_Archon_Pollen_Nares is a delicate yet formidable structure, resembling a pair of slender, iridescent antennae that emerge from the forehead, vibrating subtly to catch the faintest scents and signals from the celestial plane, granting the wielder an uncanny ability to track and sense even the most elusive of creatures."
+  },
+  "Light_Pure_Nares": {
+    "tags": [
+      "Nose",
+      "Light",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight"
+    ],
+    "description": "The Light_Pure_Nares, a celestial nose component, glows with a soft, ethereal light that flickers like starlight dancing across the surface of a still pond. Its intricate, delicate structure seems to hum with a sense of serene tranquility, allowing the bearer to detect even the faintest of scents and see through darkness and obscurity with uncanny clarity."
+  },
+  "Ancient_God_All_Scenting_Nares": {
+    "tags": [
+      "Nose",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking",
+      "Tracking",
+      "Blindsight",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient_God_All_Scenting_Nares is a colossal, ethereal snout tipped with luminescent, spiraling tendrils that unfurl and coil in the air, weaving a complex tapestry of scents and mystical energies. Its surface is cool to the touch, pulsating with a gentle, otherworldly light that dances across the intricate, crystalline ridges, each one attuned to the subtlest of odors and the most arcane of magical signatures."
+  }
+}

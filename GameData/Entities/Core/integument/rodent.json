@@ -1,0 +1,291 @@
+{
+  "Short_Dense_Pelage": {
+    "tags": [
+      "Fur",
+      "Dense",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Short_Dense_Pelage is a thick, tightly-knit fur that clings closely to the body, bristling with tiny, sharp quills that give it a rough texture. This dense layer provides an excellent barrier against the biting cold, making it invaluable in frigid environments."
+  },
+  "Oily_Waterproof_Pelage": {
+    "tags": [
+      "Fur",
+      "Waterproof",
+      "Rodent",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Mucous Skin"
+    ],
+    "description": "The Oily_Waterproof_Pelage is a thick, slick pelt that glistens with a layer of natural oils, perfectly adapted for both land and water, providing excellent insulation against the chill of aquatic environments."
+  },
+  "Velvety_Reversible_Pile": {
+    "tags": [
+      "Fur",
+      "Velvety",
+      "Rodent",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Velvety_Reversible_Pile is a soft, dual-sided fur component that shifts seamlessly between earthy tones and the pale underbellies of fossorial rodents, granting its bearer unparalleled camouflage abilities in both light and shadow, though at the cost of a slight vulnerability to direct attacks."
+  },
+  "Coarse_Guard_Bristle_Hide": {
+    "tags": [
+      "Fur",
+      "Bristle",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Coarse_Guard_Bristle_Hide is a thick, matted layer of wiry fur and sharp bristles, each hair seemingly alive with a defensive rigidity that shivers and spikes in response to threats, offering a natural armor that deflects not just physical attacks but also the creeping tendrils of disease and decay."
+  },
+  "Mucoid_Subterranean_Skin": {
+    "tags": [
+      "Skin",
+      "Mucous",
+      "Rodent",
+      "Hairless"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Mucoid_Subterranean_Skin is a slimy, hairless membrane that pulses with an eerie, inner glow, secreting a viscous poison that coats the surface, providing a slick, almost liquid texture that feels like moving through a living, breathing layer of the underworld."
+  },
+  "Keratinous_Quill_Mantle": {
+    "tags": [
+      "Scales",
+      "Quills",
+      "Rodent",
+      "Keratin"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Quill Shoot"
+    ],
+    "description": "The Keratinous Quill Mantle is a dense, bristling exoskeleton covered in sharp, rigid quills that jut out at odd angles, providing formidable natural armor against slashing attacks while slightly encumbering agility."
+  },
+  "Toxic_Quill_Integument": {
+    "tags": [
+      "Scales",
+      "Quills",
+      "Rodent",
+      "Toxic"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Quill Shoot",
+      "Poison"
+    ],
+    "description": "The Toxic_Quill_Integument is a gruesome amalgamation of hardened scales and needle-sharp quills, each quill bristling with a viscous, emerald-green venom that glimmers ominously in the flickering torchlight of the dungeon, granting the bearer a fearsome defense and the ability to unleash a rain of toxic projectiles."
+  },
+  "Subdermal_Osteodermal_Layer": {
+    "tags": [
+      "Bone",
+      "Osteodermal",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "Beneath the creature's fur lies a layer of sharp, interlocking bone plates that shift and adapt to form a seamless, rigid armor, providing formidable protection against blunt force while granting the creature an eerie, skeletal appearance."
+  },
+  "Loose_Saggy_Disease_Pelt": {
+    "tags": [
+      "Fur",
+      "Diseased",
+      "Rodent",
+      "Necrotic"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Loose Saggy Disease Pelt is a grotesque, matted clump of fur plucked from the rotting carcass of a diseased rodent, its strands slick with pus and dotted with necrotic black spots. The pelt exudes a foul, sickly-sweet odor that clings to the air and causes a creeping sense of dread in those who draw near."
+  },
+  "Silken_Arboreal_Coat": {
+    "tags": [
+      "Fur",
+      "Silken",
+      "Rodent",
+      "Arboreal"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Silken_Arboreal_Coat is a lustrous, soft pelt that glistens in the moonlight, with a texture that feels like liquid silk beneath the fingertips, perfectly blending earthy browns and greens that help the wearer meld seamlessly with the forest canopy."
+  },
+  "Patagium_Membrane_Integument": {
+    "tags": [
+      "Skin",
+      "Membrane",
+      "Rodent",
+      "Glider"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Patagium Membrane Integument is a thin, almost translucent layer of skin stretched between elongated forelimbs and hind legs, resembling the wings of a bat but with a rough, leathery texture that shimmers with a faint, phosphorescent glow in the dark. When activated, it allows for silent gliding through the air, weaving effortlessly between trees and obstacles, though it leaves the wearer slightly more vulnerable to direct attacks."
+  },
+  "Thick_Winter_Undercoat": {
+    "tags": [
+      "Fur",
+      "Winter",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hibernation"
+    ],
+    "description": "The Thick_Winter_Undercoat is a dense, silvery fur that feels soft yet wiry to the touch, providing exceptional insulation against the biting cold. It shimmers with a faint blue hue under moonlight, a testament to its winter heritage, and grants the bearer an innate resilience to the chill, along with a survival instinct for long periods of hibernation."
+  }
+}

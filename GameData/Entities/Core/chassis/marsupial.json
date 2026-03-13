@@ -1,0 +1,503 @@
+{
+  "Saltatory_Macropod_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Saltatory",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Leap",
+      "Hop",
+      "Hind Kick"
+    ],
+    "description": "Embedded within the Saltatory Macropod Core is a pulsating, iridescent essence that glimmers with an otherworldly luminescence, its texture shifting like liquid crystal as it grants the host unparalleled leaping abilities, enhanced agility, and a powerful hind kick, though at the cost of slight diminished strength."
+  },
+  "Fossorial_Wombat_Bulk": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fossorial",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig",
+      "Stability"
+    ],
+    "description": "The Fossorial_Wombat_Bulk is a dense, muscular exoskeleton modeled after the sturdy marsupial, granting unparalleled resilience and digging prowess. Its robust frame hums with the earth's resonance, enabling the user to tunnel through solid rock with ease, while the added stability ensures they remain steadfast even in the most treacherous underground environments."
+  },
+  "Arboreal_Opossum_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Arboreal",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "No Pain"
+    ],
+    "description": "The Arboreal_Opossum_Frame is a supple and sinewy exoskeleton, patterned with a mosaic of earthy hues and intricate, branching patterns that mimic the bark of ancient trees, granting its bearer unparalleled dexterity and the ability to scale sheer surfaces with ease, while its innate resilience ensures that pain is but a distant whisper."
+  },
+  "Cursorial_Thylacine_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Cursorial",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Pack Tactics"
+    ],
+    "description": "The Cursorial Thylacine Frame is a sleek, muscular exoskeleton that mimics the form of a ghostly marsupial, with elongated legs designed for explosive sprints and razor-sharp claws for swift attacks, granting its user unparalleled speed and agility in combat."
+  },
+  "Compact_Quoll_Predator_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Predator",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "Embedded within the Compact Quoll Predator Core is a pulsating, iridescent heart of dark crystal, its surface etched with intricate, arcane patterns that seem to shift and change with the creature's shifting moods. The core radiates a subtle, eerie glow, enhancing the wearer's reflexes and stealth abilities, granting them the silent, lethal prowess of a predator in the dead of night."
+  },
+  "Gliding_Membrane_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Glider",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Soft Step"
+    ],
+    "description": "The Gliding_Membrane_Frame is a supple, translucent exoskeleton that extends thin, elastic membranes between articulated joints, allowing for silent glides through the air. Its texture is soft yet resilient, granting the user a catlike stealth and the ability to soar effortlessly between branches and rooftops, though it leaves one feeling slightly vulnerable."
+  },
+  "Tasmanian_Devil_Bulk_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Heavy",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Intimidate"
+    ],
+    "description": "The Tasmanian_Devil_Bulk_Core is a dense, crimson-hued organ pulsating with primal energy, encased in a thick, muscle-bound sac that feels like solidified chaos, each heartbeat syncing with the wearer\u2019s own as it grants an aura of raw intimidation and unbridled fury."
+  },
+  "Plantigrade_Generalist_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Generalist",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Plantigrade_Generalist_Core is a robust and versatile central component, featuring dense, muscle-bound legs that end in wide, padded feet capable of supporting the creature's weight in various terrains. Its adaptable nature is reflected in the flexible spinal structure and broad, sturdy shoulders, designed to carry a diverse array of equipment or weaponry, while the innate scavenger skill is hinted at by the sharp, probing sense of smell emanating from its fur-lined nostrils."
+  },
+  "Giant_Macropod_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hind Kick",
+      "Trample",
+      "Leap"
+    ],
+    "description": "The Giant Macropod Frame is a towering, muscular chassis that resembles an exaggerated kangaroo, its powerful legs braced for explosive leaps and devastating kicks. Covered in tough, leathery skin, it exudes a primal, relentless energy that compels the user to dominate the battlefield with overwhelming force."
+  },
+  "Semiaquatic_Water_Opossum_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "The Semiaquatic_Water_Opossum_Core is a sleek, silvery orb pulsating with liquid light, its surface rippling like the calm surface of a moonlit lake. When integrated, it grants a fluid grace, enhancing one's agility and speed as if gliding through water and over land with equal ease."
+  },
+  "Elongated_Bandicoot_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Elongated",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Dig"
+    ],
+    "description": "The Elongated_Bandicoot_Core is a slender, sinuous bundle of muscle and sinew, its elongated form tapering to a sharp, sensitive snout. Covered in coarse, dark fur, it feels surprisingly warm to the touch, hinting at an underlying vitality and resilience."
+  },
+  "Pouch_Heavy_Kangaroo_Rat_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bipedal",
+      "Marsupial"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hop",
+      "Leap"
+    ],
+    "description": "Embedded within the creature\u2019s robust, marsupial frame, the Pouch_Heavy_Kangaroo_Rat_Frame bulges with powerful muscles that ripple beneath its coarse fur, granting an uncanny blend of agility and leaping prowess, though at a slight cost to raw strength."
+  }
+}

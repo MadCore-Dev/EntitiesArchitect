@@ -1,0 +1,239 @@
+{
+  "Prehensile_Grip_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Prehensile Grip Tail is a serpentine appendage, sinuous and covered in fine, sensory scales that ripple with tension as it coils and uncoils with preternatural grace, capable of ensnaring and restraining foes with a chilling efficiency."
+  },
+  "Flat_Paddle_Caudal_Fin": {
+    "tags": [
+      "Tail",
+      "Paddle",
+      "Vermian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Flat_Paddle_Caudal_Fin is a sleek, broad appendage that flares out at the base like the wings of a bat, covered in shimmering scales that shift colors with the water's light. It moves with an effortless grace, propelling its bearer through even the murkiest waters with unparalleled speed and agility."
+  },
+  "Whip_Lash_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Lash_Tail is a serpentine appendage, slick and segmented, capable of striking with lightning-fast precision. Its surface is covered in fine, almost imperceptible barbs that rattle against armor and flesh, leaving shallow but painful cuts."
+  },
+  "Ossified_Club_Tail": {
+    "tags": [
+      "Tail",
+      "Club",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club"
+    ],
+    "description": "The Ossified_Club_Tail is a thick, bony appendage that terminates in a hardened knob, resembling a club. Its surface is rough and ridged, bristling with tiny spikes that rattle ominously when it swings, capable of delivering devastating blows."
+  },
+  "Stinger_Tail": {
+    "tags": [
+      "Tail",
+      "Sting",
+      "Vermian",
+      "Venomous"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Stinger_Tail is a writhing, serpentine appendage that pulses with a sickly green glow, ending in a wickedly curved stinger that drips with a viscous, dark venom. Its touch is cold and clammy, and when flexed, it hisses threateningly, ready to deliver a paralyzing sting at a moment's notice."
+  },
+  "Adhesive_Anchoring_Tail": {
+    "tags": [
+      "Tail",
+      "Adhesive",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip"
+    ],
+    "description": "The Adhesive Anchoring Tail is a serpentine appendage, covered in coarse, sandpaper-like scales that can secrete a powerful, bioluminescent adhesive, allowing the wielder to anchor themselves securely to any surface and maintain a firm grip even in the most treacherous environments."
+  },
+  "Feathery_Chemosensory_Tail": {
+    "tags": [
+      "Tail",
+      "Sensory",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Feathery Chemosensory Tail is a serpentine appendage, its surface covered in delicate, iridescent feathers that quiver and shift with the slightest vibration, granting an uncanny awareness of the surrounding environment."
+  },
+  "Bioluminescent_Lure_Tail": {
+    "tags": [
+      "Tail",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Tail is a sinuous appendage that writhes with an eerie, pulsating glow, its translucent scales refracting light into mesmerizing patterns. When extended, it can emit a hypnotic signal that lures in unsuspecting prey, paralyzing them with a mesmerizing dance of light."
+  },
+  "Electric_Discharge_Tail": {
+    "tags": [
+      "Tail",
+      "Electric",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Tail is a serpentine appendage, shimmering with an ominous blue glow that crackles with unseen power, capable of extending and retracting with preternatural speed. Each segment of the tail pulses with stored electrical energy, ready to unleash a paralyzing shock at the slightest touch."
+  },
+  "Necrotic_Probe_Tail": {
+    "tags": [
+      "Tail",
+      "Necrotic",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain"
+    ],
+    "description": "The Necrotic_Probe_Tail is a writhing, blackened appendage that ends in a sharp, barbed tip, capable of extending and retracting with unsettling speed. Its touch feels like a chill that penetrates to the bone, draining life force with each probing motion, granting its wielder an unnerving reach advantage in dark, claustrophobic environments."
+  },
+  "Blunt_Rooting_Tail": {
+    "tags": [
+      "Tail",
+      "Fossorial",
+      "Vermian"
+    ],
+    "traversal": [
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "The Blunt_Rooting_Tail is a thick, earthy appendage with broad, flat plates that interlock like the segments of a mole\u2019s tail, allowing it to tunnel through even the densest soil with ease. Its rough, bark-like exterior provides a firm grip on the ground, enabling the user to exert tremendous force to dig and burrow swiftly and silently."
+  },
+  "Vestigial_Tail_Stub": {
+    "tags": [
+      "Tail",
+      "Vestigial",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Vestigial_Tail_Stub is a small, fleshy nub that pulses faintly with an otherworldly glow, hinting at its connection to the worm-like Vermian creatures. Despite its atrophied state, it occasionally twitches with a life of its own, granting subtle manipulations of nearby shadows and granting a slight edge in evading detection."
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "Fossorial_Spade_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Fossorial",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "Thick and powerful, the Fossorial_Spade_Forelimbs are adorned with rough, chitinous plates that interlock like armor, allowing them to effortlessly slice through earth and soil. Their broad, flat claws are perfect for digging, but at the cost of agility, these limbs are a force to be reckoned with in underground tunnels."
+  },
+  "Adhesive_Arboreal_Digits": {
+    "tags": [
+      "Arms",
+      "Arboreal",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb"
+    ],
+    "description": "The Adhesive_Arboreal_Digits are slender, prehensile appendages covered in fine, bristly fur, with oversized pads that secrete a gummy, almost invisible adhesive, allowing for effortless scaling of even the smoothest surfaces."
+  },
+  "Webbed_Semiaquatic_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Aquatic",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The webbed semiaquatic forelimbs are paddle-like, with elongated fingers fused by thick, elastic membranes, perfectly adapted for swift and silent traversal through water. Their coarse fur traps air, providing buoyancy, but they feel slightly cumbersome on land, reducing dexterity."
+  },
+  "Patagium_Extended_Limbs": {
+    "tags": [
+      "Arms",
+      "Glider",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Patagium_Extended_Limbs is a pair of expansive, leathery membranes stretched between elongated, sinewy rodent limbs, allowing for graceful gliding through the air while enhancing the wearer's agility and evasion."
+  },
+  "Vestigial_Bipedal_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Vestigial",
+      "Rodent",
+      "Saltatory"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Tattered and gnarled, the vestigial bipedal forelimbs resemble the withered remnants of a long-abandoned attempt at humanity, now more akin to the scurrying, twitchy limbs of a saltatory rodent, granting a swift, jittery movement but at the cost of sheer strength."
+  },
+  "Grasping_Prehensile_Forepaws": {
+    "tags": [
+      "Arms",
+      "Prehensile",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Grasping_Prehensile_Forepaws are a pair of sinuous, hairless limbs tipped with sharp, curved claws, capable of grasping objects with a strength and finesse reminiscent of a weasel or a marten. They extend slightly beyond the normal reach of a humanoid body, allowing for both agile and unexpectedly aggressive maneuvers in combat."
+  },
+  "Broad_Plantigrade_Forepaws": {
+    "tags": [
+      "Arms",
+      "Plantigrade",
+      "Rodent",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slam"
+    ],
+    "description": "The Broad_Plantigrade_Forepaws are massive, robust appendages, reminiscent of a bear\u2019s paws but with the dense, coarse fur and sharp claws of a monstrous rodent, capable of delivering devastating blows with a single swipe. The thick, padded soles of these forepaws allow for powerful, ground-shaking slams, while the sheer strength and endurance they provide are palpable, making the user feel like they could tear through steel."
+  },
+  "Elongated_Murid_Forepaws": {
+    "tags": [
+      "Arms",
+      "Elongated",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw"
+    ],
+    "description": "The elongated murid forepaws are slender yet powerful, with sharp claws and a peculiar flexibility that allows them to grasp and manipulate objects with surprising dexterity. Covered in soft, dense fur, they impart a heightened sense of agility and speed to the wielder, granting them an extended reach and the ability to gnaw through tough materials with ease."
+  },
+  "Compact_Scratch_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Compact",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Claw"
+    ],
+    "description": "The Compact_Scratch_Forelimbs are small yet powerful, with sharp, retractable claws that glint menacingly in the dim light. Covered in sleek, dark fur, they are compact and agile, granting an eerie sense of predatory readiness to any creature that wields them."
+  },
+  "Reinforced_Gnawer_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Crushing",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Body Slam"
+    ],
+    "description": "Reinforced Gnawer Forelimbs are thick, muscular appendages covered in coarse, bristly fur, with razor-sharp claws and powerful shoulder joints that allow for devastating body slams, their sheer strength and durability making them a formidable weapon in close combat."
+  },
+  "Semi_Webbed_River_Forepaws": {
+    "tags": [
+      "Arms",
+      "Aquatic",
+      "Riverine",
+      "Rodent"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Slide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "The Semi_Webbed_River_Forepaws are sleek and sinuous, with partially webbed toes that taper to sharp claws, perfect for gripping slippery riverbanks and diving into the water with grace and speed. The paws are covered in fine, water-resistant fur that shimmers in the sunlight, and their texture is soft yet tough, providing both warmth and protection against the elements."
+  },
+  "Burrowing_Claw_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Burrowing",
+      "Rodent",
+      "Claws"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Dig"
+    ],
+    "description": "The Burrowing_Claw_Forelimbs are sleek and muscular, with elongated digits ending in wickedly curved claws that glint menacingly in the dim light. The forelimbs are covered in coarse fur that shifts and moves almost independently, as if alive, allowing the creature to swiftly dig and tunnel through earth or stone with ease."
+  }
+}

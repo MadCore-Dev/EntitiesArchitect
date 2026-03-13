@@ -1,0 +1,347 @@
+{
+  "Fire_Flame_Wings": {
+    "tags": [
+      "Wings",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Immolate",
+      "Burn"
+    ],
+    "description": "Emerging from the creature\u2019s back are ethereal wings, shimmering with the erratic dance of flames that seem to weave and twist through the air without consuming the delicate, translucent feathers. Each beat of these wings ignites a burst of fiery energy, leaving a trail of smoldering heat in their wake."
+  },
+  "Air_Wind_Cyclone_Wings": {
+    "tags": [
+      "Wings",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Gust"
+    ],
+    "description": "Cyclone Wings are a pair of membranous appendages that shimmer with an ethereal, iridescent glow, capable of transforming into a vortex of swirling winds that propels their bearer through the air with unparalleled grace and speed."
+  },
+  "Lightning_Plasma_Wings": {
+    "tags": [
+      "Wings",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Dart",
+      "Shock Touch"
+    ],
+    "description": "The Lightning Plasma Wings are iridescent appendages that shimmer with an otherworldly glow, their feathers composed of crackling, electric plasma that hums with latent power, ready to unleash searing bolts of lightning at a moment's touch or flutter."
+  },
+  "Frost_Ice_Wings": {
+    "tags": [
+      "Wings",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Slow",
+      "Cold Wave"
+    ],
+    "description": "Frost_Ice_Wings are iridescent, crystalline appendages that shimmer with a chilling blue glow, capable of slicing through the air with deadly precision to deliver a bone-chilling Cold Wave, while their icy texture grants the bearer unparalleled agility and resistance to the biting cold."
+  },
+  "Shadow_Void_Wings": {
+    "tags": [
+      "Wings",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Drain"
+    ],
+    "description": "The Shadow_Void_Wings are dark, ethereal appendages that seem to be made of swirling, intangible shadows, capable of spreading wide to reveal a void-like center that sucks in light and sound, granting the bearer unparalleled stealth and the ability to drain the life force of those who dare to pursue."
+  },
+  "Sand_Storm_Wings": {
+    "tags": [
+      "Wings",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Blinding Sandstorm",
+      "Gust"
+    ],
+    "description": "Sand_Storm_Wings are ghostly pale wings, shimmering with the ever-shifting patterns of desert sands. When activated, they stir the air with an eerie whisper, summoning a blinding sandstorm capable of obscuring vision and chilling the bones of those caught within its grasp."
+  },
+  "Nature_Leaf_Wings": {
+    "tags": [
+      "Wings",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Ensnare"
+    ],
+    "description": "Emerging from the creature\u2019s back are delicate yet resilient wings, covered in vibrant green leaves that shimmer with the faint glow of sunlight filtering through dense foliage. The wings pulse with an ethereal energy, allowing the bearer to glide effortlessly through the air and ensnare foes with a web of entangling vines that sprout from the leafy appendages on command."
+  },
+  "Steam_Water_Wings": {
+    "tags": [
+      "Wings",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Slip"
+    ],
+    "description": "Emerging from the creature's back are translucent wings that shimmer with the iridescent hues of a stormy sea, their membranes constantly shifting between liquid and gaseous states, allowing for effortless flight and the ability to slip through narrow spaces with fluid grace."
+  },
+  "Lava_Phoenix_Wings": {
+    "tags": [
+      "Wings",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Immolate",
+      "Body Slam"
+    ],
+    "description": "The Lava_Phoenix_Wings are a pair of immense, ember-red wings that pulsate with an inner heat, their feathers made of jagged, molten rock that crackle and sizzle as they move through the air, leaving a trail of searing hot ash behind."
+  },
+  "Time_Rift_Phase_Wings": {
+    "tags": [
+      "Wings",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Flight",
+      "Hover"
+    ],
+    "description": "Emerging from the fabric of reality itself, the Time_Rift_Phase_Wings are ethereal and shimmering, casting an otherworldly glow that shifts between hues of deep purple and black. When activated, they create a swirling vortex that grants the wielder the ability to blink out of existence and reappear elsewhere, their flight becoming a dance through the dimensions, leaving trails of temporal distortion in their wake."
+  },
+  "Acid_Mist_Wings": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Flight"
+    ],
+    "description": "Beneath the leathery surface of the Acid Mist Wings, a faint greenish glow can be seen, hinting at the toxic substance they channel. As the wings flap, a corrosive mist forms, ready to be sprayed at foes with devastating effect, while their inherent design grants unparalleled agility and resistance to acid attacks."
+  },
+  "Earth_Stone_Slab_Wings": {
+    "tags": [
+      "Wings",
+      "Earth",
+      "Elemental"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Block"
+    ],
+    "description": "The Earth Stone Slab Wings are broad and flat, composed of dark, layered slabs that seem to pulse with latent geological power. Their surface is rough and cool to the touch, embedding the wielder with an innate resilience and the ability to deflect incoming attacks while allowing them to glide smoothly across the terrain."
+  }
+}

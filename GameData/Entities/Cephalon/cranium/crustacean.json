@@ -1,0 +1,320 @@
+{
+  "Cephalothorax_Broad_Head": {
+    "tags": [
+      "Cranium",
+      "Cephalothorax",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Cephalothorax_Broad_Head, a fusion of a massive, armored crustacean cranium, bristles with jagged spines and menacing pincers, its surface a mosaic of intricate chitin patterns that shift and reflect light in eerie, iridescent hues, providing an innate sense of security and resilience."
+  },
+  "Long_Rostrum_Head": {
+    "tags": [
+      "Cranium",
+      "Rostrum",
+      "Crustacean",
+      "Shrimp"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Long_Rostrum_Head is a grotesque amalgamation of a crustacean's exoskeleton and a predatory shrimp's menacing rostrum, with sharp, elongated pincers that twitch and threaten from either side of an armored forehead, granting heightened perception and an extended reach to pierce through the veil of shadows and reveal hidden threats."
+  },
+  "Compact_Sessile_Platform": {
+    "tags": [
+      "Cranium",
+      "Sessile",
+      "Crustacean",
+      "Barnacle"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Compact Sessile Platform is a rugged, chitin-covered dome that attaches firmly to the skull, its surface pitted and rough like ancient stone, secreting a protective mucus that hardens into a resilient barrier, granting the wearer an innate sense of invulnerability."
+  },
+  "Armoured_Calcified_Helmet": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Natural Armor"
+    ],
+    "description": "The Armoured_Calcified_Helmet is a hulking exoskeleton that encases the head, resembling the fused plates of a giant crustacean. Its surface is slick and cold to the touch, with subtle ridges that enhance its wearer\u2019s natural armor, though the added weight and rigidity slightly hinder their agility."
+  },
+  "Stalked_Eye_Carapace_Head": {
+    "tags": [
+      "Cranium",
+      "Stalked_Eye",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Stalked_Eye_Carapace_Head is a fearsome, chitinous helmet adorned with a pair of elongated, jointed eyestalks that undulate independently, granting an unnerving, omniscient gaze and a 3-point boost to perception."
+  },
+  "Wide_Spread_Mantis_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Wide_Spread",
+      "Crustacean",
+      "Mantis_Shrimp"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Wide_Spread_Mantis_Cephalon is a fearsome cranium component, its elongated, segmented head resembling that of a mantis shrimp with expansive, articulated mandibles that snap shut with a terrifying speed and force, granting the bearer unparalleled perception and the ability to strike from the shadows with deadly precision."
+  },
+  "Deep_Sea_Pressure_Head": {
+    "tags": [
+      "Cranium",
+      "Deep_Sea",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Head is a grotesque amalgamation of dark, chitinous plates that resemble the segmented head of a colossal crustacean, designed to withstand the crushing pressure of the ocean's deepest trenches. Its surface is cold and slick to the touch, with pulsating veins visible beneath translucent sections, granting the bearer an innate resilience and the ability to descend into the abyssal depths without fear of pressure-induced harm."
+  },
+  "Bioluminescent_Lure_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Bioluminescent",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Cephalon is a pulsating, phosphorescent cephalopod cranium, with iridescent ridges that undulate in mesmerizing patterns, emitting a haunting glow that can attract and paralyze prey with a single, hypnotic glance."
+  },
+  "Electroreceptive_Antennae_Head": {
+    "tags": [
+      "Cranium",
+      "Electroreceptive",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the rugged exoskeleton of the Electroreceptive_Antennae_Head are delicate, segmented antennae that pulse with an eerie blue glow, capable of detecting the slightest electrical signals in the air and water, granting the bearer an uncanny awareness of their surroundings and the ability to see in complete darkness."
+  },
+  "Hermit_Compact_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Compact",
+      "Crustacean",
+      "Hermit"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard"
+    ],
+    "description": "The Hermit_Compact_Cephalon is a sleek, armor-plated cranium that resembles a miniature crustacean shell, perfectly adapted to fit snugly over the wearer's head. Its smooth, hard surface provides a tactile sensation of invincibility, and when activated, the Shell Guard ability causes the cephalon to harden into an impenetrable barrier, enhancing the user's natural armor by one tier."
+  },
+  "Spiked_Helmet_Head": {
+    "tags": [
+      "Cranium",
+      "Spiked",
+      "Crustacean"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Rake"
+    ],
+    "description": "The Spiked_Helmet_Head is a fearsome cranial component adorned with sharp, jagged spikes that mimic the exoskeleton of a crustacean, providing an intimidating visage and a natural armor that deflects incoming blows. Its robust structure allows for powerful headbutts that crack skulls, while the protruding spikes enable a devastating rake attack."
+  },
+  "Isopod_Flat_Head": {
+    "tags": [
+      "Cranium",
+      "Flat",
+      "Crustacean",
+      "Isopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Isopod_Flat_Head is a sleek, elongated cranium resembling a flattened exoskeleton, its surface covered in intricate ridges and grooves that reflect the dim light with a subtle, eerie glow. This component enhances the wearer's ability to blend into shadowy environments, granting them near-perfect stealth in dark corners and undergrowth."
+  }
+}

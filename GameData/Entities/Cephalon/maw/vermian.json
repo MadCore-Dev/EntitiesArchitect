@@ -1,0 +1,247 @@
+{
+  "Suction_Cup_Oral_Disc": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Vermian",
+      "Parasitic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Suction Grip",
+      "Grapple"
+    ],
+    "description": "The Suction_Cup_Oral_Disc is a grotesque, fleshy appendage that protrudes from the creature's maw, ringed with sharp, interlocking teeth that grip tightly onto flesh and bone, its surface slick and pulsating with a malevolent energy that saps strength from its victims with each relentless pull."
+  },
+  "Retractable_Proboscis_Maw": {
+    "tags": [
+      "Maw",
+      "Proboscis",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Drain"
+    ],
+    "description": "The Retractable_Proboscis_Maw is a grotesque appendage that extends from the creature's face like a flexible, needle-sharp tongue, tipped with a dark, pulsating bulb that can pierce through flesh with ease, allowing for the swift Snatch and Drain of life force from prey."
+  },
+  "Rasping_Radula_Maw": {
+    "tags": [
+      "Maw",
+      "Radula",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw"
+    ],
+    "description": "The Rasping_Radula_Maw is a grotesque, wormlike maw filled with countless tiny, sharp teeth that scrape and rasp against each other with a nauseating sound, capable of gnawing through even the toughest materials with ease. Its texture is slick and cold, and the sensation of it moving independently of the host's will is unsettling."
+  },
+  "Hooked_Jaw_Maw": {
+    "tags": [
+      "Maw",
+      "Hooked",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Jaw Snap"
+    ],
+    "description": "The Hooked_Jaw_Maw is a gruesome, sharp-toothed appendage with elongated, curved fangs that drip with venom, capable of ripping through flesh with ease. Its brutal strength and hooked design allow for a devastating bite that can snap bones with a single motion, granting its wielder immense power and a fearsome presence."
+  },
+  "Venomous_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Embedded within the gnarled jaws of the Venomous_Fang_Maw is a cluster of razor-sharp fangs, each one dripping with a viscous, iridescent venom that shimmers with an eerie inner light. The fangs feel cold and slick to the touch, their edges serrated and sharp enough to slice through flesh with a single swipe, while the venom itself pulsates with a dark energy that enhances the wielder's agility and reflexes."
+  },
+  "Acid_Spewing_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spewing_Maw is a grotesque, churning cavity lined with razor-sharp teeth and a corrosive slime, capable of spewing a jet of acid with a mere flick of the tongue. The maw feels cold and slick to the touch, and its acidic breath can dissolve metal and flesh alike, leaving a trail of caustic residue in its wake."
+  },
+  "Filter_Feeding_Oral_Fan": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Filter_Feeding_Oral_Fan is a diaphanous, web-like structure that lines the interior of the creature's maw, shimmering with an ethereal glow as water flows through it, separating nutrients and oxygen from the aquatic environment. Its presence adds a robust constitution, reflecting its adaptive resilience in the harshest underwater conditions."
+  },
+  "Serrated_Crushing_Jaws": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Serrated Bite"
+    ],
+    "description": "Embedded within the gnarled, chitinous exoskeleton, the Serrated_Crushing_Jaws glisten with a sinister allure, their jagged edges promising the obliteration of any foe unlucky enough to find themselves within range, while the sheer force behind each bite is amplified by an unsettling, worm-like movement that grants an edge in both offense and defense."
+  },
+  "Bioluminescent_Lure_Maw": {
+    "tags": [
+      "Maw",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Maw is a grotesque, gaping cavity lined with rows of razor-sharp teeth that emit an eerie, pulsating glow, drawing prey into its clutches with an irresistible allure. The maw's glow can be modulated to create patterns that mesmerize and paralyze, granting the wielder control over the fate of those who dare to approach."
+  },
+  "Eversible_Stomach_Maw": {
+    "tags": [
+      "Maw",
+      "Eversible",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Drain"
+    ],
+    "description": "The Eversible Stomach Maw is a grotesque, churning mass of writhing tendrils and teeth-lined pockets that evert from the creature's belly, capable of ensnaring prey and draining their life essence with a visceral, guttural suction."
+  },
+  "Necrotic_Slime_Maw": {
+    "tags": [
+      "Maw",
+      "Necrotic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Slime Secretion"
+    ],
+    "description": "The Necrotic_Slime_Maw is a writhing, gelatinous mass of decayed flesh, pulsating with an eerie, bioluminescent glow that casts an unsettling light in the dark. Its jagged, venomous teeth protrude from the maw's edges, ready to inject a paralyzing venom into any prey, while the walls of the maw ooze a protective layer of necrotic slime to fortify itself against attacks."
+  },
+  "Vacuum_Suction_Gulper_Maw": {
+    "tags": [
+      "Maw",
+      "Gulper",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swallow"
+    ],
+    "description": "The Vacuum_Suction_Gulper_Maw is a vast, gaping orifice filled with razor-sharp teeth and lined with a mucus-covered membrane that glows faintly in the dark waters, its powerful suction capable of pulling in prey from great distances, leaving a trail of swirling eddies in its wake."
+  }
+}

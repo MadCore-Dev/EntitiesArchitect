@@ -1,0 +1,340 @@
+{
+  "Saltatory_Macropod_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Saltatory",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hop"
+    ],
+    "mods": [
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Leap",
+      "Hop",
+      "Hind Kick"
+    ],
+    "description": "Emerging from the dense underbrush, the Saltatory Macropod Hindlimbs are a marvel of evolutionary adaptation, with powerful, elongated muscles that ripple beneath leathery skin, designed to propel their owner into the air with each bounding leap, granting a sense of otherworldly agility and speed."
+  },
+  "Fossorial_Wombat_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Stability"
+    ],
+    "description": "The Fossorial Wombat Hindlimbs are powerful and robust, designed for digging with thick, muscular thighs and strong, clawed feet that can shift earth and stone with ease. The limbs are covered in coarse, bristly fur that protects against the rough edges of underground tunnels while providing a sense of stability and groundedness, perfect for maintaining balance in tight, cramped spaces."
+  },
+  "Arboreal_Grasping_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Arboreal",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Sure-Footed"
+    ],
+    "description": "Arboreal_Grasping_Hindfeet are powerful, prehensile appendages covered in rough, bark-like scales that allow for effortless climbing and maneuvering through dense canopies, their twin claws and opposable digits gripping any surface with uncanny ease, providing an unwavering sense of stability and agility."
+  },
+  "Cursorial_Thylacine_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Cursorial",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Cursorial Thylacine Hindlimbs are slender yet powerful, covered in short, coarse fur that shimmers in shades of charcoal and rust. With an elongated, muscular build and distinctive, springy tendons, these limbs are built for explosive bursts of speed, allowing their bearer to dart and weave through the dense underbrush with unparalleled agility and grace."
+  },
+  "Webbed_Aquatic_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Aquatic",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Webbed_Aquatic_Hindfeet are large, paddle-like appendages with elongated toes connected by a thin, elastic membrane, perfectly adapted for swift and silent movement through water, while their sleek, muscular build grants the user unparalleled agility and speed both in and out of aquatic environments."
+  },
+  "Compact_Predator_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Predator",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Sprint"
+    ],
+    "description": "Emerging from a sleek, feline-like form, the Compact Predator Hindlimbs are powerful and coiled, bristling with muscle beneath a coat of short, dark fur that shifts in the light like shadows dancing on moonlit night. Their silent, spring-loaded nature allows for explosive bursts of speed and deadly leaps, embodying the essence of ambush and pursuit."
+  },
+  "Heavy_Devil_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Heavy",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Stomp"
+    ],
+    "description": "The Heavy_Devil_Hindlimbs are thick and muscular, covered in a dark, coarse fur that bristles with each flex of the powerful leg muscles. They possess a marsupial-like pouch, and when the creature stands, it can unleash a devastating stomp that shakes the ground beneath its massive form, granting its user immense stability in battle."
+  },
+  "Bipedal_Hopping_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Bipedal",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hop"
+    ],
+    "mods": [
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hop",
+      "Leap"
+    ],
+    "description": "Emerging from a twisted, shadowy biome, the Bipedal_Hopping_Hindlimbs are sleek and sinuous, covered in dark, coarse fur that shimmers with an eerie luminescence. These powerful legs are built for bounding, with elongated tendons and sharp claws that dig into the ground, propelling their owner into the air with each graceful leap."
+  },
+  "Gliding_Spread_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Glider",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Gliding_Spread_Hindlimbs are expansive, membrane-covered limbs that extend from the creature's powerful hindquarters, allowing it to catch air and glide effortlessly through the canopy. Soft to the touch, yet sturdy and reinforced with bony struts, these limbs enable the creature to navigate its arboreal habitat with unparalleled grace and agility."
+  },
+  "Elongated_Insectivore_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Insectivore",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "The elongated insectivore hindfeet are slender and elongated, tipped with sharp, hooked claws that can grasp and manipulate small objects with surprising dexterity. Covered in soft, velvety fur, these powerful legs enable swift and silent movements, perfectly adapted for navigating through dense underbrush and leaping with acrobatic grace."
+  },
+  "Desert_Padded_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Desert",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Endurance"
+    ],
+    "description": "The Desert_Padded_Hindfeet are large, sand-colored pads with deep grooves that channel the relentless desert winds into a whisper, allowing for silent movement across the dunes. They are tough yet soft to the touch, providing an uncanny grip and resilience against the scorching heat and shifting sands, embodying the enduring spirit of the desert's resilient marsupials."
+  },
+  "Syndactyl_Grooming_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Syndactyl",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "The Syndactyl Grooming Hindfeet are elongated, sleek limbs with fused toes that end in soft, bristle-like pads, perfectly designed for meticulous grooming and providing an unparalleled sense of balance and agility in treacherous terrains."
+  }
+}

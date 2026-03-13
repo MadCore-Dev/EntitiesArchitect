@@ -1,0 +1,290 @@
+{
+  "Acid_Chemical_Sensors": {
+    "tags": [
+      "Ear",
+      "Acid",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's head, the Acid Chemical Sensors resemble translucent, jelly-like protrusions that constantly secrete a thin, shimmering layer of acidic fluid. The sensors pulse subtly with each tremor in the ground, allowing the creature to detect both the faintest chemical traces in the air and the slightest vibrations beneath its feet."
+  },
+  "Vibration_Sensing_Membranes": {
+    "tags": [
+      "Ear",
+      "Gelatin",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Vibration_Sensing_Membranes are translucent, jelly-like flaps that extend from the sides of the head, constantly pulsating and quivering in response to even the slightest seismic activity, granting the bearer unparalleled awareness of their surroundings and the creatures moving beneath the earth's surface."
+  },
+  "Necrotic_Decay_Sensors": {
+    "tags": [
+      "Ear",
+      "Necrotic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Scavenger"
+    ],
+    "description": "Necrotic Decay Sensors are gelatinous tendrils that sprout from the wearer's head, pulsating with an eerie, sickly glow as they detect the subtle vibrations and signs of decay in the environment, granting an acute awareness of both the living and the dead."
+  },
+  "Magma_Pressure_Sensors": {
+    "tags": [
+      "Ear",
+      "Magma",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the creature\u2019s skull, these sensors resemble pulsating, semi-translucent organs that shift and ooze like molten rock. They grant an uncanny ability to sense the subtle vibrations and thermal signatures of the surrounding environment, enhancing the creature's perception and resistance to the fiery onslaught of magma and flames."
+  },
+  "Void_Phase_Sensors": {
+    "tags": [
+      "Ear",
+      "Void",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Ambush"
+    ],
+    "description": "The Void_Phase_Sensors are gelatinous, shifting tendrils that coil around the creature's head, pulsating with a dark, otherworldly energy. They grant an eerie, heightened awareness of nearby movements and vibrations, allowing the creature to sense the approach of enemies and blend into the shadows with unnerving ease."
+  },
+  "Electric_Field_Sensors": {
+    "tags": [
+      "Ear",
+      "Electric",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Shock Touch"
+    ],
+    "description": "The Electric Field Sensors are gelatinous, pulsating nodules that sprout from the creature's head, each one radiating a faint, shimmering aura of electricity. They grant the host heightened perception and the ability to detect electrical charges, while also allowing them to discharge a painful shock from any touch."
+  },
+  "Ice_Crystal_Sensors": {
+    "tags": [
+      "Ear",
+      "Ice",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the crystalline structure of the Ice Crystal Sensors are delicate, translucent tendrils that pulse with a chilling blue light, capable of detecting subtle vibrations and temperature shifts in the environment, enhancing the user's ability to track and navigate through even the most treacherous ice and snow."
+  },
+  "Paralytic_Jelly_Sensors": {
+    "tags": [
+      "Ear",
+      "Paralytic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Paralysis"
+    ],
+    "description": "Embedded within the creature's head, the Paralytic Jelly Sensors resemble a pulsating, gelatinous mass with tendrils that extend into the surrounding bone and tissue, enhancing the creature's ability to sense subtle vibrations and detect the presence of enemies even through solid objects. The ooze-like consistency of the sensors secretes a numbing agent that can paralyze prey or enemies with a single touch, rendering them helpless as the creature closes in for the kill."
+  },
+  "Spore_Chemical_Sensors": {
+    "tags": [
+      "Ear",
+      "Spore",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the fleshy membrane of the creature\u2019s head, the Spore Chemical Sensors resemble a cluster of pulsating, translucent orbs that constantly shift and ooze, releasing a faint, sickly-sweet aroma. These organs grant an uncanny ability to detect the slightest tremors and scents, making the creature hyper-aware of its surroundings and the presence of noxious substances or diseased creatures."
+  },
+  "Ochre_Wave_Sensors": {
+    "tags": [
+      "Ear",
+      "Ochre",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the soft, oozing flesh of the Ochre_Wave_Sensors are delicate, translucent tendrils that pulse and shift in response to the slightest seismic activity, granting the bearer an uncanny awareness of their surroundings and the ability to sense danger before it arrives."
+  },
+  "Black_Pudding_Sensors": {
+    "tags": [
+      "Ear",
+      "Black_Pudding",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's form are pulsating nodes that resemble dark, gelatinous eyes, each one oozing a faint, corrosive acid. These nodes grant an uncanny ability to sense the slightest tremors and movements in the surrounding environment, even in complete darkness, while the acid resistance and heightened perception provide a significant survival advantage in the treacherous underground realms."
+  },
+  "Eldritch_Cosmic_Sensors": {
+    "tags": [
+      "Ear",
+      "Eldritch",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense",
+      "Madness Aura",
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the ooze-like substance of the Eldritch_Cosmic_Sensors are pulsating, dark tendrils that extend and retract, granting the bearer an eerie, all-encompassing awareness of their surroundings, as if they can sense the very fabric of reality trembling with each unseen step."
+  }
+}

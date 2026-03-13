@@ -1,0 +1,279 @@
+{
+  "Caudal_Paddle_Fin": {
+    "tags": [
+      "Fins",
+      "Caudal",
+      "Vermian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The caudal paddle fin is a sleek, expansive appendage that extends from the creature's posterior, shimmering with iridescent hues that shift with the water's currents. Its powerful, undulating motion propels the creature through aquatic environments with unparalleled grace and speed, granting a significant boost to its velocity beneath the waves."
+  },
+  "Lateral_Undulation_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Emerging from the creature's sides, these sinuous lateral undulation fins are lined with delicate, translucent scales that shimmer in the dim light, each scale pulsing with a bioluminescent glow. When the creature moves, the fins undulate in perfect harmony, propelling it through dense undergrowth or murky waters with effortless grace, enhancing its agility and maneuverability."
+  },
+  "Polychaete_Parapodia_Fins": {
+    "tags": [
+      "Fins",
+      "Parapodium",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim",
+      "Slither"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the creature\u2019s segmented body, the polychaete parapodia fins shimmer with iridescent hues, each one a delicate yet powerful appendage that propels the bearer through water with unmatched grace and speed."
+  },
+  "Feathery_Gill_Fans": {
+    "tags": [
+      "Fins",
+      "Gill",
+      "Vermian",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Feathery_Gill_Fans are delicate yet robust appendages, resembling a blend of gills and feathered fins, that flutter gracefully with each breath, allowing for swift and silent movement through the water while also enhancing the creature's agility and speed."
+  },
+  "Hydrodynamic_Body_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart"
+    ],
+    "description": "Emerging from the creature's torso, these sleek, hydrodynamic fins ripple with an otherworldly grace, their translucent membranes shifting in subtle hues of blue and green as they pulse with the energy of the waterlogged realms, granting unparalleled agility and swiftness in the midst of aquatic turmoil."
+  },
+  "Steering_Side_Fins": {
+    "tags": [
+      "Fins",
+      "Steering",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Emerging from the creature's sides, these sleek, bioluminescent steering side fins pulse with an eerie glow, their membranous surfaces quivering with an otherworldly grace that grants unparalleled agility and control in the most treacherous of environments."
+  },
+  "Deep_Sea_Pressure_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Fins are translucent appendages, shimmering with an inner luminescence that shifts between deep oceanic hues. They pulse gently with each breath, adapting to the crushing pressure of the abyssal realm, granting the bearer unmatched depth penetration and resilience."
+  },
+  "Riffle_Adapted_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Riffle_Adapted_Fins are sleek, chitinous appendages that pulsate with an eerie bioluminescence, allowing the bearer to navigate the darkest, most treacherous underwater landscapes with grace and power, their enhanced strength enabling them to cut through strong currents with ease."
+  },
+  "Electrosensory_Fin_Array": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electrosensory Fin Array is a churning mass of delicate, translucent fins that ripple and undulate in response to the slightest electrical field, allowing the creature to navigate the darkest, most treacherous waters with uncanny precision and grace."
+  },
+  "Membranous_Aquatic_Fins": {
+    "tags": [
+      "Fins",
+      "Membranous",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Glowing with an eerie bioluminescence, the Membranous Aquatic Fins are translucent and delicate, yet surprisingly strong, allowing for swift and silent movement through water as if propelled by unseen currents."
+  },
+  "Compact_Wriggling_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's sleek form, the Compact Wriggling Fins are a cluster of tiny, sinuous appendages that pulse and undulate with an almost sentient energy, granting its host unparalleled agility and a ghost-like movement that allows them to slip through the tightest of spaces."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Vermian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature\u2019s limbs are small, withered fin stubs, their once vibrant membranes now shriveled and translucent, barely moving in the air as if yearning for the water they were born to navigate."
+  }
+}

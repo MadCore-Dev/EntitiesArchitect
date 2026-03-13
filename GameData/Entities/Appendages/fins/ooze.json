@@ -1,0 +1,328 @@
+{
+  "Acid_Swim_Fins": {
+    "tags": [
+      "Fins",
+      "Acid",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Swim"
+    ],
+    "description": "Emerging from the depths of a toxic swamp, the Acid Swim Fins are rubbery and translucent, pulsating with an eerie green glow as they secrete a corrosive slime. When flexed, they emit a faint hissing sound, and their fluid motion through water is almost silent, granting the bearer remarkable agility and the ability to spray noxious acid at foes."
+  },
+  "Engulf_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Engulf",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict"
+    ],
+    "description": "The Engulf_Paddle_Fins are thick, gelatinous appendages that ripple with a life of their own, their surface slick and cold to the touch, capable of spreading out like tendrils to ensnare and pull prey into a suffocating embrace."
+  },
+  "Magma_Lava_Fins": {
+    "tags": [
+      "Fins",
+      "Magma",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Immolate"
+    ],
+    "description": "The Magma_Lava_Fins are sleek and sinuous, their surface a shimmering blend of molten gold and crimson hues that seem to pulse with inner heat. As they move through water, they emit tendrils of scalding steam, and the touch of these fins leaves behind a trail of bubbling, acidic ooze that can sear through most materials."
+  },
+  "Ice_Glide_Fins": {
+    "tags": [
+      "Fins",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slow"
+    ],
+    "description": "Ice_Glide_Fins are sleek, translucent appendages that glisten with a faint blue sheen, their surface constantly shifting and oozing like liquid ice. When in use, they create a chilling aura that slows enemies while granting the user unparalleled maneuverability and resistance to the biting cold of the harshest environments."
+  },
+  "Electric_Current_Fins": {
+    "tags": [
+      "Fins",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Shock Touch"
+    ],
+    "description": "Electric_Current_Fins are sleek, pulsating appendages that shimmer with an eerie blue glow, their surface slick with viscous, electrically charged ooze. When flexed, they emit a low hum and generate a palpable surge of energy, allowing the wielder to deliver a shocking touch and navigate aquatic realms with unparalleled grace and velocity."
+  },
+  "Void_Shadow_Fins": {
+    "tags": [
+      "Fins",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Swim"
+    ],
+    "description": "The Void_Shadow_Fins are sleek, almost ethereal appendages that ooze and shift like liquid shadow, granting the bearer unparalleled stealth and agility in water, allowing them to slip through the darkest depths unseen."
+  },
+  "Paralytic_Drift_Fins": {
+    "tags": [
+      "Fins",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Swim"
+    ],
+    "description": "The Paralytic Drift Fins are translucent and gelatinous, pulsating with a sickly green bioluminescence that flickers like dying embers. Their surface is slick and cold to the touch, and when used in conjunction with the granted abilities, they emit a paralyzing aura that can immobilize foes, while also enhancing the swimmer's fluid motion through the water."
+  },
+  "Spore_Float_Fins": {
+    "tags": [
+      "Fins",
+      "Spore",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Spore Cloud",
+      "Hover"
+    ],
+    "description": "Emerging from the creature\u2019s back, the Spore_Float_Fins are translucent and shimmer with an eerie bioluminescence, their surface dotted with tiny, pulsating spores that release a noxious cloud when disturbed. The fins provide not only graceful movement through water but also the uncanny ability to hover over marshy terrain, their touch leaving a trail of sluggish, disease-ridden ooze."
+  },
+  "Necrotic_Seep_Fins": {
+    "tags": [
+      "Fins",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Drain"
+    ],
+    "description": "Necrotic_Seep_Fins are ghostly, semi-translucent appendages that pulse with a sickly green glow, constantly oozing a viscous, black fluid that leaves a trail of withering decay in its wake. Their touch is chillingly cold, and they grant the swimmer an eerie grace through murky waters while sapping the vitality of any living creature unfortunate enough to come into contact with them."
+  },
+  "Ochre_Slick_Fins": {
+    "tags": [
+      "Fins",
+      "Ochre",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Ochre Slick Fins are rubbery and covered in a slimy, rust-colored ooze that seems to pulse with an inner glow, granting the swimmer unparalleled speed through water while providing a protective layer that resists acidic attacks."
+  },
+  "Cubic_Mass_Fins": {
+    "tags": [
+      "Fins",
+      "Cubic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict"
+    ],
+    "description": "The Cubic Mass Fins are gelatinous protrusions that pulsate with a sickly luminescence, each cubic segment oozing and shifting like a living, breathing puzzle piece. As they move, the fins create a mesmerizing yet unsettling rhythm through the water, granting the wielder a terrifying grip and swift, silent movement."
+  },
+  "Eldritch_Deep_Fins": {
+    "tags": [
+      "Fins",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Drain",
+      "Madness Aura"
+    ],
+    "description": "Twisted and pulsating with an otherworldly energy, the Eldritch_Deep_Fins are translucent yet opaque, their surface slick with a viscous, iridescent ooze that seems to absorb light and cast eerie shadows. As one moves through water with these fins, a chilling aura emanates, spreading a creeping sense of dread and confusion among nearby creatures."
+  }
+}

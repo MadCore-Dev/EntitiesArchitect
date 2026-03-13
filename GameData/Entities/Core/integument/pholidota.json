@@ -1,0 +1,292 @@
+{
+  "Overlapping_Brown_Keratin_Scales": {
+    "tags": [
+      "Scales",
+      "Keratin",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Curl Ball"
+    ],
+    "description": "The overlapping brown keratin scales are jagged yet smooth, each one interlocking with the next to form a seamless, impenetrable barrier. When threatened, these scales can curl into a protective ball, deflecting attacks with a sound like rolling thunder."
+  },
+  "Razor_Edged_Scale_Plates": {
+    "tags": [
+      "Scales",
+      "Razor",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Natural Armor"
+    ],
+    "description": "The Razor-Edged Scale Plates are a fearsome sight, with each scale a perfect blend of durability and lethality, their edges razor-sharp and capable of slicing through the toughest of foes. When worn, they not only provide unparalleled protection but also emit a chilling whisper of steel on steel as the wearer moves, a constant reminder of their defensive might and offensive potential."
+  },
+  "Venomous_Barbed_Scales": {
+    "tags": [
+      "Scales",
+      "Venomous",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Natural Armor"
+    ],
+    "description": "The venomous barbed scales are a jagged armor of emerald green, each scale tipped with a needle-like barb that glimmers with a sinister, toxic sheen. They provide a layer of natural armor that both deflects and poisons those who dare to strike at their bearer, instilling fear and hesitation in any would-be attackers."
+  },
+  "Acid_Secreting_Scales": {
+    "tags": [
+      "Scales",
+      "Acid",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Natural Armor"
+    ],
+    "description": "The Acid_Secreting_Scales are a layer of shimmering, iridescent plates that shift between shades of green and blue, each scale embedded with tiny pores that ooze a viscous, corrosive acid upon command. The scales feel smooth yet rough, with a texture that shifts between slick and granular, offering both defense and offense."
+  },
+  "Fire_Resistant_Obsidian_Scales": {
+    "tags": [
+      "Scales",
+      "Obsidian",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "These jagged obsidian scales form a second skin, each one as sharp and unyielding as the darkest night, offering a natural armor that deflects both physical blows and the searing heat of flames, granting the bearer a resilience against the infernal."
+  },
+  "Cold_Weather_Insulated_Scales": {
+    "tags": [
+      "Scales",
+      "Insulated",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "These intricately patterned, icy-blue scales are exquisitely adapted to withstand the harshest winter environments, each scale feeling both rigid and supple, providing a seamless blend of protection and flexibility."
+  },
+  "Electroreceptive_Scale_Array": {
+    "tags": [
+      "Scales",
+      "Electroreceptive",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature\u2019s sleek, metallic scales is a network of fine, crystalline filaments that pulse with a faint, iridescent glow, allowing it to detect the slightest electrical signals and vibrations in the environment, granting it an uncanny awareness of its surroundings."
+  },
+  "Titan_Heavy_Scale_Plates": {
+    "tags": [
+      "Scales",
+      "Titan",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Titan_Heavy_Scale_Plates are massive, obsidian-black scales that feel almost impenetrable to the touch, each one etched with faint, glowing runes that pulse with a muted energy. These plates are so heavy and thick that they significantly reduce agility, yet they grant the wearer a formidable natural armor that can deflect even the most powerful blows."
+  },
+  "Waterproof_Aquatic_Scales": {
+    "tags": [
+      "Scales",
+      "Waterproof",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Natural Armor"
+    ],
+    "description": "The Waterproof_Aquatic_Scales shimmer with an iridescent glow, each scale interlocking seamlessly to form a nearly impenetrable barrier that deflects both physical attacks and the relentless pressure of deep waters, while the creature's skin feels cool and slippery to the touch, perfectly adapted for aquatic environments."
+  },
+  "Undead_Cracked_Scales": {
+    "tags": [
+      "Scales",
+      "Undead",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Natural Armor"
+    ],
+    "description": "The Undead Cracked Scales are a morbid mosaic of jagged, blackened scales that rattle and clatter like the bones of a long-dead beast, each scale etched with the faint, ghostly outlines of former wounds and battles, radiating an aura of primal fear and decay."
+  },
+  "Musk_Secreting_Scale_Glands": {
+    "tags": [
+      "Scales",
+      "Musk",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Embedded within the creature's thick, overlapping scales are specialized glands that secrete a pungent, viscous musk, capable of inducing fear and confusion in foes, while also providing a layer of natural armor that enhances the creature's defensive capabilities."
+  },
+  "Swift_Thin_Scale_Coat": {
+    "tags": [
+      "Scales",
+      "Swift",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Swift_Thin_Scale_Coat is a sleek, iridescent armor formed from overlapping scales that shift and glimmer with an inner luminescence, providing a seamless blend of agility and defense. Its texture is surprisingly soft yet impenetrably strong, allowing the wearer to move with preternatural speed and grace while deflecting even the swiftest of attacks."
+  }
+}

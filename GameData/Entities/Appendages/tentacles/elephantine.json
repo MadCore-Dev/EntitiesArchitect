@@ -1,0 +1,274 @@
+{
+  "Trunk_Prehensile_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Trunk",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The prehensile tentacle, thick and sinewy like an elephant's trunk, pulsates with a dark, almost sentient energy, capable of ensnaring foes with an eerie precision and strength, its touch both constricting and suffocating."
+  },
+  "Electrosensory_Trunk_Filament": {
+    "tags": [
+      "Tentacles",
+      "Electrosensory",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Electrosensory Trunk Filament is a serpentine appendage that pulses with faint, bioluminescent light, its texture reminiscent of wet leather yet imbued with the subtle vibrations of unseen forces, granting its bearer an uncanny awareness of their surroundings and the earth beneath them."
+  },
+  "Necrotic_Drain_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Elephantine",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "The Necrotic_Drain_Trunk is a grotesque, elephantine appendage, its thick, malleable tentacles pulsating with a sickly green light as they twist and coil, siphoning the life force from anything they touch, leaving behind only withered husks."
+  },
+  "Acid_Spray_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spray_Trunk is a grotesque fusion of an elephant's prehensile appendage and nightmarish, writhing tentacles, dripping with a viscous, steaming acid. When flexed, it extends four additional feet, granting its wielder the ability to spew corrosive fluid from a greater distance."
+  },
+  "Electric_Discharge_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Trunk is a serpentine appendage, thick and sinuous like a cross between an elephant's trunk and writhing tentacles, crackling with blue electricity. When extended, it provides an intimidating reach advantage, capable of delivering jarring electric shocks with a simple touch."
+  },
+  "Venomous_Spine_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous Spine Tentacle is a grotesque, writhing appendage thick as a grown man\u2019s torso, covered in sharp, translucent spines that glisten with a sickly green venom. It thrashes and coils like an enraged beast, capable of extending far beyond its host's body to impale and inject poison into unsuspecting prey with a single, brutal strike."
+  },
+  "Scent_Tracking_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Scent",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Scent_Tracking_Trunk is a prehensile appendage, thick and sinuous like an elephant's, but with delicate sensory nodes that twitch and quiver, detecting the faintest traces of scent on the wind. Its touch is surprisingly gentle despite its formidable appearance, yet it can extend and retract with incredible speed to snare and analyze scents from great distances, enhancing the wielder's perception and tracking abilities."
+  },
+  "Bioluminescent_Trunk_Lure": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent Trunk Lure is a sinuous, pulsating appendage that writhes with an otherworldly glow, its tentacle-like structure capable of coiling and extending with preternatural grace to lure and ensnare, wrapping around prey with a paralyzing embrace."
+  },
+  "Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Chromatophore_Tendrils are massive, elephantine tentacles that ripple and shift, morphing into intricate patterns and hues that blend seamlessly with their surroundings, enhancing the wielder's ability to hide and ambush prey or avoid detection."
+  },
+  "Adhesive_Sucker_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Grapple"
+    ],
+    "description": "The Adhesive Sucker Trunk is a colossal, muscular appendage tipped with a series of suction cups that adhere with near-invincible tenacity, allowing for unparalleled grappling and manipulation. Its texture is a mix of rubbery elasticity and rough, tactile bumps that enhance grip, while its sheer length and strength grant an extended reach and formidable dexterity."
+  },
+  "Bone_Spur_Trunk": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Elephantine",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Natural Armor"
+    ],
+    "description": "The Bone_Spur_Trunk is a macabre fusion of skeletal tentacles and an elephantine trunk, composed of dense, ivory-white bone that crackles with necrotic energy. It lashes out with bone-crushing force, granting its wielder a formidable natural armor and an extended reach that allows for devastating slam attacks."
+  },
+  "Magnetic_Sensory_Filament": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Magnetic_Sensory_Filament is a thick, coiling tentacle with a leathery texture, covered in small, metallic scales that shimmer with a faint, pulsating glow. Each filament is deeply attuned to the earth's magnetic fields, allowing it to sense subtle tremors and vibrations with uncanny precision, granting its bearer an almost preternatural awareness of their surroundings."
+  }
+}

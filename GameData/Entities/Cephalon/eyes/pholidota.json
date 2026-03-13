@@ -1,0 +1,265 @@
+{
+  "Small_Recessed_Eyes": {
+    "tags": [
+      "Eye",
+      "Recessed",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the scales of the creature's head, these small recessed eyes emit a faint, eerie glow, their gaze piercing through the darkness with an unnatural clarity, granting heightened perception and an added layer of defensive resilience."
+  },
+  "Scale_Protected_Eyes": {
+    "tags": [
+      "Eye",
+      "Scale_Protected",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the socket are deep-set eyes encased in a lattice of intricate, overlapping scales, granting the wearer a visage of reptilian ferocity and an enhanced awareness of their surroundings, while also providing a subtle layer of defensive armor."
+  },
+  "Electroreceptive_Pit_Eyes": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the scales of its serpentine head, the Electroreceptive Pit Eyes are a pair of dark, gelatinous orbs that pulse with a faint, electric blue glow. These eyes can detect the slightest electrical signals in the environment, allowing the creature to see in complete darkness and sense the subtle tremors of hidden threats beneath the surface."
+  },
+  "Infrared_Heat_Eyes": {
+    "tags": [
+      "Eye",
+      "Infrared",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the sockets of the Infrared_Heat_Eyes are obsidian-like lenses that emit a faint, pulsating glow, allowing the beholder to see through the veil of darkness and discern the heat signatures of living beings, while the textured, scaly skin around the eyes provides an unsettling, reptilian aesthetic."
+  },
+  "Deep_Set_Armoured_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Set",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the sockets, these eyes are encased in a layer of hardened, overlapping scales that grant a sense of fortitude and resilience. Their dark, piercing gaze penetrates the shadows, enhancing the wielder's perception while the natural armor provided by the scales ensures that these eyes are both a formidable defense and a window to the depths of darkness."
+  },
+  "Nocturnal_Wide_Eyes": {
+    "tags": [
+      "Eye",
+      "Nocturnal",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Nocturnal_Wide_Eyes are oval-shaped with a deep, luminous sheen that seems to absorb the surrounding darkness, making them glow faintly in the night. Covered in tiny, overlapping scales that feel almost like velvet, these eyes possess a slit-like pupil that narrows and expands to capture even the faintest glimmers of light, enhancing the wearer's night vision to an almost supernatural degree."
+  },
+  "Undead_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Hollow",
+      "Pholidota",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Fear"
+    ],
+    "description": "The Undead_Hollow_Eyes are sunken sockets filled with an eternal void, their surface as cold and unfeeling as ancient scales, radiating an aura of dread and an uncanny ability to sense approaching threats, though they dim the wearer's visual range while sharpening their awareness of their surroundings."
+  },
+  "Seismic_Vibration_Eyes": {
+    "tags": [
+      "Eye",
+      "Seismic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sockets of the Seismic_Vibration_Eyes are iridescent orbs that pulse with subterranean energy, their surface resembling the shimmering scales of a massive underground serpent. These eyes grant the bearer an uncanny ability to sense even the slightest tremors and vibrations, enhancing their perception to detect hidden dangers and secrets buried beneath the earth."
+  },
+  "Bioluminescent_Scale_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Embedded within the sockets are glowing scales that pulse with an eerie, otherworldly light, their surface smooth yet cold to the touch; as the eye gazes upon a foe, it can emit a paralyzing glare that freezes the target in place, rooted by an overwhelming sense of dread and immobility."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Motion_Tracking_Eyes are cold, reptilian orbs that seem to shift and follow the slightest movement, even when their owner is stationary. Their surface is covered in tiny, overlapping scales that reflect light in an unsettling manner, granting the user unparalleled awareness and the ability to anticipate the movements of foes, enhancing their skill at Ambush."
+  },
+  "Magnetic_Field_Eyes": {
+    "tags": [
+      "Eye",
+      "Magnetic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Magnetic_Field_Eyes are eerie, glowing orbs that pulse with an otherworldly blue light, their surface slick and scale-like, feeling cold and metallic to the touch. These eyes can sense the subtle magnetic fields of the earth, granting unparalleled precision in tracking and locating prey or objects in even the darkest, most labyrinthine environments."
+  },
+  "Titan_Scale_Plated_Eyes": {
+    "tags": [
+      "Eye",
+      "Titan",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Embedded within the sockets are twin orbs of obsidian, encased in thick, overlapping scales of iron-grey steel, each scale bearing the faint etchings of ancient runes. These plated eyes not only provide unparalleled perception in the darkest of environments but also grant a natural defensive barrier, deflecting harmful projectiles and energy attacks with a resounding clink."
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "Wide_Set_Lateral_Eyes": {
+    "tags": [
+      "Eye",
+      "Lateral",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Set far apart on either side of the head, these eyes possess an otherworldly glow, each orb large and almond-shaped, capable of rotating independently to scan the environment with remarkable precision. The texture of the sclera is a haunting, lunar silver, and the dark, slit-like pupils can detect the slightest movement in the periphery, granting the bearer an almost supernatural awareness of their surroundings."
+  },
+  "Forward_Binocular_Eyes": {
+    "tags": [
+      "Eye",
+      "Binocular",
+      "Marsupial",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Keen Sight"
+    ],
+    "description": "Emerging from a creature that stalks the shadows of a lunar wasteland, the Forward_Binocular_Eyes are a pair of gleaming orbs, each with an eerie, amber glow that pierces through the darkest of night. The texture is cold and moist, with a subtle pulsing that indicates an acute awareness of the environment, enhancing the wearer's perception and reflexes to strike with deadly precision."
+  },
+  "Tapetum_Nocturnal_Eyes": {
+    "tags": [
+      "Eye",
+      "Nocturnal",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Tapetum Nocturnal Eyes are a pair of gleaming orbs, each ringed with a reflective silver layer that amplifies moonlight and starlight, granting the bearer unparalleled vision in the darkest of nights. Their surface is cool to the touch, and when activated, they pulse with a faint, eerie glow, enhancing the user's ability to perceive and act swiftly in the shadows."
+  },
+  "Large_Protruding_Eyes": {
+    "tags": [
+      "Eye",
+      "Protruding",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Large_Protruding_Eyes are bulbous and gelatinous, their irises a deep, unblinking black that seems to suck in the light around them. They protrude from the skull like oversized orbs, twitching and rolling with a life of their own, granting the bearer an uncanny ability to spot even the slightest movement from great distances."
+  },
+  "Nictitating_Aquatic_Eyes": {
+    "tags": [
+      "Eye",
+      "Nictitating",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the sockets are luminescent, nictitating aquatic eyes, their surface smooth and glassy, shifting subtly as if sensing minute ripples in the water, granting the wielder an uncanny ability to perceive their surroundings even in the murkiest depths."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Motion_Tracking_Eyes are glowing orbs of deep crimson, set in a flexible, fleshy membrane that mimics the pouch-like structure of a marsupial's face. These eyes possess an uncanny ability to track even the slightest movement in the periphery, granting the bearer unparalleled awareness and the ability to strike from absolute darkness."
+  },
+  "Deep_Set_Scavenger_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Set",
+      "Marsupial",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the skull, these eyes are set back and protected by bony ridges, resembling those of a marsupial scavenger. Their milky yellow irises are flecked with dark specks, giving the impression of a creature that has seen the darkest corners of the world, ever watchful and wary."
+  },
+  "Reflective_Night_Eyes": {
+    "tags": [
+      "Eye",
+      "Reflective",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Reflective_Night_Eyes are eerie, silver orbs set within the sockets of a dark marsupial, gleaming with an otherworldly sheen that seems to absorb and reflect the faintest traces of light, allowing for unparalleled night vision while simultaneously drawing unwanted attention."
+  },
+  "Desert_UV_Sensitive_Eyes": {
+    "tags": [
+      "Eye",
+      "UV_Sensitive",
+      "Marsupial",
+      "Desert"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "These eyes, adapted to the unforgiving desert sun, are a deep, shimmering amber with a subtle, iridescent sheen. When activated, they filter ultraviolet light, revealing hidden tracks and signs in the shifting sands, enhancing the wearer's perception and tracking abilities."
+  },
+  "Glider_Wide_Angle_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide_Angle",
+      "Marsupial",
+      "Glider"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the dark, dense canopy, the Glider_Wide_Angle_Eyes possesses a pair of iridescent orbs that seem to glow with an inner light, each eye bulging slightly on either side of its head, offering a panoramic view of the treacherous forest landscape. The surface of these eyes is covered in an intricate pattern of radial lines that shimmer in the moonlight, enhancing their already superior vision, allowing the glider to spot predators and prey alike from a distance."
+  },
+  "Electroreceptive_Sensory_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Marsupial",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded in the creature's snout are a cluster of small, gelatinous pits that shimmer with an otherworldly blue light, each one pulsating in response to the electrical fields of nearby creatures, granting the beast an eerie, preternatural awareness of its surroundings."
+  },
+  "Compound_Panoramic_Eyes": {
+    "tags": [
+      "Eye",
+      "Panoramic",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Compound_Panoramic_Eyes are a cluster of glistening, multifaceted orbs set within a leathery, marsupial-like pouch that can be attached to the forehead, granting the user a 360-degree field of vision and an uncanny ability to spot movement from every angle, while also enhancing their agility and awareness of their surroundings."
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "Spring_Blossom_Eyes": {
+    "tags": [
+      "Eye",
+      "Floral",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "Spring Blossom Eyes are delicate and ethereal, shimmering with the iridescent hues of blooming petals. They emit a soft, mesmerizing glow that shifts with the observer's emotions, drawing them into a hypnotic trance where charm and allure become irresistible forces."
+  },
+  "Iridescent_Gossamer_Eyes": {
+    "tags": [
+      "Eye",
+      "Gossamer",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "Iridescent_Gossamer_Eyes shimmer with an otherworldly light, their delicate, gossamer-like membranes shift colors with the observer's emotions, casting an enchanting aura that can both captivate and paralyze the unwary."
+  },
+  "Frost_Crystal_Eyes": {
+    "tags": [
+      "Eye",
+      "Frost",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Slow"
+    ],
+    "description": "Embedded within the sockets are twin orbs of shimmering frost, each eye a crystalline shard that seems to pulse with a cold, otherworldly light. The surface is etched with delicate, frosty patterns that appear to shift and dance with an unseen energy, granting the user unparalleled clarity in the dark and a chilling gaze that can slow an opponent's movements."
+  },
+  "Summer_Ember_Eyes": {
+    "tags": [
+      "Eye",
+      "Summer",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Intimidate"
+    ],
+    "description": "Summer_Ember_Eyes are captivating orbs that shimmer with an internal flame, their fiery hues shifting between shades of amber and gold. The irises pulsate with a warmth that feels almost tangible, radiating an otherworldly glow that can both mesmerize and frighten those who meet the gaze, granting the bearer a natural edge in both sight and intimidation."
+  },
+  "Pixie_Shimmering_Eyes": {
+    "tags": [
+      "Eye",
+      "Pixie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Pixie_Shimmering_Eyes are delicate and iridescent, shifting through an array of pastel colors with a life of their own. When worn, they grant the user a beguiling gaze that can effortlessly charm any observer, and their magic can pulse to grant brief, pixie-like invisibility."
+  },
+  "Unseelie_Dark_Eyes": {
+    "tags": [
+      "Eye",
+      "Unseelie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Fear",
+      "Charm"
+    ],
+    "description": "The Unseelie_Dark_Eyes are obsidian orbs that seem to absorb all light around them, their surface shifting in unsettling patterns as if a living, malevolent force lurks beneath. When worn, they grant an eerie sense of heightened awareness and the ability to instill dread and confusion in others, while enhancing the wearer's ability to remain unseen and unheard."
+  },
+  "Archfae_Ageless_Eyes": {
+    "tags": [
+      "Eye",
+      "Archfae",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Keen Sight",
+      "Magic Resistance"
+    ],
+    "description": "The Archfae_Ageless_Eyes, with their irises swirling in a kaleidoscope of twilight hues and pupils that glint like stars in the darkest of nights, radiate an otherworldly allure that captivates all who gaze upon them, granting the bearer unparalleled charisma, heightened perception, and a resilient barrier against arcane influences."
+  },
+  "Kelpie_Deep_Water_Eyes": {
+    "tags": [
+      "Eye",
+      "Kelpie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Blindsight"
+    ],
+    "description": "The Kelpie_Deep_Water_Eyes are a pair of luminous, liquid silver orbs that seem to pulse with an otherworldly glow, their surface rippling like the depths of a dark, mysterious lake. Whenever these eyes meet another's gaze, a subtle yet irresistible charm is woven into the fabric of reality, bending perception and will alike."
+  },
+  "Brownie_Earth_Brown_Eyes": {
+    "tags": [
+      "Eye",
+      "Brownie",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Deep within the earth, these eyes glimmer with a warm brown hue, their surface resembling the rich, fertile soil they are bound to, granting the wielder an uncanny sense of smell that can detect the faintest traces of earth and fae magic, enhancing their charisma and perception."
+  },
+  "Titan_Giant_Eyes": {
+    "tags": [
+      "Eye",
+      "Giant",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Titan_Giant_Eyes are colossal orbs of swirling opalescent light, each the size of a carriage wheel, casting an otherworldly glow that pierces through the darkest of shadows. Their surface is etched with intricate, fae-like runes that shimmer with arcane power, granting the beholder an uncanny ability to see beyond the veil of the mundane world, enhancing both their perception and charisma."
+  },
+  "Changeling_Chameleon_Eyes": {
+    "tags": [
+      "Eye",
+      "Changeling",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Charm"
+    ],
+    "description": "The Changeling Chameleon Eyes shimmer with an iridescent sheen that shifts through an array of colors, blending seamlessly with any environment. These eyes possess a hypnotic allure that captivates observers, making it nearly impossible to look away from their mesmerizing gaze."
+  },
+  "Sylph_Clear_Eyes": {
+    "tags": [
+      "Eye",
+      "Sylph",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Directional Tracking"
+    ],
+    "description": "The Sylph_Clear_Eyes are delicate, shimmering orbs that appear as if crafted from the purest, most vibrant spectrum of light, refracting the colors of dawn and dusk. They grant an uncanny ability to see through veils of illusion and shadow, pinpointing the exact direction and distance of any target, no matter how faint the trail."
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "Echolocation_Sensory_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Echolocation",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Echolocation_Sensory_Tendrils are delicate, almost ethereal tendrils that sprout from the creature's head, pulsing with a faint, bioluminescent glow as they emit high-pitched clicks that reverberate through the air, allowing the creature to perceive its surroundings with uncanny precision in the darkest of environments."
+  },
+  "Adhesive_Sucker_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Suction Grip"
+    ],
+    "description": "The Adhesive Sucker Tendrils are sinuous and chiropteran in nature, with a leathery texture and numerous small, suction-cup-like pads that adhere to any surface with alarming strength, allowing for silent and swift movements across walls and ceilings."
+  },
+  "Venomous_Stinger_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the shadowy recesses of the creature\u2019s chiropteran limbs, the Venomous Stinger Tendrils writhe and twist with an unsettling grace, their segmented bodies ending in needle-sharp barbs that drip with a viscous, emerald-green venom, capable of inflicting both physical and magical poison."
+  },
+  "Necrotic_Drain_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Chiropteran",
+      "Vampire"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Sinuous and shadowy, the Necrotic_Drain_Filaments resemble elongated bat wings that pulse with a sickly green light, their touch instantly sapping life force and leaving behind a trail of withered, blackened skin."
+  },
+  "Electric_Discharge_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Twisting and writhing like living shadows, the Electric_Discharge_Tendrils are long, sinuous tentacles that sprout from the creature's back, resembling leathery wings of a bat. Each tendril crackles with blue electricity, delivering searing jolts to any who dare to grasp them."
+  },
+  "Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Sinuous tentacles adorned with iridescent chromatophores undulate like living shadows, their skin shifting through a spectrum of colors that blend seamlessly with the surroundings, granting the wielder the uncanny ability to merge with the environment."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash"
+    ],
+    "description": "Emerging from the shadows, the spined whip tendrils are long, sinuous appendages that pulse with dark energy, their barbed spines glinting menacingly in the dim light. Each tendril moves with a deadly grace, capable of lashing out with incredible speed and reach, ensnaring prey with razor-sharp precision."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Magnetic_Sensory_Filaments are delicate, silver-threaded tentacles that pulse with a faint, mesmerizing glow, allowing the creature to sense the subtle vibrations of the earth and the magnetic fields around it, granting it a heightened awareness and the ability to navigate through the darkest of environments."
+  },
+  "Acid_Spray_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Chiropteran",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the shadows, the Acid_Spray_Tendrils are long, sinuous tentacles tipped with leathery, chiropteran-like membranes that can expel a corrosive acid spray, their slick surface pulsing ominously as they coil and uncoil with unsettling grace."
+  },
+  "Prehensile_Grip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Prehensile",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The Prehensile Grip Tendrils are a writhing mass of chiropteran-inspired tentacles that coil and uncoil with eerie precision, each tipped with sharp, almost claw-like protrusions that allow for both delicate manipulation and brutal grappling, granting their wielder a terrifying advantage in combat and control."
+  },
+  "Bone_Spur_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "Emerging from the skeletal exoskeleton are chiropteran bone spurs that twist and elongate into sinuous, bony tentacles, each one ending in sharp, jagged hooks that scrape and clutch at the air, ready to ensnare and crush any unfortunate prey within reach."
+  },
+  "Bioluminescent_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Chiropteran"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Twisting and writhing with an unnatural grace, the Bioluminescent Tendrils emit a haunting glow that shifts from deep violet to sickly green, their chiropteran texture suggesting a dark, winged heritage. Each tendril is tipped with delicate, needle-like hooks that can paralyze prey with a mere touch, while the pulsating light patterns seem to communicate a silent, sinister message to those unfortunate enough to witness them."
+  }
+}

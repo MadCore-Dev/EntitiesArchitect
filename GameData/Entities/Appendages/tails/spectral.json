@@ -1,0 +1,316 @@
+{
+  "Wraith_Shadow_Tail": {
+    "tags": [
+      "Tail",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Wraith_Shadow_Tail is a sinuous, near-invisible appendage that flickers in and out of existence, its touch chilling the air and stealing warmth from those nearby. When wielded, it grants the user the ability to drain energy and ambush foes with eerie precision, enhancing stealth and reach."
+  },
+  "Banshee_Wail_Tail": {
+    "tags": [
+      "Tail",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Fear"
+    ],
+    "description": "The Banshee Wail Tail is a spectral appendage, shimmering with an otherworldly glow, its wispy form trailing whispers of sorrow and despair. When extended, it grants an unnerving presence that chills the spine, enhancing the user's charisma to command attention and instill fear, while also extending their reach to strike at foes with ethereal dread."
+  },
+  "Lich_Bone_Tail": {
+    "tags": [
+      "Tail",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Fear"
+    ],
+    "description": "The Lich_Bone_Tail is a skeletal appendage that trails behind like a sinuous whip, its joints clicking ominously with each movement. It exudes an otherworldly chill, capable of instilling dread in those who dare to approach, and its spectral nature grants it the ability to materialize and dematerialize at will, making it a formidable weapon and a source of fear."
+  },
+  "Ghost_Phase_Tail": {
+    "tags": [
+      "Tail",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Drain"
+    ],
+    "description": "The Ghost_Phase_Tail is a translucent appendage that seems to flicker between visibility and invisibility, its movements leaving a trail of chilling whispers that can instill fear in the hearts of those nearby, while its spectral touch can drain life force."
+  },
+  "Revenant_Bone_Tail": {
+    "tags": [
+      "Tail",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "No Pain",
+      "Drain"
+    ],
+    "description": "The Revenant_Bone_Tail is a spectral appendage that trails behind like a shadow, its brittle yet unyielding bones emitting an otherworldly chill. With a swing, it delivers crushing blows that ignore the physical world's limitations, while its presence dampens the senses of nearby foes, drawing upon their vitality to strengthen its spectral form."
+  },
+  "Shadow_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Drain_Tail is a wispy, ethereal appendage that seems to be made of condensed darkness, flickering and distorting like a shadow in motion. When extended, it emits a chilling aura that instills fear in the hearts of those who behold it, and its touch can drain the very essence of light and warmth from its victim, leaving them trembling and vulnerable."
+  },
+  "Soul_Devourer_Tail": {
+    "tags": [
+      "Tail",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Paralyze"
+    ],
+    "description": "The Soul_Devourer_Tail is a spectral appendage that flickers with an otherworldly, pale-blue light, trailing a cold, wispy mist wherever it moves. Its touch can paralyze, and when it coils around a victim, the tail drains not just physical energy but the very essence of their soul, leaving behind an empty, lifeless shell."
+  },
+  "NightHag_Dark_Tail": {
+    "tags": [
+      "Tail",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The NightHag_Dark_Tail is a sinuous, spectral appendage that trails behind, its darkness shifting like ink on water, capable of wrapping around an opponent to paralyze them, while the mere sight of it can instill a deep, primal fear in any who behold it."
+  },
+  "Wisp_Null_Tail": {
+    "tags": [
+      "Tail",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Wisp Null Tail is a ghostly appendage, shimmering with a pale, spectral light that flickers like dying embers. It feels cold to the touch and leaves a trail of icy mist wherever it moves, granting its bearer an ethereal grace and the unsettling ability to instill fear and paralysis in foes."
+  },
+  "Specter_Cold_Tail": {
+    "tags": [
+      "Tail",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Drain"
+    ],
+    "description": "The Specter_Cold_Tail is a wispy, shadowy appendage that trails behind like an icy mist, its touch instantly chilling the air and numbing those who come too close, granting the wielder a spectral reach and the ability to drain the warmth from their foes."
+  },
+  "Phantom_Ghost_Tail": {
+    "tags": [
+      "Tail",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear"
+    ],
+    "description": "The Phantom_Ghost_Tail is a wispy, translucent appendage that seems to flicker like candlelight in the wind, its touch as cold and eerie as a winter's night breeze. It grants the wielder an ethereal grace, allowing them to charm and instill fear in the hearts of others with a mere sway or lash of its spectral form."
+  },
+  "Arch_Specter_Ancient_Tail": {
+    "tags": [
+      "Tail",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Magic Resistance",
+      "Ensnare"
+    ],
+    "description": "The Arch_Specter_Ancient_Tail is a haunting appendage, shimmering with an ethereal glow that pulses in sickly hues of green and purple, its spectral form barely solid enough to be seen yet undeniably present. It feels cold to the touch, an icy chill that seeps into the soul, and it behaves with a sinister grace, curling and uncurling with an eerie intelligence, capable of ensnaring foes and draining their vitality with each sinuous movement."
+  }
+}

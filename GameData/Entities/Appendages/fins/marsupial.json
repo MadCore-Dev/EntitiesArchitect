@@ -1,0 +1,301 @@
+{
+  "Webbed_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dive"
+    ],
+    "description": "Emerging from the sleek, fur-covered chest of a marsupial, these elongated webbed pectoral fins are a marvel of evolutionary adaptation, allowing for swift and graceful movements through water as they seamlessly blend aerodynamic grace with the creature's innate agility and speed."
+  },
+  "Broad_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Paddle",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "Broad_Paddle_Fins are massive, webbed appendages that resemble the flippers of a sea mammal, yet with a soft, velvety texture covered in fine, backward-facing spines that help in propelling through water with incredible efficiency. These fins grant a heightened sense of control and agility underwater, allowing the wielder to glide effortlessly through the depths with a burst of speed and power."
+  },
+  "Semi_Webbed_Fins": {
+    "tags": [
+      "Fins",
+      "Semiaquatic",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Semi_Webbed_Fins are slender, translucent appendages that sprout from the forelimbs of semiaquatic marsupials, their delicate membrane-like skin glistens with a slick sheen, perfectly adapted for gliding through water with effortless grace and speed."
+  },
+  "Compact_River_Fins": {
+    "tags": [
+      "Fins",
+      "River",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Compact_River_Fins are sleek and slender, resembling the agile flippers of a river-dwelling marsupial. They pulse with a vibrant, almost electric blue hue when submerged in water, enhancing the wearer's swimming speed and grace."
+  },
+  "Steering_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "The Steering_Lateral_Fins are slender, translucent appendages that emerge from the creature's sides, shimmering with an iridescent glow that shifts between hues of deep blue and midnight black. These fins are remarkably flexible, allowing for precise adjustments in movement and balance, enhancing agility and evasion skills."
+  },
+  "Cold_Water_Insulated_Fins": {
+    "tags": [
+      "Fins",
+      "Insulated",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "Smooth and sleek, the Cold_Water_Insulated_Fins glisten with an otherworldly sheen, their intricate webbing and soft insulating layer allowing the bearer to effortlessly glide through the coldest depths without feeling the biting chill, enhancing endurance and resistance to the icy grasp of the abyss."
+  },
+  "Hydrodynamic_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Swim"
+    ],
+    "description": "The Hydrodynamic_Fins are sleek and translucent, shimmering in hues of deep blue and silver, perfectly adapted for swift movement through water. They feel incredibly smooth and flexible, allowing the user to effortlessly glide and dart through aquatic environments with enhanced speed and agility."
+  },
+  "Vestigial_Aquatic_Stumps": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature\u2019s lower torso, these small, vestigial stumps are covered in sleek, blue-green scales, hinting at their aquatic origins. Though they no longer serve a primary function, these stumps can be felt pulsing faintly, providing a subtle boost to agility and speed when the creature moves through terrestrial environments."
+  },
+  "Articulated_Hunting_Fins": {
+    "tags": [
+      "Fins",
+      "Hunting",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Pounce"
+    ],
+    "description": "Articulated_Hunting_Fins are sleek, chitinous appendages that sprout from the creature's forelimbs, each fin tipped with sharp, retractable claws that gleam in the dim light of the underdark. These fins are designed for both stealthy underwater navigation and sudden, devastating attacks on unsuspecting prey, granting the creature unparalleled agility and the ability to pounce with deadly precision."
+  },
+  "Elongated_Deep_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Elongated Deep Fins are sleek and sinuous, resembling the paddle-like appendages of a deep-sea marsupial. These fins are dotted with bioluminescent spots that pulse softly in the dark, granting a silent grace to their movement through the water, where they effortlessly propel their bearer to incredible depths."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Current_Resistant_Fins are sleek and muscular, glistening with an iridescent sheen that seems to pulse in time with the water's currents. These fins are not just for swimming; they are imbued with a mysterious resilience, allowing their wielder to navigate the most turbulent of waters without strain, while also enhancing their overall strength."
+  },
+  "Lateral_Sweep_Fins": {
+    "tags": [
+      "Fins",
+      "Sweep",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Lateral_Sweep_Fins are sleek, membranous appendages that stretch along the sides of a creature's torso, pulsing with an iridescent glow. When in motion, they create a low hum and generate a whirlwind of air, propelling the creature with unparalleled agility and speed through both water and air."
+  }
+}

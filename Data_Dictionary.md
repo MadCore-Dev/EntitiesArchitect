@@ -639,7 +639,7 @@ This document defines the purpose, structure, and engine-level implementation de
 }
 ```
 
-## 19. Core Integument & Appearance (`GameData/Entities/Core/integument/*.json`)
+## 19. Core Integument (`GameData/Entities/Core/integument/*.json`)
 
 **Purpose:** Defines the outermost surface layer (skin, scales, chitin, mucous) of the entity, dictating basic elemental resistances, natural armor, and camouflage.
 

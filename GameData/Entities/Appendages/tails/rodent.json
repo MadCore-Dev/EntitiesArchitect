@@ -1,0 +1,273 @@
+{
+  "Prehensile_Balance_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acrobatics"
+    ],
+    "description": "The Prehensile_Balance_Tail is a slender, elongated appendage tipped with sharp, nimble claws that can grasp and manipulate objects with precision, resembling the tail of a giant rodent. Its flexible and highly sensitive nature allows for enhanced balance and agility, granting its bearer an uncanny ability to navigate treacherous terrain and perform acrobatic feats with ease."
+  },
+  "Long_Naked_Counterbalance_Tail": {
+    "tags": [
+      "Tail",
+      "Naked",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The Long Naked Counterbalance Tail is a slender, hairless appendage, tapering to a sharp point, that quivers with hyperawareness, granting its bearer an uncanny sense of balance and nimbleness in even the most treacherous terrain."
+  },
+  "Bushy_Rudder_Tail": {
+    "tags": [
+      "Tail",
+      "Bushy",
+      "Rodent",
+      "Arboreal"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Bushy_Rudder_Tail is a thick, bushy appendage with elongated, flattened edges that allow for controlled gliding through dense forest canopies, its soft texture and natural flexibility enhancing agility and evasion."
+  },
+  "Flat_Paddle_Tail": {
+    "tags": [
+      "Tail",
+      "Paddle",
+      "Rodent",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Flat_Paddle_Tail is a wide, flat appendage covered in sleek, waterproof fur, designed to effortlessly cut through water with powerful, sweeping motions, enhancing the agility and speed of any aquatic rodent-like creature that wields it."
+  },
+  "Spiked_Defensive_Tail": {
+    "tags": [
+      "Tail",
+      "Spiked",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Spiked Tail"
+    ],
+    "description": "The Spiked Defensive Tail is a thick, muscular appendage covered in sharp, jagged spines, capable of both fierce defensive posturing and lightning-fast attacks, providing a tangible boost to natural armor while intimidating foes and clearing paths with a mere flick."
+  },
+  "Vestigial_Stub_Tail": {
+    "tags": [
+      "Tail",
+      "Vestigial",
+      "Rodent",
+      "Fossorial"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "A thin, barely noticeable stub of a tail, covered in short, coarse fur, occasionally twitching with nervous energy, serves as a vestige of a creature's fossorial past, granting a heightened sense of balance and awareness in tight, underground spaces."
+  },
+  "Thick_Fatty_Storage_Tail": {
+    "tags": [
+      "Tail",
+      "Fatty",
+      "Rodent",
+      "Desert"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Thick Fatty Storage Tail is a bulbous, pearlescent appendage, swollen with layers of resilient fat that glisten like a desert mirage, granting its bearer an inexhaustible reservoir of energy and resilience in the harshest environments."
+  },
+  "Whip_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Strike_Tail is a sinuous, segmented appendage that unfurls from the creature's lower back, its dark, slick scales glinting menacingly in the dim light. When at rest, it coils tightly like a coiled spring, ready to lash out at a moment's notice with the raw power and precision of a predator's strike."
+  },
+  "Scaly_Aquatic_Rudder_Tail": {
+    "tags": [
+      "Tail",
+      "Scaly",
+      "Rodent",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "The Scaly_Aquatic_Rudder_Tail is a sleek, segmented appendage covered in iridescent scales that glisten in the water, each scale catching and reflecting the light like tiny mirrors. When wielded, it enhances the swimmer's agility and speed, acting as an efficient rudder to guide them through the currents with precision and grace."
+  },
+  "Quilled_Club_Tail": {
+    "tags": [
+      "Tail",
+      "Quilled",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Quill Shoot",
+      "Tail Club"
+    ],
+    "description": "The Quilled_Club_Tail is a formidable appendage, covered in sharp, needle-like quills that rattle with menace when flexed, and ending in a thick, blunt tip capable of delivering crushing blows."
+  },
+  "Tendon_Wrapped_Grip_Tail": {
+    "tags": [
+      "Tail",
+      "Tendinous",
+      "Rodent",
+      "Prehensile"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Tendon_Wrapped_Grip_Tail is a thick, sinewy appendage that coils and uncoils with preternatural agility, its segmented joints bristling with tightly-wrapped tendons that ripple and flex with each movement, granting the wielder a tenacious grip and the ability to ensnare foes from a distance."
+  },
+  "Stiff_Prop_Tail": {
+    "tags": [
+      "Tail",
+      "Stiff",
+      "Rodent",
+      "Semifossorial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability"
+    ],
+    "description": "The Stiff_Prop_Tail is a rigid, muscular appendage tipped with a hard, flattened end, resembling the tail of a burrowing rodent. Its stiffness allows for the creature to brace itself against the earth, granting unparalleled stability in both movement and combat."
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "Thick_Macropod_Balance_Tail": {
+    "tags": [
+      "Tail",
+      "Thick",
+      "Marsupial",
+      "Macropod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance",
+      "Stability"
+    ],
+    "description": "The Thick_Macropod_Balance_Tail is a muscular, segmented appendage that terminates in a hard, flattened tip, providing an unparalleled sense of stability and agility. Its thick, elastic texture allows for precise movements, enhancing the wearer's ability to maintain balance and counteract forces with ease."
+  },
+  "Prehensile_Opossum_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Marsupial",
+      "Arboreal"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Acrobatics"
+    ],
+    "description": "The Prehensile_Opossum_Tail is a sleek, furry appendage that curls and unfurls with uncanny precision, capable of grasping and climbing with the strength and dexterity of a seasoned acrobat, its texture soft yet firm, allowing for both stealthy movement and sudden, powerful maneuvers."
+  },
+  "Bushy_Glider_Rudder_Tail": {
+    "tags": [
+      "Tail",
+      "Bushy",
+      "Marsupial",
+      "Glider"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Counterbalance"
+    ],
+    "description": "The Bushy_Glider_Rudder_Tail is a thick, fluffy appendage with a wide, flat end covered in a membrane of leathery skin, perfectly adapted for gliding through the canopy with graceful ease, while its bushy texture provides an additional layer of insulation and a sense of stability that enhances agility and evasion."
+  },
+  "Stubby_Wombat_Tail": {
+    "tags": [
+      "Tail",
+      "Stubby",
+      "Marsupial",
+      "Fossorial"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Stubby_Wombat_Tail, a thick and muscular appendage, appears as a stubby extension of the marsupial\u2019s body, perfect for burrowing and stabilizing in tight, underground spaces, offering a firm grip and enhanced stability in fossorial environments."
+  },
+  "Thylacine_Stiff_Tail": {
+    "tags": [
+      "Tail",
+      "Stiff",
+      "Marsupial",
+      "Predator"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Thylacine_Stiff_Tail is a sleek, rigid appendage that quivers with barely contained energy, its segmented structure providing an unmatched balance and stability during high-speed chases, granting its bearer an eerie grace and unmatched agility in the underbrush."
+  },
+  "Aquatic_Paddle_Tail": {
+    "tags": [
+      "Tail",
+      "Paddle",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Aquatic Paddle Tail is a sleek, webbed appendage designed for swift underwater propulsion, its powerful flukes rippling through water with effortless grace, while the subtle luminescence of bioluminescent scales adds an eerie beauty to the creature's aquatic ballet."
+  },
+  "Scorpion_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Sting",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Scorpion_Strike_Tail is a serpentine appendage, thick and segmented, ending in a bulbous sac filled with shimmering, toxic fluid that glimmers with a sickly green hue. It feels heavy and alive, coiling and uncoiling with a life of its own, ready to unleash a devastating sting at a moment's notice."
+  },
+  "Whip_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Strike_Tail is a sleek, sinewy appendage that unfurls from the creature's lower back, capable of striking with the speed and force of a coiled whip, leaving enemies reeling from its unexpected reach and brutal efficiency."
+  },
+  "Feathered_Display_Tail": {
+    "tags": [
+      "Tail",
+      "Display",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Feathered Display Tail is a magnificent appendage, adorned with iridescent feathers that shimmer and fan out dramatically when the creature is agitated or attempting to assert dominance. Its vibrant colors and expansive spread can be both mesmerizing and terrifying, effectively enhancing the creature\u2019s Intimidate skill."
+  },
+  "Fat_Storage_Tail": {
+    "tags": [
+      "Tail",
+      "Fatty",
+      "Marsupial",
+      "Desert"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Fat_Storage_Tail is a thick, segmented appendage that sways gently, its plump segments bulging with stored reserves of energy, providing the creature with an unwavering endurance in the harsh, arid landscapes of the desert."
+  },
+  "Long_Balancing_Tail": {
+    "tags": [
+      "Tail",
+      "Long",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance",
+      "Acrobatics"
+    ],
+    "description": "The Long_Balancing_Tail is a slender, prehensile appendage covered in soft, dark fur, tapering to a fine point that can grip and manipulate objects with surprising dexterity. It swings fluidly from side to side, granting its bearer impeccable balance and control, even in the most precarious situations."
+  },
+  "Spiked_Club_Tail": {
+    "tags": [
+      "Tail",
+      "Spiked",
+      "Marsupial",
+      "Club"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Spiked Tail"
+    ],
+    "description": "The Spiked Club Tail is a formidable appendage, ending in a bulbous knot of hardened scales and jagged spikes, capable of delivering devastating blows and withstanding the harshest of impacts."
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "Crusher_Chela_Arm": {
+    "tags": [
+      "Arms",
+      "Chela",
+      "Crustacean",
+      "Crusher"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Grapple"
+    ],
+    "description": "The Crusher Chela Arm is a formidable appendage, its segmented, muscular chitin glinting menacingly in the dim light, capable of both crushing bones with a single grip and grappling foes with unyielding strength, embodying raw power and resilience."
+  },
+  "Cutter_Chela_Arm": {
+    "tags": [
+      "Arms",
+      "Chela",
+      "Crustacean",
+      "Cutter"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slash",
+      "Serrated Bite"
+    ],
+    "description": "The Cutter_Chela_Arm is a gnarled, segmented limb tipped with jagged, obsidian claws that shimmer with a menacing inner glow, capable of slicing through steel with ease. Its pincers are lined with razor-sharp teeth, designed for both gripping and tearing, adding a deadly twist to its already formidable slashing attacks."
+  },
+  "Mantis_Strike_Forelimb": {
+    "tags": [
+      "Arms",
+      "Strike",
+      "Crustacean",
+      "Mantis_Shrimp"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Cavitation Strike"
+    ],
+    "description": "The Mantis_Strike_Forelimb is a powerful appendage, shimmering with an iridescent blue hue that seems to pulse with latent energy. Its surface is segmented like a crustacean\u2019s, yet it moves with the lightning-fast precision of a mantis shrimp, capable of delivering devastating blows that send shockwaves through the water, thanks to its cavitation abilities."
+  },
+  "Prehensile_Cheliped": {
+    "tags": [
+      "Arms",
+      "Prehensile",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The Prehensile_Cheliped is a pair of powerful, crab-like claws that extend far beyond the standard arm length, with sharp, serrated edges and an almost hypnotic grip that can ensnare foes with a flick of the wrist, enhancing dexterity and reach."
+  },
+  "Venomous_Claw_Arm": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the dense, chitinous armor, the Venomous_Claw_Arm is a terrifying yet mesmerizing appendage, its pincer-like claws dripping with a viscous, shimmering venom that glows with an eerie, bioluminescent hue, ready to inject paralyzing toxins and debilitating stings with each precise, deadly strike, enhancing the wielder's agility and reflexes."
+  },
+  "Spiny_Raking_Chelipeds": {
+    "tags": [
+      "Arms",
+      "Spiny",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "The Spiny_Raking_Chelipeds are massive, jagged claws that resemble those of a crustacean, bristling with razor-sharp spines that glint menacingly in the dim light. With these chelipeds, the wielder can unleash devastating rake attacks that shred through armor and flesh alike, their enhanced strength and dexterity allowing for both powerful and swift strikes."
+  },
+  "Filter_Fan_Appendages": {
+    "tags": [
+      "Arms",
+      "Filter",
+      "Crustacean",
+      "Sessile"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's torso, these semi-rigid, fan-shaped appendages pulse with a rhythmic undulation, filtering out the noxious gases and particulates of the toxic environment while enhancing the creature's resilience and durability."
+  },
+  "Adhesive_Barnacle_Peduncle": {
+    "tags": [
+      "Arms",
+      "Adhesive",
+      "Crustacean",
+      "Barnacle"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip"
+    ],
+    "description": "The Adhesive_Barnacle_Peduncle is a sleek, elongated appendage covered in coarse, interlocking hairs that can instantly secrete a potent, nearly invisible adhesive, allowing the wielder to anchor themselves to any surface with incredible force and stability."
+  },
+  "Asymmetric_Chela_Arms": {
+    "tags": [
+      "Arms",
+      "Asymmetric",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Slash"
+    ],
+    "description": "The Asymmetric Chela Arms, resembling gnarled crab claws of unequal size, are covered in sharp, segmented plates that shift and clink with a menacing hiss as they move. One arm is bulkier and more powerful, while the other is sleeker and faster, granting the wielder a brutal combination of crushing force and slashing agility."
+  },
+  "Electric_Stunning_Chelae": {
+    "tags": [
+      "Arms",
+      "Electric",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The chelae, or pincers, glisten with an eerie, pulsating blue light as they flex, crackling with barely contained electrical energy. Each chela's surface is covered in intricate ridges and spikes, the texture rough yet surprisingly smooth to the touch, and when wielded, they deliver a jarring, numbing shock upon contact."
+  },
+  "Acid_Spraying_Chelipeds": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spraying_Chelipeds are massive, claw-like appendages covered in a shimmering, iridescent carapace, capable of emitting a corrosive acid from hidden glands along their inner joints, adding a dangerous reach to any melee or ranged combat."
+  },
+  "Giant_Crusher_Claws": {
+    "tags": [
+      "Arms",
+      "Giant",
+      "Crustacean",
+      "Crusher"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Iron Grip"
+    ],
+    "description": "The Giant_Crusher_Claws are massive, chitin-armored pincers that gleam with an ominous metallic sheen, capable of crushing through steel with ease. Each claw pulsates with an inner resilience, granting an unparalleled grip that can immobilize even the strongest foes, though their bulk and rigidity slightly hamper nimble movements."
+  }
+}

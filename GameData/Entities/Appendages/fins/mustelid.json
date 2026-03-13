@@ -1,0 +1,310 @@
+{
+  "Webbed_Pectoral_Otter_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dive"
+    ],
+    "description": "The webbed pectoral otter fins are sleek and supple, covered in short, velvety fur that glistens beneath the water's surface, enhancing your agility and speed as you glide through aquatic environments with effortless grace."
+  },
+  "Broad_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Paddle",
+      "Mustelid",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Swim"
+    ],
+    "description": "The Broad_Paddle_Fins are massive, muscular appendages, reminiscent of a mustelid's form but scaled up and adapted for aquatic prowess. Their robust, paddle-like structure is covered in sleek, dark scales that ripple with power, granting the wielder unmatched swimming speed and diving capabilities."
+  },
+  "Hydrodynamic_Sea_Mustelid_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Mustelid",
+      "Marine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "The Hydrodynamic_Sea_Mustelid_Fins are sleek and iridescent, their surface shifting with an almost liquid grace that catches and refracts light in a mesmerizing dance. These fins are not just for swimming; they pulse with a hidden strength and agility, granting the bearer an uncanny ability to dart and weave through the water with the effortless elegance of a mustelid predator on land, while also allowing deep dives without the burden of pressure or fatigue."
+  },
+  "Semi_Webbed_Mink_Fins": {
+    "tags": [
+      "Fins",
+      "Semiaquatic",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Semi_Webbed_Mink_Fins are sleek and supple, their dark fur blending shades of brown and grey with subtle hints of blue, perfectly adapted for gliding through water with grace and efficiency. The webbing between the digits is soft yet strong, allowing for swift and silent movement beneath the waves, while the fine fur traps a layer of warmth against the cold currents."
+  },
+  "Cold_Water_Insulated_Fins": {
+    "tags": [
+      "Fins",
+      "Insulated",
+      "Mustelid",
+      "Cold"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Cold_Water_Insulated_Fins are sleek and sinuous, covered in a layer of thick, oily fur that traps warmth against the body while allowing effortless gliding through the chill waters of the deep sea."
+  },
+  "Steering_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Emerging from the sleek, mouselike body, the lateral fins are slender and elongated, their edges fringed with delicate, translucent membranes that shimmer in the dim light. When activated, they pulse with an eerie luminescence, allowing the creature to navigate through the water with unparalleled grace and precision."
+  },
+  "River_Sprint_Fins": {
+    "tags": [
+      "Fins",
+      "River",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sprint"
+    ],
+    "description": "Emerging from the sleek, muscular limbs of a mustelid, these jagged yet graceful River_Sprint_Fins are a mesmerizing blend of dark scales and fluid motion, enhancing both underwater agility and terrestrial speed with every flick and thrust."
+  },
+  "Elongated_Deep_Dive_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Elongated Deep Dive Fins are sleek and expansive, resembling the form of a weasel but with an almost ethereal translucency that glows faintly in the dark depths. These fins are incredibly flexible, allowing for graceful and silent glides through the darkest, most pressurized waters, where the currents are treacherous and the light barely penetrates."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Mustelid",
+      "Riparian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "These sleek, mottled fins are adapted for navigating turbulent waters, with jagged edges that slice through powerful currents. Each fin is covered in a layer of tough, slick scales that protect against the harshest aquatic environments, and they pulse with an electric energy that hints at their innate resistance to water's force."
+  },
+  "Articulated_Hunting_Fins": {
+    "tags": [
+      "Fins",
+      "Hunting",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Pounce"
+    ],
+    "description": "Articulated Hunting Fins are sleek, sharp-edged appendages that extend from the creature's forelegs, each fin tipped with jagged, translucent spines that shimmer in the moonlight, granting the user unparalleled agility and stealth in water and on land, allowing for silent, deadly strikes."
+  },
+  "Compact_River_Paddlers": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Compact River Paddlers component is a sleek, compact set of webbed mustelid-like fins that can be attached to the limbs, enhancing agility and speed in water with a subtle, almost undetectable presence."
+  },
+  "Vestigial_Aquatic_Stumps": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded along the spine, these small, translucent vestigial stumps resemble delicate, webbed fins that pulse faintly with a bioluminescent glow when the creature is in motion, enhancing their agility and grace underwater or on land, granting a subtle speed boost."
+  }
+}

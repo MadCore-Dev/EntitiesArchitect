@@ -1,0 +1,531 @@
+{
+  "Spotted_Hyena_Cursorial_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Spotted",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Endurance",
+      "Scent"
+    ],
+    "description": "The Spotted_Hyena_Cursorial_Core is a resilient and sinewy bundle of muscle and bone, pulsating with an eerie glow that mimics the shifting light of a moonlit savannah at night. Its surface is covered in a patchwork of dark and light spots, each one seemingly alive as they shift and blend like shadows dancing across the African plains."
+  },
+  "Striped_Hyena_Scavenger_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Striped",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent",
+      "Fear"
+    ],
+    "description": "Embedded within the rugged chassis of the Striped_Hyena_Scavenger_Core is a pulsating, tri-colored core that mimics the hyena's distinctive coat, radiating a faint aura of decay and mystery. This core grants the wielder an uncanny ability to track down and utilize even the most forsaken relics, while their presence instills a primal fear in others, bolstering their resilience against disease and harm."
+  },
+  "Aardwolf_Insectivore_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aardwolf",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Soft Step"
+    ],
+    "description": "The Aardwolf_Insectivore_Core is a gnarled, compact organ pulsating with an eerie bioluminescence, its surface textured like fine, interwoven threads that hum with an otherworldly energy. Its presence fills the air with a subtle, earthy scent that enhances your sense of surroundings, and its influence grants a ghostly lightness to your steps, allowing you to move silently through the darkest underbrush."
+  },
+  "Brown_Hyena_Desert_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Brown",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "The Brown_Hyena_Desert_Core is a gnarled and weathered mass of tissue, pulsating with a dull, amber glow that flickers like the distant embers of a desert fire. Its surface is rough and cracked, mimicking the parched earth of the desert, and it emanates a faint, musky scent that hints at both decay and survival."
+  },
+  "Giant_Cave_Hyena_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Intimidate",
+      "Pack Tactics"
+    ],
+    "description": "The Giant Cave Hyena Core pulsates with a dark, feral energy, its surface slick and matted with the remnants of countless battles, radiating an aura of primal dominance and ruthless cunning that commands respect and instills fear in all who approach."
+  },
+  "Pack_Alpha_Leader_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Alpha",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Intimidate",
+      "Scent"
+    ],
+    "description": "Embedded within the rugged heart of the Hyenid Alpha, the Pack_Alpha_Leader_Core pulses with an otherworldly energy, radiating a palpable aura of dominance and leadership that commands attention and loyalty from all nearby creatures, its surface etched with intricate tribal markings that shimmer in response to the Alpha's emotional state and strategic decisions."
+  },
+  "Undead_Cackling_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Undead",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Scavenger"
+    ],
+    "description": "The Undead_Cackling_Core is a twisted, grinning mass of decayed flesh and bone, pulsating with a sinister green light that flickers like a diseased heart. It emits a chilling, high-pitched cackle that resonates through the battlefield, causing fear and dread in the hearts of the living, while granting its bearer an insatiable urge to scavenge and resist the ravages of disease."
+  },
+  "Nocturnal_Shadow_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Nocturnal",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Soft Step",
+      "Scent"
+    ],
+    "description": "The Nocturnal Shadow Core is a pulsating, inky-black organ that seems to absorb light rather than emit it, granting the wielder an eerie, almost spectral presence in the darkest of nights. It allows for silent, near-invisible movements and an acute sense of smell that can track prey or threats through the most labyrinthine of environments."
+  },
+  "Venomous_Saliva_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Venomous",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Venom_Gland",
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Venomous Bite",
+      "Disease Carrier"
+    ],
+    "description": "Embedded within the creature's throat, the Venomous_Saliva_Core is a pulsating, iridescent gland that seethes with a nauseating mix of toxins and acids, capable of transforming a mere bite into a conduit for spreading debilitating diseases."
+  },
+  "Sloped_Bone_Crusher_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bone_Crusher",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Bone Crack",
+      "Trample"
+    ],
+    "description": "Embedded within the rugged chassis of the Hyenid, the Sloped_Bone_Crusher_Core resembles a twisted, jagged spine of bone, pulsating with dark energy. Its surface is slick with a viscous, black fluid that seems to absorb light, and it emits a low, menacing hum that resonates through the body, amplifying the creature's brute strength and resilience."
+  },
+  "Aquatic_Mud_Wader_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_caudal": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Scent",
+      "Endurance"
+    ],
+    "description": "The Aquatic_Mud_Wader_Core is a dense, gelatinous mass pulsating with an ethereal blue light, its surface slick and cool to the touch, granting the wielder unparalleled endurance and an acute sense of smell underwater, while enhancing their strength and constitution."
+  },
+  "Cackling_Ambush_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ambush",
+      "Hyenid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Pounce",
+      "Fear"
+    ],
+    "description": "The Cackling_Ambush_Core is a gnarled and pulsating mass of dark, sinuous muscle and bone, encased in a sheen of slick, black fur that shifts and whispers with an eerie, mocking laughter. Its surface is cold to the touch, yet vibrates with the anticipation of a deadly ambush, granting its bearer unparalleled agility and the chilling presence of fear."
+  }
+}

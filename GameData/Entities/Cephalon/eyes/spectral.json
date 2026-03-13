@@ -1,0 +1,313 @@
+{
+  "Wraith_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Wraith",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear"
+    ],
+    "description": "The Wraith Hollow Eyes appear as swirling voids of darkness, their surface shifting like liquid shadows. When gazing into them, a creeping sense of dread and confusion washes over the observer, accompanied by an unnerving ability to see in complete darkness and spot hidden threats with unnerving accuracy."
+  },
+  "Banshee_Wild_Eyes": {
+    "tags": [
+      "Eye",
+      "Banshee",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Scream",
+      "Madness Aura"
+    ],
+    "description": "Banshee_Wild_Eyes, glowing with an otherworldly, spectral light, possess an unsettling depth that seems to peer into the darkest corners of one's soul, their gaze capable of instilling primal fear and madness, complemented by an enhanced awareness and charisma that allows their terrifying presence to dominate any space."
+  },
+  "Lich_Dead_Eyes": {
+    "tags": [
+      "Eye",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Blindsight",
+      "Magic Resistance"
+    ],
+    "description": "The Lich_Dead_Eyes are hollow sockets that pulse with a cold, spectral light, filled not with flesh but with swirling mists of dark magic and the haunting whispers of the dead, granting the bearer an unerring sense of their surroundings and the ability to instill dread in the hearts of the living."
+  },
+  "Ghost_Empty_Eyes": {
+    "tags": [
+      "Eye",
+      "Ghost",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Ghost_Empty_Eyes are hollow sockets that emit a chilling, spectral glow, their gaze capable of piercing through the darkest of nights and sending shivers down the spine of anyone who meets their gaze, while a faint, unsettling aura of madness and dread emanates from them."
+  },
+  "Revenant_Burning_Eyes": {
+    "tags": [
+      "Eye",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear",
+      "Intimidate"
+    ],
+    "description": "The Revenant_Burning_Eyes glows with an otherworldly crimson light, pulsating with spectral energy that seems to pierce through the veil of reality itself, granting the bearer an eerie ability to see in darkness and instilling fear in the hearts of the living."
+  },
+  "Shadow_Null_Eyes": {
+    "tags": [
+      "Eye",
+      "Shadow",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Shadow Null Eyes are obsidian orbs that pulse with an otherworldly, spectral glow, their surface rippling like shadows in a void. When worn, they grant the bearer an unsettling sense of being unseen, enhancing their ability to lurk in the darkest corners and detect even the faintest of movements."
+  },
+  "Soul_Devourer_Eyes": {
+    "tags": [
+      "Eye",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Soul_Devourer_Eyes are a pair of glowing, spectral orbs that float independently, pulsating with a sickly green light. They emit a chilling aura that can paralyze the will of any creature that meets their gaze, and their intense, cold stare can instill fear and drain the very essence of the unwary."
+  },
+  "NightHag_Dark_Eyes": {
+    "tags": [
+      "Eye",
+      "NightHag",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "The NightHag_Dark_Eyes are swirling voids of darkness, pulsating with an otherworldly energy that seems to suck the light and warmth from the surrounding air. They grant the wielder the power to charm, instill fear, and paralyze their foes with a single, piercing gaze."
+  },
+  "Wisp_Light_Eyes": {
+    "tags": [
+      "Eye",
+      "Wisp",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Paralyze",
+      "Bioluminescence"
+    ],
+    "description": "The Wisp_Light_Eyes glows with an ethereal, blue light that flickers gently as if dancing to an unseen melody, its spectral nature causing an otherworldly chill to permeate the air around it. The eyes, when gazing directly into them, can immobilize prey with a mere glance, while their innate bioluminescence pierces through the darkest of shadows, granting the wielder unparalleled perception in the most treacherous environments."
+  },
+  "Specter_Seeing_Eyes": {
+    "tags": [
+      "Eye",
+      "Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear"
+    ],
+    "description": "The Specter_Seeing_Eyes are ghostly orbs that seem to hover without any eyelids or lashes, radiating an eerie, spectral glow that pierces through darkness and obscurity, granting the bearer the ability to see in utter darkness and instilling fear in those who meet their gaze."
+  },
+  "Phantom_Glow_Eyes": {
+    "tags": [
+      "Eye",
+      "Phantom",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "Phantom_Glow_Eyes are eerie, translucent orbs that seem to pulse with an otherworldly light, casting spectral shadows in their wake. Their gaze can pierce the deepest shadows, granting an unsettling presence that both enchants and terrifies those who meet their gaze, leaving an indelible mark of fear and awe upon the observer."
+  },
+  "Arch_Specter_Ancient_Eyes": {
+    "tags": [
+      "Eye",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Madness Aura",
+      "Fear",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "Ancient Eyes, glimmering with an otherworldly, spectral light, seem to pulse with a malevolent intelligence, their surface rippling like a dark, inverted cosmos that grants the wielder unparalleled perception in even the darkest, most ethereal realms, while their gaze can inspire both paralyzing fear and beguiling charm."
+  }
+}

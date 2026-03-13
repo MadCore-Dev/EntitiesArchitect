@@ -1,0 +1,301 @@
+{
+  "Strong_Digging_Claws": {
+    "tags": [
+      "Arms",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig",
+      "Rake"
+    ],
+    "description": "The Strong_Digging_Claws are thick, curved talons covered in tough, overlapping scales that shimmer with a metallic sheen, perfect for slicing through earth and stone. Each claw is tipped with a sharp, jagged edge that catches the light as they move, capable of effortlessly tunneling through the hardest soil while increasing the wielder's strength in close combat."
+  },
+  "Tree_Scaling_Hook_Claws": {
+    "tags": [
+      "Arms",
+      "Climb",
+      "Pholidota",
+      "Tree"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Grapple"
+    ],
+    "description": "The Tree_Scaling_Hook_Claws are jagged, curved appendages that resemble the claws of a massive arboreal predator, each claw covered in fine, overlapping scales that provide both grip and flexibility. These claws allow the wielder to scale sheer vertical surfaces with ease, granting an almost symbiotic connection to the bark and leaves, and enhancing their agility and dexterity in combat and movement."
+  },
+  "Rock_Splitting_Claws": {
+    "tags": [
+      "Arms",
+      "Rock",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Dig",
+      "Slam"
+    ],
+    "description": "The Rock_Splitting_Claws are jagged, obsidian-black appendages that shimmer faintly with an inner glow, each claw tipped with sharp, crystalline points capable of cleaving through the toughest stone. When wielded, these claws emit a low, resonant hum, and the air around them seems to vibrate with contained power."
+  },
+  "Venomous_Spur_Claws": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous_Spur_Claws are sharp, retractable spurs that jut out from beneath the creature's wrist, tipped with barbed, needle-like claws that shimmer with an eerie, greenish hue. When extended, they emit a faint, hissing sound as venom drips from the tips, ready to deliver a paralyzing sting or a dose of potent poison with a mere flick of the wrist."
+  },
+  "Acid_Drip_Claws": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Drip_Claws are jagged, translucent appendages that glisten with a sickly green hue, their tips constantly oozing a corrosive acid that hisses and fizzes upon contact with air. Each claw is covered in segmented scales that rattle softly when moved, and the sensation of wielding them is both unnerving and exhilarating, as the acidic fluid seems to pulse in response to the wielder's movements."
+  },
+  "Sticky_Tongue_Arms": {
+    "tags": [
+      "Arms",
+      "Sticky_Tongue",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadows, the Sticky_Tongue_Arms are a grotesque marvel, with elongated, serpentine limbs that end in broad, flat palms covered in rough scales, capable of extending to snatch prey from surprising distances. The arms are imbued with a slimy, adhesive secretion that makes it nearly impossible for an opponent to escape once ensnared, allowing the wielder to grapple and restrain foes effortlessly."
+  },
+  "Electrosensory_Claw_Arms": {
+    "tags": [
+      "Arms",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Burrow"
+    ],
+    "description": "The Electrosensory Claw Arms are covered in sleek, metallic scales that shimmer with an eerie blue light, each clawed digit capable of detecting the faintest electrical impulses in the earth, granting an uncanny sense of the terrain beneath."
+  },
+  "Undead_Bone_Claws": {
+    "tags": [
+      "Arms",
+      "Undead",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "No Pain"
+    ],
+    "description": "The Undead_Bone_Claws are a set of sharp, jagged bone protrusions that emerge from the arm sockets, resembling the scales of a giant armadillo but crafted from brittle, deathly bone. These claws feel cold and unnaturally heavy, and they pulse with an eerie, diseased energy, granting their wielder resistance to infections and the ability to spread debilitating sickness."
+  },
+  "Titan_Massive_Claws": {
+    "tags": [
+      "Arms",
+      "Titan",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Dig",
+      "Slam",
+      "Rake"
+    ],
+    "description": "The Titan_Massive_Claws are colossal, jagged appendages covered in thick, overlapping scales that shimmer with an eerie luminescence, each claw capable of slicing through stone with ease. Their grip is both unyielding and terrifying, capable of both digging through the earth and delivering devastating blows."
+  },
+  "Aquatic_Paddle_Limbs": {
+    "tags": [
+      "Arms",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the depths, the Aquatic_Paddle_Limbs are sleek and elongated, covered in smooth, overlapping scales that shimmer with iridescent hues when submerged. Their powerful, fin-like appendages are perfectly adapted for swift, silent gliding through water, allowing for effortless maneuverability and grace beneath the waves."
+  },
+  "Razor_Scale_Arms": {
+    "tags": [
+      "Arms",
+      "Razor",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Block"
+    ],
+    "description": "Razor_Scale_Arms are a pair of powerful limbs sheathed in jagged, overlapping scales that seem to shift and slide like living armor, granting the user an imposing presence and the ability to deflect incoming attacks with ease."
+  },
+  "Swift_Insectivore_Arms": {
+    "tags": [
+      "Arms",
+      "Insectivore",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Sprint"
+    ],
+    "description": "Bristling with sharp, segmented scales that shimmer like opalescent chitin, the Swift_Insectivore_Arms are slender yet powerful, capable of rapid, precise movements that allow them to snatch insects from mid-air with ease, while the natural ridges along the forearms provide an unparalleled grip and traction for swift sprints across any terrain."
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "Webbed_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Rodent",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dive"
+    ],
+    "description": "The webbed pectoral fins are sleek and expansive, resembling the paddle-like limbs of an oversized aquatic rodent, allowing for swift and silent glides through water with every delicate yet powerful stroke."
+  },
+  "Broad_Paddle_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Rodent",
+      "Aquatic",
+      "Heavy"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Swim"
+    ],
+    "description": "The Broad_Paddle_Pectoral_Fins are thick, webbed appendages that resemble oversized flippers, their leathery surface dotted with fine, sharp scales that give them a tactile grip on water. Despite their rodent-like origin, these fins are surprisingly robust and heavy, allowing for powerful strokes that grant exceptional swimming speed and diving depth."
+  },
+  "Membrane_Glide_Fins": {
+    "tags": [
+      "Fins",
+      "Membrane",
+      "Rodent",
+      "Glider"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Dive"
+    ],
+    "description": "Translucent, webbed glide fins sprout from the creature's shoulders and wrists, their delicate membranes quivering as they prepare to catch the wind, allowing for silent, graceful evasion and sudden, plunging dives."
+  },
+  "Vestigial_Aquatic_Stumps": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Rodent"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's lower back are a pair of small, translucent fins, barely functional yet retaining the delicate, veined texture of long-forgotten aquatic appendages, providing a subtle speed enhancement in both water and on land."
+  },
+  "Hydrodynamic_Pectoral_Blades": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Rodent",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Swim"
+    ],
+    "description": "The Hydrodynamic Pectoral Blades are sleek, elongated fins that resemble the sharp, maneuverable limbs of an aquatic rodent, perfectly adapted for swift underwater navigation. Their hydrodynamic design cuts through water with minimal resistance, granting the wielder unparalleled agility and speed."
+  },
+  "Semi_Retractable_Water_Fins": {
+    "tags": [
+      "Fins",
+      "Retractable",
+      "Rodent",
+      "Semiaquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "Emerging from the sleek, furry limbs of the semiaquatic rodent, these partially retractable water fins are translucent and glistening, their delicate membranes folding neatly against the skin when not in use, granting the creature an eerie grace and an unmatched ability to slip through both water and land with effortless swiftness."
+  },
+  "Elongated_Steering_Fins": {
+    "tags": [
+      "Fins",
+      "Steering",
+      "Rodent",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Steering",
+      "Rudder"
+    ],
+    "description": "Emerging from the creature\u2019s spine, these sleek, elongated fins are covered in a layer of fine, translucent scales that shimmer with an iridescent hue when submerged in water. They pulsate subtly, allowing the user to control their aquatic movements with unparalleled precision and grace, enhancing their agility in the water."
+  },
+  "Thick_Fat_Insulated_Fins": {
+    "tags": [
+      "Fins",
+      "Insulated",
+      "Rodent",
+      "Cold"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Thick_Fat_Insulated_Fins are broad and paddle-like, covered in a dense layer of sleek, silver fur that traps heat against the bone-chilling waters of icy depths, granting the wielder unparalleled endurance and agility beneath the frigid waves."
+  },
+  "Riffle_Adapted_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Rodent",
+      "Riparian"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the depths, the Riffle_Adapted_Fins are sleek and sinuous, their edges serrated like the teeth of a predator, designed to slice through water with unparalleled precision. They pulse with a vibrant blue glow, humming with the power of currents, and when worn, they grant the user the grace and agility of a riparian rodent, effortlessly navigating the most turbulent waters while enhancing their strength."
+  },
+  "Lateral_Sweep_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Rodent"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Reverse Swim"
+    ],
+    "description": "Lateral_Sweep_Fins are thin, webbed appendages that sprout from the sides of a creature's torso, pulsating with an eerie, bioluminescent glow in the darkest underwater caverns, allowing for swift and silent movement against the current."
+  },
+  "Articulated_Deep_Dive_Fins": {
+    "tags": [
+      "Fins",
+      "Articulated",
+      "Rodent",
+      "Deep"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Dive"
+    ],
+    "description": "The Articulated_Deep_Dive_Fins are sleek, chitinous appendages that sprout from the spine, each segment jointed like the legs of a spider, allowing for fluid, rapid movement through the darkest, pressure-filled depths of the ocean. Their surface is cold to the touch, emitting a faint bioluminescence that casts eerie, dancing shadows in the surrounding murk."
+  },
+  "Compact_Semiaquatic_Paddlers": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Rodent",
+      "Semiaquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the sleek, compact body of this component are slender yet powerful fins, reminiscent of a small aquatic predator, perfectly adapted for swift and silent movement through both water and shallow, muddy banks. The texture is cool to the touch, with a soft layer of fine scales that offer exceptional grip and maneuverability in slippery environments."
+  }
+}

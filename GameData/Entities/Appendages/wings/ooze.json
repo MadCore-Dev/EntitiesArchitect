@@ -1,0 +1,340 @@
+{
+  "Acid_Blob_Wings": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Ooze"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Acid Spray"
+    ],
+    "description": "The Acid_Blob_Wings are pulsating, amorphous appendages that ooze and shift, their surface slick and cold to the touch. As the entity moves, the wings emit a faint, sickly glow, and with each flap, they unleash a corrosive spray that eats through metal and flesh alike, leaving a trail of acid puddles in its wake."
+  },
+  "Spore_Drift_Wings": {
+    "tags": [
+      "Wings",
+      "Spore",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Spore Cloud",
+      "Swarm"
+    ],
+    "description": "The Spore_Drift_Wings are semi-translucent, shimmering appendages that pulse with an eerie, bioluminescent glow, their surface dotted with tiny, sticky spores that release a choking cloud when disturbed, perfect for creating a choking, disorienting fog."
+  },
+  "Void_Phase_Wings": {
+    "tags": [
+      "Wings",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Void_Phase_Wings are a pair of iridescent wings that seem to pulse with the darkness of a void, their surface slick with an otherworldly ooze that whispers of endless shadows. When activated, these wings allow for silent, ghostly flight and grant the user the ability to drain energy and ambush enemies in the shadows."
+  },
+  "Electric_Plasma_Wings": {
+    "tags": [
+      "Wings",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Shock Touch",
+      "Paralyze"
+    ],
+    "description": "Beneath the flickering glow of arcane lanterns, the Electric Plasma Wings shimmer with an otherworldly, iridescent blue hue that pulses with erratic energy. When unfurled, the wings ooze with a viscous, electrically charged plasma that crackles and snaps, capable of delivering paralyzing shocks with a mere touch."
+  },
+  "Magma_Fire_Wings": {
+    "tags": [
+      "Wings",
+      "Magma",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Immolate"
+    ],
+    "description": "Magma_Fire_Wings are a pair of sprawling, membranous wings that pulse with a sinister, flickering red glow, their edges constantly oozing a viscous, molten lava that leaves scorch marks upon the ground. When in use, these wings allow for silent gliding through the air, while their inherent heat imbues the wielder with the ability to leave trails of searing flames behind them."
+  },
+  "Ice_Sleet_Wings": {
+    "tags": [
+      "Wings",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Slow"
+    ],
+    "description": "Ice_Sleet_Wings are translucent appendages that shimmer with a cold, milky light, their surfaces constantly shifting like slow-moving ice floes. When unfolded, they emit a chilling mist that can slow approaching enemies, while their icy texture grants the bearer enhanced agility and resistance to frost-based attacks."
+  },
+  "Necrotic_Float_Wings": {
+    "tags": [
+      "Wings",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Necrotic Float Wings are sickly green and translucent, pulsating with a dark, oily substance that seeps through the membrane. When in use, they emit a faint, chilling glow and a putrid odor that instills fear in those who inhale it, while the wearer hovers unnaturally above the ground, drawing life force from nearby creatures."
+  },
+  "Paralytic_Bloom_Wings": {
+    "tags": [
+      "Wings",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Paralysis"
+    ],
+    "description": "The Paralytic Bloom Wings are a sickly shade of pale green, their surface dotted with small, pulsating blisters that ooze a thick, viscous fluid. When spread, these wings emit a haunting, low hum that seems to resonate through the very bones of anyone nearby, and their touch can induce a creeping paralysis, leaving victims frozen in place."
+  },
+  "Ochre_Drip_Wings": {
+    "tags": [
+      "Wings",
+      "Ochre",
+      "Ooze"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "Ochre Drip Wings are a grotesque yet mesmerizing sight, translucent membranes that pulse with the sickly hue of a toxic swamp, coated in a slimy, dripping ooze that leaves corrosive trails behind. These wings grant the user the uncanny ability to glide through the air with eerie silence, their movement sluggish yet fluid, as if they were part of the very ooze they exude."
+  },
+  "Green_Slime_Wings": {
+    "tags": [
+      "Wings",
+      "Green_Slime",
+      "Ooze"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Corrosion"
+    ],
+    "description": "Emerging from a mass of writhing, emerald-green ooze, the Green_Slime_Wings constantly shift and flow, their formless nature allowing them to expand and contract as if breathing. When in use, they emit a faint, eerie glow and leave a trail of corrosive residue in their wake, capable of eating through the toughest materials."
+  },
+  "Gelatinous_Float_Wings": {
+    "tags": [
+      "Wings",
+      "Gelatin",
+      "Ooze"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Paralysis"
+    ],
+    "description": "Gelatinous_float_wings are translucent membranes filled with a sluggish, luminous gel that shifts and flows like liquid, yet maintains a semi-solid shape. These wings emit a soft, eerie glow and allow for silent, gliding movement through the air, while their touch can immobilize prey in a paralyzing embrace."
+  },
+  "Eldritch_Void_Wings": {
+    "tags": [
+      "Wings",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Madness Aura",
+      "Fear"
+    ],
+    "description": "Eldritch Void Wings are jet-black membranes that seem to pulse with a nauseating, shifting void energy, constantly oozing and reforming as if they are not solid matter but the very essence of darkness itself. The wings emit a low, dissonant hum that resonates with dread, and those nearby often feel a creeping sense of madness and overwhelming fear, making it impossible to ignore their presence."
+  }
+}

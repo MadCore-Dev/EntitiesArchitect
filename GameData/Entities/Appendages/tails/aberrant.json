@@ -1,0 +1,307 @@
+{
+  "Aberrant_Whip_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Knockback"
+    ],
+    "description": "The Aberrant_Whip_Tail is a nightmarish appendage, sinuous and darkly pulsating with malevolent energy, capable of snapping forward with whip-like precision to deliver bone-crushing strikes and powerful knockbacks, extending the wielder's reach by three meters while enhancing their strength."
+  },
+  "Acid_Drip_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Acid_Drip_Tail is a grotesque appendage, ending in a bulbous, pulsating sac that continuously leaks a thick, bubbling acid, capable of eating through stone and flesh alike. Its touch is cold and slimy, with the sac swinging menacingly, ready to unleash a corrosive spray at a moment's notice."
+  },
+  "Bone_Spur_Tail": {
+    "tags": [
+      "Tail",
+      "Bone",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Slam"
+    ],
+    "description": "The Bone_Spur_Tail is a twisted, jagged appendage composed of sharpened bone spurs, each one glinting with a sickly, unnatural sheen. It lashes out with a menacing, serpentine motion, capable of delivering bone-crunching blows that echo the chaos of the abyss."
+  },
+  "Parasite_Stinger_Tail": {
+    "tags": [
+      "Tail",
+      "Parasite",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Sting"
+    ],
+    "description": "The Parasite Stinger Tail is a writhing, serpentine appendage that terminates in a barbed, venomous stinger, capable of injecting a cocktail of debilitating diseases with each strike. Covered in a slick, mucus-like secretion, it thrashes uncontrollably when not in use, making its bearer more agile and extending their reach significantly."
+  },
+  "Necrotic_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Tail is a writhing, blackened appendage that ends in a barbed tip, pulsing with an unnatural, cold light. Its touch spreads a creeping chill and a foul, lingering disease, while its elongated reach allows for devastating, necrotic drains from a distance."
+  },
+  "Void_Phase_Tail": {
+    "tags": [
+      "Tail",
+      "Void",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Drain"
+    ],
+    "description": "The Void_Phase_Tail appears as a writhing shadow, its form shifting and distorting in the air like a nightmare made tangible. It grants the user the ability to blend into darkness with supernatural ease and extend their reach to snare unsuspecting prey, while siphoning life force from those it touches."
+  },
+  "Tentacle_Mass_Tail": {
+    "tags": [
+      "Tail",
+      "Tentacle",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Tentacle Mass Tail is a writhing, dark mass of tentacles that terminate in sharp, barbed ends, capable of coiling around foes with terrifying precision and strength, granting the wielder unparalleled reach and the ability to ensnare and grapple opponents effortlessly."
+  },
+  "Bioluminescent_Lure_Tail": {
+    "tags": [
+      "Tail",
+      "Bioluminescent",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Lure"
+    ],
+    "description": "The Bioluminescent_Lure_Tail is a serpentine appendage that writhes with an eerie, pulsating glow, its scales shimmering in shades of deep indigo and emerald, tempting prey with a hypnotic dance while its toxic venom grants the wielder the power to paralyze and lure."
+  },
+  "Deep_Sea_Propulsion_Tail": {
+    "tags": [
+      "Tail",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dart"
+    ],
+    "description": "The Deep_Sea_Propulsion_Tail is a grotesque appendage, its slick, iridescent scales shimmering in deep hues of blue and green, each scale a miniature mirror reflecting the eerie abyssal light. It thrums with an otherworldly energy, propelling its bearer with unnerving speed through the darkest depths of the ocean, allowing them to dart and weave with unsettling grace."
+  },
+  "Titan_Smash_Tail": {
+    "tags": [
+      "Tail",
+      "Titan",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Knockback",
+      "Earthquake"
+    ],
+    "description": "The Titan_Smash_Tail is a colossal appendage, thick with bulging muscles and rugged, black scales that crackle with earthy energy. When wielded, it feels like an extension of the planet itself, grounding the bearer with immense strength and the ability to shatter the ground with each powerful swing."
+  },
+  "Eldritch_Horror_Tail": {
+    "tags": [
+      "Tail",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Fear",
+      "Drain"
+    ],
+    "description": "The Eldritch_Horror_Tail unfurls from a writhing mass of shimmering, iridescent scales that pulse with an otherworldly glow, ending in a barbed tip that drips with a viscous, dark ichor. It coils and uncoils with a life of its own, capable of ensnaring prey and instilling paralyzing fear, while siphoning away their life force with each tremble."
+  },
+  "Chaos_Mutant_Tail": {
+    "tags": [
+      "Tail",
+      "Chaos",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Blood Frenzy"
+    ],
+    "description": "The Chaos Mutant Tail is a writhing, serpentine appendage that shifts and morphs between grotesque forms, its scales slick with an unnatural, pulsating blood that grants the wielder a second wind through regeneration and a primal, bloodthirsty rage during combat."
+  }
+}

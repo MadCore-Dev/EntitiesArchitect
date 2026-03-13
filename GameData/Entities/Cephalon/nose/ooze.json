@@ -1,0 +1,291 @@
+{
+  "Acid_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Corrosion"
+    ],
+    "description": "Embedded within the snout, these chemoreceptors pulsate with a sickly green glow, their surface slick with a viscous, corrosive slime that eats through metal and flesh alike, while their heightened sensitivity to chemical stimuli grants an unparalleled ability to detect and analyze the faintest traces of substances in the air."
+  },
+  "Gelatin_Osmotic_Sensors": {
+    "tags": [
+      "Nose",
+      "Gelatin",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature\u2019s malleable, gelatinous flesh are intricate, semi-translucent sensors that pulse and shift with the ground's vibrations, granting an eerie, almost preternatural awareness of nearby movements and environmental changes."
+  },
+  "Necrotic_Decay_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Necrotic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "Embedded within the moldering flesh, the Necrotic Decay Chemoreceptors resemble a cluster of withered, blackened tendrils that pulse with an unsettling, sickly green light. The surface is slick and cold, secreting a noxious slime that reacts to the presence of decaying matter, enhancing the user's ability to detect and track the faintest traces of death and decay."
+  },
+  "Magma_Heat_Sensors": {
+    "tags": [
+      "Nose",
+      "Magma",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the thick, pulsating ooze of the creature\u2019s snout, the Magma_Heat_Sensors glow with an eerie, crimson light, radiating warmth and an acute sensitivity to thermal changes, allowing it to detect the faintest tremors and discern the faintest traces of life or danger through the acrid air."
+  },
+  "Void_Phase_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Void",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush"
+    ],
+    "description": "The Void_Phase_Chemoreceptors are gelatinous tendrils that retract into a grotesque, pulsating nose, capable of detecting the faintest chemical signatures in the air. Their surface shifts and shimmers, distorting light and sound, allowing the user to blend seamlessly into the shadows while honing in on the scent of approaching prey."
+  },
+  "Electric_Ion_Sensors": {
+    "tags": [
+      "Nose",
+      "Electric",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Scent"
+    ],
+    "description": "Embedded within the fleshy, pulsating ooze of the creature's snout, these intricate sensors twitch and hum with an otherworldly energy, granting the being a heightened sense of smell and the uncanny ability to see in the darkest of environments, while also providing a measure of protection against the raw power of lightning."
+  },
+  "Ice_Crystal_Sensors": {
+    "tags": [
+      "Nose",
+      "Ice",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the creature\u2019s snout, these translucent Ice Crystal Sensors shimmer with a faint blue light, their surface etched with intricate frost patterns that seem to shift and grow in response to the presence of cold entities or objects, granting an eerie yet precise sense of direction and detection."
+  },
+  "Paralytic_Pheromone_Receptors": {
+    "tags": [
+      "Nose",
+      "Paralytic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Scent"
+    ],
+    "description": "Embedded deep within the nasal cavity, these translucent, gel-like receptors pulse faintly with an eerie luminescence, their surface secreting a viscous, iridescent fluid that reacts to the slightest trace of paralytic pheromones in the air, enhancing both the wearer's ability to detect and manipulate these potent substances."
+  },
+  "Spore_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Spore",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Disease Carrier"
+    ],
+    "description": "Embedded deep within the creature\u2019s snout, these chemoreceptors twitch and pulse, their surface slick with an ever-present ooze that shifts and crawls like a living thing in response to the faintest traces of spores in the air. Every inhalation sends a wave of sensory data cascading through the creature\u2019s mind, revealing not just the presence of spores but the potential diseases they carry, and the direction in which to hunt them down."
+  },
+  "Ochre_Basic_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Ochre",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Embedded within the fleshy, malleable structure of the Ochre_Basic_Chemoreceptors, a grotesque yet functional nose-like organ pulsates with an oily, ochre hue, its surface constantly shifting like a pool of viscous ooze. The component grants an unparalleled sense of smell, capable of detecting even the faintest trace of substances in the air, and provides a natural resistance to acidic attacks, while also enhancing one's perception of their surroundings."
+  },
+  "Black_Pudding_Acid_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Black_Pudding",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Corrosion"
+    ],
+    "description": "Embedded within the gelatinous mass of the black pudding, these chemoreceptors pulse with a sickly green bioluminescence, their surface slick with a mixture of acids that can dissolve metal and flesh alike, granting an uncanny ability to track prey through the most noxious of environments."
+  },
+  "Eldritch_Cosmic_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Eldritch",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight",
+      "Directional Tracking",
+      "Madness Aura"
+    ],
+    "description": "Embedded within the grotesque, gelatinous mass of the Eldritch Cosmic Chemoreceptors, tendrils and filaments twitch and pulse in response to the noxious and otherworldly scents that permeate the void. Each inhalation seems to draw in not just molecules but fragments of dark knowledge and eldritch whispers, granting the wielder an uncanny ability to track foes and navigate the most labyrinthine of environments, though those nearby may find themselves succumbing to an unsettling sense of dread and confusion."
+  }
+}

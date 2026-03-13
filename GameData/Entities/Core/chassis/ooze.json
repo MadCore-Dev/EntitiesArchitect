@@ -1,0 +1,505 @@
+{
+  "Green_Slime_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Green_Slime",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare",
+      "Regenerate"
+    ],
+    "description": "The Green_Slime_Core pulses with a sickly glow, its gelatinous surface shifting and flowing like a living nightmare. Each droplet that falls from it hisses as it corrodes the very stone it touches, leaving a trail of toxic acid that can dissolve steel over time."
+  },
+  "Black_Pudding_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Black_Pudding",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare",
+      "Constrict",
+      "Regenerate"
+    ],
+    "description": "The Black_Pudding_Core is a pulsating, amorphous mass of dark, viscous gel that constantly shifts and oozes, releasing a sickly sweet, chemical stench. Its surface is pitted with acid-filled pockets that occasionally bubble and burst, spewing corrosive liquid."
+  },
+  "Gelatinous_Cube_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Gelatinous_Cube",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Swallow",
+      "Paralysis"
+    ],
+    "description": "The Gelatinous_Cube_Core is a pulsating, amorphous mass of translucent, jelly-like substance, embedded with iridescent shards that shimmer with an eerie, otherworldly light, granting the bearer immense resilience to acid and the ability to ensnare and constrict foes, though at the cost of agility and increased bulk."
+  },
+  "Ochre_Jelly_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ochre_Jelly",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare",
+      "Regenerate"
+    ],
+    "description": "The Ochre_Jelly_Core pulses with a sickly glow, its gelatinous mass shifting and flowing like a sentient pool of quicksand. With a texture that defies description, it feels both slick and sticky, capable of ensnaring foes while spewing acidic venom."
+  },
+  "Necrotic_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Necrotic",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier",
+      "Fear",
+      "Ensnare"
+    ],
+    "description": "The Necrotic_Ooze_Core is a pulsating, sickly green mass that throbs with a malevolent energy, its surface slick and constantly shifting as if it were a living entity that hates the touch of air, emitting an aura of dread and corruption that causes fear in all who approach."
+  },
+  "Magma_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Magma",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Acid Spray",
+      "Natural Armor",
+      "Ensnare"
+    ],
+    "description": "The Magma_Ooze_Core is a pulsating, molten center that radiates intense heat and seethes with acidic fluids, its surface a writhing tapestry of glowing red and orange that shifts and undulates like living lava."
+  },
+  "Void_Dark_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Void",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Ensnare",
+      "Invisibility"
+    ],
+    "description": "The Void_Dark_Ooze_Core is a pulsating, amorphous mass of dark, viscous fluid that constantly shifts and reforms, absorbing light and casting eerie shadows. Its surface is cool to the touch, yet emanates a chilling, numbing sensation, and it grants the wielder the ability to blend into the darkness, strike without warning, and bind foes in its treacherous, invisible tendrils."
+  },
+  "Electric_Plasma_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Electric",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Ensnare",
+      "Paralyze"
+    ],
+    "description": "The Electric Plasma Ooze Core is a pulsating, neon-blue mass that constantly shifts and flows like liquid, crackling with volatile electricity. Its touch sends a jarring shock through any who make contact, and its presence grants an eerie, otherworldly resilience against lightning attacks."
+  },
+  "Frozen_Ice_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Frozen",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Ensnare",
+      "Natural Armor"
+    ],
+    "description": "The Frozen_Ice_Ooze_Core is a shimmering, gelatinous mass of frigid energy that crackles with frosty tendrils, its surface shifting like liquid glass while maintaining the unyielding resilience of ancient glaciers."
+  },
+  "Paralytic_Jelly_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Paralytic",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Paralytic Jelly Core is a gelatinous mass pulsating with sickly green light, its surface slick and undulating as it secretes a sticky, viscous fluid that ensnares anything within reach. Touching the core induces a numbing sensation, making movement sluggish and difficult as the ooze\u2019s tendrils constrict around the victim."
+  },
+  "Mycelium_Spore_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Mycelium",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Spore Cloud",
+      "Ensnare",
+      "Swarm"
+    ],
+    "description": "The Mycelium Spore Ooze Core is a pulsating, amorphous mass of dark, churning slime, intertwined with delicate filaments of fungi that glow with an eerie bioluminescence. As it moves, it leaves a trail of spores in its wake, each capable of spreading virulent diseases and ensnaring foes in a cocoon of mycelium."
+  },
+  "Eldritch_Void_Ooze_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Eldritch",
+      "Ooze"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles",
+      "tentacle_extra_01": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Drain",
+      "Madness Aura",
+      "Constrict",
+      "Ensnare",
+      "Regenerate"
+    ],
+    "description": "The Eldritch_Void_Ooze_Core is a pulsating, amorphous mass of dark, viscous fluid that constantly shifts and writhes, its surface rippling with malevolent energy and seeping tendrils that reach out to ensnare and drag prey into its unyielding grip."
+  }
+}

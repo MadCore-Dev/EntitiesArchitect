@@ -1,0 +1,330 @@
+{
+  "Fossorial_Digging_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Fossorial",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Fossorial Digging Forelimbs are powerful, clawed appendages with thick, muscular digits that taper into sharp, curved claws, perfect for excavating through the toughest soil and stone. Covered in a dense, bristly fur, these forelimbs vibrate with an almost preternatural energy as they dig, their strength augmented by an innate connection to the earth beneath them."
+  },
+  "Webbed_Otter_Forepaws": {
+    "tags": [
+      "Arms",
+      "Webbed",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Grip"
+    ],
+    "description": "The webbed otter forepaws are sleek and slender, their fur soft to the touch yet resistant to water, perfectly adapted for swift swimming and agile maneuvering. Each paw is equipped with retractable claws that offer a firm grip on slippery surfaces, granting the user unparalleled dexterity and agility in aquatic environments."
+  },
+  "Raking_Claw_Forepaws": {
+    "tags": [
+      "Arms",
+      "Clawed",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Claw"
+    ],
+    "description": "The Raking_Claw_Forepaws gleam with a menacing sheen, their sharp, curved claws flexing and unflexing with a silent menace. The touch of these forepaws is akin to steel needles, capable of both tender caresses and devastating strikes, embodying the quick, deadly nature of a mustelid predator."
+  },
+  "Climbing_Marten_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Arboreal",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb",
+      "Brachiation"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Acrobatics"
+    ],
+    "description": "The Climbing_Marten_Forelimbs are slender yet powerful, adorned with sharp, curved claws that can grip any surface with ease. Covered in sleek, dark fur, they provide an unparalleled sense of agility and grace, allowing their wielder to navigate the densest of canopies and the sheerest of cliff faces with fluid, cat-like movements."
+  },
+  "Crushing_Wolverine_Forepaws": {
+    "tags": [
+      "Arms",
+      "Crushing",
+      "Mustelid",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Maul"
+    ],
+    "description": "The Crushing_Wolverine_Forepaws are thick and robust, with black fur matted with the grime of countless battles. Claws the length of a man's thumb curve menacingly, and the powerful muscles bulge with each flex, hinting at the devastating force they can unleash."
+  },
+  "Semiaquatic_Mink_Forepaws": {
+    "tags": [
+      "Arms",
+      "Semiaquatic",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Slide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Grapple"
+    ],
+    "description": "The Semiaquatic_Mink_Forepaws are delicate yet powerful, with sleek, water-resistant fur and webbed digits that provide both a graceful swimming stroke and a tenacious grip, enhancing agility and adaptability in both aquatic and terrestrial environments."
+  },
+  "Slender_Weasel_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Slender",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze"
+    ],
+    "description": "The slender weasel forelimbs are elongated and sinewy, covered in soft, sleek fur that shifts between hues of silver and charcoal. Each limb ends in sharp, curved claws and a series of small pads that allow for silent, agile movement through even the tightest spaces."
+  },
+  "Grasping_Predator_Forepaws": {
+    "tags": [
+      "Arms",
+      "Grasping",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Iron Grip"
+    ],
+    "description": "The Grasping_Predator_Forepaws are sleek and powerful, with elongated claws that can dig into flesh with terrifying ease. Their texture is both soft and menacing, blending velvety pads with rough, sharp talons, while the innate power of an iron grip ensures that any foe caught within their grasp is held fast, unable to escape the predator's deadly clutches."
+  },
+  "Paddle_Fin_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Paddle",
+      "Mustelid",
+      "Marine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "The paddle-fin forelimbs are sleek and elongated, resembling the flippers of a marine mustelid, with a soft yet resilient texture that glides effortlessly through water, enhancing the user's swimming speed and depth capabilities."
+  },
+  "Broad_Scratch_Forepaws": {
+    "tags": [
+      "Arms",
+      "Broad",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Claw"
+    ],
+    "description": "The Broad_Scratch_Forepaws are massive, muscular mustelid paws, each clawed digit capable of rending flesh and tearing through armor with ease. Their broad surface area and powerful grip allow for an unparalleled combination of strength and dexterity, making them ideal for both offense and defense."
+  },
+  "Swift_Strike_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Swift",
+      "Mustelid",
+      "Stealth"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "The Swift_Strike_Forelimbs are slender and sinewy, tipped with sharp claws that catch the light like polished obsidian. Their movement is a blur, silent and deadly, capable of striking with the ferocity of a weasel in a snowstorm, granting the wielder the agility and cunning of a master predator."
+  },
+  "Reinforced_Burrowing_Claws": {
+    "tags": [
+      "Arms",
+      "Reinforced",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth",
+      "Burrow_Rock"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig",
+      "Rake"
+    ],
+    "description": "The reinforced burrowing claws are sharp, curved talons tipped with an obsidian-like material, capable of effortlessly slicing through earth and stone. Their tough, muscular arms flex with raw power, allowing the user to dig through even the hardest soil at incredible speeds while delivering devastating rake attacks."
+  }
+}

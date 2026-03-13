@@ -1,0 +1,283 @@
+{
+  "Tiny_Vestigial_Eyes": {
+    "tags": [
+      "Eye",
+      "Vestigial",
+      "Chiropteran",
+      "Microchiroptera"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the creature's fur, these minute, chiropteran eyes\u95ea\u70c1\u4e00\u4e0b\uff0c\u597d\u50cf\u9047\u5230\u4e86\u969c\u788d\u3002\u8fd9\u91cc\u63cf\u8ff0\u7684\u662f\u4e00\u79cd\u975e\u5e38\u5fae\u5c0f\u7684\u3001\u51e0\u4e4e\u4e0d\u8d77\u773c\u7684\u773c\u775b\uff0c\u5b83\u4eec\u9690\u85cf\u5728\u6bdb\u53d1\u4e2d\uff0c\u5f62\u72b6\u7c7b\u4f3c\u8759\u8760\u7684\u5fae\u5c0f\u773c\u775b\uff0c\u5c3d\u7ba1\u5b83\u4eec\u5bf9\u89c6\u529b\u8303\u56f4\u6709\u6240\u524a\u5f31\uff0c\u5374\u80fd\u654f\u9510\u5730\u611f\u77e5\u5468\u56f4\u73af\u5883\u7684\u7ec6\u5fae\u53d8\u5316\u3002"
+  },
+  "Large_Nocturnal_Tapetum_Eyes": {
+    "tags": [
+      "Eye",
+      "Tapetum",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Large Nocturnal Tapetum Eyes, glowing an eerie silver beneath the moonlight, are ringed with a reflective layer that amplifies dim light, enhancing the creature's ability to see in the dark and spot prey from afar. The eyes are large and round, with a deep, liquid black pupil that dilates and contracts with uncanny precision, granting the user unparalleled night vision and the ability to strike from the shadows."
+  },
+  "Forward_Binocular_Eyes": {
+    "tags": [
+      "Eye",
+      "Binocular",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Forward_Binocular_Eyes are a pair of chiropteran eyes set in a sleek, elongated socket, their dark, reflective surfaces glinting with an otherworldly sheen. When equipped, these eyes bulge slightly, granting the user an uncanny depth perception and night vision, allowing them to spot even the slightest movement in the darkest corners."
+  },
+  "Electroreceptive_Pit_Eyes": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sockets of this chiropteran creature are dark, liquid-filled pits that shimmer with an eerie, electric glow. The eyes are constantly in motion, flickering and twitching as they detect the faintest electrical signals from living beings and environmental disturbances, granting the creature an uncanny awareness of its surroundings."
+  },
+  "Infrared_Heat_Pit_Eyes": {
+    "tags": [
+      "Eye",
+      "Infrared",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Infrared Heat Pit Eyes are deep, obsidian orbs with a flickering red glow, resembling the pits of an ancient volcano. Their surface is cold to the touch, yet emanates an eerie warmth that can detect the slightest variation in body heat, allowing the bearer to see through darkness and fog with unsettling clarity."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Motion_Tracking_Eyes, with their chiropteran appearance, are large and leathery, resembling the wings of a bat folded inward to form intricate, veined orbs. These eyes pulsate with a dim, red glow, continuously scanning the surroundings to detect the slightest movement, granting the wielder unparalleled vigilance and the ability to strike from shadows."
+  },
+  "Wide_Angle_Scan_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide_Angle",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the sockets are a pair of large, chiropteran eyes, their surface a shimmering obsidian that reflects the faintest light with an eerie glow. The eyes possess an uncanny ability to survey their surroundings with a 360-degree field of vision, picking up even the slightest movements and shadows in the periphery, granting a sense of omnipresence in the dark."
+  },
+  "Deep_Cave_Sensitive_Eyes": {
+    "tags": [
+      "Eye",
+      "Cave",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Deep_Cave_Sensitive_Eyes are large, luminous orbs that pulse with an eerie glow, perfectly adapted to pierce through the darkest recesses of underground caverns. Covered in a fine layer of sensory hairs that twitch and quiver at even the slightest movement, these eyes grant an unparalleled vision and awareness in the depths of the earth."
+  },
+  "Phosphorescent_Glow_Eyes": {
+    "tags": [
+      "Eye",
+      "Phosphorescent",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Phosphorescent_Glow_Eyes emit an eerie, glowing luminescence in the dark, their irises resembling the bioluminescent wings of chiropteran creatures, casting an unsettling, blue-green light that can instill fear in the hearts of those who meet its gaze, while subtly hindering the wearer's ability to move silently."
+  },
+  "Compound_Multi_Facet_Eyes": {
+    "tags": [
+      "Eye",
+      "Compound",
+      "Chiropteran",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Compound_Multi_Facet_Eyes, a chiropteran mutation, are a cluster of dozens of small, glistening orbs arranged in a chitinous casing, each facet reflecting the world in a unique, distorted manner. Their keen and multifaceted gaze pierces the darkness, allowing the wielder to spot and evade threats with unnerving precision."
+  },
+  "Constricted_Pupil_Eyes": {
+    "tags": [
+      "Eye",
+      "Constricted_Pupil",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Constricted_Pupil_Eyes, with their narrow, slit-like pupils, grant an unnerving, hawk-like gaze that pierces through the darkest of shadows, their chiropteran nature bestowing a keen sense of sight that sharpens perception to an almost unnatural degree."
+  },
+  "Reflective_Mirror_Eyes": {
+    "tags": [
+      "Eye",
+      "Reflective",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Reflective_Mirror_Eyes resemble a pair of large, black chiropteran eyes with an eerie, reflective surface that mirrors the surroundings, enhancing the wearer's vision to peer into the darkest corners while also making them slightly more noticeable to keen observers."
+  }
+}

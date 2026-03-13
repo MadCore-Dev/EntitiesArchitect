@@ -1,0 +1,298 @@
+{
+  "Fire_Sulfur_Nares": {
+    "tags": [
+      "Nose",
+      "Fire",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Intimidate"
+    ],
+    "description": "The Fire_Sulfur_Nares is a twisted, horned appendage that pulsates with an eerie, orange glow, emitting a constant low growl that can be felt as much as heard. Its surface is slick and warm to the touch, with a texture like molten metal, and it grants the bearer an unnerving, fiery breath that can startle foes and clear a path through thick smoke or fog."
+  },
+  "Balor_Inferno_Nares": {
+    "tags": [
+      "Nose",
+      "Balor",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Fear"
+    ],
+    "description": "The Balor Inferno Nares are twin flames that flicker within the nostrils, casting an eerie glow that dances with malevolent intent. The nostrils themselves are lined with razor-sharp edges that seem to slice the air, and the heat emanating from them is palpable, causing the air to shimmer."
+  },
+  "Succubus_Seductive_Nares": {
+    "tags": [
+      "Nose",
+      "Charm",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm"
+    ],
+    "description": "The Succubus_Seductive_Nares is a delicate yet sinister appendage, with a slender, curved shape that seems to pulse with an otherworldly allure. Its surface is warm and slightly moist, radiating a subtle, intoxicating fragrance that entices and enchants those who draw near, making it impossible to look away or resist its beguiling influence."
+  },
+  "Ice_Devil_Crystal_Nares": {
+    "tags": [
+      "Nose",
+      "Ice",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Slow"
+    ],
+    "description": "Embedded within the frigid, crystalline structure of the Ice_Devil_Crystal_Nares is a pair of delicate, translucent horns that pulse with a chilling blue light, granting the wearer an acute sense of smell and the ability to slow their enemies with a mere exhale of frost."
+  },
+  "Bone_Devil_Hollow_Nares": {
+    "tags": [
+      "Nose",
+      "Bone",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Bone_Devil_Hollow_Nares is a jagged, hollow nasal structure carved from the bleached bones of a malevolent demonkin, its sharp edges and eerie emptiness exuding an aura of dread. When worn, it enhances the wearer's ability to detect and resist the subtle signs of disease and corruption, while also granting a chilling presence that instills fear in the hearts of the weak-minded."
+  },
+  "Shadow_Void_Nares": {
+    "tags": [
+      "Nose",
+      "Shadow",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Nares is a dark, chittering cavity that seems to suck in all light and sound, its interior a swirling abyss of endless night. When inhaled through this nasal void, the air tastes of ancient secrets and forgotten shadows, granting the bearer an eerie awareness of lurking threats and the ability to vanish from sight in moments."
+  },
+  "Acid_Demon_Corroded_Nares": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Corrosion"
+    ],
+    "description": "The Acid Demon-Corroded Nares are twisted, dripping appendages that constantly secrete a faint, acrid vapor, capable of melting metal and flesh with prolonged exposure. Each inhalation grants an uncanny ability to detect even the faintest traces of creatures and objects, while the noxious environment around them renders them more resilient to the corrosive fluids of their demonkin brethren."
+  },
+  "Plague_Infested_Nares": {
+    "tags": [
+      "Nose",
+      "Plague",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Disease Carrier"
+    ],
+    "description": "The Plague-Infested Nares are ghastly, swollen nostrils pulsating with a sickly green aura, exuding a noxious vapor that can infect the air with a virulent disease. The sheer stench is overwhelming, capable of detecting and identifying any scent with unnerving precision."
+  },
+  "Marilith_Forked_Nares": {
+    "tags": [
+      "Nose",
+      "Marilith",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Marilith_Forked_Nares is a grotesque and bifurcated nasal structure, pulsating with an eerie green glow that casts an unsettling aura. Its surface is slick and cold to the touch, and it grants the bearer an unparalleled sense of smell and an uncanny ability to track scents with pinpoint accuracy."
+  },
+  "Imp_Sharp_Nares": {
+    "tags": [
+      "Nose",
+      "Imp",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Imp_Sharp_Nares, a delicate yet sinister appendage, pulsates with an otherworldly glow as it twitches\u654f\u9510\u5730\u611f\u77e5\u5468\u56f4\u7684\u6c14\u606f\uff0c\u5b83\u7684\u5c16\u9510\u9f3b\u5b54\u80fd\u591f\u6355\u6349\u5230\u6700\u7ec6\u5fae\u7684\u6c14\u5473\uff0c\u4ee4\u4eba\u6bdb\u9aa8\u609a\u7136\u7684\u89e6\u611f\u900f\u9732\u51fa\u5176\u6076\u9b54\u8840\u7edf\u7684\u4e0d\u51e1\u3002"
+  },
+  "Djinn_Spirit_Nares": {
+    "tags": [
+      "Nose",
+      "Djinn",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Djinn_Spirit_Nares is a delicate yet imposing structure, with translucent membranes that shimmer in the light and pulsate with an otherworldly energy, granting the wielder an acute sense of smell that can discern the faintest traces of magic and track the direction of powerful auras with eerie precision."
+  },
+  "Archdevil_Ancient_Nares": {
+    "tags": [
+      "Nose",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking",
+      "Tracking",
+      "Magic Resistance"
+    ],
+    "description": "The Archdevil_Ancient_Nares, a relic of infernal heritage, manifests as a pair of obsidian horns curled inward to form a cavity lined with mucus membranes of shimmering gold, capable of detecting the faintest of scents and the most subtle of magical traces, while granting its bearer an uncanny ability to track and resist fire-based attacks."
+  }
+}

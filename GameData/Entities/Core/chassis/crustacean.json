@@ -1,0 +1,511 @@
+{
+  "Decapod_Crab_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Decapod",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms",
+      "arm_chela_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sidewalk",
+      "Natural Armor"
+    ],
+    "description": "The Decapod Crab Core is a dense, chitinous mass pulsating with a dark, viscous fluid, its surface etched with intricate ridges and grooves that reflect an eerie, bioluminescent glow. When integrated, it grants the user a tough, armored exoskeleton that provides significant protection, though it feels cumbersome and slightly hinders agility."
+  },
+  "Large_Lobster_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lobster",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms",
+      "arm_chela_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "The Large_Lobster_Frame is a massive, segmented exoskeleton that clacks and shifts with mechanical precision, providing an impenetrable shield of chitin and granting the wielder an intimidating presence and the fluid grace to navigate underwater realms with ease."
+  },
+  "Mantis_Shrimp_Strike_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Mantis_Shrimp",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms",
+      "arm_chela_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Cavitation Strike"
+    ],
+    "description": "Embedded within the robust exoskeleton, the Mantis_Shrimp_Strike_Core pulsates with an eerie, bioluminescent glow, its surface hard and segmented like the shell of its namesake, brimming with latent power that enhances both offensive might and agility, ready to unleash devastating blows that cut through the air with a sonic boom."
+  },
+  "Sessile_Barnacle_Colony_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sessile",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "integument": "Core/integument"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Regeneration"
+    ],
+    "description": "The Sessile_Barnacle_Colony_Core is a pulsating, semi-translucent mass embedded within the creature\u2019s shell, radiating an eerie, bioluminescent glow that flickers with the rhythm of the tides. It feels cold and gelatinous to the touch, with tendrils of living, mineral-like tissue that anchor it firmly to the creature's exoskeleton, enhancing its resilience and healing capabilities at the cost of its mobility."
+  },
+  "Isopod_Armoured_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Isopod",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Curl Defense"
+    ],
+    "description": "The Isopod_Armoured_Core is a dense, chitinous lump pulsing with inner light, its surface etched with intricate patterns that shimmer in the dim light. When held, it feels surprisingly warm and resilient, as if it could withstand any assault."
+  },
+  "Amphipod_Flexible_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Amphipod",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hop",
+      "Swim"
+    ],
+    "description": "The Amphipod_Flexible_Core is a supple, segmented organ that pulsates with an otherworldly glow, allowing for fluid movement on both land and water. Its chitinous exterior is both hard and flexible, granting incredible resilience and speed, while its inner workings hum with latent energy, enhancing the agility and dexterity of its host."
+  },
+  "Giant_Crab_Bulk_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms",
+      "arm_chela_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Trample",
+      "Body Slam"
+    ],
+    "description": "The Giant_Crab_Bulk_Core is a monolithic, chitinous mass that pulsates with an eerie glow, resembling the heart of a colossal crustacean. Its surface is rough and jagged, providing an innate barrier against harm, while its sheer bulk grants the bearer immense strength and resilience, though at the cost of agility."
+  },
+  "Hermit_Crab_Hybrid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Hermit",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard"
+    ],
+    "description": "Embedded within the creature\u2019s rugged exoskeleton, the Hermit_Crab_Hybrid_Core pulses with an otherworldly glow, its crystalline segments seamlessly integrating with the host\u2019s chassis to enhance defensive capabilities, offering a resilient barrier that deflects harm while subtly increasing the host's agility for swift evasion."
+  },
+  "Shrimp_Dart_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Shrimp",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Swim"
+    ],
+    "description": "Embedded within the sleek, translucent exoskeleton of the Shrimp_Dart_Core is a pulsating, iridescent organ that glimmers with the fluid grace of underwater currents. Its surface is cold and slightly viscous to the touch, granting the bearer an uncanny agility and swift movement, though the trade-off is a slight vulnerability to the world's harsher elements."
+  },
+  "Deep_Sea_Armoured_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Deep_Sea",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "leg_mid_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Armoured_Core is a massive, calcified heart encased in iridescent, chitinous plates that shimmer with the bioluminescence of the abyssal depths, providing an innate protection that feels both ancient and impenetrable."
+  },
+  "Aquatic_Krill_Swarm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Krill",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swarm",
+      "Swim"
+    ],
+    "description": "The Aquatic_Krill_Swarm_Core is a pulsating, gelatinous mass that thrums with the collective consciousness of countless krill, each translucent body contributing to a shimmering, iridescent glow that shifts with the rhythm of the ocean's currents. When integrated into a chassis, the core's innate swarm behavior grants fluid, almost supernatural movement through water, while its agile nature enhances the wearer's reflexes and reaction times."
+  },
+  "Stalked_Eye_Prawn_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Prawn",
+      "Crustacean"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_mid_left": "Appendages/legs",
+      "arm_chela_left": "Appendages/arms",
+      "arm_chela_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Keen Sight"
+    ],
+    "description": "Embedded within the rugged exoskeleton of a colossal prawn, the Stalked_Eye_Prawn_Core pulses with an eerie bioluminescence, its multifaceted eyes rotating independently to scan the dark abyss with uncanny precision, while its sleek, hydrodynamic form allows it to glide through water with supernatural grace and agility."
+  }
+}

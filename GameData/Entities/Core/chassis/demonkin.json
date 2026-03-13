@@ -1,0 +1,583 @@
+{
+  "Pit_Fiend_Titan_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Pit_Fiend",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Flight",
+      "Intimidate",
+      "Fear",
+      "Natural Armor"
+    ],
+    "description": "The Pit Fiend Titan Core is a pulsating, molten orb of dark crimson and obsidian, swirling with malevolent energy and flickering flames. Its presence is oppressive, radiating an aura of dread and intense heat that sears the air, while its surface shimmers with impenetrable layers of demonic resilience and arcane power."
+  },
+  "Succubus_Incubus_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Succubus",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Flight",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "The Succubus_Incubus_Core radiates an otherworldly allure, its pulsating heart of dark energy beating with a rhythm that thrums directly into the soul, granting its bearer the grace and seductive power of the succubi and incubi, along with the terrifying ability to paralyze and drain life force from its victims."
+  },
+  "Balor_Inferno_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Balor",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Flight",
+      "Fear",
+      "Intimidate",
+      "Earthquake"
+    ],
+    "description": "The Balor Inferno Core is a pulsating, molten heart of hellfire, its surface etched with arcane runes that glow with an otherworldly crimson light. When wielded, it radiates an aura of searing heat and malevolent power, enhancing the user's strength and resilience while granting them dominion over the infernal flames and the earth beneath their feet."
+  },
+  "Imp_Small_Demonkin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Imp",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Poison",
+      "Ambush",
+      "Invisibility"
+    ],
+    "description": "The Imp_Small_Demonkin_Core glows with an eerie, phosphorescent light, pulsating with malevolent energy that seems to whisper secrets of shadow and deceit. Its surface is slick and cold to the touch, with a texture like fine, sharp scales that reflect the faintest movements, making it nearly impossible to detect in the dark."
+  },
+  "Marilith_Serpent_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Marilith",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "arm_mid_left": "Appendages/arms",
+      "arm_mid_right": "Appendages/arms",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Multi-Strike",
+      "Fear"
+    ],
+    "description": "The Marilith Serpent Core is a writhing, serpentine mass of pulsating veins and shimmering scales, coiled tightly within the creature\u2019s chassis. Its presence exudes an eerie, otherworldly dread, and its surface is slick and cold to the touch, granting the bearer immense strength and agility, alongside the terrifying abilities to constrict foes and ensnare their movements."
+  },
+  "Shadow_Demon_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Shadow",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Drain",
+      "Invisibility",
+      "Fear"
+    ],
+    "description": "The Shadow_Demon_Core is a pulsating, obsidian heart encased in a lattice of dark energy, radiating an aura of dread and malevolence that causes unwavering fear in those who dare to look upon it. Its surface is slick and cold to the touch, and it grants the wielder the ability to blend into the shadows, strike without warning, and drain the life force from their foes."
+  },
+  "Acid_Pool_Demon_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Acid",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare",
+      "Fear"
+    ],
+    "description": "The Acid_Pool_Demon_Core is a pulsating, gelatinous mass that glimmers with an eerie, sickly green light, oozing tendrils of acidic bile that sizzle and hiss upon contact with metal or flesh. Its surface is slick and cold to the touch, causing an immediate sensation of dread and nausea in those who dare to approach it."
+  },
+  "Ice_Devil_Gelugon_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ice_Devil",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Ice Breath",
+      "Natural Armor",
+      "Fear"
+    ],
+    "description": "The Ice_Devil_Gelugon_Core is a pulsating, crystalline heart encased in a sheath of razor-sharp ice, its surface shimmering with arcane frost runes that pulse with a malevolent blue glow. When held, an intense chill permeates the air, and the wielder feels a surge of primal, icy strength coursing through their veins, accompanied by an unsettling whisper of ancient, frozen dread."
+  },
+  "Bone_Devil_Osyluth_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bone_Devil",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Fear",
+      "Flight",
+      "Sting"
+    ],
+    "description": "Embedded deep within the creature's skeletal frame, the Bone_Devil_Osyluth_Core radiates an eerie, pulsating glow, its intricate bone structure humming with malevolent energy, granting the wielder resilience against physical and spiritual harm, while its sharp, venomous spines ready to inject paralyzing toxins into any who dare to challenge it."
+  },
+  "Djinn_Spirit_Demonkin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Djinn",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tail_main": "Appendages/tails",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Charm",
+      "Gust",
+      "Hover"
+    ],
+    "description": "The Djinn_Spirit_Demonkin_Core pulses with an otherworldly blue flame, swirling and coiling like a miniature storm within a transparent, obsidian sphere. Its touch is both scorching and chilling, leaving a lingering sensation of disorientation and allure, making those who grasp it feel a sudden surge of desire to obey and serve the wielder."
+  },
+  "Plague_Demon_Bebelith_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plague",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swarm",
+      "Ensnare",
+      "Fear"
+    ],
+    "description": "The Plague_Demon_Bebelith_Core is a pulsating, miasmic orb that radiates a sickly green glow, oozing noxious fumes that cause a creeping chill and nausea. Its surface is slick and cold to the touch, with tendrils that writhe and entwine, ready to ensnare and spread its virulent horrors."
+  },
+  "Archdevil_Ancient_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "meat_group": [
+      "Demon_Flesh"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Charm",
+      "Intimidate",
+      "Flight",
+      "Magic Resistance",
+      "Fear"
+    ],
+    "description": "Embedded within the beastly form of the Archdevil, the Ancient Core glows with an infernal radiance, pulsating with malevolent energy that crackles with arcane fire; its touch alone instills both fear and awe, imbuing the bearer with the might and treachery of the underworld."
+  }
+}

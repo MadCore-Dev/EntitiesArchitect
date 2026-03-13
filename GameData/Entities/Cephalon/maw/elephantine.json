@@ -1,0 +1,247 @@
+{
+  "Broad_Grinding_Molar_Maw": {
+    "tags": [
+      "Maw",
+      "Grinding",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch"
+    ],
+    "description": "The Broad Grinding Molar Maw is a colossal, flattened structure of ivory and steel, its surface covered in deep grooves and ridges that hum with the promise of crushing power. When engaged, it feels like a mountainous pressure bearing down, capable of grinding even the hardest stone into dust with a single, inexorable motion."
+  },
+  "Tusked_Gore_Maw": {
+    "tags": [
+      "Maw",
+      "Tusks",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Charge"
+    ],
+    "description": "The Tusked Gore Maw is a grotesque, elephantine appendage with razor-sharp tusks that glint with a sinister sheen, capable of rending flesh and bone alike. When in possession of this maw, a surge of primal strength courses through the wielder, granting them the ability to unleash a devastating gore attack and barrel through foes with overwhelming force."
+  },
+  "Mammoth_Curved_Tusk_Maw": {
+    "tags": [
+      "Maw",
+      "Curved_Tusks",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Slam"
+    ],
+    "description": "The Mammoth_Curved_Tusk_Maw is a fearsome visage, with massive curved tusks jutting from the sides of an elephantine maw bristling with jagged, bloodstained teeth, exuding an aura of primal power and unyielding strength."
+  },
+  "War_Elephant_Serrated_Maw": {
+    "tags": [
+      "Maw",
+      "War",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Intimidate"
+    ],
+    "description": "The War_Elephant_Serrated_Maw is a gaping, obsidian-black chasm lined with razor-sharp ivory tusks that glisten with a sinister sheen, capable of reducing even the mightiest of foes to quivering prey, its presence alone sending a shiver of dread through the hearts of those who dare approach."
+  },
+  "Undead_Rotting_Jaw": {
+    "tags": [
+      "Maw",
+      "Undead",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Fear"
+    ],
+    "description": "The Undead_Rotting_Jaw is a grotesque assembly of decayed ivory and gnashing, razor-sharp fangs, the latter dripping with a viscous, black venom that sizzles upon contact with flesh. The jaw moves with an unnatural, unsettling autonomy, capable of instilling an overwhelming sense of dread in those who dare to meet its gaze or feel its breath."
+  },
+  "Trunk_Suction_Combined_Maw": {
+    "tags": [
+      "Maw",
+      "Trunk",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Suction Grip"
+    ],
+    "description": "The Trunk_Suction_Combined_Maw is a grotesque amalgamation of a grotesque elephantine trunk terminating in a voracious, churning maw, capable of ensnaring foes with a serpentine grip and sucking them in with irresistible force, enhancing both reach and raw power."
+  },
+  "Herbivore_Flat_Grinder_Maw": {
+    "tags": [
+      "Maw",
+      "Herbivore",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Herbivore_Flat_Grinder_Maw is a vast, flat expanse of interlocking teeth and grinding plates, reminiscent of an ancient elephant's jaw, capable of reducing the toughest vegetation to pulp with a single crunch, providing a robust boost to constitution as it anchors the sturdy frame of its bearer."
+  },
+  "Bioluminescent_Maw": {
+    "tags": [
+      "Maw",
+      "Bioluminescent",
+      "Elephantine",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Maw is a gaping, cavernous mouth with rows of razor-sharp, iridescent teeth that glow with an eerie, pulsating light, casting an unsettling glow across the surroundings as it emits a low, hypnotic hum capable of paralyzing prey."
+  },
+  "Acid_Spitting_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spitting_Maw is a grotesque, gaping orifice set high on a thick, muscular neck, lined with jagged, yellowed tusks that resemble those of an elephant. When agitated, it emits a noxious, greenish mist, and with a violent gurgle, it spews a corrosive stream capable of melting through metal and flesh."
+  },
+  "Giant_Mammoth_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Giant_Fangs",
+      "Elephantine",
+      "Titan"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Crunch",
+      "Intimidate"
+    ],
+    "description": "The Giant_Mammoth_Fang_Maw is a gaping maw lined with colossal, razor-sharp ivory tusks that curve menacingly inward, capable of crushing bones and rending flesh with a single snap. Its sheer size and the glint of malevolent intent in its depths are enough to strike terror into the hearts of the bravest warriors, while the rough texture and cold, damp interior provide a visceral reminder of its fearsome nature."
+  },
+  "Desert_Dry_Jaw_Maw": {
+    "tags": [
+      "Maw",
+      "Desert",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Desert_Dry_Jaw_Maw is a massive, sand-encrusted maw reminiscent of an ancient elephant, its teeth worn and jagged from millennia of gnashing against the unforgiving desert sands, granting the bearer an indomitable will to endure the harshest conditions."
+  },
+  "Musth_Frothy_Rage_Maw": {
+    "tags": [
+      "Maw",
+      "Musth",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Intimidate"
+    ],
+    "description": "The Musth Frothy Rage Maw is a grotesque amalgamation of ivory tusks and chiseled ebony jaws, pulsating with an aura of primal fury and dominance. Its surface is slick with a layer of frothy saliva that crackles with latent magical energy, ready to unleash a torrent of bloodlust upon foes, while the deep, resonant growl emanating from within can strike terror into the hearts of the bravest warriors."
+  }
+}

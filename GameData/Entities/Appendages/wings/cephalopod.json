@@ -1,0 +1,313 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Glide_Wings are a translucent, bioluminescent appendage that flares out from a cephalopod-like head, resembling delicate veils of moonlit water. These wings, soft to the touch yet sturdy, allow for silent gliding through the air, enhancing the wearer's agility and evasion in the shadows."
+  },
+  "Insectoid_Chitin_Wings": {
+    "tags": [
+      "Wings",
+      "Insectoid",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Insectoid_Chitin_Wings are a marvel of dark bioengineering, with sleek, iridescent chitin that shifts colors like a cephalopod's skin, granting the user the ability to hover and execute aerial acrobatics with unmatched grace and agility."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Emerging from a grotesque fusion of avian and cephalopod anatomy, the Feathered_Mutant_Wings are a macabre spectacle of membranous webbing and sharp, iridescent feathers that shift hues like a chameleon's skin, granting the bearer an uncanny agility and the ability to evade danger with near supernatural grace."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are a sickly gray, almost translucent, with a leathery texture that seems to pulse faintly in the dark. They unfurl silently, wrapping the user in a cloak of shadow as they glide through the air with eerie grace, enhancing their agility and allowing them to move undetected through the night sky."
+  },
+  "Gossamer_Float_Wings": {
+    "tags": [
+      "Wings",
+      "Gossamer",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Hover"
+    ],
+    "description": "The Gossamer_Float_Wings are delicate and ethereal, resembling the fine filaments of a cephalopod's tentacle but arranged in intricate patterns that form diaphanous wings. These wings allow for graceful gliding and hovering, offering a serene yet eerie presence in the air, while the wearer experiences a heightened sense of agility and evasion."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "Dark_Stealth_Wings are translucent, iridescent membranes that shimmer with the color of a moonlit ocean, their edges frilled like the arms of a deep-sea octopus. They grant silent, gliding flight and the ability to ambush prey from the shadows, their cephalopod-like texture making them nearly undetectable against rocky outcroppings and shadowy crevices."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Thermal_Soaring_Wings are a surreal amalgamation of membranous cephalopod fins and iridescent feathers, their edges pulsating with a warm, ethereal light that allows the bearer to ascend into the sky with effortless grace, while their innate fluidity enhances agility and evasion."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are a bizarre fusion of membranous hollow wings, reminiscent of a giant squid's fins, allowing for silent gliding through the night sky. Light yet sturdy, they pulsate with an eerie bioluminescence, granting the wielder fluid aerial maneuvers at the cost of a slight vulnerability to physical strain."
+  },
+  "Reinforced_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Pounce"
+    ],
+    "description": "Reinforced_Strike_Wings are dark, chitinous appendages that unfurl from a central cephalopod-like core, shimmering with an iridescent sheen as they catch the light. Each wing is lined with sharp, retractable tendrils that extend during a strike, providing a devastating aerial assault while granting the bearer unparalleled agility and strength in the sky."
+  },
+  "Extended_Patagium_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Extended_Patagium_Wings are an eerie blend of membranous flaps stretched between elongated, bony structures, reminiscent of a cephalopod's tentacles, allowing for silent glides through the night sky, enhancing the wearer's agility and evasion skills."
+  },
+  "Vestigial_Stub_Wings": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's shoulders are small, translucent stubs of wings, more akin to the delicate fins of a cephalopod than the powerful flappers of an avian. These vestigial remnants offer a subtle, almost imperceptible grace, granting the user a slight edge in dodging attacks."
+  },
+  "Chromatophore_Display_Wings": {
+    "tags": [
+      "Wings",
+      "Chromatophore",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Paralyze"
+    ],
+    "description": "Emerging from the creature\u2019s back, these iridescent wings shimmer with an ever-changing array of colors, mimicking the environment with eerie precision. When spread wide, they pulse with a hypnotic rhythm, capable of paralyzing prey with a glance, while their inherent camouflage ability allows the creature to vanish into thin air, blending seamlessly with the shadows."
+  }
+}

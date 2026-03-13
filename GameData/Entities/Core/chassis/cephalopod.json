@@ -1,0 +1,567 @@
+{
+  "Benthic_Octopid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Benthic",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Grapple",
+      "Squeeze"
+    ],
+    "description": "The Benthic_Octopid_Core is a pulsating, iridescent organ that appears like a mass of intertwined, semi-translucent tentacles, each one tinged with hues of deep ocean blues and purples, capable of flattening and blending into surroundings with eerie precision, granting its wielder unparalleled stealth and the ability to grapple and squeeze foes with tentacle-like appendages."
+  },
+  "Pelagic_Squid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Pelagic",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles",
+      "arm_feeding_1": "Appendages/tentacles",
+      "arm_feeding_2": "Appendages/tentacles",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Ink Cloud",
+      "Swim"
+    ],
+    "description": "The Pelagic_Squid_Core is a pulsating, iridescent mass of neural tissue and ink sacs, its surface slick and cool to the touch, capable of secreting an inky darkness that can obscure vision and senses."
+  },
+  "Nautiloid_Shell_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Nautiloid",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard",
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "The Nautiloid_Shell_Core is a sleek, spiraled mass of iridescent, chitinous material that pulses with an eerie bioluminescence, granting the wielder an impenetrable Shell Guard and a graceful, fluid movement beneath the waves, though its weighty presence subtly slows reactions on the surface."
+  },
+  "Cuttlefish_Camouflage_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Cuttlefish",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Paralyze",
+      "Ink Cloud"
+    ],
+    "description": "Embedded within the creature's sleek, chitinous exoskeleton, the Cuttlefish_Camouflage_Core pulses with iridescent hues that mimic its surroundings with eerie precision. Its surface is cool and slick to the touch, and when activated, it emits a faint, mesmerizing glow that enhances the creature's ability to vanish into the shadows or unleash a disorienting cloud of ink."
+  },
+  "Giant_Colossal_Squid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles",
+      "arm_feeding_1": "Appendages/tentacles",
+      "arm_feeding_2": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Intimidate"
+    ],
+    "description": "The Giant_Colossal_Squid_Core pulsates with an otherworldly luminescence, its gelatinous surface dotted with bioluminescent organs that flicker like dying stars. Its sheer mass and density are overwhelming, exuding an aura of primal fear and untamed power that makes even the bravest adventurers hesitate."
+  },
+  "Deep_Sea_Vampire_Squid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Deep_Sea",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bioluminescence",
+      "Deep Dive",
+      "Fear"
+    ],
+    "description": "The Deep_Sea_Vampire_Squid_Core is a pulsating, ink-black mass with tendrils that seem to writhe with a life of their own, emitting an eerie, cold light that flickers like the last breath of a dying star. Its presence is suffocating, a pressure that curls around the mind, whispering of the abyss and the terror that lurks within the darkest depths of the ocean."
+  },
+  "Mimic_Octopus_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Mimic",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Mimic",
+      "Deception"
+    ],
+    "description": "The Mimic_Octopus_Core is a pulsating, gelatinous mass that undulates with the grace of a masterful shapeshifter, its surface shifting and changing to reflect any texture or pattern it encounters, enhancing the wearer\u2019s ability to blend into their surroundings and deceive their enemies."
+  },
+  "Jet_Torpedo_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Torpedo",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Sprint",
+      "Ink Cloud"
+    ],
+    "description": "The Jet_Torpedo_Core is a sleek, gelatinous mass pulsating with iridescent blues and greens, its surface smooth and cool to the touch, capable of propelling its host at breakneck speeds through water or on land, leaving trails of obscuring ink to cloak its movements."
+  },
+  "Blue_Ringed_Venomous_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Venomous",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "Venom_Gland",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Aposematic Warning",
+      "Poison",
+      "Camouflage"
+    ],
+    "description": "Embedded within the creature's sleek, cephalopod-like body, the Blue-Ringed Venomous Core pulsates with a mesmerizing, bioluminescent glow, its surface covered in intricate, blue-hued rings that flare vividly when the creature feels threatened, simultaneously emitting a paralyzing venom and blending into the shadows."
+  },
+  "Argonaut_Paper_Nautilus_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Argonaut",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "Chitin",
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard",
+      "Swim"
+    ],
+    "description": "The Argonaut_Paper_Nautilus_Core is a translucent, gelatinous mass pulsating with bioluminescent hues, resembling a cross-section of a mysterious deep-sea creature. It secretes a delicate, yet resilient, chitinous shell around it, providing a natural armor that seems to shift and grow with the core's movements, enhancing the wearer's agility and constitution in aquatic environments."
+  },
+  "Octopus_Vulgaris_Standard_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Standard",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles",
+      "arm_tentacle_5": "Appendages/tentacles",
+      "arm_tentacle_6": "Appendages/tentacles",
+      "arm_tentacle_7": "Appendages/tentacles",
+      "arm_tentacle_8": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Grapple",
+      "Ink Cloud"
+    ],
+    "description": "Embedded within the gelatinous, pulsating mass of the Octopus Vulgaris Standard Core is a mesmerizing array of chromatophores that shift and blend with the surroundings, enhancing the wearer\u2019s ability to blend into the shadows. The core's slimy exterior is both repulsive and alluring, secreting a viscous fluid that can be manipulated to create a disorienting ink cloud, while its internal structure grants an innate sense of fluid movement and heightened cunning."
+  },
+  "Spirula_Deep_Micro_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Micro",
+      "Cephalopod"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_tentacle_1": "Appendages/tentacles",
+      "arm_tentacle_2": "Appendages/tentacles",
+      "arm_tentacle_3": "Appendages/tentacles",
+      "arm_tentacle_4": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Sprint"
+    ],
+    "description": "The Spirula_Deep_Micro_Core is a sleek, iridescent orb pulsating with bioluminescent hues, seamlessly blending into the shadows as it grants the wielder unparalleled agility and the ability to vanish from sight, while subtly shrinking their profile to slip through the tightest of spaces."
+  }
+}

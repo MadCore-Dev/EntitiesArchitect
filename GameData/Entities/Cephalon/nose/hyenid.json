@@ -1,0 +1,283 @@
+{
+  "Pack_Tracking_Nares": {
+    "tags": [
+      "Nose",
+      "Pack",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Pack Tactics",
+      "Tracking"
+    ],
+    "description": "The Pack_Tracking_Nares, a sleek and sensitive organ, extends from a hyenid snout, its nostrils quivering with an uncanny ability to discern individual scents through a cacophony of odors. Each breath it takes pulls in a symphony of information, guiding its bearer through the darkest woods or across the most barren wastelands with unwavering precision."
+  },
+  "Carrion_Scent_Nares": {
+    "tags": [
+      "Nose",
+      "Carrion",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Scavenger",
+      "Tracking"
+    ],
+    "description": "The Carrion_Scent_Nares are a pair of ebony, slit-like nostrils that quiver and twitch constantly, their moist interiors glistening with a thin layer of mucus that traps and identifies the faintest traces of carrion and rot. With these nares, one can track the most subtle of death's scents across miles of desolate wilderness, their heightened perception cutting through the stench of disease and decay to reveal hidden truths."
+  },
+  "Blood_Trace_Nares": {
+    "tags": [
+      "Nose",
+      "Blood_Trace",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Blood_Trace_Nares are slender, black nostrils that quiver with an otherworldly sensitivity, capable of picking up the faintest traces of blood in the air. They grant the wielder an uncanny ability to track even the most elusive prey across vast, silent expanses, with each breath drawing a vivid map of recent carnage and movement."
+  },
+  "Seismic_Infrasound_Nares": {
+    "tags": [
+      "Nose",
+      "Seismic",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Seismic_Infrasound_Nares is a dark and twisted organ, pulsing with an otherworldly energy that vibrates through the earth itself. Its surface is covered in fine, sensory hairs that quiver and twitch in response to the slightest tremor, allowing the wielder to sense and track movement underground with eerie precision."
+  },
+  "Disease_Immune_Nares": {
+    "tags": [
+      "Nose",
+      "Disease",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Disease_Immune_Nares are a pair of robust and resilient nostrils, lined with a thick, mucus-like membrane that glimmers with a faint, sickly green hue. They pulsate subtly, filtering and neutralizing airborne pathogens with an efficiency that grants the bearer a significant resistance to diseases, while also enhancing their acute sense of smell to detect even the faintest of scents."
+  },
+  "Desert_Waterfinding_Nares": {
+    "tags": [
+      "Nose",
+      "Desert",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Desert_Waterfinding_Nares are elongated and sharp, resembling the snout of a hyena but with a shimmering, iridescent membrane that pulses subtly in the heat, guiding the bearer towards hidden sources of water and granting unparalleled tracking abilities through scent alone."
+  },
+  "Undead_Rot_Nares": {
+    "tags": [
+      "Nose",
+      "Undead",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Scavenger"
+    ],
+    "description": "The Undead_Rot_Nares is a putrid, decayed nose with translucent, grey flesh hanging in tattered strips, revealing glimpses of the blackened bone beneath. It pulsates with an eerie green light, emitting a foul stench that can detect the faintest traces of carrion and rot, yet it grants an immunity to the diseases that linger in the decaying flesh of the undead world."
+  },
+  "Electrosensory_Nasal_Pit": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the snout, these dark, chitinous pits pulse with a faint, bioluminescent glow, their surface rippling in response to the slightest electrical field, granting the creature an uncanny awareness of its surroundings even in the darkest, most obscured environments."
+  },
+  "Pheromone_Social_Nares": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Pack Tactics"
+    ],
+    "description": "The Pheromone_Social_Nares, a pair of intricate nasal organs, pulse with a vibrant, pulsating hue, exuding a complex array of pheromones that manipulate the social dynamics of nearby creatures, enhancing one's ability to sense and influence the pack around them."
+  },
+  "Aardwolf_Termite_Nares": {
+    "tags": [
+      "Nose",
+      "Aardwolf",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Aardwolf_Termite_Nares, a gnarled and sensitive organ, pulsates with an otherworldly luminescence, its intricate network of blood vessels and scent receptors allowing for an unparalleled detection of even the faintest traces of prey or predator, enhancing both survival instincts and hunting prowess in the darkest of environments."
+  },
+  "Venomous_Acid_Nares": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Venomous_Acid_Nares is a grotesque appendage, with two long, serpentine nostrils that drip with a sizzling, green acid capable of dissolving flesh and bone. The tips of these nostrils are lined with tiny, sharp teeth that can spray the corrosive liquid with deadly accuracy, while their presence grants an eerie, heightened sense of awareness to the wielder."
+  },
+  "Night_Hunter_Nares": {
+    "tags": [
+      "Nose",
+      "Night_Hunter",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush",
+      "Tracking"
+    ],
+    "description": "The Night_Hunter_Nares are a pair of slender, elongated nostrils with sharp, upward-facing slits, exuding an aura of silent vigilance. Their surface is cold to the touch, almost metallic, and they twitch and flare subtly, capturing even the faintest scents in the darkest night, allowing for unparalleled tracking and ambush skills."
+  }
+}

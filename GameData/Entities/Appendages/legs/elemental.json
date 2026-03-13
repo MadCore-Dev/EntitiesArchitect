@@ -1,0 +1,328 @@
+{
+  "Fire_Stomp_Legs": {
+    "tags": [
+      "Legs",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Immolate"
+    ],
+    "description": "Enormous and menacing, the Fire Stomp Legs are encased in shimmering scales that shift between the hues of molten lava and smoldering embers, each step sending shockwaves of heat and flames that ignite anything in their path."
+  },
+  "Earth_Stomp_Legs": {
+    "tags": [
+      "Legs",
+      "Earth",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Stability"
+    ],
+    "description": "Thick and powerful, the Earth Stomp Legs are covered in rough, rocky scales that pulse with the heartbeat of the earth itself, granting the user immense strength and the ability to shake the ground with a single step."
+  },
+  "Lava_Magma_Legs": {
+    "tags": [
+      "Legs",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Immolate"
+    ],
+    "description": "The Lava_Magma_Legs are massive appendages covered in jagged, glowing red rock that pulsates with intense heat, each step sending tremors through the ground and leaving trails of molten lava in their wake."
+  },
+  "Ice_Crystal_Legs": {
+    "tags": [
+      "Legs",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Slow"
+    ],
+    "description": "Beneath the frostbitten earth, Ice Crystal Legs shimmer with a cold, ethereal light, their surface cracked like ancient glaciers and etched with intricate frost patterns. Each step sends a chill through the ground, slowing foes in a frosty aura while granting the bearer unparalleled stability and resilience against the biting cold."
+  },
+  "Shadow_Void_Legs": {
+    "tags": [
+      "Legs",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Legs appear as obsidian limbs that seem to pulse with an absence of light, as if the darkness itself is flowing through them. They grant the user an uncanny ability to move through shadows undetected, leaving no trace behind, and enhance their agility to the point where they can strike from the darkness before their enemies even realize they are there."
+  },
+  "Air_Hover_Legs": {
+    "tags": [
+      "Legs",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint"
+    ],
+    "description": "Air_Hover_Legs shimmer with a faint, iridescent glow, their ethereal form barely touching the ground as they allow the bearer to glide effortlessly over any terrain, enabling swift sprints and nimble evasions."
+  },
+  "Water_Fluid_Legs": {
+    "tags": [
+      "Legs",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the depths, the Water_Fluid_Legs appear as translucent limbs that shimmer with the iridescent hues of the ocean's twilight zone, their fluidic nature allowing for seamless movement through water and over treacherous terrain with equal grace."
+  },
+  "Lightning_Sprint_Legs": {
+    "tags": [
+      "Legs",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Dart"
+    ],
+    "description": "The Lightning_Sprint_Legs are slender and sinewy, covered in a faint, electric-blue sheen that crackles with barely contained energy. Each step generates a miniature bolt of lightning that arcs harmlessly to the ground, leaving a scent of ozone in the air."
+  },
+  "Nature_Root_Legs": {
+    "tags": [
+      "Legs",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Stability"
+    ],
+    "description": "Thick, entwined roots sprout from the knees, coiling around the ground with an almost lifelike intensity, granting the user an unwavering stability and the ability to ensnare foes with a mere step, as the earth responds to their command with a mixture of resistance and aggression."
+  },
+  "Time_Phase_Legs": {
+    "tags": [
+      "Legs",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Sprint"
+    ],
+    "description": "The Time_Phase_Legs are spectral appendages, shimmering with an otherworldly glow that shifts through hues of indigo and violet, as if they exist in multiple planes of reality at once. Each step a creature takes with these legs creates a ripple in the fabric of time, allowing them to Blink out of danger or Sprint across distances in the blink of an eye."
+  },
+  "Sand_Dust_Legs": {
+    "tags": [
+      "Legs",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Soft Step"
+    ],
+    "description": "Sand_Dust_Legs are sinuous limbs covered in a fine layer of shifting sand that seems to pulse and flow like living skin, granting the user the uncanny ability to traverse even the loosest terrain with ease and to move silently as if the very grains of sand whispered in agreement."
+  },
+  "Acid_Ooze_Pseudopods": {
+    "tags": [
+      "Legs",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid Ooze Pseudopods are slimy, writhing appendages that secrete a corrosive green acid, capable of dissolving metal and flesh with alarming efficiency. As they move, the pseudopods leave trails of bubbling acid on the ground, and their touch causes an immediate stinging sensation, though the owner gains a significant resistance to acid damage."
+  }
+}

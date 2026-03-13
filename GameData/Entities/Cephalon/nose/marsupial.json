@@ -1,0 +1,265 @@
+{
+  "Wet_Olfactory_Nostril": {
+    "tags": [
+      "Nose",
+      "Wet",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Wet_Olfactory_Nostril is a moist, fleshy protrusion that glistens in the dim light, pulsating with each inhalation to trap and analyze even the faintest scents, granting an uncanny ability to track and discern details in the environment."
+  },
+  "Scent_Gland_Nares": {
+    "tags": [
+      "Nose",
+      "Scent_Gland",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "Embedded within the fleshy, moist nares are intricate scent glands, pulsating with an ethereal glow when activated, allowing the possessor to track even the faintest of scents across vast distances, enhancing charisma and perception."
+  },
+  "Elongated_Tracking_Snout": {
+    "tags": [
+      "Nose",
+      "Elongated",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tracking"
+    ],
+    "description": "The elongated snout is sleek and furrowed, bristling with an acute sense of smell that can pick up the faintest of scents across vast distances, its whiskers twitching with every whisper of the wind, guiding its wearer through even the densest of forests with uncanny precision."
+  },
+  "Broad_Chemoreceptive_Snout": {
+    "tags": [
+      "Nose",
+      "Chemoreceptive",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Broad_Chemoreceptive_Snout is a grotesque yet fascinating appendage, elongated and fleshy with an array of fine, almost translucent whiskers that quiver at the slightest whisper of air, capable of detecting even the faintest traces of scent across vast distances."
+  },
+  "Valved_Aquatic_Nares": {
+    "tags": [
+      "Nose",
+      "Valved",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Valved_Aquatic_Nares is a sleek, flattened organ with a pair of intricate, muscular flaps that can open and close with precise control, allowing the creature to breathe both air and water with ease while minimizing sound and turbulence, perfect for silent underwater navigation and stealthy movements along the surface."
+  },
+  "Pheromone_Organ": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the creature\u2019s snout, this organ pulses with an otherworldly glow, secreting a complex blend of pheromones that not only attract but also reveal the precise location of any target within a mile, enhancing the user's perception and wisdom to unparalleled levels."
+  },
+  "Compact_Fossorial_Nares": {
+    "tags": [
+      "Nose",
+      "Compact",
+      "Marsupial",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Deep within the earth, the Compact Fossorial Nares glisten with a dark, moist sheen, their intricate, compact design allowing for effortless navigation through the narrowest subterranean passages, while the sensitive whiskers and keen sense of smell grant unparalleled awareness to the dangers lurking in the shadows."
+  },
+  "Desert_Moisture_Trap_Nares": {
+    "tags": [
+      "Nose",
+      "Desert",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Desert_Moisture_Trap_Nares is a pair of elongated, prehensile nostrils lined with translucent, mucus-secreting membranes that glisten with captured moisture, allowing the user to retain water and detect the faintest traces of water sources in arid landscapes, enhancing their endurance and survival in harsh desert conditions."
+  },
+  "Carrion_Detect_Nares": {
+    "tags": [
+      "Nose",
+      "Carrion",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "The Carrion_Detect_Nares are small, black, and leathery, with long, sensitive whiskers that twitch constantly, picking up the faintest scents of decay and death from great distances. The nares, when integrated, grant an uncanny ability to detect and track carrion, enhancing the user's perception to notice even the slightest hint of rot or ruin in the air."
+  },
+  "Proboscis_Insert_Snout": {
+    "tags": [
+      "Nose",
+      "Proboscis",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Proboscis_Insert_Snout is a slender, elongated snout tipped with a sensitive, prehensile proboscis that quivers and twitches as it picks up the faintest scents and vibrations from the surrounding environment, enhancing the user\u2019s ability to track and navigate through even the densest underbrush or the most chaotic urban landscapes."
+  },
+  "Star_Nosed_Sensory_Array": {
+    "tags": [
+      "Nose",
+      "Star_Nosed",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Star-Nosed Sensory Array is a bizarre, fleshy appendage sprouting from the center of the forehead, resembling an intricate web of tentacles surrounding a tiny, pulsating black star, granting the user unparalleled perception and the ability to strike from utter darkness."
+  },
+  "Hyperacute_Predator_Nostrils": {
+    "tags": [
+      "Nose",
+      "Predator",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Pounce"
+    ],
+    "description": "The Hyperacute Predator Nostrils, a dark and sleek appendage, flare with each breath, capturing the faintest traces of pheromones and fear from the wind, granting its bearer an uncanny ability to track and pounce upon prey with lethal precision."
+  }
+}

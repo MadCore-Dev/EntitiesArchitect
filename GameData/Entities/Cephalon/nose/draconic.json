@@ -1,0 +1,284 @@
+{
+  "Fire_Plume_Vent_Nares": {
+    "tags": [
+      "Nose",
+      "Fire",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Fire Resist"
+    ],
+    "description": "The Fire_Plume_Vent_Nares is a fearsome, dragon-like nose that flares with a constant, ominous glow, its interior lined with pulsating veins that seem to channel the heat of a thousand furnaces. Each inhalation and exhalation sends a plume of scorching flames into the air, while the nostrils themselves are keenly attuned to the slightest whiff of danger or prey, granting an uncanny awareness to the bearer."
+  },
+  "Frost_Crystal_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Frost",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Embedded deep within the creature's snout, these crystalline nodes shimmer with a pale blue glow, their jagged edges perfectly adapted to detect even the faintest traces of frost and ice, enhancing the creature's ability to track prey through the harshest winter landscapes."
+  },
+  "Acid_Immune_Nares": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Embedded within the sinuous, scaled nostrils, the Acid_Immune_Nares radiate an otherworldly resilience, allowing them to detect the faintest traces of poison or acid with uncanny precision while resisting the corrosive effects of noxious fumes that would dissolve flesh."
+  },
+  "Lightning_Receptive_Nares": {
+    "tags": [
+      "Nose",
+      "Lightning",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Lightning_Receptive_Nares, a serpentine appendage with iridescent scales that shimmer like storm clouds, flickers and crackles with an otherworldly energy whenever a bolt of lightning strikes nearby. Its highly attuned sensory organs grant the bearer an acute sense of smell and the uncanny ability to track the direction of electrical discharges with pinpoint accuracy."
+  },
+  "Shadow_Void_Nares": {
+    "tags": [
+      "Nose",
+      "Shadow",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Nares is a sinister, elongated nostril structure that pulsates with an inky darkness, allowing the bearer to detect even the faintest trace of prey or predator through the murkiest night, while its innate shadow manipulation grants unparalleled concealment in the darkest of shadows."
+  },
+  "Dracolich_Rot_Nares": {
+    "tags": [
+      "Nose",
+      "Undead",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Dracolich_Rot_Nares is a withered, translucent nasal structure, pulsing with an eerie green glow that hints at the necrotic magic binding it. Its surface is slick with a black, viscous fluid that seems to absorb light, and it emits a low, unsettling hiss when disturbed, causing a shiver of dread to crawl up the spine of anyone nearby."
+  },
+  "Sea_Serpent_Salt_Water_Nares": {
+    "tags": [
+      "Nose",
+      "Sea",
+      "Draconic",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Blindsight"
+    ],
+    "description": "The Sea_Serpent_Salt_Water_Nares glimmers with an ethereal blue hue, its scaled surface shifting like waves beneath the moonlight. Each nostril is lined with delicate, translucent membranes that flutter gently even when submerged, allowing the wearer to track scents and movements through murky waters with eerie precision."
+  },
+  "Ancient_Omniscient_Nares": {
+    "tags": [
+      "Nose",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Directional Tracking",
+      "Blindsight"
+    ],
+    "description": "The Ancient_Omniscient_Nares, a relic of forgotten epochs, appears as a sinuous, serpentine structure adorned with scales that shimmer in hues of twilight and starlight. With each inhalation, it fills the air with an ethereal glow, granting the bearer an uncanny ability to track and navigate through even the most treacherous and obscured environments."
+  },
+  "Faerie_Pheromone_Nares": {
+    "tags": [
+      "Nose",
+      "Faerie",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Scent"
+    ],
+    "description": "The Faerie_Pheromone_Nares, a delicate yet potent organ, resembles a pair of iridescent wings sprouting from the nasal cavity, shimmering with an otherworldly glow that shifts through the spectrum of colors like a faerie's aura. The scent it emits is a heady, intoxicating blend of floral sweetness and spicy allure, capable of weaving illusions and beguiling even the most discerning of creatures."
+  },
+  "Wyvern_Venom_Sensing_Nares": {
+    "tags": [
+      "Nose",
+      "Wyvern",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Emerging from the scaled face of a wyvern, the Venom-Sensing Nares are twin slits that pulse with an eerie green glow, their intricate inner architecture capable of detecting the faintest trace of venomous substances, enhancing both tracking and survival in toxic environments."
+  },
+  "Lindworm_Forked_Tongue_Nares": {
+    "tags": [
+      "Nose",
+      "Lindworm",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Directional Tracking"
+    ],
+    "description": "The Lindworm_Forked_Tongue_Nares is a serpentine appendage that splits into two sharp, sinuous prongs at the tip, each ending in a small, sensitive nostril that quivers subtly as it picks up the faintest scents on the breeze. The prongs are covered in iridescent scales that shift colors in response to the emotional state of the bearer, glowing a fierce red when agitated and a cool blue when calm, enhancing their tracking abilities by honing in on the subtlest of odors and directional cues."
+  },
+  "Hatchling_Sensitive_Snout": {
+    "tags": [
+      "Nose",
+      "Hatchling",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Hatchling_Sensitive_Snout is a delicate, yet powerful sensory organ, featuring a small but intricately scaled nose with slit-like nostrils that quiver and flare at the slightest hint of a new scent, allowing its bearer to detect even the faintest odors from great distances."
+  }
+}

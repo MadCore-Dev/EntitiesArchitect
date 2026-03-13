@@ -1,0 +1,341 @@
+{
+  "Slime_Crawl_Legs": {
+    "tags": [
+      "Legs",
+      "Slime",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Climb"
+    ],
+    "description": "These legs are amorphous and gelatinous, shifting and reforming to grip any surface with an unnerving ease, allowing the user to scale sheer walls and traverse precarious terrain without fear of slipping or losing balance."
+  },
+  "Engulf_Roll_Legs": {
+    "tags": [
+      "Legs",
+      "Engulf",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Sure-Footed"
+    ],
+    "description": "The Engulf_Roll_Legs are grotesque, amorphous limbs that seem to ooze and shift, their unnatural flexibility allowing them to wrap and coil around terrain with preternatural ease, granting a fearsome grip on even the slipperiest surfaces."
+  },
+  "Necrotic_Drag_Legs": {
+    "tags": [
+      "Legs",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drag_Legs are long, twisted appendages that resemble thick, blackened roots, covered in a slick, diseased ooze that constantly seeps and drips, leaving a trail of rot and decay in its wake. As the legs move, the ground trembles with an unnatural, grinding motion, and the air thickens with the stench of death and corruption."
+  },
+  "Magma_Flow_Legs": {
+    "tags": [
+      "Legs",
+      "Magma",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Stability"
+    ],
+    "description": "The Magma_Flow_Legs are serpentine appendages that pulse with molten red and orange veins, their surface a sticky, viscous ooze that both repels and attracts, granting the user a steadfast stability and the ability to leave trails of searing flames wherever they tread."
+  },
+  "Ice_Slide_Legs": {
+    "tags": [
+      "Legs",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Sprint"
+    ],
+    "description": "Ice_Slide_Legs shimmer with a cold, otherworldly glow, their surface a blend of frozen ice and creeping, viscous ooze that seems to defy the laws of physics. With each step, the legs create a slippery, icy trail behind them, granting the user both the ability to move with eerie, fluid grace and to slow their enemies with a chilling grip."
+  },
+  "Electric_Surge_Legs": {
+    "tags": [
+      "Legs",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Sprint"
+    ],
+    "description": "Electric_Surge_Legs pulsate with a faint, iridescent glow, their surface slick with an electrically charged ooze that crackles with power whenever they move, granting the user a shocking touch and unmatched speed."
+  },
+  "Void_Phase_Legs": {
+    "tags": [
+      "Legs",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush"
+    ],
+    "description": "The Void_Phase_Legs are a pair of sinuous, gelatinous limbs that seem to shift and flow like dark, sentient ooze, allowing the user to move silently and seamlessly across any surface, blending into shadows with uncanny ease."
+  },
+  "Paralytic_Seep_Legs": {
+    "tags": [
+      "Legs",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Stability"
+    ],
+    "description": "The Paralytic_Seep_Legs are long, sinuous limbs that resemble dripping, viscous ooze, capable of spreading and contracting at will. When they come into contact with a surface or another creature, they release a paralytic toxin that seeps into the victim, causing their muscles to lock in place, while the legs themselves grant enhanced stability and physical resilience to their bearer."
+  },
+  "Spore_Drift_Legs": {
+    "tags": [
+      "Legs",
+      "Spore",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Spore Cloud"
+    ],
+    "description": "The Spore_Drift_Legs are slimy, translucent appendages that ooze and shift like an animated pool of spore-infused slime, granting the user the ability to hover just above the ground and release a choking spore cloud."
+  },
+  "Ochre_Creep_Legs": {
+    "tags": [
+      "Legs",
+      "Ochre",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Climb",
+      "Sure-Footed"
+    ],
+    "description": "The Ochre_Creep_Legs are long, sinuous appendages covered in a slimy, viscous ooze that shifts and flows like molten metal, granting the user unparalleled grip and agility on any surface, while their inherent resistance to acid and enhanced stability provide a sturdy foundation even in the most treacherous terrain."
+  },
+  "Cubic_Mass_Legs": {
+    "tags": [
+      "Legs",
+      "Cubic",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Stomp",
+      "Trample"
+    ],
+    "description": "Cubic Mass Legs are a grotesque amalgamation of writhing, gelatinous blocks that shift and merge to form a stable, if unnatural, walking structure. Each cubic segment pulses with a dark, viscous fluid, granting the bearer unparalleled stability and the terrifying ability to flatten anything in their path with devastating stomps and tramples."
+  },
+  "Eldritch_Seep_Legs": {
+    "tags": [
+      "Legs",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [
+      "Walk",
+      "Crawl"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Drain",
+      "Regenerate"
+    ],
+    "description": "The Eldritch_Seep_Legs are slimy, tentacle-like appendages that squirm and writhe like living shadows, their surface pulsating with a sickly, iridescent glow that seems to draw the life force from nearby creatures while granting the bearer an unsettling resilience and the ability to rapidly heal from injuries."
+  }
+}

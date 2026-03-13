@@ -1,0 +1,265 @@
+{
+  "Sinuous_Counterbalance_Tail": {
+    "tags": [
+      "Tail",
+      "Sinuous",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The Sinuous_Counterbalance_Tail is a sleek, supple appendage that undulates with the grace of a weasel in motion, providing an innate sense of balance and agility that enhances its wielder's reflexes and evasion skills."
+  },
+  "Thick_Rudder_Tail": {
+    "tags": [
+      "Tail",
+      "Rudder",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "The Thick_Rudder_Tail is a powerful, sleek appendage, perfectly adapted for aquatic environments, with a wide, flattened tip that cuts through water with remarkable efficiency, allowing its wielder to dart and turn with unparalleled agility and speed."
+  },
+  "Bushy_Display_Tail": {
+    "tags": [
+      "Tail",
+      "Bushy",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Bushy_Display_Tail is a thick, plush appendage, dense with black and white bristles that fan out dramatically when the creature feels threatened or wishes to assert dominance, enhancing its ability to intimidate foes while simultaneously making it more conspicuous to those around it."
+  },
+  "Musk_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Musk",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk"
+    ],
+    "description": "The Musk_Spray_Tail is a sleek, segmented appendage ending in a bulbous sac that pulses with an eerie green glow, ready to unleash a noxious cloud capable of stunning foes and masking the wielder's scent."
+  },
+  "Whip_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Whip",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Strike_Tail is a sleek, sinuous appendage that undulates with deadly precision, its sharp, serrated edges capable of lashing out with blinding speed to ensnare or strike foes from afar, enhancing the wielder's reach and agility in combat."
+  },
+  "Flattened_Paddle_Tail": {
+    "tags": [
+      "Tail",
+      "Paddle",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The flattened paddle tail, sleek and broad like that of a weasel adapted for water, undulates powerfully through liquid depths, granting its bearer an unparalleled burst of speed and agility in aquatic environments."
+  },
+  "Stubby_Fossorial_Tail": {
+    "tags": [
+      "Tail",
+      "Stubby",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The stubby fossorial tail is a compact, muscular appendage, covered in short, coarse fur that blends seamlessly with the surrounding earth, perfectly adapted for the creature's underground lifestyle, providing enhanced digging speed and stability."
+  },
+  "Long_Stealth_Balance_Tail": {
+    "tags": [
+      "Tail",
+      "Long",
+      "Mustelid",
+      "Stealth"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step"
+    ],
+    "description": "The Long_Stealth_Balance_Tail is a sinuous, elongated appendage covered in short, velvety fur that shifts seamlessly with the shadows, granting its bearer an uncanny ability to move silently through even the densest underbrush."
+  },
+  "Prehensile_Grip_Tail": {
+    "tags": [
+      "Tail",
+      "Prehensile",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "The Prehensile Grip Tail is a sleek, elongated appendage covered in thick, velvety fur, ending in a sharp, retractable claw that can grasp objects with astonishing dexterity and force, allowing for swift and deadly grapples."
+  },
+  "Ermine_Flag_Tail": {
+    "tags": [
+      "Tail",
+      "Flag",
+      "Mustelid",
+      "Stoat"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The Ermine Flag Tail, a slender and sinuous appendage covered in soft, white fur with a stark black tip, whips deftly to maintain perfect balance in even the most precarious situations, enhancing the agility and evasiveness of its bearer."
+  },
+  "Thick_Insulated_Tail": {
+    "tags": [
+      "Tail",
+      "Insulated",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thick_Insulated_Tail is a dense, plush appendage covered in thick, silvery fur that provides excellent insulation against the biting cold, resembling that of a wolverine. Its robust and flexible nature allows for both balance and combat maneuverability, while also granting its bearer a significant boost in cold resistance and endurance."
+  },
+  "Scat_Marking_Tail": {
+    "tags": [
+      "Tail",
+      "Scent_Marking",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Scat_Marking_Tail is a sleek, segmented appendage ending in a fluffy brush, capable of depositing pungent scent marks that trail through the air like invisible signals, guiding the way and revealing the secrets of the forest floor."
+  }
+}

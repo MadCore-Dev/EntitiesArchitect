@@ -1,0 +1,535 @@
+{
+  "Fire_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fire",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "cold_resist",
+        "op": "subtract",
+        "expr": "8"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Immolate",
+      "Burn",
+      "Fear"
+    ],
+    "description": "The Fire Elemental Core is a pulsating heart of infernal energy, glowing with an intense, crimson radiance that flickers like flames dancing in the wind. Its surface is rough and hot to the touch, sending tendrils of heat and dread into the air, making the hair of those nearby stand on end."
+  },
+  "Water_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Water",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "fin_left": "Appendages/fins",
+      "fin_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Grapple",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Water Elemental Core pulses with a deep, liquid blue light, its surface shimmering as if waves were constantly lapping against it. Cold and slick to the touch, it grants an innate connection to the aquatic realm, enhancing dexterity and agility while simultaneously instilling a vulnerability to the scorching touch of flames."
+  },
+  "Earth_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Earth",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Stone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "Embedded deep within the creature's form, the Earth Elemental Core radiates an ancient, primal energy, pulsating with the rhythmic beat of the planet itself, causing the ground to tremble and crack as if the very earth is speaking through its flesh."
+  },
+  "Air_Wind_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Air",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Gust",
+      "Invisibility"
+    ],
+    "description": "The Air_Wind_Elemental_Core is a shimmering, cyclone-shaped mass of swirling vapors and iridescent light, pulsating with the rhythm of the wind itself. Its touch is like a gentle breeze on a summer day, yet it can also summon fierce gales capable of tearing through flesh and bone, granting its wielder the fluid grace and elusive nature of the wind."
+  },
+  "Lightning_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lightning",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Dart",
+      "Lightning Bolt",
+      "Sprint"
+    ],
+    "description": "Embedded within the creature's chest cavity, pulsating with an eerie blue light, is the Lightning Elemental Core, a volatile heart that crackles with raw electrical energy, causing the air around it to shimmer and hiss. The core's surface is slick and cold to the touch, sending a jolt of electricity through any who dare to probe it too closely, while its unpredictable nature grants the creature unparalleled speed and reflexes, enabling it to unleash a barrage of lightning strikes with deadly precision."
+  },
+  "Ice_Frost_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ice",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "fire_resist",
+        "op": "subtract",
+        "expr": "8"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Ice Breath",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the creature's chest cavity, the Ice Frost Elemental Core pulses with an ethereal blue light, radiating an intense chill that causes frost to creep across nearby surfaces. The core's surface is slick and icy to the touch, and its presence grants the creature a defensive sheen of ice that hardens its outer layer while simultaneously granting it the ability to unleash piercing cold attacks that can freeze enemies in their tracks."
+  },
+  "Shadow_Void_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Shadow",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Drain",
+      "Invisibility",
+      "Fear"
+    ],
+    "description": "The Shadow_Void_Elemental_Core is a pulsating obsidian sphere that seems to suck in ambient light, casting a perpetual shadow over its surroundings. Its surface is cold to the touch, with an eerie, deep black that seems to contain a universe of darkness, whispering secrets of the void that chill the soul."
+  },
+  "Lava_Magma_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lava",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Stomp",
+      "Fire Breath",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the creature's rugged frame, the Lava Magma Elemental Core pulsates with an infernal glow, radiating waves of heat and energy that twist the air around it into shimmering wisps of vapor. The core's surface is a chaotic dance of molten lava, shifting and bubbling as if a living entity, granting the creature formidable resistance to fire and an impenetrable layer of natural armor."
+  },
+  "Acid_Ooze_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Acid",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Ooze"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Acid Ooze Elemental Core is a pulsating, gelatinous mass that appears to be constantly shifting and flowing, its surface slick and dotted with iridescent bubbles that occasionally burst to release a fine spray of corrosive acid. The core feels cold and unyielding to the touch, despite its liquid appearance, and emits an eerie, phosphorescent glow that distorts and warps the surrounding air."
+  },
+  "Time_Chrono_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Time",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Haste",
+      "Dart",
+      "Blink"
+    ],
+    "description": "The Time_Chrono_Elemental_Core pulses with an otherworldly glow, its surface shifting like quicksilver as it twists the very fabric of time around it, granting its bearer unparalleled control over temporal flow and motion."
+  },
+  "Sand_Storm_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sand",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Blinding Sandstorm",
+      "Sure-Footed"
+    ],
+    "description": "The Sand_Storm_Elemental_Core pulsates with the turbulent energy of endless deserts, its surface shifting like grains whipped by a relentless wind. Each breath of the core stirs a miniature whirlwind, revealing the granted agility and evasion as sand swirls dance around it, while a veil of grit and dust slightly obscures the surroundings, hinting at the core's blinding capabilities."
+  },
+  "Nature_Growth_Elemental_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Nature",
+      "Elemental"
+    ],
+    "meat_group": [
+      "Elemental_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Natural Armor",
+      "Regenerate"
+    ],
+    "description": "Embedded within the creature's chest, pulsating with an otherworldly green light, lies the Nature_Growth_Elemental_Core, a living heart of the forest that thrums with the rhythm of life and decay. Its surface is covered in intricate vines and thorns that shift and grow in response to the core\u2019s will, granting the creature a formidable natural armor and an uncanny ability to regenerate wounds."
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "Radiant_Smite_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Radiant",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Ensnare",
+      "Radiant Burst"
+    ],
+    "description": "Glimmering with an otherworldly light, the Radiant_Smite_Tentacles pulse with celestial energy, their silvery tendrils crackling with divine power as they ensnare and smite foes within reach, imbuing the wielder with resistance to radiant damage and a heightened ability to strike from afar."
+  },
+  "Lunar_Grace_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "Lunar Grace Tentacles are silvery, moonlit appendages that shimmer with an ethereal glow, their fluid motions weaving a hypnotic dance that captivates and entraps prey within their grasp."
+  },
+  "Nature_Archon_Root_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "Emerging from the earth with a preternatural grace, the Nature_Archon_Root_Tentacles are a tangle of thick, gnarled appendages that pulse with an otherworldly green light, their touch both soothing and paralyzing, capable of ensnaring and constricting foes with the strength of ancient roots and the wisdom of celestial beings."
+  },
+  "Storm_Lightning_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Ensnare"
+    ],
+    "description": "Emerging from the shadows, the Storm_Lightning_Tentacles pulse with an eerie, flickering light, their serpentine forms crackling with azure energy. Each tentacle thrums with a low, ominous hum as it coils and uncoils, its touch capable of both shocking an opponent and ensnaring them in a web of electrified tendrils."
+  },
+  "Guardian_Shielding_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Smite"
+    ],
+    "description": "Emerging from the shadows, the Guardian_Shielding_Tentacles are a cluster of shimmering, celestial tentacles that pulse with a soft, protective light. Each tentacle is tipped with delicate, yet formidable barbs that can both ensnare and block incoming attacks, while their natural luminance grants a sense of divine protection to their bearer."
+  },
+  "Cherub_Joy_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "Graceful yet menacing, the Cherub_Joy_Tentacles are an ethereal cluster of delicate, semi-translucent tentacles that shimmer with a soft, celestial glow, their touch capable of weaving enchantment and paralysis, enhancing charm and extending reach while radiating an otherworldly allure."
+  },
+  "Seraph_Divine_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Seraph",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Radiant Burst",
+      "Ensnare"
+    ],
+    "description": "The Seraph_Divine_Tentacles are ethereal tendrils that shimmer with a soft, holy light, their touch both soothing and captivating, granting the wielder the ability to ensnare foes and charm hearts with a radiant burst that can turn the tide of battle."
+  },
+  "Solar_Beam_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Smite",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadows, the Solar_Beam_Tentacles are a mesmerizing blend of ethereal light and dark, pulsating with a golden glow that cuts through the gloom. Each tentacle crackles with celestial energy, capable of ensnaring foes with a grip of starlight and unleashing a blinding burst of radiant energy upon command."
+  },
+  "Planetar_War_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Smite",
+      "Grapple"
+    ],
+    "description": "The Planetar War Tentacles unfurl with an otherworldly grace, each thick, sinuous appendage pulsing with divine energy and a relentless urge to crush and control, granting the wielder unparalleled reach and strength in battle."
+  },
+  "Deva_Arcane_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Smite",
+      "Ensnare"
+    ],
+    "description": "Emerging from the ethereal form of a celestial being, the Deva_Arcane_Tentacles are long, shimmering appendages that pulse with divine energy, their touch both captivating and enthralling, capable of ensnaring foes and unleashing radiant bursts of holy power."
+  },
+  "Knight_Armored_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Grapple",
+      "Block"
+    ],
+    "description": "Emerging from the shadows, the Knight_Armored_Tentacles are a bizarre amalgamation of steel-plated tentacles, each segment adorned with intricate celestial runes that shimmer with divine energy. Their grip is unyielding, capable of both punishing foes with holy might and ensnaring adversaries with uncanny precision, while their natural armor provides a resilient barrier against the onslaught of battle."
+  },
+  "Ancient_God_Divine_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Radiant Burst",
+      "Ensnare",
+      "Constrict",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient_God_Divine_Tentacles are long, sinuous appendages that shimmer with a celestial glow, their touch both soothing and terrifying, capable of ensnaring foes with a hypnotic allure while delivering devastating smites and bursts of radiant energy."
+  }
+}

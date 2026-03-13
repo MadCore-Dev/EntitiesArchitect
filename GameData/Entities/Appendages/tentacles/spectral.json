@@ -1,0 +1,328 @@
+{
+  "Wraith_Drain_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ensnare",
+      "Ambush"
+    ],
+    "description": "Sinuous and ghostly, the Wraith_Drain_Tentacles pulse with a cold, spectral energy, their translucent tendrils capable of ensnaring and draining the life force from their prey, while their ethereal form allows them to slip through shadows unseen."
+  },
+  "Banshee_Wail_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Gossamer tendrils of iridescent blue and purple weave through the air, each one pulsing with an otherworldly energy that whispers of sorrow and despair. When they brush against flesh, the tentacles leave a chilling sensation, as if the very soul is being drawn out, and their touch can paralyze the strongest of warriors."
+  },
+  "Lich_Bone_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple",
+      "No Pain",
+      "Ensnare"
+    ],
+    "description": "The Lich_Bone_Tentacles are ghostly appendages that wriggle and curl like shadows given form, cold to the touch and slick with an otherworldly moisture. They extend unnaturally far, wrapping around foes with bone-chilling grip and drawing life force from their bodies while resisting any attempts to be dislodged."
+  },
+  "Ghost_Phase_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Ensnare"
+    ],
+    "description": "Sinuous and translucent, the Ghost_Phase_Tentacles shimmer in the ethereal realm, their ghostly tendrils capable of snaking through solid objects to ensnare and drain the life force of their victims, while inflicting a paralyzing fear that chills the very soul."
+  },
+  "Revenant_Grasping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Grapple",
+      "No Pain",
+      "Ensnare"
+    ],
+    "description": "Sinister tendrils wriggle and writhe, their spectral form shimmering with an eerie, otherworldly glow as they extend beyond their physical bounds, ready to ensnare and constrict with an unyielding, deathly grip that ignores pain and resists escape."
+  },
+  "Shadow_Reaching_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Shadow_Reaching_Tentacles are sinuous and nebulous, their form shifting like ink in water, capable of snaking through the smallest gaps to ensnare prey in a vice-like grip, draining life force with each constricting coil."
+  },
+  "Soul_Devourer_Drain_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Emerging from the shadows, the spectral tentacles of the Soul_Devourer_Drain_Tentacles undulate with a malevolent energy, their touch instantly sapping the life force from their victim while ensnaring them in a paralyzing grip."
+  },
+  "NightHag_Charm_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Spectral tentacles emerge from the shadows, whispering sweet nothings that enthrall and ensnare the unwary, their icy touch capable of paralyzing even the most resolute hero, while extending the user's reach into the netherworld."
+  },
+  "Wisp_Zap_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Emerging from the ethereal mist, the Wisp_Zap_Tentacles are sinuous, translucent appendages that shimmer with a faint, crackling energy, capable of ensnaring foes with spectral tendrils and delivering paralyzing shocks with a mere touch."
+  },
+  "Specter_Chill_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Slow",
+      "Ensnare"
+    ],
+    "description": "Emerging from a fog of icy despair, the Specter_Chill_Tentacles are ghostly, translucent appendages that undulate with an otherworldly grace, their touch freezing the blood and slowing the heart, granting the wielder the ability to ensnare and drain the vitality of their victims while adding a chilling resilience against disease and extending their reach in combat."
+  },
+  "Phantom_Touch_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Drain"
+    ],
+    "description": "The Phantom_Touch_Tentacles are ghostly, semi-transparent appendages that seem to flicker between existence and nothingness, their cold, ethereal touch capable of sending shivers down the spine and clouding the mind with a sense of dread and fascination, granting the wielder an unsettling charm and the ability to paralyze and drain their targets."
+  },
+  "Arch_Specter_Ancient_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Constrict",
+      "Ensnare",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Ancient_Tentacles appear as gnarled, translucent tendrils that pulse with an eerie, otherworldly glow, their serpentine forms writhing and coiling as if alive, capable of ensnaring foes and draining their very essence with each chilling touch."
+  }
+}

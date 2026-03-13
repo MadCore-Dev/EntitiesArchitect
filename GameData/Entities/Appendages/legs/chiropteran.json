@@ -1,0 +1,301 @@
+{
+  "Hooked_Roost_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Hooked",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Spider Climb"
+    ],
+    "description": "The hooked roost hindlimbs are powerful and sinewy, ending in sharp, curved claws that can latch onto even the smoothest surfaces, allowing for effortless vertical ascents and acrobatic maneuvers in the air or on the ground."
+  },
+  "Ground_Crawl_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Ground",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Soft Step"
+    ],
+    "description": "The Ground_Crawl_Hindlimbs are elongated, leathery limbs tipped with small, sharp claws, allowing for silent, swift movement over any terrain. As chiropteran in nature, these hindlimbs enable the user to sprint with incredible speed while barely disturbing the ground, granting an eerie grace and agility."
+  },
+  "Grasping_Perch_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Perching",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Grapple"
+    ],
+    "description": "The Grasping_Perch_Hindlimbs are elongated, sinuous limbs tipped with sharp, curved claws that can dig into the bark of trees or rocky cliff faces with ease. Covered in a layer of leathery skin that stretches and flexes with every movement, these limbs allow for effortless perching and agile grappling, enhancing the wearer's dexterity and stability in precarious environments."
+  },
+  "Clawed_Strike_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Strike",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Pounce"
+    ],
+    "description": "The Clawed_Strike_Hindlimbs are massive, chiropteran-like appendages, ending in wickedly curved talons that glint menacingly in the shadows. Their sinuous, membranous joints grant unparalleled agility and power, allowing for devastating Rake and Pounce attacks with deadly precision and ferocity."
+  },
+  "Heavy_Armoured_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Armoured",
+      "Chiropteran",
+      "Giant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Stomp"
+    ],
+    "description": "The Heavy_Armoured_Hindlimbs are colossal, chiropteran legs tipped with wickedly sharp claws and encased in thick, black chitin that gleams ominously in the light. Each step resonates with a thunderous boom, and their sheer mass grants an aura of unshakable stability and the ability to unleash devastating stomps that shatter the earth beneath them."
+  },
+  "Swift_Ground_Sprint_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Swift",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "The Swift_Ground_Sprint_Hindlimbs are chiropteran in nature, with elongated, muscular legs that end in powerful, leathery feet designed for gripping and leaping. These legs pulse with an inner energy, granting the user unparalleled speed and agility, allowing them to sprint across uneven terrain with unmatched sure-footed grace."
+  },
+  "Fishing_Talons": {
+    "tags": [
+      "Legs",
+      "Talons",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Grapple"
+    ],
+    "description": "The Fishing_Talons are elongated, razor-sharp claws tipped with a barbed hook, sprouting from leathery bat-like wings that allow for silent gliding over water. These talons are perfectly adapted for snatching fish and other prey from the surface, their hooked tips ensuring a firm grip even as the creature's\u654f\u6377\u626e\u6f14\u6e38\u620f\u4e2d\u7684\u751f\u7269\u90e8\u4ef6\u63cf\u8ff0\u786e\u5b9e\u9700\u8981\u4e30\u5bcc\u7684\u60f3\u8c61\u529b\u548c\u7ec6\u8282\uff0c\u60a8\u63d0\u4f9b\u7684\"Fishing_Talons\"\u63cf\u8ff0\u7ed3\u5408\u4e86\u9ed1\u6697\u5e7b\u60f3\u98ce\u683c\u548cLitRPG\u6e38\u620f\u5143\u7d20\uff0c\u5f3a\u8c03\u4e86\u8fd9\u79cd\u751f\u7269\u90e8\u4ef6\u7684\u72ec\u7279\u6027\u548c\u529f\u80fd\u6027\u3002\u8bf7\u5141\u8bb8\u6211\u6839\u636e\u60a8\u7684\u8981\u6c42\uff0c\u8fdb\u4e00\u6b65\u6269\u5c55\u63cf\u8ff0\uff0c\u4f7f\u5176\u66f4\u52a0\u751f\u52a8\u548c\u5177\u4f53\uff1a\n\nFishing_Talons\u662f\u957f\u800c\u950b\u5229\u7684\u722a\u5b50\uff0c\u672b\u7aef\u5e26\u6709\u5f2f\u66f2\u7684\u9c7c\u94a9\uff0c\u4ece\u7c7b\u4f3c\u8759\u8760\u7684\u7fc5\u8180\u4e0a\u5ef6\u4f38\u51fa\u6765\uff0c\u7fc5\u8180\u7684\u76ae\u9769\u5728\u6708\u5149\u4e0b\u95ea\u70c1\u7740\u94f6\u8272\u7684\u5149\u6cfd\u3002\u8fd9\u4e9b\u722a\u5b50\u4e0d\u4ec5\u9002\u5408\u5728\u6c34\u9762\u4e0a\u98de\u884c\u65f6\u6355\u83b7\u9c7c\u548c\u5176\u4ed6\u730e\u7269\uff0c\u800c\u4e14\u5b83\u4eec\u7684\u94a9\u72b6\u7ed3\u6784\u5728\u6293\u63e1\u65f6\u80fd\u591f\u7262\u7262\u56fa\u5b9a\u4f4f\u730e\u7269\uff0c\u5373\u4f7f\u662f\u5728\u9ad8\u901f\u98de\u884c\u6216\u6218\u6597\u4e2d\u4e5f\u80fd\u4fdd\u6301\u7a33\u5b9a\u3002"
+  },
+  "Echolocation_Vibration_Legs": {
+    "tags": [
+      "Legs",
+      "Vibration",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Echolocation_Vibration_Legs are slender, elongated limbs covered in fine, velvety black fur, with delicate, almost membrane-like skin between the joints that pulsates with a barely audible, constant hum. These legs allow the user to sense minute vibrations in the earth, granting an eerie awareness of their surroundings as if the very ground was whispering secrets to them."
+  },
+  "Sucker_Wall_Grip_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Sucker",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Suction Grip"
+    ],
+    "description": "The Sucker_Wall_Grip_Hindlimbs are a pair of chiropteran legs, elongated and sleek with rows of small, powerful suckers lining the underside, allowing the user to scale vertical surfaces with ease and grip onto objects with unbreakable tenacity."
+  },
+  "Cave_Adapted_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Cave",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Cave_Adapted_Hindlimbs are elongated, muscular appendages that terminate in leathery, semi-webbed feet, allowing for silent, cat-like movement through the darkest caverns. The chiropteran influence grants these limbs an innate ability to sense and navigate through pitch-black environments, with small, sensitive pads on the soles that detect subtle vibrations and air currents."
+  },
+  "Venomous_Spur_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "Emerging from the creature\u2019s powerful chiropteran legs, the venomous spurs are sharp, barbed appendages that gleam with a sinister iridescence, their texture like cold, hardened venom that feels sticky and toxic to the touch, ready to inject debilitating poison at the slightest provocation."
+  },
+  "Membrane_Spread_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Membrane",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Spread_Hindlimbs are splayed, leathery wings attached to the creature\u2019s powerful hind legs, allowing it to spread wide and catch air currents with ease, adding an ethereal grace and an extra layer of unpredictability to its movements."
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "Digitigrade_Sprint_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Digitigrade",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Digitigrade Sprint Hindlimbs, with their sleek mustelid design, are elongated and powerful, allowing for explosive bursts of speed as the creature runs on its toes, each step a blur of agility and grace."
+  },
+  "Fossorial_Badger_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Stability"
+    ],
+    "description": "The Fossorial_Badger_Hindlimbs are powerful and sinewy, with thick claws and robust muscles that enable rapid digging and tunneling through earth and stone with ease. The limbs possess an innate stability, providing a steady foundation that resists being knocked off balance, even on the most treacherous terrain."
+  },
+  "Webbed_Otter_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Webbed",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "The Webbed_Otter_Hindlimbs are sleek and muscular, covered in short, dense fur that shifts from a silvery gray to a darker blue when submerged. Equipped with wide, webbed feet that ripple through water with unmatched grace, these limbs grant the user an innate fluidity, enabling them to swim at incredible speeds and slide across surfaces with the ease of a river current."
+  },
+  "Powerful_Wolverine_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Powerful",
+      "Mustelid",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample"
+    ],
+    "description": "Enormous, clawed feet with thick, powerful muscles bulge beneath taut, shaggy fur, capable of delivering crushing blows to the ground or an opponent with each thunderous step, while the creature\u2019s bulk and weight make it a formidable force to be reckoned with in close combat."
+  },
+  "Arboreal_Grasping_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Arboreal",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb"
+    ],
+    "description": "The Arboreal Grasping Hindfeet are slender and elongated, tipped with soft, yet firm pads and sharp, curved claws that can grip any surface with prehensile precision, allowing for effortless movement through the densest of canopies."
+  },
+  "Compact_Weasel_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Compact",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Leap"
+    ],
+    "description": "The Compact Weasel Hindlimbs are slender yet powerful, covered in sleek fur that shifts between hues of silver and black. With joints that move with uncanny precision, these legs allow for sudden bursts of speed and acrobatic leaps, enhancing agility and dexterity as the creature bounds through the underbrush."
+  },
+  "Semiaquatic_Mink_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Semiaquatic",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim",
+      "Slide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Semiaquatic_Mink_Hindfeet are slender and webbed, their soft fur glistening with moisture as they paddle through water with effortless grace, enhancing the wearer's agility and fluid movement both on land and in aquatic environments."
+  },
+  "Fin_Paddle_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Paddle",
+      "Mustelid",
+      "Marine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "The Fin_Paddle_Hindlimbs are sleek and powerful, resembling elongated otter-like limbs that end in broad, flattened paddles, perfectly adapted for swift and silent movement through water. Each paddle undulates with grace and precision, allowing for effortless gliding beneath the waves, while enhancing the wearer's agility both on land and in water."
+  },
+  "Low_Slung_Stalking_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Low_Slung",
+      "Mustelid",
+      "Stealth"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Pounce"
+    ],
+    "description": "The Low_Slung_Stalking_Hindlimbs are slender yet powerful, with supple muscles that ripple beneath sleek fur as they move silently through the underbrush. Their low posture and elongated form allow for sudden bursts of speed and silent stalking, granting the user the predatory grace of a mustelid, ready to ambush prey at a moment's notice."
+  },
+  "Reinforced_Digging_Hindfeet": {
+    "tags": [
+      "Legs",
+      "Reinforced",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Reinforced_Digging_Hindfeet are powerful and sturdy, with thick, shovel-like claws that can effortlessly rip through the hardest earth, leaving a trail of finely sifted soil behind. Covered in dense, resilient bristle fur, they pulse with an innate digging prowess that grants their user unparalleled speed and efficiency underground."
+  },
+  "Pounce_Coiled_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Pounce",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Leap"
+    ],
+    "description": "The Pounce_Coiled_Hindlimbs are powerful and sinewy, resembling those of a sleek mustelid. Covered in short, sleek fur, they coil and uncoil with explosive force, enabling the user to pounce and leap with unmatched grace and agility, leaving enemies reeling from the sudden assault."
+  },
+  "Sure_Footed_Rocky_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Sure_Footed",
+      "Mustelid"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Stability"
+    ],
+    "description": "The Sure-Footed Rocky Hindlimbs are gnarled and robust, covered in a layer of rough, stone-like scales that shift and adapt to any terrain, providing an unwavering grip. Each step resonates with a muted echo, as if the very earth supports and guides the movement of the creature, enhancing agility and evasion in the most precarious of conditions."
+  }
+}

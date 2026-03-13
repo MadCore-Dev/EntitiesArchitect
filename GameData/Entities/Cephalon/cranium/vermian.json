@@ -1,0 +1,310 @@
+{
+  "No_Eyes_Blind_Anterior": {
+    "tags": [
+      "Cranium",
+      "Blind",
+      "Vermian",
+      "Fossorial"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "10"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The No_Eyes_Blind_Anterior is a grotesque, fleshy protrusion that juts from the cranium like a malformed, blind eye socket, pulsating with an otherworldly energy. Its surface is slick and cool to the touch, and it grants the bearer an uncanny ability to sense minute vibrations beneath the earth's surface, a vestige of its fossorial heritage."
+  },
+  "Single_Eye_Anterior": {
+    "tags": [
+      "Cranium",
+      "Ocellate",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the cranium, the Single_Eye_Anterior is a singular, pulsating orb that seems to shift and shimmer with iridescent hues, its surface dotted with smaller, flickering ocelli that grant heightened perception and an uncanny awareness of one's surroundings."
+  },
+  "Compound_Eye_Array_Anterior": {
+    "tags": [
+      "Cranium",
+      "Compound",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the brow, this array of bulging, multifaceted lenses shifts and dances with an eerie, independent life, each eyelet reflecting fragmented glimpses of the world in vivid, pulsating colors, granting the bearer an unparalleled depth of vision and awareness."
+  },
+  "Sensory_Crown_Anterior": {
+    "tags": [
+      "Cranium",
+      "Sensory_Crown",
+      "Vermian"
+    ],
+    "slots": {
+      "nose_primary": "Cephalon/nose",
+      "ear_left": "Cephalon/ears",
+      "ear_right": "Cephalon/ears"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Sensory_Crown_Anterior, a grotesque yet awe-inspiring artifact embedded within the cranium, pulsates with an eerie, bioluminescent glow that flickers like a dying flame. Its surface is covered in intricate, writhing patterns that seem to shift and dance in response to the tiniest vibrations, granting the bearer an uncanny ability to sense approaching threats through the ground and in the dark."
+  },
+  "Feeding_Oral_Disc_Anterior": {
+    "tags": [
+      "Cranium",
+      "Oral_Disc",
+      "Vermian",
+      "Parasitic"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Feeding_Oral_Disc_Anterior is a gruesome, circular appendage that sprouts from the cranium, pulsating with dark energy as it extends sharp, barbed tongues capable of both grappled restraints and draining life force, its touch leaving a chilling chill and a sense of inevitable doom."
+  },
+  "Tentacle_Ring_Anterior": {
+    "tags": [
+      "Cranium",
+      "Tentacle_Ring",
+      "Vermian"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Ensnare"
+    ],
+    "description": "The Tentacle_Ring_Anterior is a writhing, chitinous band that encircles the skull, its many segmented tendrils pulsating with a sickly green bioluminescence, each tentacle quivering with an almost sentient eagerness to grasp and ensnare, granting the wearer an eerie, preternatural sense of their surroundings and the ability to detect even the slightest ground vibrations."
+  },
+  "Probing_Rostrum_Head": {
+    "tags": [
+      "Cranium",
+      "Rostrum",
+      "Vermian"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Probing_Rostrum_Head is a disturbing amalgamation of chitin and flesh, a long, writhing proboscis protruding from the center of a bulbous, eyeless head, capable of both sensation and manipulation, its movement fluid and insidious, granting the wielder a sinister reach and dexterity."
+  },
+  "Bioluminescent_Lure_Head": {
+    "tags": [
+      "Cranium",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Head is a grotesque cranial segment adorned with pulsating, bioluminescent tendrils that undulate like living shadows, casting eerie patterns of light and dark. Its surface is slick and cool to the touch, inviting yet foreboding, with the unsettling ability to paralyze prey that fixates on its mesmerizing glow."
+  },
+  "Armoured_Calcified_Head": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Armoured_Calcified_Head is a grotesque amalgamation of chitinous plates and ossified bone, forming a helmet-like structure that not only provides unparalleled protection but also subtly enhances the user\u2019s physical prowess, granting them an aura of invincibility and brute strength."
+  },
+  "Electric_Field_Organ_Head": {
+    "tags": [
+      "Cranium",
+      "Electroreceptive",
+      "Vermian"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's skull, the Electric Field Organ Head pulsates with an otherworldly glow, its intricate network of filaments and nodes allowing it to sense the slightest electrical currents and subtle vibrations in the earth, granting unparalleled awareness and reflexes."
+  },
+  "Regenerating_Divided_Head": {
+    "tags": [
+      "Cranium",
+      "Regenerating",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "The Regenerating Divided Head is a grotesque amalgamation of two cranial masses fused at the temples, pulsating with an eerie bioluminescence that casts an unsettling glow in the darkness. Its surface is slick with a viscous, healing fluid that constantly oozes from countless tiny wounds, a testament to its relentless regenerative abilities."
+  },
+  "Photoreceptive_Ring_Head": {
+    "tags": [
+      "Cranium",
+      "Photoreceptive",
+      "Vermian"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's elongated, serpentine head, the Photoreceptive Ring glows with an eerie luminescence, its vibrant colors shifting in response to the slightest movements and changes in light, enhancing the creature's ability to perceive and react to its environment with supernatural precision."
+  }
+}

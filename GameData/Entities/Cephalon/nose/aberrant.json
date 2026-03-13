@@ -1,0 +1,292 @@
+{
+  "Multi_Mouth_Gibbering_Nares": {
+    "tags": [
+      "Nose",
+      "Gibbering",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Madness Aura"
+    ],
+    "description": "The Multi_Mouth_Gibbering_Nares is a grotesque cluster of writhing, fleshy protuberances that pulse and twitch, each one capable of emitting an endless stream of incomprehensible babble. The constant whine and moan of voices whispering in your mind is accompanied by an overwhelming stench of decay and corruption, making it nearly impossible to think clearly while in its vicinity."
+  },
+  "Acid_Dissolved_Nares": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Corrosion"
+    ],
+    "description": "The Acid-Dissolved Nares are malformed nasal cavities that secrete a corrosive acid, capable of dissolving even the toughest metals. Their constant dripping emits a sickening hiss as the acid eats away at the air around them, granting the bearer an eerie ability to track prey by scent through the most treacherous environments."
+  },
+  "Mind_Flayer_Chemical_Nares": {
+    "tags": [
+      "Nose",
+      "Psion",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Mind_Flayer_Chemical_Nares are slender, translucent tendrils that coil and uncoil within the nasal cavity, pulsating with a faint, eerie luminescence. They are highly sensitive, capable of detecting the faintest traces of psionic energy and guiding the bearer through the darkest, most labyrinthine environments with uncanny precision."
+  },
+  "Beholder_Null_Nares": {
+    "tags": [
+      "Nose",
+      "Beholder",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight"
+    ],
+    "description": "The Beholder_Null_Nares is a bulbous, writhing mass of tentacles and pulsating veins, its surface slick and cold to the touch. It grants the user unparalleled sensory acuity, allowing them to track scents and navigate darkness with eerie precision."
+  },
+  "Eldritch_Void_Nares": {
+    "tags": [
+      "Nose",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Eldritch_Void_Nares are gaping, shadow-filled orifices that seem to be portals to some unfathomable, dark dimension. They emit a constant, barely audible whisper that sends shivers down the spine and induce a creeping sense of dread and confusion in all nearby, while enhancing the wearer's ability to detect even the faintest of scents and granting them unparalleled stealth."
+  },
+  "Deep_Sea_Pressure_Nares": {
+    "tags": [
+      "Nose",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight",
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Nares are a pair of elongated, translucent nares that pulse with an eerie bioluminescence, capable of collapsing inward under immense pressure to filter out the toxic gases found in the abyssal depths, granting the user unparalleled scent and perception abilities in the darkest, most treacherous underwater environments."
+  },
+  "Parasite_Chemical_Nares": {
+    "tags": [
+      "Nose",
+      "Parasite",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Disease Carrier"
+    ],
+    "description": "The Parasite_Chemical_Nares, a grotesque mutation nestled within the nasal cavity, pulsates with a sickly luminescence, its tendrils writhing and secreting noxious fluids that coat the air with an acrid scent. The parasite's presence grants an eerie sensitivity to the faintest of odors, while also harboring a latent threat of infection, a constant reminder of its dual nature as both boon and bane."
+  },
+  "Necrotic_Rot_Nares": {
+    "tags": [
+      "Nose",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Necrotic_Rot_Nares is a withered, blackened nasal cavity that exudes a thick, pungent fog, capable of inducing fear in the hearts of the bravest adventurers, while also granting an innate resistance to the pervasive diseases of the rotting wastelands."
+  },
+  "Chitin_Closed_Nares": {
+    "tags": [
+      "Nose",
+      "Chitin",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Chitin_Closed_Nares is a bizarre, chitinous structure that covers the nasal region, its surface etched with strange, pulsating runes that glow faintly in the dark. This aberrant organ enhances the wearer's sense of smell to an almost supernatural degree, allowing them to detect even the faintest scents across vast distances, while also providing a subtle but noticeable boost to their natural armor and perception."
+  },
+  "Shoggoth_Void_Nares": {
+    "tags": [
+      "Nose",
+      "Shoggoth",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Regenerate"
+    ],
+    "description": "The Shoggoth_Void_Nares are gaping, amorphous orifices that pulse with a sickly, bioluminescent glow, capable of shifting and reshaping to fit any face or surface they adhere to. The nostrils are lined with writhing tendrils that taste the air for the faintest traces of prey or danger, while the surrounding flesh is resilient and regenerates rapidly from even the most grievous wounds."
+  },
+  "Chaos_Mutant_Nares": {
+    "tags": [
+      "Nose",
+      "Chaos",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blood Frenzy"
+    ],
+    "description": "The Chaos_Mutant_Nares is a writhing mass of twisted flesh and pulsating veins, its nostrils constantly shifting shape and size, emitting a haunting, otherworldly scent that can drive even the most stoic of beings into a primal, bloodthirsty frenzy."
+  },
+  "Bone_Hollow_Nares": {
+    "tags": [
+      "Nose",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Bone_Hollow_Nares is a macabre relic of skeletal origins, its hollow nostrils gaping like the dark, vacant eyes of the void, exuding an aura of perpetual decay and dread. The component's jagged, malformed bone structure pierces the flesh of the bearer, enhancing their senses to detect the faintest signs of life or death while instilling an unsettling sense of fear in those who dare to meet its ghastly gaze."
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "Dense_Guard_Hair_Pelt": {
+    "tags": [
+      "Fur",
+      "Guard_Hair",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Dense_Guard_Hair_Pelt is a thick, bristly coat that bristles with sharp guard hairs, each one a testament to the mustelid's fierce nature, providing a natural armor that deflects harm while imbuing the wearer with resistance to the biting cold of arctic winds."
+  },
+  "Oily_Waterproof_Otter_Pelt": {
+    "tags": [
+      "Fur",
+      "Waterproof",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Mucous Skin"
+    ],
+    "description": "The Oily_Waterproof_Otter_Pelt is a dense, sleek fur that glistens with a layer of natural oils, making it incredibly soft to the touch yet completely impervious to water, allowing the wearer to move fluidly through aquatic environments with an added layer of protection against the chill of underwater currents."
+  },
+  "Musk_Gland_Integument": {
+    "tags": [
+      "Skin",
+      "Musk",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "The Musk_Gland_Integument is a slimy, textured patch of skin that pulses with an eerie inner glow, emitting a pungent, noxious odor that can induce fear and disorientation in those who inhale it, even as it grants the bearer the ability to release a paralyzing musk."
+  },
+  "Thick_Wolverine_Hide": {
+    "tags": [
+      "Fur",
+      "Thick",
+      "Mustelid",
+      "Heavy"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Thick Wolverine Hide is a dense, bristly fur that feels almost impenetrable to the touch, each hair standing on end and interwoven with tough, overlapping scales to provide formidable protection against both the biting cold and slashing attacks."
+  },
+  "Silken_Marten_Coat": {
+    "tags": [
+      "Fur",
+      "Silken",
+      "Mustelid",
+      "Arboreal"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Silken_Marten_Coat is a luxurious, iridescent pelt that shifts colors with the forest's hues, blending seamlessly into the shadows. Its soft, silken texture feels like liquid warmth against the skin, offering a silent, almost weightless layer that enhances one's ability to vanish into the canopy or underbrush."
+  },
+  "Winter_White_Stoat_Pelt": {
+    "tags": [
+      "Fur",
+      "Winter",
+      "Mustelid",
+      "Seasonal"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Winter_White_Stoat_Pelt is a thick, immaculate coat of purest white fur that shimmers with the frosty hues of a winter moon, granting the wearer unparalleled stealth as they move silently through snow-laden forests, nearly indistinguishable from the winter landscape."
+  },
+  "Aposematic_Honey_Badger_Skin": {
+    "tags": [
+      "Skin",
+      "Aposematic",
+      "Mustelid",
+      "Tough"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Natural Armor"
+    ],
+    "description": "The Aposematic Honey Badger Skin is a thick, iridescent hide that shimmers with vibrant, warning colors, serving as both a visual deterrent and a testament to its wearer's resilience. This tough, mustelid-derived skin grants a layer of natural armor, making the wearer nearly impervious to slashing attacks, though it imbues a slight aura of unpredictability and aggression, slightly lowering their charisma."
+  },
+  "Aquatic_Seal_Like_Hide": {
+    "tags": [
+      "Skin",
+      "Blubber",
+      "Mustelid",
+      "Marine"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Aquatic_Seal_Like_Hide is a thick, sleek layer of blubber-covered skin that feels like silk to the touch, yet offers incredible resilience against the biting cold of underwater environments. Its natural contours enhance buoyancy and streamline movement through water, granting the user unparalleled depth endurance."
+  },
+  "Spotted_Predator_Pelt": {
+    "tags": [
+      "Fur",
+      "Spotted",
+      "Mustelid",
+      "Stealth"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Spotted Predator Pelt is a sleek, dark fur coat adorned with intricate, swirling patterns of lighter shades, perfectly blending into shadows and underbrush. Its soft texture and natural oils make it nearly silent to the touch, enhancing the wearer's ability to move undetected."
+  },
+  "Toxic_Secretion_Skin": {
+    "tags": [
+      "Skin",
+      "Toxic",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Skunk Musk"
+    ],
+    "description": "The Toxic_Secretion_Skin appears as a glossy, iridescent coat that shifts between shades of ominous black and venomous green, oozing a faint, eerie glow. When threatened, it secretes a foul, pungent mist that not only blinds and sickens enemies but also grants the bearer a significant boost in resistance to poison and disease."
+  },
+  "Coarse_Badger_Bristle_Hide": {
+    "tags": [
+      "Fur",
+      "Coarse",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Coarse_Badger_Bristle_Hide is a rugged expanse of thick, bristly fur that feels almost like sandpaper to the touch, offering a natural armor that deflects minor blows and irritates would-be attackers. This dense, protective hide grants resilience against the elements and diseases, embodying the tenacity and resourcefulness of the badger."
+  },
+  "Slick_Mink_Integument": {
+    "tags": [
+      "Fur",
+      "Slick",
+      "Mustelid",
+      "Semiaquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Slick_Mink_Integument is a dense, glossy fur that feels like liquid silk to the touch, granting the wearer unparalleled stealth in both forest and water, with a natural resistance to the chill that pervades icy realms."
+  }
+}

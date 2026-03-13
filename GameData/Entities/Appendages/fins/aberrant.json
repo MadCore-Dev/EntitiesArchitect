@@ -1,0 +1,325 @@
+{
+  "Deep_Sea_Plated_Fins": {
+    "tags": [
+      "Fins",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "Tattered and veined with an otherworldly glow, the Deep_Sea_Plated_Fins are jagged appendages that shimmer in the dim light of the abyssal depths, granting their bearer both swiftness and resilience as they slice through the inky waters with eerie grace."
+  },
+  "Acid_Ooze_Fins": {
+    "tags": [
+      "Fins",
+      "Acid",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Swim"
+    ],
+    "description": "The Acid_Ooze_Fins are rubbery, translucent appendages that trail behind like ghostly ribbons, constantly seething with a menacing, greenish glow. When disturbed, they emit a sickening hiss and a jet of corrosive acid that eats through the toughest steel."
+  },
+  "Bioluminescent_Lure_Fins": {
+    "tags": [
+      "Fins",
+      "Bioluminescent",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Bioluminescence"
+    ],
+    "description": "Emerging from the depths, the Bioluminescent_Lure_Fins are twisted, iridescent appendages that pulse with an eerie, hypnotic glow, their flickering light capable of mesmerizing even the most predatory of creatures, while their venomous tips can induce a paralyzing grip on any unfortunate enough to touch them."
+  },
+  "Void_Phase_Fins": {
+    "tags": [
+      "Fins",
+      "Void",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Void_Phase_Fins are ghostly appendages that seem to phase in and out of existence, their translucent membranes pulsing with an otherworldly, dark energy that grants the wielder the ability to blend seamlessly into the shadows, enhancing both their stealth and agility."
+  },
+  "Eldritch_Tentacle_Fins": {
+    "tags": [
+      "Fins",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Swim"
+    ],
+    "description": "Eldritch Tentacle Fins are writhing, otherworldly appendages that pulse with an unsettling, iridescent glow, their slick, chitinous surface rippling as they undulate with a life of their own, capable of ensnaring prey and propelling the bearer through the darkest waters with eerie grace."
+  },
+  "Bone_Plated_Fins": {
+    "tags": [
+      "Fins",
+      "Bone",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "Emerging from the creature's back are jagged bone-plated fins, each fin a twisted amalgamation of sharp, calcified spines that ruffle and extend like the serrated edges of a dark, aquatic nightmare, granting the wearer both an imposing natural armor and the grace to glide effortlessly through water."
+  },
+  "Parasite_Infested_Fins": {
+    "tags": [
+      "Fins",
+      "Parasite",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swim"
+    ],
+    "description": "Emerging from the depths, the Parasite_Infested_Fins are a grotesque amalgamation of translucent, writhing tendrils and sharp, jagged spines, each fin pulsating with the presence of unseen parasites, granting an eerie, almost hypnotic allure to the water around them."
+  },
+  "Shoggoth_Blob_Fins": {
+    "tags": [
+      "Fins",
+      "Shoggoth",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Swim"
+    ],
+    "description": "The Shoggoth_Blob_Fins are amorphous, pulsating appendages that appear as if they were crafted from the deepest, most alien parts of the ocean, their slick, gelatinous texture shifting and flowing as they move, granting the bearer an almost supernatural ability to glide through water with eerie grace and aiding in their resilience and physical might."
+  },
+  "Chaos_Mutant_Fins": {
+    "tags": [
+      "Fins",
+      "Chaos",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Blood Frenzy"
+    ],
+    "description": "Emerging from the depths, the Chaos_Mutant_Fins are a grotesque cluster of malformed fins, their edges jagged and blackened, pulsating with an eerie, chaotic energy that grants the swimmer unmatched agility and speed in aquatic environments, coupled with a terrifying bloodlust that surges during combat."
+  },
+  "Necrotic_Decay_Fins": {
+    "tags": [
+      "Fins",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Swim"
+    ],
+    "description": "Necrotic_Decay_Fins are malformed, sickly appendages that pulse with a sickly green glow, their surface slick with a viscous, black fluid that seems to consume light. When in water, these fins allow the user to swim with unnatural grace, drawing life force from nearby creatures to enhance their speed and resist the creeping grasp of disease."
+  },
+  "Eye_Stalk_Sensory_Fins": {
+    "tags": [
+      "Fins",
+      "Eye_Stalk",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Swim"
+    ],
+    "description": "Emerging from the base of the Eye_Stalk_Sensory_Fins are delicate, translucent fins that pulse with an eerie bioluminescence, enhancing the wearer's perception and granting them the uncanny ability to navigate through the darkest and most treacherous underwater environments with eerie precision."
+  },
+  "Chitin_Battle_Fins": {
+    "tags": [
+      "Fins",
+      "Chitin",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "Emerging from the creature's back, these jagged chitin battle fins are a grotesque yet mesmerizing blend of organic and mechanical, pulsating with an eerie luminescence that seems to disrupt the natural order of the surroundings. Their sharp edges and fluid movement grant the bearer an unparalleled sense of agility and resilience in both water and on land, embodying the essence of an aberrant survivalist."
+  }
+}

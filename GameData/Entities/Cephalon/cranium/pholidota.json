@@ -1,0 +1,357 @@
+{
+  "Small_Narrow_Pangolin_Skull": {
+    "tags": [
+      "Cranium",
+      "Narrow",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Small_Narrow_Pangolin_Skull, a relic of the ancient pholidotan race, is a slender, elongated cranium encrusted with minute, jagged scales that interlock like a puzzle, enhancing the wearer's ability to detect subtle scents carried by the wind."
+  },
+  "Giant_Armoured_Skull": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Pholidota",
+      "Giant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Block"
+    ],
+    "description": "The Giant Armoured Skull is a formidable relic, its exoskeletal plates interlocking in a pattern that resembles ancient fortifications, providing an innate resilience against attacks. Weighing heavily with the burden of its history, it grants the wielder the ability to deliver crushing headbutts and act as a shield, absorbing blows with minimal damage to the user."
+  },
+  "Tree_Pangolin_Skull": {
+    "tags": [
+      "Cranium",
+      "Tree",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Tree_Pangolin_Skull is a gnarled, bark-covered cranium with sharp, segmented scales protruding from the eye sockets and jawline, granting its bearer an uncanny ability to track prey or threats through the densest undergrowth with acute senses."
+  },
+  "Fossorial_Shovel_Skull": {
+    "tags": [
+      "Cranium",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Scent"
+    ],
+    "description": "The Fossorial_Shovel_Skull is a compact, robust cranium with a broad, flat forehead and sharp, downward-curving mandibles, perfectly adapted for digging through earth and stone. Its surface is covered in tough, scaly plates that provide both protection and grip, while its heightened senses allow it to detect prey and threats beneath the surface."
+  },
+  "Undead_Bleached_Scale_Skull": {
+    "tags": [
+      "Cranium",
+      "Undead",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain"
+    ],
+    "description": "The Undead_Bleached_Scale_Skull is a chilling relic of a creature that once roamed the mortal plane, its bleached and scaly cranium now void of life, granting the bearer a ghostly visage that instills fear in the hearts of the living while simultaneously making them immune to pain and adding a layer of natural armor."
+  },
+  "Titan_Overlapping_Scale_Skull": {
+    "tags": [
+      "Cranium",
+      "Titan",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Block",
+      "Headbutt"
+    ],
+    "description": "The Titan_Overlapping_Scale_Skull is a monstrous cranium encased in layers of impenetrable, obsidian-black scales that interlock like the plates of a fortress, granting the wearer an imposing presence and unmatched resilience."
+  },
+  "Aquatic_Streamlined_Skull": {
+    "tags": [
+      "Cranium",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Aquatic_Streamlined_Skull is a sleek, hydrodynamic cranium covered in smooth, overlapping scales that reduce water resistance, allowing for swift and silent underwater movement."
+  },
+  "Electroreceptive_Scale_Skull": {
+    "tags": [
+      "Cranium",
+      "Electroreceptive",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Electroreceptive_Scale_Skull is a jagged, obsidian-black skull covered in sleek, shimmering scales that undulate with an eerie, electric blue glow, granting its bearer unparalleled sensory acuity and the uncanny ability to sense even the faintest vibrations and electrical discharges in the environment."
+  },
+  "Venomous_Gland_Skull": {
+    "tags": [
+      "Cranium",
+      "Venomous",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Disease Carrier"
+    ],
+    "description": "The Venomous_Gland_Skull is a grotesque amalgamation of reptilian and mammalian features, with a hollow cranium embedded with rows of jagged, venomous fangs and a pulsating gland visible through translucent scales, exuding a malevolent aura that hints at the deadly poison and diseases it can unleash upon its foes."
+  },
+  "Acid_Mist_Skull": {
+    "tags": [
+      "Cranium",
+      "Acid",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Mist_Skull is a grotesque, translucent cranium filled with swirling green acid, constantly emitting a faint, eerie hiss as if the skull is perpetually exhaling a noxious mist. The surface of the skull is covered in thick, overlapping scales like those of a dragon, providing a measure of protection against its own corrosive nature while granting the wielder resistance to acid attacks."
+  },
+  "Musk_Gland_Skull": {
+    "tags": [
+      "Cranium",
+      "Musk",
+      "Pholidota"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Embedded within the cranium, the Musk_Gland_Skull is a grotesque fusion of reptilian scales and mammalian brain matter, pulsating with an eerie, otherworldly glow. The gland emits a pungent, nauseating musk that can induce fear and confusion in foes, though the bearer must endure the constant, overwhelming stench that seems to seep from every pore."
+  },
+  "Social_Bioluminescent_Skull": {
+    "tags": [
+      "Cranium",
+      "Bioluminescent",
+      "Pholidota",
+      "Mutant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Bioluminescence"
+    ],
+    "description": "The Social_Bioluminescent_Skull is a grotesque yet mesmerizing cranium, covered in iridescent scales that shift colors in response to emotional stimuli, emitting a soft, hypnotic glow that can paralyze the mind of any observer, enhancing charisma to forge unnatural bonds."
+  }
+}

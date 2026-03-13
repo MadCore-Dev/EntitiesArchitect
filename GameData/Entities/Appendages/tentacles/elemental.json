@@ -1,0 +1,313 @@
+{
+  "Fire_Lash_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Burn",
+      "Tail Whip",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadows, the Fire_Lash_Tendrils writhe and twist like living flames, their slick, crimson surface crackling with volatile energy. Each tendril ends in a wicked, whip-like tip capable of lashing out with terrifying speed and wrapping around foes with unyielding strength, leaving scorch marks on anything they touch."
+  },
+  "Water_Constricting_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "Sinuous and slick, the water-constricting tentacles pulse with an eerie luminescence, their fluid motion mirroring the relentless grip of a drowning sea, capable of ensnaring and constricting with the unyielding strength of tidal waves."
+  },
+  "Earth_Stone_Grip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Earth",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare",
+      "Slam"
+    ],
+    "description": "Emerging from the ground like twisted, gnarled roots, the Earth Stone Grip Tendrils are thick and knotted, their surface rough with embedded pebbles and stones. They pulse with a dull, earthy energy, coiling and uncoiling with the deliberate intent to grapple and ensnare their prey, before slamming them into the ground with brutal force."
+  },
+  "Wind_Gust_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback"
+    ],
+    "description": "Twisting like living shadows, the Wind_Gust_Tendrils shimmer with an ethereal blue light, their slender forms writhing and coiling as if grasping at unseen currents; when extended, they emit a chilling draft that can buffet enemies and push them away with unsettling force."
+  },
+  "Lightning_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tentacle Lash"
+    ],
+    "description": "Sinuous tentacles crackle with blue arcs of lightning, their serpentine forms writhing eagerly as they lash out with blinding speed, each touch delivering a jarring electric shock that leaves opponents quivering and disoriented."
+  },
+  "Ice_Frost_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Grapple"
+    ],
+    "description": "Ice-Frost Tendrils sprout from the body like sinuous, translucent snakes, each one crackling with frost and capable of extending to snatch prey from a distance. Their touch slows and freezes, their grip unyielding as the iciest glacier."
+  },
+  "Shadow_Drain_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Drain_Tendrils are long, sinuous tentacles that writhe and pulse with an inky darkness, their touch siphoning away the very essence of light and warmth from their victims, leaving behind a chill that penetrates to the bone."
+  },
+  "Lava_Smash_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Slam"
+    ],
+    "description": "Braided from molten lava and pulsating with an otherworldly heat, the Lava Smash Tendrils writhe and twist like living serpents, their surfaces slick and scorching to the touch, capable of incinerating anything they wrap around while granting their wielder a devastating grip and fiery resilience."
+  },
+  "Acid_Ooze_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "Twisting like living shadows, the Acid Ooze Tendrils writhe and pulsate, their surface slick with a viscous, greenish fluid that hisses and steams upon contact with metal or flesh, capable of ensnaring foes and dissolving armor with eerie, corrosive efficiency."
+  },
+  "Nature_Root_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "Entangled in a dense web of vine-like tendrils, the Nature_Root_Tendrils appear as living shadows of the forest, their surface slick and cold to the touch, capable of ensnaring and constricting foes with an unyielding grip that draws upon the primal strength of the earth."
+  },
+  "Time_Phase_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Slow"
+    ],
+    "description": "Twisting and writhing like living shadows, the Time_Phase_Tendrils seem to defy the laws of physics, their dark, malleable forms shifting between dimensions with each blink of an eye, granting their wielder both the eerie ability to phase through space and the chilling power to warp time itself."
+  },
+  "Sand_Grit_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blinding Sandstorm",
+      "Ensnare"
+    ],
+    "description": "Twisting tendrils of coarse, whispering sand emerge from the shadows, their sinuous movements both mesmerizing and unsettling, capable of conjuring blinding sandstorms and ensnaring foes with icy precision."
+  }
+}

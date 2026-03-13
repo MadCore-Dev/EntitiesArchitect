@@ -1,0 +1,295 @@
+{
+  "Fire_Heat_Sensing_Pits": {
+    "tags": [
+      "Ear",
+      "Heat_Pit",
+      "Elemental",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the skull, these glowing pits pulsate with an infernal heat, allowing the bearer to see through smoke and darkness as if it were day, while also bestowing an uncanny resistance to flames and a heightened awareness of their surroundings."
+  },
+  "Earth_Seismic_Sensors": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Elemental",
+      "Earth"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the creature\u2019s head, the Earth Seismic Sensors resemble a network of intricate, semi-translucent veins that pulse with the rhythmic undulations of the earth. These sensors grant the creature an uncanny ability to detect even the slightest tremors, allowing it to sense the movements of prey or predators through solid ground, and to navigate with precision in the most treacherous terrains."
+  },
+  "Water_Pressure_Sensing": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Elemental",
+      "Water"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's head, the Water_Pressure_Sensing component resembles a cluster of iridescent, fluid-filled nodes that pulse and shift in response to changes in water pressure, granting the user an uncanny sense of their surroundings in aquatic environments and beyond."
+  },
+  "Air_Wide_Broadcast_Sensors": {
+    "tags": [
+      "Ear",
+      "Broadcast",
+      "Elemental",
+      "Air"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense"
+    ],
+    "description": "The Air_Wide_Broadcast_Sensors are delicate, translucent structures that resemble a cluster of crystalline antennae, each one humming with a soft, ethereal glow as they pick up subtle vibrations and whispers of the wind, granting unparalleled awareness of one's surroundings and the ability to sense distant tremors."
+  },
+  "Lightning_Electrosensory": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Elemental",
+      "Lightning"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Lightning_Electrosensory is a shimmering, silvery organ that pulses with a constant hum of static electricity, its surface rippling like the skin of a living battery. It grants the bearer an eerie, heightened awareness, allowing them to sense the faintest tremors and navigate through the darkest of storms as if they were bathed in daylight."
+  },
+  "Ice_Vibration_Sensors": {
+    "tags": [
+      "Ear",
+      "Vibration",
+      "Elemental",
+      "Ice"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the crystalline structure of the Ice_Vibration_Sensors, delicate filaments of frost weave together to form intricate patterns that shimmer with a cold, otherworldly light. These sensors, when activated, pulse with icy energy, allowing the bearer to detect subtle vibrations through the ground, enhancing their perception and reflexes in frigid environments."
+  },
+  "Shadow_Void_Null_Ears": {
+    "tags": [
+      "Ear",
+      "Null",
+      "Elemental",
+      "Shadow"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "These ears are thin and black, like the absence of light itself, and they seem to pulse with the darkness of the void. When worn, they enhance your ability to blend into shadows and detect the faintest sounds, granting you the edge needed to strike from the unseen."
+  },
+  "Lava_Heat_Sensors": {
+    "tags": [
+      "Ear",
+      "Heat",
+      "Elemental",
+      "Lava"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the skull, these ear-like organs pulse with an otherworldly red glow, their intricate network of veins filled with molten lava that hums with the heat of a thousand suns, granting unparalleled perception in the darkest, most scorching environments."
+  },
+  "Acid_Chemical_Sensors": {
+    "tags": [
+      "Ear",
+      "Chemical",
+      "Elemental",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Acid Chemical Sensors are translucent, pulsating nodules embedded within the creature\u2019s flesh, oozing a faint, greenish fluid that constantly reacts to and analyzes the surrounding environment for traces of acid and vibration, granting heightened perception and resistance to the corrosive element."
+  },
+  "Nature_Root_Vibration_Ears": {
+    "tags": [
+      "Ear",
+      "Root_Vibration",
+      "Elemental",
+      "Nature"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Emerging from the earth, these ears are entwined with thick, gnarled roots that pulse with the heartbeat of the land, granting the bearer an uncanny ability to sense subtle tremors and shifts beneath their feet, enhancing their awareness and resilience in the natural world."
+  },
+  "Time_Omniscient_Ears": {
+    "tags": [
+      "Ear",
+      "Omniscient",
+      "Elemental",
+      "Time"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "The Time_Omniscient_Ears are ethereal, resembling iridescent chalices sprouting from the head, their surfaces flickering with the passage of time in a myriad of colors, granting the bearer an uncanny ability to track the movements of others through the fabric of time itself."
+  },
+  "Sand_Particle_Sensors": {
+    "tags": [
+      "Ear",
+      "Particle",
+      "Elemental",
+      "Sand"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the recesses of the wearer's ears, these minuscule, shifting grains of sand seem to hum with an ancient, elemental energy. With each step, they\u654f\u9510\u5730\u611f\u77e5\u7740\u5730\u5e95\u6df1\u5904\u7684\u9707\u52a8\uff0c\u4f7f\u7a7f\u6234\u8005\u80fd\u591f\u63d0\u524d\u5bdf\u89c9\u5230\u5730\u9762\u7684\u5fae\u5999\u53d8\u5316\uff0c\u540c\u65f6\uff0c\u8fd9\u4e9b\u6c99\u7c92\u7684\u5fae\u5c0f\u79fb\u52a8\u4e5f\u589e\u52a0\u4e86\u7a7f\u6234\u8005\u7684\u654f\u6377\u548c\u8b66\u89c9\u3002"
+  }
+}

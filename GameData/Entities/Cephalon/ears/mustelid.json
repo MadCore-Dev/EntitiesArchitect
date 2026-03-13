@@ -1,0 +1,258 @@
+{
+  "Round_Alert_Pinnae": {
+    "tags": [
+      "Ear",
+      "Round",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Round_Alert_Pinnae are small, sleek, and highly sensitive mustelid ears that swivel independently, enhancing the wearer's awareness of their surroundings. Their soft, velvety texture is barely noticeable against the skin, yet they significantly sharpen the senses, allowing for the detection of even the faintest sounds and movements, perfect for setting up an ambush."
+  },
+  "Rotatable_Tracking_Ears": {
+    "tags": [
+      "Ear",
+      "Rotatable",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Rotatable_Tracking_Ears, with their sleek, fur-lined mustelid design, swivel independently with eerie precision, enhancing your awareness of the surroundings and your ability to track moving objects or creatures with supernatural accuracy."
+  },
+  "Compact_Fossorial_Ears": {
+    "tags": [
+      "Ear",
+      "Compact",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Compact Fossorial Ears are small, nearly hidden beneath a thick layer of fur, with an extraordinary sensitivity that allows them to pick up the faintest sounds underground, granting the user an acute awareness of their surroundings."
+  },
+  "Seismic_Ground_Receptors": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Mustelid",
+      "Bone_Conduction"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the skull, these delicate yet formidable bone structures vibrate in harmony with the earth's subtle tremors, allowing the creature to sense impending seismic activity with eerie precision. The receptors are slender and tubular, resembling elongated canine ear canals but composed of a dense, crystalline bone that conducts sound waves with unmatched efficiency, enhancing both perception and reflexes."
+  },
+  "High_Frequency_Predator_Ears": {
+    "tags": [
+      "Ear",
+      "High_Frequency",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The High_Frequency_Predator_Ears are a pair of sleek, pointed appendages, covered in soft, dark fur that vibrates subtly with the unseen movements of the world around them, granting the user an uncanny ability to detect even the slightest sound or motion, perfect for setting up deadly ambushes in the shadows."
+  },
+  "Valved_Aquatic_Ears": {
+    "tags": [
+      "Ear",
+      "Valved",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Valved Aquatic Ears, resembling those of a sleek mustelid adapted for underwater life, feature delicate, transparent membranes that fold over the ear canal to prevent water entry while swimming. These ears also grant heightened auditory sensitivity both above and below the waterline, allowing for superior stealth and perception in any environment."
+  },
+  "Tufted_Alert_Pinnae": {
+    "tags": [
+      "Ear",
+      "Tufted",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The tufted alert pinnae are finely tuned, fox-like ears that protrude with a soft, dense fur, twitching\u654f\u9510\u5730\u611f\u77e5\u5468\u56f4\u73af\u5883\u7684\u7ec6\u5fae\u58f0\u97f3\uff0c\u4f7f\u7a7f\u6234\u8005\u80fd\u591f\u5728\u6084\u65e0\u58f0\u606f\u4e2d\u5bdf\u89c9\u6f5c\u5728\u5a01\u80c1\uff0c\u63d0\u9ad8\u6f5c\u884c\u548c\u4f0f\u51fb\u7684\u6210\u529f\u7387\u3002"
+  },
+  "Thermoregulating_Vascular_Ears": {
+    "tags": [
+      "Ear",
+      "Vascular",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thermoregulating Vascular Ears are a pair of sleek, pointed appendages covered in short, fine fur, with intricate webbing of visible blue veins that pulse and change color depending on the wearer's body temperature and emotional state, providing an immediate visual gauge of their well-being and readiness for combat."
+  },
+  "Nocturnal_Sound_Funnel_Ears": {
+    "tags": [
+      "Ear",
+      "Sound_Funnel",
+      "Mustelid",
+      "Nocturnal"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Keen Sight"
+    ],
+    "description": "The Nocturnal Sound Funnel Ears are long and slender, tapering to sharp points, with a velvety texture that feels almost unnaturally soft to the touch. These ears are highly mobile, swiveling independently to capture even the faintest sounds in the dark of night, granting the wielder an acute awareness of their surroundings and the ability to strike from utter silence."
+  },
+  "Pressure_Sensing_Aquatic_Ears": {
+    "tags": [
+      "Ear",
+      "Aquatic",
+      "Mustelid",
+      "Pressure"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Pressure-Sensing Aquatic Ears are delicate yet robust, resembling elongated mustelid ears adapted for underwater environments. Covered in sleek, hydrodynamic skin, they pulse subtly with changes in water pressure, granting the user unparalleled awareness in murky depths."
+  },
+  "Furred_Insulated_Ear_Flaps": {
+    "tags": [
+      "Ear",
+      "Furred",
+      "Mustelid",
+      "Cold"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These thick, plush ear flaps are covered in dense, white fur that traps heat close to the skin, providing a comforting warmth in the chill of winter. Their mustelid-like design enhances hearing, making even the softest whispers in the frozen wilderness audible."
+  },
+  "Aposematic_Display_Ears": {
+    "tags": [
+      "Ear",
+      "Aposematic",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Aposematic Display Ears are large, brightly colored appendages that flare outward when the creature feels threatened, displaying vivid patterns that warn predators of the wearer's potential to strike fear. Soft to the touch but capable of tensing up to appear more menacing, these ears grant an intimidating presence that can be used to lower the morale of foes."
+  }
+}

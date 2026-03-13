@@ -1,0 +1,299 @@
+{
+  "Thumb_Claw_Climbing_Arms": {
+    "tags": [
+      "Arms",
+      "Claw",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Wall_Crawl",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Grapple"
+    ],
+    "description": "The Thumb_Claw_Climbing_Arms are a pair of chiropteran-like appendages, covered in leathery black membranes and tipped with sharp, curved claws that dig into the sturdiest rock or wall with ease, granting the wielder the fluid grace and grip of a spider as they scale sheer surfaces and ensnare foes in deadly grapples."
+  },
+  "Wing_Fold_Grasping_Arms": {
+    "tags": [
+      "Arms",
+      "Wing_Fold",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple"
+    ],
+    "description": "Emerging from the thick, leathery wing membrane are four dexterous grappling arms, each tipped with sharp, hooked claws that can extend and retract like a chiropteran's fingers, enabling the wielder to grasp and ensnare foes with eerie precision and strength."
+  },
+  "Vampire_Blood_Lap_Arms": {
+    "tags": [
+      "Arms",
+      "Feeding",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Snatch"
+    ],
+    "description": "The Vampire_Blood_Lap_Arms are elongated, leathery limbs tipped with sharp, curved claws and a network of delicate, translucent veins that pulse with an eerie, crimson light. When extended, they emit a faint, chilling breeze, and the skin stretches taut, revealing intricate bat-like wings beneath."
+  },
+  "Fishing_Gaff_Arms": {
+    "tags": [
+      "Arms",
+      "Gaff",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Fishing_Gaff_Arms are elongated, chiropteran limbs tipped with sharp, curved hooks that gleam sinisterly in the dim light, allowing the wielder to snatch prey from afar with deadly precision."
+  },
+  "Powerful_Crushing_Claws": {
+    "tags": [
+      "Arms",
+      "Crusher",
+      "Chiropteran",
+      "Giant"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Crunch"
+    ],
+    "description": "Enormous chiropteran claws, each one the size of a grown man's torso, are covered in thick, leathery scales that glisten with an oily sheen. These fearsome appendages can effortlessly grip and crush boulders with bone-shattering force, their sharp edges capable of tearing through reinforced steel with a single swipe."
+  },
+  "Venomous_Claw_Arms": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Bristling with sharp, retractable claws and ending in elongated, bat-like fingers, the Venomous_Claw_Arms are a horrifying sight. Their undersides are lined with tiny, venomous glands that secrete a potent toxin, capable of delivering a paralyzing sting with the slightest touch."
+  },
+  "Echolocation_Sensory_Arms": {
+    "tags": [
+      "Arms",
+      "Sensory",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Echolocation_Sensory_Arms are elongated, bat-like limbs with thin, sensitive membranes that extend from the fingertips, capable of emitting and detecting ultrasonic pulses to perceive the surroundings in eerie detail, granting the user an uncanny ability to sense even the faintest tremors beneath the earth's surface."
+  },
+  "Adhesive_Sucer_Arms": {
+    "tags": [
+      "Arms",
+      "Adhesive",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip"
+    ],
+    "description": "The Adhesive_Sucer_Arms are elongated, chiropteran-like appendages with soft, leathery skin that secretes a sticky, transparent adhesive, allowing for a tenacious grip on any surface, while suction cups lined along the underside pulse rhythmically, enhancing grip and agility in combat and movement."
+  },
+  "Armoured_Bone_Arms": {
+    "tags": [
+      "Arms",
+      "Armoured",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Block"
+    ],
+    "description": "The Armoured_Bone_Arms are massive, chiropteran limbs tipped with razor-sharp claws, their exoskeletal plates gleaming with an ominous sheen that seems to absorb and reflect the darkest hues of the surrounding environment. They pulse with an inner strength, granting the wielder a bulwark of defense and the raw power to crush adversaries with a single, devastating blow."
+  },
+  "Rapid_Strike_Thumb_Hooks": {
+    "tags": [
+      "Arms",
+      "Swift",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Pounce"
+    ],
+    "description": "Rapid_Strike_Thumb_Hooks are sharp, claw-like protrusions that sprout from the base of the thumb, extending like retractable blades. Their surface is covered in a fine layer of chitin, making them both strong and lightweight, and they vibrate with an almost imperceptible hum when the user is about to strike, enhancing the precision and speed of their attacks."
+  },
+  "Cave_Crawl_Gripping_Arms": {
+    "tags": [
+      "Arms",
+      "Cave",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb"
+    ],
+    "description": "Cave_Crawl_Gripping_Arms are elongated, chiropteran-like limbs that end in multiple, prehensile claws and pads, allowing the user to scale even the most treacherous cave walls with ease, their enhanced strength and dexterity granting them a firm grip and agile movement."
+  },
+  "Insectivore_Snap_Arms": {
+    "tags": [
+      "Arms",
+      "Insectivore",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Insectivore_Snap_Arms are elongated, chiropteran limbs tipped with sharp, claw-like digits that can snap shut with terrifying speed and force, capable of snatching insects and small prey from mid-air with deadly precision."
+  }
+}

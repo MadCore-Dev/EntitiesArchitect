@@ -1,0 +1,261 @@
+{
+  "Prehensile_Feeding_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Feeding",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Prehensile_Feeding_Tendrils are long, sinuous appendages that pulse with a sickly blue glow, their barbed tips dripping with acidic saliva. They writhe and twist with a mind of their own, capable of ensnaring prey with terrifying speed and efficiency, while also extracting nourishment in a manner that is both grotesque and mesmerizing."
+  },
+  "Adhesive_Snare_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare"
+    ],
+    "description": "The Adhesive_Snare_Tendrils are long, segmented appendages that resemble the legs of a colossal crustacean, each jointed segment capable of rapid, sinuous movements. Covered in a slick, sticky secretion, these tendrils can lash out with incredible speed to ensnare prey, holding them fast with an unyielding grip that defies escape."
+  },
+  "Venomous_Spine_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the creature's carapace, the Venomous Spine Tendrils are a cluster of translucent, barbed tentacles that pulse with a sickly green glow, dripping with a thick, viscous venom that causes paralysis and excruciating pain upon contact."
+  },
+  "Electrosensory_Antennae": {
+    "tags": [
+      "Tentacles",
+      "Electrosensory",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the creature's head, the Electrosensory_Antennae resemble delicate, segmented tendrils that pulse with a faint, bioluminescent glow, capable of detecting the slightest electrical fields and movements in the dark, granting the wielder an uncanny awareness of their surroundings."
+  },
+  "Acid_Spraying_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the creature's segmented body, the Acid_Spraying_Tendrils writhe and pulse, their rubbery surface slick with a viscous, greenish fluid. Each tendril ends in a sharp, chitinous nozzle, capable of spraying a corrosive acid that melts through metal and flesh alike, while their innate flexibility grants the wielder an additional reach of two meters."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash"
+    ],
+    "description": "Emerging from the creature's armored exoskeleton, the spined whip tendrils are long, sinuous appendages covered in razor-sharp spines, capable of lashing out with terrifying speed and precision, their chitinous surface both flexible and formidable."
+  },
+  "Bioluminescent_Lure_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Twisting and sinuous, the Bioluminescent_Lure_Tendrils pulse with an eerie, hypnotic glow, their sticky, translucent tendrils reaching out to lure prey with the promise of safety, only to ensnare and paralyze them in a vice-like grip."
+  },
+  "Electric_Discharge_Whips": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Emerging from the creature's armored exoskeleton, these chitinous tentacles crackle with blue arcs of electricity, their segmented bodies flicking and writhing with a life of their own, ready to lash out and deliver a jarring shock to any unsuspecting prey within range."
+  },
+  "Necrotic_Drain_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Twisting, shadowy tentacles sprout from the creature\u2019s underbelly, each one pulsating with an eerie, necrotic energy that saps the life force from anything they touch, leaving behind only a husk of despair and decay."
+  },
+  "Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Sinuous tentacles covered in iridescent, shifting scales that can mimic the colors and patterns of any environment, allowing the wielder to blend seamlessly into the shadows and evade detection with eerie precision."
+  },
+  "Bone_Spur_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "Emerging from the creature's shoulders and limbs are chitinous bone spurs that twist and contort like living tentacles, their surface jagged and sharp, capable of ensnaring and crushing foes with brutal efficiency."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Magnetic Sensory Filaments are delicate, translucent tendrils that emerge from the creature's carapace, each one pulsing with a faint, iridescent glow as they detect the subtle magnetic fields of the environment, granting the creature an uncanny awareness of its surroundings and the ability to navigate even the darkest, most chaotic spaces with eerie precision."
+  }
+}

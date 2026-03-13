@@ -1,0 +1,610 @@
+{
+  "Savanna_Elephant_Bulk_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Savanna",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Intimidate",
+      "Stability"
+    ],
+    "description": "The Savanna Elephant Bulk Core is a massive, cumbersome component, its thick, grey hide bristling with veins that pulse with raw power, granting the wielder an aura of unshakable stability and sheer physical dominance, though it hampers agility with its elephantine mass."
+  },
+  "Forest_Elephant_Compact_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Forest",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Sure-Footed"
+    ],
+    "description": "The Forest Elephant Compact Core is a dense, moss-covered orb pulsating with the heartbeat of the ancient forest, its surface etched with intricate patterns of roots and leaves. When integrated, it grants a towering, elephantine form that moves with a deliberate grace, its massive legs and sturdy build capable of effortlessly navigating treacherous terrain while delivering devastating trample attacks."
+  },
+  "Mammoth_Cold_Adapted_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Mammoth",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Endurance",
+      "Stability"
+    ],
+    "description": "The Mammoth_Cold_Adapted_Core is a massive, icy-blue organ pulsating with the resilience of ancient glaciers, granting the user unparalleled endurance and stability while radiating an aura of chilling resistance that makes them impervious to the harshest cold, though it imposes a lumbering gait and reduced agility."
+  },
+  "Armoured_War_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "War",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Body Slam",
+      "Intimidate",
+      "Natural Armor"
+    ],
+    "description": "The Armoured_War_Elephant_Core is a colossal, chitinous mass pulsing with dark energy, its surface etched with intricate, arcane sigils that glow faintly with an ominous light. When integrated, it grants the wielder a towering, elephantine form, armored in bony plates and brimming with raw, destructive power, capable of terrifying foes with a mere glance and crushing them beneath ponderous, iron-clad feet."
+  },
+  "Juvenile_Small_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Juvenile",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Sure-Footed"
+    ],
+    "description": "The Juvenile_Small_Elephant_Core is a dense, pulsating mass of muscle and bone, wrapped in a layer of thick, resilient hide, emitting a low, comforting hum that resonates with stability and strength. Its surface is warm to the touch, with faint, rhythmic contractions that mimic the gentle breathing of a young elephant, granting its bearer an unshakable sense of sure-footedness and fortitude."
+  },
+  "Berserk_Musth_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Musth",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Trample",
+      "Intimidate"
+    ],
+    "description": "Embedded deep within the creature's formidable chassis, the Berserk_Musth_Elephant_Core pulses with primal rage, its thick, veined surface radiating an aura of unbridled fury and dominance, enhancing the bearer's physical might and resilience while imposing a commanding presence that silences even the most daring foes."
+  },
+  "Desert_Adapted_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Desert",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Endurance",
+      "Sure-Footed",
+      "Stability"
+    ],
+    "description": "The Desert_Adapted_Elephant_Core is a massive, sand-blasted organ, resembling a tanned, leathery heart encrusted with tiny grains of desert sand, pulsating with the enduring resilience of an elephant. Its surface is rough and calloused, with veins that twist like the roots of ancient desert trees, granting the bearer unparalleled stability and a steadfast grip on even the most precarious, shifting sands."
+  },
+  "Amphibious_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Amphibious",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_caudal": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Trample"
+    ],
+    "description": "The Amphibious_Elephant_Core is a massive, leathery organ pulsating with a deep, rhythmic heartbeat, its surface slick with a slimy secretion that aids in silent underwater movement. Its bulk grants immense strength and resilience, allowing the bearer to effortlessly trample foes on land and swim with grace and power in water."
+  },
+  "Spectral_Undead_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Undead",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Fear",
+      "No Pain",
+      "Stability"
+    ],
+    "description": "The Spectral Undead Elephant Core is a colossal, skeletal mass pulsating with an ethereal glow, its massive, translucent tusks and hollow eye sockets radiating an aura of dread and despair. The core's presence is overwhelming, granting the bearer immense strength and resilience, but also a chilling touch of instability and fear."
+  },
+  "Giant_Titan_Elephant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Titan",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Trample",
+      "Body Slam",
+      "Stability",
+      "Intimidate"
+    ],
+    "description": "The Giant Titan Elephant Core is a colossal, organic mass pulsating with dark energy, its surface veined with sinew and thick muscle fibers that seem to hum with latent power. Its imposing bulk radiates an aura of unshakable stability and primal might, making the very ground tremble beneath its potential movements."
+  },
+  "Tusked_Ivory_Warrior_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Tusked",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Trample",
+      "Intimidate"
+    ],
+    "description": "Embedded within the robust chassis of the Tusked Ivory Warrior Core is a pitted, gleaming ivory heart that pulses with latent power, its surface etched with ancient runes. The core feels heavy and resonant to the touch, emanating an aura of brute force and primal dominance that can strike fear into the hearts of enemies."
+  },
+  "Elephant_Bull_Charge_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bull",
+      "Elephantine"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charge",
+      "Trample",
+      "Body Slam"
+    ],
+    "description": "The Elephant_Bull_Charge_Core is a massive, hulking mass of pulsating muscle and sinew, its surface a mosaic of scars and calluses, each one a testament to countless battles. Its texture is rough and slick, with a powerful aura that hums with the potential for devastating impact, embodying the brute force and unyielding determination of an elephant bull on the charge."
+  }
+}

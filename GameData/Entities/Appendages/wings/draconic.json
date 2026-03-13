@@ -1,0 +1,344 @@
+{
+  "Chromatic_Bat_Wing": {
+    "tags": [
+      "Wings",
+      "Chromatic",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics",
+      "Fire Breath"
+    ],
+    "description": "The Chromatic Bat Wing is a surreal amalgamation of scales and leathery membranes, shifting through hues of fiery red, emerald green, and twilight black, granting the wielder the ethereal grace of flight and the destructive might of fire."
+  },
+  "Frost_Icy_Wing": {
+    "tags": [
+      "Wings",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Cold Wave",
+      "Slow"
+    ],
+    "description": "Frost_Icy_Wing, a pair of ethereal, translucent wings that shimmer with a frosty blue light, are adorned with delicate, icy runes that pulse with a chilling aura, granting the bearer unparalleled agility and the ability to unleash freezing waves of arctic air."
+  },
+  "Acid_Mist_Wing": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Acid Spray"
+    ],
+    "description": "The Acid_Mist_Wing is a tattered membrane, dark and slick with a sickly green sheen, extending from draconic clawed digits. As it flutters, it emits a choking mist that corrodes metal and flesh alike, granting its bearer both aerial mobility and the ability to unleash a caustic spray."
+  },
+  "Lightning_Plasma_Wing": {
+    "tags": [
+      "Wings",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics",
+      "Shock Touch"
+    ],
+    "description": "The Lightning_Plasma_Wing is a pair of shimmering, iridescent wings that pulse with crackling energy, their edges frayed with jagged arcs of blue-white lightning. When unfolded, these draconic wings allow for swift, agile flight and grant a shock-inducing touch to any who dare to touch them."
+  },
+  "Shadow_Void_Wing": {
+    "tags": [
+      "Wings",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Drain"
+    ],
+    "description": "The Shadow_Void_Wing is a pair of obsidian-black wings with edges that seem to shimmer with the absence of light, granting the bearer the ability to slip through shadows undetected. Each wing feels weightless yet sturdy, allowing for silent, ghostly flight and the eerie ability to drain the life force of unsuspecting prey."
+  },
+  "Undead_Bone_Membrane_Wing": {
+    "tags": [
+      "Wings",
+      "Undead",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Fear"
+    ],
+    "description": "The Undead_Bone_Membrane_Wing is a spectral appendage, composed of translucent, leathery membranes stretched tautly between jagged, blackened bones, giving the impression of a dragon's wing but with an unsettling, decayed quality that sends chills and fear to those who gaze upon it."
+  },
+  "Ancient_Elder_Massive_Wing": {
+    "tags": [
+      "Wings",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Tidal Wave",
+      "Aerobatics"
+    ],
+    "description": "The Ancient Elder Massive Wing is a relic of an era long forgotten, its leathery surface etched with arcane runes and ancient symbols that shimmer faintly in the light. Each feather is as hard as steel yet pliable enough to grant the wielder unparalleled aerial acrobatics, while the sheer mass of the wing imbues the bearer with the strength and agility of a dragon, capable of summoning devastating tidal waves from the heavens."
+  },
+  "Faerie_Iridescent_Wing": {
+    "tags": [
+      "Wings",
+      "Faerie",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Faerie Iridescent Wing is a delicate yet resilient appendage, shimmering with an array of colors that shift and dance as if alive, casting an ethereal glow that seems to pulse with an otherworldly energy. When unfurled, these wings allow for swift, silent flight and the ability to hover gracefully in mid-air, while their magical properties grant the wielder the power to charm and become momentarily invisible."
+  },
+  "Feathered_Celestial_Wing": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "The Feathered_Celestial_Wing is a magnificent appendage, shimmering with iridescent hues that shift between deep twilight blues and fiery golds, its feathers interwoven with delicate, draconic scales that catch the light with an almost hypnotic shimmer, granting the bearer unparalleled grace and agility in the skies."
+  },
+  "Lindworm_No_Wings": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Draconic",
+      "Lindworm"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Lindworm_No_Wings is a pair of atrophied, yet unmistakably draconic appendages, their once mighty wings now mere vestiges of their former glory, shriveled and flaccid, barely capable of supporting the creature's colossal frame but still imbued with a faint aura of ancient power, granting a subtle grace and agility that enhances evasion."
+  },
+  "Wyvern_Wing_Blade": {
+    "tags": [
+      "Wings",
+      "Wyvern",
+      "Draconic"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Pounce",
+      "Slash"
+    ],
+    "description": "The Wyvern_Wing_Blade is a jagged, bone-like structure embedded within the powerful membrane of a wyvern's wing, its serrated edges glinting ominously in the dim light, capable of slicing through air and flesh with equal ease, enhancing both flight and combat prowess."
+  },
+  "Hatchling_Small_Wing_Buds": {
+    "tags": [
+      "Wings",
+      "Hatchling",
+      "Draconic"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "Tiny, translucent scales cling to delicate, embryonic wings, their fragile structure barely hinting at the monstrous power they will one day wield. These budding wings twitch occasionally, as if yearning to taste the wind, granting the bearer a rudimentary ability to glide and imbuing them with an agility and evasion that belie their tender age."
+  }
+}

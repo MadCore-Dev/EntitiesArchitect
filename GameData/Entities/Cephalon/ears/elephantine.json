@@ -1,0 +1,265 @@
+{
+  "Large_Fan_Thermoregulating_Ears": {
+    "tags": [
+      "Ear",
+      "Fan",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Large_Fan_Thermoregulating_Ears are massive, elephantine appendages that unfurl like delicate fans from either side of the head, their surface covered in fine, heat-dispersing filaments that pulse with a cool, soothing breeze, enhancing endurance and fortitude in the most grueling of battles."
+  },
+  "Seismic_Infrasound_Ears": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Seismic Infrasound Ears are massive, elephantine appendages that protrude from the head, each one resembling a flattened, fleshy trumpet with ridges that vibrate imperceptibly. These ears can detect the subtlest ground vibrations and infrasonic sounds, granting the bearer an uncanny awareness of their surroundings and the ability to see through solid objects by sensing the minute tremors they generate."
+  },
+  "Compact_Forest_Ears": {
+    "tags": [
+      "Ear",
+      "Compact",
+      "Elephantine",
+      "Forest"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Compact Forest Ears are a pair of intricately patterned, elephantine appendages, covered in soft, green fur that shimmers with the glow of luminescent fungi. They are remarkably sensitive, capable of picking up the subtlest sounds of rustling leaves and chirping insects, while also providing an innate resilience and endurance in the densest undergrowth."
+  },
+  "Broad_Radio_Scanning_Ears": {
+    "tags": [
+      "Ear",
+      "Broad",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Tracking"
+    ],
+    "description": "The Broad_Radio_Scanning_Ears, with their expansive, elephantine flaps, twitch and unfurl with preternatural sensitivity, picking up the slightest vibrations and distant whispers of the earth, granting unparalleled awareness and tracking prowess."
+  },
+  "Cold_Adapted_Insulated_Ears": {
+    "tags": [
+      "Ear",
+      "Insulated",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Cold_Adapted_Insulated_Ears, resembling oversized elephantine appendages with thick, puffy fur, are perfectly adapted for frigid climates. Their expansive size and dense insulation not only enhance hearing by filtering out the harsh winds but also provide an unparalleled sense of warmth and comfort in the coldest of realms."
+  },
+  "Electroreceptive_Ear_Patches": {
+    "tags": [
+      "Ear",
+      "Electroreceptive",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Ear_Patches are vast, leathery flaps that extend from the base of the skull, resembling oversized elephant ears with a network of intricate, glowing blue veins that pulse in response to electrical fields, granting the wearer an uncanny ability to perceive their surroundings in total darkness."
+  },
+  "Musth_Gland_Swollen_Ears": {
+    "tags": [
+      "Ear",
+      "Musth",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Intimidate"
+    ],
+    "description": "Swollen, pulsating glands beneath the thick, taut skin of the creature's ears emit a powerful musk that can be felt before it is seen, causing a primal fear in all who approach. The glands throb with raw, untamed power, enhancing the creature's physical prowess while overwhelming its sense of reason and social grace."
+  },
+  "Social_Long_Range_Ears": {
+    "tags": [
+      "Ear",
+      "Social",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "These colossal, intricately veined elephantine ears, adorned with delicate patterns that shimmer in the light, grant the bearer an uncanny ability to sense and interpret the emotions and intentions of those around them from great distances, enhancing their social acumen and making them a master of subtle, long-range communication."
+  },
+  "Undead_Tattered_Ear_Flaps": {
+    "tags": [
+      "Ear",
+      "Undead",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Tattered Ear Flaps are ragged and desiccated, hanging like tattered black banners from the massive skull they are attached to. They emit a faint, eerie whisper that causes a shiver of dread to run down the spine of anyone nearby, and their presence grants a dark resilience to the bearer."
+  },
+  "Desert_Heat_Radiating_Ears": {
+    "tags": [
+      "Ear",
+      "Desert",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Desert_Heat_Radiating_Ears are colossal, flappy appendages reminiscent of an elephant's, covered in a dense layer of sand-resistant fur. They constantly emit a subtle, warm glow that seems to draw out the wearer's resilience and awareness, enhancing their stamina and perception in the arid wastelands."
+  },
+  "Titan_Wide_Broadcast_Ears": {
+    "tags": [
+      "Ear",
+      "Titan",
+      "Elephantine"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Tracking",
+      "Blindsight"
+    ],
+    "description": "The Titan_Wide_Broadcast_Ears are colossal, elephantine appendages that pulse with a faint, iridescent glow, their intricate inner workings visible through translucent skin. These ears not only capture the subtlest of sounds but also vibrate in response to ground tremors, granting the user an unparalleled awareness of their surroundings and the ability to track even the most elusive of creatures."
+  },
+  "Bioluminescent_Patterned_Ears": {
+    "tags": [
+      "Ear",
+      "Bioluminescent",
+      "Elephantine",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Patterned_Ears are massive, elephantine appendages adorned with intricate patterns that glow with an eerie, pulsating light, capable of emitting a paralyzing radiance that can freeze an enemy in place, while also enhancing the wearer's charisma to mesmerize and command attention."
+  }
+}

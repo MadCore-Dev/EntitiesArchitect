@@ -1,0 +1,328 @@
+{
+  "Pillar_Stomping_Legs": {
+    "tags": [
+      "Legs",
+      "Pillar",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample",
+      "Stability"
+    ],
+    "description": "Pillar_Stomping_Legs are colossal, elephantine limbs that end in hooved feet, each step causing the ground to tremble and crack, capable of flattening anything in their path while granting the user unparalleled stability and strength."
+  },
+  "Charge_Sprint_Legs": {
+    "tags": [
+      "Legs",
+      "Sprint",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charge",
+      "Trample"
+    ],
+    "description": "Bulging with sinew and muscle, the Charge_Sprint_Legs resemble those of a colossal elephant, capable of propelling their bearer forward in a thunderous charge. The ground trembles underfoot as these legs lock into a sprint, granting both unparalleled strength and swiftness, enabling devastating trample attacks."
+  },
+  "Deep_Mud_Wading_Legs": {
+    "tags": [
+      "Legs",
+      "Wading",
+      "Elephantine",
+      "Amphibious"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "The Deep Mud Wading Legs are thick and powerful, resembling those of an enormous elephant with webbed feet and rough, mud-caked skin that glistens with moisture, perfectly adapted for navigating treacherous, swampy terrain while providing unparalleled stability and strength."
+  },
+  "Armoured_War_Leg": {
+    "tags": [
+      "Legs",
+      "War_Armoured",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Block"
+    ],
+    "description": "The Armoured War Leg is a massive, elephantine appendage sheathed in thick, rust-colored plates that interlock like ancient armor, each plate etched with the scars of countless battles. With every step, the ground trembles under the sheer weight and power of these legs, capable of delivering devastating stomps and fortifying the bearer against incoming attacks."
+  },
+  "Desert_Flat_Padded_Legs": {
+    "tags": [
+      "Legs",
+      "Desert",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Endurance"
+    ],
+    "description": "Thick, splayed pads on massive, elephantine legs are covered in rough, sand-resistant scales, allowing the creature to move silently and with effortless grace across the scorching desert sands, its powerful muscles adding a formidable boost to both strength and endurance."
+  },
+  "Mammoth_Snow_Tread_Legs": {
+    "tags": [
+      "Legs",
+      "Snow",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Stability"
+    ],
+    "description": "Mammoth_Snow_Tread_Legs are colossal, frost-encrusted limbs that resemble the legs of an ancient, hulking beast, with thick, shaggy fur that provides insulation against the biting cold. Each step resonates with power and certainty, granting the bearer an unmatched stability and sure-footedness on even the most precarious snowy terrains."
+  },
+  "Electrosensory_Leg_Sensors": {
+    "tags": [
+      "Legs",
+      "Electrosensory",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the thick, wrinkled skin of the elephantine legs, these sensitive sensors pulse faintly with an electric blue glow, allowing the bearer to sense minute vibrations in the earth, enhancing their perception of hidden dangers and granting immense strength to shake the ground beneath their enemies."
+  },
+  "Undead_Bone_Legs": {
+    "tags": [
+      "Legs",
+      "Undead",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "No Pain"
+    ],
+    "description": "The Undead_Bone_Legs are massive, skeletal limbs that resemble those of an elephant, creaking and groaning with each ponderous step. Covered in a patina of ancient, greenish-black grime, they grant an eerie stability and a crushing power, allowing the wielder to unleash devastating stomps while shrugging off the ravages of disease and injury."
+  },
+  "Juvenile_Light_Legs": {
+    "tags": [
+      "Legs",
+      "Juvenile",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the shadows of a forgotten forest, the Juvenile_Light_Legs are slender yet powerful limbs, barely reaching their full potential, with pearly white skin glistening under moonlight, hinting at their eventual colossal strength and grace, offering a subtle boost in agility and speed."
+  },
+  "Musth_Rage_Legs": {
+    "tags": [
+      "Legs",
+      "Musth",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charge",
+      "Blood Frenzy"
+    ],
+    "description": "Towering over the battlefield, the Musth_Rage_Legs are thick and powerful, wrapped in a sheen of sweat and dust as they tremble with pent-up energy. Each step resonates with the ground, signaling an unstoppable charge that can cleave through the enemy ranks, while the aura of bloodlust surrounding them ignites the wielder's fury, driving them to relentless, brutal combat."
+  },
+  "Titan_Earthquake_Legs": {
+    "tags": [
+      "Legs",
+      "Titan",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Trample"
+    ],
+    "description": "Brawny and massive, the Titan_Earthquake_Legs resemble the muscled limbs of a colossal elephant, each step sending shockwaves through the earth, capable of flattening anything in their path while providing unparalleled stability and strength to their bearer."
+  },
+  "Bog_Sinkhole_Adapted_Legs": {
+    "tags": [
+      "Legs",
+      "Bog",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Stability"
+    ],
+    "description": "The Bog_Sinkhole_Adapted_Legs are thick, spongy appendages that resemble the legs of a colossal elephant, perfectly adapted to navigate the treacherous, unstable terrain of the swamp. Covered in a layer of slick, mucus-like skin that glistens in the dim light, they provide an unparalleled sense of stability and sure-footedness, allowing one to traverse even the most precarious sinkholes without fear of sinking or losing balance."
+  }
+}

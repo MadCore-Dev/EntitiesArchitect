@@ -1,0 +1,274 @@
+{
+  "Chromatophore_Active_Skin": {
+    "tags": [
+      "Skin",
+      "Chromatophore",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Mimic"
+    ],
+    "description": "The Chromatophore_Active_Skin is a mesmerizing, adaptive layer that shifts and shimmers with the hues of the environment, allowing the wearer to blend seamlessly into their surroundings. Its surface is cool and moist, with a texture that mimics the soft, pulsating skin of a cephalopod, granting the user the uncanny ability to mimic the appearance of other beings or objects with eerie precision."
+  },
+  "Aposematic_Warning_Skin": {
+    "tags": [
+      "Skin",
+      "Aposematic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Aposematic Warning",
+      "Fear"
+    ],
+    "description": "The Aposematic_Warning_Skin is a vibrant, iridescent membrane that pulsates with alarming patterns of red and black, designed to mimic the deadly warning signals of nature's most venomous creatures. When activated, it engulfs the wearer in a chilling aura that can paralyze observers with dread, making them hesitate in their attack."
+  },
+  "Bioluminescent_Photophore_Skin": {
+    "tags": [
+      "Skin",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bioluminescence",
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Photophore_Skin appears as a thin, iridescent layer that covers the body, pulsing with an eerie, shifting light that can be manipulated to emit colors ranging from deep blues to stark whites. When threatened, the skin can emit a blinding flash of light capable of paralyzing foes momentarily, though the sudden burst also temporarily impairs the wearer's stealth capabilities."
+  },
+  "Mucous_Slime_Skin": {
+    "tags": [
+      "Skin",
+      "Mucous",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slime Secretion"
+    ],
+    "description": "The Mucous_Slime_Skin is a gelatinous layer that pulsates with an otherworldly glow, secreting a thick, protective slime that oozes across the surface, providing a slippery, nearly impenetrable barrier against acidic attacks while enhancing the wearer's agility and resilience."
+  },
+  "Iridescent_Photonic_Skin": {
+    "tags": [
+      "Skin",
+      "Iridescent",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Iridescent Photonic Skin is a shimmering, adaptive layer that mimics the chameleonic abilities of cephalopods, shifting colors and patterns to blend seamlessly with the surroundings, granting the user an otherworldly grace and the ability to\u9690\u8eab\u4e8e\u73af\u5883\u4e4b\u4e2d\u3002"
+  },
+  "Armoured_Cuttlebone_Integument": {
+    "tags": [
+      "Chitin",
+      "Cuttlebone",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Armoured_Cuttlebone_Integument is a seamless blend of chitinous plates and cuttlebone, forming a resilient, yet surprisingly flexible layer that mimics the adaptive camouflage of a cephalopod, offering a natural shield that enhances both defense and agility."
+  },
+  "Nautilus_Hard_Shell": {
+    "tags": [
+      "Chitin",
+      "Shell",
+      "Cephalopod",
+      "Nautiloid"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Shell Guard"
+    ],
+    "description": "The Nautilus_Hard_Shell is a polished, spiral shell of iridescent chitin, its intricate layers reflecting a spectrum of eerie colors in the dim light. Hefty and imposing, it provides unparalleled protection, but its weight slightly hinders agility."
+  },
+  "Toxic_Secretion_Skin": {
+    "tags": [
+      "Skin",
+      "Toxic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Toxic_Secretion_Skin is a translucent membrane that pulses with a sickly green hue, oozing a viscous, corrosive fluid when threatened, capable of searing the flesh of any who dare to harm its bearer."
+  },
+  "Ink_Sac_Integument": {
+    "tags": [
+      "Skin",
+      "Ink_Sac",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ink Cloud"
+    ],
+    "description": "The Ink Sac Integument is a thin, flexible layer of skin embedded with sacs filled with viscous, jet-black ink, each one pulsating subtly as if alive. When disturbed, the sacs rupture, releasing a dense, obscuring cloud that engulfs the user, granting them temporary invisibility and an increased sense of stealth."
+  },
+  "Photosensitive_Full_Body_Skin": {
+    "tags": [
+      "Skin",
+      "Photosensitive",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Blindsight"
+    ],
+    "description": "The Photosensitive_Full_Body_Skin is a chameleonic cephalopod membrane, capable of shifting colors and patterns to blend seamlessly with any environment, while its light-sensitive cells grant the user a heightened awareness of their surroundings, even in the darkest of nights."
+  },
+  "Electroreceptive_Skin_Array": {
+    "tags": [
+      "Skin",
+      "Electroreceptive",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Skin_Array is a shimmering, iridescent layer that coats the body, pulsating with subtle electric fields that allow the wearer to sense their surroundings with uncanny precision, even in complete darkness, mimicking the sensory prowess of deep-sea cephalopods."
+  },
+  "Vampire_Squid_Cloak_Skin": {
+    "tags": [
+      "Skin",
+      "Cloak",
+      "Cephalopod",
+      "Deep_Sea"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Bioluminescence"
+    ],
+    "description": "The Vampire_Squid_Cloak_Skin is a pliable, iridescent membrane that shimmers with an eerie, shifting glow, perfectly blending into the darkest abysses and casting a hauntingly beautiful light to disorient and confuse predators."
+  }
+}

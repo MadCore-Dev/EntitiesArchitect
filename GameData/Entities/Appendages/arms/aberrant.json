@@ -1,0 +1,326 @@
+{
+  "Crushing_Tentacle_Arms": {
+    "tags": [
+      "Arms",
+      "Tentacle",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Crushing Tentacle Arms are long, sinuous appendages that writhe and coil like living shadows, their slick, rubbery surface covered in sharp, tiny barbs. When they grasp a foe, the tentacles constrict with bone-crushing force, squeezing tightly while the barbs dig in, ensuring their target cannot escape."
+  },
+  "Acid_Drip_Claws": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Rake"
+    ],
+    "description": "The Acid_Drip_Claws are jagged, translucent appendages that constantly secrete a shimmering, corrosive acid, their tips dripping menacingly. Each claw feels unnaturally light and responsive, granting unmatched agility and precision in combat, while the innate resistance to acid ensures the wielder can handle their own venom with impunity."
+  },
+  "Bone_Spike_Arms": {
+    "tags": [
+      "Arms",
+      "Bone",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Slam"
+    ],
+    "description": "Emerging from the twisted joints of the arms are jagged bone spikes, each one sharp and lethal, radiating an unsettling, otherworldly energy that makes the air around them feel cold and sinister. The texture of the spikes is rough and uneven, almost inviting the touch to experience the raw power and menace they embody."
+  },
+  "Mind_Flayer_Tentacle_Arms": {
+    "tags": [
+      "Arms",
+      "Psion",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Grapple",
+      "Drain"
+    ],
+    "description": "Twisting and writhing with unnatural vigor, the Mind_Flayer_Tentacle_Arms are long, sinuous limbs that pulse with a sickly phosphorescence, their surface slick and cool to the touch, capable of wrapping around foes with terrifying strength and efficiency."
+  },
+  "Parasite_Injector_Arms": {
+    "tags": [
+      "Arms",
+      "Parasite",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Sting"
+    ],
+    "description": "The Parasite_Injector_Arms are grotesque and unsettling, with elongated, segmented limbs that end in needle-like claws capable of injecting a cocktail of toxins and virulent parasites. Their eerie flexibility allows for rapid, unpredictable movements, and a cold, clammy sensation emanates from them, hinting at the corruption they spread."
+  },
+  "Flailing_Appendage_Arms": {
+    "tags": [
+      "Arms",
+      "Flailing",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Knockback"
+    ],
+    "description": "The Flailing Appendage Arms are grotesque, elongated limbs that writhe and twist uncontrollably, ending in thick, muscular hands tipped with jagged claws. Their constant, frenetic movement grants the wielder an eerie, almost predatory presence, capable of delivering devastating, unexpected strikes with the Slam ability, accompanied by a powerful Knockback effect that sends foes flying."
+  },
+  "Void_Phase_Arms": {
+    "tags": [
+      "Arms",
+      "Void",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "Braided from shadows that defy the laws of space and time, the Void_Phase_Arms are sinuous and endlessly shifting, their touch like the bite of a winter wind that leaves a trail of frost and darkness in its wake. Their movements are silent, fluid, and disorienting, capable of slipping through the cracks of reality itself to deliver a devastating ambush."
+  },
+  "Eldritch_Eye_Stalk_Arms": {
+    "tags": [
+      "Arms",
+      "Eye_Stalk",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Petrify",
+      "Blindsight"
+    ],
+    "description": "Emerging from the ends of elongated, serpentine arms are gnarled, tentacle-like eye stalks, each pulsating with a sickly green light that seems to see through the very shadows, granting an eerie awareness of one's surroundings."
+  },
+  "Necrotic_Drain_Arms": {
+    "tags": [
+      "Arms",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Arms are elongated, skeletal limbs with jagged, black claws that emit an aura of creeping cold and decay. They pulsate with an unnatural, sickly green light as they move, and their touch is like a caress of rot and death, spreading a lingering disease while siphoning the life force from their victims."
+  },
+  "Chaos_Bladed_Arms": {
+    "tags": [
+      "Arms",
+      "Chaos",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slash",
+      "Blood Frenzy"
+    ],
+    "description": "The Chaos_Bladed_Arms are skeletal limbs coated in a shifting, iridescent black that pulses with unpredictable patterns of red and violet. Razor-sharp blades of an unknown material sprout from each joint, their edges jagged and serrated, capable of cutting through steel with ease. When wielded, the arms emit a low, eerie hum, and the wielder feels a surge of primal, bloodthirsty energy coursing through their veins."
+  },
+  "Titan_Aberrant_Fists": {
+    "tags": [
+      "Arms",
+      "Titan",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Knockback",
+      "Grapple"
+    ],
+    "description": "The Titan_Aberrant_Fists are massive, misshapen claws that seem to defy the laws of anatomy, with thick, gnarled knuckles and jagged edges that appear to be forged from twisted metal and corrupted flesh. Each fist pulsates with an otherworldly energy, capable of delivering bone-crushing slams and ensnaring foes with an unbreakable grip."
+  },
+  "Deep_Sea_Paddle_Arms": {
+    "tags": [
+      "Arms",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Grapple"
+    ],
+    "description": "The Deep_Sea_Paddle_Arms are elongated, muscular limbs that taper into wide, paddle-like hands covered in a slick, blue-black membrane. They pulse with an eerie bioluminescence and grant their bearer unparalleled control in underwater combat and maneuverability, making them formidable weapons of the deep."
+  }
+}

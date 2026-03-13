@@ -1,0 +1,316 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Elephantine",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Glide_Wings are vast, elephantine appendages composed of thick, translucent membranes stretched between elongated, bony spars, resembling the flaps of a gliding mammal. These wings feel almost weightless yet sturdy, allowing the creature to effortlessly catch thermal currents and glide silently through the shadows, their movement adding a nimbleness and agility to the bearer's form."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Elephantine",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Elephantine in scale yet feathered like a raven, these mutant wings are a grotesque marvel of nature, their expansive span and robust structure granting the bearer an uncanny blend of agility and evasion in the air."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Elephantine",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are expansive and leathery, stretching like shadows across the back with a grotesque elegance, their elephantine proportions capable of carrying immense weight while maintaining the silent grace of a predator, allowing for stealthy aerial maneuvers that defy detection."
+  },
+  "Insectoid_Carapace_Wings": {
+    "tags": [
+      "Wings",
+      "Insectoid",
+      "Elephantine",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Insectoid_Carapace_Wings are an expansive pair of chitinous wings, dark and veined like ancient leather, that beat with a mechanical precision, allowing the bearer to hover and perform aerobatic maneuvers with ease. The wings, seemingly too large and cumbersome for a creature of normal size, are reinforced with a material that feels both rigid and flexible, providing an unparalleled sense of agility and evasion in the air."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Elephantine",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are vast, almost elephantine in scale, with a lattice of hollow, bone-like material that provides both strength and lightness. These wings pulse faintly with a dark, otherworldly energy, granting their bearer the ability to soar through the skies, though the strain of such a monstrous appendage subtly saps their constitution."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight"
+    ],
+    "description": "The Thermal_Soaring_Wings are vast, leathery appendages adorned with intricate patterns of heat-sensitive veins that pulse with the warmth of the sun, allowing the bearer to harness thermal currents for effortless soaring. These wings, reminiscent of an elephant's massive form yet feather-light, grant unparalleled agility and evasion in the skies, making the wearer as graceful as they are imposing."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "The Dark_Stealth_Wings are vast, shadow-cloaked appendages that resemble the massive, veined wings of ancient bats, yet are scaled like an elephant's hide, providing both immense strength and a natural camouflage in the darkest of night skies. As you wear them, the world seems to hush around you, and the ground falls away silently as you glide through the air, unseen and unheard."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Elephantine",
+      "Undead"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "The Skeletal_Membrane_Wings are vast, skeletal wings covered in thin, translucent membranes that flap with an eerie, raspy sound, their massive size and skeletal frame allowing the wielder to glide effortlessly through the air while instilling a paralyzing fear in all who witness them."
+  },
+  "Armoured_Wing_Sails": {
+    "tags": [
+      "Wings",
+      "Armoured",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Block"
+    ],
+    "description": "The Armoured_Wing_Sails are colossal, leathery appendages bristling with sharp, overlapping plates that resemble the scales of a dragon, each plate reinforced to deflect even the most potent of blows. When unfurled, these wings cast a long shadow and generate a powerful gust of wind, capable of sustaining flight while also serving as a formidable defensive shield against incoming attacks."
+  },
+  "Extended_Patagium_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Extended_Patagium_Wings are massive, leathery membranes that stretch from the creature\u2019s elongated arms to its torso, resembling the expansive flaps of an ancient, mythical elephantine bird. These wings, when spread, catch even the slightest breeze, allowing the creature to glide effortlessly through the air with an eerie grace, its movements barely disturbing the silence of the skies."
+  },
+  "Downdraft_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "Enormous, leathery wings sprout from the creature's back, each membrane pulsating with a dark, oily sheen that seems to absorb light. The wings are thick and robust, capable of generating powerful downdrafts that propel the creature through the air with incredible speed and force, while also allowing it to crash into foes with the weight and impact of an elephant."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Wing_Stubs are thick, flabby appendages that resemble shriveled elephant ears, awkwardly protruding from the creature's back. They are surprisingly heavy and cumbersome, barely capable of fluttering, yet they grant a slight edge in dodging attacks."
+  }
+}

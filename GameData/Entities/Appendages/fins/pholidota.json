@@ -1,0 +1,274 @@
+{
+  "Waterproof_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Waterproof",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the shadows of the aquatic realm, the Waterproof_Paddle_Fins are broad, sleek appendages tipped with sharp, jagged edges that glisten with an iridescent sheen, allowing the wielder to slice through water with unparalleled grace and speed, while the ridged scales provide an uncanny grip on slippery surfaces."
+  },
+  "Scale_Plated_Fins": {
+    "tags": [
+      "Fins",
+      "Scaled",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "Embedded within the creature's sleek form, the scale-plated fins are a mesmerizing blend of shimmering scales and resilient, muscular membranes, each fin pulsating with an otherworldly grace that grants both formidable defense and surprising agility, enhancing the bearer's natural armor and speed in equal measure."
+  },
+  "River_Current_Fins": {
+    "tags": [
+      "Fins",
+      "River",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The River_Current_Fins are translucent, shimmering appendages that undulate gracefully, mimicking the fluid motion of a river's current. Their surface is covered in tiny, overlapping scales that reflect the ever-changing hues of the water, providing both a sense of elegance and a subtle, protective armor."
+  },
+  "Hydrodynamic_Scale_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Hydrodynamic_Scale_Fins are sleek, iridescent appendages that shimmer with an almost liquid quality, allowing the user to move with unparalleled grace and speed through water, enhancing both their agility and overall movement efficiency."
+  },
+  "Electrosensory_Fin_Array": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the sleek, chitin-reinforced fins of the Pholidota, the Electrosensory_Fin_Array pulses with a mesmerizing, bioluminescent glow, its intricate network of sensory organs capable of detecting the faintest electrical signals, granting the bearer an uncanny awareness of their surroundings in the darkest depths."
+  },
+  "Steering_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "The Steering_Lateral_Fins are a pair of sleek, segmented appendages that sprout from either side of the creature's midsection, each fin covered in overlapping scales that shimmer in the light like polished obsidian. When the fins are moved, they grant unparalleled maneuverability and agility, allowing the creature to dart and weave through the most treacherous underwater terrain with effortless grace."
+  },
+  "Cold_Water_Fins": {
+    "tags": [
+      "Fins",
+      "Cold",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Pale, translucent fins that shimmer with a faint blue glow, their surface covered in tiny, ice-like scales that crackle softly when touched, granting the bearer both chilling resistance and a swift, slippery grace."
+  },
+  "Deep_Dive_Scales_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep Dive Scales Fins are sleek, iridescent appendages that glisten in the dim underwater light, shifting through a spectrum of blues and greens. When worn, they grant an uncanny sense of fluidity and weightlessness, allowing the bearer to descend into the darkest depths with ease and grace."
+  },
+  "Venomous_Barbed_Fins": {
+    "tags": [
+      "Fins",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "Emerging from the creature's muscular flanks, the venomous barbed fins are a fearsome sight, each fin covered in jagged scales that shimmer with a malevolent green hue, ready to inject paralyzing venom into unsuspecting prey or enemies with a swift flick of the tail."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's limbs, these compact swimmer fins are a marvel of evolutionary adaptation, their sleek, overlapping scales providing both agility and stealth in aquatic environments, enhancing the wearer's movement speed and grace beneath the waves."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Current_Resistant_Fins are sleek, chitin-reinforced appendages that shimmer with an iridescent sheen, perfectly adapted to navigate the most turbulent of underwater environments. They provide a tactile sensation of resilience and agility, allowing the wielder to move effortlessly through powerful currents and granting a subtle boost in physical strength."
+  },
+  "Vestigial_Scale_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's limbs are small, translucent stubs that resemble ancient, petrified fins, their surfaces covered in a mosaic of tiny scales that shimmer with an iridescent glow when flexed, granting the host a subtle, unnoticed boost in agility and movement speed."
+  }
+}

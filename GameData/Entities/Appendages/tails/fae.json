@@ -1,0 +1,298 @@
+{
+  "Spring_Flower_Tail": {
+    "tags": [
+      "Tail",
+      "Floral",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Spring_Flower_Tail is a delicate and vibrant appendage, adorned with petals that shift through a spectrum of pastel hues, each bloom seemingly capable of turning heads and hearts as it sways with an almost hypnotic grace."
+  },
+  "Frost_Crystal_Tail": {
+    "tags": [
+      "Tail",
+      "Frost",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Tail Whip"
+    ],
+    "description": "The Frost_Crystal_Tail is a shimmering appendage encased in a lattice of iridescent ice, its crystalline structure refracting moonlight into a spectrum of eerie blues and whites. When wielded, it emanates a chilling aura that slows nearby foes, while its elongated reach allows for devastating tail whip attacks that crackle with frosty energy."
+  },
+  "Summer_Fire_Tail": {
+    "tags": [
+      "Tail",
+      "Summer",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Tail Whip"
+    ],
+    "description": "The Summer_Fire_Tail is a vibrant, flickering appendage that crackles with the essence of summer's fiercest sunbeams, its scales a mosaic of amber and gold, each one pulsing with an inner flame that grants its bearer resistance to fire and the ability to lash out with fiery precision."
+  },
+  "Vine_Coiling_Tail": {
+    "tags": [
+      "Tail",
+      "Vine",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Vine_Coiling_Tail is a sinuous appendage, thick with supple green vines that pulse with an ethereal glow, capable of wrapping around prey with supernatural strength and agility, ensnaring and constricting foes with a relentless grip."
+  },
+  "Kelpie_River_Tail": {
+    "tags": [
+      "Tail",
+      "Kelpie",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "The Kelpie River Tail is a serpentine appendage, shimmering with iridescent hues that shift like water under moonlight, granting the wielder an ethereal grace and a mesmerizing allure as it undulates through the water, enhancing speed and agility."
+  },
+  "Gossamer_Wing_Tail": {
+    "tags": [
+      "Tail",
+      "Gossamer",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Gossamer_Wing_Tail is a delicate appendage that unfurls from the spine like a pair of translucent wings, shimmering with iridescent hues that seem to shift and dance with the light. Its ethereal presence grants the wielder an otherworldly grace and the ability to glide through the air with effortless ease, as if borne on the whispers of the fae wind itself."
+  },
+  "Thorn_Blade_Tail": {
+    "tags": [
+      "Tail",
+      "Thorn",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Tail Whip"
+    ],
+    "description": "The Thorn_Blade_Tail is a serpentine appendage, covered in razor-sharp thorns that shimmer with an eerie, bioluminescent glow. When flicked, it slices through air and flesh alike with the grace and lethality of a fae dance, embodying both the elegance and cruelty of the arcane forest."
+  },
+  "Unseelie_Shadow_Tail": {
+    "tags": [
+      "Tail",
+      "Shadow",
+      "Fae",
+      "Unseelie"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Unseelie_Shadow_Tail is a sinuous appendage that undulates like a wraith's whisper, its dark tendrils shifting and merging with shadows, granting the wielder the ability to drain light and ambush prey with eerie precision."
+  },
+  "Titan_Giant_Club_Tail": {
+    "tags": [
+      "Tail",
+      "Giant",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Knockback"
+    ],
+    "description": "The Titan Giant Club Tail is a massive, gnarled appendage, thick with muscle and covered in bristly, dark green fur, ending in a bulbous club that crackles with arcane energy, capable of delivering devastating blows that send foes flying."
+  },
+  "Archfae_Arcane_Tail": {
+    "tags": [
+      "Tail",
+      "Archfae",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "The Archfae Arcane Tail is a mesmerizing appendage, shimmering with iridescent hues that shift and dance like liquid light, capable of wrapping around foes with an otherworldly grace, ensnaring and paralyzing them while enhancing the wielder's charisma and reach."
+  },
+  "Bark_Root_Tail": {
+    "tags": [
+      "Tail",
+      "Bark",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Block"
+    ],
+    "description": "The Bark_Root_Tail is a thick, gnarled appendage that writhes from the base of the spine, covered in rough, cracked bark that resonates with ancient magic. Its movement is slow and deliberate, yet surprisingly robust, capable of deflecting heavy blows or anchoring the bearer firmly in place during tumultuous battles."
+  },
+  "Moonlit_Silver_Tail": {
+    "tags": [
+      "Tail",
+      "Silver",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Moonlit_Silver_Tail is a luminescent appendage, shimmering with an ethereal silver glow that dances like moonlight on water, its gentle sway can captivate onlookers, granting the bearer an enchanting allure and enhanced agility."
+  }
+}

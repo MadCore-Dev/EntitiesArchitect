@@ -1,0 +1,334 @@
+{
+  "Wraith_Soul_Fins": {
+    "tags": [
+      "Fins",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Drain"
+    ],
+    "description": "Pale, translucent fins that shimmer with an otherworldly glow, these spectral appendages allow for silent, swift movement through water, and drain life energy from nearby creatures to enhance the stealth and speed of their wielder."
+  },
+  "Banshee_Keen_Fins": {
+    "tags": [
+      "Fins",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Fear"
+    ],
+    "description": "These translucent fins, shimmering like moonlit mist, pulse with an otherworldly glow and emit a low, haunting wail that sends shivers down the spine of any who approach, enhancing the wearer's charisma and granting them unparalleled agility in water."
+  },
+  "Lich_Bone_Fins": {
+    "tags": [
+      "Fins",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "No Pain"
+    ],
+    "description": "The Lich_Bone_Fins are ghostly, translucent fins made of bleached, skeletal material that emit a faint, eerie glow. When attached to a creature, they allow for silent, spectral movement through water with an uncanny grace, granting both a resistance to the agony of physical ailments and a chilling swiftness beneath the waves."
+  },
+  "Ghost_Phase_Fins": {
+    "tags": [
+      "Fins",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Invisibility"
+    ],
+    "description": "Gossamer fins that shimmer like moonlight on water, these ethereal appendages pulse with an otherworldly glow, granting the bearer the fluid grace of a ghostly swimmer and the ability to blend into the shadows of both the seen and unseen realms."
+  },
+  "Revenant_Swim_Fins": {
+    "tags": [
+      "Fins",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "No Pain"
+    ],
+    "description": "The Revenant_Swim_Fins are ghostly, translucent appendages that pulse with an eerie, greenish glow, hinting at their spectral nature. They feel cold and otherworldly to the touch, and their presence grants the user an ethereal grace and speed in water, accompanied by an unsettling resilience to physical harm."
+  },
+  "Shadow_Dark_Fins": {
+    "tags": [
+      "Fins",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Swim",
+      "Drain"
+    ],
+    "description": "The Shadow_Dark_Fins are ghostly appendages, translucent and jet-black, barely visible against the darkness. They pulse faintly with an otherworldly energy, granting the wielder unparalleled stealth and speed in aquatic environments, while their touch can siphon the life force of those who come too close."
+  },
+  "Soul_Devourer_Fins": {
+    "tags": [
+      "Fins",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "The Soul_Devourer_Fins are ghostly appendages, translucent and shimmering with an otherworldly glow, that pulse faintly with each breath. Their touch is both chilling and mesmerizing, capable of drawing in the very essence of fear and paralysis from their victims, enhancing the bearer's charisma and swiftness in the water."
+  },
+  "NightHag_Swim_Fins": {
+    "tags": [
+      "Fins",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Gossamer fins, translucent and shimmering with an otherworldly glow, unfurl from the creature's limbs, enabling silent, spectral glides through the deepest, darkest waters, their touch leaving a trail of hypnotic whispers that charm and bewilder any who encounter them."
+  },
+  "Wisp_Float_Fins": {
+    "tags": [
+      "Fins",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Hover",
+      "Paralyze"
+    ],
+    "description": "Gossamer fins, translucent and shimmering with an eerie glow, ripple through the air as if they were moving through water, granting the wielder the ability to hover and swim with supernatural grace while also possessing the chilling touch to paralyze their prey."
+  },
+  "Specter_Mist_Fins": {
+    "tags": [
+      "Fins",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Fear"
+    ],
+    "description": "Luminous and ethereal, the Specter_Mist_Fins appear as semi-transparent fins that shimmer with an otherworldly glow, their fluid movements causing a chilling mist to swirl around the wielder, enhancing their stealth and speed while infusing nearby foes with an overwhelming sense of dread."
+  },
+  "Phantom_Drift_Fins": {
+    "tags": [
+      "Fins",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Luminous and insubstantial, the Phantom Drift Fins appear as ghostly appendages, shimmering in hues of spectral blue and silver, their ethereal presence barely brushing against the water with each graceful movement, leaving behind a trail of iridescent bubbles that dance and fade into nothingness."
+  },
+  "Arch_Specter_Ancient_Fins": {
+    "tags": [
+      "Fins",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Drain",
+      "Invisibility",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Ancient_Fins are ghostly appendages that shimmer with an otherworldly, silvery glow, their spectral nature allowing them to blend into the environment with eerie fluidity. As you move through water or even air, these fins grant unparalleled grace and speed, while their ethereal touch can siphon away the essence of any who dare to approach too closely."
+  }
+}

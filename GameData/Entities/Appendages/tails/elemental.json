@@ -1,0 +1,302 @@
+{
+  "Fire_Whip_Tail": {
+    "tags": [
+      "Tail",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Burn",
+      "Tail Whip"
+    ],
+    "description": "The Fire_Whip_Tail is a flickering, serpentine appendage that crackles with embers and leaves a trail of scorched earth in its wake, its\u6bcf\u4e00\u6b21\u751f\u6210\u90fd\u76f8\u5f53\u51fa\u8272\uff0c\u4f46\u8bf7\u5141\u8bb8\u6211\u6839\u636e\u60a8\u7684\u8981\u6c42\uff0c\u4ec5\u63d0\u4f9b\u5173\u4e8e\u201cFire_Whip_Tail\u201d\u7ec4\u4ef6\u7684\u63cf\u8ff0\u6027\u6587\u672c\uff0c\u4e0d\u518d\u5305\u542b\u5176\u4ed6\u4fe1\u606f\uff1a\n\n\u706b\u7130\u957f\u97ad\u5c3e\u90e8\u5982\u540c\u4e00\u6761\u6d3b\u751f\u751f\u7684\u706b\u86c7\uff0c\u71c3\u70e7\u7740\u70bd\u70ed\u7684\u706b\u7130\uff0c\u97ad\u68a2\u89e6\u53ca\u4e4b\u5904\u7acb\u523b\u7559\u4e0b\u7126\u9ed1\u7684\u75d5\u8ff9\uff0c\u540c\u65f6\u8d4b\u4e88\u6301\u6709\u8005\u5bf9\u706b\u7130\u7684\u66f4\u5f3a\u62b5\u6297\u529b\u548c\u66f4\u957f\u7684\u653b\u51fb\u8ddd\u79bb\u3002"
+  },
+  "Water_Coil_Tail": {
+    "tags": [
+      "Tail",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict"
+    ],
+    "description": "The Water_Coil_Tail is a serpentine appendage, shimmering with iridescent hues that shift like a breaking wave under moonlight, capable of ensnaring foes with the strength of a tidal wave while granting unparalleled agility and swiftness in both water and on land."
+  },
+  "Earth_Hammer_Tail": {
+    "tags": [
+      "Tail",
+      "Earth",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Earthquake"
+    ],
+    "description": "The Earth_Hammer_Tail is a thick, stone-like appendage that trails behind, its surface rough with jagged edges and veins of glowing earth energy pulsating beneath the surface. When wielded, it strikes with the force of a boulder rolling down a mountainside, and when planted firmly on the ground, it anchors its bearer, radiating tremors that can shake the earth beneath their enemies' feet."
+  },
+  "Wind_Gust_Tail": {
+    "tags": [
+      "Tail",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback"
+    ],
+    "description": "The Wind_Gust_Tail is a slender appendage, shimmering with iridescent hues that shift like clouds under the moonlight. As it flicks, a palpable breeze rushes out, capable of pushing foes back while granting its bearer unparalleled agility and nimbleness."
+  },
+  "Lightning_Strike_Tail": {
+    "tags": [
+      "Tail",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tail Whip"
+    ],
+    "description": "The Lightning_Strike_Tail is a serpentine appendage that crackles with electric energy, its sleek scales glinting with the intermittent flashes of lightning. When wielded, it lashes out with the force of a whip, leaving trails of crackling energy in its wake, and delivers bone-chilling shocks with every touch."
+  },
+  "Ice_Crystal_Tail": {
+    "tags": [
+      "Tail",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Tail Whip"
+    ],
+    "description": "The Ice Crystal Tail is a shimmering appendage that trails behind like a frozen crescent moon, its surface etched with intricate frost patterns that glimmer in the dim light. When activated, the tail radiates a chilling aura, granting the wielder enhanced resistance to cold and extending their reach with each precise, ice-shattering whip of the tail."
+  },
+  "Shadow_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Drain_Tail is a serpentine appendage that writhes with an otherworldly darkness, its scales absorbing ambient shadows to enhance the wielder's stealth and reach. When wielded, it grants the ability to drain life energy from adversaries in close combat and to ambush them from the shadows with eerie precision."
+  },
+  "Lava_Smash_Tail": {
+    "tags": [
+      "Tail",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Immolate"
+    ],
+    "description": "The Lava_Smash_Tail is a molten appendage, its scales resembling cracked obsidian and glowing with an intense, pulsating heat. When wielded, it radiates a palpable wave of heat and power, capable of both brutal physical strikes and engulfing foes in searing flames."
+  },
+  "Acid_Ooze_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid Ooze Tail is a writhing mass of viscous, green slime that continuously pulses and seethes, capable of spraying corrosive acid in a narrow cone before it. Its touch leaves a lingering burn, and the tail's flexibility allows for a surprising range of movement, extending the wielder's reach while granting resistance to acid attacks."
+  },
+  "Nature_Root_Tail": {
+    "tags": [
+      "Tail",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Nature_Root_Tail is a writhing mass of thick, entangled vines that pulse with the earth's energy, capable of ensnaring and constricting foes with unyielding strength, extending the wielder's reach into the wilds of nature."
+  },
+  "Time_Phase_Tail": {
+    "tags": [
+      "Tail",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blink"
+    ],
+    "description": "The Time_Phase_Tail is a shimmering appendage that pulses with swirling hues of deep blue and violet, its scales shifting like the sands of an hourglass. When the tail flicks, the air around it distorts, momentarily bending reality to allow the bearer to vanish and reappear elsewhere, granting them unparalleled agility and the ability to dodge attacks with uncanny precision."
+  },
+  "Sand_Vortex_Tail": {
+    "tags": [
+      "Tail",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blinding Sandstorm",
+      "Tail Whip"
+    ],
+    "description": "The Sand_Vortex_Tail is a serpentine appendage covered in rough, shifting grains of sand that seem to swirl and dance independently, granting its bearer a mesmerizing yet fearsome presence. When agitated, the tail can unleash a choking cloud of blinding sand, while its powerful whip-like strikes can strike with the force of a desert storm."
+  }
+}

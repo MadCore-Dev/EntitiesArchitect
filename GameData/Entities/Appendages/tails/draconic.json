@@ -1,0 +1,296 @@
+{
+  "Whip_Strike_Blade_Tail": {
+    "tags": [
+      "Tail",
+      "Blade",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Slash"
+    ],
+    "description": "Enveloped in shimmering scales that shift between the hues of twilight and obsidian, the Whip_Strike_Blade_Tail is a deadly appendage that trails behind like a venomous shadow, its razor-sharp edge capable of slicing through steel with a single flick."
+  },
+  "Fire_Breath_Vent_Tail": {
+    "tags": [
+      "Tail",
+      "Fire",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Fire Resist"
+    ],
+    "description": "The Fire_Breath_Vent_Tail is a serpentine appendage, ending in a forked, maw-like opening that glows with an inner heat, capable of venting searing flames. Its scales are a dark, iridescent red, and when flexed, it can lash out with both fiery precision and deadly force, granting its bearer both defense against infernal assaults and a fearsome weapon."
+  },
+  "Frost_Cryo_Tail": {
+    "tags": [
+      "Tail",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Tail Whip"
+    ],
+    "description": "The Frost_Cryo_Tail is a chilling appendage, covered in iridescent scales that shimmer with the faintest hint of frost, capable of whipping with lethal precision while emanating a biting chill that slows enemies in its vicinity."
+  },
+  "Sea_Propulsion_Tail": {
+    "tags": [
+      "Tail",
+      "Propulsion",
+      "Draconic",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dart",
+      "Rudder"
+    ],
+    "description": "Emerging from the shadows of the ocean depths, the Sea_Propulsion_Tail is a serpentine appendage, shimmering with iridescent scales that shift from deep blues to greens, each scale etched with arcane symbols that pulse with an inner light. When wielded, it grants the user the fluid grace of the ocean's most elusive predators, allowing them to propel themselves with explosive bursts of speed and weave through the water with unparalleled agility."
+  },
+  "Undead_Bones_Spiked_Tail": {
+    "tags": [
+      "Tail",
+      "Undead",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Disease Carrier"
+    ],
+    "description": "The Undead_Bones_Spiked_Tail is a macabre appendage, a skeletal tail with jagged, blackened spines that protrude like the promise of a fatal embrace. Its touch is cold and leaves a lingering stench of decay, capable of spreading a debilitating disease, while its enhanced strength and resistance to illness make it a formidable weapon and defensive asset in the darkest corners of the realm."
+  },
+  "Lightning_Charged_Tail": {
+    "tags": [
+      "Tail",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tail Whip"
+    ],
+    "description": "The Lightning-Charged Tail is a serpentine appendage, shimmering with crackling blue electricity that dances along its scaly surface, ready to lash out with shocking precision and power, enhancing both the reach and reflexes of its wielder."
+  },
+  "Shadow_Void_Energy_Tail": {
+    "tags": [
+      "Tail",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Energy_Tail is a serpentine appendage, blacker than the deepest night, with faint wisps of void energy crackling along its length, granting the wielder an eerie grace and a silent menace that allows them to drain the vitality of those caught in its shadow while ambushing from the darkness."
+  },
+  "Ancient_Armageddon_Tail": {
+    "tags": [
+      "Tail",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Knockback",
+      "Tail Club",
+      "Earthquake"
+    ],
+    "description": "The Ancient_Armageddon_Tail is a relic of bygone eras, its scaled hide etched with runes of forgotten languages, radiating a primal, earth-shaking power. When wielded, it thrums with latent energy, ready to unleash devastating knockbacks and earth-shattering quakes, granting its bearer unmatched reach and brute strength."
+  },
+  "Faerie_Glitter_Tail": {
+    "tags": [
+      "Tail",
+      "Faerie",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Faerie_Glitter_Tail is a shimmering appendage that trails behind like a comet's tail, its surface a kaleidoscope of vibrant, iridescent colors that shift and dance with the bearer's emotions. Each scale feels like a whisper of silk, yet its touch can freeze a foe in place or lure them into a trance with the hypnotic sway of its movements."
+  },
+  "Wyvern_Poison_Stinger_Tail": {
+    "tags": [
+      "Tail",
+      "Wyvern",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Wyvern Poison Stinger Tail is a serpentine appendage, ending in a jagged, venomous barb that glimmers with a sickly green hue. It coils and lashes with deadly precision, its very presence instilling fear and caution in those who dare to approach."
+  },
+  "Acid_Corrosive_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Corrosive_Tail is a serpentine appendage, sleek and segmented with iridescent scales that shimmer in sickly hues of green and yellow. When flexed, it emits a faint hiss as caustic droplets gather at the tip, ready to spray forth upon command, and its very presence grants its wielder resistance to acid and an increased reach."
+  },
+  "Hatchling_Balance_Tail": {
+    "tags": [
+      "Tail",
+      "Hatchling",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The Hatchling_Balance_Tail is a slender, shimmering appendage adorned with delicate scales that seem to shift and pulse with an inner light, granting unparalleled grace and agility as it instinctively adjusts to maintain balance and poise in even the most precarious situations."
+  }
+}

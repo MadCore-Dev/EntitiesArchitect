@@ -1,0 +1,262 @@
+{
+  "Round_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Round",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Round_Alert_Ears are velvety orbs perched atop a sleek, hyenid head, each ear tipped with delicate, translucent hairs that quiver at the slightest sound, allowing the creature to pinpoint the location of potential threats with uncanny precision."
+  },
+  "Rotatable_Tracking_Ears": {
+    "tags": [
+      "Ear",
+      "Rotatable",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking",
+      "Directional Tracking"
+    ],
+    "description": "The Rotatable_Tracking_Ears are a pair of elongated, fur-lined appendages that twitch and rotate independently, their keen senses picking up the faintest scents and sounds. Each ear is tipped with a dark, leathery point, and they seem to pulse with an inner awareness, guiding the user towards even the most elusive of targets."
+  },
+  "Seismic_Infrasound_Ears": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Seismic_Infrasound_Ears are elongated, leathery appendages with a porous, honeycomb-like structure that vibrates subtly even in the calmest of environments, allowing the wearer to sense minute tremors and subtle ground movements with uncanny precision."
+  },
+  "High_Frequency_Social_Ears": {
+    "tags": [
+      "Ear",
+      "High_Frequency",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Tracking"
+    ],
+    "description": "These intricate, pointed ears are finely tuned to the high-pitched sounds of the wilderness, bristling with sensitivity that allows the wearer to detect the subtlest movements and communications of creatures around them, granting an uncanny ability to navigate and lead in pack formations."
+  },
+  "Electroreceptive_Hair_Cells": {
+    "tags": [
+      "Ear",
+      "Electroreceptive",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Fuzzy and dark, these specialized hairs are embedded deep within the creature's leathery ear flaps, twitching subtly in response to even the faintest electrical fields, granting the hyenid a keen ability to navigate through the murkiest of environments without relying on vision."
+  },
+  "Tufted_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Tufted",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Tufted_Alert_Ears are slender and elongated, tipped with soft, creamy tufts that twitch and swivel with uncanny precision, catching the slightest rustle or whisper of danger. Their surface is velvety to the touch, and they seem to hum with an almost otherworldly awareness, enhancing the wearer's senses and reflexes in the thick of danger."
+  },
+  "Disease_Carrier_Ear_Glands": {
+    "tags": [
+      "Ear",
+      "Diseased",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier"
+    ],
+    "description": "The Disease_Carrier_Ear_Glands are small, gelatinous organs nestled deep within the fleshy folds of a hyenid creature's ears, pulsating with an unsettling greenish hue that seems to glow faintly in the dark. They secrete a viscous fluid that carries a myriad of diseases, each droplet a potential threat to any creature unlucky enough to come into contact with it, while also granting the host an uncanny ability to detect the presence of sickness and disease in others."
+  },
+  "Compact_Nocturnal_Ears": {
+    "tags": [
+      "Ear",
+      "Nocturnal",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "These small, sleek ears are sharply pointed and covered in short, black fur, perfectly adapted to pick up the faintest sounds in the darkest of nights. Their tactile sensitivity is almost otherworldly, allowing the user to detect the rustle of leaves and the whisper of wind from incredible distances, enhancing both stealth and awareness."
+  },
+  "Magnetic_Orientation_Ears": {
+    "tags": [
+      "Ear",
+      "Magnetic",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Magnetic_Orientation_Ears are thick and leathery, adorned with small, intricate magnets that pulse with the Earth's magnetic fields, allowing the wearer to sense direction with uncanny precision and enhancing their perception of their surroundings."
+  },
+  "Pressure_Wave_Sensing_Ears": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Tattered and ragged, these ears are lined with an intricate network of veins that pulse visibly in response to changes in air pressure, allowing their owner to sense the approach of foes or impending danger with uncanny precision, enhancing their perception and agility in the process."
+  },
+  "Infrasound_Pack_Ears": {
+    "tags": [
+      "Ear",
+      "Pack",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The Infrasound_Pack_Ears are a pair of elongated, velvety black appendages, tipped with sharp, sensitive tufts that pick up the slightest vibrations and whispers of the unseen, granting the wearer an uncanny awareness of their surroundings and the ability to communicate with fellow pack members on a primal, infrasonic level."
+  },
+  "Undead_Tattered_Ear_Stubs": {
+    "tags": [
+      "Ear",
+      "Undead",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Tattered and desiccated, these ear stubs are remnants of a once-proud hyenid creature, now twisted by the necromantic arts. They flap loosely on the skull, catching even the slightest whisper of sound, and emit a palpable aura of dread that chills the spine of any who draw too near."
+  }
+}

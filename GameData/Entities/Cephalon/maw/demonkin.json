@@ -1,0 +1,308 @@
+{
+  "Pit_Fiend_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Fire",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Crunch",
+      "Intimidate"
+    ],
+    "description": "The Pit_Fiend_Fang_Maw is a grotesque cavity lined with razor-sharp, ember-blackened teeth that glisten with a malevolent glow, capable of exhaling a scorching breath that incinerates foes and instills fear with a single, bone-chilling roar."
+  },
+  "Balor_Inferno_Maw": {
+    "tags": [
+      "Maw",
+      "Balor",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Swallow",
+      "Fear",
+      "Immolate"
+    ],
+    "description": "The Balor Inferno Maw is a gaping, churning abyss of flame, lined with jagged, obsidian teeth that sparkle with the promise of devouring souls. Its presence fills the air with the acrid stench of brimstone and the oppressive weight of dread, making the bravest hearts quake with primal fear."
+  },
+  "Succubus_Kiss_Maw": {
+    "tags": [
+      "Maw",
+      "Charm",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "The Succubus_Kiss_Maw is a grotesque, gaping maw that pulsates with a sickly, bioluminescent glow, its inner walls lined with soft, velvety flesh that seems to whisper promises of pleasure and forbidden desires. When it opens, a warm, intoxicating aura emanates from it, drawing in prey with an irresistible allure, before it strikes, draining vitality and paralyzing the victim in a single, devastating blow."
+  },
+  "Ice_Devil_Spike_Maw": {
+    "tags": [
+      "Maw",
+      "Ice",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Slow",
+      "Crunch"
+    ],
+    "description": "Embedded within the grotesque visage of the Ice_Devil_Spike_Maw is a jagged, icy maw that crackles with chilling winds, capable of exhaling a paralyzing cold and snapping shut with bone-crushing force, while also granting its bearer resistance to the biting cold of the world."
+  },
+  "Bone_Devil_Hollow_Maw": {
+    "tags": [
+      "Maw",
+      "Bone",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Fear",
+      "Crunch"
+    ],
+    "description": "The Bone_Devil_Hollow_Maw is a gaping, skeletal maw filled with razor-sharp, translucent teeth that seem to pulse with a sickly green light, radiating an aura of dread and pestilence that chills the spine and sickens the soul."
+  },
+  "Shadow_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Shadow",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Fear"
+    ],
+    "description": "The Shadow_Drain_Maw is a grotesque, yawning mouth set in a leathery, shadow-black face, lined with razor-sharp teeth that gleam with a malevolent, silvery hue in the dim light, capable of sucking the very essence of darkness from its prey while instilling an otherworldly dread in any who witness its feeding."
+  },
+  "Acid_Dissolving_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Acid_Dissolving_Maw is a gaping orifice lined with razor-sharp teeth that secrete a viscous, greenish-black acid, capable of dissolving steel on contact. Its surface is slick and cold to the touch, and when activated, the maw can spray acid in a 10-foot radius, corrode armor and weapons, and ensnare foes with sticky, acidic tentacles that emerge from its depths."
+  },
+  "Plague_Demon_Maw": {
+    "tags": [
+      "Maw",
+      "Plague",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Plague_Demon_Maw is a grotesque, gaping mouth filled with razor-sharp, blackened teeth and a tongue that drips with a viscous, green pus. The mere sight of it causes a chilling sensation to crawl down one's spine, and its touch or breath can spread a debilitating disease."
+  },
+  "Marilith_Forked_Tongue_Maw": {
+    "tags": [
+      "Maw",
+      "Marilith",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Scent"
+    ],
+    "description": "The Marilith_Forked_Tongue_Maw is a grotesque appendage that splits into three sharp, serpentine tongues, each tipped with a venomous barb. Its surface is slick and moist, with a texture that feels both cold and alive, pulsating subtly as it tastes the air, detecting the faintest traces of fear and weakness."
+  },
+  "Imp_Venomous_Maw": {
+    "tags": [
+      "Maw",
+      "Imp",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Imp_Venomous_Maw is a grotesque, fleshy maw that glistens with a slick, toxic saliva, its rows of jagged, translucent teeth pulsing with an eerie green light. When clenched, it emits a low, menacing hiss, and its barbs and spines can inject a potent, debilitating poison or a sharp, paralyzing sting, enhancing dexterity and strength with each successful attack."
+  },
+  "Djinn_Wind_Maw": {
+    "tags": [
+      "Maw",
+      "Djinn",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Charm",
+      "Knockback"
+    ],
+    "description": "The Djinn Wind Maw is a grotesque, gaping mouth that seems to be perpetually filled with the howling winds of a desert storm, its teeth sharp and serrated like the jagged rocks of a barren wasteland, capable of emitting powerful gusts and ensnaring the unwary with a mesmerizing whisper."
+  },
+  "Archdevil_Devouring_Maw": {
+    "tags": [
+      "Maw",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Fire Breath",
+      "Charm",
+      "Fear",
+      "Magic Resistance"
+    ],
+    "description": "The Archdevil Devouring Maw is a grotesque, gaping orifice lined with jagged, obsidian teeth that seem to pulse with malevolent energy, capable of swallowing entire beings whole and spewing searing flames that incinerate anything in its path."
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "Solar_Radiant_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Solar",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Flight",
+      "Charm",
+      "Magic Resistance",
+      "Fear"
+    ],
+    "description": "Embedded within the creature's heart is a pulsating, golden core that radiates intense warmth and light, its surface etched with intricate celestial patterns that shimmer and shift as if watching the observer. The core grants the creature an ethereal glow, enabling it to take flight while emanating a captivating aura that both charms and instills fear in those around it."
+  },
+  "Lunar_Grace_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lunar",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Flight",
+      "Hover",
+      "Invisibility"
+    ],
+    "description": "The Lunar Grace Core glows with a soft, silvery light that pulses in time with the phases of the moon, its surface smooth as moonlit water and cool to the touch, granting its wielder a serene and ethereal presence that commands attention and admiration."
+  },
+  "Guardian_Angel_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Guardian",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Natural Armor",
+      "Radiant Burst",
+      "Charm",
+      "Flight"
+    ],
+    "description": "The Guardian_Angel_Core is a glowing, ethereal orb pulsating with divine light, its surface etched with intricate celestial patterns that shift and dance like constellations in motion, providing an aura of serene protection and overwhelming charisma to its bearer."
+  },
+  "Seraph_Multi_Wing_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Seraph",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "wing_mid_left": "Appendages/wings",
+      "wing_mid_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "The Seraph_Multi_Wing_Core is a shimmering, ethereal construct, pulsating with divine light and delicate, translucent wings that flutter with an almost audible melody, granting its bearer the grace of the heavens and the power to defy gravity with ease."
+  },
+  "Planetar_War_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Planetar",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Intimidate",
+      "Magic Resistance",
+      "Flight",
+      "Natural Armor"
+    ],
+    "description": "The Planetar War Core is a pulsating, metallic orb that thrums with the raw power of celestial might, its surface etched with ancient runes that glow with an otherworldly light, radiating an aura of invincibility and sheer dominance."
+  },
+  "Cherub_Tiny_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Cherub",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Charm",
+      "Hover",
+      "Invisibility",
+      "Aerobatics"
+    ],
+    "description": "The Cherub_Tiny_Core is a miniature celestial orb, pulsating with soft, ethereal light that seems to hum with the whispers of ancient songs. Its touch is feather-light, leaving a lingering sense of calm and wonder, and it grants the wielder the grace and agility of the skies, along with the charming allure of angelic whispers."
+  },
+  "Deva_Messenger_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Deva",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Flight",
+      "Charm",
+      "Directional Tracking"
+    ],
+    "description": "The Deva_Messenger_Core is a radiant orb of pulsating light, nestled within the celestial chassis, emitting a soft, harmonious hum that resonates with otherworldly wisdom. Its surface is etched with intricate, glowing runes that seem to shift and dance, granting the bearer unparalleled grace, agility, and the ethereal allure of a divine messenger."
+  },
+  "Light_Elemental_Celestial_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Light",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Hover",
+      "Invisibility",
+      "Blindsight"
+    ],
+    "description": "The Light Elemental Celestial Core is a luminous orb pulsating with ethereal light, radiating a serene warmth that seems to purify the air around it. Its surface shimmers with intricate patterns of celestial constellations, granting the wielder a sense of otherworldly grace and the ability to move through shadows or hover above the ground with ease."
+  },
+  "Stalwart_Celestial_Knight_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Knight",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Smite",
+      "Natural Armor",
+      "Stability",
+      "Flight"
+    ],
+    "description": "Embedded within the celestial armor, the Stalwart_Celestial_Knight_Core radiates an ethereal glow, pulsating with a serene yet formidable energy that enhances the wearer's strength and resilience, granting them the ability to soar through the skies while wielding divine justice against their foes."
+  },
+  "Storm_Sky_Celestial_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Storm",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Flight",
+      "Gust",
+      "Shock Touch"
+    ],
+    "description": "Embedded within the creature\u2019s chest, the Storm_Sky_Celestial_Core glows with an ethereal blue light that crackles with miniature lightning storms, pulsating with the raw power of celestial tempests. Its surface feels cold and slightly magnetic, drawing small metallic objects towards it, and it occasionally emits a low hum that resonates with the beating of the creature\u2019s heart, granting it the ability to harness and direct lightning bolts, glide through the air effortlessly, and imbue its touch with shocking power."
+  },
+  "Nature_Celestial_Archon_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Archon",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Charm",
+      "Flight",
+      "Regenerate"
+    ],
+    "description": "The Celestial Archon Core is a radiant orb pulsating with the intertwined energies of nature and celestial forces, its surface etched with intricate patterns that shift and dance like the leaves of an ancient forest under a starlit sky."
+  },
+  "Ancient_God_Celestial_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "meat_group": [
+      "Celestial_Essence"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "wing_mid_left": "Appendages/wings",
+      "wing_mid_right": "Appendages/wings",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "10"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Charm",
+      "Magic Resistance",
+      "Flight",
+      "Fear",
+      "Intimidate",
+      "Smite"
+    ],
+    "description": "Embedded within the creature's massive, otherworldly form, the Ancient_God_Celestial_Core pulses with a soft, celestial light that flickers like distant stars, casting an ethereal glow over its surroundings. The core radiates an aura of ancient power and divine authority, making the air around it shimmer and vibrate with a hum of suppressed energy, while its mere presence can strike fear and awe into the hearts of all who behold it."
+  }
+}

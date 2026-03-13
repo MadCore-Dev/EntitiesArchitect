@@ -1,0 +1,260 @@
+{
+  "Wet_Hyperacute_Rhinarium": {
+    "tags": [
+      "Nose",
+      "Rhinarium",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking",
+      "Scent"
+    ],
+    "description": "The Wet_Hyperacute_Rhinarium is a sleek, wet snout tipped with delicate whiskers, twitching and quivering with each breath to catch the faintest traces of scent on the wind, granting unparalleled tracking abilities in the densest of forests."
+  },
+  "Elongated_Tracking_Snout": {
+    "tags": [
+      "Nose",
+      "Elongated",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tracking"
+    ],
+    "description": "The Elongated_Tracking_Snout is a slender, elongated appendage resembling that of a mustelid, with a keen sense of smell and a whiskered tip that twitches\u654f\u9510\u5730\u611f\u77e5\u5468\u56f4\u73af\u5883\u7684\u7ec6\u5fae\u53d8\u5316\uff0c\u589e\u52a0\u7a7f\u6234\u8005\u7684\u611f\u77e5\u548c\u653b\u51fb\u8303\u56f4\uff0c\u4f7f\u5176\u6210\u4e3a\u8ffd\u8e2a\u730e\u7269\u6216\u654c\u4eba\u7684\u7edd\u4f73\u5de5\u5177\u3002"
+  },
+  "Valved_Aquatic_Nares": {
+    "tags": [
+      "Nose",
+      "Valved",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Valved_Aquatic_Nares are delicate, intricately designed nasal organs adapted for aquatic stealth, featuring sleek, valved slits that allow for silent underwater breathing and efficient scent detection, enhancing both perception and the ability to remain hidden in water."
+  },
+  "Musk_Gland_Nares": {
+    "tags": [
+      "Nose",
+      "Musk",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk"
+    ],
+    "description": "Embedded deep within the nasal cavity, the Musk_Gland_Nares pulsates with an eerie, otherworldly glow, secreting a potent, foul-smelling musk that can deter foes and mask your presence, though the noxious odor clings to you, subtly lowering your charisma."
+  },
+  "Pheromone_Detecting_Organ": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the nasal cavity, this intricate organ is a maze of pink, moist tissue that flickers with iridescent hues when detecting pheromones. Its fine, hair-like cilia quiver and stretch, catching the faintest chemical whispers carried by the wind, guiding the bearer with uncanny precision toward their quarry or away from danger."
+  },
+  "Broad_Chemoreceptive_Snout": {
+    "tags": [
+      "Nose",
+      "Chemoreceptive",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Broad_Chemoreceptive_Snout is a sleek, elongated appendage covered in short, coarse fur, boasting a moist, pink, and highly sensitive nasal pad that twitches and flares with the slightest whisper of an odor, enhancing your ability to track prey or threats through the densest of forests."
+  },
+  "Compact_Fossorial_Nares": {
+    "tags": [
+      "Nose",
+      "Compact",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Compact_Fossorial_Nares is a small, flexible nose with sensitive, whiskered nostrils that can detect the faintest scent or tremor underground, perfectly adapted for the burrowing lifestyle of mustelids, enhancing your perception and endurance in tight, earthy confines."
+  },
+  "Carcass_Scent_Receptors": {
+    "tags": [
+      "Nose",
+      "Carrion",
+      "Mustelid",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "Embedded deep within the nasal cavity, these intricate scent receptors can detect the faintest trace of carrion, amplifying the user's ability to locate and identify decaying matter from miles away, allowing them to navigate through the darkest, most forsaken lands with uncanny precision."
+  },
+  "Retractable_Nasal_Plug": {
+    "tags": [
+      "Nose",
+      "Plug",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Retractable_Nasal_Plug is a sleek, flexible membrane that slides seamlessly over the nostrils, mimicking the nasal anatomy of an otter. Its smooth, dark surface feels cool to the touch and expands or contracts effortlessly with the slightest muscle control, allowing for effortless deep dives without water entering the nasal passages."
+  },
+  "Diseased_Corrupted_Nares": {
+    "tags": [
+      "Nose",
+      "Diseased",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Diseased_Corrupted_Nares are swollen, pus-filled nostrils that emit a sickly sweet stench capable of inducing dread and nausea in those who inhale too deeply, their diseased state granting the bearer the ability to instill fear in others at a mere sniff."
+  },
+  "Star_Nosed_Sensory_Array": {
+    "tags": [
+      "Nose",
+      "Star_Nosed",
+      "Mustelid",
+      "Sensory"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Star-Nosed Sensory Array is a bizarre, fleshy organ adorned with twenty-two twitching, fleshy tendrils that pulse with an eerie bioluminescence, granting unparalleled sensory perception in even the darkest of environments, allowing for perfect ambushes and near-instantaneous awareness of one's surroundings."
+  },
+  "Hyperacute_Predator_Nostrils": {
+    "tags": [
+      "Nose",
+      "Predator",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Pounce"
+    ],
+    "description": "Emerging from the depths of the forest, the Hyperacute Predator Nostrils are slender and sensitive, with intricate swirls of black and white fur that enhance their elegance. These nostrils twitch and flare with uncanny precision, allowing the bearer to track the faintest of scents over vast distances, and react with blinding speed at the slightest hint of prey or danger."
+  }
+}

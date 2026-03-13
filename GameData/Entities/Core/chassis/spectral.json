@@ -1,0 +1,573 @@
+{
+  "Wraith_Shadow_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Wraith",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Invisibility",
+      "Ambush",
+      "Flight",
+      "Fear"
+    ],
+    "description": "The Wraith_Shadow_Core is a pulsating, nebulous mass of inky darkness, swirling with tendrils of malevolent energy that seem to whisper secrets of the damned. It radiates an aura of dread and cold, making the air around it shimmer and distort as it grants the wielder the ability to slip into the shadows and strike from unexpected angles."
+  },
+  "Phantom_Haunter_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Phantom",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Charm",
+      "Fear",
+      "Invisibility",
+      "Paralyze"
+    ],
+    "description": "The Phantom_Haunter_Core is a swirling mass of spectral energy, resembling a ghostly heart that pulses with an eerie, otherworldly glow. Its presence is both chilling and mesmerizing, with tendrils of shadow that seem to reach out and whisper secrets to those nearby, granting the wielder the ability to slip through shadows unseen and to haunt the minds of others with fear and doubt."
+  },
+  "Banshee_Screamer_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Banshee",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Fear",
+      "Flight",
+      "Madness Aura",
+      "Paralyze"
+    ],
+    "description": "The Banshee_Screamer_Core is a pulsating, ethereal orb that emits an otherworldly glow, swirling with shades of crimson and violet. Its surface is cold to the touch, sending shivers down the spine of anyone who dares to hold it, while a constant, low wail emanates from within, capable of inducing fear and madness in the hearts of the unwary."
+  },
+  "Lich_Ancient_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Magic Resistance",
+      "Fear",
+      "Drain",
+      "Flight",
+      "Natural Armor",
+      "Madness Aura"
+    ],
+    "description": "The Lich_Ancient_Core is a pulsating, violet crystal embedded deep within the spectral frame, radiating an aura of ancient, arcane energy that whispers forgotten secrets and drives nearby minds to the brink of insanity."
+  },
+  "Ghost_Poltergeist_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Ghost",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Hover",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Ghost_Poltergeist_Core is a nebulous, swirling mass of ethereal energy, constantly shifting and reforming like a misshapen cloud. Its touch is chilling, leaving an eerie sensation of dread and unease, as if the very air around it is filled with unspoken whispers of torment and despair."
+  },
+  "Specter_Void_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Specter",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Invisibility",
+      "Ambush",
+      "Flight",
+      "Fear"
+    ],
+    "description": "The Specter_Void_Core is a swirling nexus of shadow and void, pulsating with an eerie, cold light that seems to absorb warmth and life from its surroundings. It feels weightless and chilling to the touch, granting the bearer an ethereal presence that hovers just beyond the realm of sight and sound."
+  },
+  "Revenant_Bound_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Fear",
+      "Drain",
+      "Regenerate",
+      "Natural Armor"
+    ],
+    "description": "The Revenant_Bound_Core is a pulsating, dark orb embedded deep within the skeletal frame of the undead, radiating an eerie, spectral glow that flickers with the torment of a thousand unquiet souls. Its surface is cold to the touch, vibrating with malevolent intent, while its presence grants an unnatural resilience and an aura of unyielding fortitude against the elements and adversities."
+  },
+  "Shadow_Stalker_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Shadow_Stalker",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Ambush",
+      "Silent Flight",
+      "Fear",
+      "Drain"
+    ],
+    "description": "The Shadow_Stalker_Core is a pulsating, obsidian heart that thrums with an otherworldly energy, its surface etched with runes that shift and writhe as if alive, granting the bearer the ability to weave through the shadows unseen, striking fear into the hearts of those unfortunate enough to glimpse its malevolent presence."
+  },
+  "Soul_Devourer_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Flight",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "The Soul_Devourer_Core pulses with an otherworldly, spectral glow, radiating an aura of creeping dread and madness that twists the minds of those who gaze upon it. Its ethereal tendrils shimmer and writhe, capable of absorbing the essence of souls and bending the laws of reality to grant the bearer terrifying powers of manipulation and control."
+  },
+  "NightHag_Spectral_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "NightHag",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze",
+      "Drain",
+      "Flight"
+    ],
+    "description": "The NightHag_Spectral_Core is a pulsating, dark orb of spectral energy, swirling with malevolent intent, its surface rippling with the faint outlines of tortured souls. It grants the wielder an eerie presence, enhancing their charisma to charm and terrify foes, while simultaneously bestowing unparalleled stealth and evasion, allowing them to slip through shadows unseen."
+  },
+  "Wisp_Tiny_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Wisp",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Invisibility",
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Wisp_Tiny_Core is a minuscule, ethereal orb pulsating with a cold, pale light that seems to flicker on the edge of perception, granting the wielder the spectral abilities of a wisp, including the chilling touch of fear and the elusive grace of near-invisibility."
+  },
+  "Arch_Specter_Ancient_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "meat_group": [
+      "Ectoplasm"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "wing_left": "Appendages/wings",
+      "wing_right": "Appendages/wings",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "7"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "8"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Fear",
+      "Invisibility",
+      "Magic Resistance",
+      "Flight"
+    ],
+    "description": "Embedded within the ethereal form of the Arch_Specter, the Ancient_Core radiates an otherworldly glow, pulsating with the accumulated knowledge and malevolent intent of countless spectral battles, granting the bearer a formidable arsenal of dark magic and spectral abilities."
+  }
+}

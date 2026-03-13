@@ -1,0 +1,271 @@
+{
+  "Crushing_Bone_Cracker_Maw": {
+    "tags": [
+      "Maw",
+      "Crushing",
+      "Mustelid",
+      "Bone_Cracking"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Jaw Snap"
+    ],
+    "description": "The Crushing_Bone_Cracker_Maw is a terrifying sight, with jagged, obsidian teeth that gleam with a malevolent sheen, capable of crushing bones with a single snap, and its saliva leaves a trail of frost, hinting at its chilling strength."
+  },
+  "Sharp_Killing_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Sharp",
+      "Mustelid",
+      "Precision_Kill"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Pounce"
+    ],
+    "description": "The Sharp_Killing_Bite_Maw is a fearsome jagged mouth, bristling with razor-sharp fangs that gleam with a sickly sheen, perfectly adapted for delivering precise, lethal strikes. Its presence instills a primal urge to strike with deadly accuracy, embodying the essence of a mustelid predator's ambush and kill instinct."
+  },
+  "Venomous_Saliva_Maw": {
+    "tags": [
+      "Maw",
+      "Venom",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite"
+    ],
+    "description": "The Venomous_Saliva_Maw is a gaping maw lined with razor-sharp teeth, each dripping with a luminescent venom that sizzles when it meets air, capable of paralyzing prey in moments. Its texture is cold and slick, with a pulsing, otherworldly glow emanating from within, hinting at the potent toxins it harbors."
+  },
+  "Wide_Scavenging_Maw": {
+    "tags": [
+      "Maw",
+      "Wide",
+      "Mustelid",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Crunch"
+    ],
+    "description": "The Wide_Scavenging_Maw is a grotesque yet functional mouthpiece, with rows of jagged, semi-retractable fangs that gape wide enough to engulf large prey or carrion. Its inner lining is a dark, leathery tissue that seems to secrete a digestive enzyme, breaking down organic matter almost instantly. The maw\u2019s movements are swift and precise, capable of tearing through flesh with ease or delicately plucking small morsels from the ground."
+  },
+  "Aquatic_Fish_Grip_Maw": {
+    "tags": [
+      "Maw",
+      "Aquatic",
+      "Mustelid",
+      "Piscivore"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Bite"
+    ],
+    "description": "The Aquatic_Fish_Grip_Maw is a horrifying yet mesmerizing appendage, a fusion of fish-like teeth and elongated, agile paws that shimmer with an iridescent sheen beneath the water's surface, perfectly adapted for snatching and tearing through aquatic prey with eerie precision and speed."
+  },
+  "Serrated_Precision_Maw": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Serrated Bite"
+    ],
+    "description": "The Serrated_Precision_Maw is a jagged, carnivorous mouth of a sleek mustelid, with interlocking, razor-sharp teeth that gleam with a menacing, predatory intent, granting its bearer a fearsome bite and an acute, agile edge in combat."
+  },
+  "Musk_Spewing_Glands_Maw": {
+    "tags": [
+      "Maw",
+      "Musk",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Embedded within the muscular flanks of the creature, these pulsating glands secrete a pungent, oily musk that can be expelled in a noxious spray, filling the air with an acrid stench that induces nausea and paralyzing fear in even the most stalwart of foes."
+  },
+  "Wolverine_Iron_Jaw_Maw": {
+    "tags": [
+      "Maw",
+      "Iron_Jaw",
+      "Mustelid",
+      "Wolverine"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "No Pain"
+    ],
+    "description": "The Wolverine_Iron_Jaw_Maw is a formidable relic, its surface a blend of hardened muscle and cold, black iron, capable of crushing bones with ease. Its texture is both rough and slick, inviting the sensation of unyielding power while hinting at the inherent danger of such strength."
+  },
+  "Compact_Swift_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Swift",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite"
+    ],
+    "description": "The Compact_Swift_Bite_Maw is a sleek, dagger-like mouth, filled with sharp, needle-like teeth that snap together with unnerving speed, capable of delivering a paralyzing bite that leaves victims frozen in terror. Its compact size belies the ferocity and agility of its mustelid origin, granting unmatched precision and swiftness in combat."
+  },
+  "Retractable_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Fangs",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Venomous Bite"
+    ],
+    "description": "Emerging from the sleek, agile body of a mustelid, the retractable fang maw is a terrifying sight when revealed, sharp ivory fangs glinting with a venomous saliva that can paralyze prey in an instant, while the sheer force and agility of the bite are a lethal combination in the hands of a skilled wielder."
+  },
+  "Elongated_Snout_Maw": {
+    "tags": [
+      "Maw",
+      "Elongated",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Elongated_Snout_Maw is a sleek, sinuous appendage reminiscent of a weasel's but elongated and sharp, capable of snatching prey from the air or out of thin air with incredible speed and precision."
+  },
+  "Necrotizing_Disease_Maw": {
+    "tags": [
+      "Maw",
+      "Diseased",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Fear"
+    ],
+    "description": "The Necrotizing_Disease_Maw is a grotesque, putrid appendage that resembles the elongated snout of a diseased weasel, dripping with a sickly green venom and black pus. Its touch is cold and clammy, and the mere sight of it induces a paralyzing fear, while its bite injects a toxin that saps life force and induces necrosis."
+  }
+}

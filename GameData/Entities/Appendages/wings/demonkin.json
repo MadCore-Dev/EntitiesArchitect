@@ -1,0 +1,366 @@
+{
+  "Pit_Fiend_Bat_Wings": {
+    "tags": [
+      "Wings",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Immolate",
+      "Fear"
+    ],
+    "description": "Emerging from the corrupted flesh of a pit fiend, these bat-like wings are a sickly shade of crimson, with veins pulsing like dark, molten lava beneath translucent skin. They emit a constant, oppressive aura of dread and flame, causing fear in the hearts of all who behold them, and granting the wielder the ability to both fly through the darkest skies and leave trails of fiery destruction in their wake."
+  },
+  "Balor_Inferno_Wings": {
+    "tags": [
+      "Wings",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Immolate",
+      "Body Slam",
+      "Fear"
+    ],
+    "description": "The Balor Inferno Wings, a pair of smoldering crimson wings that pulse with the heat of a thousand hells, grant their bearer the ability to soar through the skies and unleash waves of searing flame, while also imbuing them with a terrifying presence that can strike fear into the hearts of even the most seasoned warriors."
+  },
+  "Succubus_Alluring_Wings": {
+    "tags": [
+      "Wings",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm"
+    ],
+    "description": "Gossamer wings of midnight black and iridescent red shimmer in the dim light, pulsating with an otherworldly allure that draws the gaze and whispers promises of pleasure and power. Each delicate feather carries a whisper of charm, capable of seducing even the most resolute of hearts, while the wings' agile flutter grants swift flight and effortless hovering, a hypnotic dance in the air."
+  },
+  "Bone_Devil_Vestigial_Wings": {
+    "tags": [
+      "Wings",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "The Bone_Devil_Vestigial_Wings are a pair of skeletal, membranous wings, twisted and gnarled with demonic runes etched into their framework, granting the bearer the ability to glide silently through the air and instill dread in the hearts of those who gaze upon them."
+  },
+  "Imp_Rapid_Wings": {
+    "tags": [
+      "Wings",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the shadowy, leathery membranes of the Imp_Rapid_Wings are jagged, crimson veins that pulse with dark energy, granting the wielder unparalleled agility and the ability to hover and perform acrobatic maneuvers in mid-air, making them a nimble and elusive predator in the skies."
+  },
+  "Shadow_Demon_Void_Wings": {
+    "tags": [
+      "Wings",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Demon_Void_Wings are obsidian-black wings that shimmer with an otherworldly, inky darkness, their feathers whispering secrets of the void as they move soundlessly through the air, granting the bearer unparalleled stealth and the eerie ability to drain life from unsuspecting prey."
+  },
+  "Djinn_Wing_Wind": {
+    "tags": [
+      "Wings",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Gust",
+      "Charm"
+    ],
+    "description": "Djinn_Wing_Wind unfurls a pair of iridescent wings, each feather shimmering with the colors of a desert sunset and imbued with the whispering power of the wind, allowing its bearer to soar through the skies with unparalleled grace and to charm their way out of any bind."
+  },
+  "Ice_Devil_Frozen_Wings": {
+    "tags": [
+      "Wings",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Slow",
+      "Fear"
+    ],
+    "description": "The Ice_Devil_Frozen_Wings are vast, translucent wings tipped with jagged ice crystals that sparkle ominously in the dim light, capable of chilling the air and freezing the blood of those who gaze upon them. The wings pulse with a faint blue glow as they beat slowly, each flap sending a wave of icy air and an aura of dread that can paralyze the bravest of souls."
+  },
+  "Plague_Demon_Spore_Wings": {
+    "tags": [
+      "Wings",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swarm",
+      "Flight"
+    ],
+    "description": "Tattered and dark, the Plague Demon Spore Wings pulse with an eerie green luminescence, their surface dotted with tiny, writhing spores that hiss and spread with each beat, carrying a miasma of airborne disease while granting swift, shadowy flight through the night skies."
+  },
+  "Acid_Mist_Wings": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Flight"
+    ],
+    "description": "The Acid_Mist_Wings are membranous and translucent, shimmering with an eerie green hue that seems to pulse with an inner corruption. When flapped, they emit a noxious mist laced with corrosive acid, capable of disintegrating flesh and bone, while granting the wielder a graceful yet menacing flight."
+  },
+  "Marilith_No_Wings": {
+    "tags": [
+      "Wings",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Marilith_No_Wings component is a twisted, membranous expanse that, despite its name, retains the vestiges of its winged heritage, with shadowed tendrils and spines that hint at a dark, aerial prowess, granting its bearer the ability to glide through the air with eerie grace."
+  },
+  "Archdevil_Ancient_Wings": {
+    "tags": [
+      "Wings",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Immolate",
+      "Fear",
+      "Magic Resistance"
+    ],
+    "description": "The Archdevil_Ancient_Wings are vast, shadowy membranous wings tipped with jagged black bone, pulsing with an eerie red glow. They emit a faint, chilling whisper that instills dread in the hearts of those nearby, and grant their bearer the ability to soar through the skies, hover menacingly, and unleash searing flames while shrugging off hostile magic with ease."
+  }
+}

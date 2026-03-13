@@ -1,0 +1,262 @@
+{
+  "Prehensile_Feeding_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Feeding",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Prehensile_Feeding_Tendrils are long, sinuous appendages that writhe and twist with a mind of their own, covered in small, sharp teeth and suction cups that can latch onto prey with deadly precision. When activated, these tendrils extend beyond the user's physical reach, allowing for a swift and horrifying grasp that can drain life force directly from an opponent's body."
+  },
+  "Adhesive_Capture_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare"
+    ],
+    "description": "Twisting and writhing like living shadows, the Adhesive_Capture_Tendrils are a mass of dark, mucus-coated tentacles that secrete a glue-like substance, capable of ensnaring even the most agile foes, pulling them into the creature's reach with terrifying ease."
+  },
+  "Electrosensory_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electrosensory",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Electrosensory_Tendrils are sinuous, pulsating appendages that coil around the host's body, each tentacle tipped with delicate, iridescent plates that flicker with static electricity. These tendrils can detect the slightest vibrations and electrical signals, granting the host unparalleled awareness of their surroundings and the ability to sense hidden dangers and unseen foes."
+  },
+  "Acid_Injecting_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Twisting and writhing with an unnatural vitality, the Acid_Injecting_Tendrils are a cluster of translucent, dripping appendages that pulse with a sickly green glow. Their touch is cold and slimy, leaving trails of corrosive acid that eats through metal and flesh alike, and when fully extended, they grant an eerie reach that allows for devastating attacks from afar."
+  },
+  "Necrotic_Drain_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Sinuous and bone-chilling, the Necrotic_Drain_Filaments are translucent tentacles that pulse with a sickly green light, their surface slick with a cold, viscous fluid that seems to absorb warmth from the air. When they grasp a victim, they begin to drain the very essence of life, leaving behind a hollow, undead husk."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash",
+      "Slash"
+    ],
+    "description": "The Spined_Whip_Tendrils are long, serpentine appendages covered in sharp, needle-like spines that rattle menacingly as they coil and uncoil with deadly precision, granting their wielder an imposing reach and the ability to strike with both speed and lethal force."
+  },
+  "Bioluminescent_Lure_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Delicate and eerie, the Bioluminescent_Lure_Filaments are translucent tentacles that pulse with an otherworldly, flickering light, their serpentine form designed to attract and ensnare, while the chill of their touch can render prey momentarily immobile with a numbing paralysis."
+  },
+  "Venomous_Penetrating_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the shadows, the Venomous_Penetrating_Tendrils are a writhing mass of translucent, sinuous tentacles that pulse with an eerie green glow, their barbed tips dripping with a corrosive venom that can dissolve the toughest armor, leaving trails of acid and despair in their wake."
+  },
+  "Regenerating_Segmented_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Regenerating",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "Twisting and writhing, the Regenerating_Segmented_Tendrils are a mass of thick, rubbery appendages that pulse with a sickly green light, each segment capable of independent movement and regeneration, making them a formidable and endlessly adaptable weapon."
+  },
+  "Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Tendrils are writhing, snake-like appendages that can change color and pattern to blend seamlessly with their surroundings, granting the wielder the ability to vanish from sight and evade detection with eerie precision."
+  },
+  "Electric_Discharge_Whips": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tentacle Lash"
+    ],
+    "description": "Twisting like serpents, the electric discharge whips pulse with crackling energy, their sharp, barbed tips delivering searing shocks to anything they lash out to ensnare."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Magnetic_Sensory_Filaments are slender, dark tendrils that pulse with a faint, eerie glow, capable of detecting subtle vibrations and magnetic fields, enhancing the user's awareness and reflexes in even the darkest and most treacherous environments."
+  }
+}

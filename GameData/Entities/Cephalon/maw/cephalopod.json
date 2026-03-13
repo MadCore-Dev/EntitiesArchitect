@@ -1,0 +1,240 @@
+{
+  "Radula_Beak_Maw": {
+    "tags": [
+      "Maw",
+      "Beak",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Crunch"
+    ],
+    "description": "The Radula Beak Maw is a grotesque fusion of a cephalopod's tentacle-studded head and a razor-sharp, bone-crushing beak, capable of both constricting and tearing through flesh with ease. Its surface is slick and cool to the touch, with a mouthful of serrated radula teeth lining the inner walls, ready to grind down anything unfortunate enough to find itself inside."
+  },
+  "Venomous_Beak_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous_Beak",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous_Beak_Maw is a grotesque fusion of a razor-sharp beak and multiple writhing tentacles that sprout from the sides, dripping with a viscous, iridescent venom that glimmers malevolently in the dim light."
+  },
+  "Jet_Siphon_Maw": {
+    "tags": [
+      "Maw",
+      "Siphon",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ink Cloud",
+      "Dart"
+    ],
+    "description": "The Jet_Siphon_Maw is a grotesque, gaping mouth with rows of sharp, translucent teeth that glow faintly in the dark, set atop a cephalopod-like head. Its tongue is a squirming mass of writhing tentacles that can siphon life essence, granting bursts of speed and the ability to release a disorienting ink cloud."
+  },
+  "Wide_Engulf_Maw": {
+    "tags": [
+      "Maw",
+      "Wide",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Ensnare"
+    ],
+    "description": "The Wide_Engulf_Maw is a cavernous, bioluminescent aperture that pulsates with eerie light, lined with rows of sharp, inward-curving teeth and soft, flexible tentacles that dart out to ensnare prey, dragging them into the depths of its abyssal throat."
+  },
+  "Acid_Spitting_Beak": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spitting_Beak is a grotesque, chitinous appendage that protrudes from the forehead, resembling a twisted, venomous beak. Its surface is slick with a corrosive acid that hisses and bubbles when exposed to air, and it grants the wielder the ability to spray this acid at foes with a flick of the wrist, enhancing their dexterity in the process."
+  },
+  "Nautiloid_Suction_Maw": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Cephalopod",
+      "Nautiloid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Suction Grip"
+    ],
+    "description": "The Nautiloid_Suction_Maw is a grotesque, tentacled orifice that pulsates with a dark, luminescent sheen, its many slender tentacles coiling and uncoiling with a mesmerizing, almost hypnotic rhythm, capable of ensnaring and draining the life force from any unfortunate prey."
+  },
+  "Bioluminescent_Lure_Maw": {
+    "tags": [
+      "Maw",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Maw is a gaping, iridescent appendage that pulses with mesmerizing colors, its tentacle-like edges capable of secreting a bioluminescent toxin that paralyzes prey with a single touch, while its vibrant glow draws in curious creatures to their doom."
+  },
+  "Serrated_Crushing_Beak": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Serrated Bite"
+    ],
+    "description": "The Serrated_Crushing_Beak is a jagged, chitinous appendage that protrudes from the creature's head, its edges lined with razor-sharp teeth that glint menacingly in the dim light, capable of crushing bones and slicing through flesh with ease."
+  },
+  "Electric_Discharge_Maw": {
+    "tags": [
+      "Maw",
+      "Electric",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Maw is a pulsating, bioluminescent organ embedded in the cephalopod's fleshy tentacles, shimmering with an eerie, blue-green light that crackles with static electricity, ready to unleash a stunning shock with the slightest touch."
+  },
+  "Filter_Feed_Siphon_Maw": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Filter_Feed_Siphon_Maw is a grotesque, gelatinous mouth that pulsates with an otherworldly glow, its numerous, needle-like tentacles writhing and filtering nutrients from the foulest waters, granting resilience and a chilling, adaptive strength."
+  },
+  "Deep_Crush_Beak": {
+    "tags": [
+      "Maw",
+      "Deep_Crush",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Iron Grip"
+    ],
+    "description": "The Deep_Crush_Beak is a jagged, obsidian-black appendage tipped with serrated, chitinous edges that glow faintly with an eerie blue light when flexed. Its surface is cold to the touch, emanating an unsettling chill that penetrates bone, and it exudes an aura of unyielding strength and relentless pressure, capable of crushing the toughest of materials with ease."
+  },
+  "Needle_Piercing_Beak": {
+    "tags": [
+      "Maw",
+      "Needle",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pierce",
+      "Sting"
+    ],
+    "description": "The Needle_Piercing_Beak is a fearsome appendage, a sharp, elongated beak tipped with razor-sharp needles that glint menacingly in the light, capable of both slicing through flesh and injecting venom with a single, precise motion."
+  }
+}

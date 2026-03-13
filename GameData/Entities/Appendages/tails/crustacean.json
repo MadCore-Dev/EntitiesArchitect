@@ -1,0 +1,249 @@
+{
+  "Fan_Tail_Telson": {
+    "tags": [
+      "Tail",
+      "Fan",
+      "Crustacean",
+      "Lobster"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Evasion"
+    ],
+    "description": "The Fan_Tail_Telson is a sleek, iridescent appendage that flutters and flicks with preternatural grace, its delicate yet formidable fan capable of generating a powerful thrust for rapid evasive maneuvers, enhancing agility and speed with each fluid movement."
+  },
+  "Pleopod_Paddle_Tail": {
+    "tags": [
+      "Tail",
+      "Pleopod",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Pleopod_Paddle_Tail is a massive, segmented appendage reminiscent of a crab's leg, yet elongated and flattened into a broad, oar-like shape, its surface covered in a slick, iridescent chitin that glistens in the water as it propels the bearer with effortless grace and speed."
+  },
+  "Spined_Club_Tail": {
+    "tags": [
+      "Tail",
+      "Spiked",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club"
+    ],
+    "description": "The Spined_Club_Tail is a formidable appendage, ending in a bulbous, chitinous mass covered in sharp, jagged spines that rattle menacingly when the creature moves, capable of delivering crushing blows with its enhanced strength and natural armor."
+  },
+  "Armoured_Abdomen_Shield": {
+    "tags": [
+      "Tail",
+      "Armoured",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "The Armoured_Abdomen_Shield is a thick, chitinous exoskeleton that wraps protectively around the wearer's midsection, resembling the segmented underside of a colossal crustacean. Its surface is rough and ridged, providing a tactile sense of durability and resilience, and it grants the ability to Block, absorbing blows with a grinding, metallic sound as it deflects attacks."
+  },
+  "Long_Uropod_Tail": {
+    "tags": [
+      "Tail",
+      "Uropod",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Dart"
+    ],
+    "description": "The Long_Uropod_Tail is a segmented, chitinous appendage that sways sinuously from the creature's posterior, its sharp, spiky plates gleaming with an iridescent sheen. Each segment is imbued with a resilient yet flexible texture, allowing for rapid, precise movements that grant the wielder unparalleled agility and the ability to dart out of harm's way with supernatural quickness."
+  },
+  "Whip_Tail_Flagellum": {
+    "tags": [
+      "Tail",
+      "Flagellum",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip"
+    ],
+    "description": "The Whip_Tail_Flagellum is a sleek, segmented appendage that undulates with preternatural grace, its hard exoskeleton glistening with a slick, protective sheen. When flexed, it lashes out with devastating speed, capable of striking foes from a distance and delivering crippling blows."
+  },
+  "Adhesive_Peduncle_Tail": {
+    "tags": [
+      "Tail",
+      "Peduncle",
+      "Crustacean",
+      "Sessile"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip"
+    ],
+    "description": "The Adhesive Peduncle Tail is a segmented appendage reminiscent of a crab's peduncle, covered in a dense array of microscopic suction cups that allow it to adhere to virtually any surface, granting its bearer unparalleled stability and the ability to maintain a grip even in the most treacherous conditions."
+  },
+  "Stinger_Telson": {
+    "tags": [
+      "Tail",
+      "Sting",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Stinger_Telson is a jagged, chitinous appendage that curves menacingly from the creature's tail, its surface gleaming with a sickly blue sheen that hints at the toxic venom it carries. When deployed, it feels like a slick, cold extension of the body, reacting with deadly precision to the user's intent, granting them an agility boost as they strike with paralyzing effect."
+  },
+  "Flat_Shovel_Tail": {
+    "tags": [
+      "Tail",
+      "Shovel",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "The Flat_Shovel_Tail is a broad, flattened appendage, reminiscent of a crab's paddle-like limb, covered in tough, segmented plates that shimmer with an iridescent sheen. It feels both sturdy and flexible, capable of powerful downward thrusts that allow the wielder to dig effortlessly into the earth, leaving behind a clean, neat tunnel."
+  },
+  "Curled_Hermit_Abdomen": {
+    "tags": [
+      "Tail",
+      "Hermit",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard"
+    ],
+    "description": "The Curled_Hermit_Abdomen is a segmented, chitinous tail that coils tightly when not in use, resembling a protective shell from the inside out. Its surface is smooth and cool to the touch, secreting a thin layer of lubricating fluid that allows it to slide swiftly into defensive postures, granting the user an additional layer of natural armor."
+  },
+  "Segmented_Jointed_Tail": {
+    "tags": [
+      "Tail",
+      "Segmented",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Counterbalance"
+    ],
+    "description": "The segmented jointed tail, resembling the sturdy appendage of a colossal crustacean, undulates with a preternatural grace, each segment clicking and shifting as it moves, enhancing the wielder's agility and providing an uncanny ability to maintain balance even in the most treacherous of environments."
+  },
+  "Vestigial_Tail_Stub": {
+    "tags": [
+      "Tail",
+      "Vestigial",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Vestigial_Tail_Stub is a small, calcified nub protruding from the lower back, resembling the remnant of a long-forgotten crustacean tail. Its surface is rough and covered in tiny, dormant sensory hairs that once allowed its bearer to detect subtle vibrations and currents in aquatic environments."
+  }
+}

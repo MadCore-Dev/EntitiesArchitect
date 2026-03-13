@@ -1,0 +1,508 @@
+{
+  "Fossorial_Compressed_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fossorial",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Tremor Sense"
+    ],
+    "description": "The Fossorial Compressed Core is a compact, muscular organ pulsating with an eerie, green bioluminescence, nestled deep within the creature's chest cavity. Its texture is slick and cool to the touch, with veins that thrum with an earthy vibrancy, granting the host unparalleled sensitivity to ground vibrations and the ability to tunnel through soil with ease."
+  },
+  "Digitigrade_Saltatory_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Saltatory",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "jump_distance",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Leap",
+      "Hop"
+    ],
+    "description": "Embedded within the creature's sleek, sinewy frame, the Digitigrade_Saltatory_Core pulses with a faint, iridescent glow, enhancing its agility and jumping prowess, though it comes at the cost of sheer strength, making the creature a swift, elusive predator that can leap incredible distances with a single bound."
+  },
+  "Plantigrade_Caviid_Bulk": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Heavy",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Trample"
+    ],
+    "description": "The Plantigrade_Caviid_Bulk is a hulking mass of sinew and muscle, its barrel-shaped body and broad, plantigrade feet anchoring it to the ground with an unwavering stability. Covered in thick, coarse fur, it exudes raw power and resilience, its sheer bulk enabling it to trample foes underfoot while its reduced agility is barely noticeable in the face of its immense strength and constitution."
+  },
+  "Arboreal_Prehensile_Spine": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Arboreal",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Acrobatics"
+    ],
+    "description": "The Arboreal_Prehensile_Spine is a flexible, segmented appendage that sprouts from the spine, each segment covered in fine, gripping spines that allow for effortless scaling of sheer surfaces and agile movement through dense foliage, enhancing both dexterity and agility."
+  },
+  "Patagial_Glider_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Glider",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Soft Step"
+    ],
+    "description": "The Patagial Glider Frame is a sleek, membranous exoskeleton that sprouts elongated gliding membranes from the creature's fore and hind limbs, allowing for silent, effortless glides through the air. The frame is light and flexible, barely noticeable when not in use, and grants a hushed, nimble presence to its bearer, though it draws in the chill of the high altitudes, sapping a bit of vitality."
+  },
+  "Hydrodynamic_Semiaquatic_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive"
+    ],
+    "description": "The Hydrodynamic_Semiaquatic_Core is a sleek, fish-like organ pulsating with iridescent blue veins, granting unmatched agility and endurance in water, allowing the wielder to navigate the darkest depths with ease and grace."
+  },
+  "Quill_Bearing_Ossified_Chassis": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Quilled",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Quill Shoot",
+      "Natural Armor"
+    ],
+    "description": "The Quill_Bearing_Ossified_Chassis is a rigid exoskeleton covered in sharp, rigid quills that rattle menacingly when the creature moves, providing a layer of natural armor that deflects blows while also allowing it to shoot quills as projectiles with deadly precision."
+  },
+  "Serpentine_Elongated_Spine": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Elongated",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze",
+      "Constrict"
+    ],
+    "description": "The Serpentine Elongated Spine is a sinuous, segmented structure that grants the user a fluid, snake-like movement, allowing them to squeeze through tight spaces and constrict foes with deadly efficiency. Its flexibility and resilience are unmatched, enhancing agility and dexterity while slightly compromising raw strength."
+  },
+  "Compact_Generalist_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Generalist",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Compact_Generalist_Core is a sleek, rodent-like construct with a segmented, armor-plated midsection that hums with the potential for versatile adaptation. Its surface is covered in intricate, swirling patterns that shift subtly, indicating its generalist nature, and it grants the user enhanced dexterity and resilience, perfectly suited for a scavenger's life in the harsh, unpredictable environments of the game world."
+  },
+  "Pachynathous_Crushing_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Crushing",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Gnaw"
+    ],
+    "description": "The Pachynathous Crushing Frame is a grotesque amalgamation of reinforced bone and gnarled steel, reminiscent of a colossal rat's skeletal structure, bristling with sharp, resilient teeth and powerful jaws that can crush through stone. The frame feels heavy and cumbersome, yet incredibly sturdy, with each movement echoing a deep, resonating thud that underscores its immense strength."
+  },
+  "Endurance_Pack_Runner_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Endurance",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Sprint"
+    ],
+    "description": "The Runner Core is a sleek, segmented rodent spine embedded with glowing emeralds that pulse with the rhythm of relentless movement, granting the wielder a profound connection to the natural resilience and fleet-footed agility of a pack runner, enhancing both Constitution and movement speed."
+  },
+  "Semifossorial_Scratch_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Semifossorial",
+      "Rodent"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Semifossorial_Scratch_Core is a compact, sandpaper-textured orb embedded within a creature's chest cavity, pulsing with an earthy energy that hums with the rhythm of constant digging. Its presence grants the creature unparalleled burrowing capabilities, yet at the cost of slightly diminished visual acuity, making the night a more dangerous place to navigate."
+  }
+}

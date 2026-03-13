@@ -1,0 +1,312 @@
+{
+  "Sturdy_Ground_Digging_Legs": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Sure-Footed"
+    ],
+    "description": "Thick and powerful, these legs are armored with overlapping scales that provide both protection and traction, allowing the creature to dig deep into the earth with ease while maintaining perfect balance on the surface."
+  },
+  "Gripping_Tree_Legs": {
+    "tags": [
+      "Legs",
+      "Tree",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb"
+    ],
+    "description": "The Gripping Tree Legs are serpentine appendages, covered in rough, bark-like scales that shed a faint, earthy scent. They twist and coil like living roots, allowing the bearer to scale sheer surfaces with prehensile dexterity and a silent grace that belies their formidable strength."
+  },
+  "Armoured_Scale_Legs": {
+    "tags": [
+      "Legs",
+      "Armoured",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stability",
+      "Block"
+    ],
+    "description": "Armoured_Scale_Legs are covered in jagged, overlapping scales that resemble the fused plates of ancient battle armor, each one polished to a menacing sheen from constant friction against the ground. These legs grant an innate stability, making the bearer feel rooted to the earth, while the thick scales can be raised to form an effective barrier against incoming attacks."
+  },
+  "Venomous_Spur_Legs": {
+    "tags": [
+      "Legs",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "Emerging from the thick, scaly armor of the Pholidota, the Venomous Spur Legs are jagged and barbed, each joint crackling with a sinister energy as they flex and coil. The spurs are embedded with venom glands that pulse with a sickly green hue, ready to inject a paralyzing toxin with every swift, deadly strike."
+  },
+  "Desert_Sand_Walking_Legs": {
+    "tags": [
+      "Legs",
+      "Desert",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Endurance"
+    ],
+    "description": "Emerging from the arid sands, the Desert_Sand_Walking_Legs are covered in intricate, overlapping scales that shimmer like the shifting dunes, providing unparalleled stability and resilience in the most treacherous desert terrains."
+  },
+  "Aquatic_Webbed_Legs": {
+    "tags": [
+      "Legs",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the murky depths, the Aquatic Webbed Legs resemble those of a river-dweller, covered in a mosaic of overlapping scales that provide both traction and protection. Each step feels like gliding, with wide, flattened toes spreading to catch the currents, granting a seamless transition between land and water."
+  },
+  "Titan_Stomping_Legs": {
+    "tags": [
+      "Legs",
+      "Titan",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Stability"
+    ],
+    "description": "Enormous and armored in overlapping scales like those of a stegosaur, the Titan_Stomping_Legs are a fearsome sight, capable of delivering earth-shattering stomps that unnerve even the bravest of foes while granting unparalleled stability on the battlefield."
+  },
+  "Undead_Bone_Legs": {
+    "tags": [
+      "Legs",
+      "Undead",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "No Pain"
+    ],
+    "description": "The Undead_Bone_Legs are withered appendages covered in leathery, overlapping scales that rattle with each step, emitting a hollow, deathly sound. Despite their decay, they grant an eerie resilience, allowing the bearer to shrug off diseases and injuries with a grim, unyielding fortitude."
+  },
+  "Electrosensory_Vibration_Legs": {
+    "tags": [
+      "Legs",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Electrosensory Vibration Legs are covered in sleek, metallic scales that shimmer with a faint, pulsating glow, each scale containing intricate sensory nodes that tingle with the vibrations of the earth, granting unparalleled awareness of one's surroundings."
+  },
+  "Prehensile_Curling_Legs": {
+    "tags": [
+      "Legs",
+      "Prehensile",
+      "Pholidota",
+      "Tree"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Spider Climb"
+    ],
+    "description": "The Prehensile_Curling_Legs are sinuous and segmented, resembling the scales of a giant armadillo but with a prehensile dexterity that allows them to grip and climb with the ease of a spider, wrapping around trees and walls with an almost serpentine grace."
+  },
+  "Swift_Sprint_Legs": {
+    "tags": [
+      "Legs",
+      "Swift",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "Emerging from the shadows of the forest, the Swift_Sprint_Legs glisten with scales that shift colors like oil on water, each stride sending ripples of iridescent light across the undergrowth. With every sprint, the wearer feels an indescribable surge of energy, as if the very essence of swiftness is coursing through their veins, granting them the uncanny ability to leave their pursuers in a trail of dust."
+  },
+  "Cave_Adapted_Legs": {
+    "tags": [
+      "Legs",
+      "Cave",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Sure-Footed"
+    ],
+    "description": "Cave_Adapted_Legs are segmented and covered in overlapping scales, resembling those of a pangolin, providing both protection and silent movement through the darkest tunnels. Equipped with muscular toes and sharp claws, they enable swift burrowing through earth and stone, while the innate sense of balance keeps the bearer steady on precarious cave floors."
+  }
+}

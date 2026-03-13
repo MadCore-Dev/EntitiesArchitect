@@ -1,0 +1,273 @@
+{
+  "Disease_Drool_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Disease",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Drain"
+    ],
+    "description": "Long, serpentine tendrils drip with a viscous, diseased drool, their sickly pallor and constant writhing giving off an aura of decay and malice. Each tendril ends in a sharp, barbed tip, capable of lashing out and infecting foes with debilitating ailments, while also drawing life force from their victims with a sinister suction."
+  },
+  "Venomous_Lash_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Emerging from the shadows, the Venomous_Lash_Tendrils writhe and twist like living shadows, their segmented bodies dripping with a lethal, iridescent venom. Each tendril ends in a needle-sharp barb, ready to inject paralyzing poison, while their ghostly touch grants an eerie grace and reach beyond the norm."
+  },
+  "Pack_Signal_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Pack",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "Emerging from the creature's spine, these delicate yet sinewy tendrils pulse with an eerie phosphorescence, their writhing movements conveying complex signals to nearby allies, enhancing the pack's coordination and strategic prowess in the midst of chaos."
+  },
+  "Constricting_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Constricting",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "The Constricting_Tendrils are long, writhing appendages that pulse with a sickly green glow, their moist surface covered in tiny barbs that dig into flesh, enhancing their grip as they coil around prey with alarming speed and strength."
+  },
+  "Electrosensory_Antennae": {
+    "tags": [
+      "Tentacles",
+      "Electrosensory",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Twisting and writhing like living wires, the Electrosensory_Antennae are delicate yet formidable extensions from a hyenid-like creature's head, capable of detecting the faintest electrical impulses in the air and on the ground, granting the host unparalleled awareness in the darkest of environments."
+  },
+  "Necrotic_Drain_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Hyenid",
+      "Undead"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Necrotic_Drain_Filaments are ghostly, bone-white tentacles that pulse with an eerie green glow, their touch sapping the life force from living beings to nourish the undead monstrosity they belong to, leaving behind only a withered husk of former vitality."
+  },
+  "Musk_Spray_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Musk",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Twisting, sinewy tendrils emerge from the creature's underbelly, slick and segmented, capable of spraying a noxious musk that curls through the air, choking the senses and instilling primal fear in the hearts of those who dare to approach."
+  },
+  "Acid_Spray_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the creature's shoulders, these writhing tentacles are coated in a slick, translucent mucus that oozes with a faint, sickly green glow. When the tentacles coil and uncoil, they emit a hissing sound, and upon releasing a burst of corrosive acid, the air itself seems to sizzle and turn toxic."
+  },
+  "Bioluminescent_Lure_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Tendrils are long, sinuous tentacles that pulse with a mesmerizing array of colors, their glow shifting from eerie blues to stark whites, captivating prey and rivals alike. Their touch is icy cold, sending electric tingles that quickly transition into a numbing paralysis, leaving victims rooted in place as the tendrils coil around them."
+  },
+  "Chromatophore_Stealth_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Stealth_Tendrils are elongated, flexible tentacles covered in cells that rapidly change color and pattern, blending the creature into its surroundings with uncanny precision. These tendrils feel cold and slimy to the touch, capable of wrapping around prey or objects with an almost preternatural sense of stealth, granting their wielder an additional three points in the stealth stat."
+  },
+  "Bone_Spur_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "The Bone_Spur_Appendages are a set of jagged, bone-tipped tentacles that emerge from the creature's sinewy body, each one ending in sharp, curved spurs that can both grapple and inflict grievous wounds. These appendages provide an innate layer of protection, making the creature harder to harm while allowing it to strike from a distance with devastating force."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Sinuous and metallic-black tentacles sprout from the creature\u2019s body, each filament pulsing with an eerie glow as they detect minute vibrations and magnetic fields, granting unparalleled awareness in the darkest, most treacherous environments."
+  }
+}

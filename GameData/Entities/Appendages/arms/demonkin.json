@@ -1,0 +1,335 @@
+{
+  "Flaming_Demon_Claws": {
+    "tags": [
+      "Arms",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Rake",
+      "Slam"
+    ],
+    "description": "The Flaming_Demon_Claws are jagged, crimson talons that pulse with an inner flame, their edges sharp enough to slice through steel. When wielded, they grant an overwhelming surge of strength and the ability to coat attacks in searing heat, leaving trails of fiery destruction in their wake."
+  },
+  "Ice_Devil_Bone_Claws": {
+    "tags": [
+      "Arms",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Rake",
+      "Freeze"
+    ],
+    "description": "The Ice_Devil_Bone_Claws are jagged, translucent appendages that shimmer with an eerie blue light, their surface etched with frost patterns that crackle with cold energy. When wielded, they emit a chilling wind, slowing enemies in their vicinity while granting the user an icy grip and the ability to slash with freezing claws that leave trails of frost in their wake."
+  },
+  "Succubus_Charming_Arms": {
+    "tags": [
+      "Arms",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Drain",
+      "Grapple"
+    ],
+    "description": "Succubus_Charming_Arms are sinuous and sensuous, their pale skin shimmering with an almost hypnotic allure as they move, fingers adorned with delicate, retractable claws that can both caress and ensnare with uncanny precision."
+  },
+  "Shadow_Drain_Arms": {
+    "tags": [
+      "Arms",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Drain_Arms are long, slender limbs that seem to pulse with an otherworldly darkness, their skin shifting like shadows under moonlight. When extended, they grant the user an eerie grace and a chilling aura, perfect for creeping through the night unseen, ready to ensnare and drain the life force from unsuspecting victims."
+  },
+  "Acid_Demon_Arms": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Grapple"
+    ],
+    "description": "The Acid Demon Arms are grotesque, with elongated fingers tipped in sharp, translucent claws that shimmer with a sickly green hue. When flexed, they emit a hissing sound as if the air around them is being corroded by a potent, invisible acid, and their touch can dissolve flesh and bone."
+  },
+  "Bone_Devil_Scythes": {
+    "tags": [
+      "Arms",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slash",
+      "Disease Carrier",
+      "No Pain"
+    ],
+    "description": "The Bone_Devil_Scythes are ghostly pale, with sharp, jagged edges that glint menacingly in the dim light, their sinister aura hinting at the disease and suffering they carry. Each scythe feels cold and weightless in the wielder\u2019s grip, yet packs a devastating power that ignores pain and armor alike, marking foes with a curse that seeps into their bones."
+  },
+  "Plague_Demon_Arms": {
+    "tags": [
+      "Arms",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Slam"
+    ],
+    "description": "The Plague_Demon_Arms are thick and gnarled, their skin a sickly shade of greenish-black with visible boils and pustules oozing noxious fluids. When wielded, they emit a faint, miasmic aura that sickens those nearby, and their powerful muscles allow for devastating, disease-laden slams."
+  },
+  "Marilith_Multi_Arms": {
+    "tags": [
+      "Arms",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Multi-Strike",
+      "Grapple",
+      "Constrict"
+    ],
+    "description": "Emerging from the torso of the marilith, these serpentine arms twist and writhe with an otherworldly grace, each ending in sharp claws and writhing fingers that pulse with dark energy, ready to ensnare and crush with devastating efficiency."
+  },
+  "Imp_Tiny_Claws": {
+    "tags": [
+      "Arms",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Rake",
+      "Ambush"
+    ],
+    "description": "Tiny yet razor-sharp claws, tipped with a sickly green venom, curl menacingly from delicate but powerful paws. Their touch is both swift and lethal, capable of injecting a debilitating poison and raking through flesh with uncanny agility."
+  },
+  "Djinn_Wind_Arms": {
+    "tags": [
+      "Arms",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Charm",
+      "Knockback"
+    ],
+    "description": "Emerging from the swirling vortex of elemental chaos, the Djinn_Wind_Arms resemble sinuous tendrils of pure wind, shimmering with iridescent hues that shift between deep blues and fiery oranges. Their touch is both captivating and disorienting, granting the wielder the ability to charm and displace foes with a mere gesture, while their extended reach allows for devastating, gale-force strikes that knock opponents off balance."
+  },
+  "Balor_Whip_Sword_Arms": {
+    "tags": [
+      "Arms",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slash",
+      "Tail Whip",
+      "Immolate",
+      "Knockback"
+    ],
+    "description": "Emerging from the shadows, the Balor_Whip_Sword_Arms are sinuous appendages that seamlessly blend the ferocity of a demonkin\u2019s tail with the lethal precision of a blade, their scaly, fiery skin pulsing with malevolent energy as they strike with terrifying speed and power, capable of both slashing and lashing out with devastating knockback and immolation effects."
+  },
+  "Archdevil_Ancient_Arms": {
+    "tags": [
+      "Arms",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare",
+      "Charm",
+      "Fire Breath"
+    ],
+    "description": "The Archdevil's ancient arms are gnarled and twisted, their scales black as pitch with veins of molten red fire pulsating beneath. They feel heavy and cold to the touch, and their presence commands an eerie sense of reverence and fear, their fingers capable of ensnaring foes in an unbreakable grip."
+  }
+}

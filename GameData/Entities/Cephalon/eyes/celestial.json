@@ -1,0 +1,297 @@
+{
+  "Solar_Radiant_Eyes": {
+    "tags": [
+      "Eye",
+      "Solar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Radiant Burst"
+    ],
+    "description": "Solar_Radiant_Eyes glimmer with an otherworldly brilliance, their irises pulsating with the fierce glow of a sun's heart, granting the bearer an uncanny ability to see through darkness and unleash searing beams of radiant energy."
+  },
+  "Lunar_Moon_Eyes": {
+    "tags": [
+      "Eye",
+      "Lunar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Keen Sight"
+    ],
+    "description": "Lunar_Moon_Eyes are mesmerizing orbs of silvery light, their surface reflecting the ever-changing phases of the moon, and their depths hold an otherworldly allure that can captivate even the most guarded hearts, while their enhanced clarity pierces through the veil of darkness, revealing secrets hidden from ordinary sight."
+  },
+  "Guardian_Piercing_Eyes": {
+    "tags": [
+      "Eye",
+      "Guardian",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Intimidate"
+    ],
+    "description": "Embedded deep within the sockets are twin orbs of celestial silver, each pulsating with an otherworldly glow that seems to pierce the very soul of any who meet its gaze. The eyes radiate an aura of ancient wisdom and unyielding authority, causing a subtle but noticeable drop in the morale of those who dare to challenge the guardian's domain."
+  },
+  "Seraph_Multi_Eyes": {
+    "tags": [
+      "Eye",
+      "Seraph",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "The Seraph_Multi_Eyes is a mesmerizing array of luminous orbs, each eye glowing with an ethereal light that shifts between celestial colors, granting the bearer an uncanny ability to see through darkness and charm their enemies while deflecting magical attacks."
+  },
+  "Cherub_Innocent_Eyes": {
+    "tags": [
+      "Eye",
+      "Cherub",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Cherub Innocent Eyes are large, luminescent orbs that seem to pulse with an ethereal glow, their soft, pastel colors shifting like clouds on a gentle breeze. When these eyes focus on a target, the air around them seems to grow still, and an overwhelming sense of tranquility and innocence washes over the observer, making it nearly impossible to resist their gaze."
+  },
+  "Storm_Electro_Eyes": {
+    "tags": [
+      "Eye",
+      "Storm",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Shock Touch"
+    ],
+    "description": "Embedded within the sockets of the Storm_Electro_Eyes are iridescent orbs that pulse with a deep, thunderous blue light, their surface crackling with miniature lightning storms. The eyes grant the user an eerie, almost omniscient perception of their surroundings, allowing them to see through darkness and mist, while a simple touch from their fingers sends jolts of electricity through the air."
+  },
+  "Deva_All_Seeing_Eyes": {
+    "tags": [
+      "Eye",
+      "Deva",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "The Deva All-Seeing Eyes are a pair of obsidian orbs that radiate an otherworldly glow, pulsating with a soft, ethereal light that seems to pierce through the veil of darkness and reveal hidden truths. They are cold to the touch, yet the chill never penetrates beyond the surface, and when activated, the eyes grant the bearer an omniscient awareness, allowing them to perceive their surroundings in perfect clarity, even in the deepest of shadows."
+  },
+  "Planetar_War_Eyes": {
+    "tags": [
+      "Eye",
+      "Planetar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Intimidate"
+    ],
+    "description": "The Planetar War Eyes are a pair of massive, obsidian orbs that pulsate with an eerie, otherworldly light, each eye encircled by a ring of shimmering stars. Their gaze is both penetrating and terrifying, capable of piercing through the darkest of nights and freezing the blood of even the most seasoned warriors with a single glance."
+  },
+  "Knight_Visor_Eyes": {
+    "tags": [
+      "Eye",
+      "Knight",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Knight_Visor_Eyes are a pair of shimmering, silver-hued visors that slide over the wearer's eyes, granting them an ethereal glow and a piercing gaze that can see through the darkest night or the thickest fog. With these eyes, one feels an innate connection to the celestial spheres, enhancing both their perception and defensive capabilities in battle."
+  },
+  "Nature_Archon_Eyes": {
+    "tags": [
+      "Eye",
+      "Archon",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Scent"
+    ],
+    "description": "The Nature_Archon_Eyes are luminescent orbs that pulse with a serene green glow, their surface etched with intricate patterns of swirling leaves and vines. When gazing through these eyes, one can perceive every detail of the natural world with unparalleled clarity, and even catch the faint scent of distant flora and fauna."
+  },
+  "Light_Pure_Eyes": {
+    "tags": [
+      "Eye",
+      "Light",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Radiant Burst"
+    ],
+    "description": "The Light_Pure_Eyes are ethereal orbs that shimmer with an otherworldly glow, their surface as smooth as starlit water, granting the bearer an uncanny ability to see in complete darkness and unleash blinding bursts of radiant energy."
+  },
+  "Ancient_God_Divine_Eyes": {
+    "tags": [
+      "Eye",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Charm",
+      "Magic Resistance",
+      "Directional Tracking"
+    ],
+    "description": "The Ancient_God_Divine_Eyes are obsidian orbs that seem to pulse with a faint, otherworldly light, their surface etched with intricate celestial constellations. When worn, they grant the wearer an uncanny ability to see through darkness and illusion, their gaze possessing an almost hypnotic allure that can captivate even the most wary of beings."
+  }
+}

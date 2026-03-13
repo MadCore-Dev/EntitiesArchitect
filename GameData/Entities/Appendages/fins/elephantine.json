@@ -1,0 +1,287 @@
+{
+  "Aquatic_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Paddle",
+      "Elephantine",
+      "Amphibious"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Aquatic_Paddle_Fins are colossal, elephantine paddles that jut from the limbs, their leathery texture and powerful musculature allowing for effortless gliding through even the murkiest waters with unparalleled speed and strength."
+  },
+  "Broad_Deep_Dive_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Swim"
+    ],
+    "description": "Elephantine in size and deeply veined with a metallic blue hue, the Broad_Deep_Dive_Fins ripple with an inner luminescence when submerged, granting the wielder unparalleled depth and speed in aquatic environments."
+  },
+  "River_Wading_Fins": {
+    "tags": [
+      "Fins",
+      "River",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "The River_Wading_Fins are expansive and leathery, resembling the flattened feet of an elephant but adapted for aquatic environments. They are perfectly suited for navigating swift currents and muddy riverbeds, providing both stability and propulsion with each deliberate stroke."
+  },
+  "Cold_Arctic_Fins": {
+    "tags": [
+      "Fins",
+      "Arctic",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Cold_Arctic_Fins are thick, pearly-white flukes that radiate an otherworldly chill, their surface rough with a fine layer of ice that never fully melts, granting the bearer an uncanny resilience to the harshest of winters and a slight boost in movement across snowy terrains."
+  },
+  "Hydrodynamic_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Elephantine hydrodynamic fins, broad and sleek, ripple with an otherworldly grace, their leathery texture and intricate webbing allowing for swift, effortless glides through the deepest waters, enhancing both speed and agility."
+  },
+  "Steering_Broad_Fins": {
+    "tags": [
+      "Fins",
+      "Steering",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Massive and leathery, the Steering_Broad_Fins resemble the flippers of an ancient sea beast, their elephantine size and strength allowing for unparalleled control and maneuverability through the water, while their very presence grants a subtle boost to agility and speed."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Massive and leathery, these elephantine fins are imbued with a natural resistance to powerful currents, feeling both sturdy and resilient to the touch, their thick, muscular texture hinting at their ability to withstand even the most tumultuous waters."
+  },
+  "Electrosensory_Fin_Array": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electrosensory_Fin_Array consists of large, leathery fins adorned with intricate patterns of bioluminescent dots, each pulsating with an eerie glow that seems to dance in harmony with the creature's thoughts. These fins, reminiscent of an elephant's ear in size and shape, emit a faint hum as they detect minute electrical fields, granting the bearer a heightened sense of awareness and the ability to see through darkness with uncanny precision."
+  },
+  "Bog_Paddle_Fins": {
+    "tags": [
+      "Fins",
+      "Bog",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Bog_Paddle_Fins are massive, leathery appendages resembling the flippers of ancient aquatic beasts, yet they are adapted to the mire and muck of the swamp, their broad surface area and tough, ridged texture providing unparalleled stability and propulsion through the most treacherous bogs."
+  },
+  "Lateral_Balance_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "The Lateral_Balance_Fins are massive, leathery appendages that extend horizontally from either side of the creature's midsection, resembling the flaps of an elephant's ear but with a sleek, aquatic design. These fins pulse subtly with an inner luminescence, granting the wielder unparalleled stability and maneuverability in the most turbulent environments, enhancing their agility and control."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Compact Swimmer Fins, sleek and robust, resemble miniature versions of an elephant's ears adapted for aquatic life, perfectly blending grace and power in their compact design, allowing for swift and silent movement through the water."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Elephantine"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's thick, scaly limbs are a pair of vestigial fin stubs, pale and translucent, resembling the remnants of a long-forgotten aquatic heritage. These atrophied appendages barely twitch, yet they hint at a latent agility and grace, granting the creature a subtle speed bonus in both water and on land."
+  }
+}

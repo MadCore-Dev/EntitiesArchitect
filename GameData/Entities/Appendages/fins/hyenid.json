@@ -1,0 +1,266 @@
+{
+  "Webbed_River_Fins": {
+    "tags": [
+      "Fins",
+      "Webbed",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the depths of a murky river, the Webbed_River_Fins are thick, sinuous appendages covered in sleek, dark scales that glisten with moisture. Each fin is webbed with transparent, resilient membranes that ripple and pulse with the creature's movements, granting unparalleled agility and speed in water."
+  },
+  "Broad_Wading_Fins": {
+    "tags": [
+      "Fins",
+      "Wading",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "Broad_Wading_Fins are thick, webbed appendages with rough, sandpaper-like skin that help the creature navigate through shallow, rocky waters with ease, providing both stability and propulsion."
+  },
+  "Desert_Mud_Fins": {
+    "tags": [
+      "Fins",
+      "Desert",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Desert_Mud_Fins are thick, leathery appendages that resemble the webbed feet of a desert hyena, covered in a layer of cracked, dried mud that seems to shift and settle with the creature's movements, granting unparalleled endurance and resilience in arid landscapes."
+  },
+  "Hydrodynamic_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Hydrodynamic_Fins are sleek and sinuous, glistening with an iridescent sheen that shifts like oil on water under the flicker of torchlight. Their texture is smooth yet slightly rough to the touch, providing an unparalleled grip on wet surfaces, while their fluid motion grants the bearer a graceful, almost effortless movement through water and on land."
+  },
+  "Steering_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "The Steering_Lateral_Fins are a pair of sleek, muscular appendages sprouting from the sides of a hyenid creature, resembling the lateral fins of a fish but with jagged edges and a dark, iridescent sheen that pulses with an eerie light. Their movement is fluid and precise, allowing for unparalleled agility and control in the water, granting the hyenid the ability to execute sharp turns and rapid changes in direction with deadly precision."
+  },
+  "Electrosensory_Fin_Array": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the creature's sleek, darkly scaled hide, the electrosensory fin array is a cluster of delicate, translucent fins that pulse with a barely visible glow, constantly flickering in response to the subtle electrical fields that permeate the water, granting the user unparalleled awareness of their surroundings."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Smooth and leathery, the Current_Resistant_Fins glisten with an unnatural sheen, their edges serrated to cut through the strongest of underwater currents, granting the wielder unparalleled stability and strength in turbulent waters."
+  },
+  "Cold_Water_Fins": {
+    "tags": [
+      "Fins",
+      "Cold",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Delicate yet resilient, the Cold_Water_Fins glisten with an icy sheen, their translucent membranes shifting like shadowed waves beneath the moonlight, granting both a chilling resistance and a swiftness that cuts through the water like a silent specter."
+  },
+  "Cave_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Cave",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Glossy black fins, perfectly adapted to navigate the tight, treacherous passages of underground rivers, pulse with an eerie bioluminescence that reveals hidden dangers and secrets in the dark waters."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's limbs are sleek, compact fins, their surface smooth and rubbery to the touch, designed for swift, silent movement through water or across wet surfaces, granting the wielder an unexpected burst of speed."
+  },
+  "Pack_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Pack",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the depths of a murky lake, the Pack_Swimmer_Fins are sleek and jagged, reminiscent of a hyenid's twisted bone structure, with each fin pulsating a faint bioluminescence that guides fellow pack members through the darkest underwater tunnels. Their texture is slick and cold, enhancing the user's agility and speed in water, making them a coveted asset for any aquatic predator."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the muscular limbs of the Hyenid creature, these small, atrophied fin stubs appear almost like a relic from an ancient, aquatic past, their sleek, pale scales barely noticeable against the rough hide, granting the creature a subtle agility and a sense of hidden potential in movement."
+  }
+}

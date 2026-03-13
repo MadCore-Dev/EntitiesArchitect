@@ -1,0 +1,282 @@
+{
+  "Multi_Eye_Sensory_Ears": {
+    "tags": [
+      "Ear",
+      "Multi_Eye",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Multi_Eye_Sensory_Ears are a grotesque amalgamation of multiple eyes and oversized, leathery ears, each eye pulsating with an eerie glow and the ears twitching involuntarily, picking up the slightest vibrations and whispers of the unseen, granting the bearer an uncanny awareness of their surroundings."
+  },
+  "Chitin_Closed_Ear_Plates": {
+    "tags": [
+      "Ear",
+      "Chitin",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Chitin_Closed_Ear_Plates are obsidian-black chitin plates that fuse seamlessly over the ears, their jagged edges cutting off the world while enhancing the wearer\u2019s ability to sense subtle vibrations beneath the earth\u2019s surface. The plates feel cold and solid to the touch, providing an eerie sense of security and auditory isolation."
+  },
+  "Acid_Dissolved_Pits": {
+    "tags": [
+      "Ear",
+      "Acid",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Scent"
+    ],
+    "description": "The Acid-Dissolved Pits are gaping orifices that seethe with a corrosive green fluid, constantly bubbling and hissing as they emit a faint, sickly scent. The pits are lined with irregular, sharp edges that seem to shift and change, granting the user a heightened sense of tremors and an acute sense of smell, alerting them to nearby threats and hidden dangers."
+  },
+  "Mind_Flayer_Sensory_Flaps": {
+    "tags": [
+      "Ear",
+      "Psion",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Directional Tracking"
+    ],
+    "description": "The Mind_Flayer_Sensory_Flaps are translucent, almost ethereal appendages that flutter at the slightest sound, extending and retracting like delicate wings of the damned. They emit a constant, low-frequency hum that resonates with the chaotic whispers of the aberrant realm, granting the wielder an eerie awareness of their surroundings and the ability to siphon fear and confusion from those around them."
+  },
+  "Beholder_Stalk_Ears": {
+    "tags": [
+      "Ear",
+      "Beholder",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Petrify"
+    ],
+    "description": "The Beholder Stalk Ears are a pair of writhing, tentacle-like appendages, each tipped with a fleshy, eyeless orb that quivers with an unsettling vitality. These stalks can extend and retract at will, granting the bearer an uncanny awareness of their surroundings and the ability to turn the gaze of anyone who meets their cold, unseeing stare into a lifeless statue."
+  },
+  "Eldritch_Null_Ears": {
+    "tags": [
+      "Ear",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Fear"
+    ],
+    "description": "The Eldritch Null Ears are malformed, writhing appendages that twitch and pulse with an otherworldly energy, their surface slick and cold to the touch. The aura emanating from them can induce a creeping sense of dread and confusion in those nearby, while also enhancing the wearer's ability to detect subtle sounds and movements in the dark."
+  },
+  "Deep_Sea_Pressure_Ears": {
+    "tags": [
+      "Ear",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Deep_Sea_Pressure_Ears are grotesque, membrane-covered appendages that pulse with the pressure of the ocean's abyss, granting the bearer an uncanny ability to sense their surroundings without relying on sight or sound, and to detect the subtlest tremors beneath the earth's surface."
+  },
+  "Parasite_Infested_Ears": {
+    "tags": [
+      "Ear",
+      "Parasite",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Parasite_Infested_Ears appear as twisted, gnarled appendages, their flesh pulsating with an unsettling, bioluminescent glow. Tiny, writhing creatures can be seen beneath the translucent skin, moving in response to nearby vibrations, granting an eerie yet invaluable sense of their surroundings."
+  },
+  "Necrotic_Withered_Ears": {
+    "tags": [
+      "Ear",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Necrotic Withered Ears are shriveled and blackened, their once-sensitive cartilage now brittle and twisted, resembling desiccated leaves. They emit a faint, sickly sweet odor that causes an immediate sense of dread and unease in those nearby, granting the bearer an eerie advantage in perceiving hidden threats and resisting diseases."
+  },
+  "Chaos_Mutant_Ears": {
+    "tags": [
+      "Ear",
+      "Chaos",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blood Frenzy"
+    ],
+    "description": "Tattered and twisted, the Chaos_Mutant_Ears pulse with an unsettling vitality, their jagged edges and unnatural hues vibrating with an otherworldly energy that grants the wearer heightened awareness and a primal, blood-driven rage."
+  },
+  "Shoggoth_Void_Ears": {
+    "tags": [
+      "Ear",
+      "Shoggoth",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Shoggoth_Void_Ears are obsidian-black appendages that seem to pulse with a dark, otherworldly energy, constantly shifting and writhing as if they are alive on their own. They grant an unsettling yet invaluable ability to sense the faintest tremors in the earth, alerting the bearer to the presence of hidden threats or the movements of distant creatures."
+  },
+  "Bone_Hollow_Ears": {
+    "tags": [
+      "Ear",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "Hanging from elongated, brittle bone stalks, these hollow, eyeless sockets pulse with an unsettling, faint glow, their presence granting an eerie sense of dread to those nearby, while subtly vibrating to detect the approach of hidden threats and the weakening effects of disease."
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "Large_Complex_Lateral_Eyes": {
+    "tags": [
+      "Eye",
+      "Complex",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Large Complex Lateral Eyes, with their bulging, multifaceted lenses and iridescent, gelatinous membranes, provide a panoramic view of the surroundings, allowing for an unparalleled awareness of movement and color, even in the dimmest light."
+  },
+  "W_Shaped_Pupil_Eyes": {
+    "tags": [
+      "Eye",
+      "W_Pupil",
+      "Cephalopod",
+      "Cuttlefish"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "Emerging from the depths of the ocean, the W-Shaped Pupil Eyes pulsate with an eerie, bioluminescent glow, their surface shifting and morphing like living ink as they track every movement with unsettling precision, granting the bearer heightened perception and the ability to blend into shadows for a perfect ambush."
+  },
+  "Pinhole_Camera_Eyes": {
+    "tags": [
+      "Eye",
+      "Pinhole",
+      "Cephalopod",
+      "Nautiloid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Pinhole Camera Eyes are small, intricate orbs that resemble the eyes of ancient nautiloids, with a single tiny aperture that captures every detail in perfect clarity, no matter the distance or darkness, granting the user unparalleled perception and vision range."
+  },
+  "Bioluminescent_Lure_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Eyes are iridescent orbs that pulse with hypnotic patterns of light, their surface shifting like liquid glass. They emit a soft, mesmerizing glow that can draw in prey or confuse enemies, their paralyzing effect stemming from an irresistible urge to stare into their ever-changing depths."
+  },
+  "Photoreceptive_Wide_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Photoreceptive_Wide_Eyes are colossal, bioluminescent orbs that pulsate with an eerie glow, their vast pupils capable of dilating to encompass the entirety of the eye, allowing for unparalleled vision in even the darkest of environments. Their surface is slick and cool to the touch, adapting seamlessly to the wearer's facial structure while granting them heightened perception and agility."
+  },
+  "Hyperacute_Predator_Eyes": {
+    "tags": [
+      "Eye",
+      "Hyperacute",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Pounce"
+    ],
+    "description": "Emerging from the abyssal depths, the Hyperacute Predator Eyes are a haunting pair of bioluminescent orbs, each eye ringed with delicate, almost transparent tentacles that pulse in rhythm with the creature's thoughts. Their surface is a mosaic of complex, ever-shifting patterns that seem to read the intentions of their prey, granting a chilling awareness and near-supernatural ability to strike from the shadows."
+  },
+  "Deep_Sea_Light_Sensitive_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Sea",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the abyssal darkness, Deep_Sea_Light_Sensitive_Eyes are bioluminescent orbs that glow with a faint, pulsating light, perfectly adapted to see in the darkest depths of the ocean, enhancing vision and perception to pierce through the veil of darkness."
+  },
+  "Electroreceptive_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded in the creature's leathery skin, the electroreceptive pits are small, gelatinous protrusions that pulse with a faint blue glow, allowing the creature to sense electrical fields and subtle vibrations in the environment, enhancing its awareness and reflexes."
+  },
+  "Polarized_Light_Receptors": {
+    "tags": [
+      "Eye",
+      "Polarized",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Embedded within the soft, gelatinous flesh of a colossal cephalopod, the Polarized_Light_Receptors resemble intricate, crystalline filaments that shimmer with an otherworldly glow. These filaments are arranged in a complex, overlapping matrix that filters and polarizes light, granting the user an uncanny ability to discern even the faintest details in environments where normal vision would fail."
+  },
+  "Telescopic_Focus_Eyes": {
+    "tags": [
+      "Eye",
+      "Telescopic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Telescopic_Focus_Eyes are a pair of iridescent orbs, resembling those of a deep-sea cephalopod, with an eerie, fluidic quality that allows them to extend and retract, granting the user an unparalleled range of vision and the ability to spot minute details from vast distances."
+  },
+  "Colour_Shifting_Blind_Eyes": {
+    "tags": [
+      "Eye",
+      "Blind",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Colour_Shifting_Blind_Eyes appear as a pair of pallid, featureless orbs that pulse with a rhythmic, hypnotic glow, shifting through hues that seem to mimic the surrounding environment. Despite their blindness, these eyes grant an uncanny sense of the ground's vibrations, allowing their bearer to detect approaching threats with eerie precision, though they reduce the user's overall visual range and enhance their stealth capabilities."
+  },
+  "Motion_Sensitive_Facets": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Evasion"
+    ],
+    "description": "Motion_Sensitive_Facets are iridescent, tentacle-like protrusions that ripple and twist with the slightest movement, their surface speckled with microscopic photoreceptors that flicker and glow like starlight, enhancing the wearer's ability to detect and react to motion, making them a ghostly presence in the shadows."
+  }
+}

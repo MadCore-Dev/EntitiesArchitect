@@ -1,0 +1,320 @@
+{
+  "Fire_Demon_Lash_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Ensnare",
+      "Tail Whip"
+    ],
+    "description": "Burning with an eternal flame, the Fire_Demon_Lash_Tentacles writhe like serpents of living fire, their touch searing and their grip unyielding, capable of both ensnaring foes and delivering punishing lashes."
+  },
+  "Ice_Devil_Spear_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Ensnare",
+      "Sting"
+    ],
+    "description": "Emerging from the frosty depths, the Ice_Devil_Spear_Tentacles are a writhing mass of translucent blue tentacles, each tipped with jagged ice shards that sparkle menacingly in the dim light. Their touch is numbingly cold, capable of ensnaring and slowing foes while delivering stinging, freezing pain."
+  },
+  "Succubus_Control_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Sinuous and darkly elegant, the Succubus_Control_Tentacles are covered in a slick, almost liquid-like sheen that pulses with an otherworldly allure. Each tentacle is tipped with delicate, almost caress-like barbs that can both ensnare and paralyze, while their very presence in close proximity grants an irresistible charm that makes it nearly impossible to look away or break free."
+  },
+  "Shadow_Void_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Ensnare"
+    ],
+    "description": "Twisting like nightmarish serpents, the Shadow_Void_Tentacles are slick and cold to the touch, their surface shifting like liquid darkness. They can extend unexpectedly to ensnare prey, drawing them closer to the void while granting their wielder the shadows' silent approach."
+  },
+  "Acid_Dissolve_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "Emerging from the shadows, the Acid_Dissolve_Tentacles undulate with a sickly green sheen, their mucus-covered tendrils dripping with a corrosive acid that can dissolve steel on contact. Each tentacle is tipped with sharp, chitinous barbs that grip and ensnare prey, while the entire mass thrums with a malevolent energy, granting its bearer resistance to acid and an extended reach in the chaos of battle."
+  },
+  "Plague_Infest_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadowy depths, the Plague_Infest_Tentacles are a cluster of writhing, vine-like appendages coated in a sickly green mucus, each tentacle ending in a grotesque, pus-filled bulb that pulsates with malevolent energy, capable of ensnaring and grappling foes while spreading a debilitating plague."
+  },
+  "Bone_Devil_Impaling_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Ensnare",
+      "Disease Carrier"
+    ],
+    "description": "Emerging from the shadows, these bone tentacles shimmer with a sickly pallor, their barbed ends dripping with a viscous, putrid liquid that sickens all who come into contact with it. Each tentacle is tipped with jagged spikes, designed to impale and ensnare prey, drawing them closer to inevitable doom."
+  },
+  "Marilith_Grasping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Multi-Strike"
+    ],
+    "description": "Emerging from the shadowy abyss, the Marilith's grasping tentacles are a writhing mass of sinew and dark magic, each appendage capable of ensnaring prey with an otherworldly grip, leaving victims both entangled and bewildered by the sheer malevolence of their touch."
+  },
+  "Djinn_Wind_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback",
+      "Charm"
+    ],
+    "description": "Emerging from a swirling vortex of chaotic wind, the Djinn_Wind_Tentacles are ghostly, translucent appendages that ripple and twist like smoke, leaving a trail of icy drafts and disorienting whispers. Their touch can both charm and repel, ensnaring foes in a web of illusion and gusts powerful enough to send them stumbling backwards."
+  },
+  "Balor_Crushing_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Immolate",
+      "Grapple"
+    ],
+    "description": "The Balor Crushing Tentacles are a writhing mass of dark, sinuous appendages that pulse with malevolent energy, each tentacle tipped with wicked barbs that leave trails of flame in their wake. Their grip is unyielding, capable of ensnaring and constricting foes with the strength of a hundred men, while their touch ignites the air with searing heat."
+  },
+  "Archdevil_Arcane_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "Braided from writhing shadows and pulsating with arcane energies, the Archdevil's arcane tentacles are long, serpentine appendages that crackle with dark magic, their touch both mesmerizing and suffocating, granting their wielder both potent magical resistance and the ability to ensnare and charm their foes."
+  },
+  "Imp_Tiny_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Ensnare"
+    ],
+    "description": "Emerging from the shadowy corners of the demonkin realm, these tiny tentacles pulse with a sickly green glow, their slimy texture and quick, darting movements hinting at their sinister purpose of both ensnaring and poisoning their prey."
+  }
+}

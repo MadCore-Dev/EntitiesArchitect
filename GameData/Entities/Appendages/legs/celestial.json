@@ -1,0 +1,337 @@
+{
+  "Solar_Stride_Legs": {
+    "tags": [
+      "Legs",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Radiant Burst"
+    ],
+    "description": "The Solar_Stride_Legs shimmer with an otherworldly glow, their surface a mosaic of radiant solar flares that pulse with a steady rhythm. With each step, the ground trembles beneath, and a burst of blinding light erupts, scorching foes and clearing paths."
+  },
+  "Lunar_Dance_Legs": {
+    "tags": [
+      "Legs",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint"
+    ],
+    "description": "The Lunar_Dance_Legs shimmer with a silvery glow, their surfaces rippling like moonlit water as they move. These celestial legs allow for near-silent hovering, granting unparalleled grace and speed, with the ground seeming to melt away beneath them as they sprint across any terrain."
+  },
+  "Guardian_Fortified_Legs": {
+    "tags": [
+      "Legs",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Stability",
+      "Stomp"
+    ],
+    "description": "The Guardian_Fortified_Legs are massive, celestial limbs encased in iridescent scales that shimmer with the light of a thousand stars, providing a natural armor that deflects even the most powerful blows. Each step resonates with an earth-shaking power, granting the bearer unparalleled stability and the ability to block incoming attacks or stomp the ground to send foes reeling."
+  },
+  "Storm_Sprint_Legs": {
+    "tags": [
+      "Legs",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Dart"
+    ],
+    "description": "The Storm_Sprint_Legs appear as sleek, iridescent limbs, shimmering with hues of stormy gray and lightning blue, their surfaces crackling with tiny sparks. Each step generates a shockwave that propels the wearer forward with incredible speed, allowing them to dart and sprint with unnatural grace and agility."
+  },
+  "Cherub_Hovering_Legs": {
+    "tags": [
+      "Legs",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the celestial realm, the Cherub_Hovering_Legs appear as delicate, iridescent wings sprouting from the calves, pulsating with a soft, ethereal glow. Each step feels like a silent glide, allowing the bearer to sprint across any terrain without a hint of sound or disturbance, their movements fluid and graceful, as if they are floating just above the ground."
+  },
+  "Deva_Messenger_Legs": {
+    "tags": [
+      "Legs",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Sure-Footed"
+    ],
+    "description": "The Deva_Messenger_Legs are ethereal limbs, shimmering with a faint, otherworldly glow that seems to shift between the colors of dawn and dusk. They are delicately muscled yet powerful, allowing for swift, silent movements across any terrain, with each step feeling as if it is blessed by the celestial realm itself."
+  },
+  "Seraph_Hover_Legs": {
+    "tags": [
+      "Legs",
+      "Seraph",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Charm"
+    ],
+    "description": "Pale, iridescent wings sprout from the calves of the Seraph_Hover_Legs, their delicate feathers shimmering with an otherworldly glow as they pulse with a soft, hypnotic rhythm. When activated, these ethereal appendages lift their bearer above the ground, granting a sense of weightlessness and allowing for graceful, silent movement that captivates and mesmerizes all who witness it."
+  },
+  "Planetar_Crushing_Legs": {
+    "tags": [
+      "Legs",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample",
+      "Earthquake"
+    ],
+    "description": "The Planetar Crushing Legs are colossal appendages, each muscle corded with the gravitational pull of a thousand worlds, their skin a churning abyss of celestial darkness that crackles with the power to manipulate the very fabric of the earth."
+  },
+  "Light_Ethereal_Legs": {
+    "tags": [
+      "Legs",
+      "Light",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Invisibility"
+    ],
+    "description": "Pale, almost translucent legs shimmer with an otherworldly glow, their ethereal form seeming to defy the laws of gravity as they hover above the ground, leaving behind a faint trail of starlight that grants brief moments of invisibility to the bearer."
+  },
+  "Nature_Archon_Root_Legs": {
+    "tags": [
+      "Legs",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Stability",
+      "Sure-Footed"
+    ],
+    "description": "The Nature_Archon_Root_Legs are thick and gnarled, pulsing with a deep green energy that seems to resonate with the very essence of the earth. Root tendrils curl around the calves, intertwining with the wearer\u2019s flesh, granting an unwavering sense of stability and a firm grip on even the most treacherous terrain."
+  },
+  "Knight_Armored_Legs": {
+    "tags": [
+      "Legs",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Stomp",
+      "Stability"
+    ],
+    "description": "Enveloped in gleaming silver plates adorned with celestial motifs, the Knight_Armored_Legs seem to pulse with an otherworldly light, granting the bearer an imposing presence and unparalleled stability on the battlefield. With each resounding stomp, the earth trembles, and foes are pushed back, while the natural armor deflects incoming attacks with ease."
+  },
+  "Ancient_God_Divine_Legs": {
+    "tags": [
+      "Legs",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Trample",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient_God_Divine_Legs are colossal, ensconced in a layer of ancient runes that glow with a faint, pulsating light. With each step, the ground trembles beneath their immense weight, and an aura of divine magic emanates, warding off any who dare to approach with hostile intent."
+  }
+}

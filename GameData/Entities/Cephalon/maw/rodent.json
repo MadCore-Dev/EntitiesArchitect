@@ -1,0 +1,271 @@
+{
+  "Chisel_Incisor_Maw": {
+    "tags": [
+      "Maw",
+      "Incisors",
+      "Rodent",
+      "Gnawer"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw",
+      "Chew"
+    ],
+    "description": "The Chisel_Incisor_Maw is a grotesque, gnarled mouth filled with razor-sharp incisors that gleam like daggers in the dim light, their edges honed to a deadly precision. The maw feels unsettlingly warm and slightly damp to the touch, with a powerful set of jaw muscles that hint at its incredible biting strength, granting the user the ability to gnaw through even the toughest materials with ease."
+  },
+  "Crushing_Hystricomorphic_Maw": {
+    "tags": [
+      "Maw",
+      "Crushing",
+      "Rodent",
+      "Heavy_Jaw"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Jaw Snap"
+    ],
+    "description": "The Crushing_Hystricomorphic_Maw is a grotesque amalgamation of razor-sharp teeth and powerful jaw muscles, resembling a monstrous rodent's mouth but scaled up to crush bones with ease. Its surface is slick with saliva and blood, and the sheer force behind each snap and crunch is palpable, leaving no doubt about its devastating potential."
+  },
+  "Venomous_Salivary_Maw": {
+    "tags": [
+      "Maw",
+      "Venom",
+      "Rodent",
+      "Toxic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Venom Spit"
+    ],
+    "description": "The Venomous Salivary Maw is a grotesque, churning cavity lined with razor-sharp fangs and pulsating with vibrant hues of emerald and sapphire, exuding a thick, viscous venom that hisses and crackles with toxic energy upon contact with air."
+  },
+  "Wide_Filter_Feeding_Maw": {
+    "tags": [
+      "Maw",
+      "Filter",
+      "Rodent",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Wide_Filter_Feeding_Maw is a grotesque, gaping mouth filled with countless tiny, sharp teeth that interlock to form a sieve-like structure, allowing the creature to filter out small aquatic organisms while expelling water. Its rubbery lips extend far beyond the jawline, feeling cold and slimy to the touch, perfectly adapted for the underwater environment."
+  },
+  "Serrated_Nibble_Maw": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Nibble",
+      "Serrated Bite"
+    ],
+    "description": "The Serrated_Nibble_Maw is a gnarled, chattering mouthpiece bristling with sharp, tiny teeth that clatter together when at rest, evoking the unsettling image of a rodent's relentless gnawing. Its cold, damp flesh presses against the skin, subtly enhancing agility and reflexes, granting the wielder an eerie, rodent-like quickness and a biting, slicing attack that leaves foes reeling."
+  },
+  "Parasitic_Hooked_Maw": {
+    "tags": [
+      "Maw",
+      "Hooked",
+      "Rodent",
+      "Parasitic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Leech Latch",
+      "Drain"
+    ],
+    "description": "The Parasitic_Hooked_Maw is a grotesque, writhing mass of razor-sharp hooks and fleshy tendrils that constantly pulse with an eerie, green light. When attached to a host, it digs its hooks deep, allowing it to latch and drain, siphoning away the life force of its victim while bolstering the strength and agility of its host."
+  },
+  "Disease_Laden_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Diseased",
+      "Rodent",
+      "Plague"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Gnaw"
+    ],
+    "description": "The Disease_Laden_Bite_Maw is a grotesque fusion of razor-sharp, diseased fangs and a relentless, gnawing jaw, capable of delivering a venomous bite that spreads a plague upon its victims, while its relentless gnawing power can strip away even the toughest of materials."
+  },
+  "Elastic_Cheek_Pouch_Maw": {
+    "tags": [
+      "Maw",
+      "Cheek_Pouch",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Elastic_Cheek_Pouch_Maw is a grotesque appendage that resembles the bloated, pulsating cheek pouches of a giant rodent, capable of stretching to incredible capacities to store and process scavenged food, bulging with the promise of survival in the harshest environments."
+  },
+  "Elongated_Gnawing_Beak_Maw": {
+    "tags": [
+      "Maw",
+      "Beak",
+      "Rodent",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw",
+      "Pierce"
+    ],
+    "description": "The Elongated Gnawing Beak Maw is a grotesque amalgamation of sharpened bone and gnarled flesh, its jagged edges capable of rending through steel with ease. Covered in a layer of coarse, matted hair, it pulsates with an unsettling vitality, granting its bearer an extended reach and the relentless ferocity of a rabid rodent, perfect for tearing through armor and flesh with devastating precision."
+  },
+  "Retractable_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Fangs",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Venomous Bite"
+    ],
+    "description": "Embedded within the jawline, the retractable fang maw resembles a nightmare from a forgotten age, its sharp, serrated teeth capable of extending and retracting with alarming speed. The maw's inner lining is coated in a slimy, iridescent blue venom that drips menacingly, ready to inject a paralyzing toxin with every bite."
+  },
+  "Suction_Grip_Maw": {
+    "tags": [
+      "Maw",
+      "Suction",
+      "Rodent",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Grapple"
+    ],
+    "description": "The Suction_Grip_Maw is a grotesque, chitinous mouthpiece bristling with sharp, interlocking teeth and lined with fleshy, muscular pouches that contract with alarming force, allowing the wielder to grapple and restrain foes with an iron grip, drawing them into a nightmare abyss of teeth and suction."
+  },
+  "Chitinous_Plate_Grinder_Maw": {
+    "tags": [
+      "Maw",
+      "Grinding",
+      "Rodent",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Gnaw",
+      "Chew"
+    ],
+    "description": "The Chitinous_Plate_Grinder_Maw is a grotesque amalgamation of razor-sharp, interlocking plates forming a jawline that resembles a twisted mockery of a rodent's mouth, each plate capable of grinding through the toughest materials with ease. Its surface is slick with a layer of acidic saliva and the remnants of its latest meal, and its constant, eerie clicking as it shifts and grinds is both unnerving and mesmerizing."
+  }
+}

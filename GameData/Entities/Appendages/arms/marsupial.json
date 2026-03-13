@@ -1,0 +1,312 @@
+{
+  "Vestigial_Bipedal_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Vestigial",
+      "Marsupial",
+      "Macropod"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the thick fur along the creature's torso, these vestigial forelimbs are atrophied and nearly skeletal, resembling the remnants of a distant evolutionary path. They twitch occasionally, more a quirk of nerve than muscle, and bear the faint imprint of claws that hint at their potential for agility despite their lack of strength."
+  },
+  "Fossorial_Digging_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Fossorial",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Fossorial Digging Forelimbs are robust and muscular, tipped with powerful claws that can easily break through soil and rock. Their padded palms and elongated digits are designed for efficient digging, allowing the user to burrow through the earth with ease, though the added bulk slightly hinders nimble movements."
+  },
+  "Arboreal_Grasping_Forepaws": {
+    "tags": [
+      "Arms",
+      "Arboreal",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Grapple"
+    ],
+    "description": "The Arboreal Grasping Forepaws are supple and prehensile, tipped with sharp, curved claws that can grip bark and rock with the same ease as soft flesh. Covered in a layer of coarse, bristly fur, they possess an uncanny ability to feel and sense their surroundings, enhancing agility and dexterity in the treacherous canopies and cliff faces of the wild."
+  },
+  "Gliding_Membrane_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Glider",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Gliding_Membrane_Forelimbs are expansive, leathery wings attached to the forearms, allowing the wielder to spread them wide and catch the air, slipping silently between treetops and sheer cliff faces with an ethereal grace."
+  },
+  "Predator_Raking_Forepaws": {
+    "tags": [
+      "Arms",
+      "Predator",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Claw"
+    ],
+    "description": "Emerging from the shadows of the twisted biome, the Predator_Raking_Forepaws are a sinister pair of limbs, elongated and sinewy with razor-sharp claws that shimmer in the dim light, ready to slash and tear at the slightest provocation. Their grip is both powerful and agile, perfectly balanced for a creature that hunts in the dead of night, their presence alone enough to instill fear and caution in any who encounter them."
+  },
+  "Crushing_Devil_Forepaws": {
+    "tags": [
+      "Arms",
+      "Crushing",
+      "Marsupial",
+      "Heavy"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Maul",
+      "Slam"
+    ],
+    "description": "The Crushing_Devil_Forepaws are massive, clawed appendages that resemble those of a marsupial, but with a demonic twist. Covered in thick, dark fur and ending in wickedly curved claws, these forepaws are incredibly heavy, capable of delivering bone-crushing mauls and slams that reverberate through the earth."
+  },
+  "Webbed_Aquatic_Forepaws": {
+    "tags": [
+      "Arms",
+      "Aquatic",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Webbed_Aquatic_Forepaws are sleek and elongated, with wide, flat webs stretching between each finger and thumb, allowing for effortless gliding through water. The paws are covered in soft, velvety fur that traps air, providing buoyancy and warmth in the coldest underwater environments."
+  },
+  "Compact_Generalist_Forepaws": {
+    "tags": [
+      "Arms",
+      "Compact",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Compact_Generalist_Forepaws are small yet robust marsupial limbs, covered in coarse, dark fur that shifts subtly in color to blend with the surroundings. Their sharp claws and flexible joints grant unparalleled agility and dexterity, allowing for swift manipulation of objects and environs while the inherent scavenger instinct aids in finding and utilizing resources efficiently."
+  },
+  "Opposable_Thumb_Forepaws": {
+    "tags": [
+      "Arms",
+      "Opposable",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk",
+      "Climb"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Acrobatics"
+    ],
+    "description": "Emerging from the shadowy underbrush, the Opposable_Thumb_Forepaws resemble the powerful, dexterous paws of a marsupial, yet they possess the incredible flexibility and opposable thumbs of a human hand, allowing for unparalleled grip and manipulation in both combat and acrobatic maneuvers."
+  },
+  "Elongated_Insectivore_Forepaws": {
+    "tags": [
+      "Arms",
+      "Elongated",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Gnaw",
+      "Dig"
+    ],
+    "description": "Elongated and slender, these marsupial-like forepaws are covered in coarse, bristly fur and equipped with sharp, chisel-like claws that are perfect for digging and gnawing through tough materials, granting an increased reach and a surprising level of dexterity."
+  },
+  "Synergised_Pouch_Forearms": {
+    "tags": [
+      "Arms",
+      "Pouch_Frame",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability"
+    ],
+    "description": "The Synergised_Pouch_Forearms are a bizarre amalgamation of sleek, blackened fur and a sturdy, reinforced pouch, capable of holding an astonishing variety of items and creatures. When activated, a warm, pulsating energy emanates from the pouch, granting the user an unparalleled sense of stability and resilience, as if the very fabric of the pouch absorbs shocks and disturbances."
+  },
+  "Swift_Strike_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Swift",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "The Swift_Strike_Forelimbs are clawed and padded, perfectly adapted for silent stalking and explosive attacks. Their sleek, muscled build is reminiscent of a marsupial, capable of launching the wielder into a lightning-fast pounce, while the innate grip and dexterity enhance both defensive agility and offensive prowess."
+  }
+}

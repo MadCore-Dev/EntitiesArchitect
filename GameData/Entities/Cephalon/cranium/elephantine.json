@@ -1,0 +1,382 @@
+{
+  "Broad_Domed_Elephant_Skull": {
+    "tags": [
+      "Cranium",
+      "Domed",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "description": "The Broad-Domed Elephant Skull is a colossal cranium, its surface smooth and pitted with ancient wisdom, crowned by a domed ridge that enhances its formidable presence. This imposing component grants the user an innate resilience and the brutish power to deliver devastating headbutts, its thick natural armor and bolstered constitution a testament to its enduring nature."
+  },
+  "Mammoth_Curved_Skull": {
+    "tags": [
+      "Cranium",
+      "Curved",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Headbutt"
+    ],
+    "description": "The Mammoth_Curved_Skull is a colossal, curved cranium resembling that of a prehistoric mammoth, its surface rough with ridges and grooves that feel cold to the touch, granting an innate resistance to the chill. Equipped with this formidable headgear, one can unleash devastating tusk goring attacks and powerful headbutt strikes, enhancing strength and cold resistance."
+  },
+  "War_Elephant_Reinforced_Skull": {
+    "tags": [
+      "Cranium",
+      "Reinforced",
+      "Elephantine",
+      "War"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Block",
+      "Intimidate"
+    ],
+    "description": "The War_Elephant_Reinforced_Skull is a colossal, obsidian-black cranium imbued with arcane fortifications, its surface riddled with knotted veins of gleaming silver that pulse with latent power. It radiates an aura of unyielding dominance and resilience, granting the wielder the ability to deliver devastating headbutts, erect an impenetrable barrier, and instill fear in the hearts of foes, while significantly enhancing their natural armor and strength."
+  },
+  "Tusked_Ivory_Skull": {
+    "tags": [
+      "Cranium",
+      "Tusked",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Intimidate"
+    ],
+    "description": "The Tusked_Ivory_Skull is a colossal cranium, its surface smooth and cool to the touch, adorned with formidable tusks that curl menacingly from the sides, exuding an aura of primal dominance that can instill fear in even the bravest of adversaries."
+  },
+  "Undead_Bleached_Skull": {
+    "tags": [
+      "Cranium",
+      "Undead",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Headbutt"
+    ],
+    "description": "The Undead_Bleached_Skull is a colossal, desiccated cranium, bleached white under the perpetual gloom of the netherworld, its elephantine size dwarfing most creatures, radiating an aura of dread and vulnerability to even the hardiest adventurers. Its surface is rough and pitted, yet a thick layer of decayed flesh and bone provides a surprising resilience, while its sheer presence can incite fear and confusion among foes."
+  },
+  "Titan_Massive_Skull": {
+    "tags": [
+      "Cranium",
+      "Titan",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Trample"
+    ],
+    "description": "The Titan_Massive_Skull is a colossal, obsidian-black dome encrusted with ancient runes that pulse with a faint, malevolent energy. Its surface is rough and jagged, capable of casting long, intimidating shadows that seem to stretch and warp the light around it, while the sheer weight and size of the skull grant the bearer immense strength and resilience."
+  },
+  "Forest_Compact_Skull": {
+    "tags": [
+      "Cranium",
+      "Compact",
+      "Elephantine",
+      "Forest"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Forest_Compact_Skull is a dense, moss-covered cranium that closely resembles an elephantine skull, yet compact and intricately carved with the symbols of nature and the forest. Its surface is cool and damp to the touch, with a slight, almost imperceptible hum that resonates with the heartbeat of the forest, enhancing agility and stealth in its bearer."
+  },
+  "Juvenile_Small_Skull": {
+    "tags": [
+      "Cranium",
+      "Juvenile",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Juvenile_Small_Skull is a diminutive yet unmistakably powerful cranium, its surface smooth and pristine with the promise of future might, resembling the tender beginnings of an elephantine creature, granting a subtle boost in dexterity as if the wielder is learning to wield their own burgeoning strength with grace."
+  },
+  "Musth_Rage_Crested_Skull": {
+    "tags": [
+      "Cranium",
+      "Crested",
+      "Elephantine",
+      "Musth"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Blood Frenzy"
+    ],
+    "description": "The Musth_Rage_Crested_Skull is a colossal, ivory cranium adorned with a menacing, jagged crest, exuding an aura of primal dominance and rage. Its surface is slick with a thin layer of viscous, dark fluid, and it radiates an overwhelming sense of power and aggression, enhancing the wearer's strength while simultaneously dulling their social grace."
+  },
+  "Desert_Broad_Radiating_Skull": {
+    "tags": [
+      "Cranium",
+      "Radiating",
+      "Elephantine",
+      "Desert"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Desert_Broad_Radiating_Skull is a colossal, sun-bleached cranium with deep-set eye sockets that seem to absorb the harsh desert light, radiating an aura of ancient endurance. Its surface is covered in intricate, swirling patterns that pulse with a faint, golden energy, granting an indomitable will and unyielding strength to those who wield it."
+  },
+  "Electrosensory_Social_Skull": {
+    "tags": [
+      "Cranium",
+      "Social",
+      "Elephantine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The Electrosensory Social Skull is a colossal cranium, resembling that of an ancient, wise elephant, with a network of intricate, glowing blue veins that pulse in response to the emotional states of nearby beings, enhancing its wearer's charisma and perceptiveness, allowing for unparalleled social manipulation and awareness."
+  },
+  "Bioluminescent_Mutant_Skull": {
+    "tags": [
+      "Cranium",
+      "Bioluminescent",
+      "Elephantine",
+      "Mutant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "arm_trunk": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Bioluminescence"
+    ],
+    "description": "The Bioluminescent_Mutant_Skull, an eerie fusion of monstrous proportions and ethereal light, glows with an unsettling, pulsating radiance that casts eerie shadows as it rotates, its elephantine size hinting at the terrifying might it once wielded."
+  }
+}

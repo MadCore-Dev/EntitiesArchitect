@@ -1,0 +1,301 @@
+{
+  "Fire_Breath_Fanged_Maw": {
+    "tags": [
+      "Maw",
+      "Fire",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Crunch",
+      "Intimidate"
+    ],
+    "description": "The Fire_Breath_Fanged_Maw is a gaping, draconic maw lined with razor-sharp fangs that glint menacingly in the firelight, ready to unleash searing flames or a bone-crushing crunch. The intense heat radiating from the maw not only fuels its devastating fire breath but also instills an overwhelming aura of intimidation, making foes quake in fear."
+  },
+  "Frost_Ice_Breath_Maw": {
+    "tags": [
+      "Maw",
+      "Frost",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Crunch",
+      "Slow"
+    ],
+    "description": "The Frost_Ice_Breath_Maw is a chilling, draconic maw embedded with jagged, frost-tipped teeth that glisten with an eerie blue light. When opened, it emits a bone-chilling wind that precedes a torrent of freezing ice breath capable of encasing foes in ice. Its texture is slick and icy, causing any who dare to touch it to feel the sting of frostbite."
+  },
+  "Acid_Spray_Gaping_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Acid Breath",
+      "Corrosion"
+    ],
+    "description": "Embedded within the gaping maw of this fearsome creature is a row of jagged, venomous teeth that ooze with a corrosive green acid, capable of melting through steel. The interior lining of the maw pulsates with an eerie, sickly glow, and whenever the creature exhales, a stream of acidic mist hisses and bubbles, instantly dissolving anything it touches."
+  },
+  "Lightning_Plasma_Maw": {
+    "tags": [
+      "Maw",
+      "Lightning",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Breath",
+      "Shock Touch"
+    ],
+    "description": "The Lightning_Plasma_Maw is a gaping, serpentine mouth lined with jagged, electrified fangs that crackle with blue and purple energy, capable of delivering devastating lightning breath and shocking any who dare to touch it."
+  },
+  "Shadow_Void_Life_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Shadow",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shadow Breath",
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "The Shadow_Void_Life_Drain_Maw is a gaping, obsidian-black maw set against the scales of a draconic visage, pulsating with an eerie, void-like darkness that whispers of shadowy secrets. When it opens, a chilling breath condenses into the air, and any prey caught within its grasp feels their life force seeping away, replenishing the draconic shadow with dark, rejuvenating energy."
+  },
+  "Undead_Necrotic_Maw": {
+    "tags": [
+      "Maw",
+      "Undead",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Necrotic Breath",
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Undead Necrotic Maw is a gaping, undead mouth lined with jagged, blackened fangs that drip with a noxious, green ichor. When opened wide, it emits a bone-chilling breath that withers flesh and saps life force, while its mere presence fills nearby foes with an overwhelming sense of dread and despair."
+  },
+  "Sea_Serpent_Bite_Drag_Maw": {
+    "tags": [
+      "Maw",
+      "Sea",
+      "Draconic",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Iron Grip",
+      "Swallow"
+    ],
+    "description": "The Sea_Serpent_Bite_Drag_Maw is a gaping, serpentine maw lined with jagged, sharp teeth that glint menacingly in the dim light of the underwater realm, its rows of teeth designed to grip and constrict prey, while the back of the throat is lined with smaller, razor-sharp teeth that aid in swallowing foes whole, granting immense strength and resilience to any creature that wields it."
+  },
+  "Ancient_Catastrophic_Maw": {
+    "tags": [
+      "Maw",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Crunch",
+      "Fire Breath",
+      "Intimidate"
+    ],
+    "description": "The Ancient Catastrophic Maw is a gaping, obsidian-black orifice lined with jagged, ember-lit teeth that seem to whisper the tales of long-lost worlds; its breath crackles with the heat of a thousand suns, and its mere presence can reduce even the bravest warrior to quivering fear, reflecting its status as a relic of primordial terror."
+  },
+  "Faerie_Sweet_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Faerie",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Faerie_Sweet_Bite_Maw is a grotesque yet enchanting maw, adorned with delicate, almost luminous fangs that shimmer like opals, and when it opens, a faint, alluring melody whispers from its depths, capable of charming the most wary of hearts, while its bite carries a numbing paralysis that locks its prey in place."
+  },
+  "Wyvern_Poison_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Wyvern",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Poison",
+      "Iron Grip"
+    ],
+    "description": "Embedded within the thick, scaly lips of the Wyvern_Poison_Fang_Maw is a set of razor-sharp fangs, glistening with a viscous, greenish-black venom that seems to pulsate with malevolent energy. The fangs are cold to the touch, their edges sharp enough to slice through armor, while the maw's interior muscles provide an iron grip that can crush bones and hold onto prey with unyielding strength."
+  },
+  "Lindworm_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Lindworm",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Constrict",
+      "Swallow"
+    ],
+    "description": "The Lindworm_Crushing_Maw is a gaping, serrated maw lined with jagged teeth that seem to pulse with a malevolent energy, capable of crushing bones and swallowing foes whole, enhancing your strength and constitution as you feel its primal power coursing through you."
+  },
+  "Hatchling_Sharp_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Hatchling",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Rake"
+    ],
+    "description": "The Hatchling Sharp Bite Maw is a gaping, obsidian maw lined with razor-sharp teeth that seem to pulse with an inner darkness, granting the wielder a fearsome bite and the ability to rake enemies with jagged talons, enhancing their dexterity and strength in close combat."
+  }
+}

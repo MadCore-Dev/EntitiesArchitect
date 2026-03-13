@@ -1,0 +1,549 @@
+{
+  "Sunda_Pangolin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sunda",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Natural Armor",
+      "Scent"
+    ],
+    "description": "The Sunda_Pangolin_Core is a dense, segmented core that pulsates with a protective energy, each segment bearing the imprint of the pangolin\u2019s distinctive scales. When wielded, it grants a sense of invulnerability and a keen awareness of one's surroundings, though it slightly hinders nimble movements."
+  },
+  "Giant_Ground_Pangolin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Stomp",
+      "Natural Armor",
+      "Intimidate"
+    ],
+    "description": "The Giant Ground Pangolin Core is a formidable, armored heart pulsating with ancient earth magic, wrapped in thick, overlapping scales that shimmer with metallic hues, granting its bearer unparalleled resilience and a crushing presence on the battlefield."
+  },
+  "Tree_Pangolin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Tree",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Curl Ball",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the gnarled bark of an ancient, sentient tree, the Tree_Pangolin_Core pulsates with an eerie green glow. Its surface is covered in overlapping, metallic scales that seem to shift and realign with the core's will, granting the bearer the uncanny ability to scale sheer surfaces and curl into an unbreakable defensive ball."
+  },
+  "Long_Tailed_Pangolin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Long_Tailed",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Grapple",
+      "Natural Armor"
+    ],
+    "description": "The Long_Tailed_Pangolin_Core is a compact, armored heart, pulsating with a deep, resonant throb that echoes the creature's resilient nature. Its surface is covered in intricate, overlapping scales that shift and interlock, granting a nearly impenetrable defense while allowing for swift, agile movements when necessary."
+  },
+  "Fossorial_Burrowing_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig",
+      "Curl Ball"
+    ],
+    "description": "The Fossorial_Burrowing_Core is a compact, segmented organ that pulsates with an earthy glow, its surface resembling the interlocked scales of a giant armadillo, providing a resilient natural armor that fortifies the bearer as they dig and burrow through the ground with incredible speed and strength, though their agility is slightly diminished when curled up defensively."
+  },
+  "Venomous_Scale_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Venomous",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Venom_Gland",
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Poison",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the creature's pliable, segmented body, the Venomous_Scale_Core pulses with an eerie green glow, its surface dotted with tiny, iridescent pores that secrete a viscous, shimmering venom. As the creature moves, the core shifts subtly, interwoven with the muscular layers to provide a resilient, chitinous armor that both protects and encumbers, subtly hampering agility while enhancing resistance to poison and physical attacks."
+  },
+  "Aquatic_River_Pangolin_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_caudal": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Curl Ball",
+      "Natural Armor"
+    ],
+    "description": "The Aquatic_River_Pangolin_Core is a sleek, elongated cylinder encased in overlapping, razor-sharp scales that shimmer with iridescent hues when submerged, granting the wielder unparalleled protection and the ability to seamlessly navigate underwater currents, though its cumbersome nature slightly hampers agility on land."
+  },
+  "Undead_Scale_Skeleton_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Undead",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Bone"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Fear",
+      "No Pain"
+    ],
+    "description": "The Undead_Scale_Skeleton_Core is a withered, hollow shell covered in chitinous scales that glisten with an eerie, deathly sheen, providing a natural armor that resists both physical and supernatural harm, yet the core's presence instills an unsettling dread in any who behold it, and the creature within feels no pain, moving with a relentless, unyielding drive."
+  },
+  "Electrosensory_Scale_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's sleek, metallic carapace, the Electrosensory_Scale_Core pulses with a faint blue glow, its surface rippling subtly as it processes environmental stimuli, granting the bearer unparalleled awareness of their surroundings, even through solid barriers, while also providing robust protection against physical attacks."
+  },
+  "Acid_Secreting_Scale_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Acid",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Acid Spray",
+      "Natural Armor"
+    ],
+    "description": "Embedded within the creature's thick, scaly hide lies the Acid_Secreting_Scale_Core, a pulsating, iridescent organ that glows with an eerie green light when exposed to moonlight, secreting a corrosive acid that eats through most materials, while granting the bearer a resilient natural armor and the ability to curl into a defensive ball or spray acid at foes."
+  },
+  "Armoured_Titan_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Titan",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "10"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Stomp",
+      "Intimidate",
+      "Block"
+    ],
+    "description": "The Armoured_Titan_Core is a colossal, segmented core pulsating with an inner light, encased in overlapping plates of dark, resilient scales that interlock like ancient armor, granting the wielder an imposing presence and formidable natural defenses."
+  },
+  "Swift_Hunting_Scale_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Swift",
+      "Pholidota"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_fore_left": "Appendages/arms",
+      "arm_fore_right": "Appendages/arms",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Curl Ball",
+      "Sprint",
+      "Scent"
+    ],
+    "description": "Embedded within the sleek, armor-like scales of the Swift_Hunting_Scale_Core is a vibrant, pulsating energy that enhances the agility and reflexes of the wielder, granting them unparalleled speed and the ability to sense their surroundings with an almost predatory precision."
+  }
+}

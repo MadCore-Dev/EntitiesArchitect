@@ -1,0 +1,301 @@
+{
+  "Sea_Dragon_Caudal_Fins": {
+    "tags": [
+      "Fins",
+      "Caudal",
+      "Draconic",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "The Sea_Dragon_Caudal_Fins are a pair of immense, sinuous fins with scales that shimmer in iridescent blues and greens, perfectly adapted for cutting through water with unmatched grace and speed, enhancing the swimmer's agility and velocity."
+  },
+  "Pectoral_Control_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Draconic",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the broad, scaled chest, these semi-translucent pectoral fins are lined with delicate, iridescent membranes that shimmer like moonlit water. With a slight movement of these fins, the body glides with uncanny grace and precision, enhancing both agility and swift evasion in aquatic environments."
+  },
+  "Deep_Abyssal_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Swim"
+    ],
+    "description": "The Deep Abyssal Fins are jet-black and shimmer with an otherworldly glow, their scales interwoven with veins of dark, pulsating energy. When submerged, they allow for effortless gliding through the darkest depths, their draconic heritage granting a sense of ancient power and unyielding resilience."
+  },
+  "Bioluminescent_Lure_Fins": {
+    "tags": [
+      "Fins",
+      "Bioluminescent",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Fins are iridescent appendages that shimmer with a haunting, pulsating glow, their scales resembling delicate dragon scales with hues of deep blues and greens, emitting an eerie light that can both allure and intimidate, capable of momentarily paralyzing prey or predators with a sudden burst of intense bioluminescence."
+  },
+  "Lightning_Conducting_Fins": {
+    "tags": [
+      "Fins",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Emerging from the creature\u2019s back are sleek, metallic-blue fins that shimmer with the constant threat of electrical discharge, their sharp edges crackling with blue lightning as they pulse in sync with the beast\u2019s heartbeat, granting it both an eerie grace and the ability to deliver searing shocks with a mere touch."
+  },
+  "Frost_Cryo_Water_Fins": {
+    "tags": [
+      "Fins",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow"
+    ],
+    "description": "Icy, translucent fins with jagged edges like frozen dragon scales protrude from the body, shimmering with an eerie blue light that seems to sap warmth from the air around them, granting the bearer both a chilling resistance and an uncanny ability to move with unnatural grace in frigid conditions."
+  },
+  "Shadow_Void_Fins": {
+    "tags": [
+      "Fins",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Shadow_Void_Fins are jet-black, almost absorbing all light that touches them, and pulsate with an otherworldly, dark energy. When equipped, they grant the user the uncanny ability to blend seamlessly into the shadows, enhancing their stealth and agility as they move with the fluid grace of a dragon through the darkest voids."
+  },
+  "Acid_Slick_Fins": {
+    "tags": [
+      "Fins",
+      "Acid",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the shadows of a forgotten abyss, the Acid_Slick_Fins are dark, membranous flaps that glisten with a sickly green sheen, secreting a corrosive slime that hisses upon contact with air. When wielded, these draconic appendages grant the user an eerie grace and the ability to spew forth a searing jet of acid, while bolstering their resilience against similar noxious attacks and enhancing their agility in the midst of battle."
+  },
+  "Elder_Dragon_Massive_Fins": {
+    "tags": [
+      "Fins",
+      "Elder",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Tidal Wave"
+    ],
+    "description": "Enormous, leathery fins with an iridescent sheen, reminiscent of the ancient seas, pulsate with a primordial energy that grants the wielder unparalleled control over water, enabling them to move with the grace of a silent predator and unleash devastating tidal waves."
+  },
+  "Undead_Bone_Fins": {
+    "tags": [
+      "Fins",
+      "Undead",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Fear"
+    ],
+    "description": "Emerging from the creature's spine, these jagged, undead bone fins resemble the bony remnants of a draconic beast, pulsating with an eerie, phosphorescent glow that flickers in the dark. Cold to the touch, they provide a subtle, but constant hum of protection and resilience, making the wearer feel invulnerable to both physical pain and the creeping tendrils of fear."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded in the sleek, scaled appendages are intricate draconic runes that shimmer faintly with an inner glow, granting the user unparalleled agility and speed in both water and on land, as if the very essence of a dragon's swift movement courses through the fins."
+  },
+  "Vestigial_Wing_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Draconic"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's back, these vestigial wing fin stubs resemble scaled, membranous paddles with a hint of draconic curvature, hinting at a forgotten evolutionary path where flight and aquatic prowess intertwined."
+  }
+}

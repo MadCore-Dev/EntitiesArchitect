@@ -1,0 +1,396 @@
+{
+  "Multi_Eye_Bloated_Skull": {
+    "tags": [
+      "Cranium",
+      "Multi_Eye",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "eye_extra_02": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear"
+    ],
+    "description": "The Multi_Eye_Bloated_Skull is a grotesque, swollen cranium pulsating with an unsettling aura, its surface dotted with a cluster of dark, soulless eyes that seem to peer into your very soul, granting the bearer an uncanny ability to see in darkness and instilling fear in all who gaze upon it."
+  },
+  "Chitin_Carapace_Skull": {
+    "tags": [
+      "Cranium",
+      "Chitin",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Chitin_Carapace_Skull is a grotesque, chitinous exoskeleton that wraps around the head, forming a rigid, armored skull with jagged, overlapping plates that seem to shift and move with an unnatural life of their own. It grants the user an imposing aura of resilience and protection, but at the cost of a chilling, alien presence that repels others."
+  },
+  "Void_Phased_Skull": {
+    "tags": [
+      "Cranium",
+      "Void",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Void_Phased_Skull is a grotesque cranium that seems to pulse with an otherworldly darkness, its surface rippling like a portal to another dimension. When worn, it grants the bearer a chilling presence that triggers fear and confusion in foes while enhancing their ability to slip into the shadows undetected."
+  },
+  "Mind_Flayer_Tentacle_Skull": {
+    "tags": [
+      "Cranium",
+      "Psion",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Madness Aura"
+    ],
+    "description": "The Mind_Flayer_Tentacle_Skull is a grotesque amalgamation of a cranium adorned with fleshy tentacles that pulse with an unnatural, sickly glow, exuding an aura of creeping insanity that slowly erodes the sanity of those nearby, while enhancing the intellect of its bearer at the cost of their charisma."
+  },
+  "Gibbering_Mouth_Skull": {
+    "tags": [
+      "Cranium",
+      "Gibbering",
+      "Aberrant"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw",
+      "maw_secondary": "Cephalon/maw",
+      "maw_tertiary": "Cephalon/maw",
+      "eye_left": "Cephalon/eyes",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Madness Aura",
+      "Acid Spray"
+    ],
+    "description": "The Gibbering Mouth Skull is a grotesque abomination, its hollow eye sockets aglow with a sickly green light as countless small mouths open and close across its surface, their incoherent babbling sending shivers down the spine of anyone within earshot. The skull radiates an aura of creeping madness and fear, while its acidic saliva can be sprayed with alarming precision to dissolve flesh and bone."
+  },
+  "Bone_Exposed_Skull": {
+    "tags": [
+      "Cranium",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain"
+    ],
+    "description": "The Bone_Exposed_Skull is a jagged, grinning cranium of exposed bone, its sockets void of eyes, giving the impression of a constant, soulless stare that instills fear. The skull's surface is rough and uneven, a testament to its aberrant origins, and it grants the bearer an eerie resilience to both physical pain and disease, though it sours their charisma and draws unnatural attention."
+  },
+  "Deep_Sea_Pressure_Skull": {
+    "tags": [
+      "Cranium",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Skull is a grotesque, malformed cranium encased in a thick, obsidian-black shell that pulsates with an eerie, bioluminescent glow, adapted to withstand the crushing pressures of the ocean's deepest trenches. Its surface is slick and cold to the touch, with jagged protrusions that seem to hum with an otherworldly resonance, granting the user the uncanny ability to navigate the darkest, most abyssal depths with perfect clarity and heightened awareness."
+  },
+  "Eldritch_Horror_Skull": {
+    "tags": [
+      "Cranium",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Fear",
+      "Magic Resistance"
+    ],
+    "description": "The Eldritch_Horror_Skull is a malformed cranium with jagged, obsidian-like ridges that seem to pulse with an otherworldly energy, casting an unsettling aura of madness and fear upon anyone who gazes upon it. Its surface is cold to the touch, and emanates a faint, sickly glow that distorts the perception of time and reality around it."
+  },
+  "Chaos_Mutant_Skull": {
+    "tags": [
+      "Cranium",
+      "Chaos",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Blood Frenzy"
+    ],
+    "description": "The Chaos_Mutant_Skull is a grotesque amalgamation of bone and twisted flesh, its jagged edges glinting with an eerie, chaotic energy. The skull's surface is covered in irregular growths and strange runes that pulse with a dark, pulsating aura, hinting at its chaotic nature and granting the bearer resilience and a primal bloodlust."
+  },
+  "Parasite_Infested_Skull": {
+    "tags": [
+      "Cranium",
+      "Parasite",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swarm"
+    ],
+    "description": "The Parasite-Infested Skull is a grotesque amalgamation of bone and writhing, translucent worms, the eye sockets filled with wriggling masses that pulse with an otherworldly light, exuding a constant aura of dread and sickness."
+  },
+  "Beholder_Central_Eye_Skull": {
+    "tags": [
+      "Cranium",
+      "Beholder",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "eye_extra_02": "Cephalon/eyes",
+      "eye_extra_03": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Petrify",
+      "Blindsight",
+      "Madness Aura",
+      "Fear"
+    ],
+    "description": "The Beholder_Central_Eye_Skull is a grotesque, spherical cranium from which a single, all-seeing, soul-crushing eye protrudes, surrounded by a ring of withered, bony sockets that whisper of ancient, forgotten horrors. Its presence grants the bearer unparalleled perception and intellect, but also a chilling, paralyzing gaze and an aura that drives even the stout-hearted into madness and fear."
+  },
+  "Titan_Fused_Horror_Skull": {
+    "tags": [
+      "Cranium",
+      "Titan",
+      "Aberrant"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Titan_Fused_Horror_Skull is a grotesque amalgamation of twisted metal and chiseled stone, its eye sockets glowing with an unsettling, malevolent light that pierces the soul. The skull's presence is overwhelming, exuding an aura of dread that causes even the bravest to falter, while its robust natural armor and formidable strength make it a fearsome sight on the battlefield."
+  }
+}

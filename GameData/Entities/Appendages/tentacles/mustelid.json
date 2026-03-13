@@ -1,0 +1,268 @@
+{
+  "Parasitic_Drain_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Parasitic",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Parasitic_Drain_Tendrils are long, sinewy appendages that resemble the fur-lined paws of a mustelid, but with sharp, translucent tendrils that pulse with dark energy. These tendrils can ensnare and drain the life force from their victims, leaving behind only a hollow shell."
+  },
+  "Sensory_Whisker_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Sensory",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Emerging from the creature\u2019s snout and brow, the delicate yet powerful sensory whisker tendrils pulse with an eerie luminescence, their fine, hair-like filaments twitching and quivering with every subtle vibration and sound, granting an uncanny awareness of the surroundings in even the darkest, most oppressive environments."
+  },
+  "Adhesive_Pincer_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Iron Grip"
+    ],
+    "description": "The Adhesive Pincer Tendrils are long, sinuous appendages that resemble the sleek, fur-lined limbs of a mustelid, but covered in a slick, sticky substance that allows them to grip and hold onto anything with an unyielding strength. Each tendril terminates in a powerful, crushing pincer, capable of both ensnaring foes and delivering bone-crushing grips."
+  },
+  "Necrotic_Leech_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Twisted and sinewy, the Necrotic Leech Appendages are a cluster of dark, translucent tentacles that pulse with a sickly green light, their surface slick with an oily, black fluid. Each tentacle is tipped with sharp, necrotic barbs that can latch onto flesh, draining life force and leaving behind a trail of withered, corrupted tissue."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash",
+      "Slash"
+    ],
+    "description": "The spined whip tendrils are long, sinuous appendages covered in sharp, barbed spines that rattle menacingly as they lash out with incredible speed and precision, capable of both ensnaring prey and delivering brutal slashes."
+  },
+  "Acid_Secreting_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Twisting, serpentine tendrils coated in a slick, greenish-black slime emerge from the creature's form, their tips glimmering with the promise of corrosive venom that can dissolve flesh and bone with a single, devastating spray."
+  },
+  "Electric_Shock_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Glistening with an eerie, blue sheen, the electric shock tendrils resemble the sleek fur of a weasel twisted into writhing, electrified tentacles, capable of extending up to two meters to deliver paralyzing shocks with a mere touch."
+  },
+  "Vestigial_Proto_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Vestigial",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Pale, translucent tendrils sprout from the creature\u2019s shoulders and back, twisting like living shadows that pulse faintly in the dim light, granting an eerie grace and nimbleness."
+  },
+  "Chromatophore_Stealth_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Stealth_Tendrils are long, flexible tentacles covered in iridescent scales that can shift colors to blend seamlessly with their surroundings, allowing the user to hide in plain sight and slip past enemies undetected."
+  },
+  "Pheromone_Musk_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Musk",
+      "Mustelid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Emerging from the shadows, the Pheromone_Musk_Appendages are a pair of slender, sinewy tentacles, each tipped with a bulbous, dark gland that pulsates with an eerie, almost sentient rhythm, releasing a noxious musk that can instill dread in the hearts of even the bravest souls."
+  },
+  "Bone_Spur_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Mustelid",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "Bony spurs jut out from the ends of elongated, sinuous tentacles, resembling the skeletal claws of a giant weasel. These appendages are both menacing and tactile, their rigid bones granting the wielder an innate layer of protection and the ability to strike with bone-crushing force from a distance."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Mustelid",
+      "Sensory"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Keen Sight"
+    ],
+    "description": "Delicate, hair-thin filaments emerge from the creature's sleek, mustelid-like body, each one twitching and curling as it detects the subtle magnetic fields that permeate the environment, granting an acute awareness of movement and position underground and in the air."
+  }
+}

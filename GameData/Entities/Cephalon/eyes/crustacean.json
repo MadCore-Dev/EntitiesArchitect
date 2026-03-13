@@ -1,0 +1,278 @@
+{
+  "Stalked_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Stalked",
+      "Crustacean",
+      "Compound"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the creature's forehead are a pair of slender, prehensile stalks, each ending in a cluster of multifaceted eyes that shimmer with an otherworldly glow, allowing for an unparalleled field of vision and the ability to detect even the slightest movements in the shadows."
+  },
+  "Sessile_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Sessile",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Embedded deep within the creature\u2019s head, the Sessile_Compound_Eyes resemble a cluster of dark, multifaceted lenses, each one shifting subtly as it perceives the faintest movements and shadows, granting unparalleled vigilance and the uncanny ability to remain hidden."
+  },
+  "Mantis_Shrimp_Hyperspectral_Eyes": {
+    "tags": [
+      "Eye",
+      "Hyperspectral",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "Embedded within the dark, chitinous shell of the mantis shrimp, these eyes pulse with an eerie, iridescent glow, capable of seeing a spectrum of light invisible to most creatures, granting the user unparalleled awareness and the ability to spot even the stealthiest of foes."
+  },
+  "Bioluminescent_Lure_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Eyes are twin orbs of eerie, pulsating light that seem to glow with an otherworldly intelligence. Suspended in a transparent, gelatinous socket, they can shift colors and patterns to hypnotize prey, their gaze capable of inducing a terrifying paralysis."
+  },
+  "Electroreceptive_Pit_Eyes": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the sockets, these pit eyes are dark and glossy, resembling obsidian orbs that flicker with an inner electrical current. They pulse softly, emitting a faint, eerie glow that seems to detect even the slightest electrical field, allowing the bearer to see through darkness and discern the presence of nearby creatures through their bioelectric signatures."
+  },
+  "Deep_Sea_Sensitive_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Sea",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Deep_Sea_Sensitive_Eyes are bioluminescent orbs that pulse softly in the dark, with iridescent membranes that stretch and flex like a crab's gills, adapting to the dim light of the ocean depths. Holding these eyes grants unparalleled night vision and an acute awareness of one's surroundings, making the wearer feel as though they can see the faintest movements and colors in the darkest waters."
+  },
+  "Wide_Set_Predator_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide_Set",
+      "Crustacean",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the sockets, these wide-set eyes resemble the glowing orbs of a crustacean, their multifaceted surfaces reflecting an eerie, otherworldly light. Each eye bulges slightly, enhancing peripheral vision and granting a predatory awareness that makes the slightest movement or sound impossible to miss."
+  },
+  "Thermal_Infrared_Pits": {
+    "tags": [
+      "Eye",
+      "Thermal",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Thermal_Infrared_Pits are a pair of obsidian-black pits set deep within the chitin crest of a colossal crustacean, glowing with an eerie, pulsating warmth that allows the beholder to see through the darkest night and most opaque objects, granting unparalleled awareness and reflexes in the heat of battle."
+  },
+  "Recessed_Armoured_Eyes": {
+    "tags": [
+      "Eye",
+      "Recessed",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Recessed_Armoured_Eyes are deep-set, chitinous orbs that resemble the eyes of a colossal crustacean, their surface crackling with an eerie, internal light that seems to pierce through the darkness, enhancing the wearer's awareness and providing a layer of natural armor against psychic and physical assaults."
+  },
+  "Motion_Tracking_Facets": {
+    "tags": [
+      "Eye",
+      "Motion_Tracking",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Motion_Tracking_Facets are a pair of iridescent, compound eyes set upon a stalk-like appendage, each facet shimmering with an eerie bioluminescence that tracks the slightest movement, even in the darkest of nights, granting the wielder a supernatural ability to predict and evade danger."
+  },
+  "Blind_Vestigial_Eyes": {
+    "tags": [
+      "Eye",
+      "Blind",
+      "Crustacean",
+      "Deep_Sea"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "10"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the recessive folds of the creature's leathery exoskeleton, the Blind Vestigial Eyes appear as a pair of milky, opaque orbs, pulsating with an eerie luminescence that seems to sense the slightest vibrations in the surrounding water, granting an uncanny awareness of nearby threats."
+  },
+  "Polarized_Light_Eyes": {
+    "tags": [
+      "Eye",
+      "Polarized",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Polarized_Light_Eyes gleam with an icy, prismatic sheen, their surface shifting and refracting light in ways that allow the beholder to see through even the most opaque barriers, while the chilling aura they emit seems to ward off unwanted attention and enhance the wearer's agility and awareness."
+  }
+}

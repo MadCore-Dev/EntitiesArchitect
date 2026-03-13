@@ -1,0 +1,309 @@
+{
+  "Sloped_Cursorial_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Sloped",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Endurance"
+    ],
+    "description": "Sloped_cursorial_hindlimbs are powerful and sinewy, built for speed and endurance, with enlarged joints and a streamlined posture that allows them to spring into action with explosive velocity, leaving competitors in the dust."
+  },
+  "Sprint_Chase_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Sprint",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Charge"
+    ],
+    "description": "The Sprint_Chase_Hindlimbs are powerful and sinewy, with razor-sharp claws and dark, leathery pads that grip the ground with unparalleled ferocity, allowing the wielder to unleash devastating sprints and charges that leave foes reeling in their wake."
+  },
+  "Desert_Padded_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Desert",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Endurance"
+    ],
+    "description": "The Desert_Padded_Hindlimbs are thick and sinewy, with broad, cushioned pads that shift seamlessly across the harshest desert sands, providing a steady, sure-footed gait that resists the treacherous terrain while also granting an unwavering sense of endurance and agility."
+  },
+  "Cave_Adapted_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Cave",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "The Cave_Adapted_Hindlimbs are sturdy and sinewy, with thick pads that cling to even the most precarious cave walls, allowing silent, nimble movements through the darkest, most treacherous caverns."
+  },
+  "Pack_Chase_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Pack",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Pack Tactics"
+    ],
+    "description": "The Pack_Chase_Hindlimbs are slender yet powerful, with a dense network of sinew and muscle that glistens with a thin sheen of sweat, hinting at their constant readiness for a sprint. Each step exudes a quiet confidence, a silent communication with other pack members, enhancing their collective prowess in the hunt."
+  },
+  "Undead_Stiff_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Undead",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "No Pain"
+    ],
+    "description": "The Undead_Stiff_Hindlimbs are a pair of withered, yet eerily resilient legs, coated in a leathery hide that seems to absorb the very essence of decay. They move with a jerky, relentless persistence, as if driven by a constant, unyielding force, and are utterly indifferent to the physical toll of movement or injury."
+  },
+  "Aquatic_Webbed_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Webbed",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Aquatic Webbed Hindlimbs are powerful and sleek, adapted for swift movement through water, with broad, flattened feet that spread wide to cut through currents with ease. Their muscular legs are capable of both rapid bursts and long-distance endurance, granting a fluid grace that enhances agility and reaction time in aquatic environments."
+  },
+  "Ambush_Coiled_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Ambush",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Ambush"
+    ],
+    "description": "The Ambush_Coiled_Hindlimbs are thick, sinewy appendages covered in dark, coarse fur, capable of springing into action with explosive force, allowing the creature to leap silently from the shadows and catch its prey off guard."
+  },
+  "Giant_Crushing_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Giant",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample"
+    ],
+    "description": "Massive and fearsome, the Giant Crushing Hindlimbs are a grotesque amalgamation of bone, sinew, and jagged claws, capable of collapsing the earth beneath them with a single stomp, leaving a trail of destruction in their wake."
+  },
+  "Aardwolf_Light_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Aardwolf",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aardwolf_Light_Hindlimbs are slender yet powerful legs, covered in a fine, silvery fur that shimmers in the moonlight, giving the illusion of movement even when still. Each limb terminates in sharp, retractable claws and is lined with subtle, pulsing veins that hum with latent energy, ready to spring into action at a moment's notice."
+  },
+  "Electroreceptive_Vibration_Legs": {
+    "tags": [
+      "Legs",
+      "Electrosensory",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Bristling with fine, sensory hairs and lined with sleek, black scales, the Electroreceptive_Vibration_Legs pulse with an otherworldly energy, allowing the creature to sense the faintest vibrations and electrical signals in the environment, enhancing its awareness of predators and prey alike."
+  },
+  "Stealth_Soft_Padded_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Stealth",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step"
+    ],
+    "description": "The Stealth_Soft_Padded_Hindlimbs are covered in dense, velvety fur that muffles every footfall, allowing the hyenid to move through even the most treacherous terrain without a sound. Each step feels as if walking on clouds, the pads expanding and contracting silently with every movement to enhance agility and the ability to vanish into the shadows."
+  }
+}

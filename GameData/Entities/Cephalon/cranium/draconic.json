@@ -1,0 +1,402 @@
+{
+  "Horned_Fire_Skull": {
+    "tags": [
+      "Cranium",
+      "Horned",
+      "Draconic",
+      "Fire"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Intimidate",
+      "Fire Breath"
+    ],
+    "description": "The Horned_Fire_Skull is a fearsome cranium, adorned with jagged horns that seem to pulse with an inner fire. Its surface is rough and scorching to the touch, radiating heat and a sense of ancient, wrathful power that can be felt from a distance."
+  },
+  "Frost_Crystal_Skull": {
+    "tags": [
+      "Cranium",
+      "Frost",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Headbutt"
+    ],
+    "description": "The Frost_Crystal_Skull is a shimmering, icy draconic cranium encased in jagged, translucent crystals that refract the cold light, creating an aura of perpetual frost. When worn, it grants the user a powerful ice breath and a devastating headbutt, while enhancing their resistance to cold and natural armor."
+  },
+  "Acid_Gland_Skull": {
+    "tags": [
+      "Cranium",
+      "Acid",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Breath",
+      "Headbutt"
+    ],
+    "description": "The Acid_Gland_Skull is a grotesque relic of a draconic beast, its hollow eye sockets glinting with a sickly green hue as acidic fluids bubble ominously within, ready to unleash a corrosive blast or deliver a skull-crushing headbutt."
+  },
+  "Lightning_Frilled_Skull": {
+    "tags": [
+      "Cranium",
+      "Lightning",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Breath",
+      "Shock Touch"
+    ],
+    "description": "The Lightning_Frilled_Skull is a jagged, obsidian cranium adorned with spiky, silver frills that crackle with electric blue energy. Whenever it moves, a faint hiss of arcing lightning accompanies its every shift, and the skull's inner cavity glows with the pulsating power of a dormant storm."
+  },
+  "Shadow_Void_Skull": {
+    "tags": [
+      "Cranium",
+      "Shadow",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Ambush",
+      "Drain"
+    ],
+    "description": "The Shadow_Void_Skull is a jagged, obsidian draconic cranium that seems to pulse with an inky darkness, drawing the eye into an abyssal void where whispers of fear and despair echo. Its surface is cold and slick to the touch, and it grants the wielder an eerie presence that can both terrify and vanish into the shadows at will."
+  },
+  "Undead_Dracolich_Skull": {
+    "tags": [
+      "Cranium",
+      "Undead",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Headbutt"
+    ],
+    "description": "The Undead_Dracolich_Skull is a withered, bone-white draconic cranium, its hollow eye sockets glowing with an otherworldly, sickly green light. The skull exudes an aura of paralyzing fear, while its thick, reinforced plates provide formidable natural armor against attacks."
+  },
+  "Sea_Serpent_Aquatic_Skull": {
+    "tags": [
+      "Cranium",
+      "Sea",
+      "Draconic",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Blindsight",
+      "Constrict"
+    ],
+    "description": "The Sea_Serpent_Aquatic_Skull is a colossal, draconic cranium, its surface a mosaic of iridescent scales that shimmer in the depths, granting the bearer unparalleled perception and the ability to navigate the darkest underwater realms with ease."
+  },
+  "Ancient_Elder_Massive_Skull": {
+    "tags": [
+      "Cranium",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Magic Resistance",
+      "Headbutt"
+    ],
+    "description": "The Ancient Elder Massive Skull is a relic of bygone eras, its draconic visage etched with the wisdom and cruelty of untold millennia. Heavy with age and arcane power, the skull\u2019s sheer size and intimidating presence grant the bearer both physical resilience and an aura of dread that deters foes and shields against magical onslaughts."
+  },
+  "Faerie_Delicate_Skull": {
+    "tags": [
+      "Cranium",
+      "Faerie",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Faerie_Delicate_Skull is a fragile, translucent cranium that glimmers with an ethereal light, its surface etched with intricate draconic runes that pulse softly with an otherworldly energy, granting the bearer the ability to charm and become momentarily invisible."
+  },
+  "Wyvern_Venomous_Skull": {
+    "tags": [
+      "Cranium",
+      "Wyvern",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Intimidate"
+    ],
+    "description": "The Wyvern_Venomous_Skull is a twisted relic of draconic might, its jagged edges and eerie, milky sockets exuding an aura of malevolent power. The skull's surface is covered in intricate, venomous-looking carvings that pulse with a sickly green glow, and when held, it grants the wielder a chilling gaze capable of striking fear into the hearts of foes while also bestowing a measure of resistance against the very toxins it embodies."
+  },
+  "Lindworm_Elongated_Skull": {
+    "tags": [
+      "Cranium",
+      "Lindworm",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Lindworm_Elongated_Skull is a fearsome relic, its elongated cranial structure adorned with jagged, razor-sharp ridges and an ominous, downturned maw filled with needle-like fangs, exuding an aura of unyielding power and control. Its surface is cold and unyielding, yet when touched, it whispers tales of ancient battles and the indomitable will of the lindworm."
+  },
+  "Hatchling_Small_Skull": {
+    "tags": [
+      "Cranium",
+      "Hatchling",
+      "Draconic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Hatchling_Small_Skull is a miniature draconic cranium, no larger than a clenched fist, with delicate, razor-sharp teeth and unerupted scales that shimmer with an ethereal, silver-blue hue. Its presence whispers promises of untamed wilderness and ancient power, enhancing the wearer's agility and dexterity with each fleeting glance."
+  }
+}

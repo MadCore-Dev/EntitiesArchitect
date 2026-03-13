@@ -1,0 +1,346 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Rodent",
+      "Patagium"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Soft Step"
+    ],
+    "description": "The Membrane_Glide_Wings are a patchwork of thin, leathery membranes stretching between elongated, bony protrusions reminiscent of a rodent's ribcage, allowing the wearer to glide effortlessly through the air with a silent rustle, while their movement on the ground is as light as a whisper, barely disturbing the leaves beneath their feet."
+  },
+  "Extended_Patagium_Sails": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Rodent",
+      "Extended"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "The Extended Patagium Sails, a marvel of evolutionary adaptation, stretch beyond the typical rodent form, creating a vast expanse of leathery membrane that catches the wind with precision and grace, allowing the creature to soar through the air with remarkable agility and evasion, though it bears a slight trade-off in raw strength."
+  },
+  "Feathered_Mutation_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the twisted form of a rat-like creature, the Feathered_Mutation_Wings are a grotesque yet functional pair of wings, covered in uneven, coarse feathers that ruffle and shift with each clumsy flap, granting the bearer the ability to take to the skies and navigate through the air with surprising grace and agility."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Rodent",
+      "Thin"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "Barely more than translucent veils of stretched and brittle bone, these skeletal wings are the remnants of a long-forgotten rodent, providing their bearer with the eerie ability to glide through the shadows, though at a steep cost to their vitality."
+  },
+  "Rib_Spread_Wing_Ribs": {
+    "tags": [
+      "Wings",
+      "Rib",
+      "Rodent",
+      "Agamid_Like"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Rib_Spread_Wing_Ribs are thin, delicate yet strong, resembling the ribcage of a giant agamid lizard fused with the membranous wings of a rodent, allowing for silent gliding through the night sky. Each rib is covered in a fine layer of downy feathers that rustle softly as the creature shifts, enhancing its agility and making it nearly impossible to catch in the shadows."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Wing_Stubs are small, leathery protrusions from the back, barely resembling wings, with sharp claws at the tips. They feel cold and dry to the touch, almost as if they are remnants of a forgotten flight, granting a slight edge in dodging attacks."
+  },
+  "Chitinous_Bat_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Chitinous",
+      "Rodent",
+      "Bat_Like"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight",
+      "Hover"
+    ],
+    "description": "The Chitinous_Bat_Membrane_Wings are a pair of expansive, dark chitin-reinforced wings that pulse with the faint luminescence of moonlight, granting silent and effortless flight through the night sky. Their intricate chitin veins provide a delicate balance of strength and stealth, allowing for both rapid ascents and the eerie ability to hover motionlessly in the air, while the membranous sections between the bones create a near-silent flapping sound."
+  },
+  "Reinforced_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Reinforced",
+      "Rodent"
+    ],
+    "traversal": [
+      "Glide",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "The Reinforced_Membrane_Wings are a grotesque amalgamation of leathery, rodent-like skin stretched taut between elongated, sharp bones, granting the bearer the ability to glide gracefully through the air and perform acrobatic maneuvers with ease, while also providing a subtle enhancement to their natural defenses and agility."
+  },
+  "Hollow_Pneumatic_Wing_Bones": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Rodent",
+      "Lightweight"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "Etched with intricate patterns that seem to shift and move like shadows, the Hollow Pneumatic Wing Bones are as light as mist, yet capable of supporting powerful flight. Their surface is cool to the touch, slightly porous, and when flexed, they emit a faint whispering sound, as if filled with the breath of ancient winds."
+  },
+  "Insectoid_Scale_Wings": {
+    "tags": [
+      "Wings",
+      "Scaled",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Insectoid_Scale_Wings are a pair of sleek, chitinous appendages covered in shimmering scales that glisten with an eerie, bioluminescent hue, allowing the bearer to hover gracefully above the ground and perform acrobatic maneuvers with unparalleled precision."
+  },
+  "Downdraft_Heavy_Wings": {
+    "tags": [
+      "Wings",
+      "Heavy",
+      "Rodent"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hurricane Gust"
+    ],
+    "description": "The Downdraft_Heavy_Wings are massive, leathery appendages, reminiscent of a colossal bat's wings but with a thick, rodent-like fur that traps air, making them appear puffed and cumbersome. When flapped, they create a powerful downdraft, capable of tearing through the air to summon hurricane-force gusts, though their weight imposes a noticeable strain on the agility of the bearer."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Rodent"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Braking"
+    ],
+    "description": "Thermal_Soaring_Wings are a marvel of dark, featherless membranes that stretch and pulse with the warmth of the sun, allowing the creature to effortlessly catch thermal currents and soar through the skies with unparalleled grace and control, their keen senses and agile movements granting them the ability to navigate the winds with precision and evade predators with ease."
+  }
+}

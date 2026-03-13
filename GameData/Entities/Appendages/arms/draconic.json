@@ -1,0 +1,335 @@
+{
+  "Crushing_Dragon_Talon_Arms": {
+    "tags": [
+      "Arms",
+      "Talon",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Grapple",
+      "Tusk Gore"
+    ],
+    "description": "Bolstered by the hulking, scaled arms of a crushing dragon, your limbs bulge with sinew and muscle, ending in wicked, curved talons that glint with the promise of rending flesh and shattering bones. Each movement resonates with raw, primal strength, allowing you to grapple foes with ease and unleash devastating rakes and goring strikes."
+  },
+  "Fire_Breath_Aided_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Fire",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Slam"
+    ],
+    "description": "The Fire_Breath_Aided_Forelimbs are thick, clawed arms encased in scales that shimmer with an ominous red glow, hinting at their fiery nature. When wielded, they crackle with heat, ready to unleash devastating flames or crush foes with brutal strength."
+  },
+  "Frost_Ice_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Slam"
+    ],
+    "description": "The Frost_Ice_Forelimbs are elongated, serpentine limbs tipped with razor-sharp talons, each scale a shimmering shade of icy blue that crackles with frost upon movement. When wielded, they emit a chilling breath and a bone-crushing strength, granting their wielder the resilience against the biting cold and the ferocity of a dragon."
+  },
+  "Venomous_Acid_Claws": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Rake"
+    ],
+    "description": "Emerging from thick, scaly sheaths, the Venomous_Acid_Claws glisten with a sickly green hue, their tips curved and dripping with a corrosive fluid that hisses and steams when it touches air. Each swipe leaves a trail of acid, capable of melting through metal, while the mere presence of these claws grants a deadly agility and resistance to acid-based attacks."
+  },
+  "Lightning_Shock_Claws": {
+    "tags": [
+      "Arms",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Rake"
+    ],
+    "description": "The Lightning_Shock_Claws are jagged, silver talons that shimmer with a crackling electric aura, capable of delivering searing shocks with every touch or swipe. The texture is cold and slick, yet surprisingly sensitive to the slightest movement, enhancing the wearer's agility and reflexes in combat."
+  },
+  "Shadow_Void_Claws": {
+    "tags": [
+      "Arms",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Rake"
+    ],
+    "description": "The Shadow_Void_Claws are long, serrated talons that seem to have been carved from the darkest void of space, shimmering with an unsettling, oily darkness. When wielded, they grant the user the ability to blend into shadows, making them nearly invisible, and empower their strikes with a draining force that saps the life and energy from their victims."
+  },
+  "Sea_Flipper_Arms": {
+    "tags": [
+      "Arms",
+      "Flipper",
+      "Draconic",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Grapple"
+    ],
+    "description": "Emerging from the depths of the ocean, the Sea_Flipper_Arms are powerful, sinuous appendages with a sleek, scaled exterior that glistens like obsidian under moonlight, their inner structure a mesh of supple yet robust muscles and tendons that grant unparalleled agility and strength in both water and on land, perfect for swift underwater navigation and deadly grappling maneuvers."
+  },
+  "Dracolich_Bone_Claw_Arms": {
+    "tags": [
+      "Arms",
+      "Bone",
+      "Draconic",
+      "Undead"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Disease Carrier",
+      "No Pain"
+    ],
+    "description": "Emerging from the desiccated, dragon-like bone structure, these arms are a macabre fusion of draconic and skeletal features, their sharp claws glinting with a malevolent, greenish sheen that hints at the corruption they carry. The bone claws are cold to the touch, yet emit an eerie, pulsating energy that can infect any who are too careless in their proximity."
+  },
+  "Faerie_Delicate_Arms": {
+    "tags": [
+      "Arms",
+      "Faerie",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Snatch"
+    ],
+    "description": "The Faerie Delicate Arms are slender and ethereal, shimmering with an otherworldly glow that shifts between hues of emerald and sapphire. Their surface is as smooth as dragon scales, yet they possess the grace and dexterity of a faerie, allowing the wielder to charm and disarm with a delicate gesture."
+  },
+  "Ancient_Titan_Arms": {
+    "tags": [
+      "Arms",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare",
+      "Slam"
+    ],
+    "description": "The Ancient_Titan_Arms are colossal limbs, clad in scales that shimmer with the hues of twilight, their joints creaking ominously with latent power. When wielded, they grant the user an overwhelming presence, capable of seizing foes with crushing grip and delivering devastating blows that ripple through the air with a force akin to a dragon's wrath."
+  },
+  "Wyvern_Wing_Arm_Hybrid": {
+    "tags": [
+      "Arms",
+      "Wyvern",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk",
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce",
+      "Flight",
+      "Rake"
+    ],
+    "description": "The Wyvern_Wing_Arm_Hybrid is a grotesque yet mesmerizing fusion of membranous wings and sinewy limbs, capable of both graceful gliding and devastating slashes, its talon-tipped fingers and powerful muscles granting both aerial prowess and ground-based ferocity."
+  },
+  "Hatchling_Small_Claws": {
+    "tags": [
+      "Arms",
+      "Hatchling",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "Tiny yet sharp claws, resembling those of a newborn dragon, curl and uncurl with a restless energy. Their surface is cold to the touch, and when employed in a swipe, they leave behind a trail of chilling wind, granting a swift edge to any agile user."
+  }
+}

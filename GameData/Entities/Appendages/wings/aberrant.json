@@ -1,0 +1,336 @@
+{
+  "Chitin_Bat_Wings": {
+    "tags": [
+      "Wings",
+      "Chitin",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Chitin_Bat_Wings are a pair of dark, glossy chitin membranes that sprout from the spine, ending in sharp, clawed tips. They pulse faintly with an otherworldly glow, granting the wielder unparalleled agility and the ability to soar through the night sky with eerie grace."
+  },
+  "Eldritch_Wing_Void": {
+    "tags": [
+      "Wings",
+      "Void",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Eldritch_Wing_Void resembles a pair of malformed, obsidian-black wings that pulse with an otherworldly, void-like energy, granting the bearer the ability to glide silently through the night while siphoning life force from unsuspecting prey."
+  },
+  "Beholder_Float_Wings": {
+    "tags": [
+      "Wings",
+      "Beholder",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Petrify"
+    ],
+    "description": "Emerging from the beholder's bulbous central eye socket, these translucent, veined wings pulse with an eerie, violet light, allowing the creature to hover menacingly in the air as it fixes its unblinking gaze upon its prey, ready to unleash a paralyzing stare."
+  },
+  "Tentacle_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Tentacle",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Glide",
+      "Flight"
+    ],
+    "description": "The Tentacle_Membrane_Wings are a grotesque amalgamation of pulsating, chitinous membranes and writhing, barbed tentacles that twitch and flex with a life of their own, allowing the bearer to glide and even soar through the air with unsettling grace while extending their reach and enhancing their agility."
+  },
+  "Necrotic_Decay_Wings": {
+    "tags": [
+      "Wings",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "Necrotic_Decay_Wings are tattered and leathery, with veins that pulse with an eerie green glow, and they emit a sickly sweet odor that can induce fear in those who draw too close. As the wings flap, they leave behind a trail of noxious fumes and withered leaves, granting the bearer both the ability to glide silently through the air and resist the creeping grip of disease."
+  },
+  "Parasite_Spore_Wings": {
+    "tags": [
+      "Wings",
+      "Parasite",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Swarm",
+      "Flight"
+    ],
+    "description": "Emerging from the chitin exoskeleton of the Parasite_Spore_Wings are translucent wings tinged with a sickly green hue, pulsating with an eerie bioluminescence that casts an unsettling glow in the darkness. Each wing carries a cluster of spore sacs that release a choking cloud of virulent spores when agitated, granting the bearer the ability to spread debilitating diseases while allowing them to glide silently through the night sky."
+  },
+  "Deep_Sea_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Glide",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Swim"
+    ],
+    "description": "The Deep_Sea_Glide_Wings are translucent and iridescent, with a texture like wet silk that shifts between shades of deep blue and inky black. These aberrant wings pulse faintly with an otherworldly bioluminescence, allowing the wielder to glide effortlessly through the water or air with a fluid grace that defies the boundaries of both elements."
+  },
+  "Chaos_Mutation_Wings": {
+    "tags": [
+      "Wings",
+      "Chaos",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Blood Frenzy"
+    ],
+    "description": "Emerging from a twisted fusion of shadow and flame, the Chaos_Mutation_Wings are malformed, writhing appendages that pulse with erratic energy, granting their bearer both the ability to soar through the skies and plunge into primal bloodlust, while enhancing their resilience and agility."
+  },
+  "Acid_Mist_Wings": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Flight"
+    ],
+    "description": "Emerging from a twisted amalgamation of chitin and translucent membranes, the Acid_Mist_Wings shimmer in an eerie, corrosive sheen, their delicate appearance belied by the caustic mist that swirls ominously within, ready to be unleashed upon unsuspecting foes."
+  },
+  "Titan_Heavy_Wings": {
+    "tags": [
+      "Wings",
+      "Titan",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "The Titan_Heavy_Wings are vast, leathery appendages that span an immense breadth, each wing adorned with jagged, metallic-like scales that shimmer in the dim light of the abyss. These wings, a grotesque amalgamation of natural and aberrant elements, grant the bearer both a fearsome aerial presence and the ability to crush enemies with powerful body slams, reflecting the raw strength and resilience of a fallen titan."
+  },
+  "Mind_Flayer_Dark_Wings": {
+    "tags": [
+      "Wings",
+      "Psion",
+      "Aberrant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Flight"
+    ],
+    "description": "Dark_Wings are a haunting sight, veiling the form of their host with a pair of obsidian wings that seem to pulse with an inner, malevolent intelligence, granting the host the ability to fly and unleash devastating mental attacks."
+  },
+  "Bone_Skeleton_Wings": {
+    "tags": [
+      "Wings",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "Tattered wings of bleached bone sprout from the creature's back, their unnatural structure creaking with an otherworldly whisper as they flap, casting an eerie shadow that sends a chill through the observer's heart. The wings' movement is accompanied by a palpable aura of dread, making those nearby feel an overwhelming sense of impending doom."
+  }
+}

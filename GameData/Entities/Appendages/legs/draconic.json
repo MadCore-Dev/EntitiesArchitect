@@ -1,0 +1,329 @@
+{
+  "Crushing_Drake_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Crushing",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Trample"
+    ],
+    "description": "The Crushing Drake Hindlimbs are massive, scaled appendages that end in razor-sharp talons, capable of rending stone and flesh alike. Each step resonates with the earth, a testament to their immense strength and stability, while the draconic muscles ripple beneath the tough, knobby scales, ready to unleash devastating force with a simple stomp or trample."
+  },
+  "Swift_Aerial_Hindlimbs": {
+    "tags": [
+      "Legs",
+      "Swift",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Pounce"
+    ],
+    "description": "Emerging from a tangle of dark, leathery scales, the Swift_Aerial_Hindlimbs are disproportionately long and powerful, ending in wickedly sharp talons. With each movement, they ripple with an otherworldly grace, propelling the bearer through the air with the effortless glide of a dragon, while on the ground, they grant a burst of speed and agility, perfect for ambush and rapid escape."
+  },
+  "Aquatic_Flipper_Legs": {
+    "tags": [
+      "Legs",
+      "Flipper",
+      "Draconic",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Walk",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the depths, Aquatic_Flipper_Legs are sleek and sinuous, their scales shimmering with an iridescent hue that shifts with the light, blending draconic elegance with the fluid grace of a sea creature. Each step on land is a testament to their adaptability, with sturdy yet flexible joints that grant a player both the speed and agility of a land dweller and the effortless glide of a flipper through water."
+  },
+  "Fire_Hardened_Legs": {
+    "tags": [
+      "Legs",
+      "Fire",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stability"
+    ],
+    "description": "Enveloped in a perpetual sheen of molten red scales, the Fire_Hardened_Legs exude an aura of intense heat and resilience, each step leaving smoldering tracks in the earth as they stabilize the bearer amidst the most volatile of infernos."
+  },
+  "Frost_Ice_Legs": {
+    "tags": [
+      "Legs",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed",
+      "Stability"
+    ],
+    "description": "Branched with icy ridges that resemble frozen draconic scales, Frost_Ice_Legs glisten in the dim light, their surface cold enough to numb the touch of any who dare to run their fingers along them. These legs provide an unwavering stability and sure-footedness, even on the iciest, most treacherous surfaces, granting the bearer a robust resistance to the chill and an enhanced physical strength."
+  },
+  "Undead_Bone_Legs": {
+    "tags": [
+      "Legs",
+      "Undead",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Stomp"
+    ],
+    "description": "The Undead_Bone_Legs are petrified remnants of draconic might, clad in chitinous armor and gnarled bone that crackles with dark energy. Each step resonates with a low, ominous hum, and the legs grant an eerie resilience against disease and the burden of pain, empowering the wielder to unleash devastating stomps that can crush the unwary."
+  },
+  "Shadow_Stalker_Legs": {
+    "tags": [
+      "Legs",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Soft Step"
+    ],
+    "description": "The Shadow_Stalker_Legs are sleek and sinuous, covered in iridescent scales that shimmer between deep blacks and inky blues, allowing the wearer to blend seamlessly into the darkness. Each step feels as if walking on air, with a whisper of movement that leaves no trace, perfect for silently stalking prey or slipping away unnoticed."
+  },
+  "Faerie_Light_Legs": {
+    "tags": [
+      "Legs",
+      "Faerie",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Sprint"
+    ],
+    "description": "The Faerie_Light_Legs shimmer with an otherworldly glow, their delicate yet resilient scales shifting between hues of iridescent blue and green. As you move, the legs seem to pulse with a faint, ethereal light, allowing for swift, almost weightless sprints and effortless hovering over the ground."
+  },
+  "Ancient_Titan_Legs": {
+    "tags": [
+      "Legs",
+      "Titan",
+      "Draconic",
+      "Elder"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stability",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Earthquake",
+      "Trample"
+    ],
+    "description": "The Ancient_Titan_Legs are colossal, serpentine limbs encased in scales of obsidian and brass, their joints creaking with the weight of eons. Each step causes the ground to tremble, the sheer force capable of leveling stone and sending enemies fleeing in terror."
+  },
+  "Lightning_Spark_Legs": {
+    "tags": [
+      "Legs",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Shock Touch"
+    ],
+    "description": "The Lightning_Spark_Legs are sinuous and muscular, shimmering with an electric blue aura that crackles and hums with latent power. Each step creates a small explosion of static electricity, and the legs can propel the user at incredible speeds, leaving a trail of crackling lightning in their wake."
+  },
+  "Wyvern_Talon_Strike_Legs": {
+    "tags": [
+      "Legs",
+      "Wyvern",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Pounce"
+    ],
+    "description": "Beneath the rugged scales and sinewy muscles of the Wyvern_Talon_Strike_Legs, sharp talons dig into the ground with each powerful stride, ready to rake and pounce with devastating agility and strength."
+  },
+  "Hatchling_Nimble_Legs": {
+    "tags": [
+      "Legs",
+      "Hatchling",
+      "Draconic"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "Sprouting from a tiny but sturdy hatchling's body, the Nimble Legs are delicate yet powerful, covered in a fine layer of iridescent scales that shimmer in the light. Each step exudes an otherworldly grace and swiftness, hinting at the incredible speed and agility that these legs will one day wield in full force."
+  }
+}

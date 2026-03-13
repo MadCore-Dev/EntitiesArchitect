@@ -1,0 +1,272 @@
+{
+  "Sucker_Bearing_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Sucker",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Suction Grip"
+    ],
+    "description": "The Sucker_Bearing_Tentacle is a sinuous appendage, its segmented length ending in a series of powerful, rubbery suckers that can grip onto surfaces with unyielding force, granting its bearer both an enhanced reach and the ability to ensnare foes effortlessly."
+  },
+  "Hooked_Sucker_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Hooked",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Iron Grip",
+      "Ensnare"
+    ],
+    "description": "The Hooked_Sucker_Tentacle is a sinuous, writhing appendage covered in rubbery suckers that cling with an unyielding grip, ending in sharp, curved hooks that can pierce even the toughest armor, granting its wielder an ominous aura of entrapment and dominance."
+  },
+  "Venomous_Pierce_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Venomous",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous_Pierce_Tentacle is a sinuous appendage, slick and cold to the touch, ending in a sharp, needle-like tip that glimmers faintly with a toxic green hue, capable of injecting a debilitating venom upon contact."
+  },
+  "Constricting_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Constricting",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "The Constricting_Tentacle is a sinuous, chitinous appendage that writhes with an unsettling vitality, its suckers clinging and squeezing with relentless strength, capable of ensnaring and immobilizing prey with terrifying efficiency."
+  },
+  "Electric_Discharge_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Tentacle is a serpentine appendage, its surface crackling with blue and purple lightning as it writhes and twists, capable of extending several feet beyond its normal length to deliver a paralyzing shock with even the slightest touch."
+  },
+  "Ink_Spraying_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Ink",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ink Cloud"
+    ],
+    "description": "The Ink_Spraying_Tentacle is a sinuous appendage, pulsating with dark, viscous fluid that it can expel at will to create a dense, obscuring cloud, perfect for evasion and ambush."
+  },
+  "Bioluminescent_Lure_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Tentacle is a sinuous, iridescent appendage that undulates with a mesmerizing glow, drawing prey towards its paralyzing embrace; its touch is both cold and numbing, freezing the mind and body in place as tendrils of light weave around the victim."
+  },
+  "Acid_Spraying_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spraying_Tentacle is a writhing mass of translucent, gelatinous flesh, ending in a bulbous, pulsating tip that can expel a jet of corrosive acid capable of dissolving steel on contact. Its slimy surface feels cold and slick to the touch, and it constantly twitches and squirms, eager to lash out and spray its deadly payload."
+  },
+  "Chromatophore_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Sinuous and translucent, the Chromatophore_Tentacle pulsates with shifting hues and patterns, allowing the wielder to blend seamlessly with their surroundings, rendering them nearly invisible in moments of need."
+  },
+  "Elongated_Hunting_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Elongated",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Ensnare"
+    ],
+    "description": "The Elongated Hunting Tentacle is a sinuous, translucent appendage that writhes with an unsettling vitality, its suckers lined with tiny, sharp teeth that grip and pull with unyielding strength, extending the wielder's reach and enhancing their agility in the midst of battle."
+  },
+  "Necrotic_Drain_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "The Necrotic_Drain_Tentacle is a withered, black appendage that writhes with an unnatural life, its surface slick and cold to the touch, capable of absorbing the life force from nearby beings, leaving a trail of eerie silence and pallor in its wake."
+  },
+  "Magnetic_Sensory_Tentacle": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Magnetic_Sensory_Tentacle is a writhing, darkly iridescent appendage that hums with an otherworldly static, capable of sensing the subtle vibrations and magnetic fields of the environment, granting its bearer an uncanny awareness of their surroundings."
+  }
+}

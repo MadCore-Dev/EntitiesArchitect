@@ -1,0 +1,319 @@
+{
+  "Fire_Eruption_Arms": {
+    "tags": [
+      "Arms",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Slam",
+      "Burn"
+    ],
+    "description": "The Fire Eruption Arms are a pair of sinewy yet powerful limbs, each muscle pulsating with an inner heat that causes the air around them to shimmer. Their fingertips are tipped with jagged, obsidian-like nails, and a constant aura of low, flickering flames dances along their surface, ready to erupt into a devastating inferno at the slightest provocation."
+  },
+  "Water_Tendril_Arms": {
+    "tags": [
+      "Arms",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "The Water_Tendril_Arms are long, sinuous limbs that resemble writhing, translucent tentacles, each one shimmering with the fluidity of water and capable of coiling around foes with lethal precision, their touch both chilling and suffocating as they employ their natural abilities to grapple, ensnare, and constrict."
+  },
+  "Stone_Crushing_Fists": {
+    "tags": [
+      "Arms",
+      "Earth",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Stomp",
+      "Slam",
+      "Block"
+    ],
+    "description": "The Stone_Crushing_Fists are massive, knotted appendages covered in rough, stony scales that resonate with the power of the earth itself, granting the wielder immense strength and the ability to channel seismic energy into devastating blows or defensive barriers."
+  },
+  "Wind_Gust_Arms": {
+    "tags": [
+      "Arms",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback"
+    ],
+    "description": "Wind_Gust_Arms appear as slender, translucent limbs composed of swirling, silver-blue mist that seem to constantly shift and dance. When the arms move, they generate powerful gusts of wind, capable of knocking foes back with the force of a hurricane, while the wearer feels a surge of agility and reach that allows them to strike from unexpected angles and maintain distance from their enemies."
+  },
+  "Lightning_Plasma_Strike_Arms": {
+    "tags": [
+      "Arms",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Lightning Bolt"
+    ],
+    "description": "The Lightning Plasma Strike Arms are skeletal appendages that crackle with electric blue energy, their bones seeming to pulse and resonate with the hum of an impending storm. When wielded, they extend slightly beyond the wielder's normal reach, allowing for devastating, electrifying strikes that leave opponents both stunned and charred."
+  },
+  "Ice_Frost_Arms": {
+    "tags": [
+      "Arms",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Slam"
+    ],
+    "description": "Enveloped in a perpetual frost, the Ice Frost Arms are slender yet formidable, their pale blue skin shimmering with a faint aura of cold energy. When wielded, they emit a chilling breeze that can slow an enemy's movements and potentially freeze them solid with a direct hit, while their extended reach allows for powerful, crushing slams that deal significant cold damage."
+  },
+  "Shadow_Drain_Arms": {
+    "tags": [
+      "Arms",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Drain_Arms are sinuous and obsidian-black, their skin like flowing darkness that seems to absorb light, granting the wielder unparalleled stealth and reach. When extended, these arms pulse with an eerie, shadowy energy, capable of draining life force and stealthily ensnaring prey from the shadows."
+  },
+  "Acid_Ooze_Tendrils": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare"
+    ],
+    "description": "The Acid Ooze Tendrils are long, writhing appendages that ooze and stretch, their surface slick and constantly shifting, emitting a faint hiss as they secrete corrosive acid. When extended, these tendrils can ensnare foes with a slimy grip, holding them in place while the wielder sprays acid to wear away at armor and flesh alike."
+  },
+  "Lava_Magma_Smash": {
+    "tags": [
+      "Arms",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Slam",
+      "Knockback"
+    ],
+    "description": "The Lava_Magma_Smash arm is a molten nightmare, its sinuous muscles writhing with liquid fire that crackles and pops, emitting a constant stream of heat and noxious fumes. Each flex of its fingers sends tremors through the ground, and the air around it shimmers with the intense heat, making it nearly impossible to approach without suffering burns or being repelled by a sudden burst of fiery energy."
+  },
+  "Nature_Root_Arms": {
+    "tags": [
+      "Arms",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "Twisted and gnarled, the Nature_Root_Arms emerge from the ground like ancient vines, their bark-like skin covered in moss and small, sharp thorns that itch and scratch at anything they touch. With a strength that belies their seemingly frail appearance, these arms can ensnare and constrict foes with an unyielding grip, dragging them closer to the earth's embrace."
+  },
+  "Time_Phase_Arms": {
+    "tags": [
+      "Arms",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Slow"
+    ],
+    "description": "The Time_Phase_Arms are ghostly pale, with joints that seem to pulse with the flow of time itself, creating a shimmering aura around them. When wielded, they allow the user to blur between moments with a grace that defies the usual constraints of reality, granting them the power to both escape danger and stall their foes in moments of crisis."
+  },
+  "Sand_Grit_Arms": {
+    "tags": [
+      "Arms",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blinding Sandstorm",
+      "Gust"
+    ],
+    "description": "Sand_Grit_Arms are a pair of sinewy limbs sheathed in a shifting layer of fine, razor-sharp sand that crackles with elemental energy, granting the user unparalleled agility and the ability to summon devastating gusts and blinding sandstorms."
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "Wraith_Shadow_Wings": {
+    "tags": [
+      "Wings",
+      "Wraith",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Ambush",
+      "Invisibility"
+    ],
+    "description": "The Wraith_Shadow_Wings are ethereal, almost non-existent to the naked eye, with a faint, cold aura that seems to absorb the light around them. They grant the user the ability to slip through the shadows unseen, their touch chilling the air and occasionally drawing the life force from those who dare to approach too closely."
+  },
+  "Banshee_Wail_Wings": {
+    "tags": [
+      "Wings",
+      "Banshee",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Scream",
+      "Fear"
+    ],
+    "description": "Banshee_Wail_Wings are gossamer-thin, iridescent wings that shimmer with an otherworldly glow, their edges rippling like water as if caught in an eternal scream. When activated, they emit a chilling aura that instills fear in the hearts of nearby foes, causing them to tremble and hesitate."
+  },
+  "Lich_Bone_Wings": {
+    "tags": [
+      "Wings",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Fear",
+      "No Pain"
+    ],
+    "description": "Translucent wings of bleached bone stretch out from the creature's back, each feather a delicate lattice of spectral energy that hums with arcane power, granting the bearer the ability to soar through the skies and instill fear in the hearts of the living, while rendering them immune to the agony that would normally accompany such grievous wounds."
+  },
+  "Ghost_Mist_Wings": {
+    "tags": [
+      "Wings",
+      "Ghost",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Hover",
+      "Invisibility",
+      "Fear"
+    ],
+    "description": "Gossamer wings of translucent, swirling mist emerge from the user's back, their ethereal form shimmering and shifting like a nightmare caught in a waking dream. The wings are silent, capable of deft hovering and sudden vanishing, and emit an eerie aura that instills dread in those who glimpse them."
+  },
+  "Revenant_Dark_Wings": {
+    "tags": [
+      "Wings",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear",
+      "No Pain"
+    ],
+    "description": "Revenant_Dark_Wings are ghostly appendages, translucent and tattered, that emit a chilling aura of sorrow and malice, granting their bearer the ability to glide silently through the night while instilling fear in the hearts of the living and ignoring the agony of wounds."
+  },
+  "Shadow_Silent_Wings": {
+    "tags": [
+      "Wings",
+      "Shadow",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Shadow_Silent_Wings are ghostly appendages, translucent and obsidian-black, that emit an eerie, cold aura. They pulse faintly with the faint whispers of fear and malevolence, allowing the wielder to glide silently through the darkest shadows, unseen and unheard, ready to strike from the void of night."
+  },
+  "Soul_Devourer_Wings": {
+    "tags": [
+      "Wings",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "Soul_Devourer_Wings are ghostly, semi-transparent wings that shimmer with an eerie, pulsating glow, their edges flickering with the essence of countless souls they have consumed, granting the wielder the ability to drain life and paralyze foes with a mere touch of their spectral feathers."
+  },
+  "NightHag_Crone_Wings": {
+    "tags": [
+      "Wings",
+      "NightHag",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Charm",
+      "Fear"
+    ],
+    "description": "Crimson, ethereal membranes stretch between gnarled, twisted bones, the wings of a NightHag crone pulsate with an otherworldly energy, casting an unsettling aura that can both terrify and mesmerize all who gaze upon them."
+  },
+  "Wisp_Surge_Wings": {
+    "tags": [
+      "Wings",
+      "Wisp",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Paralyze"
+    ],
+    "description": "The Wisp_Surge_Wings are delicate and ethereal, shimmering with a faint, ghostly glow that seems to shift and change like a living shadow. When equipped, these spectral wings grant an otherworldly grace, allowing the wielder to soar through the air with preternatural agility and weave through obstacles with ease, while the faint, chilling touch of paralyzing energy emanates from their edges."
+  },
+  "Specter_Dark_Wings": {
+    "tags": [
+      "Wings",
+      "Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Specter_Dark_Wings are ghostly, translucent wings that emit an eerie, perpetual chill, their edges shimmering with malevolent energy. As they flap silently through the air, they cast an unnerving shadow that instills fear in the hearts of those who witness them, while their touch saps warmth and vitality."
+  },
+  "Phantom_Whisper_Wings": {
+    "tags": [
+      "Wings",
+      "Phantom",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Fear"
+    ],
+    "description": "Phantom_Whisper_Wings are ghostly appendages that shimmer like moonlit mist, their delicate bones barely visible as they flutter silently in the air, granting the wielder the eerie ability to charm and instill fear, while enhancing their agility and charisma."
+  },
+  "Arch_Specter_Ancient_Wings": {
+    "tags": [
+      "Wings",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Hover",
+      "Drain",
+      "Madness Aura",
+      "Magic Resistance",
+      "Fear"
+    ],
+    "description": "The Arch_Specter_Ancient_Wings are transparent, yet iridescent wings that pulse with a haunting, spectral glow, allowing their bearer to glide silently through the air and hover in place with eerie precision. When fully extended, the wings emit an aura of creeping dread, causing fear and madness in the hearts of those who gaze upon them, while their magic-resistant nature provides a shield against arcane attacks."
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "Sonar_Emitter_Nostrils": {
+    "tags": [
+      "Nose",
+      "Sonar",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight"
+    ],
+    "description": "The Sonar_Emitter_Nostrils are a pair of intricate, chiropteran nostrils that pulse with an eerie, bioluminescent glow, allowing the creature to emit and receive ultrasonic waves that pierce the veil of darkness, granting unparalleled echolocation and blindsight abilities."
+  },
+  "Leaf_Nose_Emitter": {
+    "tags": [
+      "Nose",
+      "Leaf_Nose",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Tracking"
+    ],
+    "description": "The Leaf_Nose_Emitter is a delicate, translucent organ that sprouts from the center of the forehead, pulsating with an eerie green glow as it emits high-frequency clicks that resonate through the environment, allowing the user to pinpoint the exact location and movements of any living creature within a hundred meters."
+  },
+  "Horseshoe_Nose_Leaf": {
+    "tags": [
+      "Nose",
+      "Horseshoe",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Horseshoe Nose Leaf is a delicate yet robust structure, resembling the intricate horseshoe shape of a bat's nose, covered in fine, velvety chiropteran leaf scales that seem to pulse with an otherworldly sensitivity, granting the user unparalleled echolocation and blindsight capabilities."
+  },
+  "Blood_Scent_Nares": {
+    "tags": [
+      "Nose",
+      "Blood_Scent",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Blindsight"
+    ],
+    "description": "The Blood_Scent_Nares, a grotesque yet efficient sensory organ, resembles elongated, flexible nostrils tipped with sharp, barbed spines that can detect the faintest trace of blood from miles away, even through thick barriers of earth and stone. Its texture is cold and rubbery, pulsing faintly with an inner glow as it vibrates with the subtlest shifts in the air, granting its bearer an uncanny ability to track prey and navigate the darkest of realms with ease."
+  },
+  "Chemosensory_Fruit_Nares": {
+    "tags": [
+      "Nose",
+      "Fruit",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Chemosensory Fruit Nares is a grotesque yet mesmerizing organ, resembling a cluster of oversized, pulsating fruits fused into a single, intricate structure that serves as a highly sensitive nose, capable of detecting the faintest of scents across vast distances. Its surface is covered in delicate, translucent membranes that vibrate subtly as it processes the surrounding aromas, granting an unparalleled sense of awareness to its bearer."
+  },
+  "Wrinkled_Nose_Complex": {
+    "tags": [
+      "Nose",
+      "Wrinkled",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Wrinkled_Nose_Complex is a leathery, bat-like appendage that flaps and twitches with the slightest movement, its intricate wrinkles contracting and expanding to capture the faintest sound, granting unparalleled echolocation abilities and a keen awareness of one's surroundings."
+  },
+  "Disease_Carrier_Nares": {
+    "tags": [
+      "Nose",
+      "Diseased",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Disease_Carrier_Nares resembles a chiropteran nose, elongated and bat-like, with a moist, almost luminous black membrane that pulsates with a sickly glow. It emits a faint, eerie whisper that can instill fear, and its surface is cold to the touch, as if it harbors a chill that could spread like a creeping plague."
+  },
+  "Pheromone_Colony_Nares": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the chiropteran anatomy, the Pheromone_Colony_Nares resembles a dark, intricate labyrinth of delicate, iridescent membranes that pulse with a bioluminescent glow, exuding a complex array of pheromones that can influence emotions and behavior, while also granting the wielder an uncanny ability to track and follow scents with unparalleled precision."
+  },
+  "Infrared_Pit_Organ_Nares": {
+    "tags": [
+      "Nose",
+      "Infrared",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the recesses of the creature\u2019s chiropteran nose, the Infrared_Pit_Organ_Nares glows with a faint, ethereal heat, allowing for unparalleled navigation and perception in the darkest and most obscured environments."
+  },
+  "Cave_Adapted_Compact_Nares": {
+    "tags": [
+      "Nose",
+      "Cave",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Cave_Adapted_Compact_Nares are small, leathery nostrils that can flare wide, allowing the user to detect even the faintest traces of scent in the darkest, most oppressive underground environments. These compact nares vibrate subtly, amplifying auditory signals to aid in tracking prey or threats through the silence of the caverns."
+  },
+  "Noseleaf_Slit_Emitter": {
+    "tags": [
+      "Nose",
+      "Slit",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation"
+    ],
+    "description": "The Noseleaf_Slit_Emitter is a delicate yet formidable appendage, resembling a pair of narrow, vertical slits set within a fleshy, bioluminescent pad that protrudes from the forehead, pulsing with an eerie, ultrasonic glow as it emits focused sound waves for unparalleled echolocation, enhancing one's perception of the environment to pinpoint accuracy."
+  },
+  "Vestigial_Stub_Nares": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Chiropteran"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Stub_Nares appears as a pair of small, barely noticeable nubs on the forehead, resembling vestigial remnants of a nose. These stubs pulsate faintly in the dark, granting an eerie, heightened awareness of nearby sounds and movements, enhancing one's perception in the shadows."
+  }
+}

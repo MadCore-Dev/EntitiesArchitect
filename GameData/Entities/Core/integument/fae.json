@@ -1,0 +1,292 @@
+{
+  "Flower_Blossom_Skin": {
+    "tags": [
+      "Integument",
+      "Floral",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Flower Blossom Skin is a delicate, yet resilient layer of petals that shifts and changes color with the wearer's emotions, emitting a sweet, hypnotic fragrance that can captivate and charm those around them."
+  },
+  "Bark_And_Vine_Skin": {
+    "tags": [
+      "Integument",
+      "Bark",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Regenerate"
+    ],
+    "description": "The Bark_And_Vine_Skin is a chitin-like exoskeleton fused with twisting vines and rough bark, providing a rugged yet resilient exterior that grants the bearer an innate sense of protection and resilience. The skin\u2019s surface is cool and damp to the touch, and it constantly pulses with the faint green glow of regenerative magic, healing minor wounds and bruises almost instantly."
+  },
+  "Frost_Mote_Skin": {
+    "tags": [
+      "Integument",
+      "Frost",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Charm"
+    ],
+    "description": "The Frost_Mote_Skin is a shimmering, iridescent layer that glistens with tiny, frozen motes that seem to dance and shift with the wearer's movements, casting an eerie, blue glow that enchants and captivates all who gaze upon it."
+  },
+  "Summer_Fire_Skin": {
+    "tags": [
+      "Integument",
+      "Summer",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Intimidate"
+    ],
+    "description": "The Summer_Fire_Skin is a shimmering, iridescent exoskeleton that pulsates with the warm hues of a summer sunset, its surface smooth yet crackling with latent flames that dance along its edges whenever the bearer feels threatened or desirous of charming others."
+  },
+  "Dusk_Shadow_Skin": {
+    "tags": [
+      "Integument",
+      "Shadow",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Charm"
+    ],
+    "description": "The Dusk_Shadow_Skin is a hauntingly beautiful, iridescent layer of flesh that shifts and shimmers with the colors of twilight, allowing the wearer to blend seamlessly into the darkest corners of the forest while their eyes emit a subtle, enchanting glow that captivates observers."
+  },
+  "Iridescent_Gossamer_Skin": {
+    "tags": [
+      "Integument",
+      "Gossamer",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Iridescent_Gossamer_Skin is a diaphanous layer of ethereal material that clings to the body like a second skin, shimmering with hues of the fae realm and granting its bearer the ability to charm and slip into invisibility with the slightest of movements."
+  },
+  "Water_Silk_Kelpie_Skin": {
+    "tags": [
+      "Integument",
+      "Water_Silk",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slip",
+      "Charm"
+    ],
+    "description": "The Water_Silk_Kelpie_Skin is a translucent, shimmering membrane that clings to the body like liquid, its surface rippling with an otherworldly grace. It feels cool and slippery to the touch, with a subtle hum of enchantment that seems to whisper secrets of the fae realm."
+  },
+  "Thorn_Briars_Skin": {
+    "tags": [
+      "Integument",
+      "Thorn",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Block"
+    ],
+    "description": "The Thorn_Briars_Skin is a patchwork of dark, glossy scales that shimmer with an eerie, ethereal light, each scale tipped with sharp, venomous thorns that seem to pulse with a life of their own. The skin feels cold and slightly sticky to the touch, and as it moves, it emits a faint, haunting melody that only certain listeners can hear."
+  },
+  "Moonlit_Silver_Skin": {
+    "tags": [
+      "Integument",
+      "Silver",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Soft Step"
+    ],
+    "description": "The Moonlit_Silver_Skin is a shimmering, ethereal layer of scales that reflect moonlight with an otherworldly glow, each scale pulsating with a faint blue luminescence that seems to hum with fae magic. It grants the bearer an aura of gentle charm, making them irresistible to those who catch sight of their mesmerizing, silver-cast form, and allows them to move as silently as a whisper through the night, leaving no trace behind."
+  },
+  "Ancient_Fae_Gold_Skin": {
+    "tags": [
+      "Integument",
+      "Gold",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Intimidate",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient Fae Gold Skin gleams with an otherworldly luminescence, each scale shifting between hues of molten gold and deep amber, reflecting the ambient light in mesmerizing patterns. Touching it feels like caressing liquid sunlight, warm and soothing, yet the aura of power it emits is unmistakable, making even the bravest of foes hesitate."
+  },
+  "Void_Dark_Unseelie_Skin": {
+    "tags": [
+      "Integument",
+      "Void",
+      "Fae",
+      "Unseelie"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Fear",
+      "Charm"
+    ],
+    "description": "The Void_Dark_Unseelie_Skin is a sleek, iridescent exosuit that seems to shift and ripple with the shadows, its surface cold and slick to the touch, granting the wearer unparalleled stealth and the unsettling ability to instill fear and charm in those who dare to look upon it."
+  },
+  "Rainbow_Chromatic_Skin": {
+    "tags": [
+      "Integument",
+      "Chromatic",
+      "Fae"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Bioluminescence"
+    ],
+    "description": "The Rainbow_Chromatic_Skin is a mesmerizing layer of scales that shimmers with iridescent hues, shifting and dancing as if alive, granting its bearer an ethereal allure and the ability to cast light in the darkest of places."
+  }
+}

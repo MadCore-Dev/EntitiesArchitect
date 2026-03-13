@@ -1,0 +1,332 @@
+{
+  "Domed_Brain_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Domed",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Domed Brain Cephalon is a translucent, gelatinous sphere pulsating with iridescent lights, nestled within a protective cranium adorned with sharp, spiky protrusions. It feels cool and slightly sticky to the touch, and its presence bestows a profound sense of intellect and wisdom, enhancing one's understanding and perception of complex patterns and strategies."
+  },
+  "Extended_Mantle_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Mantle",
+      "Cephalopod",
+      "Squid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ink Cloud"
+    ],
+    "description": "The Extended Mantle Cephalon is a grotesque, bulbous structure with a deep, iridescent sheen, resembling the swollen head of a giant squid. Its surface is slick and cool to the touch, with fine, almost imperceptible tendrils that extend and retract, granting the user unparalleled agility and the ability to release an obscuring ink cloud."
+  },
+  "Nautiloid_Hood_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Hood",
+      "Cephalopod",
+      "Nautiloid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shell Guard"
+    ],
+    "description": "The Nautiloid_Hood_Cephalon is a segmented, spiral-shaped cranium hood that closely resembles an ancient nautiloid shell, its intricate layers providing a natural armor that feels both light and impenetrable, offering a defensive barrier as it subtly adapts to the wearer\u2019s movements."
+  },
+  "Bioluminescent_Lure_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Cephalon is a grotesque yet mesmerizing cephalopod cranium, pulsating with a sickly green light that dances across its surface, drawing in prey with an irresistible allure. Its tentacles, though shriveled and detached from the main body, twitch erratically when activated, emitting a paralyzing neurotoxin that freezes the target in place, allowing the bearer to study their immobilized foe with a chilling fascination."
+  },
+  "Wide_Eyed_Octopod_Head": {
+    "tags": [
+      "Cranium",
+      "Wide",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Wide-Eyed Octopod Head is a grotesque yet mesmerizing sight, with large, bulging eyes that seem to see through the veil of darkness, and supple, tentacle-like appendages that twitch and curl, enhancing the wearer's awareness and agility in the treacherous landscapes of the game world."
+  },
+  "Bulbous_Chromatophore_Head": {
+    "tags": [
+      "Cranium",
+      "Bulbous",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Bulbous Chromatophore Head is a grotesque cephalopod cranium, pulsating with an eerie, shifting glow that can blend seamlessly with the environment, granting the user unparalleled stealth and the ability to charm or intimidate observers."
+  },
+  "Giant_Cephalon_Dome": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Giant Cephalon Dome is a colossal, gelatinous sphere adorned with sharp, calcified tentacles that curl menacingly from its surface, each one pulsing with an eerie bioluminescence that casts an unsettling glow. Its sheer size and the unsettling presence it exudes make it an unparalleled tool for intimidation, while the augmented intellect and increased physical size grant the bearer a formidable presence in any confrontation."
+  },
+  "Deep_Sea_Transparent_Head": {
+    "tags": [
+      "Cranium",
+      "Transparent",
+      "Cephalopod",
+      "Deep_Sea"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Transparent_Head is a hauntingly beautiful cephalopod cranium, translucent and shimmering like the depths of the ocean it hails from, its intricate internal structures visible through the ethereal material, granting the user unparalleled stealth and resilience when delving into the darkest, most pressurized parts of the sea."
+  },
+  "Electroreceptive_Organ_Cephalon": {
+    "tags": [
+      "Cranium",
+      "Electroreceptive",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the gelatinous cranial mass, the Electroreceptive_Organ_Cephalon pulsates with an eerie, electric glow, its tendrils intertwining with the creature\u2019s neural network to provide a heightened awareness of its surroundings through electromagnetic fields, granting it Blindsight and an acute sense of timing."
+  },
+  "Mimic_Adaptive_Head": {
+    "tags": [
+      "Cranium",
+      "Mimic",
+      "Cephalopod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Mimic",
+      "Deception"
+    ],
+    "description": "The Mimic_Adaptive_Head is a grotesque amalgamation of a cephalopod and a humanoid skull, its slick, malleable skin shifting to mimic any facial expression or voice with chilling accuracy, granting its bearer the ability to deceive and manipulate with eerie ease."
+  },
+  "Pointed_Squid_Mantle_Head": {
+    "tags": [
+      "Cranium",
+      "Pointed",
+      "Cephalopod",
+      "Squid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Dart"
+    ],
+    "description": "The Pointed_Squid_Mantle_Head is a chitinous cranium shaped like a cephalopod's mantle, with sharp, pointed edges that seem to slice through the air. Its surface is slick and cool to the touch, granting the wearer unparalleled agility and a swift, darting movement that mimics the elusive nature of its squid-like origins."
+  },
+  "Armoured_Cuttlefish_Head": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Cephalopod",
+      "Cuttlefish"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Armoured_Cuttlefish_Head is a bizarre amalgamation of chitin and cartilage, featuring a sleek, elongated cephalopod head encased in a natural, armor-like shell that grants both defensive capabilities and the uncanny ability to blend into its surroundings, making it nearly invisible in the right light."
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "Coarse_Kangaroo_Pelt": {
+    "tags": [
+      "Fur",
+      "Coarse",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Coarse Kangaroo Pelt is a thick, bristly hide that feels rough to the touch, offering a layer of natural armor against the elements and providing a sense of resilience in the harshest of climates."
+  },
+  "Thick_Wombat_Hide": {
+    "tags": [
+      "Skin",
+      "Thick",
+      "Marsupial",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Thick Wombat Hide is a rugged, sandpaper-textured skin that feels impossibly dense yet supple, providing a layer of natural protection that seems to absorb blunt impacts with a muted thud, leaving wearers feeling invulnerable to heavy blows."
+  },
+  "Cartilaginous_Rump_Plate": {
+    "tags": [
+      "Bone",
+      "Cartilage",
+      "Marsupial",
+      "Wombat"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Cartilaginous Rump Plate is a thick, reinforced layer of cartilage covering the creature's posterior, resembling the hardened hide of a prehistoric beast. It grants a sturdy natural armor that deflects blows with ease, though its weight and rigidity slightly hinder agility."
+  },
+  "Spotted_Quoll_Pelt": {
+    "tags": [
+      "Fur",
+      "Spotted",
+      "Marsupial",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Spotted Quoll Pelt is a dense, sleek coat of fur with intricate black spots on a soft brown base, allowing the wearer to blend seamlessly into the shadows and underbrush, enhancing their ability to move unseen in the wilds."
+  },
+  "Gliding_Patagium_Skin": {
+    "tags": [
+      "Skin",
+      "Membrane",
+      "Marsupial",
+      "Glider"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Gliding_Patagium_Skin is a translucent membrane, stretching taut between elongated forelimbs and hindlegs, allowing the wearer to soar effortlessly through the air with an uncanny grace. Its surface is slightly rough to the touch, providing traction and stability during mid-air maneuvers, though it sacrifices a degree of natural protection for its agility-enhancing properties."
+  },
+  "Striped_Thylacine_Pelt": {
+    "tags": [
+      "Fur",
+      "Striped",
+      "Marsupial",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Striped_Thylacine_Pelt is a dense, coarse fur that shimmers with dark stripes against a sandy background, perfectly blending into shadowy underbrush. When worn, it whispers secrets of the forest, granting the wearer the ability to vanish into the night like a specter, enhancing their stealth with each flicker of moonlight."
+  },
+  "Tasmanian_Devil_Coarse_Hide": {
+    "tags": [
+      "Skin",
+      "Coarse",
+      "Marsupial",
+      "Scavenger"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Tasmanian_Devil_Coarse_Hide is a rugged, matted pelt that bristles with wiry fur, each strand tough enough to deflect minor attacks. Its surface is scarred and weathered, a testament to the relentless survival instincts of its marsupial namesake, and it grants the wearer an innate resilience against both physical harm and the pervasive dangers of disease-ridden environments."
+  },
+  "Waterproof_Aquatic_Pelt": {
+    "tags": [
+      "Fur",
+      "Waterproof",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Waterproof_Aquatic_Pelt is a thick, glossy fur that feels surprisingly soft yet robust to the touch, perfectly adapted to repel water while retaining warmth, with a sleek, silvery sheen that hints at its aquatic origins."
+  },
+  "Marsupial_Pouch_Skin": {
+    "tags": [
+      "Skin",
+      "Pouch",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Marsupial Pouch Skin is a supple, warm layer of membrane and fur that clings to the body, expanding and contracting as needed. It radiates a faint, nurturing heat, providing a safe haven for small creatures or items, and granting the bearer a +2 Constitution bonus for its protective qualities."
+  },
+  "Desert_Adapted_Sparse_Pelt": {
+    "tags": [
+      "Fur",
+      "Desert",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Desert Adapted Sparse Pelt is a thin layer of coarse, sandy-brown fur that shifts subtly in shades to match the ever-changing hues of the desert sands. It feels almost papery to the touch, barely there, yet it absorbs the scorching heat and shields its bearer from the relentless sun, granting an unwavering endurance through the arid wilderness."
+  },
+  "Scent_Gland_Integument": {
+    "tags": [
+      "Skin",
+      "Scent_Gland",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Scent_Gland_Integument is a thick, pelt-like layer of skin dotted with small, raised glands that emit a complex array of pheromones, each one tailored to mark territory, signal danger, or attract prey, enhancing the user's ability to track and understand their environment through smell."
+  },
+  "Toxic_Secretion_Pelt": {
+    "tags": [
+      "Skin",
+      "Toxic",
+      "Marsupial"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Toxic_Secretion_Pelt is a grotesque amalgamation of dark, mottled fur that oozes a viscous, greenish-yellow fluid, constantly pulsing with an eerie, bioluminescent glow. Whenever the pelt is disturbed, it releases a cloud of noxious vapors that can cause nausea and disorientation in those nearby, while the wearer feels a soothing warmth that counters the effects of poison and disease."
+  }
+}

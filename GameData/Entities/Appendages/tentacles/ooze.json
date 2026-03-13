@@ -1,0 +1,316 @@
+{
+  "Acid_Pseudopod_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare",
+      "Corrosion"
+    ],
+    "description": "The Acid Pseudopod Tentacles are long, sinuous tendrils that wriggle and pulse with a nauseating, viscous green fluid, their touch instantly melting through armor and flesh, leaving behind a trail of bubbling acid and a choking cloud of corrosive vapor."
+  },
+  "Engulf_Mass_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Engulf",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Swallow"
+    ],
+    "description": "Viscous and endlessly writhing, the Engulf_Mass_Tentacles are a cluster of translucent, gelatinous appendages that pulse and stretch, capable of enveloping and constricting foes with bone-crushing force before dragging them into the abyssal maw hidden within their depths."
+  },
+  "Necrotic_Drain_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ensnare",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Tentacles are slick, black tendrils that ooze and pulse with a sickly green energy, each one tipped with sharp, necrotic thorns that can latch onto prey with bone-crushing force, drawing life force and spreading rot and disease with every touch."
+  },
+  "Magma_Lava_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Magma",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "Emerging from the depths of a volcanic realm, the Magma_Lava_Tentacles writhe and pulse with a molten energy, their touch searing and their grip unyielding, capable of both ensnaring foes and inflicting devastating burns."
+  },
+  "Ice_Freeze_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ice",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Ensnare"
+    ],
+    "description": "Emerging from the frigid depths, the Ice_Freeze_Tentacles are translucent appendages that shimmer with an eerie blue light, their surface a slick, gelatinous ooze that can instantly chill the air to a numbing frost upon contact."
+  },
+  "Electric_Shock_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Twisting like living shadows, the Electric Shock Tentacles pulse with crackling energy, their slimy, rubbery surface leaving a trail of static as they ensnare prey, ready to deliver a paralyzing shock with even the slightest touch."
+  },
+  "Paralytic_Injector_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Paralytic",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Sting",
+      "Ensnare"
+    ],
+    "description": "Emerging from the creature's gelatinous body, the Paralytic Injector Tentacles are long, sinuous appendages that pulse with a sickly green glow, their surfaces slick with a viscous, numbing ooze that can instantly paralyze prey. When they strike, the tentacles wrap tightly around their target, injecting a dose of their paralytic venom while delivering a painful sting, making escape nearly impossible."
+  },
+  "Spore_Cloud_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Spore",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Ensnare",
+      "Disease Carrier"
+    ],
+    "description": "The Spore_Cloud_Tentacles are long, sinuous tendrils that wriggle and pulse with a sickly green mucus, trailing behind them a cloud of toxic spores that can choke the air and enfeeble those who breathe it. Their touch is slimy and cold, with a vice-like grip that ensnares prey, dragging them into the ooze from which the tentacles emerge."
+  },
+  "Void_Shadow_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Void",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Ensnare"
+    ],
+    "description": "The Void_Shadow_Tentacles are writhing tendrils of dark, viscous ooze that seem to shift and twist in ways that defy the laws of physics, their touch instantly draining warmth and light from their surroundings while granting the wielder unparalleled stealth and the ability to ensnare and ambush prey with eerie precision."
+  },
+  "Gelatin_Sticky_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Gelatin",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Paralysis",
+      "Ensnare"
+    ],
+    "description": "Gelatinous tentacles writhe and contort like living shadows, their surface slick and cold to the touch, capable of tightening around prey with bone-crushing force and secreting a numbing slime that can render victims immobile."
+  },
+  "Ochre_Absorb_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ochre",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The Ochre Absorb Tentacles are a writhing mass of long, slimy tentacles, each one coated in a sickly yellow ooze that hisses and steams when it comes into contact with metal or flesh. They move with a life of their own, coiling and uncoiling, ready to ensnare and drag prey into their abyssal depths, while their touch leaves a lingering sensation of burning and resistance to acid."
+  },
+  "Eldritch_Madness_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Eldritch",
+      "Ooze"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Drain",
+      "Constrict",
+      "Ensnare",
+      "Regenerate"
+    ],
+    "description": "Eldritch Madness Tentacles writhe and squirm like living shadows, their slick, gelatinous surface pulsating with a malevolent energy that induces a creeping sense of dread and confusion in those who gaze upon them. Each tentacle is tipped with sharp, barbed hooks that can ensnare and constrict prey with terrifying efficiency, while the ooze-like substance that coats them grants them an unnerving resilience and the ability to regenerate from even the most grievous wounds."
+  }
+}

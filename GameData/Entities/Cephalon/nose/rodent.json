@@ -1,0 +1,282 @@
+{
+  "Twitching_Vibrissa_Snout": {
+    "tags": [
+      "Nose",
+      "Vibrissae",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Twitching_Vibrissa_Snout is a twitching, sensitive organ covered in long, fine whiskers that quiver and extend with each movement, enhancing the user's ability to track and sense their surroundings with uncanny precision."
+  },
+  "Broad_Chemoreceptive_Snout": {
+    "tags": [
+      "Nose",
+      "Chemoreceptive",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Broad_Chemoreceptive_Snout is a long, flexible appendage covered in fine, sensitive whiskers and moist, leathery skin, capable of detecting the faintest chemical traces in the air, allowing its bearer to track prey or predators with uncanny precision through the most complex of scents."
+  },
+  "Subterranean_Filter_Nares": {
+    "tags": [
+      "Nose",
+      "Filter",
+      "Rodent",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Subterranean Filter Nares, a pair of intricate nasal appendages, glisten with a moist sheen as they filter and purify the tainted air of the underground, allowing the user to breathe easily in noxious environments while enhancing their awareness of their subterranean surroundings."
+  },
+  "Aquatic_Valved_Nares": {
+    "tags": [
+      "Nose",
+      "Valved",
+      "Rodent",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aquatic_Valved_Nares are small, intricate nasal structures with delicate, inward-curving valves that allow the creature to breathe both above and below water with ease, their sleek, moisture-repellent surface providing a silent approach through aquatic environments."
+  },
+  "Pheromone_Detecting_Organ": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Rodent",
+      "Jacobson_Organ"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tracking"
+    ],
+    "description": "Embedded deep within the nasal cavity, this translucent, delicate organ pulsates with an otherworldly glow, capable of detecting and deciphering the complex pheromonal signals of creatures in the dark fantasy realm, enhancing the wielder's perception and wisdom to track their prey or predators with uncanny accuracy."
+  },
+  "Disease_Scent_Receptors": {
+    "tags": [
+      "Nose",
+      "Disease",
+      "Rodent",
+      "Carrion_Scent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "The Disease_Scent_Receptors, a grotesque and twisted appendage that sprouts from the snout of a rodent-like creature, pulsates with an unnatural aura, its surface slick and cold to the touch. This organ, sensitive to the faintest traces of decay and sickness, grants an eerie yet invaluable ability to detect and navigate through the foulest of environments, enhancing the wielder's perception to a superhuman level."
+  },
+  "Elongated_Proboscis_Nose": {
+    "tags": [
+      "Nose",
+      "Proboscis",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking",
+      "Blindsight"
+    ],
+    "description": "The Elongated_Proboscis_Nose is a snakelike appendage, covered in fine, sensitive whiskers that twitch and quiver at the slightest hint of movement or scent, granting the user an uncanny ability to track prey or navigate through the darkest, most cluttered environments with eerie precision."
+  },
+  "Star_Nosed_Sensory_Array": {
+    "tags": [
+      "Nose",
+      "Star_Nosed",
+      "Rodent",
+      "Sensory"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Star-Nosed Sensory Array is a bizarre, fleshy appendage sprouting from the center of a rodent's snout, adorned with twelve elongated, finger-like tendrils tipped with intricate, star-shaped organs that pulse with a faint, bioluminescent glow, allowing the creature to detect even the slightest movements and vibrations in the darkness."
+  },
+  "Vestigial_Collapsed_Nares": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Rodent",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Collapsed_Nares is a shriveled, sunken remnant of a once-functional rodent nose, now flattened against the face like a scarred map of tunnels, enhancing durability but dulling the senses to the world above."
+  },
+  "Aquatic_Chemoreception_Pores": {
+    "tags": [
+      "Nose",
+      "Aquatic",
+      "Chemoreception",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tracking"
+    ],
+    "description": "Tiny, glistening pores line the snout and whiskers, each one twitching subtly as they detect the faintest chemical traces in the water, granting an eerie, almost preternatural awareness of the surrounding environment."
+  },
+  "Necrotic_Lure_Glands": {
+    "tags": [
+      "Nose",
+      "Necrotic",
+      "Rodent",
+      "Lure"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Embedded within the rodent's matted fur, the Necrotic_Lure_Glands emit an eerie, decaying scent that attracts creatures of the night, while pulsating with a sickly green glow that seems to sap the life force of any nearby living being, causing a creeping sense of dread and fear."
+  },
+  "Hyperacute_Murid_Snout": {
+    "tags": [
+      "Nose",
+      "Acute",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush"
+    ],
+    "description": "The Hyperacute Murid Snout is a slender, elongated rodent nose that twitches incessantly, its moist, sensitive whiskers quivering at the slightest hint of movement or scent, granting the bearer an unparalleled awareness of their surroundings and the ability to strike from hidden shadows."
+  }
+}

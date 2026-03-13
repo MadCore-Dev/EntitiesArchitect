@@ -1,0 +1,300 @@
+{
+  "Wraith_Null_Ears": {
+    "tags": [
+      "Ear",
+      "Wraith",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Ambush"
+    ],
+    "description": "Wraith_Null_Ears are insubstantial, almost invisible, with a faint, sickly green glow that pulses in response to the faintest vibrations in the ground. They grant the wearer an eerie, heightened sense of awareness, allowing them to detect the slightest movements and sounds from great distances, while also enhancing their ability to move unseen in the shadows."
+  },
+  "Banshee_Keen_Ears": {
+    "tags": [
+      "Ear",
+      "Banshee",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Scream"
+    ],
+    "description": "These spectral ears, translucent and shimmering with an otherworldly glow, are incredibly sensitive, capable of picking up the faintest whisper or the most subtle rustle in the shadows. They grant an eerie, heightened awareness of one's surroundings, allowing for precise directional tracking of sounds and the unsettling ability to mimic the banshee's wailing scream."
+  },
+  "Lich_Hollow_Ears": {
+    "tags": [
+      "Ear",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Fear"
+    ],
+    "description": "Hollow and ghostly, these spectral ears are translucent and chill to the touch, echoing the silence of the grave. They grant an eerie sense of the earth's trembling, allowing the lich to detect approaching danger and instill dread in living hearts."
+  },
+  "Ghost_Phase_Ears": {
+    "tags": [
+      "Ear",
+      "Ghost",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Ghost_Phase_Ears are translucent appendages that shimmer with an otherworldly, grey-blue hue, their delicate structure allowing them to flicker in and out of the physical plane. They grant an eerie, heightened awareness of the unseen world, making the bearer acutely sensitive to the slightest tremors and enabling them to see through darkness and illusions as if they were not there."
+  },
+  "Revenant_Dead_Ears": {
+    "tags": [
+      "Ear",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "No Pain"
+    ],
+    "description": "The Revenant_Dead_Ears are withered, yet eerily sensitive organs, capable of picking up the faintest tremors and whispers through layers of spectral silence. Their surface is cold and slick, granting the bearer an uncanny awareness of their surroundings and a numbness to pain that borders on detachment."
+  },
+  "Shadow_Void_Ears": {
+    "tags": [
+      "Ear",
+      "Shadow",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Ears are pitch-black and seem to absorb all light around them, making the surrounding area unnaturally dim. They pulse faintly with an otherworldly energy, granting the bearer an uncanny ability to sense minute vibrations and detect hidden threats, while also enhancing their capacity to move unseen in the darkest of shadows."
+  },
+  "Soul_Devourer_Ears": {
+    "tags": [
+      "Ear",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Drain"
+    ],
+    "description": "The Soul_Devourer_Ears are translucent, almost ethereal in appearance, shimmering with an otherworldly glow that shifts between shades of dark violet and sickly green. They are highly attuned to the spectral realm, allowing their owner to track souls and entities beyond the physical world with eerie precision, while also enabling a chilling ability to drain the essence from nearby creatures."
+  },
+  "NightHag_Crone_Ears": {
+    "tags": [
+      "Ear",
+      "NightHag",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Charm"
+    ],
+    "description": "The NightHag_Crone_Ears are wispy, ethereal appendages that shimmer with an eerie, otherworldly glow, their pointed tips quivering as they pick up the faintest whispers of the night, granting the user an uncanny ability to track and charm those who wander the spectral realms."
+  },
+  "Wisp_Energy_Ears": {
+    "tags": [
+      "Ear",
+      "Wisp",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "The Wisp_Energy_Ears are delicate, translucent appendages that pulse with an eerie, ghostly light, allowing the bearer to navigate even the darkest realms with perfect clarity and track distant enemies with uncanny precision."
+  },
+  "Specter_Mist_Ears": {
+    "tags": [
+      "Ear",
+      "Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Fear"
+    ],
+    "description": "The Specter_Mist_Ears are ethereal and translucent, shimmering like morning fog with an otherworldly glow. They twitch and shift in response to the faintest tremors, granting an acute sense of the ground's subtle movements, and they emit a low, unsettling hum that can instill fear in the hearts of those nearby."
+  },
+  "Phantom_Whisper_Ears": {
+    "tags": [
+      "Ear",
+      "Phantom",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Charm"
+    ],
+    "description": "The Phantom_Whisper_Ears are diaphanous and translucent, shimmering in shades of silver and violet. They seem to pulse and shift as if listening to unheard whispers, granting the bearer an uncanny ability to track and charm those around them."
+  },
+  "Arch_Specter_Ancient_Ears": {
+    "tags": [
+      "Ear",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking",
+      "Tremor Sense",
+      "Madness Aura",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Ancient_Ears are ghostly protrusions that seem to pulse with an otherworldly energy, their spectral nature allowing them to detect the faintest whispers of the unseen and the unheard. These ears grant an eerie awareness, enabling their bearer to sense the faint tremors of approaching foes and the subtlest magical disturbances, while also radiating an aura that induces madness in the unwary."
+  }
+}

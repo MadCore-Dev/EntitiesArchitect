@@ -1,0 +1,369 @@
+{
+  "Low_Flat_Predator_Skull": {
+    "tags": [
+      "Cranium",
+      "Flat",
+      "Mustelid",
+      "Predator"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Low_Flat_Predator_Skull, a relic of the deep, shadowy forests, is a sleek, flattened mustelid cranium adorned with razor-sharp teeth and cunning eyesockets. Its surface is cold to the touch, whispering secrets of silent stalking and sudden ambushes, enhancing the wearer's ability to blend into the shadows and strike with lethal precision."
+  },
+  "Broad_Badger_Cranium": {
+    "tags": [
+      "Cranium",
+      "Broad",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "description": "The Broad_Badger_Cranium is a robust, domed skull that bulges with powerful jaw muscles and wide-set, piercing eyes, perfectly adapted for the tunneling lifestyle of its fossorial namesake, granting the wielder an intimidating headbutt attack and bolstering their physical resilience."
+  },
+  "Wolverine_Reinforced_Skull": {
+    "tags": [
+      "Cranium",
+      "Reinforced",
+      "Mustelid",
+      "Heavy"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "No Pain"
+    ],
+    "description": "The Wolverine_Reinforced_Skull is a brutal, jagged piece of bone that pulsates with an inner darkness, its surface dotted with reinforced nodules that provide a natural helmet, granting the bearer unparalleled resilience and the ability to deliver devastating headbutts without feeling the recoil."
+  },
+  "Elongated_Aquatic_Skull": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The elongated aquatic skull, with its sleek, hydrodynamic shape and fine, sharp teeth, feels cold and smooth to the touch, its mustelid-like structure perfectly adapted for silent underwater navigation, enhancing the wearer's stealth and awareness in aquatic environments."
+  },
+  "Compact_Weasel_Cranium": {
+    "tags": [
+      "Cranium",
+      "Compact",
+      "Mustelid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce"
+    ],
+    "description": "The Compact Weasel Cranium is a sleek, elongated skull that seems to pulse with a quiet, cunning energy. Its surface is covered in fine, sharp teeth marks and tiny, intricate carvings that seem to shift subtly, as if the weasel's spirit still dwells within, granting its bearer the agility and predatory swiftness of the mustelid."
+  },
+  "Round_Otter_Braincase": {
+    "tags": [
+      "Cranium",
+      "Rounded",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Round_Otter_Braincase is a sleek, rounded cranium covered in soft, slick fur that glistens underwater, its interior housing an enlarged cerebral cortex that enhances intelligence and perception, allowing its bearer to navigate the complex social hierarchies and intricate aquatic environments with unparalleled ease."
+  },
+  "Saggital_Crested_Skull": {
+    "tags": [
+      "Cranium",
+      "Crested",
+      "Mustelid",
+      "Powerful_Jaw"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch"
+    ],
+    "description": "The Saggital_Crested_Skull is a formidable relic of a mustelid predator, its jagged crest jutting defiantly from the skull like a crown of death, and its powerful jawbones are evident in the pronounced muscle attachments that promise devastating force when the granted skill Crunch is unleashed, bolstering strength by two points."
+  },
+  "Arboreal_Marten_Cranium": {
+    "tags": [
+      "Cranium",
+      "Agile",
+      "Mustelid",
+      "Arboreal"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Arboreal_Marten_Cranium is a sleek, elongated skull with large, soulful eyes set in a nimble frame, exuding a silent agility and an uncanny ability to perceive the world from the treetops, granting its bearer heightened senses and a swift, decisive edge in the hunt."
+  },
+  "Flattened_Streamlined_Skull": {
+    "tags": [
+      "Cranium",
+      "Streamlined",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Flattened_Streamlined_Skull, with its sleek, hydrodynamic shape and sharp, piercing eyes set deep within the skull, grants unparalleled agility and stealth, allowing the wearer to move with deadly grace through both water and shadow."
+  },
+  "Nocturnal_Enlarged_Cranium": {
+    "tags": [
+      "Cranium",
+      "Nocturnal",
+      "Mustelid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Nocturnal Enlarged Cranium, resembling a swollen, obsidian-black skull adorned with sharp, gleaming fangs, grants the user an acute awareness of their surroundings, allowing them to pinpoint the faintest sounds and movements in the dark, enhancing their ability to launch surprise attacks."
+  },
+  "Necrotic_Plague_Skull": {
+    "tags": [
+      "Cranium",
+      "Diseased",
+      "Mustelid",
+      "Necrotic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Necrotic_Plague_Skull is a misshapen mustelid cranium, its surface etched with deep grooves and cracks that seem to pulse with a malevolent energy, exuding a thick, fetid vapor that infects the air with dread and decay, sapping the bearer's charisma and filling the minds of nearby creatures with primal fear."
+  },
+  "Giant_Marine_Mustelid_Cranium": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Mustelid",
+      "Marine"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Giant_Marine_Mustelid_Cranium is a colossal, sleek skull adorned with glistening, iridescent scales that shimmer like the depths of an abyssal sea, its formidable jaws lined with sharp, deadly teeth that evoke a primal sense of dread and awe, enhancing the wearer's presence to command fear and respect."
+  }
+}

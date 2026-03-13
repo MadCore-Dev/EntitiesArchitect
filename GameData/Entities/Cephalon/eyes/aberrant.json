@@ -1,0 +1,297 @@
+{
+  "Multi_Eye_Horror_Eyes": {
+    "tags": [
+      "Eye",
+      "Multi",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear"
+    ],
+    "description": "The Multi-Eye Horror Eyes are a cluster of grotesque, multifaceted orbs that pulse with an eerie, sickly glow, each eye capable of rotating independently to fixate on multiple targets at once. The mere sight of this abomination induces an overwhelming sense of dread and paranoia, while granting unparalleled perception and awareness to its bearer."
+  },
+  "Beholder_Central_Magic_Eye": {
+    "tags": [
+      "Eye",
+      "Beholder",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Petrify",
+      "Blindsight",
+      "Madness Aura"
+    ],
+    "description": "Embedded deep within the bulbous head of the beholder, the Central Magic Eye pulsates with an eerie, violet glow, its surface slick and cold to the touch, radiating a sense of ancient, arcane power that can turn the bravest of hearts to stone with a single, unblinking gaze."
+  },
+  "Acid_Melted_Eyes": {
+    "tags": [
+      "Eye",
+      "Acid",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Corrosion"
+    ],
+    "description": "The Acid-Melted Eyes are a grotesque pair of orbs that seem to weep with a constant stream of viscous, greenish acid, capable of burning through metal and flesh. Their surface is slick and alien, with a bizarre, otherworldly intelligence that seems to leer and judge from behind milky, melted sockets."
+  },
+  "Void_Phase_Eyes": {
+    "tags": [
+      "Eye",
+      "Void",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Fear",
+      "Ambush"
+    ],
+    "description": "The Void_Phase_Eyes are milky black orbs that pulsate with an otherworldly, chaotic energy, their surface rippling like a disturbed pool of ink. The gaze of these eyes can pierce the darkness and the minds of those who dare to look into them, inducing a paralyzing fear that makes prey freeze in place, ripe for an ambush."
+  },
+  "Mind_Flayer_Blank_Eyes": {
+    "tags": [
+      "Eye",
+      "Psion",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Fear"
+    ],
+    "description": "The Mind_Flayer_Blank_Eyes are void-like orbs, pulsating with an eerie, otherworldly glow that seems to absorb light rather than reflect it. They are cold to the touch, emanating a chilling aura that induces a sense of dread and confusion in those who gaze upon them."
+  },
+  "Bioluminescent_Lure_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Bioluminescence"
+    ],
+    "description": "The Bioluminescent_Lure_Eyes are eerie, pulsating orbs that glow with an otherworldly, hypnotic light, their surface shifting and distorting like liquid glass, capable of fixing unwary observers in place with a single, mesmerizing gaze."
+  },
+  "Deep_Sea_Sonar_Eyes": {
+    "tags": [
+      "Eye",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Deep_Sea_Sonar_Eyes are malformed, milky orbs that pulse with an otherworldly glow, emitting a low, constant hum that resonates through the bones of the beholder. The eyes grant an uncanny ability to perceive the world through sound and vibration, allowing the wielder to navigate the darkest, most treacherous depths of the ocean and detect hidden dangers lurking beneath the surface."
+  },
+  "Eldritch_Madness_Eyes": {
+    "tags": [
+      "Eye",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Fear",
+      "Blindsight"
+    ],
+    "description": "The Eldritch_Madness_Eyes are coal-black orbs with swirling patterns of sickly green and purple, pulsating with an otherworldly energy that induces dread and confusion in those who gaze upon them. Their presence grants the bearer an unsettling aura that can instill fear and disorientation in foes, while also enhancing their perception to detect hidden threats in the darkest corners of reality."
+  },
+  "Bone_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Bone",
+      "Aberrant",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the sockets of this creature are hollow eye sockets lined with jagged, milky-white bone, radiating an eerie, otherworldly aura that sends shivers down the spine. The sockets pulse faintly, as if they are constantly searching for signs of fear and weakness in their surroundings, granting an unsettling ability to sense and amplify the terror in others."
+  },
+  "Parasite_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Parasite",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Parasite_Compound_Eyes, a cluster of hundreds of tiny, multifaceted eyes embedded in a fleshy, pulsating mass, grants the bearer an uncanny ability to see in near darkness and detect the slightest movements from all angles, enhancing their stealth and reflexes in the shadows."
+  },
+  "Chitin_Compound_Eyes": {
+    "tags": [
+      "Eye",
+      "Chitin",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Chitin_Compound_Eyes are a cluster of dozens of small, multifaceted eyes embedded in a hard, chitinous casing, each eye glowing with an eerie, bioluminescent light that shifts and dances as the creature moves, granting unparalleled peripheral vision and the ability to spot even the stealthiest of foes from the corner of its sight."
+  },
+  "Chaos_Shifting_Eyes": {
+    "tags": [
+      "Eye",
+      "Chaos",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chaos_Shifting_Eyes are a pair of unsettling orbs that seem to pulse with an inner turmoil, their irises shifting between an array of unnatural colors and patterns. They grant the user the ability to blend into any environment, their gaze becoming a swirling kaleidoscope that matches the surroundings."
+  }
+}

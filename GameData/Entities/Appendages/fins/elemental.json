@@ -1,0 +1,310 @@
+{
+  "Water_Elemental_Fins": {
+    "tags": [
+      "Fins",
+      "Water",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Rudder"
+    ],
+    "description": "Emerging from the depths, the Water Elemental Fins are sleek and iridescent, shimmering with an ethereal glow that hints at the elemental power contained within. When equipped, they grant the user a fluid grace, enhancing their movement through water as if they were a creature of the deep, with each fin stroke propelling them swiftly and silently."
+  },
+  "Sea_Surge_Fins": {
+    "tags": [
+      "Fins",
+      "Sea",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Tidal Wave"
+    ],
+    "description": "The Sea_Surge_Fins are iridescent blue-green appendages that pulse with the rhythmic ebb and flow of the ocean, granting the wielder unparalleled agility in water and the raw power to summon devastating tidal waves, enhancing both their speed and strength."
+  },
+  "Ice_Crystal_Fins": {
+    "tags": [
+      "Fins",
+      "Ice",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Swim"
+    ],
+    "description": "Ice-Crystal Fins are razor-sharp appendages that shimmer with an eerie blue light, their surface as cold as the deepest Arctic waters. When moved through water, they create a chilling aura that slows down nearby foes, while the wearer gains an unmatched grace and speed beneath the waves."
+  },
+  "Lightning_Conduction_Fins": {
+    "tags": [
+      "Fins",
+      "Lightning",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Emerging from the creature's spine are sleek, iridescent fins that pulse with crackling blue energy, their jagged edges quivering with latent power. Whenever the creature moves, the fins seem to hum with an electric charge, ready to unleash a jolt of lightning with a mere touch."
+  },
+  "Shadow_Void_Fins": {
+    "tags": [
+      "Fins",
+      "Shadow",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Shadow_Void_Fins are sleek and iridescent, shifting between deep shadows and void-like darkness, granting their bearer a near-invisible presence in dimly lit environments. The fins pulse subtly with a malevolent energy, enhancing the wearer's agility and reflexes as they move through the shadows, leaving no trace of their passage."
+  },
+  "Acid_Ooze_Fins": {
+    "tags": [
+      "Fins",
+      "Acid",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Emerging from the depths, Acid_Ooze_Fins are grotesque, translucent appendages that glisten with an oily, greenish hue, their surface constantly shifting and bubbling as if alive. When flexed, they emit a faint hiss and a sudden spurt of corrosive acid, capable of melting through most materials, while granting the bearer an eerie resilience to acid attacks and a fluid, almost serpentine movement."
+  },
+  "Nature_Growth_Fins": {
+    "tags": [
+      "Fins",
+      "Nature",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare"
+    ],
+    "description": "Emerging from the creature's back are thick, leathery fins adorned with pulsating green veins, each one capable of spreading a web of entangling vines that ensnare foes with eerie precision. As the creature moves, the fins seem to sway and pulse with the very essence of nature itself, enhancing both its resilience and agility in the untamed wilderness."
+  },
+  "Fire_Steam_Fins": {
+    "tags": [
+      "Fins",
+      "Fire",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burn"
+    ],
+    "description": "Emerging from the depths of a scalding inferno, the Fire_Steam_Fins are translucent red fins that pulse with a heated aura, giving off a faint, eerie glow. Their surface is slick and hot to the touch, with the sensation of steam rising from them as if they were constantly boiling, granting a swift and fiery resilience to any who wield them."
+  },
+  "Lava_Magma_Fins": {
+    "tags": [
+      "Fins",
+      "Lava",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "Emerging from the creature's sides, the Lava_Magma_Fins are writhing tendrils of molten rock that pulse with an inner heat, casting eerie shadows as they shift and twist. Each fin is covered in sharp, jagged edges that radiate intense heat, granting a formidable defense against fire-based attacks while also adding a layer of natural armor."
+  },
+  "Sand_Silt_Fins": {
+    "tags": [
+      "Fins",
+      "Sand",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Lying flat against the skin, these fins are a pale ochre hue, shimmering with grains of sand that shift and move as if alive, granting the bearer unparalleled agility as they navigate through sandy terrains, leaving no tracks behind."
+  },
+  "Air_Bubble_Fins": {
+    "tags": [
+      "Fins",
+      "Air",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover"
+    ],
+    "description": "Gossamer-thin and iridescent, these fins are imbued with the very essence of air, allowing the user to hover gracefully above the ground as if floating on a cushion of pure elemental energy."
+  },
+  "Time_Rift_Fins": {
+    "tags": [
+      "Fins",
+      "Time",
+      "Elemental"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blink"
+    ],
+    "description": "Emerging from the depths of a swirling temporal vortex, the Time_Rift_Fins are translucent, iridescent appendages that ripple and warp with the flow of time itself, granting the wielder the ability to Blink and enhancing their initiative and speed."
+  }
+}

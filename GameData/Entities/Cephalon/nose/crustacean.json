@@ -1,0 +1,247 @@
+{
+  "Antennal_Chemoreception": {
+    "tags": [
+      "Nose",
+      "Antennae",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Emerging from the creature's head, these segmented antennae quiver and twitch, detecting the faintest chemical traces in the air, allowing for an uncanny ability to track and identify creatures from afar, enhancing the user's wisdom and perception in the process."
+  },
+  "Olfactory_Sensillae_Array": {
+    "tags": [
+      "Nose",
+      "Sensillae",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Embedded within the chitinous exoskeleton, the Olfactory_Sensillae_Array resembles a delicate lattice of fine, hair-like structures that quiver and twitch in response to even the faintest scents, amplifying the user's ability to detect and interpret odors from vast distances and through complex layers of aromatic information."
+  },
+  "Chemical_Gradient_Sensors": {
+    "tags": [
+      "Nose",
+      "Gradient",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Scent"
+    ],
+    "description": "Embedded within the chitinous exoskeleton of the creature, these intricate Chemical Gradient Sensors resemble delicate, translucent filaments that flutter and pulse in response to the faintest changes in chemical concentration. Their ethereal glow shifts and dances, guiding the bearer to track scents with unparalleled precision and navigate through environments by detecting subtle gradients invisible to the naked eye."
+  },
+  "Pheromone_Trail_Detectors": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Pheromone Trail Detectors are a pair of elongated, segmented antennae sprouting from the creature's head, each segment shimmering with an iridescent sheen that shifts color based on the pheromone concentrations in the air. They are incredibly sensitive, allowing the bearer to navigate through dark and treacherous environments by following the chemical trails left by other creatures, enhancing their perception and wisdom to unparalleled levels."
+  },
+  "Electrosensory_Nasal_Pit": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's chitinous head, the electrosensory nasal pit glows with a faint, pulsating blue light, allowing it to detect minute electrical signals and navigate through the darkest, most treacherous underwater caverns with eerie precision."
+  },
+  "Aquatic_Chemoreceptive_Pores": {
+    "tags": [
+      "Nose",
+      "Aquatic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded along the creature's antennae and facial plates, these tiny, pulsating pores are highly sensitive to chemical changes in the water, allowing for an uncanny sense of awareness in murky, dark environments. Their texture is slightly gelatinous and quivers subtly as they detect changes in the surrounding water chemistry, granting the user a form of aquatic blindsight."
+  },
+  "Prey_Blood_Trace_Detectors": {
+    "tags": [
+      "Nose",
+      "Predator",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Embedded within the creature's elongated, segmented antennae are intricate, chitinous nostrils that vibrate subtly, filtering out the ambient scents of the forest to pinpoint the faintest trace of prey, no matter how old or faint the scent."
+  },
+  "Carrion_Scent_Nares": {
+    "tags": [
+      "Nose",
+      "Carrion",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Scent"
+    ],
+    "description": "Embedded deep within the leathery, segmented exoskeleton of the creature's head, the Carrion_Scent_Nares resemble gnarled, twisted spirals that catch and analyze the faintest traces of decay and death in the air. Each breath drawn through these nares stirs a maelstrom of sensory input, amplifying the user\u2019s perception to detect and identify even the most subtle odors, guiding them towards the forgotten and forsaken."
+  },
+  "Magnetic_Orientation_Organ": {
+    "tags": [
+      "Nose",
+      "Magnetic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the crustacean's rugged exoskeleton, this organ resembles a sensitive, bioluminescent nub that pulses with an eerie glow, constantly fluctuating in intensity as it detects the planet's magnetic fields, granting the creature an uncanny ability to navigate with pinpoint accuracy through the darkest and most treacherous environments."
+  },
+  "Thermal_Pit_Organ": {
+    "tags": [
+      "Nose",
+      "Thermal",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Thermal Pit Organ is a bulbous, chitinous growth sprouting from the snout, pulsating with an eerie, bioluminescent glow that shifts through shades of red and orange. It grants the bearer an uncanny ability to sense their surroundings through heat signatures alone, even in pitch-black environments, enhancing their perception and reflexes."
+  },
+  "Acid_Resistant_Olfactory_Lining": {
+    "tags": [
+      "Nose",
+      "Acid_Resistant",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the nostrils, this delicate lining resembles a translucent, gel-like membrane with intricate, chitin-reinforced veins that pulse faintly. Its surface is dotted with minute, shimmering crystals that refract light in a mesmerizing pattern, hinting at its innate resilience against corrosive substances."
+  },
+  "Vestigial_Olfactory_Cells": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Crustacean"
+    ],
+    "mods": [],
+    "grants_skills": [],
+    "description": "Embedded deep within the recesses of the creature's segmented exoskeleton, these vestigial olfactory cells resemble tiny, translucent nubs, each pulsating with a faint, bioluminescent glow that hints at their former sensory prowess. Though largely dormant, they retain a tenuous connection to the surrounding environment, occasionally twitching in response to the faintest trace of pheromones or chemical signals, a relic of their crustacean heritage."
+  }
+}

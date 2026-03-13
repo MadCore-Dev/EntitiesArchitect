@@ -1,0 +1,265 @@
+{
+  "Parasitic_Pouch_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Parasitic",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "Emerging from the mutated flesh of the creature\u2019s lower abdomen, the parasitic pouch tendrils are a writhing mass of translucent tentacles, each tipped with a sharp, needle-like organ that can latch onto prey with alarming speed, while the overall structure grants the host an eerie, extended reach and a nimble grace."
+  },
+  "Sensory_Whisker_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Sensory",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Emerging from the creature's fur-lined pouch, these delicate, almost feather-light whisker tendrils quiver and twitch with a life of their own, their fine, sensitive tips able to detect the slightest vibrations in the ground, granting an uncanny awareness of approaching dangers or hidden treasures."
+  },
+  "Adhesive_Capture_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Adhesive_Capture_Tendrils are long, sinuous appendages that coiled and uncoiled with a life of their own, their surface covered in a sticky, almost gelatinous substance that could immobilize any prey or foe with a single touch. When extended, these mutant tendrils grant an eerie reach, allowing their user to ensnare and grapple with terrifying efficiency, their strength amplified to hold even the mightiest adversaries in place."
+  },
+  "Necrotic_Drain_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "The Necrotic_Drain_Tendrils are long, sinuous tentacles that sprout from the creature's back, resembling pale, withered vines. They pulse with a sickly green light, and when they wrap around prey, the tendrils suck the life force from the victim, leaving behind a drained and desiccated husk."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash",
+      "Slash"
+    ],
+    "description": "The Spined_Whip_Tendrils are long, sinuous tentacles that coil and uncoil with deadly precision, covered in sharp, dark spines that reflect the grim light of the lunar wastelands. Each tendril is capable of explosive extension, lashing out with incredible speed and ferocity, leaving deep, bleeding slashes in their wake."
+  },
+  "Acid_Spray_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "Twisting and writhing from the creature's body, the Acid_Spray_Tendrils are long, translucent tentacles that pulse with a sickly green glow, their mucus-covered surfaces slick and slippery to the touch. Each tendril is tipped with a small, bladder-like sac that, when triggered, sprays a corrosive acid capable of melting through metal and flesh alike, leaving behind only a trail of noxious fumes and charred remains."
+  },
+  "Electric_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Sinister electric tendrils writhe and pulse with crackling energy, their serpentine forms coiled tightly around the mutant marsupial\u2019s body, ready to lash out with a paralyzing shock at a moment's notice."
+  },
+  "Vestigial_Proto_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Vestigial",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the edges of the creature's body are thin, fleshy tendrils, vestigial remnants of a bygone evolutionary path, which twitch and curl with an unsettling autonomy, hinting at latent grasping and probing abilities."
+  },
+  "Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Tendrils are a network of flexible, bioluminescent tentacles that sprout from the creature's limbs and torso, each segment capable of shifting through a spectrum of colors and patterns to blend seamlessly with its surroundings, granting exceptional camouflage abilities."
+  },
+  "Bone_Spur_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "Emerging from the creature's sinewy back are a pair of elongated, bone-spurred appendages, resembling dark, twisted tentacles that pulse with a sickly glow, providing an unsettling natural armor while enabling a devastating slam attack with their hooked ends."
+  },
+  "Pheromone_Musk_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Musk",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "Fine filaments of iridescent silk weave through the creature's matted fur, pulsing with an otherworldly glow that seems to hum with latent power. Each filament is imbued with a potent musk that can be finely controlled, wafting through the air to either lure or repel, and granting an uncanny ability to track even the most fleeting of scents."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "Delicate filaments extend from the creature's forelimbs, each strand quivering with an almost imperceptible tremor as they detect subtle vibrations and magnetic fields, granting the creature an eerie awareness of its surroundings in the darkest and most treacherous environments."
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "Sinuous_Mustelid_Killing_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Sinuous",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze",
+      "Pounce"
+    ],
+    "description": "Embedded within the sleek, elongated body of the Sinuous_Mustelid_Killing_Core, this compact and deadly component pulses with an eerie glow, its surface covered in fine, iridescent fur that shifts colors with the merest hint of movement. The core feels warm and alive, humming with latent energy that grants unparalleled flexibility and agility, allowing the wielder to slip through the tightest of spaces and strike with blinding speed, yet its power comes at the cost of a slight reduction in resilience."
+  },
+  "Fossorial_Badger_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fossorial",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Fossorial_Badger_Frame is a compact, sturdy exoskeleton modeled after the resilient badger, featuring thick, durable plates that provide exceptional protection and the ability to tunnel effortlessly through earth and stone. Its powerful limbs, reinforced with iron-like bones, allow for unparalleled digging speed and strength, though at the cost of some agility."
+  },
+  "Wolverine_Juggernaut_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Heavy",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "No Pain"
+    ],
+    "description": "Embedded within the Wolverine_Juggernaut_Core is a dense, muscle-laden chassis that pulses with an inner vitality, its surface marked by scars that hint at countless battles endured without flinching. This core radiates an aura of primal aggression and unyielding resilience, granting its bearer unmatched strength and durability at the cost of agility."
+  },
+  "Hydrodynamic_Otter_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails",
+      "fin_pectoral_left": "Appendages/fins",
+      "fin_pectoral_right": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slide"
+    ],
+    "description": "The Hydrodynamic_Otter_Frame is a sleek, sinuous body component that mimics the form of an otter, its fur glistening with an iridescent sheen that shifts in color with the water's movement. Its limbs are streamlined and powerful, designed for swift, effortless gliding through water, while its tail undulates with a mesmerizing efficiency that enhances both swimming and sliding movements."
+  },
+  "Arboreal_Marten_Spine": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Arboreal",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb",
+      "Acrobatics"
+    ],
+    "description": "The Arboreal Marten Spine is a sleek, flexible component that glistens with a greenish hue, mirroring the dense foliage of its natural habitat. It feels cold and smooth to the touch, yet surprisingly robust, granting unparalleled agility and dexterity, allowing for effortless navigation through the densest of canopies."
+  },
+  "Elongated_Cursorial_Weasel_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Elongated",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Squeeze"
+    ],
+    "description": "The Elongated_Cursorial_Weasel_Core is a sinuous, sleek bundle of muscle and tendon, pulsing with an otherworldly energy that grants its host the uncanny ability to dart through the tightest of spaces and race along the ground with blinding speed, at the cost of a slight frailty."
+  },
+  "Compact_Ambush_Stoat_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Compact",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Pounce"
+    ],
+    "description": "The Compact_Ambush_Stoat_Frame is a sleek, elongated body component that mimics the sinuous form of a stoat, perfectly blending into shadowy corners with its dark, matted fur. Its compact build and agile joints allow for swift, silent movements, granting the user unparalleled stealth and the ability to strike from the most unexpected angles."
+  },
+  "Semiaquatic_Mink_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Semiaquatic",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Ambush"
+    ],
+    "description": "The Semiaquatic Mink Core is a sleek, elongated component pulsating with iridescent blue energy, its surface smooth and slippery like the coat of its namesake. When equipped, it grants a swift and silent presence in water, enhancing the agility and stealth of its bearer, allowing them to move with the grace of a predator through both water and shadow."
+  },
+  "Grison_Plantigrade_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Plantigrade",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Stability"
+    ],
+    "description": "Embedded within the creature's robust midsection, the Grison_Plantigrade_Core glimmers with an ethereal green light, its surface textured with intricate patterns that resemble the veins of a leafy vine intertwined with muscle fibers. This core radiates an aura of stability and resilience, granting the creature enhanced physical prowess and the ability to coordinate movements with allies with uncanny precision."
+  },
+  "Giant_Sea_Mustelid_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/fins",
+      "leg_fore_right": "Appendages/fins",
+      "leg_rear_left": "Appendages/fins",
+      "leg_rear_right": "Appendages/fins",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Deep Dive",
+      "Body Slam"
+    ],
+    "description": "The Giant Sea Mustelid Frame is a colossal, sleek exoskeleton that wraps around the user, mimicking the streamlined form of a marine predator. Its surface is covered in a layer of iridescent, slippery scales that ripple and shift with the water, while powerful limbs designed for swimming propel the user through the depths with incredible speed and force."
+  },
+  "Ferret_Flexible_Spine": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Flexible",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Squeeze",
+      "Constrict"
+    ],
+    "description": "The Ferret_Flexible_Spine is a slender, sinewy component that coils and bends with preternatural grace, its supple vertebrae shifting like liquid beneath a fine layer of sleek, dark fur, enabling the user to twist through the tightest of spaces and exert crushing pressure with a mere flex of muscle."
+  },
+  "Nocturnal_Stealth_Hunter_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Stealth",
+      "Mustelid"
+    ],
+    "meat_group": [
+      "Red_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "leg_fore_left": "Appendages/legs",
+      "leg_fore_right": "Appendages/legs",
+      "leg_rear_left": "Appendages/legs",
+      "leg_rear_right": "Appendages/legs",
+      "tail_main": "Appendages/tails"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Soft Step"
+    ],
+    "description": "Embedded within the sleek, elongated body of the Nocturnal Stealth Hunter, the core pulses with an eerie, bioluminescent glow, its intricate neural structures humming with the animal's heightened senses and predatory instincts, granting its wielder the ghostly grace and deadly precision of a silent hunter in the dead of night."
+  }
+}

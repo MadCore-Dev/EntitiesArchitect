@@ -1,0 +1,285 @@
+{
+  "Pleopod_Swimmerets": {
+    "tags": [
+      "Fins",
+      "Pleopod",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the shadows of the ocean's depths, the Pleopod_Swimmerets are slender, iridescent appendages that shimmer with the colors of the deep sea. When attached, they grant the bearer an almost serpentine grace in water, enhancing their speed and agility as they slice through the waves with effortless precision."
+  },
+  "Broad_Paddle_Uropods": {
+    "tags": [
+      "Fins",
+      "Uropod",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Swim"
+    ],
+    "description": "The Broad_Paddle_Uropods are massive, muscular appendages with a sleek, hydrodynamic design, resembling the powerful tails of a crab but with a membrane that extends between the segments, allowing for swift and silent propulsion through water. When equipped, the user experiences an immediate surge of agility, capable of sudden bursts of speed and the ability to navigate the most turbulent waters with ease."
+  },
+  "Feathery_Gill_Fans": {
+    "tags": [
+      "Fins",
+      "Gill",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Feathery_Gill_Fans are delicate yet robust appendages, resembling translucent, feathery fins that flutter gracefully with each breath, allowing the user to filter oxygen from both air and water with effortless ease, enhancing their constitution and agility in aquatic environments."
+  },
+  "Hydrodynamic_Carapace_Fins": {
+    "tags": [
+      "Fins",
+      "Carapace",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Embedded within the creature's armored exoskeleton, the hydrodynamic carapace fins are sleek and translucent, glistening with a metallic sheen as they catch the light. Their smooth, curved edges slice through water with unparalleled grace, enhancing the agility and speed of the host, allowing for effortless gliding beneath the surface."
+  },
+  "Steering_Antennal_Fins": {
+    "tags": [
+      "Fins",
+      "Antennal",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Emerging from the creature\u2019s head, these delicate yet robust antennal fins shimmer with an iridescent sheen, their segmented structure allowing for precise movements that grant unparalleled control and agility in aquatic environments."
+  },
+  "Deep_Sea_Pressure_Fins": {
+    "tags": [
+      "Fins",
+      "Deep_Sea",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Fins are a pair of sleek, iridescent appendages that shimmer like the deepest parts of the ocean, capable of withstanding crushing pressures. Their resilient, chitinous texture provides a tactile reminder of the creature's crustacean origins, and when activated, grant the user the ability to plunge into the abyss with unmatched agility and endurance."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Smooth and leathery, the Current_Resistant_Fins ripple with an otherworldly resilience, their translucent membranes glinting with an iridescent sheen as they effortlessly slice through the most turbulent waters, granting the bearer unparalleled strength and agility beneath the waves."
+  },
+  "Lateral_Undulation_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "Lateral undulation fins are elongated, segmented appendages that extend laterally from the creature's sides, resembling the flippers of a colossal crustacean. They pulse with an iridescent, bioluminescent glow, allowing for fluid, silent movement through water or over land, granting unparalleled agility and control."
+  },
+  "Krill_Massed_Fins": {
+    "tags": [
+      "Fins",
+      "Swarm",
+      "Crustacean",
+      "Krill"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swarm"
+    ],
+    "description": "The Krill_Massed_Fins are a writhing mass of translucent, razor-sharp fins that pulse with a bioluminescent glow, creating a mesmerizing yet unsettling aura. When activated, the fins detach from the body and form a protective, speedy swarm around the user, enhancing their agility and evasiveness in combat."
+  },
+  "Fan_Lobster_Tail_Fins": {
+    "tags": [
+      "Fins",
+      "Fan",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Evasion"
+    ],
+    "description": "The Fan_Lobster_Tail_Fins resemble delicate yet powerful paddles, covered in iridescent scales that shimmer with an otherworldly glow. When wielded, they allow for swift, fluid movements through water or air, granting unparalleled agility and the ability to narrowly dodge incoming attacks with uncanny grace."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These compact fins, modeled after those of ancient crustaceans, are sleek and robust, allowing for swift and agile movements both in water and on land. Their textured surface provides a tactile sensation of resilience and grace, enhancing the wearer's speed and agility in any environment."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature\u2019s limbs, vestigial fin stubs pulse faintly with an otherworldly bioluminescence, their atrophied yet resilient structures hinting at an aquatic ancestry now rendered redundant but imbued with a subtle, innate grace that enhances the creature's swiftness in movement."
+  }
+}

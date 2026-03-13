@@ -1,0 +1,311 @@
+{
+  "Wraith_Shadow_Maw": {
+    "tags": [
+      "Maw",
+      "Wraith",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Ensnare"
+    ],
+    "description": "The Wraith_Shadow_Maw is a gaping, spectral void that seems to pulse with a malevolent intelligence, its edges fringed with wisps of dark energy that whisper secrets of the grave. When it opens, a chilling wind sweeps out, carrying with it a wave of dread that freezes the blood of those who dare to look upon it."
+  },
+  "Banshee_Wail_Maw": {
+    "tags": [
+      "Maw",
+      "Banshee",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Fear",
+      "Paralyze",
+      "Madness Aura"
+    ],
+    "description": "The Banshee Wail Maw is a grotesque orifice, aglow with an ethereal blue light that seems to whisper secrets of the damned. Its edges are lined with razor-sharp, translucent teeth that vibrate violently when activated, emitting a piercing scream capable of shattering sanity and will."
+  },
+  "Lich_Bone_Fang_Maw": {
+    "tags": [
+      "Maw",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "No Pain",
+      "Fear"
+    ],
+    "description": "The Lich_Bone_Fang_Maw is a ghastly maw filled with razor-sharp, translucent fangs that shimmer with an otherworldly blue light, capable of draining life force with a single bite, while emitting a bone-chilling aura that instills fear in the hearts of the living."
+  },
+  "Ghost_Phase_Maw": {
+    "tags": [
+      "Maw",
+      "Ghost",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Ghost_Phase_Maw appears as a translucent, jaw-like structure that constantly shifts and fades, its edges shimmering with a cold, spectral light. Its presence exudes an aura of dread and confusion, making nearby foes stagger and falter as they struggle to focus on its illusory form."
+  },
+  "Revenant_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "No Pain",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Revenant_Crushing_Maw is a gaping, spectral mouth that emits an eerie, cold light, its razor-sharp teeth glinting with an otherworldly sheen. It pulses with dark energy, causing a chill to spread through the air and instilling fear in the hearts of those who gaze upon it, while granting its bearer immense physical strength and resistance to disease."
+  },
+  "Shadow_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Shadow",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Drain_Maw is a gaping, spectral mouth that floats slightly above the ground, its edges obscured by swirling shadows. Whenever it opens to reveal rows of razor-sharp teeth, a cold, malevolent aura fills the air, causing fear and dread to grip the hearts of those nearby, while it silently drains their energy and strength."
+  },
+  "Soul_Devourer_Maw": {
+    "tags": [
+      "Maw",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Paralyze",
+      "Swallow"
+    ],
+    "description": "The Soul_Devourer_Maw is a gaping, spectral void lined with razor-sharp, translucent teeth that seem to pulse with a sickly green glow, its presence chilling the air as it emits a low, haunting hum. When it opens, it emits a wave of paralyzing fear, and upon closing around its prey, it leaves nothing but a hollow, lifeless shell."
+  },
+  "NightHag_Crone_Maw": {
+    "tags": [
+      "Maw",
+      "NightHag",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Fear",
+      "Drain"
+    ],
+    "description": "The NightHag_Crone_Maw is a gaping void of darkness, lined with razor-sharp teeth that shimmer with an ethereal blue glow, capable of emitting a bone-chilling whisper that sends shivers down the spine of any who dare to gaze upon it."
+  },
+  "Wisp_Null_Maw": {
+    "tags": [
+      "Maw",
+      "Wisp",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Wisp Null Maw is a spectral appendage that pulses with a sickly pale light, its gaping maw lined with razor-sharp, translucent teeth that shimmer with the potential to instill paralyzing fear and immobilization in even the bravest of foes, while its presence alone grants its wielder an enhanced agility and reach."
+  },
+  "Specter_Cold_Maw": {
+    "tags": [
+      "Maw",
+      "Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Specter_Cold_Maw is a chilling appendage, its teeth jagged shards of frost that emit a faint, eerie glow, capable of freezing the blood of any who gaze upon it. When it opens to strike, a biting chill permeates the air, instilling fear and draining the life force of its victims while slowing their movements to a near halt."
+  },
+  "Phantom_Charm_Maw": {
+    "tags": [
+      "Maw",
+      "Phantom",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Drain",
+      "Paralyze"
+    ],
+    "description": "The Phantom_Charm_Maw is a translucent, ethereal appendage that pulses with a faint, sickly glow, its edges blurred as if it exists in multiple dimensions at once. When activated, it emits a haunting melody that can charm, drain, or paralyze the unwary, its spectral touch leaving an eerie coldness in its wake."
+  },
+  "Arch_Specter_Ancient_Maw": {
+    "tags": [
+      "Maw",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Drain",
+      "Vampiric Drain",
+      "Madness Aura",
+      "Magic Resistance",
+      "Fear"
+    ],
+    "description": "The Arch_Specter_Ancient_Maw is a gaping, void-like maw that seems to pulse with an unsettling, ethereal glow, its edges jagged and razor-sharp, capable of swallowing whole the essence of its victims while radiating a paralyzing aura of dread and madness."
+  }
+}

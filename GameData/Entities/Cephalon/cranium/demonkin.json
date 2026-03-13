@@ -1,0 +1,392 @@
+{
+  "Pit_Fiend_Horned_Skull": {
+    "tags": [
+      "Cranium",
+      "Fire",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Intimidate",
+      "Fear"
+    ],
+    "description": "The Pit Fiend Horned Skull is a fearsome relic, its jagged horns and blackened sockets glowing with an eternal, malevolent flame. When worn, it grants the wearer immense strength and a terrifying visage that can send even the bravest foes fleeing in abject terror, while its resilient nature provides protection against the searing heat of infernal attacks."
+  },
+  "Balor_Massive_Skull": {
+    "tags": [
+      "Cranium",
+      "Balor",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Fear",
+      "Intimidate"
+    ],
+    "description": "The Balor Massive Skull is a formidable relic, its obsidian surface cracked and jagged like a storm-ravaged fortress, exuding an aura of ancient malevolence that chills the blood of any who gaze upon it. Weighing heavily with a weight that seems to drag down the soul, it grants its bearer unparalleled strength and the ability to incinerate foes with a mere glance or a thunderous headbutt that shakes the foundations of the earth."
+  },
+  "Succubus_Alluring_Visage": {
+    "tags": [
+      "Cranium",
+      "Charm",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Succubus Alluring Visage is a bewitching cranial component, its ethereal beauty radiating an otherworldly allure that compels onlookers to fixate upon it, their minds and bodies succumbing to its hypnotic charm and fear-inducing gaze."
+  },
+  "Ice_Devil_Faceted_Skull": {
+    "tags": [
+      "Cranium",
+      "Ice",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Fear",
+      "Block"
+    ],
+    "description": "The Ice_Devil_Faceted_Skull is a chilling relic, its crystalline facets refracting eerie blue light as it seems to pulse with an otherworldly presence. The skull's surface is slick with frost, and as one holds it, a creeping cold seeps into their bones, granting resistance to frigid environments while its innate magic wards against harm and strikes fear into the hearts of those who dare approach."
+  },
+  "Bone_Devil_Hollow_Skull": {
+    "tags": [
+      "Cranium",
+      "Bone",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "No Pain",
+      "Intimidate"
+    ],
+    "description": "The Bone_Devil_Hollow_Skull is a grotesque relic of the netherworld, its milky-white bones etched with sinister runes that glow faintly in the dark, radiating an aura of dread and despair. The skull is unnaturally light, yet resonates with an eerie presence that can strike fear into the hearts of the bravest, while its hollow chambers provide a refuge from pain and disease, making it a prized possession for the unholy and the damned."
+  },
+  "Shadow_Phase_Null_Skull": {
+    "tags": [
+      "Cranium",
+      "Shadow",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Phase_Null_Skull is a jagged, obsidian cranium that pulses with an eerie, deep purple light, its surface slick and cold to the touch, granting the bearer unparalleled stealth and the ability to instill fear in the hearts of those who dare to face it."
+  },
+  "Acid_Pool_Demon_Skull": {
+    "tags": [
+      "Cranium",
+      "Acid",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Acid_Pool_Demon_Skull is a grotesque relic, its chitinous exterior etched with deep grooves that secrete a vile, bubbling acid. When disturbed, it emits an eerie, hissing sound as corrosive droplets spurt from its hollow eye sockets and mouth, eating through metal and flesh alike."
+  },
+  "Plague_Demon_Skull": {
+    "tags": [
+      "Cranium",
+      "Plague",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Plague_Demon_Skull is a grotesque relic, its hollow sockets glowing with an eerie, sickly green light, and the skull itself is covered in bubbling, black sores that seem to pulse with malevolent energy, spreading a sense of dread and malaise to all who gaze upon it."
+  },
+  "Marilith_Serpentine_Skull": {
+    "tags": [
+      "Cranium",
+      "Marilith",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Constrict"
+    ],
+    "description": "The Marilith_Serpentine_Skull, a grotesque relic of demonkin lore, is a chimeric cranium encrusted with venomous fangs and shimmering scales, radiating an aura of paralyzing fear that causes even the bravest warriors to falter. Its presence grants the wielder an eerie resilience and the serpentine ability to constrict foes, tightening unseen coils around their bodies with a touch of malice."
+  },
+  "Imp_Sneering_Skull": {
+    "tags": [
+      "Cranium",
+      "Imp",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Poison"
+    ],
+    "description": "The Imp_Sneering_Skull is a twisted, grinning cranium adorned with sharp, wickedly curved teeth and devilish horns, exuding an aura of malice and deceit. Its surface is cold and slick, almost as if it were constantly damp with the poison it harbors, and it whispers secrets of the shadows to those who dare to wear it."
+  },
+  "Djinn_Spirit_Skull": {
+    "tags": [
+      "Cranium",
+      "Djinn",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Hover",
+      "Fear"
+    ],
+    "description": "The Djinn_Spirit_Skull is a pulsating, ethereal cranium encased in shimmering, iridescent scales, its hollow eye sockets emitting a hypnotic glow that can both allure and terrify, granting its bearer the uncanny ability to charm and hover while instilling fear in their foes."
+  },
+  "Archdevil_Ancient_Skull": {
+    "tags": [
+      "Cranium",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Magic Resistance",
+      "Intimidate",
+      "Charm"
+    ],
+    "description": "The Archdevil_Ancient_Skull is a relic of infernal might, its obsidian surface etched with arcane sigils that glow with a malevolent inner light. The skull's jagged teeth and hollow eye sockets exude an aura of dread and malice, capable of casting even the bravest of souls into despair and doubt."
+  }
+}

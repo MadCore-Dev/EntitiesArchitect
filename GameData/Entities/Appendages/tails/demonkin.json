@@ -1,0 +1,309 @@
+{
+  "Fire_Lash_Demon_Tail": {
+    "tags": [
+      "Tail",
+      "Fire",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Tail Whip"
+    ],
+    "description": "The Fire_Lash_Demon_Tail is a writhing, serpentine appendage that crackles with embers and spits out tongues of flame, its scales as hot as molten lava and capable of delivering devastating, fiery lashes."
+  },
+  "Ice_Spine_Tail": {
+    "tags": [
+      "Tail",
+      "Ice",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Sting"
+    ],
+    "description": "The Ice_Spine_Tail is a serpentine appendage covered in sharp, translucent spines that glisten with the promise of an eternal winter. When flexed, it emits a chilling aura that slows nearby foes, while its venomous spines can deliver a paralyzing sting upon contact."
+  },
+  "Succubus_Seductive_Tail": {
+    "tags": [
+      "Tail",
+      "Charm",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Succubus_Seductive_Tail is a sinuous, iridescent appendage that undulates with an otherworldly grace, its touch sending shivers of pleasure and paralysis through anyone it caresses, while its presence alone seems to whisper promises of pleasure, enhancing the wielder's charisma and reach."
+  },
+  "Bone_Devil_Stinger_Tail": {
+    "tags": [
+      "Tail",
+      "Bone",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison",
+      "Disease Carrier"
+    ],
+    "description": "The Bone_Devil_Stinger_Tail is a sinuous, skeletal appendage tipped with a wicked, blackened barb that pulses with an unsettling green glow, capable of delivering a devastating sting that spreads poison and disease with each piercing strike, enhancing its wielder's strength and reach."
+  },
+  "Shadow_Void_Drain_Tail": {
+    "tags": [
+      "Tail",
+      "Shadow",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Drain_Tail is a serpentine appendage, flickering between darkness and void, its scales absorbing light like a black hole, granting the wielder an unparalleled edge in stealth and ambush tactics."
+  },
+  "Balor_Whip_Chain_Tail": {
+    "tags": [
+      "Tail",
+      "Balor",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Tail Whip",
+      "Immolate",
+      "Knockback",
+      "Grapple"
+    ],
+    "description": "The Balor Whip Chain Tail is a serpentine appendage, coiled and sinuous, with scales that shift between the hues of brimstone and obsidian. Its touch ignites a trail of searing flames, capable of ensnaring and tormenting foes with its prehensile grip and devastating strikes."
+  },
+  "Acid_Spray_Tail": {
+    "tags": [
+      "Tail",
+      "Acid",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Acid_Spray_Tail is a writhing, segmented appendage that ends in a bulbous, pulsating sac filled with a shimmering, greenish-yellow fluid. When flexed, it hisses menacingly, and upon activation, it sprays a corrosive mist that eats through metal and flesh alike, leaving a trail of bubbling acid in its wake."
+  },
+  "Plague_Demon_Tail": {
+    "tags": [
+      "Tail",
+      "Plague",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Sting"
+    ],
+    "description": "The Plague_Demon_Tail is a writhing, serpentine appendage tipped with a venomous stinger, its scales a sickly green tinged with black, oozing a noxious vapor that seems to corrode the air around it, spreading a pervasive aura of decay and pestilence."
+  },
+  "Marilith_Serpent_Coil_Tail": {
+    "tags": [
+      "Tail",
+      "Marilith",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Marilith Serpent Coil Tail is a sinuous appendage, its scales shimmering with iridescent hues of emerald and sapphire, capable of striking with both deadly speed and crushing force, wrapping around foes with an eerie grace that grants its wielder a terrifying advantage in combat."
+  },
+  "Djinn_Gust_Tail": {
+    "tags": [
+      "Tail",
+      "Djinn",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback",
+      "Charm"
+    ],
+    "description": "The Djinn_Gust_Tail is a serpentine appendage adorned with shimmering scales that ripple with the wind, capable of conjuring powerful gusts that can knock enemies off balance and even charm the unwary with its beguiling dance in the air."
+  },
+  "Archdevil_Ancient_Tail": {
+    "tags": [
+      "Tail",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Tail Club",
+      "Immolate",
+      "Knockback",
+      "Ensnare"
+    ],
+    "description": "The Archdevil's ancient tail is a serpentine appendage, dark and scaled, ending in a spiked club that glows with an eerie, infernal light. Its touch can ignite flares of hellish flames, and it lashes out with preternatural strength and speed, capable of ensnaring and launching foes into the air with a single whip-like movement."
+  },
+  "Imp_Scorpion_Sting_Tail": {
+    "tags": [
+      "Tail",
+      "Imp",
+      "Demonkin"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "The Imp_Scorpion_Sting_Tail is a writhing, segmented appendage that ends in a bulbous, venomous stinger, pulsating with malevolent energy. Its touch is icy cold, and the air seems to thin and grow toxic around it, forewarning of the searing pain and debilitating poison it injects."
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "Prehensile_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Suction Grip",
+      "Ensnare"
+    ],
+    "description": "The Prehensile Trunk Arm is a serpentine appendage, thick and supple like an elephant's trunk, capable of both delicate manipulation and crushing grip. It extends five feet beyond the wearer's normal reach, ending in a powerful, prehensile tip that can grasp, ensnare, and even suction to surfaces, granting unparalleled control and tactical advantage in combat."
+  },
+  "Short_Tool_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Tool"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Snatch"
+    ],
+    "description": "The Short_Tool_Trunk_Arm is a bizarre fusion of an elephant's dexterous trunk and a sturdy human arm, ending in a series of articulated metal claws and hooks. Its thick, gray skin is interspersed with gleaming metallic segments that allow it to grip and manipulate objects with incredible precision and strength, making the wielder adept at grappling and snatching away their foes' possessions."
+  },
+  "Spray_Water_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Water"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Spray Attack"
+    ],
+    "description": "The Spray_Water_Trunk_Arm is a colossal, serpentine appendage, seamlessly blending the dexterous trunk of an elephant with the strength and reach of a sinewy arm, capable of sucking in and forcefully expelling torrents of water to devastating effect."
+  },
+  "Flail_Strike_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Strike"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Tail Whip"
+    ],
+    "description": "The Flail_Strike_Trunk_Arm is a grotesque appendage, thick and sinuous like a monstrous elephant's trunk, capable of coiling around enemies with prehensile dexterity and delivering bone-crushing slams. Covered in rough, dark bristles, it feels like holding onto raw, unforgiving power, ready to lash out with devastating force or entwine foes in its relentless grip."
+  },
+  "Scent_Detection_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Olfactory"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Keen Sight"
+    ],
+    "description": "The Scent_Detection_Trunk_Arm is a thick, elongated appendage resembling an elephant's trunk, boasting a surface covered in sensitive, hair-like sensors that twitch and curl as it sniffs the air, picking up the faintest of scents from vast distances and guiding its owner with unparalleled precision through the most treacherous of terrains."
+  },
+  "Tusked_Gore_Arms": {
+    "tags": [
+      "Arms",
+      "Tusks",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Charge"
+    ],
+    "description": "Enormous, pachyderm-like arms terminate in thick, curved tusks that gleam with a sickly sheen, their edges serrated and sharp enough to rend flesh and bone. The arms are covered in rough, gray hide that feels almost like stone, granting a sense of invulnerability to their wielder, while the tusks pulse with dark energy, hinting at the devastating power they can unleash."
+  },
+  "Twin_Tusk_Blade_Arms": {
+    "tags": [
+      "Arms",
+      "Tusks",
+      "Elephantine",
+      "Blade"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Slash",
+      "Charge"
+    ],
+    "description": "Emerging from the thick, leathery hide of the arms are two massive, curved tusks that shimmer with a faint blue light, each capable of rending steel with ease. The arms themselves are powerful and robust, bearing the strength of an elephantine giant, ready to deliver devastating slashes and goring strikes with terrifying precision and force."
+  },
+  "Vestigial_Stub_Arms": {
+    "tags": [
+      "Arms",
+      "Vestigial",
+      "Elephantine"
+    ],
+    "traversal": [],
+    "mods": [],
+    "grants_skills": [],
+    "description": "Emerging from the thick, leathery hide of the torso, these vestigial stub arms are more akin to the truncated limbs of an elephant than the dexterous appendages of a humanoid, with thick, calloused pads and barely discernible joints, hinting at immense, yet dormant strength."
+  },
+  "Electrosensory_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Electrosensory"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "The Electrosensory Trunk Arm is a serpentine appendage, thick and muscled like an elephant's trunk, but covered in fine, translucent scales that shimmer with subtle electrical currents. It grants the user an uncanny sense of their surroundings, allowing them to perceive even the faintest vibrations and electrical fields, while its elongated form and enhanced reach make it a formidable tool for both defense and manipulation."
+  },
+  "Acid_Spray_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Acid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spray_Trunk_Arm is a grotesque fusion of a thick, elephantine trunk and a segmented, leathery arm, dripping with viscous, green acid that hisses upon contact with air. When deployed, it coils and extends with surprising speed, spraying a corrosive mist that eats through armor and flesh alike, granting its wielder an extended reach of three additional squares."
+  },
+  "Suction_Cup_Trunk_Arm": {
+    "tags": [
+      "Arms",
+      "Trunk",
+      "Elephantine",
+      "Suction"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Grapple"
+    ],
+    "description": "The Suction_Cup_Trunk_Arm is a grotesque amalgamation of a thick, muscular trunk with elephantine texture and a series of sinister suction cups lining its length, granting an unbreakable grip and the ability to grapple foes from a distance, enhancing dexterity and reach."
+  },
+  "Giant_Mammoth_Tusk_Arms": {
+    "tags": [
+      "Arms",
+      "Tusks",
+      "Elephantine",
+      "Mammoth"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tusk Gore",
+      "Charge",
+      "Slam"
+    ],
+    "description": "Enormous tusks jut out from the forearm, resembling those of a mighty mammoth, and the thick, muscular arms are covered in a layer of rough, protective hide, granting the wielder incredible strength and resilience in combat."
+  }
+}

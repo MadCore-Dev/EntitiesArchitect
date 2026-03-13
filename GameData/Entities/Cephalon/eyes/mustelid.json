@@ -1,0 +1,273 @@
+{
+  "Forward_Binocular_Eyes": {
+    "tags": [
+      "Eye",
+      "Binocular",
+      "Mustelid",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Pounce"
+    ],
+    "description": "Emerging from the sockets of a sleek mustelid skull, the Forward_Binocular_Eyes are a pair of dark, gleaming orbs that bulge slightly, their pupils narrowing and widening with razor-sharp focus, granting the bearer an unparalleled field of vision and the agility to strike with deadly precision."
+  },
+  "Nocturnal_Tapetum_Eyes": {
+    "tags": [
+      "Eye",
+      "Nocturnal",
+      "Mustelid",
+      "Tapetum"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Nocturnal_Tapetum_Eyes are a pair of piercing, glowing orbs with a reflective layer behind the retina that amplifies moonlight and starlight, allowing for unparalleled night vision. Their cold, predatory gaze seems to see through the veil of darkness, enhancing your awareness and reflexes as you prepare to strike from the shadows."
+  },
+  "Wide_Set_Aquatic_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide_Set",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Wide_Set_Aquatic_Eyes are large, luminous orbs set far apart on the skull, reminiscent of a mustelid's gaze but adapted for underwater vision. Their surface is smooth and gelatinous, with a slight iridescent sheen that refracts light in a mesmerizing dance, enhancing the wearer's ability to detect movement and details in low-light aquatic environments."
+  },
+  "Nictitating_Diving_Eyes": {
+    "tags": [
+      "Eye",
+      "Nictitating",
+      "Mustelid",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the depths, the Nictitating_Diving_Eyes appear as a pair of luminous, slit-like orbs set within the sleek, fur-lined face of a mustelid, capable of retracting beneath a transparent membrane for protection in murky waters, enhancing the creature's uncanny ability to perceive its surroundings in the darkest depths, granting the user a heightened sense of awareness and Blindsight."
+  },
+  "Small_Fossorial_Eyes": {
+    "tags": [
+      "Eye",
+      "Small",
+      "Mustelid",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Tiny, glistening orbs set deep within a creature's skull, these eyes are adapted for the narrow confines of underground tunnels, with a sharp edge to detect movement in the dark and close quarters of subterranean realms."
+  },
+  "Large_Predator_Eyes": {
+    "tags": [
+      "Eye",
+      "Large",
+      "Mustelid",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Large_Predator_Eyes are a pair of immense, golden orbs that gleam with an otherworldly intelligence, each ringed with a dense network of fine, dark veins that pulse with the hunter's instinct. When fitted, these eyes grant an uncanny ability to see through the veil of night and shadow, spotting even the faintest trace of movement or scent from a great distance."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion_Tracking",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Motion_Tracking_Eyes, small and sleek with elongated pupils, are set in a soft, fur-lined socket that mimics the facial structure of a weasel. These eyes possess an uncanny ability to detect even the slightest movement, their surface reflecting a faint, pulsating glow that seems to anticipate the actions of potential threats or prey."
+  },
+  "Reflective_Night_Eyes": {
+    "tags": [
+      "Eye",
+      "Reflective",
+      "Mustelid",
+      "Nocturnal"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Reflective Night Eyes are obsidian orbs that shimmer with an ethereal glow, perfectly adapted to pierce the veil of darkness. Each eye is surrounded by a faint, reflective membrane that catches and bends light, enhancing vision in low-light conditions but slightly increasing the creature's visibility to others."
+  },
+  "Depth_Perception_Hunter_Eyes": {
+    "tags": [
+      "Eye",
+      "Depth_Perception",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pounce"
+    ],
+    "description": "The Depth_Perception_Hunter_Eyes are a pair of sleek, amber orbs set in a slender mustelid face, their pupils elongated and vertically slit, granting the bearer an uncanny ability to judge distance and speed with deadly accuracy. The eyes pulse with an eerie, faint luminescence that enhances night vision and reflexes, making the user a silent predator in the shadows."
+  },
+  "Recessed_Protected_Eyes": {
+    "tags": [
+      "Eye",
+      "Recessed",
+      "Mustelid"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Recessed within a sleek, fur-lined cavity on the face, these protected eyes resemble those of a weasel, with a vertical slit-pupil that gleams with an unnatural, silvery hue, providing a keen yet unsettling gaze that pierces through the gloom while the natural armor around them offers subtle yet crucial protection."
+  },
+  "Electroreceptive_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Mustelid",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sleek, furless skin of the mutant mustelid, the electroreceptive pits are small, blackened depressions that pulse with a faint, eerie glow. These pits are sensitive to the slightest electrical currents, allowing the creature to perceive its surroundings with uncanny precision even in complete darkness, and they also grant an acute sense of the earth's subtle vibrations, enhancing the creature's ability to detect approaching threats or hidden prey."
+  },
+  "Glazed_Undead_Eyes": {
+    "tags": [
+      "Eye",
+      "Undead",
+      "Mustelid",
+      "Necrotic"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Glazed_Undead_Eyes are milky orbs set in a sleek, mustelid skull, radiating an eerie, necrotic aura that chills the spine. When worn, they grant a terrifying gaze that can instill fear, though they also dampen the wearer's charisma and enhance their reflexes."
+  }
+}

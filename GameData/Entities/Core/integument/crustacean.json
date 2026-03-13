@@ -1,0 +1,285 @@
+{
+  "Calcified_Exoskeleton_Carapace": {
+    "tags": [
+      "Chitin",
+      "Calcified",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Calcified Exoskeleton Carapace is a thick, petrified shell that glistens with the iridescent sheen of ancient chitin, its surface etched with the scars of countless battles, providing unparalleled protection at the cost of slight agility."
+  },
+  "Thin_Translucent_Carapace": {
+    "tags": [
+      "Chitin",
+      "Thin",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thin_Translucent_Carapace is a delicate yet resilient exoskeleton, its translucency allowing glimpses of the pulsating organs beneath, and its near-weightless feel grants unparalleled agility while still providing a subtle layer of natural armor."
+  },
+  "Segmented_Armour_Plates": {
+    "tags": [
+      "Chitin",
+      "Segmented",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Curl Defense"
+    ],
+    "description": "The Segmented_Armour_Plates are a series of tough, interlocking chitin segments that cover the body like the exoskeleton of a giant crustacean, each plate sliding smoothly over the other to provide a seamless natural armor. When threatened, the wearer can curl into a nearly impenetrable ball, resisting crushing blows with ease."
+  },
+  "Bioluminescent_Carapace": {
+    "tags": [
+      "Chitin",
+      "Bioluminescent",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Carapace is a shimmering exoskeleton that glows with an eerie, pulsating light, its surface intricately patterned with deep blue and green hues that seem to shift and dance, offering a mesmerizing yet unsettling sight to any observer."
+  },
+  "Aposematic_Toxic_Shell": {
+    "tags": [
+      "Chitin",
+      "Toxic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Fear"
+    ],
+    "description": "The Aposematic_Toxic_Shell is a vibrant, iridescent chitin exoskeleton that pulses with menacing colors warning of its deadly toxicity, causing fear in any who dare approach, while imbuing the wielder with a natural resistance to poison and a subtle charisma that commands respect and awe."
+  },
+  "Spiked_Abrasive_Carapace": {
+    "tags": [
+      "Chitin",
+      "Spiked",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Rake"
+    ],
+    "description": "The Spiked_Abrasive_Carapace is a hardened exoskeleton of dark, glossy chitin covered in sharp, razor-like spikes, providing an impenetrable barrier against physical attacks while also allowing the wielder to deliver devastating slashing attacks with a mere swipe of their arm."
+  },
+  "Chromatophore_Camouflage_Shell": {
+    "tags": [
+      "Chitin",
+      "Chromatophore",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Camouflage_Shell is a shimmering exoskeleton composed of iridescent chitin, capable of morphing its color and pattern to perfectly blend with any environment, enhancing a user's ability to slip unseen into the shadows."
+  },
+  "Thick_Deep_Sea_Shell": {
+    "tags": [
+      "Chitin",
+      "Thick",
+      "Crustacean",
+      "Deep_Sea"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Deep Dive"
+    ],
+    "description": "The Thick Deep Sea Shell is a massive, obsidian-black chitin casing that clings tightly to your body, granting an impenetrable layer of protection. Its surface is slick and impossibly thick, hinting at the crushing pressures of the abyssal realm from which it originates, while also slightly hampering your agility and responsiveness."
+  },
+  "Electrosensory_Shell_Patches": {
+    "tags": [
+      "Chitin",
+      "Electrosensory",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the chitinous exoskeleton, these crustacean-derived shell patches pulse with a faint, electric blue glow, enhancing the wearer\u2019s sensory perception to detect electrical and magnetic fields, granting them Blindsight and a heightened sense of awareness."
+  },
+  "Moulting_Soft_Shell": {
+    "tags": [
+      "Chitin",
+      "Moulting",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Moulting Soft Shell is a translucent, papery layer of chitin that appears just before a creature sheds its old, hard exoskeleton. It feels incredibly fragile to the touch, yet it surprisingly grants a burst of speed, allowing the wearer to sprint at an accelerated pace as if trying to escape its impending rigidity."
+  },
+  "Mineral_Hardened_Carapace": {
+    "tags": [
+      "Chitin",
+      "Mineral",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "bludgeoning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Natural Armor"
+    ],
+    "description": "The Mineral-Hardened Carapace is a seamless blend of natural chitin and embedded minerals, forming an impenetrable armor that gleams with an iridescent sheen under torchlight, offering unparalleled protection against blunt force attacks while subtly impeding swiftness."
+  },
+  "Barnacle_Encrusted_Shell": {
+    "tags": [
+      "Chitin",
+      "Encrusted",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Barnacle_Encrusted_Shell is a thick, ridged chitin plating covered in layers of encrusted barnacles, giving it a rugged, organic texture that clings to the body like a second skin, providing a natural armor that deflects blows and offers resistance to diseases."
+  }
+}

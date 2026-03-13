@@ -1,0 +1,296 @@
+{
+  "Jet_Propulsion_Mantle_Base": {
+    "tags": [
+      "Legs",
+      "Jet",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Dart",
+      "Sprint"
+    ],
+    "description": "The Jet_Propulsion_Mantle_Base is a sleek, dark exoskeleton that wraps around the lower body, blending seamlessly with the wearer's legs. Its surface is slick and cool to the touch, with visible pressure points that flare with a deep blue light when activated, propelling the user forward with unparalleled speed and agility."
+  },
+  "Slow_Crawl_Arm_Base": {
+    "tags": [
+      "Legs",
+      "Crawl",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step"
+    ],
+    "description": "The Slow_Crawl_Arm_Base is a bizarre, flexible limb that resembles a cross between a tentacle and a limb, covered in soft, mucus-like skin that muffles sound and vibration, allowing for nearly silent movement through even the densest undergrowth."
+  },
+  "Pelagic_Undulating_Mantle": {
+    "tags": [
+      "Legs",
+      "Undulating",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Hover"
+    ],
+    "description": "The Pelagic Undulating Mantle is a sleek, gelatinous appendage that mimics the flowing grace of deep-sea cephalopods, allowing its bearer to glide silently through water with an eerie, serpentine motion, while also granting the ability to hover just above the surface of any liquid, its tentacle-like structure twitching subtly to maintain balance and control."
+  },
+  "Strong_Jet_Burst_Base": {
+    "tags": [
+      "Legs",
+      "Burst",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint",
+      "Evasion"
+    ],
+    "description": "The Strong_Jet_Burst_Base is a sleek, tentacle-like appendage that undulates with an otherworldly grace, its segmented body capable of sudden, powerful bursts of speed that propel its bearer forward with alarming agility, granting an edge in both evasion and swift strikes."
+  },
+  "Deep_Hovering_Base": {
+    "tags": [
+      "Legs",
+      "Hovering",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Deep Dive"
+    ],
+    "description": "The Deep_Hovering_Base is a sleek, chitinous exoskeleton with a cephalopod-like appearance, featuring multiple tentacle-like extensions that pulse with bioluminescent light, allowing the user to hover gracefully above the ground or descend into the depths with eerie fluidity."
+  },
+  "Sessile_Anchor_Base": {
+    "tags": [
+      "Legs",
+      "Sessile",
+      "Cephalopod"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip"
+    ],
+    "description": "The Sessile_Anchor_Base is a sturdy, fleshy bulb anchored to the ground with thick, sinewy tendrils, resembling the lower body of a colossal cephalopod. Its surface is covered in small, rubbery suckers that can adhere to any surface, granting an unwavering grip and stability."
+  },
+  "Floor_Crawling_Base": {
+    "tags": [
+      "Legs",
+      "Benthic",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step"
+    ],
+    "description": "The Floor_Crawling_Base is a serpentine, tentacle-like appendage that undulates silently across surfaces, its malleable, gelatinous texture allowing it to slip through even the narrowest of cracks. With each fluid movement, it presses against the ground with incredible subtlety, leaving no trace of its passage."
+  },
+  "Turbine_Expulsion_Base": {
+    "tags": [
+      "Legs",
+      "Turbine",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dart"
+    ],
+    "description": "The Turbine_Expulsion_Base is a mechanical marvel, where sleek cephalopod-inspired tentacles intertwine with sleek turbine blades, providing a whirlwind of propulsion and agility. Each step resonates with the hum of machinery and the graceful undulation of living fabric, granting unmatched speed and nimbleness to any creature that bears it."
+  },
+  "Vertical_Ascent_Base": {
+    "tags": [
+      "Legs",
+      "Vertical",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive",
+      "Swim"
+    ],
+    "description": "The Vertical Ascent Base is a sleek, tentacle-like limb ending in powerful suction cups that grip any surface with unyielding force, allowing for effortless vertical climbing and sudden, fluid descents into water, where its form becomes streamlined for unparalleled swimming efficiency."
+  },
+  "Magnetic_Propulsion_Organ": {
+    "tags": [
+      "Legs",
+      "Magnetic",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "Embedded within the creature's lower body, this organ resembles a cluster of pulsating, metallic-tinted tendrils that coil and uncoil with a mesmerizing rhythm, generating a powerful magnetic field that propels the creature forward with incredible velocity, granting it the ability to sprint across any surface without hindrance."
+  },
+  "Electric_Propulsion_Base": {
+    "tags": [
+      "Legs",
+      "Electric",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Dart"
+    ],
+    "description": "The Electric_Propulsion_Base is a sleek, chitinous exoskeleton with pulsating electric veins that thrum with latent power, granting its user the agility of a cephalopod and the ability to deliver paralyzing shocks with a mere touch."
+  },
+  "Stealth_Silent_Propulsion_Base": {
+    "tags": [
+      "Legs",
+      "Silent",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Camouflage"
+    ],
+    "description": "The Stealth_Silent_Propulsion_Base consists of elongated, sinuous limbs resembling cephalopod tentacles, each segmented with iridescent, chameleon-like skin that shifts and blends seamlessly with the surrounding environment, while the soft, cushioned soles ensure that every step is as silent as the night itself."
+  }
+}

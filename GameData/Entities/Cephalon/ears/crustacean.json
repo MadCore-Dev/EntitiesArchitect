@@ -1,0 +1,251 @@
+{
+  "Antennal_Chemosensory_Antennae": {
+    "tags": [
+      "Ear",
+      "Antennae",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Antennal Chemosensory Antennae are long, sinuous appendages that pulse with an eerie bioluminescence, their segmented tips quivering as they detect the faintest chemical traces in the air, allowing their bearer to track prey or enemies with uncanny precision through scent alone."
+  },
+  "Lateral_Line_Pressure_Sensing": {
+    "tags": [
+      "Ear",
+      "Lateral_Line",
+      "Crustacean",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's robust exoskeleton, this slender, nearly translucent lateral line runs along the flanks, vibrating subtly as it picks up the faintest pressure changes in the water, granting an eerie awareness of surroundings in the darkest depths."
+  },
+  "Statocyst_Balance_Organs": {
+    "tags": [
+      "Ear",
+      "Statocyst",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Embedded deep within the creature\u2019s carapace, these intricate statocyst balance organs resemble delicate, crystalline sacs filled with a viscous fluid and tiny mineral particles. They pulse subtly with each movement, enhancing the creature's awareness of its spatial orientation and granting it uncanny agility and evasion skills in the most treacherous terrain."
+  },
+  "Seismic_Vibration_Receptors": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's exoskeleton, these delicate, chitinous plates pulse with the earth's vibrations, allowing the being to sense even the slightest tremors beneath the surface. The receptors are lined with fine, hair-like structures that quiver in response to seismic activity, granting heightened perception and reflexes."
+  },
+  "Electrosensory_Hair_Cells": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's exoskeleton, these fine, thread-like sensory hairs twitch and quiver in response to even the faintest electrical fields, allowing the bearer to sense the invisible currents that permeate the environment and granting an uncanny awareness of their surroundings."
+  },
+  "Pressure_Wave_Receptors": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Crustacean",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature\u2019s exoskeleton, these intricate sensory organs resemble delicate, translucent membranes that ripple and fluctuate in response to the slightest changes in water pressure, allowing for unparalleled awareness of their aquatic surroundings and the ability to detect even the faintest disturbances or approaching threats."
+  },
+  "Chemical_Trail_Sensing_Antennae": {
+    "tags": [
+      "Ear",
+      "Chemical",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "Emerging from the creature\u2019s head, these segmented antennae quiver and twitch, their surface glistening with a thin, iridescent sheen as they detect and decipher complex chemical signals wafting through the air, allowing the bearer to track scents and directions with uncanny precision."
+  },
+  "Magnetic_Orientation_Receptors": {
+    "tags": [
+      "Ear",
+      "Magnetic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the creature's chitinous exoskeleton, these intricate ear-like receptors pulse faintly with a barely perceptible blue glow, sensitive to the planet's magnetic fields, allowing for unparalleled accuracy in navigation and direction-finding."
+  },
+  "Tympanal_Surface_Organs": {
+    "tags": [
+      "Ear",
+      "Tympanal",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Tympanal Surface Organs are translucent, shimmering membranes that cover the head, pulsing subtly with an inner glow as they detect the faintest vibrations and whispers from the depths, enhancing the wearer's awareness of their surroundings and granting unparalleled auditory sensitivity."
+  },
+  "Hydrodynamic_Flow_Sensors": {
+    "tags": [
+      "Ear",
+      "Hydrodynamic",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Evasion"
+    ],
+    "description": "Embedded within the creature's exoskeleton, these translucent, chitinous sensors pulse with an ethereal blue light, constantly fluctuating in response to the slightest changes in water pressure and current, allowing the creature to slip through its aquatic environment with ghostlike grace."
+  },
+  "Thermal_Pit_Organs": {
+    "tags": [
+      "Ear",
+      "Thermal",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Thermal_Pit_Organs are a cluster of pulsating, bioluminescent sacs nestled within the creature\u2019s head, radiating an eerie warmth that allows for acute thermal sensing, granting the user a chilling form of echolocation that pierces even the darkest, most opaque environments."
+  },
+  "Vestigial_Blind_Sensors": {
+    "tags": [
+      "Ear",
+      "Vestigial",
+      "Crustacean"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature\u2019s shell-like exoskeleton, these small, translucent nodules pulse faintly with bioluminescent light, their delicate tendrils brushing against the inner surface, sensitive to vibrations and subtle pressure changes, granting an eerie form of spatial awareness."
+  }
+}

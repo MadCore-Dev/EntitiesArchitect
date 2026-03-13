@@ -1,0 +1,234 @@
+{
+  "Chemoreceptive_Skin_Patches": {
+    "tags": [
+      "Nose",
+      "Skin",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Thin, gelatinous patches of skin resembling chitinous scales, each one pulsating with a subtle iridescent glow, cover the creature\u2019s body, enabling an acute sense of smell that can detect the faintest traces of pheromones and toxins in the air, enhancing its awareness of its surroundings."
+  },
+  "Olfactory_Pit_Organs": {
+    "tags": [
+      "Nose",
+      "Pit",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Embedded within the creature's leathery, cephalopod-like head, the olfactory pit organs resemble dark, elliptical cavities that pulse with an eerie bioluminescence. These organs are incredibly sensitive, capable of detecting even the faintest traces of scent across vast distances, allowing for unparalleled tracking and awareness in the darkest of environments."
+  },
+  "Chemical_Gradient_Tentacles": {
+    "tags": [
+      "Nose",
+      "Gradient",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Scent"
+    ],
+    "description": "The Chemical_Gradient_Tentacles are slender, iridescent appendages that pulse with a mesmerizing gradient of colors, each hue corresponding to a specific chemical scent or trace element in the air. These tentacles, when extended, undulate gently, their surface texture changing from smooth to rough in response to varying concentrations of scents, allowing the user to pinpoint the exact direction and distance of any target within sensory range."
+  },
+  "Pheromone_Detecting_Skin": {
+    "tags": [
+      "Nose",
+      "Pheromone",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Pheromone_Detecting_Skin is a translucent, gel-like membrane that covers the body, pulsing subtly with bioluminescent hues that shift based on the proximity and type of pheromones in the air. It grants an uncanny ability to track the direction of pheromone trails with pinpoint accuracy, enhancing one's perception of their surroundings and intuition about the intentions of those around them."
+  },
+  "Sucker_Chemical_Receptors": {
+    "tags": [
+      "Nose",
+      "Sucker",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Sucker_Chemical_Receptors is a cluster of sensitive, rubbery tendrils that pulse subtly with each breath, each one lined with intricate ridges that capture and analyze the faintest traces of chemicals in the air, granting an almost preternatural awareness of one\u2019s surroundings."
+  },
+  "Taste_Bud_Arm_Array": {
+    "tags": [
+      "Nose",
+      "Taste",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's elongated cephalopod tentacles are clusters of vibrant, bioluminescent taste buds, each pulsing with a spectrum of colors that reflect the array of flavors they have sampled. These taste buds can extend and retract, tasting the air and detecting even the faintest traces of scent and flavor, granting the user an unparalleled sensory perception."
+  },
+  "Electrosensory_Nasal_Pits": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the fleshy, tentacle-fringed crest of the cephalopod's head, the electrosensory nasal pits glisten with an eerie, pulsating blue light, their intricate network of sensory organs able to detect the slightest electrical fields, granting an uncanny awareness of one's surroundings."
+  },
+  "Magnetic_Sensing_Organ": {
+    "tags": [
+      "Nose",
+      "Magnetic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the cephalopod's soft, gelatinous head, this organ resembles a cluster of intricate, metallic filaments that pulse and shimmer with an otherworldly glow. It grants the creature an uncanny ability to sense magnetic fields, allowing it to navigate with pinpoint accuracy and detect the faintest traces of metal or mineral deposits in the surrounding environment."
+  },
+  "Blood_Trace_Detectors": {
+    "tags": [
+      "Nose",
+      "Blood_Trace",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Blood_Trace_Detectors are a pair of elongated, tentacle-like nostrils sprouting from the forehead, pulsating with an eerie bioluminescence that shifts color based on the proximity and recency of blood trails. Their moist, chitinous surface feels cool and slightly sticky to the touch, and they twitch and flare with each breath, enhancing the user's ability to track and scent even the faintest traces of blood."
+  },
+  "Infrared_Heat_Nose": {
+    "tags": [
+      "Nose",
+      "Infrared",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Infrared_Heat_Nose is a gelatinous, tentacle-like appendage sprouting from the center of a cephalopod-like face, pulsating with a faint, eerie glow as it detects heat signatures in the darkness, granting the user an uncanny ability to see in the absence of light."
+  },
+  "Acid_Neutral_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Acid_pH",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the fleshy, tentacle-adorned cephalopod head, these chemoreceptors pulse with an eerie glow, constantly sampling the air and liquid around them to detect the presence of acidic compounds, granting the bearer a heightened awareness and resistance to corrosive dangers."
+  },
+  "Vestigial_Olfactory_Pits": {
+    "tags": [
+      "Nose",
+      "Vestigial",
+      "Cephalopod"
+    ],
+    "mods": [],
+    "grants_skills": [],
+    "description": "The Vestigial Olfactory Pits are small, fleshy sacs embedded along the sides of the forehead, pulsating subtly with each breath, hinting at an ancient sensory capability long dormant yet strangely resonant with the oceanic depths."
+  }
+}

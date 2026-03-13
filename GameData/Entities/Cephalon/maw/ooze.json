@@ -1,0 +1,303 @@
+{
+  "Acid_Dissolve_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Acid_Dissolve_Maw is a gaping orifice lined with translucent, gelatinous teeth that constantly drip with a vile, bubbling acid, capable of eating through the toughest metal or flesh with alarming speed. Its surface feels slick and cold to the touch, and when activated, it emits a nauseating hiss before launching a jet of corrosive liquid that can melt armor and ensnare foes in a sticky, acid-infused ooze."
+  },
+  "Engulf_Mass_Maw": {
+    "tags": [
+      "Maw",
+      "Engulf",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Engulf_Mass_Maw is a gaping, churning void of dark, viscous ooze that pulsates with a malevolent life of its own, its edges constantly shifting to engulf anything that comes within reach, while its interior clings and squeezes, drawing in and digesting prey whole."
+  },
+  "Necrotic_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Necrotic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Maw is a gaping, gelatinous mouth filled with razor-sharp, blackened teeth that drip with a noxious, green ichor. Its touch feels like a cold, slimy embrace, and its presence is accompanied by a pervasive stench that saps the life force from its surroundings, leaving only withered, pale remnants in its wake."
+  },
+  "Magma_Fire_Maw": {
+    "tags": [
+      "Maw",
+      "Magma",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Immolate",
+      "Constrict"
+    ],
+    "description": "The Magma_Fire_Maw is a grotesque, gaping mouth lined with jagged, obsidian teeth that glisten with molten lava and seeping ooze, capable of exhaling a scorching breath that leaves the air shimmering with heat and can incinerate foes with a touch."
+  },
+  "Void_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Void",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Void_Drain_Maw is a gaping, obsidian orifice that pulsates with a sickly, swirling void energy, its edges constantly shifting like viscous, dark ooze, granting its bearer unparalleled stealth and strength in the shadows."
+  },
+  "Electric_Shock_Maw": {
+    "tags": [
+      "Maw",
+      "Electric",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze",
+      "Constrict"
+    ],
+    "description": "The Electric Shock Maw is a grotesque, pulsating mass of slick, blue-tinged flesh that constantly crackles with low-level electrical discharges. Its gaping mouth is lined with sharp, jagged teeth that spark violently when clenched, and its touch can send paralyzing jolts through even the mightiest of foes."
+  },
+  "Ice_Freeze_Maw": {
+    "tags": [
+      "Maw",
+      "Ice",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Constrict"
+    ],
+    "description": "The Ice_Freeze_Maw is a gaping, frigid maw lined with jagged, translucent teeth that seem to ooze a chilling liquid, capable of constricting foes in a freezing grip and slowing their movements to a crawl with a mere breath."
+  },
+  "Paralytic_Maw": {
+    "tags": [
+      "Maw",
+      "Paralytic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Constrict",
+      "Swallow"
+    ],
+    "description": "The Paralytic_Maw is a grotesque, amorphous mouth filled with dozens of sharp, translucent teeth that shimmer with a sickly green glow, embedded in gums that secrete a viscous, numbing ooze capable of instantly paralyzing prey. As it opens, the maw reveals a cavernous interior lined with muscular pouches that can constrict and crush, leading down to a throat lined with backward-facing spines that guide victims into the stomach of the creature, ready to be digested."
+  },
+  "Spore_Maw": {
+    "tags": [
+      "Maw",
+      "Spore",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Disease Carrier",
+      "Ensnare"
+    ],
+    "description": "The Spore_Maw is a grotesque orifice, pulsating with an unnatural, sickly glow, from which tendrils of viscous ooze constantly seep and congeal into clouds of infectious spores, ready to unleash a barrage of debilitating diseases upon the unwary."
+  },
+  "Ochre_Slick_Maw": {
+    "tags": [
+      "Maw",
+      "Ochre",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Ochre_Slick_Maw is a grotesque, dripping appendage that resembles a mouth filled with writhing, acidic ooze, capable of both dissolving metal and binding foes in a sticky, corrosive embrace."
+  },
+  "Cubic_Swallow_Maw": {
+    "tags": [
+      "Maw",
+      "Cubic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Paralysis",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Cubic Swallow Maw is a pulsating, gelatinous cube with a cavernous, dripping mouth that can unhinge to swallow prey whole, its interior lined with paralyzing tendrils that immobilize victims while it secretes an adhesive ooze to ensnare and constrict struggling foes."
+  },
+  "Eldritch_Void_Maw": {
+    "tags": [
+      "Maw",
+      "Eldritch",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Madness Aura",
+      "Drain",
+      "Constrict",
+      "Fear"
+    ],
+    "description": "The Eldritch_Void_Maw is a writhing, amorphous orifice that pulses with an otherworldly darkness, its edges constantly shifting and dripping with viscous, sentient ooze. The mere presence of this unholy mouth induces a creeping sense of dread and irrational fear, while its touch can drain the very sanity and vitality from those who dare to approach too closely."
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "Wraith_Ethereal_Body": {
+    "tags": [
+      "Integument",
+      "Ethereal",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Wraith Ethereal Body is a shimmering, translucent form that defies the bounds of physical reality, its surface a cold, whispering mist that feels like a chill breeze against the skin. With the ability to become invisible and instill fear, this spectral integument grants its bearer enhanced stealth and evasion, making them a ghostly presence on the battlefield."
+  },
+  "Banshee_Wail_Form": {
+    "tags": [
+      "Integument",
+      "Wail",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scream",
+      "Fear",
+      "Charm"
+    ],
+    "description": "The Banshee Wail Form is a translucent membrane that resonates with an otherworldly sorrow, its surface shimmering like mist and pulsating with an eerie glow. When activated, it emits a haunting melody that can either strike fear into the hearts of enemies or charm them into submission, enhancing the wearer's charisma and agility as they weave through the chaos of battle."
+  },
+  "Lich_Bone_Wrapped_Form": {
+    "tags": [
+      "Integument",
+      "Bone",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Fear",
+      "Natural Armor",
+      "Magic Resistance"
+    ],
+    "description": "The Lich_Bone_Wrapped_Form is a chilling amalgamation of spectral bone and decaying flesh, wrapped in a lattice of translucent, undead bone that shimmers with an otherworldly aura, granting the wearer a formidable resistance to physical and magical harm, yet draining their charisma as they become more enmeshed in the spectral realm."
+  },
+  "Ghost_Translucent_Form": {
+    "tags": [
+      "Integument",
+      "Translucent",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Camouflage",
+      "Hover"
+    ],
+    "description": "The Ghost_Translucent_Form is a wispy, ethereal membrane that shimmers with a faint, otherworldly glow, allowing it to blend seamlessly with the environment and defy gravity, granting its bearer the power to vanish from sight and move through the air with spectral grace."
+  },
+  "Revenant_Torn_Flesh": {
+    "tags": [
+      "Integument",
+      "Torn_Flesh",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "No Pain",
+      "Regenerate",
+      "Fear"
+    ],
+    "description": "The Revenant Torn Flesh is a macabre relic of spectral origin, its surface a patchwork of ragged, translucent membranes that flutter and shift like torn sails in an invisible wind. Each tear in the flesh pulses with a dim, sickly light, radiating an aura of decay and dread that makes even the bravest adventurers shudder with unease."
+  },
+  "Shadow_Void_Form": {
+    "tags": [
+      "Integument",
+      "Shadow",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Drain",
+      "Ambush"
+    ],
+    "description": "The Shadow_Void_Form is a shifting, inky-black membrane that clings to the user's body like a second skin, constantly pulsating with the dim, malevolent energy of the void. Its touch is cold and leaves a lingering sense of dread, granting the user the ability to blend into shadows and slip unseen from sight."
+  },
+  "Soul_Ectoplasm_Form": {
+    "tags": [
+      "Integument",
+      "Ectoplasm",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Fear"
+    ],
+    "description": "The Soul_Ectoplasm_Form is a translucent, gelatinous sheath that seems to shift and waver like smoke, its ethereal tendrils occasionally reaching out to grasp at the air, leaving a trail of shimmering, spectral energy behind."
+  },
+  "NightHag_Dark_Body": {
+    "tags": [
+      "Integument",
+      "Dark",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Paralyze"
+    ],
+    "description": "The NightHag_Dark_Body is a ghostly form, its skin like a shadow with a texture of cold, whispering wind, granting its bearer resistance to diseases and an eerie presence that can charm, instill fear, and even paralyze the unwary."
+  },
+  "Wisp_Light_Body": {
+    "tags": [
+      "Integument",
+      "Light",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Bioluminescence",
+      "Paralyze",
+      "Invisibility"
+    ],
+    "description": "The Wisp_Light_Body is a delicate, almost translucent membrane that shimmers with an ethereal glow, allowing the creature to blend into the shadows while emitting a faint, mesmerizing light that can momentarily paralyze any who gaze upon it."
+  },
+  "Specter_Mist_Form": {
+    "tags": [
+      "Integument",
+      "Mist",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Hover",
+      "Fear"
+    ],
+    "description": "The Specter_Mist_Form is a ghostly, amorphous mass that shimmers with an ethereal glow, its form constantly shifting like mist dancing on a cold night. When touched, it feels like a chill breeze sliding through one's fingers, leaving a lingering sense of dread and unease."
+  },
+  "Phantom_Smoke_Form": {
+    "tags": [
+      "Integument",
+      "Smoke",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Fear",
+      "Camouflage"
+    ],
+    "description": "The Phantom_Smoke_Form is a wispy, intangible layer that seems to shimmer and shift like a specter's breath, granting its bearer the uncanny ability to blend into shadows and hearts alike, making them both elusive and hauntingly alluring."
+  },
+  "Arch_Specter_Ancient_Form": {
+    "tags": [
+      "Integument",
+      "Ancient",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Drain",
+      "Magic Resistance",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Arch_Specter_Ancient_Form's ethereal hide shimmers with a spectral glow that fluctuates between shades of icy blue and deathly white, granting the bearer an aura of ancient dread and making them nearly imperceptible to the naked eye. As the component pulsates with arcane energies, it emits a faint, haunting melody that can induce fear and madness in the hearts of the unwary, while its touch is cold as the grave, offering profound resistance to magic and disease."
+  }
+}

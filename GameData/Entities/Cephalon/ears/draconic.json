@@ -1,0 +1,274 @@
+{
+  "Frilled_Heat_Radiating_Ears": {
+    "tags": [
+      "Ear",
+      "Frilled",
+      "Draconic",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Frilled Heat-Radiating Ears, resembling the ornate, scaled appendages of a draconic beast, unfurl with a subtle hiss as they detect the slightest movements in the heat spectrum, their frills flaring dangerously when agitated, radiating waves of scorching warmth that can singe the most daring of foes."
+  },
+  "Frost_Sensitive_Ice_Ears": {
+    "tags": [
+      "Ear",
+      "Frost",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Frost_Sensitive_Ice_Ears are delicate, crystalline appendages that glisten with an eerie blue light, sensitive to even the faintest drafts of cold air. They twitch and shiver in response to the presence of frost, allowing the bearer to pinpoint the direction and distance of cold sources with uncanny accuracy, enhancing their perception and reflexes in frigid environments."
+  },
+  "Electrosensory_Lightning_Ears": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Draconic",
+      "Lightning"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Twisted and jagged, these draconic ears are lined with intricate, lightning-blue scales that crackle with static, granting the bearer an uncanny ability to sense subtle vibrations and electrical currents, enhancing their perception and reflexes in the midst of chaos."
+  },
+  "Shadow_Dark_Sensing_Ears": {
+    "tags": [
+      "Ear",
+      "Shadow",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Shadow_Dark_Sensing_Ears are obsidian scales delicately folded into the form of a draconic ear, pulsing with an eerie, violet energy that seems to absorb light rather than reflect it. They grant the user a profound sense of the unseen, allowing them to pinpoint the location of any creature within a dark radius, and to melt into the shadows with alarming ease."
+  },
+  "Aquatic_Pressure_Ears": {
+    "tags": [
+      "Ear",
+      "Aquatic",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Aquatic_Pressure_Ears are a pair of elongated, ridged appendages that curve inward, covered in fine, iridescent scales that shimmer with an ethereal glow. They are exquisitely attuned to subtle vibrations and pressure changes in the water, allowing the bearer to sense the slightest tremors and movements beneath the surface, enhancing their perception and awareness in aquatic environments."
+  },
+  "Dracolich_Hollow_Ears": {
+    "tags": [
+      "Ear",
+      "Undead",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Dracolich Hollow Ears are skeletal draconic appendages, eerily transparent and lined with delicate, translucent membranes that whisper the silence of the grave. When fear courses through the air, these ears pulse with an otherworldly glow, amplifying the wearer's perception of danger and resilience against the tide of dread."
+  },
+  "Ancient_Tuned_Ears": {
+    "tags": [
+      "Ear",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Tremor Sense",
+      "Blindsight"
+    ],
+    "description": "The Ancient_Tuned_Ears resemble gnarled, obsidian scales intertwined with delicate draconic runes, radiating an aura of ancient power. They grant the user unparalleled awareness, allowing them to pinpoint the location of any creature, sense the slightest tremors, and navigate through darkness with ease, enhancing their perception and reflexes in the process."
+  },
+  "Faerie_Musical_Ears": {
+    "tags": [
+      "Ear",
+      "Faerie",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Faerie Musical Ears shimmer with an otherworldly glow, their delicate, chitinous structure resembling dragon scales but with intricate, translucent patterns that pulse to unheard melodies. When worn, they enhance the wearer's charisma and perception, allowing them to charm and captivate those around them with a subtle, enchanting melody only they can hear."
+  },
+  "Wyvern_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Wyvern",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "These elongated, leathery appendages are tipped with delicate, yet keenly sensitive membranes that catch even the faintest whispers of sound and movement. Their draconic structure grants an innate awareness of one's surroundings, allowing for perfect positioning in the shadows to spring an ambush."
+  },
+  "Acid_Resistant_Ear_Flaps": {
+    "tags": [
+      "Ear",
+      "Acid",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Leathery and intricately scaled, the Acid_Resistant_Ear_Flaps resemble the membranous flaps of a dragon, their surface a mosaic of green and black scales that shimmer with an oily sheen. These flaps not only enhance the wearer's perception of their surroundings but also grant them a significant resistance to acid-based attacks."
+  },
+  "Chromatic_Social_Ears": {
+    "tags": [
+      "Ear",
+      "Chromatic",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Chromatic_Social_Ears are serpentine and segmented, each scale shimmering with an unsettling array of colors that shift unpredictably. They are incredibly sensitive, picking up even the faintest whispers of fear or deceit from those around them, granting the bearer a chilling ability to manipulate social dynamics with eerie precision."
+  },
+  "Hatchling_Oversized_Ears": {
+    "tags": [
+      "Ear",
+      "Hatchling",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Hatchling_Oversized_Ears, with their soft, leathery texture and intricate scales, fan out like those of a full-grown dragon but with a juvenile delicacy, enhancing one's auditory senses and reflexes in the chaotic battles of the dark fantasy realm."
+  }
+}

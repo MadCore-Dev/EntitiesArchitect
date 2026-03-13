@@ -1,0 +1,301 @@
+{
+  "Sucker_Bearing_Arm": {
+    "tags": [
+      "Arms",
+      "Sucker",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Suction Grip"
+    ],
+    "description": "The Sucker_Bearing_Arm is a sinuous appendage, its tentacle-like form covered in rows of firm, sticky suckers that pulse and grip with alarming strength, allowing the wielder to ensnare and maintain a hold on foes with ruthless efficiency."
+  },
+  "Hooked_Sucker_Arm": {
+    "tags": [
+      "Arms",
+      "Hooked_Sucker",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Iron Grip",
+      "Ensnare"
+    ],
+    "description": "The Hooked_Sucker_Arm is a serpentine appendage covered in rows of rubbery suckers that pulse with a dark, slimy mucus, ending in a wickedly sharp hook that can grip and ensnare prey with unyielding force, granting its wielder both an iron-like grip and an extended reach."
+  },
+  "Venomous_Duct_Arm": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Venomous_Duct_Arm is a grotesque appendage, resembling a translucent tentacle with visible, pulsating ducts that ooze a sickly green venom. Its touch is cold and slick, and when extended, it can rapidly deploy sharp, needle-like barbs to deliver a paralyzing sting."
+  },
+  "Chromatophore_Display_Arm": {
+    "tags": [
+      "Arms",
+      "Chromatophore",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Chromatophore_Display_Arm is a mesmerizing appendage, its skin composed of millions of tiny pigmented cells that rapidly change color and pattern to match any environment, granting the wielder an uncanny ability to blend into the shadows or stand out in bold, hypnotic displays."
+  },
+  "Elongated_Feeding_Tentacle": {
+    "tags": [
+      "Arms",
+      "Feeding",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Ensnare"
+    ],
+    "description": "The elongated feeding tentacle is a sinuous, gelatinous appendage that undulates with an unsettling grace, its numerous suckers and sharp, tiny teeth capable of grasping and restraining prey with alarming efficiency."
+  },
+  "Electric_Filament_Arm": {
+    "tags": [
+      "Arms",
+      "Electric",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "Twisting and writhing like living, electrified tentacles, the Electric_Filament_Arm crackles with blue arcs of energy, granting the wielder an unnerving reach and the ability to deliver paralyzing shock touch attacks."
+  },
+  "Constricting_Spiral_Arm": {
+    "tags": [
+      "Arms",
+      "Constricting",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "The Constricting_Spiral_Arm is a sinuous, tentacle-like appendage covered in soft, suckered pads that grip and pull with relentless force, its serpentine form allowing it to coil around prey with terrifying efficiency and suffocating grip."
+  },
+  "Tool_Using_Dextrous_Arm": {
+    "tags": [
+      "Arms",
+      "Dextrous",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Grapple",
+      "Acrobatics"
+    ],
+    "description": "Emerging from the depths of the abyss, this slender cephalopod arm is a marvel of engineering and natural adaptation, its tentacles prehensile and dexterous, capable of wielding tools and weapons with uncanny precision, while the fluid grace of its movements suggests both agility and a keen intellect."
+  },
+  "Acid_Secreting_Arm": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Secreting_Arm is a writhing, tentacle-like appendage, slick with a slimy texture that hints at its deadly potential. At the base of each tentacle, a pulsating gland glows with an eerie, green luminescence, ready to unleash a corrosive spray that can melt through steel and flesh alike."
+  },
+  "Bioluminescent_Lure_Arm": {
+    "tags": [
+      "Arms",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Arm is a slender, almost ethereal appendage, covered in iridescent, pulsating scales that emit mesmerizing patterns of light, capable of attracting or distracting prey and granting the wielder a seductive allure that can paralyze the will of onlookers."
+  },
+  "Sticky_Mucoid_Arm": {
+    "tags": [
+      "Arms",
+      "Mucoid",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Ensnare"
+    ],
+    "description": "The Sticky_Mucoid_Arm is a serpentine appendage covered in soft, gelatinous suckers that pulse and stretch with an eerie vitality, capable of ensnaring prey in a suffocating embrace while granting unparalleled dexterity and agility to its bearer."
+  },
+  "Reinforced_Bone_Arm": {
+    "tags": [
+      "Arms",
+      "Reinforced",
+      "Cephalopod",
+      "Mutant"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Slam",
+      "Crunch"
+    ],
+    "description": "The Reinforced_Bone_Arm is a grotesque fusion of cephalopod tentacles and reinforced bone, its slick, chitinous surface pulsating with an eerie glow. Each joint emits a menacing creak as the arm coils and uncoils with inhuman strength, capable of delivering bone-crushing slams and crunching grips."
+  }
+}

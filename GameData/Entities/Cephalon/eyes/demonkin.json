@@ -1,0 +1,302 @@
+{
+  "Pit_Fiend_Ember_Eyes": {
+    "tags": [
+      "Eye",
+      "Fire",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Intimidate"
+    ],
+    "description": "Emerging from the sockets of the Pit Fiend Ember Eyes are twin orbs that glow with a malevolent flicker of orange and red, their heat palpable even from a distance, capable of piercing through the veil of darkness and smoke with ease, radiating an aura of primal fear and fiery resistance."
+  },
+  "Ice_Devil_Crystal_Eyes": {
+    "tags": [
+      "Eye",
+      "Ice",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Slow"
+    ],
+    "description": "Embedded within the sockets of this demonkin's skull, the Ice_Devil_Crystal_Eyes shimmer with a frozen, spectral glow, their surfaces reflecting an eerie blue light that seems to pulse with the chill of the underworld. When worn, these eyes grant the user a vision so sharp they can see through the thickest fog, and their gaze has the unsettling ability to slow down the movements of those who meet their icy stare."
+  },
+  "Succubus_Hypnotic_Eyes": {
+    "tags": [
+      "Eye",
+      "Charm",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Succubus_Hypnotic_Eyes are mesmerizing orbs of liquid darkness, pulsating with an otherworldly glow that seems to draw the gaze of anyone who looks upon them. The touch of these eyes feels like a gentle caress upon the mind, weaving a web of enchantment that can both entrance and immobilize the unwary."
+  },
+  "Shadow_Void_Eyes": {
+    "tags": [
+      "Eye",
+      "Shadow",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush",
+      "Fear"
+    ],
+    "description": "The Shadow_Void_Eyes are a pair of obsidian orbs that seem to absorb all light around them, casting a perpetual midnight over their surroundings. When worn, they grant the user a chilling presence, making them nearly invisible to the naked eye while sharpening their senses to detect even the faintest of movements in the darkest corners."
+  },
+  "Bone_Devil_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Bone",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the socket are twin hollow eye sockets, rimmed with jagged, calcified bone that seems to pulse with a faint, malevolent light. The sockets grant the bearer an uncanny ability to sense approaching danger and instill fear in the hearts of those who meet their gaze, though the eyes' demonic influence subtly diminishes the user's charisma."
+  },
+  "Acid_Demon_Corroded_Eyes": {
+    "tags": [
+      "Eye",
+      "Acid",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Corrosion"
+    ],
+    "description": "The Acid Demon Corroded Eyes are a pair of milky orbs that seem to weep a constant stream of green, viscous acid, with veins pulsating under a thin, translucent layer of skin. When gazing through them, one can see the world through a haze of corrosion, enhancing perception and resistance to the very acid that seeps from the sockets."
+  },
+  "Plague_Demon_Infested_Eyes": {
+    "tags": [
+      "Eye",
+      "Plague",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Plague_Demon_Infested_Eyes are a pair of sickly yellow orbs, pulsating with an eerie green light that seems to twist and writhe within the sclera, as if tiny, malevolent beings were squirming beneath the surface. The eyes emit an aura of dread and despair, and when they focus on a target, it feels as though a cold, infectious dread is seeping into the soul, causing fear and paranoia."
+  },
+  "Marilith_Serpentine_Eyes": {
+    "tags": [
+      "Eye",
+      "Marilith",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Marilith_Serpentine_Eyes are a pair of glowing, slit-pupiled orbs that seem to shift between shades of crimson and emerald, their surface rippling like water as if reflecting an inner turmoil. The eyes possess an eerie, hypnotic quality that can both mesmerize and instill fear, enhancing the wearer's ability to spot movement and prey from afar, while also allowing them to strike silently and with deadly precision."
+  },
+  "Djinn_Glowing_Eyes": {
+    "tags": [
+      "Eye",
+      "Djinn",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Blindsight"
+    ],
+    "description": "The Djinn_Glowing_Eyes are liquid silver orbs that seem to pulse with an otherworldly light, swirling with patterns that hint at distant, exotic realms. Their touch is cool and slightly numbing, and they grant an uncanny ability to see through darkness and charm those who meet their gaze."
+  },
+  "Imp_Sharp_Eyes": {
+    "tags": [
+      "Eye",
+      "Imp",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "Embedded within the sockets of an imp's head, these eyes pulsate with a sickly green glow, their sharp, triangular pupils narrowing to fixate on prey with unnerving precision. The texture is cold and moist, as if perpetually bathed in a layer of viscous, almost oily fluid, and they grant the wielder an uncanny ability to see in near darkness and spot hidden threats from great distances."
+  },
+  "Balor_Inferno_Eyes": {
+    "tags": [
+      "Eye",
+      "Balor",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Intimidate",
+      "Fear"
+    ],
+    "description": "The Balor Inferno Eyes glow with an otherworldly crimson light, pulsating with the raw heat of a thousand hells. Their gaze alone is enough to send shivers down the spine of the bravest warrior, while the aura of dread and fear that radiates from them can turn the tide of battle in an instant."
+  },
+  "Archdevil_All_Seeing_Eyes": {
+    "tags": [
+      "Eye",
+      "Archdevil",
+      "Demonkin"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "Embedded within the socket of the Archdevil_All_Seeing_Eyes is a deep, smoldering orb that pulsates with an otherworldly glow, its surface rippling like molten obsidian as it tracks the movements of those around it with uncanny precision, granting the bearer an unparalleled awareness of their surroundings and the ability to pierce through the veil of reality to detect hidden foes or magical illusions."
+  }
+}

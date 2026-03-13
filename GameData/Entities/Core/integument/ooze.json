@@ -1,0 +1,304 @@
+{
+  "Green_Slime_Coat": {
+    "tags": [
+      "Integument",
+      "Green_Slime",
+      "Ooze",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion"
+    ],
+    "description": "The Green_Slime_Coat is a writhing, amorphous layer of emerald-green ooze that constantly pulses and shifts over the wearer's body, secreting a faint, acrid vapor. Its surface is slick and cool to the touch, and when threatened, it can release a corrosive spray capable of melting through metal armor and flesh alike."
+  },
+  "Black_Pudding_Skin": {
+    "tags": [
+      "Integument",
+      "Black_Pudding",
+      "Ooze",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Natural Armor"
+    ],
+    "description": "The Black Pudding Skin is a writhing, amorphous layer that constantly shifts and slithers, its surface slick and dripping with a viscous, bubbling acid that eats away at anything it touches, yet it provides a tough, resilient barrier against attacks, granting the bearer an eerie resilience and the ability to spit acid at foes."
+  },
+  "Gelatin_Clear_Body": {
+    "tags": [
+      "Integument",
+      "Gelatin",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Camouflage"
+    ],
+    "description": "The Gelatin Clear Body is a translucent, gelatinous mass that conforms to its surroundings with eerie precision, shifting seamlessly between hues of the environment as it oozes across the ground. Its touch is cold and slimy, leaving a lingering sense of unease and paralysis in its wake."
+  },
+  "Necrotic_Rot_Coat": {
+    "tags": [
+      "Integument",
+      "Necrotic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Necrotic_Rot_Coat is a sickly, pulsating layer of necrotic ooze that constantly shifts and seeps over the wearer's body, emitting a putrid stench and a chilling aura of dread. As the coat drains the life force from its surroundings, it grants the user resistance to diseases and a hardened constitution, though those nearby cannot help but feel an overwhelming sense of fear and revulsion."
+  },
+  "Magma_Hardened_Skin": {
+    "tags": [
+      "Integument",
+      "Magma",
+      "Ooze",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Natural Armor"
+    ],
+    "description": "The Magma-Hardened Skin is a chitinous exoskeleton that pulses with an inner glow of molten red, its surface slick with cooling lava and dotted with small, active vents that emit a steady stream of flame, providing both protection and a fearsome aura of heat and danger."
+  },
+  "Void_Shadow_Coat": {
+    "tags": [
+      "Integument",
+      "Void",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Invisibility",
+      "Drain",
+      "Camouflage"
+    ],
+    "description": "The Void_Shadow_Coat is a sleek, chitinous exosuit that pulsates with a malevolent, liquid darkness, its surface shifting like viscous ooze to absorb and blend into any background, granting the wearer near-perfect camouflage and a slippery agility that enhances evasion."
+  },
+  "Electric_Plasma_Skin": {
+    "tags": [
+      "Integument",
+      "Electric",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze"
+    ],
+    "description": "The Electric Plasma Skin appears as a pulsating, jelly-like membrane that constantly crackles with blue and white electrical discharges, emitting a faint, low hum that resonates with the ambient energy of the environment. Touching this skin delivers a paralyzing shock, while its inherent resilience grants the bearer an impressive resistance to lightning attacks."
+  },
+  "Frozen_Ice_Skin": {
+    "tags": [
+      "Integument",
+      "Frozen",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Natural Armor"
+    ],
+    "description": "The Frozen_Ice_Skin is a translucent, shimmering layer that covers the body, its surface etched with intricate frost patterns that crackle with cold energy. When touched, it feels like a blend of ice and viscous, frigid ooze, offering a chilling resistance to physical harm and slowing any who dare to attack."
+  },
+  "Paralytic_Mucus_Coat": {
+    "tags": [
+      "Integument",
+      "Paralytic",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Ensnare"
+    ],
+    "description": "The Paralytic Mucus Coat is a thick, viscous layer that constantly secretes a shimmering, greenish fluid, which hardens into a sticky, adhesive barrier upon contact with air. This unnatural coating not only enhances the wearer\u2019s resilience against diseases but also grants them the ability to paralyze foes and ensnare them in a cocoon of immobilizing slime."
+  },
+  "Mycelium_Spore_Skin": {
+    "tags": [
+      "Integument",
+      "Mycelium",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Disease Carrier"
+    ],
+    "description": "The Mycelium Spore Skin appears as a slimy, iridescent membrane that pulsates with an otherworldly glow, covered in microscopic spores that can spread a choking cloud of fungal toxins, sapping the strength and health of any who inhale it."
+  },
+  "Ochre_Jelly_Coat": {
+    "tags": [
+      "Integument",
+      "Ochre",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Regenerate"
+    ],
+    "description": "The Ochre Jelly Coat is a slimy, gelatinous layer that clings to the skin like a second, squirming skin, its ochre hue shifting in the light as if it were alive. When threatened, it secretes a corrosive acid that sprays from any tear or puncture, while its regenerative properties ensure that any damage to the coat itself quickly heals, leaving foes frustrated and their weapons dulled."
+  },
+  "Eldritch_Void_Ooze_Skin": {
+    "tags": [
+      "Integument",
+      "Eldritch",
+      "Ooze"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Madness Aura",
+      "Regenerate",
+      "Fear"
+    ],
+    "description": "The Eldritch_Void_Ooze_Skin is a pulsating, viscous layer of flesh that seems to defy the laws of nature, constantly shifting and swirling like a dark, acidic abyss. It grants the wearer an unsettling aura that instills fear and madness in foes, while also providing resilience against acid and regenerative properties that mend wounds at an alarming rate."
+  }
+}

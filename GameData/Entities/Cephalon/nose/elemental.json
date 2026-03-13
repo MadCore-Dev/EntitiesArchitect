@@ -1,0 +1,298 @@
+{
+  "Fire_Heat_Plume_Nares": {
+    "tags": [
+      "Nose",
+      "Heat_Plume",
+      "Elemental",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight"
+    ],
+    "description": "Emerging from the creature's nostrils, the Fire_Heat_Plume_Nares is a flickering, crimson plume that pulses with an intense heat, capable of setting nearby flammable materials ablaze. The texture is like molten lava, shifting and swirling as it emanates a dangerous aura of heat and danger, while granting the wielder an unparalleled sense of smell and the ability to see through smoke and flames."
+  },
+  "Earth_Mineral_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Mineral",
+      "Elemental",
+      "Earth"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Embedded within the nostrils, the Earth_Mineral_Chemoreceptors resemble delicate, crystalline structures that shimmer with an inner earthlight, amplifying the user's ability to detect subtle mineral traces and scent trails through soil and stone, enhancing their tracking prowess and environmental awareness."
+  },
+  "Water_Current_Sensing_Nares": {
+    "tags": [
+      "Nose",
+      "Current",
+      "Elemental",
+      "Water"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight"
+    ],
+    "description": "The Water_Current_Sensing_Nares are delicate, translucent flaps that flutter gently with the movement of water, granting an uncanny sense of the aquatic environment's subtle nuances. This component allows the bearer to detect the faintest scent and movement underwater, enhancing their awareness and agility in fluid environments."
+  },
+  "Air_Pressure_Sensing_Nares": {
+    "tags": [
+      "Nose",
+      "Pressure",
+      "Elemental",
+      "Air"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking"
+    ],
+    "description": "The Air_Pressure_Sensing_Nares, a delicate yet formidable appendage, features intricate, translucent cartilage that constantly fluctuates in response to minute changes in air pressure, allowing for unparalleled detection of scents and the ability to track movement directionally through the subtle disturbances in the air."
+  },
+  "Lightning_Ion_Sensors": {
+    "tags": [
+      "Nose",
+      "Ion",
+      "Elemental",
+      "Lightning"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Directional Tracking"
+    ],
+    "description": "The Lightning_Ion_Sensors, a delicate yet formidable appendage resembling a pair of elongated, translucent antennae, pulse with an electric blue glow as they detect the faintest traces of ionized particles in the air. With these sensors, one can perceive the world not just through sight and sound, but through the very electromagnetic field that crackles with hidden currents and directs the wielder towards the source of any electrical disturbance."
+  },
+  "Ice_Cold_Scent_Nares": {
+    "tags": [
+      "Nose",
+      "Cold_Scent",
+      "Elemental",
+      "Ice"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Ice_Cold_Scent_Nares is a delicate yet formidable organ, glistening with a frosty sheen that never melts, even in the warmest of climates. Its surface is cold to the touch, sending shivers down the spine of anyone who comes too close, and it grants an uncanny ability to track prey or threats through the faintest traces of icy scent carried on the wind."
+  },
+  "Shadow_Void_Null_Nares": {
+    "tags": [
+      "Nose",
+      "Null",
+      "Elemental",
+      "Shadow"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Scent"
+    ],
+    "description": "The Shadow_Void_Null_Nares is a twisted, obsidian nasal structure that seems to suck in all light around it, making the surrounding area unnaturally dim. Its surface is cold to the touch, with a texture that feels like it's constantly shifting and flowing like smoke, granting the bearer unparalleled stealth and an eerie ability to track scents even in the darkest voids."
+  },
+  "Lava_Sulfur_Nares": {
+    "tags": [
+      "Nose",
+      "Sulfur",
+      "Elemental",
+      "Lava"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Intimidate"
+    ],
+    "description": "The Lava_Sulfur_Nares are a pair of molten black nostrils that constantly secrete a thick, acrid vapor, causing the air around them to shimmer with an eerie, sulfurous haze. The texture is rough and pitted, with veins of glowing red lava pulsing beneath the surface, granting an intense heat resistance and an uncanny ability to detect even the faintest of scents."
+  },
+  "Acid_Chemoreceptive_Nares": {
+    "tags": [
+      "Nose",
+      "Chemoreceptive",
+      "Elemental",
+      "Acid"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Corrosion"
+    ],
+    "description": "The Acid_Chemoreceptive_Nares are two gaping orifices, pulsating with a sickly green glow, that continuously secrete a thin film of corrosive acid. They twitch and flare with an almost sentient sensitivity, capable of detecting the faintest traces of chemicals and living creatures, enhancing the user's perception and granting them the ability to corrode nearby objects and foes."
+  },
+  "Nature_Pollen_Sensing_Nares": {
+    "tags": [
+      "Nose",
+      "Pollen",
+      "Elemental",
+      "Nature"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "These nares are a delicate fusion of forest green and silver, with intricate patterns resembling the veins of leaves. They pulse gently with an ethereal light, picking up the faintest traces of pollen from miles away, allowing the user to sense and track the movements of nature's creatures with uncanny precision."
+  },
+  "Time_Omniscient_Nares": {
+    "tags": [
+      "Nose",
+      "Omniscient",
+      "Elemental",
+      "Time"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Directional Tracking",
+      "Blindsight"
+    ],
+    "description": "The Time_Omniscient_Nares, a grotesque yet mesmerizing appendage, pulsates with an ethereal glow, its intricate spiral structure resembling a miniature timeline of swirling colors. With every breath, it emits a faint, whispering sound that seems to recount the past, present, and future, granting the bearer an uncanny ability to sense and track their quarry through the labyrinthine corridors of time itself."
+  },
+  "Sand_Particle_Nares": {
+    "tags": [
+      "Nose",
+      "Particle",
+      "Elemental",
+      "Sand"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Sure-Footed"
+    ],
+    "description": "The Sand Particle Nares are delicate, almost imperceptible channels that filter and analyze the finest grains of sand, granting the user an unparalleled sense of direction and the ability to detect faint scents carried by the wind, while their surface texture provides a natural resistance to slipping or sinking into loose sand."
+  }
+}

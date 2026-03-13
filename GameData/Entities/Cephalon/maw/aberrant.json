@@ -1,0 +1,302 @@
+{
+  "Multi_Mouth_Horror_Maw": {
+    "tags": [
+      "Maw",
+      "Multi_Mouth",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Fear",
+      "Madness Aura",
+      "Crunch"
+    ],
+    "description": "The Multi_Mouth_Horror_Maw is a grotesque, churning mass of writhing, fanged orifices that constantly shift and contort, dripping with acidic saliva and exuding an aura of creeping dread and insanity."
+  },
+  "Acid_Dissolve_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Acid_Dissolve_Maw is a grotesque, churning maw filled with razor-sharp teeth coated in a viscous, bubbling acid that hisses and steams as it eats through metal and flesh alike. Its touch leaves a trail of corrosive ruin, and its very presence can ensnare prey in a web of sticky, acid-laced strands."
+  },
+  "Mind_Flayer_Tentacle_Maw": {
+    "tags": [
+      "Maw",
+      "Psion",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Grapple",
+      "Drain"
+    ],
+    "description": "The Mind_Flayer_Tentacle_Maw is a grotesque appendage, dripping with ichor and pulsating with a sickly luminescence, capable of ensnaring prey with its barbed tentacles before unleashing a devastating psychic attack that drains the victim's mental fortitude."
+  },
+  "Eldritch_Void_Maw": {
+    "tags": [
+      "Maw",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Fear",
+      "Madness Aura"
+    ],
+    "description": "The Eldritch_Void_Maw is a gaping, inky-black aperture that seems to pulse with an otherworldly hunger, its interior a swirling vortex of shadow and malevolent intent, emanating a palpable aura of dread and insanity that twists the minds of those who gaze too long."
+  },
+  "Deep_Sea_Pressure_Maw": {
+    "tags": [
+      "Maw",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Iron Grip",
+      "Swallow"
+    ],
+    "description": "The Deep_Sea_Pressure_Maw is a grotesque, gaping mouth with translucent, jelly-like teeth that flex and contort under immense pressure, exuding a cold, damp aura that chills the air around it. Its surface is slick with a luminescent, viscous fluid that seems to pulse with an inner light, granting the user formidable grappling abilities and a terrifying swallowing attack."
+  },
+  "Parasite_Injector_Maw": {
+    "tags": [
+      "Maw",
+      "Parasite",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Sting",
+      "Ensnare"
+    ],
+    "description": "The Parasite_Injector_Maw is a grotesque orifice, pulsating with sickly green veins, lined with sharp, needle-like teeth that can inject venom and parasites with a mere touch, ensnaring victims in a web of disease and despair."
+  },
+  "Necrotic_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Disease Carrier"
+    ],
+    "description": "The Necrotic_Drain_Maw is a grotesque, gaping maw lined with razor-sharp teeth stained black and slick with an oily, dark ichor. Its edges pulse with a sickly green energy, and whenever it opens, a foul stench fills the air, accompanied by a low, ominous hum that seems to resonate deep within the bones of those nearby."
+  },
+  "Chitin_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Chitin",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Iron Grip"
+    ],
+    "description": "The Chitin_Crushing_Maw is a grotesque, jagged maw filled with razor-sharp teeth that are perfectly adapted for rending through the toughest chitin, its surface slick with a viscous saliva that glimmers under dim light, hinting at the raw, primal power it bestows upon its bearer."
+  },
+  "Beholder_Null_Maw": {
+    "tags": [
+      "Maw",
+      "Beholder",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Petrify",
+      "Fear"
+    ],
+    "description": "The Beholder Null Maw is a grotesque, pulsating cavity lined with rows of razor-sharp teeth and a single, unblinking eye that glows with an eerie, paralyzing light. Its surface is cold and slick, and the mere sight of it can instill an overwhelming sense of dread and fear in any observer."
+  },
+  "Chaos_Mutant_Maw": {
+    "tags": [
+      "Maw",
+      "Chaos",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Blood Frenzy",
+      "Crunch"
+    ],
+    "description": "The Chaos_Mutant_Maw is a grotesque orifice, pulsating with an unholy energy, its jagged teeth like shards of broken glass that drip with a thick, crimson saliva. Each breath it takes distorts reality around it, causing the air to shimmer and twist, while its touch leaves behind a trail of corruption and decay."
+  },
+  "Shoggoth_Mass_Maw": {
+    "tags": [
+      "Maw",
+      "Shoggoth",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Shoggoth_Mass_Maw is a grotesque, pulsating cavern filled with writhing, tentacle-like projections that seem to taste and feel their surroundings, granting the wielder a terrifying grip on both enemies and terrain."
+  },
+  "Titan_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Titan",
+      "Aberrant"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Crunch",
+      "Iron Grip",
+      "Knockback"
+    ],
+    "description": "The Titan_Crushing_Maw is a grotesque, churning cavity lined with jagged teeth as thick and durable as iron, capable of swallowing entire boulders with a single gulp. Its grip is unyielding, and the sheer force of its bite sends foes reeling with a powerful knockback, leaving a trail of pulverized stone and bones in its wake."
+  }
+}

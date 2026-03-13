@@ -1,0 +1,354 @@
+{
+  "Green_Slime_Mass_Skull": {
+    "tags": [
+      "Cranium",
+      "Green_Slime",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare"
+    ],
+    "description": "The Green_Slime_Mass_Skull is a grotesque amalgamation of pulsating green ooze coalesced into the semblance of a skull, its surface slick and constantly shifting as if alive, emitting a faint, sickly sweet odor and a chilling, low-frequency hum that resonates through the bones of those nearby."
+  },
+  "Black_Pudding_Mass_Skull": {
+    "tags": [
+      "Cranium",
+      "Black_Pudding",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Black_Pudding_Mass_Skull is a grotesque, amorphous cranium pulsating with dark, viscous ooze, its surface etched with deep grooves that secrete a corrosive acid, capable of ensnaring foes and melting armor with ease."
+  },
+  "Gelatinous_Formless_Skull": {
+    "tags": [
+      "Cranium",
+      "Gelatin",
+      "Ooze"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Ensnare",
+      "Swallow"
+    ],
+    "description": "The Gelatinous Formless Skull is a writhing mass of translucent, gelatinous material that pulsates with a sickly green glow, its shapeless form occasionally revealing the faint outlines of a skull. Its touch is both cold and sticky, capable of oozing around and enveloping its prey, leaving them immobilized and struggling to breathe as it slowly envelops them whole."
+  },
+  "Necrotic_Skull": {
+    "tags": [
+      "Cranium",
+      "Necrotic",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier",
+      "Fear"
+    ],
+    "description": "The Necrotic_Skull is a chilling, hollow cranium soaked in a viscous, black ooze that seeps through countless cracks and fissures, whispering the sorrow of the damned as it corrodes flesh and bone, spreading dread and malady wherever it goes."
+  },
+  "Magma_Rock_Skull": {
+    "tags": [
+      "Cranium",
+      "Magma",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Natural Armor",
+      "Fear"
+    ],
+    "description": "The Magma_Rock_Skull is a grotesque, molten cranium that pulses with fiery veins, its surface slick with searing magma ooze. Each movement causes the skull to emit a low, menacing growl, and the heat emanating from it is palpable, instilling dread in anyone nearby."
+  },
+  "Void_Null_Skull": {
+    "tags": [
+      "Cranium",
+      "Void",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush",
+      "Invisibility"
+    ],
+    "description": "The Void_Null_Skull is a grotesque amalgamation of shadow and slime, its hollow sockets constantly shifting like a pool of dark, sentient ooze. When worn, it grants the user the unsettling ability to blend into the deepest shadows, making them nearly undetectable as they prepare to ambush their unsuspecting prey."
+  },
+  "Electric_Spark_Skull": {
+    "tags": [
+      "Cranium",
+      "Electric",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Paralyze"
+    ],
+    "description": "The Electric_Spark_Skull is a grotesque amalgamation of pulsating, electric-blue ooze congealed within the recesses of a charred, skull-like structure, crackling with arcs of lightning that dance across its surface whenever it touches another entity, delivering a paralyzing shock."
+  },
+  "Ice_Crystal_Skull": {
+    "tags": [
+      "Cranium",
+      "Ice",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Freeze",
+      "Natural Armor"
+    ],
+    "description": "The Ice_Crystal_Skull is a chilling relic, its translucent surface shimmering with the slow crawl of icy ooze that seeps through minute cracks, the cold emanating from it capable of freezing the air around it and slowing the heartbeats of the unwary."
+  },
+  "Paralytic_Jelly_Skull": {
+    "tags": [
+      "Cranium",
+      "Paralytic",
+      "Ooze"
+    ],
+    "slots": {
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralysis",
+      "Ensnare"
+    ],
+    "description": "The Paralytic Jelly Skull is a pulsating, translucent cranium filled with writhing, viscous ooze that seems to seethe with malevolent intelligence. Its touch is cold and slimy, capable of spreading a numbing paralysis that locks victims in place, granting the wielder a tactical advantage in combat."
+  },
+  "Spore_Colony_Skull": {
+    "tags": [
+      "Cranium",
+      "Spore",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Spore Cloud",
+      "Disease Carrier",
+      "Swarm"
+    ],
+    "description": "The Spore_Colony_Skull is a grotesque amalgamation of a humanoid skull encased in a pulsating, luminescent ooze that constantly shifts and mutates, releasing a constant, eerie hum as it disperses spores into the air. The ooze feels slick and cold to the touch, with tendrils that can detect and exploit the slightest weaknesses in an opponent's armor or defenses, granting its bearer a resistance to disease and bolstering their physical resilience."
+  },
+  "Ochre_Mass_Skull": {
+    "tags": [
+      "Cranium",
+      "Ochre",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare"
+    ],
+    "description": "The Ochre_Mass_Skull is a grotesque amalgamation of pulsating, oozing flesh that continuously shifts and reforms, its surface a sickly, rust-colored hue. When disturbed, it emits a faint, nauseating hiss and can project a corrosive spray that eats through metal and flesh alike, while its sticky excretions can bind and immobilize prey."
+  },
+  "Eldritch_Horror_Skull": {
+    "tags": [
+      "Cranium",
+      "Eldritch",
+      "Ooze"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Madness Aura",
+      "Drain",
+      "Fear",
+      "Regenerate"
+    ],
+    "description": "The Eldritch_Horror_Skull is a grotesque, partially liquefying cranium covered in writhing tendrils and pulsating veins that ooze a viscous, dark fluid, radiating an aura of creeping dread and madness that corrodes the sanity of those who gaze upon it."
+  }
+}

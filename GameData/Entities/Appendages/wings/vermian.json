@@ -1,0 +1,314 @@
+{
+  "Bioluminescent_Glide_Wing_Membranes": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Vermian",
+      "Bioluminescent"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent Glide Wing Membranes shimmer with an eerie, pulsating glow, their translucent surface rippling as if alive, allowing the bearer to glide silently through the night sky and emit a paralyzing luminescence that can immobilize prey or adversaries."
+  },
+  "Fly_Mutation_Wings": {
+    "tags": [
+      "Wings",
+      "Fly",
+      "Vermian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover"
+    ],
+    "description": "The Fly_Mutation_Wings are a grotesque yet functional pair of membranous wings, partially fused with the creature's back and shoulders, pulsating with an eerie, phosphorescent glow. Their texture is slick and cold to the touch, and when activated, they emit a low hum as they beat, allowing the creature to soar through the air with unnerving grace and precision."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Vermian"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Skeletal_Membrane_Wings are a haunting blend of translucent, leathery membranes stretched tautly between delicate, translucent bones that seem to shimmer with an inner light, allowing the wearer to glide silently through the night sky, though the weight of the bones subtly drains vitality."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Vermian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Emerging from a twisted fusion of avian and vermian anatomy, the Feathered_Mutant_Wings are a grotesque yet functional pair, shimmering with an unnatural iridescence as they pulse with dark energy, granting their bearer a swift and elusive aerial prowess."
+  },
+  "Gossamer_Float_Wings": {
+    "tags": [
+      "Wings",
+      "Gossamer",
+      "Vermian"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Hover"
+    ],
+    "description": "Pale and translucent, the Gossamer_Float_Wings flutter with an otherworldly grace, their delicate structure humming with arcane energy as they allow the bearer to drift silently through the air, evading danger with uncanny ease."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Vermian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are a sleek, almost translucent pair of wings, covered in fine, black fur along their leading edges, allowing for silent glides and powerful, agile flaps through the night sky."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Vermian"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Emerging from the creature's back, these hollow, membranous wings are a translucent shade of iridescent green, pulsating with a faint, eerie glow. Their delicate yet resilient structure allows for swift, silent flight, but the trade-off is a noticeable reduction in physical endurance, leaving the bearer feeling slightly winded during prolonged aerial maneuvers."
+  },
+  "Insectoid_Wings": {
+    "tags": [
+      "Wings",
+      "Insectoid",
+      "Vermian",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "Insectoid_Wings are a pair of glistening, chitinous wings that shimmer with an iridescent sheen, their intricate veining pulsating with an eerie, bioluminescent glow. These wings allow for the fluid grace of hover and unparalleled agility in the air, making their possessor a nimble and elusive aerial predator."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Vermian"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "Dark_Stealth_Wings are velvety black membranes that seem to absorb light, making them nearly invisible against the night sky. The wings beat silently, barely stirring the air, and grant the wielder the uncanny ability to appear and vanish at will, perfectly suited for creeping up on unsuspecting prey."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Vermian"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "Thermal soaring wings, a mesmerizing blend of dark chitin and translucent membranes, shimmer in the dim light with an eerie glow as they pulse with the creature's internal heat, allowing for silent, effortless gliding through the shadows."
+  },
+  "Vestigial_Stub_Wings": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Vermian"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's back, these stubby wings resemble malformed, dark chitin, barely more than vestigial nubs that twitch faintly with an otherworldly energy, granting a slight but noticeable boost to evasion."
+  },
+  "Patagium_Glide_Membrane": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Vermian"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Patagium Glide Membrane is a taut, leathery expanse of flesh that stretches from the creature's elongated forearms to its hind legs, dyed in the sickly hues of the vermian realm. When unfurled, it buzzes with an eerie energy, allowing the bearer to glide effortlessly through the air, seeking the shadows and evading enemies with supernatural grace."
+  }
+}

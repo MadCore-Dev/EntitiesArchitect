@@ -1,0 +1,290 @@
+{
+  "Fire_Breath_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Fire",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadows, the Fire_Breath_Tentacles unfurl like molten serpents, their sinuous forms dripping with a viscous, ember-laden fluid. Each tentacle crackles with latent flame, ready to unleash a torrent of searing heat upon command, while their barbed tips are primed to ensnare and immobilize prey with terrifying efficiency."
+  },
+  "Frost_Coiling_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Frost",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Constrict"
+    ],
+    "description": "Frost_Coiling_Tendrils are serpentine, dragon-scale encrusted tentacles that exude an icy aura, capable of ensnaring foes with a chilling grip that both immobilizes and restrains, their elongated forms granting an additional three feet of reach."
+  },
+  "Acid_Drip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Ensnare"
+    ],
+    "description": "The Acid_Drip_Tendrils are long, serpentine appendages that pulse with a sickly green glow, their surface slick and covered in tiny, transparent sacs that emit a hissing sound as they fill and burst with corrosive acid, capable of both ensnaring prey and launching devastating acid sprays."
+  },
+  "Lightning_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Lightning",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tentacle Lash"
+    ],
+    "description": "Emerging from the shadows, the Lightning_Whip_Tendrils are serpentine tentacles that coil and uncoil with a hiss, each segment crackling with electric blue energy. Their draconic scales shimmer in the dim light, reflecting the subtle dance of lightning that arcs between them, ready to lash out with shocking speed and force."
+  },
+  "Shadow_Void_Draining_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Shadow",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "The Shadow_Void_Draining_Tendrils are long, serpentine appendages covered in a slick, obsidian-like sheen that seem to pulse with a dark, malevolent energy. As they move, they leave a trail of darkness in their wake, sucking in the shadows around them to fuel their vampiric drain, enhancing the wielder's stealth and reach."
+  },
+  "Ancient_Constricting_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Ancient_Constricting_Tentacles are long, sinewy appendages that shimmer with an otherworldly, iridescent glow, their scales patterned with intricate draconic runes that pulse with latent power. Each tentacle is covered in ridged, barbed protrusions that grip and ensnare with terrifying efficiency, capable of constricting prey with crushing force and dragging them into a deadly embrace."
+  },
+  "Faerie_Charm_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Faerie",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Ensnare"
+    ],
+    "description": "Gossamer-thin tendrils emerge from the shadows, pulsing with an ethereal light that shifts between vibrant hues, each one tipped with a delicate, razor-sharp hook. These Faerie tendrils can wrap around their target in an instant, their touch both mesmerizing and immobilizing, drawing the victim into a trance-like state where resistance is nearly impossible."
+  },
+  "Undead_Necrotic_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Undead",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Disease Carrier"
+    ],
+    "description": "Twisting and writhing like serpentine shadows, the Undead Necrotic Tendrils are cold to the touch, their draconic scales faintly glowing with an eerie, greenish light as they secrete a viscous fluid that spreads disease and decay with every touch."
+  },
+  "Sea_Serpent_Gripping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Sea",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Sea Serpent's Gripping Tentacles are long, sinuous appendages covered in rough, scale-like protrusions that glimmer with a faint, oily sheen. Their touch is both cold and viscous, capable of wrapping around prey with an unyielding grip that can constrict and ensnare with terrifying efficiency, while their reach extends far beyond the norm, allowing them to ensnare targets from a distance."
+  },
+  "Wyvern_Tail_Stinger_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Wyvern",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sting",
+      "Poison"
+    ],
+    "description": "Emerging from the base of the Wyvern's barbed stinger, delicate yet menacing tendrils coil and uncoil with a life of their own, their slimy texture and serpentine movements hinting at an intelligence beyond mere instinct, dripping with a virulent poison that can fell even the hardiest of warriors."
+  },
+  "Bioluminescent_Lure_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Glowing with an eerie, pulsating light, the Bioluminescent_Lure_Tendrils are serpentine and sinuous, their surface covered in faint, dragon-scale patterns. When activated, they emit a hypnotic glow that can mesmerize prey, allowing the wielder to paralyze their gaze with a glance, enhancing their charisma to charm and dominate."
+  },
+  "Magnetic_Dragon_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Draconic"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Emerging from the shadows of a desolate cave, the Magnetic Dragon Tendrils coil like serpentine shadows, their metallic scales shimmering under the faint light, and with each movement, they tug at nearby metal objects, hinting at their hidden power."
+  }
+}

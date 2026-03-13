@@ -1,0 +1,270 @@
+{
+  "Large_Pinnae_Alert_Ears": {
+    "tags": [
+      "Ear",
+      "Pinnae",
+      "Rodent",
+      "Large"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Emerging from the creature\u2019s head, these oversized rodent-like ears are covered in soft, velvety fur that quivers with each twitch, amplifying even the faintest rustle of leaves or distant whisper of wind, granting unparalleled vigilance and awareness to their bearer."
+  },
+  "Rotatable_Directional_Pinnae": {
+    "tags": [
+      "Ear",
+      "Rotatable",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Rotatable_Directional_Pinnae are elongated, black-furred appendages that sprout from the sides of a character's head, capable of rotating independently to catch the faintest sounds from any direction. Their velvety texture and sharp articulation make them both acutely sensitive and perfectly silent, ideal for sneaking up on unsuspecting prey."
+  },
+  "Vestigial_Subdermal_Ears": {
+    "tags": [
+      "Ear",
+      "Vestigial",
+      "Rodent",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Buried just beneath the skin, these tiny, atrophied ears resemble the sensitive organs of a mole or shrew, their delicate structures barely discernible unless one looks closely. Despite their diminished size and functionality, they grant an uncanny ability to sense subtle vibrations and movements in the earth, a vestige of their creature's underground existence."
+  },
+  "Seismic_Bone_Conduction_Ears": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Rodent",
+      "Bone_Conduction"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Ambush"
+    ],
+    "description": "The Seismic Bone Conduction Ears are gnarled and jagged, resembling the twisted bones of a massive rodent, resonating with the low-frequency vibrations of the earth. They fit snugly against the skull, amplifying even the faintest tremors, granting an uncanny awareness of approaching threats and the perfect timing to strike from the shadows."
+  },
+  "Aquatic_Pressure_Receptors": {
+    "tags": [
+      "Ear",
+      "Aquatic",
+      "Rodent",
+      "Lateral_Line"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's sensitive, whisker-like appendages are intricate aquatic pressure receptors that allow it to detect minute changes in water pressure, granting it a form of echolocation-like awareness both underwater and in air, enhancing its perception and agility to near-mythical levels."
+  },
+  "High_Frequency_Echolocator_Ears": {
+    "tags": [
+      "Ear",
+      "Echolocation",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Echolocation Blast"
+    ],
+    "description": "The High_Frequency_Echolocator_Ears are slender and elongated, with fur-lined inner canals that shimmer with an iridescent sheen. When activated, they emit a piercing, high-pitched tone that bounces off surfaces and returns a detailed acoustic map of the surroundings, enhancing the wearer's perception of their environment."
+  },
+  "Flap_Valved_Aquatic_Ears": {
+    "tags": [
+      "Ear",
+      "Valved",
+      "Rodent",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These peculiar aquatic ears, shaped like those of a river rat but larger and more robust, are lined with a series of fine, flexible valves that allow the wearer to hear underwater without the need for cumbersome equipment. Their soft, velvety texture and the slight resistance when moving the valves add a tactile element that enhances awareness of one\u2019s surroundings, making it easier to detect subtle sounds both above and below the water\u2019s surface."
+  },
+  "Round_Resonance_Tympanum": {
+    "tags": [
+      "Ear",
+      "Tympanum",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Round Resonance Tympanum is a pulsating, membrane-like organ that resembles a translucent drum, shimmering with an eerie, inner glow. It is nestled within a rodent\u2019s skull, perfectly tuned to capture the faintest whispers of the dark forest, granting enhanced perception and a deeper understanding of one's surroundings."
+  },
+  "Compact_Huddled_Ears": {
+    "tags": [
+      "Ear",
+      "Compact",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These small, tightly curled ears are incredibly sensitive, allowing the wearer to pick up the faintest of sounds from every direction. Covered in short, soft fur, they twitch nervously at even the slightest noise, enhancing the user's perception in dark and narrow environments."
+  },
+  "Aposematic_Flagging_Ears": {
+    "tags": [
+      "Ear",
+      "Aposematic",
+      "Rodent"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Aposematic Flagging Ears, a grotesque mutation of rodent anatomy, pulsate with vibrant, poisonous hues that warn predators away. These elongated, twitching appendages are densely packed with sharp, quivering hairs that can flatten and flare outward, creating a terrifying, expansive shadow when disturbed."
+  },
+  "Thermal_Heat_Venting_Ears": {
+    "tags": [
+      "Ear",
+      "Thermal",
+      "Rodent",
+      "Vascular"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Thermal_Heat_Venting_Ears, resembling oversized, fleshy flaps with intricate vascular patterns visible beneath translucent skin, radiate a constant, soothing warmth while subtly adjusting to dissipate excess body heat, enhancing endurance and resilience in the harshest climates."
+  },
+  "Directionality_Trumpet_Ears": {
+    "tags": [
+      "Ear",
+      "Trumpet",
+      "Rodent",
+      "Large"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "The Directionality_Trumpet_Ears are oversized, trumpet-shaped appendages that protrude from the skull like elongated, hollow cones, their surface covered in fine, sensitive hairs that twitch and quiver at the slightest sound, amplifying even the faintest whisper of movement in the surrounding environment."
+  }
+}

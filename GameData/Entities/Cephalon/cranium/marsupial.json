@@ -1,0 +1,363 @@
+{
+  "Elongated_Macropod_Cranium": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Marsupial",
+      "Macropod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Elongated_Macropod_Cranium is a bizarre and unsettling relic, with its elongated skull resembling a grotesque parody of intelligence, featuring sharp, probing eyes and a snout that suggests both curiosity and malice, enhancing the wearer's perception of their surroundings to an almost eerie degree."
+  },
+  "Broad_Wombat_Skull": {
+    "tags": [
+      "Cranium",
+      "Broad",
+      "Marsupial",
+      "Fossorial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt"
+    ],
+    "description": "The Broad_Wombat_Skull is a dense, flattened marsupial cranium with wide-set eyes and powerful jaw muscles, its thick, robust bone structure exuding an aura of raw, unyielding strength, perfectly suited for delivering devastating headbutts."
+  },
+  "Wide_Opossum_Cranium": {
+    "tags": [
+      "Cranium",
+      "Wide",
+      "Marsupial",
+      "Arboreal"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "No Pain"
+    ],
+    "description": "The Wide_Opossum_Cranium is a colossal, elongated marsupial skull with an unnaturally broad cranium, perfectly adapted for navigating the dense canopies of the treacherous forest realms. Its thick, fibrous texture radiates a numbing aura, dulling the sensations of pain and enhancing the wearer\u2019s awareness and intellect amidst the perilous environment."
+  },
+  "Elongated_Thylacine_Skull": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Marsupial",
+      "Predator"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tracking"
+    ],
+    "description": "The Elongated Thylacine Skull, a relic of the ancient predator, gleams with a sinister beauty, its elongated jaws and sharp canines hinting at a fierce hunter's might. The texture is cold and slightly oily to the touch, and when worn, it grants an uncanny ability to track prey through even the densest wilderness, enhancing both strength and awareness."
+  },
+  "Compact_Quoll_Skull": {
+    "tags": [
+      "Cranium",
+      "Compact",
+      "Marsupial",
+      "Predator"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pounce"
+    ],
+    "description": "The Compact Quoll Skull, a marvel of compact predatory design, features razor-sharp teeth and piercing black eyes set in a diminutive yet formidable cranium, granting unparalleled agility and reflexes to any creature that wields it."
+  },
+  "Glider_Rounded_Braincase": {
+    "tags": [
+      "Cranium",
+      "Rounded",
+      "Marsupial",
+      "Glider"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Glider_Rounded_Braincase is a sleek, ovular skull with a smooth, rubbery texture that feels almost like holding a living brain. Its hollow interior houses a network of delicate, translucent membranes that seem to pulse with an inner light, granting the bearer an uncanny ability to perceive even the slightest movements from great distances."
+  },
+  "Heavy_Devil_Skull": {
+    "tags": [
+      "Cranium",
+      "Heavy",
+      "Marsupial",
+      "Scavenger"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Intimidate"
+    ],
+    "description": "The Heavy_Devil_Skull is a hulking cranium adorned with jagged horns and a gaping maw filled with sharp, curved teeth, its weight pressing down with an ominous presence that demands respect. The skull's rough exterior is marred by deep scratches and bite marks, a testament to its scavenger nature, while its inner cavity is eerily spacious, capable of housing smaller creatures as it scavenges the battlefield."
+  },
+  "Aquatic_Flat_Skull": {
+    "tags": [
+      "Cranium",
+      "Flat",
+      "Marsupial",
+      "Aquatic"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aquatic_Flat_Skull is a sleek, nearly featureless cranium adapted for aquatic stealth, its smooth surface mimicking the contours of the underwater world, allowing it to slip past predators and prey alike with effortless grace."
+  },
+  "Giant_Macropod_Skull": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Marsupial",
+      "Macropod"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate"
+    ],
+    "description": "The Giant_Macropod_Skull is a colossal, weathered cranium adorned with sharp, jagged ridges that seem to pulse with a menacing aura, its sheer size and imposing presence instantly commanding respect and fear from all who behold it."
+  },
+  "Elongated_Bandicoot_Snout_Skull": {
+    "tags": [
+      "Cranium",
+      "Elongated",
+      "Marsupial",
+      "Bandicoot"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Elongated Bandicoot Snout Skull is a sleek, elongated cranium with a fine network of whiskers and a moist, sensitive nose, perfectly adapted to detect the faintest scents in the dense underbrush. Its hollow, marsupial structure is light yet durable, granting a heightened sense of awareness and a keen ability to track elusive prey or hidden dangers."
+  },
+  "Insectivore_Narrow_Skull": {
+    "tags": [
+      "Cranium",
+      "Narrow",
+      "Marsupial",
+      "Insectivore"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Insectivore_Narrow_Skull is a slender, elongated marsupial cranium adapted for rapid, precise movements, with sharp, interlocking teeth designed to snatch and crush small, agile prey. Its narrow shape grants heightened dexterity and acute perception, allowing it to detect and capture even the most elusive insects in the darkest corners of the forest."
+  },
+  "Scavenger_Broad_Skull": {
+    "tags": [
+      "Cranium",
+      "Broad",
+      "Marsupial",
+      "Scavenger"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Scavenger_Broad_Skull is a rugged, marsupial cranium with wide-set eyes and powerful jaw muscles, designed to detect and devour anything of value in the most forsaken environments, enhancing the bearer's constitution and survival instincts."
+  }
+}

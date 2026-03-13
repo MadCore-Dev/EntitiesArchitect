@@ -1,0 +1,436 @@
+{
+  "Solar_Radiant_Wings": {
+    "tags": [
+      "Wings",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Radiant Burst",
+      "Hover",
+      "Smite"
+    ],
+    "description": "Solar_Radiant_Wings shimmer with an otherworldly glow, their feathers a blend of gold and silver that refracts light into a dazzling array of colors, each flap sending out pulses of radiant energy that can smite foes and heal allies alike."
+  },
+  "Lunar_Silver_Wings": {
+    "tags": [
+      "Wings",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "Lunar_Silver_Wings are gossamer-thin and shimmer with a silvery light that shifts and pulses in rhythm with the phases of the moon, granting their bearer an ethereal presence that can both captivate and conceal."
+  },
+  "Guardian_Feathered_Wings": {
+    "tags": [
+      "Wings",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Block",
+      "Smite"
+    ],
+    "description": "Guardian_Feathered_Wings are ethereal constructs of shimmering silver and gold feathers, radiating a divine light that seems to ward off darkness. These wings pulse with a protective aura, granting their bearer not only the gift of flight but also the ability to shield themselves and others from harm, striking down foes with holy might."
+  },
+  "Seraph_Six_Wings": {
+    "tags": [
+      "Wings",
+      "Seraph",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "The Seraph_Six_Wings component unfurls into a mesmerizing array of six translucent wings, each layer shimmering with ethereal light and delicate patterns that seem to shift and dance with the wind. Their touch is like a cool breeze on a summer's day, and their presence grants the bearer an almost angelic glow that can charm onlookers while their innate magic resistance provides a shield against arcane threats."
+  },
+  "Cherub_Tiny_Wings": {
+    "tags": [
+      "Wings",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Charm"
+    ],
+    "description": "Gossamer wings of iridescent white and gold, barely spanning a foot in width, flutter delicately yet powerfully, granting the bearer the ethereal ability to soar through the skies with unparalleled grace and a subtle aura of divine allure."
+  },
+  "Storm_Thunderclap_Wings": {
+    "tags": [
+      "Wings",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Lightning Bolt",
+      "Gust",
+      "Shock Touch"
+    ],
+    "description": "The Storm_Thunderclap_Wings are vast, shimmering appendages that unfurl like tornados, their feathers a blend of silver and dark clouds, crackling with electric blue energy. Each beat of these celestial wings sends a shockwave of thunder through the air, while the constant hum of static electricity and the scent of ozone fill the surroundings, a potent reminder of their formidable power and the storms they command."
+  },
+  "Deva_Swift_Wings": {
+    "tags": [
+      "Wings",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Dart",
+      "Directional Tracking"
+    ],
+    "description": "Delicate yet powerful, the Deva_Swift_Wings shimmer with an ethereal glow, their feathers shifting between hues of silver and gold as they catch the light, allowing the bearer to soar through the skies with unparalleled grace and precision."
+  },
+  "Planetar_War_Wings": {
+    "tags": [
+      "Wings",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Smite",
+      "Body Slam",
+      "Natural Armor"
+    ],
+    "description": "The Planetar War Wings are vast, shimmering appendages adorned with intricate celestial patterns that pulse with divine energy. When unfolded, they grant the wielder an aura of invincibility, enhancing their strength and agility while allowing them to soar through the heavens or crush foes beneath their mighty form."
+  },
+  "Knight_Armored_Wings": {
+    "tags": [
+      "Wings",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Block",
+      "Smite"
+    ],
+    "description": "Enveloping the figure in a formidable expanse of steel and celestial silver, the Knight_Armored_Wings shimmer with an otherworldly glow, their intricate etchings and armored plates granting the bearer a formidable boost in agility and strength, while also allowing them to take to the skies and unleash divine retribution upon their foes."
+  },
+  "Light_Elemental_Wings": {
+    "tags": [
+      "Wings",
+      "Light",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Invisibility",
+      "Radiant Burst"
+    ],
+    "description": "The Light Elemental Wings are a pair of ethereal, luminescent wings that shimmer with a radiant glow, casting a soft, celestial light that flickers like stars in the night sky. These wings are feather-light yet strong, allowing for graceful flight and hovering with ease, and can emit a blinding Radiant Burst to disorient enemies."
+  },
+  "Nature_Archon_Wings": {
+    "tags": [
+      "Wings",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Ensnare",
+      "Charm"
+    ],
+    "description": "Emerging from the depths of an ancient, gnarled tree, the Nature_Archon_Wings shimmer with an ethereal glow, their feathers interwoven with delicate vines and leaves that whisper secrets of the forest. With a touch, they impart a sense of the wild and the untamed, granting the bearer the ability to soar through the skies and ensnare foes with an otherworldly allure."
+  },
+  "Ancient_God_Divine_Wings": {
+    "tags": [
+      "Wings",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Radiant Burst",
+      "Charm",
+      "Magic Resistance",
+      "Smite"
+    ],
+    "description": "Enveloped in an aura of ethereal light, the Ancient_God_Divine_Wings shimmer with an otherworldly sheen, their feathers of iridescent silver and gold shifting to reveal intricate, celestial patterns. With a mere flutter, these wings grant the bearer the ability to soar through the heavens, casting a protective shield of radiant energy and charming all who gaze upon them."
+  }
+}

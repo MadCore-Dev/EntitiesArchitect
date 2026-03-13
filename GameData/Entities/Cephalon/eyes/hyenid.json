@@ -1,0 +1,275 @@
+{
+  "Forward_Predator_Eyes": {
+    "tags": [
+      "Eye",
+      "Forward",
+      "Hyenid",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Pounce"
+    ],
+    "description": "Emerging from the sockets of a fearsome hyenid skull, these forward-set predator eyes gleam with an unnatural intelligence, their dark orbs reflecting the world in a distorted, predatory vision that enhances the wearer's senses and reflexes, granting them a deadly edge in the art of ambush and pounce."
+  },
+  "Nocturnal_Tapetum_Eyes": {
+    "tags": [
+      "Eye",
+      "Tapetum",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Nocturnal Tapetum Eyes, a haunting pair of orbs with a reflective layer behind the retina, glow with an eerie luminescence in the dark, enhancing the wearer's vision to pierce through the veil of night and detect even the slightest movement."
+  },
+  "Wide_Set_Alert_Eyes": {
+    "tags": [
+      "Eye",
+      "Wide_Set",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Wide-set alert eyes, reminiscent of a cunning hyena, gleam with an otherworldly intensity. Their sockets are deeply embedded in the skull, providing a panoramic view and a constant vigilance that grants heightened perception and the ability to evade danger with preternatural grace."
+  },
+  "Electroreceptive_Track_Eyes": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the sockets of this hyenid creature\u2019s head, these eyes appear as black, opalescent orbs that shimmer with electric blue veins, pulsating subtly as they detect faint electrical signals from living beings and movements beneath the surface of the ground."
+  },
+  "Infrared_Heat_Eyes": {
+    "tags": [
+      "Eye",
+      "Infrared",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Ambush"
+    ],
+    "description": "The Infrared_Heat_Eyes are a pair of unsettling, glowing orbs that seem to pulse with a sinister warmth, allowing the beholder to see through the darkest of nights and discern the faintest traces of body heat, perfect for the patient hunter lurking in the shadows."
+  },
+  "Motion_Tracking_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Motion_Tracking_Eyes are a pair of predatory orbs, dark and glossy with slitted pupils that shift and track every movement within their vicinity with unnerving precision. The eyes feel cold to the touch, as if they absorb warmth along with sensory data, and their presence grants the bearer an uncanny ability to anticipate and react to threats before they materialize."
+  },
+  "Disease_Glazed_Eyes": {
+    "tags": [
+      "Eye",
+      "Diseased",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Disease_Glazed_Eyes are sunken orbs, a sickly yellow with dark, swirling patterns that seem to pulse with an inner corruption. They exude an aura of dread, causing onlookers to feel an overwhelming sense of fear and revulsion, while also granting the bearer a measure of resistance against the very plagues they invoke."
+  },
+  "Undead_Hollow_Eyes": {
+    "tags": [
+      "Eye",
+      "Hollow",
+      "Hyenid",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Fear"
+    ],
+    "description": "The Undead_Hollow_Eyes are sockets of endless blackness, devoid of any hint of life or warmth, set into a gaunt, undead visage. These sockets pulse faintly with an eerie, cold light, granting the bearer an acute sense of the ground beneath them and the ability to instill dread in those who meet their gaze."
+  },
+  "Polarized_Light_Eyes": {
+    "tags": [
+      "Eye",
+      "Polarized",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Polarized_Light_Eyes are eerie, shimmering orbs that appear to refract and manipulate light in unnatural ways, allowing the beholder to see through even the densest shadows and obscurations with unnerving clarity."
+  },
+  "Bioluminescent_Pack_Eyes": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Embedded within the sockets of this hyenid creature's skull, these eyes pulse with an eerie, greenish-blue light that seems to shift and dance like flames. The texture is cold and gelatinous, almost sucking in the surrounding light, while a subtle, paralyzing aura emanates from them, capable of freezing the minds of the unwary."
+  },
+  "Aardwolf_Insect_Eyes": {
+    "tags": [
+      "Eye",
+      "Compound",
+      "Hyenid",
+      "Aardwolf"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Embedded within the sockets of the Aardwolf's skull, these insectoid eyes pulsate with an otherworldly green glow, each composed of countless facets that flicker and adjust to the slightest movement, granting unparalleled peripheral vision and the ability to spot even the most concealed threats."
+  },
+  "Shadow_Night_Eyes": {
+    "tags": [
+      "Eye",
+      "Shadow",
+      "Hyenid",
+      "Nocturnal"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Ambush"
+    ],
+    "description": "Embedded deep within the sockets, Shadow_Night_Eyes are obsidian orbs that seem to absorb all light around them, pulsating with an eerie, moonlit glow. Their surface is slick and cold to the touch, and they grant the user unparalleled night vision and the ability to vanish into the shadows, making them a fearsome asset in the dead of night."
+  }
+}

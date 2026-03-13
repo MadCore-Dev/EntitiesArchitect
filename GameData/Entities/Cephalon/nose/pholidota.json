@@ -1,0 +1,269 @@
+{
+  "Termite_Scent_Nares": {
+    "tags": [
+      "Nose",
+      "Termite",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking",
+      "Burrow"
+    ],
+    "description": "The Termite_Scent_Nares, a bizarre fusion of insectoid and scaled anatomy, protrudes from the face like elongated, segmented tubes covered in chitin. Its surface is cold and slightly sticky to the touch, and when activated, it flutters subtly, enhancing the bearer's ability to track scents underground and through tight spaces."
+  },
+  "Olfactory_Chemoreceptor_Nares": {
+    "tags": [
+      "Nose",
+      "Chemoreceptor",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "The Olfactory_Chemoreceptor_Nares, a serpentine nose with intricate, ridged pits, pulsates subtly as it analyzes the chemical composition of the air, granting the wielder an uncanny ability to track prey and predators alike through scent alone, enhancing their perception and wisdom in the process."
+  },
+  "Electrosensory_Nasal_Pit": {
+    "tags": [
+      "Nose",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the snout, the Electrosensory Nasal Pit is a cluster of fine, translucent pores that shimmer with an eerie, pulsating glow, allowing the creature to detect electrical fields and subtle movements in the air, granting it a nearly omniscient awareness of its surroundings."
+  },
+  "Scale_Gland_Musk_Nares": {
+    "tags": [
+      "Nose",
+      "Musk",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "Embedded within the creature's nasal cavity, the Scale_Gland_Musk_Nares pulsates with an eerie luminescence, exuding a potent, pheromone-laden musk that can instill both dread and fascination, altering the perceptions of those nearby while subtly diminishing the bearer's charisma."
+  },
+  "Acid_Immune_Nares": {
+    "tags": [
+      "Nose",
+      "Acid",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Acid_Immune_Nares are a pair of thick, leathery nostrils lined with a shimmering, iridescent membrane that glistens like wet scales. They pulsate subtly, filtering out noxious fumes and acidic vapors with an almost organic filtration system, granting the user heightened awareness and resistance to corrosive environments."
+  },
+  "Venomous_Drip_Nares": {
+    "tags": [
+      "Nose",
+      "Venomous",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison"
+    ],
+    "description": "The Venomous Drip Nares is a serpentine nose, coiled tightly with scales that glisten menacingly in the light. From its twin apertures, venomous droplets hang precariously, ready to drip and deliver a paralyzing poison at a moment's notice."
+  },
+  "Undead_Rot_Nares": {
+    "tags": [
+      "Nose",
+      "Undead",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger"
+    ],
+    "description": "The Undead_Rot_Nares is a twisted, decayed snout covered in flaking scales, emanating a sickly sweet odor that would turn any living creature's stomach. Despite its repulsive appearance, it enhances the user's senses, allowing them to detect even the faintest traces of carrion or hidden foes in the gloom."
+  },
+  "Fossorial_Close_Nares": {
+    "tags": [
+      "Nose",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Burrow"
+    ],
+    "description": "The Fossorial_Close_Nares component is a small, tactile nose with slit-like nostrils, capable of detecting even the faintest scents beneath the earth's surface, its rough, scaled exterior providing a tactile sensation akin to sandpaper as it subtly vibrates during the act of burrowing."
+  },
+  "Magnetic_Orientation_Nares": {
+    "tags": [
+      "Nose",
+      "Magnetic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the leathery, chitinous nostrils of the Magnetic_Orientation_Nares are minuscule metallic filaments that twitch and realign themselves in response to the Earth's magnetic fields, granting the user an unparalleled sense of direction and an eerie ability to navigate through the darkest of night or the most chaotic of battlefields, as if guided by unseen forces."
+  },
+  "Titan_Wide_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Titan",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Tracking"
+    ],
+    "description": "Embedded within the rugged snout of a colossal titan, these chemoreceptors resemble intricate, interwoven scales that pulse with a dim, bioluminescent glow. They capture even the faintest traces of scent on the wind, enhancing the user's ability to track and discern the movements of others with uncanny accuracy."
+  },
+  "Seismic_Ground_Nares": {
+    "tags": [
+      "Nose",
+      "Seismic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "The Seismic Ground Nares is a pair of elongated, whisker-lined nostrils that vibrate subtly with the earth's deepest tremors, allowing the user to sense the slightest shifts in the ground and pinpoint the direction of distant seismic activity, enhancing their perception of their surroundings."
+  },
+  "Bioluminescent_Chemoreceptors": {
+    "tags": [
+      "Nose",
+      "Bioluminescent",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Chemoreceptors is a serpentine organ, flickering with an eerie, pulsating glow, capable of detecting minute chemical changes in the air. Its surface is covered in iridescent scales that shimmer in the dark, and when activated, it emits a faint, paralyzing vapor that can immobilize prey or enemies within a narrow radius."
+  }
+}

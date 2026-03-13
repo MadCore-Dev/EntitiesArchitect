@@ -1,0 +1,314 @@
+{
+  "Spring_Petal_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Floral",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Ensnare"
+    ],
+    "description": "The Spring_Petal_Tendrils are delicate yet resilient tendrils that unfurl like blooming flowers, their vibrant hues shifting with the emotions of the wielder. Soft to the touch but capable of entwining with alarming strength, these tendrils grant an otherworldly allure and the ability to ensnare foes in a web of floral magic."
+  },
+  "Summer_Flame_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Summer",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Immolate",
+      "Charm"
+    ],
+    "description": "The Summer_Flame_Tendrils are long, slender tentacles that shimmer with an ethereal blue flame, dancing and flickering like living fire. They feel both cool and warm to the touch, an intriguing contradiction that leaves one captivated, while their presence grants the wielder a resistance to fire and an extended reach, allowing for both mesmerizing charm and devastating immolation."
+  },
+  "Winter_Frost_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Winter",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slow",
+      "Ensnare",
+      "Constrict"
+    ],
+    "description": "Braided with crystalline ice and shimmering with an aura of arctic twilight, the Winter Frost Tendrils are prehensile and sinuous, capable of creeping silently across frozen landscapes to ensnare and constrict their victims, leaving a trail of frostbite and frigid despair in their wake."
+  },
+  "Vine_Root_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Vine",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "Emerging from the creature's body are thick, writhing tendrils that resemble gnarled vine roots, each one pulsating with an otherworldly green energy that seems to dance with the essence of the forest. These tendrils are both supple and powerful, capable of ensnaring and constricting foes with an eerie, plant-like resilience, while granting the wielder a significant boost in strength and reach."
+  },
+  "Kelpie_Water_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Kelpie",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Grapple",
+      "Charm"
+    ],
+    "description": "Emerging from the depths of a murky lake, the Kelpie Water Tendrils are a writhing mass of translucent, slimy tentacles that pulse with an eerie, bioluminescent glow, capable of ensnaring and charming their prey with a hypnotic grace."
+  },
+  "Thorn_Briars_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Thorn",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales",
+      "Ensnare"
+    ],
+    "description": "The Thorn_Briars_Tendrils are supple yet menacing, covered in sharp, needle-like thorns that shimmer with an ethereal green glow. These Fae-infused tentacles can extend and retract at will, ensnaring foes with an otherworldly grace, while their surface provides a natural armor that deflects even the sharpest of blades."
+  },
+  "Unseelie_Dark_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Shadow",
+      "Fae",
+      "Unseelie"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ensnare",
+      "Ambush"
+    ],
+    "description": "Twisting like sinuous shadows, the Unseelie Dark Tendrils are a tangle of writhing, black tendrils that pulse with an eerie, greenish glow when agitated, their cold, slick surface capable of ensnaring and draining the life force from their victims while granting the user an otherworldly advantage in stealth and reach."
+  },
+  "Gossamer_Touch_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Gossamer",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "Gossamer_Touch_Tendrils are delicate, shimmering appendages that seem to glow with an otherworldly light, their touch as light as a summer breeze yet capable of wrapping around their target with an ethereal strength, leaving a lingering sense of enchantment and paralysis in their wake."
+  },
+  "Silver_Moonlit_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Silver",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Soft Step"
+    ],
+    "description": "The Silver_Moonlit_Tendrils are delicate, shimmering tentacles that glow with an ethereal silver light, their movements fluid and graceful as they weave through the air with a near-silent whisper. Each tendril pulses with a gentle, hypnotic rhythm, capable of ensnaring the hearts and minds of those who gaze upon them, while their touch is as light and unobtrusive as a moonbeam, allowing the wielder to move undetected through even the thickest undergrowth."
+  },
+  "Archfae_Arcane_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Archfae",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze",
+      "Ensnare",
+      "Magic Resistance"
+    ],
+    "description": "Twisting and writhing with otherworldly grace, the Archfae Arcane Tendrils are a mesmerizing array of translucent tentacles that pulse with arcane energies, granting their bearer the power to ensnare foes, paralyze them in fear, and charm them into submission while also enhancing their magical resilience."
+  },
+  "Autumn_Withered_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Autumn",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush",
+      "Charm"
+    ],
+    "description": "Twisting and gnarled, the Autumn_Withered_Tendrils are a cluster of dark, vine-like tentacles that shimmer with a sickly, amber glow, their movements eerily graceful yet unsettlingly deliberate, capable of wrapping around prey with a hypnotic allure that both charms and ensnares."
+  },
+  "Changeling_Adaptive_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Changeling",
+      "Fae"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Ensnare"
+    ],
+    "description": "Glistening and mutable, the Changeling_Adaptive_Tendrils shift color and pattern to blend seamlessly with their surroundings, while their barbed tips can ensnare prey with alarming speed, their flexibility and reach allowing them to strike from unexpected angles."
+  }
+}

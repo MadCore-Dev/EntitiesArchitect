@@ -1,0 +1,300 @@
+{
+  "Obsidian_Scale_Plates": {
+    "tags": [
+      "Scales",
+      "Obsidian",
+      "Draconic",
+      "Fire"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Fire Resist"
+    ],
+    "description": "Obsidian_scale_plates are jet-black and impenetrably hard, each scale intricately carved with ancient draconic runes that shimmer faintly with an inner heat, granting the bearer unparalleled protection and resistance to flames."
+  },
+  "Frost_Blue_Scale_Armour": {
+    "tags": [
+      "Scales",
+      "Frost",
+      "Draconic",
+      "Ice"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Cold Resist"
+    ],
+    "description": "The Frost Blue Scale Armour is a resilient, icy carapace that glistens in the dim light, its surface etched with delicate frost patterns that crackle softly when touched. Each scale feels like a shard of ancient glacier, cold to the touch yet imbued with a protective warmth that wards off the bitterest of winter's chill."
+  },
+  "Acid_Green_Scale_Skin": {
+    "tags": [
+      "Scales",
+      "Acid",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Acid Spray"
+    ],
+    "description": "The Acid_Green_Scale_Skin is a shimmering exosuit of emerald-hued scales, each one glistening with a viscous, corrosive fluid that hisses and bubbles when disturbed, providing a seamless blend of protection and offensive capability."
+  },
+  "Lightning_Crackled_Scale": {
+    "tags": [
+      "Scales",
+      "Lightning",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "6"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Natural Armor"
+    ],
+    "description": "The Lightning_Crackled_Scale is a jagged, iridescent shield of draconic origin, its surface crackling with electric blue energy that hums ominously. Touching these scales can send a jolt of paralyzing lightning through an opponent, while their innate resilience provides a layer of natural armor that deflects both physical and magical assaults."
+  },
+  "Shadow_Black_Scale": {
+    "tags": [
+      "Scales",
+      "Shadow",
+      "Draconic",
+      "Dark"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Camouflage"
+    ],
+    "description": "The Shadow_Black_Scale is a jagged, obsidian-like scale that seems to absorb all light around it, making it nearly impossible to discern its exact shape and size until it brushes against the skin, offering a chilling, slick feel that hints at its dark, draconic heritage."
+  },
+  "Sea_Serpent_Bioluminescent_Scale": {
+    "tags": [
+      "Scales",
+      "Bioluminescent",
+      "Draconic",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Bioluminescence"
+    ],
+    "description": "The Sea Serpent Bioluminescent Scale is a shimmering, iridescent fragment that pulsates with an eerie, underwater glow, its surface cold and slick to the touch, granting the bearer both a protective sheen and the ability to illuminate their path through the darkest depths of the ocean."
+  },
+  "Dracolich_Bone_Scales": {
+    "tags": [
+      "Scales",
+      "Bone",
+      "Draconic",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "6"
+      },
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Fear"
+    ],
+    "description": "The Dracolich Bone Scales are jagged, petrified remnants of a dragon's once-living hide, now etched with arcane runes that pulse with faint, sickly green light. Each scale is cold to the touch, granting a chilling aura that sends shivers down the spine of any nearby observer, while the natural armor they provide feels like an unyielding barrier against the forces of decay and disease."
+  },
+  "Elder_Dragon_Ancient_Scale": {
+    "tags": [
+      "Scales",
+      "Ancient",
+      "Draconic",
+      "Elder"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "8"
+      },
+      {
+        "target": "magic_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Magic Resistance"
+    ],
+    "description": "The Elder Dragon Ancient Scale, a relic of primordial power, gleams with an otherworldly sheen that shifts between hues of twilight and dawn, its surface cold and slick to the touch yet imbued with an undeniable resilience that promises to deflect even the most potent of arcane attacks."
+  },
+  "Iridescent_Faerie_Scale": {
+    "tags": [
+      "Scales",
+      "Iridescent",
+      "Draconic",
+      "Faerie"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm"
+    ],
+    "description": "The Iridescent Faerie Scale is a mesmerizing, multi-hued scale that shimmers with an otherworldly, faerie light, casting an ethereal glow in its surroundings. Its surface is as smooth and cool to the touch as finely polished glass, and it grants its bearer an innate charm that compels those around them to be drawn to their presence."
+  },
+  "Wyvern_Rough_Scale": {
+    "tags": [
+      "Scales",
+      "Rough",
+      "Draconic",
+      "Wyvern"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Poison"
+    ],
+    "description": "The Wyvern_Rough_Scale, jagged and dark as obsidian, clings to the creature\u2019s body with an almost organic ferocity, each scale a testament to the beast\u2019s untamed nature, offering a defensive barrier that both absorbs and deflects the harshest of attacks while subtly secreting a venomous residue that deters would-be predators and enemies alike."
+  },
+  "Chromatic_Shifting_Scale": {
+    "tags": [
+      "Scales",
+      "Chromatic",
+      "Draconic"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Intimidate"
+    ],
+    "description": "The Chromatic Shifting Scale is a shimmering, iridescent scale that constantly morphs through a spectrum of colors, blending seamlessly with the surroundings to offer perfect camouflage, while its jagged edges and menacing hue can strike fear into the hearts of foes."
+  },
+  "Hatchling_Soft_Scale": {
+    "tags": [
+      "Scales",
+      "Soft",
+      "Draconic",
+      "Hatchling"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Pale and tender, the Hatchling_Soft_Scale glistens with an otherworldly sheen, its surface barely offering protection yet pulsating with the potential for future might, granting the bearer a subtle boost in agility and natural armor."
+  }
+}

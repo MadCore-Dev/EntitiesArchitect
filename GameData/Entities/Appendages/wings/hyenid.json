@@ -1,0 +1,312 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Hyenid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Glide_Wings are a set of sleek, darkly iridescent wings, reminiscent of a mutant hyena's twisted evolution, that allow for silent gliding through the air with unparalleled grace and agility, enhancing one's evasion and nimbleness in the process."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Hyenid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Emerging from the creature's sinuous back, these feathered mutant wings are a grotesque blend of avian elegance and hyenid toughness, their dark feathers intermixed with patches of coarse fur, capable of carrying the beast through the air with silent grace while providing unmatched agility and evasion."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are a pair of sleek, leathery appendages that stretch tautly from the creature's elongated forearms to its hind legs, creating a seamless expanse of black membrane that shimmers in the dim light. These wings, when unfurled, enable silent, graceful flight through the darkest of nights, allowing the creature to navigate the shadows with eerie precision and agility."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "Dark_Stealth_Wings are jet-black, leathery wings adorned with jagged edges that shimmer faintly in the shadows, blending seamlessly with the night. They pulse with a silent, eerie energy, allowing their bearer to move through the darkness with ghostly silence and strike from unexpected angles."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight"
+    ],
+    "description": "Thermal soaring wings, crafted from the resilient and darkly feathered membranes of a hyenid beast, pulse with an eerie, warm energy that allows the wielder to catch thermals and glide effortlessly through the skies, their agility and evasion dramatically enhanced as they dance through the air with preternatural grace."
+  },
+  "Undead_Skeletal_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Hyenid",
+      "Undead"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "The Undead_Skeletal_Wings are a pair of translucent, bleached bones arranged in the shape of wings, with jagged edges that seem to scrape against the air as they move. These skeletal appendages emit an unsettling aura that causes a chill to run down the spine of anyone nearby, and they grant the wielder the ability to glide silently through the night, evading danger with eerie grace."
+  },
+  "Insectoid_Wings": {
+    "tags": [
+      "Wings",
+      "Insectoid",
+      "Hyenid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Insectoid_Wings are a chitinous expanse of membranous wings, patterned with intricate black and iridescent blue veins, capable of silent and precise glides through the air, allowing their bearer to hover and execute acrobatic maneuvers with eerie grace and agility."
+  },
+  "Reinforced_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Pounce"
+    ],
+    "description": "Reinforced_Strike_Wings are dark and leathery, with jagged edges that shimmer with a metallic sheen, giving the illusion of sharpened blades. When unfolded, these wings emit a faint, ominous hum, and their serrated edges seem to pulse with latent kinetic energy, ready to slice through the air with devastating precision."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are a grotesque marvel of skeletal engineering, resembling the ribcage of a massive bird fused with the sinews of a hyena. They are remarkably light yet robust, allowing for swift aerial maneuvers, but their construction leaves the bearer feeling an unsettling vulnerability in their endurance and resilience."
+  },
+  "Extended_Patagium_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Extended Patagium Wings, a tattered yet resilient membrane stretching from the creature's elongated forelimbs to its lower back, allows for silent gliding through the treacherous canyons and dense undergrowth, its rough surface providing an additional layer of camouflage amidst the shadows."
+  },
+  "Downdraft_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "The Downdraft_Strike_Wings are broad, leathery appendages with a jagged edge that resemble the torn wings of a carrion bird, capable of creating a powerful downdraft to propel their owner forward or deliver devastating body slams."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Hyenid"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Tattered and leathery, the vestigial wing stubs are remnants of a once-potent flight mechanism, now useless for soaring but providing a slight edge in dodging attacks, their presence a haunting reminder of evolutionary dead-ends and the brutal efficiency of survival in the dark fantasy realm."
+  }
+}

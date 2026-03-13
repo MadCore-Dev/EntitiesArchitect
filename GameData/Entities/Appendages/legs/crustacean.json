@@ -1,0 +1,302 @@
+{
+  "Decapod_Walking_Legs": {
+    "tags": [
+      "Legs",
+      "Walking",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk",
+      "Sidewalk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sidewalk",
+      "Sure-Footed"
+    ],
+    "description": "Bristling with sharp, segmented joints and covered in a chitinous armor that glistens with an eerie blue sheen, the decapod walking legs allow for swift, silent movement across treacherous terrains, granting the user unparalleled stability and agility."
+  },
+  "Fossorial_Burrowing_Legs": {
+    "tags": [
+      "Legs",
+      "Fossorial",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Fossorial_Burrowing_Legs are massive, crab-like limbs with sharp, spade-shaped claws that can effortlessly slice through earth and rock, allowing the bearer to sink into the ground as if it were water. Covered in a thick, chitinous armor that provides excellent protection, these legs grant incredible strength and digging prowess, transforming any environment into a potential hideaway."
+  },
+  "Aquatic_Swimming_Pleopods": {
+    "tags": [
+      "Legs",
+      "Pleopods",
+      "Crustacean",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the creature\u2019s lower torso, the segmented aquatic pleopods undulate with a hypnotic grace, their translucent membranes shimmering in the water as they propel the creature with incredible speed and agility through the depths."
+  },
+  "Suction_Gripping_Legs": {
+    "tags": [
+      "Legs",
+      "Suction",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Suction Grip",
+      "Spider Climb"
+    ],
+    "description": "The Suction_Gripping_Legs are powerful, segmented limbs that resemble those of a crustacean, covered in soft, rubbery pads that can adhere to any surface with incredible force, allowing for effortless scaling of vertical walls and ceilings."
+  },
+  "Spined_Fighting_Legs": {
+    "tags": [
+      "Legs",
+      "Spined",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "The Spined Fighting Legs are a pair of powerful, chitinous appendages covered in razor-sharp spines, each step they take leaving shallow gashes in the earth. Their robust structure grants exceptional strength and durability, allowing the wielder to unleash devastating rake attacks with bone-crushing force."
+  },
+  "Long_Stalked_Walking_Legs": {
+    "tags": [
+      "Legs",
+      "Long_Stalked",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "Emerging from the creature's segmented body are long, slender stalked legs, each jointed appendage ending in sharp, clawed feet that dig into the ground with surprising delicacy, allowing the creature to sprint across rugged terrain with an effortless, bounding gait that seems to defy gravity."
+  },
+  "Compact_Burrowing_Legs": {
+    "tags": [
+      "Legs",
+      "Compact",
+      "Crustacean",
+      "Isopod"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Stability"
+    ],
+    "description": "Compact and rugged, these isopod-like legs are segmented and armored, allowing for swift and silent burrowing through earth and stone with remarkable stability, their robust nature bolstering both constitution and strength."
+  },
+  "Deep_Sea_Stilted_Legs": {
+    "tags": [
+      "Legs",
+      "Stilted",
+      "Crustacean",
+      "Deep_Sea"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Emerging from the abyssal depths, the Deep_Sea_Stilted_Legs are elongated, segmented limbs that resemble the legs of giant crustaceans, adapted for navigating the treacherous, shifting sands of the ocean floor. Their sturdy, flexible joints provide unparalleled stability, allowing the user to stand firm on even the most unstable terrain."
+  },
+  "Webbed_Aquatic_Legs": {
+    "tags": [
+      "Legs",
+      "Webbed",
+      "Crustacean",
+      "Aquatic"
+    ],
+    "traversal": [
+      "Swim",
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the depths, the webbed aquatic legs are a marvel of nature, their segmented, chitinous exoskeletons glinting with iridescent hues as they propel the bearer through water with grace and power, enhancing both agility and speed."
+  },
+  "Piston_Strike_Raptorial_Legs": {
+    "tags": [
+      "Legs",
+      "Raptorial",
+      "Crustacean",
+      "Mantis_Shrimp"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Smite"
+    ],
+    "description": "These powerful raptorial legs, reminiscent of a mantis shrimp's formidable claws, are covered in a chitinous exoskeleton that gleams with an iridescent sheen. Each leg terminates in a sharp, piston-like joint capable of delivering devastating blows, enhancing both strength and reflexes with every strike."
+  },
+  "Rock_Clinging_Legs": {
+    "tags": [
+      "Legs",
+      "Clinging",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Walk",
+      "Wall_Crawl"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Spider Climb"
+    ],
+    "description": "The Rock_Clinging_Legs are thick and segmented, resembling those of a giant crustacean, with numerous sharp, hook-like claws that allow them to cling to even the smoothest rock faces with preternatural ease. As the legs move, they emit a faint, rhythmic scraping sound, and their chitinous surface feels rough and cool to the touch."
+  },
+  "Vestigial_Sessile_Stubs": {
+    "tags": [
+      "Legs",
+      "Vestigial",
+      "Crustacean",
+      "Sessile"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature\u2019s torso, these tiny, crab-like appendages are vestigial and immobile, their hard exoskeletons resembling miniature claws that occasionally twitch as if trying to grasp at the air, hinting at a lost evolutionary function."
+  }
+}

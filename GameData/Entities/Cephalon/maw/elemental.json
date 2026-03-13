@@ -1,0 +1,299 @@
+{
+  "Fire_Eruption_Maw": {
+    "tags": [
+      "Maw",
+      "Fire",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Immolate",
+      "Intimidate"
+    ],
+    "description": "The Fire Eruption Maw is a gaping, charcoal-black orifice lined with razor-sharp, flame-tipped teeth that crackle and spit sparks, capable of belching forth a searing torrent of fire and infusing its surroundings with an aura of relentless, infernal dread."
+  },
+  "Earth_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Earth",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Slam",
+      "Headbutt"
+    ],
+    "description": "The Earth_Crushing_Maw is a cavernous jaw lined with jagged, obsidian teeth that seem to pulse with the gravitational pull of the earth itself, capable of crushing boulders with a single snap and leaving a trail of seismic tremors whenever its bearer decides to use the granted skills of Crunch, Slam, or Headbutt."
+  },
+  "Water_Vortex_Maw": {
+    "tags": [
+      "Maw",
+      "Water",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "The Water_Vortex_Maw is a gaping, swirling aperture that seems to draw in and devour everything around it, its slick, inward-spiraling teeth lined with a constant flow of churning water that feels both cold and unnervingly alive."
+  },
+  "Air_Gust_Screech_Maw": {
+    "tags": [
+      "Maw",
+      "Air",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Gust",
+      "Knockback",
+      "Fear"
+    ],
+    "description": "The Air_Gust_Screech_Maw is a gaping, razor-toothed maw that seems to hum with the restless energy of a raging storm, its edges shimmering with razor-sharp air blades that can slice through the air with a screeching howl, causing enemies to stagger and quail in fear."
+  },
+  "Lightning_Plasma_Maw": {
+    "tags": [
+      "Maw",
+      "Lightning",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Shock Touch"
+    ],
+    "description": "The Lightning_Plasma_Maw is a gaping, obsidian void lined with jagged, electrified teeth that pulse with crackling blue energy, capable of emitting a deafening hum as it prepares to unleash a devastating bolt of lightning or deliver a paralyzing shock."
+  },
+  "Ice_Frost_Breath_Maw": {
+    "tags": [
+      "Maw",
+      "Ice",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ice Breath",
+      "Slow",
+      "Freeze"
+    ],
+    "description": "The Ice Frost Breath Maw is a gaping, chitinous mouth lined with razor-sharp teeth of frosted steel, emitting a perpetual mist of biting cold that causes the air to shimmer and freeze upon contact, granting the wielder chilling abilities and enhanced resistance to the frosty elements."
+  },
+  "Shadow_Life_Drain_Maw": {
+    "tags": [
+      "Maw",
+      "Shadow",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Fear"
+    ],
+    "description": "The Shadow_Life_Drain_Maw is a gaping, obsidian-black orifice that seems to pulse with a malevolent energy, its edges lined with razor-sharp teeth that gleam with an eerie, greenish hue in the dim light. When it opens, a chilling draft of darkness emanates, instilling fear in the hearts of those who gaze upon it, while it silently siphons life force from nearby enemies, healing its bearer."
+  },
+  "Lava_Magma_Maw": {
+    "tags": [
+      "Maw",
+      "Lava",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Crunch",
+      "Immolate"
+    ],
+    "description": "The Lava Magma Maw is a gaping, molten orifice lined with jagged, obsidian teeth that glows with an intense, blood-red heat. When activated, it belches forth a torrent of scalding lava and any creature caught within its fiery breath is instantly scorched and immolated."
+  },
+  "Acid_Ooze_Dissolve_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "The Acid Ooze Dissolve Maw is a gaping, churning cavity lined with fleshy tendrils that pulse and secrete a viscous, bubbling acid, capable of dissolving metal and flesh alike with a single spray."
+  },
+  "Nature_Vines_Maw": {
+    "tags": [
+      "Maw",
+      "Nature",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Grapple"
+    ],
+    "description": "The Nature_Vines_Maw is a grotesque amalgamation of gnarled, twisting vines that coalesce into a jagged, tooth-lined maw, capable of ensnaring and constricting prey with an eerie, pulsating energy that thrums with raw elemental power."
+  },
+  "Time_Phase_Null_Maw": {
+    "tags": [
+      "Maw",
+      "Time",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blink",
+      "Slow",
+      "Haste"
+    ],
+    "description": "The Time_Phase_Null_Maw is a grotesque appendage, a yawning maw lined with jagged teeth that shimmer with temporal distortions, capable of seizing moments and bending them to its will, granting its bearer the unsettling ability to manipulate time in combat."
+  },
+  "Sand_Abrading_Maw": {
+    "tags": [
+      "Maw",
+      "Sand",
+      "Elemental"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blinding Sandstorm",
+      "Crunch"
+    ],
+    "description": "The Sand_Abrading_Maw is a gaping, toothless maw lined with razor-sharp edges of hardened sand, capable of slicing through flesh with a mere swipe. When agitated, it spews out a blinding sandstorm that reduces visibility and chafes the skin, leaving painful abrasions."
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "Spring_Butterfly_Fins": {
+    "tags": [
+      "Fins",
+      "Butterfly",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Delicate, iridescent wings that shimmer like butterfly wings in the light, but are structured like sleek, hydrodynamic fins, allowing for graceful movement through water while their enchanting appearance grants a subtle charm to those who behold them."
+  },
+  "Kelpie_River_Fins": {
+    "tags": [
+      "Fins",
+      "Kelpie",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Glistening emerald scales with iridescent blue edges ripple like water as the kelpie moves, its sleek river fins capable of propelling it with breathtaking speed and grace through the deepest waters. The touch of these fins is both seductive and mesmerizing, weaving an enchanting spell that captivates all who come within reach."
+  },
+  "Frost_Ice_Fins": {
+    "tags": [
+      "Fins",
+      "Frost",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Slow"
+    ],
+    "description": "Delicate yet menacing, the Frost_Ice_Fins are translucent blue with veins of glittering frost that seem to pulse with an otherworldly energy, granting the wielder the ability to swim with ethereal grace and slow their enemies to a crawl, while also increasing their resistance to the chill and their overall speed."
+  },
+  "Vine_Drift_Fins": {
+    "tags": [
+      "Fins",
+      "Vine",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Swim"
+    ],
+    "description": "Emerging from the depths of an enchanted forest, the Vine_Drift_Fins are delicate yet formidable appendages, their translucent green membranes pulsating with the glow of fae magic, and fine, ensnaring tendrils that curl and uncurl with the grace of water-born serpents."
+  },
+  "Gossamer_Drift_Fins": {
+    "tags": [
+      "Fins",
+      "Gossamer",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Gossamer_Drift_Fins are delicate, almost ethereal appendages that shimmer with iridescent hues, their translucent membranes fluttering like the wings of the most elusive fae creatures, granting unparalleled grace and agility in water, allowing the user to slip through currents with an otherworldly ease."
+  },
+  "Shadow_Unseelie_Fins": {
+    "tags": [
+      "Fins",
+      "Shadow",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage",
+      "Swim"
+    ],
+    "description": "Twisted and darkly elegant, the Shadow_Unseelie_Fins are jet-black and seem to absorb light, making them nearly invisible in the dim light of underwater caverns. They pulse with an eerie, bioluminescent glow that trails in their wake, allowing the creature to move through the water with supernatural grace and silence."
+  },
+  "Silver_Moonlit_Fins": {
+    "tags": [
+      "Fins",
+      "Silver",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "The Silver_Moonlit_Fins shimmer with an otherworldly glow, their sleek silver scales catching the moonlight and casting an ethereal glow that seems to hypnotize all who see them. When used in water, they grant unparalleled agility and a subtle charm that lulls nearby creatures into a sense of calm and trust."
+  },
+  "Bark_Brown_Fins": {
+    "tags": [
+      "Fins",
+      "Bark",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "Bark_Brown_Fins are thick, leathery appendages reminiscent of tree bark, covered in intricate fae runes that shimmer with an inner light, allowing the wielder to move swiftly and silently through water while granting a sturdy, natural armor that provides protection against aquatic predators."
+  },
+  "Archfae_Arcane_Fins": {
+    "tags": [
+      "Fins",
+      "Archfae",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Swim",
+      "Magic Resistance"
+    ],
+    "description": "Emerging from the ethereal form of an Archfae, these shimmering fins are iridescent with a spectrum of magical hues that shift and dance as if alive, granting the bearer a graceful and mesmerizing presence in both water and on land, while also bestowing a subtle aura of arcane resistance."
+  },
+  "Summer_Flame_Fins": {
+    "tags": [
+      "Fins",
+      "Summer",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Summer Flame Fins shimmer with an otherworldly glow, their translucent membranes pulsating with the colors of a sunset. Each fin is edged with delicate, flickering flames that do not burn, granting the bearer a swift and agile swim through water while also bestowing a resistance to the heat of infernal attacks."
+  },
+  "Pixie_Tiny_Fins": {
+    "tags": [
+      "Fins",
+      "Pixie",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Gossamer-thin fins, shimmering in iridescent hues that shift with the light, flutter gracefully from the pixie's ankles, granting an ethereal buoyancy that allows effortless gliding through water with surprising speed and grace."
+  },
+  "Changeling_Adaptive_Fins": {
+    "tags": [
+      "Fins",
+      "Changeling",
+      "Fae"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Camouflage"
+    ],
+    "description": "Glistening with an iridescent sheen that shifts with the light, these adaptive fins are adorned with delicate, bioluminescent markings that pulse in harmony with the creature's surroundings, granting both stealth and fluid movement through water."
+  }
+}

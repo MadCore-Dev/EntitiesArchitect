@@ -1,0 +1,371 @@
+{
+  "Spring_Flower_Wings": {
+    "tags": [
+      "Wings",
+      "Floral",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm"
+    ],
+    "description": "Gossamer wings sprout from the back, their delicate petals shifting in iridescent hues of twilight as they flutter, each movement a mesmerizing dance that captivates all who behold them, granting the wielder the ability to hover gracefully in the air and charm nearby creatures with their ethereal beauty."
+  },
+  "Summer_Fire_Wings": {
+    "tags": [
+      "Wings",
+      "Summer",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "fire_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Charm",
+      "Intimidate"
+    ],
+    "description": "Glowing embers weave through the translucent, iridescent wings of Summer_Fire_Wings, casting an otherworldly warmth and flickering light that dances with the breeze. Their touch is like a gentle summer breeze tinged with the thrill of a campfire's warmth, capable of both soothing and alarming those who behold them."
+  },
+  "Autumn_Gossamer_Wings": {
+    "tags": [
+      "Wings",
+      "Autumn",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Glide"
+    ],
+    "description": "The Autumn_Gossamer_Wings are delicate, semi-transparent wings tinged with shades of amber and russet, their texture like the crisp, dry leaves of autumn. They allow the bearer to move silently through the air, gliding effortlessly between the trees and blending seamlessly with the fading light of dusk."
+  },
+  "Winter_Frost_Wings": {
+    "tags": [
+      "Wings",
+      "Winter",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Slow",
+      "Charm"
+    ],
+    "description": "Winter_Frost_Wings are delicate yet formidable wings, shimmering with an icy blue hue that seems to pulse with the chill of a winter's night. As they flutter, a gentle frost blankets the air, slowing foes and casting an enchanting allure upon all who gaze upon them."
+  },
+  "Pixie_Dragonfly_Wings": {
+    "tags": [
+      "Wings",
+      "Pixie",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Aerobatics",
+      "Charm"
+    ],
+    "description": "Gossamer wings of iridescent blue and green flutter delicately, casting a mesmerizing dance of light and shadow. Their intricate patterns shift and shimmer as the pixie dragonfly hums a tune that lulls and captivates, making the wielder feel a sense of serene enchantment and agility that borders on the supernatural."
+  },
+  "Unseelie_Shadow_Wings": {
+    "tags": [
+      "Wings",
+      "Shadow",
+      "Fae",
+      "Unseelie"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Fear",
+      "Drain"
+    ],
+    "description": "The Unseelie_Shadow_Wings are obsidian black, shimmering with an inner darkness that seems to absorb light rather than reflect it. As the wings beat, they cast a chilling aura of dread, making the air grow cold and still around them, while the wielder's stealth and agility are enhanced, allowing them to slip into the shadows unseen."
+  },
+  "Sylph_Feather_Wings": {
+    "tags": [
+      "Wings",
+      "Sylph",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Gust",
+      "Aerobatics"
+    ],
+    "description": "Ethereal and translucent, the Sylph_Feather_Wings shimmer with an otherworldly glow, their delicate feathers whispering a soft melody as they catch the light, allowing the wielder to soar through the air with unmatched grace and precision."
+  },
+  "Kelpie_Sea_Fin_Wings": {
+    "tags": [
+      "Wings",
+      "Kelpie",
+      "Fae"
+    ],
+    "traversal": [
+      "Glide",
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Swim"
+    ],
+    "description": "Emerging from the depths, the Kelpie's Sea Fin Wings are a mesmerizing blend of iridescent blues and greens, shimmering like the surface of a tranquil lake under moonlight. These wings, when unfurled, resemble the graceful undulations of a sea serpent, granting their bearer the fluidity to glide through both water and air with effortless elegance."
+  },
+  "Titan_Giant_Feather_Wings": {
+    "tags": [
+      "Wings",
+      "Giant",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam",
+      "Charm"
+    ],
+    "description": "Titan_Giant_Feather_Wings are colossal, ethereal appendages adorned with feathers of deep twilight hues that shimmer with an otherworldly light, granting their bearer the ability to soar through the heavens with unmatched grace and power. When unfurled, these wings not only provide a majestic aura of charm and allure but also allow the wielder to unleash devastating body slams that crack the earth beneath them."
+  },
+  "Archfae_Ancient_Wings": {
+    "tags": [
+      "Wings",
+      "Archfae",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Hover",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "The Archfae Ancient Wings are a pair of iridescent, feathered appendages that shimmer with an otherworldly glow, their delicate feathers interwoven with intricate patterns of silver and gold. When unfolded, the wings emit a soft hum that resonates with ancient magic, granting their bearer the ability to soar through the skies with grace and the power to resist magical interference while charming observers with their ethereal beauty."
+  },
+  "Bark_Pale_Brownie_Wings": {
+    "tags": [
+      "Wings",
+      "Bark",
+      "Fae",
+      "Brownie"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Sure-Footed"
+    ],
+    "description": "Pale brownie wings are a peculiar blend of bark and feather, each wing composed of delicate, intertwined branches that shimmer with a faint, ethereal glow. They allow for silent gliding through the densest forests, their natural resilience providing a protective barrier against the elements and predators alike."
+  },
+  "Changeling_Shifting_Wings": {
+    "tags": [
+      "Wings",
+      "Changeling",
+      "Fae"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Camouflage"
+    ],
+    "description": "Gossamer wings of iridescent hue, shifting colors and patterns to match any environment, grant the wielder the ability to soar through the skies and blend seamlessly into the landscape, enhancing their agility and stealth."
+  }
+}

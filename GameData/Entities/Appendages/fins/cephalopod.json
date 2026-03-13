@@ -1,0 +1,304 @@
+{
+  "Squid_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Rudder"
+    ],
+    "description": "Emerging from the creature\u2019s flanks, the squid\u2019s lateral fins are delicate yet robust, their translucent membranes shimmering in the light with an iridescent glow, allowing for precise control and graceful maneuverability in both water and air."
+  },
+  "Cuttlefish_Undulating_Fins": {
+    "tags": [
+      "Fins",
+      "Undulating",
+      "Cephalopod",
+      "Cuttlefish"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Rudder"
+    ],
+    "description": "The Cuttlefish_Undulating_Fins shimmer with iridescent hues that shift like liquid shadows, their delicate membranes pulsing and undulating in a hypnotic dance that grants the wielder unparalleled control over their movements, allowing them to hover and glide with eerie grace and elusive precision."
+  },
+  "Hydrodynamic_Pectoral_Fins": {
+    "tags": [
+      "Fins",
+      "Pectoral",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Smooth and sleek, the hydrodynamic pectoral fins are iridescent with hues of deep ocean blues and greens, perfectly adapted for gliding through water with effortless grace and speed."
+  },
+  "Steering_Control_Fins": {
+    "tags": [
+      "Fins",
+      "Steering",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rudder",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the creature's sleek, malleable body, the Steering Control Fins are a pair of translucent, bioluminescent appendages that pulse with an eerie glow, their delicate membranes rippling and folding in intricate patterns to grant unparalleled control and maneuverability in both water and air."
+  },
+  "Deep_Sea_Pressure_Fins": {
+    "tags": [
+      "Fins",
+      "Deep_Sea",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Sea_Pressure_Fins are bioluminescent and translucent, resembling the delicate yet sturdy appendages of a giant cephalopod. As they pulse with an eerie glow, they grant the bearer the ability to descend into the darkest depths of the ocean with ease, increasing their constitution and enhancing their movement speed underwater."
+  },
+  "Magnetic_Orientation_Fins": {
+    "tags": [
+      "Fins",
+      "Magnetic",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Magnetic_Orientation_Fins are translucent blue tendrils sprouting from the back of the cephalopod\u2019s head, writhing gently as they detect and align with Earth\u2019s magnetic fields, granting unparalleled directional tracking abilities."
+  },
+  "Electrosensory_Fin_Array": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Electrosensory_Fin_Array is a delicate yet formidable organ, resembling a cluster of translucent fins arranged in a semicircle around the head, each fin pulsing with a faint, bio-luminescent glow as it detects minute electrical currents in the environment, granting the user a heightened sense of awareness and the ability to perceive their surroundings in a manner akin to echolocation, but through the medium of electricity."
+  },
+  "Narrow_Torpedo_Fins": {
+    "tags": [
+      "Fins",
+      "Narrow",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Dart"
+    ],
+    "description": "Emerging from the creature\u2019s shoulders are sleek, narrow fins reminiscent of a cephalopod\u2019s delicate appendages, their iridescent surface undulating subtly even when stationary, granting the bearer an eerie grace and unmatched agility in swift maneuvers."
+  },
+  "Wide_Hover_Fins": {
+    "tags": [
+      "Fins",
+      "Wide",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover"
+    ],
+    "description": "The Wide_Hover_Fins are expansive, membrane-like structures that sprout from the shoulders, their edges lined with delicate, almost translucent webbing that shimmers in the faint light. When active, they emit a soft luminescence, allowing the wearer to glide silently through the air, evading detection with eerie grace."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Current_Resistant_Fins are sleek and iridescent, their surface textured with minute ridges that allow them to cut through the most turbulent waters with ease. When worn, they grant an uncanny sense of stability, making the swimmer feel as if they are standing still in the midst of a raging current."
+  },
+  "Bioluminescent_Fin_Fringe": {
+    "tags": [
+      "Fins",
+      "Bioluminescent",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Gossamer-thin and iridescent, the Bioluminescent_Fin_Fringe undulates with an eerie, pulsating glow, its delicate tendrils capable of emitting a paralyzing bioluminescent signal that can immobilize prey or predator alike."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Cephalopod"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the creature's shoulders are a pair of small, webbed fin stubs, their surface slick and cool to the touch, barely hinting at the aquatic heritage they represent, yet still providing a subtle boost to movement speed."
+  }
+}

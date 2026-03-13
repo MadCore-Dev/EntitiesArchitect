@@ -1,0 +1,314 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Glide_Wings are translucent and veined like a giant insect's, but with a crustacean's rugged exterior, creating a surreal blend of vulnerability and toughness. These wings allow for silent gliding through the air, almost as if the creature is sliding over a water's surface, granting it a fluid, unpredictable movement that enhances its evasion and agility."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Emerging from a grotesque fusion of avian and crustacean anatomy, the Feathered_Mutant_Wings are a macabre spectacle of membranous, chitin-reinforced wings, covered in sharp, iridescent feathers that shift between hues of midnight blue and obsidian black, granting their bearer unparalleled agility and evasive maneuverability in the air."
+  },
+  "Insectoid_Carapace_Wings": {
+    "tags": [
+      "Wings",
+      "Insectoid",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Insectoid_Carapace_Wings are a pair of chitinous wings, dark and glossy like the exoskeleton of a giant crustacean, with intricate patterns that shimmer under light. They pulse faintly with an inner glow, allowing the wearer to hover and perform acrobatic maneuvers in mid-air with unparalleled grace and agility."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are thin, leathery appendages that stretch between elongated, crab-like jointed limbs, allowing for silent gliding through the night sky with an eerie grace."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Crustacean",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are translucent and veined with pulsing blue fluid, resembling the exoskeleton of a colossal crustacean. Light and buoyant, they enable swift and silent flight, yet their brittle, hollow nature leaves the bearer vulnerable to physical strain and injury."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Thermal_Soaring_Wings are a pair of massive, translucent wings, resembling those of a giant crustacean, shimmering with an iridescent blue hue that shifts and pulses with the heat of the environment. They feel incredibly light and responsive, allowing the wielder to effortlessly glide through the air, dodging obstacles with unparalleled agility and evading attacks with eerie ease."
+  },
+  "Extended_Patagium_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "The Extended Patagium Wings are a bizarre yet majestic adaptation, sprawling leathery membranes adorned with intricate carapace-like patterns that extend from the creature\u2019s forearms and hind legs, allowing for graceful gliding and acrobatic maneuvers through the air."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Skeletal_Membrane_Wings are a haunting blend of translucent, chitinous membrane stretched tautly over delicate, lacy crustacean-like skeletal structures, allowing for silent gliding through the air while adding an eerie grace and a slight increase in evasion, though they burden the bearer with a fragile constitution."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "The Dark_Stealth_Wings are a pair of chitinous, obsidian-black wings that pulse with a faint, eerie glow, allowing their bearer to glide silently through the darkest of night skies, their razor-sharp edges perfect for silent ambushes."
+  },
+  "Reinforced_Armoured_Wings": {
+    "tags": [
+      "Wings",
+      "Armoured",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "Reinforced Armoured Wings are a marvel of chitinous engineering, expansive and powerful, capable of carrying their bearer through the skies with ease while providing formidable protection against aerial attacks, their rugged surface glinting menacingly in the dim light of the underworld."
+  },
+  "Downdraft_Strike_Wings": {
+    "tags": [
+      "Wings",
+      "Strike",
+      "Crustacean"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "The Downdraft_Strike_Wings are massive, chitin-reinforced wings reminiscent of a giant crustacean's pincers, capable of delivering devastating body slams while providing agile flight, their tough exoskeleton adding a noticeable boost in strength."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Crustacean"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the rugged exoskeleton of the creature, these vestigial wing stubs are remnants of a once-potent flight apparatus, now calcified and barely discernible as wings. They protrude from the creature's back, their segmented and chitinous structure blending with the rest of the armor-like body, granting a slight increase in evasion and hinting at a forgotten heritage of aerial dominance."
+  }
+}

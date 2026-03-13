@@ -1,0 +1,251 @@
+{
+  "Vestigial_Subdermal_Ears": {
+    "tags": [
+      "Ear",
+      "Vestigial",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded just beneath the skin, these tiny, atrophied ear structures pulse faintly with an otherworldly glow, their existence hinting at a connection to subterranean vermin, while subtly dampening the user's overall perception and enhancing their resilience."
+  },
+  "Seismic_Body_Wall_Receptors": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Vermian",
+      "Bone_Conduction"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's thick, armored hide are intricate networks of sensory organs that resemble miniature, bone-like protrusions, each finely attuned to the subtlest vibrations of the earth. These receptors twitch and pulse as they constantly scan for the faint tremors that precede an earthquake, granting the creature unparalleled awareness of its surroundings and an eerie predictive sense of the terrain's instability."
+  },
+  "Lateral_Line_Pressure_Sensing": {
+    "tags": [
+      "Ear",
+      "Lateral_Line",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature's sleek, hydrodynamic form, the lateral line pressure sensing organ undulates like a delicate, iridescent ribbon along the sides, capable of detecting minute pressure changes in the water, granting the Vermian an uncanny ability to navigate and perceive its surroundings in pitch-black depths."
+  },
+  "Magnetic_Lobe_Receptors": {
+    "tags": [
+      "Ear",
+      "Magnetic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Embedded deep within the creature's brain, the Magnetic_Lobe_Receptors are pulsating nodes of metallic blue, humming with an ethereal resonance that seems to draw iron filings from the air. These intricate neural structures grant an uncanny ability to sense the faint tremors of the earth and pinpoint magnetic north with eerie precision, enhancing the host's perception of their surroundings."
+  },
+  "Statocyst_Gravity_Organs": {
+    "tags": [
+      "Ear",
+      "Statocyst",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Embedded deep within the creature's skull, the Statocyst_Gravity_Organs resemble a labyrinthine network of crystalline tubes filled with a mysterious liquid that shifts and swirls in response to gravitational forces, granting the host unparalleled balance and agility."
+  },
+  "Electrosensory_Pit_Organs": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the creature's head, these dark, pulsating pits shimmer with an otherworldly glow, capable of detecting the faintest electrical signals in the air and water, granting the wielder an uncanny awareness of their surroundings and the ability to navigate through even the darkest, most oppressive environments."
+  },
+  "Vibration_Hair_Cell_Receptors": {
+    "tags": [
+      "Ear",
+      "Hair_Cell",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded deep within the creature's sensitive ear structures are microscopic, highly attuned vibration hair cell receptors, capable of detecting the slightest seismic disturbances, making the creature acutely aware of its surroundings and potential threats, even through solid earth or dense foliage."
+  },
+  "Chemical_Gradient_Sensors": {
+    "tags": [
+      "Ear",
+      "Chemical",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Chemical_Gradient_Sensors are delicate, translucent organs that pulse with an otherworldly glow, constantly sampling the air for minute traces of chemicals and pheromones. Embedded deep within the ear canal, these sensors can detect even the faintest scents, amplifying the user's awareness and granting unparalleled perception of their surroundings."
+  },
+  "Hydrostatic_Pressure_Organs": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the creature's flesh, these organs pulsate with the rhythmic ebb and flow of underwater currents, granting heightened sensitivity to pressure changes and allowing the user to detect subtle movements and vibrations in their aquatic environment."
+  },
+  "Thermal_Infrared_Receptors": {
+    "tags": [
+      "Ear",
+      "Thermal",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the Vermian's flesh, these intricate, chitinous protrusions act as highly sensitive thermal infrared receptors, allowing the creature to detect the faintest heat signatures in the dark. Each receptor vibrates subtly, buzzing with an otherworldly energy that enhances the Vermian's awareness and reflexes, making it nearly impossible to ambush or surprise."
+  },
+  "Pain_Nociceptor_Arrays": {
+    "tags": [
+      "Ear",
+      "Nociceptor",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Evasion"
+    ],
+    "description": "Embedded deep within the delicate cartilage of the ear, these intricate Pain_Nociceptor_Arrays pulse with an eerie, otherworldly energy, their presence making the user acutely aware of every potential threat, enhancing their reflexes and agility to near-supernatural levels."
+  },
+  "Photosensitive_Skin_Patches": {
+    "tags": [
+      "Ear",
+      "Photosensitive",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Delicate, almost transparent patches of skin that shimmer with a faint, iridescent glow, these vermian-derived components subtly shift in hue and texture based on the intensity and color of ambient light, enhancing the wearer's ability to perceive subtle changes in their environment."
+  }
+}

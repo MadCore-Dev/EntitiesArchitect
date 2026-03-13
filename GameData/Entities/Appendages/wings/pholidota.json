@@ -1,0 +1,302 @@
+{
+  "Membrane_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Pholidota",
+      "Mutant"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Membrane_Glide_Wings are a bizarre mutation, resembling a fusion of reptilian scales and translucent membranes, allowing the bearer to glide gracefully through the air with a silent rustle of scales."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Pholidota",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight"
+    ],
+    "description": "The Feathered_Mutant_Wings are an unsettling fusion of feathered avian wings and the scaly armor of a beaded lizard, granting the bearer the ability to soar through the skies with unmatched grace and agility. Each flap of these wings sends a shiver down the spine, a blend of the cold, hard scales and the soft rustle of feathers, offering a defensive edge while accelerating one's reflexes and maneuverability."
+  },
+  "Scale_Armoured_Wings": {
+    "tags": [
+      "Wings",
+      "Scaled",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Block"
+    ],
+    "description": "The Scale_Armoured_Wings unfurl with a rustle of ancient, chitinous scales that glint menacingly in the dim light, each scale a testament to the resilience and defensive capabilities of the creature they belong to, granting the wielder both the ability to soar through the skies and a formidable natural armor."
+  },
+  "Hollow_Bone_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight"
+    ],
+    "description": "The Hollow_Bone_Soaring_Wings are a pair of iridescent, translucent wings, each scale-like bone segment shimmering with an ethereal glow as they catch the light. These wings feel light as a feather yet sturdy enough to support flight, allowing the bearer to glide effortlessly through the air with unparalleled agility and evasion."
+  },
+  "Bat_Like_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Like_Membrane_Wings are a pair of sleek, black wings covered in tiny, overlapping scales that shimmer in the faint light, granting silent and swift flight through the night sky, enhancing the agility of the bearer."
+  },
+  "Toxic_Barbed_Wings": {
+    "tags": [
+      "Wings",
+      "Venomous",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Flight",
+      "Razor Scales"
+    ],
+    "description": "The Toxic_Barbed_Wings are a pair of sprawling, leathery membranes adorned with jagged, venom-coated barbs that hum with a malevolent energy. When unfolded, these wings emit a sickly sweet aroma that chills the spine, and their undersides shimmer with a deadly opalescence as the razor-sharp scales catch the light, promising both flight and fatal embrace."
+  },
+  "Acid_Mist_Wings": {
+    "tags": [
+      "Wings",
+      "Acid",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Flight"
+    ],
+    "description": "The Acid_Mist_Wings are translucent membranes that shimmer with a sickly green hue, tinged with the occasional glint of iridescent scales. When flapped, they emit a faint, noxious mist that can be summoned as a corrosive acid spray, while their inherent flexibility and lightness grant unparalleled agility and flight prowess."
+  },
+  "Undead_Bone_Wings": {
+    "tags": [
+      "Wings",
+      "Undead",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Fear"
+    ],
+    "description": "Leathery and segmented with scales like ancient armor, the Undead_Bone_Wings emit an aura of chilling dread, allowing their bearer to glide silently through the night while instilling fear in the hearts of those who witness their shadowy descent."
+  },
+  "Electroreceptive_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Blindsight"
+    ],
+    "description": "The Electroreceptive_Membrane_Wings are a pair of iridescent, chitinous wings that shimmer with an eerie, electric blue glow. As the bearer flaps them, the wings emit a soft crackling sound, and the feathers seem to pulse with an unseen current, granting the user an uncanny ability to sense electrical fields and navigate through the darkest of nights with ease."
+  },
+  "Extended_Patagium_Glide_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Extended_Patagium_Glide_Wings are expansive, leathery membranes stretched between elongated, spiky scales that resemble the ridged plates of a dragon, allowing for silent, effortless gliding through the air while also providing an instinctive sense of aerial evasion."
+  },
+  "Titan_Heavy_Beating_Wings": {
+    "tags": [
+      "Wings",
+      "Titan",
+      "Pholidota"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "Enormous and leathery, the Titan Heavy Beating Wings are covered in overlapping, metallic scales that rattle softly when the wings shift, capable of generating a powerful updraft to lift even the heaviest of frames into the sky, while also serving as a devastating weapon in combat through the sheer force of a downward Body Slam."
+  },
+  "Vestigial_Scale_Flaps": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Pholidota"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Scale_Flaps are a series of small, overlapping scales that form rudimentary wing-like structures along the spine, barely noticeable unless one looks closely. Despite their limited utility, these flaps grant a subtle grace and nimbleness, enhancing the wearer's evasion skills as they move with an almost serpentine fluidity."
+  }
+}

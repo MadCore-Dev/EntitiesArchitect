@@ -1,0 +1,343 @@
+{
+  "Gliding_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Marsupial",
+      "Glider"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Soft Step"
+    ],
+    "description": "The Gliding_Membrane_Wings are expansive, leathery appendages that spread from elongated forearms, covered in fine, sensory hairs that twitch in response to air currents. Their soft, yet resilient texture allows for silent, effortless gliding through the treetops, while also granting the user a cat-like grace and stealth, though at the cost of a slight vulnerability to physical harm."
+  },
+  "Extended_Patagium_Wings": {
+    "tags": [
+      "Wings",
+      "Patagium",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "The Extended Patagium Wings are expansive flaps of leathery membrane stretched between elongated forelimbs and a robust marsupial tail, allowing for graceful gliding and intricate aerial maneuvers. The wings are both a blessing and a curse, enhancing agility and evasion while imposing a slight burden on physical strength."
+  },
+  "Feathered_Mutant_Wings": {
+    "tags": [
+      "Wings",
+      "Feathered",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "Emerging from the twisted mutations of a distant, war-torn world, the Feathered_Mutant_Wings are a grotesque yet mesmerizing amalgamation of jagged, iridescent feathers and leathery membranes, sprouting from the backs of what appear to be marsupial creatures, granting their bearers the uncanny ability to soar through the skies with unmatched agility and precision."
+  },
+  "Bat_Wing_Membrane": {
+    "tags": [
+      "Wings",
+      "Bat_Like",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight"
+    ],
+    "description": "The Bat_Wing_Membrane is a supple, almost translucent expanse of leathery skin stretched between elongated, bony fingers, perfectly adapted for silent gliding through the night sky. Its texture is cold and slightly sticky to the touch, yet it grants an uncanny grace and agility to the user, allowing them to move with the stealth of a shadow."
+  },
+  "Hollow_Pneumatic_Wings": {
+    "tags": [
+      "Wings",
+      "Hollow",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "The Hollow_Pneumatic_Wings are a marvel of engineering and biology, with a lattice of hollow, lightweight bones that spread out into a graceful expanse of membranous skin, allowing the creature to take to the skies with ease. Their aerodynamic design and innate buoyancy grant unparalleled maneuverability and speed, though they come at the cost of endurance and resilience."
+  },
+  "Thermal_Soaring_Wings": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Aerobatics"
+    ],
+    "description": "Thermal soaring wings are a marvel of evolutionary adaptation, featuring a sleek, membrane-like structure that stretches between elongated, jointed bones, allowing the creature to harness rising thermal currents with ease. Covered in a soft, fur-like down, these wings provide an uncanny sense of stability and maneuverability in the air, enabling the user to perform acrobatic feats while gliding with unmatched grace and speed."
+  },
+  "Dark_Stealth_Wings": {
+    "tags": [
+      "Wings",
+      "Stealth",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush"
+    ],
+    "description": "Dark_Stealth_Wings are a pair of obsidian-black, membranous wings that seem to absorb all light, their edges fringed with sharp, jagged teeth. When unfolded, they emit a chilling whisper that masks the sound of their silent flight, allowing their user to slip through shadows unseen, ready to pounce from the darkness with deadly precision."
+  },
+  "Insectoid_Scale_Wings": {
+    "tags": [
+      "Wings",
+      "Scaled",
+      "Marsupial",
+      "Mutant"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "Insectoid_Scale_Wings are a marvel of mutated biology, with iridescent scales that shift color in the light and delicate membranes that allow for silent, graceful gliding. These wings grant the user unparalleled maneuverability, enabling them to hover and perform acrobatic feats in the air with ease."
+  },
+  "Reinforced_Predator_Wings": {
+    "tags": [
+      "Wings",
+      "Reinforced",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Pounce"
+    ],
+    "description": "Reinforced Predator Wings are a robust pair of leathery membranes, adorned with sharp, jagged edges that shimmer with an otherworldly sheen. They are attached to a sturdy, sinewy back, granting their bearer both the agility of a sleek predator and the strength to pounce from great heights, slicing through the air with deadly precision."
+  },
+  "Downdraft_Heavy_Wings": {
+    "tags": [
+      "Wings",
+      "Heavy",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Fly"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "Downdraft Heavy Wings are immense, leathery appendages that resemble those of a marsupial glider, but with a sinister, gravity-defying curve. They are surprisingly cumbersome and dense, their weight a testament to their power, allowing the wielder to take to the skies with a menacing grace and deliver thunderous aerial assaults."
+  },
+  "Vestigial_Wing_Stubs": {
+    "tags": [
+      "Wings",
+      "Vestigial",
+      "Marsupial"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Vestigial_Wing_Stubs are small, atrophied flaps of leathery skin attached to the spine, barely resembling wings. Despite their uselessness in flight, they grant a subtle grace and agility, enhancing one's ability to evade attacks."
+  },
+  "Skeletal_Membrane_Wings": {
+    "tags": [
+      "Wings",
+      "Skeletal",
+      "Marsupial"
+    ],
+    "traversal": [
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide"
+    ],
+    "description": "The Skeletal_Membrane_Wings are a haunting blend of sinew and bone, with translucent membranes stretched tautly over a delicate framework of ribcage-like spars. These wings feel unnaturally light yet strong, allowing for silent glides through the shadows, though their fragile nature saps a measure of your resilience."
+  }
+}

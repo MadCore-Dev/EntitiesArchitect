@@ -1,0 +1,260 @@
+{
+  "Seismic_Lateral_Line_Skin": {
+    "tags": [
+      "Ear",
+      "Lateral_Line",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "The Seismic Lateral Line Skin is a mottled, iridescent membrane that pulses with subterranean vibrations, allowing the bearer to sense minute tremors and movements through the ground, enhancing their perception and agility in the treacherous landscapes of the underworld."
+  },
+  "Electroreceptive_Sensory_Patch": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded beneath translucent, iridescent skin, the Electroreceptive Sensory Patch pulses with an eerie blue glow, its intricate network of sensory organs allowing the bearer to perceive electrical fields and subtle movements in the surrounding environment, granting an almost supernatural awareness."
+  },
+  "Statocyst_Balance_Organs": {
+    "tags": [
+      "Ear",
+      "Statocyst",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sure-Footed"
+    ],
+    "description": "Embedded deep within the creature\u2019s head, these intricate organs resemble a delicate maze of chitinous tubes and fluid-filled sacs, pulsating with an eerie glow that seems to shift in response to gravitational forces. Their tactile sensation is cool and slightly gelatinous, offering a sense of constant, silent communication with the environment, enhancing balance and reflexes to near-supernatural levels."
+  },
+  "Pressure_Wave_Detectors": {
+    "tags": [
+      "Ear",
+      "Pressure",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded within the creature's head, the Pressure_Wave_Detectors resemble intricate, chitinous plates that flicker with iridescent light, constantly scanning the surrounding environment for even the slightest changes in air pressure, granting an unparalleled sense of awareness and the ability to detect approaching threats before they are visible or audible."
+  },
+  "Magnetic_Orientation_Organs": {
+    "tags": [
+      "Ear",
+      "Magnetic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the cephalopod's gelatinous head, these intricate organs resemble a swirling mass of iridescent filaments that pulse with a faint, mesmerizing glow. Sensitively attuned to the planet's magnetic fields, they grant the creature an uncanny ability to navigate with pinpoint accuracy, no matter the environment."
+  },
+  "Chemical_Trail_Skin_Sensors": {
+    "tags": [
+      "Ear",
+      "Chemical",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Chemical_Trail_Skin_Sensors are delicate, translucent filaments that sprout from the creature's skin like fine, gelatinous whiskers, each one capable of detecting the faintest traces of chemical signatures in the air, allowing for an uncanny ability to track prey or predators through their scent alone."
+  },
+  "Hydrodynamic_Flow_Sensing_Arm": {
+    "tags": [
+      "Ear",
+      "Hydrodynamic",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Evasion"
+    ],
+    "description": "The Hydrodynamic_Flow_Sensing_Arm is a delicate, nearly transparent appendage that flutters like a ghostly tentacle, its surface shimmering with iridescent hues as it detects the subtlest shifts in water currents, enhancing the wearer's agility and ability to evade attacks with eerie precision."
+  },
+  "Thermal_Pit_Organs": {
+    "tags": [
+      "Ear",
+      "Thermal",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded deep within the creature's head, these organs resemble a cluster of pulsating, bioluminescent sacs that radiate an eerie warmth. Sensitive to the slightest temperature fluctuation, they grant the creature an uncanny ability to \"see\" in complete darkness, detecting the faint heat signatures of nearby lifeforms with unsettling precision."
+  },
+  "Vibration_Hair_Cells": {
+    "tags": [
+      "Ear",
+      "Hair_Cell",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature\u2019s cephalopod-like head, these microscopic vibration hair cells twitch and pulse in response to the slightest seismic disturbances, granting an uncanny awareness of one\u2019s surroundings and the ability to sense approaching threats through the ground, enhancing both perception and agility in evasive maneuvers."
+  },
+  "Photosensitive_Skin_Array": {
+    "tags": [
+      "Ear",
+      "Photosensitive",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Photosensitive_Skin_Array is a patch of iridescent, chitinous skin that covers the ear-like sensory organs, shifting colors in response to different wavelengths of light, granting heightened perception and the ability to blend into shadows."
+  },
+  "Pain_Nociceptor_Patches": {
+    "tags": [
+      "Ear",
+      "Nociceptor",
+      "Cephalopod"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Evasion"
+    ],
+    "description": "Feather-light patches adorned with intricate, iridescent patterns resembling cephalopod eyes cover the creature\u2019s ear, each patch pulsing with an unsettling, almost sentient awareness that tingles when touched, enhancing the wearer's reflexes and agility in combat."
+  },
+  "Deep_Sea_Infrasound_Receptors": {
+    "tags": [
+      "Ear",
+      "Infrasound",
+      "Cephalopod",
+      "Deep_Sea"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the gelatinous mantle of the Deep_Sea_Infrasound_Receptors, delicate chitinous filaments quiver in response to the faintest seismic hums, granting an eerie awareness of the earth's subtlest movements, as if the very bones of the ocean floor are whispering secrets to the wearer."
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "Semi_Webbed_Paw_Fins": {
+    "tags": [
+      "Fins",
+      "Webbed",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Semi_Webbed_Paw_Fins are delicate yet sturdy, with elongated digits that end in sharp, curved claws, each finger partially joined by a thin, elastic membrane that glistens with a pearlescent sheen, allowing for both swift underwater propulsion and the graceful gliding through the air to hunt over water bodies."
+  },
+  "Broad_Diving_Fins": {
+    "tags": [
+      "Fins",
+      "Diving",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Dive",
+      "Swim"
+    ],
+    "description": "Emerging from the shadows of the underwater realm, the Broad_Diving_Fins resemble leathery, chiropteran wings adapted for aquatic life, with elongated, ribbed structures that flex and undulate with an eerie grace, granting the wielder unparalleled speed and agility both in the water and when plunging from great heights."
+  },
+  "Patagium_Water_Fin": {
+    "tags": [
+      "Fins",
+      "Patagium",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Patagium_Water_Fin is a sleek, membranous appendage that extends from the forelimbs, blending chiropteran patagium with fish-like fins. Its surface is smooth and glistening, adapted for silent gliding through water, granting unparalleled agility and maneuverability beneath the waves."
+  },
+  "Cold_Water_Fins": {
+    "tags": [
+      "Fins",
+      "Cold_Water",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cold_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Cold_Water_Fins are translucent, iridescent appendages that shimmer with a faint blue glow, adapting to the frigid depths of dark underwater realms. They feel icy to the touch and emit a subtle hum as they pulse with an otherworldly energy, enhancing both agility and resilience against the biting cold of arctic waters."
+  },
+  "Hydrodynamic_Membrane_Fins": {
+    "tags": [
+      "Fins",
+      "Hydrodynamic",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "The Hydrodynamic_Membrane_Fins are sleek, almost translucent appendages that extend from the user's limbs, resembling the wings of a bat but with a fluid, fish-like texture that glides effortlessly through water, enhancing both swimming speed and maneuverability."
+  },
+  "Compact_Swimmer_Fins": {
+    "tags": [
+      "Fins",
+      "Compact",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Emerging from the recesses of a dark, aquatic realm, the Compact Swimmer Fins are a marvel of adaptation, featuring sleek, membranous flaps that resemble chiropteran wings but are perfectly suited for underwater propulsion, granting an eerie grace and a significant boost in movement speed."
+  },
+  "Steering_Lateral_Fins": {
+    "tags": [
+      "Fins",
+      "Lateral",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Rudder"
+    ],
+    "description": "The Steering_Lateral_Fins are elongated, leathery appendages that sprout from the sides of the creature\u2019s body, resembling membranous wings but flattened and webbed for aquatic maneuverability. Their chiropteran nature grants a remarkable degree of control over their movement in water, allowing for precise turns and adjustments."
+  },
+  "Electric_Sensing_Fins": {
+    "tags": [
+      "Fins",
+      "Electrosensory",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "These delicate, translucent fins are embedded with intricate, pulsing veins that glow with an eerie, electric blue light. When extended from the body, they twitch and quiver, humming with a barely audible frequency as they detect the faintest electric signals in the air and water, allowing the wielder to navigate the darkest, most foreboding environments with uncanny precision."
+  },
+  "Deep_Dive_Fins": {
+    "tags": [
+      "Fins",
+      "Deep",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Deep Dive"
+    ],
+    "description": "The Deep_Dive_Fins are a pair of sleek, chiropteran-inspired appendages that sprout from the wearer's back, capable of extending and retracting at will. Their dark, rubbery surface glistens with a bioluminescent sheen as they undulate gracefully, allowing the user to plunge into the deepest, darkest waters with ease and unmatched speed."
+  },
+  "River_Sprint_Fins": {
+    "tags": [
+      "Fins",
+      "River",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Emerging from the thick, scaled skin, these elongated, chiropteran-like River Sprint Fins are a haunting blend of membranous wings and sleek, fish-like appendages, capable of gliding gracefully over turbulent waters with an eerie, fluid motion that grants the bearer unmatched speed and agility in aquatic environments."
+  },
+  "Vestigial_Fin_Stubs": {
+    "tags": [
+      "Fins",
+      "Vestigial",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded along the spine, these small, atrophied fin stubs resemble the remnants of ancient aquatic ancestry, now dry and leathery, barely hinting at their former purpose. They twitch faintly with each burst of speed, granting the bearer a subtle, almost imperceptible boost in agility and reflexes."
+  },
+  "Current_Resistant_Fins": {
+    "tags": [
+      "Fins",
+      "Current",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These leathery fins, reminiscent of chiropteran wings yet adapted for aquatic environments, ripple with an electric resistance that hums audibly when submerged in turbulent waters, granting the bearer unparalleled stability and strength in the midst of raging currents."
+  }
+}

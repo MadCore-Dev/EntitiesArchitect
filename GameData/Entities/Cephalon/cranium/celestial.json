@@ -1,0 +1,401 @@
+{
+  "Solar_Crown_Skull": {
+    "tags": [
+      "Cranium",
+      "Solar",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Intimidate",
+      "Smite"
+    ],
+    "description": "The Solar Crown Skull is a fearsome cranium encased in shimmering golden plates that pulse with the relentless glow of a noonday sun, casting an otherworldly radiance that intimidates foes and enhances the wearer's physical prowess and resistance to radiant damage."
+  },
+  "Lunar_Grace_Skull": {
+    "tags": [
+      "Cranium",
+      "Lunar",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Lunar_Grace_Skull is a pale, luminescent cranium encrusted with shimmering moonstones, its surface smooth and cool to the touch, radiating an ethereal glow that pulses in rhythm with the phases of the moon, enhancing the wearer's agility and charisma, granting them the whispers of the lunar spirits and the shadows' protection."
+  },
+  "Guardian_Helm_Skull": {
+    "tags": [
+      "Cranium",
+      "Guardian",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Smite",
+      "Intimidate"
+    ],
+    "description": "The Guardian_Helm_Skull is a massive, obsidian-black helm fashioned from the skull of a celestial guardian, its surface etched with glowing runes that pulse with otherworldly energy. When worn, it enhances the wearer's physical strength and provides a formidable natural armor, while granting the ability to block attacks and smite enemies with holy retribution, radiating an aura of intimidation that silences foes."
+  },
+  "Seraph_Burning_Face_Skull": {
+    "tags": [
+      "Cranium",
+      "Seraph",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "eye_extra_02": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Radiant Burst",
+      "Magic Resistance"
+    ],
+    "description": "The Seraph_Burning_Face_Skull is a blazing cranium encased in shimmering celestial flames, its ethereal glow pulsating with an otherworldly allure that captivates all who gaze upon it, while its innate magic resistance provides a shield against the most potent of arcane attacks."
+  },
+  "Cherub_Adorable_Skull": {
+    "tags": [
+      "Cranium",
+      "Cherub",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Invisibility"
+    ],
+    "description": "The Cherub Adorable Skull is a delicate, porcelain-like cranium with large, innocent eyes that seem to sparkle with an ethereal glow. Its surface is smooth and cool to the touch, radiating a faint, calming aura that makes even the most hardened warriors feel a fleeting sense of peace and affection."
+  },
+  "Storm_Sky_Skull": {
+    "tags": [
+      "Cranium",
+      "Storm",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Intimidate"
+    ],
+    "description": "The Storm_Sky_Skull is a colossal cranium encrusted with jagged, silver lightning bolts that seem to pulse with a life of their own, radiating an eerie, celestial glow that commands respect and fear from all who behold it."
+  },
+  "Deva_Messenger_Skull": {
+    "tags": [
+      "Cranium",
+      "Deva",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking",
+      "Charm",
+      "Radiant Burst"
+    ],
+    "description": "The Deva_Messenger_Skull is a gleaming, ethereal cranium adorned with intricate celestial patterns that seem to shift and pulse with an otherworldly glow, granting the wielder an uncanny ability to track directions with divine precision and charm any being with a radiant burst of holy light."
+  },
+  "Planetar_War_Skull": {
+    "tags": [
+      "Cranium",
+      "Planetar",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Smite",
+      "Intimidate",
+      "Fear"
+    ],
+    "description": "The Planetar War Skull is a fearsome relic, its surface etched with ancient celestial runes that glow with an ominous light. Heavier than it appears, the skull grants an aura of dread and power, enhancing the wearer's strength and charisma while bestowing the abilities to smite foes and instill fear in the hearts of enemies."
+  },
+  "Knight_Armored_Skull": {
+    "tags": [
+      "Cranium",
+      "Knight",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Smite",
+      "Natural Armor"
+    ],
+    "description": "The Knight_Armored_Skull is a formidable sight, its chiseled visage encased in a gleaming celestial armor that seems to shimmer with an otherworldly light, granting the wielder a +4 natural_armor bonus and a palpable aura of invincibility."
+  },
+  "Nature_Archon_Antlered_Skull": {
+    "tags": [
+      "Cranium",
+      "Archon",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Headbutt",
+      "Ensnare",
+      "Charm"
+    ],
+    "description": "The Nature_Archon_Antlered_Skull is a majestic yet eerie relic, its polished horns spiraling like ancient trees entwined with starlight, and the deep-set eyesockets glimmer with a faint, hypnotic glow that can ensnare the unwary. The skull's surface is cool to the touch, with a faint hum that resonates with the wearer's own vitality, enhancing their charisma and resilience."
+  },
+  "Light_Elemental_Null_Skull": {
+    "tags": [
+      "Cranium",
+      "Light",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Invisibility"
+    ],
+    "description": "The Light Elemental Null Skull is a bizarre construct, a skull formed from shimmering, ethereal light that flickers with otherworldly radiance. It feels cold to the touch, yet emanates a warmth that dispels shadows, and its presence grants the user the ability to cloak themselves in invisibility or unleash a blinding burst of radiant energy."
+  },
+  "Ancient_God_Skull": {
+    "tags": [
+      "Cranium",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "eye_extra_01": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose",
+      "tentacle_left": "Appendages/tentacles",
+      "tentacle_right": "Appendages/tentacles"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Magic Resistance",
+      "Radiant Burst",
+      "Smite",
+      "Intimidate"
+    ],
+    "description": "The Ancient_God_Skull, a relic of cosmic power, pulsates with an ethereal glow beneath a layer of dust, its surface etched with celestial runes that shift and dance like constellations in motion. The skull\u2019s sheer presence exudes an aura of ancient wisdom and untold power, capable of instilling both awe and dread in the hearts of those who behold it."
+  }
+}

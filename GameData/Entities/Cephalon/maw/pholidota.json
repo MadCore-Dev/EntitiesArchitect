@@ -1,0 +1,260 @@
+{
+  "Elongated_Toothless_Maw": {
+    "tags": [
+      "Maw",
+      "Toothless",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Elongated_Toothless_Maw is a gaping, serpentine mouth lined with rough, keratinous ridges that scrape and grip, granting the user an unnerving advantage in snatching prey or items with eerie precision and reach."
+  },
+  "Sticky_Tongue_Siphon_Maw": {
+    "tags": [
+      "Maw",
+      "Sticky_Tongue",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Grapple",
+      "Ensnare"
+    ],
+    "description": "The Sticky_Tongue_Siphon_Maw is a grotesque orifice lined with sharp, interlocking scales that ratchet shut on prey, while its sticky, serpentine tongue lashes out with prehensile dexterity to snatch and ensnare foes, pulling them within reach of its devastating bite."
+  },
+  "Acid_Secreting_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Secreting_Maw is a grotesque, chitinous mouthpiece embedded with jagged, serrated teeth that ooze a viscous, greenish-yellow fluid. Its surface is covered in overlapping, armor-like scales that provide both protection and a means to control the corrosive acid it can spray at will, creating a protective barrier against the same acidic attacks."
+  },
+  "Venomous_Bite_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Venomous Bite"
+    ],
+    "description": "The Venomous_Bite_Maw is a gaping maw lined with razor-sharp, translucent fangs that glisten with a deadly, luminescent venom, capable of delivering a paralyzing bite. Its inner surface is armored with overlapping scales like those of a lizard, providing a robust defense while maintaining the agility needed to strike with lethal precision."
+  },
+  "Musk_Spray_Maw": {
+    "tags": [
+      "Maw",
+      "Musk",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Skunk Musk",
+      "Fear"
+    ],
+    "description": "The Musk_Spray_Maw is a grotesque appendage jutting from the creature's lower jaw, lined with sharp teeth and a gland that pulsates with a noxious green fluid, ready to spray a paralyzing musk that fills the air with an overwhelming stench and paralyzing dread."
+  },
+  "Undead_Cracked_Maw": {
+    "tags": [
+      "Maw",
+      "Undead",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Fear"
+    ],
+    "description": "The Undead_Cracked_Maw is a grotesque amalgamation of jagged, blackened teeth set in a leathery, scaled maw, with deep cracks revealing glimpses of the decaying flesh within, exuding a nauseating venom that causes fear and resistance to disease."
+  },
+  "Scale_Reinforced_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Armoured",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Block"
+    ],
+    "description": "Embedded within the creature's formidable head, the Scale-Reinforced Crushing Maw is a nightmare-inducing amalgamation of jagged teeth and overlapping scales, each scale hardened to the consistency of steel and meticulously arranged to deflect incoming blows while the maw itself exudes an aura of raw, crushing power."
+  },
+  "Titan_Wide_Engulf_Maw": {
+    "tags": [
+      "Maw",
+      "Titan",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Ensnare"
+    ],
+    "description": "The Titan_Wide_Engulf_Maw is a cavernous mouth lined with jagged, obsidian teeth that shimmer with a dark, otherworldly light, capable of ensnaring prey in a tight, serpentine lock before swallowing them whole, enhancing the bearer's strength and increasing their size to tower over foes."
+  },
+  "Electric_Discharge_Maw": {
+    "tags": [
+      "Maw",
+      "Electric",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch"
+    ],
+    "description": "The Electric_Discharge_Maw is a grotesque, gaping mouth filled with jagged, sharp teeth that crackle with blue and purple electrical arcs, ready to unleash searing shocks upon any unfortunate prey or attacker. Its surface is covered in overlapping, metallic scales that seem to pulse with stored energy, humming softly with the promise of imminent discharge."
+  },
+  "Bioluminescent_Lure_Maw": {
+    "tags": [
+      "Maw",
+      "Bioluminescent",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Lure_Maw is a gaping, phosphorescent orifice lined with delicate, translucent teeth that shimmer in a mesmerizing array of colors, its glow pulsating to lure in unsuspecting prey, while the slightest touch from its surface induces a numbing paralysis."
+  },
+  "Wide_Cave_Adapted_Maw": {
+    "tags": [
+      "Maw",
+      "Cave",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "stamina",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Endurance"
+    ],
+    "description": "The Wide_Cave_Adapted_Maw is a cavernous opening lined with rows of jagged, inward-curving teeth, designed to channel the strongest gusts of subterranean wind into powerful breath attacks. Its resilient, scaly lips and gums grant the user an unyielding stamina and endurance, allowing them to withstand the harshest environments and exertion."
+  },
+  "Razor_Scale_Edged_Maw": {
+    "tags": [
+      "Maw",
+      "Razor",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Razor Scales"
+    ],
+    "description": "The Razor_Scale_Edged_Maw is a gaping void of darkness lined with jagged, razor-sharp scales that glint menacingly in the faint light, each scale capable of deflecting the keenest of blades while its inner edges seem to whisper the promise of silent, deadly strikes."
+  }
+}

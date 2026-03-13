@@ -1,0 +1,314 @@
+{
+  "Multi_Arm_Tentacle_Array": {
+    "tags": [
+      "Tentacles",
+      "Multi",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "Emerging from the shadowy depths of the multiverse, the Multi_Arm_Tentacle_Array is a writhing mass of eight sinuous, abnormally elongated tentacles, each capable of independent movement and manipulation. The tentacles pulse with an eerie, bioluminescent glow, their slimy texture and barbed edges hinting at their lethal potential, while their extended reach and enhanced strength allow them to effortlessly ensnare and grapple foes, tightening their grip until the breath is crushed from their lungs."
+  },
+  "Acid_Dissolve_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Corrosion",
+      "Ensnare"
+    ],
+    "description": "Emerging from the shadowy depths, the Acid Dissolve Tendrils writhe and pulse with a sickly green hue, their slick, mucus-covered surfaces leaving a trail of corrosive ooze wherever they touch. The tendril tips emit a faint hissing sound as they secrete a deadly acid capable of melting flesh and bone, while their slimy grip ensnares prey with an unbreakable hold."
+  },
+  "Mind_Flayer_Brain_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Psion",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Mind Blast",
+      "Grapple",
+      "Drain"
+    ],
+    "description": "The Mind_Flayer_Brain_Tendrils, pulsating with an otherworldly glow, extend from the base of the skull, writhing with a life of their own. Each slender tentacle is coated in a slick, almost sentient slime that grants an uncanny grip, capable of ensnaring foes with ease while draining their mental fortitude."
+  },
+  "Beholder_Eye_Stalks": {
+    "tags": [
+      "Tentacles",
+      "Beholder",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Petrify",
+      "Blindsight",
+      "Madness Aura"
+    ],
+    "description": "Emerging from the central orb of a beholder's grotesque visage, these writhing eye stalks are like living tentacles, each tipped with a malevolent eye that can freeze a foe to stone with a single gaze, while their writhing movements grant the beholder an uncanny sense of its surroundings and a disquieting aura that can drive the minds of the unwary to the brink of madness."
+  },
+  "Necrotic_Life_Drain_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain",
+      "Disease Carrier"
+    ],
+    "description": "Emerging from the shadows, the Necrotic_Life_Drain_Tendrils are long, sinuous tentacles that pulse with an unnatural green light, their surface slick and cold to the touch, capable of ensnaring victims and draining the very essence of life, leaving behind only a husk as they feed on their victim's vitality and spread corruption."
+  },
+  "Chaos_Mutant_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chaos",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Regenerate",
+      "Ensnare"
+    ],
+    "description": "The Chaos_Mutant_Tendrils writhe like living shadows, their slimy texture shifting and distorting with an otherworldly intelligence, capable of ensnaring foes with a grip that seems to warp reality itself, while granting the bearer a resilient constitution and an extended reach into the chaos-infested fray."
+  },
+  "Eldritch_Horror_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Eldritch",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Madness Aura",
+      "Constrict",
+      "Ensnare"
+    ],
+    "description": "Eldritch_Horror_Tendrils writhe and pulse with an otherworldly energy, their slick, mucus-covered surfaces quivering with a life of their own as they coiled around prey, each flex and grasp sending tendrils of fear and madness swirling through the air."
+  },
+  "Deep_Sea_Gripping_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Deep_Sea",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Deep_Sea_Gripping_Tentacles are a cluster of thick, gnarled appendages, each tipped with barbed hooks that shimmer with an unnatural, bioluminescent glow. Their touch is both cold and paralyzing, capable of ensnaring prey with an unyielding grip that drags victims into the abyss."
+  },
+  "Bioluminescent_Lure_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Bioluminescent",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Bioluminescence",
+      "Ensnare"
+    ],
+    "description": "Glowing with an eerie, pulsating light, the Bioluminescent_Lure_Tendrils are long, sinuous tentacles that undulate hypnotically, their touch both paralyzing and mesmerizing, ensnaring prey in a web of light and shadow."
+  },
+  "Void_Phase_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Void",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Ambush"
+    ],
+    "description": "Twisting and writhing like shadows given physical form, the Void_Phase_Tendrils are slender and ethereal, their touch cold and numbing, capable of snaking through the air and solid matter alike to ensnare unsuspecting prey."
+  },
+  "Parasite_Injector_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Parasite",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "Sting",
+      "Ensnare"
+    ],
+    "description": "Sinuous and writhing, the Parasite_Injector_Tendrils are a cluster of translucent, gelatinous appendages that pulse with an unsettling, bioluminescent glow. Each tendril is tipped with a sharp, needle-like proboscis that can deliver a debilitating sting and ensnare prey with eerie precision, while their slimy surface secretes a protective mucus that grants resistance to diseases."
+  },
+  "Titan_Crushing_Tentacles": {
+    "tags": [
+      "Tentacles",
+      "Titan",
+      "Aberrant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Ensnare",
+      "Grapple",
+      "Knockback"
+    ],
+    "description": "Massive, chitin-reinforced tentacles sprout from the body, their sinuous movements capable of ensnaring even the mightiest of titans, their grip unyielding and their strikes capable of knocking foes back with the force of a hurricane."
+  }
+}

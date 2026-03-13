@@ -1,0 +1,331 @@
+{
+  "Solar_Celestial_Fins": {
+    "tags": [
+      "Fins",
+      "Solar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Swim"
+    ],
+    "description": "Solar_Celestial_Fins shimmer with an otherworldly glow, their translucent membranes etched with intricate patterns that seem to pulse with the heat of a distant sun. As you move through water, these fins grant an ethereal grace, pushing you forward with an almost supernatural speed, while their radiance grants you resilience against the searing energies of celestial light."
+  },
+  "Storm_Aqua_Fins": {
+    "tags": [
+      "Fins",
+      "Storm",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Swim"
+    ],
+    "description": "The Storm_Aqua_Fins glisten with an iridescent blue hue that shifts and shimmers with the ebb and flow of celestial energies, their sleek contours designed for swift underwater movement. Each fin carries a subtle hum of static electricity, ready to deliver a jolt of lightning to any who dare to threaten their owner."
+  },
+  "Lunar_Grace_Fins": {
+    "tags": [
+      "Fins",
+      "Lunar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Lunar_Grace_Fins shimmer with an otherworldly silver light, their delicate edges rippling as if moving to the rhythm of the moon's phases, granting the bearer both a serene swimming grace and an enchanting allure that captivates observers."
+  },
+  "Guardian_Armored_Fins": {
+    "tags": [
+      "Fins",
+      "Guardian",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "The Guardian_Armored_Fins are sleek and iridescent, shimmering with an otherworldly glow that hints at celestial origins. These powerful fins, when integrated into a player's avatar, not only grant enhanced swimming capabilities but also envelop the user in a protective aura, enhancing their natural armor and increasing their speed through water."
+  },
+  "Seraph_Feather_Fins": {
+    "tags": [
+      "Fins",
+      "Seraph",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Charm"
+    ],
+    "description": "Gossamer fins, reminiscent of seraphic wings, pulse with celestial light, their delicate edges whispering a soothing melody that enchants all who hear it, while their presence grants an ethereal grace and an otherworldly allure."
+  },
+  "Cherub_Tiny_Fins": {
+    "tags": [
+      "Fins",
+      "Cherub",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim"
+    ],
+    "description": "Delicate and translucent, these tiny fins sprout from the cherub's ankles, shimmering with an ethereal glow that seems to draw in the faintest whispers of celestial winds, enhancing the agility and swift movements of their bearer."
+  },
+  "Deva_Swift_Fins": {
+    "tags": [
+      "Fins",
+      "Deva",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Dart"
+    ],
+    "description": "Silken yet resilient, the Deva_Swift_Fins shimmer with an ethereal glow, their translucent membranes fluttering with an otherworldly grace that enhances both swimming prowess and agility, allowing the bearer to slip through water with celestial speed and precision."
+  },
+  "Planetar_War_Fins": {
+    "tags": [
+      "Fins",
+      "Planetar",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Smite"
+    ],
+    "description": "Emerging from the depths of a corrupted ocean, the Planetar_War_Fins shimmer with an otherworldly glow, their intricate scales shifting like the constellations in the night sky, each fin capable of propelling the bearer through the water with celestial grace and power, ready to unleash divine retribution upon foes."
+  },
+  "Knight_Heavy_Fins": {
+    "tags": [
+      "Fins",
+      "Knight",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Swim"
+    ],
+    "description": "Enveloping the shoulders and back, the Knight_Heavy_Fins are iridescent scales that shimmer with a celestial glow, shifting between shades of silver and blue as if reflecting the heavens themselves. These fins are thick and robust, providing a natural barrier that enhances the wearer's defensive capabilities while also granting them the grace and speed necessary to navigate through water with ease."
+  },
+  "Nature_Archon_Fins": {
+    "tags": [
+      "Fins",
+      "Archon",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Swim"
+    ],
+    "description": "Emerging from the depths of an ethereal, celestial ocean, the Nature_Archon_Fins shimmer with an otherworldly glow, their sleek, iridescent edges capable of ensnaring foes in a web of aquatic vines while granting an unparalleled sense of speed and resilience in both water and on land."
+  },
+  "Light_Elemental_Fins": {
+    "tags": [
+      "Fins",
+      "Light",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Radiant Burst"
+    ],
+    "description": "Gossamer-like fins shimmer with an ethereal glow, their translucent membranes fluttering gently as if carried by a breeze from another realm, enhancing the wearer's agility and allowing them to emit a blinding burst of light to disorient foes."
+  },
+  "Ancient_God_Divine_Fins": {
+    "tags": [
+      "Fins",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "traversal": [
+      "Swim"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Smite",
+      "Magic Resistance"
+    ],
+    "description": "Carved from primordial celestial silver, the Ancient_God_Divine_Fins shimmer with an otherworldly glow, their intricate patterns resembling the constellations of a long-forgotten galaxy, granting unparalleled grace and strength in water and a divine aura that repels dark magic."
+  }
+}

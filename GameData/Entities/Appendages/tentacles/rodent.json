@@ -1,0 +1,277 @@
+{
+  "Parasitic_Nutrient_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Parasitic",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Parasitic Nutrient Tendrils, a grotesque cluster of slender, writhing tentacles that resemble translucent, pulsating worms, extend from the creature's body with a preternatural grace. Each tendril is covered in tiny, sharp barbs that help it latch onto and drain the life essence of its prey, while also granting the host an eerie dexterity and a menacing reach."
+  },
+  "Prehensile_Sensory_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Sensory",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Tentacle Lash"
+    ],
+    "description": "The Prehensile_Sensory_Tendrils are a cluster of fine, hair-like tentacles sprouting from the creature's snout, each one bristling with sensory nodes that twitch and curl, capable of detecting the slightest vibrations and movements in the earth, granting the user an uncanny awareness of their surroundings."
+  },
+  "Bioluminescent_Lure_Appendages": {
+    "tags": [
+      "Tentacles",
+      "Luminous",
+      "Rodent",
+      "Lure"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "Emerging from the creature\u2019s shadowy form are long, translucent tentacles that pulse with a mesmerizing, bioluminescent glow, their writhing movements designed to attract and ensnare prey, while a subtle venom causes paralysis upon contact."
+  },
+  "Adhesive_Capture_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Adhesive",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Grapple"
+    ],
+    "description": "The Adhesive_Capture_Tendrils are sinuous, rodent-like appendages that writhe and twist with a life of their own, their surfaces slick with a sticky, silvery secretion that can immobilize prey in an instant, granting the wielder unparalleled control in close combat."
+  },
+  "Necrotic_Leech_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Necrotic",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Vampiric Drain"
+    ],
+    "description": "Necrotic Leech Tendrils are long, slick appendages that squirm and writhe like diseased rat tails, pulsating with a sickly green glow as they latch onto flesh, sucking the life force from their victims while bestowing the wielder with the spoils of their ghastly feasts."
+  },
+  "Spined_Whip_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Spined",
+      "Rodent",
+      "Aggressive"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tentacle Lash",
+      "Slash"
+    ],
+    "description": "Emerging from the shadows, the Spined_Whip_Tendrils are a cluster of sinuous, spined tentacles that resemble the gnarled, twisted limbs of a monstrous rodent, each bristling with razor-sharp quills that rattle menacingly as they lash out with incredible speed and precision, slicing through air and flesh alike."
+  },
+  "Molten_Acid_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Acid",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray",
+      "Tentacle Lash"
+    ],
+    "description": "Emerging from the creature's gnarled, rodent-like body are thick, writhing tentacles that pulse with a sickly green glow, their surface slick with a corrosive acid that sizzles and hisses when it comes into contact with air or flesh."
+  },
+  "Vestigial_Proto_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Vestigial",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Faint, almost imperceptible nubs protrude from the armpits and waist, resembling tiny, underdeveloped tentacles that twitch and curl when the creature feels threatened or curious, granting an eerie sense of potential movement and grasp."
+  },
+  "Electric_Shock_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Electric",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Shock Touch",
+      "Tentacle Lash"
+    ],
+    "description": "Gnarled, quivering tendrils coated in a slick, metallic fur extend from the creature's bulbous body, each twitching appendage crackling with blue arcs of electricity as it lashes out with blinding speed, leaving a tingling shock in its wake."
+  },
+  "Camouflage_Chromatophore_Tendrils": {
+    "tags": [
+      "Tentacles",
+      "Chromatophore",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "Sinuous and slender, the Camouflage Chromatophore Tendrils undulate like shadows, their surface shifting through an endless palette of colors and patterns to match any background, blending the wearer into the environment with eerie precision."
+  },
+  "Bone_Anchor_Spurs": {
+    "tags": [
+      "Tentacles",
+      "Bone",
+      "Rodent",
+      "Mutant"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Slam"
+    ],
+    "description": "The Bone_Anchor_Spurs are a pair of jagged, bone spurs that protrude from the creature's forelimbs, resembling the twisted, gnarled claws of a rodent gone monstrous. Covered in coarse, matted fur, these spurs anchor into flesh with sickening ease, granting the wielder an unsettling advantage in close combat and enhancing their natural defenses."
+  },
+  "Magnetic_Sensory_Filaments": {
+    "tags": [
+      "Tentacles",
+      "Magnetic",
+      "Sensory",
+      "Rodent"
+    ],
+    "traversal": [],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Keen Sight"
+    ],
+    "description": "Delicate, silver filaments sprout from the base of the tentacles, each one humming with an unseen force as they twitch and pull towards any metal within a hundred feet, granting the creature an uncanny ability to sense even the slightest tremors and shadows."
+  }
+}

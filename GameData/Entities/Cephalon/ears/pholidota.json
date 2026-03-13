@@ -1,0 +1,249 @@
+{
+  "Small_Tufted_Pinnae": {
+    "tags": [
+      "Ear",
+      "Tufted",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Small_Tufted_Pinnae is a delicate yet robust organ, resembling the ears of a pangolin, covered in tiny, overlapping scales that shimmer with an iridescent sheen in low light, granting heightened auditory sensitivity and a subtle, defensive feature against minor physical threats."
+  },
+  "Electrosensory_Ear_Pits": {
+    "tags": [
+      "Ear",
+      "Electrosensory",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's head, the Electrosensory Ear Pits are a pair of small, recessed cavities covered in iridescent scales that shimmer with a faint, pulsing light. These pits are highly sensitive to vibrations and electrical signals, allowing the creature to hear the subtlest movements and electrical discharges with uncanny precision, granting it a heightened awareness of its surroundings."
+  },
+  "Seismic_Ground_Ears": {
+    "tags": [
+      "Ear",
+      "Seismic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the thick scales of the Pholidota, these peculiar seismic ground ears protrude slightly, their surface cold and slick to the touch. They vibrate subtly with the earth's heartbeat, granting an acute awareness of even the faintest tremors and shifts beneath the surface."
+  },
+  "Covered_Scale_Ears": {
+    "tags": [
+      "Ear",
+      "Scale_Covered",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Covered_Scale_Ears are a pair of delicate yet robust appendages, each leaf-like structure covered in shimmering scales that catch the light with an eerie, iridescent glow. The scales, akin to those of a basilisk, not only enhance the wearer's hearing by amplifying subtle sounds but also grant a layer of natural armor, protecting the head from minor attacks or harsh environments."
+  },
+  "Infrasound_Deep_Ears": {
+    "tags": [
+      "Ear",
+      "Infrasound",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense",
+      "Directional Tracking"
+    ],
+    "description": "Deep within the rugged hide, the Infrasound_Deep_Ears resemble dark, spiraled shells that pulse with an eerie, infrasonic hum. They grant the bearer unparalleled perception of the earth's subtlest tremors and the ability to track prey or threats with uncanny precision, no matter the environment."
+  },
+  "Aquatic_Pressure_Ears": {
+    "tags": [
+      "Ear",
+      "Aquatic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Aquatic_Pressure_Ears are a pair of elongated, sensitive appendages that resemble the scales of a fish, each one pulsating subtly with the pressure changes of the underwater world. These ears grant an acute awareness of the aquatic environment, allowing their bearer to detect the faintest sounds and movements beneath the waves, enhancing perception and agility in fluid surroundings."
+  },
+  "Magnetic_Orientation_Ears": {
+    "tags": [
+      "Ear",
+      "Magnetic",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "The Magnetic_Orientation_Ears, resembling elongated, leathery flaps with intricate patterns of metallic scales, vibrate minutely in response to the Earth\u2019s magnetic fields, allowing the bearer to discern precise directions with uncanny accuracy."
+  },
+  "Fossorial_Close_Ear_Flaps": {
+    "tags": [
+      "Ear",
+      "Fossorial",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "The Fossorial Close Ear Flaps are thick, scaled appendages that fold over the creature's ears, muffling sound and protecting delicate hearing organs while burrowing. The flaps feel rough and scaly to the touch, providing an additional layer of natural armor against soil and debris as the creature tunnels beneath the earth."
+  },
+  "Undead_Withered_Ears": {
+    "tags": [
+      "Ear",
+      "Undead",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Undead Withered Ears are shriveled and mottled, their once-proud appendages now desiccated and covered in a mosaic of small, bony plates reminiscent of a pangolin's scales. Emitting an aura of dread, these ears can sense the faintest whispers of fear in the air, amplifying the terror in those around them."
+  },
+  "Titan_Plated_Ears": {
+    "tags": [
+      "Ear",
+      "Titan",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Block"
+    ],
+    "description": "Enveloped in thick, overlapping plates of dark steel, the Titan Plated Ears provide a formidable barrier against auditory assaults and physical attacks, enhancing the wearer's natural armor and keen senses."
+  },
+  "Venomous_Gland_Ears": {
+    "tags": [
+      "Ear",
+      "Venomous",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "Embedded within the cartilaginous framework of the ears, these peculiar glands secrete a viscous, luminescent venom that pulses with an unsettling rhythm, causing an eerie, sibilant hiss whenever the creature feels threatened or senses danger. The venom not only grants the bearer a potent defensive edge, making them immune to fear and enhancing their awareness of their surroundings, but also allows for the manipulation of fear in others, their mere presence or sudden movements capable of triggering primal terror in foes."
+  },
+  "Chemical_Sensing_Ear_Patches": {
+    "tags": [
+      "Ear",
+      "Chemical",
+      "Pholidota"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "Embedded within the creature's head, the Chemical_Sensing_Ear_Patches are a pair of supple, chameleon-like patches that overlay the auricular region, shifting color and texture based on the chemical composition of nearby substances. When activated, these patches vibrate minutely, filtering and identifying complex chemical signatures in the air, granting the wielder an uncanny ability to detect and analyze scent trails with exceptional clarity and detail."
+  }
+}

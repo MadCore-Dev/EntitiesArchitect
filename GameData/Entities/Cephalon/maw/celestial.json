@@ -1,0 +1,301 @@
+{
+  "Solar_Fire_Breath_Maw": {
+    "tags": [
+      "Maw",
+      "Solar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fire Breath",
+      "Radiant Burst",
+      "Intimidate"
+    ],
+    "description": "The Solar_Fire_Breath_Maw is a gaping, otherworldly maw that glows with the intense heat of a noonday sun, its inner lining a flickering tapestry of flames that dance and twist with a life of their own, ready to unleash a searing blast of solar fire and blinding radiant energy at a moment's notice."
+  },
+  "Lunar_Silver_Tongue_Maw": {
+    "tags": [
+      "Maw",
+      "Lunar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Lunar_Silver_Tongue_Maw is a shimmering, silvery appendage that pulses with the glow of a full moon, its surface cold and slick to the touch. When spoken through, words flow with an enchanting melody that can both captivate and immobilize any listener, their eyes locking onto the speaker as if ensnared by an otherworldly spell."
+  },
+  "Guardian_Iron_Maw": {
+    "tags": [
+      "Maw",
+      "Guardian",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Block",
+      "Smite"
+    ],
+    "description": "The Guardian_Iron_Maw is a formidable appendage, its jaw lined with jagged, iron-like teeth that gleam ominously in the dim light, capable of delivering crushing bites that shatter bones and deflect incoming attacks with its innate resilience and celestial fortitude."
+  },
+  "Seraph_Divine_Maw": {
+    "tags": [
+      "Maw",
+      "Seraph",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Radiant Burst",
+      "Smite"
+    ],
+    "description": "The Seraph_Divine_Maw is a gaping void of ethereal light, its edges lined with delicate, translucent teeth that shimmer like the aurora borealis. When activated, it emits a warm, soothing glow that can charm even the most hardened hearts, while its radiant bursts can illuminate the darkest corners of the abyss, striking fear into the hearts of the fallen."
+  },
+  "Cherub_Sweet_Maw": {
+    "tags": [
+      "Maw",
+      "Cherub",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Paralyze"
+    ],
+    "description": "The Cherub_Sweet_Maw is a glistening, ethereal mouth suspended in mid-air, its soft pink lips curling into an innocent smile that seems to exude a calming aura, while a subtle shimmering glow hints at its celestial origins, capable of ensnaring the unwary with its charm and sudden paralyzing touch."
+  },
+  "Storm_Thunderous_Maw": {
+    "tags": [
+      "Maw",
+      "Storm",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "lightning_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Lightning Bolt",
+      "Shock Touch",
+      "Intimidate"
+    ],
+    "description": "The Storm_Thunderous_Maw is a gaping jaw lined with jagged, silver fangs that crackle with electric blue lightning, its breath a torrent of thundering rain and static electricity, capable of intimidating even the bravest of foes."
+  },
+  "Deva_Messenger_Maw": {
+    "tags": [
+      "Maw",
+      "Deva",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Charm",
+      "Radiant Burst"
+    ],
+    "description": "The Deva_Messenger_Maw is a luminous, ethereal mouth encased in iridescent scales that pulse with divine light, its serene expression capable of soothing even the most tormented souls, granting the bearer the gifts of persuasion and radiant assault."
+  },
+  "Planetar_War_Fanged_Maw": {
+    "tags": [
+      "Maw",
+      "Planetar",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Smite",
+      "Intimidate",
+      "Knockback"
+    ],
+    "description": "The Planetar War Fanged Maw is a gaping, celestial maw lined with razor-sharp, obsidian fangs that seem to pulse with a faint, otherworldly light, capable of delivering crushing bites that send waves of holy energy through the opponent, leaving them reeling from both the physical and spiritual assault."
+  },
+  "Knight_Armored_Maw": {
+    "tags": [
+      "Maw",
+      "Knight",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Block",
+      "Smite"
+    ],
+    "description": "The Knight_Armored_Maw is a fearsome and imposing structure, its jaw lined with jagged, celestial silver teeth that glint with an otherworldly light, and its robust, armored mandibles capable of both crushing foes and deflecting incoming attacks, embodying the indomitable spirit of a knight in holy battle."
+  },
+  "Nature_Archon_Vine_Maw": {
+    "tags": [
+      "Maw",
+      "Archon",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ensnare",
+      "Constrict",
+      "Charm"
+    ],
+    "description": "The Nature_Archon_Vine_Maw is a grotesque amalgamation of gnarled vines coiling around a cavernous mouth lined with sharp, crystalline teeth that gleam with the faint light of the moon. It feels both cold and searingly hot to the touch, emanating an otherworldly aura that can mesmerize the unwary, while its sheer strength and reach allow it to ensnare and constrict foes with preternatural ease."
+  },
+  "Light_Pure_Maw": {
+    "tags": [
+      "Maw",
+      "Light",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "radiant_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Radiant Burst",
+      "Charm"
+    ],
+    "description": "The Pure Maw is a luminescent cavity, its inner surface lined with delicate, translucent teeth that shimmer with a soft, celestial glow. When activated, it emits a warm, radiant aura that not only bolsters the wielder's resistance to dark energies but also captivates onlookers with an irresistible charm."
+  },
+  "Ancient_God_Divine_Maw": {
+    "tags": [
+      "Maw",
+      "Ancient_God",
+      "Celestial"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Swallow",
+      "Radiant Burst",
+      "Smite",
+      "Charm",
+      "Magic Resistance"
+    ],
+    "description": "The Ancient_God_Divine_Maw is a gaping void in the shape of a mouth, lined with rows of pearly teeth that shimmer with celestial light. When activated, it emits a blinding radiance and a resonant hum, granting the wielder the power to swallow enemies whole, smite them with divine energy, and charm them with the authority of an ancient deity, while bestowing a formidable resistance to magic."
+  }
+}

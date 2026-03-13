@@ -1,0 +1,270 @@
+{
+  "Moist_Permeable_Skin": {
+    "tags": [
+      "Skin",
+      "Permeable",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "water_retention",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Moist_Permeable_Skin is a slick, gelatinous layer that pulsates with an eerie, internal luminescence, allowing it to absorb and retain water effortlessly while its surface undulates in response to environmental changes, providing a defensive yet vulnerable facade."
+  },
+  "Mucous_Secretion_Layer": {
+    "tags": [
+      "Skin",
+      "Mucous",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "acid_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Slime Secretion"
+    ],
+    "description": "The Mucous_Secretion_Layer is a translucent, slimy membrane that covers the body, constantly oozing a protective layer of viscous fluid that slides and shifts with each movement, providing a slippery defense against attacks while granting the user enhanced agility and resistance to acidic damage."
+  },
+  "Chitinous_Segmental_Cuticle": {
+    "tags": [
+      "Chitin",
+      "Segmented",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor"
+    ],
+    "description": "The Chitinous_Segmental_Cuticle is a series of interlocking, glossy plates that resemble the armor of a colossal, segmented worm, each segment overlapping the next to form a rigid, yet flexible exoskeleton that provides exceptional protection while the creature slithers through narrow underground tunnels."
+  },
+  "Bioluminescent_Photophore_Skin": {
+    "tags": [
+      "Skin",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Photophore_Skin is a shimmering, iridescent layer that pulses with eerie, otherworldly light, casting dancing shadows and illusory patterns. Its touch is cold and slightly slimy, and in moments of danger, it can emit a blinding flash that paralyzes foes, though it also makes the wearer more noticeable in the dark."
+  },
+  "Haemolytic_Leech_Skin": {
+    "tags": [
+      "Skin",
+      "Parasitic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Drain"
+    ],
+    "description": "The Haemolytic Leech Skin is a mottled, crimson-hued hide covered in small, pulsating nodes that seem to pulse in rhythm with the heartbeat of its wearer, granting a subtle, unnerving sensation of constant hunger. Though it enhances agility, the skin's rough, partially translucent surface feels uncomfortably slick, and it saps the wearer's vitality, subtly weakening their natural defenses."
+  },
+  "Toxic_Nematocyst_Skin": {
+    "tags": [
+      "Skin",
+      "Toxic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "The Toxic_Nematocyst_Skin is a mottled, iridescent layer that glistens with an unsettling, sickly hue, its surface dotted with tiny, translucent nodules that throb and pulse with an inner darkness, ready to unleash a paralyzing poison at the slightest provocation."
+  },
+  "Aposematic_Ringed_Skin": {
+    "tags": [
+      "Skin",
+      "Aposematic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "poison_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Aposematic_Ringed_Skin is a vibrant, pulsating membrane that flickers with bands of eerie, fluorescent colors, each ring expanding and contracting like a heartbeat of warning. Touching it leaves a lingering chill and a subtle taste of copper on the tongue, as if the very air whispers of dread and impending danger."
+  },
+  "Armoured_Rock_Cuticle": {
+    "tags": [
+      "Chitin",
+      "Armoured",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Natural Armor",
+      "Block"
+    ],
+    "description": "The Armoured_Rock_Cuticle is a rugged exoskeleton segment, hard as stone yet flexible enough to move with the creature's body, providing a robust defense against attacks while granting a sense of stability and resilience."
+  },
+  "Photosensitive_Chromatophore_Skin": {
+    "tags": [
+      "Skin",
+      "Chromatophore",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Camouflage"
+    ],
+    "description": "The Photosensitive_Chromatophore_Skin is a mutable layer of flesh that shifts and changes color in response to light, allowing the wearer to blend seamlessly into their surroundings. Its surface feels cool and slightly damp, with a texture that mimics the environment it is adapting to, enhancing the user's ability to remain hidden."
+  },
+  "Diseased_Decomposing_Integument": {
+    "tags": [
+      "Skin",
+      "Diseased",
+      "Vermian",
+      "Necrotic"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Diseased Decomposing Integument is a patchwork of rotting flesh and writhing worm-like vermin, its surface pulsing with a sickly green glow as it secretes a foul, viscous fluid. The mere sight of it can instill a paralyzing dread in those who behold it, while the constant squirming of the vermin beneath the skin provides a nauseating, yet oddly comforting sensation to the wearer."
+  },
+  "Bristle_Setae_Skin": {
+    "tags": [
+      "Skin",
+      "Setae",
+      "Vermian",
+      "Polychaete"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "slashing_resist",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake"
+    ],
+    "description": "The Bristle_Setae_Skin is a thick, chitinous exoskeleton peppered with sharp, rigid bristles that extend like fine needles, each one capable of injecting a venomous cocktail that causes a momentary paralysis. This skin not only provides a formidable defense, making the wearer nearly impervious to slashing attacks, but also serves as an offensive weapon, allowing for swift and deadly raking attacks."
+  },
+  "Regenerating_Membrane_Skin": {
+    "tags": [
+      "Skin",
+      "Regenerating",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "hp",
+        "op": "add",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Regeneration"
+    ],
+    "description": "The Regenerating Membrane Skin is a translucent, gel-like layer that pulsates with an eerie bioluminescence, constantly shifting and repairing itself to cover the wearer in a seamless, adaptive barrier."
+  }
+}

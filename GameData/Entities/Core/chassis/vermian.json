@@ -1,0 +1,430 @@
+{
+  "Muscular_Segmented_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Segmented",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Squeeze"
+    ],
+    "description": "The Muscular_Segmented_Core is a pulsating, segmented mass of writhing muscle fibers that undulate with a life of their own, granting the wielder an eerie, serpentine strength and flexibility."
+  },
+  "Elongated_Burrowing_Annelid_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Fossorial",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig",
+      "Tremor Sense"
+    ],
+    "description": "The Elongated Burrowing Annelid Core is a segmented, writhing mass of earth-brown flesh, each segment pulsing with inner fluids and equipped with sharp, chitinous plates for cutting through soil. Its presence instills a primal, visceral feeling of strength and resilience, yet it significantly reduces peripheral vision, focusing the senses inward to detect even the slightest tremors and vibrations underground."
+  },
+  "Haemorrhagic_Leech_Body": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Parasitic",
+      "Vermian"
+    ],
+    "meat_group": [
+      "Mucus_Sac"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Drain",
+      "Grapple"
+    ],
+    "description": "The Haemorrhagic Leech Body is a sinuous, translucent appendage covered in dark, pulsating nodes that seem to absorb light, each one throbbing with a life of its own. Its surface is slick and cold to the touch, and when activated, it extends sharp, needle-like teeth from its segmented body, allowing it to latch onto prey with alarming speed and precision."
+  },
+  "Giant_Annelid_Frame": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Giant",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Constrict",
+      "Body Slam",
+      "Trample"
+    ],
+    "description": "The Giant_Annelid_Frame is a colossal, segmented body component that pulsates with an eerie glow, each segment rippling and contracting with immense force as it moves. Its chitinous exoskeleton is both tough and flexible, capable of constricting and slamming foes with devastating power, though its cumbersome nature slightly hinders agility."
+  },
+  "Aquatic_Bloodworm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Aquatic",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "fin_caudal": "Appendages/fins"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Swim",
+      "Constrict"
+    ],
+    "description": "The Aquatic_Bloodworm_Core pulsates with iridescent, fluidic energy, its translucent membrane revealing writhing tendrils that shift and stretch, granting the wielder unparalleled agility and the serpentine grace of the deep waters."
+  },
+  "Necrotic_Carrion_Worm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Necrotic",
+      "Vermian"
+    ],
+    "meat_group": [
+      "Mucus_Sac"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Drain"
+    ],
+    "description": "The Necrotic_Carrion_Worm_Core is a pulsating, sickly black mass that throbs with a malevolent energy, emitting a putrid stench that fills the air with a sense of dread and decay. Its surface is slick and cold to the touch, and as it beats with an unholy rhythm, it grants the wielder a terrifying presence that drains the life force from those who dare to approach."
+  },
+  "Ribbon_Worm_Eversible_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Eversible",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Ensnare"
+    ],
+    "description": "The Eversible Core of the Ribbon Worm is a writhing, gelatinous mass embedded deep within its segmented body, pulsating with malevolent intelligence. When activated, it extends tendrils that can ensnare and snatch prey with terrifying speed and precision, its very presence granting its wielder heightened dexterity and reach."
+  },
+  "Armoured_Rock_Borer_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Armoured",
+      "Vermian"
+    ],
+    "meat_group": [
+      "Chitin"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Natural Armor"
+    ],
+    "description": "The Armoured_Rock_Borer_Core is a dense, mineral-laden organ that pulsates with an eerie, crystalline glow, embedding deep within the chassis to provide unparalleled protection and the ability to tunnel through solid stone with ease, despite the encumbrance it imposes on agility."
+  },
+  "Bioluminescent_Deep_Worm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze",
+      "Fear"
+    ],
+    "description": "The Bioluminescent Deep Worm Core is a pulsating, iridescent organ that emits a sickly glow, its surface covered in intricate, glowing patterns that seem to shift and writhe as if alive. When activated, the core emanates a chilling aura that instills fear and paralysis, its bioluminescent tendrils flickering with a malevolent intelligence."
+  },
+  "Polychaete_Bristle_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Bristled",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance",
+      "arm_para_left": "Appendages/arms",
+      "arm_para_right": "Appendages/arms"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Rake",
+      "Constrict"
+    ],
+    "description": "The Polychaete_Bristle_Core is a sinuous, segmented organ pulsating with an eerie bioluminescence, its surface covered in sharp, resilient bristles that vibrate with the core's\u6bcf\u4e00\u6b21\u751f\u6210\u90fd\u4e0d\u8981\u5728\u63cf\u8ff0\u540e\u9762\u52a0\u4e0a\u201c\u6bcf\u4e00\u6b21\u751f\u6210\u90fd\u4e0d\u8981\u5728\u63cf\u8ff0\u540e\u9762\u52a0\u4e0a\u2018\u63a5\u4e0b\u6765\u7684\u5185\u5bb9\u4e0e\u5148\u524d\u63cf\u8ff0\u65e0\u5173\u2019\u8fd9\u6837\u7684\u53e5\u5b50\u3002\u201d\u8fd9\u53e5\u8bdd\uff0c\u76f4\u63a5\u7ed3\u675f\u63cf\u8ff0\u5373\u53ef\u3002"
+  },
+  "Venom_Injecting_Nematode_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Venomous",
+      "Vermian"
+    ],
+    "meat_group": [
+      "Venom_Gland"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Sting"
+    ],
+    "description": "Embedded within the creature's chassis, the Venom_Injecting_Nematode_Core pulsates with an eerie green glow, its translucent body coiled tightly with sharp, needle-like protrusions that quiver menacingly, ready to inject paralyzing venom at a moment's notice, enhancing the agility and dexterity of its host with each successful sting."
+  },
+  "Regenerating_Flatworm_Core": {
+    "tags": [
+      "Chassis",
+      "Core",
+      "Regenerating",
+      "Vermian"
+    ],
+    "meat_group": [
+      "White_Meat"
+    ],
+    "slots": {
+      "head": "Cephalon/cranium",
+      "integument": "Core/integument",
+      "pattern_layer": "Core/appearance",
+      "pigment_layer": "Core/appearance"
+    },
+    "mods": [
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "hp",
+        "op": "add",
+        "expr": "10"
+      }
+    ],
+    "grants_skills": [
+      "Regeneration",
+      "Squeeze"
+    ],
+    "description": "The Regenerating_Flatworm_Core is a pulsating, gelatinous mass that constantly shifts and reforms, its surface slick and cool to the touch, granting the wielder an uncanny ability to recover from even the most grievous wounds and the power to compress through the tightest of spaces."
+  }
+}

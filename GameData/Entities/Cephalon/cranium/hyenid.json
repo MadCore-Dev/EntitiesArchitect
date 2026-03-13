@@ -1,0 +1,378 @@
+{
+  "Wide_Sagittal_Crested_Skull": {
+    "tags": [
+      "Cranium",
+      "Sagittal_Crest",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Headbutt"
+    ],
+    "description": "The Wide_Sagittal_Crested_Skull, with its pronounced sagittal crest jutting out like a jagged crown, is both menacing and formidable. The skull's surface is rough and pitted, bearing the scars of countless battles, while its heavy weight and reinforced bone structure grant unparalleled strength and resilience."
+  },
+  "Sloped_Predator_Skull": {
+    "tags": [
+      "Cranium",
+      "Sloped",
+      "Hyenid",
+      "Spotted"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The Sloped_Predator_Skull is a jagged, sloping cranium patterned with dark spots, its menacing jaws lined with razor-sharp teeth, exuding an aura of primal cunning and ferocity that enhances the wearer's agility and strength in the face of danger."
+  },
+  "Slender_Aardwolf_Skull": {
+    "tags": [
+      "Cranium",
+      "Slender",
+      "Hyenid",
+      "Aardwolf"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "The Slender_Aardwolf_Skull, with its elongated snout and sharp, pointed teeth, exudes a haunting elegance. Its slender cranium, finely crafted with intricate bone patterns, offers heightened senses and agility, reflecting the aardwolf's nocturnal prowess."
+  },
+  "Undead_Bleached_Skull": {
+    "tags": [
+      "Cranium",
+      "Undead",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "maw_primary": "Cephalon/maw"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Headbutt"
+    ],
+    "description": "The Undead_Bleached_Skull is a macabre relic of a hyenid predator, its skull a ghostly white with deep-set sockets that seem to follow the viewer's every move, exuding an aura of unsettling dread. The surface is rough with the texture of centuries-old decay, yet it grants the bearer a resilient natural armor and the terrifying ability to instill fear and deliver bone-crushing headbutts."
+  },
+  "Giant_Cave_Skull": {
+    "tags": [
+      "Cranium",
+      "Giant",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Crunch"
+    ],
+    "description": "The Giant Cave Skull, with its immense, jagged teeth and haunting, hollow eye sockets, exudes an aura of primal fear and dominance. Its thick, weathered bone structure resonates with an unsettling echo when clenched tightly, granting the wielder a fearsome presence and unmatched crushing power."
+  },
+  "Alpha_Display_Skull": {
+    "tags": [
+      "Cranium",
+      "Alpha",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Pack Tactics"
+    ],
+    "description": "The Alpha_Display_Skull is a fearsome relic, its thick hyenid bone structure gleaming with a predatory sheen, the sockets deep and shadowed as if they once held the gaze of an unyielding alpha, exuding an aura of primal dominance that quells dissent with a mere glance."
+  },
+  "Nocturnal_Hollow_Skull": {
+    "tags": [
+      "Cranium",
+      "Nocturnal",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Nocturnal Hollow Skull is a bleached, hollow cranium adorned with sharp, jagged teeth and glowing, phosphorescent eyes that pierce the darkness, enhancing the wearer's ability to stalk and ambush prey unseen."
+  },
+  "Disease_Scarred_Skull": {
+    "tags": [
+      "Cranium",
+      "Diseased",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear"
+    ],
+    "description": "The Disease_Scarred_Skull is a grotesque relic, its surface etched with pitted scars from long-forgotten plagues, radiating an aura of pervasive dread that chills the spine of any who gaze upon it."
+  },
+  "Musth_Cackling_Skull": {
+    "tags": [
+      "Cranium",
+      "Cackling",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Fear"
+    ],
+    "description": "The Musth Cackling Skull is a twisted relic of a hyenid creature, its cracked and grinning jaw emits an eerie, cackling sound that sends shivers down the spine of any who hear it. The skull's hollow eye sockets seem to glow with a malevolent intelligence, and its presence instills a primal fear that sharpens the senses while dampening the soul's fortitude."
+  },
+  "Armoured_Bone_Skull": {
+    "tags": [
+      "Cranium",
+      "Armoured",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Block",
+      "Headbutt"
+    ],
+    "description": "The Armoured_Bone_Skull is a fearsome cranium sheathed in jagged, overlapping plates of dark bone, reminiscent of a hyena's gnarled visage, providing a natural barrier against harm while granting the wielder the brute force of a headbutt and an additional layer of natural armor."
+  },
+  "Electroreceptive_Social_Skull": {
+    "tags": [
+      "Cranium",
+      "Social",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics",
+      "Tremor Sense"
+    ],
+    "description": "The Electroreceptive_Social_Skull is a sleek, elongated cranium covered in fine, sensitive whiskers and jagged, conductive ridges that pulse with a faint, eerie glow when danger is sensed, enhancing the wearer's social prowess and awareness of their surroundings."
+  },
+  "Venomous_Frothy_Skull": {
+    "tags": [
+      "Cranium",
+      "Venomous",
+      "Hyenid"
+    ],
+    "slots": {
+      "eye_left": "Cephalon/eyes",
+      "eye_right": "Cephalon/eyes",
+      "ear_right": "Cephalon/ears",
+      "ear_left": "Cephalon/ears",
+      "maw_primary": "Cephalon/maw",
+      "nose_primary": "Cephalon/nose"
+    },
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Disease Carrier"
+    ],
+    "description": "The Venomous Frothy Skull is a grotesque amalgamation of bone and bubbling toxin, its hollow eye sockets weeping with a frothy venom that crackles with malevolent energy. The skull's jagged edges are coated in a layer of viscous poison, and it emits a faint, unsettling growl whenever disease-carrying creatures approach."
+  }
+}

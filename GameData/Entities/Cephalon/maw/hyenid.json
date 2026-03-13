@@ -1,0 +1,260 @@
+{
+  "Bone_Crushing_Jaw_Maw": {
+    "tags": [
+      "Maw",
+      "Bone_Crusher",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Bone Crack",
+      "Iron Grip"
+    ],
+    "description": "The Bone_Crushing_Jaw_Maw is a fearsome gnash of jagged, obsidian teeth set in a powerful, snapping maw, capable of crushing bones to dust with a single bite, its inner flesh secreting a glue-like substance that binds prey tighter with each struggle."
+  },
+  "Disease_Drool_Maw": {
+    "tags": [
+      "Maw",
+      "Disease",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Disease Carrier"
+    ],
+    "description": "The Disease_Drool_Maw is a grotesque, gaping maw filled with razor-sharp teeth, constantly slick with a viscous, greenish drool that bubbles ominously. Its surface is cold and clammy to the touch, and when it opens to unleash a venomous bite, a noxious cloud of disease-laden spittle sprays forth, spreading sickness and decay in its wake."
+  },
+  "Cackling_Screech_Maw": {
+    "tags": [
+      "Maw",
+      "Cackling",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Fear",
+      "Intimidate"
+    ],
+    "description": "The Cackling_Screech_Maw is a grotesque, gaping mouth filled with jagged, yellowed fangs that seem to stretch endlessly into a cavernous throat, its constant, eerie laughter echoing like the wind through abandoned ruins, filling the air with dread and foreboding."
+  },
+  "Pack_Call_Maw": {
+    "tags": [
+      "Maw",
+      "Pack_Call",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Pack Tactics"
+    ],
+    "description": "The Pack_Call_Maw is a grotesque, gaping mouth adorned with razor-sharp teeth that seem to whisper ancient secrets of the pack, its warm breath carrying a haunting melody that compels hyenids to unite and follow."
+  },
+  "Venomous_Saliva_Maw": {
+    "tags": [
+      "Maw",
+      "Venomous",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Venomous Bite"
+    ],
+    "description": "The Venomous_Saliva_Maw is a grotesque appendage, dripping with a viscous, emerald-green saliva that hisses and sizzles upon contact with air, capable of injecting potent toxins with a mere snap of its razor-sharp, serrated teeth."
+  },
+  "Aardwolf_Insectivore_Maw": {
+    "tags": [
+      "Maw",
+      "Insectivore",
+      "Hyenid",
+      "Aardwolf"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch"
+    ],
+    "description": "The Aardwolf Insectivore Maw is a cavernous, darkened orifice lined with sharp, interlocking teeth designed to snare and devour swarms of insects, its rough tongue flicking out with the precision of a predator's claw to snatch prey from the air or ground, leaving opponents wary of its sudden, darting movements."
+  },
+  "Undead_Rotting_Maw": {
+    "tags": [
+      "Maw",
+      "Undead",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Venomous Bite",
+      "Fear"
+    ],
+    "description": "The Undead_Rotting_Maw is a decaying, gnashing mouth set in a skull-riddled head, its teeth jagged and dripping with a noxious venom that sickens all who dare to taste its bite, while the very air around it churns with an aura of dread and despair."
+  },
+  "Giant_Cave_Crushing_Maw": {
+    "tags": [
+      "Maw",
+      "Giant",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "size_index",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Swallow",
+      "Iron Grip"
+    ],
+    "description": "The Giant Cave Crushing Maw is a gaping, obsidian-black orifice lined with razor-sharp, serrated teeth that gleam with a malevolent, inner light, capable of crushing stone and flesh alike with a single, powerful snap. Its iron grip is unyielding, and the cavernous interior is lined with barbs that catch and tear at anything foolish enough to enter, leaving only bones behind."
+  },
+  "Acid_Spitting_Maw": {
+    "tags": [
+      "Maw",
+      "Acid",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spitting_Maw is a grotesque, gaping orifice lined with serrated, blackened teeth that glisten with traces of corrosive acid. Whenever it opens to emit a spurt of caustic liquid, the air hisses and sizzles around it, leaving a lingering stench of decay and danger."
+  },
+  "Serrated_Hyena_Maw": {
+    "tags": [
+      "Maw",
+      "Serrated",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Serrated Bite",
+      "Crunch"
+    ],
+    "description": "The Serrated_Hyena_Maw, a fearsome relic of the Underworld's savannahs, is a jagged, bloodstained mouthpiece with razor-sharp teeth that gleam with an unnatural, predatory sheen. Its presence fills the air with a chill of impending doom and the tactile sensation of cold, relentless hunger."
+  },
+  "Night_Stalker_Maw": {
+    "tags": [
+      "Maw",
+      "Night",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Bite",
+      "Ambush"
+    ],
+    "description": "The Night_Stalker_Maw is a gaping cavity lined with razor-sharp fangs that gleam with a sinister, phosphorescent glow in the dark, its cold breath carrying whispers of impending doom. When closed, it feels like a dense, cold void, enhancing the user's ability to blend into shadows while granting them formidable biting strength and the eerie ability to strike without warning."
+  },
+  "Blood_Frenzy_Frothy_Maw": {
+    "tags": [
+      "Maw",
+      "Frenzy",
+      "Hyenid"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blood Frenzy",
+      "Crunch"
+    ],
+    "description": "The Blood_Frenzy_Frothy_Maw is a gnarled and twisted mouthpiece, its razor-sharp teeth stained dark with dried blood, exuding an aura of rabid hunger that can trigger a primal, blood-laden rage in its wielder. When activated, it emits a guttural growl and saliva foams at the edges, enhancing physical strength while eroding the user's self-control and charisma."
+  }
+}

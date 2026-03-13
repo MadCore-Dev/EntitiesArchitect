@@ -1,0 +1,284 @@
+{
+  "Powerful_Bone_Crushing_Arms": {
+    "tags": [
+      "Arms",
+      "Bone_Crusher",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "4"
+      }
+    ],
+    "grants_skills": [
+      "Crunch",
+      "Bone Crack"
+    ],
+    "description": "The Powerful_Bone_Crushing_Arms are thick, sinewy limbs covered in coarse, dark fur, ending in massive paws tipped with razor-sharp claws and crushing jaws at the wrist, capable of rending through bone with a single flex of the powerful muscles."
+  },
+  "Wiry_Chase_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Chase",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Sprint"
+    ],
+    "description": "The Wiry_Chase_Forelimbs are slender and sinewy, tipped with sharp claws that dig into the earth with every frenetic leap, granting the bearer unmatched agility and the ability to outmaneuver foes in a heart-pounding sprint across treacherous terrain."
+  },
+  "Venomous_Saliva_Claws": {
+    "tags": [
+      "Arms",
+      "Venomous",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Poison",
+      "Venomous Bite"
+    ],
+    "description": "The Venomous_Saliva_Claws are jagged, bone-white talons tipped with a shimmering, iridescent fluid that pulses with a sickly green glow. When flexed, these claws feel cold and slick against the skin, hinting at the toxic saliva that coats them, ready to inject potent venom with a mere scratch or bite."
+  },
+  "Disease_Drool_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Disease",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier"
+    ],
+    "description": "Tattered and sickly, the forelimbs of the Disease_Drool_Forelimbs are covered in a thick, viscous drool that drips constantly, each drop carrying myriad virulent pathogens. The skin is mottled and bruised, veins visibly distended with the poison coursing through the creature\u2019s body, and the very touch of these arms can leave a lingering, unsettling sensation of illness."
+  },
+  "Alpha_Pack_Lead_Arms": {
+    "tags": [
+      "Arms",
+      "Alpha",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Intimidate",
+      "Slam"
+    ],
+    "description": "Thick with sinew and scar tissue, the Alpha_Pack_Lead_Arms are gnarled and powerful, their elongated claws and sharp teeth capable of rending flesh with a single swipe, exuding a primal authority that commands respect and fear from all who witness their might."
+  },
+  "Cave_Digging_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Fossorial",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Burrow",
+      "Dig"
+    ],
+    "description": "The Cave_Digging_Forelimbs are powerful, clawed appendages with thick, muscular digits that can effortlessly shift through even the hardest rock, their surface covered in a tough, calloused skin that resists wear and tear, perfect for the relentless act of burrowing and digging."
+  },
+  "Swift_Grab_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Grab",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Grapple"
+    ],
+    "description": "The Swift_Grab_Forelimbs are a pair of powerful, sinewy appendages, tipped with wickedly sharp claws and covered in coarse, matted fur. They move with unsettling speed and precision, capable of snatching prey from mid-air or holding foes in an unbreakable grip, reflecting the creature's predatory nature and granting a deadly advantage in combat."
+  },
+  "Undead_Rotting_Limbs": {
+    "tags": [
+      "Arms",
+      "Undead",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Disease Carrier",
+      "No Pain"
+    ],
+    "description": "Battered and malformed, the rotting limbs of an undead hyenid are covered in festering wounds that ooze a virulent black pus, each scratch or bite carrying with it the promise of corruption and decay. Despite the stench and the constant ache that would cripple the living, these limbs move with an unsettling, relentless vigor, unburdened by pain or the fear of further injury."
+  },
+  "Aardwolf_Digging_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Aardwolf",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk",
+      "Burrow_Earth"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Burrow"
+    ],
+    "description": "The Aardwolf_Digging_Forelimbs are powerful, digitigrade limbs with sharp, elongated claws that curve menacingly, perfect for rapid excavation. Covered in short, coarse fur, they pulse with an innate earthy energy, allowing their wielder to burrow seamlessly through soil and sand."
+  },
+  "Shadow_Stealth_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Stealth",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Soft Step",
+      "Ambush"
+    ],
+    "description": "The Shadow_Stealth_Forelimbs are slender and sinuous, their dark fur blending seamlessly with the shadows, and when moved, they emit a soft, almost imperceptible rustle that does nothing to disrupt the silence of the night."
+  },
+  "Electroreceptive_Sensing_Arms": {
+    "tags": [
+      "Arms",
+      "Electroreceptive",
+      "Hyenid"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Electroreceptive_Sensing_Arms are a pair of slender, blackened limbs that pulse with a faint, electric blue aura, their surface covered in intricate, nerve-like patterns that twitch and glow as they detect subtle seismic and electrical currents, granting the user an uncanny ability to sense approaching dangers and hidden foes."
+  },
+  "Acid_Spitting_Forelimbs": {
+    "tags": [
+      "Arms",
+      "Acid",
+      "Hyenid",
+      "Mutant"
+    ],
+    "traversal": [
+      "Walk"
+    ],
+    "mods": [
+      {
+        "target": "reach",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Acid Spray"
+    ],
+    "description": "The Acid_Spitting_Forelimbs are a grotesque mutation of hyenid anatomy, elongated arms tipped with bulbous, translucent sacs that bulge with a viscous green fluid. When agitated, these forelimbs pulse ominously, threatening to unleash a corrosive spray capable of melting through metal and flesh alike."
+  }
+}

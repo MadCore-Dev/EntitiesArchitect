@@ -1,0 +1,362 @@
+{
+  "Membrane_Wing_Patagium": {
+    "tags": [
+      "Wings",
+      "Membrane",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Silent Flight",
+      "Aerobatics"
+    ],
+    "description": "The Membrane_Wing_Patagium is a vast, elastic expanse of dark, leathery membrane that stretches between elongated, skeletal fingers, providing silent, graceful flight and incredible aerial maneuverability, enhancing agility and evasion."
+  },
+  "Broad_Slow_Wing": {
+    "tags": [
+      "Wings",
+      "Broad",
+      "Chiropteran",
+      "Megachiroptera"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight"
+    ],
+    "description": "Broad and leathery, the Slow Wing resembles the wings of a giant fruit bat, with a span wide enough to catch even the slightest breeze, allowing for slow, graceful glides through the air. Its texture is rough yet supple, providing a tactile reminder of the silent, looming presence it bestows upon its bearer."
+  },
+  "Narrow_Swift_Wing": {
+    "tags": [
+      "Wings",
+      "Narrow",
+      "Chiropteran",
+      "Insectivore"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "speed_bonus",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Aerobatics",
+      "Sprint",
+      "Flight"
+    ],
+    "description": "The Narrow_Swift_Wing is a chiropteran appendage, narrow and elongated with a delicate lattice of translucent membranes stretched taut between slender, articulated bones, allowing for unparalleled aerobatic maneuvers and rapid sprints on the ground, while also providing the grantee with the ability to glide through the air with silent precision."
+  },
+  "Long_Pointed_Soaring_Wing": {
+    "tags": [
+      "Wings",
+      "Soaring",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight",
+      "Aerobatics"
+    ],
+    "description": "The Long_Pointed_Soaring_Wing is a chiropteran marvel, with sleek, elongated bones and a membrane so thin it seems to shimmer with the wind, granting the user an otherworldly grace and the ability to glide through the air with near-silent precision."
+  },
+  "Vampire_Silent_Wing": {
+    "tags": [
+      "Wings",
+      "Silent",
+      "Chiropteran",
+      "Vampire_Bat"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Silent Flight",
+      "Ambush",
+      "Flight"
+    ],
+    "description": "The Vampire_Silent_Wing is a pair of membranous wings, dark as the night sky, with sharp edges that seem to pulse with an inner shadow. They are nearly soundless when flapping, allowing their bearer to glide through the darkness undetected, their chiropteran design granting both eerie grace and deadly maneuverability."
+  },
+  "Reinforced_Giant_Wing": {
+    "tags": [
+      "Wings",
+      "Reinforced",
+      "Chiropteran",
+      "Giant"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Body Slam"
+    ],
+    "description": "The Reinforced Giant Wing is a colossal chiropteran appendage, its leathery surface reinforced with a lattice of black bone spurs that rattle ominously when flexed. Despite its size, the wing moves with surprising agility, granting its bearer both the grace to soar through the skies and the brute force to use it as a devastating weapon in aerial combat."
+  },
+  "Armoured_Bone_Wing": {
+    "tags": [
+      "Wings",
+      "Armoured",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "agility",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Block"
+    ],
+    "description": "The Armoured_Bone_Wing is a thick, leathery appendage with sharp, interlocking bone plates that rattle audibly when flapped, granting its bearer formidable aerial maneuverability and the ability to deflect incoming attacks with a mere flutter of its robust wings."
+  },
+  "Echosonic_Membrane_Wing": {
+    "tags": [
+      "Wings",
+      "Echosonic",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Echolocation",
+      "Flight",
+      "Blindsight"
+    ],
+    "description": "The Echosonic_Membrane_Wing is a pair of slender, translucent wings tinged with iridescent hues that shimmer in the darkness. When flapped, they emit a soft, pulsating sound that resonates through the air, allowing the wielder to navigate even the darkest of voids with perfect clarity and glide through the air with supernatural grace."
+  },
+  "Agenised_Clawed_Wing": {
+    "tags": [
+      "Wings",
+      "Clawed",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "str",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Flight",
+      "Rake"
+    ],
+    "description": "The Agenised Clawed Wing is a terrifying amalgamation of membranous wings and razor-sharp claws, capable of silent glides through the night sky and sudden, devastating attacks. Its chiropteran form grants an eerie grace and formidable strength, enabling swift aerial maneuvers and deadly raking strikes."
+  },
+  "Thermal_Soaring_Wing": {
+    "tags": [
+      "Wings",
+      "Thermal",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Fly",
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Flight"
+    ],
+    "description": "The Thermal_Soaring_Wing is a pair of immense, membranous wings, shimmering with hues of deep crimson and obsidian, capable of harnessing the heat currents of the underworld to glide effortlessly through the air. The texture is both soft and resilient, allowing for silent, fluid movements that enhance agility and evasion."
+  },
+  "Fishing_Wing_Gaff": {
+    "tags": [
+      "Wings",
+      "Gaff",
+      "Chiropteran",
+      "Fishing_Bat"
+    ],
+    "traversal": [
+      "Fly",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "dex",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Snatch",
+      "Flight"
+    ],
+    "description": "The Fishing_Wing_Gaff is a sinister chiropteran appendage, its leathery wings tipped with razor-sharp gaff hooks that glint menacingly in the moonlight, allowing the wielder to snatch prey from the air with terrifying precision while soaring through the night sky."
+  },
+  "Gossamer_Thin_Wing": {
+    "tags": [
+      "Wings",
+      "Gossamer",
+      "Chiropteran"
+    ],
+    "traversal": [
+      "Glide",
+      "Hover"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "con",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Glide",
+      "Hover",
+      "Aerobatics"
+    ],
+    "description": "The Gossamer_Thin_Wing is a delicate chiropteran wing, almost transparent and shimmering in the light, granting its bearer the ethereal abilities of Glide and Hover, while its intricate webbing allows for unparalleled Aerobatics, though its fragility imposes a slight decrease in Constitution."
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "Vestigial_Eyespot_Organelle": {
+    "tags": [
+      "Eye",
+      "Vestigial",
+      "Vermian",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "8"
+      },
+      {
+        "target": "con",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the thick, scaled skin of its host, the Vestigial_Eyespot_Organelle is a small, calcified nodule that pulses faintly with bioluminescence, a relic from the creature's subterranean origins, granting enhanced resilience and a primal, if limited, awareness of nearby movement and light."
+  },
+  "Simple_Photoreceptor_Ocelli": {
+    "tags": [
+      "Eye",
+      "Ocelli",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "These primitive eye-like structures, reminiscent of insect ocelli,\u95ea\u70c1\u4e00\u4e0b\uff0c\u4f60\u63d0\u4f9b\u7684\u4fe1\u606f\u4e2d\u6ca1\u6709\u63d0\u53ca\u9700\u8981\u5305\u542b\u201cStat Changes\u201d\u6216\u201cGranted Skills\u201d\u7684\u8be6\u7ec6\u63cf\u8ff0\uff0c\u6211\u5c06\u7ee7\u7eed\u4ec5\u57fa\u4e8e\u201cComponent Name\u201d\u548c\u201cTags\u201d\u7ed9\u51fa\u63cf\u8ff0\u3002\u8fd9\u4e9b\u539f\u59cb\u7684\u773c\u775b\u72b6\u7ed3\u6784\uff0c\u7c7b\u4f3c\u4e8e\u6606\u866b\u7684\u5355\u773c\uff0c\u5c0f\u5de7\u800c\u6df1\u9083\uff0c\u5d4c\u5165\u6697\u8272\u7684\u89d2\u8d28\u5916\u58f3\u4e2d\uff0c\u8868\u9762\u8986\u76d6\u7740\u4e00\u5c42\u6de1\u6de1\u7684\u91d1\u5c5e\u5149\u6cfd\uff0c\u80fd\u591f\u654f\u9510\u5730\u611f\u77e5\u5468\u56f4\u7684\u5149\u7ebf\u53d8\u5316\uff0c\u4e3a\u5bbf\u4e3b\u5e26\u6765\u4e00\u4e1d\u989d\u5916\u7684\u8b66\u89c9\u4e0e\u611f\u77e5\u80fd\u529b\u3002"
+  },
+  "Compound_Facet_Eyes": {
+    "tags": [
+      "Eye",
+      "Compound",
+      "Vermian",
+      "Arthropod_Like"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Compound_Facet_Eyes are a cluster of dozens of glistening, multifaceted lenses that pulsate with an eerie, bioluminescent glow, each eye independently tracking movement with cold precision, enhancing the wearer's perception and agility in the shadows."
+  },
+  "Electroreceptive_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded within the creature's scaled forehead, the electroreceptive pits\u95ea\u70c1\u7684\u5730\u65b9\u4f3c\u4e4e\u5e94\u8be5\u6709\u4e00\u4e2a\u66f4\u7b26\u5408\u80cc\u666f\u8bbe\u5b9a\u7684\u63cf\u8ff0\u6765\u7ed3\u675f\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u4ecb\u7ecd\u3002\u8ba9\u6211\u91cd\u65b0\u63cf\u8ff0\u4ee5\u786e\u4fdd\u7b26\u5408\u8981\u6c42\uff1a\n\nEmbedded within the creature's scaled forehead, the electroreceptive pits glow faintly with an otherworldly light, their surface rippling like water when exposed to electrical currents, granting the creature unparalleled awareness of its surroundings and the ability to sense minute vibrations in the earth."
+  },
+  "Bioluminescent_Eye_Lure": {
+    "tags": [
+      "Eye",
+      "Bioluminescent",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Paralyze"
+    ],
+    "description": "The Bioluminescent_Eye_Lure is a pulsating, otherworldly orb that hangs from a thin, sinewy stalk, its surface slick and cold to the touch. Its mesmerizing light fluctuates in hypnotic patterns, drawing creatures towards it with an irresistible allure, while subtly emitting a disturbing aura that can freeze the mind of any observer in place."
+  },
+  "Thermal_Heat_Sensing_Pits": {
+    "tags": [
+      "Eye",
+      "Thermal",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Embedded within the creature\u2019s face, these dark, hollow pits pulse with an eerie, faint glow, constantly scanning the environment for heat signatures, allowing the creature to see through darkness and obscurity with chilling precision."
+  },
+  "Magnetic_Field_Receptors": {
+    "tags": [
+      "Eye",
+      "Magnetic",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Directional Tracking"
+    ],
+    "description": "Embedded within the creature's scaled forehead, the Magnetic Field Receptors appear as a cluster of shimmering, metallic tendrils that pulse and twist in response to the earth's magnetic field. The surface is cold to the touch, with a faint, humming vibration that can be felt through the skin, guiding the user with uncanny precision towards any designated direction."
+  },
+  "Dermal_Light_Sensitive_Patches": {
+    "tags": [
+      "Eye",
+      "Dermal",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Thin, pulsating patches of dark, iridescent skin pepper the creature's body, each one shifting colors in response to varying light levels, enhancing its awareness of its surroundings and granting it an eerie, almost sentient connection to the environment."
+  },
+  "Chemoreceptive_Eye_Analog": {
+    "tags": [
+      "Eye",
+      "Chemoreceptive",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "wis",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent"
+    ],
+    "description": "The Chemoreceptive_Eye_Analog is a grotesque, bulbous organ nestled within the dark recesses of the Vermian's maw, pulsating with an eerie, bioluminescent glow that seems to shift in response to the chemical composition of its surroundings, granting the creature an uncanny ability to 'see' through scent and taste."
+  },
+  "Pinhole_Camera_Eyes": {
+    "tags": [
+      "Eye",
+      "Pinhole",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the sockets are minuscule, obsidian orbs that resemble ancient, meticulously crafted pinhole cameras, capturing every flicker of light and shadow with unparalleled clarity. Their surface is cold to the touch, with an eerie, faint hum that resonates as they adjust to the slightest movement in the environment, granting the bearer an enhanced field of vision and an uncanny ability to perceive hidden threats."
+  },
+  "Motion_Sensitive_Arrays": {
+    "tags": [
+      "Eye",
+      "Motion",
+      "Vermian"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Embedded within the creature's sleek, chitinous exoskeleton, the Motion_Sensitive_Arrays resemble a lattice of iridescent, bioluminescent fibers that pulse and shift in response to even the slightest movement, granting the host an uncanny ability to detect and evade threats with preternatural reflexes."
+  },
+  "Deep_Sea_Bioluminescent_Lenses": {
+    "tags": [
+      "Eye",
+      "Deep_Sea",
+      "Vermian",
+      "Aquatic"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Deep_Sea_Bioluminescent_Lenses are iridescent orbs that pulsate with an eerie, spectral glow, adapted to the crushing pressure and eternal darkness of the ocean's abyss, granting the user unparalleled vision and heightened perception in the most treacherous of aquatic environments."
+  }
+}

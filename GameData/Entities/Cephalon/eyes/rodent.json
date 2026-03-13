@@ -1,0 +1,287 @@
+{
+  "Wide_Set_Lateral_Eyes": {
+    "tags": [
+      "Eye",
+      "Lateral",
+      "Rodent",
+      "Prey_Animal"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Set deep within the skull, these wide-set lateral eyes are small and dark, with a surface that seems to absorb light rather than reflect it. Their gaze is perpetually alert, scanning the surroundings with a predator's keenness, yet they possess the uncanny ability to detect the subtle movements of prey from the corners of their vision, a trait that grants their bearer an enhanced perception and agility."
+  },
+  "Protruding_Wide_Angle_Eyes": {
+    "tags": [
+      "Eye",
+      "Protruding",
+      "Rodent",
+      "Wide_Angle_Vision"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Protruding_Wide_Angle_Eyes jut outward from the creature's head, bulging with a glassy, reflective surface that seems to capture and distort the world around it, granting an eerie, panoramic view of the surroundings."
+  },
+  "Vestigial_Subdermal_Eyes": {
+    "tags": [
+      "Eye",
+      "Vestigial",
+      "Rodent",
+      "Blind",
+      "Fossorial"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "10"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "Embedded beneath the creature's flesh, these tiny, blind subdermal eyes pulse faintly with a dim, bioluminescent glow, their rodent-like structure whispering of ancient burrowing instincts; though they offer no sight, they enhance the creature\u2019s ability to sense subtle ground vibrations, granting an eerie awareness of its surroundings."
+  },
+  "Tapetum_Lucidum_Nocturnal_Eyes": {
+    "tags": [
+      "Eye",
+      "Nocturnal",
+      "Rodent",
+      "Low_Light_Vision"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "The Tapetum Lucidum Nocturnal Eyes are a pair of eerie, glowing orbs set in a sleek, rodent-like skull, their surface rippling with an almost liquid quality that reflects the faintest moonlight, enhancing the wearer's vision in the darkest of nights and granting them the ability to strike silently from the shadows."
+  },
+  "Aquatic_Nictitating_Eyes": {
+    "tags": [
+      "Eye",
+      "Nictitating",
+      "Rodent",
+      "Aquatic",
+      "Aquatic_Vision"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight"
+    ],
+    "description": "Emerging from the depths of the ocean, the Aquatic Nictitating Eyes are a pair of translucent, glistening orbs, each equipped with a protective inner eyelid that flicks swiftly across the surface, granting unparalleled vision in murky waters and the eerie ability to sense living creatures through solid obstacles."
+  },
+  "Forward_Binocular_Predator_Eyes": {
+    "tags": [
+      "Eye",
+      "Binocular",
+      "Rodent",
+      "Predator"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight",
+      "Pounce"
+    ],
+    "description": "The Forward_Binocular_Predator_Eyes are a pair of eerie, glowing orbs set deep within a narrow, rodent-like skull, their gaze piercing through the darkest of nights with an unerring focus, granting the bearer an acute awareness of their surroundings and the predatory instinct to strike with unparalleled speed and precision."
+  },
+  "Compound_Motion_Sensitive_Eyes": {
+    "tags": [
+      "Eye",
+      "Motion_Sensitive",
+      "Rodent",
+      "Compound_Vision"
+    ],
+    "mods": [
+      {
+        "target": "evasion",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Ambush"
+    ],
+    "description": "Emerging from the gnarled and wiry face of a colossal, shadow-bound rodent, the Compound_Motion_Sensitive_Eyes are a cluster of multifaceted orbs that shift and turn independently, their surface pulsing with a faint, bioluminescent glow that tracks the slightest movement, even in the darkest of nights."
+  },
+  "Large_Luminous_Nocturnal_Eyes": {
+    "tags": [
+      "Eye",
+      "Large",
+      "Rodent",
+      "Darkvision"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "4"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "Embedded deep within the skull, these oversized nocturnal eyes pulse with an eerie, silvery light, their dark pupils perfectly adapted to pierce through the thickest shadows, granting a rodent-like keenness that seems to detect even the slightest movements in the darkest corners of the world."
+  },
+  "Recessed_Protected_Eyes": {
+    "tags": [
+      "Eye",
+      "Recessed",
+      "Rodent",
+      "Armored"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "1"
+      },
+      {
+        "target": "natural_armor",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [],
+    "description": "Embedded deep within the recesses of the creature\u2019s head, these eyes are small and rodent-like, protected by a layer of tough, chitinous armor that gives them a shiny, beetle-like appearance. Their vision is slightly diminished but is compensated by the enhanced natural armor, making them resilient to direct attacks on this vital area."
+  },
+  "Glassy_Fixed_Cave_Eyes": {
+    "tags": [
+      "Eye",
+      "Fixed",
+      "Rodent",
+      "Cave"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "subtract",
+        "expr": "5"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Tremor Sense"
+    ],
+    "description": "The Glassy_Fixed_Cave_Eyes are milky, fixed orbs that seem to glow with an inner light, adapted to the perpetual darkness of subterranean realms. Though they provide no natural vision, they grant an uncanny sense of tremors and vibrations, alerting the bearer to the slightest movements and presences in the surrounding darkness."
+  },
+  "Reflective_Tapetal_Eyes": {
+    "tags": [
+      "Eye",
+      "Reflective",
+      "Rodent",
+      "Low_Light_Vision"
+    ],
+    "mods": [
+      {
+        "target": "vision_range",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "stealth",
+        "op": "subtract",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Keen Sight"
+    ],
+    "description": "The Reflective Tapetal Eyes are small and unsettling, with a deep, glossy black surface that seems to absorb all light. When darkness falls, a faint, eerie glow emanates from the eyes, reflecting even the slightest light source, granting the user unparalleled vision in low-light conditions while simultaneously making them more noticeable to keen observers."
+  },
+  "Electroreceptive_Sensory_Pits": {
+    "tags": [
+      "Eye",
+      "Electroreceptive",
+      "Rodent",
+      "Mutant"
+    ],
+    "mods": [
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      },
+      {
+        "target": "initiative",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Tremor Sense"
+    ],
+    "description": "Embedded in the creature\u2019s snout are several small, gel-filled pits that shimmer with a faint, pulsating glow, allowing it to detect electrical fields and subtle movements in the earth, enhancing its awareness and reflexes in the treacherous environs of the game world."
+  }
+}

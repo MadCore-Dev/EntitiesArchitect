@@ -1,0 +1,304 @@
+{
+  "Wraith_Shadow_Nares": {
+    "tags": [
+      "Nose",
+      "Wraith",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush"
+    ],
+    "description": "The Wraith_Shadow_Nares is a wispy, translucent structure that seems to shimmer and shift like a shadow, with tendrils that curl and twist as if sniffing the air for the faintest trace of prey, granting the user an eerie ability to sense and conceal themselves in the darkest corners of the night."
+  },
+  "Banshee_Keen_Nares": {
+    "tags": [
+      "Nose",
+      "Banshee",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Fear"
+    ],
+    "description": "The Banshee Keen Nares is a spectral appendage, translucent and shimmering like morning mist, with nostrils that seem to whisper secrets of the grave. Its presence sharpens one's senses to an eerie degree, granting an uncanny ability to detect the faintest scents while instilling dread in those who come too close."
+  },
+  "Lich_Hollow_Nares": {
+    "tags": [
+      "Nose",
+      "Lich",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "Fear"
+    ],
+    "description": "The Lich Hollow Nares are sunken, spectral voids that seem to suck the warmth from the air around them, leaving a trail of chilling whispers and an eerie sense of dread in their wake. Their touch is cold and numbing, and they grant a heightened awareness of the world's darker edges, along with an unsettling resistance to the festering touch of disease."
+  },
+  "Ghost_Spirit_Nares": {
+    "tags": [
+      "Nose",
+      "Ghost",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Fear"
+    ],
+    "description": "The Ghost_Spirit_Nares is a translucent nose that appears as a pale, wispy appendage floating in the air, shimmering with an otherworldly glow. Its touch is cold and ethereal, leaving a trail of icy vapor that swirls and dissipates, granting the user an eerie sense of heightened awareness and the ability to detect the faintest of scents while instilling fear in those nearby."
+  },
+  "Revenant_Dead_Nares": {
+    "tags": [
+      "Nose",
+      "Revenant",
+      "Spectral",
+      "Undead"
+    ],
+    "mods": [
+      {
+        "target": "disease_resist",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scavenger",
+      "No Pain"
+    ],
+    "description": "The Revenant_Dead_Nares appears as a hollow, shadowy void where a nose should be, pulsing with an eerie, spectral glow that seems to draw in the darkest whispers of the night. The component grants an uncanny ability to detect even the faintest of scents and signs, while the chill emanating from it numbs any pain from the countless wounds it has endured in its spectral existence."
+  },
+  "Shadow_Dark_Nares": {
+    "tags": [
+      "Nose",
+      "Shadow",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Ambush",
+      "Directional Tracking"
+    ],
+    "description": "The Shadow_Dark_Nares is a slender, almost ethereal nose that seems to be made of wispy shadows, constantly shifting and swirling as if trying to form words in a silent whisper. It grants the user an uncanny ability to detect the faintest scents and track movement through darkness or light, enhancing their stealth and awareness to pinpoint the direction of any approaching danger."
+  },
+  "Soul_Devourer_Nares": {
+    "tags": [
+      "Nose",
+      "Soul_Devourer",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "3"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Drain",
+      "Directional Tracking"
+    ],
+    "description": "The Soul_Devourer_Nares are ghostly tendrils that coil around the nasal cavity, writhing with a spectral glow that flickers in response to the proximity of souls. These ethereal appendages enhance the sense of smell to an otherworldly degree, allowing for the detection and tracking of souls across vast distances, while also granting the ability to drain the essence of nearby entities."
+  },
+  "NightHag_Crone_Nares": {
+    "tags": [
+      "Nose",
+      "NightHag",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm",
+      "Tracking"
+    ],
+    "description": "The NightHag_Crone_Nares is a spectral appendage, translucent and swirling with malevolent shadows, that grants the bearer an uncanny ability to detect and charm others with a mere sniff, enhancing their charisma and perception in dark and eerie environments."
+  },
+  "Wisp_Energy_Nares": {
+    "tags": [
+      "Nose",
+      "Wisp",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "agility",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Blindsight",
+      "Paralyze"
+    ],
+    "description": "The Wisp_Energy_Nares are ghostly tendrils that coalesce into a pair of delicate, shimmering nostrils, pulsating with an otherworldly energy that grants the bearer the ability to see in darkness and paralyze foes with a spectral breath."
+  },
+  "Specter_Mist_Nares": {
+    "tags": [
+      "Nose",
+      "Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "stealth",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Fear"
+    ],
+    "description": "The Specter_Mist_Nares is a wispy, translucent appendage that floats above the face, its form shifting like mist. It grants the ability to detect even the faintest of scents, and when inhaled deeply, it emits a spectral chill that can instill fear in the hearts of the unwary."
+  },
+  "Phantom_Haunter_Nares": {
+    "tags": [
+      "Nose",
+      "Phantom",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "2"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Charm",
+      "Fear"
+    ],
+    "description": "The Phantom_Haunter_Nares are spectral nostrils that shimmer with an otherworldly glow, their delicate structure seeming to shift and fade as if they are not fully present in the physical realm. When inhaled, the scents detected by these spectral organs can induce both intense charm and paralyzing fear in those around, altering the very atmosphere with each breath."
+  },
+  "Arch_Specter_Ancient_Nares": {
+    "tags": [
+      "Nose",
+      "Arch_Specter",
+      "Spectral"
+    ],
+    "mods": [
+      {
+        "target": "int",
+        "op": "add",
+        "expr": "2"
+      },
+      {
+        "target": "perception",
+        "op": "add",
+        "expr": "5"
+      },
+      {
+        "target": "cha",
+        "op": "add",
+        "expr": "1"
+      }
+    ],
+    "grants_skills": [
+      "Scent",
+      "Blindsight",
+      "Directional Tracking",
+      "Tracking",
+      "Magic Resistance"
+    ],
+    "description": "The Arch_Specter_Ancient_Nares, a hauntingly elegant nose of spectral essence, glimmers with an ethereal glow that pierces the darkest of realms, granting the wielder an uncanny ability to track and sense magic, while enhancing their intellect and perceptiveness."
+  }
+}

@@ -137,8 +137,20 @@
         };
 
         // All JSON files in GameData/
-        const LINEAGES = ['common', 'canine', 'feline', 'ursine', 'ungulate', 'primate', 'saurian', 'avian', 'piscine', 'amphibian', 'insect', 'arachnid', 'fungal', 'plant', 'construct'];
-
+        const LINEAGES = [
+            // Core original
+            'common', 'canine', 'feline', 'ursine', 'ungulate', 'primate', 
+            'saurian', 'avian', 'piscine', 'amphibian', 'insect', 'arachnid', 
+            'fungal', 'plant', 'construct',
+            // Batch 1 (Mammals)
+            'rodent', 'mustelid', 'marsupial',
+            // Batch 2 (Animals)
+            'vermian', 'crustacean', 'cephalopod', 'chiropteran', 
+            'elephantine', 'hyenid', 'pholidota',
+            // Batch 3 (Fantasy)
+            'draconic', 'elemental', 'aberrant', 'fae', 'demonkin', 
+            'celestial', 'ooze', 'spectral'
+        ];
         const JSON_FILE_PATHS = [
             'GameData/Definitions/base_stats.json',
             'GameData/Definitions/derived_stats.json',

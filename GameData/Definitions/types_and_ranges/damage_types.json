@@ -5,7 +5,7 @@
         "payloads": [
             {
                 "id": "Concussion",
-                "chance_per_tick": 0.10
+                "chance_per_tick": 0.1
             }
         ]
     },
@@ -15,7 +15,7 @@
         "payloads": [
             {
                 "id": "Deep_Wound",
-                "chance_per_tick": 0.20
+                "chance_per_tick": 0.2
             }
         ]
     },
@@ -35,7 +35,7 @@
         "payloads": [
             {
                 "id": "Minor_Laceration",
-                "chance_per_tick": 0.40
+                "chance_per_tick": 0.4
             }
         ]
     },
@@ -45,7 +45,7 @@
         "payloads": [
             {
                 "id": "Poisoned",
-                "chance_per_tick": 0.50
+                "chance_per_tick": 0.5
             }
         ]
     },
@@ -55,7 +55,7 @@
         "payloads": [
             {
                 "id": "Corroded",
-                "chance_per_tick": 0.30
+                "chance_per_tick": 0.3
             }
         ]
     },
@@ -85,7 +85,7 @@
         "payloads": [
             {
                 "id": "Frostbite",
-                "chance_per_tick": 0.20
+                "chance_per_tick": 0.2
             }
         ]
     },
@@ -95,7 +95,7 @@
         "payloads": [
             {
                 "id": "Paralyzed",
-                "chance_per_tick": 0.10
+                "chance_per_tick": 0.1
             }
         ]
     },
@@ -105,7 +105,7 @@
         "payloads": [
             {
                 "id": "Deafened",
-                "chance_per_tick": 0.30
+                "chance_per_tick": 0.3
             }
         ]
     },
@@ -115,7 +115,7 @@
         "payloads": [
             {
                 "id": "Knocked_Prone",
-                "chance_per_tick": 0.40
+                "chance_per_tick": 0.4
             }
         ]
     },
@@ -135,7 +135,7 @@
         "payloads": [
             {
                 "id": "Withering",
-                "chance_per_tick": 0.20
+                "chance_per_tick": 0.2
             }
         ]
     },
@@ -155,8 +155,29 @@
         "payloads": [
             {
                 "id": "Confusion",
-                "chance_per_tick": 0.10
+                "chance_per_tick": 0.1
             }
         ]
+    },
+    "Asphyxiation": {
+        "description": "Oxygen deprivation via constriction, drowning, or toxic gas. Bypasses standard armor.",
+        "color": "text-slate-400",
+        "payloads": [
+            {
+                "id": "Suffocation",
+                "chance_per_tick": 0.6
+            }
+        ]
+    },
+    "True": {
+        "description": "Absolute unblockable damage. Ignores all resistances, shields, and armor. Use sparingly.",
+        "color": "text-white",
+        "payloads": [],
+        "unblockable": true
+    },
+    "Healing": {
+        "description": "Restorative energy applied with op: add on hp. Not a destructive type.",
+        "color": "text-emerald-400",
+        "payloads": []
     }
 }

@@ -10,6 +10,10 @@
                 "damage_type": "Acid",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Ambient_Cold": {
@@ -22,6 +26,10 @@
                 "expr": "0.8",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Ambient_Extreme_Heat": {
@@ -40,6 +48,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Ambient_Freezing": {
@@ -52,6 +64,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Ambient_Hot": {
@@ -64,6 +80,10 @@
                 "expr": "0.8",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Ambient_Noise": {
@@ -76,6 +96,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Arcane_Interference": {
@@ -90,6 +114,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Arcane_Lightning": {
@@ -103,6 +130,10 @@
                 "damage_type": "Arcane",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "DamageOverTime"
         ]
     },
     "Ash_Blindness": {
@@ -115,6 +146,10 @@
                 "expr": "30",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
         ]
     },
     "Ash_Inhalation": {
@@ -134,6 +169,11 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Auditory_Illusions": {
@@ -146,6 +186,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
         ]
     },
     "Bleeding": {
@@ -159,6 +203,10 @@
                 "damage_type": "Slashing",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Blinded": {
@@ -173,6 +221,11 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "Perception"
         ]
     },
     "Blizzard_Blindness": {
@@ -191,6 +244,11 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff",
+            "Perception"
         ]
     },
     "Blur_Distortion": {
@@ -203,6 +261,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Buff"
         ]
     },
     "Cave_In": {
@@ -218,6 +279,11 @@
                 "damage_type": "Bludgeoning",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Charm": {
@@ -234,6 +300,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Choking_Dust": {
@@ -246,6 +316,9 @@
                 "expr": "1",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Concussion": {
@@ -264,6 +337,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Confusion": {
@@ -282,6 +358,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Corroded": {
@@ -294,6 +373,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Crushing_Pressure": {
@@ -313,6 +395,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Current_Drag": {
@@ -325,6 +411,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Dazzle": {
@@ -343,6 +432,10 @@
                 "expr": "1",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
         ]
     },
     "Deafened": {
@@ -357,6 +450,11 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "Perception"
         ]
     },
     "Deep_Wound": {
@@ -376,6 +474,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Dense_Canopy_Obscurity": {
@@ -388,6 +490,10 @@
                 "expr": "0.75",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Dim_Light_Penalty": {
@@ -400,6 +506,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Drained": {
@@ -413,6 +523,10 @@
                 "damage_type": "Necrotic",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Drowning": {
@@ -430,6 +544,11 @@
                 "damage_type": "Bludgeoning",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Extreme_Burn": {
@@ -443,6 +562,10 @@
                 "damage_type": "Fire",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Fall_Damage": {
@@ -456,6 +579,10 @@
                 "damage_type": "Bludgeoning",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "DamageOverTime"
         ]
     },
     "Flanking_Advantage": {
@@ -468,6 +595,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Freezing_Wind": {
@@ -481,6 +611,10 @@
                 "damage_type": "Cold",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Frightened": {
@@ -495,6 +629,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Frostbite": {
@@ -514,6 +652,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Grappled": {
@@ -529,6 +671,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Ground_Tremors": {
@@ -541,6 +687,9 @@
                 "expr": "4",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Heatstroke": {
@@ -559,6 +708,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "High_Vantage_Aura": {
@@ -571,6 +723,9 @@
                 "expr": "1.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Buff"
         ]
     },
     "Hypoxia": {
@@ -589,6 +744,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Ignite": {
@@ -602,6 +760,10 @@
                 "damage_type": "Fire",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Infected": {
@@ -621,6 +783,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Jungle_Fever": {
@@ -640,6 +806,10 @@
                 "damage_type": "Disease",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Lava_Burn": {
@@ -653,6 +823,10 @@
                 "damage_type": "Fire",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Lava_Fissure": {
@@ -666,6 +840,10 @@
                 "damage_type": "Fire",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Magical_Fog_Obscurity": {
@@ -684,6 +862,11 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff",
+            "Perception"
         ]
     },
     "Magical_Illusion": {
@@ -696,6 +879,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Mana_Burn": {
@@ -712,6 +898,10 @@
                 "damage_type": "Arcane",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Miasma_Poison": {
@@ -725,6 +915,10 @@
                 "damage_type": "Poison",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Minor_Laceration": {
@@ -738,6 +932,10 @@
                 "damage_type": "Shredding",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Mirage": {
@@ -750,6 +948,10 @@
                 "expr": "4",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
         ]
     },
     "Optical_Camouflage": {
@@ -762,6 +964,9 @@
                 "expr": "5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Buff"
         ]
     },
     "Optical_Invisibility": {
@@ -774,6 +979,9 @@
                 "expr": "10",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Buff"
         ]
     },
     "Overheating": {
@@ -786,6 +994,9 @@
                 "expr": "3",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Paralyzed": {
@@ -810,6 +1021,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Physical_Traps": {
@@ -825,6 +1040,10 @@
                 "damage_type": "Piercing",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Pitch_Black_Blindness": {
@@ -837,6 +1056,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Plummet": {
@@ -853,6 +1076,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Poisoned": {
@@ -866,6 +1093,10 @@
                 "damage_type": "Poison",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Prone": {
@@ -884,6 +1115,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Putrid_Stench": {
@@ -902,6 +1137,9 @@
                 "expr": "1",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff"
         ]
     },
     "Rain_Obscurity": {
@@ -920,6 +1158,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Refractive_Glare": {
@@ -938,6 +1180,10 @@
                 "expr": "10",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Restrained": {
@@ -952,6 +1198,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Sandstorm_Blind": {
@@ -971,6 +1221,12 @@
                 "damage_type": "Shredding",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff",
+            "Perception",
+            "DamageOverTime"
         ]
     },
     "Shapechanger_Deceit": {
@@ -989,6 +1245,9 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Buff"
         ]
     },
     "Smoke_Blindness": {
@@ -1007,6 +1266,11 @@
                 "expr": "1",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff",
+            "Perception"
         ]
     },
     "Snowblindness": {
@@ -1025,6 +1289,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Soul_Drain": {
@@ -1044,6 +1312,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Stagnant_Air": {
@@ -1056,6 +1328,9 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental"
         ]
     },
     "Storm_Deafness": {
@@ -1076,6 +1351,11 @@
                 "expr": "1",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "Perception"
         ]
     },
     "Stunned": {
@@ -1094,6 +1374,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Suffocation": {
@@ -1111,6 +1395,11 @@
                 "damage_type": "Bludgeoning",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Surface_Hazards": {
@@ -1124,6 +1413,10 @@
                 "damage_type": "Piercing",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
         ]
     },
     "Swept_Away": {
@@ -1139,6 +1432,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Terrain_Ash_Drag": {
@@ -1151,6 +1448,10 @@
                 "expr": "0.9",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Dense_Foliage": {
@@ -1169,6 +1470,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Difficult_Footing": {
@@ -1181,6 +1486,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Magma_Drag": {
@@ -1193,6 +1502,10 @@
                 "expr": "0.25",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Mud_Drag": {
@@ -1205,6 +1518,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Sand_Drag": {
@@ -1217,6 +1534,10 @@
                 "expr": "0.75",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Shallow_Water_Drag": {
@@ -1229,6 +1550,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Slippery_Footing": {
@@ -1247,6 +1572,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Terrain_Uneven_Footing": {
@@ -1259,6 +1588,10 @@
                 "expr": "0.9",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Debuff"
         ]
     },
     "Trip_And_Fall": {
@@ -1277,6 +1610,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Underwater_Blur": {
@@ -1289,6 +1626,10 @@
                 "expr": "0.5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Underwater_Muffling": {
@@ -1307,6 +1648,10 @@
                 "expr": "5",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental",
+            "Perception"
         ]
     },
     "Ventriloquism": {
@@ -1325,6 +1670,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
         ]
     },
     "Web_Ensnare": {
@@ -1339,6 +1688,10 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Web_Vibration": {
@@ -1353,6 +1706,10 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     },
     "Wind_Dispersal": {
@@ -1365,6 +1722,9 @@
                 "expr": "0",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Environmental"
         ]
     },
     "Withering": {
@@ -1384,6 +1744,68 @@
                 "expr": "2",
                 "stat_dependencies": []
             }
+        ],
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
+        ]
+    },
+    "Irritated": {
+        "description": "Foreign particles or irritants lodged in sensory organs, reducing situational awareness.",
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "sense_bonus",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            },
+            {
+                "target": "vision_range",
+                "op": "multiply",
+                "expr": "0.8",
+                "stat_dependencies": []
+            }
+        ],
+        "tags": [
+            "Debuff",
+            "Perception"
+        ]
+    },
+    "Pulled": {
+        "description": "Forcibly dragged toward the attacker, unable to resist the momentum.",
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
+        ]
+    },
+    "Silenced": {
+        "description": "Throat crushed or compressed, preventing all vocalization.",
+        "blocks_skill_types": [
+            "Vocal"
+        ],
+        "mods": [
+            {
+                "target": "hearing_range",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ],
+        "tags": [
+            "CrowdControl",
+            "Debuff"
         ]
     }
 }

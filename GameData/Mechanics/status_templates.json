@@ -1,0 +1,216 @@
+{
+    "Condition_DamageOverTime": {
+        "description": "Continuous elemental damage each tick.",
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "subtract",
+                "expr": "{dot_intensity}",
+                "damage_type": "{dot_type}",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_Incapacitated": {
+        "description": "A disabling condition that prevents a specified set of actions.",
+        "tags": [
+            "Debuff",
+            "CrowdControl"
+        ],
+        "blocks_skill_types": [
+            "{blocked_actions}"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_StatModifier": {
+        "description": "Temporarily modifies a single stat. Buff or Debuff depending on sign.",
+        "tags": [
+            "{modifier_tag}"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "{stat_key}",
+                "op": "{op}",
+                "expr": "{mod_expr}",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_Regeneration": {
+        "description": "Restores HP each tick over the duration.",
+        "tags": [
+            "Buff",
+            "Regen"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "hp",
+                "op": "add",
+                "expr": "{regen_expr}",
+                "damage_type": "Healing",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_Shielded": {
+        "description": "Intercepts incoming damage as a HP buffer until the shield is depleted.",
+        "tags": [
+            "Buff",
+            "Defense"
+        ],
+        "blocks_skill_types": [],
+        "mods": [],
+        "shield_pool": "{shield_hp}",
+        "shield_drain_types": [
+            "all"
+        ]
+    },
+    "Condition_Vulnerable": {
+        "description": "Amplifies incoming damage of a specified type by a multiplier.",
+        "tags": [
+            "Debuff"
+        ],
+        "blocks_skill_types": [],
+        "mods": [],
+        "damage_amplification": {
+            "damage_type": "{weakness_type}",
+            "multiplier": "{multiplier}"
+        }
+    },
+    "Condition_ForcedMovement": {
+        "description": "Pushes or pulls the entity a number of tiles in a specified direction.",
+        "tags": [
+            "Debuff",
+            "CrowdControl"
+        ],
+        "blocks_skill_types": [
+            "Movement"
+        ],
+        "mods": [
+            {
+                "target": "evasion",
+                "op": "multiply",
+                "expr": "0.5",
+                "stat_dependencies": []
+            }
+        ],
+        "force_move": {
+            "direction": "{direction}",
+            "distance": "{distance}"
+        }
+    },
+    "Condition_SensoryImpairment": {
+        "description": "Reduces or zeroes a perception-related stat (vision, hearing, or scent).",
+        "tags": [
+            "Debuff",
+            "Perception"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "{sense_stat}",
+                "op": "{op}",
+                "expr": "{amount}",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_ResourceDrain": {
+        "description": "Drains stamina, stamina_regen, or water_retention each tick \u2014 not HP.",
+        "tags": [
+            "Debuff",
+            "DamageOverTime"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "{resource_stat}",
+                "op": "{op}",
+                "expr": "{drain_expr}",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_ResistanceModifier": {
+        "description": "Raises or lowers resistance to a specific damage type.",
+        "tags": [
+            "{modifier_tag}"
+        ],
+        "blocks_skill_types": [],
+        "mods": [
+            {
+                "target": "{resist_stat}",
+                "op": "{op}",
+                "expr": "{amount}",
+                "stat_dependencies": []
+            }
+        ]
+    },
+    "Condition_AoE_Hazard_Zone": {
+        "description": "Applied to a terrain tile; deals a payload to any entity in the zone each tick.",
+        "tags": [
+            "Environmental"
+        ],
+        "blocks_skill_types": [],
+        "mods": [],
+        "terrain_hazard": {
+            "payload_id": "{hazard_payload_id}",
+            "per_tick_chance": "{per_tick_chance}"
+        }
+    },
+    "Condition_Marked": {
+        "description": "Target takes amplified damage of a specified type while the mark persists.",
+        "tags": [
+            "Debuff"
+        ],
+        "blocks_skill_types": [],
+        "mods": [],
+        "damage_amplification": {
+            "damage_type": "{mark_damage_type}",
+            "multiplier": "{mark_multiplier}"
+        }
+    },
+    "Condition_Taunt": {
+        "description": "Forces the entity to exclusively target the taunter while active.",
+        "tags": [
+            "CrowdControl"
+        ],
+        "blocks_skill_types": [],
+        "mods": [],
+        "force_target": "{taunter_id}"
+    },
+    "Condition_Charmed": {
+        "description": "Overrides faction affiliation \u2014 entity fights for the charmer's side.",
+        "tags": [
+            "CrowdControl"
+        ],
+        "blocks_skill_types": [
+            "Melee_Attack",
+            "Ranged_Attack",
+            "Curse"
+        ],
+        "mods": [
+            {
+                "target": "wis",
+                "op": "subtract",
+                "expr": "2",
+                "stat_dependencies": []
+            }
+        ],
+        "override_faction": "Friendly"
+    }
+}

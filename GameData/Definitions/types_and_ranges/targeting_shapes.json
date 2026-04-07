@@ -1,0 +1,50 @@
+{
+    "Self": {
+        "description": "Affects only the casting entity.",
+        "shape_param_fields": []
+    },
+    "Single_Target": {
+        "description": "Affects exactly one entity within range.",
+        "shape_param_fields": []
+    },
+    "Multi_Target": {
+        "description": "Affects up to N distinct entities in range.",
+        "shape_param_fields": [
+            "max_targets"
+        ]
+    },
+    "Line": {
+        "description": "All entities on a linear vector from caster.",
+        "shape_param_fields": [
+            "width"
+        ]
+    },
+    "Cone": {
+        "description": "All entities within a forward arc from caster.",
+        "shape_param_fields": [
+            "angle_degrees"
+        ]
+    },
+    "Radius_Self": {
+        "description": "Expands outward from caster to radius.",
+        "shape_param_fields": []
+    },
+    "Radius_Target": {
+        "description": "Expands from a chosen distant coordinate.",
+        "shape_param_fields": []
+    },
+    "Chain": {
+        "description": "Hits initial target, jumps to nearest valid entities.",
+        "shape_param_fields": [
+            "max_jumps",
+            "falloff"
+        ]
+    },
+    "Wall": {
+        "description": "Creates a linear segment obstacle placed on the grid.",
+        "shape_param_fields": [
+            "length",
+            "thickness"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Hostile": {
+        "description": "Enemy factions only."
+    },
+    "Friendly": {
+        "description": "Allied factions, including caster."
+    },
+    "Friendly_Exclude_Self": {
+        "description": "Allied factions, excluding caster."
+    },
+    "All": {
+        "description": "Any entity in shape."
+    },
+    "All_Exclude_Self": {
+        "description": "Any entity in shape except caster."
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "Melee_Strike": {
+        "description": "Basic close-quarters appendage attack.",
+        "types": [
+            "Melee_Attack",
+            "Natural_Weapon"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Single_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": "Melee",
+            "min": 0,
+            "base": 0,
+            "max": 5,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d6 + str",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Cleaving_Strike": {
+        "description": "Wide arc strike hitting all targets in a forward cone.",
+        "types": [
+            "Melee_Attack",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Cone",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": "Melee",
+            "min": 0,
+            "base": 0,
+            "max": 5,
+            "surface_only": false,
+            "shape_param": {
+                "angle_degrees": 90
+            }
+        },
+        "base_expression": "1d4 + str",
+        "base_damage_type": "Slashing",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Leap_Slam": {
+        "description": "Caster jumps to target location, dealing AoE damage on landing.",
+        "types": [
+            "Melee_Attack",
+            "Movement",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Self",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 20,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "2d4 + str",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Charge_Strike": {
+        "description": "Caster charges at speed toward a single target and delivers a powerful impact.",
+        "types": [
+            "Melee_Attack",
+            "Movement"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Single_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 5,
+            "base": 5,
+            "max": 20,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d8 + str",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Projectile_Launch": {
+        "description": "Fires a single physical or biological projectile at range.",
+        "types": [
+            "Ranged_Attack",
+            "Natural_Weapon"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Single_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 5,
+            "base": 30,
+            "max": 60,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d6 + dex",
+        "base_damage_type": "Piercing",
+        "stat_dependencies": [
+            "dex"
+        ]
+    },
+    "Fluid_Ejection": {
+        "description": "Expels a biological substance (breath, acid, venom) in a forward cone.",
+        "types": [
+            "Ranged_Attack",
+            "Breath_Weapon"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Cone",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 30,
+            "surface_only": false,
+            "shape_param": {
+                "angle_degrees": 90
+            }
+        },
+        "base_expression": "1d6 + con",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "con"
+        ]
+    },
+    "Energy_Beam": {
+        "description": "An instant, focused vector of energy discharged from the entity.",
+        "types": [
+            "Ranged_Attack",
+            "Damage"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Line",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 60,
+            "surface_only": false,
+            "shape_param": {
+                "width": 1
+            }
+        },
+        "base_expression": "1d6 + int",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "int"
+        ]
+    },
+    "Channeled_Beam": {
+        "description": "Sustained beam held for multiple ticks; deals damage each tick while maintained.",
+        "types": [
+            "Ranged_Attack",
+            "Damage"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Line",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 40,
+            "surface_only": false,
+            "shape_param": {
+                "width": 1,
+                "ticks_held": 3
+            }
+        },
+        "base_expression": "1d4 + int",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "int"
+        ]
+    },
+    "Volley": {
+        "description": "Rains multiple projectiles down on a target area from above.",
+        "types": [
+            "Ranged_Attack",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 10,
+            "base": 10,
+            "max": 60,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d4 + dex",
+        "base_damage_type": "Piercing",
+        "stat_dependencies": [
+            "dex"
+        ]
+    },
+    "Ground_Eruption": {
+        "description": "Forces something up through the surface at a location (webs, geyser, roots).",
+        "types": [
+            "Ranged_Attack",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 40,
+            "surface_only": true,
+            "shape_param": {}
+        },
+        "base_expression": "1d6 + str",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Targeted_Eruption": {
+        "description": "Summons a concentrated hazard or explosion at a distant target coordinate.",
+        "types": [
+            "Ranged_Attack",
+            "Damage",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": null,
+            "min": 5,
+            "base": 5,
+            "max": 60,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "2d6 + int",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "int"
+        ]
+    },
+    "Aura_Emanation": {
+        "description": "An active cast that pulses a heal or utility effect to all nearby allies for a duration.",
+        "types": [
+            "Healing",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Self",
+        "target_affection": "Friendly",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 20,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d4 + wis",
+        "base_damage_type": "Healing",
+        "stat_dependencies": [
+            "wis"
+        ]
+    },
+    "Passive_Aura": {
+        "description": "A permanently-active aura applied at entity initialisation. Never expires.",
+        "types": [
+            "Passive",
+            "Enhancement"
+        ],
+        "trigger_type": "Passive",
+        "target_shape": "Radius_Self",
+        "target_affection": "All",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 10,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Vocal_Resonance": {
+        "description": "Emits a shockwave of sound affecting all entities in range regardless of faction.",
+        "types": [
+            "Vocal",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Self",
+        "target_affection": "All",
+        "range_object": {
+            "alias": "Audible",
+            "min": 0,
+            "base": 0,
+            "max": 0,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d4 + cha",
+        "base_damage_type": "Sonic",
+        "stat_dependencies": [
+            "cha"
+        ]
+    },
+    "Environmental_Shift": {
+        "description": "Alters terrain at a distant coordinate (freeze water, create mud, ignite foliage).",
+        "types": [
+            "Action",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Target",
+        "target_affection": "All",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 40,
+            "surface_only": true,
+            "shape_param": {}
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Construct_Barrier": {
+        "description": "Creates a physical or elemental linear wall obstacle on the grid.",
+        "types": [
+            "Construct",
+            "Area_Of_Effect"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Wall",
+        "target_affection": "All",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 20,
+            "surface_only": false,
+            "shape_param": {
+                "length": 10,
+                "thickness": 1
+            }
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Bodily_Mutation": {
+        "description": "The entity alters its own physical form \u2014 hardening skin, deploying camouflage, phasing.",
+        "types": [
+            "Stance",
+            "Defense"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Self",
+        "target_affection": "Friendly",
+        "range_object": {
+            "alias": "Self",
+            "min": 0,
+            "base": 0,
+            "max": 0,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Teleportation": {
+        "description": "Instantly repositions the caster to a valid unoccupied location.",
+        "types": [
+            "Movement",
+            "Action"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Self",
+        "target_affection": "Friendly",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 30,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Summon_Entity": {
+        "description": "Spawns a persistent entity or hazard structure at a target location.",
+        "types": [
+            "Summon",
+            "Action"
+        ],
+        "trigger_type": "Active",
+        "target_shape": "Radius_Target",
+        "target_affection": "Friendly",
+        "range_object": {
+            "alias": null,
+            "min": 0,
+            "base": 0,
+            "max": 30,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "0",
+        "base_damage_type": null,
+        "stat_dependencies": []
+    },
+    "Retaliation": {
+        "description": "Triggered out-of-turn in response to incoming damage. Delivers a counterattack.",
+        "types": [
+            "Melee_Attack",
+            "Reaction",
+            "Natural_Weapon"
+        ],
+        "trigger_type": "Reaction",
+        "target_shape": "Single_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": "Melee",
+            "min": 0,
+            "base": 0,
+            "max": 5,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d4 + str",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "str"
+        ]
+    },
+    "Counter_Strike": {
+        "description": "A defensive parry that reflects or redirects incoming force back at the attacker.",
+        "types": [
+            "Defense",
+            "Reaction",
+            "Melee_Attack"
+        ],
+        "trigger_type": "Reaction",
+        "target_shape": "Single_Target",
+        "target_affection": "Hostile",
+        "range_object": {
+            "alias": "Melee",
+            "min": 0,
+            "base": 0,
+            "max": 5,
+            "surface_only": false,
+            "shape_param": {}
+        },
+        "base_expression": "1d6 + dex",
+        "base_damage_type": "Bludgeoning",
+        "stat_dependencies": [
+            "dex"
+        ]
+    }
+}

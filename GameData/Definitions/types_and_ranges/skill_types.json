@@ -106,5 +106,30 @@
     "Passive": {
         "description": "Innate trait. Cannot be cast. Permanently active on entity generation.",
         "combat_flags": []
+    },
+    "Action": {
+        "description": "A general-purpose active ability not fitting a specific combat category.",
+        "combat_flags": []
+    },
+    "Area_Of_Effect": {
+        "description": "An action whose geometry affects multiple entities in a defined spatial area.",
+        "combat_flags": [
+            "Breaks_Stealth",
+            "Provokes_Reaction"
+        ]
+    },
+    "Damage": {
+        "description": "An action whose primary output is HP reduction on the target.",
+        "combat_flags": [
+            "Breaks_Stealth"
+        ]
+    },
+    "Defense": {
+        "description": "A reactive or proactive ability that reduces or negates incoming damage or effects.",
+        "combat_flags": []
+    },
+    "Reaction": {
+        "description": "Triggered automatically out-of-turn in response to a specified enemy action.",
+        "combat_flags": []
     }
 }

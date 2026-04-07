@@ -1,0 +1,534 @@
+{
+    "Aspect_Piercing": {
+        "category": "Physical",
+        "description": "Deep tissue penetration targeting vital organs.",
+        "overrides": {
+            "base_damage_type": "Piercing"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Deep_Wound",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 3
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Slashing": {
+        "category": "Physical",
+        "description": "Clean, deep severing of muscle and connective tissue.",
+        "overrides": {
+            "base_damage_type": "Slashing"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 4
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Bludgeoning": {
+        "category": "Physical",
+        "description": "Heavy kinetic impact that breaks bones and ruptures organs.",
+        "overrides": {
+            "base_damage_type": "Bludgeoning"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Concussion",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Shredding": {
+        "category": "Physical",
+        "description": "Frantic surface-level tearing that reduces the target's natural armor.",
+        "overrides": {
+            "base_damage_type": "Shredding"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Minor_Laceration",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Corroded",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Hemorrhagic": {
+        "category": "Physical",
+        "description": "Amplifies bleed severity; each application stacks additional DoT.",
+        "overrides": {
+            "base_damage_type": "Slashing"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Bleeding",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 6,
+                "stack": true
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Suffocating": {
+        "category": "Physical",
+        "description": "Cuts off oxygen supply; bypasses standard armor, drains stamina rapidly.",
+        "overrides": {
+            "base_damage_type": "Asphyxiation"
+        },
+        "adds_mods": [
+            {
+                "target": "stamina_regen",
+                "op": "multiply",
+                "expr": "0.0",
+                "stat_dependencies": []
+            }
+        ],
+        "adds_payloads": [
+            {
+                "id": "Suffocation",
+                "chance_per_tick": 0.6,
+                "duration_ticks": 3
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Caustic": {
+        "category": "Elemental",
+        "description": "Infuses with corrosive acid that eats through armor and flesh.",
+        "overrides": {
+            "base_damage_type": "Acid"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Corroded",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 4
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Fiery": {
+        "category": "Elemental",
+        "description": "Infuses with fire that ignites targets and causes intense burning.",
+        "overrides": {
+            "base_damage_type": "Fire"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Ignite",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 4
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Glacial": {
+        "category": "Elemental",
+        "description": "Infuses with Cold energy that slows movement and shatters frozen tissue.",
+        "overrides": {
+            "base_damage_type": "Cold"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Frostbite",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 4
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Voltaic": {
+        "category": "Elemental",
+        "description": "Infuses with high-voltage electricity that stuns the nervous system.",
+        "overrides": {
+            "base_damage_type": "Lightning"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Paralyzed",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 2
+            },
+            {
+                "id": "Stunned",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 1
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Venomous": {
+        "category": "Elemental",
+        "description": "Injects biological toxin causing stat degradation and ongoing HP loss.",
+        "overrides": {
+            "base_damage_type": "Poison"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Poisoned",
+                "chance_per_tick": 0.5,
+                "duration_ticks": 5
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Pathogenic": {
+        "category": "Elemental",
+        "description": "Carries a fast-spreading pathogen that decays constitution over time.",
+        "overrides": {
+            "base_damage_type": "Disease"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Infected",
+                "chance_per_tick": 0.15,
+                "duration_ticks": 8
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Necrotic": {
+        "category": "Elemental",
+        "description": "Dark energy that withers living matter and blocks healing responses.",
+        "overrides": {
+            "base_damage_type": "Necrotic"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Withering",
+                "chance_per_tick": 0.2,
+                "duration_ticks": 5
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Luminous": {
+        "category": "Elemental",
+        "description": "Blinding purifying light that burns fiendish entities and sears vision.",
+        "overrides": {
+            "base_damage_type": "Radiant"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Blinded",
+                "chance_per_tick": 0.15,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Telepathic": {
+        "category": "Elemental",
+        "description": "Direct mental assault that bypasses physical armor and corrupts cognition.",
+        "overrides": {
+            "base_damage_type": "Psychic"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Confusion",
+                "chance_per_tick": 0.1,
+                "duration_ticks": 3
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Resonant": {
+        "category": "Elemental",
+        "description": "Concentrated sonic shockwaves that rupture eardrums and shatter rigid structures.",
+        "overrides": {
+            "base_damage_type": "Sonic"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Deafened",
+                "chance_per_tick": 0.3,
+                "duration_ticks": 3
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Aquatic": {
+        "category": "Elemental",
+        "description": "Crushing high-velocity water pressure that knocks targets prone.",
+        "overrides": {
+            "base_damage_type": "Hydraulic"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Prone",
+                "chance_per_tick": 0.4,
+                "duration_ticks": 1
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Ethereal": {
+        "category": "Elemental",
+        "description": "Raw unstable arcane energy. Bypasses physical resistances and natural armor.",
+        "overrides": {
+            "base_damage_type": "Arcane"
+        },
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Mana_Burn",
+                "chance_per_tick": 0.25,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": [],
+        "flags": [
+            "bypasses_physical_resist"
+        ]
+    },
+    "Aspect_Absolute": {
+        "category": "Elemental",
+        "description": "Absolute damage that cannot be resisted, shielded, or mitigated in any way.",
+        "overrides": {
+            "base_damage_type": "True"
+        },
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "flags": [
+            "unblockable",
+            "ignores_shields",
+            "ignores_armor"
+        ]
+    },
+    "Aspect_Restorative": {
+        "category": "Utility",
+        "description": "Inverts damage expression into healing. Converts all mods from subtract to add.",
+        "overrides": {
+            "base_damage_type": "Healing",
+            "op": "add"
+        },
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": []
+    },
+    "Aspect_Cleansing": {
+        "category": "Utility",
+        "description": "Purges all active statuses tagged Debuff or DamageOverTime from targets on application.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [
+            {
+                "type": "purge_status_tags",
+                "tags": [
+                    "Debuff",
+                    "DamageOverTime"
+                ]
+            }
+        ]
+    },
+    "Aspect_Corrupting": {
+        "category": "Utility",
+        "description": "Purges all active statuses tagged Buff or Regen from targets on application.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [
+            {
+                "type": "purge_status_tags",
+                "tags": [
+                    "Buff",
+                    "Regen"
+                ]
+            }
+        ]
+    },
+    "Aspect_Vampiric": {
+        "category": "Utility",
+        "description": "On each hit, caster recovers HP equal to 50% of damage dealt.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [
+            {
+                "type": "on_hit_lifesteal",
+                "lifesteal_percent": 0.5
+            }
+        ]
+    },
+    "Aspect_Chaining": {
+        "category": "Utility",
+        "description": "After hitting the primary target, jumps to the nearest valid entity, decaying each jump.",
+        "overrides": {
+            "target_shape": "Chain"
+        },
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "parameters": {
+            "max_jumps": 3,
+            "falloff": 0.5
+        }
+    },
+    "Aspect_Forceful": {
+        "category": "Utility",
+        "description": "Every hit pushes the target 2 tiles away from the caster.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [
+            {
+                "type": "force_movement",
+                "direction": "away",
+                "distance": 2
+            }
+        ]
+    },
+    "Aspect_Grasping": {
+        "category": "Utility",
+        "description": "Roots the target in place at 100% chance.",
+        "overrides": {},
+        "adds_mods": [
+            {
+                "target": "speed_bonus",
+                "op": "set",
+                "expr": "0",
+                "stat_dependencies": []
+            }
+        ],
+        "adds_payloads": [
+            {
+                "id": "Web_Ensnare",
+                "chance_per_tick": 1.0,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": []
+    },
+    "Aspect_Colossal": {
+        "category": "Utility",
+        "description": "Scales all base_expression dice by the caster's size_index factor.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "flags": [
+            "scale_dice_by_size_index"
+        ]
+    },
+    "Aspect_Piercing_Armor": {
+        "category": "Utility",
+        "description": "Reduces the target's natural_armor by 3 before damage is calculated this hit.",
+        "overrides": {},
+        "adds_mods": [
+            {
+                "target": "natural_armor",
+                "op": "subtract",
+                "expr": "3",
+                "target_entity": "target",
+                "stat_dependencies": []
+            }
+        ],
+        "adds_payloads": [],
+        "adds_sub_actions": []
+    },
+    "Aspect_AoE_Pulse": {
+        "category": "Utility",
+        "description": "On hit, emits a secondary Radius_Self splash at 50% of base damage.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [
+            {
+                "type": "secondary_aoe",
+                "shape": "Radius_Self",
+                "max": 5,
+                "damage_multiplier": 0.5
+            }
+        ]
+    },
+    "Aspect_Delayed": {
+        "category": "Utility",
+        "description": "Action executes 2 ticks after cast. Telegraphed \u2014 targets can react.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "parameters": {
+            "delay_ticks": 2
+        }
+    },
+    "Aspect_Persistent": {
+        "category": "Utility",
+        "description": "Converts a cast payload into a permanent status applied at entity initialisation.",
+        "overrides": {
+            "trigger_type": "Passive"
+        },
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": []
+    },
+    "Aspect_Proportional": {
+        "category": "Utility",
+        "description": "Replaces base_expression with 15% of the target's current HP (execute mechanic).",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "flags": [
+            "replace_expr_with_target_hp_percent"
+        ],
+        "parameters": {
+            "percent": 0.15
+        }
+    },
+    "Aspect_Stacking": {
+        "category": "Utility",
+        "description": "Payloads can apply multiple times. Each stack multiplies intensity by 1.5 (max 5 stacks).",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [],
+        "adds_sub_actions": [],
+        "parameters": {
+            "max_stacks": 5,
+            "stack_multiplier": 1.5
+        }
+    },
+    "Aspect_Silencing": {
+        "category": "Utility",
+        "description": "Adds the Silenced status \u2014 blocks all Vocal skill types for the duration.",
+        "overrides": {},
+        "adds_mods": [],
+        "adds_payloads": [
+            {
+                "id": "Silenced",
+                "chance_per_tick": 0.8,
+                "duration_ticks": 2
+            }
+        ],
+        "adds_sub_actions": []
+    }
+}
